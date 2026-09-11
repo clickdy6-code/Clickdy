@@ -541,9 +541,246 @@ footer{background:#060a12!important;border-top-color:#1a2a40!important}.footer-b
 html,body{background:#070b14!important;color:#f4f8ff!important}.main-search input{background:#0b1421!important;color:#f5f8ff!important;-webkit-text-fill-color:#f5f8ff!important;caret-color:#38a5ff!important}.main-search input::placeholder{color:#7188a3!important;opacity:1!important}.nav-search input{background:transparent!important;color:#f5f8ff!important;-webkit-text-fill-color:#f5f8ff!important;caret-color:#38a5ff!important}.nav-search input::placeholder{color:#7188a3!important;opacity:1!important}
 .section-title,.tool-body h3,.category .cat-title,.ai-copy h2,.workflow-card h3,.final-cta h2{color:#f2f7ff!important}.hero-sub,.section-copy,.tool-body p,.category .cat-copy,.ai-copy p,.benefit p,.workflow-card p{color:#8fa4bd!important}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal,.js .reveal{opacity:1!important;visibility:visible!important;transform:none!important}}
+/* =========================================================
+   CLICKDY STARTUP PRELOADER
+   ========================================================= */
+
+.preloader{
+  position:fixed;
+  inset:0;
+  z-index:99999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  height:100%;
+  background:#070b14;
+  overflow:hidden;
+  opacity:1;
+  visibility:visible;
+  pointer-events:auto;
+  transition:
+    opacity .55s cubic-bezier(.22,1,.36,1),
+    visibility 0s linear 0s;
+}
+
+.preloader.is-hidden{
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+  transition:
+    opacity .55s cubic-bezier(.22,1,.36,1),
+    visibility 0s linear .55s;
+}
+
+.preloader::before{
+  content:"";
+  position:absolute;
+  width:420px;
+  height:420px;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  background:rgba(56,165,255,.07);
+  filter:blur(70px);
+  pointer-events:none;
+}
+
+.preloader-content{
+  position:relative;
+  z-index:1;
+  width:min(360px,calc(100% - 48px));
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.preloader-logo-wrap{
+  width:76px;
+  height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:18px;
+  border-radius:20px;
+  background:#0d1422;
+  border:1px solid #1d2b42;
+  box-shadow:
+    0 18px 55px rgba(0,0,0,.38),
+    0 0 0 1px rgba(99,199,255,.04);
+  animation:preloaderLogoIn .65s cubic-bezier(.22,1,.36,1) both;
+}
+
+.preloader-logo{
+  width:52px;
+  height:52px;
+  display:block;
+  object-fit:contain;
+  border-radius:13px;
+}
+
+.preloader-name{
+  color:#f4f8ff;
+  font-size:26px;
+  line-height:1.15;
+  font-weight:800;
+  letter-spacing:-.5px;
+  margin-bottom:22px;
+  animation:preloaderTextIn .55s .08s cubic-bezier(.22,1,.36,1) both;
+}
+
+.preloader-loader{
+  position:relative;
+  width:min(260px,100%);
+  height:5px;
+  overflow:hidden;
+  border-radius:999px;
+  background:#111b2d;
+  border:1px solid #1d2b42;
+  animation:preloaderTextIn .55s .14s cubic-bezier(.22,1,.36,1) both;
+}
+
+.preloader-loader-bar{
+  position:absolute;
+  left:0;
+  top:0;
+  width:35%;
+  height:100%;
+  border-radius:inherit;
+  background:#63c7ff;
+  box-shadow:0 0 16px rgba(99,199,255,.35);
+  animation:preloaderProgress 1.45s cubic-bezier(.45,0,.25,1) infinite;
+}
+
+.preloader-status{
+  margin-top:13px;
+  color:#93a4bd;
+  font-size:12px;
+  line-height:1.4;
+  font-weight:600;
+  letter-spacing:.25px;
+  animation:preloaderTextIn .55s .2s cubic-bezier(.22,1,.36,1) both;
+}
+
+@keyframes preloaderLogoIn{
+  from{
+    opacity:0;
+    transform:translateY(12px) scale(.88);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0) scale(1);
+  }
+}
+
+@keyframes preloaderTextIn{
+  from{
+    opacity:0;
+    transform:translateY(8px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@keyframes preloaderProgress{
+  0%{
+    left:-35%;
+  }
+
+  55%{
+    left:65%;
+  }
+
+  100%{
+    left:100%;
+  }
+}
+
+@media(max-width:600px){
+
+  .preloader-content{
+    width:calc(100% - 40px);
+  }
+
+  .preloader-logo-wrap{
+    width:68px;
+    height:68px;
+    border-radius:18px;
+    margin-bottom:16px;
+  }
+
+  .preloader-logo{
+    width:47px;
+    height:47px;
+    border-radius:12px;
+  }
+
+  .preloader-name{
+    font-size:24px;
+    margin-bottom:20px;
+  }
+
+  .preloader-loader{
+    width:240px;
+  }
+
+  .preloader-status{
+    font-size:11px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+
+  .preloader,
+  .preloader.is-hidden{
+    transition:opacity .2s ease;
+  }
+
+  .preloader-logo-wrap,
+  .preloader-name,
+  .preloader-loader,
+  .preloader-status{
+    animation:none;
+  }
+
+  .preloader-loader-bar{
+    animation:none;
+    left:0;
+    width:100%;
+  }
+}
+html.preloader-active,
+body.preloader-active{
+  overflow:hidden !important;
+}
 </style>
 </head>
 <body>
+  <!-- Clickdy Preloader -->
+<div id="preloader" class="preloader" aria-hidden="true">
+  <div class="preloader-content">
+    <div class="preloader-logo-wrap">
+      <img
+        src="assets/logo.png"
+        alt="Clickdy"
+        class="preloader-logo"
+      >
+    </div>
+
+    <div class="preloader-name">Clickdy</div>
+
+    <div class="preloader-loader" aria-hidden="true">
+      <div class="preloader-loader-bar"></div>
+    </div>
+
+    <div class="preloader-status">Loading tools...</div>
+  </div>
+</div>
 <header class="site-header reveal">
 <div class="container nav">
 <a aria-label="Clickdy Home" class="brand" href="index.html">
@@ -1012,6 +1249,83 @@ document.documentElement.classList.add("js");
     },{threshold:.08});
     document.querySelectorAll(".reveal").forEach(function(el){ observer.observe(el); });
   }
+})();
+/* =========================================================
+   CLICKDY STARTUP PRELOADER
+   ========================================================= */
+
+(function(){
+  "use strict";
+
+  const preloader = document.getElementById("preloader");
+
+  if(!preloader){
+    return;
+  }
+
+  let isHidden = false;
+
+  function hidePreloader(){
+    if(isHidden){
+      return;
+    }
+
+    isHidden = true;
+
+    document.documentElement.classList.remove("preloader-active");
+    document.body.classList.remove("preloader-active");
+
+    preloader.classList.add("is-hidden");
+
+    window.setTimeout(function(){
+      if(preloader && preloader.parentNode){
+        preloader.parentNode.removeChild(preloader);
+      }
+    }, 650);
+  }
+
+  /*
+   * Lock scrolling while the preloader is visible.
+   */
+  document.documentElement.classList.add("preloader-active");
+  document.body.classList.add("preloader-active");
+
+  /*
+   * Never allow the preloader to remain stuck forever.
+   */
+  const hardTimeout = window.setTimeout(function(){
+    hidePreloader();
+  }, 5000);
+
+  /*
+   * Normal path:
+   * wait until the browser has finished loading the page.
+   */
+  if(document.readyState === "complete"){
+
+    window.setTimeout(function(){
+      window.clearTimeout(hardTimeout);
+      hidePreloader();
+    }, 500);
+
+  }else{
+
+    window.addEventListener("load", function(){
+
+      window.clearTimeout(hardTimeout);
+
+      /*
+       * Small delay makes the startup animation feel intentional
+       * instead of flashing for a fraction of a second.
+       */
+      window.setTimeout(function(){
+        hidePreloader();
+      }, 550);
+
+    }, { once:true });
+
+  }
+
 })();
 </script>
 </body>
