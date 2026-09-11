@@ -761,24 +761,55 @@ body.preloader-active{
 </style>
 </head>
 <body>
-  <!-- Clickdy Preloader -->
+  <!-- Premium Clickdy Preloader -->
 <div id="preloader" class="preloader" aria-hidden="true">
+  <div class="preloader-bg-glow preloader-bg-glow-1"></div>
+  <div class="preloader-bg-glow preloader-bg-glow-2"></div>
+
   <div class="preloader-content">
-    <div class="preloader-logo-wrap">
-      <img
-        src="assets/logo.png"
-        alt="Clickdy"
-        class="preloader-logo"
-      >
+
+    <div class="preloader-logo-stage">
+      <div class="preloader-logo-ring preloader-logo-ring-1"></div>
+      <div class="preloader-logo-ring preloader-logo-ring-2"></div>
+
+      <div class="preloader-logo-box">
+        <img
+          src="assets/logo.png"
+          alt="Clickdy"
+          class="preloader-logo"
+        >
+      </div>
     </div>
 
-    <div class="preloader-name">Clickdy</div>
-
-    <div class="preloader-loader" aria-hidden="true">
-      <div class="preloader-loader-bar"></div>
+    <div class="preloader-brand">
+      <span>Clickdy</span>
+      <i></i>
     </div>
 
-    <div class="preloader-status">Loading tools...</div>
+    <div class="preloader-tagline">
+      Your tools. One powerful workspace.
+    </div>
+
+    <div class="preloader-progress-wrap">
+      <div class="preloader-progress-top">
+        <span id="preloaderStatus">Preparing workspace</span>
+        <strong id="preloaderPercent">0%</strong>
+      </div>
+
+      <div class="preloader-progress-track">
+        <div
+          id="preloaderProgress"
+          class="preloader-progress"
+        ></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="preloader-footer">
+    <span></span>
+    <small>CLICKDY</small>
+    <span></span>
   </div>
 </div>
 <header class="site-header reveal">
