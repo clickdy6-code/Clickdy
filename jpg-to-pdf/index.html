@@ -26,7 +26,7 @@
 *{box-sizing:border-box}
 html{background:var(--bg);scroll-behavior:smooth}
 body{
-  margin:0;color:var(--text);font-family:"sans-serif",Arial,sans-serif;
+  margin:0;color:var(--text);font-family:"Segoe UI",Arial,sans-serif;
   background:
     radial-gradient(900px 520px at 50% 18%,rgba(34,105,183,.09),transparent 70%),
     linear-gradient(180deg,#071021 0%,#050a16 58%,#060b17 100%);
@@ -43,15 +43,15 @@ a{text-decoration:none;color:inherit}
 .nav{
   height:100%;display:flex;align-items:center;justify-content:space-between;
 }
-.brand{display:flex;align-items:center;gap:12px}
-.brand img{width:36px;height:36px;object-fit:contain}
+.brand{display:flex;align-items:center;gap:9px}
+.brand img{width:36px;height:32px;object-fit:contain}
 .brand span{
-  font-family:"Segoe UI",Arial,sans-serif;font-size:25px;font-weight:800;
+  font-family:"Segoe UI",Arial,sans-serif;font-size:25px;font-weight:650;
   letter-spacing:-1.4px;color:#f7f9ff;
 }
 .nav-links{display:flex;align-items:center;gap:40px}
 .nav-links a{
-  color:#aebbd0;font-size:15px;font-weight:600;transition:color .2s ease;
+  color:#aebbd0;font-size:13px;font-weight:600;transition:color .2s ease;
 }
 .nav-links a:hover,.nav-links a.active{color:var(--blue)}
 .explore{
@@ -66,21 +66,21 @@ a{text-decoration:none;color:inherit}
 .kicker{
   display:inline-flex;align-items:center;gap:8px;padding:7px 12px;
   border:1px solid #21405b;border-radius:999px;background:#0a1727;
-  color:#67c3ff;font-size:11px;font-weight:800;letter-spacing:.2px;
+  color:#67c3ff;font-size:11px;font-weight:650;letter-spacing:.2px;
 }
 .kicker-dot{width:7px;height:7px;border-radius:50%;background:#45d59d;box-shadow:0 0 0 4px rgba(69,213,157,.08)}
 .hero h1{
   margin:24px auto 0;max-width:1000px;
-  font-family:"Segoe UI",Arial,sans-serif;font-size:clamp(44px,4.2vw,70px);
-  line-height:.98;letter-spacing:-2.8px;font-weight:800;
+  font-family:"Segoe UI",Arial,sans-serif;font-size:clamp(42px,4vw,64px);
+  line-height:.98;letter-spacing:-2px;font-weight:650;
 }
 .hero h1 .line2{display:block;color:#61bdff}
 .hero-copy{
   max-width:820px;margin:22px auto 0;color:#9bb0c9;
-  font-size:15px;line-height:1.65;
+  font-size:13px;line-height:1.65;
 }
 .hero-copy strong{color:#c3d1e1;font-weight:600}
-.trust{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:18px}
+.trust{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-top:18px}
 .trust span{
   border:1px solid #1b2d45;background:#091321;border-radius:999px;
   padding:6px 10px;color:#9db4ce;font-size:11px;font-weight:600;
@@ -89,42 +89,42 @@ a{text-decoration:none;color:inherit}
 /* TOOL */
 .tool-section{padding:0 0 48px}
 .back{
-  display:inline-flex;align-items:center;gap:9px;color:#8ea6c0;font-size:11px;font-weight:700;
+  display:inline-flex;align-items:center;gap:9px;color:#8ea6c0;font-size:11px;font-weight:600;
   padding:7px 10px;border:1px solid #1b2f48;background:#091321;border-radius:11px;
   margin-bottom:12px;transition:.2s ease;
 }
 .back:hover{color:#62bfff;border-color:#315978;transform:translateX(-2px)}
 .tool-card{max-width:1040px;margin:0 auto;
-  border:1px solid #1c304b;border-radius:18px;background:linear-gradient(145deg,#0b1526,#09111e);
+  border:1px solid #1c304b;border-radius:14px;background:linear-gradient(145deg,#0b1526,#09111e);
   box-shadow:0 30px 90px rgba(0,0,0,.35);overflow:hidden;
 }
 .tool-head{
-  padding:16px 19px;border-bottom:1px solid #1a2c44;
-  display:flex;justify-content:space-between;align-items:center;gap:14px;
+  padding:9px 15px;border-bottom:1px solid #1a2c44;
+  display:flex;justify-content:space-between;align-items:center;gap:8px;
 }
-.tool-title h2{font-family:"Segoe UI",Arial,sans-serif;font-size:17px;margin:0 0 5px}
+.tool-title h2{font-family:"Segoe UI",Arial,sans-serif;font-size:13px;margin:0 0 5px}
 .tool-title p{margin:0;color:#7f95ae;font-size:11px}
 .status{
   padding:8px 12px;border-radius:999px;border:1px solid #21405b;background:#0a1829;
-  color:#65c3ff;font-size:11px;font-weight:800;white-space:nowrap;
+  color:#65c3ff;font-size:11px;font-weight:650;white-space:nowrap;
 }
-.tool-body{padding:16px}
+.tool-body{padding:9px}
 .dropzone{
-  min-height:210px;border:1.5px dashed #2a5272;border-radius:13px;
+  min-height:165px;border:1.5px dashed #2a5272;border-radius:13px;
   background:radial-gradient(circle at 50% 25%,rgba(50,159,239,.09),transparent 48%),#091423;
   display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
-  padding:16px;transition:.22s ease;
+  padding:9px;transition:.22s ease;
 }
 .dropzone.dragging{border-color:#61bdff;background:#0d2034;box-shadow:0 0 0 4px rgba(97,189,255,.08)}
 .upload-icon{
-  width:50px;height:50px;border-radius:13px;display:grid;place-items:center;
+  width:40px;height:40px;border-radius:13px;display:grid;place-items:center;
   background:linear-gradient(135deg,#102d4b,#17224a);color:#69c4ff;font-size:23px;
   margin-bottom:10px;
 }
-.dropzone h3{font-family:"Segoe UI",Arial,sans-serif;font-size:17px;margin:0 0 5px}
+.dropzone h3{font-family:"Segoe UI",Arial,sans-serif;font-size:13px;margin:0 0 5px}
 .dropzone p{color:#8198b2;font-size:11px;margin:0 0 14px}
 .btn{
-  min-height:34px;padding:0 13px;border-radius:10px;font-weight:800;border:1px solid transparent;
+  min-height:30px;padding:0 13px;border-radius:10px;font-weight:650;border:1px solid transparent;
 }
 .btn-primary{
   color:white;background:linear-gradient(135deg,#168fe9,#625ff3);
@@ -142,67 +142,67 @@ a{text-decoration:none;color:inherit}
 /* FILES */
 .files{display:none;margin-top:12px}
 .files.show{display:block}
-.files-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:11px}
+.files-head{display:flex;align-items:center;justify-content:space-between;gap:9px;margin-bottom:11px}
 .files-head h3{font-family:"Segoe UI",Arial,sans-serif;font-size:16px;margin:0}
 .file-count{color:#7088a3;font-size:11px}
-.file-list{display:grid;gap:10px}
+.file-list{display:grid;gap:8px}
 .file-row{
   display:grid;grid-template-columns:54px minmax(0,1fr) auto;gap:9px;align-items:center;
   padding:6px;border:1px solid #1b3049;border-radius:13px;background:#0a1524;
 }
-.thumb{width:50px;height:50px;border-radius:10px;object-fit:cover;background:#0d1b2e;border:1px solid #213952}
-.file-name{font-size:11px;font-weight:700;color:#e9f2fc;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.thumb{width:40px;height:40px;border-radius:10px;object-fit:cover;background:#0d1b2e;border:1px solid #213952}
+.file-name{font-size:11px;font-weight:600;color:#e9f2fc;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .file-meta{font-size:11px;color:#7189a4;margin-top:5px}
 .row-buttons{display:flex;gap:5px}
 .icon-btn{
-  width:29px;height:29px;border:1px solid #223a55;background:#0b1727;color:#9eb4cb;border-radius:9px;font-weight:900;
+  width:29px;height:29px;border:1px solid #223a55;background:#0b1727;color:#9eb4cb;border-radius:9px;font-weight:600;
 }
 .icon-btn:hover{color:#67c1ff;border-color:#376080}
 .icon-btn.delete:hover{color:var(--danger);border-color:#70404a}
-.empty{padding:15px;text-align:center;color:#758ca5;border:1px dashed #233b56;border-radius:10px}
+.empty{padding:11px;text-align:center;color:#758ca5;border:1px dashed #233b56;border-radius:10px}
 
 /* SETTINGS */
 .settings{
-  margin-top:14px;padding:14px;border:1px solid #1c3049;border-radius:16px;background:#0a1423;
+  margin-top:14px;padding:10px;border:1px solid #1c3049;border-radius:13px;background:#0a1423;
 }
 .settings-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
-.settings h3{font-family:"Segoe UI",Arial,sans-serif;font-size:15px;margin:0}
+.settings h3{font-family:"Segoe UI",Arial,sans-serif;font-size:13px;margin:0}
 .settings small{color:#7188a1}
 .setting-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
-.field label{display:block;color:#94a9c0;font-size:11px;font-weight:800;margin:0 0 5px}
+.field label{display:block;color:#94a9c0;font-size:11px;font-weight:650;margin:0 0 5px}
 select,.number{
-  width:100%;height:34px;border:1px solid #213952;border-radius:10px;background:#091524;
+  width:100%;height:30px;border:1px solid #213952;border-radius:10px;background:#091524;
   color:#dce8f4;padding:0 8px;outline:0;
 }
 select:focus,.number:focus{border-color:#3e7198;box-shadow:0 0 0 3px rgba(57,157,229,.08)}
-.range-wrap{display:flex;align-items:center;gap:9px;height:36px}
+.range-wrap{display:flex;align-items:center;gap:9px;height:32px}
 input[type=range]{width:100%;accent-color:#49aff5}
 .range-value{min-width:34px;text-align:right;color:#a7bdd2;font-size:11px}
-.checks{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px}
+.checks{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 .check{display:flex;align-items:center;gap:8px;color:#8da4bc;font-size:11px}
 .check input{accent-color:#42b2f4;width:16px;height:16px}
 .convert-row{display:flex;justify-content:flex-end;margin-top:12px}
 .convert{min-width:145px}
-.message{display:none;margin-top:10px;padding:11px 13px;border-radius:10px;font-size:11px;font-weight:700}
+.message{display:none;margin-top:10px;padding:11px 13px;border-radius:10px;font-size:11px;font-weight:600}
 .message.show{display:block;background:#0b2030;border:1px solid #1e4963;color:#69c2ff}
 .message.error{background:#28151a;border-color:#63343d;color:#ff7e8a}
 .message.success{background:#0b281f;border-color:#235a47;color:#5fe0ad}
 
 /* RESULT */
 .result{
-  display:none;margin-top:20px;padding:15px;border:1px solid #20445c;border-radius:13px;
+  display:none;margin-top:20px;padding:11px;border:1px solid #20445c;border-radius:13px;
   background:linear-gradient(135deg,#0b1d2a,#0a1523);
 }
-.result.show{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.result.show{display:flex;align-items:center;justify-content:space-between;gap:9px}
 .result strong{font-family:"Segoe UI",Arial,sans-serif;font-size:16px}
 .result p{margin:5px 0 0;color:#7991a9;font-size:11px}
 
 /* RESPONSIVE */
 @media(max-width:900px){
-  .nav-links{gap:14px}
+  .nav-links{gap:8px}
   .hero{padding:82px 0 68px}
   .hero h1{letter-spacing:-3px}
-  .hero-copy{font-size:17px}
+  .hero-copy{font-size:13px}
   .setting-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media(max-width:680px){
@@ -211,18 +211,18 @@ input[type=range]{width:100%;accent-color:#49aff5}
   .nav-links{display:none}
   .mobile-menu{
     display:block;border:1px solid #223a55;background:#0b1727;color:#bcd0e4;
-    width:42px;height:34px;border-radius:11px;font-size:17px;
+    width:42px;height:30px;border-radius:11px;font-size:13px;
   }
   .hero{padding:62px 0 54px}
   .kicker{font-size:11px}
   .hero h1{font-size:clamp(46px,14vw,66px);letter-spacing:-3px;margin-top:29px}
-  .hero-copy{font-size:15px;line-height:1.7;margin-top:25px}
+  .hero-copy{font-size:13px;line-height:1.7;margin-top:25px}
   .trust{margin-top:12px}
   .trust span{font-size:11px;padding:8px 11px}
   .tool-section{padding-bottom:55px}
-  .tool-head{padding:15px;align-items:flex-start;flex-direction:column}
-  .tool-body{padding:14px}
-  .dropzone{min-height:260px;padding:16px}
+  .tool-head{padding:11px;align-items:flex-start;flex-direction:column}
+  .tool-body{padding:10px}
+  .dropzone{min-height:260px;padding:9px}
   .tool-controls{align-items:stretch}
   .control-left,.control-right{width:100%}
   .control-left .btn,.control-right .btn{flex:1}
@@ -256,6 +256,55 @@ input[type=range]{width:100%;accent-color:#49aff5}
 <style id="clickdy-font-override">
 html, body, button, input, select, textarea, a, label, h1, h2, h3, h4, p, span, strong, small {
   font-family:"Segoe UI",Arial,sans-serif !important;
+}
+</style>
+
+
+<style id="clickdy-compact-overrides">
+.brand-name{
+  font-family:"Segoe UI",Arial,sans-serif !important;
+  font-size:22px !important;
+  font-weight:600 !important;
+  letter-spacing:-.5px;
+}
+.tool-card{
+  max-width:1000px;
+  padding:12px 15px !important;
+  border-radius:14px !important;
+}
+.dropzone{
+  min-height:165px !important;
+  padding:12px !important;
+  border-radius:14px !important;
+}
+.dropzone .upload-icon{
+  width:44px !important;
+  height:44px !important;
+}
+.file-list{
+  gap:8px !important;
+}
+.file-item{
+  padding:9px 10px !important;
+  border-radius:10px !important;
+}
+.settings-grid{
+  gap:8px !important;
+}
+.setting-card,
+.control-group{
+  padding:10px !important;
+  border-radius:10px !important;
+}
+.tool-actions button,
+.action-btn,
+.primary-btn,
+.secondary-btn{
+  min-height:34px !important;
+  padding:0 12px !important;
+  font-size:12px !important;
+  font-weight:600 !important;
+  border-radius:9px !important;
 }
 </style>
 
