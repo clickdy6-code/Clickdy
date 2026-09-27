@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Remover - Clickdy</title>
+<meta name="description" content="Remove image backgrounds online with Clickdy using browser-based AI processing.">
+<style>
+:root{
+  --bg:#070b12;
+  --panel:#0d131d;
+  --panel2:#111925;
+  --panel3:#151f2d;
+  --text:#f4f7fb;
+  --muted:#8e9aaa;
+  --accent:#63c7ff;
+  --border:rgba(255,255,255,.08);
+  --green:#62d89a;
+  --red:#ff6f7d;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background:var(--bg);
+  color:var(--text);
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-weight:400;
+}
+button,input,select{font:inherit}
+button{cursor:pointer}
+.topbar{
+  height:88px;
+  max-width:1180px;
+  margin:auto;
+  padding:0 22px;
+  border-bottom:1px solid var(--border);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:var(--text);
+  text-decoration:none;
+}
+.brand img{
+  width:34px;
+  height:34px;
+  object-fit:contain;
+  border-radius:9px;
+}
+.brand span{font-size:20px;font-weight:600}
+.back{
+  color:var(--muted);
+  text-decoration:none;
+  font-size:14px;
+  padding:9px 12px;
+  border:1px solid var(--border);
+  border-radius:10px;
+}
+.back:hover{color:var(--text);border-color:rgba(99,199,255,.35)}
+.hero{
+  max-width:850px;
+  margin:auto;
+  padding:54px 22px 30px;
+  text-align:center;
+}
+.badge{
+  display:inline-block;
+  padding:7px 11px;
+  border:1px solid rgba(99,199,255,.18);
+  background:rgba(99,199,255,.07);
+  color:var(--accent);
+  border-radius:999px;
+  font-size:12px;
+}
+.hero h1{
+  margin:18px 0 12px;
+  font-size:clamp(34px,5vw,54px);
+  line-height:1.05;
+  letter-spacing:-1.8px;
+  font-weight:600;
+}
+.hero h1 span{color:var(--accent)}
+.hero p{
+  max-width:680px;
+  margin:auto;
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.7;
+}
+.benefits{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:19px;
+}
+.benefits span{
+  padding:7px 10px;
+  background:rgba(255,255,255,.035);
+  border:1px solid var(--border);
+  border-radius:999px;
+  color:#b9c3d0;
+  font-size:12px;
+}
+.workspace{
+  width:min(calc(100% - 30px),1080px);
+  margin:0 auto 60px;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 20px 55px rgba(0,0,0,.22);
+}
+.dropzone{
+  min-height:190px;
+  border:1px dashed rgba(99,199,255,.38);
+  border-radius:14px;
+  display:grid;
+  place-items:center;
+  text-align:center;
+  padding:25px;
+  background:rgba(99,199,255,.025);
+  transition:.2s;
+}
+.dropzone.drag{
+  background:rgba(99,199,255,.08);
+  border-color:var(--accent);
+}
+.upload-icon{
+  width:46px;
+  height:46px;
+  margin:0 auto 11px;
+  display:grid;
+  place-items:center;
+  border-radius:13px;
+  background:rgba(99,199,255,.09);
+  color:var(--accent);
+  font-size:22px;
+}
+.dropzone h2{margin:0 0 6px;font-size:18px;font-weight:500}
+.dropzone p{margin:0 0 13px;color:var(--muted);font-size:13px}
+.file-input{
+  position:absolute;
+  width:1px;
+  height:1px;
+  opacity:0;
+  overflow:hidden;
+}
+.browse,.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:9px 14px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:var(--panel3);
+  color:#dfe6ef;
+  font-size:13px;
+}
+.browse{
+  border-color:rgba(99,199,255,.35);
+  background:rgba(99,199,255,.08);
+  color:var(--accent);
+  cursor:pointer;
+}
+.browse:focus-visible,.btn:focus-visible,select:focus-visible,input:focus-visible{
+  outline:2px solid var(--accent);
+  outline-offset:2px;
+}
+.file-card{
+  margin-top:14px;
+  padding:10px;
+  background:var(--panel2);
+  border:1px solid var(--border);
+  border-radius:12px;
+  display:grid;
+  grid-template-columns:54px minmax(0,1fr) auto;
+  gap:11px;
+  align-items:center;
+}
+.thumb{
+  width:54px;
+  height:54px;
+  border-radius:9px;
+  object-fit:cover;
+  background:#090e15;
+}
+.name{
+  font-size:13px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.meta{margin-top:4px;color:var(--muted);font-size:11px}
+.controls{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+  margin-top:15px;
+}
+.control{
+  background:var(--panel2);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:14px;
+}
+.field-label{
+  display:block;
+  margin-bottom:9px;
+  font-size:13px;
+  color:#d8dee7;
+}
+select{
+  width:100%;
+  padding:9px 10px;
+  background:var(--panel3);
+  color:var(--text);
+  border:1px solid var(--border);
+  border-radius:9px;
+}
+.color-row{
+  display:flex;
+  gap:8px;
+}
+.color-row select{flex:1}
+.color-input{
+  width:42px;
+  height:38px;
+  padding:3px;
+  border:1px solid var(--border);
+  border-radius:9px;
+  background:var(--panel3);
+}
+.preview-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+  margin-top:15px;
+}
+.preview-card{
+  background:var(--panel2);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:12px;
+}
+.preview-title{
+  font-size:12px;
+  color:#cbd3dd;
+  margin-bottom:9px;
+}
+.preview-box{
+  min-height:270px;
+  border-radius:10px;
+  overflow:hidden;
+  display:grid;
+  place-items:center;
+  background-color:#151b24;
+  background-image:
+    linear-gradient(45deg,#1d2633 25%,transparent 25%),
+    linear-gradient(-45deg,#1d2633 25%,transparent 25%),
+    linear-gradient(45deg,transparent 75%,#1d2633 75%),
+    linear-gradient(-45deg,transparent 75%,#1d2633 75%);
+  background-size:20px 20px;
+  background-position:0 0,0 10px,10px -10px,-10px 0;
+}
+.preview-box img{
+  display:block;
+  max-width:100%;
+  max-height:390px;
+  object-fit:contain;
+}
+.actions{
+  display:flex;
+  gap:9px;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+.btn.primary{
+  background:var(--accent);
+  border-color:var(--accent);
+  color:#06111a;
+  font-weight:600;
+}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.status{
+  min-height:22px;
+  margin-top:11px;
+  color:var(--muted);
+  font-size:12px;
+}
+.progress{
+  height:5px;
+  background:#080d14;
+  border-radius:999px;
+  overflow:hidden;
+  margin-top:10px;
+}
+.progress span{
+  display:block;
+  height:100%;
+  width:0;
+  background:var(--accent);
+  transition:width .2s;
+}
+.note{
+  margin-top:12px;
+  color:#738093;
+  font-size:11px;
+  line-height:1.6;
+}
+.hidden{display:none!important}
+@media(max-width:720px){
+  .topbar{height:76px;padding:0 15px}
+  .brand span{font-size:18px}
+  .hero{padding-top:40px}
+  .workspace{width:calc(100% - 20px);padding:12px}
+  .controls,.preview-grid{grid-template-columns:1fr}
+  .file-card{grid-template-columns:46px minmax(0,1fr)}
+  .thumb{width:46px;height:46px}
+  .file-card .btn{grid-column:1/-1;justify-self:start}
+  .preview-box{min-height:220px}
+  .hero h1{letter-spacing:-1px}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="../index.html" aria-label="Clickdy Home">
+    <img src="../assets/logo.png" alt="Clickdy logo">
+    <span>Clickdy</span>
+  </a>
+  <a class="back" href="../index.html">← Back to Home</a>
+</header>
+
+<section class="hero">
+  <div class="badge">AI IMAGE TOOL • BROWSER-SIDE</div>
+  <h1>Remove Backgrounds. <span>Clean. Fast. Private.</span></h1>
+  <p>Automatically separate the subject from its background and download a clean transparent PNG directly from your browser.</p>
+  <div class="benefits">
+    <span>AI powered</span>
+    <span>Transparent PNG</span>
+    <span>No sign-up</span>
+    <span>Local processing</span>
+  </div>
+</section>
+
+<main class="workspace">
+
+  <div class="dropzone" id="dropzone" role="region" aria-label="Image upload area">
+    <div>
+      <div class="upload-icon" aria-hidden="true">↑</div>
+      <h2>Drop your image here</h2>
+      <p>JPG, JPEG, PNG or WebP</p>
+
+      <label class="browse" for="fileInput">
+        Choose Image
+      </label>
+
+      <input
+        class="file-input"
+        id="fileInput"
+        type="file"
+        accept="image/jpeg,image/png,image/webp"
+        aria-label="Choose image for background removal"
+      >
+    </div>
+  </div>
+
+  <div id="fileCard" class="file-card hidden">
+    <img id="inputThumb" class="thumb" alt="Selected image preview">
+    <div>
+      <div id="fileName" class="name"></div>
+      <div id="fileMeta" class="meta"></div>
+    </div>
+    <button id="removeBtn" class="btn" type="button">Remove</button>
+  </div>
+
+  <section class="controls">
+
+    <div class="control">
+      <label class="field-label" for="model">
+        Processing model
+      </label>
+
+      <select id="model" aria-label="Background removal processing model">
+        <option value="medium">Medium — better detail</option>
+        <option value="small">Small — faster processing</option>
+      </select>
+    </div>
+
+    <div class="control">
+      <label class="field-label" for="output">
+        Download format
+      </label>
+
+      <select id="output" aria-label="Background removal output format">
+        <option value="png">PNG — transparent</option>
+        <option value="webp">WebP</option>
+        <option value="jpg">JPG — colored background</option>
+      </select>
+    </div>
+
+    <div class="control">
+      <label class="field-label" for="background">
+        Background
+      </label>
+
+      <div class="color-row">
+        <select id="background" aria-label="Replacement background">
+          <option value="transparent">Transparent</option>
+          <option value="#ffffff">White</option>
+          <option value="#000000">Black</option>
+          <option value="custom">Custom color</option>
+        </select>
+
+        <input
+          id="customColor"
+          class="color-input"
+          type="color"
+          value="#63c7ff"
+          aria-label="Custom background color"
+        >
+      </div>
+    </div>
+
+    <div class="control">
+      <label class="field-label" for="quality">
+        Output quality
+      </label>
+
+      <select id="quality" aria-label="Output image quality">
+        <option value="1">100%</option>
+        <option value="0.9">90%</option>
+        <option value="0.8" selected>80%</option>
+        <option value="0.7">70%</option>
+        <option value="0.6">60%</option>
+      </select>
+    </div>
+
+  </section>
+
+  <div class="preview-grid">
+
+    <section class="preview-card">
+      <div class="preview-title">Original</div>
+      <div class="preview-box">
+        <img id="originalPreview" alt="Original image" class="hidden">
+      </div>
+    </section>
+
+    <section class="preview-card">
+      <div class="preview-title">Background Removed</div>
+      <div class="preview-box">
+        <img id="resultPreview" alt="Background removed result" class="hidden">
+      </div>
+    </section>
+
+  </div>
+
+  <div class="actions">
+
+    <button
+      id="removeBackgroundBtn"
+      class="btn primary"
+      type="button"
+      disabled
+    >
+      Remove Background
+    </button>
+
+    <button
+      id="downloadBtn"
+      class="btn"
+      type="button"
+      disabled
+    >
+      Download
+    </button>
+
+    <button
+      id="clearBtn"
+      class="btn"
+      type="button"
+    >
+      Clear
+    </button>
+
+  </div>
+
+  <div
+    id="status"
+    class="status"
+    role="status"
+    aria-live="polite"
+  ></div>
+
+  <div class="progress" aria-hidden="true">
+    <span id="progressBar"></span>
+  </div>
+
+  <div class="note">
+    Background removal runs in your browser using the IMG.LY background-removal engine.
+    The first run may take longer because the AI model and WebAssembly assets need to be downloaded and cached.
+  </div>
+
+</main>
+
+<script type="module">
+import removeBackground from "https://cdn.jsdelivr.net/npm/@imgly/background-removal@1.7.0/+esm";
+
+const fileInput = document.getElementById("fileInput");
+const dropzone = document.getElementById("dropzone");
+
+const fileCard = document.getElementById("fileCard");
+const inputThumb = document.getElementById("inputThumb");
+const originalPreview = document.getElementById("originalPreview");
+const resultPreview = document.getElementById("resultPreview");
+
+const fileName = document.getElementById("fileName");
+const fileMeta = document.getElementById("fileMeta");
+
+const modelSelect = document.getElementById("model");
+const outputSelect = document.getElementById("output");
+const backgroundSelect = document.getElementById("background");
+const customColor = document.getElementById("customColor");
+const qualitySelect = document.getElementById("quality");
+
+const removeBackgroundBtn =
+  document.getElementById("removeBackgroundBtn");
+
+const downloadBtn =
+  document.getElementById("downloadBtn");
+
+const removeBtn =
+  document.getElementById("removeBtn");
+
+const clearBtn =
+  document.getElementById("clearBtn");
+
+const status =
+  document.getElementById("status");
+
+const progressBar =
+  document.getElementById("progressBar");
+
+let selectedFile = null;
+let originalUrl = "";
+let resultUrl = "";
+let resultBlob = null;
+let processing = false;
+
+fileInput.addEventListener("change", () => {
+  if (fileInput.files.length) {
+    setFile(fileInput.files[0]);
+  }
+  fileInput.value = "";
+});
+
+["dragenter", "dragover"].forEach((eventName) => {
+  dropzone.addEventListener(eventName, (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    dropzone.classList.add("drag");
+  });
+});
+
+["dragleave", "drop"].forEach((eventName) => {
+  dropzone.addEventListener(eventName, (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    dropzone.classList.remove("drag");
+
+    if (eventName === "drop" && event.dataTransfer.files.length) {
+      setFile(event.dataTransfer.files[0]);
+    }
+  });
+});
+
+removeBtn.addEventListener("click", clearAll);
+clearBtn.addEventListener("click", clearAll);
+
+removeBackgroundBtn.addEventListener(
+  "click",
+  processBackgroundRemoval
+);
+
+downloadBtn.addEventListener(
+  "click",
+  downloadResult
+);
+
+backgroundSelect.addEventListener("change", updateBackgroundAvailability);
+outputSelect.addEventListener("change", updateBackgroundAvailability);
+
+function setFile(file) {
+  if (!/^image\/(jpeg|png|webp)$/i.test(file.type)) {
+    setStatus("Please choose a JPG, PNG or WebP image.");
+    return;
+  }
+
+  if (originalUrl) {
+    URL.revokeObjectURL(originalUrl);
+  }
+
+  if (resultUrl) {
+    URL.revokeObjectURL(resultUrl);
+  }
+
+  selectedFile = file;
+  resultBlob = null;
+  resultUrl = "";
+
+  originalUrl = URL.createObjectURL(file);
+
+  inputThumb.src = originalUrl;
+  originalPreview.src = originalUrl;
+
+  inputThumb.alt = "Preview of " + file.name;
+  originalPreview.alt = "Original " + file.name;
+
+  fileName.textContent = file.name;
+  fileMeta.textContent = formatBytes(file.size);
+
+  fileCard.classList.remove("hidden");
+  originalPreview.classList.remove("hidden");
+  resultPreview.classList.add("hidden");
+
+  removeBackgroundBtn.disabled = false;
+  downloadBtn.disabled = true;
+
+  setProgress(0);
+  setStatus("Image ready.");
+}
+
+async function processBackgroundRemoval() {
+  if (!selectedFile || processing) {
+    return;
+  }
+
+  processing = true;
+  removeBackgroundBtn.disabled = true;
+  downloadBtn.disabled = true;
+
+  setProgress(3);
+  setStatus("Preparing AI background removal...");
+
+  try {
+    const config = {
+      model: modelSelect.value,
+      output: {
+        format: "image/png",
+        quality: 1,
+        type: "foreground"
+      },
+      progress: (key, current, total) => {
+        if (Number.isFinite(current) && Number.isFinite(total) && total > 0) {
+          const percent = Math.min(
+            90,
+            Math.max(
+              5,
+              Math.round((current / total) * 90)
+            )
+          );
+
+          setProgress(percent);
+
+          if (key) {
+            setStatus(
+              "Processing AI model... " +
+              percent +
+              "%"
+            );
+          }
+        }
+      }
+    };
+
+    const transparentBlob =
+      await removeBackground(
+        selectedFile,
+        config
+      );
+
+    setProgress(92);
+    setStatus("Preparing final image...");
+
+    resultBlob =
+      await createOutputBlob(
+        transparentBlob
+      );
+
+    if (resultUrl) {
+      URL.revokeObjectURL(resultUrl);
+    }
+
+    resultUrl =
+      URL.createObjectURL(
+        resultBlob
+      );
+
+    resultPreview.src = resultUrl;
+    resultPreview.alt =
+      "Background removed " +
+      selectedFile.name;
+
+    resultPreview.classList.remove("hidden");
+
+    setProgress(100);
+
+    setStatus(
+      "Background removed successfully."
+    );
+
+    downloadBtn.disabled = false;
+  } catch (error) {
+    console.error(error);
+
+    setProgress(0);
+
+    setStatus(
+      "Background removal failed. Please try again with a different image or browser."
+    );
+  } finally {
+    processing = false;
+    removeBackgroundBtn.disabled = !selectedFile;
+  }
+}
+
+async function createOutputBlob(transparentBlob) {
+  const output = outputSelect.value;
+
+  if (output === "png" && backgroundSelect.value === "transparent") {
+    return transparentBlob;
+  }
+
+  const imageUrl =
+    URL.createObjectURL(
+      transparentBlob
+    );
+
+  try {
+    const image =
+      await loadImage(imageUrl);
+
+    const canvas =
+      document.createElement("canvas");
+
+    canvas.width = image.naturalWidth;
+    canvas.height = image.naturalHeight;
+
+    const ctx =
+      canvas.getContext("2d");
+
+    if (!ctx) {
+      throw new Error(
+        "Canvas is not supported."
+      );
+    }
+
+    const background =
+      getBackgroundColor();
+
+    if (background !== "transparent") {
+      ctx.fillStyle = background;
+      ctx.fillRect(
+        0,
+        0,
+        canvas.width,
+        canvas.height
+      );
+    }
+
+    ctx.drawImage(
+      image,
+      0,
+      0
+    );
+
+    const mime =
+      output === "jpg"
+        ? "image/jpeg"
+        : output === "webp"
+          ? "image/webp"
+          : "image/png";
+
+    const quality =
+      Number(
+        qualitySelect.value
+      );
+
+    return await new Promise(
+      (resolve, reject) => {
+        canvas.toBlob(
+          (blob) => {
+            if (blob) {
+              resolve(blob);
+            } else {
+              reject(
+                new Error(
+                  "Could not create output image."
+                )
+              );
+            }
+          },
+          mime,
+          quality
+        );
+      }
+    );
+  } finally {
+    URL.revokeObjectURL(imageUrl);
+  }
+}
+
+function getBackgroundColor() {
+  const value =
+    backgroundSelect.value;
+
+  if (value === "custom") {
+    return customColor.value;
+  }
+
+  return value;
+}
+
+function updateBackgroundAvailability() {
+  const transparentAllowed =
+    outputSelect.value === "png" ||
+    outputSelect.value === "webp";
+
+  if (
+    !transparentAllowed &&
+    backgroundSelect.value === "transparent"
+  ) {
+    backgroundSelect.value = "#ffffff";
+  }
+}
+
+function downloadResult() {
+  if (!resultBlob || !selectedFile) {
+    return;
+  }
+
+  const extension =
+    outputSelect.value === "jpg"
+      ? "jpg"
+      : outputSelect.value === "webp"
+        ? "webp"
+        : "png";
+
+  const baseName =
+    selectedFile.name.replace(
+      /\.[^.]+$/,
+      ""
+    );
+
+  const filename =
+    baseName +
+    "-no-background." +
+    extension;
+
+  const url =
+    URL.createObjectURL(
+      resultBlob
+    );
+
+  const link =
+    document.createElement("a");
+
+  link.href = url;
+  link.download = filename;
+
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+
+  setTimeout(() => {
+    URL.revokeObjectURL(url);
+  }, 1000);
+
+  setStatus(
+    "Download started."
+  );
+}
+
+function clearAll() {
+  if (originalUrl) {
+    URL.revokeObjectURL(originalUrl);
+  }
+
+  if (resultUrl) {
+    URL.revokeObjectURL(resultUrl);
+  }
+
+  selectedFile = null;
+  originalUrl = "";
+  resultUrl = "";
+  resultBlob = null;
+  processing = false;
+
+  fileCard.classList.add("hidden");
+
+  originalPreview.removeAttribute("src");
+  resultPreview.removeAttribute("src");
+
+  originalPreview.classList.add("hidden");
+  resultPreview.classList.add("hidden");
+
+  removeBackgroundBtn.disabled = true;
+  downloadBtn.disabled = true;
+
+  setProgress(0);
+  setStatus("");
+}
+
+function loadImage(url) {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+
+    image.onload = () => resolve(image);
+
+    image.onerror = () => {
+      reject(
+        new Error(
+          "Could not load processed image."
+        )
+      );
+    };
+
+    image.src = url;
+  });
+}
+
+function formatBytes(bytes) {
+  if (!Number.isFinite(bytes) || bytes <= 0) {
+    return "0 B";
+  }
+
+  const units = [
+    "B",
+    "KB",
+    "MB",
+    "GB"
+  ];
+
+  const index =
+    Math.min(
+      Math.floor(
+        Math.log(bytes) /
+        Math.log(1024)
+      ),
+      units.length - 1
+    );
+
+  return (
+    bytes /
+    Math.pow(
+      1024,
+      index
+    )
+  ).toFixed(
+    index ? 1 : 0
+  ) +
+  " " +
+  units[index];
+}
+
+function setProgress(value) {
+  progressBar.style.width =
+    Math.max(
+      0,
+      Math.min(
+        100,
+        value
+      )
+    ) + "%";
+}
+
+function setStatus(message) {
+  status.textContent =
+    message || "";
+}
+
+updateBackgroundAvailability();
+</script>
+
+</body>
+</html>

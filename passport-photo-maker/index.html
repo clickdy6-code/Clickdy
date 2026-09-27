@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Create passport and ID photos online with Clickdy. Crop, position, resize and export a clean passport photo sheet in your browser.">
+<title>Passport Photo Maker - Clickdy</title>
+<style>
+:root{
+  --bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;
+  --text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--success:#62d89a;
+  --danger:#ff6f7d;--border:rgba(255,255,255,.09)
+}
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;background:
+  radial-gradient(circle at 50% -10%,rgba(99,199,255,.11),transparent 34%),var(--bg);
+  color:var(--text);font-family:"Segoe UI",Arial,sans-serif;line-height:1.5
+}
+button,input,select{font:inherit}button{cursor:pointer}
+.page{width:min(1180px,calc(100% - 32px));margin:auto}
+.topbar{min-height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.06)}
+.brand{display:flex;align-items:center;gap:11px;color:var(--text);text-decoration:none;font-weight:700;font-size:20px}
+.brand img{width:36px;height:36px;object-fit:contain;border-radius:9px}
+.back{color:var(--muted);text-decoration:none;font-size:14px;font-weight:600}
+.back:hover{color:var(--accent)}
+.hero{text-align:center;padding:54px 0 30px}
+.eyebrow{display:inline-flex;gap:8px;align-items:center;padding:7px 12px;border:1px solid rgba(99,199,255,.22);border-radius:999px;color:#b9e7ff;background:rgba(99,199,255,.07);font-size:12px;font-weight:700;text-transform:uppercase}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 15px rgba(99,199,255,.7)}
+h1{margin:18px auto 10px;max-width:800px;font-size:clamp(34px,5vw,58px);line-height:1.05;letter-spacing:-1.8px}
+.accent{color:var(--accent)}
+.hero p{max-width:700px;margin:auto;color:var(--muted);font-size:16px}
+.tool-shell{background:linear-gradient(180deg,rgba(17,25,37,.98),rgba(13,19,29,.98));border:1px solid var(--border);border-radius:24px;box-shadow:0 24px 70px rgba(0,0,0,.28);padding:22px;margin-bottom:60px}
+.dropzone{min-height:180px;border:1.5px dashed rgba(99,199,255,.48);border-radius:18px;background:rgba(99,199,255,.035);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;transition:.2s}
+.dropzone.dragover{border-color:var(--accent);background:rgba(99,199,255,.09)}
+.upload-icon{width:48px;height:48px;display:grid;place-items:center;border-radius:14px;background:rgba(99,199,255,.1);color:var(--accent);font-size:24px;margin-bottom:10px}
+.dropzone h2{font-size:18px;margin:0 0 5px}.dropzone p{margin:0 0 14px;color:var(--muted);font-size:13px}
+.browse,.primary,.secondary,.danger{border-radius:11px;padding:11px 16px;font-weight:700;transition:.2s}
+.browse,.primary{border:0;background:var(--accent);color:#06111a}.browse:hover,.primary:hover{background:#86d7ff;transform:translateY(-1px)}
+.secondary{background:var(--panel3);color:var(--text);border:1px solid var(--border)}
+.secondary:hover{border-color:rgba(99,199,255,.35)}
+.danger{background:rgba(255,111,125,.12);color:#fff;border:1px solid rgba(255,111,125,.28)}
+#fileInput{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.workspace{display:none;margin-top:18px}.workspace.active{display:block}
+.grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:18px}
+.card{background:var(--panel2);border:1px solid var(--border);border-radius:18px;padding:18px}
+.card h3{margin:0 0 15px;font-size:16px}
+.canvas-wrap{min-height:500px;display:flex;align-items:center;justify-content:center;padding:18px;background:#090e15;border:1px solid var(--border);border-radius:14px;overflow:auto}
+#previewCanvas{max-width:100%;height:auto;border-radius:4px;box-shadow:0 12px 35px rgba(0,0,0,.3);touch-action:none}
+.control{margin-bottom:15px}.control>label,.field-label{display:flex;justify-content:space-between;gap:10px;margin-bottom:7px;color:#dce4ee;font-size:13px;font-weight:700}
+.hint{color:var(--muted);font-size:11px;font-weight:400}
+select,input[type=number],input[type=text]{width:100%;min-height:42px;border:1px solid var(--border);border-radius:10px;background:#0a1018;color:var(--text);padding:9px 11px;outline:none}
+select:focus,input:focus{border-color:rgba(99,199,255,.55);box-shadow:0 0 0 3px rgba(99,199,255,.08)}
+input[type=range]{width:100%;accent-color:var(--accent)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.check{display:flex;align-items:center;gap:9px;padding:10px 11px;background:#0a1018;border:1px solid var(--border);border-radius:10px;color:#dce4ee;font-size:13px;margin-bottom:10px}
+.check input{accent-color:var(--accent)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.primary{min-width:175px}
+.status{min-height:22px;margin-top:12px;color:var(--muted);font-size:12px}.status.success{color:var(--success)}.status.error{color:var(--danger)}
+.progress{display:none;height:7px;border-radius:999px;overflow:hidden;background:#080d14;border:1px solid var(--border);margin-top:9px}
+.progress.active{display:block}.bar{width:0;height:100%;background:var(--accent);transition:width .15s}
+.info{margin-top:15px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.018);font-size:12px;color:var(--muted)}
+.info strong{color:var(--text)}
+.tips{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.tip{padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.018)}
+.tip strong{display:block;font-size:12px;margin-bottom:3px}.tip span{color:var(--muted);font-size:11px}
+footer{color:var(--muted);text-align:center;padding:0 0 30px;font-size:12px}
+@media(max-width:850px){.grid{grid-template-columns:1fr}.canvas-wrap{min-height:350px}.tips{grid-template-columns:1fr}}
+@media(max-width:560px){.page{width:calc(100% - 20px)}.topbar{min-height:72px}.brand{font-size:18px}.brand img{width:32px;height:32px}.hero{padding:38px 0 24px}.tool-shell{padding:12px;border-radius:18px}.two{grid-template-columns:1fr}.actions{flex-direction:column}.actions button{width:100%}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="topbar">
+  <a class="brand" href="../index.html" aria-label="Clickdy home"><img src="../assets/logo.png" alt="Clickdy logo"><span>Clickdy</span></a>
+  <a class="back" href="../index.html">← Back to Home</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="eyebrow"><span class="dot"></span> Photo Tool</div>
+  <h1>Passport Photos. <span class="accent">Ready to Print.</span></h1>
+  <p>Upload a portrait, choose a standard photo size, adjust the crop and background, then download a printable passport photo sheet directly from your browser.</p>
+</section>
+
+<section class="tool-shell">
+  <div class="dropzone" id="dropzone">
+    <div class="upload-icon" aria-hidden="true">▣</div>
+    <h2>Drop your photo here</h2>
+    <p>JPG, JPEG, PNG or WebP • processed locally in your browser</p>
+    <button class="browse" id="browseBtn" type="button">Choose Photo</button>
+    <input id="fileInput" type="file" accept="image/jpeg,image/png,image/webp" aria-label="Choose a passport photo" title="Choose a passport photo">
+  </div>
+
+  <div class="workspace" id="workspace">
+    <div class="grid">
+      <div class="card">
+        <h3>Photo Preview</h3>
+        <div class="canvas-wrap">
+          <canvas id="previewCanvas" width="600" height="800" aria-label="Passport photo preview"></canvas>
+        </div>
+        <div class="info">
+          <strong>Tip:</strong> Drag the image inside the preview to position the face. Use the zoom control to fine-tune the crop.
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Photo Settings</h3>
+
+        <div class="control">
+          <label for="presetSelect">Photo Size</label>
+          <select id="presetSelect" title="Choose passport photo size">
+            <option value="35x45">35 × 45 mm — Common Passport</option>
+            <option value="2x2">2 × 2 in — US Passport</option>
+            <option value="33x48">33 × 48 mm — ID Photo</option>
+            <option value="30x40">30 × 40 mm — ID Photo</option>
+            <option value="25x35">25 × 35 mm — Small ID</option>
+          </select>
+        </div>
+
+        <div class="two">
+          <div class="control">
+            <label for="dpiSelect">Print DPI</label>
+            <select id="dpiSelect" title="Choose print resolution">
+              <option value="300">300 DPI</option>
+              <option value="600">600 DPI</option>
+              <option value="150">150 DPI</option>
+            </select>
+          </div>
+          <div class="control">
+            <label for="sheetSelect">Sheet</label>
+            <select id="sheetSelect" title="Choose print sheet size">
+              <option value="a4">A4</option>
+              <option value="letter">Letter</option>
+              <option value="single">Single Photo</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="control">
+          <label for="backgroundSelect">Background</label>
+          <select id="backgroundSelect" title="Choose passport photo background">
+            <option value="#ffffff">White</option>
+            <option value="#f2f2f2">Light Gray</option>
+            <option value="#eaf5ff">Very Light Blue</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="zoomInput">Zoom <span id="zoomValue">100%</span></label>
+          <input id="zoomInput" type="range" min="100" max="250" value="100" aria-label="Photo zoom">
+        </div>
+
+        <div class="control">
+          <label for="xInput">Horizontal Position <span id="xValue">50%</span></label>
+          <input id="xInput" type="range" min="0" max="100" value="50" aria-label="Horizontal photo position">
+        </div>
+
+        <div class="control">
+          <label for="yInput">Vertical Position <span id="yValue">50%</span></label>
+          <input id="yInput" type="range" min="0" max="100" value="50" aria-label="Vertical photo position">
+        </div>
+
+        <label class="check">
+          <input id="showGuides" type="checkbox" checked>
+          <span>Show crop guides in preview</span>
+        </label>
+
+        <div class="actions">
+          <button class="primary" id="downloadBtn" type="button">Download Photo Sheet</button>
+          <button class="secondary" id="singleBtn" type="button">Download Single Photo</button>
+          <button class="secondary" id="resetBtn" type="button">Reset Crop</button>
+          <button class="danger" id="clearBtn" type="button">Remove Photo</button>
+        </div>
+
+        <div class="progress" id="progress" aria-hidden="true"><div class="bar" id="bar"></div></div>
+        <div class="status" id="status" role="status" aria-live="polite"></div>
+        <div class="info" id="sizeInfo"></div>
+      </div>
+    </div>
+
+    <div class="tips">
+      <div class="tip"><strong>Print Ready</strong><span>Generates pixel dimensions from your selected size and DPI.</span></div>
+      <div class="tip"><strong>Flexible</strong><span>Choose common passport and ID photo dimensions.</span></div>
+      <div class="tip"><strong>Private</strong><span>Your photo is processed locally in your browser.</span></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Clickdy. Passport photo creation happens in your browser.</footer>
+</div>
+
+<script>
+(() => {
+"use strict";
+
+const $ = id => document.getElementById(id);
+const fileInput=$("fileInput"),browseBtn=$("browseBtn"),dropzone=$("dropzone"),workspace=$("workspace");
+const canvas=$("previewCanvas"),ctx=canvas.getContext("2d");
+const presetSelect=$("presetSelect"),dpiSelect=$("dpiSelect"),sheetSelect=$("sheetSelect"),backgroundSelect=$("backgroundSelect");
+const zoomInput=$("zoomInput"),xInput=$("xInput"),yInput=$("yInput"),zoomValue=$("zoomValue"),xValue=$("xValue"),yValue=$("yValue");
+const showGuides=$("showGuides"),downloadBtn=$("downloadBtn"),singleBtn=$("singleBtn"),resetBtn=$("resetBtn"),clearBtn=$("clearBtn");
+const status=$("status"),progress=$("progress"),bar=$("bar"),sizeInfo=$("sizeInfo");
+
+let sourceFile=null,sourceImage=null,sourceUrl=null;
+let dragging=false,lastX=0,lastY=0;
+
+const presets={
+  "35x45":{w:35,h:45,label:"35 × 45 mm"},
+  "2x2":{w:50.8,h:50.8,label:"2 × 2 in"},
+  "33x48":{w:33,h:48,label:"33 × 48 mm"},
+  "30x40":{w:30,h:40,label:"30 × 40 mm"},
+  "25x35":{w:25,h:35,label:"25 × 35 mm"}
+};
+
+function setStatus(msg,type=""){status.textContent=msg;status.className="status"+(type?" "+type:"")}
+function setProgress(value,visible=true){progress.classList.toggle("active",visible);bar.style.width=Math.max(0,Math.min(100,value))+"%"}
+function resetProgress(){progress.classList.remove("active");bar.style.width="0%"}
+function revokeUrl(){if(sourceUrl){URL.revokeObjectURL(sourceUrl);sourceUrl=null}}
+
+function pixelsFromSize(preset,dpi){
+  const p=presets[preset];
+  const mmToIn=1/25.4;
+  let wIn,hIn;
+  if(preset==="2x2"){wIn=2;hIn=2}else{wIn=p.w*mmToIn;hIn=p.h*mmToIn}
+  return {w:Math.round(wIn*dpi),h:Math.round(hIn*dpi),label:p.label};
+}
+
+function updateInfo(){
+  const s=pixelsFromSize(presetSelect.value,Number(dpiSelect.value));
+  sizeInfo.innerHTML="<strong>"+s.label+"</strong> • "+s.w+" × "+s.h+" px at "+dpiSelect.value+" DPI";
+}
+
+function getCropRect(targetW,targetH){
+  if(!sourceImage)return null;
+  const targetRatio=targetW/targetH;
+  const sourceRatio=sourceImage.naturalWidth/sourceImage.naturalHeight;
+  let cropW,cropH;
+  if(sourceRatio>targetRatio){cropH=sourceImage.naturalHeight;cropW=cropH*targetRatio}
+  else{cropW=sourceImage.naturalWidth;cropH=cropW/targetRatio}
+
+  const zoom=Number(zoomInput.value)/100;
+  cropW/=zoom;cropH/=zoom;
+
+  const maxX=Math.max(0,sourceImage.naturalWidth-cropW);
+  const maxY=Math.max(0,sourceImage.naturalHeight-cropH);
+  const sx=maxX*(Number(xInput.value)/100);
+  const sy=maxY*(Number(yInput.value)/100);
+  return {sx,sy,sw:Math.min(cropW,sourceImage.naturalWidth),sh:Math.min(cropH,sourceImage.naturalHeight)};
+}
+
+function drawPreview(){
+  if(!sourceImage)return;
+  const p=pixelsFromSize(presetSelect.value,Math.min(300,Number(dpiSelect.value)));
+  const maxPreview=650;
+  const scale=Math.min(1,maxPreview/p.w,maxPreview/p.h);
+  canvas.width=Math.max(1,Math.round(p.w*scale));
+  canvas.height=Math.max(1,Math.round(p.h*scale));
+
+  ctx.fillStyle=backgroundSelect.value;
+  ctx.fillRect(0,0,canvas.width,canvas.height);
+
+  const crop=getCropRect(p.w,p.h);
+  ctx.imageSmoothingEnabled=true;
+  ctx.imageSmoothingQuality="high";
+  ctx.drawImage(sourceImage,crop.sx,crop.sy,crop.sw,crop.sh,0,0,canvas.width,canvas.height);
+
+  if(showGuides.checked){
+    ctx.save();
+    ctx.strokeStyle="rgba(99,199,255,.9)";
+    ctx.lineWidth=Math.max(1,canvas.width/350);
+    ctx.setLineDash([6,5]);
+    ctx.strokeRect(canvas.width*.08,canvas.height*.08,canvas.width*.84,canvas.height*.84);
+    ctx.setLineDash([]);
+    ctx.strokeStyle="rgba(255,255,255,.55)";
+    ctx.beginPath();
+    ctx.moveTo(canvas.width*.5,canvas.height*.08);ctx.lineTo(canvas.width*.5,canvas.height*.92);
+    ctx.moveTo(canvas.width*.08,canvas.height*.5);ctx.lineTo(canvas.width*.92,canvas.height*.5);
+    ctx.stroke();
+    ctx.restore();
+  }
+}
+
+function loadFile(file){
+  if(!file || !/^image\/(jpeg|png|webp)$/i.test(file.type)){
+    setStatus("Please choose a JPG, PNG or WebP image.","error");return;
+  }
+  if(file.size>50*1024*1024){setStatus("Please choose an image smaller than 50 MB.","error");return}
+  revokeUrl();sourceUrl=URL.createObjectURL(file);
+  const img=new Image();
+  img.onload=()=>{
+    sourceFile=file;sourceImage=img;workspace.classList.add("active");
+    resetCrop(false);updateInfo();drawPreview();
+    setStatus("Photo loaded. Adjust the crop, then download your photo.","success");
+  };
+  img.onerror=()=>{setStatus("The image could not be read by your browser.","error");revokeUrl()}
+  img.src=sourceUrl;
+}
+
+function resetCrop(show=true){
+  zoomInput.value="100";xInput.value="50";yInput.value="50";
+  zoomValue.textContent="100%";xValue.textContent="50%";yValue.textContent="50%";
+  if(sourceImage)drawPreview();
+  if(show)setStatus("Crop reset.");
+}
+
+function makeCanvas(width,height){
+  const out=document.createElement("canvas");out.width=width;out.height=height;
+  const c=out.getContext("2d");
+  c.fillStyle=backgroundSelect.value;c.fillRect(0,0,width,height);
+  const crop=getCropRect(width,height);
+  c.imageSmoothingEnabled=true;c.imageSmoothingQuality="high";
+  c.drawImage(sourceImage,crop.sx,crop.sy,crop.sw,crop.sh,0,0,width,height);
+  return out;
+}
+
+function blobFromCanvas(c){
+  return new Promise((resolve,reject)=>c.toBlob(b=>b?resolve(b):reject(new Error("Could not create image.")),"image/jpeg",.95))
+}
+function downloadBlob(blob,name){
+  const url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1200)
+}
+
+async function downloadSingle(){
+  if(!sourceImage){setStatus("Choose a photo first.","error");return}
+  const p=pixelsFromSize(presetSelect.value,Number(dpiSelect.value));
+  downloadBtn.disabled=true;singleBtn.disabled=true;setProgress(20,true);setStatus("Preparing single passport photo…");
+  try{
+    const out=makeCanvas(p.w,p.h);setProgress(70,true);
+    const blob=await blobFromCanvas(out);setProgress(100,true);
+    downloadBlob(blob,"passport-photo-"+presetSelect.value+"-"+dpiSelect.value+"dpi.jpg");
+    setStatus("Single photo downloaded.","success");setTimeout(resetProgress,900)
+  }catch(e){setStatus(e.message||"Could not create the photo.","error");resetProgress()}
+  finally{downloadBtn.disabled=false;singleBtn.disabled=false}
+}
+
+async function downloadSheet(){
+  if(!sourceImage){setStatus("Choose a photo first.","error");return}
+  const p=pixelsFromSize(presetSelect.value,Number(dpiSelect.value));
+  const sheet=sheetSelect.value;
+  const margin=Math.round(Number(dpiSelect.value)*.18);
+  let sw,sh;
+  if(sheet==="single"){await downloadSingle();return}
+  if(sheet==="a4"){sw=Math.round(8.27*Number(dpiSelect.value));sh=Math.round(11.69*Number(dpiSelect.value))}
+  else{sw=Math.round(8.5*Number(dpiSelect.value));sh=Math.round(11*Number(dpiSelect.value))}
+
+  const gap=Math.max(4,Math.round(Number(dpiSelect.value)*.08));
+  const cols=Math.max(1,Math.floor((sw-2*margin+gap)/(p.w+gap)));
+  const rows=Math.max(1,Math.floor((sh-2*margin+gap)/(p.h+gap)));
+  const count=cols*rows;
+
+  downloadBtn.disabled=true;singleBtn.disabled=true;setProgress(10,true);
+  setStatus("Creating printable "+sheet.toUpperCase()+" sheet…");
+  try{
+    const out=document.createElement("canvas");out.width=sw;out.height=sh;
+    const c=out.getContext("2d");c.fillStyle="#fff";c.fillRect(0,0,sw,sh);
+    const photo=makeCanvas(p.w,p.h);
+    for(let r=0;r<rows;r++){
+      for(let col=0;col<cols;col++){
+        const x=margin+col*(p.w+gap),y=margin+r*(p.h+gap);
+        c.drawImage(photo,x,y);
+        setProgress(15+Math.round(((r*cols+col+1)/count)*75),true);
+      }
+    }
+    const blob=await new Promise((resolve,reject)=>out.toBlob(b=>b?resolve(b):reject(new Error("Could not create sheet.")),"image/jpeg",.95));
+    setProgress(100,true);downloadBlob(blob,"passport-photo-sheet-"+sheet+"-"+presetSelect.value+".jpg");
+    setStatus("Done — "+count+" photo"+(count===1?"":"s")+" placed on the "+sheet.toUpperCase()+" sheet.","success");
+    setTimeout(resetProgress,1000)
+  }catch(e){setStatus(e.message||"Could not create the sheet.","error");resetProgress()}
+  finally{downloadBtn.disabled=false;singleBtn.disabled=false}
+}
+
+function clearPhoto(){
+  sourceImage=null;sourceFile=null;revokeUrl();fileInput.value="";workspace.classList.remove("active");resetProgress();setStatus("");
+}
+
+browseBtn.addEventListener("click",()=>fileInput.click());
+fileInput.addEventListener("change",()=>{if(fileInput.files[0])loadFile(fileInput.files[0])});
+["dragenter","dragover"].forEach(n=>dropzone.addEventListener(n,e=>{e.preventDefault();e.stopPropagation();dropzone.classList.add("dragover")}));
+["dragleave","drop"].forEach(n=>dropzone.addEventListener(n,e=>{e.preventDefault();e.stopPropagation();dropzone.classList.remove("dragover")}));
+dropzone.addEventListener("drop",e=>{const f=e.dataTransfer.files[0];if(f)loadFile(f)});
+
+[presetSelect,dpiSelect,sheetSelect,backgroundSelect,showGuides].forEach(el=>el.addEventListener("change",()=>{updateInfo();drawPreview()}));
+zoomInput.addEventListener("input",()=>{zoomValue.textContent=zoomInput.value+"%";drawPreview()});
+xInput.addEventListener("input",()=>{xValue.textContent=xInput.value+"%";drawPreview()});
+yInput.addEventListener("input",()=>{yValue.textContent=yInput.value+"%";drawPreview()});
+downloadBtn.addEventListener("click",downloadSheet);
+singleBtn.addEventListener("click",downloadSingle);
+resetBtn.addEventListener("click",()=>resetCrop(true));
+clearBtn.addEventListener("click",clearPhoto);
+
+canvas.addEventListener("pointerdown",e=>{
+  if(!sourceImage)return;
+  dragging=true;lastX=e.clientX;lastY=e.clientY;canvas.setPointerCapture(e.pointerId)
+});
+canvas.addEventListener("pointermove",e=>{
+  if(!dragging)return;
+  const dx=e.clientX-lastX,dy=e.clientY-lastY;lastX=e.clientX;lastY=e.clientY;
+  const rect=canvas.getBoundingClientRect();
+  const sensitivity=100/Math.max(rect.width,rect.height)*1.8;
+  xInput.value=Math.max(0,Math.min(100,Number(xInput.value)+dx*sensitivity));
+  yInput.value=Math.max(0,Math.min(100,Number(yInput.value)+dy*sensitivity));
+  xValue.textContent=Math.round(xInput.value)+"%";yValue.textContent=Math.round(yInput.value)+"%";drawPreview()
+});
+canvas.addEventListener("pointerup",()=>{dragging=false});
+canvas.addEventListener("pointercancel",()=>{dragging=false});
+
+window.addEventListener("beforeunload",revokeUrl);
+})();
+</script>
+</body>
+</html>

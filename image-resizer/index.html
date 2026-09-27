@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resize images online with Clickdy. Change dimensions, keep proportions, choose output format and quality, and download your resized images.">
+  <title>Image Resizer - Clickdy</title>
+  <style>
+    :root{
+      --bg:#070b12;
+      --panel:#0d131d;
+      --panel2:#111925;
+      --panel3:#151f2d;
+      --text:#f4f7fb;
+      --muted:#8e9aaa;
+      --accent:#63c7ff;
+      --accent2:#3aa9e8;
+      --success:#62d89a;
+      --danger:#ff6f7d;
+      --warning:#ffc76a;
+      --border:rgba(255,255,255,.09);
+      --radius:18px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      min-height:100vh;
+      background:
+        radial-gradient(circle at 50% -10%, rgba(99,199,255,.11), transparent 34%),
+        var(--bg);
+      color:var(--text);
+      font-family:"Segoe UI",Arial,sans-serif;
+      line-height:1.5;
+    }
+    button,input,select{font:inherit}
+    button{cursor:pointer}
+    img{max-width:100%;display:block}
+
+    .page{width:min(1180px,calc(100% - 32px));margin:0 auto}
+
+    .topbar{
+      min-height:88px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+      border-bottom:1px solid rgba(255,255,255,.06);
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:11px;
+      color:var(--text);
+      text-decoration:none;
+      font-weight:700;
+      font-size:20px;
+      letter-spacing:-.3px;
+    }
+    .brand img{
+      width:36px;
+      height:36px;
+      object-fit:contain;
+      border-radius:9px;
+    }
+    .back{
+      color:var(--muted);
+      text-decoration:none;
+      font-size:14px;
+      font-weight:600;
+    }
+    .back:hover{color:var(--accent)}
+
+    .hero{text-align:center;padding:54px 0 30px}
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:7px 12px;
+      border:1px solid rgba(99,199,255,.22);
+      border-radius:999px;
+      color:#b9e7ff;
+      background:rgba(99,199,255,.07);
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.4px;
+      text-transform:uppercase;
+    }
+    .dot{
+      width:7px;height:7px;border-radius:50%;
+      background:var(--accent);
+      box-shadow:0 0 15px rgba(99,199,255,.7);
+    }
+    h1{
+      margin:18px auto 10px;
+      max-width:760px;
+      font-size:clamp(34px,5vw,58px);
+      line-height:1.05;
+      letter-spacing:-1.8px;
+    }
+    .accent{color:var(--accent)}
+    .hero p{
+      max-width:690px;
+      margin:0 auto;
+      color:var(--muted);
+      font-size:16px;
+    }
+
+    .tool-shell{
+      background:linear-gradient(180deg,rgba(17,25,37,.98),rgba(13,19,29,.98));
+      border:1px solid var(--border);
+      border-radius:24px;
+      box-shadow:0 24px 70px rgba(0,0,0,.28);
+      padding:22px;
+      margin-bottom:60px;
+    }
+
+    .dropzone{
+      min-height:190px;
+      border:1.5px dashed rgba(99,199,255,.48);
+      border-radius:18px;
+      background:rgba(99,199,255,.035);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:24px;
+      transition:.2s ease;
+    }
+    .dropzone.dragover{
+      border-color:var(--accent);
+      background:rgba(99,199,255,.09);
+      transform:translateY(-1px);
+    }
+    .upload-icon{
+      width:48px;height:48px;
+      display:grid;place-items:center;
+      border-radius:14px;
+      background:rgba(99,199,255,.1);
+      color:var(--accent);
+      font-size:24px;
+      margin-bottom:10px;
+    }
+    .dropzone h2{font-size:18px;margin:0 0 5px}
+    .dropzone p{margin:0 0 14px;color:var(--muted);font-size:13px}
+    .browse-btn,.primary-btn,.secondary-btn,.danger-btn{
+      border:0;
+      border-radius:11px;
+      padding:11px 16px;
+      font-weight:700;
+      transition:.2s ease;
+    }
+    .browse-btn,.primary-btn{
+      color:#06111a;
+      background:var(--accent);
+    }
+    .browse-btn:hover,.primary-btn:hover{background:#86d7ff;transform:translateY(-1px)}
+    .secondary-btn{
+      color:var(--text);
+      background:var(--panel3);
+      border:1px solid var(--border);
+    }
+    .secondary-btn:hover{border-color:rgba(99,199,255,.35)}
+    .danger-btn{
+      color:#fff;
+      background:rgba(255,111,125,.12);
+      border:1px solid rgba(255,111,125,.28);
+    }
+    .danger-btn:hover{background:rgba(255,111,125,.2)}
+
+    #fileInput{
+      position:absolute;
+      width:1px;height:1px;
+      padding:0;margin:-1px;
+      overflow:hidden;
+      clip:rect(0,0,0,0);
+      white-space:nowrap;
+      border:0;
+    }
+
+    .workspace{display:none;margin-top:18px}
+    .workspace.active{display:block}
+
+    .file-row{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      padding:13px 15px;
+      background:var(--panel2);
+      border:1px solid var(--border);
+      border-radius:14px;
+      margin-bottom:18px;
+    }
+    .file-info{min-width:0}
+    .file-name{
+      font-weight:700;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .file-meta{color:var(--muted);font-size:12px;margin-top:2px}
+
+    .grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);
+      gap:18px;
+    }
+    .card{
+      background:var(--panel2);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:18px;
+    }
+    .card h3{margin:0 0 15px;font-size:16px}
+    .preview-wrap{
+      min-height:370px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:18px;
+      border-radius:14px;
+      background:
+        linear-gradient(45deg,rgba(255,255,255,.025) 25%,transparent 25%),
+        linear-gradient(-45deg,rgba(255,255,255,.025) 25%,transparent 25%),
+        linear-gradient(45deg,transparent 75%,rgba(255,255,255,.025) 75%),
+        linear-gradient(-45deg,transparent 75%,rgba(255,255,255,.025) 75%);
+      background-size:22px 22px;
+      background-position:0 0,0 11px,11px -11px,-11px 0;
+      border:1px solid var(--border);
+      overflow:hidden;
+    }
+    #preview{
+      max-width:100%;
+      max-height:430px;
+      object-fit:contain;
+      border-radius:8px;
+    }
+
+    .control{margin-bottom:15px}
+    .control:last-child{margin-bottom:0}
+    .control label{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      margin-bottom:7px;
+      color:#dce4ee;
+      font-size:13px;
+      font-weight:700;
+    }
+    .hint{color:var(--muted);font-weight:400;font-size:11px}
+    input[type="number"],input[type="text"],select{
+      width:100%;
+      min-height:42px;
+      border:1px solid var(--border);
+      border-radius:10px;
+      background:#0a1018;
+      color:var(--text);
+      padding:9px 11px;
+      outline:none;
+    }
+    input[type="number"]:focus,input[type="text"]:focus,select:focus{
+      border-color:rgba(99,199,255,.55);
+      box-shadow:0 0 0 3px rgba(99,199,255,.08);
+    }
+    input[type="range"]{
+      width:100%;
+      accent-color:var(--accent);
+    }
+    .two{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:10px;
+    }
+    .dimensions{
+      display:grid;
+      grid-template-columns:1fr 40px 1fr;
+      gap:8px;
+      align-items:end;
+    }
+    .lock{
+      width:40px;height:40px;
+      display:grid;place-items:center;
+      border:1px solid var(--border);
+      border-radius:10px;
+      background:var(--panel3);
+      color:var(--accent);
+      padding:0;
+    }
+    .lock[aria-pressed="false"]{color:var(--muted)}
+    .ratio-box{
+      margin-top:8px;
+      padding:8px 10px;
+      border-radius:9px;
+      background:rgba(99,199,255,.05);
+      color:var(--muted);
+      font-size:11px;
+    }
+    .check{
+      display:flex;
+      align-items:center;
+      gap:9px;
+      padding:10px 11px;
+      background:#0a1018;
+      border:1px solid var(--border);
+      border-radius:10px;
+      color:#dce4ee;
+      font-size:13px;
+    }
+    .check input{accent-color:var(--accent)}
+    .actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:18px;
+    }
+    .primary-btn{min-width:160px}
+    .status{
+      min-height:22px;
+      margin-top:12px;
+      color:var(--muted);
+      font-size:12px;
+    }
+    .status.success{color:var(--success)}
+    .status.error{color:var(--danger)}
+    .progress{
+      display:none;
+      height:7px;
+      border-radius:999px;
+      overflow:hidden;
+      background:#080d14;
+      border:1px solid var(--border);
+      margin-top:9px;
+    }
+    .progress.active{display:block}
+    .progress-bar{
+      width:0;
+      height:100%;
+      background:var(--accent);
+      transition:width .15s ease;
+    }
+
+    .tips{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:10px;
+    }
+    .tip{
+      padding:12px;
+      border:1px solid var(--border);
+      border-radius:12px;
+      background:rgba(255,255,255,.018);
+    }
+    .tip strong{display:block;font-size:12px;margin-bottom:3px}
+    .tip span{color:var(--muted);font-size:11px}
+
+    footer{
+      color:var(--muted);
+      text-align:center;
+      padding:0 0 30px;
+      font-size:12px;
+    }
+
+    @media (max-width:820px){
+      .grid{grid-template-columns:1fr}
+      .preview-wrap{min-height:280px}
+      .tips{grid-template-columns:1fr}
+    }
+    @media (max-width:560px){
+      .page{width:min(100% - 20px,1180px)}
+      .topbar{min-height:72px}
+      .brand{font-size:18px}
+      .brand img{width:32px;height:32px}
+      .hero{padding:38px 0 24px}
+      .tool-shell{padding:12px;border-radius:18px}
+      .two,.dimensions{grid-template-columns:1fr}
+      .dimensions .lock{width:100%;height:40px}
+      .file-row{align-items:flex-start;flex-direction:column}
+      .actions{flex-direction:column}
+      .actions button{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a class="brand" href="../index.html" aria-label="Clickdy home">
+        <img src="../assets/logo.png" alt="Clickdy logo">
+        <span>Clickdy</span>
+      </a>
+      <a class="back" href="../index.html">← Back to Home</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow"><span class="dot"></span> Image Tool</div>
+        <h1>Resize Images. <span class="accent">Exactly.</span></h1>
+        <p>Change image dimensions in your browser, keep the original proportions when you want, choose your output format and quality, then download the result.</p>
+      </section>
+
+      <section class="tool-shell" aria-label="Image resizer">
+        <div class="dropzone" id="dropzone">
+          <div class="upload-icon" aria-hidden="true">↕</div>
+          <h2>Drop an image here</h2>
+          <p>JPG, JPEG, PNG, WebP and GIF • processed locally in your browser</p>
+          <button class="browse-btn" id="browseBtn" type="button">Choose Image</button>
+          <input id="fileInput" type="file" accept="image/jpeg,image/png,image/webp,image/gif" aria-label="Choose an image file" title="Choose an image file">
+        </div>
+
+        <div class="workspace" id="workspace">
+          <div class="file-row">
+            <div class="file-info">
+              <div class="file-name" id="fileName">Image</div>
+              <div class="file-meta" id="fileMeta">0 × 0</div>
+            </div>
+            <button class="danger-btn" id="clearBtn" type="button">Remove</button>
+          </div>
+
+          <div class="grid">
+            <div class="card">
+              <h3>Preview</h3>
+              <div class="preview-wrap">
+                <img id="preview" alt="Selected image preview">
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>Resize Settings</h3>
+
+              <div class="control">
+                <label for="widthInput">Dimensions <span class="hint" id="dimensionHint">Original</span></label>
+                <div class="dimensions">
+                  <div>
+                    <label for="widthInput">Width</label>
+                    <input id="widthInput" type="number" min="1" max="10000" step="1" inputmode="numeric">
+                  </div>
+                  <button class="lock" id="lockBtn" type="button" aria-label="Lock aspect ratio" aria-pressed="true" title="Lock aspect ratio">🔗</button>
+                  <div>
+                    <label for="heightInput">Height</label>
+                    <input id="heightInput" type="number" min="1" max="10000" step="1" inputmode="numeric">
+                  </div>
+                </div>
+                <div class="ratio-box" id="ratioText">Aspect ratio: —</div>
+              </div>
+
+              <div class="control">
+                <label for="presetSelect">Quick Size</label>
+                <select id="presetSelect" title="Choose a quick image size">
+                  <option value="">Custom</option>
+                  <option value="1920x1080">Full HD — 1920 × 1080</option>
+                  <option value="1280x720">HD — 1280 × 720</option>
+                  <option value="1080x1080">Square — 1080 × 1080</option>
+                  <option value="1080x1350">Instagram Portrait — 1080 × 1350</option>
+                  <option value="1080x1920">Story — 1080 × 1920</option>
+                  <option value="1200x630">Social Post — 1200 × 630</option>
+                  <option value="800x800">Small Square — 800 × 800</option>
+                </select>
+              </div>
+
+              <div class="two">
+                <div class="control">
+                  <label for="formatSelect">Output Format</label>
+                  <select id="formatSelect" title="Choose output image format">
+                    <option value="original">Original</option>
+                    <option value="image/jpeg">JPG</option>
+                    <option value="image/png">PNG</option>
+                    <option value="image/webp">WebP</option>
+                  </select>
+                </div>
+                <div class="control">
+                  <label for="qualityInput">Quality <span id="qualityValue">90%</span></label>
+                  <input id="qualityInput" type="range" min="10" max="100" value="90" aria-label="Output image quality">
+                </div>
+              </div>
+
+              <div class="control">
+                <label for="backgroundSelect">Background <span class="hint">used when converting transparent images to JPG</span></label>
+                <select id="backgroundSelect" title="Choose background color">
+                  <option value="#ffffff">White</option>
+                  <option value="#000000">Black</option>
+                  <option value="#070b12">Clickdy Dark</option>
+                </select>
+              </div>
+
+              <label class="check">
+                <input id="preventUpscale" type="checkbox" checked>
+                <span>Prevent upscaling beyond original dimensions</span>
+              </label>
+
+              <div class="actions">
+                <button class="primary-btn" id="downloadBtn" type="button">Resize &amp; Download</button>
+                <button class="secondary-btn" id="resetBtn" type="button">Reset Settings</button>
+              </div>
+
+              <div class="progress" id="progress" aria-hidden="true">
+                <div class="progress-bar" id="progressBar"></div>
+              </div>
+              <div class="status" id="status" role="status" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <div class="tips">
+            <div class="tip"><strong>Private</strong><span>Your image is processed locally in your browser.</span></div>
+            <div class="tip"><strong>Precise</strong><span>Set an exact width and height or use a quick preset.</span></div>
+            <div class="tip"><strong>Flexible</strong><span>Export as JPG, PNG, WebP or keep the original format.</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2026 Clickdy. Image resizing happens in your browser.</footer>
+  </div>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const $ = (id) => document.getElementById(id);
+
+      const fileInput = $("fileInput");
+      const browseBtn = $("browseBtn");
+      const dropzone = $("dropzone");
+      const workspace = $("workspace");
+      const preview = $("preview");
+      const fileName = $("fileName");
+      const fileMeta = $("fileMeta");
+      const widthInput = $("widthInput");
+      const heightInput = $("heightInput");
+      const lockBtn = $("lockBtn");
+      const ratioText = $("ratioText");
+      const dimensionHint = $("dimensionHint");
+      const presetSelect = $("presetSelect");
+      const formatSelect = $("formatSelect");
+      const qualityInput = $("qualityInput");
+      const qualityValue = $("qualityValue");
+      const backgroundSelect = $("backgroundSelect");
+      const preventUpscale = $("preventUpscale");
+      const downloadBtn = $("downloadBtn");
+      const resetBtn = $("resetBtn");
+      const clearBtn = $("clearBtn");
+      const status = $("status");
+      const progress = $("progress");
+      const progressBar = $("progressBar");
+
+      let sourceFile = null;
+      let sourceImage = null;
+      let objectUrl = null;
+      let sourceWidth = 0;
+      let sourceHeight = 0;
+      let aspectRatio = 1;
+      let locked = true;
+      let updatingDimensions = false;
+
+      const defaults = {
+        format: "original",
+        quality: 90,
+        background: "#ffffff",
+        preventUpscale: true
+      };
+
+      function setStatus(message, type = "") {
+        status.textContent = message;
+        status.className = "status" + (type ? " " + type : "");
+      }
+
+      function setProgress(value, visible = true) {
+        progress.classList.toggle("active", visible);
+        progressBar.style.width = Math.max(0, Math.min(100, value)) + "%";
+      }
+
+      function resetProgress() {
+        progress.classList.remove("active");
+        progressBar.style.width = "0%";
+      }
+
+      function formatBytes(bytes) {
+        if (!Number.isFinite(bytes) || bytes <= 0) return "0 B";
+        const units = ["B", "KB", "MB", "GB"];
+        const index = Math.min(Math.floor(Math.log(bytes) / Math.log(1024)), units.length - 1);
+        return (bytes / Math.pow(1024, index)).toFixed(index === 0 ? 0 : 2) + " " + units[index];
+      }
+
+      function getExtension(mime, originalName) {
+        if (mime === "image/jpeg") return "jpg";
+        if (mime === "image/png") return "png";
+        if (mime === "image/webp") return "webp";
+        const match = originalName.match(/\.([a-z0-9]+)$/i);
+        return match ? match[1].toLowerCase() : "png";
+      }
+
+      function outputMime() {
+        return formatSelect.value === "original" ? (sourceFile.type || "image/png") : formatSelect.value;
+      }
+
+      function updateRatio() {
+        ratioText.textContent = aspectRatio > 0
+          ? "Aspect ratio: " + aspectRatio.toFixed(4) + " : 1"
+          : "Aspect ratio: —";
+      }
+
+      function updateDimensionsFromWidth() {
+        if (!locked || !sourceImage || updatingDimensions) return;
+        const width = Math.max(1, parseInt(widthInput.value, 10) || sourceWidth);
+        updatingDimensions = true;
+        heightInput.value = Math.max(1, Math.round(width / aspectRatio));
+        updatingDimensions = false;
+      }
+
+      function updateDimensionsFromHeight() {
+        if (!locked || !sourceImage || updatingDimensions) return;
+        const height = Math.max(1, parseInt(heightInput.value, 10) || sourceHeight);
+        updatingDimensions = true;
+        widthInput.value = Math.max(1, Math.round(height * aspectRatio));
+        updatingDimensions = false;
+      }
+
+      function applyPreset() {
+        const value = presetSelect.value;
+        if (!value || !sourceImage) return;
+        const parts = value.split("x").map(Number);
+        if (parts.length !== 2) return;
+
+        updatingDimensions = true;
+        widthInput.value = parts[0];
+        heightInput.value = parts[1];
+        updatingDimensions = false;
+        setStatus("Preset applied. You can still edit the dimensions manually.");
+      }
+
+      function resetSettings() {
+        if (!sourceImage) return;
+        formatSelect.value = defaults.format;
+        qualityInput.value = String(defaults.quality);
+        qualityValue.textContent = defaults.quality + "%";
+        backgroundSelect.value = defaults.background;
+        preventUpscale.checked = defaults.preventUpscale;
+        presetSelect.value = "";
+        locked = true;
+        lockBtn.setAttribute("aria-pressed", "true");
+        lockBtn.title = "Unlock aspect ratio";
+        widthInput.value = sourceWidth;
+        heightInput.value = sourceHeight;
+        setStatus("Settings reset.");
+      }
+
+      function clearImage() {
+        sourceFile = null;
+        sourceImage = null;
+        sourceWidth = 0;
+        sourceHeight = 0;
+        aspectRatio = 1;
+
+        if (objectUrl) {
+          URL.revokeObjectURL(objectUrl);
+          objectUrl = null;
+        }
+
+        preview.removeAttribute("src");
+        fileInput.value = "";
+        workspace.classList.remove("active");
+        resetProgress();
+        setStatus("");
+      }
+
+      function loadFile(file) {
+        if (!file || !file.type.startsWith("image/")) {
+          setStatus("Please choose a valid image file.", "error");
+          return;
+        }
+
+        if (file.size > 50 * 1024 * 1024) {
+          setStatus("This image is larger than 50 MB. Please choose a smaller file.", "error");
+          return;
+        }
+
+        if (objectUrl) URL.revokeObjectURL(objectUrl);
+        objectUrl = URL.createObjectURL(file);
+
+        const image = new Image();
+        image.onload = () => {
+          sourceFile = file;
+          sourceImage = image;
+          sourceWidth = image.naturalWidth;
+          sourceHeight = image.naturalHeight;
+          aspectRatio = sourceWidth / sourceHeight;
+
+          fileName.textContent = file.name;
+          fileMeta.textContent = sourceWidth + " × " + sourceHeight + " • " + formatBytes(file.size);
+          widthInput.value = sourceWidth;
+          heightInput.value = sourceHeight;
+          dimensionHint.textContent = "Original: " + sourceWidth + " × " + sourceHeight;
+          preview.src = objectUrl;
+          preview.alt = "Preview of " + file.name;
+          workspace.classList.add("active");
+          updateRatio();
+          resetProgress();
+          setStatus("Image loaded. Choose your dimensions and download the resized image.");
+        };
+        image.onerror = () => {
+          setStatus("The image could not be decoded by your browser.", "error");
+          URL.revokeObjectURL(objectUrl);
+          objectUrl = null;
+        };
+        image.src = objectUrl;
+      }
+
+      function getTargetDimensions() {
+        let width = parseInt(widthInput.value, 10);
+        let height = parseInt(heightInput.value, 10);
+
+        if (!Number.isFinite(width) || width < 1 || !Number.isFinite(height) || height < 1) {
+          throw new Error("Enter valid width and height values.");
+        }
+
+        width = Math.min(width, 10000);
+        height = Math.min(height, 10000);
+
+        if (preventUpscale.checked) {
+          width = Math.min(width, sourceWidth);
+          height = Math.min(height, sourceHeight);
+
+          if (locked) {
+            const scale = Math.min(width / sourceWidth, height / sourceHeight);
+            width = Math.max(1, Math.round(sourceWidth * scale));
+            height = Math.max(1, Math.round(sourceHeight * scale));
+          }
+        }
+
+        return { width, height };
+      }
+
+      function drawBackground(ctx, width, height, color) {
+        ctx.save();
+        ctx.fillStyle = color;
+        ctx.fillRect(0, 0, width, height);
+        ctx.restore();
+      }
+
+      function canvasToBlob(canvas, mime, quality) {
+        return new Promise((resolve, reject) => {
+          canvas.toBlob((blob) => {
+            if (blob) resolve(blob);
+            else reject(new Error("The browser could not create the output image."));
+          }, mime, quality);
+        });
+      }
+
+      function downloadBlob(blob, name) {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = name;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 1500);
+      }
+
+      async function resizeAndDownload() {
+        if (!sourceImage || !sourceFile) {
+          setStatus("Choose an image first.", "error");
+          return;
+        }
+
+        let target;
+        try {
+          target = getTargetDimensions();
+        } catch (error) {
+          setStatus(error.message, "error");
+          return;
+        }
+
+        const mime = outputMime();
+        const quality = Number(qualityInput.value) / 100;
+
+        if (target.width === sourceWidth && target.height === sourceHeight && mime === sourceFile.type && mime !== "image/jpeg" && mime !== "image/webp") {
+          setStatus("The selected dimensions and format match the original. Choose a different size or format.", "error");
+          return;
+        }
+
+        downloadBtn.disabled = true;
+        downloadBtn.textContent = "Processing…";
+        setProgress(12, true);
+        setStatus("Preparing resized image…");
+
+        await new Promise(requestAnimationFrame);
+
+        try {
+          const canvas = document.createElement("canvas");
+          canvas.width = target.width;
+          canvas.height = target.height;
+
+          const ctx = canvas.getContext("2d", { alpha: mime !== "image/jpeg" });
+          if (!ctx) throw new Error("Canvas is not available in this browser.");
+
+          setProgress(35, true);
+
+          if (mime === "image/jpeg") {
+            drawBackground(ctx, target.width, target.height, backgroundSelect.value);
+          } else {
+            ctx.clearRect(0, 0, target.width, target.height);
+          }
+
+          ctx.imageSmoothingEnabled = true;
+          ctx.imageSmoothingQuality = "high";
+          ctx.drawImage(sourceImage, 0, 0, target.width, target.height);
+
+          setProgress(72, true);
+          const blob = await canvasToBlob(canvas, mime, quality);
+          setProgress(94, true);
+
+          const originalBase = sourceFile.name.replace(/\.[^.]+$/, "") || "image";
+          const ext = getExtension(mime, sourceFile.name);
+          const filename = originalBase + "-" + target.width + "x" + target.height + "." + ext;
+
+          downloadBlob(blob, filename);
+          setProgress(100, true);
+          setStatus("Done — " + target.width + " × " + target.height + " • " + formatBytes(blob.size), "success");
+
+          setTimeout(resetProgress, 900);
+        } catch (error) {
+          setStatus(error && error.message ? error.message : "Could not resize the image.", "error");
+          resetProgress();
+        } finally {
+          downloadBtn.disabled = false;
+          downloadBtn.textContent = "Resize & Download";
+        }
+      }
+
+      browseBtn.addEventListener("click", () => fileInput.click());
+
+      fileInput.addEventListener("change", () => {
+        const file = fileInput.files && fileInput.files[0];
+        if (file) loadFile(file);
+      });
+
+      ["dragenter", "dragover"].forEach((eventName) => {
+        dropzone.addEventListener(eventName, (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          dropzone.classList.add("dragover");
+        });
+      });
+
+      ["dragleave", "drop"].forEach((eventName) => {
+        dropzone.addEventListener(eventName, (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          dropzone.classList.remove("dragover");
+        });
+      });
+
+      dropzone.addEventListener("drop", (event) => {
+        const file = event.dataTransfer && event.dataTransfer.files && event.dataTransfer.files[0];
+        if (file) loadFile(file);
+      });
+
+      widthInput.addEventListener("input", updateDimensionsFromWidth);
+      heightInput.addEventListener("input", updateDimensionsFromHeight);
+      presetSelect.addEventListener("change", applyPreset);
+
+      lockBtn.addEventListener("click", () => {
+        locked = !locked;
+        lockBtn.setAttribute("aria-pressed", String(locked));
+        lockBtn.title = locked ? "Unlock aspect ratio" : "Lock aspect ratio";
+        if (locked && sourceImage) {
+          aspectRatio = sourceWidth / sourceHeight;
+          updateDimensionsFromWidth();
+        }
+        setStatus(locked ? "Aspect ratio locked." : "Aspect ratio unlocked.");
+      });
+
+      qualityInput.addEventListener("input", () => {
+        qualityValue.textContent = qualityInput.value + "%";
+      });
+
+      downloadBtn.addEventListener("click", resizeAndDownload);
+      resetBtn.addEventListener("click", resetSettings);
+      clearBtn.addEventListener("click", clearImage);
+
+      document.addEventListener("keydown", (event) => {
+        if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "o") {
+          event.preventDefault();
+          fileInput.click();
+        }
+      });
+
+      window.addEventListener("beforeunload", () => {
+        if (objectUrl) URL.revokeObjectURL(objectUrl);
+      });
+    })();
+  </script>
+</body>
+</html>
