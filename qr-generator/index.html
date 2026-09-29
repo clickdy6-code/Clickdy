@@ -3,74 +3,413 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Create QR codes for URLs, text, email, phone, Wi-Fi, SMS and locations with Clickdy.">
-<title>QR Generator - Clickdy</title>
+<title>QR Code Generator - Clickdy</title>
+<meta name="description" content="Create downloadable QR codes for links, text, email, phone, Wi-Fi, SMS and locations with Clickdy.">
+<link rel="icon" type="image/png" href="../assets/logo.png">
 <style>
-:root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--ok:#62d89a;--bad:#ff6f7d;--border:rgba(255,255,255,.09)}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -10%,rgba(99,199,255,.12),transparent 34%),var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.page{width:min(1180px,calc(100% - 32px));margin:auto}.top{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.06)}.brand{display:flex;align-items:center;gap:11px;color:var(--text);text-decoration:none;font-size:20px;font-weight:700}.brand img{width:36px;height:36px;object-fit:contain;border-radius:9px}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--accent)}
-.hero{text-align:center;padding:54px 0 30px}.pill{display:inline-flex;gap:8px;padding:7px 12px;border:1px solid rgba(99,199,255,.25);border-radius:999px;color:#b9e7ff;background:rgba(99,199,255,.07);font-size:12px;font-weight:700;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}h1{font-size:clamp(34px,5vw,58px);line-height:1.05;margin:18px 0 10px;letter-spacing:-1.8px}.accent{color:var(--accent)}.hero p{max-width:700px;margin:auto;color:var(--muted);font-size:16px}
-.shell{background:linear-gradient(180deg,#111925,#0d131d);border:1px solid var(--border);border-radius:24px;padding:22px;margin-bottom:60px}.grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:18px}.card{background:var(--panel2);border:1px solid var(--border);border-radius:18px;padding:18px}.card h2{font-size:16px;margin:0 0 15px}.preview{min-height:500px;display:flex;align-items:center;justify-content:center;background:#090e15;border:1px solid var(--border);border-radius:14px;padding:24px}.preview canvas{max-width:100%;height:auto;background:#fff;border-radius:4px}.placeholder{color:var(--muted);font-size:13px;text-align:center}
-.typegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}.type{min-height:42px;border:1px solid var(--border);border-radius:10px;background:var(--panel3);color:var(--muted);font-weight:700}.type.active{color:#c9edff;background:rgba(99,199,255,.1);border-color:rgba(99,199,255,.5)}.field{margin-bottom:15px}.field label{display:flex;justify-content:space-between;margin-bottom:7px;color:#dce4ee;font-size:13px;font-weight:700}.hint{font-size:11px;color:var(--muted);font-weight:400}textarea,input[type=text],input[type=email],input[type=tel],input[type=number],select{width:100%;padding:10px 11px;border:1px solid var(--border);border-radius:10px;background:#0a1018;color:var(--text);outline:0}textarea{min-height:100px;resize:vertical}input:focus,textarea:focus,select:focus{border-color:rgba(99,199,255,.55);box-shadow:0 0 0 3px rgba(99,199,255,.08)}input[type=color]{width:100%;height:42px;padding:4px;background:#0a1018;border:1px solid var(--border);border-radius:10px}input[type=range]{width:100%;accent-color:var(--accent)}.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}.check{display:flex;align-items:center;gap:9px;padding:10px;border:1px solid var(--border);border-radius:10px;background:#0a1018;color:#dce4ee;font-size:13px}.check input{accent-color:var(--accent)}
-.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.primary,.secondary,.danger{padding:11px 16px;border-radius:11px;font-weight:700}.primary{border:0;background:var(--accent);color:#06111a}.secondary{border:1px solid var(--border);background:var(--panel3);color:var(--text)}.danger{border:1px solid rgba(255,111,125,.28);background:rgba(255,111,125,.12);color:#fff}.primary:hover{background:#86d7ff}.secondary:hover{border-color:rgba(99,199,255,.4)}.status{min-height:22px;margin-top:12px;color:var(--muted);font-size:12px}.success{color:var(--ok)}.error{color:var(--bad)}.info{margin-top:15px;padding:12px;border:1px solid var(--border);border-radius:12px;color:var(--muted);font-size:12px}.info strong{color:var(--text)}.tips{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.tip{padding:12px;border:1px solid var(--border);border-radius:12px}.tip strong{display:block;font-size:12px}.tip span{font-size:11px;color:var(--muted)}footer{text-align:center;color:var(--muted);font-size:12px;padding-bottom:30px}
-@media(max-width:850px){.grid{grid-template-columns:1fr}.preview{min-height:350px}.tips{grid-template-columns:1fr}}@media(max-width:560px){.page{width:calc(100% - 20px)}.top{height:72px}.brand{font-size:18px}.brand img{width:32px;height:32px}.hero{padding:38px 0 24px}.shell{padding:12px}.typegrid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}.actions{flex-direction:column}.actions button{width:100%}}
+:root{
+  --bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;
+  --text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--accent2:#3aa9e8;
+  --success:#62d89a;--danger:#ff6f7d;--border:rgba(255,255,255,.09);--radius:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif;min-height:100vh}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+.topbar{height:78px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 28px;background:rgba(7,11,18,.94);position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:20px}
+.brand img{width:36px;height:36px;object-fit:contain}
+.back{color:var(--muted);font-size:14px}
+.back:hover{color:var(--text)}
+.wrap{width:min(1120px,calc(100% - 32px));margin:0 auto;padding:54px 0 70px}
+.hero{text-align:center;max-width:780px;margin:0 auto 34px}
+.badge{display:inline-flex;padding:7px 12px;border:1px solid rgba(99,199,255,.25);background:rgba(99,199,255,.08);border-radius:999px;color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.04em}
+h1{font-size:clamp(34px,5vw,58px);line-height:1.05;margin:18px 0 14px;letter-spacing:-1.5px}
+h1 span{color:var(--accent)}
+.hero p{color:var(--muted);font-size:16px;line-height:1.7;margin:0}
+.workspace{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(330px,.95fr);gap:18px}
+.panel{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.22)}
+.panel h2{font-size:18px;margin:0 0 17px}
+.field{margin-bottom:15px}
+label{display:block;font-size:13px;font-weight:600;margin-bottom:7px}
+textarea,input,select{width:100%;border:1px solid var(--border);background:var(--panel2);color:var(--text);border-radius:12px;outline:none}
+textarea{min-height:170px;resize:vertical;padding:13px;line-height:1.55}
+input[type=text],input[type=email],input[type=tel],input[type=number],select{height:44px;padding:0 12px}
+textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-shadow:0 0 0 3px rgba(99,199,255,.08)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.type-buttons{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
+.type-btn{border:1px solid var(--border);background:var(--panel2);color:var(--muted);padding:10px 8px;border-radius:10px;font-size:13px;font-weight:600}
+.type-btn.active{background:rgba(99,199,255,.12);border-color:rgba(99,199,255,.45);color:var(--accent)}
+.hidden{display:none!important}
+.preview{min-height:100%;display:flex;flex-direction:column}
+.qr-stage{flex:1;min-height:360px;background:var(--panel2);border:1px solid var(--border);border-radius:15px;display:flex;align-items:center;justify-content:center;padding:22px}
+.qr-stage canvas{max-width:100%;height:auto!important;image-rendering:auto;background:#fff}
+.placeholder{text-align:center;color:var(--muted);max-width:300px;line-height:1.6}
+.status{min-height:22px;margin-top:12px;color:var(--muted);font-size:13px}
+.status.ok{color:var(--success)}
+.status.error{color:var(--danger)}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:14px}
+.btn{border:1px solid var(--border);background:var(--panel2);color:var(--text);border-radius:11px;padding:11px 13px;font-weight:700}
+.btn.primary{background:var(--accent);color:#06101a;border-color:var(--accent)}
+.btn:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.note{font-size:12px;color:var(--muted);line-height:1.55;margin-top:12px}
+.footer{text-align:center;color:var(--muted);font-size:12px;padding:0 20px 30px}
+@media(max-width:800px){
+  .workspace{grid-template-columns:1fr}
+  .preview{min-height:500px}
+}
+@media(max-width:520px){
+  .topbar{padding:0 16px;height:70px}
+  .wrap{width:min(100% - 22px,1120px);padding-top:34px}
+  .grid,.actions{grid-template-columns:1fr}
+  .type-buttons{grid-template-columns:repeat(2,1fr)}
+  .panel{padding:16px}
+  .qr-stage{min-height:310px}
+}
 </style>
 </head>
 <body>
-<div class="page">
-<header class="top"><a class="brand" href="../index.html" aria-label="Clickdy home"><img src="../assets/logo.png" alt="Clickdy logo"><span>Clickdy</span></a><a class="back" href="../index.html">← Back to Home</a></header>
-<main>
-<section class="hero"><div class="pill"><span class="dot"></span> Productivity Tool</div><h1>Generate QR Codes. <span class="accent">Instantly.</span></h1><p>Create QR codes for URLs, text, email, phone, Wi-Fi, SMS and locations. Customize and download PNG or SVG.</p></section>
-<section class="shell"><div class="grid">
-<div class="card"><h2>QR Preview</h2><div class="preview"><canvas id="qr" width="500" height="500" aria-label="Generated QR code" hidden></canvas><div id="empty" class="placeholder">Enter content and generate your QR code.</div></div><div id="info" class="info"><strong>Ready.</strong> QR generation runs in your browser.</div></div>
-<div class="card"><h2>QR Settings</h2>
-<div class="field"><div class="field label">QR Type</div><div class="typegrid" role="group" aria-label="QR code type">
-<button class="type active" data-type="text" type="button">Text / URL</button><button class="type" data-type="email" type="button">Email</button><button class="type" data-type="phone" type="button">Phone</button><button class="type" data-type="wifi" type="button">Wi-Fi</button><button class="type" data-type="sms" type="button">SMS</button><button class="type" data-type="location" type="button">Location</button>
-</div></div>
-<div id="fields"></div>
-<div class="two"><div class="field"><label for="size">Output Size</label><select id="size" title="Choose QR output size"><option value="300">300 × 300</option><option value="500" selected>500 × 500</option><option value="800">800 × 800</option><option value="1200">1200 × 1200</option></select></div><div class="field"><label for="level">Error Correction</label><select id="level" title="Choose QR error correction"><option>L</option><option selected>M</option><option>Q</option><option>H</option></select></div></div>
-<div class="two"><div class="field"><label for="dark">QR Color</label><input id="dark" type="color" value="#111827" aria-label="QR color"></div><div class="field"><label for="light">Background</label><input id="light" type="color" value="#ffffff" aria-label="QR background color"></div></div>
-<div class="field"><label for="margin">Quiet Zone <span id="mv" class="hint">4</span></label><input id="margin" type="range" min="0" max="12" value="4" aria-label="QR quiet zone"></div>
-<label class="check"><input id="auto" type="checkbox" checked><span>Regenerate automatically when settings change</span></label>
-<div class="actions"><button id="generate" class="primary" type="button">Generate QR Code</button><button id="png" class="secondary" type="button">Download PNG</button><button id="svg" class="secondary" type="button">Download SVG</button><button id="clear" class="danger" type="button">Clear</button></div>
-<div id="status" class="status" role="status" aria-live="polite"></div>
-</div></div>
-<div class="tips"><div class="tip"><strong>6 QR Types</strong><span>URL/text, email, phone, Wi-Fi, SMS and map location.</span></div><div class="tip"><strong>Custom Output</strong><span>Resolution, colors, error correction and quiet zone.</span></div><div class="tip"><strong>PNG + SVG</strong><span>Raster and scalable exports are available.</span></div></div>
-</section></main><footer>© 2026 Clickdy. QR generation happens in your browser.</footer></div>
-<script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js"></script>
+<header class="topbar">
+  <a class="brand" href="../index.html" aria-label="Clickdy home">
+    <img src="../assets/logo.png" alt="Clickdy logo" width="36" height="36">
+    <span>Clickdy</span>
+  </a>
+  <a class="back" href="../index.html">← Back to Home</a>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <span class="badge">FREE QR TOOL • NO SIGN-UP</span>
+    <h1>Create QR Codes <span>Instantly.</span></h1>
+    <p>Generate clean QR codes for URLs, text, email, phone, Wi-Fi, SMS and locations. Everything runs in your browser.</p>
+  </section>
+
+  <section class="workspace">
+    <div class="panel">
+      <h2>QR Code Details</h2>
+
+      <div class="type-buttons" role="tablist" aria-label="QR content type">
+        <button class="type-btn active" type="button" data-type="text">Text / URL</button>
+        <button class="type-btn" type="button" data-type="email">Email</button>
+        <button class="type-btn" type="button" data-type="phone">Phone</button>
+        <button class="type-btn" type="button" data-type="wifi">Wi-Fi</button>
+        <button class="type-btn" type="button" data-type="sms">SMS</button>
+        <button class="type-btn" type="button" data-type="location">Location</button>
+      </div>
+
+      <div id="fields-text" class="type-fields">
+        <div class="field">
+          <label for="textValue">Text or URL</label>
+          <textarea id="textValue" placeholder="https://example.com or any text"></textarea>
+        </div>
+      </div>
+
+      <div id="fields-email" class="type-fields hidden">
+        <div class="grid">
+          <div class="field"><label for="emailTo">Email address</label><input id="emailTo" type="email" placeholder="hello@example.com"></div>
+          <div class="field"><label for="emailSubject">Subject</label><input id="emailSubject" type="text" placeholder="Hello"></div>
+        </div>
+        <div class="field"><label for="emailBody">Message</label><textarea id="emailBody" placeholder="Your message"></textarea></div>
+      </div>
+
+      <div id="fields-phone" class="type-fields hidden">
+        <div class="field"><label for="phoneValue">Phone number</label><input id="phoneValue" type="tel" placeholder="+92 300 1234567"></div>
+      </div>
+
+      <div id="fields-wifi" class="type-fields hidden">
+        <div class="grid">
+          <div class="field"><label for="wifiName">Network name (SSID)</label><input id="wifiName" type="text" placeholder="My Wi-Fi"></div>
+          <div class="field"><label for="wifiPassword">Password</label><input id="wifiPassword" type="text" placeholder="Password"></div>
+        </div>
+        <div class="grid">
+          <div class="field"><label for="wifiSecurity">Security</label><select id="wifiSecurity" title="Wi-Fi security"><option value="WPA">WPA/WPA2</option><option value="WEP">WEP</option><option value="nopass">No password</option></select></div>
+          <div class="field"><label for="wifiHidden">Hidden network</label><select id="wifiHidden" title="Hidden network"><option value="false">No</option><option value="true">Yes</option></select></div>
+        </div>
+      </div>
+
+      <div id="fields-sms" class="type-fields hidden">
+        <div class="grid">
+          <div class="field"><label for="smsPhone">Phone number</label><input id="smsPhone" type="tel" placeholder="+92 300 1234567"></div>
+          <div class="field"><label for="smsBody">Message</label><input id="smsBody" type="text" placeholder="Hello!"></div>
+        </div>
+      </div>
+
+      <div id="fields-location" class="type-fields hidden">
+        <div class="grid">
+          <div class="field"><label for="lat">Latitude</label><input id="lat" type="number" step="any" placeholder="29.3956"></div>
+          <div class="field"><label for="lng">Longitude</label><input id="lng" type="number" step="any" placeholder="71.6836"></div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="field">
+          <label for="size">QR size</label>
+          <select id="size" title="QR size">
+            <option value="300">300 × 300</option><option value="500" selected>500 × 500</option>
+            <option value="800">800 × 800</option><option value="1200">1200 × 1200</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="errorLevel">Error correction</label>
+          <select id="errorLevel" title="Error correction level">
+            <option value="L">Low</option><option value="M" selected>Medium</option><option value="Q">Quartile</option><option value="H">High</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="darkColor">QR color</label>
+          <input id="darkColor" type="text" value="#000000" aria-label="QR foreground color">
+        </div>
+        <div class="field">
+          <label for="lightColor">Background color</label>
+          <input id="lightColor" type="text" value="#ffffff" aria-label="QR background color">
+        </div>
+      </div>
+
+      <button class="btn" id="clearBtn" type="button">Clear & Reset</button>
+      <p class="note">Tip: the QR library is loaded with automatic CDN fallback. If one CDN is unavailable, Clickdy tries another automatically.</p>
+    </div>
+
+    <div class="panel preview">
+      <h2>Your QR Code</h2>
+      <div class="qr-stage" id="qrStage">
+        <div class="placeholder" id="placeholder">Loading QR engine…<br>Please wait a moment.</div>
+      </div>
+      <div class="status" id="status" aria-live="polite">Starting QR engine…</div>
+      <div class="actions">
+        <button class="btn primary" id="downloadPng" type="button" disabled>Download PNG</button>
+        <button class="btn" id="downloadSvg" type="button" disabled>Download SVG</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="footer">© Clickdy — Free online tools. Processing happens in your browser.</div>
+
 <script>
-(()=>{"use strict";
-const $=id=>document.getElementById(id),qr=$("qr"),fields=$("fields"),empty=$("empty"),status=$("status"),info=$("info");
-let type="text",last="",opts=null,timer;
-const types=[...document.querySelectorAll(".type")];
-function statusMsg(t,c=""){status.textContent=t;status.className="status "+c}
-function f(label,id,t,ph){return '<div class="field"><label for="'+id+'">'+label+'</label><input id="'+id+'" type="'+t+'" placeholder="'+ph+'"></div>'}
-function render(){
-if(type==="text")fields.innerHTML='<div class="field"><label for="content">Content <span class="hint">URL or text</span></label><textarea id="content" placeholder="https://example.com" aria-label="QR code content"></textarea></div>';
-else if(type==="email")fields.innerHTML=f("Email Address","email","email","name@example.com")+f("Subject","subject","text","Subject")+'<div class="field"><label for="body">Message</label><textarea id="body" placeholder="Your message" aria-label="Email message"></textarea></div>';
-else if(type==="phone")fields.innerHTML=f("Phone Number","phone","tel","+92 300 1234567");
-else if(type==="sms")fields.innerHTML=f("Phone Number","smsphone","tel","+92 300 1234567")+'<div class="field"><label for="smsbody">Message</label><textarea id="smsbody" placeholder="Your SMS message" aria-label="SMS message"></textarea></div>';
-else if(type==="wifi")fields.innerHTML=f("Network Name (SSID)","ssid","text","My Wi-Fi")+f("Password","pass","text","Wi-Fi password")+'<div class="field"><label for="security">Security</label><select id="security" title="Choose Wi-Fi security"><option>WPA</option><option>WEP</option><option value="nopass">No Password</option></select></div><label class="check"><input id="hiddenNet" type="checkbox"><span>Hidden network</span></label>';
-else fields.innerHTML='<div class="two">'+f("Latitude","lat","number","31.5204")+f("Longitude","lon","number","74.3587")+'</div>';
-}
-function payload(){
-if(type==="text"){let v=$("content").value.trim();if(!v)throw Error("Enter a URL or text first.");return v}
-if(type==="email"){let v=$("email").value.trim();if(!v)throw Error("Enter an email address.");return "mailto:"+v+"?subject="+encodeURIComponent($("subject").value.trim())+"&body="+encodeURIComponent($("body").value.trim())}
-if(type==="phone"){let v=$("phone").value.trim();if(!v)throw Error("Enter a phone number.");return "tel:"+v}
-if(type==="sms"){let v=$("smsphone").value.trim();if(!v)throw Error("Enter a phone number.");return "SMSTO:"+v+":"+$("smsbody").value.trim()}
-if(type==="wifi"){let s=$("ssid").value,p=$("pass").value;if(!s)throw Error("Enter the Wi-Fi network name.");return "WIFI:T:"+$("security").value+";S:"+s+";P:"+p+";H:"+($("hiddenNet").checked?"true":"false")+";;"}
-let a=Number($("lat").value),b=Number($("lon").value);if(!Number.isFinite(a)||a<-90||a>90||!Number.isFinite(b)||b<-180||b>180)throw Error("Enter valid latitude and longitude.");return "geo:"+a+","+b;
-}
-function options(){return{errorCorrectionLevel:$("level").value,margin:Number($("margin").value),width:Number($("size").value),color:{dark:$("dark").value,light:$("light").value}}}
-async function generate(){
-try{if(!window.QRCode)throw Error("QR engine is still loading. Try again.");let p=payload(),o=options();await QRCode.toCanvas(qr,p,o);qr.hidden=false;empty.hidden=true;last=p;opts=o;info.innerHTML="<strong>Generated.</strong> "+o.width+" × "+o.width+" px • Error correction "+o.errorCorrectionLevel+".";statusMsg("QR code generated successfully.","success")}catch(e){statusMsg(e.message||"Could not generate QR code.","error")}}
-function schedule(){if(!$("auto").checked)return;clearTimeout(timer);timer=setTimeout(()=>{try{payload();generate()}catch(e){}},250)}
-async function png(){if(!last){await generate();if(!last)return}try{let u=await QRCode.toDataURL(last,opts),a=document.createElement("a");a.href=u;a.download="clickdy-qr-code.png";a.click();statusMsg("PNG downloaded.","success")}catch(e){statusMsg("PNG export failed.","error")}}
-async function svg(){if(!last){await generate();if(!last)return}try{let s=await QRCode.toString(last,{...opts,type:"svg"}),u=URL.createObjectURL(new Blob([s],{type:"image/svg+xml"})),a=document.createElement("a");a.href=u;a.download="clickdy-qr-code.svg";a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);statusMsg("SVG downloaded.","success")}catch(e){statusMsg("SVG export failed.","error")}}
-types.forEach(b=>b.onclick=()=>{types.forEach(x=>x.classList.remove("active"));b.classList.add("active");type=b.dataset.type;render();statusMsg("")});
-$("generate").onclick=generate;$("png").onclick=png;$("svg").onclick=svg;$("clear").onclick=()=>{qr.hidden=true;empty.hidden=false;qr.getContext("2d").clearRect(0,0,qr.width,qr.height);last="";opts=null;statusMsg("");info.innerHTML="<strong>Ready.</strong> QR generation runs in your browser."};
-$("margin").oninput=()=>{$("mv").textContent=$("margin").value;schedule()};
-["size","level","dark","light"].forEach(id=>$(id).onchange=schedule);fields.oninput=schedule;fields.onchange=schedule;
-render();
+(function(){
+  "use strict";
+
+  var QR_READY = false;
+  var currentCanvas = null;
+  var currentType = "text";
+
+  function setStatus(message, kind){
+    var el = document.getElementById("status");
+    el.textContent = message;
+    el.className = "status" + (kind ? " " + kind : "");
+  }
+
+  function loadScript(src){
+    return new Promise(function(resolve, reject){
+      var script = document.createElement("script");
+      script.src = src;
+      script.async = true;
+      script.onload = function(){ resolve(); };
+      script.onerror = function(){ reject(new Error("Failed to load " + src)); };
+      document.head.appendChild(script);
+    });
+  }
+
+  async function loadQREngine(){
+    var urls = [
+      "https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js",
+      "https://cdn.jsdelivr.net/npm/qrcode@1.5.4/lib/browser.min.js",
+      "https://unpkg.com/qrcode@1.5.4/build/qrcode.min.js"
+    ];
+
+    for(var i=0;i<urls.length;i++){
+      try{
+        if(window.QRCode && typeof window.QRCode.toCanvas === "function"){
+          QR_READY = true;
+          return true;
+        }
+        await loadScript(urls[i]);
+        if(window.QRCode && typeof window.QRCode.toCanvas === "function"){
+          QR_READY = true;
+          return true;
+        }
+      }catch(err){}
+    }
+    QR_READY = false;
+    return false;
+  }
+
+  function escapeSvgText(text){
+    return String(text).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  function getPayload(){
+    var type = currentType;
+    if(type === "text") return document.getElementById("textValue").value.trim();
+
+    if(type === "email"){
+      var to = document.getElementById("emailTo").value.trim();
+      if(!to) return "";
+      var subject = document.getElementById("emailSubject").value.trim();
+      var body = document.getElementById("emailBody").value.trim();
+      return "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    }
+
+    if(type === "phone"){
+      var phone = document.getElementById("phoneValue").value.trim();
+      return phone ? "tel:" + phone : "";
+    }
+
+    if(type === "wifi"){
+      var ssid = document.getElementById("wifiName").value;
+      var pass = document.getElementById("wifiPassword").value;
+      var security = document.getElementById("wifiSecurity").value;
+      var hidden = document.getElementById("wifiHidden").value;
+      if(!ssid) return "";
+      return "WIFI:T:" + security + ";S:" + ssid.replace(/[\\;,:]/g,function(m){return "\\"+m;}) + ";P:" + pass.replace(/[\\;,:]/g,function(m){return "\\"+m;}) + ";H:" + hidden + ";;";
+    }
+
+    if(type === "sms"){
+      var smsPhone = document.getElementById("smsPhone").value.trim();
+      var smsBody = document.getElementById("smsBody").value.trim();
+      if(!smsPhone) return "";
+      return "SMSTO:" + smsPhone + ":" + smsBody;
+    }
+
+    if(type === "location"){
+      var lat = document.getElementById("lat").value.trim();
+      var lng = document.getElementById("lng").value.trim();
+      if(!lat || !lng) return "";
+      return "geo:" + lat + "," + lng;
+    }
+
+    return "";
+  }
+
+  function getOptions(){
+    return {
+      width: Number(document.getElementById("size").value),
+      margin: 2,
+      errorCorrectionLevel: document.getElementById("errorLevel").value,
+      color: {
+        dark: document.getElementById("darkColor").value.trim() || "#000000",
+        light: document.getElementById("lightColor").value.trim() || "#ffffff"
+      }
+    };
+  }
+
+  function draw(){
+    if(!QR_READY){
+      setStatus("QR engine is unavailable. Refresh the page and try again.", "error");
+      return;
+    }
+
+    var payload = getPayload();
+    var stage = document.getElementById("qrStage");
+    var placeholder = document.getElementById("placeholder");
+    var pngBtn = document.getElementById("downloadPng");
+    var svgBtn = document.getElementById("downloadSvg");
+
+    if(!payload){
+      stage.innerHTML = "";
+      placeholder = document.createElement("div");
+      placeholder.className = "placeholder";
+      placeholder.id = "placeholder";
+      placeholder.textContent = "Enter your content to generate a QR code.";
+      stage.appendChild(placeholder);
+      currentCanvas = null;
+      pngBtn.disabled = true;
+      svgBtn.disabled = true;
+      setStatus("Ready.", "");
+      return;
+    }
+
+    stage.innerHTML = "";
+    var canvas = document.createElement("canvas");
+    stage.appendChild(canvas);
+
+    QRCode.toCanvas(canvas, payload, getOptions(), function(error){
+      if(error){
+        currentCanvas = null;
+        pngBtn.disabled = true;
+        svgBtn.disabled = true;
+        setStatus("Could not generate this QR code. Try shorter content or a lower error level.", "error");
+        return;
+      }
+      currentCanvas = canvas;
+      pngBtn.disabled = false;
+      svgBtn.disabled = false;
+      setStatus("QR code ready.", "ok");
+    });
+  }
+
+  function switchType(type){
+    currentType = type;
+    document.querySelectorAll(".type-btn").forEach(function(btn){
+      btn.classList.toggle("active", btn.getAttribute("data-type") === type);
+    });
+    document.querySelectorAll(".type-fields").forEach(function(box){
+      box.classList.add("hidden");
+    });
+    document.getElementById("fields-" + type).classList.remove("hidden");
+    draw();
+  }
+
+  document.querySelectorAll(".type-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      switchType(btn.getAttribute("data-type"));
+    });
+  });
+
+  document.querySelectorAll("textarea,input,select").forEach(function(el){
+    el.addEventListener("input", draw);
+    el.addEventListener("change", draw);
+  });
+
+  document.getElementById("clearBtn").addEventListener("click", function(){
+    document.querySelectorAll("textarea,input").forEach(function(el){
+      if(el.type !== "color") el.value = "";
+    });
+    document.getElementById("darkColor").value = "#000000";
+    document.getElementById("lightColor").value = "#ffffff";
+    document.getElementById("size").value = "500";
+    document.getElementById("errorLevel").value = "M";
+    document.getElementById("wifiSecurity").value = "WPA";
+    document.getElementById("wifiHidden").value = "false";
+    switchType("text");
+  });
+
+  document.getElementById("downloadPng").addEventListener("click", function(){
+    if(!currentCanvas) return;
+    var a = document.createElement("a");
+    a.download = "clickdy-qr-code.png";
+    a.href = currentCanvas.toDataURL("image/png");
+    a.click();
+  });
+
+  document.getElementById("downloadSvg").addEventListener("click", function(){
+    if(!currentCanvas) return;
+    var data = currentCanvas.toDataURL("image/png");
+    var size = currentCanvas.width;
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="' + size + '" height="' + size + '" viewBox="0 0 ' + size + ' ' + size + '"><image href="' + escapeSvgText(data) + '" width="' + size + '" height="' + size + '"/></svg>';
+    var blob = new Blob([svg], {type:"image/svg+xml;charset=utf-8"});
+    var a = document.createElement("a");
+    a.download = "clickdy-qr-code.svg";
+    a.href = URL.createObjectURL(blob);
+    a.click();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1000);
+  });
+
+  (async function(){
+    var ok = await loadQREngine();
+    if(!ok){
+      document.getElementById("placeholder").textContent = "QR engine could not be loaded. Check your internet connection, then refresh.";
+      setStatus("QR engine could not be loaded.", "error");
+      return;
+    }
+    setStatus("QR engine ready.", "ok");
+    document.getElementById("placeholder").textContent = "Enter your content to generate a QR code.";
+    draw();
+  })();
 })();
 </script>
-</body></html>
+</body>
+</html>
