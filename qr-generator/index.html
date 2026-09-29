@@ -169,7 +169,7 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
       </div>
 
       <button class="btn" id="clearBtn" type="button">Clear & Reset</button>
-      <p class="note">Tip: the QR library is loaded with automatic CDN fallback. If one CDN is unavailable, Clickdy tries another automatically.</p>
+      <p class="note">QR generation does not depend on a JavaScript QR engine. The code is generated directly from the QR image service.</p>
     </div>
 
     <div class="panel preview">
@@ -192,9 +192,9 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
 (function(){
   "use strict";
 
-  var QR_READY = false;
-  var currentCanvas = null;
   var currentType = "text";
+  var currentImageUrl = "";
+  var currentSvgUrl = "";
 
   function setStatus(message, kind){
     var el = document.getElementById("status");
@@ -202,79 +202,48 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
     el.className = "status" + (kind ? " " + kind : "");
   }
 
-  function loadScript(src){
-    return new Promise(function(resolve, reject){
-      var script = document.createElement("script");
-      script.src = src;
-      script.async = true;
-      script.onload = function(){ resolve(); };
-      script.onerror = function(){ reject(new Error("Failed to load " + src)); };
-      document.head.appendChild(script);
-    });
-  }
-
-  async function loadQREngine(){
-    var urls = [
-      "https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js",
-      "https://cdn.jsdelivr.net/npm/qrcode@1.5.4/lib/browser.min.js",
-      "https://unpkg.com/qrcode@1.5.4/build/qrcode.min.js"
-    ];
-
-    for(var i=0;i<urls.length;i++){
-      try{
-        if(window.QRCode && typeof window.QRCode.toCanvas === "function"){
-          QR_READY = true;
-          return true;
-        }
-        await loadScript(urls[i]);
-        if(window.QRCode && typeof window.QRCode.toCanvas === "function"){
-          QR_READY = true;
-          return true;
-        }
-      }catch(err){}
-    }
-    QR_READY = false;
-    return false;
-  }
-
-  function escapeSvgText(text){
-    return String(text).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  function enc(value){
+    return encodeURIComponent(String(value || ""));
   }
 
   function getPayload(){
-    var type = currentType;
-    if(type === "text") return document.getElementById("textValue").value.trim();
+    if(currentType === "text"){
+      return document.getElementById("textValue").value.trim();
+    }
 
-    if(type === "email"){
+    if(currentType === "email"){
       var to = document.getElementById("emailTo").value.trim();
       if(!to) return "";
       var subject = document.getElementById("emailSubject").value.trim();
       var body = document.getElementById("emailBody").value.trim();
-      return "mailto:" + to + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+      return "mailto:" + to + "?subject=" + enc(subject) + "&body=" + enc(body);
     }
 
-    if(type === "phone"){
+    if(currentType === "phone"){
       var phone = document.getElementById("phoneValue").value.trim();
       return phone ? "tel:" + phone : "";
     }
 
-    if(type === "wifi"){
+    if(currentType === "wifi"){
       var ssid = document.getElementById("wifiName").value;
       var pass = document.getElementById("wifiPassword").value;
       var security = document.getElementById("wifiSecurity").value;
       var hidden = document.getElementById("wifiHidden").value;
       if(!ssid) return "";
-      return "WIFI:T:" + security + ";S:" + ssid.replace(/[\\;,:]/g,function(m){return "\\"+m;}) + ";P:" + pass.replace(/[\\;,:]/g,function(m){return "\\"+m;}) + ";H:" + hidden + ";;";
+      function escWifi(v){
+        return String(v).replace(/([\\;,:"])/g, "\\$1");
+      }
+      return "WIFI:T:" + security + ";S:" + escWifi(ssid) + ";P:" + escWifi(pass) + ";H:" + hidden + ";;";
     }
 
-    if(type === "sms"){
+    if(currentType === "sms"){
       var smsPhone = document.getElementById("smsPhone").value.trim();
       var smsBody = document.getElementById("smsBody").value.trim();
       if(!smsPhone) return "";
       return "SMSTO:" + smsPhone + ":" + smsBody;
     }
 
-    if(type === "location"){
+    if(currentType === "location"){
       var lat = document.getElementById("lat").value.trim();
       var lng = document.getElementById("lng").value.trim();
       if(!lat || !lng) return "";
@@ -284,71 +253,91 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
     return "";
   }
 
-  function getOptions(){
-    return {
-      width: Number(document.getElementById("size").value),
-      margin: 2,
-      errorCorrectionLevel: document.getElementById("errorLevel").value,
-      color: {
-        dark: document.getElementById("darkColor").value.trim() || "#000000",
-        light: document.getElementById("lightColor").value.trim() || "#ffffff"
-      }
-    };
+  function getQrUrl(format){
+    var payload = getPayload();
+    if(!payload) return "";
+
+    var size = Number(document.getElementById("size").value) || 500;
+    var dark = document.getElementById("darkColor").value.trim() || "#000000";
+    var light = document.getElementById("lightColor").value.trim() || "#ffffff";
+
+    /* Direct QR image endpoint: no JavaScript QR engine is required. */
+    var base = "https://api.qrserver.com/v1/create-qr-code/";
+    var params =
+      "?size=" + size + "x" + size +
+      "&margin=10" +
+      "&ecc=" + encodeURIComponent(document.getElementById("errorLevel").value) +
+      "&color=" + encodeURIComponent(dark.replace("#","")) +
+      "&bgcolor=" + encodeURIComponent(light.replace("#","")) +
+      "&format=" + format +
+      "&data=" + enc(payload);
+
+    return base + params;
   }
 
   function draw(){
-    if(!QR_READY){
-      setStatus("QR engine is unavailable. Refresh the page and try again.", "error");
-      return;
-    }
-
-    var payload = getPayload();
     var stage = document.getElementById("qrStage");
-    var placeholder = document.getElementById("placeholder");
     var pngBtn = document.getElementById("downloadPng");
     var svgBtn = document.getElementById("downloadSvg");
+    var payload = getPayload();
+
+    currentImageUrl = "";
+    currentSvgUrl = "";
+    pngBtn.disabled = true;
+    svgBtn.disabled = true;
 
     if(!payload){
       stage.innerHTML = "";
-      placeholder = document.createElement("div");
-      placeholder.className = "placeholder";
-      placeholder.id = "placeholder";
-      placeholder.textContent = "Enter your content to generate a QR code.";
-      stage.appendChild(placeholder);
-      currentCanvas = null;
-      pngBtn.disabled = true;
-      svgBtn.disabled = true;
+      var empty = document.createElement("div");
+      empty.className = "placeholder";
+      empty.textContent = "Enter your content to generate a QR code.";
+      stage.appendChild(empty);
       setStatus("Ready.", "");
       return;
     }
 
-    stage.innerHTML = "";
-    var canvas = document.createElement("canvas");
-    stage.appendChild(canvas);
+    var pngUrl = getQrUrl("png");
+    var svgUrl = getQrUrl("svg");
+    currentImageUrl = pngUrl;
+    currentSvgUrl = svgUrl;
 
-    QRCode.toCanvas(canvas, payload, getOptions(), function(error){
-      if(error){
-        currentCanvas = null;
-        pngBtn.disabled = true;
-        svgBtn.disabled = true;
-        setStatus("Could not generate this QR code. Try shorter content or a lower error level.", "error");
-        return;
-      }
-      currentCanvas = canvas;
+    stage.innerHTML = "";
+
+    var img = document.createElement("img");
+    img.alt = "Generated QR code";
+    img.width = Number(document.getElementById("size").value) || 500;
+    img.height = img.width;
+    img.loading = "eager";
+    img.referrerPolicy = "no-referrer";
+    img.src = pngUrl;
+
+    img.addEventListener("load", function(){
       pngBtn.disabled = false;
       svgBtn.disabled = false;
       setStatus("QR code ready.", "ok");
     });
+
+    img.addEventListener("error", function(){
+      pngBtn.disabled = true;
+      svgBtn.disabled = true;
+      setStatus("QR image service could not be reached. Check your internet connection.", "error");
+    });
+
+    stage.appendChild(img);
+    setStatus("Generating QR code…", "");
   }
 
   function switchType(type){
     currentType = type;
+
     document.querySelectorAll(".type-btn").forEach(function(btn){
       btn.classList.toggle("active", btn.getAttribute("data-type") === type);
     });
+
     document.querySelectorAll(".type-fields").forEach(function(box){
       box.classList.add("hidden");
     });
+
     document.getElementById("fields-" + type).classList.remove("hidden");
     draw();
   }
@@ -366,50 +355,49 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
 
   document.getElementById("clearBtn").addEventListener("click", function(){
     document.querySelectorAll("textarea,input").forEach(function(el){
-      if(el.type !== "color") el.value = "";
+      el.value = "";
     });
+
     document.getElementById("darkColor").value = "#000000";
     document.getElementById("lightColor").value = "#ffffff";
     document.getElementById("size").value = "500";
     document.getElementById("errorLevel").value = "M";
     document.getElementById("wifiSecurity").value = "WPA";
     document.getElementById("wifiHidden").value = "false";
+
     switchType("text");
   });
 
   document.getElementById("downloadPng").addEventListener("click", function(){
-    if(!currentCanvas) return;
+    if(!currentImageUrl) return;
+
     var a = document.createElement("a");
+    a.href = currentImageUrl;
+    a.target = "_blank";
+    a.rel = "noopener";
     a.download = "clickdy-qr-code.png";
-    a.href = currentCanvas.toDataURL("image/png");
+    document.body.appendChild(a);
     a.click();
+    a.remove();
   });
 
   document.getElementById("downloadSvg").addEventListener("click", function(){
-    if(!currentCanvas) return;
-    var data = currentCanvas.toDataURL("image/png");
-    var size = currentCanvas.width;
-    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="' + size + '" height="' + size + '" viewBox="0 0 ' + size + ' ' + size + '"><image href="' + escapeSvgText(data) + '" width="' + size + '" height="' + size + '"/></svg>';
-    var blob = new Blob([svg], {type:"image/svg+xml;charset=utf-8"});
+    if(!currentSvgUrl) return;
+
     var a = document.createElement("a");
+    a.href = currentSvgUrl;
+    a.target = "_blank";
+    a.rel = "noopener";
     a.download = "clickdy-qr-code.svg";
-    a.href = URL.createObjectURL(blob);
+    document.body.appendChild(a);
     a.click();
-    setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1000);
+    a.remove();
   });
 
-  (async function(){
-    var ok = await loadQREngine();
-    if(!ok){
-      document.getElementById("placeholder").textContent = "QR engine could not be loaded. Check your internet connection, then refresh.";
-      setStatus("QR engine could not be loaded.", "error");
-      return;
-    }
-    setStatus("QR engine ready.", "ok");
-    document.getElementById("placeholder").textContent = "Enter your content to generate a QR code.";
-    draw();
-  })();
+  setStatus("Ready — enter your content.", "");
+  draw();
 })();
+</script>
 </script>
 </body>
 </html>
