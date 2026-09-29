@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Create QR codes for URLs, text, email, phone, Wi-Fi, SMS and locations with Clickdy.">
+<title>QR Generator - Clickdy</title>
+<style>
+:root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--ok:#62d89a;--bad:#ff6f7d;--border:rgba(255,255,255,.09)}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -10%,rgba(99,199,255,.12),transparent 34%),var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.page{width:min(1180px,calc(100% - 32px));margin:auto}.top{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.06)}.brand{display:flex;align-items:center;gap:11px;color:var(--text);text-decoration:none;font-size:20px;font-weight:700}.brand img{width:36px;height:36px;object-fit:contain;border-radius:9px}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--accent)}
+.hero{text-align:center;padding:54px 0 30px}.pill{display:inline-flex;gap:8px;padding:7px 12px;border:1px solid rgba(99,199,255,.25);border-radius:999px;color:#b9e7ff;background:rgba(99,199,255,.07);font-size:12px;font-weight:700;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}h1{font-size:clamp(34px,5vw,58px);line-height:1.05;margin:18px 0 10px;letter-spacing:-1.8px}.accent{color:var(--accent)}.hero p{max-width:700px;margin:auto;color:var(--muted);font-size:16px}
+.shell{background:linear-gradient(180deg,#111925,#0d131d);border:1px solid var(--border);border-radius:24px;padding:22px;margin-bottom:60px}.grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:18px}.card{background:var(--panel2);border:1px solid var(--border);border-radius:18px;padding:18px}.card h2{font-size:16px;margin:0 0 15px}.preview{min-height:500px;display:flex;align-items:center;justify-content:center;background:#090e15;border:1px solid var(--border);border-radius:14px;padding:24px}.preview canvas{max-width:100%;height:auto;background:#fff;border-radius:4px}.placeholder{color:var(--muted);font-size:13px;text-align:center}
+.typegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}.type{min-height:42px;border:1px solid var(--border);border-radius:10px;background:var(--panel3);color:var(--muted);font-weight:700}.type.active{color:#c9edff;background:rgba(99,199,255,.1);border-color:rgba(99,199,255,.5)}.field{margin-bottom:15px}.field label{display:flex;justify-content:space-between;margin-bottom:7px;color:#dce4ee;font-size:13px;font-weight:700}.hint{font-size:11px;color:var(--muted);font-weight:400}textarea,input[type=text],input[type=email],input[type=tel],input[type=number],select{width:100%;padding:10px 11px;border:1px solid var(--border);border-radius:10px;background:#0a1018;color:var(--text);outline:0}textarea{min-height:100px;resize:vertical}input:focus,textarea:focus,select:focus{border-color:rgba(99,199,255,.55);box-shadow:0 0 0 3px rgba(99,199,255,.08)}input[type=color]{width:100%;height:42px;padding:4px;background:#0a1018;border:1px solid var(--border);border-radius:10px}input[type=range]{width:100%;accent-color:var(--accent)}.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}.check{display:flex;align-items:center;gap:9px;padding:10px;border:1px solid var(--border);border-radius:10px;background:#0a1018;color:#dce4ee;font-size:13px}.check input{accent-color:var(--accent)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.primary,.secondary,.danger{padding:11px 16px;border-radius:11px;font-weight:700}.primary{border:0;background:var(--accent);color:#06111a}.secondary{border:1px solid var(--border);background:var(--panel3);color:var(--text)}.danger{border:1px solid rgba(255,111,125,.28);background:rgba(255,111,125,.12);color:#fff}.primary:hover{background:#86d7ff}.secondary:hover{border-color:rgba(99,199,255,.4)}.status{min-height:22px;margin-top:12px;color:var(--muted);font-size:12px}.success{color:var(--ok)}.error{color:var(--bad)}.info{margin-top:15px;padding:12px;border:1px solid var(--border);border-radius:12px;color:var(--muted);font-size:12px}.info strong{color:var(--text)}.tips{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.tip{padding:12px;border:1px solid var(--border);border-radius:12px}.tip strong{display:block;font-size:12px}.tip span{font-size:11px;color:var(--muted)}footer{text-align:center;color:var(--muted);font-size:12px;padding-bottom:30px}
+@media(max-width:850px){.grid{grid-template-columns:1fr}.preview{min-height:350px}.tips{grid-template-columns:1fr}}@media(max-width:560px){.page{width:calc(100% - 20px)}.top{height:72px}.brand{font-size:18px}.brand img{width:32px;height:32px}.hero{padding:38px 0 24px}.shell{padding:12px}.typegrid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}.actions{flex-direction:column}.actions button{width:100%}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="top"><a class="brand" href="../index.html" aria-label="Clickdy home"><img src="../assets/logo.png" alt="Clickdy logo"><span>Clickdy</span></a><a class="back" href="../index.html">← Back to Home</a></header>
+<main>
+<section class="hero"><div class="pill"><span class="dot"></span> Productivity Tool</div><h1>Generate QR Codes. <span class="accent">Instantly.</span></h1><p>Create QR codes for URLs, text, email, phone, Wi-Fi, SMS and locations. Customize and download PNG or SVG.</p></section>
+<section class="shell"><div class="grid">
+<div class="card"><h2>QR Preview</h2><div class="preview"><canvas id="qr" width="500" height="500" aria-label="Generated QR code" hidden></canvas><div id="empty" class="placeholder">Enter content and generate your QR code.</div></div><div id="info" class="info"><strong>Ready.</strong> QR generation runs in your browser.</div></div>
+<div class="card"><h2>QR Settings</h2>
+<div class="field"><div class="field label">QR Type</div><div class="typegrid" role="group" aria-label="QR code type">
+<button class="type active" data-type="text" type="button">Text / URL</button><button class="type" data-type="email" type="button">Email</button><button class="type" data-type="phone" type="button">Phone</button><button class="type" data-type="wifi" type="button">Wi-Fi</button><button class="type" data-type="sms" type="button">SMS</button><button class="type" data-type="location" type="button">Location</button>
+</div></div>
+<div id="fields"></div>
+<div class="two"><div class="field"><label for="size">Output Size</label><select id="size" title="Choose QR output size"><option value="300">300 × 300</option><option value="500" selected>500 × 500</option><option value="800">800 × 800</option><option value="1200">1200 × 1200</option></select></div><div class="field"><label for="level">Error Correction</label><select id="level" title="Choose QR error correction"><option>L</option><option selected>M</option><option>Q</option><option>H</option></select></div></div>
+<div class="two"><div class="field"><label for="dark">QR Color</label><input id="dark" type="color" value="#111827" aria-label="QR color"></div><div class="field"><label for="light">Background</label><input id="light" type="color" value="#ffffff" aria-label="QR background color"></div></div>
+<div class="field"><label for="margin">Quiet Zone <span id="mv" class="hint">4</span></label><input id="margin" type="range" min="0" max="12" value="4" aria-label="QR quiet zone"></div>
+<label class="check"><input id="auto" type="checkbox" checked><span>Regenerate automatically when settings change</span></label>
+<div class="actions"><button id="generate" class="primary" type="button">Generate QR Code</button><button id="png" class="secondary" type="button">Download PNG</button><button id="svg" class="secondary" type="button">Download SVG</button><button id="clear" class="danger" type="button">Clear</button></div>
+<div id="status" class="status" role="status" aria-live="polite"></div>
+</div></div>
+<div class="tips"><div class="tip"><strong>6 QR Types</strong><span>URL/text, email, phone, Wi-Fi, SMS and map location.</span></div><div class="tip"><strong>Custom Output</strong><span>Resolution, colors, error correction and quiet zone.</span></div><div class="tip"><strong>PNG + SVG</strong><span>Raster and scalable exports are available.</span></div></div>
+</section></main><footer>© 2026 Clickdy. QR generation happens in your browser.</footer></div>
+<script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js"></script>
+<script>
+(()=>{"use strict";
+const $=id=>document.getElementById(id),qr=$("qr"),fields=$("fields"),empty=$("empty"),status=$("status"),info=$("info");
+let type="text",last="",opts=null,timer;
+const types=[...document.querySelectorAll(".type")];
+function statusMsg(t,c=""){status.textContent=t;status.className="status "+c}
+function f(label,id,t,ph){return '<div class="field"><label for="'+id+'">'+label+'</label><input id="'+id+'" type="'+t+'" placeholder="'+ph+'"></div>'}
+function render(){
+if(type==="text")fields.innerHTML='<div class="field"><label for="content">Content <span class="hint">URL or text</span></label><textarea id="content" placeholder="https://example.com" aria-label="QR code content"></textarea></div>';
+else if(type==="email")fields.innerHTML=f("Email Address","email","email","name@example.com")+f("Subject","subject","text","Subject")+'<div class="field"><label for="body">Message</label><textarea id="body" placeholder="Your message" aria-label="Email message"></textarea></div>';
+else if(type==="phone")fields.innerHTML=f("Phone Number","phone","tel","+92 300 1234567");
+else if(type==="sms")fields.innerHTML=f("Phone Number","smsphone","tel","+92 300 1234567")+'<div class="field"><label for="smsbody">Message</label><textarea id="smsbody" placeholder="Your SMS message" aria-label="SMS message"></textarea></div>';
+else if(type==="wifi")fields.innerHTML=f("Network Name (SSID)","ssid","text","My Wi-Fi")+f("Password","pass","text","Wi-Fi password")+'<div class="field"><label for="security">Security</label><select id="security" title="Choose Wi-Fi security"><option>WPA</option><option>WEP</option><option value="nopass">No Password</option></select></div><label class="check"><input id="hiddenNet" type="checkbox"><span>Hidden network</span></label>';
+else fields.innerHTML='<div class="two">'+f("Latitude","lat","number","31.5204")+f("Longitude","lon","number","74.3587")+'</div>';
+}
+function payload(){
+if(type==="text"){let v=$("content").value.trim();if(!v)throw Error("Enter a URL or text first.");return v}
+if(type==="email"){let v=$("email").value.trim();if(!v)throw Error("Enter an email address.");return "mailto:"+v+"?subject="+encodeURIComponent($("subject").value.trim())+"&body="+encodeURIComponent($("body").value.trim())}
+if(type==="phone"){let v=$("phone").value.trim();if(!v)throw Error("Enter a phone number.");return "tel:"+v}
+if(type==="sms"){let v=$("smsphone").value.trim();if(!v)throw Error("Enter a phone number.");return "SMSTO:"+v+":"+$("smsbody").value.trim()}
+if(type==="wifi"){let s=$("ssid").value,p=$("pass").value;if(!s)throw Error("Enter the Wi-Fi network name.");return "WIFI:T:"+$("security").value+";S:"+s+";P:"+p+";H:"+($("hiddenNet").checked?"true":"false")+";;"}
+let a=Number($("lat").value),b=Number($("lon").value);if(!Number.isFinite(a)||a<-90||a>90||!Number.isFinite(b)||b<-180||b>180)throw Error("Enter valid latitude and longitude.");return "geo:"+a+","+b;
+}
+function options(){return{errorCorrectionLevel:$("level").value,margin:Number($("margin").value),width:Number($("size").value),color:{dark:$("dark").value,light:$("light").value}}}
+async function generate(){
+try{if(!window.QRCode)throw Error("QR engine is still loading. Try again.");let p=payload(),o=options();await QRCode.toCanvas(qr,p,o);qr.hidden=false;empty.hidden=true;last=p;opts=o;info.innerHTML="<strong>Generated.</strong> "+o.width+" × "+o.width+" px • Error correction "+o.errorCorrectionLevel+".";statusMsg("QR code generated successfully.","success")}catch(e){statusMsg(e.message||"Could not generate QR code.","error")}}
+function schedule(){if(!$("auto").checked)return;clearTimeout(timer);timer=setTimeout(()=>{try{payload();generate()}catch(e){}},250)}
+async function png(){if(!last){await generate();if(!last)return}try{let u=await QRCode.toDataURL(last,opts),a=document.createElement("a");a.href=u;a.download="clickdy-qr-code.png";a.click();statusMsg("PNG downloaded.","success")}catch(e){statusMsg("PNG export failed.","error")}}
+async function svg(){if(!last){await generate();if(!last)return}try{let s=await QRCode.toString(last,{...opts,type:"svg"}),u=URL.createObjectURL(new Blob([s],{type:"image/svg+xml"})),a=document.createElement("a");a.href=u;a.download="clickdy-qr-code.svg";a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);statusMsg("SVG downloaded.","success")}catch(e){statusMsg("SVG export failed.","error")}}
+types.forEach(b=>b.onclick=()=>{types.forEach(x=>x.classList.remove("active"));b.classList.add("active");type=b.dataset.type;render();statusMsg("")});
+$("generate").onclick=generate;$("png").onclick=png;$("svg").onclick=svg;$("clear").onclick=()=>{qr.hidden=true;empty.hidden=false;qr.getContext("2d").clearRect(0,0,qr.width,qr.height);last="";opts=null;statusMsg("");info.innerHTML="<strong>Ready.</strong> QR generation runs in your browser."};
+$("margin").oninput=()=>{$("mv").textContent=$("margin").value;schedule()};
+["size","level","dark","light"].forEach(id=>$(id).onchange=schedule);fields.oninput=schedule;fields.onchange=schedule;
+render();
+})();
+</script>
+</body></html>
