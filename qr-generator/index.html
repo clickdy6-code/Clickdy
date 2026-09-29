@@ -44,8 +44,12 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
 .type-btn.active{background:rgba(99,199,255,.12);border-color:rgba(99,199,255,.45);color:var(--accent)}
 .hidden{display:none!important}
 .preview{min-height:100%;display:flex;flex-direction:column}
-.qr-stage{flex:1;min-height:360px;background:var(--panel2);border:1px solid var(--border);border-radius:15px;display:flex;align-items:center;justify-content:center;padding:22px}
-.qr-stage canvas{max-width:100%;height:auto!important;image-rendering:auto;background:#fff}
+.qr-stage{width:100%;max-width:420px;aspect-ratio:1/1;margin:0 auto;background:var(--panel2);border:1px solid var(--border);border-radius:15px;display:flex;align-items:center;justify-content:center;padding:16px;overflow:hidden}
+.qr-stage img{display:block;width:auto;max-width:100%;max-height:100%;height:auto;aspect-ratio:1/1;object-fit:contain;background:#fff;border-radius:2px;image-rendering:auto}
+.color-picker{height:44px;width:100%;padding:5px;background:var(--panel2);border:1px solid var(--border);border-radius:12px;cursor:pointer}
+.color-picker::-webkit-color-swatch-wrapper{padding:0}
+.color-picker::-webkit-color-swatch{border:0;border-radius:8px}
+.color-picker::-moz-color-swatch{border:0;border-radius:8px}
 .placeholder{text-align:center;color:var(--muted);max-width:300px;line-height:1.6}
 .status{min-height:22px;margin-top:12px;color:var(--muted);font-size:13px}
 .status.ok{color:var(--success)}
@@ -59,7 +63,7 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
 .footer{text-align:center;color:var(--muted);font-size:12px;padding:0 20px 30px}
 @media(max-width:800px){
   .workspace{grid-template-columns:1fr}
-  .preview{min-height:500px}
+  .preview{min-height:0}
 }
 @media(max-width:520px){
   .topbar{padding:0 16px;height:70px}
@@ -67,7 +71,7 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
   .grid,.actions{grid-template-columns:1fr}
   .type-buttons{grid-template-columns:repeat(2,1fr)}
   .panel{padding:16px}
-  .qr-stage{min-height:310px}
+  .qr-stage{max-width:100%;padding:12px}
 }
 </style>
 </head>
@@ -84,7 +88,7 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
   <section class="hero">
     <span class="badge">FREE QR TOOL • NO SIGN-UP</span>
     <h1>Create QR Codes <span>Instantly.</span></h1>
-    <p>Generate clean QR codes for URLs, text, email, phone, Wi-Fi, SMS and locations. Everything runs in your browser.</p>
+    <p>Generate clean QR codes for URLs, text, email, phone, Wi-Fi, SMS and locations. No sign-up required. Generate and download your QR code instantly.</p>
   </section>
 
   <section class="workspace">
@@ -148,7 +152,7 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
         <div class="field">
           <label for="size">QR size</label>
           <select id="size" title="QR size">
-            <option value="300">300 × 300</option><option value="500" selected>500 × 500</option>
+            <option value="300" selected>300 × 300</option><option value="500">500 × 500</option>
             <option value="800">800 × 800</option><option value="1200">1200 × 1200</option>
           </select>
         </div>
@@ -160,24 +164,24 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
         </div>
         <div class="field">
           <label for="darkColor">QR color</label>
-          <input id="darkColor" type="text" value="#000000" aria-label="QR foreground color">
+          <input id="darkColor" class="color-picker" type="color" value="#000000" aria-label="Choose QR color">
         </div>
         <div class="field">
           <label for="lightColor">Background color</label>
-          <input id="lightColor" type="text" value="#ffffff" aria-label="QR background color">
+          <input id="lightColor" class="color-picker" type="color" value="#ffffff" aria-label="Choose background color">
         </div>
       </div>
 
       <button class="btn" id="clearBtn" type="button">Clear & Reset</button>
-      <p class="note">QR generation does not depend on a JavaScript QR engine. The code is generated directly from the QR image service.</p>
+      <p class="note">QR code preview is generated through the QR image service. Choose your colors with the color pickers above.</p>
     </div>
 
     <div class="panel preview">
       <h2>Your QR Code</h2>
       <div class="qr-stage" id="qrStage">
-        <div class="placeholder" id="placeholder">Loading QR engine…<br>Please wait a moment.</div>
+        <div class="placeholder" id="placeholder">Enter your content to generate a QR code.</div>
       </div>
-      <div class="status" id="status" aria-live="polite">Starting QR engine…</div>
+      <div class="status" id="status" aria-live="polite">Ready — enter your content.</div>
       <div class="actions">
         <button class="btn primary" id="downloadPng" type="button" disabled>Download PNG</button>
         <button class="btn" id="downloadSvg" type="button" disabled>Download SVG</button>
@@ -186,7 +190,7 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
   </section>
 </main>
 
-<div class="footer">© Clickdy — Free online tools. Processing happens in your browser.</div>
+<div class="footer">© Clickdy — Free online tools.</div>
 
 <script>
 (function(){
@@ -257,7 +261,7 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
     var payload = getPayload();
     if(!payload) return "";
 
-    var size = Number(document.getElementById("size").value) || 500;
+    var size = Number(document.getElementById("size").value) || 300;
     var dark = document.getElementById("darkColor").value.trim() || "#000000";
     var light = document.getElementById("lightColor").value.trim() || "#ffffff";
 
@@ -305,7 +309,7 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
 
     var img = document.createElement("img");
     img.alt = "Generated QR code";
-    img.width = Number(document.getElementById("size").value) || 500;
+    img.width = Number(document.getElementById("size").value) || 300;
     img.height = img.width;
     img.loading = "eager";
     img.referrerPolicy = "no-referrer";
@@ -360,7 +364,7 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
 
     document.getElementById("darkColor").value = "#000000";
     document.getElementById("lightColor").value = "#ffffff";
-    document.getElementById("size").value = "500";
+    document.getElementById("size").value = "300";
     document.getElementById("errorLevel").value = "M";
     document.getElementById("wifiSecurity").value = "WPA";
     document.getElementById("wifiHidden").value = "false";
@@ -397,7 +401,6 @@ textarea:focus,input:focus,select:focus{border-color:rgba(99,199,255,.6);box-sha
   setStatus("Ready — enter your content.", "");
   draw();
 })();
-</script>
 </script>
 </body>
 </html>
