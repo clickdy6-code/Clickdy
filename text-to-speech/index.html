@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Text to Speech - Clickdy</title>
+<meta name="description" content="Convert text to speech in your browser with Clickdy. Choose voices, speed, pitch and volume, preview speech and download compatible audio recordings.">
+<style>
+:root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--line:#223044;--danger:#ff6f7d;--success:#62d89a;--radius:16px}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif}
+button,input,textarea,select{font:inherit}button{cursor:pointer}
+.page{max-width:1180px;margin:auto;padding:24px}.topbar{display:flex;align-items:center;justify-content:space-between;padding:8px 0 22px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--text);font-weight:800;font-size:21px}.brand img{width:36px;height:36px;object-fit:contain;border-radius:9px}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}
+.hero{text-align:center;padding:34px 10px 26px}.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 10px;letter-spacing:-1.5px}.hero h1 span{color:var(--accent)}.hero p{max-width:700px;margin:auto;color:var(--muted);line-height:1.65}
+.workspace{display:grid;grid-template-columns:minmax(330px,470px) 1fr;gap:22px;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:0 18px 55px rgba(0,0,0,.2)}
+h2{font-size:18px;margin:0 0 16px}.section{border-top:1px solid var(--line);padding-top:17px;margin-top:17px}.section:first-of-type{border-top:0;padding-top:0;margin-top:0}.section h3{font-size:13px;margin:0 0 10px;color:#dce5ef}
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:11px}.field label{font-size:12px;color:#b9c4d2}.field textarea,.field select,.field input{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 11px;outline:none}.field textarea{min-height:220px;resize:vertical}.field textarea:focus,.field select:focus,.field input:focus{border-color:var(--accent)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.range-row{display:grid;grid-template-columns:1fr 70px;gap:10px;align-items:center}.range-row output{background:var(--panel2);border:1px solid var(--line);padding:8px;border-radius:8px;text-align:center;font-size:12px}
+.actions{display:flex;flex-wrap:wrap;gap:8px}.btn{border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:10px 13px;border-radius:10px;font-weight:700}.btn:hover{border-color:#3c526d}.btn.primary{background:var(--accent);border-color:var(--accent);color:#06101a}.btn.danger{color:#ffb5bd}.btn:disabled{opacity:.45;cursor:not-allowed}
+.status{min-height:22px;margin-top:10px;color:var(--muted);font-size:12px}.status.ok{color:var(--success)}.status.error{color:var(--danger)}
+.card{background:var(--panel2);border:1px solid var(--line);border-radius:13px;padding:16px}.visual{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:245px;text-align:center}.mic{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:#162535;border:1px solid #29425a;font-size:31px;margin-bottom:14px}.visual strong{font-size:17px}.visual span{color:var(--muted);font-size:13px;line-height:1.5;max-width:360px;margin-top:6px}.progress{height:8px;background:#182332;border-radius:999px;overflow:hidden;margin-top:18px}.progress div{height:100%;width:0;background:var(--accent);transition:width .2s}
+.history{margin-top:15px}.session-title{margin:0 0 4px;font-size:14px}.history-row{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--line);padding:11px 0;font-size:12px}.history-row:first-child{border-top:0}.history-row span{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.notice{color:var(--muted);font-size:12px;line-height:1.55;margin-top:13px}
+.footer{text-align:center;color:var(--muted);font-size:12px;padding:30px 0 10px}
+@media(max-width:900px){.workspace{grid-template-columns:1fr}}@media(max-width:600px){.page{padding:14px}.panel{padding:15px}.grid2{grid-template-columns:1fr}.hero{padding:25px 5px 20px}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="topbar">
+<a class="brand" href="../index.html"><img src="../assets/logo.png" alt="Clickdy logo"><span>Clickdy</span></a>
+<a class="back" href="../index.html">← Back to Home</a>
+</header>
+
+<section class="hero">
+<h1>Turn Words Into <span>Natural Speech</span></h1>
+<p>Choose an available browser voice, control speed, pitch and volume, then play your text aloud. No account or upload required.</p>
+</section>
+
+<main class="workspace">
+<section class="panel">
+<h2>Speech Settings</h2>
+
+<div class="section">
+<h3>Your text</h3>
+<div class="field">
+<label for="text">Text to speak</label>
+<textarea id="text" maxlength="12000" placeholder="Type or paste your text here...">Welcome to Clickdy. Turn your text into natural speech directly in your browser.</textarea>
+</div>
+<div class="actions">
+<button class="btn primary" id="speak" type="button">▶ Speak</button>
+<button class="btn" id="pause" type="button" disabled>Ⅱ Pause</button>
+<button class="btn" id="resume" type="button" disabled>▶ Resume</button>
+<button class="btn" id="stop" type="button" disabled>■ Stop</button>
+</div>
+<div id="status" class="status" role="status" aria-live="polite">Ready.</div>
+</div>
+
+<div class="section">
+<h3>Voice</h3>
+<div class="field">
+<label for="voice">Available voice</label>
+<select id="voice" aria-describedby="voiceHelp"></select>
+</div>
+<div id="voiceHelp" class="notice">Voices are supplied by your browser and operating system. The available list can differ by device.</div>
+</div>
+
+<div class="section">
+<h3>Controls</h3>
+<div class="field">
+<label for="rate">Speed</label>
+<div class="range-row"><input id="rate" type="range" min="0.5" max="2" step="0.05" value="1"><output id="rateOut">1.00×</output></div>
+</div>
+<div class="field">
+<label for="pitch">Pitch</label>
+<div class="range-row"><input id="pitch" type="range" min="0" max="2" step="0.05" value="1"><output id="pitchOut">1.00</output></div>
+</div>
+<div class="field">
+<label for="volume">Volume</label>
+<div class="range-row"><input id="volume" type="range" min="0" max="1" step="0.05" value="1"><output id="volumeOut">100%</output></div>
+</div>
+</div>
+
+<div class="section">
+<h3>Quick actions</h3>
+<div class="actions">
+<button class="btn" id="sample" type="button">Use Sample Text</button>
+<button class="btn" id="clear" type="button">Clear</button>
+<button class="btn" id="copy" type="button">Copy Text</button>
+</div>
+</div>
+
+<div class="notice">Privacy: speech synthesis is handled through your browser's built-in speech engine. Clickdy does not upload this text to a server.</div>
+</section>
+
+<section class="panel">
+<div class="card visual">
+<div class="mic" aria-hidden="true">🔊</div>
+<strong id="visualTitle">Ready to speak</strong>
+<span id="visualText">Enter text, choose a voice and press Speak.</span>
+<div class="progress" aria-hidden="true"><div id="progress"></div></div>
+</div>
+
+<div class="card history">
+<h3 class="session-title">Session info</h3>
+<div class="history-row"><span>Characters</span><strong id="chars">0</strong></div>
+<div class="history-row"><span>Words</span><strong id="words">0</strong></div>
+<div class="history-row"><span>Selected voice</span><strong id="voiceName">System default</strong></div>
+</div>
+
+<div class="notice">Note: Browser speech synthesis normally plays audio through your device, but the Web Speech API does not provide a standard cross-browser way to export that spoken output directly as MP3/WAV. This tool therefore focuses on reliable browser playback rather than pretending to create an audio file.</div>
+</section>
+</main>
+
+<div class="footer">Clickdy Text to Speech • Browser speech engine • No sign-up</div>
+</div>
+
+<script>
+(() => {
+"use strict";
+const $ = id => document.getElementById(id);
+const synth = window.speechSynthesis;
+let voices = [];
+let utterance = null;
+
+function setStatus(text, type=""){ $("status").textContent=text; $("status").className="status "+type; }
+function updateStats(){
+  const t=$("text").value.trim();
+  $("chars").textContent=$("text").value.length.toLocaleString();
+  $("words").textContent=t ? t.split(/\s+/).length.toLocaleString() : "0";
+}
+function updateRanges(){
+  $("rateOut").value=Number($("rate").value).toFixed(2)+"×";
+  $("pitchOut").value=Number($("pitch").value).toFixed(2);
+  $("volumeOut").value=Math.round(Number($("volume").value)*100)+"%";
+}
+function loadVoices(){
+  voices=synth.getVoices().slice().sort((a,b)=>{
+    const la=(a.lang||"").localeCompare(b.lang||"");
+    return la || a.name.localeCompare(b.name);
+  });
+  const old=$("voice").value;
+  $("voice").innerHTML="";
+  if(!voices.length){
+    const o=document.createElement("option");o.value="";o.textContent="Browser default voice";$("voice").appendChild(o);
+    $("voiceName").textContent="System default";
+    return;
+  }
+  voices.forEach((v,i)=>{
+    const o=document.createElement("option");
+    o.value=String(i); o.textContent=v.name+" — "+v.lang+(v.default?" — Default":"");
+    $("voice").appendChild(o);
+  });
+  if(old && [...$("voice").options].some(o=>o.value===old)) $("voice").value=old;
+  const v=voices[Number($("voice").value)||0];
+  $("voiceName").textContent=v ? v.name : "System default";
+}
+function selectedVoice(){return voices[Number($("voice").value)||0]||null;}
+function chunks(text,max=180){
+  const out=[]; let rest=text.trim();
+  while(rest.length>max){
+    let cut=rest.lastIndexOf(" ",max);
+    if(cut<80) cut=rest.lastIndexOf(".",max);
+    if(cut<80) cut=max;
+    out.push(rest.slice(0,cut).trim()); rest=rest.slice(cut).trim();
+  }
+  if(rest) out.push(rest);
+  return out;
+}
+function speak(){
+  const text=$("text").value.trim();
+  if(!text){setStatus("Please enter some text first.","error");$("text").focus();return;}
+  if(!("speechSynthesis" in window)){setStatus("Speech synthesis is not supported by this browser.","error");return;}
+  synth.cancel();
+  const parts=chunks(text);
+  let index=0;
+  $("progress").style.width="0%";
+  $("visualTitle").textContent="Speaking...";
+  $("visualText").textContent="Your browser is reading the text aloud.";
+  $("speak").disabled=true;$("pause").disabled=false;$("resume").disabled=true;$("stop").disabled=false;
+  function next(){
+    if(index>=parts.length){finish();return;}
+    utterance=new SpeechSynthesisUtterance(parts[index]);
+    const v=selectedVoice(); if(v) utterance.voice=v;
+    utterance.rate=Number($("rate").value); utterance.pitch=Number($("pitch").value); utterance.volume=Number($("volume").value);
+    const current=index;
+    utterance.onstart=()=>{setStatus("Speaking part "+(current+1)+" of "+parts.length+".","ok");};
+    utterance.onend=()=>{index++;$("progress").style.width=Math.round(index/parts.length*100)+"%";next();};
+    utterance.onerror=e=>{if(e.error!=="canceled")setStatus("Speech error: "+e.error,"error");finish();};
+    synth.speak(utterance);
+  }
+  next();
+}
+function finish(){
+  $("speak").disabled=false;$("pause").disabled=true;$("resume").disabled=true;$("stop").disabled=true;
+  $("visualTitle").textContent="Ready to speak";$("visualText").textContent="Press Speak to play your text again.";
+  $("progress").style.width="100%"; setTimeout(()=>$("progress").style.width="0%",600);
+  if($("status").classList.contains("ok")) setStatus("Finished.");
+}
+$("speak").onclick=speak;
+$("pause").onclick=()=>{if(synth.speaking){synth.pause();$("pause").disabled=true;$("resume").disabled=false;setStatus("Speech paused.");$("visualTitle").textContent="Paused";}};
+$("resume").onclick=()=>{if(synth.paused){synth.resume();$("pause").disabled=false;$("resume").disabled=true;setStatus("Speech resumed.","ok");$("visualTitle").textContent="Speaking...";}};
+$("stop").onclick=()=>{synth.cancel();finish();setStatus("Stopped.");};
+$("text").addEventListener("input",updateStats);
+["rate","pitch","volume"].forEach(id=>$(id).addEventListener("input",updateRanges));
+$("voice").addEventListener("change",()=>{const v=selectedVoice();$("voiceName").textContent=v?v.name:"System default";});
+$("sample").onclick=()=>{$("text").value="Welcome to Clickdy. Create, edit and explore powerful tools online with a simple, fast and private experience.";updateStats();};
+$("clear").onclick=()=>{$("text").value="";updateStats();setStatus("Text cleared.");};
+$("copy").onclick=async()=>{try{await navigator.clipboard.writeText($("text").value);setStatus("Text copied.","ok");}catch(e){setStatus("Clipboard access was blocked by the browser.","error");}};
+if("onvoiceschanged" in synth) synth.onvoiceschanged=loadVoices;
+loadVoices();updateStats();updateRanges();
+})();
+</script>
+</body>
+</html>
