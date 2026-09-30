@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resume Builder - Clickdy</title>
+<meta name="description" content="Build a professional resume online with Clickdy. Edit your resume live, preview it on A4, and print or save it as PDF.">
+<style>
+:root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--accent2:#3aa9e8;--success:#62d89a;--danger:#ff6f7d;--line:#223044;--radius:16px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif}
+button,input,textarea,select{font:inherit}button{cursor:pointer}
+.page{max-width:1380px;margin:auto;padding:24px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:8px 0 22px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:11px;color:var(--text);text-decoration:none;font-weight:800;font-size:21px}.brand img{width:36px;height:36px;object-fit:contain;border-radius:9px}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}
+.hero{text-align:center;padding:34px 10px 25px}.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 10px;letter-spacing:-1.5px}.hero h1 span{color:var(--accent)}.hero p{max-width:700px;margin:auto;color:var(--muted);line-height:1.65}
+.workspace{display:grid;grid-template-columns:minmax(330px,500px) minmax(420px,1fr);gap:22px;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:0 18px 55px rgba(0,0,0,.2)}.panel h2{font-size:18px;margin:0 0 16px}.panel h3{font-size:14px;margin:22px 0 10px;color:#dce5ef}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:12px;color:#b9c4d2}.field input,.field textarea,.field select{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 11px;outline:none}.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--accent)}.field textarea{min-height:86px;resize:vertical}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.btn{border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:9px 13px;border-radius:10px;font-weight:700}.btn:hover{border-color:#3c526d}.btn.primary{background:var(--accent);border-color:var(--accent);color:#06101a}.btn.danger{color:#ffb5bd}.btn.small{padding:7px 10px;font-size:12px}
+.entry{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:13px;margin:10px 0}.entry-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}.entry-head strong{font-size:13px}.empty{color:var(--muted);font-size:13px;padding:10px 0}
+.preview-wrap{position:sticky;top:18px}.preview-tools{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}.preview-tools .hint{color:var(--muted);font-size:12px}.paper{width:210mm;min-height:297mm;max-width:100%;margin:auto;background:#fff;color:#18212b;padding:18mm 17mm;box-shadow:0 18px 55px rgba(0,0,0,.35);overflow:hidden}.resume-name{font-size:30px;font-weight:800;line-height:1.1;margin:0}.resume-title{color:#4d6277;font-size:15px;margin:5px 0 11px}.contact{display:flex;flex-wrap:wrap;gap:5px 13px;font-size:10.5px;color:#536477}.rule{height:2px;background:var(--resume-accent,#3aa9e8);margin:14px 0}.r-section{margin-top:13px}.r-section h2{font-size:12px;letter-spacing:1.3px;text-transform:uppercase;margin:0 0 7px;color:#263849;border-bottom:1px solid #d7dee6;padding-bottom:4px}.summary{font-size:10.5px;line-height:1.55;color:#3d4d5d}.r-item{margin:8px 0}.r-top{display:flex;justify-content:space-between;gap:12px}.r-role{font-size:11.5px;font-weight:800}.r-date{font-size:9.5px;color:#647589;white-space:nowrap}.r-org{font-size:10px;color:#536477;margin:2px 0 4px}.r-desc{font-size:10px;line-height:1.45;color:#3d4d5d;white-space:pre-line}.chips{display:flex;flex-wrap:wrap;gap:5px}.chip{font-size:9.5px;background:#eef4f8;border-radius:5px;padding:4px 7px;color:#33485a}.two-col{display:grid;grid-template-columns:1.5fr 1fr;gap:22px}.template-modern .resume-name{letter-spacing:-.5px}.template-classic .resume-name{text-transform:uppercase;letter-spacing:1.5px}.template-classic .rule{height:1px;background:#263849}.template-minimal .rule{background:#18212b;height:1px}.template-minimal .r-section h2{border:0;padding:0}
+.color-row{display:flex;align-items:center;gap:10px}.color-row input[type=color]{width:45px;height:36px;padding:2px;background:var(--panel2);border:1px solid var(--line);border-radius:8px}
+.footer{text-align:center;color:var(--muted);font-size:12px;padding:30px 0 10px}
+@media(max-width:1050px){.workspace{grid-template-columns:1fr}.preview-wrap{position:static}.paper{width:210mm;max-width:100%;transform-origin:top left}}
+@media(max-width:650px){.page{padding:14px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero{padding:25px 5px 20px}.panel{padding:15px}.paper{padding:12mm 10mm}.resume-name{font-size:24px}.two-col{grid-template-columns:1fr}.preview-tools{align-items:flex-start;flex-direction:column}}
+@media print{
+body{background:#fff}.page{max-width:none;padding:0}.topbar,.hero,.editor-panel,.preview-tools,.footer{display:none!important}.workspace{display:block}.preview-wrap{position:static}.preview-panel{border:0;padding:0;box-shadow:none;background:#fff}.paper{width:210mm;min-height:297mm;box-shadow:none;margin:0;padding:18mm 17mm;max-width:none}
+}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="topbar">
+<a class="brand" href="../index.html"><img src="../assets/logo.png" alt="Clickdy logo"><span>Clickdy</span></a>
+<a class="back" href="../index.html">← Back to Home</a>
+</header>
+
+<section class="hero">
+<h1>Build Your <span>Professional Resume</span></h1>
+<p>Create, edit and preview your resume live. Everything runs in your browser, and you can print or save the finished A4 resume as PDF.</p>
+</section>
+
+<main class="workspace">
+<section class="panel editor-panel">
+<h2>Resume Details</h2>
+
+<div class="form-grid">
+<div class="field"><label for="name">Full name</label><input id="name" autocomplete="name" placeholder="Alex Johnson"></div>
+<div class="field"><label for="job">Job title</label><input id="job" placeholder="Product Designer"></div>
+<div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email" placeholder="alex@example.com"></div>
+<div class="field"><label for="phone">Phone</label><input id="phone" type="tel" autocomplete="tel" placeholder="+92 300 1234567"></div>
+<div class="field"><label for="location">Location</label><input id="location" placeholder="Bahawalpur, Pakistan"></div>
+<div class="field"><label for="website">Website / LinkedIn</label><input id="website" placeholder="linkedin.com/in/alex"></div>
+<div class="field full"><label for="summary">Professional summary</label><textarea id="summary" placeholder="Write a concise summary of your experience, strengths and career goals."></textarea></div>
+<div class="field full"><label for="skills">Skills</label><input id="skills" placeholder="Figma, UI Design, HTML, CSS, JavaScript"></div>
+<div class="field full"><label for="languages">Languages</label><input id="languages" placeholder="English, Urdu, Arabic"></div>
+</div>
+
+<h3>Experience</h3>
+<div id="experienceList"></div>
+<button class="btn small" id="addExperience" type="button">+ Add Experience</button>
+
+<h3>Education</h3>
+<div id="educationList"></div>
+<button class="btn small" id="addEducation" type="button">+ Add Education</button>
+
+<h3>Projects</h3>
+<div id="projectList"></div>
+<button class="btn small" id="addProject" type="button">+ Add Project</button>
+
+<h3>Certifications</h3>
+<div id="certList"></div>
+<button class="btn small" id="addCert" type="button">+ Add Certification</button>
+
+<h3>Appearance</h3>
+<div class="form-grid">
+<div class="field"><label for="template">Resume layout</label>
+<select id="template"><option value="modern">Modern</option><option value="classic">Classic</option><option value="minimal">Minimal</option></select></div>
+<div class="field"><label for="accent">Accent color</label><div class="color-row"><input id="accent" type="color" value="#3aa9e8"><span id="accentText">#3aa9e8</span></div></div>
+</div>
+
+<div class="actions">
+<button class="btn primary" id="printBtn" type="button">Print / Save PDF</button>
+<button class="btn" id="saveBtn" type="button">Save Draft</button>
+<button class="btn" id="loadBtn" type="button">Load Draft</button>
+<button class="btn" id="downloadJson" type="button">Download JSON</button>
+<button class="btn danger" id="clearBtn" type="button">Clear</button>
+</div>
+<div id="status" class="empty" role="status" aria-live="polite"></div>
+</section>
+
+<section class="panel preview-panel">
+<div class="preview-tools">
+<strong>Live A4 Preview</strong>
+<span class="hint">Use Print / Save PDF to export</span>
+</div>
+<div id="paper" class="paper template-modern" aria-label="Resume preview"></div>
+</section>
+</main>
+<div class="footer">Clickdy Resume Builder • Browser-side editing • No sign-up</div>
+</div>
+
+<script>
+(() => {
+"use strict";
+const $ = id => document.getElementById(id);
+const ids = ["name","job","email","phone","location","website","summary","skills","languages","template","accent"];
+const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[ch]));
+const splitList = value => String(value || "").split(",").map(x => x.trim()).filter(Boolean);
+
+function entryHTML(type, data = {}) {
+  const configs = {
+    experience: [
+      ["role","Role / Position","Senior Product Designer"],
+      ["company","Company","Company Name"],
+      ["start","Start","2023"],
+      ["end","End","Present"],
+      ["description","Description / achievements","Led product design and improved conversion by 25%."]
+    ],
+    education: [
+      ["degree","Degree","BS Computer Science"],
+      ["school","School / University","University Name"],
+      ["start","Start","2020"],
+      ["end","End","2024"],
+      ["description","Details","Relevant coursework, honors, activities."]
+    ],
+    project: [
+      ["title","Project name","Portfolio Website"],
+      ["link","Project link","example.com"],
+      ["description","Description","Built a responsive website with a focus on performance and accessibility."]
+    ],
+    cert: [
+      ["title","Certification","Google UX Design"],
+      ["issuer","Issuer","Google"],
+      ["year","Year","2025"]
+    ]
+  };
+  const rows = configs[type];
+  return '<div class="entry" data-type="'+type+'"><div class="entry-head"><strong>'+type.charAt(0).toUpperCase()+type.slice(1)+'</strong><button class="btn small danger remove-entry" type="button">Remove</button></div><div class="form-grid">'+rows.map(([key,label,ph]) =>
+    '<div class="field '+(key==="description"?'full':'')+'"><label>'+esc(label)+'</label>' +
+    (key==="description" ? '<textarea data-key="'+key+'" placeholder="'+esc(ph)+'">'+esc(data[key] || "")+'</textarea>' :
+    '<input data-key="'+key+'" value="'+esc(data[key] || "")+'" placeholder="'+esc(ph)+'">') +
+    '</div>').join("")+'</div></div>';
+}
+
+function addEntry(type, data) {
+  const map = {experience:"experienceList",education:"educationList",project:"projectList",cert:"certList"};
+  $(map[type]).insertAdjacentHTML("beforeend", entryHTML(type, data));
+  update();
+}
+$("addExperience").onclick = () => addEntry("experience");
+$("addEducation").onclick = () => addEntry("education");
+$("addProject").onclick = () => addEntry("project");
+$("addCert").onclick = () => addEntry("cert");
+
+document.addEventListener("click", e => {
+  if (e.target.classList.contains("remove-entry")) { e.target.closest(".entry").remove(); update(); }
+});
+
+function collectEntries(type) {
+  const map = {experience:"experienceList",education:"educationList",project:"projectList",cert:"certList"};
+  return [...$(map[type]).querySelectorAll(".entry")].map(el => {
+    const obj = {};
+    el.querySelectorAll("[data-key]").forEach(x => obj[x.dataset.key] = x.value);
+    return obj;
+  });
+}
+
+function collect() {
+  const data = {};
+  ids.forEach(id => data[id] = $(id).value);
+  data.experience = collectEntries("experience");
+  data.education = collectEntries("education");
+  data.project = collectEntries("project");
+  data.cert = collectEntries("cert");
+  return data;
+}
+
+function section(title, body) {
+  return body ? '<section class="r-section"><h2>'+title+'</h2>'+body+'</section>' : "";
+}
+function itemExperience(x) {
+  return '<div class="r-item"><div class="r-top"><span class="r-role">'+esc(x.role)+'</span><span class="r-date">'+esc(x.start)+(x.end?' — '+esc(x.end):"")+'</span></div><div class="r-org">'+esc(x.company)+'</div><div class="r-desc">'+esc(x.description)+'</div></div>';
+}
+function itemEducation(x) {
+  return '<div class="r-item"><div class="r-top"><span class="r-role">'+esc(x.degree)+'</span><span class="r-date">'+esc(x.start)+(x.end?' — '+esc(x.end):"")+'</span></div><div class="r-org">'+esc(x.school)+'</div><div class="r-desc">'+esc(x.description)+'</div></div>';
+}
+function render() {
+  const d = collect();
+  const contact = [d.email,d.phone,d.location,d.website].filter(Boolean).map(esc).join("<span>•</span>");
+  const skills = splitList(d.skills).map(x => '<span class="chip">'+esc(x)+'</span>').join("");
+  const languages = splitList(d.languages).map(x => '<span class="chip">'+esc(x)+'</span>').join("");
+  const exp = d.experience.map(itemExperience).join("");
+  const edu = d.education.map(itemEducation).join("");
+  const projects = d.project.map(x => '<div class="r-item"><div class="r-top"><span class="r-role">'+esc(x.title)+'</span><span class="r-date">'+esc(x.link)+'</span></div><div class="r-desc">'+esc(x.description)+'</div></div>').join("");
+  const certs = d.cert.map(x => '<div class="r-item"><div class="r-top"><span class="r-role">'+esc(x.title)+'</span><span class="r-date">'+esc(x.year)+'</span></div><div class="r-org">'+esc(x.issuer)+'</div></div>').join("");
+  $("paper").className = "paper template-"+d.template;
+  $("paper").style.setProperty("--resume-accent", d.accent);
+  $("paper").innerHTML =
+    '<h1 class="resume-name">'+esc(d.name || "Your Name")+'</h1>'+
+    '<div class="resume-title">'+esc(d.job || "Professional Title")+'</div>'+
+    '<div class="contact">'+contact+'</div><div class="rule"></div>'+
+    section("Profile", '<div class="summary">'+esc(d.summary || "Add a concise professional summary to introduce yourself.")+'</div>')+
+    section("Experience", exp)+
+    section("Education", edu)+
+    '<div class="two-col">'+
+      '<div>'+section("Skills", '<div class="chips">'+skills+'</div>')+'</div>'+
+      '<div>'+section("Languages", '<div class="chips">'+languages+'</div>')+'</div>'+
+    '</div>'+
+    section("Projects", projects)+
+    section("Certifications", certs);
+}
+function update() { render(); }
+
+ids.forEach(id => $(id).addEventListener("input", () => { if(id==="accent") $("accentText").textContent = $(id).value; update(); }));
+$("template").addEventListener("change", update);
+document.addEventListener("input", e => { if(e.target.matches(".entry [data-key]")) update(); });
+
+function setStatus(msg) { $("status").textContent = msg; }
+$("printBtn").onclick = () => window.print();
+$("saveBtn").onclick = () => { localStorage.setItem("clickdyResumeDraft", JSON.stringify(collect())); setStatus("Draft saved in this browser."); };
+$("loadBtn").onclick = () => {
+  const raw = localStorage.getItem("clickdyResumeDraft");
+  if(!raw){ setStatus("No saved draft found."); return; }
+  loadData(JSON.parse(raw)); setStatus("Draft loaded.");
+};
+$("downloadJson").onclick = () => {
+  const blob = new Blob([JSON.stringify(collect(),null,2)], {type:"application/json"});
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "clickdy-resume.json"; a.click(); URL.revokeObjectURL(a.href);
+  setStatus("Resume data downloaded.");
+};
+$("clearBtn").onclick = () => {
+  if(!confirm("Clear all resume data?")) return;
+  ids.forEach(id => { if(id==="accent") $(id).value="#3aa9e8"; else if(id==="template") $(id).value="modern"; else $(id).value=""; });
+  ["experienceList","educationList","projectList","certList"].forEach(id => $(id).innerHTML="");
+  $("accentText").textContent="#3aa9e8"; update(); setStatus("Resume cleared.");
+};
+
+function loadData(d) {
+  ids.forEach(id => { if(d[id] !== undefined) $(id).value = d[id]; });
+  ["experience","education","project","cert"].forEach(type => {
+    const map={experience:"experienceList",education:"educationList",project:"projectList",cert:"certList"};
+    $(map[type]).innerHTML="";
+    (d[type]||[]).forEach(x => addEntry(type,x));
+  });
+  $("accentText").textContent = $("accent").value;
+  update();
+}
+addEntry("experience");
+addEntry("education");
+update();
+})();
+</script>
+</body>
+</html>
