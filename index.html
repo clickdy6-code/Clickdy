@@ -605,6 +605,137 @@ footer{background:#060a12!important;border-top-color:#1a2a40!important}.footer-b
 html,body{background:#070b14!important;color:#f4f8ff!important}.main-search input{background:#0b1421!important;color:#f5f8ff!important;-webkit-text-fill-color:#f5f8ff!important;caret-color:#38a5ff!important}.main-search input::placeholder{color:#7188a3!important;opacity:1!important}.nav-search input{background:transparent!important;color:#f5f8ff!important;-webkit-text-fill-color:#f5f8ff!important;caret-color:#38a5ff!important}.nav-search input::placeholder{color:#7188a3!important;opacity:1!important}
 .section-title,.tool-body h3,.category .cat-title,.ai-copy h2,.workflow-card h3,.final-cta h2{color:#f2f7ff!important}.hero-sub,.section-copy,.tool-body p,.category .cat-copy,.ai-copy p,.benefit p,.workflow-card p{color:#8fa4bd!important}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal,.js .reveal,.js .reveal.reveal-visible{opacity:1!important;visibility:visible!important;transform:none!important}}
+
+/* Clickdy Smart Workspace — fixed, dark, stable hero preview */
+.preview-wrap{
+  position:relative;
+  width:100%;
+  max-width:650px;
+  height:560px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.preview-glow{inset:13% 8% 9%;}
+.product-window{
+  width:100%;
+  height:470px;
+  max-height:470px;
+  min-height:470px;
+  background:#0b1421!important;
+  border:1px solid #20354d!important;
+  border-radius:24px;
+  box-shadow:0 30px 80px rgba(0,0,0,.38),0 0 0 1px rgba(99,199,255,.035);
+  overflow:hidden!important;
+  transform:none!important;
+  position:relative;
+  z-index:1;
+}
+.window-top{
+  height:42px;
+  min-height:42px;
+  background:#09111c!important;
+  border-bottom:1px solid #1c3046!important;
+}
+.window-dot{background:#526b83!important;}
+.window-url{
+  background:#0e1a2a!important;
+  border-color:#20354d!important;
+  color:#70869e!important;
+}
+.smart-window-body{
+  height:428px;
+  min-height:428px;
+  max-height:428px;
+  overflow:hidden;
+  padding:18px 20px 18px!important;
+  background:linear-gradient(180deg,#0b1421 0%,#0a131f 100%)!important;
+  color:#f4f8ff!important;
+}
+.smart-head{margin-bottom:12px;}
+.smart-brand strong{color:#f1f6fb!important;}
+.smart-brand span:not(.smart-mini-logo){color:#7f94aa!important;}
+.smart-status{background:#102a26!important;color:#63d7b1!important;}
+.smart-command-label{color:#91a4b8!important;}
+.smart-command-label kbd{background:#101d2d!important;border-color:#263b51!important;color:#71869c!important;}
+.smart-input-wrap{
+  height:40px;
+  min-height:40px;
+  max-height:40px;
+  background:#0e1a2a!important;
+  border-color:#29425b!important;
+  box-shadow:none!important;
+}
+.smart-input-wrap:focus-within{border-color:#3d9ee1!important;box-shadow:0 0 0 3px rgba(61,158,225,.12)!important;}
+.smart-input-wrap input{color:#edf5fc!important;-webkit-text-fill-color:#edf5fc!important;}
+.smart-input-wrap input::placeholder{color:#70869e!important;}
+.smart-clear{color:#7e94a9!important;}
+.smart-suggestions{height:27px;min-height:27px;max-height:27px;overflow:hidden;margin-top:6px;}
+.smart-suggestions button{background:#101d2d!important;border-color:#263b51!important;color:#91a5b9!important;}
+.smart-suggestions button:hover{background:#14263a!important;border-color:#3a8fca!important;color:#bfe5ff!important;}
+.smart-drop{
+  height:48px;
+  min-height:48px;
+  max-height:48px;
+  margin-top:9px;
+  padding:8px 10px;
+  background:#0d1928!important;
+  border-color:#31506b!important;
+}
+.smart-drop:hover,.smart-drop.dragging{background:#102338!important;border-color:#3c9bd9!important;}
+.smart-drop-icon{background:#102a40!important;color:#63c7ff!important;}
+.smart-drop-copy strong{color:#dce9f5!important;}
+.smart-drop-copy span{color:#71869d!important;}
+.smart-drop-badge{background:#102a40!important;color:#63c7ff!important;}
+.smart-results{margin-top:9px;}
+.smart-results-top span:first-child{color:#d7e5f1!important;}
+.smart-results-top span:last-child{color:#71869d!important;}
+.smart-tool-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;min-height:58px;}
+.smart-tool-item{
+  min-width:0;
+  height:58px;
+  min-height:58px;
+  max-height:58px;
+  padding:7px;
+  background:#0e1a2a!important;
+  border-color:#21384f!important;
+  color:#e8f1f8!important;
+  box-shadow:none!important;
+  overflow:hidden;
+}
+.smart-tool-item:hover{background:#122338!important;border-color:#3a8fca!important;box-shadow:0 8px 20px rgba(0,0,0,.2)!important;}
+.smart-tool-item strong{color:#e3edf5!important;}
+.smart-tool-item small{color:#73889e!important;}
+.smart-tool-item b{color:#7090a8!important;}
+.smart-pdf{background:#2b1b25!important;color:#ff8796!important}.smart-img{background:#112b28!important;color:#5ee0b0!important}.smart-qr{background:#211c37!important;color:#a99aff!important}
+.float-card{
+  background:#0d1928!important;
+  border-color:#263d53!important;
+  color:#eaf3fa!important;
+  box-shadow:0 18px 45px rgba(0,0,0,.30)!important;
+  padding:9px 11px!important;
+  border-radius:13px!important;
+  z-index:3;
+}
+.float-card strong{color:#e7f0f7!important;font-size:10px!important;}
+.float-card span{color:#758ba0!important;font-size:8px!important;}
+.float-one{left:-18px;bottom:47px;}
+.float-two{right:-18px;top:42px;}
+.float-icon{width:22px;height:22px;margin-bottom:5px!important;}
+.float-one .float-icon{background:#102a26!important;color:#62d8ad!important}.float-two .float-icon{background:#211c37!important;color:#a99aff!important}
+@media(max-width:1000px){
+  .preview-wrap{height:530px;}
+  .float-one{left:0;bottom:24px}.float-two{right:0;top:20px}
+}
+@media(max-width:760px){
+  .preview-wrap{height:520px;max-width:650px;}
+  .product-window{height:460px;min-height:460px;max-height:460px;}
+  .smart-window-body{height:418px;min-height:418px;max-height:418px;padding:15px!important;}
+  .smart-tool-list{grid-template-columns:1fr;}
+  .smart-tool-item{height:48px;min-height:48px;max-height:48px;}
+  .float-card{display:none!important;}
+}
 </style>
 </head>
 <body>
@@ -766,7 +897,7 @@ html,body{background:#070b14!important;color:#f4f8ff!important}.main-search inpu
 </div>
 </div>
 <div class="float-card float-one smart-float"><div class="float-icon">✓</div><strong>Smart recommendations</strong><span>Based on your request or file</span></div>
-<div class="float-card float-two smart-float"><div class="float-icon">⚡</div><strong>Runs in your browser</strong><span>Fast • private • no sign-up</span></div><strong>AI powered</strong><span>Create more in your browser</span></div>
+<div class="float-card float-two smart-float"><div class="float-icon">⚡</div><strong>Fast &amp; private</strong><span>Runs in your browser • no sign-up</span></div>
 </div>
 </div>
 
