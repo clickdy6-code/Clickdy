@@ -202,6 +202,59 @@ img{max-width:100%}
   position:absolute;inset:10% 7% 5%;background:linear-gradient(135deg,rgba(28,169,255,.2),rgba(116,92,255,.16));
   filter:blur(45px);border-radius:50%;
 }
+
+/* Smart hero workspace */
+.smart-window-body{padding:18px 20px 20px!important;background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%)}
+.smart-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
+.smart-brand{display:flex;align-items:center;gap:9px;min-width:0}
+.smart-mini-logo{width:27px;height:27px;border-radius:8px;background:linear-gradient(135deg,#158be9,#5260f5);display:grid;place-items:center;color:#fff;font-size:12px;font-weight:900;flex:0 0 auto}
+.smart-brand strong{display:block;font-size:11px;line-height:1.2;color:#17283a}
+.smart-brand span:not(.smart-mini-logo){display:block;font-size:8px;color:#8194a8;margin-top:3px}
+.smart-status{display:inline-flex;align-items:center;gap:5px;padding:5px 8px;border-radius:999px;background:#edf9f5;color:#14916f;font-size:8px;font-weight:800;white-space:nowrap}
+.smart-status i{width:6px;height:6px;border-radius:50%;background:#20bf92;box-shadow:0 0 0 3px rgba(32,191,146,.12);animation:smartPulse 1.8s infinite}
+@keyframes smartPulse{0%,100%{opacity:1}50%{opacity:.45}}
+.smart-command-label{display:flex;align-items:center;gap:6px;font-size:9px;color:#63768a;font-weight:800;margin-bottom:7px}
+.smart-spark{color:#755df2;font-size:11px}
+.smart-command-label kbd{margin-left:auto;border:1px solid #dbe5ee;background:#fff;border-radius:5px;padding:2px 5px;color:#91a1b1;font-size:7px;font-family:inherit}
+.smart-input-wrap{height:39px;border:1px solid #cfe0ee;background:#fff;border-radius:11px;display:flex;align-items:center;gap:8px;padding:0 10px;box-shadow:0 5px 18px rgba(32,86,130,.06);transition:.2s ease}
+.smart-input-wrap:focus-within{border-color:#75b9ed;box-shadow:0 0 0 3px rgba(31,143,231,.09)}
+.smart-input-wrap svg{color:#8297aa;flex:0 0 auto}
+.smart-input-wrap input{border:0;outline:0;background:transparent;width:100%;font:600 9px/1.2 "Segoe UI",Arial,sans-serif;color:#25384b;min-width:0}
+.smart-input-wrap input::placeholder{color:#9aacbc}
+.smart-clear{border:0;background:transparent;color:#9aabba;font-size:17px;line-height:1;cursor:pointer;padding:0 2px;display:none}
+.smart-clear.show{display:block}
+.smart-suggestions{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}
+.smart-suggestions button{border:1px solid #dce8f2;background:#f7fbfe;color:#597087;border-radius:999px;padding:5px 7px;font:700 7px/1 "Segoe UI",Arial,sans-serif;cursor:pointer;transition:.18s ease}
+.smart-suggestions button:hover{border-color:#a8d2f2;color:#137fd2;background:#eff8ff}
+.smart-drop{display:flex;align-items:center;gap:9px;margin-top:11px;padding:9px 10px;border:1px dashed #a9cbe5;border-radius:11px;background:linear-gradient(90deg,#f6fbff,#fff);cursor:pointer;transition:.2s ease}
+.smart-drop:hover,.smart-drop.dragging{border-color:#248fe3;background:#edf7ff;transform:translateY(-1px)}
+.smart-drop-icon{width:27px;height:27px;border-radius:8px;background:#eaf5ff;color:#1686df;display:grid;place-items:center;font-size:15px;font-weight:800;flex:0 0 auto}
+.smart-drop-copy{min-width:0}
+.smart-drop-copy strong{display:block;font-size:8px;color:#26394c}
+.smart-drop-copy span{display:block;font-size:7px;color:#8799aa;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.smart-drop-badge{margin-left:auto;padding:4px 6px;border-radius:5px;background:#eaf5ff;color:#1884d8;font-size:6px;font-weight:900;letter-spacing:.08em}
+.smart-results{margin-top:10px}
+.smart-results-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.smart-results-top span:first-child{font-size:8px;font-weight:900;color:#34495d}
+.smart-results-top span:last-child{font-size:7px;color:#93a3b3}
+.smart-tool-list{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.smart-tool-item{display:flex;align-items:center;gap:6px;min-width:0;padding:8px;border:1px solid #e0e9f1;background:#fff;border-radius:10px;text-decoration:none;color:inherit;transition:.18s ease}
+.smart-tool-item:hover{transform:translateY(-2px);border-color:#a9d3f1;box-shadow:0 8px 18px rgba(32,86,130,.09)}
+.smart-tool-item[hidden]{display:none}
+.smart-tool-item>span:nth-child(2){min-width:0;flex:1}
+.smart-tool-item strong{display:block;font-size:7px;color:#31465a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.smart-tool-item small{display:block;font-size:6px;color:#8a9bab;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.smart-tool-item b{font-size:10px;color:#91a5b7}
+.smart-tool-icon{width:25px;height:25px;border-radius:7px;display:grid;place-items:center;font-size:7px;font-weight:900;flex:0 0 auto}
+.smart-pdf{background:#fff0f2;color:#e95a6c}.smart-img{background:#eafbf5;color:#10a977}.smart-qr{background:#f0edff;color:#7058e8}
+.smart-float{transition:transform .25s ease}
+.smart-float:hover{transform:translateY(-3px)}
+@media(max-width:760px){
+  .smart-tool-list{grid-template-columns:1fr}
+  .smart-drop-copy span{white-space:normal}
+  .smart-window-body{padding:15px!important}
+}
+
 .product-window{
   position:relative;background:#fff;border:1px solid #dbeaf6;border-radius:26px;
   box-shadow:0 30px 80px rgba(27,84,132,.17);overflow:hidden;transform:rotate(1deg);
@@ -650,29 +703,70 @@ html,body{background:#070b14!important;color:#f4f8ff!important}.main-search inpu
 <span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span>
 <div class="window-url">clickdy.com</div>
 </div>
-<div class="window-body">
-<div class="preview-brand">
-<div class="preview-brand-left"><span class="preview-mini-logo">C</span> Clickdy</div>
-<span class="preview-chip">1000+ tools</span>
+<div class="window-body smart-window-body">
+<div class="smart-head">
+  <div class="smart-brand">
+    <span class="smart-mini-logo">C</span>
+    <div>
+      <strong>Clickdy Smart Workspace</strong>
+      <span>Find the right tool in seconds</span>
+    </div>
+  </div>
+  <span class="smart-status"><i></i> Ready</span>
 </div>
-<div class="preview-question">What do you want to do?</div>
-<div class="preview-search">
-<svg fill="none" height="15" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="15"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
-              Search tools... e.g. PDF to Word
-            </div>
-<div class="preview-cats">
-<div class="preview-cat"><div class="pc-icon pc-red">PDF</div><strong>PDF Tools</strong><span>Convert &amp; edit</span></div>
-<div class="preview-cat"><div class="pc-icon pc-green">IMG</div><strong>Image Tools</strong><span>Compress &amp; create</span></div>
-<div class="preview-cat"><div class="pc-icon pc-purple">AI</div><strong>AI Tools</strong><span>Create &amp; automate</span></div>
+
+<div class="smart-command">
+  <div class="smart-command-label">
+    <span class="smart-spark">✦</span>
+    <span>What do you want to do?</span>
+    <kbd>⌘ K</kbd>
+  </div>
+  <div class="smart-input-wrap">
+    <svg fill="none" height="15" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="15" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+    <input id="smartHeroInput" type="search" autocomplete="off" placeholder="Try “compress my PDF” or “make a QR code”" aria-label="Smart tool finder"/>
+    <button id="smartHeroClear" class="smart-clear" type="button" aria-label="Clear smart search">×</button>
+  </div>
+  <div class="smart-suggestions" id="smartSuggestions">
+    <button type="button" data-smart-query="compress my pdf">Compress PDF</button>
+    <button type="button" data-smart-query="remove image background">Remove background</button>
+    <button type="button" data-smart-query="make qr code">Create QR</button>
+  </div>
 </div>
-<div class="preview-bottom">
-<div class="preview-panel"><div class="preview-line blue"></div><div class="preview-line"></div><div class="preview-line short"></div><div class="preview-tools"><span class="preview-tool">Merge</span><span class="preview-tool">Compress</span><span class="preview-tool">Convert</span></div></div>
-<div class="preview-panel"><div class="preview-line"></div><div class="preview-line blue"></div><div class="preview-line short"></div></div>
+
+<div class="smart-drop" id="smartDropZone" tabindex="0" role="button" aria-label="Drop a file to get recommended Clickdy tools">
+  <div class="smart-drop-icon">↥</div>
+  <div class="smart-drop-copy">
+    <strong id="smartDropTitle">Drop a file here</strong>
+    <span id="smartDropText">We'll detect what it is and suggest the best Clickdy tools.</span>
+  </div>
+  <span class="smart-drop-badge">SMART</span>
+  <input id="smartHeroFile" type="file" hidden />
+</div>
+
+<div class="smart-results" id="smartResults">
+  <div class="smart-results-top">
+    <span id="smartResultTitle">Quick actions</span>
+    <span id="smartResultHint">No upload required</span>
+  </div>
+  <div class="smart-tool-list" id="smartToolList">
+    <a class="smart-tool-item" href="pdf-to-word/index.html" data-smart-name="PDF to Word" data-smart-keywords="pdf word convert editable document">
+      <span class="smart-tool-icon smart-pdf">PDF</span>
+      <span><strong>PDF to Word</strong><small>Turn PDFs into editable documents</small></span><b>→</b>
+    </a>
+    <a class="smart-tool-item" href="image-compressor/index.html" data-smart-name="Image Compressor" data-smart-keywords="image compress jpg png webp reduce size">
+      <span class="smart-tool-icon smart-img">IMG</span>
+      <span><strong>Image Compressor</strong><small>Reduce image size quickly</small></span><b>→</b>
+    </a>
+    <a class="smart-tool-item" href="qr-generator/index.html" data-smart-name="QR Generator" data-smart-keywords="qr code link url wifi text">
+      <span class="smart-tool-icon smart-qr">QR</span>
+      <span><strong>QR Generator</strong><small>Create a QR code instantly</small></span><b>→</b>
+    </a>
+  </div>
 </div>
 </div>
 </div>
-<div class="float-card float-one"><div class="float-icon">✓</div><strong>Quick &amp; simple</strong><span>Get things done faster</span></div>
-<div class="float-card float-two"><div class="float-icon">✦</div><strong>AI powered</strong><span>Create more in your browser</span></div>
+<div class="float-card float-one smart-float"><div class="float-icon">✓</div><strong>Smart recommendations</strong><span>Based on your request or file</span></div>
+<div class="float-card float-two smart-float"><div class="float-icon">⚡</div><strong>Runs in your browser</strong><span>Fast • private • no sign-up</span></div><strong>AI powered</strong><span>Create more in your browser</span></div>
 </div>
 </div>
 
@@ -1088,5 +1182,153 @@ document.documentElement.classList.add("js");
 
 })();
 </script>
+
+<script>
+(function(){
+  const input = document.getElementById("smartHeroInput");
+  const clearBtn = document.getElementById("smartHeroClear");
+  const suggestions = document.getElementById("smartSuggestions");
+  const resultTitle = document.getElementById("smartResultTitle");
+  const resultHint = document.getElementById("smartResultHint");
+  const toolList = document.getElementById("smartToolList");
+  const dropZone = document.getElementById("smartDropZone");
+  const fileInput = document.getElementById("smartHeroFile");
+  const dropTitle = document.getElementById("smartDropTitle");
+  const dropText = document.getElementById("smartDropText");
+  if(!input || !toolList) return;
+
+  const items = Array.from(toolList.querySelectorAll(".smart-tool-item"));
+  const catalog = [
+    {name:"PDF to Word", url:"pdf-to-word/index.html", keys:["pdf","word","docx","editable","document","convert"]},
+    {name:"PDF Merge", url:"pdf-merge/index.html", keys:["pdf","merge","combine","join","multiple"]},
+    {name:"PDF Split", url:"pdf-split/index.html", keys:["pdf","split","extract","pages","separate"]},
+    {name:"PDF Compressor", url:"pdf-compress/index.html", keys:["pdf","compress","reduce","size","smaller"]},
+    {name:"JPG to PDF", url:"jpg-to-pdf/index.html", keys:["jpg","jpeg","png","webp","pdf","image","convert"]},
+    {name:"PDF to JPG", url:"pdf-to-jpg/index.html", keys:["pdf","jpg","jpeg","image","pages","convert"]},
+    {name:"Image Compressor", url:"image-compressor/index.html", keys:["image","compress","jpg","png","webp","size","photo"]},
+    {name:"Background Remover", url:"background-remover/index.html", keys:["background","remove","photo","image","transparent","cutout"]},
+    {name:"Image Resizer", url:"image-resizer/index.html", keys:["resize","image","width","height","photo","dimensions"]},
+    {name:"Image Converter", url:"image-converter/index.html", keys:["image","convert","jpg","png","webp","format"]},
+    {name:"Passport Photo Maker", url:"passport-photo-maker/index.html", keys:["passport","photo","id","visa","print"]},
+    {name:"QR Generator", url:"qr-generator/index.html", keys:["qr","code","url","link","wifi","sms"]},
+    {name:"Word Counter", url:"word-counter/index.html", keys:["word","count","characters","text","words"]},
+    {name:"Case Converter", url:"case-converter/index.html", keys:["case","uppercase","lowercase","text","title"]},
+    {name:"Signature Generator", url:"signature-generator/index.html", keys:["signature","sign","draw","document"]},
+    {name:"Resume Builder", url:"resume-builder/index.html", keys:["resume","cv","curriculum","job","career"]},
+    {name:"Text to Image", url:"text-to-image/index.html", keys:["text","image","design","poster","quote"]},
+    {name:"Text to Speech", url:"text-to-speech/index.html", keys:["text","speech","voice","read","audio"]},
+    {name:"Zakat Calculator", url:"zakat-calculator/index.html", keys:["zakat","calculator","gold","silver","nisab"]}
+  ];
+
+  const aliases = {
+    "compress my pdf":["PDF Compressor"],
+    "compress pdf":["PDF Compressor"],
+    "make a qr":["QR Generator"],
+    "make qr":["QR Generator"],
+    "remove image background":["Background Remover"],
+    "remove background":["Background Remover"],
+    "convert image":["Image Converter"],
+    "resize image":["Image Resizer"],
+    "make passport photo":["Passport Photo Maker"],
+    "create resume":["Resume Builder"],
+    "count words":["Word Counter"],
+    "convert pdf to word":["PDF to Word"],
+    "merge pdf":["PDF Merge"],
+    "split pdf":["PDF Split"]
+  };
+
+  function score(item, query){
+    const q=query.toLowerCase().trim();
+    if(!q) return 0;
+    const terms=q.split(/\s+/).filter(Boolean);
+    const hay=[item.name].concat(item.keys).join(" ").toLowerCase();
+    let score=0;
+    terms.forEach(t=>{
+      if(item.name.toLowerCase().includes(t)) score+=7;
+      if(hay.includes(t)) score+=3;
+    });
+    return score;
+  }
+
+  function render(query){
+    const q=query.trim().toLowerCase();
+    clearBtn.classList.toggle("show", !!q);
+    if(!q){
+      resultTitle.textContent="Quick actions";
+      resultHint.textContent="No upload required";
+      items.forEach((el,i)=>{ el.hidden=i>2; });
+      suggestions.hidden=false;
+      return;
+    }
+    const ranked=catalog.map(item=>({item,score:score(item,q)})).filter(x=>x.score>0);
+    Object.keys(aliases).forEach(alias=>{
+      if(q.includes(alias)){
+        aliases[alias].forEach(name=>{
+          const found=ranked.find(x=>x.item.name===name);
+          if(found) found.score+=30;
+        });
+      }
+    });
+    ranked.sort((a,b)=>b.score-a.score);
+    resultTitle.textContent=ranked.length ? "Best matches" : "No exact match";
+    resultHint.textContent=ranked.length ? ranked.length+" tool"+(ranked.length===1?"":"s")+" found" : "Try PDF, image, QR, resume or text";
+    items.forEach(el=>el.remove());
+    ranked.slice(0,3).forEach(({item})=>{
+      const a=document.createElement("a");
+      a.className="smart-tool-item";
+      a.href=item.url;
+      const icon=item.name.includes("PDF")?"PDF":item.name.includes("Image")||item.name.includes("Photo")?"IMG":item.name.includes("QR")?"QR":"TXT";
+      const cls=icon==="PDF"?"smart-pdf":icon==="IMG"?"smart-img":"smart-qr";
+      a.innerHTML='<span class="smart-tool-icon '+cls+'">'+icon+'</span><span><strong>'+item.name+'</strong><small>Open this Clickdy tool</small></span><b>→</b>';
+      toolList.appendChild(a);
+    });
+    suggestions.hidden=true;
+  }
+
+  input.addEventListener("input",()=>render(input.value));
+  clearBtn.addEventListener("click",()=>{input.value="";render("");input.focus();});
+  suggestions.addEventListener("click",e=>{
+    const btn=e.target.closest("[data-smart-query]");
+    if(!btn)return;
+    input.value=btn.getAttribute("data-smart-query")||"";
+    render(input.value);
+    input.focus();
+  });
+
+  function handleFile(file){
+    if(!file)return;
+    const name=file.name.toLowerCase();
+    const type=(file.type||"").toLowerCase();
+    let query="";
+    if(type.includes("pdf") || name.endsWith(".pdf")) query="pdf";
+    else if(type.startsWith("image/") || /\.(jpg|jpeg|png|webp|gif)$/i.test(name)) query="image";
+    else if(type.startsWith("text/") || /\.(txt|doc|docx)$/i.test(name)) query="text";
+    else query=name.replace(/\.[^.]+$/,"").replace(/[-_]+/g," ");
+    input.value=query;
+    render(query);
+    dropTitle.textContent="File detected";
+    dropText.textContent=file.name+" • "+(file.type||"file")+" • choose a recommended tool below";
+    dropZone.classList.remove("dragging");
+  }
+
+  dropZone.addEventListener("click",()=>fileInput && fileInput.click());
+  dropZone.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();fileInput.click();}});
+  fileInput.addEventListener("change",()=>handleFile(fileInput.files[0]));
+  ["dragenter","dragover"].forEach(ev=>dropZone.addEventListener(ev,e=>{e.preventDefault();dropZone.classList.add("dragging");}));
+  ["dragleave","drop"].forEach(ev=>dropZone.addEventListener(ev,e=>{e.preventDefault();if(ev==="dragleave" && !dropZone.contains(e.relatedTarget))dropZone.classList.remove("dragging");}));
+  dropZone.addEventListener("drop",e=>handleFile(e.dataTransfer.files[0]));
+
+  // Keyboard shortcut: Ctrl/Cmd + K focuses the smart workspace.
+  document.addEventListener("keydown",e=>{
+    if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){
+      e.preventDefault();
+      input.focus();
+      input.select();
+    }
+  });
+  render("");
+})();
+</script>
+
 </body>
 </html>
