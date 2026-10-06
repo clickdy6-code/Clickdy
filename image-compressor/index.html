@@ -3,2298 +3,277 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Image Compressor - Clickdy</title>
-
-<meta
-  name="description"
-  content="Compress JPG, PNG and WebP images online with Clickdy."
->
-
+<title>Image Compressor Online - Clickdy</title>
+<meta name="description" content="Compress JPG, PNG and WebP images online with Clickdy. Reduce image size, control quality and download optimized files.">
 <style>
-:root{
-  --bg:#070b12;
-  --panel:#0d131d;
-  --panel2:#111925;
-  --panel3:#151f2d;
-  --text:#f4f7fb;
-  --muted:#8e9aaa;
-  --accent:#63c7ff;
-  --border:rgba(255,255,255,.08);
-  --green:#62d89a;
-  --red:#ff6f7d;
-}
-
-*{
-  box-sizing:border-box;
-}
-
-html{
-  scroll-behavior:smooth;
-}
-
-body{
-  margin:0;
-  min-height:100vh;
-  background:var(--bg);
-  color:var(--text);
-  font-family:"Segoe UI",Arial,sans-serif;
-  font-weight:400;
-}
-
-button,
-input,
-select{
-  font:inherit;
-}
-
-button{
-  cursor:pointer;
-}
-
-/* =========================
-   HEADER
-========================= */
-
-.topbar{
-  height:88px;
-  max-width:1180px;
-  margin:auto;
-  padding:0 22px;
-  border-bottom:1px solid var(--border);
-
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-}
-
-.brand{
-  display:flex;
-  align-items:center;
-  gap:10px;
-
-  color:var(--text);
-  text-decoration:none;
-}
-
-.brand img{
-  width:34px;
-  height:34px;
-  object-fit:contain;
-  border-radius:9px;
-}
-
-.brand span{
-  font-size:20px;
-  font-weight:600;
-}
-
-.back{
-  color:var(--muted);
-  text-decoration:none;
-
-  font-size:14px;
-
-  padding:9px 12px;
-
-  border:1px solid var(--border);
-  border-radius:10px;
-}
-
-.back:hover{
-  color:var(--text);
-  border-color:rgba(99,199,255,.35);
-}
-
-/* =========================
-   HERO
-========================= */
-
-.hero{
-  max-width:850px;
-  margin:auto;
-
-  padding:54px 22px 30px;
-
-  text-align:center;
-}
-
-.badge{
-  display:inline-block;
-
-  padding:7px 11px;
-
-  border:1px solid rgba(99,199,255,.18);
-  background:rgba(99,199,255,.07);
-
-  color:var(--accent);
-
-  border-radius:999px;
-
-  font-size:12px;
-}
-
-.hero h1{
-  margin:18px 0 12px;
-
-  font-size:clamp(34px,5vw,54px);
-
-  line-height:1.05;
-
-  letter-spacing:-1.8px;
-
-  font-weight:600;
-}
-
-.hero h1 span{
-  color:var(--accent);
-}
-
-.hero p{
-  max-width:680px;
-
-  margin:auto;
-
-  color:var(--muted);
-
-  font-size:15px;
-
-  line-height:1.7;
-}
-
-.benefits{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-
-  gap:8px;
-
-  margin-top:19px;
-}
-
-.benefits span{
-  padding:7px 10px;
-
-  background:rgba(255,255,255,.035);
-
-  border:1px solid var(--border);
-
-  border-radius:999px;
-
-  color:#b9c3d0;
-
-  font-size:12px;
-}
-
-/* =========================
-   WORKSPACE
-========================= */
-
-.workspace{
-  width:min(calc(100% - 30px),1080px);
-
-  margin:0 auto 60px;
-
-  padding:20px;
-
-  background:var(--panel);
-
-  border:1px solid var(--border);
-
-  border-radius:16px;
-
-  box-shadow:0 20px 55px rgba(0,0,0,.22);
-}
-
-/* =========================
-   DROPZONE
-========================= */
-
-.dropzone{
-  min-height:190px;
-
-  border:1px dashed rgba(99,199,255,.38);
-
-  border-radius:14px;
-
-  display:grid;
-  place-items:center;
-
-  text-align:center;
-
-  padding:25px;
-
-  background:rgba(99,199,255,.025);
-
-  transition:.2s;
-}
-
-.dropzone.drag{
-  background:rgba(99,199,255,.08);
-
-  border-color:var(--accent);
-}
-
-.upload-icon{
-  width:46px;
-  height:46px;
-
-  margin:0 auto 11px;
-
-  display:grid;
-  place-items:center;
-
-  border-radius:13px;
-
-  background:rgba(99,199,255,.09);
-
-  color:var(--accent);
-
-  font-size:22px;
-}
-
-.dropzone h2{
-  margin:0 0 6px;
-
-  font-size:18px;
-
-  font-weight:500;
-}
-
-.dropzone p{
-  margin:0 0 13px;
-
-  color:var(--muted);
-
-  font-size:13px;
-}
-
-.file-input{
-  position:absolute;
-
-  width:1px;
-  height:1px;
-
-  opacity:0;
-
-  overflow:hidden;
-}
-
-.browse{
-  display:inline-flex;
-
-  align-items:center;
-  justify-content:center;
-
-  padding:9px 14px;
-
-  border:1px solid rgba(99,199,255,.35);
-
-  border-radius:10px;
-
-  background:rgba(99,199,255,.08);
-
-  color:var(--accent);
-
-  font-size:13px;
-
-  cursor:pointer;
-}
-
-.browse:focus-visible{
-  outline:2px solid var(--accent);
-  outline-offset:3px;
-}
-
-/* =========================
-   FILE LIST
-========================= */
-
-.files,
-.results{
-  display:grid;
-
-  gap:9px;
-
-  margin-top:14px;
-}
-
-.file,
-.result{
-  padding:10px;
-
-  background:var(--panel2);
-
-  border:1px solid var(--border);
-
-  border-radius:12px;
-}
-
-.file{
-  display:grid;
-
-  grid-template-columns:54px minmax(0,1fr) auto;
-
-  gap:11px;
-
-  align-items:center;
-}
-
-.thumb{
-  width:54px;
-  height:54px;
-
-  border-radius:9px;
-
-  object-fit:cover;
-
-  background:#090e15;
-}
-
-.name,
-.result-name{
-  font-size:13px;
-
-  white-space:nowrap;
-
-  overflow:hidden;
-
-  text-overflow:ellipsis;
-}
-
-.meta{
-  margin-top:4px;
-
-  color:var(--muted);
-
-  font-size:11px;
-}
-
-.file-actions{
-  display:flex;
-
-  gap:6px;
-
-  justify-content:flex-end;
-}
-
-.small{
-  padding:7px 9px;
-
-  font-size:11px;
-}
-
-/* =========================
-   CONTROLS
-========================= */
-
-.controls{
-  display:grid;
-
-  grid-template-columns:repeat(2,minmax(0,1fr));
-
-  gap:12px;
-
-  margin-top:15px;
-}
-
-.control{
-  background:var(--panel2);
-
-  border:1px solid var(--border);
-
-  border-radius:12px;
-
-  padding:14px;
-}
-
-.full{
-  grid-column:1/-1;
-}
-
-.label-row{
-  display:flex;
-
-  justify-content:space-between;
-
-  align-items:center;
-
-  margin-bottom:9px;
-}
-
-.field-label{
-  display:block;
-
-  margin-bottom:9px;
-
-  font-size:13px;
-
-  color:#d8dee7;
-}
-
-.label{
-  font-size:13px;
-
-  color:#d8dee7;
-}
-
-.value{
-  font-size:12px;
-
-  color:var(--accent);
-}
-
-select{
-  width:100%;
-
-  padding:9px 10px;
-
-  background:var(--panel3);
-
-  color:var(--text);
-
-  border:1px solid var(--border);
-
-  border-radius:9px;
-
-  outline:none;
-}
-
-select:focus-visible{
-  border-color:var(--accent);
-
-  box-shadow:0 0 0 2px rgba(99,199,255,.12);
-}
-
-input[type="range"]{
-  width:100%;
-
-  accent-color:var(--accent);
-}
-
-.range-label{
-  display:block;
-
-  margin-bottom:9px;
-}
-
-.option-label{
-  display:flex;
-
-  align-items:center;
-
-  gap:8px;
-
-  color:#b8c2cf;
-
-  font-size:12px;
-
-  cursor:pointer;
-}
-
-.option-label input{
-  width:15px;
-  height:15px;
-
-  accent-color:var(--accent);
-}
-
-/* =========================
-   BUTTONS
-========================= */
-
-.actions{
-  display:flex;
-
-  gap:9px;
-
-  flex-wrap:wrap;
-
-  margin-top:14px;
-}
-
-.btn{
-  display:inline-flex;
-
-  align-items:center;
-  justify-content:center;
-
-  padding:9px 14px;
-
-  border:1px solid var(--border);
-
-  border-radius:10px;
-
-  background:var(--panel3);
-
-  color:#dfe6ef;
-
-  font-size:13px;
-}
-
-.btn:hover{
-  filter:brightness(1.08);
-}
-
-.btn:focus-visible{
-  outline:2px solid var(--accent);
-
-  outline-offset:2px;
-}
-
-.btn.primary{
-  background:var(--accent);
-
-  border-color:var(--accent);
-
-  color:#06111a;
-
-  font-weight:600;
-}
-
-.btn:disabled{
-  opacity:.45;
-
-  cursor:not-allowed;
-}
-
-/* =========================
-   STATUS
-========================= */
-
-.status{
-  min-height:22px;
-
-  margin-top:11px;
-
-  color:var(--muted);
-
-  font-size:12px;
-}
-
-/* =========================
-   RESULTS
-========================= */
-
-.result-top{
-  display:flex;
-
-  justify-content:space-between;
-
-  align-items:center;
-
-  gap:10px;
-}
-
-.good{
-  color:var(--green);
-}
-
-.bad{
-  color:var(--red);
-}
-
-.progress{
-  height:5px;
-
-  background:#080d14;
-
-  border-radius:999px;
-
-  overflow:hidden;
-
-  margin-top:10px;
-}
-
-.progress span{
-  display:block;
-
-  height:100%;
-
-  background:var(--accent);
-}
-
-.note{
-  margin-top:12px;
-
-  color:#738093;
-
-  font-size:11px;
-
-  line-height:1.6;
-}
-
-/* =========================
-   MOBILE
-========================= */
-
-@media(max-width:720px){
-
-  .topbar{
-    height:76px;
-
-    padding:0 15px;
-  }
-
-  .brand span{
-    font-size:18px;
-  }
-
-  .hero{
-    padding-top:40px;
-  }
-
-  .workspace{
-    width:calc(100% - 20px);
-
-    padding:12px;
-  }
-
-  .controls{
-    grid-template-columns:1fr;
-  }
-
-  .full{
-    grid-column:auto;
-  }
-
-  .file{
-    grid-template-columns:46px minmax(0,1fr);
-  }
-
-  .thumb{
-    width:46px;
-    height:46px;
-  }
-
-  .file-actions{
-    grid-column:1/-1;
-
-    justify-content:flex-start;
-  }
-
-  .hero h1{
-    letter-spacing:-1px;
-  }
-
-}
+:root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--border:rgba(255,255,255,.08);--green:#62d89a;--red:#ff6f7d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif;font-weight:400}button,input,select{font:inherit}button{cursor:pointer}
+.topbar{height:88px;max-width:1180px;margin:auto;padding:0 22px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;color:var(--text);text-decoration:none}.brand img{width:34px;height:34px;object-fit:contain;border-radius:9px}.brand span{font-size:20px;font-weight:600}.back{color:var(--muted);text-decoration:none;font-size:14px;padding:9px 12px;border:1px solid var(--border);border-radius:10px}.back:hover{color:var(--text);border-color:rgba(99,199,255,.35)}
+.hero{max-width:850px;margin:auto;padding:54px 22px 30px;text-align:center}.badge{display:inline-block;padding:7px 11px;border:1px solid rgba(99,199,255,.18);background:rgba(99,199,255,.07);color:var(--accent);border-radius:999px;font-size:12px}.hero h1{margin:18px 0 12px;font-size:clamp(34px,5vw,54px);line-height:1.05;letter-spacing:-1.8px;font-weight:600}.hero h1 span{color:var(--accent)}.hero p{max-width:680px;margin:auto;color:var(--muted);font-size:15px;line-height:1.7}.benefits{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:19px}.benefits span{padding:7px 10px;background:rgba(255,255,255,.035);border:1px solid var(--border);border-radius:999px;color:#b9c3d0;font-size:12px}
+.workspace{width:min(calc(100% - 30px),1080px);margin:0 auto 60px;background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:20px;box-shadow:0 20px 55px rgba(0,0,0,.22)}.dropzone{min-height:190px;border:1px dashed rgba(99,199,255,.38);border-radius:14px;display:grid;place-items:center;text-align:center;padding:25px;background:rgba(99,199,255,.025);transition:.2s}.dropzone.drag{background:rgba(99,199,255,.08);border-color:var(--accent)}.upload-icon{width:46px;height:46px;margin:0 auto 11px;display:grid;place-items:center;border-radius:13px;background:rgba(99,199,255,.09);color:var(--accent);font-size:22px}.dropzone h2{margin:0 0 6px;font-size:18px;font-weight:500}.dropzone p{margin:0 0 13px;color:var(--muted);font-size:13px}.file-input{position:absolute;width:1px;height:1px;opacity:0}.browse,.btn{display:inline-flex;align-items:center;justify-content:center;padding:9px 14px;border:1px solid var(--border);border-radius:10px;background:var(--panel3);color:#dfe6ef;font-size:13px}.browse{border-color:rgba(99,199,255,.35);background:rgba(99,199,255,.08);color:var(--accent);cursor:pointer}
+.files,.results{display:grid;gap:9px;margin-top:14px}.file,.result{padding:10px;background:var(--panel2);border:1px solid var(--border);border-radius:12px}.file{display:grid;grid-template-columns:54px minmax(0,1fr) auto;gap:11px;align-items:center}.thumb{width:54px;height:54px;border-radius:9px;object-fit:cover;background:#090e15}.name,.result-name{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.meta{margin-top:4px;color:var(--muted);font-size:11px}.file-actions{display:flex;gap:6px;justify-content:flex-end}.small{padding:7px 9px;font-size:11px}.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:15px}.control{background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:14px}.full{grid-column:1/-1}.label-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px}.label{font-size:13px;color:#d8dee7}.value{font-size:12px;color:var(--accent)}select{width:100%;padding:9px 10px;background:var(--panel3);color:var(--text);border:1px solid var(--border);border-radius:9px;outline:none}input[type=range]{width:100%;accent-color:var(--accent)}
+.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}.btn.primary{background:var(--accent);border-color:var(--accent);color:#06111a;font-weight:600}.btn:disabled{opacity:.45;cursor:not-allowed}.status{min-height:22px;margin-top:11px;color:var(--muted);font-size:12px}.result-top{display:flex;justify-content:space-between;align-items:center;gap:10px}.good{color:var(--green)}.bad{color:var(--red)}.progress{height:5px;background:#080d14;border-radius:999px;overflow:hidden;margin-top:10px}.progress span{display:block;height:100%;background:var(--accent)}.note{margin-top:12px;color:#738093;font-size:11px;line-height:1.6}
+@media(max-width:720px){.topbar{height:76px;padding:0 15px}.brand span{font-size:18px}.hero{padding-top:40px}.workspace{width:calc(100% - 20px);padding:12px}.controls{grid-template-columns:1fr}.full{grid-column:auto}.file{grid-template-columns:46px minmax(0,1fr)}.thumb{width:46px;height:46px}.file-actions{grid-column:1/-1;justify-content:flex-start}.hero h1{letter-spacing:-1px}}
 </style>
+<!-- Clickdy SEO metadata -->
+<link rel="canonical" href="https://clickdy.vercel.app/image-compressor/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Image Compressor Online - Clickdy">
+<meta property="og:description" content="Compress JPG, PNG and WebP images online with Clickdy. Reduce image size, control quality and download optimized files.">
+<meta property="og:url" content="https://clickdy.vercel.app/image-compressor/">
+<meta property="og:site_name" content="Clickdy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Image Compressor Online - Clickdy">
+<meta name="twitter:description" content="Compress JPG, PNG and WebP images online with Clickdy. Reduce image size, control quality and download optimized files.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Image Compressor Online",
+  "url": "https://clickdy.vercel.app/image-compressor/",
+  "description": "Compress JPG, PNG and WebP images online with Clickdy. Reduce image size, control quality and download optimized files.",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Clickdy",
+    "url": "https://clickdy.vercel.app/"
+  }
+}
+</script>
 </head>
-
 <body>
-
 <header class="topbar">
-
-  <a
-    class="brand"
-    href="../index.html"
-    aria-label="Clickdy Home"
-  >
-
-    <img
-      src="../assets/logo.png"
-      alt="Clickdy logo"
-    >
-
-    <span>Clickdy</span>
-
-  </a>
-
-
-  <a
-    class="back"
-    href="../index.html"
-  >
-    ← Back to Home
-  </a>
-
+  <a class="brand" href="../index.html"><img src="../assets/logo.png" alt="Clickdy"><span>Clickdy</span></a>
+  <a class="back" href="../index.html">← Back to Home</a>
 </header>
 
-
 <section class="hero">
-
-  <div class="badge">
-    IMAGE TOOL • BROWSER-SIDE
-  </div>
-
-
-  <h1>
-    Compress Images.
-    <span>Smaller. Faster. Cleaner.</span>
-  </h1>
-
-
-  <p>
-    Reduce JPG, PNG and WebP file sizes directly in your browser
-    while keeping image quality under your control.
-  </p>
-
-
-  <div class="benefits">
-
-    <span>Multiple images</span>
-
-    <span>Custom quality</span>
-
-    <span>ZIP download</span>
-
-    <span>No upload</span>
-
-  </div>
-
+  <div class="badge">IMAGE TOOL • BROWSER-SIDE</div>
+  <h1>Compress Images. <span>Smaller. Faster. Cleaner.</span></h1>
+  <p>Reduce JPG, PNG and WebP file sizes directly in your browser while keeping image quality under your control.</p>
+  <div class="benefits"><span>Multiple images</span><span>Custom quality</span><span>ZIP download</span><span>No upload</span></div>
 </section>
 
-
 <main class="workspace">
-
-  <!-- UPLOAD -->
-
-  <div
-    class="dropzone"
-    id="dropzone"
-    role="region"
-    aria-label="Image upload area"
-  >
-
+  <div class="dropzone" id="dropzone">
     <div>
-
-      <div
-        class="upload-icon"
-        aria-hidden="true"
-      >
-        ↑
-      </div>
-
-
-      <h2>
-        Drop your images here
-      </h2>
-
-
-      <p>
-        JPG, JPEG, PNG or WebP • multiple files supported
-      </p>
-
-
-      <label
-        class="browse"
-        for="fileInput"
-      >
-        Choose Images
-      </label>
-
-
-      <input
-        class="file-input"
-        id="fileInput"
-        type="file"
-        accept="image/jpeg,image/png,image/webp"
-        multiple
-        aria-label="Choose images to compress"
-      >
-
+      <div class="upload-icon">↑</div>
+      <h2>Drop your images here</h2>
+      <p>JPG, JPEG, PNG or WebP • multiple files supported</p>
+      <label class="browse" for="fileInput">Choose Images</label>
+      <input class="file-input" id="fileInput" type="file" accept="image/jpeg,image/png,image/webp" multiple>
     </div>
-
   </div>
 
-
-  <!-- FILES -->
-
-  <div
-    id="files"
-    class="files"
-    aria-live="polite"
-  ></div>
-
-
-  <!-- SETTINGS -->
+  <div id="files" class="files"></div>
 
   <section class="controls">
-
-    <!-- FORMAT -->
-
-    <div class="control">
-
-      <label
-        class="field-label"
-        for="format"
-      >
-        Output format
-      </label>
-
-
-      <select
-        id="format"
-        aria-label="Output image format"
-      >
-
-        <option value="original">
-          Keep original format
-        </option>
-
-        <option value="image/jpeg">
-          JPG
-        </option>
-
-        <option value="image/webp">
-          WebP
-        </option>
-
-        <option value="image/png">
-          PNG
-        </option>
-
-      </select>
-
-    </div>
-
-
-    <!-- MAX SIZE -->
-
-    <div class="control">
-
-      <label
-        class="field-label"
-        for="maxSize"
-      >
-        Maximum dimension
-      </label>
-
-
-      <select
-        id="maxSize"
-        aria-label="Maximum image dimension"
-      >
-
-        <option value="original">
-          Keep original
-        </option>
-
-        <option value="3840">
-          3840 px
-        </option>
-
-        <option value="2560">
-          2560 px
-        </option>
-
-        <option value="1920">
-          1920 px
-        </option>
-
-        <option value="1280">
-          1280 px
-        </option>
-
-        <option value="1024">
-          1024 px
-        </option>
-
-      </select>
-
-    </div>
-
-
-    <!-- QUALITY -->
-
-    <div class="control full">
-
-      <div class="label-row">
-
-        <label
-          class="label range-label"
-          for="quality"
-        >
-          Quality
-        </label>
-
-
-        <span
-          class="value"
-          id="qualityValue"
-        >
-          80%
-        </span>
-
-      </div>
-
-
-      <input
-        id="quality"
-        type="range"
-        min="10"
-        max="100"
-        value="80"
-        aria-label="Image compression quality"
-      >
-
-    </div>
-
-
-    <!-- PNG BACKGROUND -->
-
-    <div class="control">
-
-      <label
-        class="field-label"
-        for="pngBackground"
-      >
-        PNG background
-      </label>
-
-
-      <select
-        id="pngBackground"
-        aria-label="PNG background color"
-      >
-
-        <option value="transparent">
-          Transparent
-        </option>
-
-        <option value="#ffffff">
-          White
-        </option>
-
-        <option value="#000000">
-          Black
-        </option>
-
-      </select>
-
-    </div>
-
-
-    <!-- OPTIONS -->
-
-    <div class="control">
-
-      <div class="field-label">
-        Options
-      </div>
-
-
-      <label
-        class="option-label"
-        for="neverUpscale"
-      >
-
-        <input
-          id="neverUpscale"
-          type="checkbox"
-          checked
-        >
-
-        <span>
-          Never upscale
-        </span>
-
-      </label>
-
-    </div>
-
+    <div class="control"><div class="label-row"><span class="label">Output format</span></div><select id="format"><option value="original">Keep original format</option><option value="image/jpeg">JPG</option><option value="image/webp">WebP</option><option value="image/png">PNG</option></select></div>
+    <div class="control"><div class="label-row"><span class="label">Maximum dimension</span></div><select id="maxSize"><option value="original">Keep original</option><option value="3840">3840 px</option><option value="2560">2560 px</option><option value="1920">1920 px</option><option value="1280">1280 px</option><option value="1024">1024 px</option></select></div>
+    <div class="control full"><div class="label-row"><span class="label">Quality</span><span class="value" id="qualityValue">80%</span></div><input id="quality" type="range" min="10" max="100" value="80"></div>
+    <div class="control"><div class="label-row"><span class="label">PNG background</span></div><select id="pngBackground"><option value="transparent">Transparent</option><option value="#ffffff">White</option><option value="#000000">Black</option></select></div>
+    <div class="control"><div class="label-row"><span class="label">Options</span></div><label style="font-size:12px;color:#b8c2cf"><input id="neverUpscale" type="checkbox" checked> Never upscale</label></div>
   </section>
 
-
-  <!-- ACTIONS -->
-
-  <div class="actions">
-
-    <button
-      class="btn primary"
-      id="compressBtn"
-      type="button"
-      disabled
-    >
-      Compress Images
-    </button>
-
-
-    <button
-      class="btn"
-      id="zipBtn"
-      type="button"
-      disabled
-    >
-      Download ZIP
-    </button>
-
-
-    <button
-      class="btn"
-      id="clearBtn"
-      type="button"
-    >
-      Clear
-    </button>
-
-  </div>
-
-
-  <div
-    class="status"
-    id="status"
-    role="status"
-    aria-live="polite"
-  ></div>
-
-
-  <div
-    class="results"
-    id="results"
-    aria-live="polite"
-  ></div>
-
-
-  <div class="note">
-    Processing happens locally in your browser.
-    Images are not sent to a server by this page.
-  </div>
-
+  <div class="actions"><button class="btn primary" id="compressBtn" disabled>Compress Images</button><button class="btn" id="zipBtn" disabled>Download ZIP</button><button class="btn" id="clearBtn">Clear</button></div>
+  <div class="status" id="status"></div>
+  <div class="results" id="results"></div>
+  <div class="note">Processing happens locally in your browser. Images are not sent to a server by this page.</div>
 </main>
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-
 <script>
 (() => {
-
   "use strict";
 
-
   const $ = id => document.getElementById(id);
-
-
-  const fileInput = $("fileInput");
-  const dropzone = $("dropzone");
-  const filesBox = $("files");
-
-  const format = $("format");
-  const maxSize = $("maxSize");
-  const quality = $("quality");
-
-  const qualityValue = $("qualityValue");
-  const pngBackground = $("pngBackground");
-
-  const compressBtn = $("compressBtn");
-  const zipBtn = $("zipBtn");
-  const clearBtn = $("clearBtn");
-
-  const status = $("status");
-  const results = $("results");
-
-  const neverUpscale = $("neverUpscale");
-
+  const fileInput = $("fileInput"), dropzone = $("dropzone"), filesBox = $("files");
+  const format = $("format"), maxSize = $("maxSize"), quality = $("quality");
+  const qualityValue = $("qualityValue"), pngBackground = $("pngBackground");
+  const compressBtn = $("compressBtn"), zipBtn = $("zipBtn"), clearBtn = $("clearBtn");
+  const status = $("status"), results = $("results"), neverUpscale = $("neverUpscale");
 
   let items = [];
   let outputs = [];
 
+  quality.addEventListener("input", () => qualityValue.textContent = quality.value + "%");
+  fileInput.addEventListener("change", e => { addFiles(e.target.files); fileInput.value = ""; });
 
-  /* QUALITY */
+  ["dragenter", "dragover"].forEach(type => dropzone.addEventListener(type, e => {
+    e.preventDefault(); e.stopPropagation(); dropzone.classList.add("drag");
+  }));
+  ["dragleave", "drop"].forEach(type => dropzone.addEventListener(type, e => {
+    e.preventDefault(); e.stopPropagation(); dropzone.classList.remove("drag");
+    if (type === "drop") addFiles(e.dataTransfer.files);
+  }));
 
-  quality.addEventListener(
-    "input",
-    () => {
+  function addFiles(list) {
+    const valid = [...list].filter(file => /^(image\/jpeg|image\/png|image\/webp)$/i.test(file.type));
+    if (!valid.length) return setStatus("Please choose JPG, PNG or WebP images.");
 
-      qualityValue.textContent =
-        quality.value + "%";
-
-    }
-  );
-
-
-  /* FILE PICKER */
-
-  fileInput.addEventListener(
-    "change",
-    event => {
-
-      addFiles(event.target.files);
-
-      fileInput.value = "";
-
-    }
-  );
-
-
-  /* DRAG ENTER */
-
-  ["dragenter", "dragover"].forEach(
-    type => {
-
-      dropzone.addEventListener(
-        type,
-        event => {
-
-          event.preventDefault();
-
-          event.stopPropagation();
-
-          dropzone.classList.add("drag");
-
-        }
-      );
-
-    }
-  );
-
-
-  /* DRAG LEAVE / DROP */
-
-  ["dragleave", "drop"].forEach(
-    type => {
-
-      dropzone.addEventListener(
-        type,
-        event => {
-
-          event.preventDefault();
-
-          event.stopPropagation();
-
-          dropzone.classList.remove("drag");
-
-
-          if(type === "drop"){
-
-            addFiles(
-              event.dataTransfer.files
-            );
-
-          }
-
-        }
-      );
-
-    }
-  );
-
-
-  /* ADD FILES */
-
-  function addFiles(list){
-
-    const valid =
-      [...list].filter(
-        file =>
-          /^(image\/jpeg|image\/png|image\/webp)$/i.test(
-            file.type
-          )
-      );
-
-
-    if(!valid.length){
-
-      setStatus(
-        "Please choose JPG, PNG or WebP images."
-      );
-
-      return;
-
-    }
-
-
-    valid.forEach(
-      file => {
-
-        items.push({
-
-          id:makeId(),
-
-          file:file,
-
-          url:URL.createObjectURL(file)
-
-        });
-
-      }
-    );
-
-
+    valid.forEach(file => {
+      items.push({ id: makeId(), file, url: URL.createObjectURL(file) });
+    });
     outputs = [];
-
     results.innerHTML = "";
-
     renderFiles();
-
-
-    setStatus(
-      items.length +
-      " image" +
-      (
-        items.length === 1
-          ? ""
-          : "s"
-      ) +
-      " ready."
-    );
-
+    setStatus(items.length + " image" + (items.length === 1 ? "" : "s") + " ready.");
   }
 
-
-  /* RENDER FILES */
-
-  function renderFiles(){
-
+  function renderFiles() {
     filesBox.innerHTML = "";
-
-
-    items.forEach(
-      item => {
-
-        const row =
-          document.createElement(
-            "div"
-          );
-
-        row.className = "file";
-
-
-        const img =
-          document.createElement(
-            "img"
-          );
-
-        img.className = "thumb";
-
-        img.src = item.url;
-
-        img.alt =
-          "Preview of " +
-          item.file.name;
-
-
-        const info =
-          document.createElement(
-            "div"
-          );
-
-
-        const name =
-          document.createElement(
-            "div"
-          );
-
-        name.className = "name";
-
-        name.textContent =
-          item.file.name;
-
-
-        const meta =
-          document.createElement(
-            "div"
-          );
-
-        meta.className = "meta";
-
-        meta.textContent =
-          formatBytes(
-            item.file.size
-          );
-
-
-        info.append(
-          name,
-          meta
-        );
-
-
-        const actions =
-          document.createElement(
-            "div"
-          );
-
-        actions.className =
-          "file-actions";
-
-
-        const remove =
-          makeButton(
-            "Remove",
-            "small"
-          );
-
-
-        remove.setAttribute(
-          "aria-label",
-          "Remove " +
-          item.file.name
-        );
-
-
-        remove.addEventListener(
-          "click",
-          () =>
-            removeFile(item.id)
-        );
-
-
-        actions.append(remove);
-
-
-        row.append(
-          img,
-          info,
-          actions
-        );
-
-
-        filesBox.append(row);
-
-      }
-    );
-
-
-    compressBtn.disabled =
-      items.length === 0;
-
+    items.forEach(item => {
+      const row = document.createElement("div"); row.className = "file";
+      const img = document.createElement("img"); img.className = "thumb"; img.src = item.url; img.alt = "";
+      const info = document.createElement("div");
+      const name = document.createElement("div"); name.className = "name"; name.textContent = item.file.name;
+      const meta = document.createElement("div"); meta.className = "meta"; meta.textContent = formatBytes(item.file.size);
+      info.append(name, meta);
+      const actions = document.createElement("div"); actions.className = "file-actions";
+      const remove = makeButton("Remove", "small"); remove.addEventListener("click", () => removeFile(item.id));
+      actions.append(remove); row.append(img, info, actions); filesBox.append(row);
+    });
+    compressBtn.disabled = items.length === 0;
   }
 
-
-  /* REMOVE */
-
-  function removeFile(id){
-
-    const item =
-      items.find(
-        x => x.id === id
-      );
-
-
-    if(item){
-
-      URL.revokeObjectURL(
-        item.url
-      );
-
-    }
-
-
-    items =
-      items.filter(
-        x => x.id !== id
-      );
-
-
-    outputs =
-      outputs.filter(
-        x => x.id !== id
-      );
-
-
-    renderFiles();
-
-    renderResults();
-
-
-    zipBtn.disabled =
-      !outputs.some(
-        x => x.blob
-      );
-
-
-    setStatus(
-      items.length
-        ? "Image removed."
-        : ""
-    );
-
+  function removeFile(id) {
+    const item = items.find(x => x.id === id);
+    if (item) URL.revokeObjectURL(item.url);
+    items = items.filter(x => x.id !== id);
+    outputs = outputs.filter(x => x.id !== id);
+    renderFiles(); renderResults();
+    zipBtn.disabled = !outputs.some(x => x.blob);
   }
 
+  clearBtn.addEventListener("click", () => {
+    items.forEach(item => URL.revokeObjectURL(item.url));
+    items = []; outputs = [];
+    filesBox.innerHTML = ""; results.innerHTML = ""; status.textContent = "";
+    compressBtn.disabled = true; zipBtn.disabled = true;
+  });
 
-  /* CLEAR */
+  compressBtn.addEventListener("click", compressAll);
 
-  clearBtn.addEventListener(
-    "click",
-    () => {
+  async function compressAll() {
+    if (!items.length) return;
+    outputs = []; results.innerHTML = ""; compressBtn.disabled = true; zipBtn.disabled = true;
 
-      items.forEach(
-        item => {
-
-          URL.revokeObjectURL(
-            item.url
-          );
-
-        }
-      );
-
-
-      items = [];
-
-      outputs = [];
-
-
-      filesBox.innerHTML = "";
-
-      results.innerHTML = "";
-
-      status.textContent = "";
-
-
-      compressBtn.disabled =
-        true;
-
-      zipBtn.disabled =
-        true;
-
-    }
-  );
-
-
-  /* COMPRESS */
-
-  compressBtn.addEventListener(
-    "click",
-    compressAll
-  );
-
-
-  async function compressAll(){
-
-    if(!items.length){
-
-      return;
-
-    }
-
-
-    outputs = [];
-
-    results.innerHTML = "";
-
-
-    compressBtn.disabled =
-      true;
-
-    zipBtn.disabled =
-      true;
-
-
-    for(
-      let i = 0;
-      i < items.length;
-      i++
-    ){
-
-      setStatus(
-        "Compressing " +
-        (i + 1) +
-        " of " +
-        items.length +
-        "..."
-      );
-
-
-      try{
-
-        const output =
-          await compressImage(
-            items[i]
-          );
-
-
-        outputs.push(output);
-
-      }
-      catch(error){
-
-        outputs.push({
-
-          id:items[i].id,
-
-          name:items[i].file.name,
-
-          error:
-            error.message ||
-            "Compression failed."
-
-        });
-
-      }
-
-
+    for (let i = 0; i < items.length; i++) {
+      setStatus("Compressing " + (i + 1) + " of " + items.length + "…");
+      try { outputs.push(await compressImage(items[i])); }
+      catch (error) { outputs.push({ id: items[i].id, name: items[i].file.name, error: error.message || "Compression failed." }); }
       renderResults();
-
     }
 
-
-    compressBtn.disabled =
-      false;
-
-
-    zipBtn.disabled =
-      !outputs.some(
-        x => x.blob
-      );
-
-
-    setStatus(
-      "Compression complete."
-    );
-
+    compressBtn.disabled = false;
+    zipBtn.disabled = !outputs.some(x => x.blob);
+    setStatus("Done. " + outputs.filter(x => x.blob).length + " image(s) compressed.");
   }
 
+  async function compressImage(item) {
+    const image = await loadImage(item.url);
+    let width = image.naturalWidth, height = image.naturalHeight;
+    const limit = maxSize.value === "original" ? null : Number(maxSize.value);
 
-  /* COMPRESS IMAGE */
-
-  async function compressImage(item){
-
-    const image =
-      await loadImage(
-        item.url
-      );
-
-
-    let width =
-      image.naturalWidth;
-
-    let height =
-      image.naturalHeight;
-
-
-    const limit =
-      maxSize.value === "original"
-        ? null
-        : Number(maxSize.value);
-
-
-    if(
-      limit &&
-      (
-        width > limit ||
-        height > limit
-      )
-    ){
-
-      const ratio =
-        Math.min(
-          limit / width,
-          limit / height
-        );
-
-
-      width =
-        Math.max(
-          1,
-          Math.round(
-            width * ratio
-          )
-        );
-
-
-      height =
-        Math.max(
-          1,
-          Math.round(
-            height * ratio
-          )
-        );
-
+    if (limit && (width > limit || height > limit)) {
+      const ratio = Math.min(limit / width, limit / height);
+      width = Math.max(1, Math.round(width * ratio));
+      height = Math.max(1, Math.round(height * ratio));
+    }
+    if (neverUpscale.checked) {
+      width = Math.min(width, image.naturalWidth);
+      height = Math.min(height, image.naturalHeight);
     }
 
+    let mime = format.value === "original" ? item.file.type : format.value;
+    if (!/^(image\/jpeg|image\/png|image\/webp)$/.test(mime)) mime = "image/jpeg";
 
-    if(neverUpscale.checked){
+    const canvas = document.createElement("canvas");
+    canvas.width = width; canvas.height = height;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) throw new Error("Your browser does not support canvas compression.");
 
-      width =
-        Math.min(
-          width,
-          image.naturalWidth
-        );
-
-
-      height =
-        Math.min(
-          height,
-          image.naturalHeight
-        );
-
+    if (mime === "image/jpeg") {
+      ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, width, height);
+    } else if (mime === "image/png" && pngBackground.value !== "transparent") {
+      ctx.fillStyle = pngBackground.value; ctx.fillRect(0, 0, width, height);
     }
+    ctx.drawImage(image, 0, 0, width, height);
 
+    const blob = await new Promise((resolve, reject) => {
+      canvas.toBlob(result => result ? resolve(result) : reject(new Error("The browser could not create the compressed image.")), mime, Number(quality.value) / 100);
+    });
 
-    let mime =
-      format.value === "original"
-        ? item.file.type
-        : format.value;
-
-
-    if(
-      !/^(image\/jpeg|image\/png|image\/webp)$/.test(
-        mime
-      )
-    ){
-
-      mime = "image/jpeg";
-
-    }
-
-
-    const canvas =
-      document.createElement(
-        "canvas"
-      );
-
-
-    canvas.width =
-      width;
-
-    canvas.height =
-      height;
-
-
-    const ctx =
-      canvas.getContext(
-        "2d"
-      );
-
-
-    if(!ctx){
-
-      throw new Error(
-        "Canvas is not supported by this browser."
-      );
-
-    }
-
-
-    if(
-      mime === "image/jpeg"
-    ){
-
-      ctx.fillStyle =
-        "#ffffff";
-
-
-      ctx.fillRect(
-        0,
-        0,
-        width,
-        height
-      );
-
-    }
-
-
-    if(
-      mime === "image/png" &&
-      pngBackground.value !==
-      "transparent"
-    ){
-
-      ctx.fillStyle =
-        pngBackground.value;
-
-
-      ctx.fillRect(
-        0,
-        0,
-        width,
-        height
-      );
-
-    }
-
-
-    ctx.drawImage(
-      image,
-      0,
-      0,
-      width,
-      height
-    );
-
-
-    const blob =
-      await new Promise(
-        (resolve, reject) => {
-
-          canvas.toBlob(
-            result => {
-
-              if(result){
-
-                resolve(result);
-
-              }
-              else{
-
-                reject(
-                  new Error(
-                    "Could not create compressed image."
-                  )
-                );
-
-              }
-
-            },
-            mime,
-            Number(
-              quality.value
-            ) / 100
-          );
-
-        }
-      );
-
-
-    const extension =
-      mime === "image/png"
-        ? "png"
-        : mime === "image/webp"
-          ? "webp"
-          : "jpg";
-
-
-    const base =
-      item.file.name.replace(
-        /\.[^.]+$/,
-        ""
-      );
-
-
-    return {
-
-      id:item.id,
-
-      name:item.file.name,
-
-      filename:
-        base +
-        "-compressed." +
-        extension,
-
-      blob:blob,
-
-      oldSize:item.file.size,
-
-      newSize:blob.size,
-
-      width:width,
-
-      height:height
-
-    };
-
+    const extension = mime === "image/png" ? "png" : mime === "image/webp" ? "webp" : "jpg";
+    const base = item.file.name.replace(/\.[^.]+$/, "");
+    return { id:item.id, name:item.file.name, filename:base + "-compressed." + extension, blob, oldSize:item.file.size, newSize:blob.size, width, height };
   }
 
-
-  /* RESULTS */
-
-  function renderResults(){
-
+  function renderResults() {
     results.innerHTML = "";
-
-
-    outputs.forEach(
-      result => {
-
-        const box =
-          document.createElement(
-            "div"
-          );
-
-        box.className =
-          "result";
-
-
-        const top =
-          document.createElement(
-            "div"
-          );
-
-        top.className =
-          "result-top";
-
-
-        const name =
-          document.createElement(
-            "div"
-          );
-
-        name.className =
-          "result-name";
-
-        name.textContent =
-          result.name;
-
-
-        top.append(name);
-
-
-        if(result.error){
-
-          const error =
-            document.createElement(
-              "span"
-            );
-
-          error.className =
-            "bad";
-
-          error.textContent =
-            "Error";
-
-
-          top.append(error);
-
-
-          const meta =
-            document.createElement(
-              "div"
-            );
-
-          meta.className =
-            "meta bad";
-
-          meta.textContent =
-            result.error;
-
-
-          box.append(
-            top,
-            meta
-          );
-
-        }
-        else{
-
-          const percent =
-            result.oldSize
-              ? Math.max(
-                  0,
-                  Math.round(
-                    (
-                      1 -
-                      result.newSize /
-                      result.oldSize
-                    ) * 100
-                  )
-                )
-              : 0;
-
-
-          const download =
-            makeButton(
-              "Download",
-              "small primary"
-            );
-
-
-          download.setAttribute(
-            "aria-label",
-            "Download compressed " +
-            result.name
-          );
-
-
-          download.addEventListener(
-            "click",
-            () =>
-              downloadBlob(
-                result.blob,
-                result.filename
-              )
-          );
-
-
-          top.append(
-            download
-          );
-
-
-          const meta =
-            document.createElement(
-              "div"
-            );
-
-          meta.className =
-            "meta";
-
-
-          const oldSize =
-            formatBytes(
-              result.oldSize
-            );
-
-
-          const newSize =
-            formatBytes(
-              result.newSize
-            );
-
-
-          meta.textContent =
-            oldSize +
-            " → " +
-            newSize +
-            " • " +
-            (
-              percent > 0
-                ? percent + "% smaller"
-                : "not smaller"
-            ) +
-            " • " +
-            result.width +
-            "×" +
-            result.height;
-
-
-          if(percent > 0){
-
-            const statusSpan =
-              document.createElement(
-                "span"
-              );
-
-            statusSpan.className =
-              "good";
-
-          }
-
-
-          const progress =
-            document.createElement(
-              "div"
-            );
-
-          progress.className =
-            "progress";
-
-
-          const bar =
-            document.createElement(
-              "span"
-            );
-
-
-          bar.style.width =
-            Math.max(
-              2,
-              Math.min(
-                100,
-                percent
-              )
-            ) +
-            "%";
-
-
-          progress.append(
-            bar
-          );
-
-
-          box.append(
-            top,
-            meta,
-            progress
-          );
-
-        }
-
-
-        results.append(
-          box
-        );
-
+    outputs.forEach(result => {
+      const box = document.createElement("div"); box.className = "result";
+      const top = document.createElement("div"); top.className = "result-top";
+      const name = document.createElement("div"); name.className = "result-name"; name.textContent = result.name;
+      top.append(name);
+
+      if (result.error) {
+        const error = document.createElement("span"); error.className = "bad"; error.textContent = "Error";
+        top.append(error); box.append(top);
+        const meta = document.createElement("div"); meta.className = "meta bad"; meta.textContent = result.error; box.append(meta);
+      } else {
+        const percent = result.oldSize ? Math.max(0, Math.round((1 - result.newSize / result.oldSize) * 100)) : 0;
+        const downloadBtn = makeButton("Download", "small primary");
+        downloadBtn.addEventListener("click", () => downloadBlob(result.blob, result.filename));
+        top.append(downloadBtn);
+        const meta = document.createElement("div"); meta.className = "meta";
+        meta.innerHTML = escapeHtml(formatBytes(result.oldSize)) + " → " + escapeHtml(formatBytes(result.newSize)) + " • <span class=\"" + (percent > 0 ? "good" : "bad") + "\">" + (percent > 0 ? percent + "% smaller" : "not smaller") + "</span> • " + result.width + "×" + result.height;
+        const progress = document.createElement("div"); progress.className = "progress";
+        const bar = document.createElement("span"); bar.style.width = Math.max(2, Math.min(100, percent)) + "%"; progress.append(bar);
+        box.append(top, meta, progress);
       }
-    );
-
+      results.append(box);
+    });
   }
 
+  zipBtn.addEventListener("click", async () => {
+    const good = outputs.filter(x => x.blob);
+    if (!good.length) return;
+    if (typeof JSZip === "undefined") return setStatus("ZIP library could not load. Use the individual Download buttons.");
 
-  /* ZIP */
+    zipBtn.disabled = true; setStatus("Creating ZIP…");
+    try {
+      const zip = new JSZip();
+      good.forEach(item => zip.file(item.filename, item.blob));
+      const blob = await zip.generateAsync({ type:"blob" });
+      downloadBlob(blob, "clickdy-compressed-images.zip");
+      setStatus("ZIP downloaded.");
+    } catch (_) { setStatus("Could not create the ZIP file."); }
+    finally { zipBtn.disabled = false; }
+  });
 
-  zipBtn.addEventListener(
-    "click",
-    async () => {
-
-      const good =
-        outputs.filter(
-          x => x.blob
-        );
-
-
-      if(!good.length){
-
-        return;
-
-      }
-
-
-      if(
-        typeof JSZip ===
-        "undefined"
-      ){
-
-        setStatus(
-          "ZIP library could not load. Use individual downloads."
-        );
-
-        return;
-
-      }
-
-
-      zipBtn.disabled =
-        true;
-
-
-      setStatus(
-        "Creating ZIP..."
-      );
-
-
-      try{
-
-        const zip =
-          new JSZip();
-
-
-        good.forEach(
-          item => {
-
-            zip.file(
-              item.filename,
-              item.blob
-            );
-
-          }
-        );
-
-
-        const blob =
-          await zip.generateAsync({
-            type:"blob"
-          });
-
-
-        downloadBlob(
-          blob,
-          "clickdy-compressed-images.zip"
-        );
-
-
-        setStatus(
-          "ZIP downloaded."
-        );
-
-      }
-      catch(error){
-
-        setStatus(
-          "Could not create ZIP file."
-        );
-
-      }
-      finally{
-
-        zipBtn.disabled =
-          false;
-
-      }
-
-    }
-  );
-
-
-  /* LOAD IMAGE */
-
-  function loadImage(url){
-
-    return new Promise(
-      (resolve, reject) => {
-
-        const image =
-          new Image();
-
-
-        image.onload =
-          () => resolve(image);
-
-
-        image.onerror =
-          () =>
-            reject(
-              new Error(
-                "Could not read this image."
-              )
-            );
-
-
-        image.src =
-          url;
-
-      }
-    );
-
+  function loadImage(url) {
+    return new Promise((resolve, reject) => {
+      const image = new Image();
+      image.onload = () => resolve(image);
+      image.onerror = () => reject(new Error("Could not read this image."));
+      image.src = url;
+    });
   }
-
-
-  /* BUTTON */
-
-  function makeButton(
-    text,
-    classes
-  ){
-
-    const button =
-      document.createElement(
-        "button"
-      );
-
-
-    button.type =
-      "button";
-
-
-    button.className =
-      "btn " +
-      (classes || "");
-
-
-    button.textContent =
-      text;
-
-
-    return button;
-
-  }
-
-
-  /* DOWNLOAD */
-
-  function downloadBlob(
-    blob,
-    filename
-  ){
-
-    const url =
-      URL.createObjectURL(
-        blob
-      );
-
-
-    const link =
-      document.createElement(
-        "a"
-      );
-
-
-    link.href =
-      url;
-
-
-    link.download =
-      filename;
-
-
-    document.body.appendChild(
-      link
-    );
-
-
-    link.click();
-
-
-    link.remove();
-
-
-    setTimeout(
-      () =>
-        URL.revokeObjectURL(
-          url
-        ),
-      1000
-    );
-
-  }
-
-
-  /* FORMAT BYTES */
-
-  function formatBytes(bytes){
-
-    if(
-      !Number.isFinite(bytes) ||
-      bytes <= 0
-    ){
-
-      return "0 B";
-
-    }
-
-
-    const units =
-      [
-        "B",
-        "KB",
-        "MB",
-        "GB"
-      ];
-
-
-    const index =
-      Math.min(
-        Math.floor(
-          Math.log(bytes) /
-          Math.log(1024)
-        ),
-        units.length - 1
-      );
-
-
-    return (
-      bytes /
-      Math.pow(
-        1024,
-        index
-      )
-    ).toFixed(
-      index ? 1 : 0
-    ) +
-    " " +
-    units[index];
-
-  }
-
-
-  /* STATUS */
-
-  function setStatus(text){
-
-    status.textContent =
-      text || "";
-
-  }
-
-
-  /* ID */
-
-  function makeId(){
-
-    if(
-      window.crypto &&
-      typeof window.crypto.randomUUID ===
-      "function"
-    ){
-
-      return window.crypto.randomUUID();
-
-    }
-
-
-    return (
-      Date.now() +
-      "-" +
-      Math.random()
-        .toString(16)
-        .slice(2)
-    );
-
-  }
-
+  function makeButton(text, classes) { const button = document.createElement("button"); button.type = "button"; button.className = "btn " + (classes || ""); button.textContent = text; return button; }
+  function downloadBlob(blob, filename) { const url = URL.createObjectURL(blob), a = document.createElement("a"); a.href = url; a.download = filename; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); }
+  function formatBytes(bytes) { if (!Number.isFinite(bytes) || bytes <= 0) return "0 B"; const units = ["B","KB","MB","GB"]; const index = Math.min(Math.floor(Math.log(bytes) / Math.log(1024)), units.length - 1); return (bytes / Math.pow(1024,index)).toFixed(index ? 1 : 0) + " " + units[index]; }
+  function setStatus(text) { status.textContent = text || ""; }
+  function makeId() { return window.crypto && crypto.randomUUID ? crypto.randomUUID() : Date.now() + "-" + Math.random().toString(16).slice(2); }
+  function escapeHtml(value) { return String(value).replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[char])); }
 })();
 </script>
-
 </body>
 </html>

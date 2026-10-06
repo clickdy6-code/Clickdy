@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Create and download a digital signature online with Clickdy.">
-<title>Signature Generator - Clickdy</title>
+<meta name="description" content="Create a digital signature online with Clickdy. Draw with mouse or touch, customize ink and stroke width, then download your signature as PNG.">
+<title>Online Signature Generator - Clickdy</title>
 <style>
 :root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--success:#62d89a;--danger:#ff6f7d;--border:#213044;--radius:18px}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:Segoe UI,Arial,sans-serif}button,input,select{font:inherit}button{cursor:pointer}
@@ -14,6 +14,38 @@
 .editor{padding:20px;display:grid;grid-template-columns:1.5fr .7fr;gap:14px}.card{background:var(--panel2);border:1px solid var(--border);border-radius:15px;padding:16px}.card-title{display:flex;justify-content:space-between;margin-bottom:11px;font-size:13px;font-weight:700}.card-title span{font-size:11px;color:var(--muted);font-weight:500}.canvas-wrap{position:relative;background:#fff;border-radius:12px;overflow:hidden}.canvas-wrap.transparent{background-color:#fff;background-image:linear-gradient(45deg,#e7ebef 25%,transparent 25%),linear-gradient(-45deg,#e7ebef 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e7ebef 75%),linear-gradient(-45deg,transparent 75%,#e7ebef 75%);background-size:20px 20px;background-position:0 0,0 10px,10px -10px,-10px 0}#signatureCanvas{display:block;width:100%;height:390px;touch-action:none;cursor:crosshair}.guide{position:absolute;left:8%;right:8%;bottom:28%;border-bottom:1px dashed #aab4c0;pointer-events:none}.settings{display:grid;gap:14px;align-content:start}.setting{display:grid;gap:7px}.setting label{font-size:12px;font-weight:650}.setting-row{display:flex;align-items:center;gap:10px}input[type=color]{width:46px;height:38px;padding:3px;border:1px solid var(--border);border-radius:9px;background:#151f2d;cursor:pointer}input[type=range]{width:100%;accent-color:var(--accent)}.value{min-width:45px;text-align:right;color:var(--muted);font-size:12px}select{width:100%;border:1px solid var(--border);border-radius:9px;background:#151f2d;color:var(--text);padding:10px}.status{min-height:19px;padding:0 20px 18px;color:var(--success);font-size:12px}.tips{padding:0 20px 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.tip{background:var(--panel2);border:1px solid var(--border);border-radius:13px;padding:14px}.tip b{display:block;font-size:12px;margin-bottom:5px}.tip span{font-size:11px;color:var(--muted);line-height:1.5}.footer{text-align:center;color:#657286;font-size:12px;margin-top:22px}
 @media(max-width:850px){.editor{grid-template-columns:1fr}.tips{grid-template-columns:1fr}}@media(max-width:620px){.topbar{height:76px}.topbar-inner,.page{width:min(100% - 24px,1180px)}.page{padding-top:38px}.workspace-head{align-items:flex-start;flex-direction:column}.actions{width:100%}.btn{flex:1}.editor{padding:14px}.card{padding:13px}#signatureCanvas{height:300px}}
 </style>
+<!-- Clickdy SEO metadata -->
+<link rel="canonical" href="https://clickdy.vercel.app/signature-generator/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Online Signature Generator - Clickdy">
+<meta property="og:description" content="Create a digital signature online with Clickdy. Draw with mouse or touch, customize ink and stroke width, then download your signature as PNG.">
+<meta property="og:url" content="https://clickdy.vercel.app/signature-generator/">
+<meta property="og:site_name" content="Clickdy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Online Signature Generator - Clickdy">
+<meta name="twitter:description" content="Create a digital signature online with Clickdy. Draw with mouse or touch, customize ink and stroke width, then download your signature as PNG.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Online Signature Generator",
+  "url": "https://clickdy.vercel.app/signature-generator/",
+  "description": "Create a digital signature online with Clickdy. Draw with mouse or touch, customize ink and stroke width, then download your signature as PNG.",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Clickdy",
+    "url": "https://clickdy.vercel.app/"
+  }
+}
+</script>
 </head>
 <body>
 <header class="topbar"><div class="topbar-inner">
