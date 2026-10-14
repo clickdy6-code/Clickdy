@@ -1,0 +1,26 @@
+{
+  "site_url": "https://clickdy.com",
+  "site_name": "Clickdy",
+  "model": "claude-haiku-5-5",
+  "max_drafts_per_run": 4,
+  "max_per_feed_per_run": 2,
+  "max_age_hours": 48,
+  "posts_per_page": 12,
+  "disclosure": "This article was drafted with AI assistance from the original reporting linked above and reviewed by the Clickdy team before publishing.",
+  "categories": ["AI", "Tech", "Gadgets", "Cybersecurity", "Business", "Science", "Pakistan", "Other"],
+  "feeds": [
+    {"name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "category": "AI"},
+    {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "category": "AI"},
+    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "category": "AI"},
+    {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/", "category": "AI"},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/feed/", "category": "Tech"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "category": "Tech"},
+    {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "category": "Tech"},
+    {"name": "Wired", "url": "https://www.wired.com/feed/rss", "category": "Tech"},
+    {"name": "BBC Technology", "url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "category": "Tech"},
+    {"name": "Engadget", "url": "https://www.engadget.com/rss.xml", "category": "Gadgets"},
+    {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "category": "Cybersecurity"},
+    {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "category": "Cybersecurity"},
+    {"name": "ProPakistani", "url": "https://propakistani.pk/feed/", "category": "Pakistan"}
+  ]
+}

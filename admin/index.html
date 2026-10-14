@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Clickdy Admin — News Drafts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#05070F; --panel:#0D1730; --panel-border:#1B2A4E; --teal:#2BE0C4; --teal-dim:rgba(43,224,196,.14);
+    --text:#EAF0F4; --muted:#7C8AAC; --red:#FF6B7A;
+    --glass:rgba(255,255,255,.045); --glass-border:rgba(255,255,255,.10); --hl:rgba(255,255,255,.28);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:radial-gradient(ellipse 60% 45% at 15% 5%,rgba(43,224,196,.07),transparent 60%),var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-height:100vh}
+  h1,h2,h3{font-family:'Bricolage Grotesque',sans-serif;letter-spacing:-.02em}
+  button{font-family:inherit;cursor:pointer}
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px 22px;border-bottom:1px solid var(--glass-border);background:var(--glass)}
+  .brand{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1rem}
+  .brand span{font-family:'IBM Plex Mono',monospace;font-weight:400;font-size:.7rem;color:var(--teal);margin-left:8px;text-transform:uppercase;letter-spacing:.08em}
+  .actions{display:flex;align-items:center;gap:10px}
+  #status{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--muted)}
+  .btn{padding:9px 16px;border-radius:9px;border:1px solid var(--panel-border);background:transparent;color:var(--text);font-size:.82rem;font-weight:600;transition:.15s}
+  .btn:hover{border-color:var(--teal);color:var(--teal)}
+  .btn.primary{background:var(--teal);border-color:var(--teal);color:#04231E}
+  .btn.primary:hover{box-shadow:0 0 24px rgba(43,224,196,.4);color:#04231E}
+  .btn.danger:hover{border-color:var(--red);color:var(--red)}
+  .btn:disabled{opacity:.5;pointer-events:none}
+  .panel{max-width:520px;margin:60px auto;padding:30px 28px;background:var(--glass);border:1px solid var(--glass-border);border-radius:20px;box-shadow:inset 0 1px 0 var(--hl),0 24px 60px rgba(0,0,0,.4)}
+  .panel h1{font-size:1.5rem;margin-bottom:8px}
+  .panel p.help{color:var(--muted);font-size:.84rem;line-height:1.6;margin-bottom:20px}
+  label{display:block;font-size:.72rem;font-family:'IBM Plex Mono',monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:14px 0 6px}
+  input,textarea,select{width:100%;background:rgba(13,23,48,.97);border:1px solid var(--glass-border);border-radius:10px;padding:11px 13px;color:var(--text);font-family:'Inter',sans-serif;font-size:.9rem;outline:none}
+  input:focus,textarea:focus,select:focus{border-color:var(--teal)}
+  textarea{resize:vertical;line-height:1.55}
+  .panel .btn{margin-top:22px;width:100%}
+  #workspace{display:grid;grid-template-columns:320px 1fr;min-height:calc(100vh - 62px)}
+  #list{border-right:1px solid var(--glass-border);overflow-y:auto;max-height:calc(100vh - 62px);padding:14px}
+  .list-head{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--teal);text-transform:uppercase;letter-spacing:.08em;margin:4px 6px 12px}
+  .item{display:block;width:100%;text-align:left;padding:14px;margin-bottom:8px;background:var(--glass);border:1px solid var(--glass-border);border-radius:12px;color:var(--text);transition:.15s}
+  .item:hover{border-color:rgba(43,224,196,.4)}
+  .item.on{border-color:var(--teal);background:var(--teal-dim)}
+  .item .t{font-family:'Quicksand',sans-serif;font-weight:700;font-size:.9rem;line-height:1.35;margin-bottom:6px}
+  .item .m{font-family:'IBM Plex Mono',monospace;font-size:.64rem;color:var(--muted)}
+  #editor{padding:26px 30px;overflow-y:auto;max-height:calc(100vh - 62px)}
+  .empty{color:var(--muted);padding:80px 20px;text-align:center;line-height:1.7}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .srcline{margin:6px 0 4px;font-size:.82rem;color:var(--muted)}
+  .srcline a{color:var(--teal)}
+  .warn{margin:12px 0;padding:11px 14px;border-radius:10px;background:rgba(255,200,80,.08);border:1px solid rgba(255,200,80,.3);color:#F4D58D;font-size:.8rem;line-height:1.55}
+  iframe#preview{width:100%;height:340px;border:1px solid var(--glass-border);border-radius:12px;background:#0b1020}
+  .bar{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;padding-top:18px;border-top:1px solid var(--panel-border)}
+  #toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--panel);border:1px solid var(--teal);padding:11px 20px;border-radius:10px;font-size:.84rem;opacity:0;pointer-events:none;transition:.25s;z-index:50;max-width:90vw}
+  #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  #toast.err{border-color:var(--red)}
+  [hidden]{display:none!important}
+  @media(max-width:860px){
+    #workspace{grid-template-columns:1fr}
+    #list{border-right:none;border-bottom:1px solid var(--glass-border);max-height:260px}
+    #editor{max-height:none}
+    .row{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">CLICKDY<span>admin</span></div>
+  <div class="actions">
+    <span id="status"></span>
+    <button class="btn" id="reloadBtn" hidden>Refresh</button>
+    <button class="btn" id="logoutBtn" hidden>Disconnect</button>
+  </div>
+</div>
+
+<section class="panel" id="connectPanel">
+  <h1>Connect to your site</h1>
+  <p class="help">
+    Yahan se aap AI-drafted news ko review karke publish ya reject kar sakte hain.
+    Token sirf is browser mein save hota hai — kisi aur server ko nahi bheja jata.
+  </p>
+  <label for="cRepo">GitHub repository (username/repo)</label>
+  <input id="cRepo" placeholder="yourname/clickdy-website" autocomplete="off">
+  <label for="cBranch">Branch</label>
+  <input id="cBranch" value="main" autocomplete="off">
+  <label for="cToken">GitHub access token</label>
+  <input id="cToken" type="password" placeholder="github_pat_..." autocomplete="off">
+  <button class="btn primary" id="connectBtn">Connect</button>
+</section>
+
+<section id="workspace" hidden>
+  <aside id="list"></aside>
+  <div id="editor"></div>
+</section>
+
+<div id="toast"></div>
+
+<script>
+const LS_KEY = 'clickdy_admin_cfg_v1';
+let cfg = null;
+let drafts = [];
+let current = null;
+const $ = id => document.getElementById(id);
+const enc = encodeURIComponent;
+
+function toast(msg, isErr){
+  const t = $('toast');
+  t.textContent = msg;
+  t.className = 'show' + (isErr ? ' err' : '');
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => t.className = '', isErr ? 6000 : 3200);
+}
+function setStatus(s){ $('status').textContent = s || ''; }
+
+function toB64(str){
+  const bytes = new TextEncoder().encode(str);
+  let bin = '';
+  bytes.forEach(b => bin += String.fromCharCode(b));
+  return btoa(bin);
+}
+
+async function gh(path, opts = {}){
+  const headers = {
+    'Authorization': 'Bearer ' + cfg.token,
+    'Accept': opts.raw ? 'application/vnd.github.raw+json' : 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28'
+  };
+  if (opts.body) headers['Content-Type'] = 'application/json';
+  return fetch('https://api.github.com/repos/' + cfg.repo + path, { method: opts.method || 'GET', headers, body: opts.body });
+}
+
+// retry on 409 (two commits at the same moment)
+async function ghWrite(path, method, payload){
+  let res;
+  for (let i = 0; i < 4; i++){
+    res = await gh(path, { method, body: JSON.stringify(payload) });
+    if (res.status !== 409) break;
+    await new Promise(r => setTimeout(r, 900 * (i + 1)));
+  }
+  return res;
+}
+
+async function loadDrafts(){
+  setStatus('Loading drafts…');
+  const res = await gh('/contents/drafts?ref=' + enc(cfg.branch));
+  if (res.status === 401 || res.status === 403) throw new Error('Token rejected. It needs "Contents: Read and write" on this repository.');
+  if (res.status === 404){
+    if ((await gh('')).status === 404) throw new Error('Repository or branch not found. Check "username/repo" and the token\'s repository access.');
+    drafts = []; render(); return;
+  }
+  if (!res.ok) throw new Error('GitHub error ' + res.status);
+  const items = (await res.json()).filter(i => i.type === 'file' && i.name.endsWith('.json'));
+  const out = [];
+  for (let i = 0; i < items.length; i += 6){
+    const got = await Promise.all(items.slice(i, i + 6).map(async it => {
+      const r = await gh('/contents/' + it.path + '?ref=' + enc(cfg.branch), { raw: true });
+      if (!r.ok) return null;
+      try { return { name: it.name, path: it.path, sha: it.sha, data: JSON.parse(await r.text()) }; }
+      catch (e) { return null; }
+    }));
+    out.push(...got.filter(Boolean));
+  }
+  out.sort((a, b) => (b.data.created_at || '').localeCompare(a.data.created_at || ''));
+  drafts = out;
+  if (current) current = drafts.find(d => d.path === current.path) || null;
+  render();
+}
+
+function ago(iso){
+  if (!iso) return '';
+  const m = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 60000));
+  if (m < 60) return m + ' min ago';
+  if (m < 1440) return Math.round(m / 60) + ' h ago';
+  return Math.round(m / 1440) + ' d ago';
+}
+
+function render(){
+  setStatus(drafts.length + ' draft' + (drafts.length === 1 ? '' : 's') + ' waiting');
+  const list = $('list');
+  list.innerHTML = '';
+  const head = document.createElement('div');
+  head.className = 'list-head';
+  head.textContent = 'Waiting for approval (' + drafts.length + ')';
+  list.appendChild(head);
+  if (!drafts.length){
+    const e = document.createElement('div');
+    e.className = 'empty';
+    e.textContent = 'No drafts right now. New ones appear automatically as news is detected.';
+    list.appendChild(e);
+  }
+  drafts.forEach(d => {
+    const b = document.createElement('button');
+    b.className = 'item' + (current && current.path === d.path ? ' on' : '');
+    const t = document.createElement('div'); t.className = 't'; t.textContent = d.data.title || '(untitled)';
+    const m = document.createElement('div'); m.className = 'm';
+    m.textContent = [d.data.category, d.data.source_name, ago(d.data.created_at)].filter(Boolean).join(' · ');
+    b.append(t, m);
+    b.onclick = () => { current = d; render(); };
+    list.appendChild(b);
+  });
+  renderEditor();
+}
+
+function renderEditor(){
+  const ed = $('editor');
+  ed.innerHTML = '';
+  if (!current){
+    const e = document.createElement('div');
+    e.className = 'empty';
+    e.textContent = drafts.length ? 'Left side se koi draft select karein.' : 'Abhi koi draft nahi hai.';
+    ed.appendChild(e);
+    return;
+  }
+  const d = current.data;
+  ed.innerHTML = `
+    <div class="srcline">Source: <b id="sName"></b> — <a id="sLink" target="_blank" rel="noopener noreferrer">open the original article</a></div>
+    <div class="warn">Publish karne se pehle original article se facts check kar lein (naam, numbers, dates). AI se galti ho sakti hai.</div>
+    <label>Title</label><input id="fTitle">
+    <div class="row">
+      <div><label>Category</label><input id="fCat"></div>
+      <div><label>Tags (comma separated)</label><input id="fTags"></div>
+    </div>
+    <label>Short excerpt (max 160 chars)</label><textarea id="fExc" rows="2" maxlength="200"></textarea>
+    <label>Article body (HTML: p, h2, ul, li, strong, em)</label><textarea id="fBody" rows="12"></textarea>
+    <label>Preview</label>
+    <iframe id="preview" sandbox=""></iframe>
+    <div class="bar">
+      <button class="btn primary" id="pubBtn">Publish</button>
+      <button class="btn danger" id="rejBtn">Reject (delete)</button>
+    </div>`;
+  $('sName').textContent = d.source_name || 'Unknown';
+  if (d.source_url && /^https?:\/\//i.test(d.source_url)) $('sLink').href = d.source_url; else $('sLink').removeAttribute('href');
+  $('fTitle').value = d.title || '';
+  $('fCat').value = d.category || '';
+  $('fTags').value = (d.tags || []).join(', ');
+  $('fExc').value = d.excerpt || '';
+  $('fBody').value = d.body_html || '';
+  const upd = () => {
+    // Sandboxed iframe (no scripts, no access to this page or your token)
+    $('preview').srcdoc = '<style>body{font:16px/1.7 system-ui,sans-serif;background:#0b1020;color:#dbe4ee;padding:18px}h1{font-size:1.5rem;margin-bottom:6px}h2{color:#2BE0C4}p.x{color:#8a97b5}</style><h1></h1><p class="x"></p>'.replace('<h1></h1>', '<h1>' + esc($('fTitle').value) + '</h1>').replace('<p class="x"></p>', '<p class="x">' + esc($('fExc').value) + '</p>') + $('fBody').value;
+  };
+  ['fTitle','fExc','fBody'].forEach(id => $(id).addEventListener('input', debounce(upd, 250)));
+  upd();
+  $('pubBtn').onclick = publish;
+  $('rejBtn').onclick = reject;
+}
+
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function debounce(fn, ms){ let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+
+function busy(on){ ['pubBtn','rejBtn','reloadBtn'].forEach(id => { const b = $(id); if (b) b.disabled = on; }); }
+
+async function publish(){
+  if (!current) return;
+  const title = $('fTitle').value.trim();
+  const body = $('fBody').value.trim();
+  if (!title || body.length < 100){ toast('Title aur article body zaroori hain.', true); return; }
+  if (!confirm('Is article ko website par publish karna hai?')) return;
+  const post = Object.assign({}, current.data, {
+    title,
+    category: $('fCat').value.trim() || 'Tech',
+    tags: $('fTags').value.split(',').map(s => s.trim()).filter(Boolean).slice(0, 5),
+    excerpt: $('fExc').value.trim().slice(0, 160),
+    body_html: body,
+    status: 'published',
+    published_at: new Date().toISOString()
+  });
+  busy(true);
+  try {
+    const postPath = 'posts/' + post.slug + '.json';
+    const existing = await gh('/contents/' + postPath + '?ref=' + enc(cfg.branch));
+    const payload = { message: 'publish: ' + title, content: toB64(JSON.stringify(post, null, 2)), branch: cfg.branch };
+    if (existing.ok) payload.sha = (await existing.json()).sha;
+    const put = await ghWrite('/contents/' + postPath, 'PUT', payload);
+    if (!put.ok) throw new Error('Publish failed (' + put.status + ').');
+    const del = await ghWrite('/contents/' + current.path, 'DELETE', { message: 'remove draft: ' + title, sha: current.sha, branch: cfg.branch });
+    drafts = drafts.filter(x => x !== current);
+    current = null;
+    render();
+    toast(del.ok ? 'Published! Blog 1-2 minute mein update ho jayega.' : 'Published, lekin draft file delete nahi hui — Refresh karein.');
+  } catch (err){
+    toast(err.message, true);
+  } finally { busy(false); }
+}
+
+async function reject(){
+  if (!current) return;
+  if (!confirm('Is draft ko delete karna hai? Ye dobara nahi aayega.')) return;
+  busy(true);
+  try {
+    const del = await ghWrite('/contents/' + current.path, 'DELETE', { message: 'reject draft: ' + (current.data.title || ''), sha: current.sha, branch: cfg.branch });
+    if (!del.ok) throw new Error('Delete failed (' + del.status + ').');
+    drafts = drafts.filter(x => x !== current);
+    current = null;
+    render();
+    toast('Draft deleted.');
+  } catch (err){
+    toast(err.message, true);
+  } finally { busy(false); }
+}
+
+function showWorkspace(on){
+  $('workspace').hidden = !on;
+  $('connectPanel').hidden = on;
+  $('reloadBtn').hidden = !on;
+  $('logoutBtn').hidden = !on;
+}
+
+async function connect(){
+  const repo = $('cRepo').value.trim().replace(/^https?:\/\/github\.com\//, '').replace(/\.git$/, '').replace(/\/$/, '');
+  const branch = $('cBranch').value.trim() || 'main';
+  const token = $('cToken').value.trim();
+  if (!/^[\w.-]+\/[\w.-]+$/.test(repo) || !token){ toast('Repository (username/repo) aur token dono daalein.', true); return; }
+  cfg = { repo, branch, token };
+  $('connectBtn').disabled = true;
+  try {
+    await loadDrafts();
+    localStorage.setItem(LS_KEY, JSON.stringify(cfg));
+    showWorkspace(true);
+  } catch (err){
+    toast(err.message, true);
+    setStatus('');
+  } finally { $('connectBtn').disabled = false; }
+}
+
+$('connectBtn').onclick = connect;
+$('reloadBtn').onclick = async () => { busy(true); try { await loadDrafts(); toast('Refreshed.'); } catch (e){ toast(e.message, true); } finally { busy(false); } };
+$('logoutBtn').onclick = () => {
+  localStorage.removeItem(LS_KEY);
+  cfg = null; drafts = []; current = null;
+  $('cToken').value = '';
+  showWorkspace(false); setStatus('');
+};
+
+(async function init(){
+  try { cfg = JSON.parse(localStorage.getItem(LS_KEY) || 'null'); } catch (e){ cfg = null; }
+  if (cfg && cfg.repo && cfg.token){
+    $('cRepo').value = cfg.repo; $('cBranch').value = cfg.branch || 'main';
+    try { await loadDrafts(); showWorkspace(true); }
+    catch (err){ toast(err.message, true); setStatus(''); }
+  }
+})();
+</script>
+</body>
+</html>
