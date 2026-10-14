@@ -5,7 +5,7 @@ Clickdy news detector.
 Every run it:
   1. reads the RSS/Atom feeds listed in scripts/feeds.json
   2. skips anything already seen (or nearly identical to something seen)
-  3. asks Claude to write a SHORT ORIGINAL brief using only the facts in the feed item
+  3. asks a FREE AI (Google Gemini, or Groq as backup) to write a SHORT ORIGINAL brief using only the facts in the feed item
   4. saves it as drafts/<slug>.json  -> NOTHING is published automatically
 
 You approve drafts from /admin/ on your website. Only then do they go live.
@@ -18,6 +18,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -31,11 +32,14 @@ CONFIG_PATH = os.path.join(ROOT, "scripts", "feeds.json")
 DRAFTS_DIR = os.path.join(ROOT, "drafts")
 SEEN_PATH = os.path.join(ROOT, "data", "seen.json")
 USER_AGENT = "Mozilla/5.0 (compatible; ClickdyNewsBot/1.0)"
-API_URL = "https://api.anthropic.com/v1/messages"
 
 
 class AuthError(Exception):
-    pass
+    """Every configured AI key was rejected (or none is set)."""
+
+
+class QuotaError(Exception):
+    """Free-tier rate/daily limit reached on every model; try again next run."""
 
 
 # ---------------------------------------------------------------- feeds
@@ -120,17 +124,18 @@ def norm_title(t):
 def is_similar(title, known_norm_titles):
     n = norm_title(title)
     for k in known_norm_titles:
-        if n == k or difflib.SequenceMatcher(None, n, k).ratio() >= 0.82:
+        if n == k or difflib.SequenceMatcher(None, n, k).ratio() >= 0.88:
             return True
     return False
 
 
-# ---------------------------------------------------------------- Claude
+# ---------------------------------------------------------------- free AI (Gemini / Groq)
 SYSTEM_PROMPT = """You are a careful news editor for {site}, a website with free online tools and a tech/AI news blog.
 You will receive ONE news item as JSON (source, title, summary, url). Write a short ORIGINAL brief about it.
 
 Rules:
 - Use ONLY facts present in the item. Never invent names, numbers, quotes, dates, prices or details. If something is unclear, leave it out.
+- Do not add background knowledge, even if you know it. If the item does not say it, do not write it.
 - Write in your own words. Do not copy sentences from the item.
 - Simple, clear English. Neutral tone. 120-220 words.
 - If the item has too little substance for a useful brief (only a headline, a promo, a podcast/episode ad, a job post, a sale/deal, or pure opinion with no facts), set "skip" to true.
@@ -143,38 +148,87 @@ Return ONLY one JSON object, nothing else:
 {{"skip": false, "title": "...", "excerpt": "...", "category": "...", "tags": ["..."], "body_html": "..."}}"""
 
 
-def call_claude(api_key, model, system, user_text, max_retries=3):
-    payload = json.dumps({
+def _post_json(url, headers, payload, timeout=90):
+    h = {"content-type": "application/json", "user-agent": USER_AGENT}
+    h.update(headers)
+    req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=h, method="POST")
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def _gemini(key, model, system, user_text):
+    url = "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % urllib.parse.quote(model, safe="-._")
+    body = _post_json(url, {"x-goog-api-key": key}, {
+        "systemInstruction": {"parts": [{"text": system}]},
+        "contents": [{"role": "user", "parts": [{"text": user_text}]}],
+        "generationConfig": {"temperature": 0.4, "maxOutputTokens": 3000, "responseMimeType": "application/json"},
+    })
+    parts = ((body.get("candidates") or [{}])[0].get("content") or {}).get("parts") or []
+    return "".join(p.get("text", "") for p in parts if not p.get("thought"))
+
+
+def _groq(key, model, system, user_text):
+    body = _post_json("https://api.groq.com/openai/v1/chat/completions", {"authorization": "Bearer " + key}, {
         "model": model,
-        "max_tokens": 1400,
-        "system": system,
-        "messages": [{"role": "user", "content": user_text}],
-    }).encode("utf-8")
-    headers = {
-        "content-type": "application/json",
-        "x-api-key": api_key,
-        "anthropic-version": "2023-06-01",
-    }
-    last_err = None
-    for attempt in range(max_retries):
-        req = urllib.request.Request(API_URL, data=payload, headers=headers, method="POST")
-        try:
-            with urllib.request.urlopen(req, timeout=90) as resp:
-                body = json.loads(resp.read().decode("utf-8"))
-            return "".join(b.get("text", "") for b in body.get("content", []) if b.get("type") == "text")
-        except urllib.error.HTTPError as e:
-            detail = e.read().decode("utf-8", "ignore")[:300]
-            if e.code in (401, 403):
-                raise AuthError("Anthropic API rejected the key (%s). Check the ANTHROPIC_API_KEY secret. %s" % (e.code, detail))
-            last_err = "HTTP %s %s" % (e.code, detail)
-            if e.code in (429, 500, 502, 503, 529):
-                time.sleep(4 * (attempt + 1))
-                continue
-            break
-        except Exception as e:  # network hiccup
-            last_err = str(e)
-            time.sleep(3 * (attempt + 1))
-    raise RuntimeError("Claude API failed: %s" % last_err)
+        "temperature": 0.4,
+        "max_tokens": 3000,
+        "messages": [{"role": "system", "content": system}, {"role": "user", "content": user_text}],
+    })
+    return (((body.get("choices") or [{}])[0]).get("message") or {}).get("content") or ""
+
+
+# name -> (secret name, function, config key holding the model list)
+PROVIDERS = {
+    "gemini": ("GEMINI_API_KEY", _gemini, "gemini_models"),
+    "groq": ("GROQ_API_KEY", _groq, "groq_models"),
+}
+
+
+def _err_body(e):
+    try:
+        return e.read().decode("utf-8", "ignore")[:300]
+    except Exception:
+        return ""
+
+
+def call_llm(cfg, system, user_text):
+    """Tries each provider/model in order until one answers. All providers used here have free tiers."""
+    ai = cfg.get("ai", {})
+    keys_present, auth_failed = [], []
+    quota_hit, last_err = False, "no model answered"
+    for name in ai.get("provider_order", ["gemini", "groq"]):
+        spec = PROVIDERS.get(name)
+        if not spec:
+            continue
+        env, fn, models_key = spec
+        key = os.environ.get(env, "").strip()
+        if not key:
+            continue
+        keys_present.append(name)
+        for model in ai.get(models_key, []):
+            try:
+                text = fn(key, model, system, user_text)
+                if text.strip():
+                    return text
+                last_err = "%s/%s returned an empty answer" % (name, model)
+            except urllib.error.HTTPError as e:
+                detail = _err_body(e)
+                if e.code in (401, 403) or (e.code == 400 and ("API_KEY_INVALID" in detail or "API key not valid" in detail)):
+                    auth_failed.append(name)
+                    last_err = "%s key rejected (%s)" % (name, e.code)
+                    break  # a bad key will fail on every model; go to the next provider
+                if e.code == 429:
+                    quota_hit = True
+                last_err = "%s/%s HTTP %s %s" % (name, model, e.code, detail[:120])
+                if e.code in (500, 502, 503, 504):
+                    time.sleep(4)
+            except Exception as e:  # network hiccup, bad JSON, ...
+                last_err = "%s/%s %s" % (name, model, str(e)[:120])
+    if not keys_present or set(keys_present) == set(auth_failed):
+        raise AuthError("No working AI key. Check GEMINI_API_KEY / GROQ_API_KEY in GitHub secrets. (%s)" % last_err)
+    if quota_hit:
+        raise QuotaError(last_err)
+    raise RuntimeError(last_err)
 
 
 def extract_json(text):
@@ -185,7 +239,11 @@ def extract_json(text):
     return json.loads(text[start:end + 1])
 
 
-def make_draft(item, feed, cfg, api_key):
+def numbers_in(text):
+    return {n.strip(".,").replace(",", "") for n in re.findall(r"\d[\d,]*\.?\d*", text or "")} - {""}
+
+
+def make_draft(item, feed, cfg):
     """Returns a draft dict, or None if the model says skip. Raises on failure."""
     categories = cfg.get("categories") or ["Tech"]
     system = SYSTEM_PROMPT.format(site=cfg.get("site_name", "Clickdy"), categories=", ".join(categories))
@@ -196,7 +254,7 @@ def make_draft(item, feed, cfg, api_key):
         "url": item["link"],
         "published": item["published"].isoformat() if item["published"] else None,
     }, ensure_ascii=False)
-    data = extract_json(call_claude(api_key, cfg.get("model", "claude-haiku-5-5"), system, user))
+    data = extract_json(call_llm(cfg, system, user))
     if data.get("skip"):
         return None
 
@@ -206,6 +264,9 @@ def make_draft(item, feed, cfg, api_key):
         raise ValueError("model output too short or empty")
     category = data.get("category") if data.get("category") in categories else feed.get("category", categories[0])
     tags = [strip_html(str(t))[:30] for t in (data.get("tags") or []) if str(t).strip()][:5]
+    # cheap hallucination guard: numbers in the draft that the source never mentioned
+    extra = sorted(numbers_in(title + " " + strip_html(body)) - numbers_in(item["title"] + " " + item["summary"]))
+    flags = ["Numbers not found in the source (verify!): " + ", ".join(extra[:6])] if extra else []
     link_hash = hashlib.sha1(item["link"].encode("utf-8")).hexdigest()[:6]
     return {
         "slug": "%s-%s" % (slugify(title), link_hash),
@@ -219,6 +280,7 @@ def make_draft(item, feed, cfg, api_key):
         "source_published": item["published"].isoformat() if item["published"] else None,
         "created_at": datetime.now(timezone.utc).isoformat(),
         "status": "draft",
+        "flags": flags,
     }
 
 
@@ -228,11 +290,11 @@ def main():
     if not cfg or not cfg.get("feeds"):
         print("ERROR: scripts/feeds.json is missing or has no feeds.")
         return 1
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     check_only = "--check-feeds" in sys.argv
-    if not api_key and not check_only:
-        print("ERROR: ANTHROPIC_API_KEY is not set. Add it in GitHub: Settings > Secrets and variables > Actions.")
+    if not check_only and not any(os.environ.get(env, "").strip() for env, _f, _m in PROVIDERS.values()):
+        print("ERROR: no AI key found. Add GEMINI_API_KEY (free, no card) in GitHub: Settings > Secrets and variables > Actions. See SETUP.md.")
         return 1
+    pause = float(cfg.get("ai", {}).get("pause_seconds", 12))
 
     now = datetime.now(timezone.utc)
     max_age = timedelta(hours=cfg.get("max_age_hours", 48))
@@ -279,8 +341,9 @@ def main():
     os.makedirs(DRAFTS_DIR, exist_ok=True)
     made, model_calls, max_calls = 0, 0, max_drafts * 2
     stamp = now.isoformat()
+    failures, last_call = 0, 0.0
     for it in candidates:
-        if made >= max_drafts or model_calls >= max_calls:
+        if made >= max_drafts or model_calls >= max_calls or failures >= 3:
             break
         if is_similar(it["title"], known_titles):
             seen["ids"][it["id"]] = stamp
@@ -288,18 +351,28 @@ def main():
             print("dup     %s" % it["title"][:80])
             continue
         model_calls += 1
+        wait = pause - (time.monotonic() - last_call)  # stay under the free-tier requests-per-minute limit
+        if last_call and wait > 0:
+            time.sleep(wait)
+        last_call = time.monotonic()
         try:
-            draft = make_draft(it, it["feed"], cfg, api_key)
+            draft = make_draft(it, it["feed"], cfg)
+            failures = 0
         except AuthError as e:
             print("ERROR: %s" % e)
             write_json(SEEN_PATH, {"ids": seen["ids"], "titles": known_titles[-500:]})
             return 1
+        except QuotaError as e:
+            print("Free AI limit reached for now (%s). Stopping this run; remaining items are retried next run." % e)
+            break
         except RuntimeError as e:
+            failures += 1
             print("retry later (%s): %s" % (e, it["title"][:60]))
             continue  # not marked as seen, will be retried next run
         except Exception as e:
             print("bad output (%s): %s" % (e, it["title"][:60]))
             draft = None
+            failures = 0
 
         seen["ids"][it["id"]] = stamp
         seen["ids"][it["link"]] = stamp
@@ -312,8 +385,7 @@ def main():
             continue
         write_json(path, draft)
         made += 1
-        print("DRAFT   [%s] %s" % (draft["category"], draft["title"]))
-        time.sleep(1)
+        print("DRAFT   [%s] %s%s" % (draft["category"], draft["title"], "  (check numbers!)" if draft["flags"] else ""))
 
     write_json(SEEN_PATH, {"ids": seen["ids"], "titles": known_titles[-500:]})
     print("\nDone. %d new draft(s)." % made)

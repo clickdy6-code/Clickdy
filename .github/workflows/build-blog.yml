@@ -1,0 +1,40 @@
+name: Build blog
+
+on:
+  push:
+    paths:
+      - "posts/**"
+      - "scripts/build_blog.py"
+      - "scripts/common.py"
+      - "scripts/feeds.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-blog
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate blog pages
+        run: python scripts/build_blog.py
+      - name: Save generated pages
+        run: |
+          git config user.name "clickdy-news-bot"
+          git config user.email "clickdy-news-bot@users.noreply.github.com"
+          git add -A blog sitemap-blog.xml
+          if git diff --cached --quiet; then
+            echo "Nothing to update."
+          else
+            git commit -m "chore: rebuild blog"
+            git pull --rebase
+            git push
+          fi

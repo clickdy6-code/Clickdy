@@ -50,6 +50,7 @@
   .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   .srcline{margin:6px 0 4px;font-size:.82rem;color:var(--muted)}
   .srcline a{color:var(--teal)}
+  .warn.flag{background:rgba(255,107,122,.08);border-color:rgba(255,107,122,.4);color:#FFB3BB}
   .warn{margin:12px 0;padding:11px 14px;border-radius:10px;background:rgba(255,200,80,.08);border:1px solid rgba(255,200,80,.3);color:#F4D58D;font-size:.8rem;line-height:1.55}
   iframe#preview{width:100%;height:340px;border:1px solid var(--glass-border);border-radius:12px;background:#0b1020}
   .bar{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;padding-top:18px;border-top:1px solid var(--panel-border)}
@@ -218,6 +219,7 @@ function renderEditor(){
   ed.innerHTML = `
     <div class="srcline">Source: <b id="sName"></b> — <a id="sLink" target="_blank" rel="noopener noreferrer">open the original article</a></div>
     <div class="warn">Publish karne se pehle original article se facts check kar lein (naam, numbers, dates). AI se galti ho sakti hai.</div>
+    <div class="warn flag" id="flagBox" hidden></div>
     <label>Title</label><input id="fTitle">
     <div class="row">
       <div><label>Category</label><input id="fCat"></div>
@@ -232,6 +234,7 @@ function renderEditor(){
       <button class="btn danger" id="rejBtn">Reject (delete)</button>
     </div>`;
   $('sName').textContent = d.source_name || 'Unknown';
+  if (d.flags && d.flags.length){ $('flagBox').textContent = '⚠ ' + d.flags.join(' | '); $('flagBox').hidden = false; }
   if (d.source_url && /^https?:\/\//i.test(d.source_url)) $('sLink').href = d.source_url; else $('sLink').removeAttribute('href');
   $('fTitle').value = d.title || '';
   $('fCat').value = d.category || '';
@@ -268,6 +271,7 @@ async function publish(){
     status: 'published',
     published_at: new Date().toISOString()
   });
+  delete post.flags;
   busy(true);
   try {
     const postPath = 'posts/' + post.slug + '.json';
