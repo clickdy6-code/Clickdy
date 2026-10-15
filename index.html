@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070b14">
 <title>Clickdy — Free PDF, Image, QR &amp; AI Tools Online (No Sign-Up)</title>
-<meta content="Free online tools for PDF, images, AI, text, QR codes and more. Fast, simple and easy to use with no sign-up." name="description"/>
-<link href="https://clickdy.com/" rel="canonical"/>
-<link href="assets/logo.png" rel="icon" type="image/png"/>
-<meta content="website" property="og:type"/>
-<meta content="Clickdy — Free PDF, Image, QR &amp; AI Tools Online" property="og:title"/>
-<meta content="Free online tools for PDF, images, AI, text, QR codes and more." property="og:description"/>
-<meta content="https://clickdy.com/" property="og:url"/>
-<meta content="https://clickdy.com/assets/logo.png" property="og:image"/>
-<meta content="summary" name="twitter:card"/>
-<meta content="Clickdy — Free PDF, Image, QR &amp; AI Tools Online" name="twitter:title"/>
-<meta content="Free online tools for PDF, images, AI, text, QR codes and more." name="twitter:description"/>
-<meta content="https://clickdy.com/assets/logo.png" name="twitter:image"/>
+<meta name="description" content="Free online tools for PDF, images, AI, text, QR codes and more. Fast, simple and easy to use with no sign-up.">
+<link rel="canonical" href="https://clickdy.com/">
+<link rel="icon" type="image/png" href="assets/logo.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Clickdy — Free PDF, Image, QR &amp; AI Tools Online">
+<meta property="og:description" content="Free online tools for PDF, images, AI, text, QR codes and more.">
+<meta property="og:url" content="https://clickdy.com/">
+<meta property="og:image" content="https://clickdy.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Clickdy — Free PDF, Image, QR &amp; AI Tools Online">
+<meta name="twitter:description" content="Free online tools for PDF, images, AI, text, QR codes and more.">
+<meta name="twitter:image" content="https://clickdy.com/assets/logo.png">
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -26,119 +28,125 @@
   "description": "Free online PDF, image, AI, text and utility tools."
 }
 </script>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+
+<!-- Scroll animations hide content until revealed. If the main script ever fails, this safety net shows everything again. -->
+<script>
+document.documentElement.classList.add("js");
+setTimeout(function(){ if(!window.__clickdyReady) document.documentElement.classList.remove("js"); }, 3500);
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+
 <style>
+/* ============ Tokens ============ */
 :root{
-  --bg:#f7fbff;
-  --surface:#ffffff;
-  --surface-2:#f4f8fd;
-  --text:#10233f;
-  --muted:#63748d;
-  --line:#dfeaf5;
-  --primary:#168cf0;
-  --primary-2:#4d5ff5;
-  --cyan:#12c9d8;
-  --purple:#7a5cff;
-  --green:#19b982;
-  --orange:#f59b3d;
-  --red:#ef5b68;
-  --shadow:0 18px 55px rgba(31,77,125,.10);
-  --shadow-sm:0 8px 28px rgba(31,77,125,.08);
-  --radius:22px;
+  --bg:#070b14;
+  --surface:#0d1422;
+  --surface-2:#111b2d;
+  --text:#f4f8ff;
+  --muted:#93a4bd;
+  --soft:#8fa4bd;
+  --line:#1d2b42;
+  --primary:#38a5ff;
+  --cyan:#2ee7df;
+  --shadow:0 22px 70px rgba(0,0,0,.38);
   --container:1180px;
+  --header-h:72px;
+  --ease:cubic-bezier(.16,1,.3,1);
 }
+
+/* ============ Base ============ */
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{
-  font-family:"DM Sans",sans-serif;
-  color:var(--text);
-  background:
-    radial-gradient(circle at 8% 7%, rgba(28,169,255,.08), transparent 24rem),
-    radial-gradient(circle at 93% 13%, rgba(122,92,255,.07), transparent 24rem),
-    var(--bg);
-  overflow-x:hidden;
-}
-body::before{
-  content:"";
-  position:fixed;
-  inset:0;
-  pointer-events:none;
-  z-index:-1;
-  background-image:linear-gradient(rgba(20,96,160,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(20,96,160,.035) 1px,transparent 1px);
-  background-size:44px 44px;
-  opacity:.7;
-}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{font-family:"DM Sans",sans-serif;color:var(--text);background:var(--bg);overflow-x:hidden}
+[hidden]{display:none!important}
 a{text-decoration:none;color:inherit}
 button,input{font:inherit}
 button{cursor:pointer}
 img{max-width:100%}
+:focus-visible{outline:2px solid #63c7ff;outline-offset:2px}
+.skip-link{position:absolute;left:12px;top:-60px;z-index:300;padding:10px 14px;border-radius:10px;background:#138ce9;color:#fff;font-weight:700;font-size:13px;transition:top .2s ease}
+.skip-link:focus{top:10px}
 .container{width:min(var(--container),calc(100% - 40px));margin:auto}
-.muted{color:var(--muted)}
 .section{padding:78px 0}
+
 .section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}
-.section-kicker{
-  display:inline-flex;align-items:center;gap:8px;
-  padding:7px 11px;border:1px solid #d9eaf8;border-radius:999px;
-  background:#fff;color:#187fdb;font-size:12px;font-weight:700;
-  box-shadow:0 5px 18px rgba(36,118,188,.06);
+.section-kicker,.badge,.trust-pill{
+  display:inline-flex;align-items:center;gap:8px;border-radius:999px;
+  background:rgba(14,24,39,.8);border:1px solid #21354e;color:#64baff;box-shadow:0 8px 28px rgba(0,0,0,.18);
 }
+.section-kicker{padding:7px 11px;font-size:12px;font-weight:700}
 .section-kicker .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan)}
-.section-title{font-family:"Plus Jakarta Sans",sans-serif;font-size:clamp(27px,3vw,38px);line-height:1.12;letter-spacing:-.035em;margin-top:12px}
-.section-copy{max-width:600px;color:var(--muted);line-height:1.7;margin-top:10px}
-.view-all{color:#147fe0;font-weight:700;font-size:14px;white-space:nowrap}
+.section-title{font-family:"Plus Jakarta Sans",sans-serif;font-size:clamp(27px,3vw,38px);line-height:1.12;letter-spacing:-.035em;margin-top:12px;color:#f2f7ff}
+.section-copy{max-width:600px;color:var(--soft);line-height:1.7;margin-top:10px}
+.view-all{color:#5cb5ff;font-weight:700;font-size:14px;white-space:nowrap}
 .view-all:hover{text-decoration:underline}
 
-/* Header */
+/* ============ Scroll reveal (uses translate/scale so hover transforms keep working) ============ */
+.js .reveal{
+  opacity:0;translate:0 42px;scale:.965;filter:blur(5px);
+  transition:opacity .72s var(--ease) var(--rd,0s),translate .72s var(--ease) var(--rd,0s),scale .72s var(--ease) var(--rd,0s),filter .72s ease var(--rd,0s);
+}
+.js .reveal.reveal-visible{opacity:1;translate:none;scale:none;filter:none}
+.js .tool-card.reveal,.js .category.reveal,.js .benefit.reveal,.js .workflow-card.reveal{
+  transition:opacity .72s var(--ease) var(--rd,0s),translate .72s var(--ease) var(--rd,0s),scale .72s var(--ease) var(--rd,0s),filter .72s ease var(--rd,0s),
+             transform .35s cubic-bezier(.2,.8,.2,1),border-color .35s ease,box-shadow .35s ease,color .25s ease;
+}
+
+/* ============ Header ============ */
 .site-header{
   position:sticky;top:0;z-index:100;
-  background:rgba(255,255,255,.88);
-  border-bottom:1px solid rgba(216,231,244,.9);
-  -webkit-backdrop-filter:blur(18px);
-  backdrop-filter:blur(18px);
+  background:rgba(7,11,20,.78);border-bottom:1px solid rgba(83,118,157,.22);
+  -webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);
 }
-.nav{
-  height:72px;display:flex;align-items:center;justify-content:space-between;gap:22px;
-}
+.nav{height:var(--header-h);display:flex;align-items:center;justify-content:space-between;gap:22px}
 .brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
-.brand img{width:38px;height:38px;object-fit:contain}
-.brand-name{font-family:"Plus Jakarta Sans",sans-serif;font-weight:800;font-size:20px;letter-spacing:-.04em}
+.brand img{width:38px;height:38px;object-fit:contain;animation:brandFloat 4s ease-in-out infinite}
+.brand-name{font-family:"Plus Jakarta Sans",sans-serif;font-weight:800;font-size:20px;letter-spacing:-.04em;color:#fff}
 .nav-links{display:flex;align-items:center;gap:4px;margin-left:auto}
 .nav-link,.nav-drop-btn{
-  border:0;background:transparent;color:#4f6077;padding:10px 13px;border-radius:11px;
-  font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:6px;
+  border:0;background:transparent;color:#a9b8cc;padding:10px 13px;border-radius:11px;
+  font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:6px;transition:all .25s ease;
 }
-.nav-link:hover,.nav-drop-btn:hover,.nav-drop.open .nav-drop-btn{background:#edf6ff;color:#137fdc}
+.nav-link:hover,.nav-drop-btn:hover,.nav-drop.open .nav-drop-btn{background:#101f34;color:#5db5ff;box-shadow:0 0 0 1px rgba(65,166,255,.12) inset}
 .nav-drop{position:relative}
 .nav-drop-btn svg{transition:transform .2s ease}
 .nav-drop.open .nav-drop-btn svg{transform:rotate(180deg)}
 .nav-menu{
   position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%) translateY(-6px);
-  width:270px;padding:10px;border:1px solid var(--line);border-radius:17px;background:#fff;
-  box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:.2s ease;
+  width:270px;padding:10px;border:1px solid #1e3049;border-radius:17px;background:#0c1422;
+  box-shadow:var(--shadow);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s ease,transform .2s ease,visibility .2s;
 }
-.nav-drop.open .nav-menu{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0)}
-.nav-menu a{display:flex;gap:11px;align-items:center;padding:10px;border-radius:11px;font-size:13px}
-.nav-menu a:hover{background:#f0f7ff;color:#087fdc}
-.menu-icon{width:32px;height:32px;border-radius:10px;background:#eef7ff;color:#1389e8;display:grid;place-items:center;flex:0 0 auto}
-.nav-search{
-  width:150px;height:40px;border:1px solid var(--line);background:#f8fbff;border-radius:999px;
-  display:flex;align-items:center;gap:8px;padding:0 13px;color:#7a8ca3;
-}
-.nav-search input{width:100%;border:0;outline:0;background:transparent;color:var(--text);font-size:12px}
-.nav-search:focus-within{border-color:#83c6f7;box-shadow:0 0 0 4px rgba(22,140,240,.08)}
+.nav-drop.open .nav-menu{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.nav-menu a{display:flex;gap:11px;align-items:center;padding:10px;border-radius:11px;font-size:13px;color:#c4d0df}
+.nav-menu a:hover{background:#122238;color:#64b9ff}
+.menu-icon{width:32px;height:32px;border-radius:10px;background:#11243a;color:#58b5ff;display:grid;place-items:center;flex:0 0 auto}
+
 .nav-search-wrap{position:relative;flex:0 0 auto}
-.nav-search{width:220px;height:42px;background:var(--surface);border-color:var(--line);color:var(--muted);box-shadow:0 8px 24px rgba(0,0,0,.12)}
-.nav-search input{font-size:13px;color:var(--text)}
-.nav-search input::placeholder{color:var(--muted)}
-.nav-search-results{position:absolute;top:calc(100% + 9px);right:0;width:320px;max-height:390px;overflow:auto;padding:7px;border:1px solid var(--line);border-radius:16px;background:var(--surface);box-shadow:var(--shadow);opacity:0;visibility:hidden;transform:translateY(-5px);pointer-events:none;transition:.18s ease;z-index:250}
+.nav-search{
+  width:220px;height:42px;border:1px solid #1e3049;background:#0d1726;border-radius:999px;
+  display:flex;align-items:center;gap:8px;padding:0 13px;color:#8da2bb;box-shadow:0 8px 24px rgba(0,0,0,.12);
+}
+.nav-search:focus-within{border-color:#83c6f7;box-shadow:0 0 0 4px rgba(22,140,240,.08)}
+.nav-search input{width:100%;border:0;outline:0;background:transparent;color:#f5f8ff;-webkit-text-fill-color:#f5f8ff;caret-color:#38a5ff;font-size:13px}
+.nav-search input::placeholder{color:#7188a3;opacity:1}
+.nav-search-results{
+  position:absolute;top:calc(100% + 9px);right:0;width:320px;max-height:390px;overflow:auto;padding:7px;
+  border:1px solid var(--line);border-radius:16px;background:var(--surface);box-shadow:var(--shadow);
+  opacity:0;visibility:hidden;transform:translateY(-5px);pointer-events:none;transition:.18s ease;z-index:250;
+}
 .nav-search-results.open{opacity:1;visibility:visible;transform:none;pointer-events:auto}
 .nav-result{display:flex;align-items:center;gap:10px;padding:10px;border-radius:11px;color:var(--text)}
-.nav-result:hover{background:var(--surface-2)}
+.nav-result:hover,.nav-result:focus-visible{background:var(--surface-2)}
 .nav-result-icon{width:29px;height:29px;border-radius:9px;background:rgba(56,165,255,.12);color:var(--primary);display:grid;place-items:center;flex:0 0 auto}
-.nav-result-copy{min-width:0}.nav-result-copy strong{display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.nav-result-copy small{display:block;color:var(--muted);font-size:9px;margin-top:3px}
-.nav-no-result{padding:16px;color:var(--muted);font-size:11px;text-align:center}.nav-no-result strong{color:var(--text)}
+.nav-result-copy{min-width:0}
+.nav-result-copy strong{display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nav-result-copy small{display:block;color:var(--muted);font-size:9px;margin-top:3px}
+.nav-no-result{padding:16px;color:var(--muted);font-size:11px;text-align:center}
+.nav-no-result strong{color:var(--text)}
+
 .profile-wrap{position:relative;flex:0 0 auto}
 .profile-btn{height:42px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:4px 10px 4px 5px;display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.12)}
 .profile-btn:hover,.profile-wrap.open .profile-btn{border-color:rgba(56,165,255,.5);background:var(--surface-2)}
@@ -147,1392 +155,984 @@ img{max-width:100%}
 .profile-menu{position:absolute;right:0;top:calc(100% + 9px);width:285px;padding:13px;border:1px solid var(--line);border-radius:17px;background:var(--surface);box-shadow:var(--shadow);opacity:0;visibility:hidden;transform:translateY(-5px);pointer-events:none;transition:.18s ease;z-index:250}
 .profile-wrap.open .profile-menu{opacity:1;visibility:visible;transform:none;pointer-events:auto}
 .profile-head{display:flex;align-items:center;gap:10px;padding:4px 4px 12px;border-bottom:1px solid var(--line)}
-.profile-head strong{display:block;font-size:13px;color:var(--text)}.profile-head span:not(.profile-avatar){display:block;color:var(--muted);font-size:10px;margin-top:3px}
-.profile-form{display:grid;gap:7px;padding-top:12px}.profile-form label{font-size:10px;color:var(--muted);font-weight:700}.profile-form input{height:38px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);padding:0 10px;outline:0;font-size:12px}.profile-form input:focus{border-color:rgba(56,165,255,.6);box-shadow:0 0 0 3px rgba(56,165,255,.10)}
+.profile-head strong{display:block;font-size:13px;color:var(--text)}
+.profile-head span:not(.profile-avatar){display:block;color:var(--muted);font-size:10px;margin-top:3px}
+.profile-form{display:grid;gap:7px;padding-top:12px}
+.profile-form label{font-size:10px;color:var(--muted);font-weight:700}
+.profile-form input{height:38px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);padding:0 10px;outline:0;font-size:12px}
+.profile-form input:focus{border-color:rgba(56,165,255,.6);box-shadow:0 0 0 3px rgba(56,165,255,.10)}
 .profile-save{height:39px;border:0;border-radius:10px;background:linear-gradient(135deg,#138ce9,#4b60f4);color:#fff;font-weight:800;font-size:12px;margin-top:4px}
 .profile-save:hover{filter:brightness(1.08)}
-.mobile-profile-btn{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:11px;padding:11px 13px;text-align:left;font-weight:700}
 
 .menu-toggle{
-  display:none;width:42px;height:42px;border:1px solid var(--line);border-radius:12px;background:#fff;
-  color:var(--text);align-items:center;justify-content:center;
+  display:none;width:42px;height:42px;border:1px solid #20364e;border-radius:12px;background:#0d1726;color:#edf6ff;
+  align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.18);transition:background .18s ease,border-color .18s ease,color .18s ease;
 }
-.mobile-panel{display:none}
+.menu-toggle:hover,.menu-toggle[aria-expanded="true"]{background:#13243a;border-color:rgba(99,199,255,.35);color:#70c4ff}
 
-/* Hero */
-.hero{position:relative;padding:78px 0 48px;overflow:hidden}
-.hero::before,.hero::after{
-  content:"";position:absolute;border-radius:50%;filter:blur(2px);pointer-events:none;
-}
-.hero::before{width:420px;height:420px;background:rgba(74,202,255,.12);left:-180px;top:30px}
-.hero::after{width:360px;height:360px;background:rgba(117,92,255,.10);right:-160px;top:80px}
-.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:55px;align-items:center;position:relative;z-index:1}
-.hero-copy{max-width:650px}
-.badge{
-  display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border-radius:999px;
-  background:#fff;border:1px solid #dcecf8;color:#157fd9;font-size:12px;font-weight:700;
-  box-shadow:0 8px 22px rgba(30,119,188,.07);
-}
-.badge .bolt{color:#13bca8}
-.hero h1{
-  font-family:"Plus Jakarta Sans",sans-serif;font-size:clamp(43px,5.3vw,72px);
-  line-height:1.01;letter-spacing:-.06em;margin:20px 0 18px;
-}
-.hero h1 .gradient{
-  background:linear-gradient(90deg,#1287e9,#485ff2 55%,#12bcd4);
-  -webkit-background-clip:text;background-clip:text;color:transparent;
-}
-.hero-sub{max-width:610px;font-size:17px;line-height:1.7;color:var(--muted)}
-.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}
+/* Mobile drawer lives OUTSIDE the header so it can never be clipped */
+.mobile-panel,.menu-backdrop{display:none}
+
+/* ============ Buttons ============ */
 .btn{
-  display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:0 18px;
+  position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:0 18px;
   border-radius:13px;border:1px solid transparent;font-weight:700;font-size:14px;transition:.2s ease;
 }
-.btn-primary{background:linear-gradient(135deg,#138ce9,#4b60f4);color:#fff;box-shadow:0 12px 28px rgba(36,119,227,.22)}
+.btn::after{content:"";position:absolute;top:-80%;left:-30%;width:25%;height:260%;background:rgba(255,255,255,.18);transform:rotate(20deg) translateX(-200%);transition:transform .65s ease}
+.btn:hover::after{transform:rotate(20deg) translateX(620%)}
+.btn-primary{background:linear-gradient(135deg,#138ce9,#4b60f4);color:#fff;box-shadow:0 12px 34px rgba(36,130,235,.28)}
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 34px rgba(36,119,227,.28)}
-.btn-secondary{background:#fff;color:#166db7;border-color:#cfe4f5}
-.btn-secondary:hover{border-color:#94c8ec;background:#f7fbff;transform:translateY(-2px)}
+.btn-secondary{background:#0d1726;color:#a9d9ff;border-color:#263d58}
+.btn-secondary:hover{background:#112238;border-color:#3a648d;transform:translateY(-2px)}
+
+/* ============ Hero ============ */
+.hero{position:relative;padding:78px 0 48px;overflow:hidden}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(2px);pointer-events:none}
+.hero::before{width:420px;height:420px;background:rgba(38,174,255,.14);left:-180px;top:30px;animation:orbFloat 8s ease-in-out infinite}
+.hero::after{width:360px;height:360px;background:rgba(125,95,255,.13);right:-160px;top:80px;animation:orbFloat 10s ease-in-out infinite reverse}
+.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:55px;align-items:center;position:relative;z-index:1}
+.hero-copy{max-width:650px}
+.badge{padding:8px 13px;font-size:12px;font-weight:700}
+.badge .bolt{color:#13bca8}
+.hero h1{font-family:"Plus Jakarta Sans",sans-serif;font-size:clamp(43px,5.3vw,72px);line-height:1.01;letter-spacing:-.06em;margin:20px 0 18px;color:#f7fbff}
+.hero h1 .gradient{color:#63c7ff;-webkit-text-fill-color:#63c7ff}
+.hero-sub{max-width:610px;font-size:17px;line-height:1.7;color:var(--soft)}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}
 .trust-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
-.trust-pill{display:inline-flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid #dceaf5;background:rgba(255,255,255,.8);border-radius:999px;color:#61758f;font-size:12px}
+.trust-pill{padding:8px 11px;font-size:12px;color:#93a7bf;gap:7px}
 .trust-pill svg{color:#10a9c0}
 
-/* Hero product preview */
-.preview-wrap{position:relative}
-.preview-glow{
-  position:absolute;inset:10% 7% 5%;background:linear-gradient(135deg,rgba(28,169,255,.2),rgba(116,92,255,.16));
-  filter:blur(45px);border-radius:50%;
+/* ============ Hero: Smart Workspace ============ */
+.preview-wrap{position:relative;width:100%;max-width:650px;height:560px;margin:-24px auto 0;display:flex;align-items:center;justify-content:center}
+.preview-glow{position:absolute;inset:13% 8% 9%;background:linear-gradient(135deg,rgba(28,169,255,.2),rgba(116,92,255,.16));filter:blur(45px);border-radius:50%}
+.product-window{
+  position:relative;z-index:1;width:100%;height:470px;background:#0b1421;border:1px solid #20354d;border-radius:24px;
+  box-shadow:0 30px 80px rgba(0,0,0,.38),0 0 0 1px rgba(99,199,255,.035);overflow:hidden;transform:translateY(-6px) rotate(1.15deg);
 }
+.window-top{height:42px;background:#09111c;border-bottom:1px solid #1c3046;display:flex;align-items:center;padding:0 16px;gap:7px}
+.window-dot{width:8px;height:8px;border-radius:50%;background:#526b83}
+.window-url{margin-left:9px;flex:1;height:27px;border:1px solid #20354d;background:#0e1a2a;border-radius:8px;color:#70869e;font-size:10px;display:flex;align-items:center;padding:0 9px}
+.smart-window-body{height:428px;overflow:hidden;padding:18px 20px;background:linear-gradient(180deg,#0b1421 0%,#0a131f 100%);color:var(--text)}
 
-/* Smart hero workspace */
-.smart-window-body{padding:18px 20px 20px!important;background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%)}
-.smart-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
+.smart-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
 .smart-brand{display:flex;align-items:center;gap:9px;min-width:0}
 .smart-mini-logo{width:27px;height:27px;border-radius:8px;background:linear-gradient(135deg,#158be9,#5260f5);display:grid;place-items:center;color:#fff;font-size:12px;font-weight:900;flex:0 0 auto}
-.smart-brand strong{display:block;font-size:11px;line-height:1.2;color:#17283a}
-.smart-brand span:not(.smart-mini-logo){display:block;font-size:8px;color:#8194a8;margin-top:3px}
-.smart-status{display:inline-flex;align-items:center;gap:5px;padding:5px 8px;border-radius:999px;background:#edf9f5;color:#14916f;font-size:8px;font-weight:800;white-space:nowrap}
+.smart-brand strong{display:block;font-size:11px;line-height:1.2;color:#f1f6fb}
+.smart-brand span:not(.smart-mini-logo){display:block;font-size:8px;color:#7f94aa;margin-top:3px}
+.smart-status{display:inline-flex;align-items:center;gap:5px;padding:5px 8px;border-radius:999px;background:#102a26;color:#63d7b1;font-size:8px;font-weight:800;white-space:nowrap}
 .smart-status i{width:6px;height:6px;border-radius:50%;background:#20bf92;box-shadow:0 0 0 3px rgba(32,191,146,.12);animation:smartPulse 1.8s infinite}
-@keyframes smartPulse{0%,100%{opacity:1}50%{opacity:.45}}
-.smart-command-label{display:flex;align-items:center;gap:6px;font-size:9px;color:#63768a;font-weight:800;margin-bottom:7px}
+.smart-command-label{display:flex;align-items:center;gap:6px;font-size:9px;color:#91a4b8;font-weight:800;margin-bottom:7px}
 .smart-spark{color:#755df2;font-size:11px}
-.smart-command-label kbd{margin-left:auto;border:1px solid #dbe5ee;background:#fff;border-radius:5px;padding:2px 5px;color:#91a1b1;font-size:7px;font-family:inherit}
-.smart-input-wrap{height:39px;border:1px solid #cfe0ee;background:#fff;border-radius:11px;display:flex;align-items:center;gap:8px;padding:0 10px;box-shadow:0 5px 18px rgba(32,86,130,.06);transition:.2s ease}
-.smart-input-wrap:focus-within{border-color:#75b9ed;box-shadow:0 0 0 3px rgba(31,143,231,.09)}
+.smart-command-label kbd{margin-left:auto;border:1px solid #263b51;background:#101d2d;border-radius:5px;padding:2px 5px;color:#71869c;font-size:7px;font-family:inherit}
+.smart-input-wrap{height:40px;border:1px solid #29425b;background:#0e1a2a;border-radius:11px;display:flex;align-items:center;gap:8px;padding:0 10px;transition:.2s ease}
+.smart-input-wrap:focus-within{border-color:#3d9ee1;box-shadow:0 0 0 3px rgba(61,158,225,.12)}
 .smart-input-wrap svg{color:#8297aa;flex:0 0 auto}
-.smart-input-wrap input{border:0;outline:0;background:transparent;width:100%;font:600 9px/1.2 "Segoe UI",Arial,sans-serif;color:#25384b;min-width:0}
-.smart-input-wrap input::placeholder{color:#9aacbc}
-.smart-clear{border:0;background:transparent;color:#9aabba;font-size:17px;line-height:1;cursor:pointer;padding:0 2px;display:none}
+.smart-input-wrap input{border:0;outline:0;background:transparent;width:100%;min-width:0;font:600 9px/1.2 "Segoe UI",Arial,sans-serif;color:#edf5fc;-webkit-text-fill-color:#edf5fc}
+.smart-input-wrap input::placeholder{color:#70869e;opacity:1}
+.smart-input-wrap input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
+.smart-clear{border:0;background:transparent;color:#7e94a9;font-size:17px;line-height:1;padding:0 2px;display:none}
 .smart-clear.show{display:block}
-.smart-suggestions{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}
-.smart-suggestions button{border:1px solid #dce8f2;background:#f7fbfe;color:#597087;border-radius:999px;padding:5px 7px;font:700 7px/1 "Segoe UI",Arial,sans-serif;cursor:pointer;transition:.18s ease}
-.smart-suggestions button:hover{border-color:#a8d2f2;color:#137fd2;background:#eff8ff}
-.smart-drop{display:flex;align-items:center;gap:9px;margin-top:11px;padding:9px 10px;border:1px dashed #a9cbe5;border-radius:11px;background:linear-gradient(90deg,#f6fbff,#fff);cursor:pointer;transition:.2s ease}
-.smart-drop:hover,.smart-drop.dragging{border-color:#248fe3;background:#edf7ff;transform:translateY(-1px)}
-.smart-drop-icon{width:27px;height:27px;border-radius:8px;background:#eaf5ff;color:#1686df;display:grid;place-items:center;font-size:15px;font-weight:800;flex:0 0 auto}
+.smart-clear:hover{color:#bfe5ff}
+.smart-suggestions{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px;height:27px;overflow:hidden}
+.smart-suggestions button{border:1px solid #263b51;background:#101d2d;color:#91a5b9;border-radius:999px;padding:5px 7px;font:700 7px/1 "Segoe UI",Arial,sans-serif;transition:.18s ease}
+.smart-suggestions button:hover{background:#14263a;border-color:#3a8fca;color:#bfe5ff}
+.smart-drop{display:flex;align-items:center;gap:9px;margin-top:9px;padding:8px 10px;height:48px;border:1px dashed #31506b;border-radius:11px;background:#0d1928;cursor:pointer;transition:.2s ease}
+.smart-drop:hover,.smart-drop.dragging{background:#102338;border-color:#3c9bd9;transform:translateY(-1px)}
+.smart-drop-icon{width:27px;height:27px;border-radius:8px;background:#102a40;color:#63c7ff;display:grid;place-items:center;font-size:15px;font-weight:800;flex:0 0 auto}
 .smart-drop-copy{min-width:0}
-.smart-drop-copy strong{display:block;font-size:8px;color:#26394c}
-.smart-drop-copy span{display:block;font-size:7px;color:#8799aa;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.smart-drop-badge{margin-left:auto;padding:4px 6px;border-radius:5px;background:#eaf5ff;color:#1884d8;font-size:6px;font-weight:900;letter-spacing:.08em}
-.smart-results{margin-top:10px}
+.smart-drop-copy strong{display:block;font-size:8px;color:#dce9f5}
+.smart-drop-copy span{display:block;font-size:7px;color:#71869d;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.smart-drop-badge{margin-left:auto;padding:4px 6px;border-radius:5px;background:#102a40;color:#63c7ff;font-size:6px;font-weight:900;letter-spacing:.08em}
+.smart-results{margin-top:9px}
 .smart-results-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
-.smart-results-top span:first-child{font-size:8px;font-weight:900;color:#34495d}
-.smart-results-top span:last-child{font-size:7px;color:#93a3b3}
-.smart-tool-list{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
-.smart-tool-item{display:flex;align-items:center;gap:6px;min-width:0;padding:8px;border:1px solid #e0e9f1;background:#fff;border-radius:10px;text-decoration:none;color:inherit;transition:.18s ease}
-.smart-tool-item:hover{transform:translateY(-2px);border-color:#a9d3f1;box-shadow:0 8px 18px rgba(32,86,130,.09)}
-.smart-tool-item[hidden]{display:none}
+.smart-results-top span:first-child{font-size:8px;font-weight:900;color:#d7e5f1}
+.smart-results-top span:last-child{font-size:7px;color:#71869d}
+.smart-tool-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;min-height:58px}
+.smart-tool-item{display:flex;align-items:center;gap:6px;min-width:0;height:58px;padding:7px;border:1px solid #21384f;background:#0e1a2a;border-radius:10px;color:#e8f1f8;overflow:hidden;transition:.18s ease}
+.smart-tool-item:hover{transform:translateY(-2px);background:#122338;border-color:#3a8fca;box-shadow:0 8px 20px rgba(0,0,0,.2)}
 .smart-tool-item>span:nth-child(2){min-width:0;flex:1}
-.smart-tool-item strong{display:block;font-size:7px;color:#31465a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.smart-tool-item small{display:block;font-size:6px;color:#8a9bab;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.smart-tool-item b{font-size:10px;color:#91a5b7}
+.smart-tool-item strong{display:block;font-size:7px;color:#e3edf5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.smart-tool-item small{display:block;font-size:6px;color:#73889e;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.smart-tool-item b{font-size:10px;color:#7090a8}
 .smart-tool-icon{width:25px;height:25px;border-radius:7px;display:grid;place-items:center;font-size:7px;font-weight:900;flex:0 0 auto}
-.smart-pdf{background:#fff0f2;color:#e95a6c}.smart-img{background:#eafbf5;color:#10a977}.smart-qr{background:#f0edff;color:#7058e8}
-.smart-float{transition:transform .25s ease}
-.smart-float:hover{transform:translateY(-3px)}
-@media(max-width:760px){
-  .smart-tool-list{grid-template-columns:1fr}
-  .smart-drop-copy span{white-space:normal}
-  .smart-window-body{padding:15px!important}
-}
+.smart-pdf{background:#2b1b25;color:#ff8796}
+.smart-img{background:#112b28;color:#5ee0b0}
+.smart-qr{background:#211c37;color:#a99aff}
+.smart-empty{grid-column:1/-1;padding:14px 4px;font-size:9px;line-height:1.5;color:#71869d;text-align:center}
 
-.product-window{
-  position:relative;background:#fff;border:1px solid #dbeaf6;border-radius:26px;
-  box-shadow:0 30px 80px rgba(27,84,132,.17);overflow:hidden;transform:rotate(1deg);
-}
-.window-top{height:47px;background:#f8fbfe;border-bottom:1px solid #e4edf5;display:flex;align-items:center;padding:0 16px;gap:7px}
-.window-dot{width:8px;height:8px;border-radius:50%;background:#c7d5e2}
-.window-url{margin-left:9px;flex:1;height:27px;border:1px solid #e2eaf2;background:#fff;border-radius:8px;color:#9aabba;font-size:10px;display:flex;align-items:center;padding:0 9px}
-.window-body{padding:22px}
-.preview-brand{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
-.preview-brand-left{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:800}
-.preview-mini-logo{width:22px;height:22px;border-radius:7px;background:linear-gradient(135deg,#158be9,#5260f5);display:grid;place-items:center;color:#fff;font-size:11px}
-.preview-chip{font-size:10px;padding:6px 9px;background:#eef8ff;color:#1685df;border-radius:999px}
-.preview-question{font-family:"Plus Jakarta Sans",sans-serif;font-size:21px;letter-spacing:-.04em;margin-bottom:12px}
-.preview-search{height:42px;border:1px solid #dce8f2;border-radius:12px;display:flex;align-items:center;gap:9px;padding:0 12px;color:#8da0b5;font-size:11px;box-shadow:0 5px 18px rgba(32,86,130,.05)}
-.preview-cats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:13px}
-.preview-cat{padding:13px 10px;border:1px solid #e4edf5;border-radius:13px;background:#fbfdff;text-align:center}
-.preview-cat .pc-icon{width:31px;height:31px;border-radius:10px;margin:0 auto 7px;display:grid;place-items:center}
-.pc-red{background:#fff0f2;color:#ee596a}.pc-green{background:#eafbf5;color:#13b27d}.pc-purple{background:#f0edff;color:#7357e9}
-.preview-cat strong{display:block;font-size:10px}.preview-cat span{display:block;color:#8294a9;font-size:8px;margin-top:4px}
-.preview-bottom{display:grid;grid-template-columns:1.2fr .8fr;gap:10px;margin-top:13px}
-.preview-panel{border:1px solid #e4edf5;border-radius:13px;padding:12px}
-.preview-line{height:8px;border-radius:99px;background:#eaf0f6;margin-bottom:7px}.preview-line.short{width:60%}.preview-line.blue{width:75%;background:#d9efff}
-.preview-tools{display:flex;gap:7px;flex-wrap:wrap}.preview-tool{padding:6px 8px;background:#f2f7fc;border-radius:8px;font-size:8px;color:#5e728b}
-.float-card{
-  position:absolute;background:#fff;border:1px solid #dcebf6;border-radius:15px;padding:11px 13px;
-  box-shadow:0 15px 40px rgba(30,82,128,.15);font-size:11px;z-index:2;
-}
-.float-card strong{display:block;font-size:12px;margin-bottom:3px}.float-card span{color:#8092a7}
-.float-one{left:-30px;bottom:65px}.float-two{right:-25px;top:55px}
-.float-icon{width:25px;height:25px;border-radius:8px;display:grid;place-items:center;margin-bottom:7px}
-.float-one .float-icon{background:#e9fbf5;color:#11ad7c}.float-two .float-icon{background:#f0edff;color:#7358ea}
+.float-card{position:absolute;z-index:3;background:#0d1928;border:1px solid #263d53;border-radius:13px;padding:9px 11px;font-size:11px;color:#eaf3fa;box-shadow:0 18px 45px rgba(0,0,0,.30)}
+.float-card strong{display:block;font-size:10px;margin-bottom:3px;color:#e7f0f7}
+.float-card span{font-size:8px;color:#758ba0}
+.float-one{left:-18px;bottom:47px;animation:floatCard 5s ease-in-out infinite}
+.float-two{right:-18px;top:42px;animation:floatCard 6s .6s ease-in-out infinite reverse}
+.float-icon{width:22px;height:22px;border-radius:8px;display:grid;place-items:center;margin-bottom:5px}
+.float-one .float-icon{background:#102a26;color:#62d8ad}
+.float-two .float-icon{background:#211c37;color:#a99aff}
 
-/* Search */
-/* Center hero search removed. Top navigation search is now the only search UI. */
-/* Categories */
+/* ============ Categories ============ */
 .category-row{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
 .category{
-  position:relative;overflow:hidden;min-height:132px;padding:17px;border:1px solid var(--line);border-radius:18px;background:#fff;
-  box-shadow:0 7px 25px rgba(31,77,125,.05);transition:.22s ease;
+  position:relative;overflow:hidden;min-height:132px;padding:17px;border:1px solid #20364f;border-radius:18px;background:#0c1625;color:#b4c4d7;
+  box-shadow:0 8px 25px rgba(0,0,0,.16);transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease;
 }
-.category::after{content:"";position:absolute;width:80px;height:80px;border-radius:50%;right:-28px;bottom:-28px;background:var(--cat-bg)}
-.category:hover{transform:translateY(-4px);border-color:#bcdcf4;box-shadow:0 17px 35px rgba(31,77,125,.10)}
+.category::after{content:"";position:absolute;width:80px;height:80px;border-radius:50%;right:-28px;bottom:-28px;background:var(--cat-bg);opacity:.55}
+.category:hover{transform:translateY(-4px);border-color:#3b6d96;color:#65baff}
 .cat-icon{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;margin-bottom:12px;position:relative;z-index:1}
-.cat-title{font-family:"Plus Jakarta Sans",sans-serif;font-size:13px;font-weight:800;position:relative;z-index:1}
-.cat-copy{font-size:10px;color:var(--muted);line-height:1.45;margin-top:5px;max-width:150px;position:relative;z-index:1}
-.cat-arrow{position:absolute;right:13px;bottom:12px;color:#9ab0c5;z-index:1}
-
-/* Tool section */
-.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
-.filter{
-  border:1px solid var(--line);background:#fff;color:#64778d;padding:9px 13px;border-radius:999px;font-size:12px;font-weight:700;
-}
-.filter:hover{border-color:#abd4f3;color:#167ed5}
-.filter.active{background:#138ce9;border-color:#138ce9;color:#fff;box-shadow:0 7px 18px rgba(19,140,233,.18)}
-.tool-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.tool-card{
-  position:relative;display:flex;align-items:flex-start;gap:13px;padding:17px;background:#fff;border:1px solid var(--line);
-  border-radius:18px;min-height:122px;box-shadow:0 7px 24px rgba(31,77,125,.045);transition:.22s ease;
-}
-.tool-card:hover{transform:translateY(-4px);border-color:#b8daf2;box-shadow:0 18px 36px rgba(31,77,125,.11)}
-.tool-card[hidden]{display:none}
-.tool-icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;flex:0 0 auto}
-.tool-body{min-width:0;padding-right:15px}.tool-body h3{font-family:"Plus Jakarta Sans",sans-serif;font-size:13px;line-height:1.25;margin-bottom:6px}
-.tool-body p{font-size:11px;color:var(--muted);line-height:1.5}
-.tool-arrow{position:absolute;right:13px;bottom:13px;width:25px;height:25px;border-radius:8px;background:#f3f8fc;color:#6d89a4;display:grid;place-items:center}
-.tool-card:hover .tool-arrow{background:#eaf5ff;color:#1388e7}
-.tool-badge{position:absolute;top:11px;right:11px;font-size:8px;font-weight:800;color:#fff;background:#705cf1;padding:4px 6px;border-radius:6px}
-
-/* AI strip */
-.ai-section{
-  padding:25px;border:1px solid #dce7fb;border-radius:24px;
-  background:linear-gradient(115deg,#f3f7ff 0%,#f9fbff 50%,#f2f7ff 100%);
-  box-shadow:var(--shadow);overflow:hidden;position:relative;
-}
-.ai-section::after{content:"AI";position:absolute;right:-15px;bottom:-55px;font-family:"Plus Jakarta Sans";font-size:190px;font-weight:800;color:rgba(86,83,240,.035);pointer-events:none}
-.ai-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:25px;align-items:center;position:relative;z-index:1}
-.ai-copy h2{font-family:"Plus Jakarta Sans";font-size:34px;letter-spacing:-.05em;margin:10px 0}
-.ai-copy p{color:var(--muted);font-size:14px;line-height:1.7;max-width:440px}
-.ai-tools{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.ai-tool{background:#fff;border:1px solid #e0e9f6;border-radius:16px;padding:15px;transition:.2s ease}
-.ai-tool:hover{transform:translateY(-3px);box-shadow:var(--shadow-sm)}
-.ai-tool-icon{width:35px;height:35px;border-radius:10px;background:#f0edff;color:#7056ed;display:grid;place-items:center;margin-bottom:10px}
-.ai-tool strong{display:block;font-size:12px}.ai-tool span{display:block;color:var(--muted);font-size:10px;margin-top:4px;line-height:1.4}
-
-/* Why */
-.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}
-.benefit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
-.benefit{background:#fff;border:1px solid var(--line);border-radius:17px;padding:18px}
-.benefit-icon{width:36px;height:36px;border-radius:11px;background:#edf7ff;color:#1389e7;display:grid;place-items:center;margin-bottom:13px}
-.benefit strong{font-family:"Plus Jakarta Sans";font-size:13px}.benefit p{font-size:11px;color:var(--muted);line-height:1.5;margin-top:5px}
-.stats-card{
-  background:linear-gradient(145deg,#112a4b,#183e68);border-radius:24px;padding:28px;color:#fff;position:relative;overflow:hidden;min-height:100%;
-  box-shadow:0 24px 60px rgba(13,54,94,.18);
-}
-.stats-card::before{content:"";position:absolute;width:220px;height:220px;border-radius:50%;background:rgba(26,184,255,.16);right:-70px;top:-70px}
-.stats-label{font-size:11px;color:#a9c9e6;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
-.stats-title{font-family:"Plus Jakarta Sans";font-size:28px;margin-top:8px;letter-spacing:-.04em}
-.stats-copy{font-size:12px;line-height:1.6;color:#bcd2e7;max-width:360px;margin-top:8px}
-.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:35px}
-.stat{padding:14px;border:1px solid rgba(255,255,255,.11);background:rgba(255,255,255,.055);border-radius:14px}
-.stat strong{display:block;font-family:"Plus Jakarta Sans";font-size:20px}.stat span{display:block;color:#a9c5df;font-size:10px;margin-top:4px}
-.mini-chart{height:78px;margin-top:20px;display:flex;align-items:end;gap:7px}
-.mini-bar{flex:1;border-radius:6px 6px 2px 2px;background:linear-gradient(to top,#16b7c8,#5290f6);opacity:.9}
-
-/* CTA */
-.final-cta{
-  border-radius:26px;padding:42px 46px;background:
-  radial-gradient(circle at 82% 10%,rgba(104,184,255,.35),transparent 24%),
-  linear-gradient(120deg,#e8f7ff,#eef2ff 55%,#f0fbff);
-  border:1px solid #d7e9f7;display:flex;align-items:center;justify-content:space-between;gap:30px;overflow:hidden;position:relative;
-}
-.final-cta h2{font-family:"Plus Jakarta Sans";font-size:clamp(28px,3vw,42px);letter-spacing:-.05em}
-.final-cta p{color:#637891;margin-top:8px}.final-cta .rocket{font-size:38px}
-
-/* Footer */
-footer{padding:42px 0 28px;border-top:1px solid var(--line);background:#fff;margin-top:30px}
-.footer-top{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:35px}
-.footer-brand p{max-width:310px;color:var(--muted);font-size:12px;line-height:1.7;margin-top:12px}
-.footer-col h4{font-size:12px;margin-bottom:12px}.footer-col a{display:block;color:#6a7c91;font-size:12px;padding:5px 0}.footer-col a:hover{color:#147fdb}
-.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--line);margin-top:28px;padding-top:18px;color:#8a9aac;font-size:11px}
-.socials{display:flex;gap:8px}.social{width:30px;height:30px;border:1px solid var(--line);border-radius:9px;display:grid;place-items:center}.social:hover{color:#1687e6;border-color:#b9daf2}
-
-/* Search results */
-.main-search-wrap{position:relative}
-.search-results{
-  position:absolute;left:0;right:0;top:calc(100% + 8px);background:#fff;border:1px solid var(--line);border-radius:16px;
-  box-shadow:var(--shadow);padding:8px;display:none;max-height:330px;overflow:auto;z-index:20;
-}
-.search-results.open{display:block}
-.result{display:flex;align-items:center;gap:10px;padding:10px;border-radius:11px}.result:hover{background:#f1f8ff}
-.result-icon{width:32px;height:32px;border-radius:9px;background:#edf7ff;color:#1587e7;display:grid;place-items:center;flex:0 0 auto}
-.result strong{font-size:12px;display:block}.result span{font-size:10px;color:var(--muted)}
-.no-result{padding:18px;text-align:center;color:var(--muted);font-size:12px}
-
-/* Reveal */
-.reveal{opacity:1;transform:none;transition:opacity .65s ease,transform .65s ease}
-.js .reveal{opacity:0;transform:translateY(18px)}
-.js .reveal.show{opacity:1;transform:none}
-
-
-/* Color utility classes: kept in CSS so the page stays clean and lint-friendly. */
+.cat-title{font-family:"Plus Jakarta Sans",sans-serif;font-size:13px;font-weight:800;position:relative;z-index:1;color:#f2f7ff}
+.cat-copy{font-size:10px;color:var(--soft);line-height:1.45;margin-top:5px;max-width:150px;position:relative;z-index:1}
+.cat-arrow{position:absolute;right:13px;bottom:12px;color:#7893ad;z-index:1}
 .cat-pdf{--cat-bg:#ffecef}.cat-pdf .cat-icon{background:#fff0f2;color:#ed5667}
 .cat-image{--cat-bg:#e9fbf4}.cat-image .cat-icon{background:#eafbf5;color:#12ae7b}
 .cat-ai{--cat-bg:#efecff}.cat-ai .cat-icon{background:#f0edff;color:#7259ed}
 .cat-text{--cat-bg:#e9f5ff}.cat-text .cat-icon{background:#edf7ff;color:#1688e6}
 .cat-productivity{--cat-bg:#fff3df}.cat-productivity .cat-icon{background:#fff5e6;color:#ee972f}
 .cat-utility{--cat-bg:#e6fafb}.cat-utility .cat-icon{background:#e8fbfc;color:#12aebb}
-.icon-pdf-red{background:#fff0f2;color:#ee5868}.icon-pdf-purple{background:#f0edff;color:#7059eb}.icon-pdf-blue{background:#edf7ff;color:#1587e4}.icon-pdf-green{background:#eafbf5;color:#12aa78}.icon-pdf-orange{background:#fff5e7;color:#ef982f}.icon-pdf-violet{background:#f0edff;color:#7259ed}
-.icon-img-green{background:#eafbf5;color:#12ac7b}.icon-img-purple{background:#f0edff;color:#7358eb}.icon-img-blue{background:#edf7ff;color:#1588e6}.icon-img-orange{background:#fff5e7;color:#ed962f}.icon-img-cyan{background:#e8fbfc;color:#10aebc}
-.icon-util-cyan{background:#e8fbfc;color:#10aebc}.icon-text-blue{background:#edf7ff;color:#1587e5}.icon-text-purple{background:#f0edff;color:#7359eb}.icon-prod-red{background:#fff0f2;color:#ed5969}.icon-prod-orange{background:#fff5e7;color:#ed962f}.icon-ai-purple{background:#f0edff;color:#7359eb}.icon-ai-cyan{background:#e8fbfc;color:#10aebc}.icon-ai-green{background:#eafbf5;color:#12ac7b}
-.bar-1{height:28%}.bar-2{height:40%}.bar-3{height:34%}.bar-4{height:58%}.bar-5{height:50%}.bar-6{height:73%}.bar-7{height:65%}.bar-8{height:88%}
 
-
-/* Theme switcher + complete theme-safe styling. The page defaults to dark. */
-.theme-toggle{
-  display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:88px;height:40px;
-  padding:0 12px;border:1px solid #29415e;border-radius:999px;background:#0d1726;color:#dbe8f6;
-  font-size:12px;font-weight:800;transition:transform .25s ease,background .25s ease,border-color .25s ease,box-shadow .25s ease;
+/* ============ Tools ============ */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.filter{border:1px solid #20354d;background:#0c1625;color:#9fb2c8;padding:9px 13px;border-radius:999px;font-size:12px;font-weight:700;transition:all .25s ease}
+.filter:hover{border-color:#3d6e96;color:#69bbff}
+.filter.active{background:linear-gradient(135deg,#168ce9,#665df3);border-color:transparent;color:#fff;box-shadow:0 10px 28px rgba(43,124,230,.28)}
+.tool-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tool-card{
+  position:relative;overflow:hidden;display:flex;align-items:flex-start;gap:13px;padding:17px;min-height:122px;
+  background:linear-gradient(145deg,#0d1726,#0a1320);border:1px solid #1e324a;border-radius:18px;box-shadow:0 12px 30px rgba(0,0,0,.18);
+  transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .35s ease,box-shadow .35s ease;
 }
-.theme-toggle:hover{transform:translateY(-2px);border-color:#4b78a2;box-shadow:0 10px 28px rgba(0,0,0,.22)}
-.theme-icon{font-size:15px;line-height:1;transition:transform .35s ease}.theme-toggle:hover .theme-icon{transform:rotate(18deg) scale(1.08)}
-.mobile-theme-row{display:none;align-items:center;justify-content:space-between;padding:12px 5px;border-bottom:1px solid #20344b;color:#c4d2e2;font-size:13px;font-weight:800}
-.mobile-theme-toggle{min-width:86px}
-/* Fix dark-mode text visibility in every nested card. */
-.ai-tool{background:#0c1625;border-color:#20364e;color:#eef6ff}.ai-tool strong{color:#eef6ff}.ai-tool span{color:#8297b0}.ai-tool-icon{background:#182445;color:#8e83ff}
-.mobile-panel{background:#080e18;border-color:#1c2d43}.mobile-panel a,.mobile-drop-btn{color:#c6d3e2}.mobile-drop-links a{border-color:#20364e;background:#0c1625;color:#c6d3e2}
-.category .cat-title{color:#eef6ff}.cat-arrow{color:#7893ad}.category::after{opacity:.55}
-.main-search{background:#0c1625;border-color:#243a53}.main-search svg{color:#7fa3c5}.quick-label{color:#7f94ab}.quick-pill{background:#0d1929;border-color:#223951;color:#a9bdd1}.quick-pill:hover{background:#12243a;color:#6fc0ff}
-.ai-copy h2{color:#f1f6fd}.ai-copy p{color:#8498b0}
-.final-cta .rocket{filter:drop-shadow(0 0 12px rgba(60,180,255,.25))}
-.footer-col h4{color:#e8f1fa}.footer-bottom{color:#71869f}
-
-/* Dark-only build: light-theme overrides removed. */
-
-/* Responsive */
-@media(max-width:1050px){
-  .nav-links{gap:0}.nav-link,.nav-drop-btn{padding:9px 9px;font-size:13px}.nav-search{width:125px}
-  .hero-grid{gap:35px}.tool-grid{grid-template-columns:repeat(3,1fr)}.category-row{grid-template-columns:repeat(3,1fr)}
-}
-@media(max-width:820px){
-  .nav-links,.nav-search-wrap{display:none}.menu-toggle{display:flex}
-  .mobile-panel{
-    position:fixed;top:72px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);
-    padding:12px 20px 20px;box-shadow:var(--shadow);z-index:99;
-  }
-  .mobile-panel.open{display:block}
-  .mobile-panel a,.mobile-drop-btn{display:flex;align-items:center;justify-content:space-between;width:100%;padding:13px 5px;border:0;border-bottom:1px solid #edf2f7;background:transparent;color:#445a72;font-weight:700}
-  .mobile-drop-links{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:8px 0 5px}
-  .mobile-drop-links a{border:1px solid var(--line);border-radius:10px;padding:10px;font-size:12px}
-  .hero{padding-top:55px}.hero-grid{grid-template-columns:1fr;text-align:center}.hero-copy{margin:auto}.hero-sub{margin:auto}
-  .hero-actions,.trust-row{justify-content:center}.preview-wrap{max-width:650px;margin:5px auto 0;width:100%}
-  .search-card{grid-template-columns:1fr}.quick-searches{justify-content:center}
-  .ai-grid{grid-template-columns:1fr}.ai-copy{text-align:center}.ai-copy p{margin:auto}.ai-tools{grid-template-columns:repeat(3,1fr)}
-  .why-grid{grid-template-columns:1fr}.footer-top{grid-template-columns:1.5fr 1fr 1fr}
-}
-@media(max-width:620px){
-  .container{width:min(var(--container),calc(100% - 28px))}
-  .nav{height:64px}.brand img{width:34px;height:34px}.brand-name{font-size:18px}
-  .hero h1{font-size:clamp(39px,12vw,56px)}.hero-sub{font-size:15px}
-  .float-card{display:none}.product-window{transform:none}.window-body{padding:15px}.preview-question{font-size:18px}
-  .section{padding:58px 0}.section-head{display:block}.view-all{display:inline-block;margin-top:14px}
-  .category-row{grid-template-columns:repeat(2,1fr)}.category{min-height:120px}
-  .tool-grid{grid-template-columns:1fr}.tool-card{min-height:105px}
-  .ai-tools{grid-template-columns:repeat(2,1fr)}.benefit-grid{grid-template-columns:1fr}
-  .stat-grid{grid-template-columns:1fr 1fr}.stat:last-child{grid-column:span 2}
-  .final-cta{padding:30px 24px;display:block}.final-cta .btn{margin-top:20px}
-  .footer-top{grid-template-columns:1fr 1fr}.footer-brand{grid-column:span 2}.footer-bottom{display:block}.socials{margin-top:12px}
-}
-@media(max-width:420px){
-  .hero-actions .btn{width:100%}.preview-cats{grid-template-columns:1fr}.preview-bottom{grid-template-columns:1fr}
-  .category-row{grid-template-columns:1fr}.ai-tools{grid-template-columns:1fr 1fr}.quick-pill{font-size:10px}
-}
-@media(prefers-reduced-motion:reduce){
-  html{scroll-behavior:auto}.reveal,.js .reveal{opacity:1;transform:none;transition:none}.btn,.tool-card,.category,.ai-tool{transition:none}
-}
-
-
-/* CLICKDY DARK MODE + MOTION LAYER */
-:root{
-  --bg:#070b14;
-  --surface:#0d1422;
-  --surface-2:#111b2d;
-  --text:#f4f8ff;
-  --muted:#93a4bd;
-  --line:#1d2b42;
-  --primary:#38a5ff;
-  --primary-2:#7468ff;
-  --cyan:#2ee7df;
-  --purple:#8b7cff;
-  --green:#29d69a;
-  --orange:#ffad57;
-  --red:#ff6676;
-  --shadow:0 22px 70px rgba(0,0,0,.38);
-  --shadow-sm:0 12px 34px rgba(0,0,0,.28);
-}
-html{background:var(--bg)}
-body{
-  color:var(--text);
-  background:
-    radial-gradient(circle at 8% 5%,rgba(35,154,255,.14),transparent 25rem),
-    radial-gradient(circle at 92% 12%,rgba(124,93,255,.13),transparent 27rem),
-    radial-gradient(circle at 50% 88%,rgba(24,213,194,.07),transparent 24rem),
-    var(--bg);
-}
-body::before{
-  background-image:linear-gradient(rgba(100,160,230,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(100,160,230,.045) 1px,transparent 1px);
-  opacity:.55;
-  animation:gridDrift 24s linear infinite;
-}
-body::after{
-  content:"";position:fixed;inset:-20%;pointer-events:none;z-index:-2;
-  background:radial-gradient(circle at 50% 50%,rgba(52,160,255,.035),transparent 42%);
-  animation:ambientPulse 9s ease-in-out infinite alternate;
-}
-.site-header{
-  background:rgba(7,11,20,.78);
-  border-bottom-color:rgba(83,118,157,.22);
-}
-.brand-name{color:#fff}
-.nav-link,.nav-drop-btn{color:#a9b8cc;transition:all .25s ease}
-.nav-link:hover,.nav-drop-btn:hover,.nav-drop.open .nav-drop-btn{background:#101f34;color:#5db5ff;box-shadow:0 0 0 1px rgba(65,166,255,.12) inset}
-.nav-menu{background:#0c1422;border-color:#1e3049;box-shadow:var(--shadow)}
-.nav-menu a{color:#c4d0df}
-.nav-menu a:hover{background:#122238;color:#64b9ff}
-.menu-icon{background:#11243a;color:#58b5ff}
-.nav-search{background:#0d1726;border-color:#1e3049;color:#8da2bb}
-.nav-search input{color:#f5f8ff}
-.menu-toggle{background:#0d1726;border-color:#243750;color:#fff}
-.hero::before{background:rgba(38,174,255,.14);animation:orbFloat 8s ease-in-out infinite}
-.hero::after{background:rgba(125,95,255,.13);animation:orbFloat 10s ease-in-out infinite reverse}
-.badge,.trust-pill,.section-kicker{background:rgba(14,24,39,.8);border-color:#21354e;color:#64baff;box-shadow:0 8px 28px rgba(0,0,0,.18)}
-.hero h1{color:#f7fbff}
-.hero h1 .gradient{background:linear-gradient(90deg,#43b2ff,#8a75ff 52%,#2ce4d7);background-size:200% auto;animation:gradientShift 5s ease-in-out infinite}
-.hero-sub,.section-copy{color:var(--muted)}
-.btn-primary{box-shadow:0 12px 34px rgba(36,130,235,.28)}
-.btn-secondary{background:#0d1726;color:#a9d9ff;border-color:#263d58}
-.btn-secondary:hover{background:#112238;border-color:#3a648d}
-.trust-pill{color:#93a7bf}
-.product-window{background:#0b1320;border-color:#20334c;box-shadow:0 30px 90px rgba(0,0,0,.45)}
-.window-top{background:#0f1928;border-bottom-color:#1c2d44}
-.window-dot{background:#52657d}
-.window-url{background:#0b1320;border-color:#22344a;color:#71859e}
-.preview-question{color:#f4f8ff}
-.preview-search{background:#0c1625;border-color:#20354d;color:#7187a0}
-.preview-cat,.preview-panel{background:#0d1726;border-color:#20354b}
-.preview-cat strong{color:#e8f0fa}
-.preview-cat span{color:#7f93ab}
-.preview-line{background:#1b293b}.preview-line.blue{background:#16466a}
-.preview-tool{background:#132033;color:#9fb1c6}
-.preview-chip{background:#102941;color:#65baff}
-.float-card{background:#0d1726;border-color:#223750;box-shadow:0 18px 48px rgba(0,0,0,.4)}
-.float-card strong{color:#eef6ff}.float-card span{color:#8095ad}
-.search-card{background:rgba(12,20,33,.88);border-color:#20334b;box-shadow:var(--shadow)}
-.main-search input{background:#0b1421!important;color:#f5f8ff!important;border-color:#243a53!important}
-.main-search input::placeholder{color:#667d98!important}
-.search-results{background:#0c1625!important;border-color:#213750!important;box-shadow:var(--shadow)!important}
-.result{color:#c8d4e3!important}.result:hover{background:#122238!important}.result span span{color:#758aa3!important}
-.category{background:#0c1625!important;border-color:#20364f!important;color:#b4c4d7!important;box-shadow:0 8px 25px rgba(0,0,0,.16)}
-.category:hover{border-color:#3b6d96!important;color:#65baff!important;transform:translateY(-4px)}
-.section-title{color:#f2f7ff}
-.view-all{color:#5cb5ff}
-.filters .filter{background:#0c1625;border-color:#20354d;color:#9fb2c8;transition:all .25s ease}
-.filters .filter:hover{border-color:#3d6e96;color:#69bbff}
-.filters .filter.active{background:linear-gradient(135deg,#168ce9,#665df3);border-color:transparent;color:#fff;box-shadow:0 10px 28px rgba(43,124,230,.28)}
-.tool-card{background:linear-gradient(145deg,#0d1726,#0a1320);border-color:#1e324a;box-shadow:0 12px 30px rgba(0,0,0,.18);overflow:hidden;transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .35s ease,box-shadow .35s ease}
 .tool-card::before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 25%,rgba(86,183,255,.08),transparent 75%);transform:translateX(-120%);transition:transform .7s ease;pointer-events:none}
 .tool-card:hover{transform:translateY(-9px) scale(1.012);border-color:#315a7b;box-shadow:0 24px 55px rgba(0,0,0,.34)}
 .tool-card:hover::before{transform:translateX(120%)}
-.tool-body h3{color:#edf5ff}.tool-body p{color:#8297b0}
-.tool-arrow{background:#102237!important;color:#68bcff!important;transition:transform .3s ease,background .3s ease}
-.tool-card:hover .tool-arrow{transform:translateX(5px) rotate(-4deg);background:#153451!important}
-.tool-badge{background:#172a43!important;color:#71c4ff!important;border-color:#284966!important}
-.ai-section,.stats-card,.final-cta{background:linear-gradient(145deg,#0d1726,#0a1320)!important;border-color:#20354d!important;box-shadow:var(--shadow)}
-.benefit{background:#0c1625!important;border-color:#20354d!important;box-shadow:0 12px 30px rgba(0,0,0,.2);transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
-.benefit:hover{transform:translateY(-7px);border-color:#315b7e!important;box-shadow:0 20px 42px rgba(0,0,0,.3)}
-.benefit strong,.stats-title{color:#eef6ff}.benefit p,.stats-copy{color:#8196ae}
-.stat{background:#0c1726!important;border-color:#20364e!important}.stat strong{color:#62baff}.stat span{color:#7f94ab}
-.mini-chart{background:#0b1421!important;border-color:#20354d!important}
-.final-cta p{color:#8da1b8}
+.tool-icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;flex:0 0 auto}
+.tool-body{min-width:0;padding-right:15px}
+.tool-body h3{font-family:"Plus Jakarta Sans",sans-serif;font-size:13px;line-height:1.25;margin-bottom:6px;color:#f2f7ff}
+.tool-body p{font-size:11px;color:var(--soft);line-height:1.5}
+.tool-arrow{position:absolute;right:13px;bottom:13px;width:25px;height:25px;border-radius:8px;background:#102237;color:#68bcff;display:grid;place-items:center;transition:transform .3s ease,background .3s ease}
+.tool-card:hover .tool-arrow{transform:translateX(5px) rotate(-4deg);background:#153451}
+.tool-badge{position:absolute;top:11px;right:11px;font-size:8px;font-weight:800;color:#71c4ff;background:#172a43;padding:4px 6px;border-radius:6px}
+.icon-pdf-red{background:#fff0f2;color:#ee5868}.icon-pdf-purple{background:#f0edff;color:#7059eb}.icon-pdf-blue{background:#edf7ff;color:#1587e4}.icon-pdf-green{background:#eafbf5;color:#12aa78}.icon-pdf-orange{background:#fff5e7;color:#ef982f}.icon-pdf-violet{background:#f0edff;color:#7259ed}
+.icon-img-green{background:#eafbf5;color:#12ac7b}.icon-img-purple{background:#f0edff;color:#7358eb}.icon-img-blue{background:#edf7ff;color:#1588e6}.icon-img-orange{background:#fff5e7;color:#ed962f}
+.icon-text-blue{background:#edf7ff;color:#1587e5}.icon-prod-red{background:#fff0f2;color:#ed5969}.icon-prod-orange{background:#fff5e7;color:#ed962f}
+.icon-ai-purple{background:#f0edff;color:#7359eb}.icon-ai-cyan{background:#e8fbfc;color:#10aebc}
+
+/* ============ Workflow ============ */
 .workflow-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.workflow-card{position:relative;padding:28px;background:linear-gradient(145deg,#0d1726,#0a1320);border:1px solid #20354d;border-radius:20px;box-shadow:0 14px 36px rgba(0,0,0,.2);overflow:hidden;transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}
+.workflow-card{
+  position:relative;overflow:hidden;padding:28px;background:linear-gradient(145deg,#0d1726,#0a1320);border:1px solid #20354d;border-radius:20px;
+  box-shadow:0 14px 36px rgba(0,0,0,.2);transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease;
+}
 .workflow-card::after{content:"";position:absolute;width:140px;height:140px;border-radius:50%;right:-75px;bottom:-80px;background:rgba(55,171,255,.1);filter:blur(2px);transition:transform .5s ease}
 .workflow-card:hover{transform:translateY(-8px);border-color:#3b668a;box-shadow:0 25px 55px rgba(0,0,0,.34)}
 .workflow-card:hover::after{transform:scale(1.35)}
 .workflow-number{font-size:11px;font-weight:800;letter-spacing:.16em;color:#5db7ff}
 .workflow-icon{width:48px;height:48px;margin:20px 0 16px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,#123252,#1a2147);color:#72c4ff;font-size:22px;box-shadow:0 10px 24px rgba(35,130,230,.15);transition:transform .35s ease}
 .workflow-card:hover .workflow-icon{transform:rotate(-7deg) scale(1.08)}
-.workflow-card h3{font-family:"Plus Jakarta Sans",sans-serif;color:#eef6ff;font-size:19px}.workflow-card p{color:#8498b0;line-height:1.65;margin-top:8px}
-footer{background:#060a12!important;border-top-color:#1a2a40!important}.footer-brand p,.footer-col a{color:#778ca6}.footer-col a:hover{color:#66baff}
-.social{background:#0d1726!important;border-color:#21364d!important;color:#a9bdd1!important}
-/* CLICKDY SCROLL REVEAL — replay smoothly every time content enters/leaves viewport. */
-.reveal{opacity:1;visibility:visible;transform:none;filter:none;transition:opacity .72s cubic-bezier(.16,1,.3,1),transform .72s cubic-bezier(.16,1,.3,1),filter .72s ease}
-.js .reveal{opacity:0!important;visibility:hidden!important;transform:translate3d(0,42px,0) scale(.965) rotateX(2deg)!important;filter:blur(5px)!important}
-.js .reveal.reveal-visible{opacity:1!important;visibility:visible!important;transform:none!important;filter:blur(0)!important}
-@keyframes clickdyRise{from{opacity:0;transform:translate3d(0,42px,0) scale(.965);filter:blur(5px)}to{opacity:1;transform:none;filter:blur(0)}}
-.reveal:nth-child(2){transition-delay:.06s}.reveal:nth-child(3){transition-delay:.12s}.reveal:nth-child(4){transition-delay:.18s}.reveal:nth-child(5){transition-delay:.24s}.reveal:nth-child(6){transition-delay:.30s}
+.workflow-card h3{font-family:"Plus Jakarta Sans",sans-serif;font-size:19px;color:#f2f7ff}
+.workflow-card p{color:var(--soft);line-height:1.65;margin-top:8px}
 
-.brand img{animation:brandFloat 4s ease-in-out infinite}.float-one{animation:floatCard 5s ease-in-out infinite}.float-two{animation:floatCard 6s .6s ease-in-out infinite reverse}
-.btn{position:relative;overflow:hidden}.btn::after{content:"";position:absolute;top:-80%;left:-30%;width:25%;height:260%;background:rgba(255,255,255,.18);transform:rotate(20deg) translateX(-200%);transition:transform .65s ease}.btn:hover::after{transform:rotate(20deg) translateX(620%)}
+/* ============ Why Clickdy ============ */
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}
+.benefit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.benefit{background:#0c1625;border:1px solid #20354d;border-radius:17px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.2);transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
+.benefit:hover{transform:translateY(-7px);border-color:#315b7e;box-shadow:0 20px 42px rgba(0,0,0,.3)}
+.benefit-icon{width:36px;height:36px;border-radius:11px;background:#edf7ff;color:#1389e7;display:grid;place-items:center;margin-bottom:13px}
+.benefit strong{font-family:"Plus Jakarta Sans",sans-serif;font-size:13px;color:#eef6ff}
+.benefit p{font-size:11px;color:var(--soft);line-height:1.5;margin-top:5px}
+.stats-card{position:relative;overflow:hidden;min-height:100%;padding:28px;border-radius:24px;color:#fff;background:linear-gradient(145deg,#0d1726,#0a1320);border:1px solid #20354d;box-shadow:var(--shadow)}
+.stats-card::before{content:"";position:absolute;width:220px;height:220px;border-radius:50%;background:rgba(26,184,255,.16);right:-70px;top:-70px}
+.stats-label{font-size:11px;color:#a9c9e6;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
+.stats-title{font-family:"Plus Jakarta Sans",sans-serif;font-size:28px;margin-top:8px;letter-spacing:-.04em;color:#eef6ff}
+.stats-copy{font-size:12px;line-height:1.6;color:#8196ae;max-width:360px;margin-top:8px}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:35px}
+.stat{padding:14px;border:1px solid #20364e;background:#0c1726;border-radius:14px}
+.stat strong{display:block;font-family:"Plus Jakarta Sans",sans-serif;font-size:20px;color:#62baff}
+.stat span{display:block;color:#7f94ab;font-size:10px;margin-top:4px}
+.mini-chart{height:78px;margin-top:20px;display:flex;align-items:end;gap:7px;background:#0b1421}
+.mini-bar{flex:1;border-radius:6px 6px 2px 2px;background:linear-gradient(to top,#16b7c8,#5290f6);opacity:.9}
+.bar-1{height:28%}.bar-2{height:40%}.bar-3{height:34%}.bar-4{height:58%}.bar-5{height:50%}.bar-6{height:73%}.bar-7{height:65%}.bar-8{height:88%}
+
+/* ============ Final CTA ============ */
+.final-cta{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:42px 46px;border-radius:26px;background:linear-gradient(145deg,#0d1726,#0a1320);border:1px solid #20354d;box-shadow:var(--shadow)}
+.final-cta h2{font-family:"Plus Jakarta Sans",sans-serif;font-size:clamp(28px,3vw,42px);letter-spacing:-.05em;color:#f2f7ff}
+.final-cta p{color:#8da1b8;margin-top:8px}
+.final-cta .rocket{font-size:38px;filter:drop-shadow(0 0 12px rgba(60,180,255,.25))}
+.final-cta .btn{margin-top:20px}
+
+/* ============ Footer ============ */
+footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margin-top:30px}
+.footer-top{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:35px}
+.footer-brand p{max-width:310px;color:#778ca6;font-size:12px;line-height:1.7;margin-top:12px}
+.footer-col h4{font-size:12px;margin-bottom:12px;color:#e8f1fa}
+.footer-col a{display:block;color:#778ca6;font-size:12px;padding:5px 0}
+.footer-col a:hover{color:#66baff}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--line);margin-top:28px;padding-top:18px;color:#71869f;font-size:11px}
+.socials{display:flex;gap:8px}
+.social{width:30px;height:30px;border:1px solid #21364d;border-radius:9px;display:grid;place-items:center;background:#0d1726;color:#a9bdd1;transition:color .2s ease,border-color .2s ease}
+.social:hover{color:#66baff;border-color:#3a8fca}
+
+/* ============ Animations ============ */
 @keyframes brandFloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-3px) rotate(2deg)}}
 @keyframes floatCard{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
 @keyframes orbFloat{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(20px,-14px,0)}}
-@keyframes gridDrift{from{background-position:0 0}to{background-position:44px 44px}}
-@keyframes ambientPulse{from{transform:scale(1);opacity:.6}to{transform:scale(1.08);opacity:1}}
-.category:nth-child(1),.tool-card:nth-child(1),.workflow-card:nth-child(1){animation-delay:.03s}.category:nth-child(2),.tool-card:nth-child(2),.workflow-card:nth-child(2){animation-delay:.07s}.category:nth-child(3),.tool-card:nth-child(3),.workflow-card:nth-child(3){animation-delay:.11s}.category:nth-child(4),.tool-card:nth-child(4){animation-delay:.15s}.category:nth-child(5),.tool-card:nth-child(5){animation-delay:.19s}.category:nth-child(6),.tool-card:nth-child(6){animation-delay:.23s}.tool-card:nth-child(7){animation-delay:.27s}.tool-card:nth-child(8){animation-delay:.31s}.tool-card:nth-child(9){animation-delay:.35s}.tool-card:nth-child(10){animation-delay:.39s}.tool-card:nth-child(11){animation-delay:.43s}.tool-card:nth-child(12){animation-delay:.47s}.tool-card:nth-child(13){animation-delay:.51s}.tool-card:nth-child(14){animation-delay:.55s}.tool-card:nth-child(15){animation-delay:.59s}.tool-card:nth-child(16){animation-delay:.63s}.tool-card:nth-child(17){animation-delay:.67s}.tool-card:nth-child(18){animation-delay:.71s}.tool-card:nth-child(19){animation-delay:.75s}
-/* Stable hero accent: no background-clip text, so Chromium cannot paint a rectangle in place of the words. */
-.hero h1{color:#f7fbff!important}.hero h1 .gradient{background:none!important;color:#63c7ff!important;-webkit-text-fill-color:#63c7ff!important;-webkit-background-clip:initial!important;background-clip:initial!important;animation:none!important}
-/* Dark-only readability guarantees. */
-html,body{background:#070b14!important;color:#f4f8ff!important}.main-search input{background:#0b1421!important;color:#f5f8ff!important;-webkit-text-fill-color:#f5f8ff!important;caret-color:#38a5ff!important}.main-search input::placeholder{color:#7188a3!important;opacity:1!important}.nav-search input{background:transparent!important;color:#f5f8ff!important;-webkit-text-fill-color:#f5f8ff!important;caret-color:#38a5ff!important}.nav-search input::placeholder{color:#7188a3!important;opacity:1!important}
-.section-title,.tool-body h3,.category .cat-title,.ai-copy h2,.workflow-card h3,.final-cta h2{color:#f2f7ff!important}.hero-sub,.section-copy,.tool-body p,.category .cat-copy,.ai-copy p,.benefit p,.workflow-card p{color:#8fa4bd!important}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal,.js .reveal,.js .reveal.reveal-visible{opacity:1!important;visibility:visible!important;transform:none!important}}
+@keyframes smartPulse{0%,100%{opacity:1}50%{opacity:.45}}
 
-/* Clickdy Smart Workspace — fixed, dark, stable hero preview */
-.preview-wrap{
-  position:relative;
-  width:100%;
-  max-width:650px;
-  height:560px;
-  margin:-24px auto 0;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+/* ============ Responsive ============ */
+@media(max-width:1050px){
+  .nav-links{gap:0}
+  .nav-link,.nav-drop-btn{padding:9px;font-size:13px}
+  .nav-search{width:125px}
+  .hero-grid{gap:35px}
+  .tool-grid{grid-template-columns:repeat(3,1fr)}
+  .category-row{grid-template-columns:repeat(3,1fr)}
 }
-.preview-glow{inset:13% 8% 9%;}
-.product-window{
-  width:100%;
-  height:470px;
-  max-height:470px;
-  min-height:470px;
-  background:#0b1421!important;
-  border:1px solid #20354d!important;
-  border-radius:24px;
-  box-shadow:0 30px 80px rgba(0,0,0,.38),0 0 0 1px rgba(99,199,255,.035);
-  overflow:hidden!important;
-  transform:translateY(-6px) rotate(1.15deg)!important;
-  transform-origin:center center;
-  position:relative;
-  z-index:1;
-}
-.window-top{
-  height:42px;
-  min-height:42px;
-  background:#09111c!important;
-  border-bottom:1px solid #1c3046!important;
-}
-.window-dot{background:#526b83!important;}
-.window-url{
-  background:#0e1a2a!important;
-  border-color:#20354d!important;
-  color:#70869e!important;
-}
-.smart-window-body{
-  height:428px;
-  min-height:428px;
-  max-height:428px;
-  overflow:hidden;
-  padding:18px 20px 18px!important;
-  background:linear-gradient(180deg,#0b1421 0%,#0a131f 100%)!important;
-  color:#f4f8ff!important;
-}
-.smart-head{margin-bottom:12px;}
-.smart-brand strong{color:#f1f6fb!important;}
-.smart-brand span:not(.smart-mini-logo){color:#7f94aa!important;}
-.smart-status{background:#102a26!important;color:#63d7b1!important;}
-.smart-command-label{color:#91a4b8!important;}
-.smart-command-label kbd{background:#101d2d!important;border-color:#263b51!important;color:#71869c!important;}
-.smart-input-wrap{
-  height:40px;
-  min-height:40px;
-  max-height:40px;
-  background:#0e1a2a!important;
-  border-color:#29425b!important;
-  box-shadow:none!important;
-}
-.smart-input-wrap:focus-within{border-color:#3d9ee1!important;box-shadow:0 0 0 3px rgba(61,158,225,.12)!important;}
-.smart-input-wrap input{color:#edf5fc!important;-webkit-text-fill-color:#edf5fc!important;}
-.smart-input-wrap input::placeholder{color:#70869e!important;}
-.smart-clear{color:#7e94a9!important;}
-.smart-suggestions{height:27px;min-height:27px;max-height:27px;overflow:hidden;margin-top:6px;}
-.smart-suggestions button{background:#101d2d!important;border-color:#263b51!important;color:#91a5b9!important;}
-.smart-suggestions button:hover{background:#14263a!important;border-color:#3a8fca!important;color:#bfe5ff!important;}
-.smart-drop{
-  height:48px;
-  min-height:48px;
-  max-height:48px;
-  margin-top:9px;
-  padding:8px 10px;
-  background:#0d1928!important;
-  border-color:#31506b!important;
-}
-.smart-drop:hover,.smart-drop.dragging{background:#102338!important;border-color:#3c9bd9!important;}
-.smart-drop-icon{background:#102a40!important;color:#63c7ff!important;}
-.smart-drop-copy strong{color:#dce9f5!important;}
-.smart-drop-copy span{color:#71869d!important;}
-.smart-drop-badge{background:#102a40!important;color:#63c7ff!important;}
-.smart-results{margin-top:9px;}
-.smart-results-top span:first-child{color:#d7e5f1!important;}
-.smart-results-top span:last-child{color:#71869d!important;}
-.smart-tool-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;min-height:58px;}
-.smart-tool-item{
-  min-width:0;
-  height:58px;
-  min-height:58px;
-  max-height:58px;
-  padding:7px;
-  background:#0e1a2a!important;
-  border-color:#21384f!important;
-  color:#e8f1f8!important;
-  box-shadow:none!important;
-  overflow:hidden;
-}
-.smart-tool-item:hover{background:#122338!important;border-color:#3a8fca!important;box-shadow:0 8px 20px rgba(0,0,0,.2)!important;}
-.smart-tool-item strong{color:#e3edf5!important;}
-.smart-tool-item small{color:#73889e!important;}
-.smart-tool-item b{color:#7090a8!important;}
-.smart-pdf{background:#2b1b25!important;color:#ff8796!important}.smart-img{background:#112b28!important;color:#5ee0b0!important}.smart-qr{background:#211c37!important;color:#a99aff!important}
-.float-card{
-  background:#0d1928!important;
-  border-color:#263d53!important;
-  color:#eaf3fa!important;
-  box-shadow:0 18px 45px rgba(0,0,0,.30)!important;
-  padding:9px 11px!important;
-  border-radius:13px!important;
-  z-index:3;
-}
-.float-card strong{color:#e7f0f7!important;font-size:10px!important;}
-.float-card span{color:#758ba0!important;font-size:8px!important;}
-.float-one{left:-18px;bottom:47px;}
-.float-two{right:-18px;top:42px;}
-.float-icon{width:22px;height:22px;margin-bottom:5px!important;}
-.float-one .float-icon{background:#102a26!important;color:#62d8ad!important}.float-two .float-icon{background:#211c37!important;color:#a99aff!important}
 @media(max-width:1000px){
-  .preview-wrap{height:530px;}
-  .float-one{left:0;bottom:24px}.float-two{right:0;top:20px}
+  .preview-wrap{height:530px}
+  .float-one{left:0;bottom:24px}
+  .float-two{right:0;top:20px}
 }
 @media(max-width:820px){
-  /* Mobile header stability: remove GPU/backdrop repaint flicker while scrolling. */
-  .site-header.reveal{
-    opacity:1!important;
-    visibility:visible!important;
-    transform:none!important;
-    filter:none!important;
-    transition:none!important;
-    -webkit-backdrop-filter:none!important;
-    backdrop-filter:none!important;
-    background:#070b14!important;
-    border-bottom:1px solid #1b2b3e!important;
-    will-change:auto!important;
-    contain:paint;
-  }
-  .site-header::after{
-    content:"";
-    position:absolute;
-    left:0;right:0;bottom:-1px;
-    height:1px;
-    background:#1b2b3e;
-    pointer-events:none;
-  }
-}
+  /* header: solid, no blur (prevents mobile flicker) */
+  .site-header{background:var(--bg);border-bottom-color:#1b2b3e;-webkit-backdrop-filter:none;backdrop-filter:none}
+  .nav-links,.nav-search-wrap{display:none}
+  .menu-toggle{display:flex}
+  .profile-wrap{position:static}
+  .profile-menu{right:14px;width:min(285px,calc(100vw - 28px))}
+  .profile-form input{font-size:16px}
 
-@media(max-width:760px){
-  .preview-wrap{height:520px;max-width:650px;margin:-12px auto 0;}
-  .product-window{height:460px;min-height:460px;max-height:460px;}
-  .smart-window-body{height:418px;min-height:418px;max-height:418px;padding:15px!important;}
-  .smart-tool-list{grid-template-columns:1fr;}
-  .smart-tool-item{height:48px;min-height:48px;max-height:48px;}
-  .float-card{display:none!important;}
-}
-
-/* === Clickdy mobile navigation: custom professional drawer === */
-@media(max-width:820px){
   body.mobile-menu-open{overflow:hidden}
-  body.mobile-menu-open::after{content:"";position:fixed;inset:0;background:rgba(2,8,16,.58);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);z-index:98}
-  .mobile-panel{display:block!important;position:fixed!important;top:82px!important;right:12px!important;left:auto!important;width:min(342px,calc(100vw - 24px))!important;max-height:calc(100vh - 96px);overflow:auto;padding:12px!important;background:linear-gradient(180deg,#0d1726 0%,#09111d 100%)!important;border:1px solid rgba(99,199,255,.18)!important;border-radius:22px!important;box-shadow:0 28px 80px rgba(0,0,0,.48),0 0 0 1px rgba(255,255,255,.025) inset!important;opacity:0;visibility:hidden;transform:translate3d(calc(100% + 24px),0,0)!important;transition:transform .28s cubic-bezier(.22,1,.36,1),opacity .22s ease,visibility .22s ease!important;z-index:120!important}
-  .mobile-panel.open{opacity:1;visibility:visible;transform:translate3d(0,0,0)!important}
+  .menu-backdrop{display:block;position:fixed;inset:0;z-index:98;background:rgba(2,8,16,.58);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);opacity:0;visibility:hidden;transition:opacity .22s ease,visibility .22s ease}
+  .menu-backdrop.open{opacity:1;visibility:visible}
+  .mobile-panel{
+    display:block;position:fixed;z-index:120;top:calc(var(--header-h) + 10px);right:12px;width:min(342px,calc(100vw - 24px));
+    max-height:calc(100vh - var(--header-h) - 24px);max-height:calc(100dvh - var(--header-h) - 24px);overflow:auto;padding:12px;
+    background:linear-gradient(180deg,#0d1726 0%,#09111d 100%);border:1px solid rgba(99,199,255,.18);border-radius:22px;
+    box-shadow:0 28px 80px rgba(0,0,0,.48),0 0 0 1px rgba(255,255,255,.025) inset;
+    opacity:0;visibility:hidden;transform:translate3d(calc(100% + 24px),0,0);
+    transition:transform .28s cubic-bezier(.22,1,.36,1),opacity .22s ease,visibility .22s ease;
+  }
+  .mobile-panel.open{opacity:1;visibility:visible;transform:translate3d(0,0,0)}
   .mobile-panel::before{content:"";display:block;height:3px;width:52px;margin:2px auto 11px;border-radius:999px;background:linear-gradient(90deg,#43b2ff,#7d6bff,#2ce4d7);opacity:.9}
-  .mobile-panel a,.mobile-drop-btn{position:relative;display:flex!important;align-items:center;justify-content:space-between;width:100%;min-height:48px;padding:12px 13px!important;margin:2px 0;border:1px solid transparent!important;border-radius:13px!important;background:transparent!important;color:#d9e6f4!important;font-size:13px;font-weight:750;text-align:left;transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease}
-  .mobile-panel a:hover,.mobile-panel a:focus-visible,.mobile-drop-btn:hover,.mobile-drop-btn:focus-visible{background:linear-gradient(90deg,rgba(67,178,255,.12),rgba(125,107,255,.08))!important;border-color:rgba(99,199,255,.16)!important;color:#fff!important;outline:none;transform:translateX(-2px)}
+  .mobile-panel a,.mobile-drop-btn{
+    display:flex;align-items:center;justify-content:space-between;width:100%;min-height:48px;padding:12px 13px;margin:2px 0;
+    border:1px solid transparent;border-radius:13px;background:transparent;color:#d9e6f4;font-size:13px;font-weight:750;text-align:left;
+    transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease;
+  }
+  .mobile-panel a:hover,.mobile-panel a:focus-visible,.mobile-drop-btn:hover,.mobile-drop-btn:focus-visible{
+    background:linear-gradient(90deg,rgba(67,178,255,.12),rgba(125,107,255,.08));border-color:rgba(99,199,255,.16);color:#fff;outline:none;transform:translateX(-2px);
+  }
   .mobile-drop-btn span{width:27px;height:27px;border-radius:9px;display:grid;place-items:center;background:#14263b;color:#70c4ff;border:1px solid #203a55;font-size:15px;line-height:1}
-  .mobile-drop-links{display:grid!important;grid-template-columns:1fr 1fr;gap:7px;padding:3px 0 8px!important}
-  .mobile-drop-links a{min-height:62px!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center!important;gap:4px;padding:10px!important;margin:0!important;background:#0f1d2e!important;border:1px solid #1d344c!important;border-radius:12px!important;font-size:11px!important}
-  .mobile-drop-links a:hover,.mobile-drop-links a:focus-visible{background:#13273d!important;border-color:rgba(99,199,255,.28)!important}
-  .mobile-panel::-webkit-scrollbar{width:5px}.mobile-panel::-webkit-scrollbar-track{background:transparent}.mobile-panel::-webkit-scrollbar-thumb{background:#203b55;border-radius:999px}
-  .menu-toggle{position:relative;z-index:130;width:42px!important;height:42px!important;border:1px solid #20364e!important;border-radius:12px!important;background:#0d1726!important;color:#edf6ff!important;box-shadow:0 8px 24px rgba(0,0,0,.18);transition:background .18s ease,border-color .18s ease,transform .18s ease}
-  .menu-toggle:hover,.menu-toggle[aria-expanded="true"]{background:#13243a!important;border-color:rgba(99,199,255,.35)!important;color:#70c4ff!important}
+  .mobile-drop-links{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:3px 0 8px}
+  .mobile-panel .mobile-drop-links a{min-height:62px;flex-direction:column;align-items:flex-start;justify-content:center;gap:4px;padding:10px;margin:0;background:#0f1d2e;border:1px solid #1d344c;border-radius:12px;font-size:11px}
+  .mobile-panel .mobile-drop-links a:hover,.mobile-panel .mobile-drop-links a:focus-visible{background:#13273d;border-color:rgba(99,199,255,.28)}
+  .mobile-panel::-webkit-scrollbar{width:5px}
+  .mobile-panel::-webkit-scrollbar-thumb{background:#203b55;border-radius:999px}
+
+  .hero{padding-top:55px}
+  .hero-grid{grid-template-columns:1fr;text-align:center}
+  .hero-copy{margin:auto}
+  .hero-sub{margin:auto}
+  .hero-actions,.trust-row{justify-content:center}
+  .why-grid{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1.3fr repeat(3,1fr)}
 }
-@media(max-width:430px){.mobile-panel{top:78px!important;right:8px!important;width:calc(100vw - 16px)!important;border-radius:20px!important}}
+@media(max-width:760px){
+  .preview-wrap{height:520px;margin:-12px auto 0}
+  .product-window{height:460px}
+  .smart-window-body{height:418px;padding:15px}
+  .smart-tool-list{grid-template-columns:1fr}
+  .smart-tool-item{height:48px}
+  .smart-drop-copy span{white-space:normal}
+  .smart-command-label kbd{display:none}
+  .smart-input-wrap input{font-size:16px}   /* 16px stops iPhones from zooming in when the box is tapped */
+  .float-card{display:none}
+  .workflow-grid{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  :root{--header-h:64px}
+  .container{width:min(var(--container),calc(100% - 28px))}
+  .nav{gap:12px}
+  .brand img{width:34px;height:34px}
+  .brand-name{font-size:18px}
+  .hero h1{font-size:clamp(39px,12vw,56px)}
+  .hero-sub{font-size:15px}
+  .section{padding:58px 0}
+  .section-head{display:block}
+  .view-all{display:inline-block;margin-top:14px}
+  .category-row{grid-template-columns:repeat(2,1fr)}
+  .category{min-height:120px}
+  .tool-grid{grid-template-columns:1fr}
+  .tool-card{min-height:105px}
+  .benefit-grid{grid-template-columns:1fr}
+  .stat-grid{grid-template-columns:1fr 1fr}
+  .stat:last-child{grid-column:span 2}
+  .final-cta{padding:30px 24px;display:block}
+  .footer-top{grid-template-columns:1fr 1fr}
+  .footer-brand{grid-column:span 2}
+  .footer-bottom{display:block}
+  .socials{margin-top:12px}
+}
+@media(max-width:480px){
+  .profile-label{display:none}
+  .profile-btn{padding-right:8px}
+}
+@media(max-width:420px){
+  .hero-actions .btn{width:100%}
+  .category-row{grid-template-columns:1fr}
+  .mobile-panel{right:8px;width:calc(100vw - 16px);border-radius:20px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .js .reveal{opacity:1;translate:none;scale:none;filter:none}
+}
 </style>
 </head>
 <body>
-<header class="site-header reveal">
-<div class="container nav">
-<a aria-label="Clickdy Home" class="brand" href="index.html">
-<img alt="Clickdy logo" height="38" src="assets/logo.png" width="38"/>
-<span class="brand-name">Clickdy</span>
-</a>
-<nav aria-label="Primary navigation" class="nav-links">
-<a class="nav-link" href="index.html">Home</a>
-<div class="nav-drop" data-dropdown="">
-<button aria-controls="toolsMenu" aria-expanded="false" aria-haspopup="true" class="nav-drop-btn" title="Open Tools menu" type="button">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Clickdy Home">
+      <img src="assets/logo.png" alt="Clickdy logo" width="38" height="38">
+      <span class="brand-name">Clickdy</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a class="nav-link" href="index.html" aria-current="page">Home</a>
+
+      <div class="nav-drop" data-dropdown>
+        <button class="nav-drop-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="toolsMenu" title="Open Tools menu">
           Tools
-          <svg fill="none" height="13" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="13"><path d="m6 9 6 6 6-6"></path></svg>
-</button>
-<div class="nav-menu">
-<a href="pdf-to-word/index.html"><span class="menu-icon">PDF</span>PDF Tools</a>
-<a href="image-compressor/index.html"><span class="menu-icon">IMG</span>Image Tools</a>
-<a href="word-counter/index.html"><span class="menu-icon">TXT</span>Text Tools</a>
-<a href="qr-generator/index.html"><span class="menu-icon">QR</span>QR &amp; Utility Tools</a>
-<a href="resume-builder/index.html"><span class="menu-icon">CV</span>Productivity Tools</a>
-</div>
-</div>
-<div class="nav-drop" data-dropdown="">
-<button aria-controls="aiToolsMenu" aria-expanded="false" aria-haspopup="true" class="nav-drop-btn" title="Open AI Tools menu" type="button">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="nav-menu" id="toolsMenu">
+          <a href="#tools" data-filter-link="pdf"><span class="menu-icon">PDF</span>PDF Tools</a>
+          <a href="#tools" data-filter-link="image"><span class="menu-icon">IMG</span>Image Tools</a>
+          <a href="#tools" data-filter-link="text"><span class="menu-icon">TXT</span>Text Tools</a>
+          <a href="#tools" data-filter-link="utility"><span class="menu-icon">QR</span>QR &amp; Utility Tools</a>
+          <a href="#tools" data-filter-link="productivity"><span class="menu-icon">CV</span>Productivity Tools</a>
+        </div>
+      </div>
+
+      <div class="nav-drop" data-dropdown>
+        <button class="nav-drop-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="aiToolsMenu" title="Open AI Tools menu">
           AI Tools
-          <svg fill="none" height="13" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="13"><path d="m6 9 6 6 6-6"></path></svg>
-</button>
-<div class="nav-menu">
-<a href="text-to-image/index.html"><span class="menu-icon">AI</span>Text to Image</a>
-<a href="text-to-speech/index.html"><span class="menu-icon">AI</span>Text to Speech</a>
-<a href="background-remover/index.html"><span class="menu-icon">AI</span>Background Remover</a>
-</div>
-</div>
-</nav>
-<div class="nav-search-wrap">
-<label aria-label="Search Clickdy tools" class="nav-search">
-<svg fill="none" height="15" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="15"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
-<input autocomplete="off" id="navSearch" placeholder="Search tools..." type="search"/>
-</label>
-<div class="nav-search-results" id="navSearchResults" role="listbox" aria-label="Tool search results"></div>
-</div>
-<div class="profile-wrap">
-<button aria-expanded="false" aria-haspopup="true" aria-controls="profileMenu" class="profile-btn" id="profileBtn" type="button">
-<span class="profile-avatar" id="profileAvatar">P</span><span class="profile-label" id="profileLabel">Profile</span><svg aria-hidden="true" fill="none" height="13" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="13"><path d="m6 9 6 6 6-6"></path></svg>
-</button>
-<div class="profile-menu" id="profileMenu">
-<div class="profile-head"><div class="profile-avatar large" id="profileAvatarLarge">P</div><div><strong id="profileMenuName">Your Profile</strong><span id="profileMenuEmail">Set up your profile</span></div></div>
-<div class="profile-form">
-<label for="profileName">Display name</label><input id="profileName" maxlength="40" autocomplete="name" placeholder="Your name" type="text"/>
-<label for="profileEmail">Email (optional)</label><input id="profileEmail" maxlength="80" autocomplete="email" placeholder="you@example.com" type="email"/>
-<button class="profile-save" id="profileSave" type="button">Save Profile</button>
-</div>
-</div>
-</div>
-<button aria-expanded="false" aria-label="Open navigation menu" class="menu-toggle" id="menuToggle" title="Open navigation menu" type="button">
-<svg fill="none" height="19" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="19"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
-</button>
-</div>
-<div class="mobile-panel" id="mobilePanel">
-<a href="index.html">Home</a>
-<button aria-expanded="false" class="mobile-drop-btn" id="mobileToolsBtn" title="Open tools list" type="button">Tools <span>＋</span></button>
-<div class="mobile-drop-links" hidden="" id="mobileToolsLinks">
-<a href="pdf-to-word/index.html">PDF Tools</a>
-<a href="image-compressor/index.html">Image Tools</a>
-<a href="word-counter/index.html">Text Tools</a>
-<a href="qr-generator/index.html">Utility Tools</a>
-</div>
-<a href="text-to-image/index.html">AI Tools</a>
-<a href="contact.html">Contact</a>
-</div>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="nav-menu" id="aiToolsMenu">
+          <a href="text-to-image/index.html"><span class="menu-icon">AI</span>Text to Image</a>
+          <a href="text-to-speech/index.html"><span class="menu-icon">AI</span>Text to Speech</a>
+          <a href="background-remover/index.html"><span class="menu-icon">AI</span>Background Remover</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="nav-search-wrap">
+      <label class="nav-search" aria-label="Search Clickdy tools">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input id="navSearch" type="search" placeholder="Search tools..." autocomplete="off" aria-controls="navSearchResults">
+      </label>
+      <div class="nav-search-results" id="navSearchResults" aria-label="Tool search results"></div>
+    </div>
+
+    <div class="profile-wrap">
+      <button class="profile-btn" id="profileBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="profileMenu">
+        <span class="profile-avatar" id="profileAvatar">P</span><span class="profile-label" id="profileLabel">Profile</span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="profile-menu" id="profileMenu">
+        <div class="profile-head">
+          <div class="profile-avatar large" id="profileAvatarLarge">P</div>
+          <div><strong id="profileMenuName">Your Profile</strong><span id="profileMenuEmail">Set up your profile</span></div>
+        </div>
+        <div class="profile-form">
+          <label for="profileName">Display name</label>
+          <input id="profileName" type="text" maxlength="40" autocomplete="name" placeholder="Your name">
+          <label for="profileEmail">Email (optional)</label>
+          <input id="profileEmail" type="email" maxlength="80" autocomplete="email" placeholder="you@example.com">
+          <button class="profile-save" id="profileSave" type="button">Save Profile</button>
+        </div>
+      </div>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobilePanel" aria-label="Open navigation menu" title="Open navigation menu">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
 </header>
-<main>
+
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<nav class="mobile-panel" id="mobilePanel" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <button class="mobile-drop-btn" type="button" aria-expanded="false" aria-controls="mobileToolsLinks">Tools <span aria-hidden="true">＋</span></button>
+  <div class="mobile-drop-links" id="mobileToolsLinks" hidden>
+    <a href="#tools" data-filter-link="pdf">PDF Tools</a>
+    <a href="#tools" data-filter-link="image">Image Tools</a>
+    <a href="#tools" data-filter-link="text">Text Tools</a>
+    <a href="#tools" data-filter-link="utility">Utility Tools</a>
+    <a href="#tools" data-filter-link="productivity">Productivity Tools</a>
+  </div>
+  <button class="mobile-drop-btn" type="button" aria-expanded="false" aria-controls="mobileAiLinks">AI Tools <span aria-hidden="true">＋</span></button>
+  <div class="mobile-drop-links" id="mobileAiLinks" hidden>
+    <a href="text-to-image/index.html">Text to Image</a>
+    <a href="text-to-speech/index.html">Text to Speech</a>
+    <a href="background-remover/index.html">Background Remover</a>
+  </div>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<main id="main">
 <section class="hero">
-<div class="container">
-<div class="hero-grid">
-<div class="hero-copy reveal">
-<span class="badge"><span class="bolt">✦</span> 1000+ FREE TOOLS  •  NO SIGN-UP</span>
-<h1>Everything You Need.<br/><span class="gradient">One Powerful Toolkit.</span></h1>
-<p class="hero-sub">Convert, compress, edit, create and calculate with a growing collection of free online tools — built to be fast, simple and useful.</p>
-<div class="hero-actions">
-<a class="btn btn-primary" href="#tools">Explore All Tools <span>→</span></a>
-<a class="btn btn-secondary" href="text-to-image/index.html">Try AI Tools <span>✦</span></a>
-</div>
-<div aria-label="Benefits" class="trust-row">
-<span class="trust-pill"><svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M12 3v18M3 12h18"></path></svg>Free to use</span>
-<span class="trust-pill"><svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6l-7-3Z"></path></svg>Fast &amp; secure</span>
-<span class="trust-pill"><svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 1 0-16 0Z"></path><path d="M8 12h8"></path></svg>No complicated setup</span>
-</div>
-</div>
-<div class="preview-wrap reveal">
-<div class="preview-glow"></div>
-<div aria-label="Clickdy tool interface preview" class="product-window">
-<div class="window-top">
-<span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span>
-<div class="window-url">clickdy.com</div>
-</div>
-<div class="window-body smart-window-body">
-<div class="smart-head">
-  <div class="smart-brand">
-    <span class="smart-mini-logo">C</span>
-    <div>
-      <strong>Clickdy Smart Workspace</strong>
-      <span>Find the right tool in seconds</span>
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-copy reveal">
+        <span class="badge"><span class="bolt">✦</span> <span data-tool-count>19</span> FREE TOOLS &nbsp;•&nbsp; NO SIGN-UP</span>
+        <h1>Everything You Need.<br><span class="gradient">One Powerful Toolkit.</span></h1>
+        <p class="hero-sub">Convert, compress, edit, create and calculate with a growing collection of free online tools — built to be fast, simple and useful.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#tools" data-filter-link="all">Explore All Tools <span aria-hidden="true">→</span></a>
+          <a class="btn btn-secondary" href="text-to-image/index.html">Try AI Tools <span aria-hidden="true">✦</span></a>
+        </div>
+        <div class="trust-row" aria-label="Benefits">
+          <span class="trust-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v18M3 12h18"/></svg>Free to use</span>
+          <span class="trust-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6l-7-3Z"/></svg>Fast &amp; secure</span>
+          <span class="trust-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 1 0-16 0Z"/><path d="M8 12h8"/></svg>No complicated setup</span>
+        </div>
+      </div>
+
+      <div class="preview-wrap reveal">
+        <div class="preview-glow"></div>
+        <div class="product-window" role="group" aria-label="Clickdy tool finder">
+          <div class="window-top">
+            <span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span>
+            <div class="window-url">clickdy.com</div>
+          </div>
+          <div class="smart-window-body">
+            <div class="smart-head">
+              <div class="smart-brand">
+                <span class="smart-mini-logo">C</span>
+                <div>
+                  <strong>Clickdy Smart Workspace</strong>
+                  <span>Find the right tool in seconds</span>
+                </div>
+              </div>
+              <span class="smart-status"><i></i> Ready</span>
+            </div>
+
+            <div class="smart-command">
+              <div class="smart-command-label">
+                <span class="smart-spark" aria-hidden="true">✦</span>
+                <span>What do you want to do?</span>
+                <kbd id="smartKbd">Ctrl K</kbd>
+              </div>
+              <div class="smart-input-wrap">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+                <input id="smartHeroInput" type="search" autocomplete="off" placeholder="Try “compress my PDF” or “make a QR code”" aria-label="Smart tool finder">
+                <button id="smartHeroClear" class="smart-clear" type="button" aria-label="Clear smart search">×</button>
+              </div>
+              <div class="smart-suggestions" id="smartSuggestions">
+                <button type="button" data-smart-query="compress my pdf">Compress PDF</button>
+                <button type="button" data-smart-query="remove image background">Remove background</button>
+                <button type="button" data-smart-query="make qr code">Create QR</button>
+              </div>
+            </div>
+
+            <div class="smart-drop" id="smartDropZone" tabindex="0" role="button" aria-label="Choose or drop a file to get recommended Clickdy tools">
+              <div class="smart-drop-icon" aria-hidden="true">↥</div>
+              <div class="smart-drop-copy">
+                <strong id="smartDropTitle">Drop a file here</strong>
+                <span id="smartDropText">We'll detect what it is and suggest the best Clickdy tools.</span>
+              </div>
+              <span class="smart-drop-badge">SMART</span>
+            </div>
+            <input id="smartHeroFile" type="file" hidden>
+
+            <div class="smart-results" id="smartResults" aria-live="polite">
+              <div class="smart-results-top">
+                <span id="smartResultTitle">Quick actions</span>
+                <span id="smartResultHint">No upload required</span>
+              </div>
+              <div class="smart-tool-list" id="smartToolList">
+                <a class="smart-tool-item" href="pdf-to-word/index.html">
+                  <span class="smart-tool-icon smart-pdf">PDF</span>
+                  <span><strong>PDF to Word</strong><small>Turn PDFs into editable documents</small></span><b>→</b>
+                </a>
+                <a class="smart-tool-item" href="image-compressor/index.html">
+                  <span class="smart-tool-icon smart-img">IMG</span>
+                  <span><strong>Image Compressor</strong><small>Reduce image size quickly</small></span><b>→</b>
+                </a>
+                <a class="smart-tool-item" href="qr-generator/index.html">
+                  <span class="smart-tool-icon smart-qr">QR</span>
+                  <span><strong>QR Generator</strong><small>Create a QR code instantly</small></span><b>→</b>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="float-card float-one"><div class="float-icon" aria-hidden="true">✓</div><strong>Smart recommendations</strong><span>Based on your request or file</span></div>
+        <div class="float-card float-two"><div class="float-icon" aria-hidden="true">⚡</div><strong>Fast &amp; private</strong><span>Runs in your browser • no sign-up</span></div>
+      </div>
     </div>
   </div>
-  <span class="smart-status"><i></i> Ready</span>
-</div>
-
-<div class="smart-command">
-  <div class="smart-command-label">
-    <span class="smart-spark">✦</span>
-    <span>What do you want to do?</span>
-    <kbd>⌘ K</kbd>
-  </div>
-  <div class="smart-input-wrap">
-    <svg fill="none" height="15" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="15" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
-    <input id="smartHeroInput" type="search" autocomplete="off" placeholder="Try “compress my PDF” or “make a QR code”" aria-label="Smart tool finder"/>
-    <button id="smartHeroClear" class="smart-clear" type="button" aria-label="Clear smart search">×</button>
-  </div>
-  <div class="smart-suggestions" id="smartSuggestions">
-    <button type="button" data-smart-query="compress my pdf">Compress PDF</button>
-    <button type="button" data-smart-query="remove image background">Remove background</button>
-    <button type="button" data-smart-query="make qr code">Create QR</button>
-  </div>
-</div>
-
-<div class="smart-drop" id="smartDropZone" tabindex="0" role="button" aria-label="Drop a file to get recommended Clickdy tools">
-  <div class="smart-drop-icon">↥</div>
-  <div class="smart-drop-copy">
-    <strong id="smartDropTitle">Drop a file here</strong>
-    <span id="smartDropText">We'll detect what it is and suggest the best Clickdy tools.</span>
-  </div>
-  <span class="smart-drop-badge">SMART</span>
-  <input id="smartHeroFile" type="file" hidden />
-</div>
-
-<div class="smart-results" id="smartResults">
-  <div class="smart-results-top">
-    <span id="smartResultTitle">Quick actions</span>
-    <span id="smartResultHint">No upload required</span>
-  </div>
-  <div class="smart-tool-list" id="smartToolList">
-    <a class="smart-tool-item" href="pdf-to-word/index.html" data-smart-name="PDF to Word" data-smart-keywords="pdf word convert editable document">
-      <span class="smart-tool-icon smart-pdf">PDF</span>
-      <span><strong>PDF to Word</strong><small>Turn PDFs into editable documents</small></span><b>→</b>
-    </a>
-    <a class="smart-tool-item" href="image-compressor/index.html" data-smart-name="Image Compressor" data-smart-keywords="image compress jpg png webp reduce size">
-      <span class="smart-tool-icon smart-img">IMG</span>
-      <span><strong>Image Compressor</strong><small>Reduce image size quickly</small></span><b>→</b>
-    </a>
-    <a class="smart-tool-item" href="qr-generator/index.html" data-smart-name="QR Generator" data-smart-keywords="qr code link url wifi text">
-      <span class="smart-tool-icon smart-qr">QR</span>
-      <span><strong>QR Generator</strong><small>Create a QR code instantly</small></span><b>→</b>
-    </a>
-  </div>
-</div>
-</div>
-</div>
-<div class="float-card float-one smart-float"><div class="float-icon">✓</div><strong>Smart recommendations</strong><span>Based on your request or file</span></div>
-<div class="float-card float-two smart-float"><div class="float-icon">⚡</div><strong>Fast &amp; private</strong><span>Runs in your browser • no sign-up</span></div>
-</div>
-</div>
-
-<section class="section reveal" id="categories">
-<div class="container">
-<div class="section-head reveal">
-<div>
-<span class="section-kicker"><span class="dot"></span> Find the right tool</span>
-<h2 class="section-title">Browse by category</h2>
-<p class="section-copy">Everything is organized so you can get to the tool you need without hunting through a giant menu.</p>
-</div>
-<a class="view-all" href="#tools">View all tools →</a>
-</div>
-<div class="category-row">
-<a class="category cat-pdf reveal" data-filter-link="pdf" href="#tools">
-<div class="cat-icon">PDF</div><div class="cat-title">PDF Tools</div><p class="cat-copy">Convert, merge, split and compress.</p><span class="cat-arrow">↗</span>
-</a>
-<a class="category cat-image reveal" data-filter-link="image" href="#tools">
-<div class="cat-icon">IMG</div><div class="cat-title">Image Tools</div><p class="cat-copy">Compress, resize, convert and edit.</p><span class="cat-arrow">↗</span>
-</a>
-<a class="category cat-ai reveal" data-filter-link="ai" href="#tools">
-<div class="cat-icon">AI</div><div class="cat-title">AI Tools</div><p class="cat-copy">Create images, voice and content.</p><span class="cat-arrow">↗</span>
-</a>
-<a class="category cat-text reveal" data-filter-link="text" href="#tools">
-<div class="cat-icon">TXT</div><div class="cat-title">Text Tools</div><p class="cat-copy">Count, edit, convert and write.</p><span class="cat-arrow">↗</span>
-</a>
-<a class="category cat-productivity reveal" data-filter-link="productivity" href="#tools">
-<div class="cat-icon">PRO</div><div class="cat-title">Productivity</div><p class="cat-copy">Resume, signatures and useful helpers.</p><span class="cat-arrow">↗</span>
-</a>
-<a class="category cat-utility reveal" data-filter-link="utility" href="#tools">
-<div class="cat-icon">QR</div><div class="cat-title">Utilities</div><p class="cat-copy">QR, calculators and everyday tools.</p><span class="cat-arrow">↗</span>
-</a>
-</div>
-</div>
 </section>
-<section class="section reveal" id="tools">
-<div class="container">
-<div class="section-head reveal">
-<div>
-<span class="section-kicker"><span class="dot"></span> Your toolbox</span>
-<h2 class="section-title">Popular tools people actually use</h2>
-<p class="section-copy">Jump straight into the most useful Clickdy tools. No clutter, no unnecessary steps.</p>
-</div>
-</div>
-<div class="filters">
-<button class="filter active" data-filter="all" type="button">All Tools</button>
-<button class="filter" data-filter="pdf" type="button">PDF</button>
-<button class="filter" data-filter="image" type="button">Image</button>
-<button class="filter" data-filter="ai" type="button">AI</button>
-<button class="filter" data-filter="text" type="button">Text</button>
-<button class="filter" data-filter="productivity" type="button">Productivity</button>
-<button class="filter" data-filter="utility" type="button">Utility</button>
-</div>
-<div class="tool-grid" id="toolGrid">
-<a class="tool-card reveal" data-category="pdf" data-name="PDF to Word" href="pdf-to-word/index.html"><span class="tool-icon icon-pdf-red">PDF</span><div class="tool-body"><h3>PDF to Word</h3><p>Convert PDF documents into editable Word files.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="pdf" data-name="PDF Merge" href="pdf-merge/index.html"><span class="tool-icon icon-pdf-purple">PDF+</span><div class="tool-body"><h3>PDF Merge</h3><p>Combine multiple PDF files into one document.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="pdf" data-name="PDF Split" href="pdf-split/index.html"><span class="tool-icon icon-pdf-blue">SPL</span><div class="tool-body"><h3>PDF Split</h3><p>Split a PDF into the pages or sections you need.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="pdf" data-name="PDF Compress" href="pdf-compress/index.html"><span class="tool-icon icon-pdf-green">ZIP</span><div class="tool-body"><h3>PDF Compress</h3><p>Reduce PDF size for easier sharing and storage.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="pdf" data-name="JPG to PDF" href="jpg-to-pdf/index.html"><span class="tool-icon icon-pdf-orange">JPG</span><div class="tool-body"><h3>JPG to PDF</h3><p>Turn images into a clean PDF document.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="pdf" data-name="PDF to JPG" href="pdf-to-jpg/index.html"><span class="tool-icon icon-pdf-violet">IMG</span><div class="tool-body"><h3>PDF to JPG</h3><p>Extract PDF pages as high-quality images.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="image" data-name="Image Compressor" href="image-compressor/index.html"><span class="tool-icon icon-img-green">IMG</span><div class="tool-body"><h3>Image Compressor</h3><p>Compress images while keeping them looking great.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="image" data-name="Background Remover" href="background-remover/index.html"><span class="tool-icon icon-img-purple">BG</span><div class="tool-body"><h3>Background Remover</h3><p>Remove image backgrounds quickly and easily.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="image" data-name="Image Resizer" href="image-resizer/index.html"><span class="tool-icon icon-img-blue">RES</span><div class="tool-body"><h3>Image Resizer</h3><p>Resize images to the exact dimensions you need.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="image" data-name="Image Format Converter" href="image-converter/index.html"><span class="tool-icon icon-prod-orange">CVT</span><div class="tool-body"><h3>Image Format Converter</h3><p>Convert images between popular formats.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="image" data-name="Passport Photo Maker" href="passport-photo-maker/index.html"><span class="tool-icon icon-ai-cyan">ID</span><div class="tool-body"><h3>Passport &amp; CNIC Photo Maker</h3><p>Prepare clean ID photos in the right format.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="utility" data-name="QR Code Generator" href="qr-generator/index.html"><span class="tool-icon icon-ai-cyan">QR</span><div class="tool-body"><h3>QR Code Generator</h3><p>Create QR codes for links, text and more.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="text" data-name="Word &amp; Character Counter" href="word-counter/index.html"><span class="tool-icon icon-text-blue">123</span><div class="tool-body"><h3>Word &amp; Character Counter</h3><p>Count words, characters and reading length.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="text" data-name="Case Converter" href="case-converter/index.html"><span class="tool-icon icon-ai-purple">Aa</span><div class="tool-body"><h3>Case Converter</h3><p>Switch text between upper, lower and title case.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="productivity" data-name="Signature Generator" href="signature-generator/index.html"><span class="tool-icon icon-prod-red">SIG</span><div class="tool-body"><h3>Signature Generator</h3><p>Create a digital signature quickly.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="productivity" data-name="Resume &amp; CV Builder" href="resume-builder/index.html"><span class="tool-icon icon-prod-orange">CV</span><div class="tool-body"><h3>Resume &amp; CV Builder</h3><p>Build a polished resume with less effort.</p></div><span class="tool-arrow">→</span></a>
-<a class="tool-card reveal" data-category="ai" data-name="AI Text to Image Generator" href="text-to-image/index.html"><span class="tool-icon icon-ai-purple">AI</span><div class="tool-body"><h3>AI Text to Image</h3><p>Turn ideas into visual concepts with AI.</p></div><span class="tool-arrow">→</span><span class="tool-badge">AI</span></a>
-<a class="tool-card reveal" data-category="ai" data-name="AI Text to Speech Generator" href="text-to-speech/index.html"><span class="tool-icon icon-ai-cyan">VOICE</span><div class="tool-body"><h3>AI Text to Speech</h3><p>Convert written text into natural-sounding speech.</p></div><span class="tool-arrow">→</span><span class="tool-badge">AI</span></a>
-<a class="tool-card reveal" data-category="utility" data-name="Zakat Calculator" href="zakat-calculator/index.html"><span class="tool-icon icon-img-green">ZKT</span><div class="tool-body"><h3>Zakat Calculator</h3><p>Calculate Zakat with a simple guided flow.</p></div><span class="tool-arrow">→</span></a>
-</div>
-</div>
+
+<section class="section" id="categories">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="section-kicker"><span class="dot"></span> Find the right tool</span>
+        <h2 class="section-title">Browse by category</h2>
+        <p class="section-copy">Everything is organized so you can get to the tool you need without hunting through a giant menu.</p>
+      </div>
+      <a class="view-all" href="#tools" data-filter-link="all">View all tools →</a>
+    </div>
+    <div class="category-row">
+      <a class="category cat-pdf reveal" data-filter-link="pdf" href="#tools"><div class="cat-icon">PDF</div><div class="cat-title">PDF Tools</div><p class="cat-copy">Convert, merge, split and compress.</p><span class="cat-arrow" aria-hidden="true">↗</span></a>
+      <a class="category cat-image reveal" data-filter-link="image" href="#tools"><div class="cat-icon">IMG</div><div class="cat-title">Image Tools</div><p class="cat-copy">Compress, resize, convert and edit.</p><span class="cat-arrow" aria-hidden="true">↗</span></a>
+      <a class="category cat-ai reveal" data-filter-link="ai" href="#tools"><div class="cat-icon">AI</div><div class="cat-title">AI Tools</div><p class="cat-copy">Create images, voice and content.</p><span class="cat-arrow" aria-hidden="true">↗</span></a>
+      <a class="category cat-text reveal" data-filter-link="text" href="#tools"><div class="cat-icon">TXT</div><div class="cat-title">Text Tools</div><p class="cat-copy">Count, edit, convert and write.</p><span class="cat-arrow" aria-hidden="true">↗</span></a>
+      <a class="category cat-productivity reveal" data-filter-link="productivity" href="#tools"><div class="cat-icon">PRO</div><div class="cat-title">Productivity</div><p class="cat-copy">Resume, signatures and useful helpers.</p><span class="cat-arrow" aria-hidden="true">↗</span></a>
+      <a class="category cat-utility reveal" data-filter-link="utility" href="#tools"><div class="cat-icon">QR</div><div class="cat-title">Utilities</div><p class="cat-copy">QR, calculators and everyday tools.</p><span class="cat-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </div>
 </section>
-<section class="section reveal" id="how-it-works">
-<div class="container">
-<div class="section-head reveal">
-<div>
-<span class="section-kicker"><span class="dot"></span> Simple workflow</span>
-<h2 class="section-title">Pick a tool. Do the job. Move on.</h2>
-<p class="section-copy">Clickdy keeps the experience focused: find the right tool, use it, and get back to what matters.</p>
-</div>
-</div>
-<div class="workflow-grid">
-<article class="workflow-card reveal">
-<span class="workflow-number">01</span>
-<div class="workflow-icon">⌕</div>
-<h3>Find it</h3>
-<p>Search the toolbox or choose one of the categories above.</p>
-</article>
-<article class="workflow-card reveal">
-<span class="workflow-number">02</span>
-<div class="workflow-icon">↗</div>
-<h3>Use it</h3>
-<p>Open the tool and follow its simple, focused workflow.</p>
-</article>
-<article class="workflow-card reveal">
-<span class="workflow-number">03</span>
-<div class="workflow-icon">✓</div>
-<h3>Finish it</h3>
-<p>Get your result and move on without unnecessary steps.</p>
-</article>
-</div>
-</div>
-</section><section class="section reveal" id="why-clickdy">
-<div class="container">
-<div class="section-head reveal">
-<div>
-<span class="section-kicker"><span class="dot"></span> Why Clickdy?</span>
-<h2 class="section-title">Useful by design. Simple by default.</h2>
-<p class="section-copy">A good toolbox should help you finish a task, not make you learn another complicated app.</p>
-</div>
-</div>
-<div class="why-grid">
-<div class="benefit-grid reveal">
-<div class="benefit reveal"><div class="benefit-icon">⚡</div><strong>Fast</strong><p>Focused tools with simple flows so you can get to the result quickly.</p></div>
-<div class="benefit reveal"><div class="benefit-icon">🔒</div><strong>Private</strong><p>Tools are designed with a browser-first experience and minimal friction.</p></div>
-<div class="benefit reveal"><div class="benefit-icon">✦</div><strong>Free</strong><p>Useful everyday tools without forcing you into a complicated plan.</p></div>
-<div class="benefit reveal"><div class="benefit-icon">▣</div><strong>Works everywhere</strong><p>Responsive layouts that feel good on desktop, tablet and mobile.</p></div>
-</div>
-<div class="stats-card reveal">
-<div class="stats-label">Clickdy toolbox</div>
-<div class="stats-title">One place. Many jobs.</div>
-<p class="stats-copy">From documents and images to AI and everyday utilities, Clickdy keeps the useful stuff close at hand.</p>
-<div class="stat-grid">
-<div class="stat"><strong>19</strong><span>tools on this homepage</span></div>
-<div class="stat"><strong>6</strong><span>main categories</span></div>
-<div class="stat"><strong>1</strong><span>simple toolbox</span></div>
-</div>
-<div aria-hidden="true" class="mini-chart">
-<span class="mini-bar bar-1"></span><span class="mini-bar bar-2"></span><span class="mini-bar bar-3"></span><span class="mini-bar bar-4"></span><span class="mini-bar bar-5"></span><span class="mini-bar bar-6"></span><span class="mini-bar bar-7"></span><span class="mini-bar bar-8"></span>
-</div>
-</div>
-</div>
-</div>
+
+<section class="section" id="tools">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="section-kicker"><span class="dot"></span> Your toolbox</span>
+        <h2 class="section-title">Popular tools people actually use</h2>
+        <p class="section-copy">Jump straight into the most useful Clickdy tools. No clutter, no unnecessary steps.</p>
+      </div>
+    </div>
+    <div class="filters" role="group" aria-label="Filter tools by category">
+      <button class="filter active" data-filter="all" type="button" aria-pressed="true">All Tools</button>
+      <button class="filter" data-filter="pdf" type="button" aria-pressed="false">PDF</button>
+      <button class="filter" data-filter="image" type="button" aria-pressed="false">Image</button>
+      <button class="filter" data-filter="ai" type="button" aria-pressed="false">AI</button>
+      <button class="filter" data-filter="text" type="button" aria-pressed="false">Text</button>
+      <button class="filter" data-filter="productivity" type="button" aria-pressed="false">Productivity</button>
+      <button class="filter" data-filter="utility" type="button" aria-pressed="false">Utility</button>
+    </div>
+    <div class="tool-grid" id="toolGrid">
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf word docx convert editable document" href="pdf-to-word/index.html"><span class="tool-icon icon-pdf-red">PDF</span><div class="tool-body"><h3>PDF to Word</h3><p>Convert PDF documents into editable Word files.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf merge combine join files together" href="pdf-merge/index.html"><span class="tool-icon icon-pdf-purple">PDF+</span><div class="tool-body"><h3>PDF Merge</h3><p>Combine multiple PDF files into one document.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf split separate extract pages" href="pdf-split/index.html"><span class="tool-icon icon-pdf-blue">SPL</span><div class="tool-body"><h3>PDF Split</h3><p>Split a PDF into the pages or sections you need.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf compress reduce shrink smaller size" href="pdf-compress/index.html"><span class="tool-icon icon-pdf-green">ZIP</span><div class="tool-body"><h3>PDF Compress</h3><p>Reduce PDF size for easier sharing and storage.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="jpg jpeg png image photo to pdf convert" href="jpg-to-pdf/index.html"><span class="tool-icon icon-pdf-orange">JPG</span><div class="tool-body"><h3>JPG to PDF</h3><p>Turn images into a clean PDF document.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf jpg jpeg image photo convert pages" href="pdf-to-jpg/index.html"><span class="tool-icon icon-pdf-violet">IMG</span><div class="tool-body"><h3>PDF to JPG</h3><p>Extract PDF pages as high-quality images.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="image photo picture compress reduce shrink smaller size jpg png webp" href="image-compressor/index.html"><span class="tool-icon icon-img-green">IMG</span><div class="tool-body"><h3>Image Compressor</h3><p>Compress images while keeping them looking great.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="background remove remover transparent cutout erase photo image" href="background-remover/index.html"><span class="tool-icon icon-img-purple">BG</span><div class="tool-body"><h3>Background Remover</h3><p>Remove image backgrounds quickly and easily.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="image photo resize dimensions width height pixels scale" href="image-resizer/index.html"><span class="tool-icon icon-img-blue">RES</span><div class="tool-body"><h3>Image Resizer</h3><p>Resize images to the exact dimensions you need.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="image convert format jpg jpeg png webp" href="image-converter/index.html"><span class="tool-icon icon-img-orange">CVT</span><div class="tool-body"><h3>Image Format Converter</h3><p>Convert images between popular formats.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="passport cnic id visa photo picture size print" href="passport-photo-maker/index.html"><span class="tool-icon icon-ai-cyan">ID</span><div class="tool-body"><h3>Passport &amp; CNIC Photo Maker</h3><p>Prepare clean ID photos in the right format.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="utility" data-keywords="qr code barcode link url wifi scan whatsapp" href="qr-generator/index.html"><span class="tool-icon icon-ai-cyan">QR</span><div class="tool-body"><h3>QR Code Generator</h3><p>Create QR codes for links, text and more.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="text" data-keywords="word character count counter text length reading" href="word-counter/index.html"><span class="tool-icon icon-text-blue">123</span><div class="tool-body"><h3>Word &amp; Character Counter</h3><p>Count words, characters and reading length.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="text" data-keywords="case uppercase lowercase title camel text convert capitalize" href="case-converter/index.html"><span class="tool-icon icon-ai-purple">Aa</span><div class="tool-body"><h3>Case Converter</h3><p>Switch text between upper, lower and title case.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="productivity" data-keywords="signature sign draw handwritten document transparent" href="signature-generator/index.html"><span class="tool-icon icon-prod-red">SIG</span><div class="tool-body"><h3>Signature Generator</h3><p>Create a digital signature quickly.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="productivity" data-keywords="resume cv curriculum vitae job career builder maker" href="resume-builder/index.html"><span class="tool-icon icon-prod-orange">CV</span><div class="tool-body"><h3>Resume &amp; CV Builder</h3><p>Build a polished resume with less effort.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="ai" data-keywords="ai text image generate picture art design poster prompt" href="text-to-image/index.html"><span class="tool-icon icon-ai-purple">AI</span><div class="tool-body"><h3>AI Text to Image</h3><p>Turn ideas into visual concepts with AI.</p></div><span class="tool-arrow" aria-hidden="true">→</span><span class="tool-badge">AI</span></a>
+      <a class="tool-card reveal" data-category="ai" data-keywords="ai text speech voice audio read aloud tts" href="text-to-speech/index.html"><span class="tool-icon icon-ai-cyan">TTS</span><div class="tool-body"><h3>AI Text to Speech</h3><p>Convert written text into natural-sounding speech.</p></div><span class="tool-arrow" aria-hidden="true">→</span><span class="tool-badge">AI</span></a>
+      <a class="tool-card reveal" data-category="utility" data-keywords="zakat calculator gold silver nisab islamic finance savings" href="zakat-calculator/index.html"><span class="tool-icon icon-img-green">ZKT</span><div class="tool-body"><h3>Zakat Calculator</h3><p>Calculate Zakat with a simple guided flow.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+    </div>
+  </div>
 </section>
-<section class="section reveal">
-<div class="container">
-<div class="final-cta reveal">
-<div>
-<span class="rocket">🚀</span>
-<h2>Everything you need. One toolbox.</h2>
-<p>Stop jumping between random websites. Find the right Clickdy tool and get it done.</p>
-<a class="btn btn-primary" href="#tools">Explore All Tools →</a>
-</div>
-</div>
-</div>
+
+<section class="section" id="how-it-works">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="section-kicker"><span class="dot"></span> Simple workflow</span>
+        <h2 class="section-title">Pick a tool. Do the job. Move on.</h2>
+        <p class="section-copy">Clickdy keeps the experience focused: find the right tool, use it, and get back to what matters.</p>
+      </div>
+    </div>
+    <div class="workflow-grid">
+      <article class="workflow-card reveal"><span class="workflow-number">01</span><div class="workflow-icon" aria-hidden="true">⌕</div><h3>Find it</h3><p>Search the toolbox or choose one of the categories above.</p></article>
+      <article class="workflow-card reveal"><span class="workflow-number">02</span><div class="workflow-icon" aria-hidden="true">↗</div><h3>Use it</h3><p>Open the tool and follow its simple, focused workflow.</p></article>
+      <article class="workflow-card reveal"><span class="workflow-number">03</span><div class="workflow-icon" aria-hidden="true">✓</div><h3>Finish it</h3><p>Get your result and move on without unnecessary steps.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="why-clickdy">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="section-kicker"><span class="dot"></span> Why Clickdy?</span>
+        <h2 class="section-title">Useful by design. Simple by default.</h2>
+        <p class="section-copy">A good toolbox should help you finish a task, not make you learn another complicated app.</p>
+      </div>
+    </div>
+    <div class="why-grid">
+      <div class="benefit-grid">
+        <div class="benefit reveal"><div class="benefit-icon" aria-hidden="true">⚡</div><strong>Fast</strong><p>Focused tools with simple flows so you can get to the result quickly.</p></div>
+        <div class="benefit reveal"><div class="benefit-icon" aria-hidden="true">🔒</div><strong>Private</strong><p>Tools are designed with a browser-first experience and minimal friction.</p></div>
+        <div class="benefit reveal"><div class="benefit-icon" aria-hidden="true">✦</div><strong>Free</strong><p>Useful everyday tools without forcing you into a complicated plan.</p></div>
+        <div class="benefit reveal"><div class="benefit-icon" aria-hidden="true">▣</div><strong>Works everywhere</strong><p>Responsive layouts that feel good on desktop, tablet and mobile.</p></div>
+      </div>
+      <div class="stats-card reveal">
+        <div class="stats-label">Clickdy toolbox</div>
+        <div class="stats-title">One place. Many jobs.</div>
+        <p class="stats-copy">From documents and images to AI and everyday utilities, Clickdy keeps the useful stuff close at hand.</p>
+        <div class="stat-grid">
+          <div class="stat"><strong data-tool-count>19</strong><span>tools on this homepage</span></div>
+          <div class="stat"><strong data-category-count>6</strong><span>main categories</span></div>
+          <div class="stat"><strong>1</strong><span>simple toolbox</span></div>
+        </div>
+        <div class="mini-chart" aria-hidden="true">
+          <span class="mini-bar bar-1"></span><span class="mini-bar bar-2"></span><span class="mini-bar bar-3"></span><span class="mini-bar bar-4"></span><span class="mini-bar bar-5"></span><span class="mini-bar bar-6"></span><span class="mini-bar bar-7"></span><span class="mini-bar bar-8"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="final-cta reveal">
+      <div>
+        <span class="rocket" aria-hidden="true">🚀</span>
+        <h2>Everything you need. One toolbox.</h2>
+        <p>Stop jumping between random websites. Find the right Clickdy tool and get it done.</p>
+        <a class="btn btn-primary" href="#tools" data-filter-link="all">Explore All Tools →</a>
+      </div>
+    </div>
+  </div>
 </section>
 </main>
+
 <footer>
-<div class="container">
-<div class="footer-top">
-<div class="footer-brand reveal">
-<a class="brand" href="index.html"><img alt="Clickdy logo" height="38" src="assets/logo.png" width="38"/><span class="brand-name">Clickdy</span></a>
-<p>Free online tools for documents, images, AI, text and everyday tasks — designed to keep useful things simple.</p>
-</div>
-<div class="footer-col reveal"><h4>Explore</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="blog/index.html">Blog</a><a href="contact.html">Contact</a></div>
-<div class="footer-col reveal"><h4>Categories</h4><a data-filter-link="pdf" href="#tools">PDF Tools</a><a data-filter-link="image" href="#tools">Image Tools</a><a data-filter-link="ai" href="#tools">AI Tools</a><a data-filter-link="text" href="#tools">Text Tools</a></div>
-<div class="footer-col reveal"><h4>Info</h4><a href="privacy.html">Privacy</a><a href="contact.html">Contact</a><a href="blog/index.html">Blog</a></div>
-</div>
-<div class="footer-bottom">
-<span>© 2025 Clickdy. All rights reserved.</span>
-<div class="socials">
-<a aria-label="Contact Clickdy" class="social" href="contact.html" title="Contact Clickdy">✉</a>
-<a aria-label="Clickdy Blog" class="social" href="blog/index.html" title="Clickdy Blog">B</a>
-</div>
-</div>
-</div>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand reveal">
+        <a class="brand" href="index.html"><img src="assets/logo.png" alt="Clickdy logo" width="38" height="38"><span class="brand-name">Clickdy</span></a>
+        <p>Free online tools for documents, images, AI, text and everyday tasks — designed to keep useful things simple.</p>
+      </div>
+      <div class="footer-col reveal"><h4>Explore</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="blog/index.html">Blog</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col reveal"><h4>Categories</h4><a data-filter-link="pdf" href="#tools">PDF Tools</a><a data-filter-link="image" href="#tools">Image Tools</a><a data-filter-link="ai" href="#tools">AI Tools</a><a data-filter-link="text" href="#tools">Text Tools</a><a data-filter-link="productivity" href="#tools">Productivity</a><a data-filter-link="utility" href="#tools">Utilities</a></div>
+      <div class="footer-col reveal"><h4>Legal</h4><a href="privacy.html">Privacy</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Clickdy. All rights reserved.</span>
+      <div class="socials">
+        <a class="social" href="contact.html" aria-label="Contact Clickdy" title="Contact Clickdy">✉</a>
+        <a class="social" href="blog/index.html" aria-label="Clickdy Blog" title="Clickdy Blog">B</a>
+      </div>
+    </div>
+  </div>
 </footer>
+
 <script>
-document.documentElement.classList.add("js");
 (function(){
   "use strict";
+  var doc = document, root = doc.documentElement;
+  function $(id){ return doc.getElementById(id); }
+  function all(sel, scope){ return Array.prototype.slice.call((scope || doc).querySelectorAll(sel)); }
+  function make(tag, cls, text){ var n = doc.createElement(tag); if(cls) n.className = cls; if(text != null) n.textContent = text; return n; }
 
-  const dropdowns = document.querySelectorAll("[data-dropdown]");
-  dropdowns.forEach(function(drop){
-    const button = drop.querySelector(".nav-drop-btn");
-    button.addEventListener("click", function(event){
-      event.stopPropagation();
-      const isOpen = drop.classList.contains("open");
-      dropdowns.forEach(function(item){
-        item.classList.remove("open");
-        const itemButton = item.querySelector(".nav-drop-btn");
-        if(itemButton) itemButton.setAttribute("aria-expanded","false");
-      });
-      if(!isOpen){
-        drop.classList.add("open");
-        button.setAttribute("aria-expanded","true");
-      }
-    });
-  });
-
-  document.addEventListener("click", function(){
-    dropdowns.forEach(function(drop){
-      drop.classList.remove("open");
-      const button = drop.querySelector(".nav-drop-btn");
-      if(button) button.setAttribute("aria-expanded","false");
-    });
-  });
-
-  const menuToggle = document.getElementById("menuToggle");
-  const mobilePanel = document.getElementById("mobilePanel");
-  if(menuToggle && mobilePanel){
-    menuToggle.addEventListener("click", function(){
-      const open = mobilePanel.classList.toggle("open");
-      document.body.classList.toggle("mobile-menu-open", open);
-      menuToggle.setAttribute("aria-expanded", String(open));
-      menuToggle.innerHTML = open
-        ? '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>'
-        : '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';
-    });
-    mobilePanel.querySelectorAll("a").forEach(function(link){
-      link.addEventListener("click", function(){
-        mobilePanel.classList.remove("open");
-        document.body.classList.remove("mobile-menu-open");
-        menuToggle.setAttribute("aria-expanded","false");
-      });
-    });
-    document.addEventListener("keydown", function(event){
-      if(event.key === "Escape" && mobilePanel.classList.contains("open")){
-        mobilePanel.classList.remove("open");
-        document.body.classList.remove("mobile-menu-open");
-        menuToggle.setAttribute("aria-expanded","false");
-      }
-    });
-    document.addEventListener("click", function(event){
-      if(mobilePanel.classList.contains("open") && !mobilePanel.contains(event.target) && !menuToggle.contains(event.target)){
-        mobilePanel.classList.remove("open");
-        document.body.classList.remove("mobile-menu-open");
-        menuToggle.setAttribute("aria-expanded","false");
-      }
-    });
-  }
-
-  const mobileToolsBtn = document.getElementById("mobileToolsBtn");
-  const mobileToolsLinks = document.getElementById("mobileToolsLinks");
-  if(mobileToolsBtn && mobileToolsLinks){
-    mobileToolsBtn.addEventListener("click", function(){
-      const hidden = mobileToolsLinks.hasAttribute("hidden");
-      if(hidden) mobileToolsLinks.removeAttribute("hidden");
-      else mobileToolsLinks.setAttribute("hidden","");
-      mobileToolsBtn.setAttribute("aria-expanded", String(hidden));
-      const mark = mobileToolsBtn.querySelector("span");
-      if(mark) mark.textContent = hidden ? "−" : "＋";
-    });
-  }
-
-  const filters = document.querySelectorAll(".filter");
-  const cards = document.querySelectorAll(".tool-card");
-  filters.forEach(function(filter){
-    filter.addEventListener("click", function(){
-      const value = filter.dataset.filter;
-      filters.forEach(function(item){ item.classList.remove("active"); });
-      filter.classList.add("active");
-      cards.forEach(function(card){
-        const show = value === "all" || card.dataset.category === value;
-        card.hidden = !show;
-      });
-    });
-  });
-
-  document.querySelectorAll("[data-filter-link]").forEach(function(link){
-    link.addEventListener("click", function(){
-      const value = link.dataset.filterLink;
-      const filter = document.querySelector('.filter[data-filter="' + value + '"]');
-      if(filter) filter.click();
-    });
-  });
-
-  const tools = Array.from(cards).map(function(card){
-    return {
-      name: card.dataset.name || "",
-      category: card.dataset.category || "",
-      href: card.getAttribute("href") || ""
-    };
-  });
-
-  const navSearch = document.getElementById("navSearch");
-  const navSearchResults = document.getElementById("navSearchResults");
-
-  function escapeHtml(value){
-    return String(value).replace(/[&<>"']/g, function(char){
-      return ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"})[char];
-    });
-  }
-
-  function searchTools(query){
-    const term = query.trim().toLowerCase();
-    if(!term) return [];
-    const tokens = term.split(/\s+/).filter(Boolean);
-    return tools.map(function(tool){
-      const haystack = (tool.name + " " + tool.category).toLowerCase();
-      let score = 0;
-      if(haystack === term) score += 100;
-      if(tool.name.toLowerCase().startsWith(term)) score += 50;
-      if(haystack.includes(term)) score += 30;
-      tokens.forEach(function(token){
-        if(haystack.includes(token)) score += 12;
-        if(tool.name.toLowerCase().startsWith(token)) score += 5;
-      });
-      return {tool:tool,score:score};
-    }).filter(function(item){
-      return item.score >= tokens.length * 12;
-    }).sort(function(a,b){ return b.score-a.score; }).slice(0,8).map(function(item){ return item.tool; });
-  }
-
-  function renderNavSearch(query){
-    if(!navSearchResults) return;
-    const term = query.trim();
-    if(!term){
-      navSearchResults.classList.remove("open");
-      navSearchResults.innerHTML = "";
-      return;
-    }
-    const matches = searchTools(term);
-    if(!matches.length){
-      navSearchResults.innerHTML = '<div class="nav-no-result">No tool found for <strong>' + escapeHtml(term) + '</strong></div>';
-    }else{
-      navSearchResults.innerHTML = matches.map(function(tool){
-        return '<a class="nav-result" role="option" href="' + escapeHtml(tool.href) + '">' +
-          '<span class="nav-result-icon">↗</span><span class="nav-result-copy"><strong>' + escapeHtml(tool.name) + '</strong><small>' + escapeHtml(tool.category.toUpperCase()) + ' TOOL</small></span></a>';
-      }).join("");
-    }
-    navSearchResults.classList.add("open");
-  }
-
-  if(navSearch){
-    navSearch.addEventListener("input", function(){ renderNavSearch(navSearch.value); });
-    navSearch.addEventListener("focus", function(){
-      if(navSearch.value.trim()) renderNavSearch(navSearch.value);
-    });
-    navSearch.addEventListener("keydown", function(event){
-      if(event.key === "Enter"){
-        const first = navSearchResults && navSearchResults.querySelector(".nav-result");
-        if(first){ first.click(); }
-      }
-      if(event.key === "Escape"){
-        navSearchResults.classList.remove("open");
-        navSearch.blur();
-      }
-    });
-  }
-
-  document.addEventListener("click", function(event){
-    if(navSearchResults && !event.target.closest(".nav-search-wrap")) navSearchResults.classList.remove("open");
-  });
-
-  // Fully local browser profile — no account/backend required.
-  const profileBtn = document.getElementById("profileBtn");
-  const profileWrap = document.querySelector(".profile-wrap");
-  const profileName = document.getElementById("profileName");
-  const profileEmail = document.getElementById("profileEmail");
-  const profileSave = document.getElementById("profileSave");
-  const profileLabel = document.getElementById("profileLabel");
-  const profileAvatar = document.getElementById("profileAvatar");
-  const profileAvatarLarge = document.getElementById("profileAvatarLarge");
-  const profileMenuName = document.getElementById("profileMenuName");
-  const profileMenuEmail = document.getElementById("profileMenuEmail");
-
-  function initials(name){
-    const parts = name.trim().split(/\s+/).filter(Boolean);
-    if(!parts.length) return "P";
-    return parts.slice(0,2).map(function(part){ return part.charAt(0).toUpperCase(); }).join("");
-  }
-
-  function loadProfile(){
-    let data = {};
-    try{ data = JSON.parse(localStorage.getItem("clickdyProfile") || "{}"); }catch(error){ data = {}; }
-    const name = data.name || "";
-    const email = data.email || "";
-    if(profileName) profileName.value = name;
-    if(profileEmail) profileEmail.value = email;
-    const mark = initials(name || "Profile");
-    if(profileAvatar) profileAvatar.textContent = mark;
-    if(profileAvatarLarge) profileAvatarLarge.textContent = mark;
-    if(profileLabel) profileLabel.textContent = name ? (name.length > 13 ? name.slice(0,13) + "…" : name) : "Profile";
-    if(profileMenuName) profileMenuName.textContent = name || "Your Profile";
-    if(profileMenuEmail) profileMenuEmail.textContent = email || "Set up your profile";
-  }
-
-  if(profileBtn && profileWrap){
-    profileBtn.addEventListener("click", function(event){
-      event.stopPropagation();
-      const open = profileWrap.classList.toggle("open");
-      profileBtn.setAttribute("aria-expanded", String(open));
-    });
-    document.addEventListener("click", function(event){
-      if(!event.target.closest(".profile-wrap")){
-        profileWrap.classList.remove("open");
-        profileBtn.setAttribute("aria-expanded","false");
-      }
-    });
-  }
-
-  if(profileSave){
-    profileSave.addEventListener("click", function(){
-      const data = {
-        name: (profileName ? profileName.value : "").trim(),
-        email: (profileEmail ? profileEmail.value : "").trim()
-      };
-      try{ localStorage.setItem("clickdyProfile", JSON.stringify(data)); }catch(error){}
-      loadProfile();
-      if(profileWrap) profileWrap.classList.remove("open");
-      if(profileBtn) profileBtn.setAttribute("aria-expanded","false");
-    });
-  }
-  loadProfile();
-
-  // Cinematic scroll reveal: replay when scrolling down AND back up.
-  const revealItems = document.querySelectorAll(".reveal");
+  /* ---------- Scroll reveal ---------- */
+  var revealItems = all(".reveal");
   if("IntersectionObserver" in window){
-    const revealObserver = new IntersectionObserver(function(entries){
-      entries.forEach(function(entry){
-        if(entry.isIntersecting){
-          entry.target.classList.add("reveal-visible");
-        }else{
-          entry.target.classList.remove("reveal-visible");
-        }
-      });
-    },{threshold:0.16,rootMargin:"-8% 0px -10% 0px"});
-    revealItems.forEach(function(el,index){
-      el.style.setProperty("--reveal-delay", Math.min((index % 7) * 45, 270) + "ms");
-      el.style.transitionDelay = "var(--reveal-delay)";
-      revealObserver.observe(el);
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){ entry.target.classList.toggle("reveal-visible", entry.isIntersecting); });
+    }, {threshold:0.12, rootMargin:"0px 0px -6% 0px"});
+    revealItems.forEach(function(el, i){
+      el.style.setProperty("--rd", Math.min((i % 7) * 45, 270) + "ms");
+      io.observe(el);
     });
-    // Keep above-the-fold content visible immediately; below-the-fold content waits for scroll.
     window.requestAnimationFrame(function(){
       revealItems.forEach(function(el){
-        const rect = el.getBoundingClientRect();
-        if(rect.top < window.innerHeight * .92 && rect.bottom > 0){
-          el.classList.add("reveal-visible");
-        }
+        var r = el.getBoundingClientRect();
+        if(r.top < window.innerHeight * 0.92 && r.bottom > 0) el.classList.add("reveal-visible");
       });
     });
   }else{
-    revealItems.forEach(function(el){ el.classList.add("reveal-visible"); });
+    root.classList.remove("js");
   }
+  window.__clickdyReady = true;
 
-})();
-</script>
+  /* ---------- Tool catalog (single source of truth = the cards on the page) ---------- */
+  var STOP = {}; "a an the my me i to of for and or in on with into from it is this that want need how can you please make create get do some free online tool tools".split(" ").forEach(function(w){ STOP[w] = 1; });
+  function words(text){ return String(text).toLowerCase().split(/[^a-z0-9]+/).filter(Boolean); }
 
-<script>
-(function(){
-  const input = document.getElementById("smartHeroInput");
-  const clearBtn = document.getElementById("smartHeroClear");
-  const suggestions = document.getElementById("smartSuggestions");
-  const resultTitle = document.getElementById("smartResultTitle");
-  const resultHint = document.getElementById("smartResultHint");
-  const toolList = document.getElementById("smartToolList");
-  const dropZone = document.getElementById("smartDropZone");
-  const fileInput = document.getElementById("smartHeroFile");
-  const dropTitle = document.getElementById("smartDropTitle");
-  const dropText = document.getElementById("smartDropText");
-  if(!input || !toolList) return;
-
-  const items = Array.from(toolList.querySelectorAll(".smart-tool-item"));
-  const catalog = [
-    {name:"PDF to Word", url:"pdf-to-word/index.html", keys:["pdf","word","docx","editable","document","convert"]},
-    {name:"PDF Merge", url:"pdf-merge/index.html", keys:["pdf","merge","combine","join","multiple"]},
-    {name:"PDF Split", url:"pdf-split/index.html", keys:["pdf","split","extract","pages","separate"]},
-    {name:"PDF Compressor", url:"pdf-compress/index.html", keys:["pdf","compress","reduce","size","smaller"]},
-    {name:"JPG to PDF", url:"jpg-to-pdf/index.html", keys:["jpg","jpeg","png","webp","pdf","image","convert"]},
-    {name:"PDF to JPG", url:"pdf-to-jpg/index.html", keys:["pdf","jpg","jpeg","image","pages","convert"]},
-    {name:"Image Compressor", url:"image-compressor/index.html", keys:["image","compress","jpg","png","webp","size","photo"]},
-    {name:"Background Remover", url:"background-remover/index.html", keys:["background","remove","photo","image","transparent","cutout"]},
-    {name:"Image Resizer", url:"image-resizer/index.html", keys:["resize","image","width","height","photo","dimensions"]},
-    {name:"Image Converter", url:"image-converter/index.html", keys:["image","convert","jpg","png","webp","format"]},
-    {name:"Passport Photo Maker", url:"passport-photo-maker/index.html", keys:["passport","photo","id","visa","print"]},
-    {name:"QR Generator", url:"qr-generator/index.html", keys:["qr","code","url","link","wifi","sms"]},
-    {name:"Word Counter", url:"word-counter/index.html", keys:["word","count","characters","text","words"]},
-    {name:"Case Converter", url:"case-converter/index.html", keys:["case","uppercase","lowercase","text","title"]},
-    {name:"Signature Generator", url:"signature-generator/index.html", keys:["signature","sign","draw","document"]},
-    {name:"Resume Builder", url:"resume-builder/index.html", keys:["resume","cv","curriculum","job","career"]},
-    {name:"Text to Image", url:"text-to-image/index.html", keys:["text","image","design","poster","quote"]},
-    {name:"Text to Speech", url:"text-to-speech/index.html", keys:["text","speech","voice","read","audio"]},
-    {name:"Zakat Calculator", url:"zakat-calculator/index.html", keys:["zakat","calculator","gold","silver","nisab"]}
-  ];
-
-  const aliases = {
-    "compress my pdf":["PDF Compressor"],
-    "compress pdf":["PDF Compressor"],
-    "make a qr":["QR Generator"],
-    "make qr":["QR Generator"],
-    "remove image background":["Background Remover"],
-    "remove background":["Background Remover"],
-    "convert image":["Image Converter"],
-    "resize image":["Image Resizer"],
-    "make passport photo":["Passport Photo Maker"],
-    "create resume":["Resume Builder"],
-    "count words":["Word Counter"],
-    "convert pdf to word":["PDF to Word"],
-    "merge pdf":["PDF Merge"],
-    "split pdf":["PDF Split"]
-  };
-
-  function score(item, query){
-    const q=query.toLowerCase().trim();
-    if(!q) return 0;
-    const terms=q.split(/\s+/).filter(Boolean);
-    const hay=[item.name].concat(item.keys).join(" ").toLowerCase();
-    let score=0;
-    terms.forEach(t=>{
-      if(item.name.toLowerCase().includes(t)) score+=7;
-      if(hay.includes(t)) score+=3;
+  var cards = all(".tool-card");
+  var TOOLS = cards.map(function(card){
+    var name = card.querySelector("h3").textContent.trim();
+    var icon = card.querySelector(".tool-icon");
+    return {
+      name: name,
+      category: card.dataset.category || "",
+      href: card.getAttribute("href"),
+      desc: (card.querySelector("p") || {textContent:""}).textContent.trim(),
+      label: icon ? icon.textContent.trim() : "",
+      nameWords: words(name),
+      allWords: words(name + " " + (card.dataset.keywords || ""))
+    };
+  });
+  function toolByName(n){ for(var i = 0; i < TOOLS.length; i++){ if(TOOLS[i].name === n) return TOOLS[i]; } return null; }
+  function wordHit(list, t){
+    return list.some(function(w){ return w.indexOf(t) === 0 || (w.length >= 3 && t.indexOf(w) === 0); });
+  }
+  function search(query, limit){
+    var tokens = words(query).filter(function(t){ return !STOP[t]; });
+    if(!tokens.length) return [];
+    var scored = [];
+    TOOLS.forEach(function(tool, idx){
+      var score = 0, hits = 0;
+      tokens.forEach(function(t){
+        if(wordHit(tool.nameWords, t)){ score += 10; hits++; }
+        else if(wordHit(tool.allWords, t)){ score += 5; hits++; }
+      });
+      if(hits) scored.push({tool:tool, score:score + hits * 2, idx:idx});
     });
-    return score;
+    scored.sort(function(a, b){ return b.score - a.score || a.idx - b.idx; });
+    return scored.slice(0, limit).map(function(x){ return x.tool; });
   }
 
-  function render(query){
-    const q=query.trim().toLowerCase();
-    clearBtn.classList.toggle("show", !!q);
-    if(!q){
-      resultTitle.textContent="Quick actions";
-      resultHint.textContent="No upload required";
-      items.forEach((el,i)=>{ el.hidden=i>2; });
-      suggestions.hidden=false;
-      return;
+  /* live counts so the numbers on the page are always true */
+  all("[data-tool-count]").forEach(function(n){ n.textContent = TOOLS.length; });
+  all("[data-category-count]").forEach(function(n){ n.textContent = all(".category").length; });
+  var yearEl = $("year"); if(yearEl) yearEl.textContent = new Date().getFullYear();
+
+  /* ---------- Category filter ---------- */
+  var filters = all(".filter");
+  function applyFilter(value){
+    filters.forEach(function(f){
+      var on = f.dataset.filter === value;
+      f.classList.toggle("active", on);
+      f.setAttribute("aria-pressed", String(on));
+    });
+    cards.forEach(function(card){ card.hidden = !(value === "all" || card.dataset.category === value); });
+  }
+  filters.forEach(function(f){ f.addEventListener("click", function(){ applyFilter(f.dataset.filter); }); });
+  all("[data-filter-link]").forEach(function(link){
+    link.addEventListener("click", function(){ applyFilter(link.dataset.filterLink); });
+  });
+
+  /* ---------- Desktop dropdowns ---------- */
+  var dropdowns = all("[data-dropdown]");
+  function closeDropdowns(except){
+    dropdowns.forEach(function(d){
+      if(d === except) return;
+      d.classList.remove("open");
+      d.querySelector(".nav-drop-btn").setAttribute("aria-expanded", "false");
+    });
+  }
+  dropdowns.forEach(function(drop){
+    var btn = drop.querySelector(".nav-drop-btn");
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      var open = !drop.classList.contains("open");
+      closeDropdowns(drop);
+      drop.classList.toggle("open", open);
+      btn.setAttribute("aria-expanded", String(open));
+      closeSearch(); closeProfile();
+    });
+    all("a", drop).forEach(function(a){ a.addEventListener("click", function(){ closeDropdowns(); }); });
+  });
+
+  /* ---------- Mobile drawer ---------- */
+  var menuToggle = $("menuToggle"), mobilePanel = $("mobilePanel"), backdrop = $("menuBackdrop");
+  var ICON_MENU = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';
+  var ICON_CLOSE = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>';
+  function setMenu(open){
+    mobilePanel.classList.toggle("open", open);
+    backdrop.classList.toggle("open", open);
+    doc.body.classList.toggle("mobile-menu-open", open);
+    menuToggle.setAttribute("aria-expanded", String(open));
+    menuToggle.setAttribute("aria-label", open ? "Close navigation menu" : "Open navigation menu");
+    menuToggle.title = open ? "Close navigation menu" : "Open navigation menu";
+    menuToggle.innerHTML = open ? ICON_CLOSE : ICON_MENU;
+    if(open) closeProfile();
+  }
+  menuToggle.addEventListener("click", function(e){ e.stopPropagation(); setMenu(!mobilePanel.classList.contains("open")); });
+  backdrop.addEventListener("click", function(){ setMenu(false); });
+  all("a", mobilePanel).forEach(function(a){ a.addEventListener("click", function(){ setMenu(false); }); });
+  all(".mobile-drop-btn", mobilePanel).forEach(function(btn){
+    var target = $(btn.getAttribute("aria-controls")), mark = btn.querySelector("span");
+    btn.addEventListener("click", function(){
+      var show = target.hasAttribute("hidden");
+      target.toggleAttribute("hidden", !show);
+      btn.setAttribute("aria-expanded", String(show));
+      mark.textContent = show ? "−" : "＋";
+    });
+  });
+  window.addEventListener("resize", function(){ if(window.innerWidth > 820 && mobilePanel.classList.contains("open")) setMenu(false); });
+
+  /* ---------- Header search ---------- */
+  var navSearch = $("navSearch"), navResults = $("navSearchResults"), skipReopen = false;
+  function closeSearch(){ navResults.classList.remove("open"); }
+  function renderNav(q){
+    var term = q.trim();
+    navResults.textContent = "";
+    if(!term){ closeSearch(); return; }
+    var matches = search(term, 8);
+    if(!matches.length){
+      var empty = make("div", "nav-no-result", "No tool found for ");
+      empty.appendChild(make("strong", "", term));
+      navResults.appendChild(empty);
+    }else{
+      matches.forEach(function(tool){
+        var a = make("a", "nav-result"); a.href = tool.href;
+        var copy = make("span", "nav-result-copy");
+        copy.appendChild(make("strong", "", tool.name));
+        copy.appendChild(make("small", "", tool.category.toUpperCase() + " TOOL"));
+        a.appendChild(make("span", "nav-result-icon", "↗"));
+        a.appendChild(copy);
+        navResults.appendChild(a);
+      });
     }
-    const ranked=catalog.map(item=>({item,score:score(item,q)})).filter(x=>x.score>0);
-    Object.keys(aliases).forEach(alias=>{
-      if(q.includes(alias)){
-        aliases[alias].forEach(name=>{
-          const found=ranked.find(x=>x.item.name===name);
-          if(found) found.score+=30;
-        });
-      }
-    });
-    ranked.sort((a,b)=>b.score-a.score);
-    resultTitle.textContent=ranked.length ? "Best matches" : "No exact match";
-    resultHint.textContent=ranked.length ? ranked.length+" tool"+(ranked.length===1?"":"s")+" found" : "Try PDF, image, QR, resume or text";
-    items.forEach(el=>el.remove());
-    ranked.slice(0,3).forEach(({item})=>{
-      const a=document.createElement("a");
-      a.className="smart-tool-item";
-      a.href=item.url;
-      const icon=item.name.includes("PDF")?"PDF":item.name.includes("Image")||item.name.includes("Photo")?"IMG":item.name.includes("QR")?"QR":"TXT";
-      const cls=icon==="PDF"?"smart-pdf":icon==="IMG"?"smart-img":"smart-qr";
-      a.innerHTML='<span class="smart-tool-icon '+cls+'">'+icon+'</span><span><strong>'+item.name+'</strong><small>Open this Clickdy tool</small></span><b>→</b>';
-      toolList.appendChild(a);
-    });
-    suggestions.hidden=true;
+    navResults.classList.add("open");
   }
+  navSearch.addEventListener("input", function(){ renderNav(navSearch.value); });
+  navSearch.addEventListener("focus", function(){ if(skipReopen){ skipReopen = false; return; } if(navSearch.value.trim()) renderNav(navSearch.value); });
+  navSearch.addEventListener("keydown", function(e){
+    var first = navResults.querySelector(".nav-result");
+    if(e.key === "Enter" && first){ e.preventDefault(); window.location.href = first.href; }
+    else if(e.key === "ArrowDown" && first){ e.preventDefault(); first.focus(); }
+    else if(e.key === "Escape"){ closeSearch(); navSearch.blur(); }
+  });
+  navResults.addEventListener("keydown", function(e){
+    var items = all(".nav-result", navResults), i = items.indexOf(doc.activeElement);
+    if(e.key === "ArrowDown"){ e.preventDefault(); if(i < items.length - 1) items[i + 1].focus(); }
+    else if(e.key === "ArrowUp"){ e.preventDefault(); if(i > 0) items[i - 1].focus(); else { skipReopen = true; navSearch.focus(); } }
+    else if(e.key === "Escape"){ closeSearch(); skipReopen = true; navSearch.focus(); }
+  });
 
-  input.addEventListener("input",()=>render(input.value));
-  clearBtn.addEventListener("click",()=>{input.value="";render("");input.focus();});
-  suggestions.addEventListener("click",e=>{
-    const btn=e.target.closest("[data-smart-query]");
-    if(!btn)return;
-    input.value=btn.getAttribute("data-smart-query")||"";
-    render(input.value);
-    input.focus();
+  /* ---------- Profile (saved only in this browser) ---------- */
+  var profileWrap = doc.querySelector(".profile-wrap"), profileBtn = $("profileBtn");
+  function closeProfile(){ profileWrap.classList.remove("open"); profileBtn.setAttribute("aria-expanded", "false"); }
+  function initials(name){
+    var p = name.trim().split(/\s+/).filter(Boolean);
+    return p.length ? p.slice(0, 2).map(function(s){ return s.charAt(0).toUpperCase(); }).join("") : "P";
+  }
+  function loadProfile(){
+    var data = {};
+    try{ data = JSON.parse(localStorage.getItem("clickdyProfile") || "{}") || {}; }catch(err){ data = {}; }
+    var name = data.name || "", email = data.email || "", mark = initials(name);
+    $("profileName").value = name; $("profileEmail").value = email;
+    $("profileAvatar").textContent = mark; $("profileAvatarLarge").textContent = mark;
+    $("profileLabel").textContent = name ? (name.length > 13 ? name.slice(0, 13) + "…" : name) : "Profile";
+    $("profileMenuName").textContent = name || "Your Profile";
+    $("profileMenuEmail").textContent = email || "Set up your profile";
+  }
+  profileBtn.addEventListener("click", function(e){
+    e.stopPropagation();
+    var open = !profileWrap.classList.contains("open");
+    profileWrap.classList.toggle("open", open);
+    profileBtn.setAttribute("aria-expanded", String(open));
+    if(open){ closeDropdowns(); closeSearch(); }
+  });
+  $("profileSave").addEventListener("click", function(){
+    try{ localStorage.setItem("clickdyProfile", JSON.stringify({name:$("profileName").value.trim(), email:$("profileEmail").value.trim()})); }catch(err){}
+    loadProfile(); closeProfile();
+  });
+  loadProfile();
+
+  /* ---------- Click outside / Escape closes things ---------- */
+  doc.addEventListener("click", function(e){
+    if(!e.target.closest(".nav-drop")) closeDropdowns();
+    if(!e.target.closest(".nav-search-wrap")) closeSearch();
+    if(!e.target.closest(".profile-wrap")) closeProfile();
+  });
+  doc.addEventListener("keydown", function(e){
+    if(e.key !== "Escape") return;
+    closeDropdowns(); closeProfile();
+    if(mobilePanel.classList.contains("open")){ setMenu(false); menuToggle.focus(); }
+  });
+
+  /* ---------- Smart Workspace ---------- */
+  var sInput = $("smartHeroInput"), sClear = $("smartHeroClear"), sSugg = $("smartSuggestions");
+  var sTitle = $("smartResultTitle"), sHint = $("smartResultHint"), sList = $("smartToolList");
+  var sDrop = $("smartDropZone"), sFile = $("smartHeroFile"), dTitle = $("smartDropTitle"), dText = $("smartDropText");
+  var defaultList = sList.innerHTML;
+  var DROP_TITLE = dTitle.textContent, DROP_TEXT = dText.textContent;
+  var FILE_PICKS = {
+    pdf:   ["PDF to Word", "PDF Compress", "PDF Merge"],
+    image: ["Image Compressor", "Background Remover", "Image Resizer"],
+    text:  ["Word & Character Counter", "Case Converter", "AI Text to Speech"]
+  };
+  var FULL_PH = sInput.placeholder;
+  function fitPlaceholder(){ sInput.placeholder = window.innerWidth <= 760 ? "Try “compress my PDF”" : FULL_PH; }
+  fitPlaceholder(); window.addEventListener("resize", fitPlaceholder);
+  var kbd = $("smartKbd");
+  if(kbd && /Mac|iPhone|iPad/i.test(navigator.platform || navigator.userAgent)) kbd.textContent = "⌘ K";
+
+  function showTools(list, title, hint, emptyText){
+    sTitle.textContent = title; sHint.textContent = hint;
+    sList.textContent = "";
+    if(!list.length){ sList.appendChild(make("div", "smart-empty", emptyText || "")); return; }
+    list.forEach(function(tool){
+      var a = make("a", "smart-tool-item"); a.href = tool.href;
+      var cls = tool.category === "pdf" ? "smart-pdf" : tool.category === "image" ? "smart-img" : "smart-qr";
+      var text = make("span");
+      text.appendChild(make("strong", "", tool.name));
+      text.appendChild(make("small", "", tool.desc));
+      a.appendChild(make("span", "smart-tool-icon " + cls, tool.label));
+      a.appendChild(text);
+      a.appendChild(make("b", "", "→"));
+      sList.appendChild(a);
+    });
+  }
+  function resetSmart(){
+    sInput.value = "";
+    sClear.classList.remove("show");
+    sSugg.hidden = false;
+    sList.innerHTML = defaultList;
+    sTitle.textContent = "Quick actions"; sHint.textContent = "No upload required";
+    dTitle.textContent = DROP_TITLE; dText.textContent = DROP_TEXT;
+  }
+  function renderSmart(q){
+    var term = q.trim();
+    if(!term){ resetSmart(); return; }
+    sClear.classList.add("show");
+    sSugg.hidden = true;
+    var found = search(term, 3);
+    showTools(found, found.length ? "Best matches" : "No exact match",
+      found.length ? found.length + " tool" + (found.length === 1 ? "" : "s") + " found" : "Try PDF, image, QR, resume or text",
+      "Nothing matched “" + term + "”. Try PDF, image, QR, resume or text.");
+  }
+  sInput.addEventListener("input", function(){ renderSmart(sInput.value); });
+  sInput.addEventListener("keydown", function(e){
+    if(e.key === "Enter"){ var first = sList.querySelector(".smart-tool-item"); if(first){ e.preventDefault(); window.location.href = first.href; } }
+  });
+  sClear.addEventListener("click", function(){ resetSmart(); sInput.focus(); });
+  sSugg.addEventListener("click", function(e){
+    var b = e.target.closest("[data-smart-query]"); if(!b) return;
+    sInput.value = b.getAttribute("data-smart-query"); renderSmart(sInput.value); sInput.focus();
   });
 
   function handleFile(file){
-    if(!file)return;
-    const name=file.name.toLowerCase();
-    const type=(file.type||"").toLowerCase();
-    let query="";
-    if(type.includes("pdf") || name.endsWith(".pdf")) query="pdf";
-    else if(type.startsWith("image/") || /\.(jpg|jpeg|png|webp|gif)$/i.test(name)) query="image";
-    else if(type.startsWith("text/") || /\.(txt|doc|docx)$/i.test(name)) query="text";
-    else query=name.replace(/\.[^.]+$/,"").replace(/[-_]+/g," ");
-    input.value=query;
-    render(query);
-    dropTitle.textContent="File detected";
-    dropText.textContent=file.name+" • "+(file.type||"file")+" • choose a recommended tool below";
-    dropZone.classList.remove("dragging");
-  }
-
-  dropZone.addEventListener("click",()=>fileInput && fileInput.click());
-  dropZone.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();fileInput.click();}});
-  fileInput.addEventListener("change",()=>handleFile(fileInput.files[0]));
-  ["dragenter","dragover"].forEach(ev=>dropZone.addEventListener(ev,e=>{e.preventDefault();dropZone.classList.add("dragging");}));
-  ["dragleave","drop"].forEach(ev=>dropZone.addEventListener(ev,e=>{e.preventDefault();if(ev==="dragleave" && !dropZone.contains(e.relatedTarget))dropZone.classList.remove("dragging");}));
-  dropZone.addEventListener("drop",e=>handleFile(e.dataTransfer.files[0]));
-
-  // Keyboard shortcut: Ctrl/Cmd + K focuses the smart workspace.
-  document.addEventListener("keydown",e=>{
-    if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){
-      e.preventDefault();
-      input.focus();
-      input.select();
+    sDrop.classList.remove("dragging");
+    if(!file) return;
+    var name = file.name.toLowerCase(), type = (file.type || "").toLowerCase(), kind = "";
+    if(type.indexOf("pdf") > -1 || /\.pdf$/.test(name)) kind = "pdf";
+    else if(type.indexOf("image/") === 0 || /\.(jpe?g|png|webp|gif|bmp|svg|avif)$/.test(name)) kind = "image";
+    else if(type.indexOf("text/") === 0 || /\.(txt|doc|docx|rtf|md)$/.test(name)) kind = "text";
+    dTitle.textContent = "File detected";
+    dText.textContent = file.name + " • " + (file.type || "file");
+    sInput.value = "";
+    sSugg.hidden = true;
+    sClear.classList.add("show");
+    if(kind){
+      showTools(FILE_PICKS[kind].map(toolByName).filter(Boolean), "Recommended for your file", kind.toUpperCase() + " detected");
+    }else{
+      var guess = search(name.replace(/\.[^.]+$/, "").replace(/[-_]+/g, " "), 3);
+      showTools(guess, guess.length ? "Possible matches" : "No exact match", "Unknown file type", "We couldn't tell what this file is. Try the search box above.");
     }
+    sFile.value = "";   /* lets you pick the same file again */
+  }
+  sDrop.addEventListener("click", function(){ sFile.click(); });
+  sDrop.addEventListener("keydown", function(e){ if(e.key === "Enter" || e.key === " "){ e.preventDefault(); sFile.click(); } });
+  sFile.addEventListener("change", function(){ handleFile(sFile.files[0]); });
+  ["dragenter", "dragover"].forEach(function(ev){ sDrop.addEventListener(ev, function(e){ e.preventDefault(); sDrop.classList.add("dragging"); }); });
+  sDrop.addEventListener("dragleave", function(e){ if(!sDrop.contains(e.relatedTarget)) sDrop.classList.remove("dragging"); });
+  sDrop.addEventListener("drop", function(e){ e.preventDefault(); handleFile(e.dataTransfer && e.dataTransfer.files[0]); });
+
+  doc.addEventListener("keydown", function(e){
+    if((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k"){ e.preventDefault(); sInput.focus(); sInput.select(); }
   });
-  render("");
 })();
 </script>
-
 </body>
 </html>
