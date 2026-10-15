@@ -1,0 +1,19 @@
+{
+  "slug": "critical-linux-kernel-pwnescape-flaw-exposes-host-memory-222e66",
+  "title": "Critical Linux Kernel PwnEscape Flaw Exposes Host Memory",
+  "excerpt": "A critical Linux kernel vulnerability dubbed PwnEscape allows virtual machines to read host computer memory.",
+  "category": "Cybersecurity",
+  "tags": [
+    "Linux",
+    "Vulnerability",
+    "Cloud Computing",
+    "Cybersecurity"
+  ],
+  "body_html": "<p>A newly uncovered security flaw in the Linux kernel enables software running within a virtual machine to access memory on the underlying host computer. Discovered within the networking code of the kernel rather than any specific cloud platform configuration, the vulnerability affects shared systems broadly.</p><p>A researcher successfully demonstrated the memory leak targeting live cloud sandboxes operated by Vercel, which subsequently confirmed the issue. The critical vulnerability has been designated with a tracking identifier and nicknamed PwnEscape.</p><p>Because the bug originates in the core Linux networking code, its impact extends beyond individual cloud setups, raising concerns for environments relying on virtual machine isolation.</p>",
+  "source_name": "The Hacker News",
+  "source_url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+  "source_published": "2026-10-15T20:24:36+00:00",
+  "created_at": "2026-10-15T20:37:10.293457+00:00",
+  "status": "draft",
+  "flags": []
+}
