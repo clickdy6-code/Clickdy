@@ -110,7 +110,7 @@ img{max-width:100%}
   border:0;background:transparent;color:#a9b8cc;padding:10px 13px;border-radius:11px;
   font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:6px;transition:all .25s ease;
 }
-.nav-link:hover,.nav-drop-btn:hover,.nav-drop.open .nav-drop-btn{background:#101f34;color:#5db5ff;box-shadow:0 0 0 1px rgba(65,166,255,.12) inset}
+.nav-link:hover,.nav-link[aria-current="page"],.nav-drop-btn:hover,.nav-drop.open .nav-drop-btn{background:#101f34;color:#5db5ff;box-shadow:0 0 0 1px rgba(65,166,255,.12) inset}
 .nav-drop{position:relative}
 .nav-drop-btn svg{transition:transform .2s ease}
 .nav-drop.open .nav-drop-btn svg{transform:rotate(180deg)}
@@ -147,22 +147,6 @@ img{max-width:100%}
 .nav-no-result{padding:16px;color:var(--muted);font-size:11px;text-align:center}
 .nav-no-result strong{color:var(--text)}
 
-.profile-wrap{position:relative;flex:0 0 auto}
-.profile-btn{height:42px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:4px 10px 4px 5px;display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.12)}
-.profile-btn:hover,.profile-wrap.open .profile-btn{border-color:rgba(56,165,255,.5);background:var(--surface-2)}
-.profile-avatar{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#38a5ff,#7468ff);color:#fff;display:grid;place-items:center;font-size:11px;font-weight:800}
-.profile-avatar.large{width:42px;height:42px;font-size:13px}
-.profile-menu{position:absolute;right:0;top:calc(100% + 9px);width:285px;padding:13px;border:1px solid var(--line);border-radius:17px;background:var(--surface);box-shadow:var(--shadow);opacity:0;visibility:hidden;transform:translateY(-5px);pointer-events:none;transition:.18s ease;z-index:250}
-.profile-wrap.open .profile-menu{opacity:1;visibility:visible;transform:none;pointer-events:auto}
-.profile-head{display:flex;align-items:center;gap:10px;padding:4px 4px 12px;border-bottom:1px solid var(--line)}
-.profile-head strong{display:block;font-size:13px;color:var(--text)}
-.profile-head span:not(.profile-avatar){display:block;color:var(--muted);font-size:10px;margin-top:3px}
-.profile-form{display:grid;gap:7px;padding-top:12px}
-.profile-form label{font-size:10px;color:var(--muted);font-weight:700}
-.profile-form input{height:38px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);padding:0 10px;outline:0;font-size:12px}
-.profile-form input:focus{border-color:rgba(56,165,255,.6);box-shadow:0 0 0 3px rgba(56,165,255,.10)}
-.profile-save{height:39px;border:0;border-radius:10px;background:linear-gradient(135deg,#138ce9,#4b60f4);color:#fff;font-weight:800;font-size:12px;margin-top:4px}
-.profile-save:hover{filter:brightness(1.08)}
 
 .menu-toggle{
   display:none;width:42px;height:42px;border:1px solid #20364e;border-radius:12px;background:#0d1726;color:#edf6ff;
@@ -394,9 +378,6 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
   .site-header{background:var(--bg);border-bottom-color:#1b2b3e;-webkit-backdrop-filter:none;backdrop-filter:none}
   .nav-links,.nav-search-wrap{display:none}
   .menu-toggle{display:flex}
-  .profile-wrap{position:static}
-  .profile-menu{right:14px;width:min(285px,calc(100vw - 28px))}
-  .profile-form input{font-size:16px}
 
   body.mobile-menu-open{overflow:hidden}
   .menu-backdrop{display:block;position:fixed;inset:0;z-index:98;background:rgba(2,8,16,.58);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);opacity:0;visibility:hidden;transition:opacity .22s ease,visibility .22s ease}
@@ -421,6 +402,7 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
   }
   .mobile-drop-btn span{width:27px;height:27px;border-radius:9px;display:grid;place-items:center;background:#14263b;color:#70c4ff;border:1px solid #203a55;font-size:15px;line-height:1}
   .mobile-drop-links{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:3px 0 8px}
+  .mobile-panel a[aria-current="page"]{background:linear-gradient(90deg,rgba(67,178,255,.12),rgba(125,107,255,.08));border-color:rgba(99,199,255,.16);color:#fff}
   .mobile-panel .mobile-drop-links a{min-height:62px;flex-direction:column;align-items:flex-start;justify-content:center;gap:4px;padding:10px;margin:0;background:#0f1d2e;border:1px solid #1d344c;border-radius:12px;font-size:11px}
   .mobile-panel .mobile-drop-links a:hover,.mobile-panel .mobile-drop-links a:focus-visible{background:#13273d;border-color:rgba(99,199,255,.28)}
   .mobile-panel::-webkit-scrollbar{width:5px}
@@ -469,10 +451,6 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
   .footer-brand{grid-column:span 2}
   .footer-bottom{display:block}
   .socials{margin-top:12px}
-}
-@media(max-width:480px){
-  .profile-label{display:none}
-  .profile-btn{padding-right:8px}
 }
 @media(max-width:420px){
   .hero-actions .btn{width:100%}
@@ -523,6 +501,10 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
           <a href="background-remover/index.html"><span class="menu-icon">AI</span>Background Remover</a>
         </div>
       </div>
+
+      <a class="nav-link" href="blog/index.html">Blog</a>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="contact.html">Contact</a>
     </nav>
 
     <div class="nav-search-wrap">
@@ -533,26 +515,6 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
       <div class="nav-search-results" id="navSearchResults" aria-label="Tool search results"></div>
     </div>
 
-    <div class="profile-wrap">
-      <button class="profile-btn" id="profileBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="profileMenu">
-        <span class="profile-avatar" id="profileAvatar">P</span><span class="profile-label" id="profileLabel">Profile</span>
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-      </button>
-      <div class="profile-menu" id="profileMenu">
-        <div class="profile-head">
-          <div class="profile-avatar large" id="profileAvatarLarge">P</div>
-          <div><strong id="profileMenuName">Your Profile</strong><span id="profileMenuEmail">Set up your profile</span></div>
-        </div>
-        <div class="profile-form">
-          <label for="profileName">Display name</label>
-          <input id="profileName" type="text" maxlength="40" autocomplete="name" placeholder="Your name">
-          <label for="profileEmail">Email (optional)</label>
-          <input id="profileEmail" type="email" maxlength="80" autocomplete="email" placeholder="you@example.com">
-          <button class="profile-save" id="profileSave" type="button">Save Profile</button>
-        </div>
-      </div>
-    </div>
-
     <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobilePanel" aria-label="Open navigation menu" title="Open navigation menu">
       <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
     </button>
@@ -561,7 +523,7 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
 
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <nav class="mobile-panel" id="mobilePanel" aria-label="Mobile navigation">
-  <a href="index.html">Home</a>
+  <a href="index.html" aria-current="page">Home</a>
   <button class="mobile-drop-btn" type="button" aria-expanded="false" aria-controls="mobileToolsLinks">Tools <span aria-hidden="true">＋</span></button>
   <div class="mobile-drop-links" id="mobileToolsLinks" hidden>
     <a href="#tools" data-filter-link="pdf">PDF Tools</a>
@@ -576,6 +538,8 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
     <a href="text-to-speech/index.html">Text to Speech</a>
     <a href="background-remover/index.html">Background Remover</a>
   </div>
+  <a href="blog/index.html">Blog</a>
+  <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
 </nav>
 
@@ -926,7 +890,7 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
       closeDropdowns(drop);
       drop.classList.toggle("open", open);
       btn.setAttribute("aria-expanded", String(open));
-      closeSearch(); closeProfile();
+      closeSearch();
     });
     all("a", drop).forEach(function(a){ a.addEventListener("click", function(){ closeDropdowns(); }); });
   });
@@ -943,7 +907,6 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
     menuToggle.setAttribute("aria-label", open ? "Close navigation menu" : "Open navigation menu");
     menuToggle.title = open ? "Close navigation menu" : "Open navigation menu";
     menuToggle.innerHTML = open ? ICON_CLOSE : ICON_MENU;
-    if(open) closeProfile();
   }
   menuToggle.addEventListener("click", function(e){ e.stopPropagation(); setMenu(!mobilePanel.classList.contains("open")); });
   backdrop.addEventListener("click", function(){ setMenu(false); });
@@ -999,45 +962,17 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
     else if(e.key === "Escape"){ closeSearch(); skipReopen = true; navSearch.focus(); }
   });
 
-  /* ---------- Profile (saved only in this browser) ---------- */
-  var profileWrap = doc.querySelector(".profile-wrap"), profileBtn = $("profileBtn");
-  function closeProfile(){ profileWrap.classList.remove("open"); profileBtn.setAttribute("aria-expanded", "false"); }
-  function initials(name){
-    var p = name.trim().split(/\s+/).filter(Boolean);
-    return p.length ? p.slice(0, 2).map(function(s){ return s.charAt(0).toUpperCase(); }).join("") : "P";
-  }
-  function loadProfile(){
-    var data = {};
-    try{ data = JSON.parse(localStorage.getItem("clickdyProfile") || "{}") || {}; }catch(err){ data = {}; }
-    var name = data.name || "", email = data.email || "", mark = initials(name);
-    $("profileName").value = name; $("profileEmail").value = email;
-    $("profileAvatar").textContent = mark; $("profileAvatarLarge").textContent = mark;
-    $("profileLabel").textContent = name ? (name.length > 13 ? name.slice(0, 13) + "…" : name) : "Profile";
-    $("profileMenuName").textContent = name || "Your Profile";
-    $("profileMenuEmail").textContent = email || "Set up your profile";
-  }
-  profileBtn.addEventListener("click", function(e){
-    e.stopPropagation();
-    var open = !profileWrap.classList.contains("open");
-    profileWrap.classList.toggle("open", open);
-    profileBtn.setAttribute("aria-expanded", String(open));
-    if(open){ closeDropdowns(); closeSearch(); }
-  });
-  $("profileSave").addEventListener("click", function(){
-    try{ localStorage.setItem("clickdyProfile", JSON.stringify({name:$("profileName").value.trim(), email:$("profileEmail").value.trim()})); }catch(err){}
-    loadProfile(); closeProfile();
-  });
-  loadProfile();
+  /* The old name/email widget was removed. Clean up anything it saved in visitors' browsers. */
+  try{ localStorage.removeItem("clickdyProfile"); }catch(err){}
 
   /* ---------- Click outside / Escape closes things ---------- */
   doc.addEventListener("click", function(e){
     if(!e.target.closest(".nav-drop")) closeDropdowns();
     if(!e.target.closest(".nav-search-wrap")) closeSearch();
-    if(!e.target.closest(".profile-wrap")) closeProfile();
   });
   doc.addEventListener("keydown", function(e){
     if(e.key !== "Escape") return;
-    closeDropdowns(); closeProfile();
+    closeDropdowns();
     if(mobilePanel.classList.contains("open")){ setMenu(false); menuToggle.focus(); }
   });
 
