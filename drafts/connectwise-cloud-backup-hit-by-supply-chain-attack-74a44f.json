@@ -1,0 +1,20 @@
+{
+  "slug": "connectwise-cloud-backup-hit-by-supply-chain-attack-74a44f",
+  "title": "ConnectWise Cloud Backup Hit by Supply-Chain Attack",
+  "excerpt": "Hackers breached Microsoft 365 tenants after compromising application identities in a ConnectWise supply-chain attack.",
+  "category": "Cybersecurity",
+  "tags": [
+    "Cybersecurity",
+    "Microsoft 365",
+    "ConnectWise",
+    "Cloud Backup",
+    "Data Breach"
+  ],
+  "body_html": "<p>ConnectWise has temporarily disabled customer access to its Cloud Backup service, previously known as SkyKick Cloud Backup, following a security incident.</p>\n<p>According to the company, attackers managed to access application identities linked to the backup tool. This unauthorized access was then used to compromise multiple Microsoft 365 tenants.</p>\n<p>Investigation and remediation efforts are currently underway regarding the supply-chain attack. Further updates are expected as more information becomes available.</p>",
+  "source_name": "BleepingComputer",
+  "source_url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+  "source_published": "2026-10-17T15:18:51+00:00",
+  "created_at": "2026-10-17T20:16:06.633411+00:00",
+  "status": "draft",
+  "flags": []
+}
