@@ -8,7 +8,6 @@ Creates:
   blog/category/<name>/...            one listing per category
   blog/<slug>/index.html              one static page per article (good for SEO)
   blog/search.json                    tiny index used by the on-site article search
-  blog/feed.xml                       RSS feed of the latest articles
   sitemap-blog.xml
 """
 import html
@@ -431,7 +430,6 @@ __MARK__
 <title>__TITLE__</title>
 <meta name="description" content="__DESC__">
 <link rel="canonical" href="__CANON__">
-<link rel="alternate" type="application/rss+xml" title="__SITENAME__ News" href="/blog/feed.xml">
 <link rel="icon" type="image/png" href="/assets/logo.png">
 <meta property="og:type" content="__OG__">
 <meta property="og:site_name" content="__SITENAME__">
@@ -534,7 +532,7 @@ __BODY__
       </div>
       <div class="footer-col"><h4>Explore</h4><a href="/">Home</a><a href="/about.html">About</a><a href="/blog/">Blog</a><a href="/contact.html">Contact</a></div>
       <div class="footer-col"><h4>Categories</h4><a href="/?filter=pdf#tools">PDF Tools</a><a href="/?filter=image#tools">Image Tools</a><a href="/?filter=ai#tools">AI Tools</a><a href="/?filter=text#tools">Text Tools</a><a href="/?filter=productivity#tools">Productivity</a><a href="/?filter=utility#tools">Utilities</a></div>
-      <div class="footer-col"><h4>Legal</h4><a href="/privacy.html">Privacy</a><a href="/blog/feed.xml">RSS feed</a></div>
+      <div class="footer-col"><h4>Legal</h4><a href="/privacy.html">Privacy</a></div>
     </div>
     <div class="footer-bottom">
       <span>&copy; <span id="year">__YEAR__</span> __SITENAME__. All rights reserved.</span>
@@ -759,19 +757,6 @@ def build_search_index(posts):
     write(os.path.join(BLOG_DIR, "search.json"), json.dumps(data, ensure_ascii=False, separators=(",", ":")))
 
 
-def build_feed(posts):
-    items = []
-    for p in posts[:30]:
-        link = "%s/blog/%s/" % (SITE, p["slug"])
-        items.append("<item><title>%s</title><link>%s</link><guid isPermaLink=\"true\">%s</guid><pubDate>%s</pubDate>"
-                     "<category>%s</category><description>%s</description></item>" % (
-                         e(p["title"]), e(link), e(link), format_datetime(parse_iso(p["published_at"])), e(p["category"]), e(p.get("excerpt", ""))))
-    feed = ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>%s News</title><link>%s/blog/</link>'
-            '<description>Fresh AI, tech and gadget news from %s.</description><language>en</language>%s</channel></rss>\n') % (
-        e(SITE_NAME), e(SITE), e(SITE_NAME), "".join(items))
-    write(os.path.join(BLOG_DIR, "feed.xml"), feed)
-
-
 def main():
     posts = load_posts()
     clean_generated()
@@ -787,7 +772,9 @@ def main():
     for p in posts:
         urls.append((build_post(p, posts), parse_iso(p["published_at"]).date().isoformat()))
     build_search_index(posts)
-    build_feed(posts)
+    old_feed = os.path.join(BLOG_DIR, "feed.xml")   # earlier versions made an RSS file; remove it
+    if os.path.exists(old_feed):
+        os.remove(old_feed)
 
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u, last in urls:
