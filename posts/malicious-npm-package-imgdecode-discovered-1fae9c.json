@@ -1,0 +1,19 @@
+{
+  "slug": "malicious-npm-package-imgdecode-discovered-1fae9c",
+  "title": "Malicious npm Package 'imgdecode' Discovered",
+  "excerpt": "Researchers found a malicious npm package named imgdecode tied to the MALFEX software supply chain attack campaign.",
+  "category": "Cybersecurity",
+  "tags": [
+    "Cybersecurity",
+    "npm",
+    "Supply Chain",
+    "Malware"
+  ],
+  "body_html": "<p>Security researchers have uncovered a malicious npm package identified as \"imgdecode,\" which is linked to a recent software supply chain attack campaign known as MALFEX. The package was uploaded to the npm registry on September 30, 2026, by a user account under the name \"malfexteste8.\"</p><p>According to the findings, the package includes a Windows native addon designed to conceal a shellcode loader. Records indicate that the file had accumulated 979 downloads and remained accessible on the npm registry.</p>",
+  "source_name": "The Hacker News",
+  "source_url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+  "source_published": "2026-10-17T11:11:56+00:00",
+  "created_at": "2026-10-17T11:48:51.715243+00:00",
+  "status": "published",
+  "published_at": "2026-10-18T14:33:16.996Z"
+}
