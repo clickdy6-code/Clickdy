@@ -1,0 +1,19 @@
+{
+  "slug": "connectwise-suspends-cloud-backup-following-m365-compromises-952b3a",
+  "title": "ConnectWise Suspends Cloud Backup Following M365 Compromises",
+  "excerpt": "ConnectWise disabled seven application identities and suspended its Cloud Backup service after threat actors gained unauthorized access.",
+  "category": "Cybersecurity",
+  "tags": [
+    "ConnectWise",
+    "Microsoft 365",
+    "Cybersecurity",
+    "Cloud Backup"
+  ],
+  "body_html": "<p>ConnectWise has announced the suspension of its Cloud Backup service and disabled seven application identities following a security incident. According to the company, unknown threat actors managed to gain unauthorized access to these application identities, which subsequently led to compromised Microsoft 365 tenants.</p><p>The investigation into the breach is currently ongoing. As part of its response measures, the company has publicly listed the deactivated application identities, including the specific identifier associated with the ConnectWise Cloud Backup service, while it continues to assess the full scope of the unauthorized access.</p>",
+  "source_name": "The Hacker News",
+  "source_url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+  "source_published": "2026-10-18T08:23:02+00:00",
+  "created_at": "2026-10-18T12:14:16.694357+00:00",
+  "status": "draft",
+  "flags": []
+}
