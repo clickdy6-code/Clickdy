@@ -1,0 +1,19 @@
+{
+  "slug": "stolen-updraftcentral-keys-used-in-wordpress-attacks-0f04a6",
+  "title": "Stolen UpdraftCentral Keys Used in WordPress Attacks",
+  "excerpt": "Attackers used stolen connection keys from TeamUpdraft to send commands and backdoor connected WordPress websites.",
+  "category": "Cybersecurity",
+  "tags": [
+    "WordPress",
+    "Security",
+    "Cybersecurity",
+    "Data Breach"
+  ],
+  "body_html": "<p>TeamUpdraft, the developer behind popular WordPress security and backup plugins, suffered a website breach. The security incident involved the potential compromise of UpdraftCentral connection keys.</p><p>Threat actors utilized these stolen keys to target connected websites by sending unauthorized commands. The breach has raised concerns over the safety of sites managed through the affected platform, as unauthorized access could lead to backdoors being installed on vulnerable WordPress installations.</p><p>Administrators using the affected management tools are advised to monitor their systems for unauthorized activity and check for any unexpected changes or backdoors on their WordPress sites as further details emerge regarding the security incident.</p>",
+  "source_name": "BleepingComputer",
+  "source_url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+  "source_published": "2026-10-21T01:01:50+00:00",
+  "created_at": "2026-10-21T02:13:29.447088+00:00",
+  "status": "published",
+  "published_at": "2026-10-21T07:02:28.694Z"
+}
