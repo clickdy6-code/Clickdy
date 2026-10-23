@@ -1,0 +1,26 @@
+{
+  "status": "draft",
+  "brand": "Brand",
+  "name": "Model Name",
+  "announced": "2026-01-01",
+  "released": "2026-01-15",
+  "price": { "usd": 499, "pkr": 139999, "note": "Launch price" },
+  "images": [
+    { "file": "/assets/phones/brand-model-name/main.webp", "thumb": "/assets/phones/brand-model-name/main.webp", "alt": "Brand Model Name", "credit": "Brand press kit", "source_url": "" }
+  ],
+  "key": {
+    "display_in": 6.7, "display_type": "AMOLED", "refresh_hz": 120, "peak_nits": 2000,
+    "chipset": "Snapdragon 7 Gen 3", "ram_gb": [8, 12], "storage_gb": [256, 512],
+    "main_mp": 50, "cameras": 3, "ois": true, "telephoto": false, "front_mp": 32, "video": "4K@60fps",
+    "battery_mah": 5000, "wired_w": 67, "wireless_w": 0,
+    "os": "Android 16", "five_g": true, "wifi": "Wi-Fi 6", "nfc": true, "usb": "USB-C", "esim": false, "dual_sim": true,
+    "weight_g": 195, "thickness_mm": 7.9, "ip": "IP54", "year": 2026
+  },
+  "specs": {
+    "Display": { "Type": "AMOLED", "Size": "6.7 inches", "Refresh rate": "120 Hz" },
+    "Platform": { "Chipset": "Snapdragon 7 Gen 3", "OS": "Android 16" },
+    "Battery": { "Capacity": "5000 mAh", "Charging": "67W wired" }
+  },
+  "sources": [ { "name": "Official specification page", "url": "https://example.com/official-page" } ],
+  "updated": "2026-01-15"
+}
