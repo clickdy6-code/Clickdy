@@ -1,0 +1,20 @@
+{
+  "slug": "blackx-uefi-bootkit-targets-central-asian-diplomats-077ef2",
+  "title": "BlackX UEFI Bootkit Targets Central Asian Diplomats",
+  "excerpt": "A new UEFI bootkit named BlackX targets diplomatic organizations in Central Asia, bypassing Secure Boot on patched Windows systems.",
+  "category": "Cybersecurity",
+  "tags": [
+    "Cybersecurity",
+    "UEFI",
+    "Bootkit",
+    "APT41",
+    "Kaspersky"
+  ],
+  "body_html": "<p>A sophisticated Unified Extensible Firmware Interface bootkit known as BlackX has been deployed in targeted attacks against diplomatic organizations in Central Asia. According to a technical report by Kaspersky, the campaign took place in early 2026 and focused on entities located in Tajikistan, Uzbekistan, and Turkmenistan.</p><p>The malicious software is capable of bypassing Secure Boot on patched Windows systems that are missing necessary revocations. Security researchers suspect that the cyber espionage activity is orchestrated by APT41, a state-sponsored hacking group with links to China.</p>",
+  "source_name": "The Hacker News",
+  "source_url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+  "source_published": "2026-10-23T18:50:13+00:00",
+  "created_at": "2026-10-23T19:36:46.396033+00:00",
+  "status": "published",
+  "published_at": "2026-10-25T15:34:27.224Z"
+}
