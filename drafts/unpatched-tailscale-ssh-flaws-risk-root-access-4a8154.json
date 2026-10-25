@@ -1,0 +1,19 @@
+{
+  "slug": "unpatched-tailscale-ssh-flaws-risk-root-access-4a8154",
+  "title": "Unpatched Tailscale SSH Flaws Risk Root Access",
+  "excerpt": "Security research reveals unpatched Tailscale SSH flaws could allow a compromised device to gain root access on other connected servers.",
+  "category": "Cybersecurity",
+  "tags": [
+    "Tailscale",
+    "SSH",
+    "Cybersecurity",
+    "Vulnerabilities"
+  ],
+  "body_html": "<p>A security researcher has published findings regarding unpatched vulnerabilities in Tailscale SSH that could potentially allow a single compromised device on a network to achieve root access on other reachable servers.</p><p>According to the details shared this week, the attack vector relies on two specific conditions. First, Tailscale SSH must be configured to permit port forwarding. Second, an attacker must already maintain control over a device that is permitted to connect to the target server under the existing network access rules.</p><p>The researcher outlined how these factors combine to create a security risk for network administrators utilizing the service. The findings highlight the importance of careful access control management when deploying remote connection features across networked infrastructure.</p>",
+  "source_name": "The Hacker News",
+  "source_url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+  "source_published": "2026-10-25T17:44:09+00:00",
+  "created_at": "2026-10-25T20:04:37.236645+00:00",
+  "status": "draft",
+  "flags": []
+}
