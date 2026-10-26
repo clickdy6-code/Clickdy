@@ -1,0 +1,19 @@
+{
+  "slug": "ai-coding-agents-hijacked-via-malicious-markdown-file-9e8f06",
+  "title": "AI Coding Agents Hijacked via Malicious Markdown File",
+  "excerpt": "Researchers discovered a malicious instruction file that tricked an AI coding agent into installing a rogue npm package.",
+  "category": "Cybersecurity",
+  "tags": [
+    "AI",
+    "Security",
+    "Coding",
+    "Malware"
+  ],
+  "body_html": "<p>Security researchers have uncovered a new method for hijacking AI coding assistants by using a malicious instruction file placed inside a user's Downloads folder.</p><p>According to the findings, the attack involved a malicious markdown instruction file named AGENTS.md. This file was able to deceive an AI coding agent, leading it to automatically install a rogue npm package without the user realizing the threat.</p><p>The incident highlights potential security risks associated with how AI coding agents process local files and automated instructions within development environments.</p>",
+  "source_name": "BleepingComputer",
+  "source_url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+  "source_published": "2026-10-25T15:49:38+00:00",
+  "created_at": "2026-10-26T07:28:10.695707+00:00",
+  "status": "draft",
+  "flags": []
+}
