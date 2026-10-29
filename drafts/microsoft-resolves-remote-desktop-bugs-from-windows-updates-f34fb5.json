@@ -1,0 +1,19 @@
+{
+  "slug": "microsoft-resolves-remote-desktop-bugs-from-windows-updates-f34fb5",
+  "title": "Microsoft Resolves Remote Desktop Bugs From Windows Updates",
+  "excerpt": "Microsoft fixes a bug that blocked non-admin users from using Remote Desktop when the Administrator protection security feature was active.",
+  "category": "Tech",
+  "tags": [
+    "Microsoft",
+    "Windows",
+    "Remote Desktop",
+    "Cybersecurity"
+  ],
+  "body_html": "<p>Microsoft has addressed a known bug that affected Remote Desktop connections for non-administrator users. The issue occurred when the Administrator protection security feature was enabled on devices following recent Windows updates.</p><p>With the fix now implemented, standard users should be able to connect properly without encountering the previous connection block tied to the security setting.</p>",
+  "source_name": "BleepingComputer",
+  "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+  "source_published": "2026-10-29T14:35:40+00:00",
+  "created_at": "2026-10-29T14:44:03.063443+00:00",
+  "status": "draft",
+  "flags": []
+}
