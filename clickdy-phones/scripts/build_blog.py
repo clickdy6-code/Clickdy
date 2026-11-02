@@ -23,7 +23,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import ROOT, read_json, sanitize_html, slugify  # noqa: E402
 
 CFG = read_json(os.path.join(ROOT, "scripts", "feeds.json"), {}) or {}
-SITE = (os.environ.get("SITE_URL") or CFG.get("site_url") or "https://clickdy.com").rstrip("/")
+SITE = (os.environ.get("SITE_URL") or CFG.get("site_url") or "https://clickdy.vercel.app").rstrip("/")
 SITE_NAME = CFG.get("site_name", "Clickdy")
 FIRST_PAGE = int(CFG.get("first_page_posts", 11))   # 1 featured + 10 cards = four tidy rows of 3
 PAGE_SIZE = int(CFG.get("posts_per_page", 12))
