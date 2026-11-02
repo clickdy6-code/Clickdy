@@ -1,0 +1,20 @@
+{
+  "slug": "critical-flaw-in-canonical-lxd-and-microcloud-allows-impersonation-c1c201",
+  "title": "Critical Flaw in Canonical LXD and MicroCloud Allows Impersonation",
+  "excerpt": "A critical vulnerability in Canonical's LXD and MicroCloud lets attackers log in as trusted clients without needing a private key.",
+  "category": "Cybersecurity",
+  "tags": [
+    "Cybersecurity",
+    "Vulnerability",
+    "Canonical",
+    "LXD",
+    "MicroCloud"
+  ],
+  "body_html": "<p>A critical security vulnerability carrying a maximum CVSS score of 10.0 has been identified in Canonical's LXD and MicroCloud software. The flaw allows malicious actors to authenticate as trusted clients without possessing the required private key.</p><p>To exploit this issue, an attacker needs network access to the HTTPS API alongside the public certificate of a trusted client. Successful exploitation grants the attacker the ability to act as the impersonated client, providing access to the cluster and associated virtual machines.</p>",
+  "source_name": "The Hacker News",
+  "source_url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+  "source_published": "2026-11-01T08:51:31+00:00",
+  "created_at": "2026-11-01T10:51:53.373143+00:00",
+  "status": "published",
+  "published_at": "2026-11-02T16:24:26.672Z"
+}
