@@ -73,7 +73,7 @@ img{max-width:100%}
 .section{padding:78px 0}
 
 .section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}
-.section-kicker,.badge,.trust-pill{
+.section-kicker{
   display:inline-flex;align-items:center;gap:8px;border-radius:999px;
   background:rgba(14,24,39,.8);border:1px solid #21354e;color:#64baff;box-shadow:0 8px 28px rgba(0,0,0,.18);
 }
@@ -169,90 +169,6 @@ img{max-width:100%}
 .btn-secondary{background:#0d1726;color:#a9d9ff;border-color:#263d58}
 .btn-secondary:hover{background:#112238;border-color:#3a648d;transform:translateY(-2px)}
 
-/* ============ Hero ============ */
-.hero{position:relative;padding:78px 0 48px;overflow:hidden}
-.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(2px);pointer-events:none}
-.hero::before{width:420px;height:420px;background:rgba(38,174,255,.14);left:-180px;top:30px;animation:orbFloat 8s ease-in-out infinite}
-.hero::after{width:360px;height:360px;background:rgba(125,95,255,.13);right:-160px;top:80px;animation:orbFloat 10s ease-in-out infinite reverse}
-.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:55px;align-items:center;position:relative;z-index:1}
-.hero-copy{max-width:650px}
-.badge{padding:8px 13px;font-size:12px;font-weight:700}
-.badge .bolt{color:#13bca8}
-.hero h1{font-family:"Plus Jakarta Sans",sans-serif;font-size:clamp(43px,5.3vw,72px);line-height:1.01;letter-spacing:-.06em;margin:20px 0 18px;color:#f7fbff}
-.hero h1 .gradient{color:#63c7ff;-webkit-text-fill-color:#63c7ff}
-.hero-sub{max-width:610px;font-size:17px;line-height:1.7;color:var(--soft)}
-.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}
-.trust-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
-.trust-pill{padding:8px 11px;font-size:12px;color:#93a7bf;gap:7px}
-.trust-pill svg{color:#10a9c0}
-
-/* ============ Hero: Smart Workspace ============ */
-.preview-wrap{position:relative;width:100%;max-width:650px;height:560px;margin:-24px auto 0;display:flex;align-items:center;justify-content:center}
-.preview-glow{position:absolute;inset:13% 8% 9%;background:linear-gradient(135deg,rgba(28,169,255,.2),rgba(116,92,255,.16));filter:blur(45px);border-radius:50%}
-.product-window{
-  position:relative;z-index:1;width:100%;height:470px;background:#0b1421;border:1px solid #20354d;border-radius:24px;
-  box-shadow:0 30px 80px rgba(0,0,0,.38),0 0 0 1px rgba(99,199,255,.035);overflow:hidden;transform:translateY(-6px) rotate(1.15deg);
-}
-.window-top{height:42px;background:#09111c;border-bottom:1px solid #1c3046;display:flex;align-items:center;padding:0 16px;gap:7px}
-.window-dot{width:8px;height:8px;border-radius:50%;background:#526b83}
-.window-url{margin-left:9px;flex:1;height:27px;border:1px solid #20354d;background:#0e1a2a;border-radius:8px;color:#70869e;font-size:10px;display:flex;align-items:center;padding:0 9px}
-.smart-window-body{height:428px;overflow:hidden;padding:18px 20px;background:linear-gradient(180deg,#0b1421 0%,#0a131f 100%);color:var(--text)}
-
-.smart-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
-.smart-brand{display:flex;align-items:center;gap:9px;min-width:0}
-.smart-mini-logo{width:27px;height:27px;border-radius:8px;background:linear-gradient(135deg,#158be9,#5260f5);display:grid;place-items:center;color:#fff;font-size:12px;font-weight:900;flex:0 0 auto}
-.smart-brand strong{display:block;font-size:11px;line-height:1.2;color:#f1f6fb}
-.smart-brand span:not(.smart-mini-logo){display:block;font-size:8px;color:#7f94aa;margin-top:3px}
-.smart-status{display:inline-flex;align-items:center;gap:5px;padding:5px 8px;border-radius:999px;background:#102a26;color:#63d7b1;font-size:8px;font-weight:800;white-space:nowrap}
-.smart-status i{width:6px;height:6px;border-radius:50%;background:#20bf92;box-shadow:0 0 0 3px rgba(32,191,146,.12);animation:smartPulse 1.8s infinite}
-.smart-command-label{display:flex;align-items:center;gap:6px;font-size:9px;color:#91a4b8;font-weight:800;margin-bottom:7px}
-.smart-spark{color:#755df2;font-size:11px}
-.smart-command-label kbd{margin-left:auto;border:1px solid #263b51;background:#101d2d;border-radius:5px;padding:2px 5px;color:#71869c;font-size:7px;font-family:inherit}
-.smart-input-wrap{height:40px;border:1px solid #29425b;background:#0e1a2a;border-radius:11px;display:flex;align-items:center;gap:8px;padding:0 10px;transition:.2s ease}
-.smart-input-wrap:focus-within{border-color:#3d9ee1;box-shadow:0 0 0 3px rgba(61,158,225,.12)}
-.smart-input-wrap svg{color:#8297aa;flex:0 0 auto}
-.smart-input-wrap input{border:0;outline:0;background:transparent;width:100%;min-width:0;font:600 9px/1.2 "Segoe UI",Arial,sans-serif;color:#edf5fc;-webkit-text-fill-color:#edf5fc}
-.smart-input-wrap input::placeholder{color:#70869e;opacity:1}
-.smart-input-wrap input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
-.smart-clear{border:0;background:transparent;color:#7e94a9;font-size:17px;line-height:1;padding:0 2px;display:none}
-.smart-clear.show{display:block}
-.smart-clear:hover{color:#bfe5ff}
-.smart-suggestions{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px;height:27px;overflow:hidden}
-.smart-suggestions button{border:1px solid #263b51;background:#101d2d;color:#91a5b9;border-radius:999px;padding:5px 7px;font:700 7px/1 "Segoe UI",Arial,sans-serif;transition:.18s ease}
-.smart-suggestions button:hover{background:#14263a;border-color:#3a8fca;color:#bfe5ff}
-.smart-drop{display:flex;align-items:center;gap:9px;margin-top:9px;padding:8px 10px;height:48px;border:1px dashed #31506b;border-radius:11px;background:#0d1928;cursor:pointer;transition:.2s ease}
-.smart-drop:hover,.smart-drop.dragging{background:#102338;border-color:#3c9bd9;transform:translateY(-1px)}
-.smart-drop-icon{width:27px;height:27px;border-radius:8px;background:#102a40;color:#63c7ff;display:grid;place-items:center;font-size:15px;font-weight:800;flex:0 0 auto}
-.smart-drop-copy{min-width:0}
-.smart-drop-copy strong{display:block;font-size:8px;color:#dce9f5}
-.smart-drop-copy span{display:block;font-size:7px;color:#71869d;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.smart-drop-badge{margin-left:auto;padding:4px 6px;border-radius:5px;background:#102a40;color:#63c7ff;font-size:6px;font-weight:900;letter-spacing:.08em}
-.smart-results{margin-top:9px}
-.smart-results-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
-.smart-results-top span:first-child{font-size:8px;font-weight:900;color:#d7e5f1}
-.smart-results-top span:last-child{font-size:7px;color:#71869d}
-.smart-tool-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;min-height:58px}
-.smart-tool-item{display:flex;align-items:center;gap:6px;min-width:0;height:58px;padding:7px;border:1px solid #21384f;background:#0e1a2a;border-radius:10px;color:#e8f1f8;overflow:hidden;transition:.18s ease}
-.smart-tool-item:hover{transform:translateY(-2px);background:#122338;border-color:#3a8fca;box-shadow:0 8px 20px rgba(0,0,0,.2)}
-.smart-tool-item>span:nth-child(2){min-width:0;flex:1}
-.smart-tool-item strong{display:block;font-size:7px;color:#e3edf5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.smart-tool-item small{display:block;font-size:6px;color:#73889e;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.smart-tool-item b{font-size:10px;color:#7090a8}
-.smart-tool-icon{width:25px;height:25px;border-radius:7px;display:grid;place-items:center;font-size:7px;font-weight:900;flex:0 0 auto}
-.smart-pdf{background:#2b1b25;color:#ff8796}
-.smart-img{background:#112b28;color:#5ee0b0}
-.smart-qr{background:#211c37;color:#a99aff}
-.smart-empty{grid-column:1/-1;padding:14px 4px;font-size:9px;line-height:1.5;color:#71869d;text-align:center}
-
-.float-card{position:absolute;z-index:3;background:#0d1928;border:1px solid #263d53;border-radius:13px;padding:9px 11px;font-size:11px;color:#eaf3fa;box-shadow:0 18px 45px rgba(0,0,0,.30)}
-.float-card strong{display:block;font-size:10px;margin-bottom:3px;color:#e7f0f7}
-.float-card span{font-size:8px;color:#758ba0}
-.float-one{left:-18px;bottom:47px;animation:floatCard 5s ease-in-out infinite}
-.float-two{right:-18px;top:42px;animation:floatCard 6s .6s ease-in-out infinite reverse}
-.float-icon{width:22px;height:22px;border-radius:8px;display:grid;place-items:center;margin-bottom:5px}
-.float-one .float-icon{background:#102a26;color:#62d8ad}
-.float-two .float-icon{background:#211c37;color:#a99aff}
-
 /* ============ Categories ============ */
 .category-row{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
 .category{
@@ -273,6 +189,16 @@ img{max-width:100%}
 .cat-utility{--cat-bg:#e6fafb}.cat-utility .cat-icon{background:#e8fbfc;color:#12aebb}
 
 /* ============ Tools ============ */
+#tools{padding-top:54px}
+h1.section-title{font-size:clamp(30px,4.2vw,48px);line-height:1.08;letter-spacing:-.045em;text-wrap:balance}
+.tools-bar{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:22px}
+.tools-bar .filters{margin-bottom:0;flex:1 1 auto}
+.tool-search{flex:0 0 290px;height:44px;border:1px solid #1e3049;background:#0d1726;border-radius:999px;display:flex;align-items:center;gap:9px;padding:0 15px;color:#8da2bb;box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.tool-search:focus-within{border-color:#83c6f7;box-shadow:0 0 0 4px rgba(22,140,240,.08)}
+.tool-search input{width:100%;border:0;outline:0;background:transparent;color:#f5f8ff;-webkit-text-fill-color:#f5f8ff;caret-color:#38a5ff;font-size:14px}
+.tool-search input::placeholder{color:#7188a3;opacity:1}
+@media(min-width:821px){.tool-search{display:none}}  /* desktop already has the header search */
+.no-tools{margin-bottom:16px;padding:40px 20px;text-align:center;color:var(--soft);border:1px dashed #27415c;border-radius:20px;background:rgba(14,24,39,.5);line-height:1.7}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
 .filter{border:1px solid #20354d;background:#0c1625;color:#9fb2c8;padding:9px 13px;border-radius:999px;font-size:12px;font-weight:700;transition:all .25s ease}
 .filter:hover{border-color:#3d6e96;color:#69bbff}
@@ -355,25 +281,18 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
 
 /* ============ Animations ============ */
 @keyframes brandFloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-3px) rotate(2deg)}}
-@keyframes floatCard{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
-@keyframes orbFloat{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(20px,-14px,0)}}
-@keyframes smartPulse{0%,100%{opacity:1}50%{opacity:.45}}
 
 /* ============ Responsive ============ */
 @media(max-width:1050px){
   .nav-links{gap:0}
   .nav-link,.nav-drop-btn{padding:9px;font-size:13px}
   .nav-search{width:125px}
-  .hero-grid{gap:35px}
   .tool-grid{grid-template-columns:repeat(3,1fr)}
   .category-row{grid-template-columns:repeat(3,1fr)}
 }
-@media(max-width:1000px){
-  .preview-wrap{height:530px}
-  .float-one{left:0;bottom:24px}
-  .float-two{right:0;top:20px}
-}
 @media(max-width:820px){
+  .tool-search{flex:1 1 100%}
+  .tool-search input{font-size:16px}
   /* header: solid, no blur (prevents mobile flicker) */
   .site-header{background:var(--bg);border-bottom-color:#1b2b3e;-webkit-backdrop-filter:none;backdrop-filter:none}
   .nav-links,.nav-search-wrap{display:none}
@@ -408,24 +327,10 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
   .mobile-panel::-webkit-scrollbar{width:5px}
   .mobile-panel::-webkit-scrollbar-thumb{background:#203b55;border-radius:999px}
 
-  .hero{padding-top:55px}
-  .hero-grid{grid-template-columns:1fr;text-align:center}
-  .hero-copy{margin:auto}
-  .hero-sub{margin:auto}
-  .hero-actions,.trust-row{justify-content:center}
   .why-grid{grid-template-columns:1fr}
   .footer-top{grid-template-columns:1.3fr repeat(3,1fr)}
 }
 @media(max-width:760px){
-  .preview-wrap{height:520px;margin:-12px auto 0}
-  .product-window{height:460px}
-  .smart-window-body{height:418px;padding:15px}
-  .smart-tool-list{grid-template-columns:1fr}
-  .smart-tool-item{height:48px}
-  .smart-drop-copy span{white-space:normal}
-  .smart-command-label kbd{display:none}
-  .smart-input-wrap input{font-size:16px}   /* 16px stops iPhones from zooming in when the box is tapped */
-  .float-card{display:none}
   .workflow-grid{grid-template-columns:1fr}
 }
 @media(max-width:620px){
@@ -434,8 +339,6 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
   .nav{gap:12px}
   .brand img{width:34px;height:34px}
   .brand-name{font-size:18px}
-  .hero h1{font-size:clamp(39px,12vw,56px)}
-  .hero-sub{font-size:15px}
   .section{padding:58px 0}
   .section-head{display:block}
   .view-all{display:inline-block;margin-top:14px}
@@ -453,7 +356,6 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
   .socials{margin-top:12px}
 }
 @media(max-width:420px){
-  .hero-actions .btn{width:100%}
   .category-row{grid-template-columns:1fr}
   .mobile-panel{right:8px;width:calc(100vw - 16px);border-radius:20px}
 }
@@ -502,6 +404,7 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
         </div>
       </div>
 
+      <a class="nav-link" href="phones/index.html">Phones</a>
       <a class="nav-link" href="blog/index.html">Blog</a>
       <a class="nav-link" href="about.html">About</a>
       <a class="nav-link" href="contact.html">Contact</a>
@@ -538,102 +441,55 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
     <a href="text-to-speech/index.html">Text to Speech</a>
     <a href="background-remover/index.html">Background Remover</a>
   </div>
+  <a href="phones/index.html">Phones</a>
   <a href="blog/index.html">Blog</a>
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
 </nav>
 
 <main id="main">
-<section class="hero">
+<section class="section" id="tools">
   <div class="container">
-    <div class="hero-grid">
-      <div class="hero-copy reveal">
-        <span class="badge"><span class="bolt">✦</span> <span data-tool-count>19</span> FREE TOOLS &nbsp;•&nbsp; NO SIGN-UP</span>
-        <h1>Everything You Need.<br><span class="gradient">One Powerful Toolkit.</span></h1>
-        <p class="hero-sub">Convert, compress, edit, create and calculate with a growing collection of free online tools — built to be fast, simple and useful.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#tools" data-filter-link="all">Explore All Tools <span aria-hidden="true">→</span></a>
-          <a class="btn btn-secondary" href="text-to-image/index.html">Try AI Tools <span aria-hidden="true">✦</span></a>
-        </div>
-        <div class="trust-row" aria-label="Benefits">
-          <span class="trust-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v18M3 12h18"/></svg>Free to use</span>
-          <span class="trust-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6l-7-3Z"/></svg>Fast &amp; secure</span>
-          <span class="trust-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 1 0-16 0Z"/><path d="M8 12h8"/></svg>No complicated setup</span>
-        </div>
+    <div class="section-head reveal">
+      <div>
+        <span class="section-kicker"><span class="dot"></span> <span data-tool-count>19</span> free tools &nbsp;•&nbsp; no sign-up</span>
+        <h1 class="section-title">Free online tools for PDF, images, AI &amp; more</h1>
+        <p class="section-copy">Convert, compress, edit and create in seconds. No sign-up and no clutter: pick a tool and get the job done.</p>
       </div>
-
-      <div class="preview-wrap reveal">
-        <div class="preview-glow"></div>
-        <div class="product-window" role="group" aria-label="Clickdy tool finder">
-          <div class="window-top">
-            <span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span>
-            <div class="window-url">clickdy.com</div>
-          </div>
-          <div class="smart-window-body">
-            <div class="smart-head">
-              <div class="smart-brand">
-                <span class="smart-mini-logo">C</span>
-                <div>
-                  <strong>Clickdy Smart Workspace</strong>
-                  <span>Find the right tool in seconds</span>
-                </div>
-              </div>
-              <span class="smart-status"><i></i> Ready</span>
-            </div>
-
-            <div class="smart-command">
-              <div class="smart-command-label">
-                <span class="smart-spark" aria-hidden="true">✦</span>
-                <span>What do you want to do?</span>
-                <kbd id="smartKbd">Ctrl K</kbd>
-              </div>
-              <div class="smart-input-wrap">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
-                <input id="smartHeroInput" type="search" autocomplete="off" placeholder="Try “compress my PDF” or “make a QR code”" aria-label="Smart tool finder">
-                <button id="smartHeroClear" class="smart-clear" type="button" aria-label="Clear smart search">×</button>
-              </div>
-              <div class="smart-suggestions" id="smartSuggestions">
-                <button type="button" data-smart-query="compress my pdf">Compress PDF</button>
-                <button type="button" data-smart-query="remove image background">Remove background</button>
-                <button type="button" data-smart-query="make qr code">Create QR</button>
-              </div>
-            </div>
-
-            <div class="smart-drop" id="smartDropZone" tabindex="0" role="button" aria-label="Choose or drop a file to get recommended Clickdy tools">
-              <div class="smart-drop-icon" aria-hidden="true">↥</div>
-              <div class="smart-drop-copy">
-                <strong id="smartDropTitle">Drop a file here</strong>
-                <span id="smartDropText">We'll detect what it is and suggest the best Clickdy tools.</span>
-              </div>
-              <span class="smart-drop-badge">SMART</span>
-            </div>
-            <input id="smartHeroFile" type="file" hidden>
-
-            <div class="smart-results" id="smartResults" aria-live="polite">
-              <div class="smart-results-top">
-                <span id="smartResultTitle">Quick actions</span>
-                <span id="smartResultHint">No upload required</span>
-              </div>
-              <div class="smart-tool-list" id="smartToolList">
-                <a class="smart-tool-item" href="pdf-to-word/index.html">
-                  <span class="smart-tool-icon smart-pdf">PDF</span>
-                  <span><strong>PDF to Word</strong><small>Turn PDFs into editable documents</small></span><b>→</b>
-                </a>
-                <a class="smart-tool-item" href="image-compressor/index.html">
-                  <span class="smart-tool-icon smart-img">IMG</span>
-                  <span><strong>Image Compressor</strong><small>Reduce image size quickly</small></span><b>→</b>
-                </a>
-                <a class="smart-tool-item" href="qr-generator/index.html">
-                  <span class="smart-tool-icon smart-qr">QR</span>
-                  <span><strong>QR Generator</strong><small>Create a QR code instantly</small></span><b>→</b>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="float-card float-one"><div class="float-icon" aria-hidden="true">✓</div><strong>Smart recommendations</strong><span>Based on your request or file</span></div>
-        <div class="float-card float-two"><div class="float-icon" aria-hidden="true">⚡</div><strong>Fast &amp; private</strong><span>Runs in your browser • no sign-up</span></div>
-      </div>
+    </div>
+    <div class="tools-bar">
+    <div class="filters" role="group" aria-label="Filter tools by category">
+      <button class="filter active" data-filter="all" type="button" aria-pressed="true">All Tools</button>
+      <button class="filter" data-filter="pdf" type="button" aria-pressed="false">PDF</button>
+      <button class="filter" data-filter="image" type="button" aria-pressed="false">Image</button>
+      <button class="filter" data-filter="ai" type="button" aria-pressed="false">AI</button>
+      <button class="filter" data-filter="text" type="button" aria-pressed="false">Text</button>
+      <button class="filter" data-filter="productivity" type="button" aria-pressed="false">Productivity</button>
+      <button class="filter" data-filter="utility" type="button" aria-pressed="false">Utility</button>
+    </div>
+      <label class="tool-search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="toolSearch" type="search" placeholder="Search tools..." autocomplete="off" aria-label="Search tools"></label>
+    </div>
+    <div class="no-tools" id="noTools" hidden>No tool found. Try a different word, like <strong>pdf</strong>, <strong>image</strong> or <strong>qr</strong>.</div>
+    <div class="tool-grid" id="toolGrid">
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf word docx convert editable document" href="pdf-to-word/index.html"><span class="tool-icon icon-pdf-red">PDF</span><div class="tool-body"><h3>PDF to Word</h3><p>Convert PDF documents into editable Word files.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf merge combine join files together" href="pdf-merge/index.html"><span class="tool-icon icon-pdf-purple">PDF+</span><div class="tool-body"><h3>PDF Merge</h3><p>Combine multiple PDF files into one document.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf split separate extract pages" href="pdf-split/index.html"><span class="tool-icon icon-pdf-blue">SPL</span><div class="tool-body"><h3>PDF Split</h3><p>Split a PDF into the pages or sections you need.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf compress reduce shrink smaller size" href="pdf-compress/index.html"><span class="tool-icon icon-pdf-green">ZIP</span><div class="tool-body"><h3>PDF Compress</h3><p>Reduce PDF size for easier sharing and storage.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="jpg jpeg png image photo to pdf convert" href="jpg-to-pdf/index.html"><span class="tool-icon icon-pdf-orange">JPG</span><div class="tool-body"><h3>JPG to PDF</h3><p>Turn images into a clean PDF document.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf jpg jpeg image photo convert pages" href="pdf-to-jpg/index.html"><span class="tool-icon icon-pdf-violet">IMG</span><div class="tool-body"><h3>PDF to JPG</h3><p>Extract PDF pages as high-quality images.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="image photo picture compress reduce shrink smaller size jpg png webp" href="image-compressor/index.html"><span class="tool-icon icon-img-green">IMG</span><div class="tool-body"><h3>Image Compressor</h3><p>Compress images while keeping them looking great.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="background remove remover transparent cutout erase photo image" href="background-remover/index.html"><span class="tool-icon icon-img-purple">BG</span><div class="tool-body"><h3>Background Remover</h3><p>Remove image backgrounds quickly and easily.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="image photo resize dimensions width height pixels scale" href="image-resizer/index.html"><span class="tool-icon icon-img-blue">RES</span><div class="tool-body"><h3>Image Resizer</h3><p>Resize images to the exact dimensions you need.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="image convert format jpg jpeg png webp" href="image-converter/index.html"><span class="tool-icon icon-img-orange">CVT</span><div class="tool-body"><h3>Image Format Converter</h3><p>Convert images between popular formats.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="image" data-keywords="passport cnic id visa photo picture size print" href="passport-photo-maker/index.html"><span class="tool-icon icon-ai-cyan">ID</span><div class="tool-body"><h3>Passport &amp; CNIC Photo Maker</h3><p>Prepare clean ID photos in the right format.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="utility" data-keywords="qr code barcode link url wifi scan whatsapp" href="qr-generator/index.html"><span class="tool-icon icon-ai-cyan">QR</span><div class="tool-body"><h3>QR Code Generator</h3><p>Create QR codes for links, text and more.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="text" data-keywords="word character count counter text length reading" href="word-counter/index.html"><span class="tool-icon icon-text-blue">123</span><div class="tool-body"><h3>Word &amp; Character Counter</h3><p>Count words, characters and reading length.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="text" data-keywords="case uppercase lowercase title camel text convert capitalize" href="case-converter/index.html"><span class="tool-icon icon-ai-purple">Aa</span><div class="tool-body"><h3>Case Converter</h3><p>Switch text between upper, lower and title case.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="productivity" data-keywords="signature sign draw handwritten document transparent" href="signature-generator/index.html"><span class="tool-icon icon-prod-red">SIG</span><div class="tool-body"><h3>Signature Generator</h3><p>Create a digital signature quickly.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="productivity" data-keywords="resume cv curriculum vitae job career builder maker" href="resume-builder/index.html"><span class="tool-icon icon-prod-orange">CV</span><div class="tool-body"><h3>Resume &amp; CV Builder</h3><p>Build a polished resume with less effort.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
+      <a class="tool-card reveal" data-category="ai" data-keywords="ai text image generate picture art design poster prompt" href="text-to-image/index.html"><span class="tool-icon icon-ai-purple">AI</span><div class="tool-body"><h3>AI Text to Image</h3><p>Turn ideas into visual concepts with AI.</p></div><span class="tool-arrow" aria-hidden="true">→</span><span class="tool-badge">AI</span></a>
+      <a class="tool-card reveal" data-category="ai" data-keywords="ai text speech voice audio read aloud tts" href="text-to-speech/index.html"><span class="tool-icon icon-ai-cyan">TTS</span><div class="tool-body"><h3>AI Text to Speech</h3><p>Convert written text into natural-sounding speech.</p></div><span class="tool-arrow" aria-hidden="true">→</span><span class="tool-badge">AI</span></a>
+      <a class="tool-card reveal" data-category="utility" data-keywords="zakat calculator gold silver nisab islamic finance savings" href="zakat-calculator/index.html"><span class="tool-icon icon-img-green">ZKT</span><div class="tool-body"><h3>Zakat Calculator</h3><p>Calculate Zakat with a simple guided flow.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
@@ -659,47 +515,10 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
   </div>
 </section>
 
-<section class="section" id="tools">
-  <div class="container">
-    <div class="section-head reveal">
-      <div>
-        <span class="section-kicker"><span class="dot"></span> Your toolbox</span>
-        <h2 class="section-title">Popular tools people actually use</h2>
-        <p class="section-copy">Jump straight into the most useful Clickdy tools. No clutter, no unnecessary steps.</p>
-      </div>
-    </div>
-    <div class="filters" role="group" aria-label="Filter tools by category">
-      <button class="filter active" data-filter="all" type="button" aria-pressed="true">All Tools</button>
-      <button class="filter" data-filter="pdf" type="button" aria-pressed="false">PDF</button>
-      <button class="filter" data-filter="image" type="button" aria-pressed="false">Image</button>
-      <button class="filter" data-filter="ai" type="button" aria-pressed="false">AI</button>
-      <button class="filter" data-filter="text" type="button" aria-pressed="false">Text</button>
-      <button class="filter" data-filter="productivity" type="button" aria-pressed="false">Productivity</button>
-      <button class="filter" data-filter="utility" type="button" aria-pressed="false">Utility</button>
-    </div>
-    <div class="tool-grid" id="toolGrid">
-      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf word docx convert editable document" href="pdf-to-word/index.html"><span class="tool-icon icon-pdf-red">PDF</span><div class="tool-body"><h3>PDF to Word</h3><p>Convert PDF documents into editable Word files.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf merge combine join files together" href="pdf-merge/index.html"><span class="tool-icon icon-pdf-purple">PDF+</span><div class="tool-body"><h3>PDF Merge</h3><p>Combine multiple PDF files into one document.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf split separate extract pages" href="pdf-split/index.html"><span class="tool-icon icon-pdf-blue">SPL</span><div class="tool-body"><h3>PDF Split</h3><p>Split a PDF into the pages or sections you need.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf compress reduce shrink smaller size" href="pdf-compress/index.html"><span class="tool-icon icon-pdf-green">ZIP</span><div class="tool-body"><h3>PDF Compress</h3><p>Reduce PDF size for easier sharing and storage.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="pdf" data-keywords="jpg jpeg png image photo to pdf convert" href="jpg-to-pdf/index.html"><span class="tool-icon icon-pdf-orange">JPG</span><div class="tool-body"><h3>JPG to PDF</h3><p>Turn images into a clean PDF document.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="pdf" data-keywords="pdf jpg jpeg image photo convert pages" href="pdf-to-jpg/index.html"><span class="tool-icon icon-pdf-violet">IMG</span><div class="tool-body"><h3>PDF to JPG</h3><p>Extract PDF pages as high-quality images.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="image" data-keywords="image photo picture compress reduce shrink smaller size jpg png webp" href="image-compressor/index.html"><span class="tool-icon icon-img-green">IMG</span><div class="tool-body"><h3>Image Compressor</h3><p>Compress images while keeping them looking great.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="image" data-keywords="background remove remover transparent cutout erase photo image" href="background-remover/index.html"><span class="tool-icon icon-img-purple">BG</span><div class="tool-body"><h3>Background Remover</h3><p>Remove image backgrounds quickly and easily.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="image" data-keywords="image photo resize dimensions width height pixels scale" href="image-resizer/index.html"><span class="tool-icon icon-img-blue">RES</span><div class="tool-body"><h3>Image Resizer</h3><p>Resize images to the exact dimensions you need.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="image" data-keywords="image convert format jpg jpeg png webp" href="image-converter/index.html"><span class="tool-icon icon-img-orange">CVT</span><div class="tool-body"><h3>Image Format Converter</h3><p>Convert images between popular formats.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="image" data-keywords="passport cnic id visa photo picture size print" href="passport-photo-maker/index.html"><span class="tool-icon icon-ai-cyan">ID</span><div class="tool-body"><h3>Passport &amp; CNIC Photo Maker</h3><p>Prepare clean ID photos in the right format.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="utility" data-keywords="qr code barcode link url wifi scan whatsapp" href="qr-generator/index.html"><span class="tool-icon icon-ai-cyan">QR</span><div class="tool-body"><h3>QR Code Generator</h3><p>Create QR codes for links, text and more.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="text" data-keywords="word character count counter text length reading" href="word-counter/index.html"><span class="tool-icon icon-text-blue">123</span><div class="tool-body"><h3>Word &amp; Character Counter</h3><p>Count words, characters and reading length.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="text" data-keywords="case uppercase lowercase title camel text convert capitalize" href="case-converter/index.html"><span class="tool-icon icon-ai-purple">Aa</span><div class="tool-body"><h3>Case Converter</h3><p>Switch text between upper, lower and title case.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="productivity" data-keywords="signature sign draw handwritten document transparent" href="signature-generator/index.html"><span class="tool-icon icon-prod-red">SIG</span><div class="tool-body"><h3>Signature Generator</h3><p>Create a digital signature quickly.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="productivity" data-keywords="resume cv curriculum vitae job career builder maker" href="resume-builder/index.html"><span class="tool-icon icon-prod-orange">CV</span><div class="tool-body"><h3>Resume &amp; CV Builder</h3><p>Build a polished resume with less effort.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-      <a class="tool-card reveal" data-category="ai" data-keywords="ai text image generate picture art design poster prompt" href="text-to-image/index.html"><span class="tool-icon icon-ai-purple">AI</span><div class="tool-body"><h3>AI Text to Image</h3><p>Turn ideas into visual concepts with AI.</p></div><span class="tool-arrow" aria-hidden="true">→</span><span class="tool-badge">AI</span></a>
-      <a class="tool-card reveal" data-category="ai" data-keywords="ai text speech voice audio read aloud tts" href="text-to-speech/index.html"><span class="tool-icon icon-ai-cyan">TTS</span><div class="tool-body"><h3>AI Text to Speech</h3><p>Convert written text into natural-sounding speech.</p></div><span class="tool-arrow" aria-hidden="true">→</span><span class="tool-badge">AI</span></a>
-      <a class="tool-card reveal" data-category="utility" data-keywords="zakat calculator gold silver nisab islamic finance savings" href="zakat-calculator/index.html"><span class="tool-icon icon-img-green">ZKT</span><div class="tool-body"><h3>Zakat Calculator</h3><p>Calculate Zakat with a simple guided flow.</p></div><span class="tool-arrow" aria-hidden="true">→</span></a>
-    </div>
-  </div>
-</section>
+
+
+
+
 
 <section class="section" id="how-it-works">
   <div class="container">
@@ -772,7 +591,7 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
         <a class="brand" href="index.html"><img src="assets/logo.png" alt="Clickdy logo" width="38" height="38"><span class="brand-name">Clickdy</span></a>
         <p>Free online tools for documents, images, AI, text and everyday tasks — designed to keep useful things simple.</p>
       </div>
-      <div class="footer-col reveal"><h4>Explore</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="blog/index.html">Blog</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col reveal"><h4>Explore</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="phones/index.html">Phones</a><a href="blog/index.html">Blog</a><a href="contact.html">Contact</a></div>
       <div class="footer-col reveal"><h4>Categories</h4><a data-filter-link="pdf" href="#tools">PDF Tools</a><a data-filter-link="image" href="#tools">Image Tools</a><a data-filter-link="ai" href="#tools">AI Tools</a><a data-filter-link="text" href="#tools">Text Tools</a><a data-filter-link="productivity" href="#tools">Productivity</a><a data-filter-link="utility" href="#tools">Utilities</a></div>
       <div class="footer-col reveal"><h4>Legal</h4><a href="privacy.html">Privacy</a></div>
     </div>
@@ -858,20 +677,42 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
   all("[data-category-count]").forEach(function(n){ n.textContent = all(".category").length; });
   var yearEl = $("year"); if(yearEl) yearEl.textContent = new Date().getFullYear();
 
-  /* ---------- Category filter ---------- */
-  var filters = all(".filter");
+  /* ---------- Category filter + tool search ---------- */
+  var filters = all(".filter"), toolSearch = $("toolSearch"), noTools = $("noTools");
+  var currentFilter = "all";
+  function refreshTools(){
+    var q = toolSearch ? toolSearch.value.trim() : "";
+    var hits = null;
+    if(q && words(q).filter(function(t){ return !STOP[t]; }).length){ hits = {}; search(q, 999).forEach(function(t){ hits[t.name] = 1; }); }
+    var shown = 0;
+    cards.forEach(function(card, i){
+      var ok = (currentFilter === "all" || card.dataset.category === currentFilter) && (!hits || hits[TOOLS[i].name]);
+      card.hidden = !ok; if(ok) shown++;
+    });
+    if(noTools) noTools.hidden = shown > 0;
+  }
   function applyFilter(value){
+    currentFilter = value;
     filters.forEach(function(f){
       var on = f.dataset.filter === value;
       f.classList.toggle("active", on);
       f.setAttribute("aria-pressed", String(on));
     });
-    cards.forEach(function(card){ card.hidden = !(value === "all" || card.dataset.category === value); });
+    refreshTools();
   }
   filters.forEach(function(f){ f.addEventListener("click", function(){ applyFilter(f.dataset.filter); }); });
   all("[data-filter-link]").forEach(function(link){
-    link.addEventListener("click", function(){ applyFilter(link.dataset.filterLink); });
+    link.addEventListener("click", function(){ if(toolSearch) toolSearch.value = ""; applyFilter(link.dataset.filterLink); });
   });
+  if(toolSearch){
+    toolSearch.addEventListener("input", function(){ if(toolSearch.value.trim() && currentFilter !== "all") applyFilter("all"); else refreshTools(); });
+    toolSearch.addEventListener("keydown", function(e){ if(e.key === "Escape"){ toolSearch.value = ""; refreshTools(); } });
+  }
+  /* links from other pages (e.g. the blog menu) can open a category: /?filter=pdf#tools */
+  try{
+    var wanted = new URLSearchParams(window.location.search).get("filter");
+    if(wanted && filters.some(function(f){ return f.dataset.filter === wanted; })) applyFilter(wanted);
+  }catch(err){}
 
   /* ---------- Desktop dropdowns ---------- */
   var dropdowns = all("[data-dropdown]");
@@ -976,97 +817,6 @@ footer{padding:42px 0 28px;border-top:1px solid #1a2a40;background:#060a12;margi
     if(mobilePanel.classList.contains("open")){ setMenu(false); menuToggle.focus(); }
   });
 
-  /* ---------- Smart Workspace ---------- */
-  var sInput = $("smartHeroInput"), sClear = $("smartHeroClear"), sSugg = $("smartSuggestions");
-  var sTitle = $("smartResultTitle"), sHint = $("smartResultHint"), sList = $("smartToolList");
-  var sDrop = $("smartDropZone"), sFile = $("smartHeroFile"), dTitle = $("smartDropTitle"), dText = $("smartDropText");
-  var defaultList = sList.innerHTML;
-  var DROP_TITLE = dTitle.textContent, DROP_TEXT = dText.textContent;
-  var FILE_PICKS = {
-    pdf:   ["PDF to Word", "PDF Compress", "PDF Merge"],
-    image: ["Image Compressor", "Background Remover", "Image Resizer"],
-    text:  ["Word & Character Counter", "Case Converter", "AI Text to Speech"]
-  };
-  var FULL_PH = sInput.placeholder;
-  function fitPlaceholder(){ sInput.placeholder = window.innerWidth <= 760 ? "Try “compress my PDF”" : FULL_PH; }
-  fitPlaceholder(); window.addEventListener("resize", fitPlaceholder);
-  var kbd = $("smartKbd");
-  if(kbd && /Mac|iPhone|iPad/i.test(navigator.platform || navigator.userAgent)) kbd.textContent = "⌘ K";
-
-  function showTools(list, title, hint, emptyText){
-    sTitle.textContent = title; sHint.textContent = hint;
-    sList.textContent = "";
-    if(!list.length){ sList.appendChild(make("div", "smart-empty", emptyText || "")); return; }
-    list.forEach(function(tool){
-      var a = make("a", "smart-tool-item"); a.href = tool.href;
-      var cls = tool.category === "pdf" ? "smart-pdf" : tool.category === "image" ? "smart-img" : "smart-qr";
-      var text = make("span");
-      text.appendChild(make("strong", "", tool.name));
-      text.appendChild(make("small", "", tool.desc));
-      a.appendChild(make("span", "smart-tool-icon " + cls, tool.label));
-      a.appendChild(text);
-      a.appendChild(make("b", "", "→"));
-      sList.appendChild(a);
-    });
-  }
-  function resetSmart(){
-    sInput.value = "";
-    sClear.classList.remove("show");
-    sSugg.hidden = false;
-    sList.innerHTML = defaultList;
-    sTitle.textContent = "Quick actions"; sHint.textContent = "No upload required";
-    dTitle.textContent = DROP_TITLE; dText.textContent = DROP_TEXT;
-  }
-  function renderSmart(q){
-    var term = q.trim();
-    if(!term){ resetSmart(); return; }
-    sClear.classList.add("show");
-    sSugg.hidden = true;
-    var found = search(term, 3);
-    showTools(found, found.length ? "Best matches" : "No exact match",
-      found.length ? found.length + " tool" + (found.length === 1 ? "" : "s") + " found" : "Try PDF, image, QR, resume or text",
-      "Nothing matched “" + term + "”. Try PDF, image, QR, resume or text.");
-  }
-  sInput.addEventListener("input", function(){ renderSmart(sInput.value); });
-  sInput.addEventListener("keydown", function(e){
-    if(e.key === "Enter"){ var first = sList.querySelector(".smart-tool-item"); if(first){ e.preventDefault(); window.location.href = first.href; } }
-  });
-  sClear.addEventListener("click", function(){ resetSmart(); sInput.focus(); });
-  sSugg.addEventListener("click", function(e){
-    var b = e.target.closest("[data-smart-query]"); if(!b) return;
-    sInput.value = b.getAttribute("data-smart-query"); renderSmart(sInput.value); sInput.focus();
-  });
-
-  function handleFile(file){
-    sDrop.classList.remove("dragging");
-    if(!file) return;
-    var name = file.name.toLowerCase(), type = (file.type || "").toLowerCase(), kind = "";
-    if(type.indexOf("pdf") > -1 || /\.pdf$/.test(name)) kind = "pdf";
-    else if(type.indexOf("image/") === 0 || /\.(jpe?g|png|webp|gif|bmp|svg|avif)$/.test(name)) kind = "image";
-    else if(type.indexOf("text/") === 0 || /\.(txt|doc|docx|rtf|md)$/.test(name)) kind = "text";
-    dTitle.textContent = "File detected";
-    dText.textContent = file.name + " • " + (file.type || "file");
-    sInput.value = "";
-    sSugg.hidden = true;
-    sClear.classList.add("show");
-    if(kind){
-      showTools(FILE_PICKS[kind].map(toolByName).filter(Boolean), "Recommended for your file", kind.toUpperCase() + " detected");
-    }else{
-      var guess = search(name.replace(/\.[^.]+$/, "").replace(/[-_]+/g, " "), 3);
-      showTools(guess, guess.length ? "Possible matches" : "No exact match", "Unknown file type", "We couldn't tell what this file is. Try the search box above.");
-    }
-    sFile.value = "";   /* lets you pick the same file again */
-  }
-  sDrop.addEventListener("click", function(){ sFile.click(); });
-  sDrop.addEventListener("keydown", function(e){ if(e.key === "Enter" || e.key === " "){ e.preventDefault(); sFile.click(); } });
-  sFile.addEventListener("change", function(){ handleFile(sFile.files[0]); });
-  ["dragenter", "dragover"].forEach(function(ev){ sDrop.addEventListener(ev, function(e){ e.preventDefault(); sDrop.classList.add("dragging"); }); });
-  sDrop.addEventListener("dragleave", function(e){ if(!sDrop.contains(e.relatedTarget)) sDrop.classList.remove("dragging"); });
-  sDrop.addEventListener("drop", function(e){ e.preventDefault(); handleFile(e.dataTransfer && e.dataTransfer.files[0]); });
-
-  doc.addEventListener("keydown", function(e){
-    if((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k"){ e.preventDefault(); sInput.focus(); sInput.select(); }
-  });
 })();
 </script>
 </body>
