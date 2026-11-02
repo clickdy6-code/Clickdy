@@ -544,9 +544,10 @@ def page(title, desc, canonical, body, jsonld=None, extra_head="", og_image=None
     t = bb.TEMPLATE
     t = t.replace("<style>__CSS__</style>", '<link rel="stylesheet" href="/assets/phones.css?v=%s">' % ASSET_V)
     t = t.replace("<script>__JS__</script>", '<script src="/assets/phones.js?v=%s" defer></script>' % ASSET_V)
-    t = t.replace('<a class="nav-link" href="/phones/">Phones</a>', '<a class="nav-link" href="/phones/" aria-current="page">Phones</a>')
-    t = t.replace('<a class="nav-link" href="/blog/" aria-current="page">Blog</a>', '<a class="nav-link" href="/blog/">Blog</a>')
-    t = t.replace('<a href="/phones/">Phones</a>\n  <a href="/blog/" aria-current="page">Blog</a>', '<a href="/phones/" aria-current="page">Phones</a>\n  <a href="/blog/">Blog</a>')
+    t = t.replace('<a class="nav-link" href="/blog/" aria-current="page">Blog</a>',
+                  '<a class="nav-link" href="/phones/" aria-current="page">Phones</a>\n      <a class="nav-link" href="/blog/">Blog</a>')
+    t = t.replace('<a href="/blog/" aria-current="page">Blog</a>', '<a href="/phones/" aria-current="page">Phones</a>\n  <a href="/blog/">Blog</a>')
+    t = t.replace('<a href="/about.html">About</a><a href="/blog/">Blog</a>', '<a href="/about.html">About</a><a href="/phones/">Phones</a><a href="/blog/">Blog</a>')
     t = t.replace("Search news...", "Search phones...").replace("Search news articles", "Search phones").replace("Article search results", "Phone search results")
     t = t.replace('<link rel="alternate" type="application/rss+xml" title="__SITENAME__ News" href="/blog/feed.xml">\n', "")
     if og_image:

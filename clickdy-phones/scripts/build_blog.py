@@ -483,7 +483,6 @@ setTimeout(function(){ if(!window.__clickdyReady) document.documentElement.class
           <a href="/background-remover/index.html"><span class="menu-icon">AI</span>Background Remover</a>
         </div>
       </div>
-      <a class="nav-link" href="/phones/">Phones</a>
       <a class="nav-link" href="/blog/" aria-current="page">Blog</a>
       <a class="nav-link" href="/about.html">About</a>
       <a class="nav-link" href="/contact.html">Contact</a>
@@ -517,7 +516,6 @@ setTimeout(function(){ if(!window.__clickdyReady) document.documentElement.class
     <a href="/text-to-speech/index.html">Text to Speech</a>
     <a href="/background-remover/index.html">Background Remover</a>
   </div>
-  <a href="/phones/">Phones</a>
   <a href="/blog/" aria-current="page">Blog</a>
   <a href="/about.html">About</a>
   <a href="/contact.html">Contact</a>
@@ -532,7 +530,7 @@ __BODY__
         <a class="brand" href="/"><img src="/assets/logo.png" alt="__SITENAME__ logo" width="38" height="38"><span class="brand-name">__SITENAME__</span></a>
         <p>Free online tools for documents, images, AI, text and everyday tasks, plus fresh tech and AI news in plain language.</p>
       </div>
-      <div class="footer-col"><h4>Explore</h4><a href="/">Home</a><a href="/about.html">About</a><a href="/phones/">Phones</a><a href="/blog/">Blog</a><a href="/contact.html">Contact</a></div>
+      <div class="footer-col"><h4>Explore</h4><a href="/">Home</a><a href="/about.html">About</a><a href="/blog/">Blog</a><a href="/contact.html">Contact</a></div>
       <div class="footer-col"><h4>Categories</h4><a href="/?filter=pdf#tools">PDF Tools</a><a href="/?filter=image#tools">Image Tools</a><a href="/?filter=ai#tools">AI Tools</a><a href="/?filter=text#tools">Text Tools</a><a href="/?filter=productivity#tools">Productivity</a><a href="/?filter=utility#tools">Utilities</a></div>
       <div class="footer-col"><h4>Legal</h4><a href="/privacy.html">Privacy</a></div>
     </div>
