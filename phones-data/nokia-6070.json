@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-6070",
+  "brand": "Nokia",
+  "name": "6070",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/39/Nokia_6070.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/39/Nokia_6070.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 6070",
+      "credit": "Jorge Barrios, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6070.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "February 2006",
+      "Discontinued": "Q2/Q3 2009",
+      "Predecessor": "Nokia 6020, Nokia 6030, Nokia 6230",
+      "Successor": "Nokia 6300, Nokia 3110 classic, Nokia 3500 classic"
+    },
+    "Network": {
+      "Technology": "GSM 900 1800 1900 , GSM 850 1900"
+    },
+    "Body": {
+      "Dimensions": "105.4 mm H , 44.3 mm W , 18.6 mm D",
+      "Weight": "88 g",
+      "Other": "FM radio , Voice recording"
+    },
+    "Platform": {
+      "Operating system": "Series 40 2nd edition"
+    },
+    "Display": {
+      "Display": "128x160 px CSTN"
+    },
+    "Cameras": {
+      "Rear camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "BL-5B"
+    },
+    "Connectivity": {
+      "Connectivity": "Infrared , Pop-port"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 88,
+    "thickness_mm": 18.6,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6070",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6070"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6070\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6070",
+    "revid": 1374643993
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

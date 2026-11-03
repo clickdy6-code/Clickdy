@@ -1,0 +1,97 @@
+{
+  "slug": "samsung-galaxy-m22",
+  "brand": "Samsung",
+  "name": "Galaxy M22",
+  "status": "published",
+  "announced": "2021-09-14",
+  "released": "2021-09-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-09-14",
+      "Series": "Galaxy M series",
+      "Predecessor": "Samsung Galaxy M21",
+      "Successor": "Samsung Galaxy M23 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Dual Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.9 mm H , 74 mm W , 8.4 mm D",
+      "Weight": "186 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with One UI 3.1",
+      "Chipset": "Mediatek Helio G80 (12 nm)",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G52 MC2"
+    },
+    "Memory": {
+      "RAM": "4 GB, 6 GB",
+      "Storage": "64GB, 128GB"
+    },
+    "Display": {
+      "Display": "6.4 in, Infinity-U Display, 720 x 1600 resolution, 20:9 aspect ratio (~274 ppi density), Super AMOLED, 90Hz refresh rate, 600 nits (HDR)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/2.0, (wide), PDAF, OIS, 8 MP, f/2.2, 123˚ (ultrawide), 1/4.0\", 1.12 μm, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth), LED flash, panorama, HDR, 1080p@30fps",
+      "Front camera": "13 MP, f/2.2, (wide), 1/3.1\", 1.12 μm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, Ear speaker"
+    },
+    "Battery": {
+      "Battery": "5000mAh",
+      "Charging": "Fast charging 25W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 90,
+    "peak_nits": 600,
+    "chipset": "Mediatek Helio G80",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 13,
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 186,
+    "thickness_mm": 8.4,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M22",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M22"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M22\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M22",
+    "revid": 1380482449
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

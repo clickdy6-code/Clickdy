@@ -1,0 +1,75 @@
+{
+  "slug": "samsung-sgh-e250",
+  "brand": "Samsung",
+  "name": "SGH-E250",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/SamsungE250.JPG/500px-SamsungE250.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/SamsungE250.JPG/250px-SamsungE250.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SGH-E250",
+      "credit": "Triskaidekafil, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SamsungE250.JPG",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "E series"
+    },
+    "Network": {
+      "Technology": "EDGE/ GPRS Class 10 Tri Band (900/1800/1900 MHz) WAP 2.0 Java MIDP 2.0"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "3.92 X 1.95 X .56 in (99.5 x 49.5 x 14.1 mm)",
+      "Weight": "3 oz (85 g)"
+    },
+    "Platform": {
+      "Operating system": "Proprietary",
+      "CPU": "Philips/NXP Nexperia PNX5230 @230MHz"
+    },
+    "Memory": {
+      "RAM": "10 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "128x160 pixels, 65,536 color display TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 megapixel"
+    },
+    "Sound": {
+      "Sound": "Polyphonic Sound 64 channels, MP3"
+    },
+    "Battery": {
+      "Battery": "3.7V 750 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (with Stereo A2DP), USB 1.1"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 750,
+    "nfc": false,
+    "weight_g": 85
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-E250",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-E250"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-E250\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-E250",
+    "revid": 1374925665
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

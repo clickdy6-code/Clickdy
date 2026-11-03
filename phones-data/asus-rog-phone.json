@@ -1,0 +1,85 @@
+{
+  "slug": "asus-rog-phone",
+  "brand": "Asus",
+  "name": "ROG Phone",
+  "status": "published",
+  "announced": "2018-10-18",
+  "released": "2018-10-18",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 18, 2018",
+      "Successor": "ROG Phone II"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4x2.96 GHz & 4x1.7 GHz) Kryo 385",
+      "GPU": "Qualcomm Adreno 630"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR4 RAM",
+      "Storage": "UFS2.1 128GB / 512GB"
+    },
+    "Display": {
+      "Display": "6.0 in 1080×2160 FHD+ AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (f/1.8, 4-axis) + 8 MP, active autofocus, LED flash, 2160p@30fps, HDR",
+      "Front camera": "8 MP, f/2.0"
+    },
+    "Sound": {
+      "Sound": "Stereo dual front-facing speakers"
+    },
+    "Battery": {
+      "Battery": "4000 mAh Li-Po, non removable"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 1.0 reversible connector + 802.11 a/b/g/n/ac/ad Wi-fi, dual-band + Bluetooth 5.0 + NFC + Radio + GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      512
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 8.1",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ROG Phone",
+      "url": "https://en.wikipedia.org/wiki/ROG_Phone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ROG Phone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ROG Phone",
+    "revid": 1361479473
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

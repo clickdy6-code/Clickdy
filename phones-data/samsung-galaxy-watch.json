@@ -1,0 +1,50 @@
+{
+  "slug": "samsung-galaxy-watch",
+  "brand": "Samsung",
+  "name": "Galaxy Watch",
+  "status": "published",
+  "announced": "2018-08-24",
+  "released": "2018-08-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Samsung_Galaxy_Watch.jpg/500px-Samsung_Galaxy_Watch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Samsung_Galaxy_Watch.jpg/250px-Samsung_Galaxy_Watch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Watch",
+      "credit": "User natchayapong from Pixabay.com, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Watch.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-08-24 (US)",
+      "Series": "Galaxy Watch",
+      "Predecessor": "Samsung Gear S3, Samsung Gear Sport",
+      "Successor": "Samsung Galaxy Watch 3"
+    },
+    "Body": {
+      "Form factor": "Smartwatch"
+    },
+    "Platform": {
+      "Operating system": "Tizen 4.0"
+    }
+  },
+  "key": {
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Watch",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Watch"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Watch\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Watch",
+    "revid": 1380484301
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

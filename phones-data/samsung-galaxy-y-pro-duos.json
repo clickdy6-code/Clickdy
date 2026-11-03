@@ -1,0 +1,66 @@
+{
+  "slug": "samsung-galaxy-y-pro-duos",
+  "brand": "Samsung",
+  "name": "Galaxy Y Pro DUOS",
+  "status": "published",
+  "announced": "2012-01-01",
+  "released": "2012-01-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-01-01",
+      "Series": "Samsung Galaxy"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2, HSDPA 900 / 2100 - GT-B5512, HSDPA 850 / 1900 / 2100 - GT-B5512B"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "110.8 mm H, 63.5 mm W, 11.9 mm D",
+      "Weight": "112.3 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 \"Gingerbread\"",
+      "CPU": "832 Mhz Single core"
+    },
+    "Memory": {
+      "RAM": "384 MB RAM",
+      "Storage": "512 MB ROM, 160 MB user accessible",
+      "Card slot": "microSDHC up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.6 in TFT QVGA 320×240 px , 256K Colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 megapixel (2,048 × 1,536), 2592x1944 px, Video Recording 24@ fps 320x240 px (QVGA), Geo-tagging"
+    },
+    "Battery": {
+      "Battery": "1,350 mAh, internal rechargeable Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "TFT",
+    "battery_mah": 1350,
+    "os": "Android 2.3",
+    "five_g": false,
+    "weight_g": 112.3,
+    "thickness_mm": 11.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Y Pro DUOS",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Y_Pro_DUOS"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Y Pro DUOS\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Y Pro DUOS",
+    "revid": 1361483146
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "samsung-blackjack",
+  "brand": "Samsung",
+  "name": "BlackJack",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Samsung_Black_Jack.jpg/500px-Samsung_Black_Jack.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Samsung_Black_Jack.jpg/250px-Samsung_Black_Jack.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung BlackJack",
+      "credit": "basictheory, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Black_Jack.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Blackjack",
+      "Successor": "BlackJack II"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, UMTS, HSDPA, EDGE, and GPRS"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "4.45\" × 2.32\" × 0.4\"",
+      "Weight": "3.5"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 5.0",
+      "CPU": "220 MHz Texas Instruments OMAP 1710"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM, 128 MB ROM",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "320 x 240 px, 2.25 inches"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixel"
+    },
+    "Battery": {
+      "Battery": "3.7 Volt Lithium-ion, 1,200 mAhSize: 4.45×2.32×0.4 inches"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.25,
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung BlackJack",
+      "url": "https://en.wikipedia.org/wiki/Samsung_BlackJack"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung BlackJack\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung BlackJack",
+    "revid": 1374925698
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

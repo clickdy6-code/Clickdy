@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-galaxy-a7",
+  "brand": "Samsung",
+  "name": "Galaxy A7",
+  "status": "published",
+  "announced": "2018-09-20",
+  "released": "2018-09-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Samsung_Galaxy_A7_%282018%29.png/500px-Samsung_Galaxy_A7_%282018%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Samsung_Galaxy_A7_%282018%29.png/250px-Samsung_Galaxy_A7_%282018%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A7",
+      "credit": "Dienthoaiquangcao89, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A7_(2018).png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-09-20",
+      "Series": "Galaxy A",
+      "Predecessor": "Samsung Galaxy A6 / A6+ (2018), Samsung Galaxy A7 (2017)",
+      "Successor": "Samsung Galaxy A50"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.8 × 76.8 × 7.5 mm",
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android (operating system), Android Android Oreo, 8.0 \"Oreo\" with Samsung Experience 9.0, Current: Android (operating system), Android Android Q, 10 with One UI 2.0",
+      "Chipset": "Samsung Exynos 7 Octa 7885",
+      "CPU": "Octa-Core 2x Cortex-A73 2.2 GHz & 6x Cortex-A53 1.6 GHz",
+      "GPU": "Mali-G71 MP2"
+    },
+    "Memory": {
+      "RAM": "4 GB/6 GB RAM",
+      "Storage": "64 GB/128 GB",
+      "Card slot": "up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.0\" Super AMOLED FHD+ display with Gorilla Glass 3 1080×2220 px (18.5:9 Aspect Ratio)"
+    },
+    "Cameras": {
+      "Rear camera": "Primary: 24 Megapixel, MP, f-number, f/1.7, 27mm, 1/2.8\", 0.9Micrometre, µm, Phase detection autofocus, PDAF, Ultrawide: 8 Megapixel, MP, f-number, f/2.4, 18mm, 120˚, 1/4.0\", 1.12Micrometre, µm, Depth: 5 Megapixel, MP, f-number, f/2.2, 1/5.0\", 1.12Micrometre, µm, LED flash, Panorama, High dynamic range, HDR, 1080p@30Frame rate, fps (gyro-EIS), 1080p@240Frame rate, fps, 720p@960Frame rate, fps",
+      "Front camera": "24 Megapixel, MP, f-number, f/2.0, 26mm (wide), 1/2.8\", 0.9Micrometre, µm, High dynamic range, HDR, 1080p@30Frame rate, fps"
+    },
+    "Battery": {
+      "Battery": "3300 mAh (International), 3400 mAh (Japan), (non-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11 a/b/g/n/ac, Wi-Fi hotspot;, Bluetooth v5.0, A2DP, EDR;, USB 2.0 via microUSB, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 7 Octa 7885",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "battery_mah": 3300,
+    "nfc": true,
+    "weight_g": 168,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A7 (2018)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A7_%282018%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A7 (2018)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A7 (2018)",
+    "revid": 1380481456
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

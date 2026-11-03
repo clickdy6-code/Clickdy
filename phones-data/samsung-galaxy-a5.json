@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-galaxy-a5",
+  "brand": "Samsung",
+  "name": "Galaxy A5",
+  "status": "published",
+  "announced": "2015-12-02",
+  "released": "2015-12-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Samsung_a5_2016_sm-a510f_uk.jpg/500px-Samsung_a5_2016_sm-a510f_uk.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Samsung_a5_2016_sm-a510f_uk.jpg/250px-Samsung_a5_2016_sm-a510f_uk.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A5",
+      "credit": "David Gerard, Samsung, Developers of w:TouchWiz, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_a5_2016_sm-a510f_uk.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-12-02",
+      "Series": "Galaxy A series",
+      "Predecessor": "Samsung Galaxy A5 (2015)",
+      "Successor": "Samsung Galaxy A5 (2017)"
+    },
+    "Network": {
+      "Technology": "2G, 3G (UMTS/HSPA), 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "144.8 × 71 × 7.3 mm",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\" with TouchWiz Noble UX, Current: Android 7.1.1 \"Nougat\" with Samsung Experience 8.5",
+      "Chipset": "Samsung Exynos 7 Octa 7580 64-bit",
+      "CPU": "Octa-core 1.6 GHz Cortex-A53",
+      "GPU": "Mali-T720MP2"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "Up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.2\" (132mm) Super AMOLED FHD display with Corning Gorilla Glass 4, 1080×1920 px, 2.5D, Colour depth 16M, 424 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/1.9, 28 mm, OIS, autofocus, LED flash, 1080p@30fps",
+      "Front camera": "5 MP, f/1.9, 24 mm, 1080p"
+    },
+    "Battery": {
+      "Battery": "2900 mAh (non-removable) with fast-charging"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11 a/b/g/n, Wi-Fi hotspot;, Bluetooth v4.1, A2DP, EDR, LE;, USB 2.0 microUSB"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 7 Octa 7580 64-bit",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2900,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 155,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A5 (2016)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A5_%282016%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A5 (2016)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A5 (2016)",
+    "revid": 1380481443
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

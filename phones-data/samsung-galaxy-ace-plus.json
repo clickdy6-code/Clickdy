@@ -1,0 +1,73 @@
+{
+  "slug": "samsung-galaxy-ace-plus",
+  "brand": "Samsung",
+  "name": "Galaxy Ace Plus",
+  "status": "published",
+  "announced": "2012-01-04",
+  "released": "2012-01-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-01-04",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy Ace",
+      "Successor": "Samsung Galaxy Ace 2"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 , HSDPA 7.2 Mbps 900/2100 (Canada HSPA 850/1900)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "114.7 x 62.5 x 11.2 mm",
+      "Weight": "115 g",
+      "Other": "Swype keyboard"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 \"Gingerbread\" with TouchWiz",
+      "CPU": "Qualcomm S1 MSM7227A 1 GHz Cortex A5 processor",
+      "GPU": "Adreno 200 GPU, 200 MHz"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "3 GB",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "TFT LCD, 3.65 in diagonal. , 320x480 px (158ppi) HVGA, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "5.0-megapixel 2592x1944 max, 3x digital zoom, autofocus, LED flash, VGA video recording 640x480 px MPEG4 at 30 fps max."
+    },
+    "Battery": {
+      "Battery": "1,300 mAh, 5.0 Wh, 3.7 V, internal rechargeable Li-ion, user replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm jack , Bluetooth v3.0 with A2DP , DLNA , Stereo FM radio with RDS , Micro-USB 2.0 , Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.65,
+    "display_type": "TFT",
+    "battery_mah": 1300,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Ace Plus",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Ace_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Ace Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Ace Plus",
+    "revid": 1381356361
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

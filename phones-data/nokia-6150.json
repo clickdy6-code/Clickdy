@@ -1,0 +1,60 @@
+{
+  "slug": "nokia-6150",
+  "brand": "Nokia",
+  "name": "6150",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "61xx",
+      "Predecessor": "Nokia 6110",
+      "Successor": "Nokia 6210"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 (Europe), GSM 1900 (US)"
+    },
+    "Body": {
+      "Form factor": "Feature phone",
+      "Weight": "141 grams"
+    },
+    "Memory": {
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "80*40 dot matrix LCD, 5 lines capable"
+    },
+    "Cameras": {
+      "Rear camera": "No",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Extended NiMH Battery 900 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Internal GSM switched mode modem"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6150",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6150"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6150\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6150",
+    "revid": 1361477538
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

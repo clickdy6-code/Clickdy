@@ -1,0 +1,95 @@
+{
+  "slug": "oppo-a12",
+  "brand": "OPPO",
+  "name": "A12",
+  "status": "published",
+  "announced": "2020-04-03",
+  "released": "2020-04-03",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A12e:, 2020-04-03, A12:, 2020-04-20, A12s:, 2020-07-14",
+      "Series": "OPPO A Series",
+      "Predecessor": "Oppo A5s, Oppo A11",
+      "Successor": "Oppo A15"
+    },
+    "Network": {
+      "SIM": "Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "A12/A12s:, 155.9 mm H, 75.5 mm W, 8.3 mm D, A12e:, 156.2 mm H, 75.6 mm W, 8.2 mm D",
+      "Weight": "A12/A12s:, 165 g, A12e:, 168 g"
+    },
+    "Platform": {
+      "Operating system": "A12/A12s:, Original & Current:, Android 9 with ColorOS 6.1, A12e:, Original & Current:, Android 8.1 with ColorOS 5.1",
+      "Chipset": "A12/A12s:, MediaTek MT6765 Helio P35 (12 nm), A12e:, Qualcomm SDM450 Snapdragon 450 (14 nm)",
+      "CPU": "A12/A12s: Octa-core (4x2.35 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53), A12e: Octa-core 1.8 GHz Cortex-A53",
+      "GPU": "A12/A12s:, PowerVR GE8320, A12e:, Adreno 506"
+    },
+    "Memory": {
+      "RAM": "A12: 3/4 GB, A12s/A12e: 3 GB",
+      "Storage": "A12: 32/64 GB, A12s: 32 GB, A12e: 64 GB",
+      "Card slot": "Yes, up to 256 GB"
+    },
+    "Display": {
+      "Display": "A12:, 6.22 in, 720 x 1520 px resolution, 19:9 ratio (~270 ppi density), IPS LCD, 450 nits (typ), Corning Gorilla Glass 3, A12s:, 6.2 in, 720 x 1520 px resolution, 19:9 ratio (~271 ppi density), IPS LCD, 450 nits (typ), Corning Gorilla Glass 3, A12e:, 6.2 in, 720 x 1520 px resolution, 19:9 ratio (~271 ppi density), IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "A12/A12s:, Primary: 13 MP, 25mm, FoV 82.3°, 1/3.06\", 1.12µm, PDAF, Depth: 2 MP, 1/5.0\", 1.75µm, A12e:, Primary: 13 MP, 26mm, FoV 80.4°, 1/3.15\", 1.12µm, AF, Depth: 2 MP, 1/5.0\", 1.75µm, All: LED flash, HDR, panorama, 1080p@30fps",
+      "Front camera": "A12:, 5 MP, 28mm (wide), FoV 77°, 1/5.0\", 1.12µm, A12s:, 5 MP, 28mm (wide), FoV 77°, 1/5.0\", 1.12µm, A12e:, 8 MP, 27mm (wide), FoV 74.5°, 1/4.0\", 1.12µm, HDR, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm auxiliary (headphone jack)"
+    },
+    "Battery": {
+      "Battery": "4230 mAh",
+      "Charging": "10W"
+    },
+    "Connectivity": {
+      "Connectivity": "A12/A12s:, Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Bluetooth 5.0, A2DP, LE, A12e:, Wi-Fi 802.11 b/g/n/, Wi-Fi Direct, Bluetooth 4.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.22,
+    "display_type": "IPS LCD",
+    "peak_nits": 450,
+    "chipset": "A12/A12s:",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 4230,
+    "wired_w": 10,
+    "os": "Android 9",
+    "nfc": false,
+    "weight_g": 165,
+    "thickness_mm": 8.3,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo A12",
+      "url": "https://en.wikipedia.org/wiki/Oppo_A12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo A12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo A12",
+    "revid": 1376705674
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

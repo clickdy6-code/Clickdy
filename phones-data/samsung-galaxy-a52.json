@@ -1,0 +1,93 @@
+{
+  "slug": "samsung-galaxy-a52",
+  "brand": "Samsung",
+  "name": "Galaxy A52",
+  "status": "published",
+  "announced": "2021-03-17",
+  "released": "2021-03-17",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-03-17",
+      "Series": "Galaxy A",
+      "Predecessor": "Samsung Galaxy A51",
+      "Successor": "Samsung Galaxy A53 5G"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G, 5G (for A52 5G & A52s 5G)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.9 mm H, 75.1 mm W, 8.4 mm D",
+      "Weight": "189 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11 with One UI 3.1, Current: Android 14 with One UI 6.1",
+      "Chipset": "4G: Qualcomm Snapdragon 720G (8 nm), 5G: Qualcomm Snapdragon 750G 5G (8 nm), 5G \"s\" model: Qualcomm Snapdragon 778G 5G (6 nm)",
+      "CPU": "4G: Octa-core (2x2.3 GHz Kryo 465 Gold & 6x1.8 GHz Kryo 465 Silver), 5G: Octa-core (2x2.2 GHz Kryo 570 & 6x1.8 GHz Kryo 570), 5G \"s\" model: Octa-core (4x2.4 GHz Kryo 670 & 4x1.9 GHz Kryo 670)",
+      "GPU": "4G: Adreno 618, 5G: Adreno 619, 5G \"s\" model: Adreno 642L"
+    },
+    "Memory": {
+      "RAM": "4 GB, 6 GB or 8 GB RAM",
+      "Storage": "128 GB or 256 GB UFS 2.1",
+      "Card slot": "microSD, up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.5 in Super AMOLED, 20:9 ratio, ~84.9% screen-to-body ratio, ~405 ppi, 800 nits peak brightness, 4G: 90 Hz refresh rate, 5G/5G \"s\" model: 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-Camera Setup, Primary: Sony IMX 682; 64 Megapixel, MP, 25mm, FoV 83°, 1/1.73\", 0.8 Micrometre, µm, Phase detection autofocus, PDAF, Optical image stabilization, OIS, Ultra wide angle lens, Ultrawide: Samsung ISOCELL (S5K)3L6; 12 Megapixel, MP, 13mm, FoV 116.3°, 1/3.0\", 1.12 Micrometre, µm, FF, Macro: GalaxyCore GC5035; 5 Megapixel, MP, 25mm, 1/5.0\", 1.12 Micrometre, µm, FF, Depth: GalaxyCore GC5035; 5 Megapixel, MP, 1/5.0\", 1.12 Micrometre, µm, Camera features: LED flash, Panorama, High dynamic range, HDR, Video recording: 4K resolution, 4K@30Frame rate, fps, 1080p@30/60Frame rate, fps, 720p@30Frame rate, fps; Electronic image stabilization, gyro-EIS",
+      "Front camera": "Sony IMX 616; 32 Megapixel, MP, 25mm (wide), FoV 80.5°, 1/2.76\", 0.8 Micrometre, µm, FF, Camera features: High dynamic range, HDR, Video recording: 4K resolution, 4K@30Frame rate, fps, 1080p@30/60Frame rate, fps, 720p@30Frame rate, fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker (stereo), 3.5mm Audio jack"
+    },
+    "Battery": {
+      "Battery": "4500 mAh lithium-polymer",
+      "Charging": "25 W Fast-charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 800,
+    "chipset": "4G: Qualcomm Snapdragon 720G",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "battery_mah": 4500,
+    "wired_w": 25,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 189,
+    "thickness_mm": 8.4,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A52",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A52"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A52\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A52",
+    "revid": 1380481539
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

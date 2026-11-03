@@ -1,0 +1,80 @@
+{
+  "slug": "nokia-c6-00",
+  "brand": "Nokia",
+  "name": "C6-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nokia_C6-00_Black.png/500px-Nokia_C6-00_Black.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nokia_C6-00_Black.png/250px-Nokia_C6-00_Black.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C6-00",
+      "credit": "AnVuong1222004 (2), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_C6-00_Black.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Cseries",
+      "Predecessor": "Nokia N97 Mini, Nokia E75, Nokia 6760 slide",
+      "Successor": "Nokia C7-00, Nokia C6-01"
+    },
+    "Network": {
+      "Technology": "GSM, GPRS, WCDMA, HSDPA"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "113.4 × 53 × 16.8 mm",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS version 9.4, S60 5th edition",
+      "CPU": "ARM 11 (434 MHz)"
+    },
+    "Memory": {
+      "RAM": "ROM: 512 MB NAND, RAM: 128 MB",
+      "Storage": "Maximum user storage: 240 MB",
+      "Card slot": "Micro SD (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "LCD transmissive 3.2\" resistive single touch screen (24-bit 16.7 million colours)"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel camera (2,584 × 1,938 pixels) 30 fps",
+      "Front camera": "Camera for video calls (QVGA)"
+    },
+    "Battery": {
+      "Battery": "BL-4J 3.7 V 1200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Local Connectivity:, Bluetooth 2.0 +EDR, Bluetooth Stereo Audio, MicroUSB, MTP (Multimedia Transfer Protocol), Nokia AV 3.5 mm, Nokia microUSB Cable CA-101, USB 2.0 High-Speed, USB Mass Storage, Bluetooth Profiles:, A2DP, AVRCP, BIP, DUN, FTP, GAP, GAVDP, GOEP, HFP, HID, HSP, OPP, PBAP, SAP, SDP, SPP, Other:, WLAN support 802.11b/g, WEP, WPA, WPA2 (AES/TKIP), GPS/A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "LCD",
+    "battery_mah": 1200,
+    "os": "Symbian OS version 9.4",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 150
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C6-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C6-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C6-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C6-00",
+    "revid": 1361478156
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

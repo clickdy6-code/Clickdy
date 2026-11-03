@@ -1,0 +1,69 @@
+{
+  "slug": "samsung-m8800-pixon",
+  "brand": "Samsung",
+  "name": "M8800 Pixon",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "M-Series",
+      "Successor": "Samsung M8910 Pixon12"
+    },
+    "Network": {
+      "Technology": "GSM 800/900/1700/1800/1900/2100, 3G 900/2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "107.9x54.6x13.88 mm",
+      "Weight": "122g"
+    },
+    "Platform": {
+      "Operating system": "TouchWiz UI"
+    },
+    "Memory": {
+      "RAM": "200MB internal",
+      "Storage": "up to 16GB",
+      "Card slot": "microSD/microSDHC"
+    },
+    "Display": {
+      "Display": "262K Colour TFT, 400 x 240 pixels (WQVGA resolution), 3.2 inches"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixels at 3264x2448 pixels (picture), 720 x 480 at 30fps"
+    },
+    "Battery": {
+      "Battery": "Li-lon 1000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "HSDPA 7.2 Mbps, Bluetooth 2.0 and USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 122
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung M8800 Pixon",
+      "url": "https://en.wikipedia.org/wiki/Samsung_M8800_Pixon"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung M8800 Pixon\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung M8800 Pixon",
+    "revid": 1361483284
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

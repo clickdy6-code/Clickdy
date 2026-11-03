@@ -1,0 +1,83 @@
+{
+  "slug": "nokia-n8",
+  "brand": "Nokia",
+  "name": "N8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nokia_N8.png/500px-Nokia_N8.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nokia_N8.png/250px-Nokia_N8.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N8",
+      "credit": "Dienthoaiquangcao68, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N8.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nseries",
+      "Predecessor": "Nokia N97, Nokia N86 8MP",
+      "Successor": "Nokia 808 PureView, Nokia N9, Nokia Lumia 800, Nokia 8"
+    },
+    "Network": {
+      "Technology": "HSDPA (Pentaband) HSUPA 850 / 900 / 1700 / 1900 / 2100, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Slate bar",
+      "Dimensions": "113.5mm × 59 mm × 12.9 mm (4.47 in × 2.32 in × 0.51 in)",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian^3, upgradeable to Nokia Belle Refresh (111.040.1511)",
+      "CPU": "ARM11 680 MHz Samsung K5W4G2GACA – AL54 processor, 3D Graphics Broadcom BCM2727 GPU with HW Accelerator with OpenGL-ES 2.0 support"
+    },
+    "Memory": {
+      "RAM": "256 MB SDRAM",
+      "Storage": "512 MB internal NAND memory; 135 MB available to user, 16 GB on-board memory",
+      "Card slot": "Hot swap microSD; up to 32 GB supported w/ microSDHC support"
+    },
+    "Display": {
+      "Display": "210 ppi pixel density 640 × 360 nHD), 3.5\" capacitive, multi-touch display with AMOLED technology"
+    },
+    "Cameras": {
+      "Rear camera": "12.1 megapixels with Carl Zeiss optics and xenon flash, 16:9 720p video with continuous AutoFocus, 30 frame/s",
+      "Front camera": "VGA, for video calling"
+    },
+    "Battery": {
+      "Battery": "BL-4D 1200 mAh Li-Ion fixed battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 via MicroUSB, USB On-The-Go, Bluetooth 3.0, Wi-Fi 802.11b/g/n, FM transmitter, TV-out, HDMI out with Dolby Digital Plus Surround Sound, GPS with A-GPS, 3G"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "AMOLED",
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1200,
+    "os": "Symbian^3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135,
+    "thickness_mm": 12.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N8",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N8",
+    "revid": 1374924586
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

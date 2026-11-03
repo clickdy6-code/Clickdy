@@ -1,0 +1,90 @@
+{
+  "slug": "oppo-joy-3",
+  "brand": "Oppo",
+  "name": "Joy 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2015",
+      "Series": "Oppo Joy Series",
+      "Predecessor": "Oppo Joy"
+    },
+    "Network": {
+      "Technology": "2G bands: GSM(850/900/1800/1900), 3G bands: HSDPA(850/900/2100), HSPA"
+    },
+    "Body": {
+      "Dimensions": "132.8x66.6x9 mm, 5.23x2.62x0.35 in",
+      "Weight": "135 g (4.76 oz)",
+      "Other": "Colors: White, Gray, Price: About 130 EUR"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 2 running on Android 4.4",
+      "Chipset": "MediaTek MT6582",
+      "CPU": "4x1.3 GHz Cortex-A7",
+      "GPU": "Mali-400MP2, 2 cores, 500MHz"
+    },
+    "Memory": {
+      "RAM": "1GB single channel, 533MHz",
+      "Storage": "4GB",
+      "Card slot": "microSDHC"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD, Size: 4.5 inches, 55.8 cm^2, Resolution: 480x854, 218 ppi, Ratios: 16:9 aspect ratio, 63.1% StB ratio"
+    },
+    "Cameras": {
+      "Rear camera": "Sensor: CMOS, Resolution: 2592x1944 (5.04MP), Aperture: f/2.4, Video: 720p at 30fps",
+      "Front camera": "Resolution: 1600x1200 (1.92MP), Aperture: f/2.4, Video: 480p at 30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker: Yes, 3.5mm jack: Yes"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Po, 2000mAh",
+      "Charging": "microUSB 2.0"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, hotspot, Bluetooth 4.0, A2DP, EDR, A-GPS, FM radio, microUSB 2.0, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6582",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5.04,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 1.92,
+    "battery_mah": 2000,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Joy 3",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Joy_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Joy 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Joy 3",
+    "revid": 1361479126
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

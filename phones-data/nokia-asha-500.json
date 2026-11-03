@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-asha-500",
+  "brand": "Nokia",
+  "name": "Asha 500",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Asha Full Touch"
+    },
+    "Network": {
+      "Technology": "Quad-band GSM:, 850, 900, 1800, 1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Full Touch monoblock",
+      "Dimensions": "Width: 58.1 mm, Height: 100.3 mm, Thickness: 12.8 mm",
+      "Weight": "101 g",
+      "Other": "Micro-SIM, Accelerometer, Proximity sensor, USB charging"
+    },
+    "Platform": {
+      "Operating system": "Nokia Asha software platform 1.1.1",
+      "CPU": "Single core"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Storage": "4 GB microSD card (included)",
+      "Card slot": "microSD, supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.8\" HighColor QVGA, 240×320 px (portrait mode; 3:4 or 4:3 aspect ratio), 18-bit/262,000 colors, 142 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "2 Mpix, 1600×1200 pixels, Fixed focus, 50 cm to infinity, Formats: JPEG, RAW10"
+    },
+    "Sound": {
+      "Sound": "3.5 mm audio connector, hands-free speaker, stereo FM radio, music player, Nokia Stereo Headset WH-108"
+    },
+    "Battery": {
+      "Battery": "BL-4U 1200 mAh, removable, Standby: 35 days, Talk time: 14 hours, Music playback: 14 h"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, EDGE, Wi-Fi 802.11 b/g/n, Bluetooth 3.0 with Slam, supported profiles: OPP 1.1, HFP 1.6, HSP 1.1, AVRCP 1.3, PBAP 1.0, A2DP 1.2, DUN, FTP, USB 2.0 High Speed via MicroUSB, USB mass storage"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 101,
+    "thickness_mm": 12.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 500",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 500",
+    "revid": 1361478028
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

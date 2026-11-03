@@ -1,0 +1,105 @@
+{
+  "slug": "samsung-galaxy-z-flip-7-fe",
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip 7 FE",
+  "status": "published",
+  "announced": "2025-07-25",
+  "released": "2025-07-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Samsung_Galaxy_Flip7_FE.jpg/500px-Samsung_Galaxy_Flip7_FE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Samsung_Galaxy_Flip7_FE.jpg/250px-Samsung_Galaxy_Flip7_FE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Z Flip 7 FE",
+      "credit": "Ssu, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Flip7_FE.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-07-25",
+      "Series": "Galaxy Z"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G / 5G",
+      "SIM": "Nano-SIM + eSIM + eSIM (max 2 at a time)"
+    },
+    "Body": {
+      "Form factor": "Foldable (clamshell)",
+      "Dimensions": "Unfolded: 165.1 × 71.9 × 6.9 mm, Folded: 85.1 × 71.9 × 14.9 mm",
+      "Weight": "187 g (6.60 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 16 with One UI 8.0, Current: Android 17 with One UI 9.0",
+      "Chipset": "Exynos 2400 (4 nm)",
+      "CPU": "10-core (1x3.2GHz Cortex-X4 & 2x2.9GHz Cortex-A720 & 3x2.6GHz Cortex-A720 & 4x1.95GHz Cortex-A520)",
+      "GPU": "Xclipse 940"
+    },
+    "Memory": {
+      "RAM": "8GB",
+      "Storage": "128GB, 256GB"
+    },
+    "Display": {
+      "Display": "Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak), 6.7 inches, 101.5 cm2 (~85.5% screen-to-body ratio), 1080 x 2640 pixels, 21.9:9 ratio (~426 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, 23 mm (wide), 1/1.57\", 1.0 μm, dual pixel PDAF, OIS, 12 MP, f/2.2, 13 mm, 123° (ultrawide), 1/3.2\", 1.12 μm, LED flash, HDR, panorama, 4K@30/60fps, 1080p@60/120/240fps, 720p@960fps, HDR10+",
+      "Front camera": "10 MP, f/2.2, 23 mm (wide), 1/3.0\", 1.22 μm, HDR, 4K@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4000 mAh",
+      "Charging": "25W wired, QC2.0, 50% in 30 min, 15W wireless, 4.5W reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band, Wi-Fi Direct, Bluetooth 5.4, A2DP, LE, GPS, GALILEO, GLONASS, BDS, QZSS, NFC, USB Type-C 3.2"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 2600,
+    "chipset": "Exynos 2400",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 10,
+    "battery_mah": 4000,
+    "wireless_w": 15,
+    "wired_w": 25,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 187,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Flip 7 FE",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_7_FE"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Flip 7 FE\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Flip 7 FE",
+    "revid": 1378815869
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

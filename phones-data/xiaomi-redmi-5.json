@@ -1,0 +1,89 @@
+{
+  "slug": "xiaomi-redmi-5",
+  "brand": "Xiaomi",
+  "name": "Redmi 5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-12",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 4, Redmi 4X",
+      "Successor": "Redmi 6, Redmi 6 Pro"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Redmi 5 Plus:, H: 158.5 mm (6.24 in), W: 75.5 mm (2.97 in), D: 8.1 mm (0.32 in)",
+      "Weight": "Redmi 5 Plus: 180 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.2 \"Nougat\" with MIUI 9, Current: Android 8.1 \"Oreo\" with MIUI 11",
+      "Chipset": "Redmi 5: Snapdragon 450, Redmi 5 Plus: Snapdragon 625",
+      "CPU": "Redmi 5: Octa-core 1.8 GHz Cortex-A53, Redmi 5 Plus: Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "Redmi 5:, 2 or 3 GB, Redmi 5 Plus:, 3 or 4 GB",
+      "Storage": "Redmi 5:, 16 or 32 GB, Redmi 5 Plus:, 32 or 64 GB",
+      "Card slot": "microSDXC, microSDHC, microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "Redmi 5:, 5.7\" 1440 × 720 pixels,18:9 ratio, IPS LCD capacitive touchscreen, 16M colors, Redmi 5 Plus:, 5.99\", 1080 x 2160 pixels, 18:9 ratio (403 ppi), IPS LCD capacitive touchscreen, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP (f/2.2, 1.25 μm), phase detection autofocus, dual-LED dual-tone flash(only Redmi 5 Plus), Geo-tagging, touch focus, face detection, panorama, HDR",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po, Redmi 5: 3300 mAh, Redmi 5 Plus: 4000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (2.4 & 5GHz)(ac band only available on 5 Plus), dual-band, WiFi Direct, Bluetooth v4.2"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS LCD",
+    "chipset": "Redmi 5: Snapdragon 450",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3300,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 180,
+    "thickness_mm": 8.1,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 5",
+      "url": "https://en.wikipedia.org/wiki/Redmi_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 5",
+    "revid": 1361479794
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

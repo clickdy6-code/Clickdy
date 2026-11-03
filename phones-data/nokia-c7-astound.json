@@ -1,0 +1,66 @@
+{
+  "slug": "nokia-c7-astound",
+  "brand": "Nokia",
+  "name": "C7 Astound",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 MHz, HSDPA 900/2100 MHz"
+    },
+    "Body": {
+      "Form factor": "bar",
+      "Dimensions": "117.3x56.8x10.5 mm, 64 cc",
+      "Weight": "130 g (4.59oz)"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 3, upgradable to Symbian Belle"
+    },
+    "Memory": {
+      "RAM": "8 GB, 256 MB RAM, CPU 1 GHz",
+      "Card slot": "microSD expandable up to 32GB"
+    },
+    "Display": {
+      "Display": "3.5\" 360x640 px, TFT, 16M color"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, 720p, VGA, 3264x2448 px, secondary 0.3 MP, VGA"
+    },
+    "Battery": {
+      "Battery": "1200 mAH (BL-5K) Li-Ion, Standby -555 h, Talktime- 9h 30min"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "ram_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1200,
+    "os": "Symbian OS 3",
+    "five_g": false,
+    "weight_g": 130
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C7 Astound",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C7_Astound"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C7 Astound\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C7 Astound",
+    "revid": 1361830204
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "nokia-x2-05",
+  "brand": "Nokia",
+  "name": "X2-05",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Xseries",
+      "Predecessor": "Nokia X2-00",
+      "Successor": "Nokia 301"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "candybar",
+      "Dimensions": "113x50x15 mm",
+      "Weight": "87.8 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "10 MB",
+      "Card slot": "microSD (hot swap), expandable to 32GB"
+    },
+    "Display": {
+      "Display": "2.2\" TFT, 240x320 px QVGA"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 megapixels, VGA (640x480 px), fixed focus"
+    },
+    "Battery": {
+      "Battery": "BL-5CB, Li-Ion 800 mAh, Standby: up to 25 days, Talk time: 4 hours"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "five_g": false,
+    "weight_g": 87.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X2-05",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X2-05"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X2-05\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X2-05",
+    "revid": 1374882486
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

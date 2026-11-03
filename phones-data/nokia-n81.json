@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-n81",
+  "brand": "Nokia",
+  "name": "N81",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/NokiaN81.jpg/500px-NokiaN81.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/NokiaN81.jpg/250px-NokiaN81.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N81",
+      "credit": "Falense, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NokiaN81.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6111, Nokia 6290, Nokia N76, Nokia N80, Nokia N91",
+      "Successor": "Nokia N85 , Nokia 5800 XpressMusic , Nokia N97 Mini , Nokia X6-00"
+    },
+    "Network": {
+      "Technology": "UMTS/GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "102 x 50 x 17.9 mm, 86 cc",
+      "Weight": "140 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.2"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels, 2.4\", 16M Colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP / 1600 x 1200 px",
+      "Front camera": "CIF Video Call Camera"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1050 mAh (BP-6MT)"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1050,
+    "os": "Symbian OS 9.2",
+    "five_g": false,
+    "weight_g": 140
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N81",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N81"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N81\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N81",
+    "revid": 1361478473
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

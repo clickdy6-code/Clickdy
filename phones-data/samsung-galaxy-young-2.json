@@ -1,0 +1,81 @@
+{
+  "slug": "samsung-galaxy-young-2",
+  "brand": "Samsung",
+  "name": "Galaxy Young 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Samsung_Galaxy_Young_2.jpg/500px-Samsung_Galaxy_Young_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Samsung_Galaxy_Young_2.jpg/250px-Samsung_Galaxy_Young_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Young 2",
+      "credit": "5gfax, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Young_2.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-06",
+      "Predecessor": "Samsung Galaxy Young",
+      "Successor": "Samsung Galaxy V , Samsung Galaxy J1"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "109.8 mm H, 59.9 mm W, 11.8 mm D",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 KitKat With, TouchWiz",
+      "Chipset": "Spreadtrum SC6815A",
+      "CPU": "Single-core, 1GHz ARM Cortex-A7",
+      "GPU": "Mali-400"
+    },
+    "Memory": {
+      "Storage": "4 GB (2 GB available)",
+      "Card slot": "MicroSD support for up to 32GB"
+    },
+    "Display": {
+      "Display": "3.5 inches, 320 x 480 pixels (165 ppi) TFT LCD capacitive touchscreen, 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 Megapixel"
+    },
+    "Battery": {
+      "Battery": "Removable 1300mAh EB-BG130BBE"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth, Wi-Fi, Wi-Fi Direct, GPS Location, NFC"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "chipset": "Spreadtrum SC6815A",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1300,
+    "os": "Android 4.4",
+    "nfc": true,
+    "weight_g": 124,
+    "thickness_mm": 11.8,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Young 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Young_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Young 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Young 2",
+    "revid": 1361483156
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

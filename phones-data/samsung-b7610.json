@@ -1,0 +1,73 @@
+{
+  "slug": "samsung-b7610",
+  "brand": "Samsung",
+  "name": "B7610",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung Omnia Series"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "112.6x57.8x16.2 mm",
+      "Weight": "159 g"
+    },
+    "Platform": {
+      "Operating system": "Microsoft Windows Mobile 6.1/6.5 Professional",
+      "CPU": "800 MHz processor; dedicated graphics"
+    },
+    "Memory": {
+      "RAM": "1 GB, microSD (TransFlash), up to 32 GB",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "AMOLED resistive touchscreen, 16M colors, 800x480 pixels, 3.5 inches, Advanced Resistive touchscreen display, DNSe (Digital Natural Sound Engine), Accelerometer sensor for auto-rotate"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixels (Back)",
+      "Front camera": "video call (Front)"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth v2.0 with A2DP, Wi-Fi b/g (DLNA)"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "AMOLED",
+    "ram_gb": [
+      1,
+      32
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1500,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 159
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung B7610",
+      "url": "https://en.wikipedia.org/wiki/Samsung_B7610"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung B7610\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung B7610",
+    "revid": 1374690533
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

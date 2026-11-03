@@ -1,0 +1,93 @@
+{
+  "slug": "redmi-9",
+  "brand": "Redmi",
+  "name": "9",
+  "status": "published",
+  "announced": "2020-06-10",
+  "released": "2020-06-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Back_of_Redmi_9_sample_in_China_20210307.jpg/500px-Back_of_Redmi_9_sample_in_China_20210307.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Back_of_Redmi_9_sample_in_China_20210307.jpg/250px-Back_of_Redmi_9_sample_in_China_20210307.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Redmi 9",
+      "credit": "洛微, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Back_of_Redmi_9_sample_in_China_20210307.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-06-10",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 8",
+      "Successor": "Redmi 10"
+    },
+    "Network": {
+      "SIM": "Dual Nano-SIM, DSDS"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.3 x 77 x 9.1 mm",
+      "Weight": "198 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10 based on MIUI 11, upgradeable to Android 12 based on MIUI 13",
+      "CPU": "Mediatek MT6769V/CU Helio G80 (12 nm)",
+      "GPU": "Mali-G52 MC2"
+    },
+    "Memory": {
+      "RAM": "3 GB, 4 GB or 6 GB LPDDR4X",
+      "Storage": "32 GB, 64 GB, or 128 GB eMMC 5.1",
+      "Card slot": "Dedicated Slot, microSDXC, upto 256 GB"
+    },
+    "Display": {
+      "Display": "6.53 inches, 1080 × 2340 pixels, 19.5:9 ratio (~395 ppi density), Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-Camera Setup, Primary: OmniVision PureCel®Plus OV13B10; 13 Megapixel, MP, 27mm (wide), FoV 75°, 1/3.1\", 1.12 Micrometre, µm, Phase detection autofocus, PDAF, Ultra wide angle lens, Ultrawide: Samsung ISOCELL S5K4H7; 8 Megapixel, MP, 15mm, FoV 118°, 1/4.0\", 1.12 Micrometre, µm, FF, Macro: OmniVision PureCel® OV5675; 5 Megapixel, MP, 23mm, 1/5.0\", 1.12 Micrometre, µm, FF, Depth: OmniVision OV02B1B; 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, FF, Camera features: LED flash, High dynamic range, HDR, Panorama, Video recording: 1080p@30Frame rate, fps",
+      "Front camera": "OmniVision PureCel® OV8856; 8 Megapixel, MP, 26mm (wide), FoV 78°, 1/4.0\", 1.12 Micrometre, µm, FF, Camera features: High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5020 mAh, non-removable",
+      "Charging": "18 W Fast Charging (9V@2A)"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Bluetooth 5.0, GPS, GLONASS, BDS, NFC (Global Only), Infrared Blaster, Wireless FM radio (no wired headphones required), USB Type-C 2.0, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.53,
+    "ram_gb": [
+      3,
+      4,
+      6
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "battery_mah": 5020,
+    "wired_w": 18,
+    "os": "Android 10",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 198,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 9",
+      "url": "https://en.wikipedia.org/wiki/Redmi_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 9",
+    "revid": 1361792436
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

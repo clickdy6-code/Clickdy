@@ -1,0 +1,88 @@
+{
+  "slug": "nokia-lumia-1320",
+  "brand": "Nokia",
+  "name": "Lumia 1320",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Nokia_Lumia_1320.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Nokia_Lumia_1320.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia Lumia 1320",
+      "credit": "AnVuong1222004 (11), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_1320.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 2013",
+      "Discontinued": "April 2015",
+      "Series": "Lumia",
+      "Successor": "Microsoft Lumia 640 XL"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE , HSPA+ , 4G LTE Rel. 8 (UE Cat 3) , Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Touchscreen Phablet",
+      "Dimensions": "164.25 mm H , 85.9 mm W , 9.79 mm D",
+      "Weight": "220 g",
+      "Other": "Talk time: Up to 25 hours , Standby time: Up to 672 hours (28 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8, upgradeable to Windows Phone 8.1.",
+      "Chipset": "Qualcomm Snapdragon S4",
+      "CPU": "1.7 GHz dual-core Qualcomm",
+      "GPU": "Qualcomm Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB flash",
+      "Card slot": "MicroSD (up to 128 GB)"
+    },
+    "Display": {
+      "Display": "6\" HD LCD IPS ClearBlack Touchscreen, 1280x720 px"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels 1080p Full HD video capture @ 30fps, Touch to focus, Face recognition, Digital zoom, Geo tagging, LED flash",
+      "Front camera": "0.3 megapixels, VGA video capture @ 30fps"
+    },
+    "Battery": {
+      "Battery": "BV-4BW 3400 mAh"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon S4",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 3400,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "weight_g": 220,
+    "thickness_mm": 9.79,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 1320",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_1320"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 1320\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 1320",
+    "revid": 1376088151
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

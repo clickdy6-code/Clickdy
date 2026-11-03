@@ -1,0 +1,49 @@
+{
+  "slug": "samsung-t669-gravity-t",
+  "brand": "Samsung",
+  "name": "T669 Gravity T",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Feature phone",
+      "Dimensions": "109 mm H , 57 mm W , 15 mm D",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "proprietary"
+    },
+    "Memory": {
+      "Card slot": "microSD/microSDHC (up to 16 GB)"
+    },
+    "Battery": {
+      "Battery": "1000 mAh Li-ion, easily replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB , Bluetooth"
+    }
+  },
+  "key": {
+    "battery_mah": 1000,
+    "nfc": false,
+    "weight_g": 120,
+    "thickness_mm": 15
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung T669 Gravity T",
+      "url": "https://en.wikipedia.org/wiki/Samsung_T669_Gravity_T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung T669 Gravity T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung T669 Gravity T",
+    "revid": 1361483665
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

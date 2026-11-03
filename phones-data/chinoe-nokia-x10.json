@@ -1,0 +1,97 @@
+{
+  "slug": "chinoe-nokia-x10",
+  "brand": "ChinoE",
+  "name": "Nokia X10",
+  "status": "published",
+  "announced": "2021-04-08",
+  "released": "2021-04-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Nokia_X20_5G.jpg/500px-Nokia_X20_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Nokia_X20_5G.jpg/250px-Nokia_X20_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "ChinoE Nokia X10",
+      "credit": "NKingz06, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_X20_5G.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "X10/X20: 2021-04-08, X100: 2021-11-09",
+      "Series": "X",
+      "Successor": "Nokia X30"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G",
+      "SIM": "X10/X20: Nano-SIM or Hybrid Dual SIM (Nano-SIM), X100: Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H:, X10/X20: 168.9 mm, X100: 171.4 mm, W: 79.7 mm, D: 9.1 mm",
+      "Weight": "X10: 210 g, X20: 220 g, X100: 217 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 11, Current:, X10/X20: Android 14, X100: Android 13",
+      "Chipset": "Qualcomm SM4350 Snapdragon 480 5G (8 nm)",
+      "CPU": "Octa-core (2x2.0 GHz Kryo 460 & 6x1.8 GHz Kryo 460)",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "X10: 4/6 GB, X20: 6/8 GB, X100: 6 GB, LPDDR4X",
+      "Storage": "X10: 64/128 GB, X20/X100: 128 GB",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.67\", 2400 × 1080 (FHD+), 20:9 ratio, 395 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Wide: X10/X100: 48 MP, PDAF, X20: 64 MP, PDAF, Ultrawide: 5 MP, Macro: 2 MP, Depth: 2 MP, Other: Carl Zeiss AG, Zeiss optics, LED flash, HDR, panorama, Video:, X10/X100: 1080p@30fps, X20: 1080p@30/60fps",
+      "Front camera": "X10: 8 MP (wide), X20: 32 MP (wide), X100: 16 MP (wide), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4470 mAh",
+      "Charging": "18 W fast charging"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm SM4350 Snapdragon 480 5G",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 4470,
+    "wired_w": 18,
+    "os": "Android 11",
+    "five_g": true,
+    "dual_sim": true,
+    "weight_g": 210,
+    "thickness_mm": 79.7,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X10",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X10",
+    "revid": 1369324361
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

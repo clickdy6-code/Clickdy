@@ -1,0 +1,89 @@
+{
+  "slug": "oppo-realme-c1",
+  "brand": "OPPO",
+  "name": "Realme C1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Realme_C1.jpg/500px-Realme_C1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Realme_C1.jpg/250px-Realme_C1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OPPO Realme C1",
+      "credit": "Dienthoaiquangcao62, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Realme_C1.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Realme C, Oppo A",
+      "Successor": "Realme C2"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156.2 x",
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 8.1 Oreo + ColorOS 5.2, Current: Android 9 Pie + ColorOS 6",
+      "CPU": "Qualcomm SDM450 Snapdragon 450 (14 nm), 8x1.8 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "C1: 2 GB, C1 2019: 2/3 GB, A3s: 2/3/4 GB, A12e: 3 GB, LPDDR3",
+      "Storage": "C1: 16 GB, C1 2019: 32 GB, A3s: 16/32/64 GB, A12e: 64 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB'"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.2 in, 1520 x 720 pixels (720p HD+), 19:9 ratio, 271 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Dual-Camera Setup, Primary: Hynix Hi-1333; 13 Megapixel, MP, 26mm (Wide-angle lens, wide), 1/3.1\", 1.12 Micrometre, µm, Autofocus, AF, Depth: GalaxyCore GC2375H; 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, Camera features: LED flash, High dynamic range, HDR, Panorama, Video recording: 1080p@30Frame rate, fps",
+      "Front camera": "A3s / A12e:, CPH1853 / CPH1805:, GalaxyCore GC8034; 8 Megapixel, MP, 28mm (Wide-angle lens, wide), 1/4.0\", 1.12 Micrometre, µm, FF, CPH1803:, 8 Megapixel, MP, 28mm (Wide-angle lens, wide), 1/4.3\", 1.0 Micrometre, µm, FF, C1 / C1 2019:, GalaxyCore GC5025; 5 Megapixel, MP, 28mm (Wide-angle lens, wide), 1/5.0\", 1.12 Micrometre, µm, FF, Camera features: High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 4230 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm jack, Bluetooth 4.2 (A2DP, LE), FM radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), GPS, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.2,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2,
+      3,
+      4
+    ],
+    "storage_gb": [
+      16,
+      32,
+      64
+    ],
+    "battery_mah": 4230,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 168
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C1",
+      "url": "https://en.wikipedia.org/wiki/Realme_C1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C1",
+    "revid": 1370827711
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

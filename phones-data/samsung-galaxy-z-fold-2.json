@@ -1,0 +1,88 @@
+{
+  "slug": "samsung-galaxy-z-fold-2",
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold 2",
+  "status": "published",
+  "announced": "2020-09-18",
+  "released": "2020-09-18",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-09-18",
+      "Discontinued": "(successor), (support)",
+      "Series": "Galaxy Z",
+      "Predecessor": "Samsung Galaxy Fold",
+      "Successor": "Samsung Galaxy Z Fold 3"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G / 5G"
+    },
+    "Body": {
+      "Form factor": "Foldable slate",
+      "Dimensions": "Unfolded: 159.2 mm H, 128.2 mm W, 6.9 mm D, Folded: 159.2 mm H, 68.0 mm W, 13.8-16.8 mm D",
+      "Weight": "282 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with One UI 2.5, Current: Android 13 with One UI 5.1.1",
+      "Chipset": "Qualcomm Snapdragon 865+",
+      "CPU": "Octa-core (1x 3.09 GHz, 3x 2.42 GHz and 4x 1.8 GHz) Kryo 585",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5",
+      "Storage": "256 GB or 512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED 2X, 7.6 in (19.3 cm), ~5:4 aspect ratio, 373 ppi, HDR10+, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "12, f/1.8, 26mm, 1/1.76\", 1.8 μm (wide), 12, f/2.4, 52mm, 1/3.6\", 1.0 μm (telephoto), 12, f/2.2, 12mm, 1.12 μm (ultrawide), Dual Pixel PDAF, PDAF, OIS, gyro-EIS, HDR, 2x optical zoom, 4K@60 fps, 1080p@60/240 fps, 720p@960 fps, HDR10+",
+      "Front camera": "2× 10 MP, f/2.2, 26mm, 1.22 μm Gyro-EIS, HDR, 4K@60 fps, 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, A2DP, low-energy, aptX HD, Wi-Fi 802.11 a/b/g/n/ac/6, dual-band"
+    }
+  },
+  "key": {
+    "display_in": 7.6,
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 865+",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "front_mp": 10,
+    "battery_mah": 4400,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 282,
+    "thickness_mm": 6.9,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Fold 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Fold 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Fold 2",
+    "revid": 1380548715
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

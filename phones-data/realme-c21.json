@@ -1,0 +1,87 @@
+{
+  "slug": "realme-c21",
+  "brand": "Realme",
+  "name": "C21",
+  "status": "published",
+  "announced": "2021-03-05",
+  "released": "2021-03-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "C21: 2021-03-05, C21Y: 2021-06-21",
+      "Series": "C",
+      "Predecessor": "Realme C11",
+      "Successor": "Realme C31"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "C21: 165.2 × 76.4 × 8.9 mm, C21Y: 164.5 × 76 × 9.1 mm",
+      "Weight": "C21: 190 g, C21Y: 200 g"
+    },
+    "Platform": {
+      "Operating system": "C21:, Original: Android 10 + realme UI 1, Current: Android 11 + realme UI 2, C21Y:, Original: Android 11 + realme R Edition",
+      "CPU": "C21: MediaTek MT6762 Helio G35 (12 nm), 8 cores (4×2.3 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53), C21Y: Unisoc T610 (12 nm), 8 cores (2×1.8 GHz Cortex-A75 & 6×1.8 GHz Cortex-A53)",
+      "GPU": "C21: PowerVR GE8320, C21Y: Mali-G52"
+    },
+    "Memory": {
+      "RAM": "3/4 GB LPDDR4X",
+      "Storage": "32/64 GB eMMC 5.1",
+      "Card slot": "MicroSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1600 × 720 (HD+), 20:9, 270 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2 (wide-angle), 1/3.06\", 1.12 μm, PDAF + 2 MP, f/2.4, (macro) + 2 MP, f/2.4, (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, f/2.2 (wide-angle), 1/5.0\", 1.12 μm, HDR, panorama, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "10 W, reverse charging"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 5.0 (A2DP, LE), FM radio, Wi-Fi 802.11 b/g/n (hotspot), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 190,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C21",
+      "url": "https://en.wikipedia.org/wiki/Realme_C21"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C21\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C21",
+    "revid": 1375102602
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

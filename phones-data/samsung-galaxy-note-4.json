@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-note-4",
+  "brand": "Samsung",
+  "name": "Galaxy Note 4",
+  "status": "published",
+  "announced": "2014-10-17",
+  "released": "2014-10-17",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Note 4: 2014-10-17, Note 4 S-LTE: 2015-01",
+      "Series": "Galaxy Note",
+      "Predecessor": "Samsung Galaxy Note 3",
+      "Successor": "Samsung Galaxy Note 5"
+    },
+    "Network": {
+      "SIM": "Mini SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 153.5 mm, W: 78.6 mm, D: 8.5 mm",
+      "Weight": "176 g"
+    },
+    "Platform": {
+      "Operating system": "Original (Note 4): Android 4.4.4 \"KitKat\" with TouchWiz Nature UX 3.5, Original (Note 4 S-LTE): Android 5.0.1 \"Lollipop\" with TouchWiz Nature UX 4.0, Current: Android 6.0.1 \"Marshmallow\" with TouchWiz Nature UX 4.5, Unofficial: Android 11, LineageOS",
+      "Chipset": "LTE Cat.4 & South Korea LTE Cat.6 & LTE Cat.9 (S-LTE) versions:, Samsung Exynos 7 Octa 5433 64-bit, LTE Cat.6 version:, Qualcomm Snapdragon 805",
+      "CPU": "Exynos version:, Quad-core 1.9 GHz Cortex-A57, Quad-core 1.3 GHz Cortex-A53, Snapdragon version:, Quad-core 2.7 GHz Krait 450",
+      "GPU": "Exynos version:, ARM Mali T760 MP6, Snapdragon version:, Adreno 420"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3",
+      "Storage": "Global: 32 GB eMMC 5.0, China variant: 16 GB",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.7 inch (145 mm) Quad HD Super AMOLED, (16:9 aspect ratio) 2560×1440 pixel resolution, 518 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP (5312×2988), f2.2, 1/2.6 inch sensor, with autofocus, OIS, 2160p at 30 fps (limited to 5 mins), 1440p at 30 fps, 1080p at 30/60 fps, 720p at 30/60 fps, slow motion video recording at 720p at 120 fps",
+      "Front camera": "3.7 MP, f1.9, 1440p/1080p/720p video recording"
+    },
+    "Battery": {
+      "Battery": "User-replaceable Li-ion 3,220 mAh, 15 W charging speed",
+      "Charging": "Qualcomm Quick Charge 15 W (9 V, 1.67 A) fast charging"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "Super AMOLED",
+    "chipset": "LTE Cat.4 & South Korea LTE Cat.6 & LTE Cat.9",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 3.7,
+    "battery_mah": 3220,
+    "wired_w": 15,
+    "os": "Android 4.4",
+    "weight_g": 176,
+    "thickness_mm": 8.5,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note 4",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note 4",
+    "revid": 1380693587
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "samsung-sgh-e900",
+  "brand": "Samsung",
+  "name": "SGH-E900",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "Tri-Band GSM, GPRS (900/1800/1900MHz), EDGE"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "3.7 X 1.8 X .6 in (93 x 45 x 16.5 mm)",
+      "Weight": "3.3 oz"
+    },
+    "Platform": {
+      "Operating system": "Samsung's \"Agere\" Java OS Platform"
+    },
+    "Memory": {
+      "RAM": "80 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "2.0\" (240x320 pixels) 262K Color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixel"
+    },
+    "Sound": {
+      "Sound": "Polyphonic (64 channels), MP3"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.2, USB 1.1, WAP 2.0, GPRS Class 10"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-E900",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-E900"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-E900\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-E900",
+    "revid": 1361483481
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

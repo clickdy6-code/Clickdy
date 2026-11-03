@@ -1,0 +1,99 @@
+{
+  "slug": "samsung-galaxy-a56-5g",
+  "brand": "Samsung",
+  "name": "Galaxy A56 5G",
+  "status": "published",
+  "announced": "2025-03-02",
+  "released": "2025-03-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Samsung_Galaxy_A56_5G_2025.jpg/500px-Samsung_Galaxy_A56_5G_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Samsung_Galaxy_A56_5G_2025.jpg/250px-Samsung_Galaxy_A56_5G_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A56 5G",
+      "credit": "Captainmorlypogi1959, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A56_5G_2025.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-03-02",
+      "Series": "Galaxy A",
+      "Predecessor": "Samsung Galaxy A55 5G",
+      "Successor": "Samsung Galaxy A57 5G"
+    },
+    "Network": {
+      "SIM": "eSIM, nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "162.2 mm H , 77.5 mm W , 7.4 mm D",
+      "Weight": "198 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 15 with One UI 7.0, Current: Android 17 with One UI 9.0",
+      "Chipset": "Exynos 1580",
+      "CPU": "Octa-core (1x 2.9 GHz - Cortex-A720,3x 2.6 GHz - Cortex-A720, 4x 1.95 GHz - Cortex-A520)",
+      "GPU": "Xclipse 540"
+    },
+    "Memory": {
+      "RAM": "8 GB / 12 GB RAM",
+      "Storage": "128 GB / 256 GB; no SD slot"
+    },
+    "Display": {
+      "Display": "6.7-inch Full HD+ Super AMOLED (1080 x 2340 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Sony IMX 906; 50 Megapixel, MP, f-number, f/1.8, 23mm, FoV 85.3°, 1/1.56\", 1.0 Micrometre, μm, Phase detection autofocus, PDAF, OIS, Ultrawide: Sony IMX 258; 12 Megapixel, MP, f-number, f/2.2, 13mm, FoV 116.3°, 1/3.06\", 1.12 Micrometre, μm, Macro: 5 Megapixel, MP, f-number, f/2.4, fixed focus, Camera features: Best Face, LED flash, Panorama, High dynamic range, HDR, Video recording: 4K resolution, 4K@30Frame rate, fps, 1080p@30/60Frame rate, fps, gyro-EIS",
+      "Front camera": "Samsung S5K3LC; 12 MP, f/2.2, 25mm (wide), FoV 82.7°, 1/3.2\", 1.12 μm, Video recording: 4K@30fps, 1080p@30fps, 1080p@60fps (regional availability), 10-bit HDR"
+    },
+    "Sound": {
+      "Sound": "Stereo Speakers"
+    },
+    "Battery": {
+      "Battery": "5,000 mAh",
+      "Charging": "Fast Charging up to 45W"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, Wi-Fi 6, Bluetooth 5.3, NFC, GNSS"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos 1580",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "front_mp": 12,
+    "battery_mah": 5000,
+    "wired_w": 45,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "esim": true,
+    "weight_g": 198,
+    "thickness_mm": 7.4,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A56 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A56_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A56 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A56 5G",
+    "revid": 1382301276
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

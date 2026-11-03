@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-c2-02",
+  "brand": "Nokia",
+  "name": "C2-02",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Nokia_C2-02.jpg/500px-Nokia_C2-02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Nokia_C2-02.jpg/250px-Nokia_C2-02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C2-02",
+      "credit": "II.Super Legendary.II, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_C2-02.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 2680 slide",
+      "Successor": "Nokia Asha 305"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800, GSM 850/1900"
+    },
+    "Body": {
+      "Form factor": "slide",
+      "Dimensions": "103 x 51.4 x 17 mm",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 6th edition feature pack 1"
+    },
+    "Memory": {
+      "RAM": "10 MB"
+    },
+    "Display": {
+      "Display": "2.6 inch resistive touch QVGA TFT (262 000 colors)"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, 1600 x 1200 pixels"
+    },
+    "Battery": {
+      "Battery": "BL-5C 3.7 V 1020 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1+EDR, Micro-USB"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C2-02",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C2-02"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C2-02\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C2-02",
+    "revid": 1367952279
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

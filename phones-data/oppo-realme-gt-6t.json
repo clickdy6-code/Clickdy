@@ -1,0 +1,91 @@
+{
+  "slug": "oppo-realme-gt-6t",
+  "brand": "Oppo",
+  "name": "Realme GT 6T",
+  "status": "published",
+  "announced": "2024-05-29",
+  "released": "2024-05-29",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-05-29",
+      "Series": "Realme GT",
+      "Predecessor": "Realme GT Neo5 SE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "191 g",
+      "Other": "Iceberg Vapor Cooling System"
+    },
+    "Platform": {
+      "Operating system": "Android 14 with Realme UI 5",
+      "Chipset": "Qualcomm Snapdragon 7+ Gen 3",
+      "GPU": "Adreno 732"
+    },
+    "Memory": {
+      "RAM": "GT 6T: 8 GB / 12 GB , GT Neo6 SE: 8 GB / 12 GB / 16 GB , LPDDR5X",
+      "Storage": "GT 6T: 128 GB / 256 GB / 512 GB , GT Neo6 SE: 256 GB / 512 GB , UFS 4.0"
+    },
+    "Display": {
+      "Display": "6.78-inch 1.5K LTPO AMOLED, 1264 x 2780 pixels, 120 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 50 MP (primary), 8 MP (ultra-wide)",
+      "Front camera": "32 MP"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "5500 mAh",
+      "Charging": "SuperVOOC fast charging , GT 6T: 120W , GT Neo6 SE: 100W"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, 4G LTE, Wi-Fi 6, Bluetooth 5.4, USB-C 2.0"
+    }
+  },
+  "key": {
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 7+ Gen 3",
+    "ram_gb": [
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 32,
+    "battery_mah": 5500,
+    "wired_w": 120,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "weight_g": 191,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme GT 6T",
+      "url": "https://en.wikipedia.org/wiki/Realme_GT_6T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme GT 6T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme GT 6T",
+    "revid": 1361479676
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

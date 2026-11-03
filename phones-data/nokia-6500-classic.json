@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-6500-classic",
+  "brand": "Nokia",
+  "name": "6500 classic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Nokia6500Classic.JPG/500px-Nokia6500Classic.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Nokia6500Classic.JPG/250px-Nokia6500Classic.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6500 classic",
+      "credit": "ML5, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia6500Classic.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6233",
+      "Successor": "Nokia 6700 classic"
+    },
+    "Network": {
+      "Technology": "WCDMA 850/2100 GSM/EGSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "109.8 mm × 45 mm × 9.5 mm",
+      "Weight": "94 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 5th edition"
+    },
+    "Memory": {
+      "RAM": "1 GB"
+    },
+    "Display": {
+      "Display": "2 inch QVGA LCD (16 million colors)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixels"
+    },
+    "Battery": {
+      "Battery": "BL-6P 830 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, Micro-USB"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "LCD",
+    "ram_gb": [
+      1
+    ],
+    "battery_mah": 830,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 94,
+    "thickness_mm": 9.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6500 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6500_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6500 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6500 classic",
+    "revid": 1361477625
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

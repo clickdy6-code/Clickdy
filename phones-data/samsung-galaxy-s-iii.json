@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-s-iii",
+  "brand": "Samsung",
+  "name": "Galaxy S III",
+  "status": "published",
+  "announced": "2012-05-29",
+  "released": "2012-05-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_S_III.png/500px-Samsung_Galaxy_S_III.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_S_III.png/250px-Samsung_Galaxy_S_III.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S III",
+      "credit": "GadgetsGuy, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_III.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-05-29",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S II",
+      "Successor": "Samsung Galaxy S4"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE: 850, 900, 1800, 1900 MHz, 3G UMTS/CDMA2000/HSPA+: 850, 900, 1700, 1800 (Korean Pcs LG U+), 1900, 2100 MHz, 4G LTE: 700, 800, 850, 1700, 1800, 1900, 2500, 2600 MHz, TD-SCDMA (China Mobile Variant) and GT-i9305"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "136.6 mm H, 70.6 mm W, 8.6 mm (9.0 mm on South Korean model) D",
+      "Weight": "133 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.0.4 \"Ice Cream Sandwich\", Current: Android 4.3 \"Jelly Bean\", Android 4.4.2 \"KitKat\" (2 GB RAM variants and GT-I9301I Neo only), Unofficial: Android 14 \"Upside Down Cake\" via LineageOS 21.0 Unofficial for Samsung Galaxy S III GT-I9300 Exynos Variant, Android 8.1 \"Oreo\" via LineageOS 15.1 Unofficial for Samsung Galaxy S III d2 Snapdragon variants",
+      "Chipset": "Samsung Exynos 4 Quad (GT-I9300), Qualcomm Snapdragon S4 MSM8960 (U.S & Canada & Japan variants), Qualcomm Snapdragon 400 MSM8228 (GT-I9301I Neo)",
+      "CPU": "1.4 GHz quad-core Cortex-A9 (GT-I9300), 1.3 GHz dual-core Krait (U.S. & Canada & Japan variants), 1.2 GHz quad-core ARM Cortex-A7 (GT-I9301I Neo)",
+      "GPU": "Mali-400 MP4 (GT-I9300), Adreno 225 (U.S. & Canada & Japan variants), Adreno 305 (GT-I9301I Neo)"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM (international version), 2 GB RAM (LTE versions, selected markets), 1.5 GB RAM (GT-I9301I Neo)",
+      "Storage": "16, 32, or 64 GB flash memory",
+      "Card slot": "Up to 64 GB microSDXC"
+    },
+    "Display": {
+      "Display": "4.8 in HD Super AMOLED (720×1280)"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels",
+      "Front camera": "1.9 megapixels, Zero shutter lag, HD video (720p) at 30 frames/s"
+    },
+    "Battery": {
+      "Battery": "2,100 mAh, 7.98 Wh, 3.8 V Li-ion, User replaceable"
+    }
+  },
+  "key": {
+    "display_in": 4.8,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 4 Quad",
+    "ram_gb": [
+      1,
+      2,
+      5
+    ],
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 2100,
+    "os": "Android 4.0",
+    "five_g": false,
+    "weight_g": 133,
+    "thickness_mm": 8.6,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S III",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S III\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S III",
+    "revid": 1383613310
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

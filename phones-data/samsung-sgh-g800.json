@@ -1,0 +1,70 @@
+{
+  "slug": "samsung-sgh-g800",
+  "brand": "Samsung",
+  "name": "SGH-G800",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Samsung_SGH-G800.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Samsung_SGH-G800.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung SGH-G800",
+      "credit": "Ilyushka88, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_SGH-G800.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "'G' Series",
+      "Predecessor": "Samsung SGH-G600",
+      "Successor": "Samsung SGH-G810"
+    },
+    "Network": {
+      "Technology": "UMTS, GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Slide phone",
+      "Dimensions": "102 x 53 x 17 mm"
+    },
+    "Platform": {
+      "Operating system": "proprietary",
+      "CPU": "proprietary"
+    },
+    "Memory": {
+      "RAM": "160 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "240 x 320 QVGA, 262K colors TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5.0-megapixel, 3x zoom, xenon flash",
+      "Front camera": "VGA"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-G800",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-G800"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-G800\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-G800",
+    "revid": 1378286092
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

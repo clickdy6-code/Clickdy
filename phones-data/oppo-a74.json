@@ -1,0 +1,98 @@
+{
+  "slug": "oppo-a74",
+  "brand": "Oppo",
+  "name": "A74",
+  "status": "published",
+  "announced": "2021-04-01",
+  "released": "2021-04-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "F19: 2021-04-01, A74: 2021-04-05, F19s: 2021-09-27, A95: 2021-11-16, Reno6 Lite: 2022-01-17",
+      "Series": "A series, F series, Reno series",
+      "Predecessor": "Oppo A73 (2020), Oppo Reno5 Lite",
+      "Successor": "Oppo A76, Oppo Reno7 Lite"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "160.3 mm × 73.8 mm × 7.95 mm (6.31 in × 2.91 in × 0.31 in)",
+      "Weight": "163 g (5.75 oz)"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 11 with ColorOS 11.1, Current: Android 13 with ColorOS 13.1",
+      "Chipset": "Qualcomm Snapdragon 662 (11 nm)",
+      "CPU": "Octa-core (4×2.3 GHz Kryo 260 Gold & 4×1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "A74: 4 / 6 / 8 GB, Reno6 Lite / F19 / F19s: 6 GB, A95: 8 GB, LPDDR4X",
+      "Storage": "A74 / Reno6 Lite / F19 / F19s: 128 GB, A95: 128 / 256 GB, UFS 2.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "AMOLED, 6.43 inches, 2400 × 1080 pixels (Full HD+), 20:9 ratio, 409 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 26mm (wide), 1/2.0\", 0.8 µm, PDAF, 2 MP, (depth), 2 MP, (macro), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "16 MP, 27mm (wide), 1/3.06\" (A74 & A95) / 1/3.09\" (F19, F19s & Reno6 Lite), 1.0 µm, Panorama, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, earpiece, 3.5 mm audio jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "33W fast charging, 54% in 30 min (advertised), SuperVOOC 2.0"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.0 (A2DP, LE, aptX), NFC (A74 only), FM radio, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, Galileo, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.43,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 662",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 33,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 163,
+    "thickness_mm": 7.95,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo A74",
+      "url": "https://en.wikipedia.org/wiki/Oppo_A74"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo A74\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo A74",
+    "revid": 1364621486
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

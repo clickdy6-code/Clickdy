@@ -1,0 +1,55 @@
+{
+  "slug": "nokia-8810",
+  "brand": "Nokia",
+  "name": "8810",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 1998",
+      "Predecessor": "Nokia 8110 (8810), Nokia 8110i (8860)",
+      "Successor": "Nokia 8210 (8810), Nokia 8250 (8860), Nokia 8260 (8810), Nokia 8270 (8860), Nokia 8290 (8810), Nokia 8850 (8810), Nokia 8855 (8860), Nokia 8890 (8810)"
+    },
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "107×46×18mm",
+      "Weight": "118g (600 Ni-Mh battery), 98g (400 lithium-ion battery)"
+    },
+    "Display": {
+      "Display": "Monochrome graphic"
+    },
+    "Battery": {
+      "Battery": "600 mAh Ni-Mh or 400 mAh lithium"
+    },
+    "Connectivity": {
+      "Connectivity": "Infrared port"
+    }
+  },
+  "key": {
+    "battery_mah": 600,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 118,
+    "year": 1998
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 8810",
+      "url": "https://en.wikipedia.org/wiki/Nokia_8810"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 8810\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 8810",
+    "revid": 1364332101
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

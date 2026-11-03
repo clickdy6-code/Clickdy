@@ -1,0 +1,108 @@
+{
+  "slug": "samsung-galaxy-z-fold-5",
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold 5",
+  "status": "published",
+  "announced": "2023-08-11",
+  "released": "2023-08-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Samsung_Galaxy_Fold_5.jpg/500px-Samsung_Galaxy_Fold_5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Samsung_Galaxy_Fold_5.jpg/250px-Samsung_Galaxy_Fold_5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Z Fold 5",
+      "credit": "Vasonesiku, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Fold_5.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-08-11",
+      "Series": "Galaxy Z",
+      "Predecessor": "Samsung Galaxy Z Fold 4",
+      "Successor": "Samsung Galaxy Z Fold 6"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Foldable slate",
+      "Dimensions": "Folded:, 154.9 mm H, 67.1 mm W, 13.4 mm D, Unfolded:, 154.9 mm H, 130.1 mm W, 6.1 mm D",
+      "Weight": "253 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with One UI 5.1.1, Current: Android 17 with One UI 9.0",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+      "CPU": "Octa-core (1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "GPU": "Adreno 740"
+    },
+    "Memory": {
+      "RAM": "12 GB RAM",
+      "Storage": "256 GB, 512 GB and 1 TB"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED 2X, 7.6 in (19.3 cm), ~6:5 aspect ratio, 373 ppi, HDR10+, 120 Hz refresh rate, 1750 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, 23mm (wide), 1.0μm, Dual Pixel PDAF, OIS, 10 MP, f/2.4, 69mm (telephoto), PDAF, OIS, 3x optical zoom, 12 MP, f/2.2, 123°, 13mm (ultrawide), 1.12μm, LED flash, HDR, panorama, 8K@24fps, 4K@60fps, 1080p@60/240fps (gyro-EIS), 720p@960fps (gyro-EIS), HDR10+",
+      "Front camera": "4 MP, f/1.8, 26mm (wide), 2.0μm, under display, Cover camera: 10 MP, f/2.2, 24mm (wide), 1/3\", 1.22μm, 4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 4400 mAh",
+      "Charging": "USB PD: 25W (PPS), 15W (non-PPS), Fast wireless charging 15W, Reverse wireless charging 4.5W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct, Bluetooth 5.3, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 7.6,
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "peak_nits": 1750,
+    "chipset": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 4,
+    "battery_mah": 4400,
+    "wireless_w": 15,
+    "wired_w": 25,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "esim": true,
+    "weight_g": 253,
+    "thickness_mm": 13.4,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Fold 5",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Fold 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Fold 5",
+    "revid": 1380373943
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

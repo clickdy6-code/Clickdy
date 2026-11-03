@@ -1,0 +1,91 @@
+{
+  "slug": "samsung-galaxy-fold",
+  "brand": "Samsung",
+  "name": "Galaxy Fold",
+  "status": "published",
+  "announced": "2019-09-09",
+  "released": "2019-09-09",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09-09",
+      "Discontinued": "(successor), (support)",
+      "Series": "Galaxy Z",
+      "Predecessor": "Samsung SM-W2019 (for W20 5G)",
+      "Successor": "Samsung Galaxy Z Fold 2, Samsung W21 5G"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G / 4G LTE, 5G NR (certain models)"
+    },
+    "Body": {
+      "Form factor": "Foldable slate",
+      "Dimensions": "Unfolded:, 160.9 mm H, 117.9 mm W, 6.9 mm D, Folded:, 160.9 mm H, 62.9 mm W, 17.1-15.7 mm D",
+      "Weight": "263 g",
+      "Other": "Physical sound volume keys, Bixby key, USB-C port with USB 5Gbps and DisplayPort Alternate Mode (for Samsung DeX)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9.0 \"Pie\" with One UI 1.1, Current: Android 12L with One UI 4.1.1",
+      "Chipset": "Qualcomm Snapdragon 855",
+      "CPU": "Octa-core (1x 2.84 GHz, 3x 2.42 GHz and 4x 1.8 GHz) Kryo 485",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR4X",
+      "Storage": "512 GB UFS 3.0"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED, HDR10+, 1536 × 2152, 7.3 in (18.5 cm), ~4.2:3 aspect ratio, 362 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12, f/1.5/2.4 dual-aperture, 12, f/2.4 telephoto, 2x optical zoom, 16, f/2.2, ultra-wide-angle",
+      "Front camera": "Outside: 10 MP, f/2.2, Inside: 10 MP, f/2.2, 8 MP RGB depth sensor"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4380 mAh (4G LTE), 4235 mAh (5G)",
+      "Charging": "Fast charging up to 15 W, Qi 15 W fast wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi 6, 4G/LTE (5G on Fold 5G model)"
+    }
+  },
+  "key": {
+    "display_in": 7.3,
+    "display_type": "Dynamic AMOLED",
+    "chipset": "Qualcomm Snapdragon 855",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "front_mp": 10,
+    "battery_mah": 4380,
+    "wireless_w": 15,
+    "wired_w": 15,
+    "os": "Android 9.0",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "weight_g": 263,
+    "thickness_mm": 6.9,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Fold",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Fold",
+    "revid": 1381161244
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

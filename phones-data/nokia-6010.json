@@ -1,0 +1,62 @@
+{
+  "slug": "nokia-6010",
+  "brand": "Nokia",
+  "name": "6010",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2004",
+      "Predecessor": "Nokia 3590",
+      "Successor": "Nokia 6030"
+    },
+    "Network": {
+      "Technology": "GSM 850 1900"
+    },
+    "Body": {
+      "Form factor": "Candy bar",
+      "Dimensions": "119 mm H , 50 mm W , 23 mm D",
+      "Weight": "111 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Display": {
+      "Display": "96 × 65 px , 4096 colors (12-bit)"
+    },
+    "Sound": {
+      "Sound": "Polyphonic"
+    },
+    "Battery": {
+      "Battery": "Nokia BLC-2 , 1000 mAh , 3.6 V , Internal rechargeable li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "SyncML"
+    }
+  },
+  "key": {
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 111,
+    "thickness_mm": 23,
+    "year": 2004
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6010",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6010"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6010\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6010",
+    "revid": 1361477473
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

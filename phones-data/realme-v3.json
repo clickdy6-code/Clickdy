@@ -1,0 +1,78 @@
+{
+  "slug": "realme-v3",
+  "brand": "Realme",
+  "name": "V3",
+  "status": "published",
+  "announced": "2020-09-10",
+  "released": "2020-09-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-09-10",
+      "Series": "Realme V"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "SIM": "2× nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.4 × 76 × 8.6 mm",
+      "Weight": "6.7 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with Realme UI",
+      "Chipset": "Mediatek Dimensity 720 (7 nm)",
+      "CPU": "2× 2.0 GHz Cortex-A76 & 6× 2.0 GHz Cortex-A55 octa-core",
+      "GPU": "Mali-G57 MC3"
+    },
+    "Memory": {
+      "Storage": "64 / 128 GB"
+    },
+    "Display": {
+      "Display": "6.5\" IPS LCD, 720 × 1600 px (20:9 ratio)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP wide angle lens (); 26 mm with PDAF, 2 MP macro, 2 MP depth sneor, Auxiliary lens; features LED flash, HDR and panorama, Recording up to 1080p / 4K @ 30/60fps",
+      "Front camera": "8 MP wide angle lens (); 26 mm, Featured HDR, Recording up to 1080p @ 30fps"
+    },
+    "Battery": {
+      "Battery": "5,000 mAh",
+      "Charging": "18 W wired"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek Dimensity 720",
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 10",
+    "five_g": true,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme V3",
+      "url": "https://en.wikipedia.org/wiki/Realme_V3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme V3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme V3",
+    "revid": 1361479690
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

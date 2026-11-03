@@ -1,0 +1,75 @@
+{
+  "slug": "samsung-wave-3-s8600",
+  "brand": "Samsung",
+  "name": "Wave 3 S8600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series",
+      "Predecessor": "Samsung Wave II S8530"
+    },
+    "Network": {
+      "Technology": "GSM: 850/900/1800/1900/2100, 3G: 900/2100, HSDPA: 3.6 Mbit/s, HSUPA: 2 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "123.9 x 59.8 x 11.8 mm",
+      "Weight": "122 g",
+      "Other": "- Scratch-resistant surface, - Smart unlock, - Accelerometer, - Proximity Sensor, - Magnetometer, - Digital compass"
+    },
+    "Platform": {
+      "Operating system": "bada 2.0 with TouchWiz 3.0",
+      "CPU": "ARM Cortex A8 clocked at 1.4 GHz (Scorpion)"
+    },
+    "Memory": {
+      "RAM": "512MB of RAM",
+      "Storage": "4GB",
+      "Card slot": "microSD(HC) up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.0\" 800x480 @ 283 PPI Super AMOLED display with Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (4:3)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11b/g/n Wi-Fi, A-GPS, Bluetooth 3.0, microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "Super AMOLED",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 122
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Wave 3 S8600",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Wave_3_S8600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Wave 3 S8600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Wave 3 S8600",
+    "revid": 1361909244
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

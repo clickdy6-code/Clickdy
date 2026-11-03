@@ -1,0 +1,51 @@
+{
+  "slug": "philips-e105",
+  "brand": "Philips",
+  "name": "E105",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Philips_E105.png/500px-Philips_E105.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Philips_E105.png/250px-Philips_E105.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Philips E105",
+      "credit": "Dienthoaiquangcao32, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Philips_E105.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Dimensions": "106 mm x 44.5 mm x 13.6 mm",
+      "Weight": "64.1 g"
+    },
+    "Display": {
+      "Display": "1.7 in VGA 128 x 160 pixel TFT LCD, 656K colors"
+    },
+    "Connectivity": {
+      "Connectivity": "2G and microUSB 1.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "nfc": false,
+    "weight_g": 64.1,
+    "thickness_mm": 13.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Philips E105",
+      "url": "https://en.wikipedia.org/wiki/Philips_E105"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Philips E105\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Philips E105",
+    "revid": 1361479302
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "samsung-galaxy-note-3",
+  "brand": "Samsung",
+  "name": "Galaxy Note 3",
+  "status": "published",
+  "announced": "2013-09-25",
+  "released": "2013-09-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Samsung_Galaxy_Note_3.png/500px-Samsung_Galaxy_Note_3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Samsung_Galaxy_Note_3.png/250px-Samsung_Galaxy_Note_3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Note 3",
+      "credit": "GadgetsGuy, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Note_3.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-09-25",
+      "Discontinued": "2015-08-21",
+      "Series": "Galaxy Note",
+      "Predecessor": "Samsung Galaxy Note II",
+      "Successor": "Samsung Galaxy Note 4"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151.2 mm H , 79.2 mm W, 8.3 mm D",
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android (operating system), Android Android Jelly Bean, 4.3 \"Jelly Bean\", Current: Android Lollipop, Android 5.0 \"Lollipop\" with TouchWiz, Unofficial: LineageOS 21.0 (Android 14)",
+      "Chipset": "Samsung Exynos 5 Octa 5420 (HSPA+ version), Qualcomm Snapdragon 800 (LTE & China version)",
+      "CPU": "Octa-core 1.9 GHz Cortex-A15 and 1.3 GHz Cortex-A7 (HSPA+ version), 2.3 GHz quad-core Snapdragon 800 (LTE & China version)",
+      "GPU": "ARM Mali T628MP6 GPU (HSPA+ version), Adreno 330 (LTE & China version)"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3",
+      "Storage": "16/32/64 GB eMMC 5.0 flash memory",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.7 in Full HD Super AMOLED 388 ppi (1920×1080) (PenTile matrix) (16:9 aspect ratio) with Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "13-megapixel, 2.2, with autofocus, BSI, 1080p and 4K (2160p) video recording (Sony Exmor IMX135)",
+      "Front camera": "2-megapixel, 2.4"
+    },
+    "Battery": {
+      "Battery": "3,200 mAh , User replaceable"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 5 Octa 5420",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 3200,
+    "os": "Android 5.0",
+    "weight_g": 168,
+    "thickness_mm": 8.3,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note 3",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note 3",
+    "revid": 1381599801
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

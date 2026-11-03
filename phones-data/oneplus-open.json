@@ -1,0 +1,62 @@
+{
+  "slug": "oneplus-open",
+  "brand": "OnePlus",
+  "name": "Open",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Foldable mini tablet phone"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with OxygenOS 13.2, later updated to AI version 16 in 2026.",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 2"
+    },
+    "Memory": {
+      "RAM": "16GB RAM",
+      "Storage": "512GB or 1TB (on the Apex Edition only)"
+    },
+    "Display": {
+      "Display": "7.82in"
+    },
+    "Battery": {
+      "Battery": "4,805 mAh Dual-cell, (3,295 + 1,510 mAh)",
+      "Charging": "67W SuperVOOC wired. No wireless charging."
+    }
+  },
+  "key": {
+    "display_in": 7.82,
+    "chipset": "Qualcomm Snapdragon 8 Gen 2",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      512,
+      1024
+    ],
+    "battery_mah": 4805,
+    "wireless_w": 67,
+    "wired_w": 67,
+    "os": "Android 13"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus Open",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_Open"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus Open\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus Open",
+    "revid": 1382212500
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

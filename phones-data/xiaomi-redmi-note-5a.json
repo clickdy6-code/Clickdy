@@ -1,0 +1,63 @@
+{
+  "slug": "xiaomi-redmi-note-5a",
+  "brand": "Xiaomi",
+  "name": "Redmi Note 5A",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Xiaomi-Redmi-Note-5A-sxmo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Xiaomi-Redmi-Note-5A-sxmo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Xiaomi Redmi Note 5A",
+      "credit": "X0rzAvi, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi-Redmi-Note-5A-sxmo.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Redmi Note/Redmi Y",
+      "Successor": "Redmi Y2"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "CPU": "Redmi Note 5A: Qualcomm Snapdragon 425, Redmi Note 5A Prime: Qualcomm Snapdragon 435"
+    },
+    "Display": {
+      "Display": "5.5 in IPS LCD capacitive touchscreen, 720 X 1280 pixels, ~267 ppi, 16M colors"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 3080 mAh battery",
+      "Charging": "10W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11b/g/n, WiFi Direct, hotspot, Bluetooth v4.2, A2DP, Bluetooth low energy, Low-energy, 4G/LTE (telecommunication), LTE"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "battery_mah": 3080,
+    "wired_w": 10,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi Note 5A",
+      "url": "https://en.wikipedia.org/wiki/Redmi_Note_5A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi Note 5A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi Note 5A",
+    "revid": 1361480347
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

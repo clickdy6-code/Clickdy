@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-discover",
+  "brand": "Samsung",
+  "name": "Galaxy Discover",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Samsung_Galaxy_Discover.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Samsung_Galaxy_Discover.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung Galaxy Discover",
+      "credit": "Big City Greens fan, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Discover.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2012",
+      "Series": "Samsung Galaxy"
+    },
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "112.8 mm H, 61.5 mm W, 11.5 mm D",
+      "Weight": "122 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.0.4 \"Ice Cream Sandwich\", Unofficial: Android 4.2 \"Jelly Bean\"",
+      "Chipset": "Qualcomm Snapdragon S1 MSM7225A",
+      "CPU": "800 MHz Cortex-A5",
+      "GPU": "128 MHz Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4 GB",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "TFT LCD 3.5\", 165 ppi, 320x480 px, 256k colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP"
+    },
+    "Battery": {
+      "Battery": "Removable 1300 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm jack, Bluetooth, micro USB 2.0, Wi-Fi 802.11b/g"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S1 MSM7225A",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1300,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 122,
+    "thickness_mm": 11.5,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Discover",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Discover"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Discover\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Discover",
+    "revid": 1367895354
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

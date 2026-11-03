@@ -1,0 +1,57 @@
+{
+  "slug": "samsung-galaxy-ring",
+  "brand": "Samsung",
+  "name": "Galaxy Ring",
+  "status": "published",
+  "announced": "2024-07-10",
+  "released": "2024-07-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Galaxy_Ring.jpg/500px-Galaxy_Ring.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Galaxy_Ring.jpg/250px-Galaxy_Ring.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Ring",
+      "credit": "Miyako Fujimiya, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_Ring.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-07-10",
+      "Series": "Samsung Galaxy"
+    },
+    "Body": {
+      "Form factor": "Smart ring",
+      "Dimensions": "7.0 x 2.6 mm",
+      "Weight": "2.3 to 3.0 g"
+    },
+    "Memory": {
+      "RAM": "8 MB RAM"
+    },
+    "Battery": {
+      "Battery": "18-23.5 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "BLE 5.4"
+    }
+  },
+  "key": {
+    "nfc": false,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Ring",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Ring"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Ring\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Ring",
+    "revid": 1373970009
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-n80",
+  "brand": "Nokia",
+  "name": "N80",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/N80.jpg/500px-N80.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/N80.jpg/250px-N80.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N80",
+      "credit": "pjcard, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:N80.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Nseries",
+      "Predecessor": "Nokia 6280, Nokia 7650",
+      "Successor": "Nokia N81, Nokia N95"
+    },
+    "Network": {
+      "Technology": "GPRS, EDGE, WCDMA"
+    },
+    "Body": {
+      "Form factor": "Slider, no spring assist"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS (9.1), S60 3rd Edition (firmware v5.0719.0.2)"
+    },
+    "Memory": {
+      "RAM": "40 MB storage memory",
+      "Card slot": "miniSD"
+    },
+    "Display": {
+      "Display": "TFT, 262k colors, 352 × 416 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "3.1 Megapixels",
+      "Front camera": "0.3 Megapixels (video calling)"
+    },
+    "Sound": {
+      "Sound": "MP3, AAC"
+    },
+    "Battery": {
+      "Battery": "BL-5B Battery, 3.7 V, 820 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN b/g (100 mW instead of 250 mW standard)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 820,
+    "os": "Symbian OS (9.1)",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N80",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N80"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N80\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N80",
+    "revid": 1361478467
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

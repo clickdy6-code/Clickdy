@@ -1,0 +1,54 @@
+{
+  "slug": "nokia-6555",
+  "brand": "Nokia",
+  "name": "6555",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM, GPRS, HSCSD, EDGE, UMTS"
+    },
+    "Body": {
+      "Dimensions": "99.6 mm x 44.3mm x 19.6 mm",
+      "Weight": "97g"
+    },
+    "Platform": {
+      "Operating system": "Nokia OS"
+    },
+    "Memory": {
+      "RAM": "30 MB internal memory"
+    },
+    "Display": {
+      "Display": "active-matrix 240 x 320 pixel (QVGA) 2,0”, 16M Colors"
+    },
+    "Cameras": {
+      "Rear camera": "1.3-megapixel"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 97,
+    "thickness_mm": 19.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6555",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6555"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6555\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6555",
+    "revid": 1361477646
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

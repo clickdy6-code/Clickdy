@@ -1,0 +1,83 @@
+{
+  "slug": "nokia-n97",
+  "brand": "Nokia",
+  "name": "N97",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Nokian97.png/500px-Nokian97.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Nokian97.png/250px-Nokian97.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N97",
+      "credit": "Nokia_n97_mobile_phone_.JPG: 3dh3m\nderivative work: TheAdam0s (talk), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokian97.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2010-10",
+      "Series": "Nseries",
+      "Predecessor": "Nokia N96, Nokia N79 (for N97 Mini), Nokia 8600 Luna, Nokia E90 Communicator",
+      "Successor": "Nokia N8, Nokia C6-00 (for N97 Mini), Nokia N900, Nokia E7-00, Nokia 808 PureView, Nokia Lumia 920/1020"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Tilt slider",
+      "Dimensions": "117.2 × 55.3 × 15.9* mm, *18.25 mm at camera area for original (113 x 52.5 x 14.2 mm for mini)",
+      "Weight": "150 g for original (138 g for mini)"
+    },
+    "Platform": {
+      "Operating system": "Symbian 9.4 with Nokia S60 Fifth Edition UI. Current firmware 22.0.110 (RM-505) / 22.1.112 (RM-506) / 22.2.110 (RM-507) / 12.0.110 (N97 mini)",
+      "CPU": "Single CPU, 434 MHz ARM11"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM",
+      "Storage": "32 GB on-board (about 29.8 GB user available) for original, (8 GB for mini)",
+      "Card slot": "microSD 16 GB max (16 GB Max MicroSDHC available in 2009)"
+    },
+    "Display": {
+      "Display": "640×360 px (16:9 aspect ratio), 3.5 in for original (3.2 in for mini), sliding tilt TFT LCD, up to 16.7 million colours"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixels , f/2.8 Carl Zeiss Tessar lens"
+    },
+    "Battery": {
+      "Battery": "BP-4L (1500 mAh, :Li-polymer) for original, (BL-4D 3.7 V 1200 mAh for mini)"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g, USB 2.0, Bluetooth 2.0, TV-out (PAL/NTSC), FM transmitter only for original"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "storage_gb": [
+      8,
+      32
+    ],
+    "battery_mah": 1500,
+    "os": "Symbian 9.4 with Nokia S60 Fifth Edition UI. Current firmware 22.0.110 (RM-505) / 22.1.112 (RM-506) / 22.2.110 (RM-507) / 12.0.110 (N97 mini)",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 150
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N97",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N97"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N97\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Nokia N97",
+    "revid": 1361478559
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

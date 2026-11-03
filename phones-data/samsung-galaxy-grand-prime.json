@@ -1,0 +1,92 @@
+{
+  "slug": "samsung-galaxy-grand-prime",
+  "brand": "Samsung",
+  "name": "Galaxy Grand Prime",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Tel_samsung_gal_prime.JPG/500px-Tel_samsung_gal_prime.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Tel_samsung_gal_prime.JPG/250px-Tel_samsung_gal_prime.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Grand Prime",
+      "credit": "EEIM, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tel_samsung_gal_prime.JPG",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 2014",
+      "Discontinued": "June 2017",
+      "Series": "Samsung Galaxy",
+      "Predecessor": "Samsung Galaxy Core Prime, Samsung Galaxy Grand 2",
+      "Successor": "Samsung Galaxy J2, Prime/Grand Prime+"
+    },
+    "Network": {
+      "Technology": "(GSM/GPRS/EDGE): 850, 900, 1800 and 1900 MHz; , 3G (HSPA 42.2/5.76 Mbit/s): HSDPA 850, 900, 1900 and 2100 MHz;, 4G LTE (Cat4 150/50 Mbit/s): 700, 800, 850, 900, 1700, 1800, 1900, 2100 and 2600 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "144.8 mm H , 72.1 mm W , 8.6 mm D",
+      "Weight": "156 g",
+      "Other": "Digital TV (SBTVD (SM-G530BT; SM-G531BT), USB On-The-Go (SM-G531F)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.4 \"KitKat\", Android 5.0-5.1.1 \"Lollipop\" (Value Edition variants), Current: Android 5.1.1 \"Lollipop\", Unofficial: up to Android 11 via LineageOS 18.1",
+      "Chipset": "Qualcomm Snapdragon MSM8916 410, Marvell PXA1908 (Value Edition LTE), Spreadtrum SC7730 (SM-G531Y, SM-G531H/DS)",
+      "CPU": "ARMv8 1.2 GHz Quad-core CPU, ARMv7 1.3 GHz Quad-core CPU (SM-G531Y)",
+      "GPU": "Adreno 306, Vivante GC7000UL (Value Edition), Mali-400 MP (SM-G531Y)"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSD, microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0 in 540x960 px (220dpi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixel with LED flash",
+      "Front camera": "5 Megapixel"
+    },
+    "Battery": {
+      "Battery": "2600 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n (2.4 GHz) , GPS , Bluetooth LE 4.0 with ANT+ , Bluetooth 4.1 with A2DP (G531F) , NFC (G530F/FZ; G531F)"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "chipset": "Qualcomm Snapdragon MSM8916 410",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2600,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 156,
+    "thickness_mm": 8.6,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Grand Prime",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Grand_Prime"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Grand Prime\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Grand Prime",
+    "revid": 1376026619
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

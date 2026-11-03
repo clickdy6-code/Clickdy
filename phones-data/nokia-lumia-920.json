@@ -1,0 +1,100 @@
+{
+  "slug": "nokia-lumia-920",
+  "brand": "Nokia",
+  "name": "Lumia 920",
+  "status": "published",
+  "announced": "2012-11-02",
+  "released": "2012-11-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nokia_Lumia_920_-_Caledos_Runner.jpg/500px-Nokia_Lumia_920_-_Caledos_Runner.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nokia_Lumia_920_-_Caledos_Runner.jpg/250px-Nokia_Lumia_920_-_Caledos_Runner.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Lumia 920",
+      "credit": "N i c o l a, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_920_-_Caledos_Runner.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-11-02",
+      "Discontinued": "2014",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 900",
+      "Successor": "Nokia Lumia 930"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA 850/900/1700/1900/2100, LTE 700/800/850/900/1700/1800/2100/2600 (except non-LTE model), TD-SCDMA (920T)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "130.3 mm H , 70.8 mm W , 10.7 mm D",
+      "Weight": "185 g",
+      "Other": "Talk time: Up to 10 hours (9 hours for AT&T version), Music playback time: up to 67 hours, Standby time: Up to 400 hours (approx. 16.7 days) (320 hours for AT&T version approx. 13.3 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8, upgradeable to Windows Phone 8.1",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8960, Qualcomm Snapdragon S4 MSM8260A (China version)",
+      "CPU": "1.5 GHz dual-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 225 (920) , Qualcomm Adreno 320 (920T)"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "32 GB internal flash"
+    },
+    "Display": {
+      "Display": "4.5 in IPS LCD WXGA capacitive touchscreen with high sensitivity, 1280x768 pixels at 332 ppi, 16.7M colours, 60 Hz refresh rate, ClearBlack polarisation filter, RGB Stripe, Luminance 600 nits, 15:9 aspect ratio, Curved Gorilla Glass 2"
+    },
+    "Cameras": {
+      "Rear camera": "8.7 MP (3264x2448) PureView with OIS, f/2.0 aperture, high-power dual-LED flash, autofocus, Carl Zeiss optics, 1080p video capture",
+      "Front camera": "1.3 MP (1280x1024), 720p video capture"
+    },
+    "Battery": {
+      "Battery": "Rechargeable BP-4GW 2000 mAh Lithium polymer battery, Qi inductive charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.0, Wi-Fi 802.11a/b/g/n, NFC, microUSB v2.0, GPS with A-GPS and GLONASS, 3.5 mm audio connector"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS LCD",
+    "refresh_hz": 60,
+    "peak_nits": 600,
+    "chipset": "Qualcomm Snapdragon S4 MSM8960",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 8.7,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.3,
+    "battery_mah": 2000,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 185,
+    "thickness_mm": 10.7,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 920",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_920"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 920\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 920",
+    "revid": 1383241673
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

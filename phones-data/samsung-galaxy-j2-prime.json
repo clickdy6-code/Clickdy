@@ -1,0 +1,99 @@
+{
+  "slug": "samsung-galaxy-j2-prime",
+  "brand": "Samsung",
+  "name": "Galaxy J2 Prime",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Samsung_Galaxy_J2_Prime.png/500px-Samsung_Galaxy_J2_Prime.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Samsung_Galaxy_J2_Prime.png/250px-Samsung_Galaxy_J2_Prime.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy J2 Prime",
+      "credit": "Dienthoaiquangcao63, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_J2_Prime.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2016",
+      "Discontinued": "2018",
+      "Series": "Galaxy J series , Galaxy Grand series",
+      "Predecessor": "Samsung Galaxy J1 Ace , Samsung Galaxy Grand Prime",
+      "Successor": "Samsung Galaxy J2 (2018)"
+    },
+    "Network": {
+      "Technology": "2G GSM 850, 900, 1800, 1900 , 3G HSDPA 850, 900, 1700, 1900, 2100 , 4G LTE Bands 1, 2, 3, 4, 5, 7, 8, 17, 20, 28, 38, 40"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "144.8 mm H , 72.1 mm W , 8.9 mm D",
+      "Weight": "160 g",
+      "Other": "FM radio, Dual SIM (Duos models only), USB On-The-Go (SM-G532F, SM-G532G), Digital TV (SBTVD (SM-G532MT))"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 \"Marshmallow\"; TouchWiz",
+      "Chipset": "MediaTek MT6737T",
+      "CPU": "Quad-core (4×1.4 GHz) ARM Cortex-A53",
+      "GPU": "ARM Mali-T720MP2"
+    },
+    "Memory": {
+      "RAM": "1.5 GB",
+      "Storage": "8/16 GB",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0\", 540×960 px (220 ppi) PLS TFT"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.2",
+      "Front camera": "5 MP, f/2.2., Flash (SM-G532F)"
+    },
+    "Battery": {
+      "Battery": "2600 mAh, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g/n, Bluetooth 4.2, GPS/GLONASS, microUSB 2.0, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "TFT",
+    "chipset": "MediaTek MT6737T",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 160,
+    "thickness_mm": 8.9,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J2 Prime",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J2_Prime"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J2 Prime\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J2 Prime",
+    "revid": 1380479983
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

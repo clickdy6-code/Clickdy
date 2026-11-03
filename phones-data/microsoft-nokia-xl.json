@@ -1,0 +1,92 @@
+{
+  "slug": "microsoft-nokia-xl",
+  "brand": "Microsoft",
+  "name": "Nokia XL",
+  "status": "published",
+  "announced": "2014-02-24",
+  "released": "2014-02-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/NokiaXL_1.jpg/500px-NokiaXL_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/NokiaXL_1.jpg/250px-NokiaXL_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft Nokia XL",
+      "credit": "pestoverde, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NokiaXL_1.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "24 February 2014",
+      "Series": "Nokia X family",
+      "Successor": "Nokia 3"
+    },
+    "Network": {
+      "Technology": "WCDMA network: 900 MHz, 2100 MHz, GSM network: 850 MHz, 900 MHz, 1800 MHz, 1900 MHz, LTE Edition: D-LTE and TD-SCDMA LTE bands - 38, 39, 40 (China)",
+      "SIM": "Micro-SIM, Dual SIM: Dual standby SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "141.4 mm H, 77.7 mm W, 10.9 mm D.",
+      "Weight": "190 g, LTE Edition: 158 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia X Software Platform",
+      "Chipset": "Qualcomm Snapdragon S4 Play MSM8225, LTE Edition: MSM8926 Qualcomm Snapdragon 400",
+      "CPU": "1.0 GHz dual-core (ARMv7)"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "5.0 in, 480×800 px IPS WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP with flash, 2592×1944 pixels, Autofocus, 4× zoom",
+      "Front camera": "2.0 MP, 1600×1200 pixels"
+    },
+    "Battery": {
+      "Battery": "Li-ion 2,000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0 + HS, micro-USB 2.0, WiFi 802.11 b/g/n, 3.5 mm audio connector, WAPI"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon S4 Play MSM8225",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 2000,
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 190,
+    "thickness_mm": 10.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia XL",
+      "url": "https://en.wikipedia.org/wiki/Nokia_XL"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia XL\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia XL",
+    "revid": 1361478685
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "sprocomm-nokia-c22",
+  "brand": "Sprocomm",
+  "name": "Nokia C22",
+  "status": "published",
+  "announced": "2023-02-25",
+  "released": "2023-02-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-02-25",
+      "Series": "C series",
+      "Predecessor": "Nokia C21",
+      "Successor": "HMD Aura"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Nano-SIM or Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.6 × 75.89 × 8.55 mm",
+      "Weight": "6.7 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 13 (Go edition)",
+      "Chipset": "UNISOC SC9863A (28 nm)",
+      "CPU": "Octa-core (4×1.6 GHz Cortex-A55 & 4×1.2 GHz Cortex-A55)",
+      "GPU": "IMG8322"
+    },
+    "Memory": {
+      "RAM": "2/3/4 GB LPDDR4X",
+      "Storage": "64/128 GB eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1600 × 720 (HD+), 20:9, 270 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (wide), AF + 2 MP, f/2.4 (macro), LED flash, HDR, Video: 1080p@30fps",
+      "Front camera": "8 MP, Video: 720p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 5000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm jack, Bluetooth 5.2 (A2DP), FM radio, Wi-Fi 802.11 b/g/n, GPS, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "chipset": "UNISOC SC9863A",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 13",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C22",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C22"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C22\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C22",
+    "revid": 1361478124
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

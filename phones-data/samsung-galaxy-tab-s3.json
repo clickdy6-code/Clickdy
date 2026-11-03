@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-tab-s3",
+  "brand": "Samsung",
+  "name": "Galaxy Tab S3",
+  "status": "published",
+  "announced": "2017-03-24",
+  "released": "2017-03-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "24 March 2017 (US & Canada), 31 March 2017 (UK) - Silver, 7 April 2017 (UK) - Black, 17 April 2017 (Germany, Russia), 1 May 2017 (China), 8 May 2017 (Taiwan), 11 May 2017 (South Korea), 1 June 2017 (Malaysia)",
+      "Series": "Galaxy Tab S",
+      "Predecessor": "Samsung Galaxy Tab S2 9.7, Samsung Galaxy Tab S2 8.0",
+      "Successor": "Samsung Galaxy Tab S4"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "Wi-Fi: 429 g, LTE & Wi-Fi: 434 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.0 \"Nougat\" with Samsung Experience 8.0, Current: Android 9 \"Pie\" with One UI 1.1",
+      "Chipset": "Qualcomm Snapdragon 820",
+      "CPU": "Quad-core (2x2.15 GHz Kryo + 2x1.6 GHz Kryo)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "Storage": "32 GB, 128 GB",
+      "Card slot": "microSDXC card, up to 128 GB"
+    },
+    "Display": {
+      "Display": "9.7 in Super AMOLED 2048 x 1536 pixels (~264 ppi), 4:3 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/1.9, 27mm (wide), AF",
+      "Front camera": "5 MP, f/2.2, 23mm (wide)"
+    },
+    "Sound": {
+      "Sound": "Four built-in stereo speakers tuned by AKG"
+    },
+    "Battery": {
+      "Battery": "6,000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (2.4 & 5GHz), Bluetooth 4.2, 4G & WiFi model: 4G/LTE, GPS"
+    }
+  },
+  "key": {
+    "display_in": 9.7,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 820",
+    "storage_gb": [
+      32,
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 6000,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 429,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab S3",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab S3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab S3",
+    "revid": 1380652183
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

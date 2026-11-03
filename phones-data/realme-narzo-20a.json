@@ -1,0 +1,82 @@
+{
+  "slug": "realme-narzo-20a",
+  "brand": "Realme",
+  "name": "narzo 20A",
+  "status": "published",
+  "announced": "2020-09-30",
+  "released": "2020-09-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-09-30",
+      "Series": "realme narzo",
+      "Successor": "realme C25"
+    },
+    "Network": {
+      "SIM": "2× NanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.4 × 75.4 × 8.9 mm (6.47 × 2.97 × 0.35 in)",
+      "Weight": "6.88 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with Realme UI",
+      "Chipset": "Qualcomm SDM665 Snapdragon 665 (11 nm)",
+      "CPU": "Octa-core (4x 2.0 GHz Kryo 260 Gold & 4x 1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "3/4GB RAM",
+      "Storage": "32/64GB, eMMC 5.1",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.5\" IPS LCD , 720 × 1600 pixels, 20:9 ratio with Corning Gorilla Glass 3 protector"
+    },
+    "Cameras": {
+      "Rear camera": "\"AI\" Triple camera, 12MP (28mm, wide, with PDAF & auxiliary lens ), 2MP B&W (22mm, ), 2MP Retro (22mm, ), Features LED flash, HDR and panorama , Video recording up to 720p / 1080p / 4K @ 30fps",
+      "Front camera": "8MP \"AI Selfie\" (26mm, wide, ), Features HDR and panorama , Video recording up to 720p / 1080p @ 30fps"
+    },
+    "Battery": {
+      "Battery": "5,000 mAh",
+      "Charging": "10W wired (microUSB 2.0)"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm SDM665 Snapdragon 665",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme narzo 20A",
+      "url": "https://en.wikipedia.org/wiki/Realme_narzo_20A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme narzo 20A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme narzo 20A",
+    "revid": 1361479707
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "nokia-c5-00",
+  "brand": "Nokia",
+  "name": "C5-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nokia_C5-00.png/500px-Nokia_C5-00.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nokia_C5-00.png/250px-Nokia_C5-00.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C5-00",
+      "credit": "AnVuong1222004 (2), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_C5-00.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Cseries",
+      "Predecessor": "Nokia 6700 classic, Nokia 6730 classic"
+    },
+    "Network": {
+      "Technology": "GSM EDGE 850, 900, 1800, and 1900. UMTS 2100, and 850 for US model or 900 for EU model ;, GPRS/EGPRS MSC32 class B, maximum speed up to 298/178.8 kbps (UL/DL);, HSDPA cat9, maximum speed up to 10.2 Mbit/s;, HSUPA cat. 5, maximum speed up to 2 Mbit/s;, Dual transfer mode;, TCP/IP support;, Capability to serve as data modem"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "112 × 46 × 12.3 mm",
+      "Weight": "89.3 g"
+    },
+    "Platform": {
+      "Operating system": "S60 3rd Edition Feature Pack 2 UI on Symbian OS v9.3, firmware 071.005",
+      "CPU": "ARM 11 600 MHz processor"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM",
+      "Storage": "50 MB on-board memory, up to 16 GB (32 GB for C5-00.2) on MicroSD card",
+      "Card slot": "MicroSD up to 16 GB, included 2 GB"
+    },
+    "Display": {
+      "Display": "320 × 240 2.2 in"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-mega pixel, 4× digital zoom, VGA video recorder (15fps) LED flash, 2,048×1,536 pixels"
+    },
+    "Sound": {
+      "Sound": "Audio playback: MP3, AAC, eAAC, eAAC+, WMA"
+    },
+    "Battery": {
+      "Battery": "BL-5CT 1.05 Ah Li-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "storage_gb": [
+      16,
+      32
+    ],
+    "os": "Symbian OS v9.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 89.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C5-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C5-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C5-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C5-00",
+    "revid": 1361478148
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

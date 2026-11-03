@@ -1,0 +1,91 @@
+{
+  "slug": "samsung-galaxy-z-flip",
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip",
+  "status": "published",
+  "announced": "2020-02-11",
+  "released": "2020-02-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "4G: 2020-02-11, 5G: 2020-06-22",
+      "Series": "Galaxy Z Flip",
+      "Successor": "Samsung Galaxy Z Flip 3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Foldable slate",
+      "Dimensions": "Unfolded: 167.3 mm H, 73.6 mm W, 7.2 mm D, Folded: 1 mm H, 73.6 mm W, 17.3 mm D",
+      "Weight": "183 g",
+      "Other": "Physical sound volume keys, USB-C"
+    },
+    "Platform": {
+      "Operating system": "Original:, Z Flip: Android 10 with One UI 2.1, Z Flip 5G: Android 10 with One UI 2.5, Current:, Android 13 with One UI 5.1.1",
+      "Chipset": "4G: Qualcomm Snapdragon 855+, 5G: Qualcomm Snapdragon 865+",
+      "CPU": "4G: Octa-core (1x2.95 GHz, 3x2.41 GHz and 4x1.78 GHz) Kryo 485, 5G: Octa-core (1x3.09 GHz, 3x2.40 GHz and 4x1.80 GHz) Kryo 585",
+      "GPU": "4G: Adreno 640, 5G: Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR4X",
+      "Storage": "256 GB, 4G: UFS 3.0, 5G: UFS 3.1",
+      "Card slot": "non-expandable"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED, HDR10+, 1080 × 2636, 6.7 in, ~22:9 aspect ratio, 425 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.8, 27mm, 1/2.55\", 1.4 μm (wide) + 12 MP, f/2.2, 12mm, 1.12 μm (ultrawide), Dual Pixel PDAF, OIS, LED flash, HDR10+, panorama, 4K@30/60fps, 1080p@60/240fps, 720p@960fps",
+      "Front camera": "10 MP, f/2.4, 26mm, 1.22 μm, PDAF, HDR, 4K@30fps"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers"
+    },
+    "Battery": {
+      "Battery": "3300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi b/g/n/ac/6"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Dynamic AMOLED",
+    "chipset": "4G: Qualcomm Snapdragon 855+",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 10,
+    "battery_mah": 3300,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 183,
+    "thickness_mm": 7.2,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Flip",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Flip\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Flip",
+    "revid": 1382507887
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "samsung-galaxy-a30s",
+  "brand": "Samsung",
+  "name": "Galaxy A30s",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung Galaxy A series",
+      "Predecessor": "Samsung Galaxy A30",
+      "Successor": "Samsung Galaxy A31"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE"
+    },
+    "Body": {
+      "Form factor": "bar"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 (Pie) with One UI 1.0, upgradable to Android 11 with One UI 3.1",
+      "Chipset": "Samsung Exynos 7904 (14 nm)",
+      "CPU": "Octa-core (2x1.8 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53)",
+      "GPU": "Mali-G71 MP2"
+    },
+    "Memory": {
+      "RAM": "3GB, 4GB LPDDR4 RAM",
+      "Storage": "32GB, 64GB, 128GB",
+      "Card slot": "MicroSD, up to 2TB"
+    },
+    "Display": {
+      "Display": "6.4\" HD+, Super AMOLED, 720 x 1560 pixels, 19.5:9 ratio (~268 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "25 MP, f/1.7, 27mm wide, PDAF, 8 MP, f/2.2, 13mm ultrawide, 1/4.0\", 1.12 μm, 5 MP, f/2.2, depth",
+      "Front camera": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0 μm"
+    },
+    "Battery": {
+      "Battery": "4000 mAh Li-Polymer Battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Type-C 2.0, Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 7904",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "main_mp": 25,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A30s",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A30s"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A30s\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A30s",
+    "revid": 1380481512
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

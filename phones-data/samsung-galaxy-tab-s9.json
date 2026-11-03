@@ -1,0 +1,110 @@
+{
+  "slug": "samsung-galaxy-tab-s9",
+  "brand": "Samsung",
+  "name": "Galaxy Tab S9",
+  "status": "published",
+  "announced": "2023-07-26",
+  "released": "2023-07-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Samsung_Galaxy_Tab_S9.png/500px-Samsung_Galaxy_Tab_S9.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Samsung_Galaxy_Tab_S9.png/250px-Samsung_Galaxy_Tab_S9.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Tab S9",
+      "credit": "AnVuong1222004 (11), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Tab_S9.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Tab S9/S9+/S9 Ultra: 2023-07-26, Tab S9 FE/FE+: 2023-10-15",
+      "Discontinued": "Tab S9/S9+/S9 Ultra: , Tab S9 FE/FE+:",
+      "Series": "Galaxy Tab S",
+      "Predecessor": "Samsung Galaxy Tab S7 FE, Samsung Galaxy Tab S8",
+      "Successor": "Samsung Galaxy Tab S10"
+    },
+    "Network": {
+      "Technology": "2G GSM / 3G HSPA / 4G LTE / 5G NR (only 5G models)",
+      "SIM": "Nano-SIM (only 5G models)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "Tab S9: 254.3 mm H, 165.8 mm W, 5.9 mm D, Tab S9+: 285.4 mm H, 185.4 mm W, 5.7 mm D, Tab S9 Ultra: 326.4 mm H, 208.6 mm W, 5.5 mm D, Tab S9 FE: 254.3 mm H, 165.8 mm W, 6.5 mm D, Tab S9 FE+: 285.4 mm H, 185.4 mm W, 6.5 mm D",
+      "Weight": "Tab S9: 498 g (Wi-Fi), 500 g (5G), Tab S9+: 581 g (Wi-Fi), 586 g (5G), Tab S9 Ultra: 732 g (Wi-Fi), 737 g (5G), Tab S9 FE: 523 g, Tab S9 FE+: 528 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with One UI 5.1.1, Current: Android 16 with One UI 8.5",
+      "Chipset": "Tab S9/S9+/S9 Ultra: Qualcomm Snapdragon 8 Gen 2 for Galaxy (4 nm), Tab S9 FE/FE+: Exynos 1380 (4nm)",
+      "CPU": "Tab S9/S9+/S9 Ultra: Octa-core (1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510), Tab S9 FE/FE+: Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Tab S9/S9+/S9 Ultra: Adreno 740, Tab S9 FE/FE+: Mali-G68 MP5"
+    },
+    "Memory": {
+      "RAM": "Tab S9 and S9+: 8 GB, 12 GB RAM, Tab S9 Ultra: 8 GB, 12 GB, 16 GB RAM, Tab S9 FE: 6 GB, 8 GB RAM, Tab S9 FE+: 8 GB, 12 GB RAM",
+      "Storage": "Tab S9: 128 GB, 256 GB, Tab S9+: 256 GB, 512 GB, Tab S9 Ultra: 256 GB, 512 GB, 1 TB, Tab S9 FE/FE+: 128 GB, 256 GB",
+      "Card slot": "microSDXC, up to 1 TB"
+    },
+    "Display": {
+      "Display": "Tab S9: 11.0 in Dynamic AMOLED 2X, pixels, 16:10 aspect ratio (~274 ppi density), 120Hz refresh rate, Tab S9+: 12.4 in Dynamic AMOLED 2X, pixels, 16:10 aspect ratio (~266 ppi density), 120Hz refresh rate, Tab S9 Ultra: 14.6 in Dynamic AMOLED 2X, pixels, 16:10 aspect ratio (~240 ppi density), 120Hz refresh rate, Tab S9 FE: 10.9 in PLS TFT, pixels, 16:10 aspect ratio (249 ppi density), 90Hz refresh rate, Tab S9 FE+: 12.4 in PLS TFT, pixels, 16:10 aspect ratio (243 ppi density), 90Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.0, 26mm (wide), 1/3.4\", 1.0 μm, AF, 8 MP, f/2.2, (ultrawide), LED flash, HDR, panorama, 4K@30/60fps, 1080p@30fps; , FE, FE+: 8 MP, f/1.9 (ultrawide)",
+      "Front camera": "Tab S9 and S9+: 12 Megapixel, MP, f/2.4, 120° (ultrawide), Tab S9 Ultra: 12 Megapixel, MP, f/2.2, 26mm (wide), 12 Megapixel, MP, f/2.4, 120° (ultrawide)"
+    },
+    "Sound": {
+      "Sound": "Quad stereo loudspeakers tuned by AKG;, FE, FE+: dual stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Tab S9: 8400 mAh, Tab S9+: 10090 mAh, Tab S9 Ultra: 11200 mAh, Tab S9 FE: 8000 mAh, Tab S9 FE+: 10090 mAh",
+      "Charging": "USB Power Delivery: 45W (PPS), 15W (non-PPS)"
+    },
+    "Connectivity": {
+      "Connectivity": "S9, S9+, S9 Ultra: USB Type-C 3.2 with Displayport;, S9 FE, S9 FE+: USB Type-C 2.0, Wi-Fi 802.11 a/b/g/n/ac/ax, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.3, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "chipset": "Tab S9/S9+/S9 Ultra: Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+    "ram_gb": [
+      6,
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "battery_mah": 8400,
+    "wired_w": 45,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 498,
+    "thickness_mm": 5.9,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab S9",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab S9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab S9",
+    "revid": 1377950024
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

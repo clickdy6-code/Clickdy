@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-7650",
+  "brand": "Nokia",
+  "name": "7650",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Nokia_7650_01.jpg/500px-Nokia_7650_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Nokia_7650_01.jpg/250px-Nokia_7650_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 7650",
+      "credit": "Miguel Durán, CC BY-SA 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7650_01.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "Q1 2006",
+      "Predecessor": "Nokia 7110",
+      "Successor": "Nokia 3650, Nokia 6600, Nokia N80"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 MHz"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "114 mm × 56 mm × 26 mm",
+      "Weight": "154 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 6.1, S60 1st Edition"
+    },
+    "Memory": {
+      "RAM": "4 MB, 3.4 MB available to user"
+    },
+    "Display": {
+      "Display": "176 x 208 pixel 4096 colours"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 Megapixels 640x480 VGA"
+    },
+    "Battery": {
+      "Battery": "BLB-2, 750mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA Bluetooth"
+    }
+  },
+  "key": {
+    "battery_mah": 750,
+    "os": "Symbian OS 6.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 154,
+    "thickness_mm": 26
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7650",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7650"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7650\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7650",
+    "revid": 1374925386
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

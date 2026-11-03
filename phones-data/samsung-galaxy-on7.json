@@ -1,0 +1,90 @@
+{
+  "slug": "samsung-galaxy-on7",
+  "brand": "Samsung",
+  "name": "Galaxy On7",
+  "status": "published",
+  "announced": "2015-10-25",
+  "released": "2015-10-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "On7: 2015-10-25 , On7 Pro: 2016-07-12",
+      "Series": "Galaxy On",
+      "Successor": "Samsung Galaxy On7 (2016) / Samsung Galaxy On7 Prime , Samsung Galaxy On8 , Samsung Galaxy Wide2"
+    },
+    "Network": {
+      "Technology": "(GSM/HSPA/LTE) , 2G: GSM GSM850, GSM900, DCS1800, PCS1900 , 3G UMTS: B1(2100), B2(1900), B5(850), B8(900) , 4G FDD LTE: B1(2100), B3(1800), B5(850), B8(900), B20(800) , 4G TDD LTE: B40(2300)",
+      "SIM": "On7: hybrid dual SIM (Nano-SIM + Micro-SIM) or Single SIM (Nano-SIM) , On7 Pro: hybrid dual SIM (Nano-SIM + Micro-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151.8 mm H, 77.5 mm W, 8.2 mm D",
+      "Weight": "172 g"
+    },
+    "Platform": {
+      "Operating system": "Original:On7: Android (operating system), Android Android Lollipop, 5.1.1 \"Lollipop\" with TouchWiz 5.1, On7 Pro: Android Marshmallow, Android 6.0.1 \"Marshmallow\" with TouchWiz 6.0Current: Android 6.0.1 \"Marshmallow\" with TouchWiz 6.0.1",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "RAM": "On7: 1.5 GB , On7 Pro: 2 GB , LPDDR3",
+      "Storage": "On7: 8 GB , On7 Pro: 16 GB , eMMC 4.5",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "TFT LCD, 5.5 in, 720 x 1280 pixels (267 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, AF , LED flash , Video: 1080p@30fps",
+      "Front camera": "5 MP, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Front earpiece, rear mono speaker"
+    },
+    "Battery": {
+      "Battery": "Removable, Li-ion 3000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM8916 Snapdragon 410",
+    "ram_gb": [
+      2,
+      5
+    ],
+    "storage_gb": [
+      8,
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 6.0",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 172,
+    "thickness_mm": 8.2,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy On7",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_On7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy On7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy On7",
+    "revid": 1361482699
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "samsung-behold-ii",
+  "brand": "Samsung",
+  "name": "Behold II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Samsung Behold"
+    },
+    "Network": {
+      "Technology": "GSM850, GSM900, GSM1800, GSM1900, UMTS900, UMTS1700, UMTS2100"
+    },
+    "Body": {
+      "Form factor": "Candybar / PDA",
+      "Weight": "119 g (4.2 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 1.5 Cupcake"
+    },
+    "Memory": {
+      "Storage": "200 MB built-in; up to 16 GB via microSD expansion",
+      "Card slot": "microSDHC"
+    },
+    "Display": {
+      "Display": "3.2 inches Touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5.0-megapixel"
+    },
+    "Battery": {
+      "Battery": "1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Full HTML Browser, Bluetooth 2.1, USB"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1500,
+    "os": "Android 1.5",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 119
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Behold II",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Behold_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Behold II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Behold II",
+    "revid": 1361480466
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "samsung-galaxy-m21",
+  "brand": "Samsung",
+  "name": "Galaxy M21",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Galaxy M",
+      "Predecessor": "Samsung Galaxy M20",
+      "Successor": "Samsung Galaxy M21s, Samsung Galaxy M21 (2021 Edition), Samsung Galaxy M22"
+    },
+    "Network": {
+      "Technology": "LTE, 3G, 2G, Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "159 x 75.1 x 8.9 mm",
+      "Weight": "188g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with One UI Core 2.0, Current: Android 12 with One UI Core 4.1",
+      "Chipset": "Samsung Exynos 9 Octa 9611",
+      "CPU": "Exynos 9611 Octa-core (4x2.3 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "RAM": "4GB or 6GB RAM (Dependent on model)",
+      "Storage": "64GB, 128GB (Expandable via microSD card up to 512GB)",
+      "Card slot": "Expandable via microSD card (up to 512GB)"
+    },
+    "Display": {
+      "Display": "6.4\" FHD+ Super AMOLED Display (403ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/2.0, 26mm (wide), 8 MP, f/2.2, 123˚ (ultrawide), 5 MP, f/2.2 (depth camera)",
+      "Front camera": "20 MP, f/2.2 (26 mm focal length)"
+    },
+    "Battery": {
+      "Battery": "6000 mAh",
+      "Charging": "Fast charging at 15W, USB Type-C"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 5, Bluetooth v5.0, USB Type-C, GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 9 Octa 9611",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128,
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 20,
+    "battery_mah": 6000,
+    "wired_w": 15,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "wifi": "Wi-Fi 5",
+    "usb": "USB-C",
+    "weight_g": 188
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M21",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M21"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M21\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M21",
+    "revid": 1380482450
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

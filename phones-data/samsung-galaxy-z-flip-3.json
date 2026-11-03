@@ -1,0 +1,95 @@
+{
+  "slug": "samsung-galaxy-z-flip-3",
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip 3",
+  "status": "published",
+  "announced": "2021-08-27",
+  "released": "2021-08-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Z Flip 3: 2021-08-27, Z Flip 3 Bespoke Edition: 2021-10-20",
+      "Series": "Galaxy Z",
+      "Predecessor": "Samsung Galaxy Z Flip",
+      "Successor": "Samsung Galaxy Z Flip 4"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G",
+      "SIM": "nanoSIM, eSIM"
+    },
+    "Body": {
+      "Form factor": "Foldable slate",
+      "Dimensions": "Unfolded: 166 mm H, 72.2 mm W, 6.9 mm D, Folded: 86.4 mm H, 72.2 mm W, 15.9-17.1 mm D",
+      "Weight": "183 g",
+      "Other": "Physical sound volume keys, USB-C 2.0"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11 with One UI 3.1.1, Current: Android 15 with One UI 7",
+      "Chipset": "Qualcomm Snapdragon 888",
+      "CPU": "Octa-core (1x2.84 GHz, 3x2.40 GHz and 4x1.80 GHz) Kryo 680",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR5 RAM",
+      "Storage": "128 or 256 GB UFS 3.1",
+      "Card slot": "non-expandable"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED 2X, HDR10+, 1080 × 2640, 6.7 in, 22:9 aspect ratio, 426 ppi, HDR10+, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.8, 27mm, 1/2.55\", 1.4μm (wide) + 12 MP, f/2.2, 12mm, 1.12μm (ultrawide), Dual Pixel PDAF, OIS, LED flash, HDR10+, panorama, 4K@30/60fps, 1080p@60/240fps, 720p@960fps",
+      "Front camera": "10 MP, f/2.4, 26mm, 1.22μm, PDAF, HDR, 4K@30fps"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers"
+    },
+    "Battery": {
+      "Battery": "3300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.1, Wi-Fi a/b/g/n/ac/6"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 888",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 10,
+    "battery_mah": 3300,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "esim": true,
+    "weight_g": 183,
+    "thickness_mm": 6.9,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Flip 3",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Flip 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Flip 3",
+    "revid": 1380566013
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

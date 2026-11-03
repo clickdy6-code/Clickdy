@@ -1,0 +1,85 @@
+{
+  "slug": "realme-narzo-20-pro",
+  "brand": "Realme",
+  "name": "Narzo 20 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "realme narzo Series",
+      "Predecessor": "realme Narzo",
+      "Successor": "realme narzo 30 Pro"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.30 mm × 75.40 mm × 9.40 mm (6.39 in × 2.97 in × 0.37 in)",
+      "Weight": "191 g (6.74 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 10 (Skinned with realme UI)",
+      "Chipset": "MediaTek Helio G95",
+      "CPU": "Octa core (2.05 GHz, Dual core, Cortex-A76 + 2 GHz, Hexa core, Cortex-A55)",
+      "GPU": "Mali-G76 MC4"
+    },
+    "Memory": {
+      "RAM": "6 GB, 8 GB LPDDR4X RAM",
+      "Storage": "64 GB [[Universal Flash Storage, 128 GB [[Universal Flash Storage",
+      "Card slot": "non-expandable"
+    },
+    "Display": {
+      "Display": "6.5 in IPS panel, IPS LCD, 102.0 cm2 (83.4% screen:body), 1080 px × 2400 px, 20:9 ratio (405 ppi density), Gorilla Glass 3, 480 candela per square metre, nits max. brightness, 90 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP + 8 MP + 2 MP + 2 MP",
+      "Front camera": "16 MP"
+    },
+    "Battery": {
+      "Battery": "Li-Po 4500 mAh battery"
+    },
+    "Connectivity": {
+      "Connectivity": "4G, 3G, GSM"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS",
+    "refresh_hz": 90,
+    "chipset": "MediaTek Helio G95",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 4500,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 191,
+    "thickness_mm": 9.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme Narzo 20 Pro",
+      "url": "https://en.wikipedia.org/wiki/Realme_Narzo_20_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme Narzo 20 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme Narzo 20 Pro",
+    "revid": 1361479680
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

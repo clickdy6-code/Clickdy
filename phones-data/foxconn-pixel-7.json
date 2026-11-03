@@ -1,0 +1,99 @@
+{
+  "slug": "foxconn-pixel-7",
+  "brand": "Foxconn",
+  "name": "Pixel 7",
+  "status": "published",
+  "announced": "2022-10-13",
+  "released": "2022-10-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-10-13",
+      "Discontinued": "2023-10-04",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 6, Pixel 6 Pro",
+      "Successor": "Pixel 8"
+    },
+    "Network": {
+      "Technology": "GSM / EDGE (telecommunication), EDGE, UMTS / HSPA+ / HSDPA, LTE (telecommunication), LTE, 5G sub-6 / mmWave",
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel 7:H: 155.6 mm, W: 73.2 mm, D: 8.7 mm, Pixel 7 Pro:H: 162.9 mm, W: 76.6 mm, D: 8.9 mm",
+      "Weight": "Pixel 7: 197 g, Pixel 7 Pro: 212 g",
+      "Other": "Both:, Gorilla Glass Victus cover, Gorilla Glass Victus back, Titan M, Titan M2 security module, Pixel 7 Pro:, Ultra-wideband (UWB) chip"
+    },
+    "Platform": {
+      "Operating system": "Android 13, Upgradable to Android 17",
+      "Chipset": "Google Tensor G2"
+    },
+    "Memory": {
+      "RAM": "Pixel 7: 8 GB LPDDR5, Pixel 7 Pro: 12 GB LPDDR5",
+      "Storage": "Pixel 7:, 128 or 256 GB Universal Flash Storage, UFS 3.1, Pixel 7 Pro:, 128, 256, or 512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "Pixel 7:, 160.5 mm FHD+ 1080p OLED at 416 Pixels per inch, ppi, px (20:9), 90 Hertz, Hz refresh rate, Pixel 7 Pro:, 170 mm QHD+ 1440p Low-temperature polycrystalline silicon, LTPO OLED at 512 ppi, px (19.5:9), 120 Hz refresh rate, Both: High-dynamic-range television, HDR"
+    },
+    "Cameras": {
+      "Rear camera": "Pixel 7:, 12 MP, 2.2, 114˚ field of view (ultrawide), 1.25 μm, Pixel 7 Pro:, 12 MP, 2.2, 125.8˚ field of view (ultrawide), 1.25 μm, 48 MP, 3.5, 20.6˚ field of view (telephoto), 0.7 μm, 5× optical zoom, Both:, 50 MP, 1.85, 82˚ field of view (wide), 1.2 μm, 4K resolution, 4K video at 30 or 60 Frame rate, FPS, 1080p video at 30 or 60 FPS",
+      "Front camera": "10.8 MP, 2.2, 92.8˚ field of view (ultrawide), 1.22 μm, 4K video at 30 or 60 FPS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3 microphones, Noise suppression, Spatial audio"
+    },
+    "Battery": {
+      "Battery": "Pixel 7: 4355 mAh, Pixel 7 Pro: 5000 mAh",
+      "Charging": "Pixel 7:, 20 W fast charging, 20 W Qi (standard), Qi wireless charging, Pixel 7 Pro:, 23 W fast charging, 23 W Qi wireless charging, Both:, Reverse wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6E + HE160 + MIMO, Bluetooth 5.2, Near-field communication, NFC, Google Cast, Dual-band Satellite navigation, GNSS (GPS / GLONASS / Galileo (satellite navigation), Galileo / Quasi-Zenith Satellite System, QZSS), USB-C 3.2"
+    }
+  },
+  "key": {
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Google Tensor G2",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 10.8,
+    "battery_mah": 4355,
+    "wireless_w": 23,
+    "wired_w": 23,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6E",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 197,
+    "thickness_mm": 8.7,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 7",
+      "url": "https://en.wikipedia.org/wiki/Pixel_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 7",
+    "revid": 1369069197
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

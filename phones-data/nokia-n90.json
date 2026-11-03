@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-n90",
+  "brand": "Nokia",
+  "name": "N90",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Nokia_N90_Camera_flickr_178946625.jpg/500px-Nokia_N90_Camera_flickr_178946625.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Nokia_N90_Camera_flickr_178946625.jpg/250px-Nokia_N90_Camera_flickr_178946625.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N90",
+      "credit": "benkay, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N90_Camera_flickr_178946625.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6260",
+      "Successor": "Nokia N93"
+    },
+    "Network": {
+      "Technology": "GPRS, EDGE, WCDMA"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "112x51x24 mm",
+      "Weight": "173 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v8.1a, Series 60 Feature Pack 3",
+      "CPU": "TI OMAP 1710, 32-bit RISC ARM9 @ 220 MHz"
+    },
+    "Memory": {
+      "RAM": "48 MB",
+      "Card slot": "DV RS-MMC / MMC-Mobile"
+    },
+    "Display": {
+      "Display": "TFT, 262,144 colours, 352×416 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels"
+    },
+    "Battery": {
+      "Battery": "BL-5B, 3.7 V, 760 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB (v2.0), Bluetooth (v1.2)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 760,
+    "os": "Symbian OS v8.1a",
+    "nfc": false,
+    "weight_g": 173
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N90",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N90"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N90\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N90",
+    "revid": 1361478507
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

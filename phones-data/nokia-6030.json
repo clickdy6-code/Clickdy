@@ -1,0 +1,58 @@
+{
+  "slug": "nokia-6030",
+  "brand": "Nokia",
+  "name": "6030",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Gplpark92vn.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Gplpark92vn.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 6030",
+      "credit": "Gplpark92 at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gplpark92vn.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6010",
+      "Successor": "Nokia 6070"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 , GSM 850/1900"
+    },
+    "Body": {
+      "Dimensions": "104 mm H , 44 mm W , 18 mm D",
+      "Weight": "90 g"
+    },
+    "Display": {
+      "Display": "128×128 px , 65K colors"
+    },
+    "Connectivity": {
+      "Connectivity": "FBus"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 90,
+    "thickness_mm": 18
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6030",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6030"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6030\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6030",
+    "revid": 1375643213
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

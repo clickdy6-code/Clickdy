@@ -1,0 +1,95 @@
+{
+  "slug": "samsung-captivate-glide",
+  "brand": "Samsung",
+  "name": "Captivate Glide",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Samsung_Captivate_Glide_-_SGH-I927_-_020.JPG/500px-Samsung_Captivate_Glide_-_SGH-I927_-_020.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Samsung_Captivate_Glide_-_SGH-I927_-_020.JPG/250px-Samsung_Captivate_Glide_-_SGH-I927_-_020.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Captivate Glide",
+      "credit": "en:User:MMuzammils, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Captivate_Glide_-_SGH-I927_-_020.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011"
+    },
+    "Network": {
+      "Technology": "Dual band 802.16e 2.5G (GSM/GPRS/EDGE): 850, 900, 1800, and 1900 MHz , UMTS: 850, 1900, and 2100 MHz , HSPA+: 21/42 Mbit/s; HSUPA: 5.76 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Slider QWERTY Touchscreen smartphone",
+      "Dimensions": "124.17 mm H, 64.60 mm W, 13.05 mm D",
+      "Weight": "152 g",
+      "Other": "Enhanced Exchange ActiveSync (EAS) to sync email, contacts, calendar and tasks, Device and SD card encryption, Virtual private network, integrated messaging Social Hub, Readers Hub, Music Hub, and Game Hub"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.5 \"Gingerbread\" with TouchWiz 4.0 (upgradeable to Android 4.0.4 \"Ice Cream Sandwich\" officially, and unofficially upgradeable via custom ROMs to Android 4.4.4 \"KitKat\")",
+      "Chipset": "Nvidia Tegra 2 AP20H",
+      "CPU": "1 GHz dual-core ARM Cortex-A9",
+      "GPU": "ULP GeForce, Audio DAC: Wolfson WM8994"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB (4 GB user) flash memory",
+      "Card slot": "microSD (up to 32 GB) (64 GB, unofficial)"
+    },
+    "Display": {
+      "Display": "800×480 px, 10.1 cm; WVGA Super AMOLED (0.37 megapixels)"
+    },
+    "Cameras": {
+      "Rear camera": "8 Mpx Back-illuminated sensor with auto focus, 720p HD video recording. Single LED flash.",
+      "Front camera": "1.3 Mpx for video chatting, video recording (VGA), and stills"
+    },
+    "Battery": {
+      "Battery": "1650 mAh (replaceable)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS; Wi-Fi (802.11a/b/g/n); Wi-Fi Direct; Bluetooth 3.0; micro USB 2.0; MHL; HDMI; USB Host (OTG) 2.0"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "chipset": "Nvidia Tegra 2 AP20H",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4,
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 1.3,
+    "battery_mah": 1650,
+    "os": "Android 2.3",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 152,
+    "thickness_mm": 13.05,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Captivate Glide",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Captivate_Glide"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Captivate Glide\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Captivate Glide",
+    "revid": 1361480488
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

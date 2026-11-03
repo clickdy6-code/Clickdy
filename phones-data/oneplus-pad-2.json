@@ -1,0 +1,91 @@
+{
+  "slug": "oneplus-pad-2",
+  "brand": "OnePlus",
+  "name": "Pad 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "OnePlus"
+    },
+    "Network": {
+      "Technology": "No cellular connectivity",
+      "SIM": "Unsupported"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "268.66 mm H , 195.06 mm W , 6.49 mm D",
+      "Weight": "584 g"
+    },
+    "Platform": {
+      "Operating system": "Android 14 with Oxygen OS 14.1",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 3",
+      "CPU": "Octa-core",
+      "GPU": "Adreno 750 @ 903MHz"
+    },
+    "Memory": {
+      "RAM": "8/12 GB RAM",
+      "Storage": "128/256 GB"
+    },
+    "Display": {
+      "Display": "12.1 in, 2120 x 3000 px resolution (~303 ppi density), IPS LCD, 1B colors, Dolby Vision, 144Hz, 900 nits (typ)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, LED flash, 4K@30fps, 1080p@30ps, gyro-EIS",
+      "Front camera": "8 MP, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers (6 speakers)"
+    },
+    "Battery": {
+      "Battery": "Li-Po 9510 mAh",
+      "Charging": "Fast charging 67W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7, Bluetooth\t5.4"
+    }
+  },
+  "key": {
+    "display_in": 2.1,
+    "display_type": "IPS LCD",
+    "refresh_hz": 144,
+    "peak_nits": 900,
+    "chipset": "Qualcomm Snapdragon 8 Gen 3",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 9510,
+    "wired_w": 67,
+    "os": "Android 14",
+    "nfc": false,
+    "wifi": "Wi-Fi 7",
+    "weight_g": 584,
+    "thickness_mm": 6.49
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus Pad 2",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_Pad_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus Pad 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus Pad 2",
+    "revid": 1361478927
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

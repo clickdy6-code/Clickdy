@@ -1,0 +1,82 @@
+{
+  "slug": "samsung-i847-rugby-smart",
+  "brand": "Samsung",
+  "name": "i847 Rugby Smart",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Samsung_Rugby_Smart_AT%26T_splash_screen.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Samsung_Rugby_Smart_AT%26T_splash_screen.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung i847 Rugby Smart",
+      "credit": "Voidxor, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Rugby_Smart_AT%26T_splash_screen.jpeg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States 2012-03",
+      "Discontinued": "2012-10",
+      "Series": "Samsung Rugby",
+      "Predecessor": "Samsung Rugby II",
+      "Successor": "Samsung Galaxy Rugby Pro"
+    },
+    "Network": {
+      "Technology": "AT&T Mobility"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "122.4 mm H, 65.9 mm W, 12.2 mm D",
+      "Weight": "125 g",
+      "Other": "IP67"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3 \"Gingerbread\", Unofficial: Android 4.0.4 \"Ice Cream Sandwich\"/Android 4.1.2 \"Jelly Bean\" via CyanogenMod",
+      "Chipset": "Qualcomm Scorpion",
+      "CPU": "1400 MHz Qualcomm Scorpion, ARM7",
+      "GPU": "Qualcomm Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MiB LPDDR2 SDRAM",
+      "Card slot": "microSDHC"
+    },
+    "Cameras": {
+      "Rear camera": "5.04 MP (2592×1944 px max.), Auto focus, LED flash, Video recording (3GP or MPEG4)",
+      "Front camera": "1.31 MP (1280×1024 px max.), Video recording (3GP)"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11n"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm Scorpion",
+    "main_mp": 5.04,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 1.31,
+    "os": "Android 2.3",
+    "nfc": false,
+    "ip": "IP67",
+    "weight_g": 125,
+    "thickness_mm": 12.2,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung i847 Rugby Smart",
+      "url": "https://en.wikipedia.org/wiki/Samsung_i847_Rugby_Smart"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung i847 Rugby Smart\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung i847 Rugby Smart",
+    "revid": 1361483781
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

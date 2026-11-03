@@ -1,0 +1,90 @@
+{
+  "slug": "oppo-realme-gt-master-edition",
+  "brand": "Oppo",
+  "name": "Realme GT Master Edition",
+  "status": "published",
+  "announced": "2021-07-21",
+  "released": "2021-07-21",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-07-21",
+      "Series": "GT series",
+      "Predecessor": "realme X2 Pro Master Edition",
+      "Successor": "Realme GT2 Master Explorer Edition"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G, LTE, 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.2 mm H , 73.5 mm W , 8.0 mm D (plastic) / 8.7 mm D (leather)",
+      "Weight": "174 g (plastic) , 180 g (leather)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11 with realme UI 2.0 , Current: Android 13 with realme UI 4.0",
+      "Chipset": "Qualcomm Snapdragon 778G 5G (6 nm)",
+      "CPU": "Octa-core (4×2.4 GHz Kryo 670 & 4×1.9 GHz Kryo 670)",
+      "GPU": "Adreno 642L"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB LPDDR4X",
+      "Storage": "128 or 256 GB UFS 2.2",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "Super AMOLED, 120Hz, 1000 nits (peak), 6.43 inches, 99.8 cm2 (~85.3% screen-to-body ratio), 1080 × 2400 pixels, 20:9 ratio (~409 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, 25mm (wide), 1/2\", 0.7µm, PDAF, 8 MP, 16mm, 119° (ultrawide), 1/4.0\", 1.12µm, 2 MP, (macro), LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60fps, gyro-EIS",
+      "Front camera": "32 MP, 26mm (wide), 1/2.74\", 0.8µm, HDR, panorama, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4300 mAh",
+      "Charging": "Fast charging 65W"
+    }
+  },
+  "key": {
+    "display_in": 6.43,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 1000,
+    "chipset": "Qualcomm Snapdragon 778G 5G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4300,
+    "wired_w": 65,
+    "os": "Android 11",
+    "five_g": true,
+    "dual_sim": true,
+    "weight_g": 174,
+    "thickness_mm": 8,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme GT Master Edition",
+      "url": "https://en.wikipedia.org/wiki/Realme_GT_Master_Edition"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme GT Master Edition\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme GT Master Edition",
+    "revid": 1370007086
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

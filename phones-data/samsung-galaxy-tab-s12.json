@@ -1,0 +1,71 @@
+{
+  "slug": "samsung-galaxy-tab-s12",
+  "brand": "Samsung",
+  "name": "Galaxy Tab S12",
+  "status": "published",
+  "announced": "2026-10-07",
+  "released": "2026-10-07",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-10-07",
+      "Series": "Galaxy Tab S",
+      "Predecessor": "Samsung Galaxy Tab S11"
+    },
+    "Network": {
+      "Technology": "Cellular: GSM/HSPA/4G LTE/5G (sub-6GHz)",
+      "SIM": "Nano-SIM/eSIM (Cellular models only)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "Tab S12: 165.3 × 253.8 × 5.5 mm, Tab S12 Ultra: 208.5 × 326.3 × 5.1 mm"
+    },
+    "Platform": {
+      "Operating system": "Android 17 with One UI 9",
+      "Chipset": "MediaTek Dimensity 9500+"
+    },
+    "Memory": {
+      "RAM": "Tab S12: 12 GB RAM, Tab S12 Ultra: 12 GB, 16 GB RAM",
+      "Storage": "Tab S12: 128 GB, 256 GB, 512 GB, Tab S12 Ultra: 256 GB, 512 GB, 1 TB",
+      "Card slot": "Dedicated microSDXC slot"
+    },
+    "Battery": {
+      "Battery": "Tab S12+: 10600 mAh non-user replaceable LiPo, Tab S12 Ultra: 11600 mAh non-user replaceable LiPo",
+      "Charging": "45 W USB PD charging"
+    }
+  },
+  "key": {
+    "chipset": "MediaTek Dimensity 9500+",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "battery_mah": 10600,
+    "wired_w": 45,
+    "os": "Android 17",
+    "five_g": true,
+    "esim": true,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab S12",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab S12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab S12",
+    "revid": 1379254923
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

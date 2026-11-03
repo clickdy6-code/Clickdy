@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-r810-finesse",
+  "brand": "Samsung",
+  "name": "R810 Finesse",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Samsungfinesse.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Samsungfinesse.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung R810 Finesse",
+      "credit": "Drdak, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsungfinesse.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung SCH Series",
+      "Successor": "Samsung Caliber"
+    },
+    "Network": {
+      "Technology": "CDMA"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "4.56 in H, 2.29 in W, .488 in D",
+      "Weight": "3.63 oz"
+    },
+    "Platform": {
+      "Operating system": "TouchWiz 1.0 Based-On Android 1.5 (Cupcake)"
+    },
+    "Memory": {
+      "RAM": "150 MB on board memory",
+      "Storage": "8 or 16 GB (flash nand memory)",
+      "Card slot": "micro-SD (up to 16 GB supported)"
+    },
+    "Display": {
+      "Display": "240×400 px, 3.2 in with TFT"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel with digital zoom"
+    },
+    "Battery": {
+      "Battery": "Li-pol 1000 mAh , Talk time: 430 min , Standby time: 300 hr"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, Mobile browser, GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1000,
+    "os": "Android 1.5",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung R810 Finesse",
+      "url": "https://en.wikipedia.org/wiki/Samsung_R810_Finesse"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung R810 Finesse\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung R810 Finesse",
+    "revid": 1361483346
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

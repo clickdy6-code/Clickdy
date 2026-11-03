@@ -1,0 +1,91 @@
+{
+  "slug": "oppo-neo-3",
+  "brand": "Oppo",
+  "name": "Neo 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2014",
+      "Series": "Oppo Neo Series",
+      "Predecessor": "Oppo Neo",
+      "Successor": "Oppo Neo 5"
+    },
+    "Network": {
+      "Technology": "2G bands: GSM 850 / 900 / 1800 / 1900, 3G bands: HSDPA 2100, HSPA"
+    },
+    "Body": {
+      "Dimensions": "132x65.8x9.2 mm, 5.20x2.59x0.36 in",
+      "Weight": "128 g (4.52 oz)",
+      "Other": "Colors: White, Black, Price: About €130"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2.1",
+      "Chipset": "MediaTek MT6572",
+      "CPU": "2x1.3GHz ARM Cortex-A7",
+      "GPU": "ARM Mail-400 MP1, 1 core, 500MHz"
+    },
+    "Memory": {
+      "RAM": "1GB LPDDR2, 266MHz",
+      "Storage": "4GB",
+      "Card slot": "microSDHC (up to 32GB)"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD, Size: 4.5 inches, 55.8 cm^2, Resolution: 480x854, 218 ppi, Ratios: 16:9 aspect ratio, 64.2% StB ratio"
+    },
+    "Cameras": {
+      "Rear camera": "2592x1944 (5.04MP), Video: 720p at 30fps",
+      "Front camera": "1600x1200 (1.92MP)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker: Yes, 3.5mm jack: Yes"
+    },
+    "Battery": {
+      "Battery": "Removable Li-ion, 1900mAh",
+      "Charging": "microUSB 2.0"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN: Wi-Fi 802.11 b/g/n, hotspot, Bluetooth 2.1, A-GPS, FM radio, microUSB 2.0, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6572",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5.04,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 1.92,
+    "battery_mah": 1900,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 128,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Neo 3",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Neo_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Neo 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Neo 3",
+    "revid": 1361479137
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

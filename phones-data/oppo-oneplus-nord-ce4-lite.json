@@ -1,0 +1,98 @@
+{
+  "slug": "oppo-oneplus-nord-ce4-lite",
+  "brand": "OPPO",
+  "name": "OnePlus Nord CE4 Lite",
+  "status": "published",
+  "announced": "2024-03-14",
+  "released": "2024-03-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Oppo K12x: 2024-03-14, Nord CE4 Lite: 2024-06-24",
+      "Series": "OnePlus Nord/Oppo K",
+      "Predecessor": "OnePlus Nord CE 3 Lite 5G"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.9 × 75.6 × 8.1 mm",
+      "Weight": "191 g",
+      "Other": "Fingerprint scanner (under display, optical), proximity sensor, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Nord CE4 Lite:, Original: Android 14 + OxygenOS 14, Oppo K12x:, Original: Android 14 + ColorOS 14",
+      "Chipset": "Qualcomm SM6375 Snapdragon 695 (6 nm)",
+      "CPU": "Octa-core (2×2.2 GHz Kryo 660 Gold & 6×1.7 GHz Kryo 660 Silver)",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "Nord CE4 Lite: 8 GB, Oppo K12x: 8/12 GB, LPDDR4X",
+      "Storage": "Nord CE4 Lite: 128/256 GB, Oppo K12x: 256/512 GB, UFS 2.2",
+      "Card slot": "MicroSDXC up to 2 TB"
+    },
+    "Display": {
+      "Display": "AMOLED, 6.67\", 2400 × 1080 (FullHD+), 395 ppi, 20:9, 120 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Wide-angle lens, Wide: Nord CE4 Lite: 50 MP Sony LYT-600, 25 mm, 1/1.95\", 0.8 μm, PDAF, Optical image stabilization, OIS, Oppo K12x: 50 MP, 1/2.76\", 0.8 μm, PDAF, Depth sensor: 2 MP, Other: Dual-LED flash, HDR, panorama, Video: 1080p@30fps, gyro-EIS",
+      "Front camera": "16 MP, 24 mm (wide), HDR, panorama, Video: 1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po, Nord CE4 Lite: 5110 mAh, Nord CE4 Lite (India)/Oppo K12x: 5500 mAh",
+      "Charging": "80 W fast charging, Power Delivery 3.0, 5 W reverse wired charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm audio jack, Bluetooth 5.1 (A2DP, LE, aptX HD), NFC (Nord CE4 Lite (CPH2621)), Wi-Fi 802.11 a/b/g/n/ac (dual-band), GPS, A-GPS, GLONASS, BeiDou, Galileo, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SM6375 Snapdragon 695",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 5110,
+    "wired_w": 80,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 191,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus Nord CE4 Lite",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_Nord_CE4_Lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus Nord CE4 Lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus Nord CE4 Lite",
+    "revid": 1361478885
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

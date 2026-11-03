@@ -1,0 +1,63 @@
+{
+  "slug": "nokia-6260-slide",
+  "brand": "Nokia",
+  "name": "6260 slide",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6280 Series"
+    },
+    "Network": {
+      "Technology": "UMTS 850/2100 GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Slide",
+      "Dimensions": "99.4 x 46.5 x 15.4 mm",
+      "Weight": "114 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 6th Edition"
+    },
+    "Memory": {
+      "RAM": "200 MB"
+    },
+    "Display": {
+      "Display": "2.4 inch HVGA LCD (16.7 million colors)"
+    },
+    "Cameras": {
+      "Rear camera": "0,3 megapixels"
+    },
+    "Battery": {
+      "Battery": "BL-5F 950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, POP PORT"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "LCD",
+    "battery_mah": 950,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 114
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6260 slide",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6260_slide"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6260 slide\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6260 slide",
+    "revid": 1369492645
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

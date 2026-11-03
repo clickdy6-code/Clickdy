@@ -1,0 +1,99 @@
+{
+  "slug": "asus-rog-phone-5",
+  "brand": "Asus",
+  "name": "ROG Phone 5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/The_back_of_the_Tencent_ROG_Phone_5.png/500px-The_back_of_the_Tencent_ROG_Phone_5.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/The_back_of_the_Tencent_ROG_Phone_5.png/250px-The_back_of_the_Tencent_ROG_Phone_5.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Asus ROG Phone 5",
+      "credit": "X-SHLIED, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_back_of_the_Tencent_ROG_Phone_5.png",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "ROG Phone 3",
+      "Successor": "ROG Phone 6"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "172.8 x 77.3 x 10.3 mm",
+      "Weight": "238 g"
+    },
+    "Platform": {
+      "Operating system": "ROG UI based on Android 11",
+      "Chipset": "Qualcomm Snapdragon 888",
+      "CPU": "Octa-core (1x 2.84 GHz Kryo 680 Prime + 3x 2.42 GHz Kryo 680 Gold + 4x 1.8 GHz Kryo 680 Silver)",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "LPDDR5 RAM, 8/12 GB (Base), 16 GB (Pro), 18 GB (Ultimate)",
+      "Storage": "UFS 3.1, 128/256 GB (Base), 256 GB (Pro), 512 GB (Ultimate)"
+    },
+    "Display": {
+      "Display": "6.78 in AMOLED capacitive touchscreen, 1080p 1080 × 2448 pixels, 20.4:9 aspect ratio (395 ppi), 144 Hz refresh rate, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP Sony Exmor IMX686, f/1.8, 26mm (wide), 1/1.73\", 0.8 μm, PDAF + 13 MP, f/2.4, 125˚, 11mm (ultrawide) + 5 MP, f/2.0, (macro), LED flash, HDR, panorama, 8K@30fps, 4K@30fps, 1080p@30fps",
+      "Front camera": "24 MP, f/2.5, 27mm (wide), 0.9 μm"
+    },
+    "Battery": {
+      "Battery": "6000 mAh Li-Po (2x 3000 mAh)",
+      "Charging": "65 W Fast charging, Reverse charging 10 W, Power Delivery 3.0, Quick Charge 5"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.2, HFP, AVRCP, HID, PAN, OPP, A2DP, LE, aptX HD, aptX Adaptive , WiFi 6E 802.11a/b/g/n/ac/ax 2x2 MIMO (2.4, 5 & 6 GHz), dual-band, WiFi Direct, hotspot, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "AMOLED",
+    "refresh_hz": 144,
+    "chipset": "Qualcomm Snapdragon 888",
+    "ram_gb": [
+      12,
+      16,
+      18
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "8K@30fps",
+    "front_mp": 24,
+    "battery_mah": 6000,
+    "wired_w": 65,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6E",
+    "weight_g": 238
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ROG Phone 5",
+      "url": "https://en.wikipedia.org/wiki/ROG_Phone_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ROG Phone 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ROG Phone 5",
+    "revid": 1374581537
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

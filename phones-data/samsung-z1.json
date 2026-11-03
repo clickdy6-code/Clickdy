@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-z1",
+  "brand": "Samsung",
+  "name": "Z1",
+  "status": "published",
+  "announced": "2015-01-14",
+  "released": "2015-01-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Samsung_Z1.png/500px-Samsung_Z1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Samsung_Z1.png/250px-Samsung_Z1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Z1",
+      "credit": "AnVuong1222004 (11), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Z1.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-01-14",
+      "Series": "Z Series"
+    },
+    "Network": {
+      "Technology": "2.5G, 3G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "100.4 mm H, 63.2 mm W, 9.7 mm D",
+      "Weight": "112 g"
+    },
+    "Platform": {
+      "Operating system": "Tizen 2.3",
+      "Chipset": "Spreadtrum SC7727S",
+      "CPU": "Dual-core 1.2 GHz Cortex A7",
+      "GPU": "Mali-400MP"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "Up to 64 GB microSDXC"
+    },
+    "Display": {
+      "Display": "4\" (100mm) PLS TFT 480×800 WVGA (233 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 megapixels",
+      "Front camera": "0.3 MP"
+    },
+    "Battery": {
+      "Battery": "1500 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth 4, USB 2.0 (Micro-B port, USB charging)"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "chipset": "Spreadtrum SC7727S",
+    "storage_gb": [
+      4
+    ],
+    "front_mp": 0.3,
+    "battery_mah": 1500,
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 112,
+    "thickness_mm": 9.7,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Z1",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Z1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Z1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Z1",
+    "revid": 1361483733
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

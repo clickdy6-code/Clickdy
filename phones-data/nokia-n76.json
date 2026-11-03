@@ -1,0 +1,80 @@
+{
+  "slug": "nokia-n76",
+  "brand": "Nokia",
+  "name": "N76",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/N76-nero.jpg/500px-N76-nero.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/N76-nero.jpg/250px-N76-nero.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N76",
+      "credit": "Z-angel, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:N76-nero.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 7390, Nokia N71",
+      "Successor": "Nokia N81"
+    },
+    "Network": {
+      "Technology": "UMTS/GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "106.5 x 52 x 13.7 m, 70 cc",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.2, S60 3rd Edition, Feature Pack 1",
+      "CPU": "Freescale ARM 11 369 MHz"
+    },
+    "Memory": {
+      "RAM": "26 MB",
+      "Card slot": "microSD up to 2 GB"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels, 2.4\", 16M Colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP / 1600 x 1200 px / 20X Digital Zoom",
+      "Front camera": "CIF Video Call Camera"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 700 mAh (BL-4B)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB-to-Pop-Port, SMS, MMS"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 700,
+    "os": "Symbian OS v9.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N76",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N76"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N76\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N76",
+    "revid": 1361478435
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

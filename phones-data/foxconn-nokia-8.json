@@ -1,0 +1,97 @@
+{
+  "slug": "foxconn-nokia-8",
+  "brand": "Foxconn",
+  "name": "Nokia 8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Nokia_8-front_illuminated_PNr%C2%B00484.jpg/500px-Nokia_8-front_illuminated_PNr%C2%B00484.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Nokia_8-front_illuminated_PNr%C2%B00484.jpg/250px-Nokia_8-front_illuminated_PNr%C2%B00484.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 8",
+      "credit": "D-Kuru, CC BY-SA 3.0 at via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_8-front_illuminated_PNr%C2%B00484.jpg",
+      "license": "CC BY-SA 3.0 at"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2022-01-01",
+      "Predecessor": "Nokia Lumia 930 (Nokia Flagship) , Nokia 7",
+      "Successor": "Nokia 8 Sirocco , Nokia 8.1"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "151.5 x 73.7 x 7.9 mm",
+      "Weight": "160 g (5.64 oz)",
+      "Other": "IP54 dust and splash resistance"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 \"Nougat\", Current: 9.0 \"Pie\" (without Treble)",
+      "Chipset": "Qualcomm Snapdragon 835 (10 nm)",
+      "CPU": "Octa-core (4x2.5 GHz Kryo & 4x1.8 GHz Kryo)",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 or 6 GB LPDDR4 RAM",
+      "Storage": "64 or 128 GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.3 inches (77.4 cm2) 1440p QHD 2.5D curved IPS LCD with Gorilla Glass 5 protection, ~554 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "Dual Camera Set-up:, 13 MP (f/2.0, 1/3.1\", 1.12 μm, PDAF, laser autofocus, OIS), 13 MP B/W (f/2.0, 1.12 μm, PDAF), ZEISS optics, dual-LED dual-tone flash, HDR, panorama, Video: 4K@30fps, 1080p@30fps",
+      "Front camera": "13 MP (f/2.0, 1/3.1\", 1.12 μm, PDAF) Wide, Video: 4K"
+    },
+    "Sound": {
+      "Sound": "Bottom mounted loud speaker, Nokia OZO 360° audio (For Recording Video Only), Dolby Atmos compatible decoding, active noise cancellation with dedicated microphone"
+    },
+    "Battery": {
+      "Battery": "3090 mAh Li-Po, non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "LTE-A download 1000 Mbit/s upload 150 Mbit/s, 3.5 mm TRRS headphone jack, Bluetooth 5.0, USB 3.1 via USB-C port, NFC"
+    }
+  },
+  "key": {
+    "display_in": 5.3,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 835",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 13,
+    "battery_mah": 3090,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "ip": "IP54",
+    "weight_g": 160
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 8",
+      "url": "https://en.wikipedia.org/wiki/Nokia_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 8",
+    "revid": 1376350228
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

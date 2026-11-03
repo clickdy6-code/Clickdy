@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-corby",
+  "brand": "Samsung",
+  "name": "Corby",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Samsung_Corby.png/500px-Samsung_Corby.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Samsung_Corby.png/250px-Samsung_Corby.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Corby",
+      "credit": "Dienthoaiquangcao10, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Corby.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series",
+      "Predecessor": "Samsung Tocco",
+      "Successor": "Samsung Corby II (S3850)"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "103 × 56.5 × 12 mm",
+      "Weight": "93.5g",
+      "Other": "Haptic Touch feedback"
+    },
+    "Platform": {
+      "Operating system": "Samsung Touchwiz 1.0",
+      "Chipset": "Broadcom BCM21331",
+      "CPU": "208 MHz ARM9"
+    },
+    "Memory": {
+      "RAM": "50 MB",
+      "Card slot": "Micro SD, up to 8 GB"
+    },
+    "Display": {
+      "Display": "240 × 320 pixels (~143 ppi pixel density) capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel"
+    },
+    "Battery": {
+      "Battery": "Li-lon 1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 and USB 2.0"
+    }
+  },
+  "key": {
+    "chipset": "Broadcom BCM21331",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 93.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Corby",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Corby"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Corby\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Corby",
+    "revid": 1361480508
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-j3-pro",
+  "brand": "Samsung",
+  "name": "Galaxy J3 Pro",
+  "status": "published",
+  "announced": "2016-06-06",
+  "released": "2016-06-06",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-06-06",
+      "Discontinued": "2018",
+      "Series": "Galaxy J series",
+      "Successor": "Galaxy J3 (2017)"
+    },
+    "Network": {
+      "Technology": "2G GSM 850, 900, 1800, 1900 , 3G HSDPA 850, 900, 1900, 2100 , 4G LTE Bands 1, 3, 4, 7, 41"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "142.2 mm H , 71.3 mm W , 8 mm D",
+      "Weight": "139 g",
+      "Other": "FM radio, Dual SIM"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1.1 \"Lollipop\"; TouchWiz",
+      "Chipset": "Qualcomm Snapdragon 410",
+      "CPU": "Quad-core (4×1.2 GHz) ARM Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16 GB",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0\", 720×1280 px (294 ppi) Super AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.2",
+      "Front camera": "5 MP, f/.2.2"
+    },
+    "Battery": {
+      "Battery": "2600 mAh (removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g/n, Bluetooth 4.1, GPS/GLONASS, NFC, microUSB 2.0, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 410",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 139,
+    "thickness_mm": 8,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J3 Pro",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J3_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J3 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J3 Pro",
+    "revid": 1380479989
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

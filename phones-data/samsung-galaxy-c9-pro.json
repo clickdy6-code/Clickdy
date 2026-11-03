@@ -1,0 +1,84 @@
+{
+  "slug": "samsung-galaxy-c9-pro",
+  "brand": "Samsung",
+  "name": "Galaxy C9 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Samsung_Galaxy_C9_Pro.png/500px-Samsung_Galaxy_C9_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Samsung_Galaxy_C9_Pro.png/250px-Samsung_Galaxy_C9_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy C9 Pro",
+      "credit": "AnVuong1222004 (2), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_C9_Pro.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-11",
+      "Series": "Galaxy C"
+    },
+    "Network": {
+      "Technology": "2G, 3G, LTE (telecommunication), LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.9 x 80.7 x 6.9 mm",
+      "Weight": "189 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android (operating system), Android Android Marshmallow, 6.0.1 \"Marshmallow\", Current : Android Oreo, Android 8.0.0 \"Oreo\" with Samsung Experience 9.0",
+      "Chipset": "Qualcomm Snapdragon 653",
+      "CPU": "Octa-core (4×1.95 GHz Cortex-A72 & 4×1.4 GHz) Cortex-A53",
+      "GPU": "Adreno 510"
+    },
+    "Memory": {
+      "RAM": "6 RAM",
+      "Storage": "64 GB eMMC 5.1",
+      "Card slot": "microSD, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "1920×1080 1080p AMOLED, Super AMOLED capacitive touchscreen display (16M colors), 6.0 in, 367 pixels per inch, ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "16, f/1.9, 1080p at 30 fps",
+      "Front camera": "16, f/1.9, 1080p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3.5 mm jack, vibration, active noise cancellation"
+    },
+    "Battery": {
+      "Battery": "4000 mAh (non-removable) (Fast Charging 18 watt)"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 653",
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 4000,
+    "os": "Android 8.0",
+    "five_g": false,
+    "weight_g": 189,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy C9 Pro",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_C9_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy C9 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy C9 Pro",
+    "revid": 1381261298
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "realme-16",
+  "brand": "Realme",
+  "name": "16",
+  "status": "published",
+  "announced": "2026-01-29",
+  "released": "2026-01-29",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-01-29 (realme 16 5G; global debut)",
+      "Series": "realme 16 series",
+      "Predecessor": "realme 15 series"
+    },
+    "Network": {
+      "Technology": "5G",
+      "SIM": "Nano-SIM; eSIM availability varies by model and region"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "16T: 166.47 × 78.23 × 8.88 mm, 16: 158.30 × 75.13 × 8.10 mm, 16 Pro: 162.60 × 77.60 × 7.75–7.79 mm, 16 Pro+: 162.45 × 76.27 × 8.49 mm",
+      "Weight": "16T: 224 g, 16: 183 g, 16 Pro: 192 g, 16 Pro+: 198 g (Camellia Pink); 203 g (Master Grey and Master Gold)"
+    },
+    "Platform": {
+      "Operating system": "realme UI 7.0",
+      "Chipset": "16T: MediaTek Dimensity 6300, 16: MediaTek Dimensity 6400 Turbo, 16 Pro: MediaTek Dimensity 7300 Max 5G, 16 Pro+: Qualcomm Snapdragon 7 Gen 4",
+      "CPU": "Octa-core",
+      "GPU": "16T: ARM Mali-G57 MC2, 16: Mali-G57 MC2, 16 Pro: Arm Mali-G615, 16 Pro+: Adreno 722"
+    },
+    "Memory": {
+      "RAM": "16T: 6/8 GB LPDDR4X, 16/16 Pro: 8/12 GB LPDDR4X, 16 Pro+: 8/12 GB LPDDR5X",
+      "Storage": "16T: 256 GB UFS 2.2, 16: 128/256/512 GB UFS 2.2, 16 Pro/16 Pro+: 256/512 GB UFS 3.1",
+      "Card slot": "16T and 16: supported, 16 Pro and 16 Pro+: unsupported"
+    },
+    "Display": {
+      "Display": "16T: 6.8-inch LCD; 144 Hz, 16: 6.57-inch AMOLED; 120 Hz, 16 Pro: 6.78-inch AMOLED; 144 Hz, 16 Pro+: 6.8-inch AMOLED; 144 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "16T/16: 50 MP wide + 2 MP monochrome, 16 Pro: 200 MP wide + 8 MP ultrawide, 16 Pro+: 200 MP wide + 8 MP ultrawide + 50 MP telephoto",
+      "Front camera": "16T: 16 MP, 16/16 Pro/16 Pro+: 50 MP"
+    },
+    "Sound": {
+      "Sound": "USB-C audio; Bluetooth audio"
+    },
+    "Battery": {
+      "Battery": "16T: 8,000 mAh, 16/16 Pro/16 Pro+: 7,000 mAh typical (regional variants differ)",
+      "Charging": "16T: 45 W SUPERVOOC, 16: up to 60 W, 16 Pro/16 Pro+: up to 80 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth, USB-C and NFC availability varies by model and region"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "refresh_hz": 144,
+    "chipset": "16T: MediaTek Dimensity 6300",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 16,
+    "battery_mah": 8000,
+    "wired_w": 80,
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 224,
+    "thickness_mm": 7.79,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme 16",
+      "url": "https://en.wikipedia.org/wiki/Realme_16"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme 16\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme 16",
+    "revid": 1382920291
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

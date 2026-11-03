@@ -1,0 +1,78 @@
+{
+  "slug": "nokia-6650",
+  "brand": "Nokia",
+  "name": "6650",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Nokia6650_unlocked.jpg/500px-Nokia6650_unlocked.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Nokia6650_unlocked.jpg/250px-Nokia6650_unlocked.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6650",
+      "credit": "Towel401 (talk), Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia6650_unlocked.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2002",
+      "Predecessor": "Nokia 6340 (6650), Nokia 6340i (6651)",
+      "Successor": "Nokia N91 (6650), Nokia N91 8GB (6651)"
+    },
+    "Network": {
+      "Technology": "GSM 900 and 1800 MHz, W-CDMA 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "132 mm H , 52 mm W , 25 mm D",
+      "Weight": "141 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "7 MB internal"
+    },
+    "Display": {
+      "Display": "TFT LCD (4096 colors, 128 x 160 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "VGA camera"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, vibration motor"
+    },
+    "Battery": {
+      "Battery": "Removable 950 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.1, Infrared"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 950,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 141,
+    "thickness_mm": 25,
+    "year": 2002
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6650",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6650"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6650\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6650",
+    "revid": 1361477682
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

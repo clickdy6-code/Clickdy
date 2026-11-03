@@ -1,0 +1,92 @@
+{
+  "slug": "xiaomi-redmi-note-8",
+  "brand": "Xiaomi",
+  "name": "Redmi Note 8",
+  "status": "published",
+  "announced": "2019-08-29",
+  "released": "2019-08-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Redmi_Note_8_front.jpg/500px-Redmi_Note_8_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Redmi_Note_8_front.jpg/250px-Redmi_Note_8_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi Note 8",
+      "credit": "Юный рыбак, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_Note_8_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Note 8/Pro: 2019-08-29, Note 8T: 2019-11-06, Note 8 2021: 2021-05-24",
+      "Series": "Redmi Note",
+      "Predecessor": "Redmi Note 7",
+      "Successor": "Redmi Note 9, Redmi Note 9 4G, Redmi Note 9 Pro 5G"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Note 8/2021: 158.3 x 75.3 x 8.4 mm, Note 8T: 161.1 x 75.4 x 8.6 mm, Note 8 Pro: 161.3 x 76.4 x 8.8 mm",
+      "Weight": "Note 8/2021: 190 g, Note 8T: 200 g, Note 8 Pro: 199 g"
+    },
+    "Platform": {
+      "Operating system": "Note 8/Pro/8T: , Original: MIUI, MIUI 10 based on Android Pie, Android 9 Pie, Current: MIUI, MIUI 12.5 based on Android 11, Note 8 2021: , Original: MIUI, MIUI 12.5 based on Android 11, Current: MIUI, MIUI 14 based on Android 13",
+      "Chipset": "Note 8/8T: Qualcomm Snapdragon 665, Note 8 Pro: MediaTek Helio G90T, Note 8 2021: MediaTek Helio G85",
+      "CPU": "Note 8/8T: Octa-core (4x 2.0 GHz Kryo 260 cores based on Cortex A73 + 4x 1.8 GHz Kryo 260 cores based on Cortex A53), Note 8 Pro: Octa-core (2x 2.05 GHz Cortex A76 + 6x 2.0 GHz Cortex A55), Note 8 2021: Octa-core (2x 2 GHz Cortex A75 + 6x 1.8 GHz Cortex A55)",
+      "GPU": "Note 8/8T: Adreno 610, Note 8 Pro: Mali G76 MC4 @ 800MHz, Note 8 2021: Mali G52 MC2 @ 1GHz"
+    },
+    "Memory": {
+      "RAM": "LPDDR4X RAM, Note 8 : 3/4/6, Note 8T/2021 : 3/4, Note 8 Pro: 6/8",
+      "Storage": "Note 8/8T: 32/64/128, Note 8 Pro: 64/128/256, Universal Flash Storage, UFS 2.1, Note 8 2021: 64/128, MultiMediaCard#eMMC, eMMC 5.1",
+      "Card slot": "microSDXC, expandable up to 256 GB (uses SIM 2 slot)"
+    },
+    "Display": {
+      "Display": "Note 8/8T/2021: 6.3 inches (with up to 90% screen-to-body ratio), 2340 x 1080 pixels, 19.5:9 ratio (409 ppi), IPS LCD capacitive touchscreen, 16M colors, Redmi Note 8 Pro: 6.53 inches (with up to 91.4% screen-to-body ratio), 2340 x 1080 pixels, 19.5:9 ratio (395 ppi), IPS LCD HDR capacitive touchscreen, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "Note 8/8T/2021: Quad: Samsung ISOCELL Bright GM1/GM2 48MP (f/1.8, 0.8 μm) PDAF (wide) + 8 MP (f/2.2, 1.12 μm) 13mm (ultrawide) + 2 MP, f/2.4, 1/5\", 1.75μm (dedicated macro camera) + 2 MP, f/2.4, 1/5\", 1.75μm, depth sensor , Note 8 Pro: Quad: Samsung ISOCELL Bright GW1 64MP (f/1.8, 0.8 μm) PDAF (wide) + 8 MP (f/2.2, 1.12 μm) 13mm (ultrawide) + 2 MP, f/2.4, 1/5\", 1.75μm (dedicated macro camera) + 2 MP, f/2.4, 1/5\", 1.75μm, depth sensor",
+      "Front camera": "Note 8/8T/2021: 13 MP, OmniVision 13855, LED flash, 1080p, Note 8 Pro: 20 MP, LED flash, 1080p"
+    },
+    "Battery": {
+      "Battery": "Note 8/8T/2021: 4000 mAh, Note 8 Pro: 4500 mAh",
+      "Charging": "Fast charging 18W"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, Note 8/8T: Bluetooth#Bluetooth 4.2, Bluetooth 4.2, Note 8 Pro: Bluetooth#Bluetooth 5, Bluetooth 5.0, Note 8 2021: Bluetooth#Bluetooth 5.2, Bluetooth 5.2, Wi-Fi 802.11a/b/g/n/ac (2.4 & 5 GHz), dual-band, WiFi Direct, hotspot, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "IPS LCD",
+    "chipset": "Note 8/8T: Qualcomm Snapdragon 665",
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 13,
+    "battery_mah": 4000,
+    "wired_w": 18,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 190,
+    "thickness_mm": 8.8,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi Note 8",
+      "url": "https://en.wikipedia.org/wiki/Redmi_Note_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi Note 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Redmi Note 8",
+    "revid": 1366136501
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

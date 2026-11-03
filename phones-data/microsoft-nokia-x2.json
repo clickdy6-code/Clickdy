@@ -1,0 +1,95 @@
+{
+  "slug": "microsoft-nokia-x2",
+  "brand": "Microsoft",
+  "name": "Nokia X2",
+  "status": "published",
+  "announced": "2014-06-24",
+  "released": "2014-06-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Nokia_X2_Android_%2814309420090%29.jpg/500px-Nokia_X2_Android_%2814309420090%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Nokia_X2_Android_%2814309420090%29.jpg/250px-Nokia_X2_Android_%2814309420090%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft Nokia X2",
+      "credit": "Chris F. Attribution should be given to tcawireless.com., CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_X2_Android_(14309420090).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "24 June 2014",
+      "Discontinued": "17 July 2014",
+      "Series": "Nokia X family",
+      "Predecessor": "Nokia X",
+      "Successor": "Nokia 2, Nokia 3, Nokia 2.2, Nokia C series (2019-2024)"
+    },
+    "Network": {
+      "Technology": "3G, 2G, WCDMA network: 900 MHz, 2100 MHz, WCDMA max data speed DL:HSDPA - 21.1 Mb/s, WCDMA max data speed UL:HSUPA - 5.76 Mb/s, GSM network: 850 MHz, 900 MHz, 1800 MHz, 1900 MHz, GSM max data speed DL:EGPRS 296.0 kb/s, GSM max data speed UL:GPRS 236.8 kb/s"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "Height: 121.7 mm, Width: 68.3 mm, Thickness: 11.1 mm",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia X platform 2.0 (Android 4.3 Jellybean)",
+      "Chipset": "Qualcomm Snapdragon 400 MSM8926",
+      "CPU": "1.2 GHz dual ARM Cortex-A7 CPU",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "RAM 1 GB",
+      "Storage": "4 GB",
+      "Card slot": "Expandable up to 32 GB"
+    },
+    "Display": {
+      "Display": "Display size: 4.3 inch (11 cm), Display resolution: WVGA (800x 480), Display features: Brightness control, Tactile feedback, orientation sensor, Nokia Glance screen, scratch resistant glass, double-tap to wake, Display colors: TrueColor (24-bit/16M), Aspect ratio: 16:9, Pixel density: 217 ppi, Display Technology: ClearBlack, LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel with LED flash",
+      "Front camera": "2.0 megapixel"
+    },
+    "Sound": {
+      "Sound": "Audio playback file formats:, WAV, MP4, AAC, MP3, AWB, M4A, MIDI, FLAC, 3GP, AVI, MKV, OGG, MKA, Audio recording file formats:, AAC, AMR Audio recording codecs:AMR-WB, AAC LC, AMR-NB Audio recording features:Mono, 3.5 mm audio connector"
+    },
+    "Battery": {
+      "Battery": "1800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WIFI, Micro USB 2.0, Bluetooth 4.0, WAPI"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon 400 MSM8926",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1800,
+    "os": "Android 4.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 150,
+    "thickness_mm": 11.1,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X2 (2014)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X2_%282014%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X2 (2014)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X2 (2014)",
+    "revid": 1361478628
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

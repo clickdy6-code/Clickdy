@@ -1,0 +1,61 @@
+{
+  "slug": "nokia-asha-203",
+  "brand": "Nokia",
+  "name": "Asha 203",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-02",
+      "Series": "Asha"
+    },
+    "Body": {
+      "Form factor": "candybar",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "16 MB",
+      "Storage": "32 MB"
+    },
+    "Display": {
+      "Display": "2.4 inch TFT Resistive Touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "1020 mAh (BL-5C)"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "weight_g": 115,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 203",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_203"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 203\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 203",
+    "revid": 1382245200
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

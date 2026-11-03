@@ -1,0 +1,83 @@
+{
+  "slug": "realme-x50-pro",
+  "brand": "Realme",
+  "name": "X50 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Smartphone_realme_X50_Pro_5G.jpg/500px-Smartphone_realme_X50_Pro_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Smartphone_realme_X50_Pro_5G.jpg/250px-Smartphone_realme_X50_Pro_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Realme X50 Pro",
+      "credit": "RealmeIT, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Smartphone_realme_X50_Pro_5G.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "X",
+      "Predecessor": "realme X2 Pro",
+      "Successor": "realme GT"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "158.9mm x 74.2mm x 8.9mm",
+      "Weight": "205 grams"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 10 with realme UI , Current: Android 12 with realme UI 3.0",
+      "Chipset": "Qualcomm Snapdragon 865 5G",
+      "CPU": "7nm FFP, Octa-core, Up to 2.84GHz",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "Storage": "128GB/256GB UFS 3.0"
+    },
+    "Display": {
+      "Display": "16.4cm (6.44”) Fullscreen & 90Hz Ultra Smooth Display"
+    },
+    "Cameras": {
+      "Rear camera": "64MP AI Quad Camera with 20x Zoom",
+      "Front camera": "dual 32MP + 8MP wide-angle camera"
+    },
+    "Sound": {
+      "Sound": "Stereo sound"
+    },
+    "Battery": {
+      "Battery": "4200mAh"
+    }
+  },
+  "key": {
+    "refresh_hz": 90,
+    "chipset": "Qualcomm Snapdragon 865 5G",
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 32,
+    "battery_mah": 4200,
+    "os": "Android 10",
+    "thickness_mm": 8.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme X50 Pro",
+      "url": "https://en.wikipedia.org/wiki/Realme_X50_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme X50 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme X50 Pro",
+    "revid": 1361479705
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

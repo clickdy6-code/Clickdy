@@ -1,0 +1,85 @@
+{
+  "slug": "microsoft-nokia-lumia-630",
+  "brand": "Microsoft",
+  "name": "Nokia Lumia 630",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/LUMIA_630.jpg/500px-LUMIA_630.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/LUMIA_630.jpg/250px-LUMIA_630.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft Nokia Lumia 630",
+      "credit": "A7N8X, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LUMIA_630.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 2014",
+      "Discontinued": "February 2016",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 625",
+      "Successor": "Microsoft Lumia 640"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "134 g",
+      "Other": "Talk time: Up to 16.4 hours (2G), 13.1 h (3G), Standby time: up to 15 days, Maximum cellular network browsing time: 6.7 h, Music playback time: 58 h, GPS/A-GPS, GLONASS and BeiDou"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1 (or Windows 10 Mobile for 1GB RAM)",
+      "Chipset": "Qualcomm Snapdragon 400 MSM8226/MSM8626",
+      "CPU": "1.2 GHz quad-core Cortex-A7",
+      "GPU": "Qualcomm Adreno 305"
+    },
+    "Memory": {
+      "RAM": "512 MB (630, 635), 1 GB (635, 636, 638)",
+      "Storage": "8 GB",
+      "Card slot": "microSD up to 128 GB"
+    },
+    "Display": {
+      "Display": "4.5 in ClearBlack FWVGA (854x480 px)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "1830 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "chipset": "Qualcomm Snapdragon 400 MSM8226/MSM8626",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1830,
+    "os": "Windows Phone 8.1",
+    "weight_g": 134,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 630",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_630"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 630\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 630",
+    "revid": 1363375470
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "samsung-m900-moment",
+  "brand": "Samsung",
+  "name": "M900 Moment",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Samsung_moment_2010-07-20_17.jpg/500px-Samsung_moment_2010-07-20_17.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Samsung_moment_2010-07-20_17.jpg/250px-Samsung_moment_2010-07-20_17.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung M900 Moment",
+      "credit": "Daniel.Cardenas, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_moment_2010-07-20_17.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Samsung Intercept"
+    },
+    "Network": {
+      "Technology": "CDMA EV-DO Rev. A"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "4.60 x 2.34 x 0.63 inches (117 x 59 x 16 mm)",
+      "Weight": "161g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 Eclair",
+      "CPU": "Samsung S3C6410 at 800 MHz"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "512 MB ROM, 223 MB for application storage",
+      "Card slot": "micro-SD/microSDHC support"
+    },
+    "Display": {
+      "Display": "320 x 480 px, 3.2 in. 16M-color HVGA AMOLED capacitive touch screen"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 mega-pixels w/ auto-focus and flash"
+    },
+    "Battery": {
+      "Battery": "1440 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, Wi-Fi (802.11b/g)"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "AMOLED",
+    "battery_mah": 1440,
+    "os": "Android 2.1",
+    "nfc": false,
+    "weight_g": 161
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung M900 Moment",
+      "url": "https://en.wikipedia.org/wiki/Samsung_M900_Moment"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung M900 Moment\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung M900 Moment",
+    "revid": 1363801359
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

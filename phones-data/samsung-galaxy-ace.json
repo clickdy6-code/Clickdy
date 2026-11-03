@@ -1,0 +1,84 @@
+{
+  "slug": "samsung-galaxy-ace",
+  "brand": "Samsung",
+  "name": "Galaxy Ace",
+  "status": "published",
+  "announced": "2011-02-01",
+  "released": "2011-02-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Samsung_Galaxy_Ace.png/500px-Samsung_Galaxy_Ace.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Samsung_Galaxy_Ace.png/250px-Samsung_Galaxy_Ace.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Ace",
+      "credit": "Freddy2001, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Ace.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "UK 2011-02-01",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung E1120, Samsung E1170Samsung Galaxy 3",
+      "Successor": "Samsung Galaxy Ace PlusSamsung Galaxy Ace 2"
+    },
+    "Network": {
+      "Technology": "3G 850/900/1800/1900 MHz;, 3.5G HSDPA 7.2 Mbps 900/2100 MHz (Canada HSDPA 850/1900 MHz), TD-SCDMA (China Mobile Variant)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "112.4 mm H , 59.9 mm W , 11.5 mm D",
+      "Weight": "113 g",
+      "Other": "Gorilla glass display, Swype keyboard"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.2.1 \"Froyo\", Current: Android 2.3.6 \"Gingerbread\" with TouchWiz, Unofficial: Android 4.4.4 \"KitKat\" via CyanogenMod 11",
+      "CPU": "800 MHz Qualcomm MSM7227-1 Turbo, ARMv6 (GT-S5830) , 832 MHz Broadcom BCM21553 ARMv6 processor (GT-S5830i)",
+      "GPU": "Adreno 200 GPU (GT-S5830) , Broadcom BCM2763 VideoCore IV GPU (GT-S5830i)"
+    },
+    "Memory": {
+      "RAM": "384MB RAM (accessible: 278MB)",
+      "Storage": "512MB (accessible: 158 MB)",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "TFT LCD, 3.5 in diagonal. , 320×480 pixels HVGA (165 ppi) with Gorilla Glass , 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "5-Mpx 2560×1920 max, 2x digital zoom, autofocus, LED flash, VGA video recording 640×480 pixels MPEG4 at 24 FPS",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "1,350 mAh, 5.0 Wh, 3.7 V, internal rechargeable Li-ion, user replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm jack , Bluetooth v2.1 (v3 in S5830i & S6802) with A2DP , DLNA , Stereo FM radio with RDS , Micro-USB 2.0 , Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "battery_mah": 1350,
+    "os": "Android 2.2",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 113,
+    "thickness_mm": 11.5,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Ace",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Ace"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Ace\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Ace",
+    "revid": 1377223477
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "samsung-galaxy-note-3-neo",
+  "brand": "Samsung",
+  "name": "Galaxy Note 3 Neo",
+  "status": "published",
+  "announced": "2014-02-01",
+  "released": "2014-02-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-02-01",
+      "Series": "Galaxy Note",
+      "Successor": "Samsung Galaxy Note 10 Lite"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "148.4 mm H, 77.4 mm W, 8.6 mm D",
+      "Weight": "162.5 g",
+      "Other": "Accelerometer, gyroscope, Hall-effect sensor, magnetometer, proximity sensor, RGB light sensor"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.3 \"Jelly Bean\", Current: Android 5.1.1 \"Lollipop\", Unofficial: Android 8.1 \"Oreo\" Via LineageOS 15.1",
+      "Chipset": "Samsung Exynos 5 Hexa 5260 (LTE and 3G version), Qualcomm Snapdragon 400 (Dual Sim version), Qualcomm Snapdragon 800 (South Korea version)",
+      "CPU": "Hexa-core 1.7 GHz Cortex-A15 and 1.3 GHz Cortex-A7 (LTE and 3G version), 1.6 GHz quad-core Snapdragon 400 (Dual Sim version), Qualcomm Krait 400 MP4 2.3 GHz (South Korea version)",
+      "GPU": "ARM Mali T624MP6 GPU (LTE version), Adreno 305 (Dual Sim version), Adreno 330 450Mhz (South Korea version)"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3",
+      "Storage": "16/32 GB flash memory",
+      "Card slot": "microSDXC up to 64 GB"
+    },
+    "Display": {
+      "Display": "5.5 in, HD Super AMOLED 267 ppi (1280×720) (PenTile matrix) (16:9 aspect ratio) with Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel, camera with autofocus, BSI, 1080p",
+      "Front camera": "2-megapixel"
+    },
+    "Battery": {
+      "Battery": "3,100 mAh, User replaceable"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 5 Hexa 5260",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 3100,
+    "os": "Android 4.3",
+    "weight_g": 162.5,
+    "thickness_mm": 8.6,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note 3 Neo",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_3_Neo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note 3 Neo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note 3 Neo",
+    "revid": 1380857016
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "samsung-galaxy-f13",
+  "brand": "Samsung",
+  "name": "Galaxy F13",
+  "status": "published",
+  "announced": "2022-06-22",
+  "released": "2022-06-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-06-22",
+      "Series": "Samsung Galaxy F series",
+      "Predecessor": "Samsung Galaxy F12",
+      "Successor": "Samsung Galaxy F14 , Samsung Galaxy F14 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.4 mm H , 76.9 mm W , 9.3 mm D",
+      "Weight": "207 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12 with One UI Core 4.1, Last: Android 14 with One UI Core 6.1",
+      "Chipset": "Exynos 850 (8nm)",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A55 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G52"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB, 128 GB eMMC 5.1"
+    },
+    "Display": {
+      "Display": "6.6 in, Infinity-V Display, 720 x 1600 pixels, 20:9 ratio (~266 ppi density), PLS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, (wide), PDAF, 5 MP, f/2.2, 123˚ (ultrawide), 2 MP, f/2.4, (depth), LED flash, panorama, HDR, 1080p@30fps",
+      "Front camera": "8 MP, f/2.2, (wide), 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "6000 mAh",
+      "Charging": "Fast charging 15W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot, Bluetooth\t5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "LCD",
+    "chipset": "Exynos 850",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 6000,
+    "wired_w": 15,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 207,
+    "thickness_mm": 9.3,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy F13",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_F13"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy F13\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy F13",
+    "revid": 1369333043
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

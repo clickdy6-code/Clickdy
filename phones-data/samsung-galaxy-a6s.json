@@ -1,0 +1,82 @@
+{
+  "slug": "samsung-galaxy-a6s",
+  "brand": "Samsung",
+  "name": "Galaxy A6s",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10",
+      "Series": "Galaxy A series",
+      "Predecessor": "Samsung Galaxy A6 / A6+ (2018)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156.3 × 76.5 × 8.4 mm",
+      "Weight": "183 g"
+    },
+    "Platform": {
+      "Operating system": "Android (operating system), Android Android Oreo, 8.1.0 \"Oreo\" with Samsung Experience 9.5",
+      "Chipset": "Qualcomm Snapdragon 660",
+      "CPU": "Octa-Core 4x Kyro 260 2.2 GHz & 4x Kyro 260 1.8 GHz",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "RAM": "6 GB RAM",
+      "Storage": "64 GB/128 GB",
+      "Card slot": "up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.0\" PLS TFT LCD FHD+ display with Corning Gorilla Glass 1080×2160 px (18:9 Aspect Ratio)"
+    },
+    "Cameras": {
+      "Rear camera": "12MP f/1.8 (wide), 5MP f/2.2 (depth), with single flash",
+      "Front camera": "12MP f/2.0"
+    },
+    "Battery": {
+      "Battery": "3300mAh (non-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11 a/b/g/n, Wi-Fi hotspot;, Bluetooth v4.2, A2DP, EDR;, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 660",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 12,
+    "battery_mah": 3300,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 183,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A6s",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A6s"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A6s\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A6s",
+    "revid": 1380481447
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

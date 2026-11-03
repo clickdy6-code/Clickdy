@@ -1,0 +1,79 @@
+{
+  "slug": "nokia-lumia-925",
+  "brand": "Nokia",
+  "name": "Lumia 925",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2013",
+      "Discontinued": "2015",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 920",
+      "Successor": "Nokia Lumia 930"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE , HSPA+ , LTE , Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "129 mm H , 70.6 mm W , 8.5 mm D",
+      "Weight": "139 g",
+      "Other": "Talk time: Up to 18.3 hours , Standby time: Up to 432 hours (18 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8, upgradeable to 8.1",
+      "Chipset": "Qualcomm Snapdragon S4",
+      "CPU": "1.5 GHz dual-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 225"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 or 32 GB internal flash"
+    },
+    "Display": {
+      "Display": "4.5\" AMOLED PenTile ClearBlack Touch at 334 ppi, 1280x768 px, 15:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "8.7 megapixels 1080p Full HD video capture at 30 fps, autofocus Carl Zeiss optics plus sixth lens made of glass, Touch to focus, image stabilisation, Face detection, Exposure compensation, Digital zoom, Geo tagging, Power Dual-LED flash",
+      "Front camera": "1.2 megapixels, 720p video capture at 30 fps"
+    },
+    "Battery": {
+      "Battery": "BL-4YW 2000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon S4",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2000,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "weight_g": 139,
+    "thickness_mm": 8.5,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 925",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_925"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 925\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 925",
+    "revid": 1361478396
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

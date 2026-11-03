@@ -1,0 +1,84 @@
+{
+  "slug": "samsung-galaxy-ace-2",
+  "brand": "Samsung",
+  "name": "Galaxy Ace 2",
+  "status": "published",
+  "announced": "2012-05-22",
+  "released": "2012-05-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "UK 2012-05-22",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy Ace , Samsung Galaxy Ace Plus",
+      "Successor": "Samsung Galaxy Ace 3 , Samsung Galaxy Core"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 MHz, 3.5G 900/2100 MHz, HSDPA 14.4 Mbit/s (DL), HSUPA 5.76 Mbit/s (UL), Canada: HSPA 850/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "118.3 mm H , 62.3 mm W , 10.5 mm D",
+      "Weight": "122 g",
+      "Other": "Swype keyboard, Google Play, Polaris Office, ChatON, Social Hub, Readers Hub and Game Hub"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.3.6 Gingerbread, Current: Android 4.1.2 Jelly Bean, Unofficial: Android 9 Pie via LineageOS 16",
+      "Chipset": "ST-Ericsson NovaThor U8500",
+      "CPU": "Dual-core 800 MHz ARM Cortex-A9",
+      "GPU": "ARM Mali-400 MP"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM (accessible: 555-645 MB depending on kernel parameters)",
+      "Storage": "4 GB (1.2 GB for apps and 1.1 GB internal Storage), For Custom Partition size (only for Custom Roms): Dependant on each types",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.8 in TFT LCD diagonal. , 480x800 px (244ppi) WVGA, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "5 Mpx 2560x1920 max, autofocus, LED flash, HD video recording 1280x720 px MPEG4 at 30 FPS",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1,500 mAh, 5.55 Wh, 3.8 V, internal rechargeable Li-ion, user replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm jack , Bluetooth v3.0 with A2DP , DLNA , Stereo FM radio with RDS , Micro-USB 2.0 , Near field communication (NFC)* *GT-I8160P model only , Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.8,
+    "display_type": "TFT",
+    "chipset": "ST-Ericsson NovaThor U8500",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 2.3",
+    "five_g": true,
+    "nfc": true,
+    "weight_g": 122,
+    "thickness_mm": 10.5,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Ace 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Ace_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Ace 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Ace 2",
+    "revid": 1381357063
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

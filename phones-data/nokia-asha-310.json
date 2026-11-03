@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-asha-310",
+  "brand": "Nokia",
+  "name": "Asha 310",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Nokia_Asha_logo.svg/500px-Nokia_Asha_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Nokia_Asha_logo.svg/250px-Nokia_Asha_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Asha 310",
+      "credit": "Nokia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Asha_logo.svg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia Asha 205"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800"
+    },
+    "Body": {
+      "Dimensions": "• Width: 54 mm, • Height: 109.9 mm, • Thickness: 13.2 mm",
+      "Weight": "104 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Asha Series 40 OS"
+    },
+    "Memory": {
+      "RAM": "• 64 MB RAM, • 128 MB ROM",
+      "Card slot": "up to 32 GB microSD card"
+    },
+    "Display": {
+      "Display": "240 × 400 px (WQVGA), 3.0-inch, 16 bits"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "BL-4U 1100 mAh Li ion battery (removable), Charging with micro-USB and 2 mm DC plug"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g/n, Bluetooth 3.0 A2DP, micro-USB 2.0, 3.5 mm Nokia AV connector (audio in/out), SIM card - Dual SIM, FM receiver with RDS"
+    }
+  },
+  "key": {
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 104,
+    "thickness_mm": 13.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 310",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_310"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 310\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 310",
+    "revid": 1378514776
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

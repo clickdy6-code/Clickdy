@@ -1,0 +1,95 @@
+{
+  "slug": "samsung-galaxy-m23-5g",
+  "brand": "Samsung",
+  "name": "Galaxy M23 5G",
+  "status": "published",
+  "announced": "2022-03-04",
+  "released": "2022-03-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "M23: 2022-03-04, F23: 2022-03-08",
+      "Series": "Galaxy M/Galaxy F",
+      "Predecessor": "Samsung Galaxy M22, Samsung Galaxy F22, Samsung Galaxy A22 5G (Samsung Galaxy Buddy)",
+      "Successor": "Samsung Galaxy A15 5G (Galaxy Buddy 3)"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "M23: Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by), F23: Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.5 mm H, 77 mm W, 8.4 mm D",
+      "Weight": "198 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12 with One UI 4.1, Current: Android 14 with One UI 6.1",
+      "Chipset": "Qualcomm SM7225 Snapdragon 750G",
+      "CPU": "Octa-core (2.2 GHz & 1.8 GHz)",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "4GB, 6GB RAM",
+      "Storage": "128GB eMMC 5.1",
+      "Card slot": "microSDXC (supports up to 1TB)"
+    },
+    "Display": {
+      "Display": "6.6 in, PLS, 1080 x 2408 pixels, 20:9 aspect ratio (~400 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8 (wide), PDAF, 8 MP, f/2.2, 123˚ (ultrawide), 1/4\", 1.12 μm, 2 MP, f/2.4 (macro), LED flash, panorama, HDR, 4K@30fps, 1080p@30fps, 720p@480fps",
+      "Front camera": "8 MP, f/2.2, (wide), 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh",
+      "Charging": "Fast charging up to 25 W (charger not included)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot , Bluetooth 5.0, A2DP, LE, A-GPS, BEIDOU, BDS, GLONASS, GALILEO, NFC, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "chipset": "Qualcomm SM7225 Snapdragon 750G",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 198,
+    "thickness_mm": 8.4,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M23 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M23_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M23 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M23 5G",
+    "revid": 1380482452
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

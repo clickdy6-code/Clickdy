@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-e71",
+  "brand": "Nokia",
+  "name": "E71",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Nokia_E71_cellphone.jpg/500px-Nokia_E71_cellphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Nokia_E71_cellphone.jpg/250px-Nokia_E71_cellphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia E71",
+      "credit": "Derrick Coetzee (Dcoetzee), CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_E71_cellphone.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia E61",
+      "Successor": "Nokia E72"
+    },
+    "Network": {
+      "Technology": "Quad band , GSM / GPRS / , EDGE: GSM 850 / 900 / 1800 / 1900, Dual band , UMTS / HSDPA: UMTS 900 / 2100 (E71-1) or , UMTS 850 / 1900 (E71-2) or UMTS 850 / 2100 (E71-3)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "114 × 57 × 10 mm , (4.49 × 2.24 × 0.39 in)",
+      "Weight": "127 g (with battery)"
+    },
+    "Platform": {
+      "Operating system": "S60 v3.1 (3rd Edition, Feature Pack 1) UI on Symbian OS v9.2",
+      "CPU": "369 MHz ARM11 Freescale MXC-300-xx processor"
+    },
+    "Memory": {
+      "RAM": "110 MB Internal user storage , ROM: 256 MB , SDRAM: 128 MB , ~71 MB Free Executable RAM",
+      "Card slot": "MicroSDHC Hot-swappable max. 32 GB"
+    },
+    "Display": {
+      "Display": "320 × 240 px, 2.36 in, up to 16 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-megapixel with auto focus and flash",
+      "Front camera": "Front-facing video call camera"
+    },
+    "Battery": {
+      "Battery": "BP-4L 3.7 V 1,500 mAh lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 802.11 b,g, Integrated & Assisted GPS, Bluetooth 2.0, Infrared, microUSB, 2.5 mm Nokia AV connector"
+    }
+  },
+  "key": {
+    "display_in": 2.36,
+    "battery_mah": 1500,
+    "os": "Symbian OS v9.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 127
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E71",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E71"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E71\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E71",
+    "revid": 1383459915
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

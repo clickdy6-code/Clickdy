@@ -1,0 +1,101 @@
+{
+  "slug": "nothing-phone-4a-4a-pro",
+  "brand": "Nothing",
+  "name": "Phone 4a/4a Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Nothing_Phone_4a.jpg/500px-Nothing_Phone_4a.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Nothing_Phone_4a.jpg/250px-Nothing_Phone_4a.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nothing Phone 4a/4a Pro",
+      "credit": "Cloverstudio, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nothing_Phone_4a.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Phone",
+      "Predecessor": "Nothing Phone (3a) / (3a) Pro"
+    },
+    "Network": {
+      "SIM": "Dual-SIM (Nano-SIM) eSIM in Pro version"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Phone (4a): 164 mm × 77.6 mm × 8.6 mm , Phone (4a) Pro: 163.7 mm × 76.6 mm × 8 mm",
+      "Weight": "Phone (4a): 204.5 g , Phone (4a) Pro: 210 g"
+    },
+    "Platform": {
+      "Operating system": "Android 16 with Nothing OS 4.1 , (3 major Android upgrades and 6 years of security updates)",
+      "Chipset": "Phone (4a): Qualcomm SM7635-AC Snapdragon 7s Gen 4 , Phone (4a) Pro: Qualcomm SM7750-AB Snapdragon 7 Gen 4",
+      "CPU": "Octa-core, Phone (4a):, 1 × 2.7 GHz CortexA720, 3 × 2.4 GHz CortexA720, 4 × 1.8 GHz CortexA520, Phone (4a) Pro:, 1 × 2.8 GHz CortexA720, 4 × 2.4 GHz CortexA720, 3 × 1.8 GHz CortexA520",
+      "GPU": "Phone (4a): Adreno 810 (895 MHz) , Phone (4a) Pro: Adreno 722 (1150 MHz)"
+    },
+    "Memory": {
+      "RAM": "8 GB or 12 GB RAM LPDDR4X",
+      "Storage": "128 GB or 256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "Flexible AMOLED , HDR10+ , 800 nits (typical) , 1600 nits (HBM) , Phone (4a): , 6.78 in, 1224 × 2720, 120 Hz, 4500 nits (peak) , Phone (4a) Pro: , 6.83 in, 1260 × 2800, 144 Hz, 5000 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "Phone (4a): , 50 MP, f/1.9, 24 mm (wide), 1/1.57\", 1.0 µm, PDAF, OIS , Phone (4a) Pro: , 50 MP, f/1.9, 24 mm (wide), 1/1.56\", 1.0 µm, dual pixel PDAF, OIS , Both variants: , 50 MP, f/2.9, 80 mm (periscope telephoto), 1/2.7\", 0.64 µm, PDAF, OIS, 3.5x optical zoom , 8 MP, f/2.2, 15 mm, 120° (ultrawide), 1/4.0\", 1.12 µm",
+      "Front camera": "32 MP, f/2.2, 22 mm (wide), 1/3.42\", 0.64 µm"
+    },
+    "Battery": {
+      "Battery": "Li-ion , 5,080 mAh (international) , 5,400 mAh (India)",
+      "Charging": "50W fast charging, 7.5W reverse wired charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.4, Wi-Fi 6, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "AMOLED",
+    "refresh_hz": 144,
+    "peak_nits": 5000,
+    "chipset": "Phone",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 5080,
+    "wired_w": 50,
+    "os": "Android 16",
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 204.5,
+    "thickness_mm": 8.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nothing Phone 4a/4a Pro",
+      "url": "https://en.wikipedia.org/wiki/Nothing_Phone_4a/4a_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nothing Phone 4a/4a Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Nothing Phone 4a/4a Pro",
+    "revid": 1383526803
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

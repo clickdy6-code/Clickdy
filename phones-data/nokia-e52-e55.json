@@ -1,0 +1,69 @@
+{
+  "slug": "nokia-e52-e55",
+  "brand": "Nokia",
+  "name": "E52/E55",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Eseries",
+      "Predecessor": "Nokia E51",
+      "Successor": "Nokia E5-00"
+    },
+    "Network": {
+      "Technology": "Quad band (GSM / GPRS / EDGE):, GSM-850, GSM-900, GSM-1800 and GSM-1900, Dual band (UMTS / HSDPA):, UMTS-900 and UMTS-2100, UMTS-850 and UMTS-1900, UMTS-850 and UMTS-2100"
+    },
+    "Body": {
+      "Form factor": "Candybar phone",
+      "Dimensions": "116 × 49 × 9.9 millimeters",
+      "Weight": "98 g",
+      "Other": "Firmware Over-The-Air (FOTA) technology, Virtual Private Network"
+    },
+    "Platform": {
+      "Operating system": "S60 3rd Edition, Feature Pack 2 on Symbian OS 9.3",
+      "CPU": "ARM11; 600 MHz"
+    },
+    "Memory": {
+      "RAM": "60 MB (built-in)",
+      "Card slot": "MicroSDHC (up to 32 GB); Hot-swappable"
+    },
+    "Display": {
+      "Display": "240 × 320 pixels, 2.4 inches, 16.7 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Back-mounted; 3.2 megapixels (2048 × 1536 pixels) with fixed focus (Extended Depth of field) and flash. It supports VGA video recording up to 15fps",
+      "Front camera": "Front-mounted; 0.0768 megapixels (240 × 320 pixels)"
+    },
+    "Battery": {
+      "Battery": "BP-4L, 3.7V 1500 mAh lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "Wireless LAN (IEEE 802.11b/g), GPS, Assisted GPS, Bluetooth v2.0, microUSB, 3.5 mm Nokia AV connector"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "battery_mah": 1500,
+    "os": "Symbian OS 9.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 98
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E52/E55",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E52/E55"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E52/E55\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E52/E55",
+    "revid": 1374924695
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

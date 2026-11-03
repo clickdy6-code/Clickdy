@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-5700-xpressmusic",
+  "brand": "Nokia",
+  "name": "5700 XpressMusic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Nokia_5700_XpressMusic.jpg/500px-Nokia_5700_XpressMusic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Nokia_5700_XpressMusic.jpg/250px-Nokia_5700_XpressMusic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5700 XpressMusic",
+      "credit": "Original uploader was 阿貴 at zh.wikipedia, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5700_XpressMusic.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3250",
+      "Successor": "Nokia 5320 XpressMusic, Nokia 5800 XpressMusic"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / GSM 1800 / GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 x 50 x 17 mm, 84 cc",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.2 + S60 platform 3rd Edition, Feature Pack 1",
+      "CPU": "ARM11 @ 369 MHz CPU"
+    },
+    "Memory": {
+      "RAM": "64 MB SDRAM, 128 MB ROM, 38 MB user memory",
+      "Card slot": "microSD up to 32GB (TransFlash)"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels, 2.2 inches, TFT LCD, (16 Million Colours)"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels, 1600x1200 pixels, video (QVGA)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 900 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 with A2DP, Infrared, 2.0 mini-USB"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "battery_mah": 900,
+    "os": "Symbian OS 9.2 + S60 platform 3rd Edition",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5700 XpressMusic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5700_XpressMusic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5700 XpressMusic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5700 XpressMusic",
+    "revid": 1361477427
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

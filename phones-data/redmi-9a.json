@@ -1,0 +1,93 @@
+{
+  "slug": "redmi-9a",
+  "brand": "Redmi",
+  "name": "9A",
+  "status": "published",
+  "announced": "2020-07-07",
+  "released": "2020-07-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%BD%8C%E6%95%A6%E9%81%93_601_Nathan_Road_%E5%89%B5%E8%88%88%E5%BB%A3%E5%A0%B4_Chong_Hing_Square_shop_%E5%B0%8F%E7%B1%B3%E4%B9%8B%E5%AE%B6_%E6%97%97%E8%89%A6%E5%BA%97_XiaoMi_Store_December_2021_SS2_06.jpg/500px-HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%BD%8C%E6%95%A6%E9%81%93_601_Nathan_Road_%E5%89%B5%E8%88%88%E5%BB%A3%E5%A0%B4_Chong_Hing_Square_shop_%E5%B0%8F%E7%B1%B3%E4%B9%8B%E5%AE%B6_%E6%97%97%E8%89%A6%E5%BA%97_XiaoMi_Store_December_2021_SS2_06.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%BD%8C%E6%95%A6%E9%81%93_601_Nathan_Road_%E5%89%B5%E8%88%88%E5%BB%A3%E5%A0%B4_Chong_Hing_Square_shop_%E5%B0%8F%E7%B1%B3%E4%B9%8B%E5%AE%B6_%E6%97%97%E8%89%A6%E5%BA%97_XiaoMi_Store_December_2021_SS2_06.jpg/250px-HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%BD%8C%E6%95%A6%E9%81%93_601_Nathan_Road_%E5%89%B5%E8%88%88%E5%BB%A3%E5%A0%B4_Chong_Hing_Square_shop_%E5%B0%8F%E7%B1%B3%E4%B9%8B%E5%AE%B6_%E6%97%97%E8%89%A6%E5%BA%97_XiaoMi_Store_December_2021_SS2_06.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Redmi 9A",
+      "credit": "GAUGEAR MSIERPLLO, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%BD%8C%E6%95%A6%E9%81%93_601_Nathan_Road_%E5%89%B5%E8%88%88%E5%BB%A3%E5%A0%B4_Chong_Hing_Square_shop_%E5%B0%8F%E7%B1%B3%E4%B9%8B%E5%AE%B6_%E6%97%97%E8%89%A6%E5%BA%97_XiaoMi_Store_December_2021_SS2_06.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "9A: July 7, 2020, 9AT: September 9, 2020, 9A Sport: September 15, 2020, 9i/9i Sport: September 28, 2021",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 8A",
+      "Successor": "Redmi 10A"
+    },
+    "Network": {
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "164.9 x 77.1 x 9 mm",
+      "Weight": "194 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 10 + MIUI 12, Current:, 9A/Sport/9AT/9i/Sport: Android 10 + MIUI 12, 9A (China and Russia): Android 11 + MIUI 12.5",
+      "CPU": "8 cores (4×2.0 GHz Cortex-A53 + 4×1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320 (650 MHz)"
+    },
+    "Memory": {
+      "RAM": "9A: 2/3/4 GB, 9AT: 2GB, 9A Sport: 2/3 GB, 9i/9i Sport: 4 GB",
+      "Storage": "9A: 32/64/128 GB, 9AT/9A Sport: 32 GB, 9i/9i Sport: 64/128 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.53-inch IPS LCD, 720 x 1600 pixels resolution"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2, 28 mm ( wide ), 1.0 μm, PDAF with LED flash, HDR, Video: 1080p @30/60fps",
+      "Front camera": "5 MP, f/2.2 (wide angle), 1.12 μm HDR, Video: 1080p @30fps"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh (All smartphones)",
+      "Charging": "10W wired charging"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2,
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "weight_g": 194,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 9A",
+      "url": "https://en.wikipedia.org/wiki/Redmi_9A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 9A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 9A",
+    "revid": 1361479826
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

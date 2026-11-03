@@ -1,0 +1,93 @@
+{
+  "slug": "oneplus-10t",
+  "brand": "OnePlus",
+  "name": "10T",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "OnePlus",
+      "Predecessor": "OnePlus 8T"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163 mm H , 75.4 mm W , 8.8 mm D",
+      "Weight": "204 g"
+    },
+    "Platform": {
+      "Operating system": "Android 12 with OxygenOS 12",
+      "Chipset": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+      "CPU": "Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "8, 12 and 16 GB RAM",
+      "Storage": "128 and 256 GB UFS 3.1",
+      "Card slot": "Unsupported"
+    },
+    "Display": {
+      "Display": "6.7 in, 1080 x 2412 px resolution, 20:9 ratio (~394 ppi density), Fluid AMOLED, 1B colors, 120Hz refresh rate, HDR10+, Corning Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0 μm, PDAF, OIS, 8 MP, f/2.2, 120˚ (ultrawide), 1/4\", 1.12 μm, 2 MP, f/2.4, (macro), Dual LED flash, HDR, panorama, 4K@30/60fps, 1080p@30/60/240fps, gyro-EIS",
+      "Front camera": "16 MP, f/2.4, 24mm (wide), 1/3\", 1.0 μm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Li-Po 4800 mAh",
+      "Charging": "Fast charging 150W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, Bluetooth\t5.2, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 8+ Gen 1",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4800,
+    "wired_w": 150,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 204,
+    "thickness_mm": 8.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 10T",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_10T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 10T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 10T",
+    "revid": 1361478747
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

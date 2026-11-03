@@ -1,0 +1,82 @@
+{
+  "slug": "nokia-e65",
+  "brand": "Nokia",
+  "name": "E65",
+  "status": "published",
+  "announced": "2007-02-14",
+  "released": "2007-02-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Nokia_e65.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Nokia_e65.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia E65",
+      "credit": "The original uploader was Gyung at English Wikipedia., CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_e65.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2007-02-14",
+      "Predecessor": "Nokia 6270",
+      "Successor": "Nokia E66"
+    },
+    "Network": {
+      "Technology": "Quad-band EGSM, WCDMA (3G)"
+    },
+    "Body": {
+      "Form factor": "Slide",
+      "Dimensions": "105 × 49 × 15.5 mm"
+    },
+    "Platform": {
+      "Operating system": "S60 platform third edition on Symbian OS",
+      "CPU": "ARM 9, 222 MHz"
+    },
+    "Memory": {
+      "RAM": "microSD (TransFlash), up to 2 GB (hot-swappable), 256 MB card included, ~45 MB SDRAM - 20 MB free memory"
+    },
+    "Display": {
+      "Display": "Portrait 2,2\" QVGA 181 ppi 240 × 320 TFT screen 24 bits (16 million) colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, 1600 × 1200 pixels"
+    },
+    "Battery": {
+      "Battery": "BL-5F/BL-5FA 3.7 V 950 mAh Li-Po/Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS Class 32, 107 kbit/s, HSCSD Yes, EDGE Class 32, 296 kbit/s; DTM Class 11, 177 kbit/s, 3G, Wireless LAN Wi-Fi 802.11 b/g, Bluetooth (v. 1.2), Infrared port, USB (Pop-port)"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 950,
+    "os": "Symbian OS",
+    "five_g": false,
+    "nfc": false,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E65",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E65"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E65\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E65",
+    "revid": 1382797289
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

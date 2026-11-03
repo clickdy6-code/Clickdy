@@ -1,0 +1,91 @@
+{
+  "slug": "xiaomi-redmi-15",
+  "brand": "Xiaomi",
+  "name": "Redmi 15",
+  "status": "published",
+  "announced": "2025-08-01",
+  "released": "2025-08-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Redmi_15_front.jpg/500px-Redmi_15_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Redmi_15_front.jpg/250px-Redmi_15_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 15",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_15_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Redmi 15/5G: 2025-08-01 , Redmi Note 15R: 2025-08-23 , Poco M7/Plus: 2025-08-13",
+      "Series": "Redmi/Redmi Note/Poco M",
+      "Predecessor": "Redmi 13",
+      "Successor": "Redmi 17 , Poco M8"
+    },
+    "Network": {
+      "Technology": "Redmi 15/Poco M7: GSM / HSPA / LTE , Redmi 15 5G/Note 15R/Poco M7 Plus: GSM / HSPA / LTE / 5G",
+      "SIM": "Nano-SIM , Redmi 15/Redmi 15 5G/Poco M7: hybrid dual SIM , Redmi 15 5G (India)/Note 15R/Poco M7 Plus: dual SIM"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Original: Xiaomi HyperOS 2.2 based on Android 15 , Current: Xiaomi HyperOS 3.1 based on Android 16",
+      "Chipset": "Redmi 15/Poco M7: Qualcomm Snapdragon 685 , Redmi 15 5G/Poco M7 Plus: Qualcomm Snapdragon 6s Gen 3"
+    },
+    "Memory": {
+      "RAM": "Redmi 15/Poco M7: 6/8 GB , Redmi 15 5G/Poco M7 Plus: 4/6/8 GB , UFS 2.2",
+      "Storage": "Redmi 15/Poco M7: 6/8 GB , Redmi 15 5G/Poco M7 Plus: 4/6/8 GB",
+      "Card slot": "Redmi 15/Redmi 15 5G/Poco M7: microSD up to 2 TB , Redmi 15 5G (India)/Note 15R/Poco M7 Plus: none"
+    },
+    "Display": {
+      "Display": "6.9 in IPS LCD, 144 Hz, Full HD+"
+    },
+    "Cameras": {
+      "Rear camera": "Dual-Camera Setup, Primary: OmniVision PureCel®Plus‑S OV50D40; 50 Megapixel, MP (5P lens), 29mm (standard), FoV 75.6°, 1/2.88\", 0.612 Micrometre, µm, Phase detection autofocus, PDAF, Auxiliary lens, Camera features: LED flash, High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps",
+      "Front camera": "GalaxyCore GC08A8; 8 Megapixel, MP (4P lens), 26mm (wide), 1/4.0\", 1.12 Micrometre, µm, FF, Camera features: High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps"
+    },
+    "Battery": {
+      "Battery": "Si/C Li-ion 7000 mAh, non-removable",
+      "Charging": "Up to 100W wired, up to 12W reverse wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth, USB-C 2.0, GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.9,
+    "display_type": "IPS LCD",
+    "refresh_hz": 144,
+    "chipset": "Redmi 15/Poco M7: Qualcomm Snapdragon 685",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 7000,
+    "wired_w": 100,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 15",
+      "url": "https://en.wikipedia.org/wiki/Redmi_15"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 15\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 15",
+    "revid": 1377336547
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

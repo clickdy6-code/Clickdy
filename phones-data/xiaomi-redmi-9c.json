@@ -1,0 +1,85 @@
+{
+  "slug": "xiaomi-redmi-9c",
+  "brand": "Xiaomi",
+  "name": "Redmi 9C",
+  "status": "published",
+  "announced": "2020-08-12",
+  "released": "2020-08-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/HK_WTS_%E9%BB%83%E5%A4%A7%E4%BB%99_Wong_Tai_Sin_%E9%BE%8D%E7%BF%94%E9%81%93_Lung_Cheung_Road_%E9%BE%8D%E7%BF%94%E4%B8%AD%E5%BF%83%E5%95%86%E5%A0%B4_Temple_Mall_North_September_2021_SS2_24.jpg/500px-HK_WTS_%E9%BB%83%E5%A4%A7%E4%BB%99_Wong_Tai_Sin_%E9%BE%8D%E7%BF%94%E9%81%93_Lung_Cheung_Road_%E9%BE%8D%E7%BF%94%E4%B8%AD%E5%BF%83%E5%95%86%E5%A0%B4_Temple_Mall_North_September_2021_SS2_24.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/HK_WTS_%E9%BB%83%E5%A4%A7%E4%BB%99_Wong_Tai_Sin_%E9%BE%8D%E7%BF%94%E9%81%93_Lung_Cheung_Road_%E9%BE%8D%E7%BF%94%E4%B8%AD%E5%BF%83%E5%95%86%E5%A0%B4_Temple_Mall_North_September_2021_SS2_24.jpg/250px-HK_WTS_%E9%BB%83%E5%A4%A7%E4%BB%99_Wong_Tai_Sin_%E9%BE%8D%E7%BF%94%E9%81%93_Lung_Cheung_Road_%E9%BE%8D%E7%BF%94%E4%B8%AD%E5%BF%83%E5%95%86%E5%A0%B4_Temple_Mall_North_September_2021_SS2_24.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 9C",
+      "credit": "Fraxaer SI38F8, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HK_WTS_%E9%BB%83%E5%A4%A7%E4%BB%99_Wong_Tai_Sin_%E9%BE%8D%E7%BF%94%E9%81%93_Lung_Cheung_Road_%E9%BE%8D%E7%BF%94%E4%B8%AD%E5%BF%83%E5%95%86%E5%A0%B4_Temple_Mall_North_September_2021_SS2_24.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "9C: August 12, 2020, 9C NFC: August 27, 2020, POCO C3: October 6, 2020, 9 Activ: September 25, 2021, POCO C31: September 30, 2021",
+      "Predecessor": "Redmi 8A Pro , Redmi 8",
+      "Successor": "Redmi 10C , Redmi 10 (India) , Poco C40"
+    },
+    "Platform": {
+      "Operating system": "9C/9C NFC/9/Activ:, Initial: Android 10 + MIUI 12, Current: Android 11 + MIUI 12.5, POCO C3/C31:, Initial: Android 10 + MIUI 12 for POCO, Current:, POCO C3: Android 10 + MIUI 12 for POCO, POCO C3: Android 11 + MIUI 12.5 for POCO",
+      "Chipset": "MediaTek MT6765G Helio G35 (12 nm)",
+      "CPU": "8 cores (4×2.3 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320 (680 MHz)"
+    },
+    "Memory": {
+      "RAM": "9C/9C NFC: 2/3 GB, POCO C3/C31: 3/4 GB, 9: 4 GB, 9 Activ: 4/6 GB, LPDDR4X",
+      "Storage": "9C, 9C NFC, POCO C3 & C31: 32/64 GB, 9 & 9 Activ: 64/128 GB, eMMC 5.1"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.53\", 1600 × 720 (HD+), 20:9, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "9C/POCO C3/C31: 13 MP, f/2.2, 28 mm (wide), 1.0 μm, PDAF + 2 MP, f/2.4, (macro) + 2 MP, f/2.4 (depth sensor), 9/Activ/9C NFC: 13 MP, f/2.2 (wide), 1.0 μm, PDAF + 2 MP, f/2.4 (depth sensor), LED flash, HDR, Video: 1080p @30fps",
+      "Front camera": "5 MP, f/2.2 (wide), 1.12 μm HDR, Video: 1080p @30fps"
+    },
+    "Battery": {
+      "Battery": "Non-revomable Li-po 5,000 mAh",
+      "Charging": "10 W"
+    }
+  },
+  "key": {
+    "display_in": 6.53,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6765G Helio G35",
+    "ram_gb": [
+      3,
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 9C",
+      "url": "https://en.wikipedia.org/wiki/Redmi_9C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 9C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 9C",
+    "revid": 1357172515
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

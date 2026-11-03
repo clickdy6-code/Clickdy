@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-6600-fold",
+  "brand": "Nokia",
+  "name": "6600 fold",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nokia_6600_fold_pink_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nokia_6600_fold_pink_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 6600 fold",
+      "credit": "Miraceti, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6600_fold_pink_open.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "Discontinued in early 2011",
+      "Predecessor": "Nokia 6086"
+    },
+    "Network": {
+      "Technology": "UMTS 850/2100 GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "87.7 x 44.0 x 15.9 mm",
+      "Weight": "110 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "15 MB internal"
+    },
+    "Display": {
+      "Display": "2.13 inch QVGA LCD (16.7 million colors)"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels"
+    },
+    "Battery": {
+      "Battery": "BL-4CT 860 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, Micro-USB, EDGE class 32"
+    }
+  },
+  "key": {
+    "display_in": 2.13,
+    "display_type": "LCD",
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6600 fold",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6600_fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6600 fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6600 fold",
+    "revid": 1382177647
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

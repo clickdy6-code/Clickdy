@@ -1,0 +1,79 @@
+{
+  "slug": "foxconn-nokia-5310",
+  "brand": "Foxconn",
+  "name": "Nokia 5310",
+  "status": "published",
+  "announced": "2020-03-19",
+  "released": "2020-03-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nokia_5310_%282020%29_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nokia_5310_%282020%29_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Foxconn Nokia 5310",
+      "credit": "Nóng TV, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5310_(2020)_(1).jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-03-19",
+      "Series": "Nokia Originals",
+      "Predecessor": "Nokia 5310",
+      "Successor": "Nokia 5310 (2024)"
+    },
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Form factor": "Bar, candybar",
+      "Dimensions": "H: 123.7 mm, W: 52.4 mm, D: 13.1 mm",
+      "Weight": "88.2 g"
+    },
+    "Platform": {
+      "Chipset": "MediaTek MT6260A"
+    },
+    "Memory": {
+      "RAM": "8 MB",
+      "Storage": "16 MB",
+      "Card slot": "microSD, up to 32GB"
+    },
+    "Display": {
+      "Display": "2.4 in 240×320 QVGA TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "VGA with LED flash"
+    },
+    "Sound": {
+      "Sound": "Vibration, MIDI ringtones"
+    },
+    "Battery": {
+      "Battery": "1200 mAh Li-ion (removable) (BL-4UL), standby time:, up to 22 days (Dual SIM) or 30 days (Single SIM)"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "chipset": "MediaTek MT6260A",
+    "battery_mah": 1200,
+    "five_g": false,
+    "weight_g": 88.2,
+    "thickness_mm": 13.1,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5310 (2020)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5310_%282020%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5310 (2020)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5310 (2020)",
+    "revid": 1382040431
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

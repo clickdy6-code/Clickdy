@@ -1,0 +1,110 @@
+{
+  "slug": "samsung-galaxy-z-fold-7",
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold 7",
+  "status": "published",
+  "announced": "2025-07-25",
+  "released": "2025-07-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Samsung_Galaxy_Fold7_Main_Screen_%28cropped%29.jpg/500px-Samsung_Galaxy_Fold7_Main_Screen_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Samsung_Galaxy_Fold7_Main_Screen_%28cropped%29.jpg/250px-Samsung_Galaxy_Fold7_Main_Screen_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Z Fold 7",
+      "credit": "Megapro17, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Fold7_Main_Screen_(cropped).jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-07-25",
+      "Series": "Galaxy Z",
+      "Predecessor": "Samsung Galaxy Z Fold 6",
+      "Successor": "Samsung Galaxy Z Fold 8"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G / 5G",
+      "SIM": "Dual Nano-SIM + multiple eSIM (region dependent)"
+    },
+    "Body": {
+      "Form factor": "Foldable (book-style)",
+      "Dimensions": "Folded: 158.4 mm H, 72.8 mm W, 8.9 mm D, Unfolded: 158.4 mm H, 143.2 mm W, 4.2 mm D",
+      "Weight": "215 g (7.58 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 16 with One UI 8, Current: Android 17 with One UI 9",
+      "Chipset": "Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)",
+      "CPU": "Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)",
+      "GPU": "Adreno 830 (1200 MHz)"
+    },
+    "Memory": {
+      "RAM": "12GB, 16GB",
+      "Storage": "256GB, 512GB, 1TB"
+    },
+    "Display": {
+      "Display": "Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak), 8.0 inches, 204.2 cm2 (~90.0% screen-to-body ratio), 1968 x 2184 pixels, 1.11:1 aspect ratio, ~368 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "200 MP, f/1.7, 24 mm (wide), 1/1.3\", 0.6 μm, multi-directional PDAF, OIS, 10 MP, f/2.4, 67 mm (telephoto), 1.0 μm, PDAF, OIS, 3x optical zoom, 12 MP, f/2.2, 120° (ultrawide), 1.4 μm, dual pixel PDAF, LED flash, HDR, panorama, 8K@30fps, 4K@60fps, 1080p@60/120/240fps (gyro-EIS), 720p@960fps (gyro-EIS), 10-bit HDR, HDR10+",
+      "Front camera": "10 MP, f/2.2, 18 mm (ultrawide), 1.12 μm, Cover camera:, 10 MP, f/2.2, 24 mm (wide), 1.12 μm, HDR, 4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4,400 mAh dual battery",
+      "Charging": "25W wired (50% in 30 min), 15W wireless, 4.5W reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct, Bluetooth 5.4, A2DP, LE, aptX HD, GPS, GALILEO, GLONASS, BDS, QZSS, USB Type-C 3.2, OTG"
+    }
+  },
+  "key": {
+    "display_in": 8.0,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 2600,
+    "chipset": "Qualcomm SM8750-AC Snapdragon 8 Elite",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 200,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@30fps",
+    "front_mp": 10,
+    "battery_mah": 4400,
+    "wireless_w": 15,
+    "wired_w": 25,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 215,
+    "thickness_mm": 8.9,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Fold 7",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Fold 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Fold 7",
+    "revid": 1383616759
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

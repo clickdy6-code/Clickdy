@@ -1,0 +1,66 @@
+{
+  "slug": "samsung-omnia-lite",
+  "brand": "Samsung",
+  "name": "Omnia Lite",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung Omnia Series"
+    },
+    "Network": {
+      "Technology": "AGPS, HSDPA (3.5G), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "112 x 56.9 x 12.5 mm",
+      "Weight": "127 g"
+    },
+    "Platform": {
+      "Operating system": "Microsoft Windows Mobile 6.5 Professional",
+      "CPU": "SEC S3C6410 ARM11 800MHz"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM, 512 MB ROM",
+      "Card slot": "MicroSD (TransFlash)"
+    },
+    "Display": {
+      "Display": "WQVGA 240x400 px (rotatable), 3.0 in, TFT LCD, Touch Screen"
+    },
+    "Cameras": {
+      "Rear camera": "3 Megapixels (2048х1536) with AutoFocus, VGA(640x480)@15fps Video Recording, 2x digital zoom",
+      "Front camera": "3G Video Calling (Front)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion (1500 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0 with A2DP, Wi-Fi b/g"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "battery_mah": 1500,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 127
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Omnia Lite",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Omnia_Lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Omnia Lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Omnia Lite",
+    "revid": 1361483330
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

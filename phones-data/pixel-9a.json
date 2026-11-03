@@ -1,0 +1,88 @@
+{
+  "slug": "pixel-9a",
+  "brand": "Pixel",
+  "name": "9a",
+  "status": "published",
+  "announced": "2025-04-10",
+  "released": "2025-04-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Google_Pixel_9a_%28Peony%29_front.svg/500px-Google_Pixel_9a_%28Peony%29_front.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Google_Pixel_9a_%28Peony%29_front.svg/250px-Google_Pixel_9a_%28Peony%29_front.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Pixel 9a",
+      "credit": "DM115Wiki, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_9a_(Peony)_front.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-04-10",
+      "Discontinued": "2026-03-05",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 8a",
+      "Successor": "Pixel 10a"
+    },
+    "Network": {
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 154.7 mm, W: 73.3 mm, D: 8.9 mm",
+      "Weight": "185.9 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 15 , Current: Android 17",
+      "Chipset": "Google Tensor G4"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR5X",
+      "Storage": "128 or 256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "6.3 in 1080p FHD+ OLED, px resolution, 20:9 Display aspect ratio, aspect ratio (~422.2 ppi density), High-dynamic-range, HDR, 60-120 Hz refresh rate, Gorilla Glass, Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "48 Megapixel, MP, 1.7, 82° (wide), 1/2\", 0.8 μm, Quad-PD Dual Pixel CLAF, Optical Image Stabilization, OIS, 13 Megapixel, MP, 2.2, 120˚ (ultrawide), 1.12 μm, Electronic image stabilization, EIS, Pixel Shift, Auto-HDR, panorama, 4K@30/60fps, 1080p@30/60/120fps; gyro-EIS, OIS",
+      "Front camera": "13 Megapixel, MP, 2.2, 96.1° (ultrawide), 1.12 μm, Auto-HDR, panorama, 4K@30fps, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "5100 mAh",
+      "Charging": "Fast charging up to 23W, 7.5W Qi wireless charging"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Google Tensor G4",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 5100,
+    "wireless_w": 7.5,
+    "wired_w": 23,
+    "os": "Android 15",
+    "weight_g": 185.9,
+    "thickness_mm": 8.9,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 9a",
+      "url": "https://en.wikipedia.org/wiki/Pixel_9a"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 9a\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 9a",
+    "revid": 1369030911
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

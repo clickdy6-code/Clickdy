@@ -1,0 +1,68 @@
+{
+  "slug": "samsung-ativ-se",
+  "brand": "Samsung",
+  "name": "ATIV SE",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 2014",
+      "Series": "Samsung ATIV"
+    },
+    "Network": {
+      "Technology": "1700 MHz LTE (SGH-T899M); 2G GSM/GPRS/EDGE – 850, 900, 1,800, 1,900 MHz; HSPA – 700, 800, 1,700, 1,900, 2,100 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar (Candybar)",
+      "Dimensions": "138 x",
+      "Weight": "136 g",
+      "Other": "Wi-Fi hotspot, AllShare, damage-resistant Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8",
+      "CPU": "2.3 GHz quad-core Qualcomm Snapdragon 800",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB flash memory",
+      "Card slot": "microSD up to 128GB (supports SDXC)"
+    },
+    "Cameras": {
+      "Front camera": "2.0 megapixels"
+    },
+    "Battery": {
+      "Battery": "2,600 mAh, 7.98 Wh, 3.8 V, Internal rechargeable li-ion, User replaceable"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 2600,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "weight_g": 136,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung ATIV SE",
+      "url": "https://en.wikipedia.org/wiki/Samsung_ATIV_SE"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung ATIV SE\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung ATIV SE",
+    "revid": 1361480415
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

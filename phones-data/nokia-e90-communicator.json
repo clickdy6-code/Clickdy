@@ -1,0 +1,61 @@
+{
+  "slug": "nokia-e90-communicator",
+  "brand": "Nokia",
+  "name": "E90 Communicator",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Nokia-e90.png/500px-Nokia-e90.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Nokia-e90.png/250px-Nokia-e90.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia E90 Communicator",
+      "credit": "Nokia-e90.jpg: The original uploader was Shritwod at English Wikipedia.\nderivati, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia-e90.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 9500 Communicator",
+      "Successor": "Nokia N97/N97 Mini, Nokia E75, Nokia E7-00"
+    },
+    "Network": {
+      "Technology": "WCDMA 2100, HSDPA, GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Dimensions": "132 × 57 × 20 mm",
+      "Weight": "210 g"
+    },
+    "Memory": {
+      "RAM": "256 MB Internal NAND flash, 128 MB RAM (80–90 MB user accessible)"
+    },
+    "Display": {
+      "Display": "Main display: 800 × 352 pixels, 4-inch, with 16.7 million colours, Cover display: 240 × 320 pixels, 2 inch, with 16 million colours"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, USB 2.0 Compliant, Wi-Fi, IrDA"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 210
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E90 Communicator",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E90_Communicator"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E90 Communicator\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E90 Communicator",
+    "revid": 1361478255
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "nokia-701",
+  "brand": "Nokia",
+  "name": "701",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2011",
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia C7-00",
+      "Successor": "Nokia Lumia 710"
+    },
+    "Network": {
+      "Technology": "Quad band GSM 850/900/1800/1900, GPRS, EDGE , Pentaband UMTS (W-CDMA) 850/900/1700/1900/2100 , HSDPA 14.4 Mbps , HSUPA 5.76 Mbps"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "117.2 mm H , 56.8 mm W , 11 mm D",
+      "Weight": "131 g",
+      "Other": "Free lifetime voice-guided car and pedestrian navigation (Nokia Maps), Read PDF, Word, Excel, and PowerPoint documents with Quickoffice, UPnP/DLNA Server with Nokia Play to, Voice command/dial, Image Capture: Face Detection, Geo-tagging, OpenVG1.1 and OpenGL ES 2.0, Active Noise Cancellation, Digital Dolby sound experience after update to Belle FP1, ActiveSync, Qt 4.8.1, Java 2.5, Python"
+    },
+    "Platform": {
+      "Operating system": "Nokia Belle, upgradeable to Nokia Belle Feature Pack 2",
+      "CPU": "ARM11 1.3 GHz Samsung K5W2G1GACT – AP50 processor",
+      "GPU": "Broadcom BCM2763 at 250~300 MHz with 256 MB RAM"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "640 × 360 px (nHD), 3.5\" capacitive, multi-touch IPS-LCD with the Nokia ClearBlack technology and Corning Gorilla Glass, 1000 nits high brightness"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP (3264 x 2448 pixels), fixed focus, dual LED flash, Video: 16:9 720p, 30 FPS",
+      "Front camera": "VGA camera (640 x 480 pixels) 30 FPS for video recording, QCIF video (176 x 144 pixels), 15 FPS for video calling"
+    },
+    "Battery": {
+      "Battery": "1300 mAh Li-ion, removable (Nokia BL-5K)"
+    },
+    "Connectivity": {
+      "Connectivity": "Sensors:, Accelerometer, Magnetometer, Electronic compass, Proximity sensor, Other:, 3.5mm jack TRRS connector, Bluetooth 3.0, Wi-Fi 802.11 b/g/n, GPS with A-GPS, NFC, FM radio, Stereo, RDS. FM transmitter, USB 2.0 via MicroUSB, USB On-The-Go, TV-out via 3.5mm jack in SD quality (PAL/NTSC) output 720p HD"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "IPS",
+    "peak_nits": 1000,
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1300,
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 131,
+    "thickness_mm": 11,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 701",
+      "url": "https://en.wikipedia.org/wiki/Nokia_701"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 701\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 701",
+    "revid": 1382366190
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

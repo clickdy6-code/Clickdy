@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-5310",
+  "brand": "Nokia",
+  "name": "5310",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Nokia5310.png/500px-Nokia5310.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Nokia5310.png/250px-Nokia5310.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5310",
+      "credit": "Nokia_5310_front.jpg: Wogone\nderivative work: TheAdam0s (talk), Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia5310.png",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5200, Nokia 5300",
+      "Successor": "Nokia 5320 XpressMusic, Nokia 5130 XpressMusic, Nokia 5310 (2020) (revival), Nokia 5310 (2024) (revival)"
+    },
+    "Network": {
+      "Technology": "GSM 850 / GSM 900 / GSM 1800 / GSM 1900",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "103.8 x 44.7 x 9.9 mm",
+      "Weight": "71 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 40 5th Edition, Feature Pack 1",
+      "CPU": "ARM9 @ 230 MHz (for apps)"
+    },
+    "Memory": {
+      "RAM": "30 MB internal memory, 32 MB system RAM (2 MB of heap memory for apps)",
+      "Card slot": "microSDHC up to 32 GB"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels, 2.1-inch, TFT LCD, (16 million colours)"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 840 mAh (BL-4CT)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth Class 2 version 2.0 with A2DP, 2.0 micro-USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 840,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 71
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5310",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5310"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5310\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5310",
+    "revid": 1377659925
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

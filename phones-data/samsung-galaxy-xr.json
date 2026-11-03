@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-galaxy-xr",
+  "brand": "Samsung",
+  "name": "Galaxy XR",
+  "status": "published",
+  "announced": "2025-10-21",
+  "released": "2025-10-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Samsung-Mobile-XR-Project-Moohan-Android-XR-platform-Google_main1.jpg/500px-Samsung-Mobile-XR-Project-Moohan-Android-XR-platform-Google_main1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Samsung-Mobile-XR-Project-Moohan-Android-XR-platform-Google_main1.jpg/250px-Samsung-Mobile-XR-Project-Moohan-Android-XR-platform-Google_main1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy XR",
+      "credit": "SsSeanChoi, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung-Mobile-XR-Project-Moohan-Android-XR-platform-Google_main1.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-10-21",
+      "Series": "Samsung Galaxy",
+      "Predecessor": "Samsung Gear VR"
+    },
+    "Body": {
+      "Form factor": "Standalone mixed reality headset",
+      "Weight": "545 g + 302 g battery pack",
+      "Other": "Controllers:, Galaxy XR Controllers (sold separately), Price:, US$1,799"
+    },
+    "Platform": {
+      "Operating system": "Android XR",
+      "Chipset": "Qualcomm Snapdragon XR2+ Gen 2"
+    },
+    "Memory": {
+      "RAM": "16 GB",
+      "Storage": "256 GB"
+    },
+    "Display": {
+      "Display": "2x 3552 x 3840 Micro-OLED displays (27 megapixels total), up to 90 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Two 6.5 MP passthrough cameras, six outer tracking cameras, four inner eye-tracking cameras"
+    },
+    "Sound": {
+      "Sound": "Two 2-way speakers, six-microphone array"
+    },
+    "Battery": {
+      "Battery": "302g external battery pack"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 (802.11be), Bluetooth 5.4"
+    }
+  },
+  "key": {
+    "display_type": "OLED",
+    "refresh_hz": 90,
+    "chipset": "Qualcomm Snapdragon XR2+ Gen 2",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 6.5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "nfc": false,
+    "wifi": "Wi-Fi 7",
+    "weight_g": 545,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy XR",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_XR"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy XR\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy XR",
+    "revid": 1361483086
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

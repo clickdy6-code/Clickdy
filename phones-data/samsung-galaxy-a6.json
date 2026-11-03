@@ -1,0 +1,93 @@
+{
+  "slug": "samsung-galaxy-a6",
+  "brand": "Samsung",
+  "name": "Galaxy A6",
+  "status": "published",
+  "announced": "2018-05-02",
+  "released": "2018-05-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Galaxy_A6-2_%28cropped%29.png/500px-Galaxy_A6-2_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Galaxy_A6-2_%28cropped%29.png/250px-Galaxy_A6-2_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A6",
+      "credit": "mgsmpl, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_A6-2_(cropped).png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-05-02",
+      "Series": "Galaxy A series",
+      "Predecessor": "Samsung Galaxy A5 (2017) , Samsung Galaxy A3 (2017)",
+      "Successor": "Samsung Galaxy A6s, Samsung Galaxy A20, Samsung Galaxy A30"
+    },
+    "Network": {
+      "Technology": "2G, 3G (UMTS/HSPA), 4G (LTE Cat 6)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "A6: 149.9 x 70.8 x 7.7 mm (5.90 x 2.79 x 0.30 inches) , A6+: 160.2 x 75.7 x 7.9 (6.31 x 2.98 x 0.31 inches)",
+      "Weight": "A6: 159 g (5.61 oz) , A6+: 186 g (6.56 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.0 \"Oreo\" with Samsung Experience 9.5 , Latest: Android 10 with One UI 2",
+      "Chipset": "A6: Exynos 7870 Octa, A6 (US): Exynos 7884 , A6+: Qualcomm Snapdragon 450",
+      "CPU": "A6: Octa-core 1.6 GHz Cortex-A53 , A6 (US): Octa-core 2x 1.6 GHz Cortex-A73, 6x 1.35 GHz Cortex-A53, A6+: Octa-core 1.8 GHz Cortex-A53",
+      "GPU": "A6: Mali-T830 MP1 , A6 (US): Mali-G71 MP2 , A6+: Adreno 506"
+    },
+    "Memory": {
+      "RAM": "3GB / 4GB RAM",
+      "Storage": "32GB / 64GB",
+      "Card slot": "microSD, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "A6: 5.6 inches Super AMOLED Infinity Display , A6+: 6.0 inches Super AMOLED Infinity Display"
+    },
+    "Cameras": {
+      "Rear camera": "A6: 16 MP (f/1.7) , A6+: 16 MP (f./1.7) + 5 MP (f/1.9) , Features: LED Flash, Panorama, HDR",
+      "Front camera": "A6: 16 MP (f/1.9) , A6+: 24 MP (f/1.9) , Features: LED Flash"
+    },
+    "Battery": {
+      "Battery": "A6: Li-Ion 3,000 mAh battery , A6+: Li-Ion 3,500 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 5.6,
+    "display_type": "Super AMOLED",
+    "chipset": "A6: Exynos 7870 Octa",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 3000,
+    "os": "Android 8.0",
+    "five_g": false,
+    "weight_g": 159,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A6",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy A6",
+    "revid": 1382736663
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

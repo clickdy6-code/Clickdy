@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-5730-xpressmusic",
+  "brand": "Nokia",
+  "name": "5730 XpressMusic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Georgy_Nokia_5730_Homepage.JPG/500px-Georgy_Nokia_5730_Homepage.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Georgy_Nokia_5730_Homepage.JPG/250px-Georgy_Nokia_5730_Homepage.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5730 XpressMusic",
+      "credit": "Georgy90 Georgy created that, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Georgy_Nokia_5730_Homepage.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5320, Nokia 5610 XpressMusic",
+      "Successor": "Nokia X6-00"
+    },
+    "Network": {
+      "Technology": "GSM, EGPRS, WCDMA, HSDPA, A-GPS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "112 × 51 × 15.4 mm",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "S60 3rd Edition Feature Pack 2",
+      "CPU": "ARM11 369 MHz Freescale MXC300-30 processor"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM",
+      "Card slot": "microSD, up to 16 GB (8 GB included)"
+    },
+    "Display": {
+      "Display": "2.4 inch TFT QVGA (320 × 240 pixels), 16.7 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels, Carl Zeiss AG optics with autofocus and LED flash",
+      "Front camera": "Front camera for video calls"
+    },
+    "Battery": {
+      "Battery": "BL-4U (3.7 V, 1000 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (EDR/A2DP), Wi-Fi (802.11 b/g), MicroUSB 2.0, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5730 XpressMusic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5730_XpressMusic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5730 XpressMusic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5730 XpressMusic",
+    "revid": 1361477435
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "palm-centro",
+  "brand": "Palm",
+  "name": "Centro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Palmcentroredwikipedia.jpg/500px-Palmcentroredwikipedia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Palmcentroredwikipedia.jpg/250px-Palmcentroredwikipedia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Palm Centro",
+      "credit": "Doomed at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Palmcentroredwikipedia.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA2000 (3G), GSM"
+    },
+    "Body": {
+      "Dimensions": "4.22 × 2.11 × 0.73 in, (107 × 54 × 18.5 mm)",
+      "Weight": "4.2 oz (119 g)"
+    },
+    "Platform": {
+      "Operating system": "Palm OS 5.4.9",
+      "CPU": "312 MHz Intel XScale PXA270"
+    },
+    "Memory": {
+      "RAM": "64 MB available user storage, 128 MB available user storage (Revision II)",
+      "Card slot": "microSD up to 4 GB (up to 16 GB with modification)"
+    },
+    "Display": {
+      "Display": "320×320 65k colors touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixels with 2× digital zoom"
+    },
+    "Battery": {
+      "Battery": "1150 mAh Lithium-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "EVDO, 1xRTT, Bluetooth, Infrared, USB"
+    }
+  },
+  "key": {
+    "battery_mah": 1150,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 119
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Palm Centro",
+      "url": "https://en.wikipedia.org/wiki/Palm_Centro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Palm Centro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Palm Centro",
+    "revid": 1369651301
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

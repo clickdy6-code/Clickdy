@@ -1,0 +1,78 @@
+{
+  "slug": "samsung-sgh-a777",
+  "brand": "Samsung",
+  "name": "SGH-A777",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Samsung_SGH-A777_Blue.jpg/500px-Samsung_SGH-A777_Blue.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Samsung_SGH-A777_Blue.jpg/250px-Samsung_SGH-A777_Blue.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SGH-A777",
+      "credit": "CCadio, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_SGH-A777_Blue.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-11",
+      "Predecessor": "Samsung SGH-A737"
+    },
+    "Network": {
+      "Technology": "GSM (850/900/1800/1900 MHz), HSDPA (850/1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "102 mm H, 48 mm W, 14 mm D",
+      "Weight": "96 g"
+    },
+    "Memory": {
+      "RAM": "50 MB internal",
+      "Storage": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "2.3 in (58 mm) TFT LCD, 256K colors , Resolution: 176 x 220 pixels (~122 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 MP",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 880 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (A2DP), proprietary USB"
+    }
+  },
+  "key": {
+    "display_in": 2.3,
+    "display_type": "TFT",
+    "main_mp": 1.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 880,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 96,
+    "thickness_mm": 14,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-A777",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-A777"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-A777\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-A777",
+    "revid": 1378374272
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "nokia-lumia-625",
+  "brand": "Nokia",
+  "name": "Lumia 625",
+  "status": "published",
+  "announced": "2013-07-23",
+  "released": "2013-07-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Nokia_Lumia_625.jpg/500px-Nokia_Lumia_625.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Nokia_Lumia_625.jpg/250px-Nokia_Lumia_625.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Lumia 625",
+      "credit": "Petar Milošević, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_625.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 23, 2013",
+      "Discontinued": "April 2015",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 620",
+      "Successor": "Nokia Lumia 630/635"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE , HSPA+ , LTE , Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Touchscreen Slate",
+      "Dimensions": "133.25 mm H , 72.25 mm W , 9.15 mm D",
+      "Weight": "159 g",
+      "Other": "Talk time:, 2G: 23.9 hours, 3G: 15.2 hours , Standby:, 552 hours (23 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8930",
+      "CPU": "1.2 GHz dual-core Krait 200",
+      "GPU": "Qualcomm Adreno 305"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "8 GB internal flash"
+    },
+    "Display": {
+      "Display": "4.7\" IPS LCD with Gorilla Glass 3, 800x480 px at 201 ppi, 15:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, 1080p Full HD video capture at 30 fps, autofocus, Touch to focus, image stabilization, Exposure compensation, Digital zoom, Geotagging, LED flash",
+      "Front camera": "0.3 MP, VGA video capture"
+    },
+    "Battery": {
+      "Battery": "BP-4GWA 2000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon S4 MSM8930",
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 0.3,
+    "battery_mah": 2000,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "weight_g": 159,
+    "thickness_mm": 9.15,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 625",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_625"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 625\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 625",
+    "revid": 1374882639
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

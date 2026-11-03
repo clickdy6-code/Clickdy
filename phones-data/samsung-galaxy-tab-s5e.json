@@ -1,0 +1,91 @@
+{
+  "slug": "samsung-galaxy-tab-s5e",
+  "brand": "Samsung",
+  "name": "Galaxy Tab S5e",
+  "status": "published",
+  "announced": "2019-02-20",
+  "released": "2019-02-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-02-20",
+      "Series": "Galaxy Tab S",
+      "Successor": "Samsung Galaxy Tab S6 Lite"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "245 mm H, 160 mm W, 5.5 mm D",
+      "Weight": "400 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 \"Pie\" with One UI 1.1, Current: Android 11 with One UI 3.1",
+      "Chipset": "Qualcomm Snapdragon 670 (10 nm)",
+      "CPU": "Octa-core (2x2.0 GHz 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+      "GPU": "Adreno 615"
+    },
+    "Memory": {
+      "RAM": "4 or 6 GB RAM",
+      "Storage": "64 or 128 GB eMMC 5.1",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "10.5 in, px resolution, 16:10 ratio (~288 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.0, 26mm, 1/3.4\", 1.0μm, AF, HDR, panorama, 4K@30fps",
+      "Front camera": "8 MP, f/2.0, 26mm, 1/4\", 1.12μm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers (4 speakers), Tuned by AKG/HARMAN"
+    },
+    "Battery": {
+      "Battery": "Li-Po 7040 mAh",
+      "Charging": "18W Fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm Snapdragon 670",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 7040,
+    "wired_w": 18,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 400,
+    "thickness_mm": 5.5,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab S5e",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S5e"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab S5e\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab S5e",
+    "revid": 1377590185
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

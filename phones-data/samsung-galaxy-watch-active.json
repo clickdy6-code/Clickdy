@@ -1,0 +1,66 @@
+{
+  "slug": "samsung-galaxy-watch-active",
+  "brand": "Samsung",
+  "name": "Galaxy Watch Active",
+  "status": "published",
+  "announced": "2019-03-08",
+  "released": "2019-03-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Samsung_Galaxy_Watch_Active_%28cropped%29.jpg/500px-Samsung_Galaxy_Watch_Active_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Samsung_Galaxy_Watch_Active_%28cropped%29.jpg/250px-Samsung_Galaxy_Watch_Active_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Watch Active",
+      "credit": "嘉傑, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Watch_Active_(cropped).jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-03-08",
+      "Series": "Galaxy Watch",
+      "Predecessor": "Samsung Gear S3 Frontier, Samsung Gear Sport",
+      "Successor": "Samsung Galaxy Watch Active 2"
+    },
+    "Network": {
+      "Technology": "2G, 3G"
+    },
+    "Body": {
+      "Form factor": "Smartwatch",
+      "Dimensions": "39.5 × 39.5 × 10.5 mm (1.56 × 1.56 × 0.41 in)",
+      "Weight": "25 g (0.88 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Tizen 4.0.0.3 with One UI Watch 1.0, Current: Tizen 5.5.0.2 with One UI Watch 2.0"
+    },
+    "Battery": {
+      "Battery": "230 mAh (up to 3 days)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.2, Wi-Fi 4 b/g/n, NFC, A-GPS, GLONASS, Beidou, Galileo"
+    }
+  },
+  "key": {
+    "battery_mah": 230,
+    "five_g": false,
+    "nfc": true,
+    "wifi": "Wi-Fi 4",
+    "weight_g": 25,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Watch Active",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Watch_Active"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Watch Active\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Watch Active",
+    "revid": 1380484724
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

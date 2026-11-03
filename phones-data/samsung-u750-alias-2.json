@@ -1,0 +1,69 @@
+{
+  "slug": "samsung-u750-alias-2",
+  "brand": "Samsung",
+  "name": "U750 Alias 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Alias2-closed.jpg/500px-Alias2-closed.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Alias2-closed.jpg/250px-Alias2-closed.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung U750 Alias 2",
+      "credit": "Evan-Amos, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alias2-closed.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Samsung U740 Alias"
+    },
+    "Network": {
+      "Technology": "CDMA 800/1900 MHz, 1xEVDO"
+    },
+    "Body": {
+      "Form factor": "Dual-hinge Clamshell",
+      "Dimensions": "(HXWXD) : 2.04” x 4.01” x .67”",
+      "Weight": "3.6 oz (102 g)"
+    },
+    "Memory": {
+      "RAM": "100 MB",
+      "Card slot": "MicroSD (supports up to 16 GB card)"
+    },
+    "Display": {
+      "Display": "240 x 320 px LCD; 262k colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel"
+    },
+    "Battery": {
+      "Battery": "880 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth / USB cable"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 880,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 102
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung U750 Alias 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_U750_Alias_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung U750 Alias 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung U750 Alias 2",
+    "revid": 1361483688
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

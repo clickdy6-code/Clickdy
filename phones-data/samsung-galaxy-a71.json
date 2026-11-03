@@ -1,0 +1,103 @@
+{
+  "slug": "samsung-galaxy-a71",
+  "brand": "Samsung",
+  "name": "Galaxy A71",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/GalaxyA71.png/500px-GalaxyA71.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/GalaxyA71.png/250px-GalaxyA71.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A71",
+      "credit": "Marcusph, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GalaxyA71.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "4G: 2019-12, 5G: 2020-04, 5G UW: 2020-07",
+      "Series": "Galaxy A",
+      "Predecessor": "Samsung Galaxy A70, Samsung Galaxy A90 5G",
+      "Successor": "Samsung Galaxy A72, Samsung Galaxy A82 5G (Quantum2 5G), Samsung Galaxy S20 FE"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G"
+    },
+    "Body": {
+      "Form factor": "bar",
+      "Dimensions": "4G:, 163.6 mm H, 76 mm W, 7.7 mm D, 5G:, 162.5 mm H, 75.5 mm W, 8.1 mm D",
+      "Weight": "4G: 179 g, 5G: 185 g",
+      "Other": "Optical fingerprint sensor (in display), accelerometer, gyro, proximity, compass"
+    },
+    "Platform": {
+      "Operating system": "Original:, LTE: Android 10 with One UI 2.0, 5G: Android 10 with One UI 2.1, Current:, All: Android 13 with One UI 5.1",
+      "Chipset": "4G: Qualcomm Snapdragon 730, 5G Global: Exynos 980, 5G USA: Qualcomm Snapdragon 765G",
+      "CPU": "Octa-core, 4G: 2x2.2 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver, 5G: 2x2.2 GHz Cortex-A77 & 6x1.8 GHz Cortex-A55, 5G UW: 1x2.4 GHz Kryo 475 Prime & 1x2.2 GHz Kryo 475 Gold & 6x1.8 GHz Kryo 475 Silver",
+      "GPU": "4G: Adreno 618, 5G Global: Mali-G76 MP5, 5G USA: Adreno 620"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB RAM",
+      "Storage": "128 GB",
+      "Card slot": "microSDXC, 4G: Expandable up to 512 GB, 5G: Expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.7 in, Infinity-O Display, Super AMOLED Plus FHD+ 1080 x 2400 pixels, 20:9 ratio (~405 ppi density), Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "Primary: Samsung ISOCELL Bright (S5K)GW1; 64 MP, f/1.8, 26mm, 1/1.72\", 0.8μm, PDAF, Ultrawide: Hynix Hi-1336; 12 MP, f/2.2, 13mm, 123°, 1/3.0\", 1.12μm, Macro: GalaxyCore GC5035; 5 MP, f/2.4, 1/5.0\", 1.12μm, Depth: GalaxyCore GC5035; 5 MP, f/2.2, 1/5.0\", 1.12μm, LED flash, panorama, HDR, 4K@30fps, 1080p@30/240fps, 1080p@960fps; gyro-EIS",
+      "Front camera": "Sony IMX 616; 32 MP, f/2.2, 26mm (wide), 1/2.74\", 0.8μm, HDR, 4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm auxiliary"
+    },
+    "Battery": {
+      "Battery": "Lithium polymer (non-removable), 4500 mAh",
+      "Charging": "25W Super Fast Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Wi-Fi hotspot, Bluetooth 5.0"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Super AMOLED",
+    "chipset": "4G: Qualcomm Snapdragon 730",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4500,
+    "wired_w": 25,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 179,
+    "thickness_mm": 7.7,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A71",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A71"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A71\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A71",
+    "revid": 1380481553
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

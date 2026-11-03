@@ -1,0 +1,107 @@
+{
+  "slug": "xiaomi-redmi-12",
+  "brand": "Xiaomi",
+  "name": "Redmi 12",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Redmi_12_front.jpg/500px-Redmi_12_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Redmi_12_front.jpg/250px-Redmi_12_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 12",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_12_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Redmi",
+      "Predecessor": "Redmi 10 , Redmi 10 5G , Poco M4 Pro 5G",
+      "Successor": "Redmi 13 , Redmi 13R , Poco M7 Pro 5G"
+    },
+    "Network": {
+      "Technology": "12: 2G / 3G / 4G LTE, 12 5G/Note 12R/Poco M6 Pro 5G: 2G / 3G / 4G LTE / 5G",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "168.6 mm H , 76.3 mm W , 8.2 mm D",
+      "Weight": "12: 198.5 g, 12 5G/12R/Note 12R/Poco M6 Pro 5G: 199 g"
+    },
+    "Platform": {
+      "Operating system": "Initial:12/5G/12R/Note 12R: Android 13 with MIUI 14, Poco M6 Pro 5G: Android 13 with MIUI 14 for PocoCurrent: Android 15 with Xiaomi HyperOS 2",
+      "Chipset": "12: MediaTek Helio G88 (12nm), 12 5G/12R/Note 12R/Poco M6 Pro 5G: Qualcomm Qualcomm Snapdragon, Snapdragon 4 Gen 2 (4nm)",
+      "CPU": "12: Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55), 12 5G/12R/Note 12R/Poco M6 Pro 5G: Octa-core (2x2.2 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "12: Mali-G52 MC2, 12 5G/12R/Note 12R/Poco M6 Pro 5G: Adreno 613"
+    },
+    "Memory": {
+      "RAM": "12/5G/Note 12R: 4, 6 and 8 GB RAM, 12R: 4 GB RAM, Poco M6 Pro 5G: 4 and 6 GB RAM, LPDDR4X",
+      "Storage": "12: 128 and 256 GB eMMC 5.1, 12 5G/Note 12R: 128 and 256 GB UFS 2.2, 12R: 128 GB UFS 2.2, Poco M6 Pro 5G: 64 and 128 GB UFS 2.2",
+      "Card slot": "microSDXC (up to 1 TB)"
+    },
+    "Display": {
+      "Display": "6.79 in, 1080 x 2460 px resolution (~396 ppi density), IPS LCD, 90Hz, 550 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "12:, 50 MP, f/1.8 (wide), PDAF, 8 MP, f/2.2 120˚ (ultrawide), 2 MP, f/2.4 (depth), 12 5G/12R/Note 12R/Poco M6 Pro 5G:, 50 MP, f/1.8 (wide), PDAF, 2 MP, f/2.4 (depth), LED flash, HDR, 1080p@30fps",
+      "Front camera": "12:, 8 MP, f/2.1 (wide), 12 5G (India)/Poco M6 Pro 5G:, 8 MP, f/2.0 (wide), 12 5G/12R/Note 12R:, 5 MP, f/2.2 (wide), 1/5\", 1.12µm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Speaker"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 5000 mAh",
+      "Charging": "Fast charging 18W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Bluetooth 5.3, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.79,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "peak_nits": 550,
+    "chipset": "12: MediaTek Helio G88",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 198.5,
+    "thickness_mm": 8.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 12",
+      "url": "https://en.wikipedia.org/wiki/Redmi_12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 12",
+    "revid": 1361479745
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

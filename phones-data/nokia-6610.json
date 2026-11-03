@@ -1,0 +1,67 @@
+{
+  "slug": "nokia-6610",
+  "brand": "Nokia",
+  "name": "6610",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Nokia6610i.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Nokia6610i.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 6610",
+      "credit": "Nokia_6610i.jpg: Ed g2s\nderivative work: TheAdam0s (talk), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia6610i.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3610 (6610), Nokia 3560 (6560), Nokia 3585 (6585), Nokia 6590 (6610), Nokia 6590i (6610i)",
+      "Successor": "Nokia 6220 (6560), Nokia 6225 (6585), Nokia 6230 (6610), Nokia 6230i (6610i)"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 (6610/6610i), TDMA 850/1900 AMPS 850 (6560), CDMA 850/1900 AMPS 850 (6585)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "106 x 45 x 17.5 mm, 83 cc (4.17 x 1.77 x 0.69 in)",
+      "Weight": "83 g (2.93 oz)"
+    },
+    "Platform": {
+      "Operating system": "Series 40 1st Edition"
+    },
+    "Memory": {
+      "RAM": "725kb (6610), 4MB (6610i)"
+    },
+    "Display": {
+      "Display": "Passive matrix (CSTN), 4,096-colour display (128 x 128 pixels), 1.5 inches (~121 ppi pixel density)"
+    },
+    "Battery": {
+      "Battery": "BLD-3"
+    },
+    "Connectivity": {
+      "Connectivity": "Pop-Port"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 83
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6610",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6610"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6610\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6610",
+    "revid": 1361477665
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

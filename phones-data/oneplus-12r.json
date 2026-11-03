@@ -1,0 +1,88 @@
+{
+  "slug": "oneplus-12r",
+  "brand": "OnePlus",
+  "name": "12R",
+  "status": "published",
+  "announced": "2024-02-06",
+  "released": "2024-02-06",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/OnePlus_Ace_3_Black.jpg/500px-OnePlus_Ace_3_Black.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/OnePlus_Ace_3_Black.jpg/250px-OnePlus_Ace_3_Black.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 12R",
+      "credit": "X-SHLIED, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_Ace_3_Black.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-02-06",
+      "Series": "Digital series/Ace",
+      "Predecessor": "OnePlus 11R"
+    },
+    "Network": {
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Weight": "207 g"
+    },
+    "Platform": {
+      "Operating system": "12R:Original: Android 14, OxygenOS 14, Current: Android 15, OxygenOS 15Ace 3:Original: Android 14, ColorOS 14, Current: Android 15, ColorOS 15",
+      "CPU": "Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "GPU": "Adreno 740"
+    },
+    "Memory": {
+      "RAM": "12R: 8 GB, 12 GB and 16 GB , Ace 3: 12 GB and 16 GB",
+      "Storage": "12R: 128 GB and 256 GB , Ace 3: 256 GB, 512 GB and 1 TB"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Sony IMX 890; 50 MP, 24mm, 1/1.56\", 1.0μm, multi-directional PDAF, OIS, Ultrawide: Sony IMX 355; 8 MP, 16mm, FoV 112˚, 1/4.0\", 1.12μm, fixed focus, Macro: OmniVision OV02B; 2 MP, 22mm, 1/5.0\", 1.75μm, fixed focus, Features: Laser AF, color spectrum sensor, LED flash, HDR, panorama, Video: 4K@30/60fps, 1080p@30/60/120/240fps, gyro-EIS, OIS",
+      "Front camera": "Samsung ISOCELL S5K3P9; 16 MP, 24mm (wide), 1/3.0\", 1.0μm, Features: HDR, panorama, Video: 1080p@30fps, gyro-EIS"
+    },
+    "Battery": {
+      "Battery": "5500 mAh, non-removable",
+      "Charging": "100W wired"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 5500,
+    "wired_w": 100,
+    "os": "Android 14",
+    "weight_g": 207,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 12R",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_12R"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 12R\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 12R",
+    "revid": 1382785503
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

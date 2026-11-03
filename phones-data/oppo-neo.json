@@ -1,0 +1,83 @@
+{
+  "slug": "oppo-neo",
+  "brand": "Oppo",
+  "name": "Neo",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Oppo Neo Series"
+    },
+    "Network": {
+      "Technology": "2G bands: GSM 850 / 900 / 1800 / 1900, 3G bands: HSDPA 2100, HSPA"
+    },
+    "Body": {
+      "Dimensions": "132x65.8x9.2 mm, 5.20x2.59x0.36 in",
+      "Weight": "130 g (4.59 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2.1",
+      "Chipset": "MediaTek MT6572",
+      "CPU": "2x1.3GHz ARM Cortex-A7",
+      "GPU": "ARM Mali-400 MP1, 1 core, 500MHz"
+    },
+    "Memory": {
+      "RAM": "512MB LPDDR2, 266MHz",
+      "Storage": "4GB",
+      "Card slot": "microSDHC"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD, Size: 4.5 inches, 57.6 cm^2, Resolution: 480x800, 207 ppi, Ratios: 5:3 aspect ratio, 66.4% StB ratio"
+    },
+    "Cameras": {
+      "Rear camera": "2592x1944 (5.04MP), Video: 720p at 30fps",
+      "Front camera": "1600x1200 (1.92MP), Video: 800x480 at 30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker: Yes, 3.5mm jack: Yes"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion, 1900mAh",
+      "Charging": "microUSB 2.0"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot, Bluetooth 2.1, A2DP, A-GPS, FM radio, microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6572",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5.04,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 1.92,
+    "battery_mah": 1900,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 130
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Neo",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Neo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Neo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Neo",
+    "revid": 1339987432
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

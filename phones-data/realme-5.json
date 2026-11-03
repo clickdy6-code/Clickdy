@@ -1,0 +1,92 @@
+{
+  "slug": "realme-5",
+  "brand": "Realme",
+  "name": "5",
+  "status": "published",
+  "announced": "2019-08-20",
+  "released": "2019-08-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Realme_5_phone_image.jpg/500px-Realme_5_phone_image.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Realme_5_phone_image.jpg/250px-Realme_5_phone_image.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Realme 5",
+      "credit": "Paowee, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Realme_5_phone_image.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-08-20"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 164.4 mm, W: 75.6 mm, D: 9.3 mm",
+      "Weight": "198 g"
+    },
+    "Platform": {
+      "Operating system": "Original: ColorOS 6.0 (based on Android Pie), Current: realme UI 1.0, based on Android 10, Unofficial: Android 11 up to Android 15, multiple custom ROM distributions are available",
+      "Chipset": "Qualcomm Snapdragon 665 AIE",
+      "CPU": "Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "Storage": "3GB + 32GB or 3GB + 64GB or 4GB + 64GB or 4GB + 128GB",
+      "Card slot": "Up to 256 GB external storage"
+    },
+    "Display": {
+      "Display": "6.5 in (720 ×1600 pixels or 720p) IPS LCD multi-Touch display"
+    },
+    "Cameras": {
+      "Rear camera": "Primary: Sony IMX 386; 12 MP (5P lens), f/1.8, 28mm, 1/2.86\", 1.25µm, PDAF, Ultrawide: Hynix Hi-846; 8 MP, f/2.25, 13mm, 119˚, 1/4.0\", 1.12µm, Macro: OmniVision OV02A1B; 2 MP, f/2.4, 1/5.0\", 1.75µm, Depth: (Portrait camera) GalaxyCore GC2375; 2 MP, f/2.4, 1/5.0\", 1.75µm, LED flash, HDR, panorama, 4K@30fps, 1080p@30fps, gyro-EIS",
+      "Front camera": "Samsung ISOCELL S5K3L6; 13 MP, f/2.0, 26mm (wide), 1/3.1\", 1.12µm, HDR, panorama, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "3.5mm jack loudspeaker"
+    },
+    "Battery": {
+      "Battery": "5,000 mAh Li-Po"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 665 AIE",
+    "storage_gb": [
+      4,
+      32,
+      64,
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 13,
+    "battery_mah": 5000,
+    "os": "Android 10",
+    "five_g": false,
+    "weight_g": 198,
+    "thickness_mm": 9.3,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme 5",
+      "url": "https://en.wikipedia.org/wiki/Realme_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme 5",
+    "revid": 1361479530
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-6280-series",
+  "brand": "Nokia",
+  "name": "6280 Series",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nokia_6280.jpg/500px-Nokia_6280.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nokia_6280.jpg/250px-Nokia_6280.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6280 Series",
+      "credit": "Miguel Durán, CC BY-SA 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6280.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Nokia 6110 Navigator, Nokia 6260 slide, Nokia N80"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 and WCDMA 2100"
+    },
+    "Body": {
+      "Form factor": "slider",
+      "Dimensions": "100 × 46 × 21 mm, 91 cc",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "CPU": "ARM9 229Mhz"
+    },
+    "Memory": {
+      "RAM": "6 MB",
+      "Card slot": "64 MB bundled miniSD card"
+    },
+    "Display": {
+      "Display": "240 × 320 (QVGA) 262k colour TFT 35 × 45 mm"
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel",
+      "Front camera": "VGA camera (only for video calling)"
+    },
+    "Battery": {
+      "Battery": "3.7V 970 mAh (model BP-6M)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, Infrared, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 970,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6280 Series",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6280_Series"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6280 Series\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6280 Series",
+    "revid": 1378300419
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

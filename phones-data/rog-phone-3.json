@@ -1,0 +1,89 @@
+{
+  "slug": "rog-phone-3",
+  "brand": "ROG",
+  "name": "Phone 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2020",
+      "Predecessor": "ROG Phone II",
+      "Successor": "ROG Phone 5"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "171 × 78 × 9.9 mm (6.73 × 3.07 × 0.39 in)",
+      "Weight": "240 g (8.47 oz)",
+      "Other": "Fast battery charging 30 W (Quick Charge 4.0, 3.0), Power bank/Reverse charging 10 W"
+    },
+    "Platform": {
+      "Operating system": "Android 11",
+      "Chipset": "Qualcomm Snapdragon 865+, Qualcomm Snapdragon 865 (Strix)",
+      "CPU": "ROG Phone 3 : Octa-core (1x3.1 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585), ROG Phone 3 Strix : Octa-core (1x2.84 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585)",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8/12/16 GB RAM",
+      "Storage": "128/256/512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "6.59-inch (167.4 mm) 1080×2340 FHD+ (2.5 MP) 144 Hz 391 PPI AMOLED capacitive touchscreen, 1B colors"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, f/1.8, 26 mm (wide), 1/1.72\", 0.8 µm, PDAF, 13 MP, f/2.4, 11 mm (ultrawide), 5 MP, f/2.0 (macro), Dual-LED flash, HDR, panorama, 8K@30fps, 4K@30/60/120fps, 1080p@30/60/240fps, 720p@480fps; gyro-EIS",
+      "Front camera": "24 MP, f/2.0, 27mm, 0.9µm, Panorama, HDR, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker with stereo speakers, 24-bit/192kHz audio, Active noise cancellation with dedicated mics, DTS Headphone X"
+    },
+    "Battery": {
+      "Battery": "Li-Po 6000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.1, A2DP, LE, aptX Adaptive, GPS, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS, GNSS, NFC, USB 3.1, Two (side 3.1, bottom 2.0) Type-C 1.0 reversible connector; accessory connector"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "refresh_hz": 144,
+    "chipset": "Qualcomm Snapdragon 865+",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "8K@30fps",
+    "front_mp": 24,
+    "battery_mah": 6000,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "weight_g": 240,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ROG Phone 3",
+      "url": "https://en.wikipedia.org/wiki/ROG_Phone_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ROG Phone 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ROG Phone 3",
+    "revid": 1362762228
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "samsung-galaxy-f15-5g",
+  "brand": "Samsung",
+  "name": "Galaxy F15 5G",
+  "status": "published",
+  "announced": "2024-03-04",
+  "released": "2024-03-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-03-04",
+      "Series": "Galaxy F",
+      "Predecessor": "Samsung Galaxy F14 5G",
+      "Successor": "Samsung Galaxy F16 5G"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G (LTE+), 5G",
+      "SIM": "nanoSIM (hybrid, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "217 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14 with One UI 6.0, Current: Android 16 QPR2 with One UI 8.5",
+      "CPU": "2.2 GHz MediaTek MT6835, octa-core",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "4, 6, 8 GB",
+      "Storage": "128 GB",
+      "Card slot": "microSDXC class 10 (supports up to 1 TB)"
+    },
+    "Display": {
+      "Display": "6.6 in FHD+ Super AMOLED, 90Hz, 1080 x 2340 px, 19.5:9 aspect-ratio"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, (wide), AF, 5 MP, f/2.2, (ultrawide), 2 MP, f/2.4, (macro)",
+      "Front camera": "13 MP, f/2.0, (wide)"
+    },
+    "Battery": {
+      "Battery": "6000 mAh (non-replaceable)",
+      "Charging": "Fast charging up to 25W"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 90,
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 13,
+    "battery_mah": 6000,
+    "wired_w": 25,
+    "os": "Android 14",
+    "five_g": true,
+    "weight_g": 217,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy F15 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_F15_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy F15 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy F15 5G",
+    "revid": 1363707194
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

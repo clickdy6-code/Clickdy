@@ -1,0 +1,98 @@
+{
+  "slug": "xiaomi-redmi-note-3",
+  "brand": "Xiaomi",
+  "name": "Redmi Note 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/85/Xiaomi_Redmi_Note_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/85/Xiaomi_Redmi_Note_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Xiaomi Redmi Note 3",
+      "credit": "Vernon Chan, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Redmi_Note_3.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Snapdragon: 2016-02, India: 2016-03, MediaTek: 2015-11",
+      "Series": "Redmi",
+      "Predecessor": "Redmi Note 2",
+      "Successor": "Redmi Note 4"
+    },
+    "Network": {
+      "Technology": "kenzo:, 2G GSM: , 800/900/1800/1900, 3G HSPA: , 850/900/1700(AWS)/1900/2100, 4G LTE: , VoLTE 1 (2100), 2 (1900), 3 (1800), 4 (1700/2100), 5 (850), 7 (2600), 8 (900), 38 (2600), 39 (1900), 40 (2300), 41 (2500)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "150 mm H, 76 mm W, 8.7 mm D",
+      "Weight": "164 g"
+    },
+    "Platform": {
+      "Operating system": "Snapdragon: Android 5.1.1 \"Lollipop\", upgradeable to: Android 6.0.1 \"Marshmallow\", MediaTek: Android 5.0.2 \"Lollipop\"",
+      "Chipset": "Qualcomm MSM8956 Snapdragon 650 MediaTek MT6795 Helio X10",
+      "CPU": "Snapdragon:, Hexa-core (4x1.4GHz Cortex-A53 & 2x1.8GHz Cortex-A72), MediaTek:, Octa-core 2.0GHz Cortex-A53",
+      "GPU": "Snapdragon:, Adreno 510, MediaTek:, PowerVR G6200"
+    },
+    "Memory": {
+      "RAM": "2 GB (Standard version) or , 3 GB RAM (High version)",
+      "Storage": "16 GB (Standard version) or 32 GB (High version)",
+      "Card slot": "Only Snapdragon variant: , Up to 256 GB, microSD"
+    },
+    "Display": {
+      "Display": "5.5 in IPS LCD capacitive touchscreen, 1080 x 1920 pixels, ~403 ppi, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "Snapdragon: , Samsung S5K3P3 16 MP camera, f/2.0 aperture, phase detection autofocus (PDAF), dual-LED (dual tone) flash MediaTek: , Samsung S5K3M2 13 MP camera",
+      "Front camera": "OmniVision OV5670 5MP, f/2.0 aperture"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4050 mAh battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (2.4 & 5GHz), dual-band, Wi-Fi Direct, hotspot, Bluetooth v4.1, A2DP, Bluetooth low energy, Low-energy, 4G/LTE (telecommunication), LTE"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8956 Snapdragon 650 MediaTek MT6795 Helio X10",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4050,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 164,
+    "thickness_mm": 8.7,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi Note 3",
+      "url": "https://en.wikipedia.org/wiki/Redmi_Note_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi Note 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi Note 3",
+    "revid": 1361480332
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

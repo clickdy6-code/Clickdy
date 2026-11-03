@@ -1,0 +1,65 @@
+{
+  "slug": "pantech-w62pt",
+  "brand": "Pantech",
+  "name": "W62PT",
+  "status": "published",
+  "announced": "2008-08-30",
+  "released": "2008-08-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-08-30",
+      "Discontinued": "2022-03-31",
+      "Series": "Kantan Keitai"
+    },
+    "Network": {
+      "Technology": "CDMA 1X WIN (CDMA2000 1xEV-DO Rel.0)",
+      "SIM": "au IC card"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "100 mm H , 50 mm W , 16.9 mm D",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "REX OS + KCP",
+      "CPU": "Qualcomm MSM6550 @ 225 MHz"
+    },
+    "Memory": {
+      "Storage": "Approx. 100 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "Main: 2.6 in (66 mm) TFT LCD, 240×320 pixels (QVGA), 260,000 colors, Sub: 1.2 in (30 mm) TFT LCD, 128×128 pixels, single color"
+    },
+    "Cameras": {
+      "Rear camera": "1.31 MP CMOS"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "TFT",
+    "main_mp": 1.31,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "weight_g": 124,
+    "thickness_mm": 16.9,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pantech W62PT",
+      "url": "https://en.wikipedia.org/wiki/Pantech_W62PT"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pantech W62PT\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Pantech W62PT",
+    "revid": 1379328536
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

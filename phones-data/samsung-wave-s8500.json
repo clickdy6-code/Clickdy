@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-wave-s8500",
+  "brand": "Samsung",
+  "name": "Wave S8500",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Samsung_s8500.JPG/500px-Samsung_s8500.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Samsung_s8500.JPG/250px-Samsung_s8500.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Wave S8500",
+      "credit": "Thomashangman, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_s8500.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series",
+      "Successor": "Samsung Wave II GT-S8530"
+    },
+    "Network": {
+      "Technology": "GSM: 850/900/1800/1900/2100, 3G: 900/2100, 3G: 850/1900 (NAM Version), HSDPA: 3.6 Mbps"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "118 x 56 x 10.9 mm (72.0272 cm³)",
+      "Weight": "118 g",
+      "Other": "- Scratch-resistant surface (Corning Gorilla Glass), - Smart unlock, - Accelerometer, - Proximity Sensor, - Magnetometer, - Digital compass"
+    },
+    "Platform": {
+      "Operating system": "bada with TouchWiz 3.0",
+      "CPU": "ARM Cortex A8 clocked at 1 GHz (Samsung S5PC110)",
+      "GPU": "PowerVR SGX 540"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "1 GB / 2 GB / 8 GB",
+      "Card slot": "microSD(HC) up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.3\" Capacitive touchscreen, 800x480 @ 283 PPI (0.38 Megapixels), Super AMOLED, (PenTile Matrix) display with Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP with autofocus, LED flash, geo-tagging, face detection",
+      "Front camera": "720p (HD) at 30 fps, slow motion, video light"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11b/g/n Wi-Fi, A-GPS, Bluetooth 3.0, microUSB"
+    }
+  },
+  "key": {
+    "display_in": 3.3,
+    "display_type": "Super AMOLED",
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 118
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Wave S8500",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Wave_S8500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Wave S8500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Wave S8500",
+    "revid": 1369734137
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

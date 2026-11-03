@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-galaxy-a14",
+  "brand": "Samsung",
+  "name": "Galaxy A14",
+  "status": "published",
+  "announced": "2023-03-27",
+  "released": "2023-03-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Samsung_Galaxy_A14_5G_2023_model_%28cropped%29.jpg/500px-Samsung_Galaxy_A14_5G_2023_model_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Samsung_Galaxy_A14_5G_2023_model_%28cropped%29.jpg/250px-Samsung_Galaxy_A14_5G_2023_model_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A14",
+      "credit": "Ivebeenhacked, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A14_5G_2023_model_(cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A14: 2023-03-27, A14 5G: 2023-01-12",
+      "Series": "Samsung Galaxy A series",
+      "Predecessor": "Samsung Galaxy A13",
+      "Successor": "Samsung Galaxy A15"
+    },
+    "Network": {
+      "Technology": "A14: GSM / HSPA / LTE, A14 5G: GSM / HSPA / LTE / 5G",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "167.7 mm H , 78 mm W , 9.1 mm D",
+      "Weight": "A14: 201 g, A14 5G: 202 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with One UI Core 5.0, Current: Android 15 with One UI 7",
+      "Chipset": "A14: Mediatek MT6769 Helio G80 (12 nm) (Europe & Middle East) or Exynos 850 (8 nm) (America & Asia), A14 5G(SM-A146P): Mediatek MT6833 Dimensity 700 (7 nm), A14 5G(SM-A146B):Exynos 1330 (5 nm)",
+      "CPU": "A14: Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55), A14 5G: (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "A14: Mali-G52 MC2, A14 5G(SM-A146P) Mali-G57 MC2, A14 5G(SM-A146B) Mali-G68 MP2"
+    },
+    "Memory": {
+      "RAM": "4 and 6 GB RAM",
+      "Storage": "64 and 128 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "A14: 6.6 in, 1080 x 2408 px resolution, 20:9 ratio (~400 ppi density), PLS LCD, 60 Hz refresh rate, A14 5G: 6.6 in, 1080 x 2408 px resolution, 20:9 ratio (~400 ppi density), PLS LCD, 90 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, A14:, Primary: Samsung ISOCELL (S5K)JN1; 50 Megapixel, MP, 26mm, FoV 78.8°, 1/2.76\", 0.64 Micrometre, µm, Phase detection autofocus, PDAF, Ultra wide angle lens, Ultrawide: Hynix Hi-556; 5 Megapixel, MP, 17mm, FoV 102°, 1/5.0\", 1.12 Micrometre, µm, FF, Macro: 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, FF, A14 5G:, Primary: Samsung ISOCELL (S5K)JN1; 50 Megapixel, MP, 26mm, FoV 78.8°, 1/2.76\", 0.64 Micrometre, µm, Phase detection autofocus, PDAF, Macro: GalaxyCore GC02M1; 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, FF, Depth: GalaxyCore GC02M1B; 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, Camera features: LED flash, panorama, HDR, Video recording: 1080p@30Frame rate",
+      "Front camera": "Hynix Hi-1336; 13 Megapixel, MP, 27mm (wide), FoV 78.1°, 1/3.06\", 1.12µm, FF, Video recording: 1080p@30Frame rate, fps, 720p@30Frame rate, fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm auxiliary (headphone jack)"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh",
+      "Charging": "15W Adaptive Fast Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Bluetooth 5.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "LCD",
+    "refresh_hz": 90,
+    "chipset": "A14: Mediatek MT6769 Helio G80",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "battery_mah": 5000,
+    "wired_w": 15,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 201,
+    "thickness_mm": 9.1,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A14",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A14"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A14\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A14",
+    "revid": 1380481497
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

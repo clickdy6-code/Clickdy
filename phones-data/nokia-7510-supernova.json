@@ -1,0 +1,60 @@
+{
+  "slug": "nokia-7510-supernova",
+  "brand": "Nokia",
+  "name": "7510 Supernova",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 7070 Prism, Nokia 7390"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "flip",
+      "Dimensions": "92.5 x 46.4 x 16.7 mm, 63 cc",
+      "Weight": "134 g"
+    },
+    "Memory": {
+      "RAM": "27 MB internal",
+      "Card slot": "512 MB bundled microSD card, up to 8 GB supported"
+    },
+    "Display": {
+      "Display": "2.2\" 240 x 320 (QVGA) 16.7 million colours"
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel"
+    },
+    "Battery": {
+      "Battery": "3.7V 870 mAh (model BL-5BT)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "battery_mah": 870,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 134
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7510 Supernova",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7510_Supernova"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7510 Supernova\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7510 Supernova",
+    "revid": 1361477802
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

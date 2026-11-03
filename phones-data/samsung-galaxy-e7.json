@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-e7",
+  "brand": "Samsung",
+  "name": "Galaxy E7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "February 2015",
+      "Discontinued": "November 2016",
+      "Series": "E-series"
+    },
+    "Network": {
+      "Technology": "2G , 3G (UMTS/HSPA) , 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "151.3 mm H, 77.2 mm W, 7.3 mm D",
+      "Weight": "141 g (4.97 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.4 KitKat, Current: Android 5.1.1 Lollipop",
+      "Chipset": "Qualcomm Snapdragon 410 (64-bit)",
+      "CPU": "Quad-core 1.2 GHz , Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "up to 64 GB"
+    },
+    "Display": {
+      "Display": "5.5 in 720 x 1280 pixel HD Super AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 2950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB 2.0, Bluetooth 4.0, Wi-Fi b/g/n, Wi-Fi Direct, GPS location, NFC (LTE model only)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 410",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2950,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 141,
+    "thickness_mm": 7.3,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy E7",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_E7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy E7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy E7",
+    "revid": 1374922932
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "samsung-i5500",
+  "brand": "Samsung",
+  "name": "i5500",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-08 <!-- if found add parameter",
+      "Series": "Samsung Galaxy",
+      "Successor": "Samsung Galaxy Mini"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900 MHz, UMTS/HSDPA (3.5G) 850/900/1900/2100 MHz up to 7.2 Mbps"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "108 mm H, 56 mm W, 12.3 mm D",
+      "Weight": "102 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.1 \"Eclair\", Current: Android 2.2 \"Froyo\"",
+      "CPU": "MSM7227-1 ARM11 600 MHz"
+    },
+    "Memory": {
+      "RAM": "256 MB (Accessible: 184 MB) SDRAM",
+      "Storage": "512 MB (Accessible: 184 MB) up to 32 GB microSD card",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels, 2.8 inches (~143 ppi pixel density) 16M color"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 Megapixels fixed focus, face detection, panorama mode"
+    },
+    "Battery": {
+      "Battery": "1200 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi Atheros 6k chipset 802.11b/g/n with DLNA, Bluetooth 2.1 with A2DP, A-GPS, Micro USB 2.0, 3.5mm TRRS audio jack, FM radio with RDS support"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1200,
+    "os": "Android 2.1",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 102,
+    "thickness_mm": 12.3,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung i5500",
+      "url": "https://en.wikipedia.org/wiki/Samsung_i5500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung i5500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung i5500",
+    "revid": 1361483757
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

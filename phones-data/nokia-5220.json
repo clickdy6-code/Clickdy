@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-5220",
+  "brand": "Nokia",
+  "name": "5220",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Nokia_Xpressmusic_5220.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Nokia_Xpressmusic_5220.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 5220",
+      "credit": "Lawrence Ruiz, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Xpressmusic_5220.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 2008",
+      "Predecessor": "Nokia 3500 classic, Nokia 5070",
+      "Successor": "Nokia 5130, Nokia 5530 XpressMusic"
+    },
+    "Network": {
+      "Technology": "RM-411(EMEA) , GSM 900 1800 1900 , RM-410(Americas): GSM 850 1800 1900 , EDGE class 32"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Other": "FM radio"
+    },
+    "Platform": {
+      "CPU": "231 MHz ARM9"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (supports up to 8 GB)"
+    },
+    "Display": {
+      "Display": "LCD , 240x320 px , 256k colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP , 4x digital zoom"
+    },
+    "Battery": {
+      "Battery": "1020 mAh , li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB connector , Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5220",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5220"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5220\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5220",
+    "revid": 1361477386
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

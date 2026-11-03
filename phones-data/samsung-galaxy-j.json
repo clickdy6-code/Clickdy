@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-j",
+  "brand": "Samsung",
+  "name": "Galaxy J",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Galaxy_J_SC-02F_Lapis_Blue_1_Cropped.jpg/500px-Galaxy_J_SC-02F_Lapis_Blue_1_Cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Galaxy_J_SC-02F_Lapis_Blue_1_Cropped.jpg/250px-Galaxy_J_SC-02F_Lapis_Blue_1_Cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy J",
+      "credit": "photo: Qurren (talk) Taken with Canon IXY 430F (Digital IXUS 245 HS), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_J_SC-02F_Lapis_Blue_1_Cropped.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "December 2013",
+      "Successor": "Samsung Galaxy S5 Neo"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE/, 850/900/1800/1900 MHz, UMTS/HSPA, 850/2100 MHz, roaming (2100/850MHz), LTE Cat4 800/1500/1800/2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "137 x",
+      "Weight": "146 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.3 Jelly Bean, Current: Android 5.0 Lollipop",
+      "Chipset": "Qualcomm Snapdragon 800 Krait 400",
+      "CPU": "Quad-Core 2.36 GHz",
+      "GPU": "Adreno 330 @450 MHz"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "32 GB (Japanese model SC-02F), 16 GB (Overseas including Taiwan, model SGH-N075T)",
+      "Card slot": "MicroSD support for up to 64 GB"
+    },
+    "Display": {
+      "Display": "Super AMOLED, 5 in (109 mm) diagonal. 1920 x 1080 px, 441 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13.2 Megapixels, with Power HCRI LED Flash (Japanese), 13 Megapixelas BSI CMOS (Overseas including Taiwan)",
+      "Front camera": "2.1 Megapixels"
+    },
+    "Battery": {
+      "Battery": "2600 mAh (Li-Ion)."
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, Bluetooth 4.0, Wi-Fi, GPS, GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 800 Krait 400",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "battery_mah": 2600,
+    "os": "Android 4.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 146,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J",
+    "revid": 1361482083
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

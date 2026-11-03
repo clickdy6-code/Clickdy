@@ -1,0 +1,64 @@
+{
+  "slug": "samsung-galaxy-pocket-duos",
+  "brand": "Samsung",
+  "name": "Galaxy Pocket Duos",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Galaxy",
+      "Successor": "Samsung Galaxy Pocket Neo"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "103.9 x 57.9 x 13 mm",
+      "Weight": "103 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 (Gingerbread) with TouchWiz 3.0",
+      "CPU": "Broadcom BCM21553 ARMv6 832 MHz processor"
+    },
+    "Memory": {
+      "Storage": "3 GB(built in)",
+      "Card slot": "MicroSD support for up to 32 GB"
+    },
+    "Display": {
+      "Display": "QVGA TFT LCD, 2.8 in (71 mm) diagonal. 240 x 320 px, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 Megapixels (1600x1200 px)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1200mAh or 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "2G: 850 900 1800 1900 MHz, 3G: 1900 2100 MHz, HSDPA: 3.6 Mbps, Wi-Fi: 802.11b/g/n, Bluetooth: v3.0 with A2DP"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1200,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 103
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Pocket Duos",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Pocket_Duos"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Pocket Duos\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Pocket Duos",
+    "revid": 1361482715
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

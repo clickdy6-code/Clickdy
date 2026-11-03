@@ -1,0 +1,79 @@
+{
+  "slug": "nokia-asha-501",
+  "brand": "Nokia",
+  "name": "Asha 501",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Nokia_Asha_501.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Nokia_Asha_501.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia Asha 501",
+      "credit": "Dienthoaiquangcao24, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Asha_501.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Asha",
+      "Predecessor": "Nokia Asha 310, Nokia Asha 311",
+      "Successor": "Nokia X"
+    },
+    "Body": {
+      "Form factor": "Full Touch candybar",
+      "Dimensions": "Width: 58 mm, Height: 99.2 mm, Thickness: 12.1 mm",
+      "Weight": "98.2 g",
+      "Other": "MicroSIM, Accelerometer, Proximity sensor, USB charging"
+    },
+    "Platform": {
+      "Operating system": "Nokia Asha software platform 1.0, Upgradeable to, Asha software platform 1.4"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Card slot": "4 GB MicroSD card included (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "240 x 320 px (QVGA), 3.0\", 133 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP, 2048x1536 pixels, Focus: 50 cm to infinity"
+    },
+    "Sound": {
+      "Sound": "3.5 mm audio connector, hands-free speaker, FM radio, music player"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1200 mAh, Model: BL-4U, removable, Single-SIM configuration:, Standby: 48 days, Talk time: 17 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "EDGE EGPRS, Wi-Fi 802.11 b/g/n, Bluetooth 3.0 with Slam, USB 2.0 High Speed via MicroUSB"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "nfc": false,
+    "weight_g": 98.2,
+    "thickness_mm": 12.1
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 501",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_501"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 501\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 501",
+    "revid": 1361478034
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

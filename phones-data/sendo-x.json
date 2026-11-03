@@ -1,0 +1,61 @@
+{
+  "slug": "sendo-x",
+  "brand": "Sendo",
+  "name": "X",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Sendo X2 (canceled)"
+    },
+    "Network": {
+      "Technology": "GSM 900, GSM 1800, GSM 1900, GPRS"
+    },
+    "Body": {
+      "Weight": "120 g",
+      "Other": "Flashlight, Java support"
+    },
+    "Platform": {
+      "Operating system": "S60",
+      "GPU": "GraphiX"
+    },
+    "Memory": {
+      "RAM": "32MB",
+      "Storage": "32MB",
+      "Card slot": "MMC, SD card"
+    },
+    "Display": {
+      "Display": "TFT, 65K colors with 176 x 220 pixels (2.2 inches, 35 x 44 mm)"
+    },
+    "Cameras": {
+      "Rear camera": "VGA (640x480) with 4x digital zoom and red-eye reduction"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, IrDA, USB"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 120
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sendo X",
+      "url": "https://en.wikipedia.org/wiki/Sendo_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sendo X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sendo X",
+    "revid": 1374882892
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

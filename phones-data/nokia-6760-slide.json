@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-6760-slide",
+  "brand": "Nokia",
+  "name": "6760 Slide",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Nokia_6760_slide.png/500px-Nokia_6760_slide.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Nokia_6760_slide.png/250px-Nokia_6760_slide.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6760 Slide",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6760_slide.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "Yes",
+      "Successor": "Nokia C6-00, Nokia X5"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G) 900 / 1900 / 2100 (European) 850 / 1900 / 2100 (North American), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "One-way slider",
+      "Dimensions": "97.6 x 58 x 15.6 mm",
+      "Weight": "124.3 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.3, S60 rel. 3.2",
+      "CPU": "ARM v4 192 MHz processor"
+    },
+    "Memory": {
+      "RAM": "128 MB internal",
+      "Card slot": "MicroSD, up to 8 GB supported w/ microSDHC support"
+    },
+    "Display": {
+      "Display": "240x320 px, 2.4 in."
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Megapixels"
+    },
+    "Battery": {
+      "Battery": "BP-4L 1500 mAh Li-Polymer battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 via MicroUSB, Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "battery_mah": 1500,
+    "os": "Symbian OS 9.3",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 124.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6760 Slide",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6760_Slide"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6760 Slide\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6760 Slide",
+    "revid": 1361477715
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

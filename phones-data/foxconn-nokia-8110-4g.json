@@ -1,0 +1,94 @@
+{
+  "slug": "foxconn-nokia-8110-4g",
+  "brand": "Foxconn",
+  "name": "Nokia 8110 4G",
+  "status": "published",
+  "announced": "2018-02-25",
+  "released": "2018-02-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Nokia_8110_4G.png/500px-Nokia_8110_4G.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Nokia_8110_4G.png/250px-Nokia_8110_4G.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 8110 4G",
+      "credit": "Amanz, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_8110_4G.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-02-25",
+      "Predecessor": "Nokia 8110"
+    },
+    "Network": {
+      "Technology": "GSM, WCDMA, FDD-LTE (and TDD-LTE for SKU2 variant)"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "133.45 mm H, 49.3 mm W, 14.5 mm D",
+      "Weight": "117 g",
+      "Other": "Drip protection (IP52), Wi-Fi hotspot, preloaded KaiOS store and Snake game"
+    },
+    "Platform": {
+      "Operating system": "Smart Feature OS (KaiOS based)",
+      "Chipset": "Qualcomm MSM8905 Snapdragon 205 (28 nm)",
+      "CPU": "Dual-core (2x1.1 GHz Cortex-A7)",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "RAM": "512 MB LPDDR3 RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.45 in TFT LCD, 240 x 320 resolution"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, LED flash"
+    },
+    "Sound": {
+      "Sound": "AAC, AMR, MP3, MIDI, Vorbis format supported"
+    },
+    "Battery": {
+      "Battery": "1500 mAh Li-ion (removable), stand-by time:, 25 days (4G Single SIM), 17.7 days (4G Dual SIM)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 4.1, GPS/AGPS, FM Radio, microUSB 2.0, 3.5mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 2.45,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM8905 Snapdragon 205",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "KaiOS based)",
+    "five_g": false,
+    "nfc": false,
+    "ip": "IP52",
+    "weight_g": 117,
+    "thickness_mm": 14.5,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 8110 4G",
+      "url": "https://en.wikipedia.org/wiki/Nokia_8110_4G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 8110 4G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 8110 4G",
+    "revid": 1361477885
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "samsung-galaxy-y-plus",
+  "brand": "Samsung",
+  "name": "Galaxy Y Plus",
+  "status": "published",
+  "announced": "2013-05-25",
+  "released": "2013-05-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-05-25",
+      "Series": "Samsung Galaxy",
+      "Predecessor": "Samsung Galaxy Y DUOS",
+      "Successor": "Samsung Galaxy Young"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2, HSDPA 900 / 2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "104.9 mm H, 57.9 mm W, 13 mm D",
+      "Weight": "96 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0 Ice Cream Sandwich",
+      "CPU": "850 Mhz Single core"
+    },
+    "Memory": {
+      "RAM": "512 MB of RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSDHC supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.8 in TFT QVGA 240x320 px , 256K Colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel (1600x1200), Video Recording 24@ fps 320x240 px (QVGA), Geo-tagging"
+    },
+    "Battery": {
+      "Battery": "1,200 mAh, internal rechargeable Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1200,
+    "os": "Android 4.0",
+    "five_g": false,
+    "weight_g": 96,
+    "thickness_mm": 13,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Y Plus",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Y_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Y Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Y Plus",
+    "revid": 1368358580
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

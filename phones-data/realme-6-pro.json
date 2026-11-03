@@ -1,0 +1,90 @@
+{
+  "slug": "realme-6-pro",
+  "brand": "Realme",
+  "name": "6 Pro",
+  "status": "published",
+  "announced": "2020-03-05",
+  "released": "2020-03-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-03-05",
+      "Series": "realme",
+      "Predecessor": "Realme 5 Pro",
+      "Successor": "Realme 7 Pro"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.8 × 75.8 × 8.9 mm",
+      "Weight": "202 g",
+      "Other": "Fingerprint scanner (side-mounted), accelerometer, gyroscope, proximity, compass"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with realme UI 1, Current: Android 11 with realme UI 2",
+      "CPU": "Qualcomm Snapdragon 720G (8 nm), octa-core (2×2.3 GHz Kryo 465 Gold & 6×1.8 GHz Kryo 465 Silver)",
+      "GPU": "Adreno 618"
+    },
+    "Memory": {
+      "RAM": "6/8 GB, LPDDR4X",
+      "Storage": "64/128 GB, UFS 2.1",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.6\", 2400 × 1080 (Full HD+), 20:9, 399 ppi, 90 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, f/1.8, 26 mm (wide), 1/1.72\", 0.8 µm, PDAF + 12 MP, f/2.5, 54 mm (telephoto), 1/3.4\", 1.0 µm, PDAF, 2x optical zoom + 8 MP, f/2.3, 13 mm (ultrawide), 1/4.0\", 1.12 µm + 2 MP, f/2.4 (macro), LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60/120fps, gyro-EIS",
+      "Front camera": "16 MP, f/2.1, 26 mm (wide), 1/3.06\", 1.0 µm + 8 MP, f/2.2, 105˚ (ultrawide), 1/4.0\", 1.12 µm, HDR, panorama, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4300 mAh",
+      "Charging": "30W fast charging, 100% in 57 min (manufacture claimed), VOOC 4.0"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm audio jack, Bluetooth 5.1 (A2DP, LE), NFC (region dependent), FM radio, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4300,
+    "wired_w": 30,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 202,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme 6 Pro",
+      "url": "https://en.wikipedia.org/wiki/Realme_6_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme 6 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme 6 Pro",
+    "revid": 1361479547
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

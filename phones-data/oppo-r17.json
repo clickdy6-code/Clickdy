@@ -1,0 +1,100 @@
+{
+  "slug": "oppo-r17",
+  "brand": "OPPO",
+  "name": "R17",
+  "status": "published",
+  "announced": "2018-08-23",
+  "released": "2018-08-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/9/95/R17_pro_%282%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/R17_pro_%282%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "OPPO R17",
+      "credit": "Gandharraj, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:R17_pro_(2).png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "R17:, 2018-08-23, R17 Pro:, 2018-08-30, R17 Neo:, 2018-10-30",
+      "Series": "Oppo R",
+      "Predecessor": "Oppo R15, Oppo R15 Pro",
+      "Successor": "Oppo Reno"
+    },
+    "Network": {
+      "SIM": "Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "R17:, 157.5 mm H, 74.9 mm W, 7.5 mm D, R17 Pro:, 157.6 mm H, 74.6 mm W, 7.9 mm D, R17 Neo:, 158.3 mm H, 75.5 mm W, 7.4 mm D",
+      "Weight": "R17:, 182 g, R17 Pro:, 183 g, R17 Neo:, 156 g",
+      "Other": "Light sensor, Distance sensor, G-sensor, E-compass, AI Scene and Object Recognition Sensor, ToF 3D Sensor (R17 Pro)"
+    },
+    "Platform": {
+      "Operating system": "R17/R17 Pro:, Original: Android 8.1 with ColorOS 5.2, Current: Android 10 with ColorOS 7.1, R17 Neo:, Original: Android 8.1 with ColorOS 5.2, Current: Android 9 with ColorOS 6",
+      "Chipset": "R17:, Qualcomm Snapdragon 670 (10 nm Samsung 10LPP), R17 Pro:, Qualcomm Snapdragon 710 (10 nm Samsung 10LPP), R17 Neo:, Qualcomm Snapdragon 660 (14 nm Samsung 14LPP)",
+      "CPU": "R17:, Octa-core (2x2.0 GHz 360 Gold & 6x1.7 GHz Kryo 360 Silver), R17 Pro:, Octa-core (2x2.2 GHz Kryo 360 Gold & 6x1.7 GHz Kryo 360 Silver), R17 Neo:, Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "R17:, Adreno 615, R17 Pro:, Adreno 616, R17 Neo:, Adreno 512"
+    },
+    "Memory": {
+      "RAM": "R17/R17 Pro:, 6, 8 GB, R17 Neo:, 4 GB",
+      "Storage": "All: 128 GB",
+      "Card slot": "R17:, No, R17 Pro/R17 Neo:, microSDXC, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "R17:, 6.40 in, 1080 x 2340 px resolution, 19.5:9 ratio (~403 ppi density), AMOLED, 60Hz, Corning Gorilla Glass 6, R17 Pro:, 6.40 in, 1080 x 2340 px resolution, 19.5:9 ratio (~402 ppi density), AMOLED, 60Hz, Corning Gorilla Glass 6, R17 Neo:, 6.41 in, 1080 x 2340 px resolution, 19.5:9 ratio (~402 ppi density), Super AMOLED, 60Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Dual-Camera Setup, R17:, Primary: Sony IMX 519; 16 MP, 25mm, 1/2.53\", 1.22μm, PDAF, Depth: Samsung ISOCELL S5K5E9; 5 MP, 1/5.0\", 1.12μm, R17 Neo:, Primary: Sony IMX 398; 16 MP, 26mm, 1/2.8\", 1.12μm, PDAF, Depth: OmniVision OV02A10; 2 MP, 1/5.0\", 1.75μm, Triple-Camera Setup, R17 Pro:, Primary: Sony IMX 362; 12 MP, 26mm, 1/2.55\", 1.4μm, dual pixel PDAF, OIS, Secondary: Sony IMX 350; 20 MP, 1/2.78\", 1.0μm, AF, TOF 3D: Sony IMX 316; 0.043 MP (240x180), 1/6.0\", 10μm, depth, Features:, R17/R17 Pro: Dual-LED flash, HDR, panorama, R17 Neo: LED flash, HDR, panorama, Video:, R17/R17 Pro: 4K@30fps, 1080p@30fps, R17 Neo: 1080p@30fps",
+      "Front camera": "Sony IMX 576; 25 MP, 26mm, 1/2.78\", 0.9μm, Features:, All: HDR, Video:, All: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "R17/R17 Neo:, Loudspeaker, 3.5 mm auxiliary (headphone jack), R17 Pro:, Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "R17:, 3500 mAh lithium-polymer, non-removable, R17 Pro:, 3700 mAh (Dual-cell, 1850 mAh each) lithium-polymer, non-removable, R17 Neo:, 3600 mAh lithium-ion, non-removable",
+      "Charging": "R17:, 20W VOOC Flash Charge, R17 Pro:, 50W SuperVOOC Charge, R17 Neo:, 10W Standard Charge"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "AMOLED",
+    "refresh_hz": 60,
+    "chipset": "R17:",
+    "ram_gb": [
+      4,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 25,
+    "battery_mah": 3500,
+    "wired_w": 50,
+    "os": "Android 8.1",
+    "weight_g": 182,
+    "thickness_mm": 7.5,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo R17",
+      "url": "https://en.wikipedia.org/wiki/Oppo_R17"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo R17\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo R17",
+    "revid": 1361479164
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

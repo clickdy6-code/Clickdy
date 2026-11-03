@@ -1,0 +1,56 @@
+{
+  "slug": "samsung-sgh-g810",
+  "brand": "Samsung",
+  "name": "SGH-G810",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "G series, Symbian",
+      "Predecessor": "Samsung SGH-G800",
+      "Successor": "Samsung i8510 Innov8"
+    },
+    "Network": {
+      "Technology": "GSM 900, GSM 1800, GSM 1900, UMTS-HSDPA 2100"
+    },
+    "Body": {
+      "Form factor": "Slide, 3GPP / MPEG4"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.2, Series 60 rel. 3.0",
+      "CPU": "ARM 11"
+    },
+    "Memory": {
+      "RAM": "150 MB",
+      "Storage": "HDSD micro, SD micro"
+    },
+    "Cameras": {
+      "Rear camera": "5.0-megapixel 3x optical, xenon flash, VGA vdeo recording"
+    },
+    "Connectivity": {
+      "Connectivity": "GPS + Geo tags, Wi-Fi 802.11 b/g, Bluetooth 2.0, USB 2.0, SMS, MMS, Email, FM radio, TV out connection(NTSC / PAL)"
+    }
+  },
+  "key": {
+    "os": "Symbian OS v9.2",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-G810",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-G810"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-G810\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-G810",
+    "revid": 1361483501
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

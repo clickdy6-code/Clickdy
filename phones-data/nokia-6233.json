@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-6233",
+  "brand": "Nokia",
+  "name": "6233",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_6233-6016.jpg/500px-Nokia_6233-6016.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_6233-6016.jpg/250px-Nokia_6233-6016.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6233",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6233-6016.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "Q1 2009",
+      "Predecessor": "Nokia 6230",
+      "Successor": "Nokia 6120 classic, Nokia 6500 classic"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 MHz, WCDMA 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 x 46 x 18 mm",
+      "Weight": "110 g",
+      "Other": "Stereo FM radio, Stereo Dual Speakers"
+    },
+    "Platform": {
+      "Operating system": "Series 40 3rd Edition, Feature Pack 1 UI",
+      "CPU": "ARM9, 289 MHz"
+    },
+    "Memory": {
+      "RAM": "6 MB (internal)",
+      "Card slot": "Supported up to 2 GB"
+    },
+    "Display": {
+      "Display": "Vertical 2 inches, 31 x 41 mm, QVGA 262k color TFT LCD, 240x320 (320x240 in Landscape Mode)"
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel, 1600x1200 max resolution, night mode, 640x480 video resolution"
+    },
+    "Battery": {
+      "Battery": "BP-6M, 800-1100 mAh Lithium-ion polymer"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "battery_mah": 1100,
+    "five_g": false,
+    "weight_g": 110
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6233",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6233"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6233\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Nokia 6233",
+    "revid": 1374925936
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "samsung-galaxy-j3",
+  "brand": "Samsung",
+  "name": "Galaxy J3",
+  "status": "published",
+  "announced": "2018-07-08",
+  "released": "2018-07-08",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-07-08",
+      "Discontinued": "2019",
+      "Series": "Galaxy J series",
+      "Predecessor": "Samsung Galaxy J3 Prime",
+      "Successor": "Samsung Galaxy A10"
+    },
+    "Network": {
+      "Technology": "2G GSM 850, 900, 1800, 1900 , 3G HSDPA 850, 900, 1700, 1900, 2100 , 4G LTE Bands 1, 2, 3, 5, 7, 12, 14, 17, 66"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "142.7 mm H , 70.1 mm W , 8.9 mm D",
+      "Weight": "152 g",
+      "Other": "FM radio"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0.0 \"Oreo\"; Samsung Experience , Android 9 \"Pie\"; One UI (except T-Mobile and Cricket models)",
+      "Chipset": "Exynos 7570",
+      "CPU": "Quad-core (4×1.4 GHz) ARM Cortex-A53",
+      "GPU": "ARM Mali-T720MP2"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16 GB",
+      "Card slot": "microSD up to 400 GB"
+    },
+    "Display": {
+      "Display": "5.0\", 720×1280 px (294 ppi) TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/1.9, AF, LED flash, panorama, HDR, 1080p@30fps",
+      "Front camera": "5 MP, f/2.2"
+    },
+    "Battery": {
+      "Battery": "2600 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g/n, Bluetooth 4.2, GPS/GLONASS, microUSB 2.0, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "TFT",
+    "chipset": "Exynos 7570",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 152,
+    "thickness_mm": 8.9,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J3 (2018)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J3_%282018%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J3 (2018)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J3 (2018)",
+    "revid": 1380479991
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

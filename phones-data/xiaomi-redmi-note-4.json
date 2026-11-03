@@ -1,0 +1,103 @@
+{
+  "slug": "xiaomi-redmi-note-4",
+  "brand": "Xiaomi",
+  "name": "Redmi Note 4",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Xiaomi_Redmi_Note_4.png/500px-Xiaomi_Redmi_Note_4.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Xiaomi_Redmi_Note_4.png/250px-Xiaomi_Redmi_Note_4.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi Note 4",
+      "credit": "Riski394, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Redmi_Note_4.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "MTK:, 2016-08, Snapdragon:, 2017-01",
+      "Series": "Redmi",
+      "Predecessor": "Redmi Note 3",
+      "Successor": "Redmi Note 5"
+    },
+    "Network": {
+      "Technology": "GSM: 850/900/1800/1900, HSPA: 850 / 900 / 1900 / 2100, LTE: B3, B5, B40 (India Qualcomm), LTE Cat.6 2CA(50 mbps uplink, 300 mbps downlink)",
+      "SIM": "Micro-SIM (SIM1), Nano-SIM (SIM2; Hybrid)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151 mm H, 76 mm W, 8.45 mm D",
+      "Weight": "165 g (Snapdragon Variant), 175 g (MediaTek Variant)"
+    },
+    "Platform": {
+      "Operating system": "Redmi Note 4: MIUI 10.0 based on Android 6.0, Redmi Note 4 (SD)/4X: MIUI 11.0 based on Android 7.0.",
+      "CPU": "MediaTek Helio X20 Deca core (TSMC 20nm HKMG) Max. 2.1GHz (2x 2.1 GHz Cortex A72 + 4x 1.85 GHz Cortex A53 + 4x 1.4 GHz Cortex A53) MT6796, or, Qualcomm Snapdragon 625 Octa core (14nm Samsung LPP FinFET) Max. 2.0 GHz (8x 2.0 GHz Cortex-A53) MSM8953",
+      "GPU": "Redmi Note 4: Mali-T880 MP4 (28nm process) 780MHz, Redmi Note 4 (SD)/4X: Adreno 506 (14nm process) 650MHz"
+    },
+    "Memory": {
+      "RAM": "16 GB, 32 GB or 64 GB eMMC 5.1, RAM:, 2 GB, 3 GB or 4 GB LPDDR3 32-bit Single-Channel 933MHz",
+      "Card slot": "microSD, up to 128 GB (uses SIM 2 slot)"
+    },
+    "Display": {
+      "Display": "5.5 in IPS LCD capacitive touchscreen, 1080 x 1920 pixels, ~401 ppi, 16M colors with 2.5D scratch resistant curved glass., Vendors: BOE, Tianma, EBBG (Late 2017 units onwards)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, Sony Exmor RS IMX258, or , Samsung ISOCELL S5K3L8, or , Omnivision Purecel OV18355, All sensors have: f/2.0, 0.1s ultra fast phase detection autofocus (PDAF), 1.12μm pixel size, CMOS BSI with dual-LED (dual tone) flash, 5-piece lens, 4K/4K UHD, 120fps slo-mo support.",
+      "Front camera": "5 MP Samsung ISOCELL S5K5E8 f/2.0, 1080p, face recognition support"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4100mAh(typ)4000mAh(min) battery",
+      "Charging": "5V@2A (10W) via microUSB 2.0 Port"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac* Dual Band 2.4/5.0 GHz, Wi-Fi Direct, hotspot, Bluetooth 4.1, A2DP, LE, (* = Wi-Fi 802.11 ac band supported on MTK variant only)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2,
+      3,
+      4,
+      16,
+      32,
+      64
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "battery_mah": 4100,
+    "wired_w": 10,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 165,
+    "thickness_mm": 8.45,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi Note 4",
+      "url": "https://en.wikipedia.org/wiki/Redmi_Note_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi Note 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi Note 4",
+    "revid": 1374187599
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

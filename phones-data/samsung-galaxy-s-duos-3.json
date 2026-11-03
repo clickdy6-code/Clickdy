@@ -1,0 +1,78 @@
+{
+  "slug": "samsung-galaxy-s-duos-3",
+  "brand": "Samsung",
+  "name": "Galaxy S Duos 3",
+  "status": "published",
+  "announced": "2014-08-05",
+  "released": "2014-08-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "S Duos 3: 2014-08-05, S Duos 3 VE: 2015-02",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S Duos 2"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850/900/1800/1900 MHz, UMTS/HSPA (3.5G), 850/900/1900/2100 MHz up to 21/5.76 Mbps"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 121.5 mm, W: 63.1 mm, D: 10.6 mm",
+      "Weight": "118 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 KitKat with TouchWiz Essence UX",
+      "Chipset": "Broadcom BCM21663",
+      "CPU": "1.2 GHz dual core, Cortex-A9",
+      "GPU": "Broadcom VideoCore IV HW"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB flash memory",
+      "Card slot": "microSD up to 64 GB"
+    },
+    "Display": {
+      "Display": "4.0 in TFT LCD, 233 PPI 16M color"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixel AF, LED flash, 720p video recording",
+      "Front camera": "0.3 Megapixel"
+    },
+    "Battery": {
+      "Battery": "1,500 mAh Lithium-Ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 4.0 with A2DP, A-GPS, Micro USB 2.0, 3.5 mm TRRS audio jack, FM radio with RDS support"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "chipset": "Broadcom BCM21663",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1500,
+    "os": "Android 4.4",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 118,
+    "thickness_mm": 10.6,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S Duos 3",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_Duos_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S Duos 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S Duos 3",
+    "revid": 1380483079
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

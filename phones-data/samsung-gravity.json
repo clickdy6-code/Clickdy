@@ -1,0 +1,60 @@
+{
+  "slug": "samsung-gravity",
+  "brand": "Samsung",
+  "name": "Gravity",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Samsung Gravity 2"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "bar, slide",
+      "Dimensions": "4.53 x 2.07 x 0.70\" (115mm x 53mm x 18mm)",
+      "Weight": "4.30 oz (122 g)"
+    },
+    "Memory": {
+      "RAM": "60 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "176 X 220 px, 262,144 colors"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixel"
+    },
+    "Battery": {
+      "Battery": "Lithium Ion 800 mAh 6 hours (360 mins) of Talk time, 300 hours (13 days) of Stand-by time"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS / EDGE Class 10, Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 122,
+    "thickness_mm": 18
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Gravity (original)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Gravity_%28original%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Gravity (original)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Gravity (original)",
+    "revid": 1361483245
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

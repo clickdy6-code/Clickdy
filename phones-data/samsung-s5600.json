@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-s5600",
+  "brand": "Samsung",
+  "name": "S5600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/SamsungS5600.jpg/500px-SamsungS5600.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/SamsungS5600.jpg/250px-SamsungS5600.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung S5600",
+      "credit": "Esther Carton from Donostia., Euskadi., CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SamsungS5600.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series",
+      "Successor": "Samsung Monte (S5620), Samsung S5600v"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900/2100, 3G 900/2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "102.8 x 54.8 x 12.9 mm",
+      "Weight": "96g"
+    },
+    "Platform": {
+      "Operating system": "TouchWiz"
+    },
+    "Memory": {
+      "Storage": "80 MB",
+      "Card slot": "microSD up to 16 GB (microSDHC compatible)"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels 16M colors, (TFT capacitive touchscreen)"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP, 2048x1536 pixels, LED flash"
+    },
+    "Battery": {
+      "Battery": "Li-lon 1000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "HSDPA 7.2 Mbps, Bluetooth 2.1 and USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 96
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung S5600",
+      "url": "https://en.wikipedia.org/wiki/Samsung_S5600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung S5600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung S5600",
+    "revid": 1361483373
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

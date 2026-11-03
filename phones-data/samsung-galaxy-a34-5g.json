@@ -1,0 +1,99 @@
+{
+  "slug": "samsung-galaxy-a34-5g",
+  "brand": "Samsung",
+  "name": "Galaxy A34 5G",
+  "status": "published",
+  "announced": "2023-03-24",
+  "released": "2023-03-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A34.jpg/500px-%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A34.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A34.jpg/250px-%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A34.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A34 5G",
+      "credit": "Striker9498, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A34.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-03-24",
+      "Series": "Galaxy A series",
+      "Predecessor": "Samsung Galaxy A33 5G",
+      "Successor": "Samsung Galaxy A35 5G"
+    },
+    "Network": {
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.3 mm H , 78.1 mm W , 8.2 mm D",
+      "Weight": "199 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with One UI#One UI 5, One UI 5.1, Current: Android 16 with One UI#One UI 8.5, One UI 8.5",
+      "Chipset": "MediaTek Dimensity 1080 (6 nm)",
+      "CPU": "Octa-core (2x2.6 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MC4"
+    },
+    "Memory": {
+      "RAM": "6 GB, 8 GB RAM",
+      "Storage": "128 GB, 256 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.6 in, 1080 x 2340 pixels, 19.5:9 ratio (~390 ppi density), Super AMOLED, 120Hz refresh rate, Corning Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Sony IMX 582; 48 Megapixel, MP, 25mm, FoV 81.4°, 1/2.0\", 0.8µm, PDAF, OIS, Ultrawide: Samsung S5K4HAYX or Siliconfile SR846D; 8 Megapixel, MP, 16mm, FoV 108.7°, 1/4.0\", 1.12µm, Macro: GalaxyCore GC5035; 5 Megapixel, MP, 25mm, 1/5.0\", 1.12µm, fixed focus, Camera features: LED flash, panorama, HDR, Video recording: 4k resolution, 4K@30fps, 1080p@30/60fps, 720p@480fps",
+      "Front camera": "Sony IMX 258; 13 Megapixel, MP, 25mm (wide), FoV 80.9°, 1/3.06\", 1.12µm, Video recording:, 1080p@30fps, 4K resolution, 4K@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "Fast charging 25W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.3, A2DP, LE, A-GPS, GLONASS, GALILEO, BDS, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "MediaTek Dimensity 1080",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 13",
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 199,
+    "thickness_mm": 8.2,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A34 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A34_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A34 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A34 5G",
+    "revid": 1382776597
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

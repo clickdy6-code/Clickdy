@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-3",
+  "brand": "Samsung",
+  "name": "Galaxy 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Samsung_Galaxy_3_GT-I5800_%283%29.jpg/500px-Samsung_Galaxy_3_GT-I5800_%283%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Samsung_Galaxy_3_GT-I5800_%283%29.jpg/250px-Samsung_Galaxy_3_GT-I5800_%283%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy 3",
+      "credit": "Capmo, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_3_GT-I5800_(3).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy Spica",
+      "Successor": "Samsung Galaxy Ace"
+    },
+    "Network": {
+      "Technology": "HSDPA (3G) 900/2100, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "113.5 x 55 x 12.9 mm",
+      "Weight": "109 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.1 \"Eclair\", Current: Android 2.2 \"Froyo\"",
+      "CPU": "Samsung S5P6422 667 MHz",
+      "GPU": "FIMG 3DSE"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "512 MB (170 MB user-accessible)",
+      "Card slot": "MicroSD support for up to 32 GB"
+    },
+    "Display": {
+      "Display": "WQVGA TFT LCD, 3.2 in (82 mm) diagonal. 240 x 400 px, 16 M colors"
+    },
+    "Cameras": {
+      "Rear camera": "3 Mpix (official spec), autofocus., Video: recording in 3GP (MPEG+AMR-nb); MP4, 3GP playback"
+    },
+    "Sound": {
+      "Sound": "MP3, AMR, AAC, AAC+, e-AAC+, WMA, WAV, OGG, MID"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh., Stand-by:, Up to 620 h (2G), Up to 510 h (3G), Talk time:, Up to 15 h 30 min (2G), Up to 7 h 15 min (3G)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 3.0, Wi-Fi 802.11 b/g/n, GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 109
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy 3",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy 3",
+    "revid": 1361480572
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

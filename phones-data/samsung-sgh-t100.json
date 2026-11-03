@@ -1,0 +1,58 @@
+{
+  "slug": "samsung-sgh-t100",
+  "brand": "Samsung",
+  "name": "SGH-T100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung SGH-TXXX series",
+      "Predecessor": "Samsung SGH-A800",
+      "Successor": "Samsung SGH-T200"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 (tri-band)"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Dimensions": "89 x 46 x 23mm",
+      "Weight": "3.24 oz (92 g)"
+    },
+    "Platform": {
+      "Operating system": "Proprietary"
+    },
+    "Memory": {
+      "RAM": "128-256 KB",
+      "Storage": "128-256 KB"
+    },
+    "Display": {
+      "Display": "160 x 128 TFT LCD"
+    },
+    "Battery": {
+      "Battery": "Lithium Ion 750-900 mAh"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 900,
+    "five_g": false,
+    "weight_g": 92
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-T100",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-T100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-T100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-T100",
+    "revid": 1381419309
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "samsung-galaxy-a04",
+  "brand": "Samsung",
+  "name": "Galaxy A04",
+  "status": "published",
+  "announced": "2022-08-24",
+  "released": "2022-08-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Samsung_Galaxy_A04e_back_side%2C_with_the_copper_color.jpg/500px-Samsung_Galaxy_A04e_back_side%2C_with_the_copper_color.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Samsung_Galaxy_A04e_back_side%2C_with_the_copper_color.jpg/250px-Samsung_Galaxy_A04e_back_side%2C_with_the_copper_color.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A04",
+      "credit": "Yigit6131pro, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A04e_back_side,_with_the_copper_color.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A04: 2022-08-24, A04s: 2022-08-31, A04e: 2022-10-21",
+      "Series": "Galaxy A",
+      "Predecessor": "Samsung Galaxy A03",
+      "Successor": "Samsung Galaxy A05"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "A04: 164.4 mm H, 76.3 mm W, 9.1 mm D, A04s: 164.7 mm H, 76.7 mm W, 9.1 mm D, A04e: 164.2 mm H, 75.9 mm W, 9.1 mm D",
+      "Weight": "A04: 192 g, A04s: 195 g, A04e: 188 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12 with One UI Core 4.1, Current: Android 14 with One UI 6.1",
+      "Chipset": "A04/A04e: MediaTek Helio P35 (12nm), A04s: Exynos 850 (8nm)",
+      "CPU": "A04/A04e: Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53), A04s: Octa-core (4x2.0 GHz Cortex-A55 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "A04: PowerVR GE8320, A04s: Mali-G52"
+    },
+    "Memory": {
+      "RAM": "A04/A04e: 3 or 4 GB, A04s: 4, 6 or 8 GB RAM",
+      "Storage": "32, 64, 128 GB eMMC 5.1",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.5 in, Infinity-V Display, px resolution, 20:9 aspect ratio (~270 ppi density), PLS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Dual-Camera Setup, A04:, Primary: Hynix Hi-5021Q; 50 MP, 25mm, FoV 80.8°, 1/2.55\", 0.7µm, AF, Depth: SmartSens SC201CS; 2 MP, 1/5.1\", 1.75µm, A04e:, Primary: Hynix Hi-1336; 13 MP, 26mm, FoV 82.1°, 1/3.1\", 1.12µm, AF, Depth: SmartSens SC201CS; 2 MP, 1/5.1\", 1.75µm, Triple-Camera Setup, A04s:, Primary: Samsung ISOCELL S5KJN1; 50 MP, 26mm, FoV 78.8°, 1/2.76\", 0.64µm, PDAF, Macro: GalaxyCore GC02M1; 2 MP, 1/5.0\", 1.75µm, Depth: GalaxyCore GC02M1B; 2 MP, 1/5.0\", 1.75µm, Features:, All: LED flash, panorama, HDR, Video:, All: 1080p@30 fps",
+      "Front camera": "Hynix Hi-556; 5 MP, 27mm (wide), FoV 76.8°, 1/5.0\", 1.12µm, Video:, All: 720p@30 fps"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 5000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "LCD",
+    "chipset": "A04/A04e: MediaTek Helio P35",
+    "ram_gb": [
+      4,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 192,
+    "thickness_mm": 9.1,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A04",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A04"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A04\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A04",
+    "revid": 1380481440
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

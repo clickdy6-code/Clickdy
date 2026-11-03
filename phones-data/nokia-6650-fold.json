@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-6650-fold",
+  "brand": "Nokia",
+  "name": "6650 fold",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Nokia_6650_fold_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9.jpg/500px-Nokia_6650_fold_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Nokia_6650_fold_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9.jpg/250px-Nokia_6650_fold_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6650 fold",
+      "credit": "Егор негр, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6650_fold_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia N75, Nokia 6290"
+    },
+    "Network": {
+      "Technology": "GSM 850, 900, 1,800, and 1,900 MHz, HSDPA 850 and 2,100 Mhz"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "99.7×47×16.2 mm",
+      "Weight": "112 g",
+      "Other": "A-GPS, Stereo FM radio"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS, S60 v3.2",
+      "CPU": "ARM 11, 369 MHz"
+    },
+    "Memory": {
+      "RAM": "30 MB internal",
+      "Card slot": "microSD (up to 8 GB)"
+    },
+    "Display": {
+      "Display": "2.2 in TFT LCD (16 million colors, 240×320)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixels (1,600×1,200)"
+    },
+    "Battery": {
+      "Battery": "1.5 Ah Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 with A2DP, Micro-USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "os": "Symbian OS",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 112
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6650 fold",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6650_fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6650 fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6650 fold",
+    "revid": 1361477687
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

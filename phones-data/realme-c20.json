@@ -1,0 +1,89 @@
+{
+  "slug": "realme-c20",
+  "brand": "Realme",
+  "name": "C20",
+  "status": "published",
+  "announced": "2021-01-19",
+  "released": "2021-01-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "C20: 2021-01-19, C20A: 2021-05-11, C11 2021: 2021-06-28, narzo 50i: 2021-09-24",
+      "Series": "C/narzo",
+      "Predecessor": "realme C11",
+      "Successor": "realme C30"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.2 × 76.4 × 8.9 mm",
+      "Weight": "C20 & 11 2021: 190 g, narzo 50i: 195 g"
+    },
+    "Platform": {
+      "Operating system": "C20: Android 10 + realme UI 1, C11 2021 & narzo 50i: Android 11 + realme UI Go Edition (Android Go)",
+      "CPU": "C20: MediaTek MT6762 Helio G35 (12 nm), Octa-core (4×2.3 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53), C11 2021 & narzo 50i: Unisoc SC9863A (28 nm), Octa-core (4×1.6 GHz Cortex-A55 & 4×1.2 GHz Cortex-A55)",
+      "GPU": "C20: PowerVR GE8320, C11 2021 & narzo 50i: IMG8322"
+    },
+    "Memory": {
+      "RAM": "C20 & 11 2021: 2 GB, narzo 50i: 2/4 GB, LPDDR4X",
+      "Storage": "C20 & 11 2021: 32 GB, narzo 50i: 32/64 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1600 × 720 (HD+), 20:9, 270 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.0 (wide-angle), 1/4.0\", 1.12 μm, AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, f/2.2 (wide-angle), 1/5.0\", 1.12 μm, HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "10 W, reverse charging"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 5.1 (C20)/4.2 (C11 2021 & narzo 50i) (A2DP, LE (C20)), FM radio, Wi-Fi 802.11 a (C20)b/g/n/ac (C20) (dual-band (C20), Wi-Fi Direct (C20), hotspot), GPS, A-GPS, GLONASS, Galileo (C11 2021 & narzo 50i), BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 190,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C20",
+      "url": "https://en.wikipedia.org/wiki/Realme_C20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C20",
+    "revid": 1361479622
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

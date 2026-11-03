@@ -1,0 +1,87 @@
+{
+  "slug": "redmi-note-9-pro",
+  "brand": "Redmi",
+  "name": "Note 9 Pro",
+  "status": "published",
+  "announced": "2020-05-05",
+  "released": "2020-05-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Note 9 Pro: 2020-05-05 , Note 9 Pro Max: 2020-05-12",
+      "Predecessor": "Redmi Note 8 Pro",
+      "Successor": "Redmi Note 10 Pro"
+    },
+    "Network": {
+      "Technology": "GSM / HSDPA / 4G LTE",
+      "SIM": "2× Nano-SIM"
+    },
+    "Body": {
+      "Dimensions": "165.8 × 76.7 × 8.8 mm (6.53 × 3.02 × 0.35 in)",
+      "Weight": "7.37 oz"
+    },
+    "Platform": {
+      "Operating system": "Initial , Android 10 with MIUI 11 interface , Current , Android 12 with MIUI 14 interface",
+      "Chipset": "All models: Qualcomm SM7125 Snapdragon 720G (8 nm)",
+      "CPU": "All models: Octa-core (2x 2.3 GHz Kryo 465 Gold & 6 x1.8 GHz Kryo 465 Silver)",
+      "GPU": "All models: Adreno 618"
+    },
+    "Memory": {
+      "RAM": "4/6/8GB RAM",
+      "Storage": "64/128GB",
+      "Card slot": "microSDXC, up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.67\" IPS LCD DotDisplay , 1080 × 2400 pixels , 20:9 aspect ratio , ~395 ppi density"
+    },
+    "Cameras": {
+      "Rear camera": "Note 9 Pro / Pro Max:, 64MP Primary AI lens, wide-angle with 1/1.72\" Samsung GW1 sensor (), 8MP Ultra-wide (119°) , 5MP Macro, 2MP Depth, Note 9 Pro (India):, Note 9 Pro / Pro Max:, 48MP Primary AI lens, wide-angle with Samsung ISOCELL Bright GM2 sensor (), 8MP Ultra-wide (119°) , 5MP Macro, 2MP Depth, All lenses with auxiliary lens, features LED flash, HDR and panorama , Video: 4K@30fps, 1080p@30/60/120fps, 720p@960fps with gyro-EIS",
+      "Front camera": "Note 9 Pro (Global/India): 16MP wide-angle () , Lens size: 1/3.06\" , Note 9 Pro Max: 32MP wide-angle , Lens size: 1/2.8\" , All models support HDR and panorama , Video: 1080p@30/120fps"
+    },
+    "Battery": {
+      "Battery": "Li-po 5,020 mAh (non-removable)",
+      "Charging": "Note 9 Pro (India): 18W wired , Note 9 Pro (global): 30W wired , Note 9 Pro Max: 33W wired , USB Type-C 2.0"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Bluetooth 5.0, A2DP, LE, Positioning, GPS, GLONASS, GALILEO, BDS, NavIC (Note 9 Pro Max only)"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "IPS LCD",
+    "chipset": "All models: Qualcomm SM7125 Snapdragon 720G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 5020,
+    "wired_w": 33,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi Note 9 Pro",
+      "url": "https://en.wikipedia.org/wiki/Redmi_Note_9_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi Note 9 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi Note 9 Pro",
+    "revid": 1379414448
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

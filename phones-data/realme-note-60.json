@@ -1,0 +1,106 @@
+{
+  "slug": "realme-note-60",
+  "brand": "Realme",
+  "name": "Note 60",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Realme_note_60x.jpg/500px-Realme_note_60x.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Realme_note_60x.jpg/250px-Realme_note_60x.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Realme Note 60",
+      "credit": "History012, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Realme_note_60x.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Realme Note / C / Narzo series",
+      "Predecessor": "realme Note 50",
+      "Successor": "realme Note 70"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "167.3 mm × 76.7 mm × 7.8 mm",
+      "Weight": "187 g (6.60 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 14 with Realme UI 5.0",
+      "Chipset": "Unisoc Tiger T612 (12 nm)",
+      "CPU": "Octa-core (2×1.8 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G57"
+    },
+    "Memory": {
+      "RAM": "4 GB or 6 GB LPDDR4X RAM",
+      "Storage": "64 GB, 128 GB, or 256 GB",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.74 in (171 mm) IPS LCD, 90Hz, 450 nits (typ), 560 nits (HBM), 720 × 1600 pixels, 20:9 ratio (~260 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Note 60: 32 MP \"Super Clear\", f/1.8, (wide), PDAF + auxiliary lens, Note 60x: 8 MP (wide), PDAF + auxiliary lens, LED flash, panorama, HDR, Video: 480/720/1080p @ 30fps",
+      "Front camera": "5 MP, f/2.2, (wide), 720p@30fps video"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm audio jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh Li-Po (non-removable)",
+      "Charging": "10W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Bluetooth 5.0, A2DP, LE, GPS, GLONASS, GALILEO, BDS, USB Type-C 2.0, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.74,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "peak_nits": 560,
+    "chipset": "Unisoc Tiger T612",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 32,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 14",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 187,
+    "thickness_mm": 7.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme Note 60",
+      "url": "https://en.wikipedia.org/wiki/Realme_Note_60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme Note 60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme Note 60",
+    "revid": 1375559498
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

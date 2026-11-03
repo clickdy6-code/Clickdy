@@ -1,0 +1,88 @@
+{
+  "slug": "hmd-nokia-g10",
+  "brand": "HMD",
+  "name": "Nokia G10",
+  "status": "published",
+  "announced": "2021-04-26",
+  "released": "2021-04-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 26, 2021",
+      "Discontinued": "2024-07-24",
+      "Series": "G series, Android One",
+      "Successor": "Nokia G11"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.9 x 76 x 0.2 mm",
+      "Weight": "194 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Android 11, Current: Android 13",
+      "Chipset": "Mediatek Helio G25",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A53 & 4x1.5 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "3GB RAM & 4GB RAM",
+      "Storage": "32GB & 64GB",
+      "Card slot": "microSD, up to 512 GB (shared)"
+    },
+    "Display": {
+      "Display": "IPS LCD 6.52 in 1600 x 720"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (wide) + 2 MP (macro) + 2 MP (depth), flash",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5050 mAh",
+      "Charging": "USB-C charging (10 W)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, USB-C port, 2G, 3G, 4G LTE"
+    }
+  },
+  "key": {
+    "display_in": 6.52,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek Helio G25",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 5050,
+    "wired_w": 10,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 194,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia G10",
+      "url": "https://en.wikipedia.org/wiki/Nokia_G10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia G10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia G10",
+    "revid": 1361478258
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

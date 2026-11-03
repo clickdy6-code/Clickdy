@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-core-prime",
+  "brand": "Samsung",
+  "name": "Galaxy Core Prime",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Samsung_Galaxy_Core_Prime_LTE_charcoal_gray_-_front.jpg/500px-Samsung_Galaxy_Core_Prime_LTE_charcoal_gray_-_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Samsung_Galaxy_Core_Prime_LTE_charcoal_gray_-_front.jpg/250px-Samsung_Galaxy_Core_Prime_LTE_charcoal_gray_-_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Core Prime",
+      "credit": "Katie Chan, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Core_Prime_LTE_charcoal_gray_-_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-11, 2015 (Value Edition)",
+      "Series": "Samsung Galaxy Core",
+      "Predecessor": "Samsung Galaxy Core 2",
+      "Successor": "Samsung Galaxy J1, Samsung Galaxy J2"
+    },
+    "Network": {
+      "Technology": "(GSM/GPRS/EDGE): 850, 900, 1800, and 1900 MHz; , 3G (HSPA 42.2/5.76 Mbit/s): HSDPA 850, 900, 1900, and 2100 MHz;, 4G LTE (Cat4 150/50 Mbit/s): 700, 800, 850, 900, 1700, 1800, 1900, 2100, and 2600 MHz"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "130.8 mm H , 67.9 mm W , 8.8 mm D",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.4 KitKat , upgradable to Android Lollipop 5.0.2 or 5.1.1",
+      "Chipset": "Qualcomm Snapdragon MSM8916 410, Spreadtrum SC8830 (SM-G360H)",
+      "CPU": "ARM-A7 1.2 GHz quad-core CPU (SM-G360H)",
+      "GPU": "Adreno 306, Mali-400MP (SM-360H)"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSD, microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "4.5 in 480×800 px (207 dpi)"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixel with LED flash",
+      "Front camera": "2 Megapixel"
+    },
+    "Battery": {
+      "Battery": "2000 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "chipset": "Qualcomm Snapdragon MSM8916 410",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2000,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 130,
+    "thickness_mm": 8.8,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Core Prime",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Core_Prime"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Core Prime\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Core Prime",
+    "revid": 1361481638
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

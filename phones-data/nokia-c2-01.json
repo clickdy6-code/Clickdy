@@ -1,0 +1,70 @@
+{
+  "slug": "nokia-c2-01",
+  "brand": "Nokia",
+  "name": "C2-01",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Nokia_C2-01.JPG/500px-Nokia_C2-01.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Nokia_C2-01.JPG/250px-Nokia_C2-01.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C2-01",
+      "credit": "Robson309, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_C2-01.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-02",
+      "Discontinued": "Q2 2013",
+      "Predecessor": "Nokia 2700 classic, Nokia 2730 classic",
+      "Successor": "Nokia Asha 300"
+    },
+    "Body": {
+      "Dimensions": "109.8 x 46.9 x 15.3 mm",
+      "Weight": "89 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 6th edition",
+      "CPU": "100MHz RAP3GS2v4"
+    },
+    "Memory": {
+      "RAM": "64 MB",
+      "Storage": "125 MB",
+      "Card slot": "microSD (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "2.0 in"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel",
+      "Front camera": "NA"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1+EDR, Micro-USB"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "nfc": false,
+    "weight_g": 89,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C2-01",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C2-01"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C2-01\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C2-01",
+    "revid": 1361478091
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

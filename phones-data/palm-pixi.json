@@ -1,0 +1,75 @@
+{
+  "slug": "palm-pixi",
+  "brand": "Palm",
+  "name": "Pixi",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Palm_Pixi_Sprint.jpg/500px-Palm_Pixi_Sprint.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Palm_Pixi_Sprint.jpg/250px-Palm_Pixi_Sprint.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Palm Pixi",
+      "credit": "惟①刻¾, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Palm_Pixi_Sprint.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "Sprint (non Plus) Verizon Wireless AT&T (both Pixi Plus)"
+    },
+    "Body": {
+      "Form factor": "Candybar smartphone",
+      "Dimensions": "111 mm (h), 55 mm (w), 10.85 mm (d)",
+      "Weight": "92.5 g"
+    },
+    "Platform": {
+      "Operating system": "Palm webOS",
+      "CPU": "Qualcomm MSM7627, 600 MHz ARM applications core and 400 MHz ARM modem core"
+    },
+    "Memory": {
+      "RAM": "256 MB 166 MHz DDR RAM",
+      "Storage": "Flash memory, 8 GB (7 GB available to user)"
+    },
+    "Display": {
+      "Display": "320×400 px, 2.63 in, 18-bit color Sub-HVGA"
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel camera with LED flash, geotagging"
+    },
+    "Battery": {
+      "Battery": "3.7 V 1150 mAh, Internal rechargeable removable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1+EDR, MicroUSB, A-GPS, Pixi Plus: Wi-Fi(802.11b/g), CDMA version: Dual band CDMA2000/EV-DO Rev. A 800/1900 MHz, GSM version: Quad band GSM 850 900 1800 1900 MHz GPRS/EDGE and Tri band UMTS 850, 1900, 2100 MHz HSDPA"
+    }
+  },
+  "key": {
+    "display_in": 2.63,
+    "storage_gb": [
+      7,
+      8
+    ],
+    "battery_mah": 1150,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 92.5,
+    "thickness_mm": 10.85
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Palm Pixi",
+      "url": "https://en.wikipedia.org/wiki/Palm_Pixi"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Palm Pixi\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Palm Pixi",
+    "revid": 1374459391
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

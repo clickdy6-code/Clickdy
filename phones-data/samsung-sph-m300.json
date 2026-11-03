@@ -1,0 +1,75 @@
+{
+  "slug": "samsung-sph-m300",
+  "brand": "Samsung",
+  "name": "SPH-M300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Samsung_SPH-M300_Cell_Phone.jpg/500px-Samsung_SPH-M300_Cell_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Samsung_SPH-M300_Cell_Phone.jpg/250px-Samsung_SPH-M300_Cell_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SPH-M300",
+      "credit": "Twburger, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_SPH-M300_Cell_Phone.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Mid 2007 North America"
+    },
+    "Network": {
+      "Technology": "CDMA2000 1X , (Sprint, Virgin Mobile Canada, Bell Mobility, PC Mobile)"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Dimensions": "3.5”x1.9”x0.7” - 91.0mm x 47.0mm x 17.5mm",
+      "Weight": "2.6 ounces - 85 grams",
+      "Other": "SMS, GPS, voice recognition, Bluetooth, WAP 2.0 Web Browser, Java MIDP1.0"
+    },
+    "Platform": {
+      "Operating system": "REX OS"
+    },
+    "Memory": {
+      "RAM": "4 MB",
+      "Storage": "614KB, 299 contact entries",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "LCD TFT 2 inch 128x160"
+    },
+    "Cameras": {
+      "Rear camera": "0.3-megapixel 640x480 maximum (also 224x168, 320x240)",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "lithium ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth DUN, OPP/FTP, HFP, HSP"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "LCD",
+    "nfc": false,
+    "thickness_mm": 17.5,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SPH-M300",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SPH-M300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SPH-M300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SPH-M300",
+    "revid": 1361483608
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

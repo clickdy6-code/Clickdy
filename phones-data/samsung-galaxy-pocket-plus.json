@@ -1,0 +1,71 @@
+{
+  "slug": "samsung-galaxy-pocket-plus",
+  "brand": "Samsung",
+  "name": "Galaxy Pocket Plus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 2013",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy Pocket",
+      "Successor": "Samsung Galaxy Pocket Neo"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "104.9 x 57.9 x 12 mm",
+      "Weight": "97.2 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.4 \"Ice Cream Sandwich\" with TouchWiz",
+      "CPU": "Broadcom BCM21654 ARM Cortex-A9 850 MHz processor"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4 GB",
+      "Card slot": "MicroSD support for up to 32 GB"
+    },
+    "Display": {
+      "Display": "QVGA TFT LCD, 2.8 in (71 mm) diagonal. 240 x 320 px, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixel"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1200mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "2G: 850 900 1800 1900 MHz, 3G: 1900 2100 MHz, HSDPA: 3.6 Mbps, Wi-Fi: 802.11b/g/n, Bluetooth: v4.0 with A2DP"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1200,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 97.2,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Pocket Plus",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Pocket_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Pocket Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Pocket Plus",
+    "revid": 1361482725
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

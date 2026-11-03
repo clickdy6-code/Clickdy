@@ -1,0 +1,84 @@
+{
+  "slug": "samsung-galaxy-pocket",
+  "brand": "Samsung",
+  "name": "Galaxy Pocket",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Samsung_Galaxy_Pocket.jpg/500px-Samsung_Galaxy_Pocket.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Samsung_Galaxy_Pocket.jpg/250px-Samsung_Galaxy_Pocket.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Pocket",
+      "credit": "Honziproduction, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Pocket.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April, 2012",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy Mini 2",
+      "Successor": "Samsung Galaxy Pocket Plus"
+    },
+    "Network": {
+      "Technology": "2G bands GSM 850 / 900 / 1800 / 1900, 3G bands HSDPA 900 / 2100"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "103.7 x 57.5 x 12 mm",
+      "Weight": "97.03 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 (Gingerbread) with TouchWiz 3.0",
+      "CPU": "Broadcom BCM21553 ARM11 ARMv6 832 MHz processor"
+    },
+    "Memory": {
+      "RAM": "289 MB",
+      "Storage": "3 GB",
+      "Card slot": "MicroSD support for up to 32 GB"
+    },
+    "Display": {
+      "Display": "QVGA TFT LCD, 2.8 in (71 mm) diagonal. 240 x 320 px, 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP (1600x1200 px)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1200mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "2G: 850 900 1800 1900 MHz, 3G: 1900 2100 MHz, HSDPA: 3.6 Mbps, Wi-Fi: 802.11b/g/n, Bluetooth: v3.0 with A2DP"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 97.03,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Pocket",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Pocket"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Pocket\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Pocket",
+    "revid": 1361482709
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

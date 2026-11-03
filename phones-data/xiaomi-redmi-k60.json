@@ -1,0 +1,107 @@
+{
+  "slug": "xiaomi-redmi-k60",
+  "brand": "Xiaomi",
+  "name": "Redmi K60",
+  "status": "published",
+  "announced": "2023-01-01",
+  "released": "2023-01-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Redmi_K60_Screen.jpg/500px-Redmi_K60_Screen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Redmi_K60_Screen.jpg/250px-Redmi_K60_Screen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi K60",
+      "credit": "洛微, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_K60_Screen.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "K60/K60 Pro/K60E: 2023-01-01, Poco F5 Pro: 2023-05-09",
+      "Series": "Redmi K, Poco F",
+      "Predecessor": "Redmi K50",
+      "Successor": "Redmi K70"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / CDMA2000 / LTE / 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.8 mm H , 75.4 mm W , 8.6 mm D",
+      "Weight": "202 g (K60E) 204 g (K60/Poco F5 Pro) 205 g (K60 Pro)"
+    },
+    "Platform": {
+      "Operating system": "Original:, K60/K60 Pro: Android 13 with MIUI 14, K60E: Android 12 with MIUI 13, Poco F5 Pro: Android 13 with MIUI 14 for Poco, Current:, K60/K60 Pro/Poco F5 Pro: Android 15 with Xiaomi HyperOS 3, K60E: Android 14 with Xiaomi HyperOS 2",
+      "Chipset": "K60/Poco F5 Pro: Qualcomm Snapdragon 8+ Gen 1 (4 nm), K60 Pro: Qualcomm Snapdragon 8 Gen 2 (4 nm), K60E: MediaTek Dimensity 8200 (4 nm)",
+      "CPU": "K60/Poco F5 Pro: Octa-core (1x3.0 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510), K60 Pro: Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510), K60E: Octa-core (1x3.1 GHz Cortex-A78 & 3x3.0 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "K60/Poco F5 Pro: Adreno 730, K60 Pro:Adreno 740, K60E: Mali-G610 MC6"
+    },
+    "Memory": {
+      "RAM": "8/12/16 GB RAM",
+      "Storage": "128, 256, 512 GB"
+    },
+    "Display": {
+      "Display": "6.67 in, OLED, 120Hz refresh rate, Dolby Vision, HDR10+, 1200 nits (peak), px resolution, 20:9 ratio (~526 ppi density), 1920Hz low brightness dimming (K60/K60 Pro/Poco F5 Pro), Provided by Samsung Display(K60E), Provided by CSOT (K60/K60 Pro/Poco F5 Pro), Corning Gorilla Glass Victus (K60E), Corning Gorilla Glass 5 (K60/K60 Pro/Poco F5 Pro)"
+    },
+    "Cameras": {
+      "Rear camera": "K60/Poco F5 Pro: 64 MP, f/1.8, (wide), 1/2\", 0.7µm, PDAF, OIS (Omnivision OV64B), 8 MP, 120˚ (ultrawide), 2 MP, f/2.4, (macro), 8K@24fps, 4K@30/60fps, 1080p@30/60/120fps, 720p@960fps; gyro-EIS, K60 Pro: 50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, PDAF, OIS (Sony IMX800), 8 MP, 120˚ (ultrawide), 2 MP, f/2.4, (macro), 8K@24fps, 4K@30/60fps, 1080p@30/60/120fps, 720p@960fps; gyro-EIS, K60E: 48 MP, (wide), 1/2\", 0.8µm, PDAF, OIS (Sony IMX582), 8 MP, 120˚ (ultrawide), 1/4\", 1.12µm, 2 MP, f/2.4, (macro), 4K@30fps, 1080p@30/60/120fps, 720p@960fps, gyro-EIS, All: Dual-LED dual-tone flash, HDR, panorama",
+      "Front camera": "K60/K60 Pro/Poco F5 Pro: 16 MP, (wide), 1/3.06\", 1.0µm, K60E: 20 MP, (wide), 1/2.0\", 0.8µm, All: 1080p@30/60/120fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "5500 mAh (K60/K60E), 5000 mAh (K60 Pro), 5160 mAh (Poco F5 Pro)",
+      "Charging": "67W Wired (K60/K60E/Poco F5 Pro), 120W Wired (K60 Pro), 30W Wireless (K60/K60 Pro/Poco F5 Pro), No Reverse Wireless Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, Bluetooth 5.3, A2DP, LE., Wi-Fi 7 for K60 Pro"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "OLED",
+    "refresh_hz": 920,
+    "peak_nits": 1200,
+    "chipset": "K60/Poco F5 Pro: Qualcomm Snapdragon 8+ Gen 1",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": false,
+    "video": "8K@24fps",
+    "front_mp": 16,
+    "battery_mah": 5500,
+    "wireless_w": 30,
+    "wired_w": 120,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 7",
+    "dual_sim": true,
+    "weight_g": 202,
+    "thickness_mm": 8.6,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi K60",
+      "url": "https://en.wikipedia.org/wiki/Redmi_K60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi K60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi K60",
+    "revid": 1361479880
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

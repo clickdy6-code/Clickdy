@@ -1,0 +1,65 @@
+{
+  "slug": "nokia-e73-mode",
+  "brand": "Nokia",
+  "name": "E73 Mode",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia E72"
+    },
+    "Network": {
+      "Technology": "2G, 3G"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "2.4 inches, 17.8 square-cm (~26.8% screen-to-body ratio)",
+      "Weight": "127.6 g (4.48 oz)"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.3, Series 60 v3.2",
+      "CPU": "600 MHz ARM11 processor"
+    },
+    "Memory": {
+      "RAM": "250 MB internal storage, ROM: 512 MiB, SDRAM: 128 MiB, ~45 MiB free executable RAM",
+      "Card slot": "MicroSDHC support for up to 16GiB"
+    },
+    "Display": {
+      "Display": "320 × 240 pixels, 4:3 ratio (~167 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixels with autofocus and LED flash",
+      "Front camera": "VGA videocall camera"
+    },
+    "Battery": {
+      "Battery": "BP-4L, 3.7V 1,500 mAh lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 802.11 b, g, Integrated & Assisted GPS, Bluetooth 2.0, micro USB, 3.5 mm audio jack"
+    }
+  },
+  "key": {
+    "battery_mah": 1500,
+    "os": "Symbian OS v9.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 127.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E73 Mode",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E73_Mode"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E73 Mode\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E73 Mode",
+    "revid": 1361478242
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

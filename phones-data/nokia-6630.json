@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-6630",
+  "brand": "Nokia",
+  "name": "6630",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Vodafone_702NK_BordeauxRouge_front.jpg/500px-Vodafone_702NK_BordeauxRouge_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Vodafone_702NK_BordeauxRouge_front.jpg/250px-Vodafone_702NK_BordeauxRouge_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6630",
+      "credit": "Episteme, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vodafone_702NK_BordeauxRouge_front.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6600 (6630)",
+      "Successor": "Nokia 6680 (6630)"
+    },
+    "Network": {
+      "Technology": "EDGE, GSM tri-band (900/1800/1900), UMTS 2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "110mm x 60mm x 20.6mm",
+      "Weight": "127g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 8.0a + S60 2nd Edition FP2",
+      "CPU": "220 MHz OMAP 1710"
+    },
+    "Memory": {
+      "RAM": "10MB",
+      "Card slot": "DV-RS-MMC (1.8V)"
+    },
+    "Display": {
+      "Display": "176 x 208, 65,536 colour, 2.1\" TFT"
+    },
+    "Cameras": {
+      "Rear camera": "1.3-megapixel"
+    },
+    "Battery": {
+      "Battery": "BL-5C"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.1,
+    "display_type": "TFT",
+    "os": "Symbian OS 8.0a + S60 2nd Edition FP2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 127,
+    "thickness_mm": 20.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6630",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6630"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6630\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6630",
+    "revid": 1361477678
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

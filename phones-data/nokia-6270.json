@@ -1,0 +1,88 @@
+{
+  "slug": "nokia-6270",
+  "brand": "Nokia",
+  "name": "6270",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nokia_6270_%28Dark_Brown%29_-_Front_%28Open%29.jpg/500px-Nokia_6270_%28Dark_Brown%29_-_Front_%28Open%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nokia_6270_%28Dark_Brown%29_-_Front_%28Open%29.jpg/250px-Nokia_6270_%28Dark_Brown%29_-_Front_%28Open%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6270",
+      "credit": "Beamish4, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6270_(Dark_Brown)_-_Front_(Open).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2005, June",
+      "Discontinued": "Yes",
+      "Series": "6000 series",
+      "Predecessor": "Nokia 6230",
+      "Successor": "Nokia 6288"
+    },
+    "Network": {
+      "Technology": "GSM",
+      "SIM": "Mini-SIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "104 mm H , 50 mm W , 23 mm D",
+      "Weight": "125 g",
+      "Other": "Stereo FM radio; SMS, MMS, Email, Instant Messaging; Organizer; Voice dial; Games (3D snake + downloadable); Java MIDP 2.0"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "9 MB (5 MB user available)",
+      "Card slot": "miniSD, 128 MB included"
+    },
+    "Display": {
+      "Display": "2.2 inches, TFT, 256K colors, 240 x 320 pixels (~182 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP with LED flash, QCIF video recording"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker with stereo speakers; Vibration; Downloadable polyphonic and MP3 ringtones; No 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 970 mAh battery (BL-5C)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0; Infrared port; USB Pop-Port; No WLAN"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 970,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 125,
+    "thickness_mm": 23,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6270",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6270"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6270\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6270",
+    "revid": 1381853083
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

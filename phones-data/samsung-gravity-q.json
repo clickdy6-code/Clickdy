@@ -1,0 +1,71 @@
+{
+  "slug": "samsung-gravity-q",
+  "brand": "Samsung",
+  "name": "Gravity Q",
+  "status": "published",
+  "announced": "2013-07-02",
+  "released": "2013-07-02",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States 2013-07-02 (T-Mobile)",
+      "Series": "Samsung Gravity"
+    },
+    "Network": {
+      "Technology": "GSM quad-band, UMTS (3G) Bands 2, 4, 5"
+    },
+    "Body": {
+      "Form factor": "Side-sliding QWERTY",
+      "Dimensions": "113 x",
+      "Weight": "119 g"
+    },
+    "Platform": {
+      "CPU": "416 MHz ST-Ericsson U6805-Core"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM",
+      "Storage": "256 MB ROM",
+      "Card slot": "microSDHC up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.0 in (76 mm) TFT LCD, 320 x 240 pixels (133 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP"
+    },
+    "Battery": {
+      "Battery": "1,000 mAh Li-ion (removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + EDR, Micro-USB, 3.5 mm headphone jack , Carrier: T-Mobile"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 119,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Gravity Q",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Gravity_Q"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Gravity Q\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Gravity Q",
+    "revid": 1361483247
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

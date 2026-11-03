@@ -1,0 +1,95 @@
+{
+  "slug": "realme-narzo-30-pro",
+  "brand": "Realme",
+  "name": "Narzo 30 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021, February 24",
+      "Series": "Realme Narzo Series",
+      "Predecessor": "Realme Narzo 20 Pro",
+      "Successor": "Realme Narzo 50 Pro"
+    },
+    "Network": {
+      "SIM": "Nano-SIM + Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.2 x 75.1 x 9.1 mm (6.39 x 2.96 x 0.36 in)",
+      "Weight": "196 g (6.91 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 10, Realme UI",
+      "Chipset": "Mediatek Dimensity 800U (7 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC3"
+    },
+    "Memory": {
+      "RAM": "64GB 6GB RAM, 128GB 8GB RAM",
+      "Storage": "64GB 6GB RAM, 128GB 8GB RAM",
+      "Card slot": "microSDXC (uses shared SIM slot)"
+    },
+    "Display": {
+      "Display": "IPS LCD, 120Hz , 480 nits (typical), 600 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF, 8 MP, f/2.3, 119˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP (macro)",
+      "Front camera": "16 MP, f/2.1, 26mm (wide), 1/3.09\", 1.0µm"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "30W wired, PD, 50% in 25 min, 100% in 65 min"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM / HSPA / LTE / 5G"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "peak_nits": 600,
+    "chipset": "Mediatek Dimensity 800U",
+    "ram_gb": [
+      6,
+      8,
+      28,
+      64
+    ],
+    "storage_gb": [
+      6,
+      8,
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 30,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 196,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme Narzo 30 Pro",
+      "url": "https://en.wikipedia.org/wiki/Realme_Narzo_30_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme Narzo 30 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme Narzo 30 Pro",
+    "revid": 1383256347
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "hmd-nokia-c200",
+  "brand": "HMD",
+  "name": "Nokia C200",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022",
+      "Series": "Nokia C series"
+    },
+    "Network": {
+      "Technology": "4G LTE"
+    },
+    "Platform": {
+      "Operating system": "Android 12",
+      "Chipset": "MediaTek Helio A22"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "32 GB"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "4000 mAh"
+    }
+  },
+  "key": {
+    "chipset": "MediaTek Helio A22",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 12",
+    "five_g": false,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C200",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C200"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C200\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C200",
+    "revid": 1364129888
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

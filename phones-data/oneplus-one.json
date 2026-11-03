@@ -1,0 +1,94 @@
+{
+  "slug": "oneplus-one",
+  "brand": "OnePlus",
+  "name": "One",
+  "status": "published",
+  "announced": "2014-04-23",
+  "released": "2014-04-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/OnePlus_One.png/500px-OnePlus_One.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/OnePlus_One.png/250px-OnePlus_One.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus One",
+      "credit": "danishprakash (http://danishprakash.deviantart.com/), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_One.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-04-23",
+      "Discontinued": "2016-04-26",
+      "Successor": "OnePlus 2"
+    },
+    "Network": {
+      "Technology": "GSM, WCDMA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "152.9 mm H, 75.9 mm W, 8.9 mm D",
+      "Weight": "162 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.2 \"KitKat\": CyanogenMod 11S (global version), Android 4.3 \"Jelly Bean\": ColorOS (Chinese version), Current: Android 5.1.1 \"Lollipop\": OxygenOS 2.1.4 (global version), Android 6.0.1 \"Marshmallow\": HydrogenOS 2.0 (Chinese version), Unofficial: Android 11: LineageOS 18.1",
+      "Chipset": "Qualcomm Snapdragon 801 MSM8974PRO-AC r2p1",
+      "CPU": "2.5 GHz (2457 MHz) quad-core Krait 400",
+      "GPU": "Adreno 330, 578 MHz"
+    },
+    "Memory": {
+      "RAM": "3 GB 1866 MHz LPDDR3 RAM",
+      "Storage": "16 GB (Silk White), 64 GB (Sandstone Black)",
+      "Card slot": "None; Removable SIM card slot"
+    },
+    "Display": {
+      "Display": "5.46 in 1920x1080 pixel resolution, 401 ppi pixel density, 800:1 contrast ratio (typical), LED-backlit IPS capacitive touchscreen, 16:9 aspect ratio, 600 cd/m2 max brightness (typical), and oleophobic coating"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor RS IMX214 13 megapixels (4128×3096 px), autofocus, dual-LED flash, DCI 4K@24fps (native support, OpenCamera lets you do 30fps @ 100 Mbps) 2160p@30fps, 1080p@60fps, 720p@120fps, HDR",
+      "Front camera": "5 megapixels, 1080p@30fps (extra-wide 80º viewing angle)"
+    },
+    "Sound": {
+      "Sound": "Dual mono speakers, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3100 mAh Li-Po"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM/GPRS/EDGE: 850, 900, 1800 and 1900 MHz; Bands: 1/2/4/5/8;, 3G (HSDPA 42 Mbit/s, HSUPA 5.8 Mbit/s): 850, 900, 1700, 1900 and 2100 MHz;, LTE: 700, 1700, 1800, 2100, 2300 and 2600 MHz; Bands: 1/3/4/7/17/38/40, Wi-Fi (802.11 a/b/g/n/ac) (2.4/5 GHz), Wi-Fi Direct, Wi-Fi hotspot, DLNA, Bluetooth 4.0, A2DP, NFC, A-GPS & GLONASS, microUSB 2.0, USB OTG, USB Host, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.46,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 801 MSM8974PRO-AC r2p1",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16,
+      64
+    ],
+    "battery_mah": 3100,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 162,
+    "thickness_mm": 8.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus One",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_One"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus One\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus One",
+    "revid": 1381712994
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

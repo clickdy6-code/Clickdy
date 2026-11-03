@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-galaxy-a21s",
+  "brand": "Samsung",
+  "name": "Galaxy A21s",
+  "status": "published",
+  "announced": "2020-04-08",
+  "released": "2020-04-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/20200903_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A21.jpg/500px-20200903_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A21.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/20200903_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A21.jpg/250px-20200903_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A21.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A21s",
+      "credit": "Kth696586, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20200903_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A21.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A21:, 2020-04-08, A21s:, 2020-05-14",
+      "Series": "Samsung Galaxy A series",
+      "Predecessor": "Samsung Galaxy A20 , Samsung Galaxy A20s",
+      "Successor": "Samsung Galaxy A22 , Samsung Galaxy A22 5G"
+    },
+    "Body": {
+      "Dimensions": "A21:, 167.8 mm H , 76.7 mm W , 8.1 mm D, A21s:, 163.7 mm H , 75.3 mm W , 8.9 mm D",
+      "Weight": "A21: 193 g, A21s: 192 g",
+      "Other": "Fingerprint sensor (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with One UI Core 2.1, Current: Android 12 with One UI Core 4.1",
+      "Chipset": "A21: MediaTek Helio P35 (12 nm), A21s: Exynos 850 (8 nm)",
+      "CPU": "A21: Octa-core (4x2.35 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53), A21s: Octa-core (4x2.0 GHz Cortex-A55 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "A21: PowerVR GE8320, A21s: Mali-G52"
+    },
+    "Memory": {
+      "RAM": "A21: 3GB RAM, A21s: 2/3/4/6GB RAM",
+      "Storage": "A21: 32GB, A21s: 32/64/128GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.5 inLED HD+ 720 x 1600 pixels, 20:9 ratio (~270 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-Camera Setup, A21:, Primary: 16 MP, (wide), 1/3.06\", 1.0µm, PDAF, Ultrawide: 8 MP, 1/4.0\", 1.12µm, Macro: 2 MP, Depth: 2 MP, A21s:, Primary: Samsung ISOCELL S5KGM2; 48 MP, 26mm, 1/2.0\", 0.8µm, PDAF, Ultrawide: Samsung ISOCELL S5K4HA; 8 MP, 13mm, 123°, 1/4.0\", 1.12µm, Macro: GalaxyCore GC02M1; 2 MP, 1/5.0\", 1.75µm, Depth: GalaxyCore GC02M1B; 2 MP, 1/5.0\", 1.75µm, Camera features: LED flash, Panorama, High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps",
+      "Front camera": "Hynix Hi-1336; 13 MP, (A21), (A21s), 25mm (wide), 1/3.1\", 1.12µm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm auxiliary"
+    },
+    "Battery": {
+      "Battery": "A21: 4000 mAh Lithium polymer, A21s: 5000 mAh Lithium polymer",
+      "Charging": "15W Adaptive Fast Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0"
+    }
+  },
+  "key": {
+    "chipset": "A21: MediaTek Helio P35",
+    "ram_gb": [
+      3,
+      6
+    ],
+    "storage_gb": [
+      32,
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 13,
+    "battery_mah": 4000,
+    "wired_w": 15,
+    "os": "Android 10",
+    "nfc": false,
+    "weight_g": 193,
+    "thickness_mm": 8.1,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A21s",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A21s"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A21s\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A21s",
+    "revid": 1383538253
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

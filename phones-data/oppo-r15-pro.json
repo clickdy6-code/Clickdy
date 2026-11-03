@@ -1,0 +1,78 @@
+{
+  "slug": "oppo-r15-pro",
+  "brand": "Oppo",
+  "name": "R15 Pro",
+  "status": "published",
+  "announced": "2018-03-31",
+  "released": "2018-03-31",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-03-31",
+      "Series": "OPPO R",
+      "Predecessor": "Oppo R11s",
+      "Successor": "Oppo R17 Pro"
+    },
+    "Network": {
+      "Technology": "GSM 850 900 1800 1900 , WCDMA 850 900 1900 2100 , LTE Bands 1 3 7 8 TD-40 for International Version , LTE Bands 1 3 5 7 8 28 TD-40 for Taiwan Version , LTE Bands 1 4 7 17 for US Version"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "156.5 mm H , 75.2 mm W , 8.0 mm D",
+      "Weight": "180 g",
+      "Other": "Light sensor, Distance sensor, G-sensor, E-compass"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 5.0 based on Android 8.1",
+      "CPU": "Qualcomm Snapdragon 660 AIE Octa-core",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "RAM": "6 GB",
+      "Storage": "128 GB",
+      "Card slot": "256 GB"
+    },
+    "Display": {
+      "Display": "6.28 in AMOLED capacitive touchscreen, multi-touch display, 2280x1080 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "Dual-Camera Setup, Primary: Sony IMX 519; 16 megapixel, MP, 25mm, 1/2.53\", 1.22μm, PDAF, Secondary: Sony IMX 376k; 20 megapixel, MP, 25mm, 1/2.78\", 1.0μm, Features: LED flash, HDR, panorama, Video: 4K@30fps, 1080p@60/120fps, 720p@240fps",
+      "Front camera": "Sony IMX 376; 20 MP, 20mm (wide), 1/2.78\", 1.0μm, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "3430 mAh"
+    }
+  },
+  "key": {
+    "display_in": 6.28,
+    "display_type": "AMOLED",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "front_mp": 20,
+    "battery_mah": 3430,
+    "os": "Android 8.1",
+    "five_g": false,
+    "weight_g": 180,
+    "thickness_mm": 8,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo R15 Pro",
+      "url": "https://en.wikipedia.org/wiki/Oppo_R15_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo R15 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo R15 Pro",
+    "revid": 1361479159
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "samsung-sgh-a877",
+  "brand": "Samsung",
+  "name": "SGH-A877",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Samsung_impression.jpg/500px-Samsung_impression.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Samsung_impression.jpg/250px-Samsung_impression.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SGH-A877",
+      "credit": "William \"Willster3\" Carpenter, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_impression.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM (850 - 900 - 1800 - 1900) , EDGE / HSDPA"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "144 x 58 x 15mm",
+      "Weight": "150g"
+    },
+    "Platform": {
+      "CPU": "ARM9 115 MHz"
+    },
+    "Memory": {
+      "RAM": "190 MB Internal, microSD (TransFlash) external memory card slot"
+    },
+    "Display": {
+      "Display": "240 x 400, 3.2\" Display , 256K-color AMOLED touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 megapixels digital zoom"
+    },
+    "Battery": {
+      "Battery": "1000mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB & Bluetooth V 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "AMOLED",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 150
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-A877",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-A877"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-A877\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-A877",
+    "revid": 1361483440
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

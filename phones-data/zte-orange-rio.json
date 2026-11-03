@@ -1,0 +1,70 @@
+{
+  "slug": "zte-orange-rio",
+  "brand": "ZTE",
+  "name": "Orange Rio",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011, United Kingdom",
+      "Series": "ZTE-G",
+      "Successor": "Orange Rio II"
+    },
+    "Network": {
+      "Technology": "Dual band – GSM 900/1800"
+    },
+    "Body": {
+      "Form factor": "Bar phone"
+    },
+    "Platform": {
+      "Operating system": "Proprietary operating system, no upgrades"
+    },
+    "Memory": {
+      "Storage": "6MB internal",
+      "Card slot": "16GB SDHC card"
+    },
+    "Display": {
+      "Display": "2.4in 320x240 pixels TFT LCD with touch screen"
+    },
+    "Cameras": {
+      "Rear camera": "2Mpx sensor with autofocus"
+    },
+    "Sound": {
+      "Sound": "Speaker, 3.5mm audio jack, Bluetooth headset support, vibration motor"
+    },
+    "Battery": {
+      "Battery": "Replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Mini USB"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Orange Rio",
+      "url": "https://en.wikipedia.org/wiki/Orange_Rio"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Orange Rio\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Orange Rio",
+    "revid": 1361479238
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

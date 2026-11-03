@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-m20",
+  "brand": "Samsung",
+  "name": "Galaxy M20",
+  "status": "published",
+  "announced": "2019-02-05",
+  "released": "2019-02-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-02-05 (India)",
+      "Series": "Galaxy M",
+      "Successor": "Samsung Galaxy M21"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156.4 x",
+      "Weight": "186 g"
+    },
+    "Platform": {
+      "Operating system": "Original:, Worldwide (Ex. South Korea): Android 8.1 \"Oreo\" with Samsung Experience 9.5, South Korea: Android 9 \"Pie\" with One UI 1.1, Current: Android Q 10 with One UI 2.0",
+      "Chipset": "Samsung Exynos 7904 Octa (14 nm)",
+      "CPU": "Octa-core (2x1.8 GHz Cortex-A73 and 6x1.6 GHz Cortex-A53)",
+      "GPU": "Mali-G71 MP2"
+    },
+    "Memory": {
+      "RAM": "3 RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD, expandable up to 512 GB"
+    },
+    "Display": {
+      "Display": "1080×2340 1080p PLS TFT capacitive touchscreen, 16M colors, 6.3 in, 409 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual:, 13, f/1.9, 1/2.8\", 1.12 μm, PDAF, 1080p at 30 fps, 5 MP, f/2.2, 1/6\", 1.12 μm, ultra wide angle sensor",
+      "Front camera": "8 MP, f/2.0, 1080p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, vibration, active noise cancellation, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "5000 mAh (non-removable), USB-C fast charge"
+    },
+    "Connectivity": {
+      "Connectivity": "WiFi (2.4 GHz only), Wi-Fi Direct, Hotspot (Wi-Fi), Bluetooth 5.0, FM radio with Radio Data System, USB OTG, GNSS connectivity via GPS, GLONASS, Galileo and Baidu."
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "TFT",
+    "chipset": "Samsung Exynos 7904 Octa",
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 186,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M20",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M20",
+    "revid": 1380482448
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

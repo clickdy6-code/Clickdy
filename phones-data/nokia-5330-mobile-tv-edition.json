@@ -1,0 +1,64 @@
+{
+  "slug": "nokia-5330-mobile-tv-edition",
+  "brand": "Nokia",
+  "name": "5330 Mobile TV Edition",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Nokia X3-00"
+    },
+    "Network": {
+      "Technology": "GSM, GPRS, EGPRS, WCDMA, A-GPS"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "101.2 × 48.5 × 14.25 mm",
+      "Weight": "114g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 platform 6th Edition"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM",
+      "Card slot": "max. 16 GB microSD"
+    },
+    "Display": {
+      "Display": "LCD QVGA 240 × 320 pixels, 2.4 inch (16.7 million colors)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Megapixels, with flash"
+    },
+    "Battery": {
+      "Battery": "BL-4U (3.7V 1000mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 +EDR, MicroUSB; 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "LCD",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 114
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5330 Mobile TV Edition",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5330_Mobile_TV_Edition"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5330 Mobile TV Edition\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5330 Mobile TV Edition",
+    "revid": 1361477406
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "samsung-a767-propel",
+  "brand": "Samsung",
+  "name": "A767 Propel",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "SGH-i627 Propel Pro"
+    },
+    "Network": {
+      "Technology": "Quad-Band: GSM 850/900/1800/1900MHz , Dual-Band: UMTS 850/1900MHz"
+    },
+    "Body": {
+      "Form factor": "slide out keypad",
+      "Dimensions": "3.85” x 2.33” x .58”",
+      "Weight": "3.79 oz"
+    },
+    "Platform": {
+      "Operating system": "Standard At&T"
+    },
+    "Memory": {
+      "RAM": "500 MB shared",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "220 x 176 px, 2.2 in"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixel"
+    },
+    "Battery": {
+      "Battery": "1000 mAhr Lithium-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung A767 Propel",
+      "url": "https://en.wikipedia.org/wiki/Samsung_A767_Propel"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung A767 Propel\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung A767 Propel",
+    "revid": 1361480410
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

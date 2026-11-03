@@ -1,0 +1,90 @@
+{
+  "slug": "xiaomi-poco-m7-pro-5g",
+  "brand": "Xiaomi",
+  "name": "Poco M7 Pro 5G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Poco_M7_Pro_5G.jpg/500px-Poco_M7_Pro_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Poco_M7_Pro_5G.jpg/250px-Poco_M7_Pro_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Poco M7 Pro 5G",
+      "credit": "Morekar, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Poco_M7_Pro_5G.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Poco M-Series",
+      "Predecessor": "Poco M6 Pro 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G (NR)",
+      "SIM": "Dual nanoSIM slots"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.4 mm H , 75.7 mm W , 8 mm D",
+      "Weight": "190 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Xiaomi HyperOS 1 based on Android 14, 2 update: Xiaomi HyperOS 2 based on Android 15, Current: Xiaomi HyperOS 3 based on Android 16",
+      "Chipset": "MediaTek Dimensity 7025 Ultra"
+    },
+    "Memory": {
+      "RAM": "8/12 GB",
+      "Storage": "256/512 GB UFS 2.0",
+      "Card slot": "Yes"
+    },
+    "Display": {
+      "Display": "6.67-inch AMOLED 120 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP f/1.5 Optical Image Stabilization",
+      "Front camera": "20 MP"
+    },
+    "Battery": {
+      "Battery": "5110 mAh",
+      "Charging": "45 W"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "MediaTek Dimensity 7025 Ultra",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 20,
+    "battery_mah": 5110,
+    "wired_w": 45,
+    "os": "Android 14",
+    "five_g": true,
+    "weight_g": 190,
+    "thickness_mm": 8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Poco M7 Pro 5G",
+      "url": "https://en.wikipedia.org/wiki/Poco_M7_Pro_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Poco M7 Pro 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Poco M7 Pro 5G",
+    "revid": 1361479451
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "samsung-sgh-e700",
+  "brand": "Samsung",
+  "name": "SGH-E700",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung SGH-EXXX series",
+      "Predecessor": "Samsung SGH-E600",
+      "Successor": "Samsung SGH-E720"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 (dual-band)"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Dimensions": "87 x 45 x 23mm",
+      "Weight": "3.31 oz (94 g)"
+    },
+    "Platform": {
+      "Operating system": "Proprietary"
+    },
+    "Memory": {
+      "RAM": "9 MB",
+      "Storage": "9 MB"
+    },
+    "Display": {
+      "Display": "160 x 128 TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "VGA (640×480)"
+    },
+    "Battery": {
+      "Battery": "Lithium Ion 800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, WAP, EMS/MMS Java Support"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 94
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-E700",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-E700"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-E700\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-E700",
+    "revid": 1363524442
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

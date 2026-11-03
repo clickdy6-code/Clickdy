@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-asha-210",
+  "brand": "Nokia",
+  "name": "Asha 210",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Nokia_Asha_210.png/500px-Nokia_Asha_210.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Nokia_Asha_210.png/250px-Nokia_Asha_210.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Asha 210",
+      "credit": "AnVuong1222004 (7), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Asha_210.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 2013",
+      "Series": "Asha",
+      "Predecessor": "Nokia Asha 200/201, Nokia Asha 302",
+      "Successor": "Nokia Asha 500"
+    },
+    "Body": {
+      "Dimensions": "Height: 111.5 mm, Width: 60 mm, Thickness: 11.8 mm",
+      "Weight": "100 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 40"
+    },
+    "Memory": {
+      "RAM": "32 MB RAM, 64 MB ROM",
+      "Card slot": "Micro SD card up to 32GB"
+    },
+    "Display": {
+      "Display": "Display size: 2.4\" , Orientation: Landscape , (320 x 240), Pixel Density: 169 ppi , Colors: 65536, Technology: LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Sensor size: 2 megapixels, Video: 176 x 144 pixels (10fps)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion (BL-4U), Capacity: 1200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm Nokia AV Connector, 2.0 mm Charging Connector, Bluetooth 2.1 + EDR , Remote SyncML synchronisation, Local SyncML synchronisation"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "LCD",
+    "battery_mah": 1200,
+    "nfc": false,
+    "weight_g": 100,
+    "thickness_mm": 11.8,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 210",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_210"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 210\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 210",
+    "revid": 1361477966
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

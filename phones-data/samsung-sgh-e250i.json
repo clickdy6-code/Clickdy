@@ -1,0 +1,71 @@
+{
+  "slug": "samsung-sgh-e250i",
+  "brand": "Samsung",
+  "name": "SGH-E250i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008",
+      "Series": "E series",
+      "Predecessor": "Samsung SGH-E250",
+      "Successor": "Samsung SGH-E251"
+    },
+    "Network": {
+      "Technology": "EDGE/ GPRS Class 10 Dual Band (900/1800 MHz) WAP 10.1 Java MIDP 10.1"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "3.92 × 1.95 × 0.56 in (99.5 × 49.5 × 14.1 mm)",
+      "Weight": "(80.8 g)"
+    },
+    "Platform": {
+      "Operating system": "Proprietary (J2ME based)",
+      "CPU": "ARM9 (230MHz)"
+    },
+    "Memory": {
+      "RAM": "20 MB",
+      "Storage": "4GB",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "128×160 pixels, 65.536 color display TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 megapixel"
+    },
+    "Battery": {
+      "Battery": "3.7V 800 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (with Stereo A2DP), USB 1.1"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 800,
+    "nfc": false,
+    "weight_g": 80.8,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-E250i",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-E250i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-E250i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-E250i",
+    "revid": 1374924581
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

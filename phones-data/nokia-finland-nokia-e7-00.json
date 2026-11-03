@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-finland-nokia-e7-00",
+  "brand": "Nokia Finland",
+  "name": "Nokia E7-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/NokiaE7_1.JPG/500px-NokiaE7_1.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/NokiaE7_1.JPG/250px-NokiaE7_1.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Finland Nokia E7-00",
+      "credit": "Petr Zdražil, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NokiaE7_1.JPG",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "E-series",
+      "Predecessor": "Nokia E75, Nokia E90 Communicator, Nokia N97",
+      "Successor": "Nokia 808 PureView"
+    },
+    "Network": {
+      "Technology": "HSDPA (Pentaband) (3.5G) 850 / 900 / 1700 / 1900 / 2100, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Dimensions": "123.7 mm H , 62.4 mm W , 13.6 mm D",
+      "Weight": "176.0 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian^3, upgradeable to Nokia Belle Refresh (111.040.1511)",
+      "CPU": "ARM 11 @ 680 MHz"
+    },
+    "Memory": {
+      "Storage": "16 GB external mass storage, 256 MB RAM, 1 GB ROM"
+    },
+    "Display": {
+      "Display": "640 × 360 px (nHD), 4\" capacitive, multi-touch ClearBlack AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixels (main), 16:9 720p video, 35 FPS. Dual LED flash (can be used as flashlight by holding the Lock key).",
+      "Front camera": "VGA, for video calling"
+    },
+    "Battery": {
+      "Battery": "BL-4D (1200mAh) Li-Ion battery (removable by service), micro-USB charging"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "AMOLED",
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1200,
+    "os": "Symbian^3",
+    "five_g": true,
+    "weight_g": 176,
+    "thickness_mm": 13.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E7-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E7-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E7-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E7-00",
+    "revid": 1381035306
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

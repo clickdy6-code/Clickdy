@@ -1,0 +1,92 @@
+{
+  "slug": "nokia-n97-mini",
+  "brand": "Nokia",
+  "name": "N97 Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nokia_N97_Mini_%E2%80%93_prototype%2C_back_side%2C_opened.jpg/500px-Nokia_N97_Mini_%E2%80%93_prototype%2C_back_side%2C_opened.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nokia_N97_Mini_%E2%80%93_prototype%2C_back_side%2C_opened.jpg/250px-Nokia_N97_Mini_%E2%80%93_prototype%2C_back_side%2C_opened.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N97 Mini",
+      "credit": "Carl @FellowCreative, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N97_Mini_%E2%80%93_prototype,_back_side,_opened.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-11",
+      "Series": "Nseries",
+      "Predecessor": "Nokia N97, Nokia N79",
+      "Successor": "Nokia C6-00, Nokia C7-00, Nokia C6-01"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA",
+      "SIM": "Mini-SIM"
+    },
+    "Body": {
+      "Form factor": "Side slider",
+      "Dimensions": "113x52.5x14.2 mm, 75 cc",
+      "Weight": "138 g",
+      "Other": "Handwriting recognition, TV-out, predictive text input, accelerometer, proximity sensor, compass"
+    },
+    "Platform": {
+      "Operating system": "Symbian 9.4, Series 60 rel. 5",
+      "CPU": "434 MHz ARM 11"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM",
+      "Storage": "8 GB internal, microSDHC slot"
+    },
+    "Display": {
+      "Display": "3.2 in TFT resistive touchscreen, 16M colors, 360 × 640 px, 16:9 ratio (~229 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, autofocus, Carl Zeiss optics, dual-LED flash, video light, 480p@30fps",
+      "Front camera": "VGA, VGA@15fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1200 mAh (BL-4D)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g, UPnP, Bluetooth 2.0 (A2DP), GPS, A-GPS; Nokia Maps, Stereo FM radio, RDS, MicroUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "os": "Symbian 9.4",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 138,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N97 Mini",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N97_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N97 Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N97 Mini",
+    "revid": 1374924426
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

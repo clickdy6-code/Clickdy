@@ -1,0 +1,66 @@
+{
+  "slug": "samsung-mobiles-samsung-champ",
+  "brand": "Samsung Mobiles",
+  "name": "Samsung Champ",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Samsung_champ.JPG/500px-Samsung_champ.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Samsung_champ.JPG/250px-Samsung_champ.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Mobiles Samsung Champ",
+      "credit": "Tatiraju.rishabh, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_champ.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM, GPRS, EDGE"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "96.3 x 53.8 x 13 mm",
+      "Weight": "80 g"
+    },
+    "Memory": {
+      "RAM": "30 MB internal storage",
+      "Card slot": "microSD, up to 8 GB"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels 256k, 2.4 inch Resistive Touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "Digital Camera, 1.3-megapixel (select models)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v2.1, microUSB v2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 80
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Champ",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Champ"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Champ\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Champ",
+    "revid": 1361480490
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

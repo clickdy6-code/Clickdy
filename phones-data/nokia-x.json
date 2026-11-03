@@ -1,0 +1,91 @@
+{
+  "slug": "nokia-x",
+  "brand": "Nokia",
+  "name": "X",
+  "status": "published",
+  "announced": "2014-02-24",
+  "released": "2014-02-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/NokiaX_01.jpg/500px-NokiaX_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/NokiaX_01.jpg/250px-NokiaX_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia X",
+      "credit": "pestoverde, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NokiaX_01.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "24 February 2014",
+      "Discontinued": "17 July 2014",
+      "Series": "Nokia X family",
+      "Predecessor": "Nokia Asha 501",
+      "Successor": "Nokia X2"
+    },
+    "Network": {
+      "Technology": "(GSM/GPRS/EDGE): 850, 900, 1,800 and 1,900 MHz , 3G (HSDPA 7.2 Mbit/s, HSUPA 5.76 Mbit/s): 900 and 2,100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115.5 mm H, 10.4 mm W, 73.2 mm D.",
+      "Weight": "128.7 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia X platform (Modified Android Jelly Bean 4.1.2), Multi-touch capacitive touchscreen display, up to 2 fingers",
+      "Chipset": "Qualcomm Snapdragon S4 Play MSM8225",
+      "CPU": "1.0 GHz dual-core",
+      "GPU": "Adreno 203"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM (768 MB in Nokia X+ and XL)",
+      "Storage": "4 GB",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.0 in, 800×480 px IPS WVGA (233 PPI)"
+    },
+    "Cameras": {
+      "Rear camera": "3 MP fixed focus"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0 + HS, micro-USB 2.0, Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon S4 Play MSM8225",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 128.7,
+    "thickness_mm": 73.2,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X",
+    "revid": 1361478601
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

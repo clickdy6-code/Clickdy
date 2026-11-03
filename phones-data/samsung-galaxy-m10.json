@@ -1,0 +1,83 @@
+{
+  "slug": "samsung-galaxy-m10",
+  "brand": "Samsung",
+  "name": "Galaxy M10",
+  "status": "published",
+  "announced": "2019-01-28",
+  "released": "2019-01-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-01-28",
+      "Series": "Samsung Galaxy M series",
+      "Predecessor": "Samsung Galaxy A6",
+      "Successor": "Samsung Galaxy M11"
+    },
+    "Network": {
+      "Technology": "2G, 3G, LTE (telecommunication), LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155.6 x",
+      "Weight": "163 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Oreo, Android 8.1 Oreo, Last: Android 10",
+      "Chipset": "Samsung Exynos 7870 Octa",
+      "CPU": "Octa-core 1.6 GHz Cortex-A53",
+      "GPU": "Mali-T830 MP1"
+    },
+    "Memory": {
+      "RAM": "2 RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSD, expandable up to 512 GB"
+    },
+    "Display": {
+      "Display": "720×1520 720p PLS TFT capacitive touchscreen, 16M colors, 6.22 in, 270 pixels per inch, ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual:, 13, f-number, f/1.9, 1/3.1\", 1.12 μm, PDAF, 1080p at 30 fps, 5 MP, f/2.2, 1/5\", 1.12 μm, depth sensor",
+      "Front camera": "5 MP, f/2.0, 1080p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, vibration, active noise cancellation"
+    },
+    "Battery": {
+      "Battery": "3400 mAh (non-removable)"
+    }
+  },
+  "key": {
+    "display_in": 6.22,
+    "display_type": "TFT",
+    "chipset": "Samsung Exynos 7870 Octa",
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3400,
+    "os": "Android 8.1",
+    "five_g": false,
+    "weight_g": 163,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M10",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M10",
+    "revid": 1380482434
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

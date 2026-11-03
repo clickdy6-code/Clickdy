@@ -1,0 +1,96 @@
+{
+  "slug": "oneplus-6",
+  "brand": "OnePlus",
+  "name": "6",
+  "status": "published",
+  "announced": "2018-05-02",
+  "released": "2018-05-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/OnePlus_6_Front1.jpg/500px-OnePlus_6_Front1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/OnePlus_6_Front1.jpg/250px-OnePlus_6_Front1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 6",
+      "credit": "Pahkiqaz, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_6_Front1.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-05-02",
+      "Predecessor": "OnePlus 5T",
+      "Successor": "OnePlus 6T"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155.7 mm H , 75.4 mm W , 7.75 mm D",
+      "Weight": "177 g"
+    },
+    "Platform": {
+      "Operating system": "OxygenOS (based on Android Oreo, upgradable to Android 11 via OnePlus or Android 15 via LineageOS)",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4×2.8 GHz + 4×1.8 GHz) Kryo",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB LPDDR4X RAM",
+      "Storage": "64, 128, or 256 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "6.28 in 1080p (2280 ×1080 pixels) Full-HD+ Optic AMOLED / DCI-P3 (402 ppi) with 19:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP Sony Exmor IMX519 (f/1.7, OIS + EIS) + 20 MP Sony Exmor IMX376K (f/1.7), phase detection autofocus, dual-LED flash, Video 4K at 30 or 60fps, 1080p at 30, 60 or 240 fps, 720p at 30 or 480 fps",
+      "Front camera": "16 MP Sony Exmor IMX371 (f/2.0, EIS, HDR), Video 1080p at 30 fps, 720p at 30 fps"
+    },
+    "Battery": {
+      "Battery": "3,300 mAh Li-Ion with Dash Charge technology"
+    },
+    "Connectivity": {
+      "Connectivity": "3G, 4G VoLTE, Bluetooth 5.0 with aptX, NFC, 2x2 MIMO WiFi 802.11a/b/g/n/ac, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.28,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3300,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 177,
+    "thickness_mm": 7.75,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 6",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 6",
+    "revid": 1382784728
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

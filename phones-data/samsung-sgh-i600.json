@@ -1,0 +1,68 @@
+{
+  "slug": "samsung-sgh-i600",
+  "brand": "Samsung",
+  "name": "SGH-i600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/SGH-I600_cropped.jpg/500px-SGH-I600_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/SGH-I600_cropped.jpg/250px-SGH-I600_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SGH-i600",
+      "credit": "gh5046, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SGH-I600_cropped.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "HSDPA, GSM 900/1800/1900, HSDPA, EDGE, GPRS"
+    },
+    "Body": {
+      "Form factor": "bar",
+      "Dimensions": "113 x 59 x 11.8 mm",
+      "Weight": "105 grams"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 5/6",
+      "CPU": "220 MHz Texas Instruments OMAP 1710"
+    },
+    "Memory": {
+      "RAM": "192 MB",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "320 x 240 px, 65k colors"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixel"
+    },
+    "Battery": {
+      "Battery": "3.7 Volt Lithium-ion, 1,200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi b/g, Bluetooth 2.0, USB 1.1"
+    }
+  },
+  "key": {
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-i600",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-i600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-i600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-i600",
+    "revid": 1380728673
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

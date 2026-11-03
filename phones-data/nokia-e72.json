@@ -1,0 +1,68 @@
+{
+  "slug": "nokia-e72",
+  "brand": "Nokia",
+  "name": "E72",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia E71",
+      "Successor": "Nokia E6, Nokia E73 Mode"
+    },
+    "Network": {
+      "Technology": "GSM 800/900/1800/1900 MHz, Tri Band UMTS/HSPDA/HSUPA/850/1900/2100 MHz (North American version)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "114 × 59.5 × 10.1 mm",
+      "Weight": "128 g (with battery)",
+      "Other": "FOTA (Firmware update over the air), accelerometer sensor, ambient light sensor, magnetometer sensor, digital compass"
+    },
+    "Platform": {
+      "Operating system": "S60 3rd Edition Feature Pack 2 UI on Symbian OS v9.3",
+      "CPU": "600 MHz ARM11 processor"
+    },
+    "Memory": {
+      "RAM": "250 MiB internal user storage, ROM: 512 MiB, SDRAM: 128 MiB, ~45 MiB free executable RAM",
+      "Card slot": "MicroSDHC Hot-swappable, support for up to 32 GiB"
+    },
+    "Display": {
+      "Display": "320 × 240 px (0.1 megapixels), 2.36 in, up to 16.7 million colours"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel (2592 × 1944 pixels) with autofocus and LED flash, Video recording in AVI format VGA (640x480)",
+      "Front camera": "VGA (0.3 megapixel)"
+    },
+    "Battery": {
+      "Battery": "BP-4L, 3.7V 1,500 mAh lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 802.11 b, g, Integrated & Assisted GPS, Bluetooth 2.0, micro USB, 3.5 mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 2.36,
+    "battery_mah": 1500,
+    "os": "Symbian OS v9.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 128
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E72",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E72"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E72\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E72",
+    "revid": 1363702982
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

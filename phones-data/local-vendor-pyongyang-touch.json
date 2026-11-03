@@ -1,0 +1,63 @@
+{
+  "slug": "local-vendor-pyongyang-touch",
+  "brand": "Local vendor",
+  "name": "Pyongyang Touch",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014"
+    },
+    "Network": {
+      "Technology": "2G GSM, 3G UMTS"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Other": "FM Radio supports with headphone jack"
+    },
+    "Platform": {
+      "Operating system": "Android Oreo (latest version used in Pyongyang 2428)",
+      "CPU": "Mediatek MT6575 SoC, MT6575: Core, 40nm, ARM Cortex-A9 1GHz CPU",
+      "GPU": "IT PowerVR SGX531"
+    },
+    "Memory": {
+      "RAM": "8GB RAM",
+      "Storage": "32GB"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel",
+      "Front camera": "2 megapixel"
+    },
+    "Battery": {
+      "Battery": "1,450 mAh"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1450,
+    "five_g": false,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pyongyang Touch",
+      "url": "https://en.wikipedia.org/wiki/Pyongyang_Touch"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pyongyang Touch\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pyongyang Touch",
+    "revid": 1361479470
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

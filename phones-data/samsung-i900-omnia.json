@@ -1,0 +1,82 @@
+{
+  "slug": "samsung-i900-omnia",
+  "brand": "Samsung",
+  "name": "i900 Omnia",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Samsung_Omnia_i900.png/500px-Samsung_Omnia_i900.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Samsung_Omnia_i900.png/250px-Samsung_Omnia_i900.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung i900 Omnia",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Omnia_i900.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2009-10",
+      "Series": "Samsung Omnia Series",
+      "Successor": "Samsung i8000 Omnia II"
+    },
+    "Network": {
+      "Technology": "AGPS, HSDPA (3.5G), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "112 x 56.9 x 12.5 mm",
+      "Weight": "127 g"
+    },
+    "Platform": {
+      "Operating system": "Microsoft Windows Mobile 6.1 Professional",
+      "CPU": "624MHz Marvell PXA312 processor."
+    },
+    "Memory": {
+      "RAM": "128 MB RAM, 256 MB ROM",
+      "Storage": "8 GB/16 GB",
+      "Card slot": "MicroSD (TransFlash)"
+    },
+    "Display": {
+      "Display": "240x400 px (rotatable), 3.2 in, TFT LCD, Touch Screen"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixels (Back) and VGA Video Recording",
+      "Front camera": "3G Video Calling (Front)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion (1440 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0 with A2DP, Wi-Fi b/g"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "storage_gb": [
+      8,
+      16
+    ],
+    "battery_mah": 1440,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 127
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung i900 Omnia",
+      "url": "https://en.wikipedia.org/wiki/Samsung_i900_Omnia"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung i900 Omnia\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung i900 Omnia",
+    "revid": 1361483811
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

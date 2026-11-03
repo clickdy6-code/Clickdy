@@ -1,0 +1,79 @@
+{
+  "slug": "nokia-6100",
+  "brand": "Nokia",
+  "name": "6100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Nokia_6100.jpg/500px-Nokia_6100.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Nokia_6100.jpg/250px-Nokia_6100.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6100",
+      "credit": "Cessax / Güstrow (Cessax at de.wikipedia), CC BY-SA 2.0 de via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6100.jpg",
+      "license": "CC BY-SA 2.0 de"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2002",
+      "Discontinued": "2005",
+      "Successor": "Nokia 6300"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900, GPRS",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "102 mm H , 44 mm W , 13.5 mm D",
+      "Weight": "76 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 1st Edition",
+      "CPU": "50 MHz UPP8M, ARM7"
+    },
+    "Memory": {
+      "RAM": "512 KB SRAM",
+      "Storage": "8 MB"
+    },
+    "Display": {
+      "Display": "1.5 in diagonal CSTN LCD, 128 × 128 px, 1:1 aspect-ratio, 4096 colors"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, Pop-Port (Line out)"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-4C, 760 mAh, 3.7 V user replaceable Li-ion",
+      "Charging": "Nokia 3.5-mm DC Charging Interface"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA, Pop-Port (FBus)"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 760,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 76,
+    "thickness_mm": 13.5,
+    "year": 2002
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6100",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6100",
+    "revid": 1361477497
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

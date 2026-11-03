@@ -1,0 +1,104 @@
+{
+  "slug": "samsung-galaxy-z-flip-5",
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip 5",
+  "status": "published",
+  "announced": "2023-08-11",
+  "released": "2023-08-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Samsung-Galaxy-Z-Flip-5_vonkajsi-displej.jpg/500px-Samsung-Galaxy-Z-Flip-5_vonkajsi-displej.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Samsung-Galaxy-Z-Flip-5_vonkajsi-displej.jpg/250px-Samsung-Galaxy-Z-Flip-5_vonkajsi-displej.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Z Flip 5",
+      "credit": "Vosveteit, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung-Galaxy-Z-Flip-5_vonkajsi-displej.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-08-11",
+      "Series": "Galaxy Z",
+      "Predecessor": "Samsung Galaxy Z Flip 4",
+      "Successor": "Samsung Galaxy Z Flip 6, Samsung Galaxy Z Flip 7 FE"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Foldable slate",
+      "Dimensions": "Unfolded: 165.1 mm H, 71.9 mm W, 6.9 mm D, Folded: 85.1 mm H, 71.9 mm W, 15.1 mm D"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with One UI 5.1.1, Current: Android 17 with One UI 9.0",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+      "CPU": "Octa-core (1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "GPU": "Adreno 740"
+    },
+    "Memory": {
+      "RAM": "8 GB RAM",
+      "Storage": "256 and 512 GB UFS 4.0"
+    },
+    "Display": {
+      "Display": "6.7 in, 1080 x 2640 pixels (~426 ppi density), Foldable Dynamic AMOLED 2X, 120Hz refresh rate, HDR10+, 1200 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.8, 24mm (wide), 1/1.76\", 1.8μm, Dual Pixel PDAF, OIS, Samsung S5K2LD sensor, 12 MP, f/2.2, 123° (ultrawide), 1.12μm, Sony IMX258 sensor, LED flash, HDR, panorama, 4K@30/60fps, 1080p@60/240fps, 720p@960fps, HDR10+",
+      "Front camera": "10 MP, f/2.2, 26mm (wide), 1.22μm, Samsung S5K3J1 sensor, 4K@30fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 3,700 mAh",
+      "Charging": "Fast wired charging up to 25W, Fast wireless charging up to 15W, Reverse wireless charging up to 4.5W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, tri-band, Wi-Fi Direct, Bluetooth 5.3, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "peak_nits": 1200,
+    "chipset": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 10,
+    "battery_mah": 3700,
+    "wireless_w": 15,
+    "wired_w": 25,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "esim": true,
+    "thickness_mm": 6.9,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Flip 5",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Flip 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Flip 5",
+    "revid": 1380554694
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

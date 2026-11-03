@@ -1,0 +1,96 @@
+{
+  "slug": "hmd-nokia-xr20",
+  "brand": "HMD",
+  "name": "Nokia XR20",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Nokia_XR20-front_PNr%C2%B01006.jpg/500px-Nokia_XR20-front_PNr%C2%B01006.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Nokia_XR20-front_PNr%C2%B01006.jpg/250px-Nokia_XR20-front_PNr%C2%B01006.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HMD Nokia XR20",
+      "credit": "D-Kuru, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_XR20-front_PNr%C2%B01006.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Nokia XR21"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "171.64 x 81.5 x 10.64 mm",
+      "Weight": "248 g",
+      "Other": "NFC, IP68 (water resistant up to 1.5 m for 1 hour), MIL-STD-810H certified"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Android 11, Current: Android 14",
+      "Chipset": "Qualcomm Snapdragon 480 5G",
+      "CPU": "Qualcomm Kryo 460",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "6 GB RAM",
+      "Storage": "128 GB",
+      "Card slot": "microSD, up to 512 GB (shared)"
+    },
+    "Display": {
+      "Display": "6.67 in 2400 x 1080 with Gorilla Glass Victus"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP with ZEISS optics, f/1.79 aperture + 13 MP (Wideangle), f/2.4 aperture; dual-tone flash",
+      "Front camera": "8 MP"
+    },
+    "Sound": {
+      "Sound": "Bottom mounted loud speaker, duel speaker mode, Nokia OZO 360° audio, Dolby Atmos compatible decoding, active noise cancellation with dedicated microphone"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4630 mAh",
+      "Charging": "USB-C charging (18 W), Qi wireless charging (15 W), Quick Charge 4.0"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth 5.1, USB 3.0 (5 Gbit/s) via USB-C port, Wi‑Fi 6 (802.11ax), 2G, 3G, 4G LTE, 5G"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "chipset": "Qualcomm Snapdragon 480 5G",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4630,
+    "wireless_w": 15,
+    "wired_w": 18,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "ip": "IP68",
+    "weight_g": 248
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia XR20",
+      "url": "https://en.wikipedia.org/wiki/Nokia_XR20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia XR20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia XR20",
+    "revid": 1361478688
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

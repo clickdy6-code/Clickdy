@@ -1,0 +1,81 @@
+{
+  "slug": "nokia-lumia-1020",
+  "brand": "Nokia",
+  "name": "Lumia 1020",
+  "status": "published",
+  "announced": "2013-07-26",
+  "released": "2013-07-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-07-26",
+      "Discontinued": "2015",
+      "Series": "Lumia",
+      "Predecessor": "Nokia 808 PureView",
+      "Successor": "Microsoft Lumia 950 XL, Nokia 8 Sirocco, Nokia 9 PureView"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "130.4 mm H, 71.4 mm W, 10.4 mm D , 14.5 mm Bulge",
+      "Weight": "158 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8, upgradeable to 8.1",
+      "Chipset": "Qualcomm Snapdragon S4",
+      "CPU": "1.5 GHz dual-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 225"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB64 GB internal flash"
+    },
+    "Display": {
+      "Display": "4.5\" AMOLED RGBG PenTile ClearBlack capacitive touchscreen with Gorilla Glass 3, 1280 × 768 pixels at 334 ppi, 15:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "41 MP (1/1.5\" i.e. 2/3\") BSI sensor w/ Carl Zeiss optics, f/2.2, autofocus, Optical image stabilization;, Xenon flash, LED video light;, RAW Image Capture (Adobe DNG);, 1080p video capture @ 30 fps",
+      "Front camera": "1.2 MP, 1280×960 px, 720p video capture @ 30 fps"
+    },
+    "Battery": {
+      "Battery": "Rechargeable BV-4NW 2000mAh Li-ion battery, Qi inductive charging (with wireless charging cover)"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon S4",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 41,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.2,
+    "battery_mah": 2000,
+    "os": "Windows Phone 8",
+    "weight_g": 158,
+    "thickness_mm": 10.4,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 1020",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_1020"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 1020\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 1020",
+    "revid": 1371891272
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "nokia-7700",
+  "brand": "Nokia",
+  "name": "7700",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Nokia-7700-01.jpg/500px-Nokia-7700-01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Nokia-7700-01.jpg/250px-Nokia-7700-01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 7700",
+      "credit": "Shritwod, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia-7700-01.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3300",
+      "Successor": "Nokia 7710"
+    },
+    "Network": {
+      "Technology": "GPRS, HSCSD, EDGE"
+    },
+    "Body": {
+      "Dimensions": "134 × 80 × 22 mm",
+      "Weight": "183 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS / Nokia Series 90"
+    },
+    "Memory": {
+      "RAM": "64 MB",
+      "Card slot": "MMC"
+    },
+    "Display": {
+      "Display": "640 × 320"
+    },
+    "Cameras": {
+      "Rear camera": "640 × 480 VGA"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, Nokia Pop-Port (USB)"
+    }
+  },
+  "key": {
+    "os": "Symbian OS / Nokia Series 90",
+    "nfc": false,
+    "weight_g": 183
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7700",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7700"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7700\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7700",
+    "revid": 1361477825
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

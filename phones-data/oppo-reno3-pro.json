@@ -1,0 +1,92 @@
+{
+  "slug": "oppo-reno3-pro",
+  "brand": "Oppo",
+  "name": "Reno3 Pro",
+  "status": "published",
+  "announced": "2020-03-02",
+  "released": "2020-03-02",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Reno3 Pro: 2020-03-02 , Reno3 Pro 5G: 2019-12-26",
+      "Series": "Reno",
+      "Successor": "Oppo Reno4 Pro"
+    },
+    "Network": {
+      "Technology": "Reno3 Pro, GSM / HSPA / LTE, Reno3 Pro 5G, GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "SIM": "Both models: Dual nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "4G model: 158.8 × 73.4 × 8.1 mm , 5G model: 159.4 × 72.4 × 7.7 mm"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 10 with ColorOS 7 UI, Current: Android 12 with ColorOS 12.1 UI",
+      "Chipset": "Reno3 Pro: Mediatek MT6779V Helio P95 (12 nm), Reno3 Pro 5G: Qualcomm SM7250 Snapdragon 765G 5G (7 nm)",
+      "CPU": "Octa-core, Reno3 Pro: 2x 2.2 GHz Cortex-A75 & 6x 2.0 GHz Cortex-A55, Reno3 Pro 5G: 1x 2.4 GHz Kryo 475 Prime & 1x 2.2 GHz Kryo 475 Gold & 6x 1.8 GHz Kryo 475 Silver",
+      "GPU": "Reno3 Pro: PowerVR GM9446, Reno3 Pro 5G: Adreno 620"
+    },
+    "Memory": {
+      "RAM": "8GB / 12GB (12GB support the 5G model only), UFS 2.1",
+      "Storage": "128GB / 256GB",
+      "Card slot": "microSDXC (4G model only)"
+    },
+    "Display": {
+      "Display": "Reno3 Pro: 6.4-inch Super AMOLED, 500 nits (typical), 1080 × 2400 pixels; 20:9 ratio, Reno3 Pro 5G: 6.5-inch AMOLED, 500 nits (typical), 1080 × 2400 pixels; 20:9 ratio"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-Camera, Reno3 Pro 4G:, 64MP 1/1.72\" wide-angle (, 27mm) with Samsung GW1 sensor, 13MP 1/3.4\" telephoto lens (, 52mm), 8MP 1/4.0\", ultrawide-angle (, 13mm), 2MP monochrome lens (), Reno3 Pro 5G:, 48MP 1/2.0\" wide-angle (, 26mm) with Sony IMX586 sensor and image stabilization, 13MP 1/3.4\" telephoto lens (, 53mm), 8MP 1/3.2\" ultrawide-angle with viewing angle at 115° (, 13mm), 2MP 1/5.0\" B/W (), Video recording supports 4K@30fps and 1080p@30/60fps for 4G model, while the 5G supports the same supportable resolutions + 120fps + OIS; with gyro-EIS",
+      "Front camera": "Dual-front, Reno3 Pro: 44 MP, 26mm (wide), 1/2.65\", 2MP, () depth sensor, Single-front, Reno3 Pro 5G: 32 MP, 26mm (wide), 1/2.8\", Both models support HDR, with 1080p @ 30fps video recording"
+    },
+    "Sound": {
+      "Sound": "Mono speakers 3.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "4025 mAh Lithium-polymer battery",
+      "Charging": "Reno3: Fast charging up to 30W, USB Type-C 2.0, Fast charging up to 30W, USB Type-C 3.1"
+    },
+    "Connectivity": {
+      "Connectivity": "Both Models: GPS, GLONASS, GALILEO, BDS"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "peak_nits": 500,
+    "chipset": "Reno3 Pro: Mediatek MT6779V Helio P95",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 44,
+    "battery_mah": 4025,
+    "wired_w": 30,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Reno3 Pro",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Reno3_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Reno3 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Reno3 Pro",
+    "revid": 1364621564
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

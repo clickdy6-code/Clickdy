@@ -1,0 +1,101 @@
+{
+  "slug": "oppo-find-x6",
+  "brand": "Oppo",
+  "name": "Find X6",
+  "status": "published",
+  "announced": "2023-03-21",
+  "released": "2023-03-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Oppo_Find_X6_Pro.jpg/500px-Oppo_Find_X6_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Oppo_Find_X6_Pro.jpg/250px-Oppo_Find_X6_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo Find X6",
+      "credit": "HundenvonPenang, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oppo_Find_X6_Pro.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-03-21",
+      "Series": "Oppo Find X series",
+      "Predecessor": "Oppo Find X5",
+      "Successor": "Oppo Find X7"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Find X6: 162.9 x 74.1 x 9 mm, Find X6 Pro: 164.8 x 76.2 x 9.5 mm",
+      "Weight": "Find X6: 207 g, Find X6 Pro: 218 g or 218 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 13.1, (based on Android 13)",
+      "Chipset": "Find X6: List of MediaTek systems on chips#Dimensity 9000 Series, MediaTek Dimensity 9200, Find X6 Pro: Qualcomm Snapdragon List of Qualcomm Snapdragon processors#Snapdragon 8 Gen 2 (2023), 8 Gen 2",
+      "CPU": "Octa-core, Find X6: (1x3.05 GHz Cortex-X3 & 3x2.85 GHz Cortex-A715 & 4x1.80 GHz Cortex-A510), Find X6 Pro: (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "GPU": "Find X6: Immortalis-G715 MC11, Find X6 Pro: Adreno 740"
+    },
+    "Memory": {
+      "RAM": "12 or 16 GB LPDDR5 RAM",
+      "Storage": "Find X6: 256 GB or 512 GB UFS 4.0, Find X6 Pro: 256 GB or 512 GB UFS 4.0"
+    },
+    "Display": {
+      "Display": "Find X6: 6.74 in AMOLED capacitive touchscreen, 1240p, (451 ppi with 20:9 aspect ratio), 120 Hz refresh rate, 1B colors, HDR10+, Find X6 Pro: 6.82 in LTPO2 AMOLED capacitive touchscreen, 1440p, (510 ppi with 19.8:9 aspect ratio), 120 Hz refresh rate, 1B colors, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "Find X6: 50 MP, f/1.8, 1/1.56\", 1.0 μm (wide) + 50 MP, f/2.0, 1/2.76\", 0.64 μm (ultrawide) + 50 MP (telephoto), 2.8x optical zoom, omnidirectional PDAF, OIS, gyro-EIS, dual-LED flash, Auto HDR, 4K@30/60 fps, 1080p@30/60/240 fps, Find X6 Pro: 50 MP, f/1.8, 1.0\", 1.6 μm (wide) + 50 MP, f/2.2, 1/1.56\", 1.0 μm (ultrawide) + 50 MP (telephoto), 2.8x optical zoom, omnidirectional PDAF, OIS, gyro-EIS, dual-LED flash, Auto HDR, 4K@30/60 fps, 1080p@30/60/240 fps",
+      "Front camera": "Find X6: 32 MP, f/2.4, 21 mm, 1/2.74\", 0.8 μm , 1080p@30 fps, HDR, Find X6 Pro: 32 MP, f/2.4, 21 mm, 1/2.74\", 0.8 μm , 4K@30 fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers with active noise cancellation and Active Privacy Protection for Voice Call"
+    },
+    "Battery": {
+      "Battery": "Find X6: 4800 mAh, Find X6 Pro: 5000 mAh",
+      "Charging": "SuperVOOC technology"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.3, Bluetooth 5.3, Wi-Fi a/b/g/n/ac/6/7, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.74,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Find X6: List of MediaTek systems on chips#Dimensity 9000 Se",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4800,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 207,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Find X6",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Find_X6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Find X6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo Find X6",
+    "revid": 1379534078
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

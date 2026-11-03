@@ -1,0 +1,75 @@
+{
+  "slug": "samsung-m8910-pixon12",
+  "brand": "Samsung",
+  "name": "M8910 Pixon12",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series",
+      "Predecessor": "Samsung M8800 Pixon, Samsung i8510 Innov8",
+      "Successor": "Samsung Galaxy S4 Zoom"
+    },
+    "Network": {
+      "Technology": "GSM 800/900/1700/1800/1900/2100, 3G 900/2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108x53x13.8 mm",
+      "Weight": "120g"
+    },
+    "Platform": {
+      "Operating system": "TouchWiz 2.0 UI"
+    },
+    "Memory": {
+      "RAM": "150MB internal",
+      "Storage": "up to 16GB",
+      "Card slot": "microSD/microSDHC"
+    },
+    "Display": {
+      "Display": "16M (colors), 480 x 800 pixels (resolution), 3.1 inches AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "12MP at 4000x3000 pixels (picture), 720p at 30fps (HD video)"
+    },
+    "Battery": {
+      "Battery": "Li-lon 1100mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, HSDPA 7.2 Mbps, Bluetooth 2.1 and USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.1,
+    "display_type": "AMOLED",
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 120
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung M8910 Pixon12",
+      "url": "https://en.wikipedia.org/wiki/Samsung_M8910_Pixon12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung M8910 Pixon12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung M8910 Pixon12",
+    "revid": 1361483287
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "nokia-e61",
+  "brand": "Nokia",
+  "name": "E61",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ryansinn-5362.jpg/500px-Ryansinn-5362.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ryansinn-5362.jpg/250px-Ryansinn-5362.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia E61",
+      "credit": "Ryan Sinn (talk), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ryansinn-5362.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 9300",
+      "Successor": "Nokia E63, Nokia E71"
+    },
+    "Network": {
+      "Technology": "WWAN GSM/GPRS/EDGE quad band, UMTS (W-CDMA 2100)/HSCSD/CSD"
+    },
+    "Body": {
+      "Dimensions": "117 mm × 69.7 mm × 14 mm",
+      "Weight": "144 g / 150 g"
+    },
+    "Platform": {
+      "Operating system": "S60 platform third edition on Symbian OS",
+      "CPU": "220 MHz ARM-9 processor TI OMAP 1710"
+    },
+    "Memory": {
+      "RAM": "64 MB internal",
+      "Card slot": "Mini SD (replaced by Micro SD in E61i)"
+    },
+    "Display": {
+      "Display": "Landscape QVGA 320 × 240 LCD screen, 2.8 in, 24 bits (16 million) colors"
+    },
+    "Cameras": {
+      "Rear camera": "None (E61), 2 MPx (E61i)"
+    },
+    "Battery": {
+      "Battery": "1,500 mAh lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 54 Mbit/s 802.11g, PAN Bluetooth 1.2 (723.1 kbit/s); infrared and full-speed USB"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Symbian OS",
+    "five_g": false,
+    "nfc": false,
+    "wifi": "Wi-Fi 5",
+    "weight_g": 144,
+    "thickness_mm": 14
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E61",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E61"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E61\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E61",
+    "revid": 1361478209
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

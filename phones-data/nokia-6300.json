@@ -1,0 +1,90 @@
+{
+  "slug": "nokia-6300",
+  "brand": "Nokia",
+  "name": "6300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Nokia6300-2008-04-23.jpg/500px-Nokia6300-2008-04-23.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Nokia6300-2008-04-23.jpg/250px-Nokia6300-2008-04-23.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6300",
+      "credit": "Sun Ladder, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia6300-2008-04-23.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2007-01",
+      "Discontinued": "Q4 2010 / Q1 2011",
+      "Predecessor": "Nokia 6100",
+      "Successor": "Nokia 6303 classic, Nokia 6700 classic"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900, GPRS, EDGE",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "106.4 mm H , 43.6 mm W , 11.7 mm D",
+      "Weight": "91 g",
+      "Other": "USB tethering"
+    },
+    "Platform": {
+      "Operating system": "Series 40 3rd Edition Feature Pack 2",
+      "CPU": "235 MHz, ARM9"
+    },
+    "Memory": {
+      "RAM": "16 MB",
+      "Storage": "32 MB",
+      "Card slot": "microSD, up to 2 GB"
+    },
+    "Display": {
+      "Display": "2 in diagonal TFT LCD, 240 × 320 px QVGA, 1:1. aspect-ratio full-screen, 16.7M colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP (1600×1200 max.), QCIF video recording (176×144 px. MPEG4 at 15 fps max.)"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 2.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-4C, 860 mAh, 3.7 V user replaceable Li-ion",
+      "Charging": "Nokia 2-mm DC Charging Interface"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 + EDR with A2DP, HFP, HSP, OPP and DUN, Mini USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 91,
+    "thickness_mm": 11.7,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6300",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6300",
+    "revid": 1383379379
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

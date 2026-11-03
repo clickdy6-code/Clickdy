@@ -1,0 +1,58 @@
+{
+  "slug": "nokia-x1-00",
+  "brand": "Nokia",
+  "name": "X1-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 2011",
+      "Series": "Nokia Xseries"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "112.2 x",
+      "Weight": "91.1 g",
+      "Other": "Built-in flashlight, MP3 player"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 30"
+    },
+    "Memory": {
+      "Card slot": "microSD, up to 16 GB"
+    },
+    "Display": {
+      "Display": "1.8 in 128 x 160 px (~114 ppi pixel density) TFT with 65K colors"
+    },
+    "Battery": {
+      "Battery": "1320 mAh Li-ion, removable (Nokia BL-5J)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, FM radio, Stereo"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1320,
+    "nfc": false,
+    "weight_g": 91.1,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X1-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X1-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X1-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X1-00",
+    "revid": 1361478615
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

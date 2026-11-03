@@ -1,0 +1,105 @@
+{
+  "slug": "samsung-galaxy-m52-5g",
+  "brand": "Samsung",
+  "name": "Galaxy M52 5G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/SGalaxyM52_5G.jpg/500px-SGalaxyM52_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/SGalaxyM52_5G.jpg/250px-SGalaxyM52_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy M52 5G",
+      "credit": "NunysBR, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SGalaxyM52_5G.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung Galaxy M series",
+      "Predecessor": "Samsung Galaxy M51",
+      "Successor": "Samsung Galaxy M53 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.2 mm H , 76.4 mm W , 7.4 mm D",
+      "Weight": "173 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with One UI 3.1 upgradable to Android 13 with One UI 5.1",
+      "Chipset": "Qualcomm SM7325 Snapdragon 778G 5G (6 nm)",
+      "CPU": "Octa-core (4x2.4 GHz Kryo 670 & 4x1.8 GHz Kryo 670)",
+      "GPU": "Adreno 642L"
+    },
+    "Memory": {
+      "RAM": "6 GB / 8 GB RAM",
+      "Storage": "128 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.7 inches, 108.4 cm2 (~86.4% screen-to-body ratio), 1080 x 2400 pixels, 20:9 ratio (~393 ppi density), Super AMOLED Plus, 120Hz, HDR10, Corning Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, f/1.8, 26mm wide, PDAF, 12 MP, f/2.2, 123˚, ultrawide, 5 MP, f/2.4, macro, LED flash, panorama, HDR, 4K@30fps and 1080p@30/60fps video recording",
+      "Front camera": "32 MP, f/2.2, wide, 1080p@30/60fps video recording"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "5000 mAh Li-Ion non-removable battery",
+      "Charging": "25W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE, USB Type-C 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SM7325 Snapdragon 778G 5G",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 173,
+    "thickness_mm": 7.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M52 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M52_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M52 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M52 5G",
+    "revid": 1380482469
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

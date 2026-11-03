@@ -1,0 +1,97 @@
+{
+  "slug": "rog-phone-ii",
+  "brand": "ROG",
+  "name": "Phone II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Asus_ROG_Phone_2_20201101_T1049.jpg/500px-Asus_ROG_Phone_2_20201101_T1049.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Asus_ROG_Phone_2_20201101_T1049.jpg/250px-Asus_ROG_Phone_2_20201101_T1049.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "ROG Phone II",
+      "credit": "Solomon203, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Asus_ROG_Phone_2_20201101_T1049.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2019",
+      "Predecessor": "ROG Phone",
+      "Successor": "ROG Phone 3"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "171 × 77.6 × 9.5 mm (6.73 × 3.06 × 0.37 in)",
+      "Weight": "240 g (8.47 oz)",
+      "Other": "Fast battery charging 30W (Quick Charge 4.0), Power bank/Reverse charging 10W"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 \"Pie\"",
+      "Chipset": "Qualcomm Snapdragon 855+",
+      "CPU": "Octa-core (1x2.96 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.8 GHz Kryo 485)",
+      "GPU": "Adreno 640 (700 MHz)"
+    },
+    "Memory": {
+      "RAM": "8 GB or 12 GB RAM",
+      "Storage": "128 GB, 512 GB, or 1 TB UFS 3.0"
+    },
+    "Display": {
+      "Display": "6.59-inch (167.4 mm) 1080×2340 FHD+ 120 Hz AMOLED capacitive touchscreen, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.8, 26 mm (wide), 1/2\", 0.8 µm, PDAF, Laser AF, 13 MP, f/2.4, 11 mm (ultrawide), Dual-LED flash, HDR, panorama, 2160p@30/60fps, 1080p@30/60/240fps, 720p@480fps; gyro-EIS (except @240/480fps)",
+      "Front camera": "24 MP, f/2.2, Features\tPanorama, HDR, Video\t1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker with stereo speakers, 3.5 mm headphone jack, 24-bit/192kHz audio, Active noise cancellation with dedicated mics, DTS Headphone X"
+    },
+    "Battery": {
+      "Battery": "6000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 802.11 a/b/g/n/ac/ad, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE, aptX HD, GPS, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS, NFC, USB 3.1, Type-C 1.0 reversible connector; accessory connector"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 855+",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      512,
+      1024
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 24,
+    "battery_mah": 6000,
+    "os": "Android 9.0",
+    "nfc": true,
+    "weight_g": 240,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ROG Phone II",
+      "url": "https://en.wikipedia.org/wiki/ROG_Phone_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ROG Phone II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ROG Phone II",
+    "revid": 1361479507
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

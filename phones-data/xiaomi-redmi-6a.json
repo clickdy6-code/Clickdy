@@ -1,0 +1,93 @@
+{
+  "slug": "xiaomi-redmi-6a",
+  "brand": "Xiaomi",
+  "name": "Redmi 6A",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_Redmi_6A_%D0%91%D0%BB%D0%B0%D0%BA%D0%B8%D1%82%D0%BD%D0%B8%D0%B9_00001_03_%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD.jpg/500px-Xiaomi_Redmi_6A_%D0%91%D0%BB%D0%B0%D0%BA%D0%B8%D1%82%D0%BD%D0%B8%D0%B9_00001_03_%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_Redmi_6A_%D0%91%D0%BB%D0%B0%D0%BA%D0%B8%D1%82%D0%BD%D0%B8%D0%B9_00001_03_%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD.jpg/250px-Xiaomi_Redmi_6A_%D0%91%D0%BB%D0%B0%D0%BA%D0%B8%D1%82%D0%BD%D0%B8%D0%B9_00001_03_%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 6A",
+      "credit": "Nickispeaki, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Redmi_6A_%D0%91%D0%BB%D0%B0%D0%BA%D0%B8%D1%82%D0%BD%D0%B8%D0%B9_00001_03_%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2018",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 5A",
+      "Successor": "Redmi 7A"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "145g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 Oreo with MIUI 9 , Current: Global: Android Pie, Android 9 Pie with MIUI 11, China: Android 9 Pie with MIUI 12",
+      "Chipset": "Mediatek MT6761 Helio A22",
+      "CPU": "Quad-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "2/3 GB",
+      "Storage": "16/32 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "5.45\", 16:9, 720x1440, IPS LCD, 295 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2, (wide), PDAF",
+      "Front camera": "5 MP f/2.2"
+    },
+    "Sound": {
+      "Sound": "Mono loudspeaker"
+    },
+    "Battery": {
+      "Battery": "3000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.45,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek MT6761 Helio A22",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 8.1",
+    "five_g": false,
+    "weight_g": 145,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 6A",
+      "url": "https://en.wikipedia.org/wiki/Redmi_6A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 6A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 6A",
+    "revid": 1361479800
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "nokia-c2-05",
+  "brand": "Nokia",
+  "name": "C2-05",
+  "status": "published",
+  "announced": "2011-10-10",
+  "released": "2011-10-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Nokia_C2-05_black.JPG/500px-Nokia_C2-05_black.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Nokia_C2-05_black.JPG/250px-Nokia_C2-05_black.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C2-05",
+      "credit": "Zunter, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_C2-05_black.JPG",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "10 October 2011",
+      "Predecessor": "Nokia 2220 slide"
+    },
+    "Body": {
+      "Form factor": "Slider phone",
+      "Dimensions": "99.4x47.8x16.3 mm",
+      "Weight": "98.5 g (3.46 oz)"
+    },
+    "Platform": {
+      "Operating system": "Series 40, SPR 10.4",
+      "CPU": "208 MHz ARM1176"
+    },
+    "Memory": {
+      "RAM": "64MB ROM, 16MB RAM; 10MB user-accessible",
+      "Card slot": "microSD expandable up to 32GB"
+    },
+    "Display": {
+      "Display": "2.0 in TFT, 240x320 px, 65k color"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 megapixels, VGA, 640x480px"
+    },
+    "Battery": {
+      "Battery": "BL-4C, 860 mAH, Li-Ion, Stand-by 600hr, TalkTime 5hr"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "battery_mah": 860,
+    "weight_g": 98.5,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C2-05",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C2-05"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C2-05\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C2-05",
+    "revid": 1376078160
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

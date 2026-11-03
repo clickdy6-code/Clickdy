@@ -1,0 +1,85 @@
+{
+  "slug": "samsung-wave-ii-s8530",
+  "brand": "Samsung",
+  "name": "Wave II S8530",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Samsung_wave_II.jpg/500px-Samsung_wave_II.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Samsung_wave_II.jpg/250px-Samsung_wave_II.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Wave II S8530",
+      "credit": "Aniket desale, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_wave_II.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series",
+      "Predecessor": "Samsung Wave S8500",
+      "Successor": "Samsung Wave S8600"
+    },
+    "Network": {
+      "Technology": "GSM: 850/900/1800/1900/2100, 3G: 900/2100, HSDPA: 3.6 Mbit/s, HSUPA: 2 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "123.9 x 59.8 x 11.8 mm",
+      "Weight": "135 g",
+      "Other": "- Scratch-resistant surface, - Smart unlock, - Accelerometer, - Proximity sensor, - Magnetometer, - Digital compass"
+    },
+    "Platform": {
+      "Operating system": "bada 1.2 with TouchWiz 3.0",
+      "CPU": "ARM Cortex A8 clocked at 1 GHz (Samsung S5PC111)"
+    },
+    "Memory": {
+      "RAM": "256 MB of RAM",
+      "Storage": "2 GB / 8 GB",
+      "Card slot": "microSD(HC) up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.7\" 800x480 @ 283 PPI Super Clear LCD with Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (4:3)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11b/g/n Wi-Fi, A-GPS, Bluetooth 3.0, microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "LCD",
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Wave II S8530",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Wave_II_S8530"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Wave II S8530\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Wave II S8530",
+    "revid": 1382593879
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

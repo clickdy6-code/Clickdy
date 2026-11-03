@@ -1,0 +1,81 @@
+{
+  "slug": "samsung-s5610",
+  "brand": "Samsung",
+  "name": "S5610",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Samsung_GT-S5610_-_Front.jpg/500px-Samsung_GT-S5610_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Samsung_GT-S5610_-_Front.jpg/250px-Samsung_GT-S5610_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung S5610",
+      "credit": "Beamish4, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_GT-S5610_-_Front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900/2100, GPRS, EDGE, UMTS 900/2100, Services MMS, SMS, WAP, SMS, WAP, WAP 2.0, Video calling video 3G"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "118.9 x 49.7 x 12.9 mm",
+      "Weight": "91 g"
+    },
+    "Platform": {
+      "Operating system": "Samsung proprietary",
+      "CPU": "Broadcom, 468 MHz (S5610), 460 MHz (S5611)"
+    },
+    "Memory": {
+      "RAM": "128MB RAM (S5610), 512MB RAM (S5611)",
+      "Storage": "108 MB Internal Memory (S5610), 256 MB Internal Memory (S5611)",
+      "Card slot": "microSD up to 16GB (microSDHC compatible)"
+    },
+    "Display": {
+      "Display": "2.4 in QVGA 240 x 320 pixels TFT LCD, 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP, 2560x1920 pixels, auto focus, macro mode, In JPEG format, 13 different shooting modes, 3-stop lens, LED flash, 240p 30fps video (S5610)",
+      "Front camera": "Yes (S5610; only used for video calls)"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1000mAh",
+      "Charging": "5V 1A"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0 with A2DP and microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 91
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung S5610",
+      "url": "https://en.wikipedia.org/wiki/Samsung_S5610"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung S5610\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung S5610",
+    "revid": 1365270468
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

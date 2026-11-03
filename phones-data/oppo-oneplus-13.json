@@ -1,0 +1,100 @@
+{
+  "slug": "oppo-oneplus-13",
+  "brand": "Oppo",
+  "name": "OnePlus 13",
+  "status": "published",
+  "announced": "2024-11-01",
+  "released": "2024-11-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/OnePlus_13_back.jpg/500px-OnePlus_13_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/OnePlus_13_back.jpg/250px-OnePlus_13_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo OnePlus 13",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_13_back.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-11-01 (China), 2025-01-07 (international)",
+      "Predecessor": "OnePlus 12",
+      "Successor": "OnePlus 15"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G NR (dual sim)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 162.9 mm , W: 76.5 mm , D: 8.5 mm , D: 8.9 mm",
+      "Weight": "210 g , 213 g"
+    },
+    "Platform": {
+      "Operating system": "Android 15, OxygenOS 15 (international), ColorOS 15 (China)",
+      "Chipset": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+      "CPU": "Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)",
+      "GPU": "Adreno 830"
+    },
+    "Memory": {
+      "RAM": "256GB: 12GB RAM , 512GB: 12GB RAM , 512GB: 16GB RAM , 1TB: 24GB RAM",
+      "Storage": "UFS 4.0:"
+    },
+    "Display": {
+      "Display": "Type: LTPO AMOLED, 1B colors, 120Hz, Dolby Vision, HDR10+, 800 nits (typ), 1600 nits (HBM), 4500 nits (peak), Size: 6.82 in , ~90.7% screen-to-body ratio, Resolution: 1440 x 3168 pixels, Protection: Crystal Shield super-ceramic glass"
+    },
+    "Cameras": {
+      "Rear camera": "Triple cameras: , 50 MP, f/1.6, 23mm (wide), 1/1.43\", 1.12μm, multi-directional PDAF, OIS, 50 MP, f/2.6, 73mm (periscope telephoto), 1/1.95\", 3x optical zoom, PDAF, OIS, 50 MP, f/2.0, 15mm, 120˚ (ultrawide), PDAF",
+      "Front camera": "32 MP, f/2.4, 21mm (wide), 1/2.74\", 0.8μm"
+    },
+    "Battery": {
+      "Battery": "silicon carbon 6000 mAh",
+      "Charging": "International: 100W wired, PD, 100% in 36 min International: 50W magnetic charger (with magnetic case), 100% in 75 min International: OnePlus AirVOOC 50W wireless charger, 100% in 75 min"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.4, A2DP, LE, aptX HD, LHDC 5, NFC, GPS (L1+L5), GLONASS (G1), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC, Wi-Fi 802.11 a/b/g/n/ac/6/7, dual or tri-band, Wi-Fi Direct"
+    }
+  },
+  "key": {
+    "display_in": 6.82,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 4500,
+    "chipset": "Qualcomm SM8750-AB Snapdragon 8 Elite",
+    "ram_gb": [
+      12,
+      16,
+      24,
+      56
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 6000,
+    "wireless_w": 50,
+    "wired_w": 100,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 210,
+    "thickness_mm": 8.5,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 13",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_13"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 13\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 13",
+    "revid": 1382785324
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

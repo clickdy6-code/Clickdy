@@ -1,0 +1,86 @@
+{
+  "slug": "nokia-x2-00",
+  "brand": "Nokia",
+  "name": "X2-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Nokia_X2.jpg/500px-Nokia_X2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Nokia_X2.jpg/250px-Nokia_X2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia X2-00",
+      "credit": "Vit1251, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_X2.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2010",
+      "Discontinued": "December 2012",
+      "Series": "Nokia Xseries",
+      "Predecessor": "Nokia 5130, Nokia 3720 classic",
+      "Successor": "Nokia X2-02, Nokia X2-05"
+    },
+    "Network": {
+      "Technology": "GSM (850/900/1800/1900 MHz), GPRS and EDGE"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "111 x 47 x 13.3 mm",
+      "Weight": "81 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 40"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM, 128 MB ROM",
+      "Storage": "48 MB",
+      "Card slot": "microSD, up to 16 GB"
+    },
+    "Display": {
+      "Display": "2.2 in 240 x 320 px (~182 ppi pixel density) TFT with 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP with LED Flash and video recorder 320p@18fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "860 mAh Li-ion, removable (Nokia BL-4C)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, Bluetooth 2.1, FM radio, Stereo, RDS, built-in Antenna, USB 2.0 via MicroUSB port, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 81,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X2-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X2-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X2-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X2-00",
+    "revid": 1361478634
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

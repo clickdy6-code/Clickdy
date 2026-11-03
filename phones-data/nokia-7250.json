@@ -1,0 +1,72 @@
+{
+  "slug": "nokia-7250",
+  "brand": "Nokia",
+  "name": "7250",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nokia_7250i_%28763025390%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nokia_7250i_%28763025390%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 7250",
+      "credit": "clive darr from UK, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7250i_(763025390).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2006",
+      "Predecessor": "Nokia 7210 (7250/7250i)",
+      "Successor": "Nokia 7260 (7250), Nokia 7610 (7250i)"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "105 x 44 x 19 mm",
+      "Weight": "92 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 40"
+    },
+    "Memory": {
+      "RAM": "5 MB"
+    },
+    "Display": {
+      "Display": "128 x 128 px"
+    },
+    "Cameras": {
+      "Rear camera": "352 x 288 px"
+    },
+    "Battery": {
+      "Battery": "720 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Pop-Port, InfraRed"
+    }
+  },
+  "key": {
+    "battery_mah": 720,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 92
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7250",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7250"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7250\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7250",
+    "revid": 1380300737
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

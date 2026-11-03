@@ -1,0 +1,72 @@
+{
+  "slug": "realme-7-pro",
+  "brand": "Realme",
+  "name": "7 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "7",
+      "Predecessor": "Realme 6 Pro",
+      "Successor": "Realme 8 Pro"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "160.9 x 74.3 x 8.7 mm",
+      "Weight": "182 g"
+    },
+    "Platform": {
+      "CPU": "Qualcomm® Snapdragon™ 720 Gaming Mobile Platform, CPU: 8nm, Octa-core, Up to 2.3GHz, GPU: Adreno 618, AIE：5th Generation Qualcomm AI Engine"
+    },
+    "Display": {
+      "Display": "2400×1080 (FullHD+), Super Amoled capacitive touchscreen, Gorilla Glass 3, 60 Hz refresh rate, 6.5 in, 409 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, f/1.8, 26mm (wide), 1/2.0\", Dual Pixel PDAF , + 8 MP, f/2.3, 16mm (ultrawide), + 2 MP, f/2.4, (macro), + 2 MP, f/2.4, (depthB/W) 4k 30fps, 1080p@60/30fps",
+      "Front camera": "32 MP, f/2.5, 26mm (wide), 1/2.8\", 1.0 μm, Panorama, 1080p@30/120fps, slow mo, smart-beauty, B/W"
+    },
+    "Battery": {
+      "Battery": "Li-Po 4500 mAh, non-removable",
+      "Charging": "65 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi a/b/g/n/ac, 3G/LTE"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "Super Amoled",
+    "refresh_hz": 60,
+    "main_mp": 64,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "4k@30fps",
+    "front_mp": 32,
+    "battery_mah": 4500,
+    "wired_w": 65,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 182
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme 7 Pro",
+      "url": "https://en.wikipedia.org/wiki/Realme_7_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme 7 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme 7 Pro",
+    "revid": 1382785661
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

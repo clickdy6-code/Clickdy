@@ -1,0 +1,93 @@
+{
+  "slug": "hmd-nokia-c12",
+  "brand": "HMD",
+  "name": "Nokia C12",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "C12: , C12 Pro: , C12 Plus:",
+      "Series": "C series",
+      "Predecessor": "Nokia C10",
+      "Successor": "HMD Key"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "166.6 × 74.3 × 8.75 mm",
+      "Weight": "177.4 g"
+    },
+    "Platform": {
+      "Operating system": "Android 12 (Go edition)",
+      "Chipset": "UNISOC SC9863A1 (28 nm)",
+      "CPU": "Octa-core (4×1.6 GHz Cortex-A55 & 4×1.2 GHz Cortex-A55)",
+      "GPU": "IMG8322"
+    },
+    "Memory": {
+      "RAM": "C12/Pro: 2/3 GB, C12 Plus: 2 GB, LPDDR4X",
+      "Storage": "C12/Pro: 64 GB, C12 Plus: 32 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.3\", 1600 × 720 (HD+), 20:9, 278 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, AF, LED flash, HDR, panorama, Video: 720p@30fps",
+      "Front camera": "5 MP, Video: 720p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion, C12: 3000 mAh, C12 Plus/Pro: 4000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm jack, Bluetooth 5.2 (A2DP), wireless FM radio, Wi-Fi 802.11 b/g/n, GPS (A-GPS)"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "IPS LCD",
+    "chipset": "UNISOC SC9863A1",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "wired_w": 10,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 177.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C12",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C12",
+    "revid": 1361478074
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

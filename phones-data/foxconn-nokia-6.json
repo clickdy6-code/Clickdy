@@ -1,0 +1,94 @@
+{
+  "slug": "foxconn-nokia-6",
+  "brand": "Foxconn",
+  "name": "Nokia 6",
+  "status": "published",
+  "announced": "2017-01-20",
+  "released": "2017-01-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/05/Nokia_6_front_view.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/05/Nokia_6_front_view.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Foxconn Nokia 6",
+      "credit": "Tinh tế Photo, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6_front_view.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-01-20",
+      "Series": "Single digit Series",
+      "Predecessor": "Microsoft Lumia 650",
+      "Successor": "Nokia 6.1, Nokia X6 (2018)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "154 x 75.8 x 7.9 mm",
+      "Weight": "169 g (5.96 oz)",
+      "Other": "Compass, fingerprint reader (front-mounted), NFC (Note: see Variants)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 \"Nougat\", Current: Android 9.0 \"Pie\"",
+      "Chipset": "Qualcomm Snapdragon 430 (28 nm)",
+      "CPU": "Octa core 1.4 GHz Cortex-A53",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "3 or 4 GB RAM",
+      "Storage": "32 or 64 GB",
+      "Card slot": "microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5\" 1080p Full HD 2.5D curved display with Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP, AF, f/2.0, dual-tone LED flash for true and natural colour",
+      "Front camera": "8 MP, f/2.0, 1/4.0\""
+    },
+    "Sound": {
+      "Sound": "Dual speaker, 3.5mm Headphone jack, Active noise cancellation with dedicated microphone, Dolby Atmos surround sound"
+    },
+    "Battery": {
+      "Battery": "3000 mAh Li-Po"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth, USB 2.0 via Micro-USB port"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "chipset": "Qualcomm Snapdragon 430",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 7.1",
+    "nfc": false,
+    "weight_g": 169,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6",
+    "revid": 1361477447
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

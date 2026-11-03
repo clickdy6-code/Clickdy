@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-5800-xpressmusic",
+  "brand": "Nokia",
+  "name": "5800 XpressMusic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nokia_5800_XpressMusic_3Q.jpg/500px-Nokia_5800_XpressMusic_3Q.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nokia_5800_XpressMusic_3Q.jpg/250px-Nokia_5800_XpressMusic_3Q.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5800 XpressMusic",
+      "credit": "Conrad Longmore, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5800_XpressMusic_3Q.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2010",
+      "Predecessor": "Nokia 5700 XpressMusic, Nokia 5610 XpressMusic",
+      "Successor": "Nokia X6, Nokia C7-00[http://www.product-reviews.net/2010/08/05/nokia-5800-xpressmusic-successor-c7-spotted-in-hong-kong/ Nokia 5800 XpressMusic Successor: C7 spotted in Hong Kong"
+    },
+    "Network": {
+      "Technology": "GSM, EGPRS, WCDMA, HSDPA, A-GPS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "111 × 51.7 × 15.5 mm",
+      "Weight": "109g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.4 (Firmware Version V60.0.003)",
+      "CPU": "ARM11 @ 434 Mhz after firmware V20"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM, 256 MB NAND, 81 MB Internal User Storage",
+      "Card slot": "max. 16 GB microSDHC (32 GB unofficial), 8 GB card included"
+    },
+    "Display": {
+      "Display": "nHD 640 x 360 pixels, 3.2-inch 16:9 widescreen, (16.7 million colours)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Megapixels, Carl Zeiss AG optics with autofocus and dual LED flash",
+      "Front camera": "Front camera for video calls"
+    },
+    "Battery": {
+      "Battery": "BL-5J (3.7V 1320mAh); 2 mm charging connector"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (EDR/A2DP), WLAN (802.11 b/g), USB Micro B 2.0; 3.5 mm headphone and video-out jack"
+    }
+  },
+  "key": {
+    "battery_mah": 1320,
+    "os": "Symbian OS 9.4 (Firmware Version V60.0.003)",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 109
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5800 XpressMusic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5800_XpressMusic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5800 XpressMusic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5800 XpressMusic",
+    "revid": 1364508381
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

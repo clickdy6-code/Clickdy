@@ -1,0 +1,94 @@
+{
+  "slug": "samsung-galaxy-z-flip-6",
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip 6",
+  "status": "published",
+  "announced": "2024-07-31",
+  "released": "2024-07-31",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-07-31",
+      "Series": "Galaxy Z",
+      "Predecessor": "Samsung Galaxy Z Flip 5",
+      "Successor": "Samsung Galaxy Z Flip 7"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "SIM": "Nano-SIM and multi eSIM"
+    },
+    "Body": {
+      "Form factor": "Foldable slate"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14 with One UI 6.1.1, Current: Android 17 with One UI 9.0",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 3 (4 nm)",
+      "CPU": "Octa-core (1×3.3 GHz Cortex-X4 & 3×3.2 GHz Cortex-A720 & 2×3.0 GHz Cortex-A720 & 2×2.3 GHz Cortex-A520)",
+      "GPU": "Adreno 750"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 or 512 GB UFS 4.0"
+    },
+    "Display": {
+      "Display": "Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak), 6.7 inches (~85.5% screen-to-body ratio), 1080 × 2640 pixels (~426 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, 23 mm (wide), 1.0 μm, dual pixel PDAF, OIS, 12 MP, f/2.2, 123° (ultrawide), 1.12 μm, LED flash, HDR, panorama, 4K@30/60fps, 1080p@60/120/240fps, 720p@960fps, HDR10+",
+      "Front camera": "10 MP, f/2.2, 23 mm (wide), 1.22 μm, HDR, 4K@60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers with 32-bit/384kHz audio"
+    },
+    "Battery": {
+      "Battery": "4000 mAh",
+      "Charging": "25W Super fast charging, 15W Fast wireless charging, 4.5W Reverse wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band, Wi-Fi Direct, Bluetooth 5.3, A2DP, LE, GPS, GALILEO, GLONASS, BDS, QZSS, USB Type-C 3.2, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 2600,
+    "chipset": "Qualcomm Snapdragon 8 Gen 3",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 10,
+    "battery_mah": 4000,
+    "wireless_w": 15,
+    "wired_w": 25,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "esim": true,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Flip 6",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Flip 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Flip 6",
+    "revid": 1381419246
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

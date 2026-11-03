@@ -1,0 +1,74 @@
+{
+  "slug": "samsung-gt-s5230",
+  "brand": "Samsung",
+  "name": "GT-S5230",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Samsung_GT-S5230-7568.jpg/500px-Samsung_GT-S5230-7568.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Samsung_GT-S5230-7568.jpg/250px-Samsung_GT-S5230-7568.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung GT-S5230",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_GT-S5230-7568.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series",
+      "Successor": "Samsung Star II (S5260), Samsung i7500"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "104 × 53 × 11.9 mm",
+      "Weight": "93.5 g",
+      "Other": "Touchscreen, Full web browser (Jasmine), Haptic Touch feedback, ringtone: MP3, WAV"
+    },
+    "Platform": {
+      "Operating system": "Proprietary",
+      "CPU": "208 MHz ARM9 CPU"
+    },
+    "Memory": {
+      "RAM": "50/144 MB (Region dependent)",
+      "Card slot": "Micro SD, Micro SDHC, up to 16 GB"
+    },
+    "Display": {
+      "Display": "240 × 400 pixels (~155 ppi pixel density) Resistive Touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Mega Pixel Fixed-Focus Videos AVI - 320x240 QVGA@30fps XviD + MP3 (decoding)"
+    },
+    "Battery": {
+      "Battery": "Li-lon 1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, USB 2.0"
+    }
+  },
+  "key": {
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 93.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung GT-S5230",
+      "url": "https://en.wikipedia.org/wiki/Samsung_GT-S5230"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung GT-S5230\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung GT-S5230",
+    "revid": 1371927142
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

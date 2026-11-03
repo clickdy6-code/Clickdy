@@ -1,0 +1,93 @@
+{
+  "slug": "oneplus-11",
+  "brand": "OnePlus",
+  "name": "11",
+  "status": "published",
+  "announced": "2023-01-09",
+  "released": "2023-01-09",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-01-09",
+      "Predecessor": "OnePlus 10 Pro",
+      "Successor": "OnePlus 12"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G NR"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 163.1 mm , W: 74.1 mm , D: 8.5 mm",
+      "Weight": "205 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with OxygenOS 13/ColorOS 13, Currently: Android 16 with OxygenOS 16/ColorOS 16, Unofficial: Android 17 with LineageOS 24.0",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 2",
+      "CPU": "Octa cores:, 1x Cortex-X3 (3.2 GHz), 2x Cortex-A715 (2.8 GHz), 2x Cortex-A710 (2.8 GHz), 3x Cortex-A510 (2.0 GHz)",
+      "GPU": "Adreno 740"
+    },
+    "Memory": {
+      "RAM": "128GB: 8GB RAM , 256GB: 12GB RAM , 256GB & 512GB: 16GB RAM",
+      "Storage": "UFS 3.1: 128GB only, UFS 4.0: 256GB, 512GB"
+    },
+    "Display": {
+      "Display": "Size: 6.7 in , ~89.7% screen-to-body ratio, Resolution: 1440 x 3216 pixels, Protection: Corning Gorilla Glass Victus"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Sony IMX 890; 50 MP, 24mm, FoV 84°, 1/1.56\", 1.0μm, multi-directional PDAF, OIS, Telephoto: Sony IMX 709; 32 MP, 48mm, 1/2.74\", PDAF, 2x optical zoom, Ultrawide: Sony IMX 581; 48 MP, FoV 115°, 1/2.0\", AF, Features: Hasselblad Color Calibration, color spectrum sensor, Dual-LED flash, HDR, panorama, Video: 8K@24fps, 4K@30/60fps, 1080p@30/60/240fps, Auto HDR, gyro-EIS",
+      "Front camera": "Samsung ISOCELL S5K3P9; 16 MP, 25mm (wide), 1/3.0\", 1.0μm, Features: HDR, panorama, Video: 1080p@30fps, gyro-EIS"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh , non-removable",
+      "Charging": "International: 100W wired, PD, 50% in 10 min, 100% in 25 min (advertised), USA: 80W wired, PD"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.3, NFC, GPS (L1+L5 Dual Band), GLONASS, Galileo (E1+E5a Dual Band), Beidou, A-GPS, QZSS, WiFi 802.11 a/b/g/n/ac/ax/be"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "chipset": "Qualcomm Snapdragon 8 Gen 2",
+    "ram_gb": [
+      8,
+      12,
+      16,
+      28,
+      56
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 100,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "weight_g": 205,
+    "thickness_mm": 8.5,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 11",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_11"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 11\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 11",
+    "revid": 1382785050
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "foxconn-pixel-3",
+  "brand": "Foxconn",
+  "name": "Pixel 3",
+  "status": "published",
+  "announced": "2018-10-09",
+  "released": "2018-10-09",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-09",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 2",
+      "Successor": "Pixel 4"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE, UMTS/HSPA+, CDMA EVDO Rev A, WCDMA, LTE, LTE Advanced"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel 3:, H: 145.6 mm, W: 68.2 mm, D: 7.9 mm, Pixel 3 XL:, H: 158.0 mm, W: 76.7 mm, D: 7.9 mm",
+      "Weight": "Pixel 3: 148 g, Pixel 3 XL: 184 g",
+      "Other": "18 W fast charging, Qi (standard), Qi wireless charging, Pixel Visual Core, Titan M security module"
+    },
+    "Platform": {
+      "Operating system": "Android 9 \"Pie\" , Last: Android 12",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "2.5 GHz + 1.6 GHz, 64-Bit Octa-Core",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X",
+      "Storage": "64 or 128 GB"
+    },
+    "Display": {
+      "Display": "Pixel 3: 5.5 in FHD+ OLED at 443 ppi, pixel resolution (2:1) , Pixel 3 XL: 6.3 in QHD+ OLED at 523 ppi, (37:18) pixel resolution, Both displays have Corning Gorilla Glass 5 and 424 cd/m max brightness"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor IMX363 12.2 MP (1.4 μm) with 1.8 lens, Dual Pixel Phase autofocus, optical and electronic image stabilization, spectral + flicker sensor, 1080p at 30/60/120 fps, 720p at 30/60/240 fps, 4K at 30 fps",
+      "Front camera": "Sony Exmor IMX355 8 MP with 1.8 lens and 75° lens, second front camera with 8 MP, 2.2, fixed focus and 97° wide-angle lens, 1080p at 30 fps, 720p at 30 fps, 480p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "Front firing stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Pixel 3: 2915 mAh, Pixel 3 XL: 3430 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 2.4 GHz + 5.0 GHz 802.11a/b/g/n/ac, Bluetooth 5.0 + LE, NFC, GPS (GLONASS, Galileo, BeiDou), eSIM capable"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 2915,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "esim": true,
+    "weight_g": 148,
+    "thickness_mm": 7.9,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 3",
+      "url": "https://en.wikipedia.org/wiki/Pixel_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Pixel 3",
+    "revid": 1372027419
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

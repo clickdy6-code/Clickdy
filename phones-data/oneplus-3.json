@@ -1,0 +1,95 @@
+{
+  "slug": "oneplus-3",
+  "brand": "OnePlus",
+  "name": "3",
+  "status": "published",
+  "announced": "2016-06-14",
+  "released": "2016-06-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/OnePlus_3_A3003.jpg/500px-OnePlus_3_A3003.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/OnePlus_3_A3003.jpg/250px-OnePlus_3_A3003.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 3",
+      "credit": "Santeri Viinamäki, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_3_A3003.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-06-14",
+      "Discontinued": "2016-11-17 (North America and Europe only)",
+      "Predecessor": "OnePlus 2",
+      "Successor": "OnePlus 3T"
+    },
+    "Network": {
+      "Technology": "2G, 3G and 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "152.7 mm H, 74.7 mm W, 7.35 mm D",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "OxygenOS (Global) , HydrogenOS (Mainland China)",
+      "Chipset": "Qualcomm Snapdragon 820",
+      "CPU": "Kryo 2x2.2 GHz + 2x1.6 GHz",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4 RAM",
+      "Storage": "64 GB UFS 2.0"
+    },
+    "Display": {
+      "Display": "5.5 in 1920 x 1080 pixel resolution (401ppi) AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP Sony IMX298",
+      "Front camera": "8 MP Sony IMX179"
+    },
+    "Battery": {
+      "Battery": "3000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "3G, 4G VoLTE, WiFi, NFC, Bluetooth 4.2, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 820",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 155,
+    "thickness_mm": 7.35,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 3",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 3",
+    "revid": 1382784619
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

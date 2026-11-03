@@ -1,0 +1,80 @@
+{
+  "slug": "nokia-n900",
+  "brand": "Nokia",
+  "name": "N900",
+  "status": "published",
+  "announced": "2009-11-11",
+  "released": "2009-11-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-11-11",
+      "Predecessor": "Nokia N810, Nokia N97",
+      "Successor": "Nokia N9, Nokia N950 (Limited release, non-retail)"
+    },
+    "Body": {
+      "Form factor": "Mobile Internet device, handheld computer and smartphone",
+      "Dimensions": "110.9 mm (h), 59.8 mm (w), 18 mm (d) , 19.55 mm at thickest part",
+      "Weight": "approx. 181 g"
+    },
+    "Platform": {
+      "Operating system": "Maemo 5",
+      "CPU": "TI OMAP 3430 SoC, 600 MHz ARM Cortex-A8 CPU , 430 MHz C64x+ DSP",
+      "GPU": "PowerVR SGX530 GPU supporting OpenGL ES 2.0"
+    },
+    "Memory": {
+      "RAM": "256 MB Mobile DDR , 768 MB swap space for a total of 1 GB virtual memory",
+      "Storage": "256 MB NAND flash, 32 GB eMMC flash"
+    },
+    "Display": {
+      "Display": "TFT 800 × 480 resolution , 89 mm (3.5 in) diagonally, 105 pixels/cm, 267 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP (2,584×1,938) 1/2.5\" sensor, f/2.8 5.2mm (31.2mm focal length in 35mm terminology) Carl Zeiss Tessar lens (rear camera) , 0.3 MP (640×480) f/2.8 (front camera)"
+    },
+    "Sound": {
+      "Sound": "Stereo loudspeaker , 3.5 mm TRRS for Audio/Headphones/Video out"
+    },
+    "Battery": {
+      "Battery": "BL-5J 1320 mAh battery"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM 850/900/1800/1900 , GPRS 107/64 kbit/s DL/UL , EDGE 296/178 kbit/s DL/UL , UMTS 900/1700/2100, WCDMA 384/384 kbit/s DL/UL , HSPA 10/2 Mbit/s DL/UL , WLAN IEEE 802.11 b/g , Bluetooth 2.1, Integrated GPS with A-GPS , 88-108 MHz FM receiver , 88-110 MHz FM transmitter , Infrared transmitter"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1320,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 181,
+    "thickness_mm": 18,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N900",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N900"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N900\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N900",
+    "revid": 1376200124
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

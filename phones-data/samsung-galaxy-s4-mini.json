@@ -1,0 +1,83 @@
+{
+  "slug": "samsung-galaxy-s4-mini",
+  "brand": "Samsung",
+  "name": "Galaxy S4 Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-07",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S III Mini",
+      "Successor": "Samsung Galaxy S5 Mini"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 3G UMTS/HSPA+ – 850, 900, 1900, 2100 MHz, 4G LTE 2100 (1), 1800 (3), 850 (5), 2600 (7), 900 (8), 800 (20) MHz (GT-I9195 model), TD-SCDMA (GT-I9198 model)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "124.6 mm H , 61.3 mm W , 8.9 mm D",
+      "Weight": "107 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2.2 with Linux 3.4.x (All models excluding I9192/5I), Android 4.4.4 with Linux 3.10.x (GT-I9192/5I), Current: Android 4.4.2 (All models excluding I9192/5I), Android 4.4.4 (GT-I9192/5I), Unofficial: LineageOS 18.1 (unstable, based on Android 11)",
+      "Chipset": "Qualcomm Snapdragon 400 (8230AB/8930AB) / Snapdragon 410 (8916)",
+      "CPU": "1.7 GHz dual-core Krait 300, 1.2 GHz Quad-core Cortex-A53 (S4 Mini Plus)",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1.5 GB",
+      "Storage": "8 GB (5 GB user available)",
+      "Card slot": "Up to 64 GB microSDXC"
+    },
+    "Display": {
+      "Display": "4.27 in RGB Super AMOLED , 960x540 px, qHD (258 PPI), Corning Gorilla Glass"
+    },
+    "Cameras": {
+      "Front camera": "1.9 MP, HD video (720p) at 60 fps"
+    },
+    "Battery": {
+      "Battery": "1900 mAh (7.22 Wh 3.8 V) Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS; Wi-Fi (802.11a/b/g/n 2.4 & 5 GHz); Wi-Fi Direct; Bluetooth 4.0; micro USB 2.0; NFC (GT-I9195); DLNA; UMA"
+    }
+  },
+  "key": {
+    "display_in": 4.27,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 400",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      5,
+      8
+    ],
+    "front_mp": 1.9,
+    "battery_mah": 1900,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 107,
+    "thickness_mm": 8.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S4 Mini",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S4_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S4 Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S4 Mini",
+    "revid": 1380483110
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

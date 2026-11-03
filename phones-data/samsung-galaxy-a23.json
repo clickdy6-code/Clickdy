@@ -1,0 +1,100 @@
+{
+  "slug": "samsung-galaxy-a23",
+  "brand": "Samsung",
+  "name": "Galaxy A23",
+  "status": "published",
+  "announced": "2022-03-04",
+  "released": "2022-03-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Samsung_Galaxy_A23.jpg/500px-Samsung_Galaxy_A23.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Samsung_Galaxy_A23.jpg/250px-Samsung_Galaxy_A23.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A23",
+      "credit": "Hajoon0102, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A23.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A23: 2022-03-04, A23 5G: 2022-08-05",
+      "Series": "Galaxy A series",
+      "Predecessor": "Samsung Galaxy A22, Samsung Galaxy A22 5G",
+      "Successor": "Samsung Galaxy A24"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.4 mm H, 76.9 mm W, 8.4 mm D",
+      "Weight": "A23: 195 g, A23 5G: 197 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12 with One UI 4.1, Current: Android 14 with One UI 6.1",
+      "Chipset": "A23: Qualcomm Snapdragon 680 4G (6 nm), A23 5G: Qualcomm Snapdragon 695 5G (6 nm)",
+      "CPU": "A23: Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver), A23 5G: Octa-core (2x2.2 GHz Kryo 660 Gold & 6x1.7 GHz Kryo 660 Silver)",
+      "GPU": "A23: Adreno 610, A23 5G: Adreno 619"
+    },
+    "Memory": {
+      "RAM": "4 GB, 6 GB, 8 GB RAM",
+      "Storage": "64 GB, 128 GB, eMMC 5.1",
+      "Card slot": "microsdxc"
+    },
+    "Display": {
+      "Display": "6.6 in, 104.9 cm2 (~83.0% screen-to-body ratio), 1080 x 2408 pixels, 20:9 ratio (~400 ppi density), Corning Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-Camera Setup, All:, Primary: Samsung ISOCELL (S5K)JN1; 50 Megapixel, MP, 26mm, FoV 78.4°, 1/2.76\", 0.64 Micrometre, µm, Phase detection autofocus, PDAF, Optical image stabilization, OIS, Ultra wide angle lens, Ultrawide: GalaxyCore GC5035; 5 Megapixel, MP, 13mm, FoV 116.4°, 1/5.0\", 1.12 Micrometre, µm, FF, Macro: GalaxyCore GC02M1; 2 Megapixel, MP, 26mm, 1/5.0\", 1.75 Micrometre, µm, FF, Depth: GalaxyCore GC02M1B; 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, Camera features: LED flash, Panorama, High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps, 720p@30fps",
+      "Front camera": "A23:, GalaxyCore GC08A3; 8 Megapixel, MP, 25mm (wide), FoV 81.1°, 1/4.0\", 1.12 Micrometre, µm, FF, A23 5G:, GalaxyCore GC08A3; 8 Megapixel, MP, 25mm (wide), FoV 81.1°, 1/4.0\", 1.12 Micrometre, µm, FF - USA, or, GalaxyCore GC08A3; 8 Megapixel, MP, 25mm (wide), FoV 81.1°, 1/4.0\", 1.12 Micrometre, µm, FF - International, Video recording:, All:, 1080p@30Frame rate, fps, 720p@30fps"
+    },
+    "Sound": {
+      "Sound": "3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "Fast Charging 15W and Super Fast Charging 25W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE, A-GPS, GLONASS, GALILEO, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "chipset": "A23: Qualcomm Snapdragon 680 4G",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 195,
+    "thickness_mm": 8.4,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A23",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A23"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A23\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A23",
+    "revid": 1382798162
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

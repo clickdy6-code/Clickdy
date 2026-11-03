@@ -1,0 +1,70 @@
+{
+  "slug": "nokia-8850-8890",
+  "brand": "Nokia",
+  "name": "8850/8890",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia8850-5.jpg/500px-Nokia8850-5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia8850-5.jpg/250px-Nokia8850-5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 8850/8890",
+      "credit": "Unknown, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia8850-5.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 8810 (8850/8890), Nokia 8860 (8855)",
+      "Successor": "Nokia 8910 (8850/8890), Nokia 8910i (8855)"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 (8850/8855), GSM 900/1900 (8890)"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "100 ×",
+      "Weight": "91 g"
+    },
+    "Platform": {
+      "Operating system": "Series 20"
+    },
+    "Memory": {
+      "RAM": "250 names and numbers, 10 SMS.",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "84x48 Monochrome LCD"
+    },
+    "Battery": {
+      "Battery": "830 mAh lithium-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Infrared port"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 830,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 91
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 8850/8890",
+      "url": "https://en.wikipedia.org/wiki/Nokia_8850/8890"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 8850/8890\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 8850/8890",
+    "revid": 1361477912
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

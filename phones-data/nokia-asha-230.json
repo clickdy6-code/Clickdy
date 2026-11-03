@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-asha-230",
+  "brand": "Nokia",
+  "name": "Asha 230",
+  "status": "published",
+  "announced": "2014-02-24",
+  "released": "2014-02-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-02-24",
+      "Series": "Nokia Asha series"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "99.5 mm H , 58.6 mm W , 13.2 mm D",
+      "Weight": "89.3 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Asha platform 1.1.1 (upgradable)",
+      "Chipset": "Snapdragon S4 MSM8225",
+      "CPU": "1.2 GHz dual-core ARM Cortex-A5",
+      "GPU": "Adreno 203"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "2.8 in (71 mm) LCD , 320 x 240 pixels (143 ppi) , 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 MP, fixed focus, f/2.8 , QVGA video @ 25 fps",
+      "Front camera": "No"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, loudspeaker"
+    },
+    "Battery": {
+      "Battery": "1020 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0, Micro-USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "chipset": "Snapdragon S4 MSM8225",
+    "main_mp": 1.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "nfc": false,
+    "weight_g": 89.3,
+    "thickness_mm": 13.2,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 230",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_230"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 230\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 230",
+    "revid": 1376292319
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

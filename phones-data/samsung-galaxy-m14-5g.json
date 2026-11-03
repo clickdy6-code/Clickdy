@@ -1,0 +1,102 @@
+{
+  "slug": "samsung-galaxy-m14-5g",
+  "brand": "Samsung",
+  "name": "Galaxy M14 5G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Samsung_Galaxy_M14_5G_in_Navy_Blue.jpg/500px-Samsung_Galaxy_M14_5G_in_Navy_Blue.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Samsung_Galaxy_M14_5G_in_Navy_Blue.jpg/250px-Samsung_Galaxy_M14_5G_in_Navy_Blue.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy M14 5G",
+      "credit": "Danielrayyan09 from Kluang, Johor, MY, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_M14_5G_in_Navy_Blue.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung Galaxy M series",
+      "Predecessor": "Samsung Galaxy M13 5G",
+      "Successor": "Samsung Galaxy M15 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "166.8 mm H , 77.2 mm W , 9.4 mm D",
+      "Weight": "206 g"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with One UI 5.1, upgradable to Android 15 with One UI 7",
+      "Chipset": "Exynos 1330 (5nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MP2"
+    },
+    "Memory": {
+      "RAM": "4 and 6 GB RAM",
+      "Storage": "64/128GB (eMMC 5.1)",
+      "Card slot": "microSDHC"
+    },
+    "Display": {
+      "Display": "6.6 inches Full HD+ 90Hz and Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, (wide), PDAF, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth), LED flash, panorama, HDR, 1080p@30fps",
+      "Front camera": "13 MP, f/2.0, (wide), 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Yes"
+    },
+    "Battery": {
+      "Battery": "6000 mAh",
+      "Charging": "Fast charging 15W (Global) and 25W (India)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Bluetooth\t5.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "refresh_hz": 90,
+    "chipset": "Exynos 1330",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 13,
+    "battery_mah": 6000,
+    "wired_w": 25,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 206,
+    "thickness_mm": 9.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M14 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M14_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M14 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M14 5G",
+    "revid": 1380482446
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

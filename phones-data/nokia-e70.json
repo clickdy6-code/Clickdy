@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-e70",
+  "brand": "Nokia",
+  "name": "E70",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/54/Nokia_e70_auki.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/54/Nokia_e70_auki.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia E70",
+      "credit": "Bror Heinola, CC BY 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_e70_auki.jpg",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6800 series , Nokia 5510",
+      "Successor": "Nokia E75, Nokia E7-00"
+    },
+    "Network": {
+      "Technology": "900, 1800 and 1900 MHz GSM (E70-1) or 850, 1800 and 1900 MHz GSM (E70-2), Class 10 GPRS, Class B MSC 10 EDGE (EGPRS), UMTS/WCDMA (E70-1 only)"
+    },
+    "Body": {
+      "Dimensions": "117 × 53 × 22 mm (4.61 × 2.09 × 0.87 in)",
+      "Weight": "127 g with battery BL-6C"
+    },
+    "Platform": {
+      "CPU": "220 MHz ARM9"
+    },
+    "Memory": {
+      "RAM": "64 MB built-in",
+      "Card slot": "MiniSD card"
+    },
+    "Display": {
+      "Display": "352 × 416 pixels, 262K colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP"
+    },
+    "Connectivity": {
+      "Connectivity": "IEEE 802.11b/g wireless LAN, Bluetooth v1.2, infrared, data cable included"
+    }
+  },
+  "key": {
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 127
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E70",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E70"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E70\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E70",
+    "revid": 1361478226
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

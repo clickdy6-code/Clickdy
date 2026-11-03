@@ -1,0 +1,63 @@
+{
+  "slug": "nokia-n92",
+  "brand": "Nokia",
+  "name": "N92",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Nokia_N92.jpg/500px-Nokia_N92.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Nokia_N92.jpg/250px-Nokia_N92.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N92",
+      "credit": "Unknown, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N92.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "UMTS (3G), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Dimensions": "107x58x25 mm",
+      "Weight": "191 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.1, S60 3rd Edition"
+    },
+    "Memory": {
+      "RAM": "160 MB (internal) + MiniSD Memory Card up to 2 GB"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels"
+    },
+    "Connectivity": {
+      "Connectivity": "PC via USB 2.0, Bluetooth 2.0, Wi-Fi, UPnP, Infrared"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "os": "Symbian OS v9.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 191
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N92",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N92"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N92\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N92",
+    "revid": 1361478525
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

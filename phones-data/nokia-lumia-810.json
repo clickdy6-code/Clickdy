@@ -1,0 +1,84 @@
+{
+  "slug": "nokia-lumia-810",
+  "brand": "Nokia",
+  "name": "Lumia 810",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "USA Q4 2012",
+      "Discontinued": "Q2 2013[http://www.wpcentral.com/t-mobile-eols-lumia-810-getting-lumia-521-april-24th Out with the old, in with the new: T-Mobile EOLs Lumia 810, getting Lumia 521 April 24th",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 800",
+      "Successor": "Nokia Lumia 830"
+    },
+    "Network": {
+      "Technology": "HSPA+"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "127.8 mm H , 68.4 mm W , 10.9 mm D",
+      "Weight": "145 g",
+      "Other": "Talk time: Up to 10.2 hours , Standby time: Up to 360 hours (approx. 15 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8",
+      "Chipset": "Qualcomm Snapdragon S4",
+      "CPU": "1.5 GHz Qualcomm Snapdragon S4, dual-core",
+      "GPU": "Qualcomm Adreno 225"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB internal flash",
+      "Card slot": "microSD, up to 64 GB"
+    },
+    "Display": {
+      "Display": "4.3\" AMOLED ClearBlack capacitive touchscreen, 800 x 480 pixels at 216.97 ppi, 16.7m-color, RGB Stripe, Gorilla Glass 2"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 Megapixel, 3264 x 2448 pixels, f/2.2, Short Pulse High Power Dual-LED flash, autofocus, Carl Zeiss optics, 1080p video capture",
+      "Front camera": "1.3-megapixel, 1280 x 960 pixels, 720p video capture"
+    },
+    "Battery": {
+      "Battery": "Rechargeable BP-4W 3.7V 6.7Wh 1800mAh Lithium polymer battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0, Wi-Fi 802.11a/b/g/n, NFC, microUSB v2.0"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon S4",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 1800,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 145,
+    "thickness_mm": 10.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 810",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_810"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 810\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 810",
+    "revid": 1361478363
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

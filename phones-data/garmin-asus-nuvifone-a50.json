@@ -1,0 +1,56 @@
+{
+  "slug": "garmin-asus-nuvifone-a50",
+  "brand": "Garmin-ASUS",
+  "name": "Nüvifone A50",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/N%C3%BCvifone_A50.jpg/500px-N%C3%BCvifone_A50.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/N%C3%BCvifone_A50.jpg/250px-N%C3%BCvifone_A50.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Garmin-ASUS Nüvifone A50",
+      "credit": "Cadoumei, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:N%C3%BCvifone_A50.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nüvifone"
+    },
+    "Network": {
+      "Technology": "HSDPA Cat 8 7.2Mbps, HSPA / WCDMA 850 / 900 / 1700 / 1900 / 21001, GSM 850 / 900 / 1800 / 1900, GPRS EDGE Class 10"
+    },
+    "Body": {
+      "Form factor": "Candybar Smartphone"
+    },
+    "Display": {
+      "Display": "3.5\", HVGA 320 x 480, TFT capacitive touch"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b+g, USB 2.0 (HS), Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nüvifone A50",
+      "url": "https://en.wikipedia.org/wiki/N%C3%BCvifone_A50"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nüvifone A50\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nüvifone A50",
+    "revid": 1361478735
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

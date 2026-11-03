@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-asha-308",
+  "brand": "Nokia",
+  "name": "Asha 308",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Full Touch",
+      "Predecessor": "Nokia Asha 305"
+    },
+    "Network": {
+      "Technology": "only data, GSM 900 / 1800, GPRS/EDGE class B, multislot class 33"
+    },
+    "Body": {
+      "Form factor": "Full Touch candybar",
+      "Dimensions": "Width: 54 mm, Height: 109.9 mm, Thickness: 13 mm",
+      "Weight": "104 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Asha Series 40 OS"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM, 128 MB ROM",
+      "Storage": "128MB ROM memory",
+      "Card slot": "up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "240 x 400 px (WQVGA), 3.0 inch (155 ppi), 18 bits, Capacitive touch screen"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP (CMOS sensor) EDoF",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "BP-4U 1100 mAh Li-Ion battery (removable), micro USB and 2 mm DC plug charging"
+    },
+    "Connectivity": {
+      "Connectivity": "bluetooth 3.0 + A2DP, micro USB 2.0, 3.5 mm AV connector (audio in/out), SIM card, FM receiver with RDS"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 104,
+    "thickness_mm": 13
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 308",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_308"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 308\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 308",
+    "revid": 1361478006
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

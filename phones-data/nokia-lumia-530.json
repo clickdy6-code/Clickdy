@@ -1,0 +1,91 @@
+{
+  "slug": "nokia-lumia-530",
+  "brand": "Nokia",
+  "name": "Lumia 530",
+  "status": "published",
+  "announced": "2014-07-21",
+  "released": "2014-07-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Nokia_Lumia_530.jpg/500px-Nokia_Lumia_530.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Nokia_Lumia_530.jpg/250px-Nokia_Lumia_530.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Lumia 530",
+      "credit": "Kārlis Dambrāns, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_530.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "21 July 2014",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 505, Nokia Lumia 520, Nokia Asha 501",
+      "Successor": "Microsoft Lumia 535 , Nokia 3 (2017)"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA 900/2100 (+ 850/1900 for RM-1018/RM-1020)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "119.7 mm H , 62.3 mm W , 11.7 mm D",
+      "Weight": "129 g",
+      "Other": "Talk time (2G): up to 14.8 hours, Talk time (3G): 9.6 h, Stand-by time: up to 360 hours (15 days), Maximum cellular network browsing time: 6.7 h, Music playback time: 61 h (2.5 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1",
+      "Chipset": "Qualcomm Snapdragon 200 MSM8212",
+      "CPU": "1.2 GHz quad-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 302"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB Internal",
+      "Card slot": "up to 128 GB, microSD"
+    },
+    "Display": {
+      "Display": "4-inch TFT LCD, 480x854 resolution, 246ppi"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP fixfocus, f/2.4 without flash, FWVGA 864x480 video"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-5J 1430 mAh (stand-by time 4 days)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.0 (LE), Assisted GPS, GPS/GLONASS, Micro-USB 2.0, Wi-Fi :802.11b/g/n, WiFi Hotspot, Wi-Fi-based positioning system (WPS), FM radio, Internet radio"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 200 MSM8212",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1430,
+    "os": "Windows Phone 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 129,
+    "thickness_mm": 11.7,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 530",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_530"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 530\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 530",
+    "revid": 1371742399
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

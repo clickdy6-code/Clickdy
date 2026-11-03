@@ -1,0 +1,105 @@
+{
+  "slug": "samsung-galaxy-z-flip-8",
+  "brand": "Samsung",
+  "name": "Galaxy Z Flip 8",
+  "status": "published",
+  "announced": "2026-08-07",
+  "released": "2026-08-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Galaxy_Z_Flip8_-_4.jpg/500px-Galaxy_Z_Flip8_-_4.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Galaxy_Z_Flip8_-_4.jpg/250px-Galaxy_Z_Flip8_-_4.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Z Flip 8",
+      "credit": "Kyu3a, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_Z_Flip8_-_4.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-08-07",
+      "Series": "Galaxy Z",
+      "Predecessor": "Samsung Galaxy Z Flip 7"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G / 5G",
+      "SIM": "Nano-SIM + eSIM + eSIM (max 2 at a time)"
+    },
+    "Body": {
+      "Form factor": "Foldable (clamshell)",
+      "Dimensions": "Unfolded: 166.9 × 75.4 × 6.1 mm, Folded: 85.7 × 75.4 × 13.1 mm",
+      "Weight": "180 g (6.63 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 17, up to 7 major Android upgrades, One UI 9",
+      "Chipset": "Z Flip 8 (USA/China): Qualcomm Snapdragon 8 Elite Gen 5 (3 nm), Z Flip 8 (Worldwide): Samsung Exynos 2600 (2 nm)",
+      "GPU": "Z Flip 8 (USA/China): Adreno 840, Z Flip 8 (Worldwide): Xclipse 960"
+    },
+    "Memory": {
+      "RAM": "12GB",
+      "Storage": "256GB, 512GB"
+    },
+    "Display": {
+      "Display": "Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak), 6.9 inches, 111.2 cm2 (~88.7% screen-to-body ratio), 1080 x 2520 pixels, 21:9 ratio (~397 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, 23 mm (wide), 1/1.57\", 1.0 μm, dual pixel PDAF, OIS, 12 MP, f/2.2, 13 mm, 123° (ultrawide), 1/3.2\", 1.12 μm, LED flash, HDR, panorama, 4K@30/60fps, 1080p@60/120/240fps, 720p@960fps, HDR10+",
+      "Front camera": "10 MP, f/2.2, 23 mm (wide), 1/3.0\", 1.22 μm, HDR, 4K@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers with 32-bit/384kHz audio"
+    },
+    "Battery": {
+      "Battery": "4300 mAh silicon-carbon",
+      "Charging": "25W wired (50% in 30 min), QC2.0, 15W wireless, 4.5W reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct, Bluetooth 5.4, A2DP, LE, GPS, GALILEO, GLONASS, BDS, QZSS, USB Type-C 3.2 Gen 1, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.9,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 2600,
+    "chipset": "Z Flip 8",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 10,
+    "battery_mah": 4300,
+    "wireless_w": 15,
+    "wired_w": 25,
+    "os": "Android 17",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 180,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Flip 8",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Flip 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Flip 8",
+    "revid": 1383375775
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "oppo-a16e",
+  "brand": "Oppo",
+  "name": "A16e",
+  "status": "published",
+  "announced": "2022-03-24",
+  "released": "2022-03-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-03-24",
+      "Series": "Oppo A series",
+      "Predecessor": "Oppo A16k"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Dual Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164 mm H , 75.4 mm W , 7.9 mm D",
+      "Weight": "175 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11, ColorOS 11.1",
+      "Chipset": "MediaTek MT6762D Helio P22 (12 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "3 GB / 4 GB",
+      "Storage": "32 GB / 64 GB eMMC 5.1",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.52 in (166 mm) IPS LCD, 720 × 1600 pixels, 20:9 ratio (~269 ppi density), Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2, 26mm (wide), 1/3.1\", 1.12 µm, PDAF, LED flash, 1080p@30fps",
+      "Front camera": "5 MP, f/2.4, 27mm (wide), HDR, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4230 mAh",
+      "Charging": "10 W wired"
+    }
+  },
+  "key": {
+    "display_in": 6.52,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6762D Helio P22",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 4230,
+    "wired_w": 10,
+    "os": "Android 11",
+    "five_g": false,
+    "weight_g": 175,
+    "thickness_mm": 7.9,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo A16e",
+      "url": "https://en.wikipedia.org/wiki/Oppo_A16e"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo A16e\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo A16e",
+    "revid": 1368750539
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

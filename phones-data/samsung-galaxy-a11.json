@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-galaxy-a11",
+  "brand": "Samsung",
+  "name": "Galaxy A11",
+  "status": "published",
+  "announced": "2020-03-30",
+  "released": "2020-03-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Galaxy_A11_vector.png/500px-Galaxy_A11_vector.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Galaxy_A11_vector.png/250px-Galaxy_A11_vector.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A11",
+      "credit": "Marcusph, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_A11_vector.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-03-30",
+      "Series": "Galaxy A",
+      "Predecessor": "For A11:, Samsung Galaxy A10e (US only), Samsung Galaxy A10, Samsung Galaxy A10s, For M11:, Samsung Galaxy M10",
+      "Successor": "Samsung Galaxy A12"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.4 mm H, 76.3 mm W, 8 mm D",
+      "Weight": "177 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with One UI Core 2, Current: Android 12 with One UI Core 4.1",
+      "Chipset": "Snapdragon 450",
+      "CPU": "1.8GHz Octa-core",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "2GB, 3GB, 4GB RAM",
+      "Storage": "32GB or 64GB",
+      "Card slot": "MicroSD, up to 512GB"
+    },
+    "Display": {
+      "Display": "6.4 inch HD+ PLS LCD (720 x 1560 px) (~268 ppi density) 19.5:9 ratio"
+    },
+    "Cameras": {
+      "Rear camera": "Primary: 13 MP, f/1.8, 27mm, 1/3.1\", 1.12μm, AF, Ultrawide: 5 MP, f/2.2, 14mm, 115°, 1/5.0\", 1.12μm, Depth: 2 MP, f/2.4, 1/5.0\", 1.75μm, LED flash, panorama, HDR, 1080p@30fps",
+      "Front camera": "8 MP, f/2.0, 27mm (wide), 1/4.0\", 1.12μm, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "A11: 4000 mAh Li-Polymer Battery, M11: 5000 mAh Li-Polymer Battery"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "LCD",
+    "chipset": "Snapdragon 450",
+    "ram_gb": [
+      2,
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 10",
+    "five_g": false,
+    "weight_g": 177,
+    "thickness_mm": 8,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A11",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A11"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A11\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A11",
+    "revid": 1380481479
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "samsung-galaxy-a8-star",
+  "brand": "Samsung",
+  "name": "Galaxy A8 Star",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Samsung_Galaxy_A8_Star.jpg/500px-Samsung_Galaxy_A8_Star.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Samsung_Galaxy_A8_Star.jpg/250px-Samsung_Galaxy_A8_Star.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A8 Star",
+      "credit": "Hajoon0102, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A8_Star.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-06",
+      "Series": "Galaxy A series",
+      "Successor": "Samsung Galaxy A40"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.4 × 77 × 7.6 mm",
+      "Weight": "191 g"
+    },
+    "Platform": {
+      "Operating system": "Current: Android (operating system), Android Android Q, 10.0 \"Q\" with One UI, One UI 2",
+      "Chipset": "Qualcomm Snapdragon 660",
+      "CPU": "Octa-Core , 4x Kyro 260 2.2 GHz & 4x Kyro 260 1.8 GHz",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "RAM": "4 GB/6 GB RAM",
+      "Storage": "64 GB",
+      "Card slot": "up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.3\"Super AMOLED FHD+ 2220×1080px (18.5:9 Aspect Ratio)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 24MP, f/1.7 + 16MP, f/1.7",
+      "Front camera": "24 MP, f/2.0"
+    },
+    "Battery": {
+      "Battery": "3700mAh (non-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11 a/b/g/n/ac, Dual band, Wi-Fi direct, Wi-Fi hotspot;, Bluetooth v5.0, A2DP, LE, EDR;, USB-C; 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 660",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 24,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 24,
+    "battery_mah": 3700,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 191,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A8 Star",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A8_Star"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A8 Star\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A8 Star",
+    "revid": 1383538757
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

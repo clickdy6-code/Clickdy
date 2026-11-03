@@ -1,0 +1,89 @@
+{
+  "slug": "nokia-808-pureview",
+  "brand": "Nokia",
+  "name": "808 PureView",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Nokia_808_PureView_front_and_back_view.JPG/500px-Nokia_808_PureView_front_and_back_view.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Nokia_808_PureView_front_and_back_view.JPG/250px-Nokia_808_PureView_front_and_back_view.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 808 PureView",
+      "credit": "Vlado.grv, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_808_PureView_front_and_back_view.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia N86 8MP, Nokia N8",
+      "Successor": "Nokia Lumia 1020"
+    },
+    "Network": {
+      "Technology": "GSM (850/900/1800/1900 MHz), HSDPA, (850/900/1700/1900/2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "123.9 mm H , 60.2 mm W , 13.9 mm D , 17.95 mm Bulge",
+      "Weight": "169 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Belle Feature Pack 1, upgradeable to Nokia Belle Feature Pack 2",
+      "CPU": "ARM11 1.3 GHz Samsung K5W2G1GACT – AP50 processor",
+      "GPU": "Broadcom BCM2763 with OpenVG 1.1 and OpenGL ES 2.0 support"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSD up to 1 TB supported"
+    },
+    "Display": {
+      "Display": "4 in AMOLED 2.5D curved nHD display (640x360 pixels), Gorilla Glass with easy-clean coating"
+    },
+    "Cameras": {
+      "Rear camera": "41 MP 1/1.2 in sensor, Carl Zeiss optics, F-number: f/2.4 , ND filter, Xenon flash, LED light, 1080p 30 fps video with continuous autofocus",
+      "Front camera": "0.3 MP; 480p 30 fps"
+    },
+    "Battery": {
+      "Battery": "1400 mAh Li-ion, removable (Nokia BV-4D)"
+    },
+    "Connectivity": {
+      "Connectivity": "Sensors:, Accelerometer, Magnetometer, Electronic compass, Proximity sensor, Other:, 3.5 mm headphone jack, Bluetooth 3.0, Wi-Fi 802.11 b/g/n, DLNA, GPS with A-GPS, FM radio, Stereo, RDS, FM transmitter, USB 2.0 via MicroUSB port, USB On-The-Go, Micro HDMI port, NFC"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "AMOLED",
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 41,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 0.3,
+    "battery_mah": 1400,
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 169,
+    "thickness_mm": 13.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 808 PureView",
+      "url": "https://en.wikipedia.org/wiki/Nokia_808_PureView"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 808 PureView\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 808 PureView",
+    "revid": 1368072679
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

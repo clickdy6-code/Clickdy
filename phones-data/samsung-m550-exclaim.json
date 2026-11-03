@@ -1,0 +1,56 @@
+{
+  "slug": "samsung-m550-exclaim",
+  "brand": "Samsung",
+  "name": "M550 Exclaim",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA2000 1xRTT/1xEV-DO rev.0"
+    },
+    "Body": {
+      "Form factor": "Dual Slider",
+      "Dimensions": "4.45 x 2.24 x 0.67 inches (113 x 57 x 17 mm)",
+      "Weight": "4.69 ounces"
+    },
+    "Memory": {
+      "Card slot": "microSD/microSDHC, up to 32Gb"
+    },
+    "Display": {
+      "Display": "262 144 colors, TFT, 240 x 320 pixels, 2.60 inches"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Li - Ion, 960 mAh (4.75 hours (285 mins) of talk time)"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB, 2.0, Stereo Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "TFT",
+    "battery_mah": 960,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung M550 Exclaim",
+      "url": "https://en.wikipedia.org/wiki/Samsung_M550_Exclaim"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung M550 Exclaim\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung M550 Exclaim",
+    "revid": 1361483266
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

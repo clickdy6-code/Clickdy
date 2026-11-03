@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-7230",
+  "brand": "Nokia",
+  "name": "7230",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nokia_7230_Pink.JPG/500px-Nokia_7230_Pink.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nokia_7230_Pink.JPG/250px-Nokia_7230_Pink.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 7230",
+      "credit": "Irfan Nasir, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7230_Pink.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Series 7",
+      "Predecessor": "Nokia 7370",
+      "Successor": "Nokia X5, Nokia 700"
+    },
+    "Network": {
+      "Technology": "GSM, GPRS, EDGE, UMTS"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "106.4 x 43.6 x 11.7 mm",
+      "Weight": "100 g grams"
+    },
+    "Platform": {
+      "Operating system": "Nokia RM-604 V 10.81"
+    },
+    "Memory": {
+      "RAM": "71MB",
+      "Card slot": "MicroSD, max 16GB"
+    },
+    "Display": {
+      "Display": "2.4 inch"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels"
+    },
+    "Battery": {
+      "Battery": "BL-4CT 3.7V 860mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 100
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7230",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7230"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7230\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7230",
+    "revid": 1361477777
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

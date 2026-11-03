@@ -1,0 +1,72 @@
+{
+  "slug": "nokia-x2-01",
+  "brand": "Nokia",
+  "name": "X2-01",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Nokia_x2-01.jpg/500px-Nokia_x2-01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Nokia_x2-01.jpg/250px-Nokia_x2-01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia X2-01",
+      "credit": "Pakshya, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_x2-01.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Xseries",
+      "Predecessor": "Nokia 5130",
+      "Successor": "Nokia Asha 200/201"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "119.4 x 59.8 x 14.3 mm",
+      "Weight": "107.5 g (with battery)"
+    },
+    "Platform": {
+      "Operating system": "Series 40 V 08.71 FOTA (firmware update over the air)",
+      "CPU": "Broadcom BCM21351 208MHz (Juno)"
+    },
+    "Memory": {
+      "RAM": "Internal - 55 MB, 64 MB RAM, 128 MB ROM",
+      "Storage": "up to 2000 entries",
+      "Card slot": "Expandable to 8GB"
+    },
+    "Display": {
+      "Display": "2.4\" (61 mm) Resolution: 320 x 240 pixels (TFT) 262,000 colors"
+    },
+    "Cameras": {
+      "Rear camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Ion 1020 (BL-5C) Stand-by Up to 480 h Talk time Up to 4 h 30 min"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth version 2.1 with Enhanced Data Rate, High-Speed USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "nfc": false,
+    "weight_g": 107.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X2-01",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X2-01"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X2-01\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X2-01",
+    "revid": 1375698168
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

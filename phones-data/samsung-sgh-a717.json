@@ -1,0 +1,66 @@
+{
+  "slug": "samsung-sgh-a717",
+  "brand": "Samsung",
+  "name": "SGH-A717",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2007"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, HSDPA 850 / 1900"
+    },
+    "Body": {
+      "Form factor": "Flip phone",
+      "Dimensions": "104 x",
+      "Weight": "93 g"
+    },
+    "Memory": {
+      "RAM": "26 MB internal",
+      "Storage": "microSD (dedicated slot)"
+    },
+    "Display": {
+      "Display": "Primary: TFT LCD, 256K colors, 240 x 320 pixels, 4:3 ratio, Secondary: External OLED display (96 x 32 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, autofocus with video recording",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (A2DP), USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 93,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-A717",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-A717"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-A717\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-A717",
+    "revid": 1371152783
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

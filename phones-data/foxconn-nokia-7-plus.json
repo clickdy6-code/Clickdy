@@ -1,0 +1,92 @@
+{
+  "slug": "foxconn-nokia-7-plus",
+  "brand": "Foxconn",
+  "name": "Nokia 7 Plus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Nokia_7_plus.jpg/500px-Nokia_7_plus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Nokia_7_plus.jpg/250px-Nokia_7_plus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 7 Plus",
+      "credit": "androidcentral, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7_plus.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018 March",
+      "Successor": "Nokia 7.1, Nokia 8.1"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "H: 158.4 mm, W: 75.6 mm, D: 8 mm",
+      "Weight": "183 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\", Current: Android 10, (Android One)",
+      "Chipset": "Qualcomm Snapdragon 660 (14 nm)",
+      "CPU": "Octa-core (4x2.2 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "RAM": "4 or 6 GB LPDDR4 RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.0 inches (92.4 cm2) 1080p IPS LCD with Gorilla Glass 3 protection, ~403 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "Dual Camera Set-up:, 12 MP (f/1.8, 25mm, 1/2.55\", 1.4 μm, dual pixel PDAF) Wide, 13 MP (f/2.6, 1/3.4\", 1.0 μm, autofocus, 2x optical zoom) Telephoto, ZEISS optics, dual-LED dual-tone flash, panorama, HDR, Video: 4K@30fps, 1080p@30fps (gyro-EIS)",
+      "Front camera": "16 MP (f/2.0, 1/3.06\", 1.0 μm), ZEISS optics, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "3800 mAh Li-Po, non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth, USB 2.0 via USB-C port"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 660",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3800,
+    "os": "Android 8.1",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 183,
+    "thickness_mm": 8,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7 Plus",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7 Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7 Plus",
+    "revid": 1361477730
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

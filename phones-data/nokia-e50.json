@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-e50",
+  "brand": "Nokia",
+  "name": "E50",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/NokiaE50.jpg/500px-NokiaE50.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/NokiaE50.jpg/250px-NokiaE50.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia E50",
+      "credit": "Wikimedia Commons, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NokiaE50.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6230",
+      "Successor": "Nokia E51"
+    },
+    "Network": {
+      "Technology": "EGSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "113 × 43.5 × 15.5 millimeters",
+      "Weight": "104 g"
+    },
+    "Platform": {
+      "Operating system": "S60 3rd edition on Symbian OS v9.1",
+      "CPU": "ARM 9 @ 235 MHz"
+    },
+    "Memory": {
+      "RAM": "70 MB (internal)",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "2.06 in, 31 × 42 mm, 240 × 320 pixels, Active Matrix, 262,144 colours"
+    },
+    "Cameras": {
+      "Rear camera": "1,280 × 960 pixels (1.3-megapixel), 4× digital zoom"
+    },
+    "Battery": {
+      "Battery": "BL-5C (970 mAh) or BL-6C (1150 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mass Storage via Pop-Port, Bluetooth 2.0, Infrared"
+    }
+  },
+  "key": {
+    "display_in": 2.06,
+    "battery_mah": 970,
+    "os": "Symbian OS v9.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 104
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E50",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E50"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E50\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E50",
+    "revid": 1361478181
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

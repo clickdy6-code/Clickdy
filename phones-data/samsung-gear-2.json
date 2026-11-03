@@ -1,0 +1,70 @@
+{
+  "slug": "samsung-gear-2",
+  "brand": "Samsung",
+  "name": "Gear 2",
+  "status": "published",
+  "announced": "2014-04-11",
+  "released": "2014-04-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-04-11",
+      "Series": "Samsung Gear",
+      "Predecessor": "Samsung Galaxy Gear",
+      "Successor": "Samsung Gear S"
+    },
+    "Body": {
+      "Form factor": "Watch phone"
+    },
+    "Platform": {
+      "Operating system": "Tizen",
+      "Chipset": "Exynos 3250",
+      "CPU": "1.0 GHz dual-core"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4 GB"
+    },
+    "Display": {
+      "Display": "1.63 in Super AMOLED with RGB matrix, 320×320 pixels (1:1 Aspect ratio)"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, BSI, 720p video recording"
+    },
+    "Sound": {
+      "Sound": "NGT 2000 (9000 Hz)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth low energy, Infrared"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos 3250",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "nfc": false,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Gear 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Gear_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Gear 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Gear 2",
+    "revid": 1361483232
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

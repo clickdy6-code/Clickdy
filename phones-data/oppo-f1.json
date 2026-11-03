@@ -1,0 +1,86 @@
+{
+  "slug": "oppo-f1",
+  "brand": "Oppo",
+  "name": "F1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/01/Oppo_F1s.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/01/Oppo_F1s.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Oppo F1",
+      "credit": "Mayamaya7, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oppo_F1s.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-01",
+      "Series": "F series",
+      "Successor": "Oppo F1s"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "143.5 mm H , 71 mm W , 7.3 mm D",
+      "Weight": "134 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1 (Lollipop) with ColorOS 2.1",
+      "Chipset": "Qualcomm Snapdragon 616",
+      "CPU": "1.5 GHz Octa Core",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "RAM": "3GB RAM",
+      "Storage": "16GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "5 in"
+    },
+    "Cameras": {
+      "Rear camera": "13MP",
+      "Front camera": "8MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 2,500 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "chipset": "Qualcomm Snapdragon 616",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2500,
+    "os": "Android 5.1",
+    "weight_g": 134,
+    "thickness_mm": 7.3,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo F1",
+      "url": "https://en.wikipedia.org/wiki/Oppo_F1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo F1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo F1",
+    "revid": 1382596217
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

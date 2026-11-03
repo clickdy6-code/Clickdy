@@ -1,0 +1,83 @@
+{
+  "slug": "realme-7",
+  "brand": "Realme",
+  "name": "7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Realme7mistwhite.jpg/500px-Realme7mistwhite.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Realme7mistwhite.jpg/250px-Realme7mistwhite.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Realme 7",
+      "credit": "Adnan Bukvic, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Realme7mistwhite.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "7",
+      "Predecessor": "Realme 6",
+      "Successor": "Realme 8"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.3 x 75.4 x 9.4 mm",
+      "Weight": "196.5 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10 (11,12)",
+      "CPU": "Mediatek Helio G95 Octa-core (2x2.05 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)"
+    },
+    "Display": {
+      "Display": "2400×1080 (1080p) IPS LCD capacitive touchscreen, Gorilla Glass 3, 90 Hz refresh rate, 6.5 in, 405 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, f/1.8, 26mm (wide), 1/2.0\", Dual Pixel PDAF + 8 MP, f/2.3, 16mm (ultrawide), + 2 MP, f/2.4, (macro) + 2 MP, f/2.4, (depth) 4k 30fps, 1080p@60/30fps",
+      "Front camera": "16 MP, f/2.1, 26mm (wide), 1/3.1\", 1.0 μm, Panorama, 1080p@30/120fps"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh, non-removable",
+      "Charging": "30 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi a/b/g/n/ac, 3G/LTE"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "main_mp": 64,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "4k@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 30,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 196.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme 7",
+      "url": "https://en.wikipedia.org/wiki/Realme_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme 7",
+    "revid": 1382785610
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

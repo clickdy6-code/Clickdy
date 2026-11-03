@@ -1,0 +1,100 @@
+{
+  "slug": "samsung-galaxy-on5",
+  "brand": "Samsung",
+  "name": "Galaxy On5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Samsung_Galaxy_On5.jpg/500px-Samsung_Galaxy_On5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Samsung_Galaxy_On5.jpg/250px-Samsung_Galaxy_On5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy On5",
+      "credit": "Imageuploader2614, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_On5.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "On5: 2015-10 , On5 Pro: 2016-07",
+      "Series": "Galaxy On",
+      "Predecessor": "Samsung Galaxy Ace 4",
+      "Successor": "Samsung Galaxy On5 (2016)"
+    },
+    "Network": {
+      "Technology": "(GSM/HSPA/LTE) , 2G: GSM GSM850, GSM900, DCS1800, PCS1900 , 3G UMTS: B1(2100), B2(1900), B5(850), B8(900) , 4G FDD LTE: B1(2100), B3(1800), B5(850), B8(900), B20(800) , 4G TDD LTE: B40(2300)",
+      "SIM": "On5/Pro: dual SIM (Micro-SIM) , On5 (T-Mobile/MetroPCS): Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "142.3 mm H, 72.1 mm W, 8.5 mm D",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Original:On5: Android (operating system), Android Android Lollipop, 5.1.1 \"Lollipop\" with TouchWiz 5.1, On5 (T-Mobile/MetroPCS)/Pro: Android Marshmallow, Android 6.0.1 \"Marshmallow\" with TouchWiz 6.0Current: Android 6.0.1 \"Marshmallow\" with TouchWiz 6.0",
+      "Chipset": "Exynos 3475 Quad",
+      "CPU": "Quad-core 1.3 GHz Cortex-A7",
+      "GPU": "Mali-T720"
+    },
+    "Memory": {
+      "RAM": "On5: 1.5 GB , On5 Pro: 2 GB , LPDDR3",
+      "Storage": "On5: 8 GB , On5 Pro: 16 GB , eMMC 4.5",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "5 in 720 × 1280 pixels (294 ppi) TFT LCD, 16:9"
+    },
+    "Cameras": {
+      "Rear camera": "On5/Pro: 8 MP, AF , Video: 1080p@30fps , On5 (T-Mobile/MetroPCS): 5 MP , Video: 720p@30fps , All models: LED flash",
+      "Front camera": "On5/Pro: 5 MP, Video: 1080p@30fps , On5 (T-Mobile/MetroPCS): 2 MP , Video: 720p@30fps"
+    },
+    "Sound": {
+      "Sound": "Front earpiece, rear mono speaker"
+    },
+    "Battery": {
+      "Battery": "Removable, Li-ion 2600 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "TFT",
+    "chipset": "Exynos 3475 Quad",
+    "ram_gb": [
+      2,
+      5
+    ],
+    "storage_gb": [
+      8,
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 6.0",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 149,
+    "thickness_mm": 8.5,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy On5",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_On5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy On5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy On5",
+    "revid": 1379195546
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "pantech-curitel-pantech-c300",
+  "brand": "Pantech Curitel",
+  "name": "Pantech C300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Pantech_C300_higher_res.jpg/500px-Pantech_C300_higher_res.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Pantech_C300_higher_res.jpg/250px-Pantech_C300_higher_res.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Pantech Curitel Pantech C300",
+      "credit": "Collin Knopp-Schwyn, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pantech_C300_higher_res.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850, 1800, 1900 MHz , GPRS"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "2.72 in H , 1.69 in W , 0.76 in D",
+      "Weight": "2.5 oz"
+    },
+    "Memory": {
+      "Storage": "13.4 MB"
+    },
+    "Display": {
+      "Display": "LCD, 18-bit color"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP , Flash"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pantech C300",
+      "url": "https://en.wikipedia.org/wiki/Pantech_C300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pantech C300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pantech C300",
+    "revid": 1361479291
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

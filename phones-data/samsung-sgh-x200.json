@@ -1,0 +1,55 @@
+{
+  "slug": "samsung-sgh-x200",
+  "brand": "Samsung",
+  "name": "SGH-X200",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/SGH-X200.png/500px-SGH-X200.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/SGH-X200.png/250px-SGH-X200.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SGH-X200",
+      "credit": "Opspin, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SGH-X200.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "Tri Band (GSM 900 / 1800 / 1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Dimensions": "85 X 43.5 X 19.8 mm",
+      "Weight": "77 g"
+    },
+    "Battery": {
+      "Battery": "800 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA"
+    }
+  },
+  "key": {
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 77
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-X200",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-X200"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-X200\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-X200",
+    "revid": 1380919023
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

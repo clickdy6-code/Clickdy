@@ -1,0 +1,90 @@
+{
+  "slug": "oppo-a58-5g",
+  "brand": "OPPO",
+  "name": "A58 5G",
+  "status": "published",
+  "announced": "2022-11-08",
+  "released": "2022-11-08",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A58 5G: 2022-11-08, A78 5G: 2023-01-07, A58x: 2022-12-15, A1x: 2023-03-31",
+      "Series": "A",
+      "Predecessor": "Oppo A57 5G, Oppo A77 5G",
+      "Successor": "Oppo A59 5G, Oppo A2x, Oppo A79 5G"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.8 mm H , 75.1 mm W , 8 mm D",
+      "Weight": "A58 5G/A78 5G: 188 g, A58x/A1x: 186 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 12 + ColorOS 12.1, Current: Android 14 + ColorOS 14",
+      "Chipset": "MediaTek Dimensity 700 (7 nm)",
+      "CPU": "Octa-core (2×2.2 GHz Cortex-A76 & 6×2 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "A58 5G/A58x/A1x: 6/8 GB, A78 5G: 4/8 GB, LPDDR4X",
+      "Storage": "A58 5G/A78 5G: 128/256 GB, A58x/A1x: 128 GB, UFS 2.2",
+      "Card slot": "MicroSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 90 Hz, 6.56 in, 1612 × 720 (HD+), 20:9, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Wide-angle: A58 5G/A78 5G: 50 MP, f/1.8, 27 mm, PDAF, A58x/A1x: 13 MP, f/2.2, 25 mm, PDAF, Depth sensor: 2 MP, f/2.4, Other: LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0, 27 mm (wide), Panorama, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "A58 5G/A78 5G: Fast charging up to 33 W, A58x/A1x: 10 W"
+    }
+  },
+  "key": {
+    "display_in": 6.56,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "MediaTek Dimensity 700",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 33,
+    "os": "Android 12",
+    "five_g": true,
+    "dual_sim": true,
+    "weight_g": 188,
+    "thickness_mm": 8,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo A58 5G",
+      "url": "https://en.wikipedia.org/wiki/Oppo_A58_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo A58 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo A58 5G",
+    "revid": 1380311143
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

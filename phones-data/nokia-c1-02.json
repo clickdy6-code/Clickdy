@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-c1-02",
+  "brand": "Nokia",
+  "name": "C1-02",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Nokia_C1-02-91938.jpg/500px-Nokia_C1-02-91938.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Nokia_C1-02-91938.jpg/250px-Nokia_C1-02-91938.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C1-02",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_C1-02-91938.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2010",
+      "Successor": "Nokia 109"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 MHz"
+    },
+    "Body": {
+      "Form factor": "bar",
+      "Dimensions": "108x45x13.8 mm",
+      "Weight": "77.5 g (2.72 oz)"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "64 MB ROM, 16 MB RAM",
+      "Storage": "10 MB",
+      "Card slot": "microSD/TransFlash expandable up to 32 GB"
+    },
+    "Display": {
+      "Display": "1.8 inches, 128x160 px, TFT, 65k colors"
+    },
+    "Cameras": {
+      "Rear camera": "No"
+    },
+    "Battery": {
+      "Battery": "BL-5C 1200mAH, BL-5CB 800 mAH, Standby 504hr, Talktime 10hr 40min"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 77.5,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C1-02",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C1-02"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C1-02\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C1-02",
+    "revid": 1361478066
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

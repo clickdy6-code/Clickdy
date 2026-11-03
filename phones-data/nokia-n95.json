@@ -1,0 +1,81 @@
+{
+  "slug": "nokia-n95",
+  "brand": "Nokia",
+  "name": "N95",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Nokia_N95_Front_1.jpg/500px-Nokia_N95_Front_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Nokia_N95_Front_1.jpg/250px-Nokia_N95_Front_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N95",
+      "credit": "Asim18, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N95_Front_1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2009",
+      "Predecessor": "Nokia N80, Nokia N91, Nokia N93",
+      "Successor": "Nokia N96, Nokia N86 8MP"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "99×53×21 mm",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.2, S60 3rd Edition",
+      "CPU": "Dual CPU, 332 MHz Texas Instruments OMAP 2420 (ARM11-based)"
+    },
+    "Memory": {
+      "RAM": "160 MB (N95), 8GB (N95 8GB)",
+      "Card slot": "MicroSD (N95), none (N95 8GB)"
+    },
+    "Display": {
+      "Display": "240x320 px, 2.6 in, TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixels (back)",
+      "Front camera": "CIF video call (front)"
+    },
+    "Battery": {
+      "Battery": "BL-5F (950 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0, Wi-Fi b/g, InfraRed"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "TFT",
+    "ram_gb": [
+      8
+    ],
+    "battery_mah": 950,
+    "os": "Symbian OS v9.2",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 120
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N95",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N95"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N95\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N95",
+    "revid": 1376677370
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

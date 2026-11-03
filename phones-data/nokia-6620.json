@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-6620",
+  "brand": "Nokia",
+  "name": "6620",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Nokia-6620-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Nokia-6620-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 6620",
+      "credit": "Mustafa1702, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia-6620-1.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3620 (unofficial)",
+      "Successor": "Nokia 6682"
+    },
+    "Network": {
+      "Technology": "GSM 850/1800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "109 x 58 x 23.6 mm",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "Series 60/Symbian OS"
+    },
+    "Memory": {
+      "RAM": "12 MB",
+      "Card slot": "MMC (32 MB included)"
+    },
+    "Display": {
+      "Display": "176 x 208 pixel 65,536 colors"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 Megapixels 640x480 VGA"
+    },
+    "Battery": {
+      "Battery": "BL-5C, 3.7v, 850mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA, Bluetooth, USB"
+    }
+  },
+  "key": {
+    "battery_mah": 850,
+    "os": "Symbian OS",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 124
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6620",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6620"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6620\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6620",
+    "revid": 1372920400
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

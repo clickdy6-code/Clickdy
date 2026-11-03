@@ -1,0 +1,89 @@
+{
+  "slug": "nokia-6700-classic",
+  "brand": "Nokia",
+  "name": "6700 classic",
+  "status": "published",
+  "announced": "2009-04-30",
+  "released": "2009-04-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Nokia_6700_classic.png/500px-Nokia_6700_classic.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Nokia_6700_classic.png/250px-Nokia_6700_classic.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6700 classic",
+      "credit": "Dienthoaiquangcao3, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6700_classic.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-04-30",
+      "Predecessor": "Nokia 6300, Nokia 6500 classic",
+      "Successor": "Nokia 515"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, UMTS 900/1900/2100, HSDPA 10.2 Mbps, HSUPA 2 Mbps, GPRS, EDGE",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "109.8 mm H , 45 mm W , 11.2 mm D",
+      "Weight": "113 g",
+      "Other": "USB tethering"
+    },
+    "Platform": {
+      "Operating system": "Series 40 6th Edition",
+      "CPU": "600 MHz Samsung K5W4G2GACA – AL54, ARM11"
+    },
+    "Memory": {
+      "RAM": "64 MB",
+      "Storage": "170 MB",
+      "Card slot": "microSDHC, up to 16 GB"
+    },
+    "Display": {
+      "Display": "2.2 in diagonal TFT LCD, 240 × 320 px QVGA, 1:1. aspect-ratio full-screen, 16.7M colors"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (2592×1944px max.), LED flash, Auto focus, VGA video recording (640×480 px. MPEG4 at 15 fps max.)"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-6Q, 970 mAh, 3.7 V user replaceable Li-ion",
+      "Charging": "Micro USB 2.0, Nokia 2-mm DC Charging Interface"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + EDR with A2DP, HFP, HSP, OPP and DUN, Micro USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 970,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 113,
+    "thickness_mm": 11.2,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6700 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6700_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6700 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6700 classic",
+    "revid": 1361477698
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

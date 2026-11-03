@@ -1,0 +1,92 @@
+{
+  "slug": "xiaomi-redmi-10a",
+  "brand": "Xiaomi",
+  "name": "Redmi 10A",
+  "status": "published",
+  "announced": "2022-03-29",
+  "released": "2022-03-29",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "10A: 2022-03-29 , 10A Sport: 2022-07-27",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 9A",
+      "Successor": "Redmi 12C"
+    },
+    "Network": {
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.9 mm H , 77 mm W , 9 mm D",
+      "Weight": "194 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with MIUI 12.5",
+      "Chipset": "MediaTek MT6762G Helio G25 (12 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A53 & 4x1.5 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "10A: 2, 3, 4 or 6 GB RAM, 10A Sport: 6 GB RAM, LPDDR4X",
+      "Storage": "10A: 32, 64 or 128 GB, 10A Sport: 128 GB, eMMC 5.1",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.53 in, 720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Global 10A: 13 MP, f/2.2, (wide), 1.0 μm, AF + 2 MP, f/2.4 (depth), China and India 10A/Sport: 13 MP, f/2.2, (wide), 1.0 μm, AF, LED flash, 1080p@30fps",
+      "Front camera": "5 MP, f/2.2, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "5000mAh",
+      "Charging": "10W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, hotspot, Bluetooth\t5.0, A2DP, LE, GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.53,
+    "chipset": "MediaTek MT6762G Helio G25",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 11",
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 194,
+    "thickness_mm": 9,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 10A",
+      "url": "https://en.wikipedia.org/wiki/Redmi_10A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 10A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 10A",
+    "revid": 1361479733
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

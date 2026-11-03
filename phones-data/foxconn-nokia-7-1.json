@@ -1,0 +1,94 @@
+{
+  "slug": "foxconn-nokia-7-1",
+  "brand": "Foxconn",
+  "name": "Nokia 7.1",
+  "status": "published",
+  "announced": "2018-10-28",
+  "released": "2018-10-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Nokia_7.1_on.JPG/500px-Nokia_7.1_on.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Nokia_7.1_on.JPG/250px-Nokia_7.1_on.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 7.1",
+      "credit": "MKFI, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7.1_on.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-28",
+      "Predecessor": "Nokia 7",
+      "Successor": "Nokia 7.2, Nokia 8.1 (X7)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "149.7 x 71.2 x 8 mm",
+      "Weight": "160 g",
+      "Other": "NFC, IP54 dust and splash resistance"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\", Current: Android 10, (Android One)",
+      "Chipset": "Qualcomm Snapdragon 636 (14 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Kryo 260 Gold & 4x1.6 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 509"
+    },
+    "Memory": {
+      "RAM": "3 or 4 GB RAM",
+      "Storage": "32 or 64 GB",
+      "Card slot": "microSD, up to 400 GB"
+    },
+    "Display": {
+      "Display": "5.84 inches (85.1 cm2) 1080p IPS LCD with HDR10 and Gorilla Glass 3 protection, ~432 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "Dual Camera Set-up:, 12 MP (f/1.8, 1.28 μm, dual pixel PDAF), 5 MP (f/2.4) Depth, ZEISS optics, dual-LED dual-tone flash, panorama, HDR, Video: 4K@30fps, 1080p@30fps (gyro-EIS)",
+      "Front camera": "8 MP (f/2.0, 24mm), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "3060 mAh Li-ion, Non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth 5.0, USB 3.1 via USB-C port"
+    }
+  },
+  "key": {
+    "display_in": 5.84,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 636",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 3060,
+    "os": "Android 8.1",
+    "nfc": false,
+    "usb": "USB-C",
+    "ip": "IP54",
+    "weight_g": 160,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7.1",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7.1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7.1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7.1",
+    "revid": 1361477736
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

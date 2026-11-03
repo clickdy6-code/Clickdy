@@ -1,0 +1,93 @@
+{
+  "slug": "nokia-lumia-520",
+  "brand": "Nokia",
+  "name": "Lumia 520",
+  "status": "published",
+  "announced": "2013-04-01",
+  "released": "2013-04-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Nokia_Lumia_520_blue_front.jpg/500px-Nokia_Lumia_520_blue_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Nokia_Lumia_520_blue_front.jpg/250px-Nokia_Lumia_520_blue_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Lumia 520",
+      "credit": "StomboyCarGeek, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_520_blue_front.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "1 April 2013",
+      "Discontinued": "2015",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 510",
+      "Successor": "Nokia Lumia 525, Nokia Lumia 530, Microsoft Lumia 535"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA 1900/2100"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "119.9 mm H , 64 mm W , 9.9 mm D",
+      "Weight": "124 g",
+      "Other": "Talk time (2G): up to 14.8 hours, Talk time (3G): 9.6 h, Stand-by time: up to 360 hours (15 days), Maximum cellular network browsing time: 6.7 h, Music playback time: 61 h (2.5 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8, upgradeable to 8.1, Windows 10 Mobile insider beta, later discontinued, Unofficial Android 6.0.1 port from XDA-developers",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8227",
+      "CPU": "1.0 GHz dual-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 305"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "8 GB Internal",
+      "Card slot": "64 GB, microSD"
+    },
+    "Display": {
+      "Display": "4-inch IPS LCD, 480x800 resolution"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP autofocus, f/2.4, autofocus 720p video"
+    },
+    "Battery": {
+      "Battery": "1430 mAh (stand-by time 4 days)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.0 + LE (after Lumia Amber update), Assisted GPS, GPS/GLONASS, Micro-USB 2.0, Wi-Fi :802.11b/g/n, WiFi Hotspot, Wi-Fi-based positioning system (WPS), FM radio, Internet radio"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon S4 MSM8227",
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1430,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 124,
+    "thickness_mm": 9.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 520",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_520"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 520\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 520",
+    "revid": 1374853655
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

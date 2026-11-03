@@ -1,0 +1,82 @@
+{
+  "slug": "nokia-c3-00",
+  "brand": "Nokia",
+  "name": "C3-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NokiaC3.jpg/500px-NokiaC3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NokiaC3.jpg/250px-NokiaC3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C3-00",
+      "credit": "John Karakatsanis from Athens, Greece, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NokiaC3.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-05",
+      "Series": "Nokia Cseries",
+      "Predecessor": "Nokia 6800, Nokia 5510",
+      "Successor": "Nokia Asha, Nokia X5-01"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900",
+      "SIM": "mini-SIM"
+    },
+    "Body": {
+      "Form factor": "QWERTY",
+      "Dimensions": "115.5 x 58.1 x 13.6 mm",
+      "Weight": "87.7 g (with battery)",
+      "Other": "Multimedia playback, Nokia Ovi Store"
+    },
+    "Platform": {
+      "Operating system": "Series 40 V 08.71 FOTA (firmware over-the-air)",
+      "CPU": "Broadcom BCM21351, 208 MHz ARM9 core processor"
+    },
+    "Memory": {
+      "RAM": "128 MB internal",
+      "Storage": "55 MB user-available",
+      "Card slot": "microSDHC up to 8 GB"
+    },
+    "Display": {
+      "Display": "2.4\" Resolution: 320 x 240 pixels (TFT) 262,000 colours"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel fixed-focus"
+    },
+    "Battery": {
+      "Battery": "BL-5J 1320 mAh Li-ion battery",
+      "Charging": "2.0mm Nokia proprietary charging and microUSB (USB 2.0)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 with Enhanced Data Rate, USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 1320,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 87.7,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C3-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C3-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C3-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C3-00",
+    "revid": 1378300434
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

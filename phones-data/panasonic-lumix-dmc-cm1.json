@@ -1,0 +1,52 @@
+{
+  "slug": "panasonic-lumix-dmc-cm1",
+  "brand": "Panasonic",
+  "name": "Lumix DMC-CM1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Platform": {
+      "Operating system": "Android 5.0",
+      "CPU": "2.3 GHz Qualcomm Snapdragon 801, quad-core"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM"
+    },
+    "Cameras": {
+      "Rear camera": "20 MP 1\" sensor, 10.2 mm f/2.8 lens",
+      "Front camera": "1.1 MP"
+    },
+    "Battery": {
+      "Battery": "2600 mAh, 18 Watts via Qualcomm Quick Charge 2.0"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "main_mp": 20,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 1.1,
+    "battery_mah": 2600,
+    "os": "Android 5.0"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Panasonic Lumix DMC-CM1",
+      "url": "https://en.wikipedia.org/wiki/Panasonic_Lumix_DMC-CM1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Panasonic Lumix DMC-CM1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Panasonic Lumix DMC-CM1",
+    "revid": 1381951165
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

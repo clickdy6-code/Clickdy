@@ -1,0 +1,94 @@
+{
+  "slug": "realme-3",
+  "brand": "Realme",
+  "name": "3",
+  "status": "published",
+  "announced": "2019-03-04",
+  "released": "2019-03-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/REALME_3.jpg/500px-REALME_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/REALME_3.jpg/250px-REALME_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Realme 3",
+      "credit": "Ajay kumar PHOTOGRAPHY, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:REALME_3.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-03-04 (realme 3), 2019-04-22 (realme 3 pro), 2019-07-15 (realme 3i)",
+      "Predecessor": "realme 2 , realme 2 Pro",
+      "Successor": "realme 5 , realme 5i , realme 5 Pro"
+    },
+    "Network": {
+      "Technology": "GSM, WCDMA, FDD-LTE, TD-LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 156.1 mm, W: 75.6 mm, D: 8.3 mm (realme 3/3i), H: 156.8 mm, W: 74.2 mm, D: 8.3 mm (realme 3 pro)",
+      "Weight": "175 g (realme 3/3i), 172 g (realme 3 pro)"
+    },
+    "Platform": {
+      "Operating system": "Android 9 Pie ColorOS 6, Upgraded to Android 10 realme UI 1.0 (for realme 3/3i/3 pro), Android 10 realme UI 1.0, Upgraded to Android 11 realme UI 2.0 (for realme 3 pro)",
+      "Chipset": "MediaTek Helio P60 (International Edition) MediaTek Helio and P70 (India Edition) (realme 3/3i), Qualcomm SDM710 Snapdragon 710 (realme 3 pro)",
+      "CPU": "ARM Cortex-A73x4 and ARM Cortex-A53x4 up to 2.1 GHz (realme 3/3i), Octa-core (2x2.2 GHz Kryo 360 Gold & 6x1.7 GHz Kryo 360 Silver) (realme 3 pro)",
+      "GPU": "ARM Mali-G72 MP4 (realme 3/3i), Adreno 616 (realme 3 pro)"
+    },
+    "Memory": {
+      "Storage": "3GB + 32GB/64GB or 4GB + 64GB or 4GB/6GB + 128GB",
+      "Card slot": "Up to 256 GB external storage"
+    },
+    "Display": {
+      "Display": "6.22 in (1520 ×720 pixels) HD+ with 19:9 aspect ratio (realme 3), 6.3 in (2340 ×1080 pixels) HD+ with 19,5:9 aspect ratio (realme 3 pro), 6.2 in (1520 ×720 pixels) HD+ with 19:9 aspect ratio (realme 3i)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP main camera (f/1.8, Hybrid HDR Nightscape) + 2 MP, PDAF Fast Focusing, Video 1080p or 720p at 30 fps (realme 3/3i), 16 MP main camera (f/1.7, 1/2.6\", 1.22 μm, Dual Pixel PDAF HDR Nightscape) + 5 MP, PDAF Fast Focusing, Video 4K 30fps, 1080p 30/120fps, 720p 960fps, gyro-EIS (realme 3 pro)",
+      "Front camera": "13 MP AI front camera (realme 3/3i), 25 MP AI front camera (realme 3 pro)"
+    },
+    "Sound": {
+      "Sound": "3.5mm jack loudspeaker"
+    },
+    "Battery": {
+      "Battery": "4,230 mAh Li-Ion"
+    }
+  },
+  "key": {
+    "display_in": 6.22,
+    "chipset": "MediaTek Helio P60",
+    "storage_gb": [
+      4,
+      6,
+      32,
+      64,
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 13,
+    "battery_mah": 4230,
+    "os": "Android 9",
+    "five_g": false,
+    "weight_g": 175,
+    "thickness_mm": 8.3,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme 3",
+      "url": "https://en.wikipedia.org/wiki/Realme_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Realme 3",
+    "revid": 1361479518
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

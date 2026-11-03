@@ -1,0 +1,73 @@
+{
+  "slug": "sanyo-katana",
+  "brand": "Sanyo",
+  "name": "Katana",
+  "status": "published",
+  "announced": "2006-07-05",
+  "released": "2006-07-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sanyo_Katana_vs._Motorola_Razr.jpg/500px-Sanyo_Katana_vs._Motorola_Razr.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sanyo_Katana_vs._Motorola_Razr.jpg/250px-Sanyo_Katana_vs._Motorola_Razr.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sanyo Katana",
+      "credit": "Vintage Tech Historian, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sanyo_Katana_vs._Motorola_Razr.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2006-07-05",
+      "Series": "Katana",
+      "Successor": "Katana II, Katana DLX, Katana LX, Katana Eclipse"
+    },
+    "Network": {
+      "SIM": "No SIM card, this was a CDMA-only phone"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "3.88 x 2.02 x 0.58 in, 99 x 51 x 14.7 mm",
+      "Weight": "3.4 oz"
+    },
+    "Platform": {
+      "Operating system": "Proprietary"
+    },
+    "Memory": {
+      "Card slot": "Non-expandable storage"
+    },
+    "Display": {
+      "Display": "2.2 in diagonal TFT LCD, 320x240 px QVGA, 65K colors"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP (VGA)"
+    },
+    "Battery": {
+      "Battery": "3.7 V",
+      "Charging": "Proprietary"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sanyo Katana",
+      "url": "https://en.wikipedia.org/wiki/Sanyo_Katana"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sanyo Katana\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sanyo Katana",
+    "revid": 1371636928
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

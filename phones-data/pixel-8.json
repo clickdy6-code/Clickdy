@@ -1,0 +1,101 @@
+{
+  "slug": "pixel-8",
+  "brand": "Pixel",
+  "name": "8",
+  "status": "published",
+  "announced": "2023-10-12",
+  "released": "2023-10-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-10-12",
+      "Discontinued": "2024-08-13",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 7, Pixel 7 Pro",
+      "Successor": "Pixel 9, Pixel 9 Pro, Pixel 9 Pro XL"
+    },
+    "Network": {
+      "Technology": "GSM / EDGE (telecommunication), EDGE, UMTS / HSPA+ / HSDPA, LTE (telecommunication), LTE, 5G sub-6 / mmWave",
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel 8:H: 150.5 mm, W: 70.8 mm, D: 8.9 mm, Pixel 8 Pro:H: 162.6 mm, W: 76.5 mm, D: 8.8 mm",
+      "Weight": "Pixel 8: 187 g, Pixel 8 Pro: 213 g",
+      "Other": "Pixel 8:, Gorilla Glass Victus cover, Gorilla Glass Victus back, Pixel 8 Pro:, Gorilla Glass Victus 2 cover, Gorilla Glass Victus 2 back, Ultra-wideband (UWB) chip, Both:, Titan M, Titan M2 security module"
+    },
+    "Platform": {
+      "Operating system": "Android 14, Upgradable to Android 17",
+      "Chipset": "Google Tensor G3"
+    },
+    "Memory": {
+      "RAM": "Pixel 8: 8 GB LPDDR5X, Pixel 8 Pro: 12 GB LPDDR5X",
+      "Storage": "Pixel 8:, 128 or 256 GB Universal Flash Storage, UFS 3.1, Pixel 8 Pro:, 128 GB, 256 GB, 512 GB, or 1 TB UFS 3.1"
+    },
+    "Display": {
+      "Display": "Pixel 8:, 157 mm FHD+ 1080p OLED at 428 Pixels per inch, ppi, px (20:9), 60–120 Hertz, Hz refresh rate, Pixel 8 Pro:, 170 mm QHD+ 1440p Low-temperature polycrystalline silicon, LTPO OLED at 489 ppi, px (20:9), 1–120 Hz refresh rate, Both: High-dynamic-range television, HDR"
+    },
+    "Cameras": {
+      "Rear camera": "Pixel 8:, 12 MP, 2.2, 125.8˚ field of view (ultrawide), 1.25 μm, Pixel 8 Pro:, 48 MP, 1.95, 125.5˚ field of view (ultrawide), 0.8 μm, 48 MP, 2.8, 21.8˚ field of view (telephoto), 0.7 μm, 5× optical zoom, Both:, 50 MP, 1.68, 82˚ field of view (wide), 1.2 μm, 4K resolution, 4K video at 24, 30, or 60 Frame rate, FPS, 1080p video at 24, 30, or 60 FPS",
+      "Front camera": "10.5 MP, 2.2, 95˚ field of view (ultrawide), 1.22 μm, 4K video at 24, 30, or 60 FPS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3 microphones, Noise suppression, Spatial audio"
+    },
+    "Battery": {
+      "Battery": "Pixel 8: 4575 mAh, Pixel 8 Pro: 5050 mAh",
+      "Charging": "Pixel 8:, 27 W fast charging, 18 W Qi (standard), Qi wireless charging, Pixel 8 Pro:, 30 W fast charging, 23 W Qi wireless charging, Both:, Reverse wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 + MIMO, Bluetooth 5.3, Near-field communication, NFC, Google Cast, Dual-band Satellite navigation, GNSS (GPS / GLONASS / Galileo (satellite navigation), Galileo / Quasi-Zenith Satellite System, QZSS), USB-C 3.2"
+    }
+  },
+  "key": {
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Google Tensor G3",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 12,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 10.5,
+    "battery_mah": 4575,
+    "wireless_w": 23,
+    "wired_w": 30,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 187,
+    "thickness_mm": 8.9,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 8",
+      "url": "https://en.wikipedia.org/wiki/Pixel_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 8",
+    "revid": 1383488764
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

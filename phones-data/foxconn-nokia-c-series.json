@@ -1,0 +1,78 @@
+{
+  "slug": "foxconn-nokia-c-series",
+  "brand": "Foxconn",
+  "name": "Nokia C series",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "H: 150.6 mm, W: 72.4 mm, D: 9.1 mm",
+      "Weight": "180 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10",
+      "Chipset": "MediaTek Helio A22 (16 nm)",
+      "CPU": "Quad-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3 RAM",
+      "Storage": "16 or 32 GB",
+      "Card slot": "microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.45 in (76.7 cm2) 720p IPS LCD, ~295 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "Dual Camera Set-up:, 8 MP, autofocus, 2 MP, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "3000 mAh Li-Po, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth 4.2, USB 2.0 via USB-C port"
+    }
+  },
+  "key": {
+    "display_in": 5.45,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek Helio A22",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 10",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 180,
+    "thickness_mm": 9.1
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C series (Cricket Wireless)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C_series_%28Cricket_Wireless%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C series (Cricket Wireless)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C series (Cricket Wireless)",
+    "revid": 1361478050
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

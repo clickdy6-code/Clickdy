@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-7500",
+  "brand": "Nokia",
+  "name": "7500",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nokia_7500.jpg/500px-Nokia_7500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Nokia_7500.jpg/250px-Nokia_7500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 7500",
+      "credit": "Sergio, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7500.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 7360",
+      "Successor": "Nokia 7210 Supernova"
+    },
+    "Network": {
+      "Technology": "GSM-850 / GSM-900 / GSM-1900 / GSM-1800 / UMTS"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "109mm x 44mm x 14mm (4.29\" x 1.73\" x 0.55\")",
+      "Weight": "83 grams"
+    },
+    "Platform": {
+      "Operating system": "S40 5th Edition"
+    },
+    "Memory": {
+      "RAM": "30 MB (built-in, flash shared memory)",
+      "Card slot": "Yes"
+    },
+    "Display": {
+      "Display": "LCD, 16.7M colors, 240 x 320 pixels, 2 inches"
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel (1600 x 1200 px)"
+    },
+    "Battery": {
+      "Battery": "Li-ion 700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, MicroUSB"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "LCD",
+    "battery_mah": 700,
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 14
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7500",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7500",
+    "revid": 1361477799
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

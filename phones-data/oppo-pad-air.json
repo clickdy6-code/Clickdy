@@ -1,0 +1,89 @@
+{
+  "slug": "oppo-pad-air",
+  "brand": "Oppo",
+  "name": "Pad Air",
+  "status": "published",
+  "announced": "2022-06-01",
+  "released": "2022-06-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-06-01",
+      "Series": "Oppo Pad series",
+      "Successor": "Oppo Pad Air2"
+    },
+    "Network": {
+      "SIM": "Not Supported"
+    },
+    "Body": {
+      "Form factor": "Tablet computer",
+      "Dimensions": "245.1 mm H , 154.8 mm W , 6.9 mm D",
+      "Weight": "440 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 12.1 (based on Android 12)",
+      "Chipset": "Snapdragon 680 4G",
+      "CPU": "Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "4 GB, 6GB RAM",
+      "Storage": "64 GB, 128 GB ROM",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "10.36 in 1200x2000, IPS LCD, 1B colors, 360 nits (225 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.0, AF, 1080p@30fps video",
+      "Front camera": "5 MP, f/2.2, 1080p@30fps video"
+    },
+    "Sound": {
+      "Sound": "Quad speakers, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "7100 mAh (Li-Po Battery)",
+      "Charging": "18W wired fast charging, PD"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "peak_nits": 360,
+    "chipset": "Snapdragon 680 4G",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 7100,
+    "wired_w": 18,
+    "os": "Android 12",
+    "weight_g": 440,
+    "thickness_mm": 6.9,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Pad Air",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Pad_Air"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Pad Air\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Pad Air",
+    "revid": 1361479148
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

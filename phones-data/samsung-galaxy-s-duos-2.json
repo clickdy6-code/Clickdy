@@ -1,0 +1,88 @@
+{
+  "slug": "samsung-galaxy-s-duos-2",
+  "brand": "Samsung",
+  "name": "Galaxy S Duos 2",
+  "status": "published",
+  "announced": "2013-12-05",
+  "released": "2013-12-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Samsung_Galaxy_S_Duos_II.png/500px-Samsung_Galaxy_S_Duos_II.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Samsung_Galaxy_S_Duos_II.png/250px-Samsung_Galaxy_S_Duos_II.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S Duos 2",
+      "credit": "AnVuong1222004 (11), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_Duos_II.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-12-05",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S Duos",
+      "Successor": "Samsung Galaxy S Duos 3"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850/900/1800/1900 MHz, UMTS/HSPA (3.5G), 850/900/1900/2100 MHz up to 21/5.76 Mbps"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 121.5 mm, W: 63.1 mm, D: 10.6 mm",
+      "Weight": "118 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2.2 Jelly Bean , (can be upgraded to unofficial LineageOS 14.1 and AOSP 7.1.2 and Ressurrection Remix 5.8.0 build by Ishant Vivek and Sandpox.)(Android Oreo ROM still under development.)",
+      "Chipset": "Broadcom BCM21664T",
+      "CPU": "1.2 GHz dual core , Cortex-A9",
+      "GPU": "Broadcom VideoCore IV"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "4 GB flash memory",
+      "Card slot": "microSD up to 64 GB"
+    },
+    "Display": {
+      "Display": "4.0 in TFT LCD, 233 PPI 16M color, Corning Gorilla Glass 2"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 Megapixel AF, LED flash, Geo-tagging",
+      "Front camera": "0.3 Megapixel"
+    },
+    "Battery": {
+      "Battery": "1,500 mAh Lithium-Ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 4.0 with A2DP, GPS, A-GPS, GLONASS, Micro USB 2.0, 3.5 mm TRRS audio jack, FM radio with RDS support"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "chipset": "Broadcom BCM21664T",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1500,
+    "os": "Android 4.2",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 118,
+    "thickness_mm": 10.6,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S Duos 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_Duos_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S Duos 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S Duos 2",
+    "revid": 1380483077
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

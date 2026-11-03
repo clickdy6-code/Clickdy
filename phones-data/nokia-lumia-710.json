@@ -1,0 +1,90 @@
+{
+  "slug": "nokia-lumia-710",
+  "brand": "Nokia",
+  "name": "Lumia 710",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_Lumia_710_front_ON.jpg/500px-Nokia_Lumia_710_front_ON.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_Lumia_710_front_ON.jpg/250px-Nokia_Lumia_710_front_ON.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Lumia 710",
+      "credit": "old_s, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_710_front_ON.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2013",
+      "Series": "Nokia Lumia Series",
+      "Predecessor": "Nokia C7-00, Nokia X7-00, Nokia 700, Nokia 701",
+      "Successor": "Nokia Lumia 720"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA, Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "119 mm H , 62.4 mm W , 12.5 mm D",
+      "Weight": "126 g",
+      "Other": "micro-SIM"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7.5 (can be updated to Windows Phone 7.8, but not to Windows Phone 8)",
+      "Chipset": "Qualcomm Snapdragon S2 MSM8255",
+      "CPU": "1.4 GHz single-core Qualcomm Scorpion",
+      "GPU": "Qualcomm Adreno 205"
+    },
+    "Memory": {
+      "RAM": "8 GB internal flash, 512 MB ROM, 512 MB RAM",
+      "Card slot": "Not supported"
+    },
+    "Display": {
+      "Display": "3.7 in. TFT capacitive touchscreen, 480x800 px at 252 ppi, 16m-color WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP 2592x1944 pixels, LED flash, autofocus"
+    },
+    "Battery": {
+      "Battery": "Rechargeable BP-3L 3.7V 1300mAh Li-ion battery (up to 400 hrs standby, 6.9 hrs 2G talk time/7.6 hrs 3G talk time)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, 802.11b/g/n, G-Sensor, Digital Compass, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S2 MSM8255",
+    "ram_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1300,
+    "os": "Windows Phone 7.5",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 126,
+    "thickness_mm": 12.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 710",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_710"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 710\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 710",
+    "revid": 1369043119
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

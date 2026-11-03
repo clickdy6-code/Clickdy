@@ -1,0 +1,96 @@
+{
+  "slug": "oneplus-5t",
+  "brand": "OnePlus",
+  "name": "5T",
+  "status": "published",
+  "announced": "2017-11-21",
+  "released": "2017-11-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Oneplus5tfront.JPG/500px-Oneplus5tfront.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Oneplus5tfront.JPG/250px-Oneplus5tfront.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 5T",
+      "credit": "Munzimus Octavius, CC BY-SA 3.0 de via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oneplus5tfront.JPG",
+      "license": "CC BY-SA 3.0 de"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-11-21",
+      "Predecessor": "OnePlus 5",
+      "Successor": "OnePlus 6"
+    },
+    "Network": {
+      "Technology": "2G, 3G, and 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156.1 mm H , 75 mm W , 7.3 mm D",
+      "Weight": "162 g"
+    },
+    "Platform": {
+      "Operating system": "OxygenOS (Based on Android)",
+      "Chipset": "Qualcomm Snapdragon 835",
+      "CPU": "Octa-core (4×2.45 GHz + 4×1.9 GHz) Kryo",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB LPDDR4X RAM",
+      "Storage": "64 or 128 GB UFS 2.1",
+      "Card slot": "Not available"
+    },
+    "Display": {
+      "Display": "6.01 in 1080p (2160 ×1080 pixels) Full-HD+ Optic AMOLED / DCI-P3 (401 ppi) with 2:1 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP Sony Exmor IMX398 (f/1.7, EIS) + 20 MP Sony Exmor IMX376K (f/1.7), phase detection autofocus, dual-LED flash, Video 4K at 30fps, 1080p at 30 or 60fps, 720p at 30 or 120fps",
+      "Front camera": "16 MP Sony Exmor IMX371 (f/2.0, EIS, HDR)"
+    },
+    "Battery": {
+      "Battery": "3,300 mAh Li-Ion not user-replaceable with Dash Charge technology"
+    },
+    "Connectivity": {
+      "Connectivity": "3G, 4G VoLTE, Bluetooth 5.0, NFC, WiFi 802.11a/b/g/n/ac, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.01,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 835",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3300,
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 162,
+    "thickness_mm": 7.3,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 5T",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_5T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 5T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 5T",
+    "revid": 1382689265
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

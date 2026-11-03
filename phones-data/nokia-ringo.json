@@ -1,0 +1,52 @@
+{
+  "slug": "nokia-ringo",
+  "brand": "Nokia",
+  "name": "rinGo",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "1995"
+    },
+    "Network": {
+      "Technology": "NMT-900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "152 x 55 x 33mm, vol 160cc",
+      "Weight": "235.00g (8.29 oz)"
+    },
+    "Memory": {
+      "RAM": "9-contact phone book"
+    },
+    "Display": {
+      "Display": "monochrome LCD"
+    },
+    "Battery": {
+      "Battery": "900 mAh, NiMH"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 900,
+    "weight_g": 235,
+    "year": 1995
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia rinGo",
+      "url": "https://en.wikipedia.org/wiki/Nokia_rinGo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia rinGo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia rinGo",
+    "revid": 1361478693
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

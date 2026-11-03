@@ -1,0 +1,92 @@
+{
+  "slug": "razer-phone",
+  "brand": "Razer",
+  "name": "Phone",
+  "status": "published",
+  "announced": "2017-11-15",
+  "released": "2017-11-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-11-15",
+      "Predecessor": "Nextbit Robin (indirect)",
+      "Successor": "Razer Phone 2"
+    },
+    "Network": {
+      "Technology": "Global GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158.5 mm H , 77.7 mm W , 8 mm D",
+      "Weight": "198 g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.1 \"Nougat\" (upgradable to 9 \"Pie\")",
+      "Chipset": "Qualcomm Snapdragon 835",
+      "CPU": "Octa-core (4x2.35 GHz & 4x1.9 GHz) Kryo",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR4X RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSD, up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.7 in IPS LCD, 2560x1440 resolution, 515 ppi, DCI-P3 wide color gamut, 120 Hz Q-Sync variable refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 12 MP + 12 MP (f/1.75, PDAF & f/2.6, PDAF), 2x optical zoom, dual-LED flash, 4K video",
+      "Front camera": "8 MP, autofocus"
+    },
+    "Sound": {
+      "Sound": "Dual Dolby Atmos stereo speakers (front-facing)"
+    },
+    "Battery": {
+      "Battery": "4,000 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3G, 4G VoLTE, Bluetooth 4.2, NFC, WiFi 802.11a/b/g/n/ac, GPS & GLONASS, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 835",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 198,
+    "thickness_mm": 8,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Razer Phone",
+      "url": "https://en.wikipedia.org/wiki/Razer_Phone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Razer Phone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Razer Phone",
+    "revid": 1366403803
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

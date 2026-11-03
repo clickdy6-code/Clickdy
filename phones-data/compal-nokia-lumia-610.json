@@ -1,0 +1,84 @@
+{
+  "slug": "compal-nokia-lumia-610",
+  "brand": "Compal",
+  "name": "Nokia Lumia 610",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Nokia_Lumia_610-01.JPG/500px-Nokia_Lumia_610-01.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Nokia_Lumia_610-01.JPG/250px-Nokia_Lumia_610-01.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Compal Nokia Lumia 610",
+      "credit": "Maher27777, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_610-01.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2013",
+      "Series": "Lumia",
+      "Predecessor": "Nokia 603",
+      "Successor": "Nokia Lumia 620"
+    },
+    "Network": {
+      "Technology": "2G bands\tGSM 850 / 900 / 1800 / 1900 , 3G bands\tHSPA 850 / 900 / 1900 / 2100"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "119 mm H , 62.2 mm W , 11.95 mm D",
+      "Weight": "131.5 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7.5 (not able to be updated to Windows Phone 8)",
+      "Chipset": "Qualcomm Snapdragon S1 MSM7227A",
+      "CPU": "800 MHz ARM Cortex-A5",
+      "GPU": "Qualcomm Adreno 200"
+    },
+    "Memory": {
+      "RAM": "8 GB internal flash, 256 MB ROM, 256 MB RAM"
+    },
+    "Display": {
+      "Display": "3.7 in. LCD capacitive touchscreen with Gorilla Glass, 480x800 px at 252 ppi, 16M-color WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel 2592x1944 pixels, LED flash, autofocus"
+    },
+    "Battery": {
+      "Battery": "Rechargeable BP-3L 3.7V 1300mAh Li-ion battery (up to 530 hrs standby, 6.5 hrs talk time)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, 802.11b/g/n, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon S1 MSM7227A",
+    "ram_gb": [
+      8
+    ],
+    "battery_mah": 1300,
+    "os": "Windows Phone 7.5",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 131.5,
+    "thickness_mm": 11.95
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 610",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_610"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 610\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 610",
+    "revid": 1378683879
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

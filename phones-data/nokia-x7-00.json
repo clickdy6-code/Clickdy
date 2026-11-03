@@ -1,0 +1,83 @@
+{
+  "slug": "nokia-x7-00",
+  "brand": "Nokia",
+  "name": "X7-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Nokia_X7.jpg/500px-Nokia_X7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Nokia_X7.jpg/250px-Nokia_X7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia X7-00",
+      "credit": "NikitaNovozhilov, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_X7.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Xseries",
+      "Predecessor": "Nokia X5, Nokia X6-00",
+      "Successor": "Nokia Lumia 710"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA, HSUPA"
+    },
+    "Body": {
+      "Dimensions": "119.7 × 62.8 × 11.9 mm",
+      "Weight": "146 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian Anna, upgradeable to Nokia Belle Refresh (111.040.1511)",
+      "CPU": "ARM11 680 MHz"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM, 350MB storage, 1GB ROM, Micro SD expansion up to 32 GB"
+    },
+    "Display": {
+      "Display": "640×360 4 in AMOLED touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "8.0-megapixel CMOS, 2x digital zoom for image, 3x digital zoom for video, dual LED flash, Face recognition software"
+    },
+    "Battery": {
+      "Battery": "1,200mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, Wi-Fi 802.11 b/g/n USB connector and charging, 3.5mm audio connector, FM radio"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "AMOLED",
+    "ram_gb": [
+      1,
+      32
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 200,
+    "os": "Symbian Anna",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 146
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X7-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X7-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X7-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X7-00",
+    "revid": 1361487213
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "nokia-5510",
+  "brand": "Nokia",
+  "name": "5510",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/NOKIA_5510_blue_topview.jpg/500px-NOKIA_5510_blue_topview.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/NOKIA_5510_blue_topview.jpg/250px-NOKIA_5510_blue_topview.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5510",
+      "credit": "Manorainjan Holzapfel, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NOKIA_5510_blue_topview.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3210",
+      "Successor": "Nokia 3300, Nokia 6800 series, Nokia N-Gage, Nokia C3-00"
+    },
+    "Network": {
+      "Technology": "2G GSM900 / GSM1800"
+    },
+    "Body": {
+      "Form factor": "Block",
+      "Dimensions": "134 x 58 x 28 mm",
+      "Weight": "155 g"
+    },
+    "Memory": {
+      "Storage": "64 MB"
+    },
+    "Display": {
+      "Display": "5 lines Monochrome"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Mini USB / ADE-2 Audio Line in / DKE-2"
+    }
+  },
+  "key": {
+    "battery_mah": 950,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 155
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5510",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5510"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5510\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5510",
+    "revid": 1363310200
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

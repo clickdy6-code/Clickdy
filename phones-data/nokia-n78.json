@@ -1,0 +1,81 @@
+{
+  "slug": "nokia-n78",
+  "brand": "Nokia",
+  "name": "N78",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/DSC04615_%282485781017%29.jpg/500px-DSC04615_%282485781017%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/DSC04615_%282485781017%29.jpg/250px-DSC04615_%282485781017%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N78",
+      "credit": "Antonio Zugaldia from Washington, D.C., United States, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DSC04615_(2485781017).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-02",
+      "Predecessor": "Nokia N73, Nokia N77",
+      "Successor": "Nokia N79"
+    },
+    "Network": {
+      "Technology": "Quad band GSM/GPRS/EDGE: 850/900/1800/1900 MHz, Dual band WCDMA: 900/2100 MHz (N78-1 EU version) or 850/1900 MHz (N78-3 NA version) (UMTS, HSDPA)"
+    },
+    "Body": {
+      "Form factor": "Candy bar",
+      "Dimensions": "113 × 49 × 15.1 mm (L × W × T)",
+      "Weight": "101.8 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.2, S60 3rd Edition, Feature Pack 2",
+      "CPU": "Freescale 369 MHz"
+    },
+    "Memory": {
+      "RAM": "70 MB",
+      "Card slot": "microSDHC"
+    },
+    "Display": {
+      "Display": "240 × 320 pixels, 2.4-inch, 16,777,216 colours"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP / 2048 × 1536 pixels / Carl Zeiss optics",
+      "Front camera": "VGA video call camera"
+    },
+    "Battery": {
+      "Battery": "BL-6F, 1200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, Micro USB, SMS, MMS, Wifi"
+    }
+  },
+  "key": {
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "os": "Symbian OS v9.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 101.8,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N78",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N78"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N78\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N78",
+    "revid": 1361478446
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

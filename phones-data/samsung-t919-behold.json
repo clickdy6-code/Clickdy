@@ -1,0 +1,59 @@
+{
+  "slug": "samsung-t919-behold",
+  "brand": "Samsung",
+  "name": "T919 Behold",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Samsung Behold II"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 /1800 / 1900 / UMTS 1700 / 2100"
+    },
+    "Body": {
+      "Form factor": "Candybar / PDA",
+      "Dimensions": "105 × 53 × 13 mm",
+      "Weight": "113 g"
+    },
+    "Memory": {
+      "RAM": "180 MB internal",
+      "Card slot": "microSD/TransFlash"
+    },
+    "Display": {
+      "Display": "240 × 400 pixels (3.0-inch) touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel"
+    },
+    "Battery": {
+      "Battery": "1000 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Full HTML browser, Bluetooth 2.0, USB"
+    }
+  },
+  "key": {
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 113
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung T919 Behold",
+      "url": "https://en.wikipedia.org/wiki/Samsung_T919_Behold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung T919 Behold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung T919 Behold",
+    "revid": 1361483674
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

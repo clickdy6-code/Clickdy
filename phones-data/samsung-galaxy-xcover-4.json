@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-xcover-4",
+  "brand": "Samsung",
+  "name": "Galaxy Xcover 4",
+  "status": "published",
+  "announced": "2017-04-24",
+  "released": "2017-04-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Xcover 4: 2017-04-24, Xcover 4s: 2019-07-01",
+      "Discontinued": "Xcover 4: , Xcover 4s:",
+      "Series": "Galaxy Xcover",
+      "Predecessor": "Samsung Galaxy Xcover 3",
+      "Successor": "Samsung Galaxy Xcover FieldPro, Samsung Galaxy Xcover 5"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.2 mm H, 73.3 mm W, 9.7 mm D",
+      "Weight": "172 g"
+    },
+    "Platform": {
+      "Operating system": "Xcover 4:, Original: Android 7.0 \"Nougat\" with Samsung Experience 8.0, Current: Android 9 \"Pie\" with One UI 1.0, Xcover 4s:, Original: Android 9 \"Pie\" with One UI 1.1, Current: Android 11 with One UI 3.1",
+      "Chipset": "Xcover 4: Exynos 7570 Quad, Xcover 4s: Exynos 7885",
+      "CPU": "Quad-core, 1.4 GHz ARM Cortex A53",
+      "GPU": "Mali T720"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM, 3 GB RAM",
+      "Storage": "16 GB, 32 GB",
+      "Card slot": "MicroSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0 in, 720 × 1280 pixels (294 ppi) IPS LCD capacitive touchscreen, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "2800 mAh Li-ion battery user replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 4.2, Wi-Fi, Wi-Fi Direct, GPS Location, NFC"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Xcover 4: Exynos 7570 Quad",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2800,
+    "os": "Android 7.0",
+    "nfc": true,
+    "weight_g": 172,
+    "thickness_mm": 9.7,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Xcover 4",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Xcover 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Xcover 4",
+    "revid": 1363553214
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

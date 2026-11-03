@@ -1,0 +1,99 @@
+{
+  "slug": "oneplus-7",
+  "brand": "OnePlus",
+  "name": "7",
+  "status": "published",
+  "announced": "2019-05-14",
+  "released": "2019-05-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/OnePlus_7_Pro.jpg/500px-OnePlus_7_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/OnePlus_7_Pro.jpg/250px-OnePlus_7_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 7",
+      "credit": "Dsr07, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_7_Pro.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-05-14",
+      "Predecessor": "OnePlus 6T",
+      "Successor": "OnePlus 7T"
+    },
+    "Network": {
+      "Technology": "2G, 3G, and 4G , 5G (5G model only)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "7: 157.7 x 74.8 x 8.2 mm, 7 Pro: 162.6 x 75.9 x 8.8 mm",
+      "Weight": "7: 182 g, 7 Pro: 206 g"
+    },
+    "Platform": {
+      "Operating system": "OxygenOS (based on Android Pie), 7 and 7 Pro: Upgradable to OxygenOS 12 (Android 12) since October 2022, 7 Pro 5G: Upgradable to OxygenOS 10 (Android 10)",
+      "Chipset": "Qualcomm Snapdragon 855",
+      "CPU": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.80 GHz Kryo 485)",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "6, 8, or 12 GB LPDDR4X RAM",
+      "Storage": "128 GB or 256 GB"
+    },
+    "Display": {
+      "Display": "7: 6.41 in 2340×1080 1080p Optic AMOLED capacitive touchscreen, DCI-P3, 7 Pro: 6.67 in, 3120×1440 1440p Fluid AMOLED capacitive touchscreen, (516 ppi) HDR10+, 90 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "7: 48 MP, f/1.7, 1/2\", 0.8 μm + 5 MP, f/2.4, 1.12 μm PDAF, OIS, Dual-LED flash, 2x zoom , Video: 4K@30/60fps, 1080p@30/60/240fps, 720p@480fps, Auto HDR, gyro-EIS, 7 Pro: 48 MP, f/1.6, 1/2\", 0.8 μm + 16 MP, f/2.2, 13mm (Ultrawide) + 8 MP, f/2.4, 78mm (Telephoto) Laser/PDAF, OIS, 3x zoom, Dual-LED flash , Video: 4K@30/60fps, 1080p@30/60/240fps, 720p@480fps, Auto HDR, gyro-EIS",
+      "Front camera": "16 MP, f/2.0, 25mm, 1/3.1\", 1.0 μm , Video: 1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos Dual stereo speakers with active noise cancellation"
+    },
+    "Battery": {
+      "Battery": "7: 3700 mAh with Dash Charge technology (20W), 7 Pro: 4000 mAh Li-Ion with Warp Charge technology (30W)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi a/b/g/n/ac, 3G/LTE"
+    }
+  },
+  "key": {
+    "display_in": 6.41,
+    "display_type": "AMOLED",
+    "refresh_hz": 90,
+    "chipset": "Qualcomm Snapdragon 855",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3700,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 182,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 7",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "OnePlus 7",
+    "revid": 1382784807
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "xiaomi-redmi-4a",
+  "brand": "Xiaomi",
+  "name": "Redmi 4A",
+  "status": "published",
+  "announced": "2016-11-04",
+  "released": "2016-11-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Xiaomi_Redmi_4A.jpg/500px-Xiaomi_Redmi_4A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Xiaomi_Redmi_4A.jpg/250px-Xiaomi_Redmi_4A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 4A",
+      "credit": "Cybularny, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Redmi_4A.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-11-04",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 2A",
+      "Successor": "Redmi 5A"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "139.9 × 70.4 × 8.5 mm",
+      "Weight": "131.5 g",
+      "Other": "Proximity sensor, accelerometer, gyroscope"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 6.0.1 Marshmallow + MIUI 8, Current: Android 7.1.2 Nougat + MIUI 10",
+      "CPU": "Qualcomm MSM8917 Snapdragon 425, 4×1.4 GHz Cortex-A53",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "RAM": "2 GB, LPDDR3",
+      "Storage": "16/32 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.0\", 1280 × 720 (HD), 16:9, 296 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2, AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, f/2.2, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 3120 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 4.1 (A2DP, LE), IR port, FM radio, Wi-Fi 802.11 a/b/g/n (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3120,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 131.5,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 4A",
+      "url": "https://en.wikipedia.org/wiki/Redmi_4A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 4A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 4A",
+    "revid": 1361479789
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

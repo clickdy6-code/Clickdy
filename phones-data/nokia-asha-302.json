@@ -1,0 +1,82 @@
+{
+  "slug": "nokia-asha-302",
+  "brand": "Nokia",
+  "name": "Asha 302",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Nokia_Asha_302.png/500px-Nokia_Asha_302.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Nokia_Asha_302.png/250px-Nokia_Asha_302.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Asha 302",
+      "credit": "Dienthoaiquangcao24, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Asha_302.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Asha series",
+      "Predecessor": "Nokia C3-00"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, GPRS/EDGE class B, multislot class 33, UMTS 850 / 900 / 1700 / 1900 / 2100, HSDPA Cat10, 14.4 Mbps, HSUPA Cat5 2.0 Mbps"
+    },
+    "Body": {
+      "Form factor": "Qwerty candybar",
+      "Dimensions": "Width: 55.7 mm, Height: 116.5 mm, Thickness: 13.9 mm",
+      "Weight": "99 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Asha Series 40 OS",
+      "CPU": "1 GHz ARM11"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM, 256 MB ROM",
+      "Storage": "170 MB internal NAND memory (100 MB available to end user)",
+      "Card slot": "up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "transmissive LCD 320 x 240 px (QVGA), 2.4\" (66 mm), 18 bits"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP (CMOS sensor) EDoF",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "BL-5J 1430 mAh Li-Ion battery (removable), micro USB and 2 mm DC plug charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g/n (2.4 GHz), bluetooth 2.1 +EDR, micro USB 2.0, USB On-the-Go 1.3, 3.5 mm AV connector (audio in/out), SIM card, FM receiver with RDS"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "LCD",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1430,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99,
+    "thickness_mm": 13.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 302",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_302"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 302\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 302",
+    "revid": 1380519874
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

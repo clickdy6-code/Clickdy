@@ -1,0 +1,89 @@
+{
+  "slug": "oppo-reno15",
+  "brand": "Oppo",
+  "name": "Reno15",
+  "status": "published",
+  "announced": "2026-01-02",
+  "released": "2026-01-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Oppo_Reno15_Aurora_White.jpg/500px-Oppo_Reno15_Aurora_White.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Oppo_Reno15_Aurora_White.jpg/250px-Oppo_Reno15_Aurora_White.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo Reno15",
+      "credit": "Leongyy02, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oppo_Reno15_Aurora_White.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2 January 2026",
+      "Series": "OPPO Reno",
+      "Predecessor": "OPPO Reno14",
+      "Successor": "OPPO Reno16"
+    },
+    "Network": {
+      "SIM": "Nano-SIM card, Nano-USIM card, eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "160.2 × 74.3 × 7.6 mm",
+      "Weight": "Reno15 Pro Max: 205g, Reno15 Pro: 188g, Reno15 5G: 197g, Reno15 F / FS: 195g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 16 (based on Android 16)",
+      "Chipset": "Qualcomm Snapdragon 7 Gen 4",
+      "CPU": "Octa-core",
+      "GPU": "Adreno GPU"
+    },
+    "Memory": {
+      "Storage": "128 GB / 256 GB / 512 GB (UFS)"
+    },
+    "Display": {
+      "Display": "6.59 in AMOLED, Full HD+, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP (wide), OIS, 8 MP (ultra-wide), 116°, 50 MP (telephoto), 3.5× optical zoom, OIS",
+      "Front camera": "50 MP, autofocus, 100° (ultra-wide)"
+    },
+    "Battery": {
+      "Battery": "Reno15 Pro Max: 6500mAh/25.48Wh, Reno15 Pro 5G: 6200mAh/24.31Wh, Reno15 5G: 6500mAh/25.48Wh, Reno15 F/FS 5G: 7000mAh/27.44Wh and 6500mAh/25.48Wh",
+      "Charging": "80W SuperVOOC"
+    }
+  },
+  "key": {
+    "display_in": 6.59,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 7 Gen 4",
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 50,
+    "battery_mah": 6500,
+    "wired_w": 80,
+    "os": "Android 16",
+    "weight_g": 205,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Reno15",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Reno15"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Reno15\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Reno15",
+    "revid": 1369206135
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

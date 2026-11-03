@@ -1,0 +1,81 @@
+{
+  "slug": "nokia-n86-8mp",
+  "brand": "Nokia",
+  "name": "N86 8MP",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Nokia_N86_8MP.png/500px-Nokia_N86_8MP.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Nokia_N86_8MP.png/250px-Nokia_N86_8MP.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N86 8MP",
+      "credit": "AnVuong1222004 (2), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N86_8MP.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia N82, Nokia N85, Nokia N95, Nokia N96",
+      "Successor": "Nokia 808 PureView, Nokia N97 Mini, Nokia N8, Nokia C7"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G) 900 / 1900 / 2100 (European) 850 / 1900 / 2100 (North American), quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Two-way slider",
+      "Dimensions": "103.4 mm × 51.4 mm × 16.5 mm",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.3, S60 rel. 3.2 (v30.009)",
+      "CPU": "ARM 11 434 MHz processor"
+    },
+    "Memory": {
+      "RAM": "77 MB internal memory; 8 GB mass memory",
+      "Card slot": "MicroSD, up to 16 GB supported with microSDHC support"
+    },
+    "Display": {
+      "Display": "240 × 320 px, 2.6 in, Active Matrix OLED technology"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels (main) with 28 mm wide camera lens, 480p video recorder",
+      "Front camera": "VGA videocall (front)"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1200 mAh 3.7V (BL-5K)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 via MicroUSB, Bluetooth 2.0, Wi-Fi 802.11 b/g, FM transmitter, Tv-out"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "OLED",
+    "ram_gb": [
+      8
+    ],
+    "battery_mah": 1200,
+    "os": "Symbian OS 9.3",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 149,
+    "thickness_mm": 16.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N86 8MP",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N86_8MP"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N86 8MP\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N86 8MP",
+    "revid": 1379488687
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

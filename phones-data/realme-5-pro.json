@@ -1,0 +1,84 @@
+{
+  "slug": "realme-5-pro",
+  "brand": "Realme",
+  "name": "5 Pro",
+  "status": "published",
+  "announced": "2019-08-20",
+  "released": "2019-08-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-08-20",
+      "Predecessor": "Realme 3 Pro",
+      "Successor": "Realme 6 Pro, Realme Q2"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 157 mm, W: 74.2 mm, D: 8.9 mm",
+      "Weight": "184 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 6.0 (based on Android Pie)",
+      "Chipset": "Qualcomm Snapdragon 712 AIE",
+      "CPU": "Octa-core (2x2.3 GHz Kryo 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+      "GPU": "Adreno 616"
+    },
+    "Memory": {
+      "Storage": "4GB + 64GB or 6GB + 64GB or 4GB + 128 GB or 8GB + 128GB",
+      "Card slot": "Up to 256 GB external storage"
+    },
+    "Display": {
+      "Display": "6.3 in (1080 ×2340 pixels) LCD multi-Touch display"
+    },
+    "Cameras": {
+      "Rear camera": "AI Quad-Camera of 48MP main camera (f/1.79, 6P lens, Super Nightscape, 48MP mode, AI scene recognition) + 8MP wide-angle camera, 2MP portrait camera, 2MP macro camera",
+      "Front camera": "16MP front camera"
+    },
+    "Sound": {
+      "Sound": "3.5mm jack loudspeaker"
+    },
+    "Battery": {
+      "Battery": "4,035 mAh Li-Ion"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon 712 AIE",
+    "storage_gb": [
+      4,
+      6,
+      8,
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 4035,
+    "five_g": false,
+    "weight_g": 184,
+    "thickness_mm": 8.9,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme 5 Pro",
+      "url": "https://en.wikipedia.org/wiki/Realme_5_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme 5 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme 5 Pro",
+    "revid": 1361479535
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

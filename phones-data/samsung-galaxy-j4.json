@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-galaxy-j4",
+  "brand": "Samsung",
+  "name": "Galaxy J4+",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Samsung_Galaxy_J4%2B.jpg/500px-Samsung_Galaxy_J4%2B.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Samsung_Galaxy_J4%2B.jpg/250px-Samsung_Galaxy_J4%2B.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy J4+",
+      "credit": "Ahmadkurdi44, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_J4%2B.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10",
+      "Discontinued": "2019",
+      "Series": "Galaxy J series"
+    },
+    "Network": {
+      "Technology": "2G GSM 850, 900, 1800, 1900 , 3G HSDPA 850, 900, 1700, 1900, 2100 , 4G LTE Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 20, 28, 38, 40, 41, 66"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.4 mm H , 76.9 mm W , 7.9 mm D",
+      "Weight": "178 g",
+      "Other": "FM radio"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\" with Samsung Experience , Current: Android 9 with One UI 1.0",
+      "Chipset": "Qualcomm Snapdragon 425",
+      "CPU": "Quad-core (4×1.4 GHz) ARM Cortex-A53",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "RAM": "2 or 3 GB",
+      "Storage": "16 or 32 GB",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.0\", 720×1480 px (274 ppi) TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/1.9",
+      "Front camera": "5 MP, f/.2.2"
+    },
+    "Battery": {
+      "Battery": "3300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g/n, Bluetooth 4.2, GPS/GLONASS, NFC, microUSB 2.0, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 425",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3300,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 178,
+    "thickness_mm": 7.9,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J4+",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J4%2B"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J4+\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J4+",
+    "revid": 1380479993
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

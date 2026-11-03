@@ -1,0 +1,98 @@
+{
+  "slug": "oneplus-5",
+  "brand": "OnePlus",
+  "name": "5",
+  "status": "published",
+  "announced": "2017-06-20",
+  "released": "2017-06-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Oneplus_5_on_display_at_London_launch_event_-_5.jpg/500px-Oneplus_5_on_display_at_London_launch_event_-_5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Oneplus_5_on_display_at_London_launch_event_-_5.jpg/250px-Oneplus_5_on_display_at_London_launch_event_-_5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 5",
+      "credit": "Domdomegg, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oneplus_5_on_display_at_London_launch_event_-_5.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-06-20",
+      "Predecessor": "OnePlus 3T",
+      "Successor": "OnePlus 5T"
+    },
+    "Network": {
+      "Technology": "2G, 3G, and 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "154.2 mm H , 74.1 mm W , 7.25 mm D",
+      "Weight": "153 g",
+      "Other": "3.5mm headphone jack , Alert Slider"
+    },
+    "Platform": {
+      "Operating system": "Android Version: 9.0 (10.0 confirmed)",
+      "Chipset": "Qualcomm Snapdragon 835",
+      "CPU": "Octa-core (4×2.45 GHz + 4×1.9 GHz) Kryo",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB LPDDR4X RAM",
+      "Storage": "64 or 128 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "5.5\" 1080p Optic AMOLED / DCI-P3 (401 ppi) with 2.5D Corning Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP Sony Exmor IMX398 (f/1.7, EIS) + 20 MP Sony Exmor IMX350 Telephoto (f/2.6)",
+      "Front camera": "16 MP Sony Exmor IMX371 (f/2.0, EIS, HDR)"
+    },
+    "Sound": {
+      "Sound": "Bottom-facing speaker, 3-microphone with noise cancellation, Support AANC, Dirac HD Sound, Dirac Power Sound"
+    },
+    "Battery": {
+      "Battery": "3,300 mAh Li-Ion with Dash Charge technology"
+    },
+    "Connectivity": {
+      "Connectivity": "3G, 4G VoLTE, Bluetooth 5.0, NFC, WiFi 802.11a/b/g/n/ac, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 835",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 16,
+    "battery_mah": 3300,
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 153,
+    "thickness_mm": 7.25,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 5",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 5",
+    "revid": 1382784655
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

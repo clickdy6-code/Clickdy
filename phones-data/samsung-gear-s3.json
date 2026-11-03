@@ -1,0 +1,62 @@
+{
+  "slug": "samsung-gear-s3",
+  "brand": "Samsung",
+  "name": "Gear S3",
+  "status": "published",
+  "announced": "2016-11-18",
+  "released": "2016-11-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Samsung_Gear_S3.jpg/500px-Samsung_Gear_S3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Samsung_Gear_S3.jpg/250px-Samsung_Gear_S3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Gear S3",
+      "credit": "Kałasznikow, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Gear_S3.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-11-18",
+      "Series": "Samsung Gear",
+      "Predecessor": "Samsung Gear S2",
+      "Successor": "Samsung Galaxy Watch"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G"
+    },
+    "Body": {
+      "Form factor": "Smartwatch"
+    },
+    "Platform": {
+      "Operating system": "Original: Tizen 2.3.2, Current: Tizen 4.0.0.7 with One UI Watch 1.0"
+    },
+    "Display": {
+      "Display": "1.3\" Super AMOLED, 360 x 360 pixels"
+    },
+    "Battery": {
+      "Battery": "380 mAh, Qi inductive coil wireless charging"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "battery_mah": 380,
+    "five_g": false,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Gear S3",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Gear_S3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Gear S3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Gear S3",
+    "revid": 1346457231
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

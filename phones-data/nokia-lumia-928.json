@@ -1,0 +1,93 @@
+{
+  "slug": "nokia-lumia-928",
+  "brand": "Nokia",
+  "name": "Lumia 928",
+  "status": "published",
+  "announced": "2013-05-16",
+  "released": "2013-05-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Nokia_Lumia_928_Windows_Phone.jpg/500px-Nokia_Lumia_928_Windows_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Nokia_Lumia_928_Windows_Phone.jpg/250px-Nokia_Lumia_928_Windows_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Lumia 928",
+      "credit": "B137, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_928_Windows_Phone.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Thursday, May 16, 2013",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 920",
+      "Successor": "Nokia Lumia 930"
+    },
+    "Network": {
+      "Technology": "2.5G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 2.5G CDMA 1xRTT/1x-Advanced - 800, 1900 MHz, 3G UMTS/DC-HSPA+ – 850, 900, 1900, 2100 MHz, 3G CDMA Ev-DO Rev. A - 800, 1900 MHz, 4G LTE Rel. 8 (UE Cat 3) – 700, 800, 900, 1800, 2100, 2600 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "133 mm H, 68.9 mm W, 10.1 mm D",
+      "Weight": "162 g",
+      "Other": "Talk time: Up to 13 hours , Standby time: Up to 606 hours (approx. 25.2 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8",
+      "CPU": "1.5 GHz dual-core Qualcomm MSM8960+WTR",
+      "GPU": "Qualcomm Adreno 225"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "32 GB internal flash and 7 GB free in SkyDrive"
+    },
+    "Display": {
+      "Display": "4.5 in WXGA HD AMOLED, 1280 x 768 pixels at 334 ppi, 15:9 aspect ratio, Color depth 24 bit, 16M colors, 60 Hz refresh rate, ClearBlack display, Sunlight Readability Enhancement (SRE), High Brightness Mode (HBM), Super-sensitive capacitive touch enables interacting with the display with gloves and long fingernails, 2.5D Corning Gorilla Glass 2"
+    },
+    "Cameras": {
+      "Rear camera": "8.7 MP PureView with Carl Zeiss Tessar lens and Xenon flash, Wide angle, f/2.0, 26 mm True 16:9 optics, 1.4 μm sensor, optical image stabilization (OIS), 1080p video capture @ 30 fps with LED for video",
+      "Front camera": "1.2 MP wide angle, f/2.4, 720p video capture @ 30fps"
+    },
+    "Battery": {
+      "Battery": "Integrated 2000 mAh Li-poly battery with Qi wireless charging"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "AMOLED",
+    "refresh_hz": 60,
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      7,
+      32
+    ],
+    "main_mp": 8.7,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.2,
+    "battery_mah": 2000,
+    "os": "Windows Phone 8",
+    "five_g": true,
+    "weight_g": 162,
+    "thickness_mm": 10.1,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 928",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_928"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 928\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 928",
+    "revid": 1379799951
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

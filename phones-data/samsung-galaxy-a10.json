@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-a10",
+  "brand": "Samsung",
+  "name": "Galaxy A10",
+  "status": "published",
+  "announced": "2019-02-28",
+  "released": "2019-02-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/GalaxyA10.png/500px-GalaxyA10.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/GalaxyA10.png/250px-GalaxyA10.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A10",
+      "credit": "Marcusph, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GalaxyA10.png",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A10: 2019-02-28, A10e: 2019-06-13, A10s: 2019-08-12",
+      "Series": "A Series",
+      "Predecessor": "Samsung Galaxy J3 (2018), Samsung Galaxy J4",
+      "Successor": "Samsung Galaxy A11"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "A10: 155.6 mm H, 75.6 mm W, 7.9 mm D, A10e: 147.3 mm H, 69.6 mm W, 8.4 mm D, A10s: 156.9 mm H, 75.8 mm W, 7.8 mm D",
+      "Weight": "A10: 168 g, A10e: 141 g, A10s: 168 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9.0 \"Pie\" with One UI 1.1 , Current: Android 11 with One UI 3.1",
+      "Chipset": "A10 and A10e: Samsung Exynos 7 Octa 7884, A10s: Mediatek Helio P22",
+      "CPU": "A10 and A10e: Octa-core (2x1.6 GHz Cortex-A73 & 6x1.35 GHz Cortex-A53), A10s: Octa-core (2.0 GHz Cortex-A53)",
+      "GPU": "A10 and A10e: Mali-G71 MP2, A10s: PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "2/3 (A10e/s)/4 (A10) GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "MicroSD, up to 512 GB"
+    },
+    "Display": {
+      "Display": "A10 and A10s: 6.2\" HD+ PLS TFT, A10e: 5.83\" HD+ PLS TFT"
+    },
+    "Cameras": {
+      "Rear camera": "A10 and A10s: 13 MP, f/1.9 (f/1.8 for A10s), 28mm (wide), AF, A10e: 8 MP or 5 MP, f/1.9 AF, Features: LED flash, panorama, HDR, Video recording resolutions: 1080p@30fps",
+      "Front camera": "A10: 5 MP, f/2.0, A10e: 5 MP or 2 MP, f/2.0, A10s: 8 MP, f/2.0"
+    },
+    "Battery": {
+      "Battery": "A10: 3400 mAh Li-Polymer Battery, A10e: 3000 mAh Li-Polymer Battery, A10s: 4000 mAh Li-Polymer Battery"
+    }
+  },
+  "key": {
+    "display_in": 6.2,
+    "display_type": "TFT",
+    "chipset": "A10",
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3400,
+    "os": "Android 9.0",
+    "weight_g": 168,
+    "thickness_mm": 7.9,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A10",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A10",
+    "revid": 1383538100
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

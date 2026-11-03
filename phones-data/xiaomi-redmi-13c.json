@@ -1,0 +1,96 @@
+{
+  "slug": "xiaomi-redmi-13c",
+  "brand": "Xiaomi",
+  "name": "Redmi 13C",
+  "status": "published",
+  "announced": "2023-11-09",
+  "released": "2023-11-09",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "13C: 2023-11-09, 13C 5G: 2023-12-06",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 12C",
+      "Successor": "Redmi 14C"
+    },
+    "Network": {
+      "Technology": "13C: GSM, 3G, 4G (LTE), 13C 5G: GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 168 mm, W: 78 mm, D: 8.09 mm",
+      "Weight": "6.77 oz"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 13 with MIUI 14, Current: Android 15 with Xiaomi HyperOS 3",
+      "Chipset": "13C: MediaTek Helio G85 (12 nm), 13C 5G: MediaTek Dimensity 6100+ (6 nm)",
+      "CPU": "13C: Octa-core (2×2 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55), 13C 5G: Octa-core (2×2.2 GHz Cortex-A76 & 6×2 GHz Cortex-A55)",
+      "GPU": "13C: Mali-G52 MC2, 13C 5G: Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "4/6/8 GB LPDDR4X",
+      "Storage": "13C: 128/256 GB eMMC 5.1, 13C 5G: 128/256 GB UFS 2.2",
+      "Card slot": "microSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 90Hz, 6.74\", 1600 × 720 (HD+), 20:9, 260 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13C: 50 MP, 28mm (wide), PDAF + 2 MP, (macro) + VGA (auxiliary lens), 13C 5G: 50 MP, 28mm (wide), PDAF + VGA (auxiliary lens), LED flash, HDR, Video: 1080p@30fps",
+      "Front camera": "13C: 8 MP, 13C 5G: 5 MP, HDR, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "18W, Power Delivery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.3 (A2DP, LE), FM radio, Wi-Fi 802.11 a/b/g/n/ac (dual-band), GPS, GLONASS, Galileo, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.74,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "13C: MediaTek Helio G85",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "thickness_mm": 8.09,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 13C",
+      "url": "https://en.wikipedia.org/wiki/Redmi_13C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 13C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 13C",
+    "revid": 1374696065
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

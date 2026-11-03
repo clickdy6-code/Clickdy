@@ -1,0 +1,83 @@
+{
+  "slug": "samsung-galaxy-s4",
+  "brand": "Samsung",
+  "name": "Galaxy S4",
+  "status": "published",
+  "announced": "2013-04-27",
+  "released": "2013-04-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-04-27",
+      "Discontinued": "(successor), (support)",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S III",
+      "Successor": "Samsung Galaxy S5"
+    },
+    "Network": {
+      "SIM": "1x or 2x miniSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "136.6 mm H, 69.8 mm W, 7.9 mm D",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2.2 \"Jelly Bean\" with TouchWiz Nature UX 2.0, Current: Android 5.0.1 \"Lollipop\" with TouchWiz Nature UX 4.0, Unofficial: up to Android 14 \"Upside Down Cake\" via LineageOS 21 (I9506)",
+      "Chipset": "Exynos 5 Octa 5410 (3G & South Korea LTE Versions), Qualcomm Snapdragon 600 (LTE & China Mobile TD-SCDMA versions)",
+      "CPU": "1.6 GHz quad-core Cortex-A15 and 1.2 GHz quad-core Cortex-A7 (big.LITTLE) (3G & South Korea LTE Versions), 1.9 GHz quad-core Krait 300 (LTE & China Mobile TD-SCDMA versions)",
+      "GPU": "IT tri-core PowerVR SGX 544 GPU (3G & South Korea LTE Versions), Adreno 320 (LTE & China Mobile TD-SCDMA versions)"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3 RAM",
+      "Storage": "16/32/64 GB eMMC 4.5",
+      "Card slot": "Up to 256 GB; microSD"
+    },
+    "Display": {
+      "Display": "5 in 1920x1080 px (441 ppi) Super AMOLED, (Diamond PenTile), Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "13 megapixels Sony IMX135 (Exmor RS)",
+      "Front camera": "2 megapixels (1080p) HD Video Recording @ 30 frames/s Back-illuminated sensor"
+    },
+    "Sound": {
+      "Sound": "Mono speaker on back side with Qualcomm DAC or Wolfson Microelectronics WM5102 audio chip depending on version"
+    },
+    "Battery": {
+      "Battery": "2600 mAh Li-ion, User replaceable, Qi wireless charging (optionally retrofittable)",
+      "Charging": "USB Battery Charging 1.2 (USB-BC) up to 10 W (5 V/2 A), Qi wireless charging requires special back cover"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos 5 Octa 5410",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 2600,
+    "wired_w": 10,
+    "os": "Android 4.2",
+    "weight_g": 130,
+    "thickness_mm": 7.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S4",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S4",
+    "revid": 1382795281
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "sharp-sh-07a",
+  "brand": "Sharp",
+  "name": "SH-07A",
+  "status": "published",
+  "announced": "2009-06-24",
+  "released": "2009-06-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-06-24",
+      "Series": "docomo PRO series"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA) (800 MHz, 850 MHz, 2 GHz), 2G: GSM (850 MHz, 900 MHz, 1800 MHz, 1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Clamshell (Cycloid style)",
+      "Dimensions": "112 mm H , 50 mm W , 15.8 mm D (Thinnest section) / 23 mm D (Thickest section)",
+      "Weight": "143 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS + MOAP(S)",
+      "CPU": "SH-Mobile G3"
+    },
+    "Memory": {
+      "Storage": "2 GB",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "Main: 3.3 in (84 mm) New Mobile ASV, 480×854 Wide VGA+, 16,777,216 colors, Sub: 1.0 in (25 mm) OLED, 39×96 pixels, 65,536 colors"
+    },
+    "Cameras": {
+      "Rear camera": "10.0 megapixel CCD, autofocus, image stabilization (still & video), face detection, LED flash",
+      "Front camera": "0.43 megapixel CMOS"
+    }
+  },
+  "key": {
+    "display_in": 3.3,
+    "display_type": "OLED",
+    "os": "Symbian OS + MOAP(S)",
+    "five_g": false,
+    "weight_g": 143,
+    "thickness_mm": 15.8,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: SH-07A",
+      "url": "https://en.wikipedia.org/wiki/SH-07A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"SH-07A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "SH-07A",
+    "revid": 1368339903
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

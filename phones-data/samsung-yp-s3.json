@@ -1,0 +1,76 @@
+{
+  "slug": "samsung-yp-s3",
+  "brand": "Samsung",
+  "name": "YP-S3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Samsung_YP-S3_Titelliste_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Samsung_YP-S3_Titelliste_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung YP-S3",
+      "credit": "Saviour1981, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_YP-S3_Titelliste_2.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008",
+      "Series": "YEPP",
+      "Predecessor": "YP-K3",
+      "Successor": "YP-S5"
+    },
+    "Body": {
+      "Form factor": "Portable media player",
+      "Dimensions": "3.74 in H , 1.73 in W , 0.39 in D",
+      "Weight": "1.76 oz"
+    },
+    "Platform": {
+      "Operating system": "Proprietary OS, latest firmware 1.12",
+      "Chipset": "Samsung S5L8700 SoC"
+    },
+    "Memory": {
+      "Storage": "2 GB, 4 GB, 8 GB"
+    },
+    "Display": {
+      "Display": "1.8\" color TFT LCD 176x220"
+    },
+    "Sound": {
+      "Sound": "Wolfson WM1800G"
+    },
+    "Battery": {
+      "Battery": "580 mAh lithium polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 (proprietary cable)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "Samsung S5L8700 SoC",
+    "storage_gb": [
+      4,
+      8
+    ],
+    "battery_mah": 580,
+    "nfc": false,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung YP-S3",
+      "url": "https://en.wikipedia.org/wiki/Samsung_YP-S3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung YP-S3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung YP-S3",
+    "revid": 1383505081
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

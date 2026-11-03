@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-galaxy-pocket-2",
+  "brand": "Samsung",
+  "name": "Galaxy Pocket 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2014",
+      "Series": "Pocket-series",
+      "Predecessor": "Samsung Galaxy Pocket Neo"
+    },
+    "Network": {
+      "Technology": "2G, 3G"
+    },
+    "Body": {
+      "Dimensions": "109.9 mm H, 60.8 mm W, 11.7 mm D",
+      "Weight": "109 g (3.77 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 KitKat",
+      "CPU": "1 GHz Cortex-A7"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "MicroSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.3 in 240 x 320 pixel"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB 2.0, Bluetooth 4.0, Wi-Fi b/g/n, Wi-Fi Direct, GPS location"
+    }
+  },
+  "key": {
+    "display_in": 3.3,
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 109,
+    "thickness_mm": 11.7,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Pocket 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Pocket_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Pocket 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Pocket 2",
+    "revid": 1361482713
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

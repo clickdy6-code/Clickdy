@@ -1,0 +1,78 @@
+{
+  "slug": "samsung-galaxy-star-2-plus",
+  "brand": "Samsung",
+  "name": "Galaxy Star 2 Plus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-08",
+      "Series": "Samsung Galaxy",
+      "Predecessor": "Samsung Galaxy Star"
+    },
+    "Network": {
+      "Technology": "GSM GPRS/EDGE GSM850, GSM900, DCS1800, PCS1900"
+    },
+    "Body": {
+      "Form factor": "Touchscreen Smartphone",
+      "Dimensions": "129.7 mm H, 65.9 mm W, 9.4 mm D",
+      "Weight": "129 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 KitKat, (can be upgraded to unofficial Cyanogenmod 12.1 (Android 5.1.1 Lollipop)",
+      "CPU": "Single-core ARM Cortex-A7 at 1.2 GHz"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD support for up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.3 inch 480 x 800 px WVGA LCD at 217 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "3.15MP, 2048 x 1536 pixels"
+    },
+    "Battery": {
+      "Battery": "Li-ion1800 mAh(internal) Standard battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 4.0 with A2DP, A-GPS, Micro USB 2.0, 3.5 mm TRRS audio jack, FM radio with RDS support"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1800,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 129,
+    "thickness_mm": 9.4,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Star 2 Plus",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Star_2_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Star 2 Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Star 2 Plus",
+    "revid": 1361482970
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

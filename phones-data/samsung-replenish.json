@@ -1,0 +1,71 @@
+{
+  "slug": "samsung-replenish",
+  "brand": "Samsung",
+  "name": "Replenish",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-01"
+    },
+    "Network": {
+      "Technology": "CDMA/DBTM 1900 MHz - SAR Values: Head 0.54 W/kg, Body worn 1.09 W/kg"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "4.84 in H, 2.36 in W, 0.45 in D",
+      "Weight": "4.1 oz",
+      "Other": "Wi-Fi hotspot, USB tethering"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3 - 2.3.6 Gingerbread",
+      "CPU": "600 MHz Qualcomm MSM76272"
+    },
+    "Memory": {
+      "RAM": "512 MB or 160 MB RAM / 512 MB ROM",
+      "Card slot": "32 GB microSD"
+    },
+    "Display": {
+      "Display": "TFT LCD, 2.8 in diagonal, 240 x 320 px QVGA, Touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP, 4x digital zoom, Shot Modes: Multi, Geo-tagging, Editing Modes, Camcorder, Online Image Uploading"
+    },
+    "Battery": {
+      "Battery": "1600 mAh, 3.7 V, Internal Rechargeable Lithium Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth® Profiles: A2DP, AVRCP, GAVDP, GOEP, HFP 1.5, HSP, OPP, PBAP, SDAP/SDP; Wi-Fi HotSpot; HTML Browser; Flash®; Java™; GPS; 3G Cellular"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1600,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Replenish",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Replenish"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Replenish\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Replenish",
+    "revid": 1361483350
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

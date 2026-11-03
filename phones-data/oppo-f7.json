@@ -1,0 +1,95 @@
+{
+  "slug": "oppo-f7",
+  "brand": "OPPO",
+  "name": "F7",
+  "status": "published",
+  "announced": "2018-03-26",
+  "released": "2018-03-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "F7: 2018-03-26, F7 Youth: 2018-05-23",
+      "Series": "Oppo F Series",
+      "Predecessor": "Oppo F5/F5 Youth",
+      "Successor": "Oppo F9"
+    },
+    "Network": {
+      "SIM": "Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "F7:, 156.0 mm H, 75.3 mm W, 7.8 mm D, F7 Youth:, 156.5 mm H, 75.2 mm W, 7.8 mm D",
+      "Weight": "F7:, 158 g, F7 Youth:, 155 g"
+    },
+    "Platform": {
+      "Operating system": "F7:, Original: Android 8.1 with ColorOS 5, Current: Android 10 with ColorOS 7.1, F7 Youth:, Original: Android 8.1 with ColorOS 5",
+      "Chipset": "MediaTek MT6771 Helio P60 (12 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "RAM": "F7:, 4, 6 GB, F7 Youth:, 4 GB",
+      "Storage": "F7:, 64, 128 GB, F7 Youth:, 64 GB",
+      "Card slot": "microSDXC, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "F7: 6.23 in, 1080 x 2280 px resolution, 19:9 ratio (~405 ppi density), IPS LCD, 60Hz, Corning Gorilla Glass 5, F7 Youth: 6.00 in, 1080 x 2160 px resolution, 18:9 ratio (~402 ppi density), IPS LCD, 60Hz"
+    },
+    "Cameras": {
+      "Rear camera": "F7:, Samsung ISOCELL S5K3P8; 16 MP, f/1.8, 27mm (wide), 1/3.1\", 1.0µm, PDAF, F7 Youth:, OmniVision PureCel®Plus OV13855; 13 MP, f/2.2, 28mm (wide), 1/3.06\", 1.12µm, PDAF, All: LED flash, HDR, panorama, 1080p@30fps",
+      "Front camera": "F7:, Sony IMX 576; 25 MP, f/2.0, 26mm (wide), 1/2.78\", 0.9µm, FF, F7 Youth:, Samsung ISOCELL (S5K)4H7; 8 MP, f/2.2, 27mm (wide), 1/4.0\", 1.12µm, FF, All: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm auxiliary (headphone jack)"
+    },
+    "Battery": {
+      "Battery": "F7:, 3400 mAh, F7 Youth:, 3410 mAh",
+      "Charging": "10W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n (2,4 GHz)"
+    }
+  },
+  "key": {
+    "display_in": 6.23,
+    "display_type": "IPS LCD",
+    "refresh_hz": 60,
+    "chipset": "MediaTek MT6771 Helio P60",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 25,
+    "battery_mah": 3400,
+    "wired_w": 10,
+    "os": "Android 8.1",
+    "nfc": false,
+    "weight_g": 158,
+    "thickness_mm": 7.8,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo F7",
+      "url": "https://en.wikipedia.org/wiki/Oppo_F7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo F7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo F7",
+    "revid": 1361479070
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

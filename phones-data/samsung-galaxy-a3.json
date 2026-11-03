@@ -1,0 +1,95 @@
+{
+  "slug": "samsung-galaxy-a3",
+  "brand": "Samsung",
+  "name": "Galaxy A3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Samsung_Galaxy_A3_%282016%29.jpg/500px-Samsung_Galaxy_A3_%282016%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Samsung_Galaxy_A3_%282016%29.jpg/250px-Samsung_Galaxy_A3_%282016%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A3",
+      "credit": "UIPro, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A3_(2016).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016",
+      "Series": "Galaxy A series",
+      "Predecessor": "Samsung Galaxy A3 (2015)",
+      "Successor": "Samsung Galaxy A3 (2017)"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "134.5 × 65.2 × 7.3 mm",
+      "Weight": "132 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\" , Current: Android 7.0 \"Nougat\" with Samsung Experience Unofficial: Android 13 \"Tiramisu\" via LineageOS 20.0",
+      "Chipset": "Exynos 7578",
+      "CPU": "Exynos 7578: Quad core 1.5GHz Cortex-A53",
+      "GPU": "Mali-T720MP2"
+    },
+    "Memory": {
+      "RAM": "1.5 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "up to 128 GB"
+    },
+    "Display": {
+      "Display": "4.7 in Super AMOLED HD display with Corning Gorilla Glass 4, 720×1280 px, 312 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "2300 mAh (non-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11 b/g/n, Wi-Fi hotspot;, Bluetooth v4.1, A2DP;, USB 2.0 via microUSB"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos 7578",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2300,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 132,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A3 (2016)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A3_%282016%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A3 (2016)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A3 (2016)",
+    "revid": 1380481432
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

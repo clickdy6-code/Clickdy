@@ -1,0 +1,64 @@
+{
+  "slug": "nokia-nseries",
+  "brand": "Nokia",
+  "name": "Nseries",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nokia_Nseries_logo.svg/500px-Nokia_Nseries_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nokia_Nseries_logo.svg/250px-Nokia_Nseries_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Nseries",
+      "credit": "Original: Nokia Corporation Vector:  Perhelion, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Nseries_logo.svg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nseries"
+    },
+    "Network": {
+      "Technology": "GSM, EDGE, UMTS, HSPA"
+    },
+    "Platform": {
+      "Operating system": "Symbian, Maemo, MeeGo/Harmattan"
+    },
+    "Memory": {
+      "Card slot": "MicroSD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0–12.0 MP",
+      "Front camera": "0.3 MP / VGA / Common Intermediate Format-5 MP"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN"
+    }
+  },
+  "key": {
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.3,
+    "os": "Symbian",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Nseries",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Nseries"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Nseries\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Nseries",
+    "revid": 1374924380
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

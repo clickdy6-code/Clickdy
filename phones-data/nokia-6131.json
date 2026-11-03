@@ -1,0 +1,72 @@
+{
+  "slug": "nokia-6131",
+  "brand": "Nokia",
+  "name": "6131",
+  "status": "published",
+  "announced": "2006-01-29",
+  "released": "2006-01-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Nokia_6131_-_front.JPG/500px-Nokia_6131_-_front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Nokia_6131_-_front.JPG/250px-Nokia_6131_-_front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6131",
+      "credit": "Lenilucho, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6131_-_front.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "29 January 2006",
+      "Discontinued": "Q3 2008",
+      "Predecessor": "Nokia 6103",
+      "Successor": "Nokia 6290"
+    },
+    "Network": {
+      "Technology": "GSM 900 1800 1900 , GSM 850 1800 1900 (US) , GPRS Class 10 (4+1/3+2 slots), 32-48 kbit/s , EDGE Class 10, 177.6 kbit/s"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Other": "Push to Talk , FM Radio , Java MIDP 2.0 , SyncML , T9 Predictive Text Input , Presence Enhanced Contacts , Calendar , Voice dial-memo , Spring-load mechanism"
+    },
+    "Memory": {
+      "Storage": "11 MB, 4 MB user-free",
+      "Card slot": "MicroSD, expandable up to 2 GB"
+    },
+    "Display": {
+      "Display": "2.2 in TFT , 240x320 px , 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 Megapixels"
+    },
+    "Battery": {
+      "Battery": "BL-4C 860 mAh , Internal rechargeable li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Infrared , USB pop-port (CA-42) , Bluetooth , NFC (6131 NFC only)"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": true,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6131",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6131"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6131\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6131",
+    "revid": 1361477536
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

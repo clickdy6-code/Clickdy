@@ -1,0 +1,84 @@
+{
+  "slug": "nokia-603",
+  "brand": "Nokia",
+  "name": "603",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Nokia_603.jpg/500px-Nokia_603.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Nokia_603.jpg/250px-Nokia_603.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 603",
+      "credit": "wavelife, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_603.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 2011",
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia C5-03",
+      "Successor": "Nokia Lumia 610"
+    },
+    "Network": {
+      "Technology": "Quad band GSM 850/900/1800/1900, GPRS, EDGE , Pentaband UMTS (W-CDMA) 850/900/1700/1900/2100 , HSDPA 14.4 Mbps , HSUPA 5.76 Mbps"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "113.5 mm H , 57.1 mm W , 12.7 mm D",
+      "Weight": "109.6 g",
+      "Other": "MicroSIM, Free lifetime voice-guided car and pedestrian navigation (Nokia Maps), Read PDF, Word, Excel, and PowerPoint documents with Quickoffice, Image Capture: Face Detection, Geo-tagging, OpenVG1.1 and OpenGL ES 2.0, Qt 4.7.4, Java, Python"
+    },
+    "Platform": {
+      "Operating system": "Nokia Belle, upgradeable to Nokia Belle Feature Pack 2",
+      "CPU": "ARM11 1 GHz Samsung K5W2G1GACT – AP50 processor",
+      "GPU": "Broadcom BCM2763 at 250 MHz with 128 MB RAM"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "2 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "640 × 360 px (nHD), 3.5-inch capacitive, multi-touch IPS-LCD with the Nokia ClearBlack technology and Corning Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels (2592 × 1944 pixels), fixed-focus, 16:9 720p video, 30 FPS"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack TRRS connector, Voice command/dial, Active Noise Cancellation, FM radio, Stereo, RDS, Dolby Headphone experience after update to Belle FP1"
+    },
+    "Battery": {
+      "Battery": "1300 mAh Li-ion, removable (Nokia BP-3L)"
+    },
+    "Connectivity": {
+      "Connectivity": "Sensors:, Accelerometer, Magnetometer, Electronic compass, Proximity sensor, Other:, Bluetooth 3.0, Wi-Fi 802.11 b/g/n, NFC, USB 2.0 via MicroUSB, USB On-The-Go, UPnP/DLNA Server with Nokia Play, ActiveSync"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "battery_mah": 1300,
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 109.6,
+    "thickness_mm": 12.7,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 603",
+      "url": "https://en.wikipedia.org/wiki/Nokia_603"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 603\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 603",
+    "revid": 1361477476
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

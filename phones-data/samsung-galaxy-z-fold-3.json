@@ -1,0 +1,93 @@
+{
+  "slug": "samsung-galaxy-z-fold-3",
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold 3",
+  "status": "published",
+  "announced": "2021-08-27",
+  "released": "2021-08-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-08-27",
+      "Series": "Galaxy Z",
+      "Predecessor": "Samsung Galaxy Note 20 (indirect), Samsung Galaxy Z Fold 2",
+      "Successor": "Samsung Galaxy Z Fold 4"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G",
+      "SIM": "nanoSIM, eSIM (USA Variants Are Single SIM Only, Without eSIM)"
+    },
+    "Body": {
+      "Form factor": "Foldable slate",
+      "Dimensions": "Unfolded: 158.2 mm H, 128.1 mm W, 6.4 mm D, Folded: 158.2 mm H, 67.1 mm W, 14.4-16 mm D",
+      "Weight": "271 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11 with One UI 3.1.1, Current: Android 15 with One UI 7",
+      "Chipset": "Qualcomm Snapdragon 888",
+      "CPU": "Octa-core (1x 2.84 GHz, 3x 2.42 GHz and 4x 1.8 GHz) Kryo 680",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5",
+      "Storage": "256 GB or 512 GB UFS 3.1",
+      "Card slot": "Unsupported"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED 2X, 7.6 in (19.3 cm), ~5:4 aspect ratio, 374 ppi, HDR10+, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "12, f/1.8, 26mm, 1/1.76\", 1.8 μm (wide), 12, f/2.4, 52mm, 1/3.6\", 1.0 μm (telephoto), 12, f/2.2, 12mm, 1.12 μm (ultrawide), Dual Pixel PDAF, PDAF, OIS, gyro-EIS, HDR, 2x optical zoom, 4K@60 fps, 1080p@60/240 fps, 1080p@24/30/60120 fps (Pro Mode), 720p@960 fps, HDR10+",
+      "Front camera": "Under-display 4 MP, f/1.8, 1.0 μm, Cover: 10 MP, f/2.2, 26mm, 1/3\", 1.22 μm, Gyro-EIS, HDR, 4K@30 fps, 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4400 mAh",
+      "Charging": "25 W USB-C, 10 W Wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.2, A2DP, low-energy, aptX HD, Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band"
+    }
+  },
+  "key": {
+    "display_in": 7.6,
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 888",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "front_mp": 4,
+    "battery_mah": 4400,
+    "wireless_w": 10,
+    "wired_w": 25,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "esim": true,
+    "weight_g": 271,
+    "thickness_mm": 6.4,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Fold 3",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Fold 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Fold 3",
+    "revid": 1380548955
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

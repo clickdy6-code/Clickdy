@@ -1,0 +1,86 @@
+{
+  "slug": "oppo-realme-c3",
+  "brand": "Oppo",
+  "name": "Realme C3",
+  "status": "published",
+  "announced": "2020-02-06",
+  "released": "2020-02-06",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Realme_C3_Frozen_Blue.svg/500px-Realme_C3_Frozen_Blue.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Realme_C3_Frozen_Blue.svg/250px-Realme_C3_Frozen_Blue.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo Realme C3",
+      "credit": "Blakegripling ph, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Realme_C3_Frozen_Blue.svg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "C3 (India): 2020-02-06, C3 (Global): 2020-02-19, Narzo 10A: 2020-05-11, C3i: 2020-06-24",
+      "Series": "realme C series, realme Narzo (India only)",
+      "Predecessor": "Realme C2"
+    },
+    "Network": {
+      "SIM": "Nano SIM"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "C3 & C3i: 6.5 inches, (720 x 1560 pixels)",
+      "Weight": "C3 & C3i: 195 g (6.88 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 10 (Overlaid with Realme UI 1), Upgradable to Android 11",
+      "Chipset": "C3 & C3i: MediaTek Helio G70 (12 nm)",
+      "CPU": "C3 & C3i: Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)",
+      "GPU": "C3 & C3i: Mali-G52 2EEMC2"
+    },
+    "Memory": {
+      "RAM": "C3: 2/3/4 GB, C3i: 2 GB, Narzo 10A: 3/4 GB",
+      "Storage": "C3 & Narzo 10A: 32/64 GB, C3i: 32 GB",
+      "Card slot": "32 GB or more"
+    },
+    "Cameras": {
+      "Rear camera": "C3 & 3i: 12 MP, f/1.8, 28mm (wide), 1/2.8\", 1.25 μm, PDAF + 2 MP, f/2.4, (depth)",
+      "Front camera": "C3 & 3i: 5 MP, f/2.4, 27mm (wide), 1/5\", 1.12 μm"
+    },
+    "Battery": {
+      "Battery": "5000 mAh"
+    }
+  },
+  "key": {
+    "chipset": "C3 & C3i: MediaTek Helio G70",
+    "ram_gb": [
+      2,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "os": "Android 10",
+    "weight_g": 195,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C3",
+      "url": "https://en.wikipedia.org/wiki/Realme_C3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C3",
+    "revid": 1361479637
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

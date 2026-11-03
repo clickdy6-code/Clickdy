@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-6680",
+  "brand": "Nokia",
+  "name": "6680",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nokia_6680.png/500px-Nokia_6680.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nokia_6680.png/250px-Nokia_6680.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6680",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6680.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6630 (6680) , Nokia 6670 and 7610 (6681) , Nokia 6620 (6682)",
+      "Successor": "Nokia N70 (6680) , Nokia N72 (6681) , Nokia N75 (6682)"
+    },
+    "Network": {
+      "Technology": "3G, 2G, GPRS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108.4 x 55.2 x 20.5 mm; 104 cc",
+      "Weight": "133 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 8.0a (Series 60 2nd Edition, Feature Pack 2)",
+      "CPU": "220 MHz TI OMAP 1710"
+    },
+    "Memory": {
+      "RAM": "20 MB (Accessible: 8 MB) SDRAM",
+      "Storage": "32 MB (Accessible: 10 MB)",
+      "Card slot": "Dual Voltage RS-MMC, hot swappable"
+    },
+    "Display": {
+      "Display": "Active matrix, 262,144-colour display (176 x 208 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "1.3-megapixel (back)",
+      "Front camera": "0.3-megapixel (front)"
+    },
+    "Battery": {
+      "Battery": "BL-5C"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.2, USB 2.0 Full Speed via Pop-Port"
+    }
+  },
+  "key": {
+    "os": "Symbian OS 8.0a (Series 60 2nd Edition",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 133
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6680",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6680"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6680\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6680",
+    "revid": 1372145069
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

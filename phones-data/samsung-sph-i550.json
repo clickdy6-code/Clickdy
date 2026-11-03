@@ -1,0 +1,61 @@
+{
+  "slug": "samsung-sph-i550",
+  "brand": "Samsung",
+  "name": "SPH-i550",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "SPH-i500"
+    },
+    "Network": {
+      "Technology": "CDMA"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Weight": "147 g"
+    },
+    "Platform": {
+      "Operating system": "Palm OS 5.4",
+      "CPU": "MX1"
+    },
+    "Memory": {
+      "RAM": "96 MB",
+      "Card slot": "Secure Digital"
+    },
+    "Display": {
+      "Display": "320 X 320 px, 65,536 color"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 830 mAh"
+    }
+  },
+  "key": {
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 830,
+    "weight_g": 147
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SPH-i550",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SPH-i550"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SPH-i550\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SPH-i550",
+    "revid": 1361483643
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

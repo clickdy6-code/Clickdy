@@ -1,0 +1,90 @@
+{
+  "slug": "oppo-find-n6",
+  "brand": "Oppo",
+  "name": "Find N6",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 2026",
+      "Series": "OPPO Find N series",
+      "Predecessor": "OPPO Find N5"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G",
+      "SIM": "Nano-SIM, Nano-USIM, eSIM"
+    },
+    "Body": {
+      "Form factor": "Book-style foldable",
+      "Dimensions": "Folded: 159.87 × 74.12 × 8.93 mm, Open: 159.87 × 145.58 × 4.21 mm",
+      "Weight": "225 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 16",
+      "Chipset": "Snapdragon 8 Elite Gen 5 Mobile Platform",
+      "CPU": "7-core CPU",
+      "GPU": "Adreno 840"
+    },
+    "Memory": {
+      "RAM": "16 GB RAM",
+      "Storage": "512 GB"
+    },
+    "Display": {
+      "Display": "Inner display: 8.12 in QXGA+ (2480 × 2248), Cover display: 6.62 in FHD+ (2616 × 1140)"
+    },
+    "Cameras": {
+      "Rear camera": "200 MP wide, 50 MP telephoto, 50 MP ultrawide, 2 MP monochrome",
+      "Front camera": "20 MP inner display camera, 20 MP cover display camera"
+    },
+    "Sound": {
+      "Sound": "USB Type-C audio"
+    },
+    "Battery": {
+      "Battery": "6000 mAh (typical), 5850 mAh (rated)",
+      "Charging": "80W SUPERVOOC, 50W AIRVOOC"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 5/6/7, Bluetooth 6.0, NFC"
+    }
+  },
+  "key": {
+    "display_in": 8.12,
+    "chipset": "Snapdragon 8 Elite Gen 5 Mobile Platform",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 200,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 20,
+    "battery_mah": 6000,
+    "wired_w": 80,
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 5",
+    "esim": true,
+    "weight_g": 225,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Find N6",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Find_N6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Find N6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo Find N6",
+    "revid": 1377301003
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

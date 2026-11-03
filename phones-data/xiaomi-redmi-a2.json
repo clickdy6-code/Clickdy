@@ -1,0 +1,89 @@
+{
+  "slug": "xiaomi-redmi-a2",
+  "brand": "Xiaomi",
+  "name": "Redmi A2",
+  "status": "published",
+  "announced": "2023-03-24",
+  "released": "2023-03-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 24, 2023",
+      "Series": "Redmi A/Poco C",
+      "Predecessor": "Redmi A1",
+      "Successor": "Redmi A3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "192g"
+    },
+    "Platform": {
+      "Operating system": "Android 13 Go Edition",
+      "Chipset": "MediaTek Helio G36",
+      "CPU": "Octa-core (4x2.2 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "2/3/4 GB",
+      "Storage": "32 GB / 64 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "6.52\", 20:9, 720x1600, IPS LCD, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.0, (wide), 0.08 MP (auxiliary lens)",
+      "Front camera": "5 MP f/2.2"
+    },
+    "Sound": {
+      "Sound": "Mono loudspeaker"
+    },
+    "Battery": {
+      "Battery": "5000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi"
+    }
+  },
+  "key": {
+    "display_in": 6.52,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek Helio G36",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "os": "Android 13",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 192,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi A2",
+      "url": "https://en.wikipedia.org/wiki/Redmi_A2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi A2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi A2",
+    "revid": 1380116591
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

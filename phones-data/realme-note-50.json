@@ -1,0 +1,95 @@
+{
+  "slug": "realme-note-50",
+  "brand": "Realme",
+  "name": "Note 50",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Realme Note series",
+      "Successor": "Realme Note 60"
+    },
+    "Network": {
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "167.2 x",
+      "Weight": "186 g"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with Realme UI T",
+      "Chipset": "Unisoc Tiger T612 (12 nm)",
+      "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G57"
+    },
+    "Memory": {
+      "RAM": "3 GB or 4 GB RAM",
+      "Storage": "64 GB, 128 GB, or 256 GB eMMC 5.1",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.74 in (171 mm) IPS LCD, 90Hz, 560 nits (peak) , Resolution: 720 × 1600 pixels, 20:9 ratio (~260 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2, 25mm (wide), PDAF + auxiliary lens, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, f/2.2, 27mm (wide), HDR, Video: 720p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh non-removable Li-Po",
+      "Charging": "10W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Bluetooth 5.0, A2DP, LE, GPS, GLONASS, GALILEO, USB Type-C 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.74,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "peak_nits": 560,
+    "chipset": "Unisoc Tiger T612",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 13",
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 186
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme Note 50",
+      "url": "https://en.wikipedia.org/wiki/Realme_Note_50"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme Note 50\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme Note 50",
+    "revid": 1361479685
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "realme-c33",
+  "brand": "Realme",
+  "name": "C33",
+  "status": "published",
+  "announced": "2022-09-12",
+  "released": "2022-09-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-09-12",
+      "Series": "Realme \"C\"",
+      "Successor": "Realme C53"
+    },
+    "Network": {
+      "Technology": "2G GSM, 850, 900, 1800, 1900, 3G(HSDPA), 850, 900, 2100, 4G LTE, 1, 3, 5, 8, 38, 40, 41"
+    },
+    "Body": {
+      "Weight": "187 g (6.60 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 12, Realme UI S",
+      "Chipset": "Unisoc Tiger T612 (12 nm)",
+      "CPU": "2×1.8 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55",
+      "GPU": "Mali-G57"
+    },
+    "Memory": {
+      "RAM": "microSDXC, 3 GB or 4 GB",
+      "Storage": "32 GB, 64 GB, or 128 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5 inches, 720 × 1600 pixels, 20:9 ratio (~270 ppi density), 400 nits (typ)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP (wide), PDAF, auxiliary lens, LED flash, HDR, panorama, Video: 1080p@30fps, 0.3MP depth sensor",
+      "Front camera": "5 MP, f/2.2, HDR, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "10W"
+    },
+    "Connectivity": {
+      "Connectivity": "GPS, GLONASS, GALILEO, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "peak_nits": 400,
+    "chipset": "Unisoc Tiger T612",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 187,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C33",
+      "url": "https://en.wikipedia.org/wiki/Realme_C33"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C33\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C33",
+    "revid": 1371776229
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

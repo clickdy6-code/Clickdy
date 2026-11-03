@@ -1,0 +1,89 @@
+{
+  "slug": "nokia-lumia-820",
+  "brand": "Nokia",
+  "name": "Lumia 820",
+  "status": "published",
+  "announced": "2012-11-07",
+  "released": "2012-11-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Nokia_Lumia_820.png/500px-Nokia_Lumia_820.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Nokia_Lumia_820.png/250px-Nokia_Lumia_820.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Lumia 820",
+      "credit": "AnVuong1222004 (11), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_820.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 7, 2012",
+      "Discontinued": "2014",
+      "Series": "Nokia Lumia",
+      "Predecessor": "Nokia Lumia 800",
+      "Successor": "Nokia Lumia 830"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA 850/900/1900/2100, LTE 800/900/1800/2100/2600, Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "123.8 mm H , 68.5 mm W , 9.9 mm D",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8, upgradeable to 8.1",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8960",
+      "CPU": "1.5 GHz dual-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 225"
+    },
+    "Memory": {
+      "RAM": "8 GB internal flash, 1 GB RAM",
+      "Card slot": "MicroSD (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "4.3\" AMOLED ClearBlack capacitive touchscreen with Super Sensitive Touch, 800×480 px 16.7m-color"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel, 3264×2448 pixels, Power Dual-LED flash, autofocus Carl Zeiss optics, 1080p video capture",
+      "Front camera": "VGA, 640×480 pixels"
+    },
+    "Battery": {
+      "Battery": "Removable & rechargeable BP-5T 1650 mAh Lithium polymer battery, Qi wireless charging (with optional charging shell)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.1 (Bluetooth 4.0 certified but not yet supported by WP8,), 802.11a/b/g/n, NFC"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon S4 MSM8960",
+    "ram_gb": [
+      1,
+      8
+    ],
+    "battery_mah": 1650,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 160,
+    "thickness_mm": 9.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 820",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_820"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 820\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 820",
+    "revid": 1361478368
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

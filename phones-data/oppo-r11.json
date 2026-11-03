@@ -1,0 +1,92 @@
+{
+  "slug": "oppo-r11",
+  "brand": "OPPO",
+  "name": "R11",
+  "status": "published",
+  "announced": "2017-05-20",
+  "released": "2017-05-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "R11:, 2017-05-20, R11 Plus:, 2017-06-09, R11s:, 2017-10-27, R11s Plus:, 2017-11-02",
+      "Series": "Oppo R",
+      "Predecessor": "Oppo R9, Oppo R9 Plus, Oppo R9s, Oppo R9s Plus",
+      "Successor": "Oppo R15, Oppo R15 Pro"
+    },
+    "Network": {
+      "SIM": "R11:, nano-SIM, Dual nano-SIM, R11 Plus/R11s/R11s Plus:, Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "R11:, 154.5 mm H, 74.8 mm W, 6.8 mm D, R11 Plus:, 165.8 mm H, 81.5 mm W, 7.8 mm D, R11s:, 155.1 mm H, 75.5 mm W, 7.1 mm D, R11s Plus:, 164.8 mm H, 80.2 mm W, 7.3 mm D",
+      "Weight": "R11:, 150 g, R11 Plus:, 188 g, R11s:, 153 g, R11s Plus:, 182 g",
+      "Other": "Light sensor, Distance sensor, G-sensor, E-compass"
+    },
+    "Platform": {
+      "Operating system": "R11/R11 Plus:, Original: Android 7.1.1 with ColorOS 3.1, Current: Android 7.1.1 with ColorOS 3.2 (For CPH1707 (R11), Global) Android 9 with ColorOS 6 (For OPPO R11, OPPO R11t, OPPO R11 Plus, OPPO R11 Plusk, OPPO R11 Pluskt, China) , R11s/R11s Plus:, Original: Android 7.1.1 with ColorOS 3.2, Current: Android 7.1.1 with ColorOS 3.2 (For CPH1719 (R11s), CPH1721 (R11s Plus), Global) Android 9 with ColorOS 6 (For OPPO R11s, OPPO R11st, OPPO R11s Plus, OPPO R11s Plust, China)",
+      "Chipset": "Qualcomm Snapdragon 660 (14 nm Samsung 14LPP)",
+      "CPU": "Octa-core (4x2.2 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "RAM": "R11:, 4/6 GB, R11s:, 4 GB, R11 Plus/R11s Plus:, 6 GB",
+      "Storage": "R11:, 64/128 GB, R11 Plus/R11s/R11s Plus:, 64 GB",
+      "Card slot": "R11/R11 Plus:, microSDXC, expandable up to 128 GB, R11s/R11s Plus:, microSDXC, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "R11:, 5.50 in, 1080 x 1920 px resolution, 16:9 ratio (~401 ppi density), AMOLED, 60 Hz, Corning Gorilla Glass 5, R11 Plus:, 6.00 in, 1080 x 1920 px resolution, 16:9 ratio (~368 ppi density), AMOLED, 60 Hz, Corning Gorilla Glass 5, R11s:, 6.01 in, 1080 x 2160 px resolution, 18:9 ratio (~401 ppi density), AMOLED, 60 Hz, Corning Gorilla Glass 5, R11s Plus:, 6.43 in, 1080 x 2160 px resolution, 18:9 ratio (~376 ppi density), AMOLED, 60 Hz, Corning Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "Dual-Camera Setup, R11/R11 Plus:, Primary: Sony IMX 398; 16 MP, 1/2.8\", 1.12μm, PDAF, Telephoto: Sony IMX 350; 20 MP, 1/2.78\", 1.0μm, AF, R11s/R11s Plus:, Primary: Sony IMX 398; 16 MP, 1/2.8\", 1.12μm, PDAF, Secondary: Sony IMX 376k; 20 MP, 1/2.78\", 1.0μm, AF, Features:, All: LED flash, HDR, panorama, Video:, All: 4K@30 fps, 1080p@30 fps",
+      "Front camera": "Sony IMX 376; 20 MP, (wide), 1/2.78\", 1.0μm, Video:, All: 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm auxiliary (headphone jack)"
+    },
+    "Battery": {
+      "Battery": "R11:, 3000 mAh lithium-polymer, non-removable, R11s:, 3200 mAh lithium-polymer non-removable, R11 Plus/R11s Plus:, 4000 mAh lithium-polymer, non-removable",
+      "Charging": "20W VOOC Flash Charge"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "AMOLED",
+    "refresh_hz": 60,
+    "chipset": "Qualcomm Snapdragon 660",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 20,
+    "battery_mah": 3000,
+    "wired_w": 20,
+    "os": "Android 7.1",
+    "weight_g": 150,
+    "thickness_mm": 6.8,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo R11",
+      "url": "https://en.wikipedia.org/wiki/Oppo_R11"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo R11\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo R11",
+    "revid": 1368683304
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

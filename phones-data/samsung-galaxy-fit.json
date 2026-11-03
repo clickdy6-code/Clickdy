@@ -1,0 +1,48 @@
+{
+  "slug": "samsung-galaxy-fit",
+  "brand": "Samsung",
+  "name": "Galaxy Fit",
+  "status": "published",
+  "announced": "2019-06-14",
+  "released": "2019-06-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-06-14",
+      "Series": "Galaxy Fit",
+      "Predecessor": "Samsung Gear Fit 2 Pro",
+      "Successor": "Samsung Galaxy Fit 2"
+    },
+    "Body": {
+      "Form factor": "Activity tracker",
+      "Dimensions": "18.3 mm H, 44.6 mm W, 11.2 mm D"
+    },
+    "Platform": {
+      "Operating system": "FreeRTOS",
+      "CPU": "MCU Cortex M33F dual-core, 96MHz M0+ 16MHz"
+    },
+    "Battery": {
+      "Battery": "Fit: 120 mAh, Fit e: 70 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 120,
+    "thickness_mm": 11.2,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Fit (smartwatch)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Fit_%28smartwatch%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Fit (smartwatch)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Fit (smartwatch)",
+    "revid": 1381359679
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

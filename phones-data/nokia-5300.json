@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-5300",
+  "brand": "Nokia",
+  "name": "5300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Nokia_5300_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Nokia_5300_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 5300",
+      "credit": "S. Ekström, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5300_1.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3220",
+      "Successor": "Nokia 5310, Nokia 5610 XpressMusic"
+    },
+    "Network": {
+      "Technology": "GSM/EGSM 900/1800/1900 MHz, and GSM/EGSM 850/1800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Slide-up phone",
+      "Dimensions": "92.4×48.2×20.7 mm, 85 cc (volume)",
+      "Weight": "106.5 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 3rd edition (proprietary)",
+      "CPU": "ARM9 Vertex"
+    },
+    "Memory": {
+      "RAM": "32 MB internal memory (flash), 16 MB system RAM",
+      "Card slot": "microSD (up to 2 GB)"
+    },
+    "Display": {
+      "Display": "QVGA (240×320 pixels) in 2-inch display, 262,144 (18-bit) true color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixels CMOS camera in 8× digital zoom"
+    },
+    "Battery": {
+      "Battery": "Nokia battery BL-5B (820 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, HSCSD, EDGE/CSD, IrDA, Mini USB 2.0, PC Suite, Bluetooth (A2DP supports wireless audio transfer), Remote OTA synchronization with SyncML, 2.5 mm Nokia AV connector"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 820,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 106.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5300",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5300",
+    "revid": 1361477392
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

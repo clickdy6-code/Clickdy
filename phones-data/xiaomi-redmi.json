@@ -1,0 +1,90 @@
+{
+  "slug": "xiaomi-redmi",
+  "brand": "Xiaomi",
+  "name": "Redmi",
+  "status": "published",
+  "announced": "2013-07-31",
+  "released": "2013-07-31",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0%E5%8D%80_Futian_%E8%8F%AF%E5%BC%B7%E5%8C%97%E8%B7%AF_Huaqiang_North_Road_%E8%8F%AF%E5%BC%B7%E5%8C%97%E5%8D%9A%E7%89%A9%E9%A4%A8_HQB_Museum_%E6%99%BA%E8%83%BD%E6%89%8B%E6%A9%9F_Smartphone_models_history_exhibition_July_2023_Px3_44.jpg/500px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0%E5%8D%80_Futian_%E8%8F%AF%E5%BC%B7%E5%8C%97%E8%B7%AF_Huaqiang_North_Road_%E8%8F%AF%E5%BC%B7%E5%8C%97%E5%8D%9A%E7%89%A9%E9%A4%A8_HQB_Museum_%E6%99%BA%E8%83%BD%E6%89%8B%E6%A9%9F_Smartphone_models_history_exhibition_July_2023_Px3_44.jpg/250px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi",
+      "credit": "Shou Wings KEUNG, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0%E5%8D%80_Futian_%E8%8F%AF%E5%BC%B7%E5%8C%97%E8%B7%AF_Huaqiang_North_Road_%E8%8F%AF%E5%BC%B7%E5%8C%97%E5%8D%9A%E7%89%A9%E9%A4%A8_HQB_Museum_%E6%99%BA%E8%83%BD%E6%89%8B%E6%A9%9F_Smartphone_models_history_exhibition_July_2023_Px3_44.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "China: 2013-07-31 , Global: 2013-09-15",
+      "Series": "Redmi",
+      "Successor": "Redmi 1S"
+    },
+    "Network": {
+      "Technology": "HM2013022: GSM 900/1800/1900MHz , TD-SCDMA 1900/2100MHz , HM2013023: GSM 900/1800/1900MHz , WCDMA 900/2100MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "137 mm H , 69 mm W , 9.9 mm D",
+      "Weight": "158 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2.2 Jelly Bean with MIUI V5, Current: Android 4.4.2 KitKat with MIUI 9",
+      "Chipset": "MediaTek MT6589T",
+      "CPU": "1.5Ghz Quad-Core ARM Cortex-A7",
+      "GPU": "357Mhz Single-core PowerVR SGX 544MP"
+    },
+    "Memory": {
+      "RAM": "1GB LPDDR2",
+      "Storage": "4GB eMMC 2.0",
+      "Card slot": "Supports up to 32 GB, microSD"
+    },
+    "Display": {
+      "Display": "4.70 in IPS LCD with Corning Gorilla Glass , 720x1280px (312 ppi), Made by Sharp/AUO"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixel auto-focus, 3264x2448px, 1.4μm Pixel Size, F/2.2 Optic, Samsung S5K3H2 or OmniVision OV8825 sensor, with LED flash",
+      "Front camera": "1.3 Megapixel fixed-focus, 1280x960px, Aptina MT9M114 sensor"
+    },
+    "Battery": {
+      "Battery": "2,050 mAh, 7.6 Wh, 3.896 V, internal rechargeable Li-Poly, user-replaceable, Battery Scale:100"
+    },
+    "Connectivity": {
+      "Connectivity": "GPS / GLONASS, Wi-Fi 802.11 b/g/n 2.4Ghz only, Mediatek MT6628QP combo chip, Bluetooth 4.0 BLE, Micro-USB"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6589T",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 2050,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 158,
+    "thickness_mm": 9.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi (phone)",
+      "url": "https://en.wikipedia.org/wiki/Redmi_%28phone%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi (phone)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi (phone)",
+    "revid": 1365319924
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

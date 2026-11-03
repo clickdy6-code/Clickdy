@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-galaxy-z-fold-8",
+  "brand": "Samsung",
+  "name": "Galaxy Z Fold 8",
+  "status": "published",
+  "announced": "2026-08-07",
+  "released": "2026-08-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Samsung_Galaxy_Z_Fold8_and_Fold8_Ultra.jpg/500px-Samsung_Galaxy_Z_Fold8_and_Fold8_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Samsung_Galaxy_Z_Fold8_and_Fold8_Ultra.jpg/250px-Samsung_Galaxy_Z_Fold8_and_Fold8_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Z Fold 8",
+      "credit": "ScribblingGeek, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Z_Fold8_and_Fold8_Ultra.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Z Fold 8 and Z Fold 8 Ultra: 2026-08-07",
+      "Discontinued": "predecessor = Samsung Galaxy Z Fold 7",
+      "Series": "Galaxy Z"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G / 5G",
+      "SIM": "Dual Nano-SIM + multiple eSIM (region dependent)"
+    },
+    "Body": {
+      "Form factor": "Foldable (book-style)",
+      "Dimensions": "Z Fold 8: , Folded: 123.9 mm H, W, D, Unfolded: 123.9 mm H, 161.4 mm W, D, Z Fold 8 Ultra:, Folded: 158.4 mm H, 72.8 mm W, 8.9 mm D, Unfolded: 158.4 mm H, 143.2 mm W, D",
+      "Weight": "Z Fold 8: 201 g, Z Fold 8 Ultra: 215 g"
+    },
+    "Platform": {
+      "Operating system": "Android 17, up to 7 major Android upgrades, One UI 9",
+      "Chipset": "Qualcomm Snapdragon 8 Elite Gen 5 (3 nm)",
+      "GPU": "Adreno 840"
+    },
+    "Memory": {
+      "RAM": "12GB, 16GB",
+      "Storage": "256GB, 512GB, 1TB"
+    },
+    "Display": {
+      "Display": "Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, nits (peak), 8 .0 inches, 204.cm2 (~90.% screen-to-body ratio), x pixels, ~ppi"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Z Fold 8: 4,800 mAh dual battery, Z Fold 8 Ultra: 5,000 mAh dual battery",
+      "Charging": "wired (% in 30 min), 20W wireless, 4.5W reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct, Bluetooth ., A2DP, LE, aptX HD, GPS, GALILEO, GLONASS, BDS, QZSS, USB Type-C 3.2 , OTG"
+    }
+  },
+  "key": {
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "battery_mah": 4800,
+    "wireless_w": 20,
+    "wired_w": 20,
+    "os": "Android 17",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 201,
+    "thickness_mm": 161.4,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Z Fold 8",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Z Fold 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Z Fold 8",
+    "revid": 1383620997
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

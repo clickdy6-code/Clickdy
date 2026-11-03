@@ -1,0 +1,72 @@
+{
+  "slug": "samsung-ativ-odyssey",
+  "brand": "Samsung",
+  "name": "Ativ Odyssey",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013",
+      "Series": "ATIV",
+      "Predecessor": "Samsung Focus S , Samsung Omnia W"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "121.92mm x 63.5mm x 10.16mm",
+      "Weight": "4.4oz"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8",
+      "Chipset": "Qualcomm",
+      "CPU": "1.5ghz Snapdragon S4"
+    },
+    "Memory": {
+      "RAM": "8GB internal storage, 1GB RAM",
+      "Card slot": "microSD up to 64GB"
+    },
+    "Display": {
+      "Display": "4.0inch 480x800 WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5mp",
+      "Front camera": "1.2mp"
+    },
+    "Battery": {
+      "Battery": "2100mah"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "chipset": "Qualcomm",
+    "ram_gb": [
+      1,
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 1.2,
+    "battery_mah": 2100,
+    "os": "Windows Phone 8",
+    "thickness_mm": 10.16,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Ativ Odyssey",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Ativ_Odyssey"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Ativ Odyssey\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Ativ Odyssey",
+    "revid": 1378920756
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

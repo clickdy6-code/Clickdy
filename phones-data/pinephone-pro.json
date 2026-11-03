@@ -1,0 +1,86 @@
+{
+  "slug": "pinephone-pro",
+  "brand": "PinePhone",
+  "name": "Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/PinePhone-Pro-Plasma-Mobile.jpg/500px-PinePhone-Pro-Plasma-Mobile.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/PinePhone-Pro-Plasma-Mobile.jpg/250px-PinePhone-Pro-Plasma-Mobile.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "PinePhone Pro",
+      "credit": "MartijnBraam, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PinePhone-Pro-Plasma-Mobile.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-02",
+      "Predecessor": "PinePhone"
+    },
+    "Body": {
+      "Dimensions": "160.8 mm x 76.6mm x 11.1mm",
+      "Weight": "215 g"
+    },
+    "Platform": {
+      "Operating system": "Linux",
+      "CPU": "Rockchip rk3399s 4x 1.5 GHz Cortex-A53 & 2x 2Ghz Cortex-A72",
+      "GPU": "Mali-T860 MP4"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4",
+      "Storage": "128 GB eMMC flash memory",
+      "Card slot": "bootable microSD"
+    },
+    "Display": {
+      "Display": "6″ 720x1440 IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Single 13MP Sony IMX258, LED Flash",
+      "Front camera": "8MP OmniVision OV8858"
+    },
+    "Battery": {
+      "Battery": "3000mAh, Samsung J7 form-factor, user-replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi AMPAK AP6255 WiFi 11ac, single-band, hotspot capable, Bluetooth 4.1, A2DP, 3.5mm headphone jack, USB-C USB 3.0 PD/DisplayPort"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 215,
+    "thickness_mm": 11.1,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: PinePhone Pro",
+      "url": "https://en.wikipedia.org/wiki/PinePhone_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"PinePhone Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "PinePhone Pro",
+    "revid": 1377049261
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

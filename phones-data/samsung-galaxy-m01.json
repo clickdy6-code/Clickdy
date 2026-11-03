@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-galaxy-m01",
+  "brand": "Samsung",
+  "name": "Galaxy M01",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-06",
+      "Series": "Galaxy M"
+    },
+    "Body": {
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10, Upgradable to: Android 12",
+      "Chipset": "Qualcomm Snapdragon 439",
+      "CPU": "Octa-core (4x1.95 GHz Cortex-A53 & 4x1.45 GHz Cortex A53)",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "32 GB internal storage"
+    },
+    "Display": {
+      "Display": "5.7 in PLS IPS 720 x 1520 pixels, 19:9 ratio (~294 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP wide, 2 MP depth",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "4000 mAh Li-ion battery (non-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Wi-Fi Direct, Wi-Fi Hotspot, Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 439",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4000,
+    "os": "Android 10",
+    "nfc": false,
+    "weight_g": 168,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M01",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M01"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M01\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M01",
+    "revid": 1383030081
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "nokia-lumia-505",
+  "brand": "Nokia",
+  "name": "Lumia 505",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Lumia_505.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Lumia_505.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia Lumia 505",
+      "credit": "http://tecnoreviews.com, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lumia_505.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 2013",
+      "Series": "Lumia",
+      "Successor": "Nokia Lumia 530"
+    },
+    "Network": {
+      "Technology": "2.5G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 3G UMTS/DC-HSPA+ – 850, 1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "118.1 mm H, 61.2 mm W, 11.3 mm D",
+      "Weight": "131 g",
+      "Other": "Talk time: Up to 7.3 hours , Standby time: Up to 300 hours (approx. 12.5 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7.8",
+      "CPU": "800 MHz single core Qualcomm S1 MSM7227A",
+      "GPU": "Qualcomm Adreno 200"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "4 GB internal flash and 7 GB free in SkyDrive"
+    },
+    "Display": {
+      "Display": "3.7 in WVGA AMOLED, 800 x 480 pixels at 252 ppi, 15:9 aspect ratio, Color depth 16 bit, 65k colors, 60 Hz refresh rate, Corning Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, Wide angle, f/2.8, 34 mm True 16:9 optics, 480p VGA video capture @ 30 fps"
+    },
+    "Battery": {
+      "Battery": "Integrated 1300 mAh Li-poly battery"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "AMOLED",
+    "refresh_hz": 60,
+    "storage_gb": [
+      4,
+      7
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1300,
+    "os": "Windows Phone 7.8",
+    "five_g": true,
+    "weight_g": 131,
+    "thickness_mm": 11.3,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 505",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_505"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 505\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 505",
+    "revid": 1374882560
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

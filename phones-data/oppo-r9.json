@@ -1,0 +1,74 @@
+{
+  "slug": "oppo-r9",
+  "brand": "Oppo",
+  "name": "R9",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 2016",
+      "Series": "OPPO R series",
+      "Predecessor": "OPPO R7",
+      "Successor": "OPPO R11"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151.8 × 74.3 × 6.6 mm",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1.1 Lollipop with ColorOS",
+      "CPU": "Octa-core MediaTek Helio P10"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5-inch AMOLED, 1920 × 1080 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "16 MP"
+    },
+    "Battery": {
+      "Battery": "2,850 mAh"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 2850,
+    "os": "Android 5.1",
+    "weight_g": 145,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo R9",
+      "url": "https://en.wikipedia.org/wiki/Oppo_R9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo R9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo R9",
+    "revid": 1369275753
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

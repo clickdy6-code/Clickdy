@@ -1,0 +1,71 @@
+{
+  "slug": "samsung-galaxy-core-lte",
+  "brand": "Samsung",
+  "name": "Galaxy Core LTE",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-05"
+    },
+    "Network": {
+      "Technology": "(GSM/GPRS/EDGE): 850, 900, 1800 and 1900 MHz; , 3G (HSDPA 42.2 Mbit/s, HSUPA 5.76 Mbit/s): 850, 900, and 2100 MHz; , LTE: 800, 1800 and 2600 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "132.9 mm H , 66.3 mm W , 9.8 mm D",
+      "Weight": "137 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2.2 \"Jelly Bean\"",
+      "CPU": "1.2 GHz dual-core CPU"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSD, up to 64 GB"
+    },
+    "Display": {
+      "Display": "4.5 in 960×540 px PLS (245 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels with LED flash",
+      "Front camera": "VGA, 640x480"
+    },
+    "Battery": {
+      "Battery": "2100 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2100,
+    "os": "Android 4.2",
+    "five_g": false,
+    "weight_g": 137,
+    "thickness_mm": 9.8,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Core LTE",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Core_LTE"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Core LTE\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Core LTE",
+    "revid": 1361481604
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

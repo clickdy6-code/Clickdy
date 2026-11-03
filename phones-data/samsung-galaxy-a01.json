@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-galaxy-a01",
+  "brand": "Samsung",
+  "name": "Galaxy A01",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A01: 2019-12, M01: 2020-06",
+      "Series": "Galaxy A/Galaxy M",
+      "Successor": "Samsung Galaxy A02, Samsung Galaxy A02s"
+    },
+    "Network": {
+      "SIM": "Nano-SIM (4FF)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "146.3 mm H, 70.86 mm W, 8.34 mm D",
+      "Weight": "151 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with One UI Core 2.0, Current: Android 12 with One UI Core 4.0",
+      "Chipset": "Qualcomm Snapdragon 439 (12 nm), Mediatek MT6739 (28nm) (Core)",
+      "CPU": "Octa-core (4x1.95 GHz Cortex-A53 & 4x1.45 GHz Cortex A53), Quad-core (4x1.5GHz Cortex-A53) (Core)",
+      "GPU": "Adreno 505 , PowerVR GE8100 (Core)"
+    },
+    "Memory": {
+      "RAM": "1, 2, 3 GB RAM",
+      "Storage": "16/32 GB internal storage",
+      "Card slot": "microSD (Up to 512 GB)"
+    },
+    "Display": {
+      "Display": "5.7 in. PLS TFT LCD, 720x1520 HD+"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP + 2 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "A01: 3000 mAh, M01: 4000 mAh",
+      "Charging": "5W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 4.2"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 439",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "wired_w": 5,
+    "os": "Android 10",
+    "nfc": false,
+    "weight_g": 151,
+    "thickness_mm": 8.34,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A01",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A01"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A01\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A01",
+    "revid": 1380481416
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

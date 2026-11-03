@@ -1,0 +1,78 @@
+{
+  "slug": "nokia-n91",
+  "brand": "Nokia",
+  "name": "N91",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Nokia_N91.jpg/500px-Nokia_N91.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Nokia_N91.jpg/250px-Nokia_N91.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N91",
+      "credit": "Alexander Koprivnicanec from Brussels, Belgium, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N91.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6650",
+      "Successor": "Nokia N81, Nokia N95"
+    },
+    "Network": {
+      "Technology": "802.11, GSM, GPRS, EDGE, WCDMA, Wi-Fi -- 802.11g"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Weight": "164g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.1 (S60 3rd Edition)",
+      "CPU": "Dual CPU, 220 MHz Texas Instruments OMAP 171x (ARM9-based)"
+    },
+    "Memory": {
+      "RAM": "64MB RAM",
+      "Storage": "4GB / 8GB HDD"
+    },
+    "Display": {
+      "Display": "176 x 208, 262k colours TFT LCD (130 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels"
+    },
+    "Battery": {
+      "Battery": "BL-5C, 3.7 V, 970 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "2G Networks/ 3G Networks depending on the model."
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "storage_gb": [
+      4,
+      8
+    ],
+    "battery_mah": 970,
+    "os": "Symbian OS v9.1 (S60 3rd Edition)",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 164
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N91",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N91"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N91\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N91",
+    "revid": 1368416785
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "realme-x2-pro",
+  "brand": "Realme",
+  "name": "X2 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Realme X Series",
+      "Predecessor": "Realme X",
+      "Successor": "Realme X50 Pro 5G, Realme X3 SuperZoom"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161 mm × 75.7 mm × 8.7 mm (6.34 in × 2.98 in × 0.34 in)",
+      "Weight": "199 g (7.02 oz)",
+      "Other": "Fast battery charging 50 W (SuperVOOC Flash Charge)., 100% in 35 min advertised, with 100% in 27 mins in real-world."
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9.0 \"Pie\" (Skinned with ColorOS), Current: Android 11 (China, Global beta), Android 10 (Global) (Skinned with realme UI)",
+      "Chipset": "Qualcomm Snapdragon 855+",
+      "CPU": "Octa-core Kryo 485, (1×2.96 GHz, 3×2.42 GHz, 4×1.8 GHz)",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "6 GB, 8 GB, or 12 GB LPDDR4X RAM",
+      "Storage": "64 GB [[Universal Flash Storage, 128 GB [[Universal Flash Storage, or 256 GB UFS 3.0",
+      "Card slot": "non-expandable"
+    },
+    "Display": {
+      "Display": "6.5 in Super AMOLED, capacitive touchscreen, 16 million colors, 103.5 cm2 (84.9% screen:body), 1080 px × 2400 px, 20:9 ratio (402 ppi density), Gorilla Glass 5, 1000 candela per square metre, nits max. brightness, 90 Hz refresh rate, HDR10+, DCI-P3 100%"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP + 13 MP + 8 MP + 2 MP",
+      "Front camera": "16 MP"
+    },
+    "Battery": {
+      "Battery": "Two Li-Po 2000 mAh batteries, totaling 4000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "4G, 3G, GSM"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 90,
+    "chipset": "Qualcomm Snapdragon 855+",
+    "ram_gb": [
+      6,
+      8,
+      12
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 2000,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 199,
+    "thickness_mm": 8.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme X2 Pro",
+      "url": "https://en.wikipedia.org/wiki/Realme_X2_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme X2 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme X2 Pro",
+    "revid": 1361479697
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

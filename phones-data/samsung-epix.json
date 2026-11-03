@@ -1,0 +1,67 @@
+{
+  "slug": "samsung-epix",
+  "brand": "Samsung",
+  "name": "Epix",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Samsung SGH-i617 (BlackJack II)"
+    },
+    "Network": {
+      "Technology": "Quad-band GSM, tri-band HSDPA"
+    },
+    "Body": {
+      "Form factor": "Candy bar",
+      "Dimensions": "4.56 × 2.41 × 0.51 inches",
+      "Weight": "4.4 oz"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.1 Professional",
+      "CPU": "Marvell PXA310 624 MHz"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (32GB max)"
+    },
+    "Display": {
+      "Display": "2.5\" 65K TFT, 320×320 px"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP"
+    },
+    "Battery": {
+      "Battery": "1800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth 2.0, Supported profiles:, A2DP, AVCTP, AVDTP, AVRCP, GAVDP, HFP 1.5, HID, HSP, OBEX (OPP, BPP) PAN, SPP"
+    }
+  },
+  "key": {
+    "display_in": 2.5,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1800,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Epix",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Epix"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Epix\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Epix",
+    "revid": 1378474172
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

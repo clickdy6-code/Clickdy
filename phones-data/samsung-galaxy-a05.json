@@ -1,0 +1,101 @@
+{
+  "slug": "samsung-galaxy-a05",
+  "brand": "Samsung",
+  "name": "Galaxy A05",
+  "status": "published",
+  "announced": "2023-09-25",
+  "released": "2023-09-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Samsung_Galaxy_A05s_2024.jpg/500px-Samsung_Galaxy_A05s_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Samsung_Galaxy_A05s_2024.jpg/250px-Samsung_Galaxy_A05s_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A05",
+      "credit": "Captainmorlypogi1959, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A05s_2024.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A05 & A05s: 2023-09-25",
+      "Series": "Galaxy A/Galaxy M/Galaxy F",
+      "Predecessor": "Samsung Galaxy A04, Samsung Galaxy F04, Samsung Galaxy M04, Samsung Galaxy M13, Samsung Galaxy F13",
+      "Successor": "Samsung Galaxy A06"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G",
+      "SIM": "A05/A05s: Single SIM or Dual SIM (Nano-SIM), F05/F14/M05/M14: Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "A05/F05/M05: 195 g, A05s/F14/M14: 194 g"
+    },
+    "Platform": {
+      "Operating system": "Original:, A05/A05s/F14/M14: Android 13 with One UI Core 5.1, F05/M05: Android 14 with One UI 6.0, Current:, A05/A05s/F14/M14: Android 15 with One UI 7.0, F05/M05: Android 16 with One UI 8.0",
+      "Chipset": "A05/F05/M05: Mediatek MT6769V/CZ Helio G85 (12nm) , A05s/F14/M14: Qualcomm Snapdragon 680 Octa-Core 2GHz, 1.8GHz",
+      "CPU": "A05/F05/M05: Octa-core (2×2.0 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55), A05s/F14/M14: Octa-core (4×2.4 GHz Kryo 265 Gold & 4×1.9 GHz Kryo 265 Silver)",
+      "GPU": "A05/F05/M05: Mali-G52 MC2, A05s/F14/M14: Adreno 610"
+    },
+    "Memory": {
+      "RAM": "A05/A05s/M14: 4 GB, 6 GB, F05/F14/M05: 4 GB , LPDDR4X",
+      "Storage": "A05/A05s/M14: 64 GB, 128 GB, F05/F14/M05: 64 GB, eMMC 5.1"
+    },
+    "Display": {
+      "Display": "17.08 cm"
+    },
+    "Cameras": {
+      "Rear camera": "Dual-Camera Setup, A05/F05/M05:, Primary: GalaxyCore GC50E0; 50 MP, f/1.8, 25mm, FoV 80.8°, 1/2.51\", 0.7µm, AF, Depth: GalaxyCore GC2375H; 2 MP, f/2.4, 1/5.0\", 1.75µm, Triple-Camera Setup, A05s/F14/M14:, Primary: Hynix Hi5022Q; 50 MP, f/1.8, 27mm, FoV 80.4°, 1/2.8\", 0.64µm, AF, Macro: SuperPix SP2507; 2 MP, f/2.4, 1/5.0\", 1.75µm, Depth: GalaxyCore GC2375H; 2 MP, f/2.4, 1/5.0\", 1.75µm, Camera features: LED flash, panorama, HDR, Video recording: 1080p@30/60fps",
+      "Front camera": "A05/F05/M05:, Hynix Hi-846; 8 MP, f/2.0, 26mm (wide), FoV 79.1°, 1/3.94\", 1.12µm, A05s/F14/M14:, Hynix Hi-1336; 13 MP, f/2.0, 25mm (wide), FoV 79.3°, 1/3.06\", 1.12µm, Video recording: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "25W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB: Type-C, USB 2.0, Earjack: 3.5mm Stereo, Bluetooth: v5.3"
+    }
+  },
+  "key": {
+    "chipset": "A05/F05/M05: Mediatek MT6769V/CZ Helio G85",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 13",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 195,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A05",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A05"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A05\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A05",
+    "revid": 1380481192
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

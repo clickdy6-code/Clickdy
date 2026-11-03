@@ -1,0 +1,107 @@
+{
+  "slug": "xiaomi-redmi-8",
+  "brand": "Xiaomi",
+  "name": "Redmi 8",
+  "status": "published",
+  "announced": "2019-09-25",
+  "released": "2019-09-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Tatsuno%27s_whiteboard_and_Redmi_smartphone_20210501.jpg/500px-Tatsuno%27s_whiteboard_and_Redmi_smartphone_20210501.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Tatsuno%27s_whiteboard_and_Redmi_smartphone_20210501.jpg/250px-Tatsuno%27s_whiteboard_and_Redmi_smartphone_20210501.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 8",
+      "credit": "Solomon203, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tatsuno%27s_whiteboard_and_Redmi_smartphone_20210501.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "8: 2019-09-25 , 8A: 2019-10-12 , 8A Dual: 2020-02-11 , 8A Pro: 2020-04-02",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 7 , Redmi 7A",
+      "Successor": "Redmi 9 , Redmi 9A , Redmi 9C"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156.5 mm H , 75.4 mm W , 9.4 mm D",
+      "Weight": "188 g"
+    },
+    "Platform": {
+      "Operating system": "Original: 8/8A: Android Pie, Android 9 Pie with MIUI 10, 8A Dual/8A Pro: Android Pie, Android 9 Pie with MIUI 11 Current: Android 10 with MIUI 12.5",
+      "Chipset": "Qualcomm Snapdragon 439 (12 nm)",
+      "CPU": "Octa-core (4x1.95 GHz Cortex-A53 & 4x1.45 GHz Cortex A53)",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "8: 3 and 4 GB , 8A: 2, 3 and 4 GB , 8A Dual/8A Pro: 2 and 3 GB , LPDDR3",
+      "Storage": "8/8A Dual: 32 and 64 GB , 8: 16, 32 and 64 GB , 8A Pro: 32 GB , eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.22 in, 720 x 1520 px resolution, 19:9 ratio (~270 ppi density), IPS LCD, 400 nits (typ), Corning Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "8: 12 MP, f/1.8, 1/2.55\", 1.4 μm, Dual Pixel PDAF, 2 MP, (depth) 8A: 12 MP, f/1.8, 1/2.55\", 1.4 μm, Dual Pixel PDAF , 8A Dual/8A Pro: 13 MP, f/2.2, 1/3.1\", 1.12 μm, PDAF, 2 MP, f/2.4 (depth) All models: LED flash, HDR, panorama, 1080p@30fps",
+      "Front camera": "8 MP, f/2.0, 1/4\", 1.12 μm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Speakers"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh",
+      "Charging": "Fast charging 18W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, Bluetooth 4.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.22,
+    "display_type": "IPS LCD",
+    "peak_nits": 400,
+    "chipset": "Qualcomm Snapdragon 439",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 188,
+    "thickness_mm": 9.4,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 8",
+      "url": "https://en.wikipedia.org/wiki/Redmi_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 8",
+    "revid": 1361479813
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

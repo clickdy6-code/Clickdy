@@ -1,0 +1,100 @@
+{
+  "slug": "pixel-8a",
+  "brand": "Pixel",
+  "name": "8a",
+  "status": "published",
+  "announced": "2024-05-14",
+  "released": "2024-05-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Google_Pixel_8a_front.svg/500px-Google_Pixel_8a_front.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Google_Pixel_8a_front.svg/250px-Google_Pixel_8a_front.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Pixel 8a",
+      "credit": "DM115Wiki, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_8a_front.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-05-14",
+      "Discontinued": "2025-03-19",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 7a",
+      "Successor": "Pixel 9a"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE (telecommunication), EDGE, UMTS/HSPA+, LTE (telecommunication), LTE, LTE Advanced, 5G sub-6 / mmWave",
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "152.1 mm H , 72.7 mm W , 8.9 mm D",
+      "Weight": "188 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14 , Current: Android 17",
+      "Chipset": "Google Tensor G3"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR5X",
+      "Storage": "128 or 256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "6.1 in 1080p FHD+ OLED, px resolution, 20:9 Display aspect ratio, aspect ratio (~430 ppi density), High-dynamic-range, HDR, 60-120 Hz refresh rate, Gorilla Glass, Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "64 Megapixel, MP, 1.9, 80° (wide), 1/1.73\", 0.8 μm, Quad-Bayer_filter, Bayer dual pixel PDAF, OIS, 13 Megapixel, MP, 2.2, 120˚ (ultrawide), 1.12 μm, Dual-LED flash, Pixel Shift, Auto-HDR, panorama, 4K@30/60fps, 1080p@30/60/120/240fps; gyro-EIS, OIS",
+      "Front camera": "13 Megapixel, MP, 2.2, 20mm (ultrawide), 1.12 μm, Auto-HDR, panorama, 4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 2 microphones, Noise suppression"
+    },
+    "Battery": {
+      "Battery": "4492 mAh",
+      "Charging": "Fast charging up to 18W, 7.5W Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6E + HE80 + MIMO, Bluetooth 5.3, Near-field communication, NFC, Google Cast, Satellite navigation, GNSS (GPS / GLONASS / Galileo (satellite navigation), Galileo / Quasi-Zenith Satellite System, QZSS), USB-C: USB 10Gbps"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Google Tensor G3",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 4492,
+    "wireless_w": 7.5,
+    "wired_w": 18,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6E",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 188,
+    "thickness_mm": 8.9,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 8a",
+      "url": "https://en.wikipedia.org/wiki/Pixel_8a"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 8a\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 8a",
+    "revid": 1369031021
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

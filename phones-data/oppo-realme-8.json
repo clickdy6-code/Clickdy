@@ -1,0 +1,96 @@
+{
+  "slug": "oppo-realme-8",
+  "brand": "OPPO",
+  "name": "Realme 8",
+  "status": "published",
+  "announced": "2021-03-24",
+  "released": "2021-03-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "8/Pro: 2021-03-24, 8i: 2021-09-09, narzo 50: 2022-02-24",
+      "Series": "Number series, narzo",
+      "Predecessor": "Realme 7, Realme Narzo 30, Realme 7 Pro, Realme 7i",
+      "Successor": "Realme 9, Realme Narzo 60, Realme 9 Pro, Realme 9i"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "8: 160.6 × 73.9 × 7.99 mm, 8 Pro: 160.6 × 73.9 × 8.1 mm, 8i/narzo 50: 164.1 × 75.5 × 8.5 mm",
+      "Weight": "8: 177 g, 8 Pro: 176 g, 8i/narzo 50: 194 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11 with realme UI 2.0, Current: Android 13 with realme UI 4.0",
+      "Chipset": "8: MediaTek Helio G95 (12 nm), 8 Pro: Qualcomm Snapdragon 720G (8 nm), 8i/narzo 50: MediaTek Helio G96 (12 nm)",
+      "CPU": "8/8i/narzo 50: Octa-core (2× 2.05 GHz Cortex-A76 & 6× 2 GHz Cortex-A55), 8 Pro: Octa-core (2× 2.3 GHz Kryo 465 Gold & 6× 1.8 GHz Kryo 465 Silver)",
+      "GPU": "8: Mali-G76 MC4, 8 Pro: Adreno 618, 8i/narzo 50: Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "8: 4/6/8 GB, 8 Pro: 6/8 GB, 8i/narzo 50: 4/6 GB, LPDDR4X",
+      "Storage": "8/8i/narzo 50: 64/128 GB, 8 Pro: 128 GB, UFS 2.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "8/Pro: Super AMOLED, 6.4\", 2400 × 1080 (FHD+), 20:9, 409 ppi, 8i/narzo 50: IPS LCD, 120 Hz, 6.6\", 2412 × 1080 (FHD+), 20:9, 400 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Wide: 8: 64 MP Sony IMX682, f/1.8, 26 mm, 1/1.73\", 0.8 µm, PDAF, 8 Pro: 108 MP Samsung ISOCELL HM2, f/1.9, 26 mm, 1/1.52\", 0.7 µm, PDAF, 8i/narzo 50: 50 MP Samsung ISOCELL S5KJN1, f/1.8, 26 mm, 1/2.76\", 0.64 µm, PDAFUltrawide: 8/Pro: 8 MP, f/2.3, 119°, 16 mm, 1/4\", 1.12 µm, 8i/narzo 50: NoMacro: 2 MP, f/2.4, Depth: 2 MP, f/2.4, Video: 8: 4K resolution, 4K@30fps, 1080p@30/60/120fps, gyro-EIS, 8 Pro: 4K@30fps, 1080p@30/60/120/480fps, 720p@960fps, gyro-EIS, 8i: 1080p@30fpsOther: LED flash, HDR, panorama",
+      "Front camera": "8/Pro: 16 MP, f/2.5 (wide), 1/3\", 1 µm, 8i/narzo 50: 16 MP, f/2.1 (wide), 1/3\", 1 µm, HDR, panorama, 1080p@30/120fps (8/Pro) / 480 (8 Pro) fps, 720p@960fps (8 Pro), gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm audio jack"
+    },
+    "Battery": {
+      "Battery": "All models: Non-removable Li-Po, 8/8i/narzo 50: 5000 mAh, 8 Pro: 4500 mAh",
+      "Charging": "8: 30W Fast Charging (Dart Charge), 8 Pro: 50W Fast Charging (SuperDart Charge), 8i/narzo 50: 18W Fast Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm Audio, Bluetooth 5.0 (8 Pro) / 5.1 (A2DP, LE), NFC (except narzo 50), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct), GPS (A-GPS), GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "8: MediaTek Helio G95",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 50,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 177,
+    "thickness_mm": 8.5,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme 8",
+      "url": "https://en.wikipedia.org/wiki/Realme_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme 8",
+    "revid": 1361479567
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "nokia-7600",
+  "brand": "Nokia",
+  "name": "7600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nokia_7600.jpg/500px-Nokia_7600.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nokia_7600.jpg/250px-Nokia_7600.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 7600",
+      "credit": "Shritwod at English Wikipedia, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7600.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3300b"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "87 x 78 x 19 mm, 103 cc",
+      "Weight": "123g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "128 x 160 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 megapixels",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-5C , Li-Ion 850 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 850,
+    "weight_g": 123
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7600",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7600",
+    "revid": 1374926132
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "samsung-stripe",
+  "brand": "Samsung",
+  "name": "Stripe",
+  "status": "published",
+  "announced": "2007-04-18",
+  "released": "2007-04-18",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2007-04-18"
+    },
+    "Network": {
+      "SIM": "SIM, MiniSIM"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "87 mm x 45 mm x 24.9 mm",
+      "Weight": "78 g"
+    },
+    "Memory": {
+      "Storage": "24MB"
+    },
+    "Display": {
+      "Display": "128 x 160 pixels (TFT LCD)"
+    },
+    "Battery": {
+      "Battery": "850 mAh, user replaceable"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 850,
+    "weight_g": 78,
+    "thickness_mm": 24.9,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Stripe",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Stripe"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Stripe\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Stripe",
+    "revid": 1361483646
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

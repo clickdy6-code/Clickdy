@@ -1,0 +1,79 @@
+{
+  "slug": "samsung-s5560",
+  "brand": "Samsung",
+  "name": "S5560",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Samsung_S5560.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Samsung_S5560.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung S5560",
+      "credit": "No machine-readable author provided. Deivismaster assumed (based on copyright cl, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_S5560.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series",
+      "Predecessor": "Samsung GT-S5523"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900/2100, EDGE"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "107.5 x 52 x 13.2 mm",
+      "Weight": "95.3g"
+    },
+    "Platform": {
+      "Operating system": "TouchWiz(Java)"
+    },
+    "Memory": {
+      "RAM": "78 MB Internal Memory.",
+      "Storage": "78MB",
+      "Card slot": "microSD up to 16GB (microSDHC compatible)"
+    },
+    "Display": {
+      "Display": "240 x 400 pixels TFT resistive touchscreen, 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP, 2592x1944 pixels, LED flash",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 and USB 2.0 and WIFI"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 95.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung S5560",
+      "url": "https://en.wikipedia.org/wiki/Samsung_S5560"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung S5560\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung S5560",
+    "revid": 1380225445
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

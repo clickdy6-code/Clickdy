@@ -1,0 +1,107 @@
+{
+  "slug": "samsung-galaxy-note-20",
+  "brand": "Samsung",
+  "name": "Galaxy Note 20",
+  "status": "published",
+  "announced": "2020-08-05",
+  "released": "2020-08-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Samsung_Galaxy_Note_20_front.png/500px-Samsung_Galaxy_Note_20_front.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Samsung_Galaxy_Note_20_front.png/250px-Samsung_Galaxy_Note_20_front.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Note 20",
+      "credit": "Marcusph, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Note_20_front.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-08-05",
+      "Series": "Galaxy Note",
+      "Predecessor": "Samsung Galaxy Note 10",
+      "Successor": "Samsung Galaxy S21 Ultra (indirect), Samsung Galaxy Z Fold 3 (indirect), Samsung Galaxy S22 Ultra (direct)"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G",
+      "SIM": "nanoSIM, eSIM, Single SIM or Hybrid Dual SIM in dual stand-by"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Note 20: 161.6 × 75.2 × 8.3 mm, Note 20 Ultra: 164.8 × 77.2 × 8.1 mm",
+      "Weight": "Note 20: 192-194 g, Note 20 Ultra: 208 g",
+      "Other": "Samsung Galaxy S20"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with One UI 2.5, Final: Android 13 with One UI 5.1",
+      "Chipset": "Europe, Middle East, Asia Pacific (Except East Asia), and Brazil: Samsung Exynos 990, East Asia (Greater China, South Korea, Japan), North America and Latin America (Except Brazil): Qualcomm Snapdragon 865+",
+      "CPU": "Exynos:, Octa-core (2x2.73 GHz Mongoose M5 & 2x2.50 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55, Snapdragon:, Octa-core (1x3.09 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585)",
+      "GPU": "Exynos: Mali-G77 MP11, Snapdragon: Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8 or 12 GB LPDDR5-5500 RAM",
+      "Storage": "128, 256 or 512 GB UFS 3.1",
+      "Card slot": "Note 20: None, Note 20 Ultra: microSDXC, expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "Note 20:, 6.7 in Super AMOLED Plus capacitive touchscreen, 1080p (2.5 MP), (393 Pixel density, ppi), 60 Hz refresh rate, Gorilla Glass 5, Note 20 Ultra:, 6.9 in Dynamic AMOLED 2X capacitive touchscreen, 1440p, (495 ppi), 120 Hz refresh rate on 1080p resolution, Gorilla Glass Victus, Both: 16M colours, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "Note 20:, 12 MP, ƒ/1.8, 26 mm, 1/1.76\", 1.8 μm (wide) + 64 MP, ƒ/2.0, 1/1.72\", 0.8 μm (telephoto) + 12 MP, ƒ/2.2, 13 mm, 1/2.55\", 1.4 μm (ultrawide), Dual Pixel Autofocus#Phase detection, PDAF, 3× optical zoom, 30× hybrid zoom (optical zoom, optical and digital zoom combined), Note 20 Ultra:, 108 MP, ƒ/1.8, 26 mm, 0.8 μm, 1/1.33\" (wide) + 12 MP, ƒ/3.0, 103 mm, 1/3.4\" (telephoto) + 12 MP, ƒ/2.2, 13 mm, 1.4 μm, 1/2.55\" (ultrawide), PDAF, Laser AF, 5× Zoom lens, optical zoom, Both:, 8K@24fps, 4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, HDR10+, stereo sound recording, gyro-EIS & OIS, LED flash, auto-HDR, panorama",
+      "Front camera": "10 MP, ƒ/2.2, 26 mm (wide), 1/3.2\", 1.22 μm, 4K@30/60fps, 1080p@30fps, Dual video call, Auto-HDR"
+    },
+    "Sound": {
+      "Sound": "32-bit/384kHz stereo speakers tuned by AKG"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Note 20: 4300 mAh, Note 20 Ultra: 4500 mAh",
+      "Charging": "Supports Fast Charging at 25W, Fast Qi/PMA wireless charging, Reverse wireless charging at 4.5W, USB Power Delivery 3.0"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM/CDMA/HSPA/EVDO/LTE/5G, WLAN, 802.11 a/b/g/n/ac/ax, dual band, Wi-Fi Direct & Hotspot, Bluetooth 5.0, A2DP, LE & aptX, A-GPS, GLONASS, BDS & GALILEO, NFC, USB 3.2, Type-C 1.0 reversible connector, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Europe",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 10,
+    "battery_mah": 4300,
+    "wireless_w": 4.5,
+    "wired_w": 25,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": true,
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 194,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note 20",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note 20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note 20",
+    "revid": 1374549616
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

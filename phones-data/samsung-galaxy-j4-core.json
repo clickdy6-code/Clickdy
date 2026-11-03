@@ -1,0 +1,88 @@
+{
+  "slug": "samsung-galaxy-j4-core",
+  "brand": "Samsung",
+  "name": "Galaxy J4 Core",
+  "status": "published",
+  "announced": "2018-11-12",
+  "released": "2018-11-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-11-12",
+      "Discontinued": "April 2020",
+      "Series": "Galaxy J series"
+    },
+    "Network": {
+      "Technology": "2G GSM 850, 900, 1800, 1900 , 3G HSDPA 850, 900, 1700, 1900, 2100 , 4G LTE Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 20, 28, 38, 40, 41, 66"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "160.6 mm H , 76.1 mm W , 7.9 mm D",
+      "Weight": "177 g",
+      "Other": "FM radio, Dual SIM"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\" Go; Samsung Experience",
+      "Chipset": "Qualcomm Snapdragon 425",
+      "CPU": "Quad-core (4×1.4 GHz) ARM Cortex-A53",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "16 GB",
+      "Card slot": "microSD up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.0\", 720×1480 px (274 ppi) TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.2",
+      "Front camera": "5 MP, f/.2.2"
+    },
+    "Battery": {
+      "Battery": "3300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g/n, Bluetooth 4.2, GPS/GLONASS, microUSB 2.0, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 425",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3300,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 177,
+    "thickness_mm": 7.9,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J4 Core",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J4_Core"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J4 Core\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J4 Core",
+    "revid": 1380479997
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "nokia-5250",
+  "brand": "Nokia",
+  "name": "5250",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5230",
+      "Successor": "Nokia C5-03"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar, Touchscreen",
+      "Dimensions": "105 x 50 x 14.5 mm",
+      "Weight": "107 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.4 S60v5",
+      "CPU": "Single CPU, 434 MHz ARM11"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM, 256 MB NAND, 51 MB Internal User Storage",
+      "Card slot": "microSD memory card slot, with hot swap max. 16 GB"
+    },
+    "Display": {
+      "Display": "2.8 inches 640 x 360 nHD with 16:9 picture touchscreen LCD (16.7 million colours)"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels (1600 x 1200)"
+    },
+    "Battery": {
+      "Battery": "BL-4U 3.7V 1000mAh mAh Li-Ion standard battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB connector, USB 2.0 high speed, 3.5 mm Nokia AV connector, Bluetooth version 2.0 with A2DP and AVRCP"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "battery_mah": 1000,
+    "os": "Symbian OS v9.4 S60v5",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 107
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5250",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5250"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5250\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5250",
+    "revid": 1361477389
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

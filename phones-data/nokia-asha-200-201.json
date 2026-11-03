@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-asha-200-201",
+  "brand": "Nokia",
+  "name": "Asha 200/201",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Nokia_Asha_200.png/500px-Nokia_Asha_200.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Nokia_Asha_200.png/250px-Nokia_Asha_200.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Asha 200/201",
+      "credit": "Dienthoaiquangcao24, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Asha_200.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "December 2011",
+      "Series": "Asha",
+      "Predecessor": "Nokia X2-01",
+      "Successor": "Nokia Asha 210, Nokia Asha 205"
+    },
+    "Body": {
+      "Dimensions": "Height: 115.4 mm, Width: 61.1 mm, Thickness: 14 mm",
+      "Weight": "105 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 40"
+    },
+    "Memory": {
+      "RAM": "32 MB RAM, 64 MB ROM",
+      "Storage": "10 MB Built-In",
+      "Card slot": "Micro SD card up to 32GB"
+    },
+    "Display": {
+      "Display": "Display size: 2.4\" , Orientation: Landscape , (320 x 240), Pixel Density: 167 ppi , Height: 36.0 mm, Width: 48.0 mm, Colors: 262144, Technology: LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Sensor size: 2 megapixels, Resolution: 1600 x 1200 pixels, Video: 176 x 144 pixels (10fps)",
+      "Front camera": "Null"
+    },
+    "Battery": {
+      "Battery": "Li-Ion (BL-5J), Capacity: 1430 mAh, Maximum standby time: 888 h, Maximum talk time: 7 h, Music playback time: 52 h"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm Nokia AV Connector, 2.0 mm Charging Connector, Bluetooth 2.1 + EDR , Remote SyncML synchronisation, Local SyncML synchronisation"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "LCD",
+    "battery_mah": 1430,
+    "nfc": false,
+    "weight_g": 105,
+    "thickness_mm": 14,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 200/201",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_200/201"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 200/201\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 200/201",
+    "revid": 1361477944
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

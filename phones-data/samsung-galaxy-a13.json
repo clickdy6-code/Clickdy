@@ -1,0 +1,102 @@
+{
+  "slug": "samsung-galaxy-a13",
+  "brand": "Samsung",
+  "name": "Galaxy A13",
+  "status": "published",
+  "announced": "2022-03-04",
+  "released": "2022-03-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Samsung_Galaxy_A13_%28cropped%29.jpg/500px-Samsung_Galaxy_A13_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Samsung_Galaxy_A13_%28cropped%29.jpg/250px-Samsung_Galaxy_A13_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A13",
+      "credit": "Hajoon0102, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A13_(cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "LTE: 2022-03-04, 5G: 2021-12-03",
+      "Series": "Galaxy A",
+      "Predecessor": "Samsung Galaxy A12",
+      "Successor": "Samsung Galaxy A14"
+    },
+    "Network": {
+      "Technology": "LTE: 2G, 3G, 4G LTE, 5G: 2G, 3G, 4G LTE, 5G",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "LTE: 165.1 mm H, 76.5 mm W, 8.8 mm D, 5G: 164.5 mm H, 76.5 mm W, 8.8 mm D",
+      "Weight": "195 g"
+    },
+    "Platform": {
+      "Operating system": "A13 5G:, Original: Android 11 with One UI 3.1, Current: Android 13 with One UI 5.1, A13 4G:, Original: Android 12 with One UI 4.1, Current: Android 14 with One UI 6.1",
+      "Chipset": "LTE:, SM-A135x: Samsung Exynos 850 (8 nm), SM-A137: MediaTek MT6769V/CU Helio G80 (12 nm), 5G: MediaTek MT6833 Dimensity 700 5G (7 nm)",
+      "CPU": "LTE:, SM-A135x: Octa-core (4x2.0 GHz Cortex-A55 & 4x2.0 GHz Cortex-A55), SM-A137: Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55), 5G: Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "LTE: Mali-G52 MC2, 5G: Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "LTE: 3 GB, 4 GB, 6 GB RAM, 5G: 4 GB RAM, 6 GB RAM",
+      "Storage": "LTE: 32 GB, 64 GB, 128 GB, 5G: 64 GB, 128 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "LTE: 6.6 in, FHD+, PLS IPS, V-Cut Display (1080 x 2408 pixels), 5G: 6.5 in, HD+, 90 Hz PLS IPS, Infinity-V Display (720 x 1600 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-Camera Setup, LTE:, Primary: Samsung ISOCELL S5KJN1; 50 Megapixel, MP, f-number, f/1.8, 27mm, FoV 78.5°, 1/2.76\", 0.64Micrometre, µm, Phase detection autofocus, PDAF, Ultrawide: GalaxyCore GC5035; 5 Megapixel, MP, f-number, f/2.2, 13mm, FoV 115.9°, 1/5.0\", 1.12Micrometre, µm, FF, Macro: GalaxyCore GC02M1; 2 Megapixel, MP, f-number, f/2.4, 1/5.0\", 1.75Micrometre, µm, FF, Depth: GalaxyCore GC02M1B; 2 Megapixel, MP, f-number, f/2.4, 1/5.0\", 1.75Micrometre, µm, Triple-Camera Setup, 5G:, Primary: Samsung ISOCELL S5KJN1; 50 Megapixel, MP, f-number, f/1.8, 27mm, FoV 78.5°, 1/2.76\", 0.64Micrometre, µm, Phase detection autofocus, PDAF, Macro: GalaxyCore GC02M1; 2 Megapixel, MP, f-number, f/2.4, ",
+      "Front camera": "LTE: GalaxyCore GC08A3; 8 Megapixel, MP, f-number, f/2.2, 25mm (wide), FoV 81.1°, 1/4.0\", 1.12Micrometre, µm, FF, 5G: GalaxyCore GC5035F; 5 Megapixel, MP, f-number, f/2.0, 25mm (wide), 1/5.0\", 1.12Micrometre, µm, FF, Video recording: 1080p@30Frame rate, fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "15W Fast Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE, A-GPS, GLONASS, GALILEO, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS",
+    "refresh_hz": 90,
+    "chipset": "LTE:",
+    "ram_gb": [
+      3,
+      4,
+      6
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "battery_mah": 5000,
+    "wired_w": 15,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 195,
+    "thickness_mm": 8.8,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A13",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A13"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A13\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy A13",
+    "revid": 1382885670
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

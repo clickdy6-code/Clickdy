@@ -1,0 +1,64 @@
+{
+  "slug": "nokia-9210-communicator",
+  "brand": "Nokia",
+  "name": "9210 Communicator",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Nokia_9210.jpg/500px-Nokia_9210.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Nokia_9210.jpg/250px-Nokia_9210.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 9210 Communicator",
+      "credit": "J-P Kärnä, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_9210.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2001",
+      "Predecessor": "Nokia 9110 Communicator (9210/9290), Nokia 9110i Communicator (9210i)",
+      "Successor": "Nokia 9300 (9210), Nokia 9300b (9290), Nokia 9300i (9210i), Nokia 9500 Communicator (9210/9210i), Nokia 9500b Communicator (9290)"
+    },
+    "Network": {
+      "Technology": "EGSM 900/1800 and HSCSD (43.2 kbit/s)"
+    },
+    "Body": {
+      "Dimensions": "158 × 56 × 27 mm",
+      "Weight": "244 g"
+    },
+    "Memory": {
+      "RAM": "Application 14 MB, user 2 MB",
+      "Card slot": "16 MB Multi Media Card"
+    },
+    "Display": {
+      "Display": "4096-color 640 × 200 LCD screen"
+    },
+    "Battery": {
+      "Battery": "BLL-3 (1300 mAh)"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 1300,
+    "five_g": false,
+    "weight_g": 244,
+    "year": 2001
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 9210 Communicator",
+      "url": "https://en.wikipedia.org/wiki/Nokia_9210_Communicator"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 9210 Communicator\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 9210 Communicator",
+    "revid": 1374296419
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

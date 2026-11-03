@@ -1,0 +1,108 @@
+{
+  "slug": "samsung-galaxy-s23",
+  "brand": "Samsung",
+  "name": "Galaxy S23",
+  "status": "published",
+  "announced": "2023-02-01",
+  "released": "2023-02-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Galaxy_S23.png/500px-Galaxy_S23.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Galaxy_S23.png/250px-Galaxy_S23.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S23",
+      "credit": "Hajoon0102, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_S23.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "S23, S23+ and S23 Ultra: 2023-02-01, S23 FE: 2023-10-03",
+      "Discontinued": "S23, S23+ and S23 Ultra: , S23 FE:",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S21 FE (for S23 FE), Samsung Galaxy S22, Samsung Galaxy A73 5G (for S23 FE)",
+      "Successor": "Samsung Galaxy S24"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "S23: 146.3×70.9×7.6 mm (5.76×2.79×0.30 in), S23+: 157.8×76.2×7.6 mm (6.21×3.00×0.30 in), S23 Ultra: 163.4×78.1×8.9 mm (6.43×3.07×0.35 in), S23 FE: 158×76.5×8.2 mm (6.2×3.01×0.32 in)",
+      "Weight": "S23: 168 g, S23+: 195 g, S23 Ultra: 233 g, S23 FE: 209 g"
+    },
+    "Platform": {
+      "Operating system": "Original:, S23, S23+ and S23 Ultra / S23 FE (Global):, Android 13 with One UI 5.1, S23 FE (Korea & Japan):, Android 14 with One UI 6.0, Current:, Android 17 with One UI 9.0",
+      "Chipset": "S23, S23+ and S23 Ultra: Qualcomm Snapdragon 8 Gen 2 for Galaxy, S23 FE (International): Samsung Exynos 2200, S23 FE (USA): Qualcomm Snapdragon 8 Gen 1",
+      "CPU": "S23, S23+ and S23 Ultra: Octa-Core (1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510), S23 FE (International): Octa-core (1x2.8 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510), S23 FE (USA): Octa-core (1x3 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510)",
+      "GPU": "S23, S23+ and S23 Ultra: Adreno 740 @ 719 MHz, S23 FE (International): Xclipse 920, S23 FE (USA): Adreno 730"
+    },
+    "Memory": {
+      "RAM": "8 or 12 GB LPDDR5X RAM",
+      "Storage": "S23: 128, 256 or 512 GB, S23+: 256 or 512 GB, S23 Ultra: 256, 512 GB or 1 TB, S23 FE: 128 GB"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED 2X, Infinity-O, capacitive touchscreen, HDR10+, 1 billion colors, 1750 nits (peak), PenTile matrix family#PenTile RGBG, Diamond PenTile, S23: 6.1 in (425 ppi), 19.5:9 Display aspect ratio, aspect ratio, 120 Hz refresh rate, S23+: 6.6 in (393 ppi), 19.5:9 aspect ratio, 120 Hz, S23 Ultra: 6.8 in (500 ppi), 19.3:9 aspect ratio, 120 Hz LTPO, S23 FE: 6.4 in (403 ppi), 19.5:9 Display aspect ratio, aspect ratio, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "S23 and S23+: 50 MP, f/1.8, 23mm (wide), 10 MP, f/2.4, 70mm (telephoto), 12 MP, f/2.2, 13mm (ultrawide), S23 Ultra: 200 MP, f/1.7, 23mm (wide), 10 MP, f/4.9, 230mm (periscope telephoto), 10 MP, f/2.4, 70mm (telephoto), 12 MP, f/2.2, 13mm (ultrawide), S23 FE: 50 MP, f/1.8, 24mm (wide), 8 MP, f/2.4, 75mm (telephoto), 12 MP, f/2.2, 123˚ (ultrawide)",
+      "Front camera": "12 MP, f/2.2, 25mm (wide)"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers"
+    },
+    "Battery": {
+      "Battery": "S23: Li-ion 3900 mAh, S23+: Li-ion 4700 mAh, S23 Ultra: Li-ion 5000 mAh, S23 FE: Li-ion 4500 mAh",
+      "Charging": "S23 and S23 FE: \"Super fast charging\" at 25W, S23+ and S23 Ultra: \"Super fast charging 2.0\" at 45W, All: Qi wireless charging at 15W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/ax, tri-band, Wi-Fi Direct, hotspot, Bluetooth 5.3, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "peak_nits": 1750,
+    "chipset": "S23",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      128,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 12,
+    "battery_mah": 3900,
+    "wireless_w": 15,
+    "wired_w": 45,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "esim": true,
+    "weight_g": 168,
+    "thickness_mm": 8.9,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S23",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S23"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S23\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy S23",
+    "revid": 1383566447
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

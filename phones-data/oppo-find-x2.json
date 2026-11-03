@@ -1,0 +1,91 @@
+{
+  "slug": "oppo-find-x2",
+  "brand": "Oppo",
+  "name": "Find X2",
+  "status": "published",
+  "announced": "2020-03-06",
+  "released": "2020-03-06",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-03-06",
+      "Predecessor": "Oppo Find X",
+      "Successor": "Oppo Find X3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Find X2: 164.9 x 74.5 x 8 mm, Find X2 Pro: 165.2 x 74.4 x 8.8-9.5 mm",
+      "Weight": "Find X2: 192-209 g, Find X2 Pro: 200-217 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 7.1, (based on Android 10), upgradeable to ColorOS 11 and Android 11",
+      "Chipset": "Qualcomm Snapdragon 865",
+      "CPU": "Octa-core (1x2.84 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)",
+      "GPU": "Qualcomm Adreno 650"
+    },
+    "Memory": {
+      "RAM": "Find X2: 8 or 12 Gigabyte, GB LPDDR5 RAM, Find X2 Pro: 12 GB LPDDR5 RAM",
+      "Storage": "Find X2: 128 GB or 256 GB Universal Flash Storage, UFS 3.0, Find X2 Pro: 256 GB or 512 GB UFS 3.0"
+    },
+    "Display": {
+      "Display": "AMOLED capacitive touchscreen with HDR10+ support, 6.7 in 1440p, (513 ppi with 19.8:9 aspect ratio), 120 Hz refresh rate, 1B colors"
+    },
+    "Cameras": {
+      "Rear camera": "Find X2: 48 MP, f/1.7, 25 mm, 1/2\", 0.8 μm (wide) + 12 MP, f/2.2, 16 mm, 1/2.4\" (ultrawide) + 13 MP, f/2.4, 52 mm (telephoto), 2x optical zoom, Autofocus#Phase detection, PDAF, Find X2 Pro: 48 MP, f/1.7, 25 mm, 1/1.43\", 1.12 μm (wide) + 48 MP, f/2.2, 17 mm, 1/2\", 0.8 μm (ultrawide) + 13 MP, f/3.0, 129 mm, 1/3.4\", 1.0 μm (telephoto), 5x optical zoom, omnidirectional Autofocus#Phase detection, PDAF, Both: Laser Autofocus, AF, AF, Image stabilization#Optical image stabilization, OIS, gyro-Image stabilization#Digital image stabilization, EIS, dual-LED flash, Auto HDR, 4K@30/60 fps, 1080p@30/60 fps, 720p@30/60 fps",
+      "Front camera": "32 MP, f/2.4, 1/2.8\", 0.8 μm , 1080p@30 fps, 720p@30 fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos Dual stereo speakers with active noise cancellation"
+    },
+    "Battery": {
+      "Battery": "Find X2: 4200 mAh, Find X2 Pro: 4260 mAh, VOOC, SuperVOOC technology"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.1, Bluetooth 5.1, Wi-Fi a/b/g/n/ac/ax, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 865",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4200,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 209,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Find X2",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Find_X2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Find X2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Find X2",
+    "revid": 1361479093
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

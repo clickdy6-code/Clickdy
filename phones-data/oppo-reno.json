@@ -1,0 +1,86 @@
+{
+  "slug": "oppo-reno",
+  "brand": "Oppo",
+  "name": "Reno",
+  "status": "published",
+  "announced": "2019-05-10",
+  "released": "2019-05-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Mainland China, Taiwan, Singapore: 2019-04 (Reno), Mainland China: 2019-05-10 (Reno 10x Zoom), 2019-05-30 (Reno Z)",
+      "Predecessor": "Oppo R17, Oppo F11",
+      "Successor": "Oppo Reno2, Oppo Reno Ace"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "156.6 x 74.3 x 9 mm (Reno) , 157.3 x 74.9 x 9.1 mm (Reno Z) , 162 x 77.2 x 9.3 mm (Reno 10x Zoom)",
+      "Weight": "185 g (Reno) , 186 g (Reno Z) , 210 g (Reno 10x Zoom)"
+    },
+    "Platform": {
+      "Operating system": "Android 9 Pie",
+      "Chipset": "Qualcomm Snapdragon 710 (Reno) , MediaTek Helio P90 (Reno Z) , Qualcomm Snapdragon 855 (Reno 10x Zoom)",
+      "CPU": "Octa-core (2x2.2 GHz Kryo 360 Gold & 6x1.7 GHz Kryo 360 Silver) (Reno) , Octa-core (1x2.84 GHz & 3x2.42 GHz & 4x1.8 GHz Kryo 485) (Reno 10x Zoom)",
+      "GPU": "Adreno 616 (Reno) , PowerVR GM9446 (Reno Z) , Adreno 640 (Reno 10x Zoom)"
+    },
+    "Memory": {
+      "RAM": "6 GB or 8 GB LPDDR4X RAM",
+      "Storage": "128 GB or 256 GB UFS 2.1",
+      "Card slot": "None (Reno/Reno Z) , microSD, up to 256 GB (Reno 10x Zoom)"
+    },
+    "Display": {
+      "Display": "6.4 in (Reno/Reno Z) or 6.6 in (Reno 10x Zoom) 1080 x 2340 FHD+ AMOLED, Gorilla Glass 6"
+    },
+    "Cameras": {
+      "Rear camera": "Dual-Camera Setup, Reno (4G)/Reno Z:, Primary: Sony IMX 586; 48 MP, 26mm, 1/2.0\", 0.8μm, PDAF, Depth: Samsung ISOCELL S5K5E9; 5 MP, 1/5.0\", 1.12μm, Triple-Camera Setup, Reno (5G)/Reno 10x zoom:, Primary: Sony IMX 586; 48 MP, 26mm, 1/2.0\", 0.8μm, PDAF, OIS, Periscope Telephoto: Samsung ISOCELL Slim S5K3M5; 13 MP, 130mm, 1/3.4\", 1.0μm, 5x optical zoom, 10x hybrid zoom, PDAF, OIS, Ultrawide: Sony IMX 319; 8 MP, 16mm, 1/3.2\", 1.4μm, Features:, Reno (4G)/Reno Z: Dual-LED flash, HDR, panorama, Reno (5G)/Reno 10x zoom: Laser AF, Dual-LED flash, HDR, panorama, Video:, Reno (4G)/Reno Z: 4K@30fps, 1080p@30/60/120fps, gyro-EIS, Reno (5G)/Reno 10x zoom: 4K@30/60fps, 1080p@30/60/240fps, gyro-EIS; video r",
+      "Front camera": "Reno (4G)/(5G)/Reno 10x zoom:, Sony IMX 471; Motorized pop-up Shark-fin 16 MP, 26mm (wide), 1/3.06\", 1.0μm, Reno Z:, Samsung ISOCELL S5KGD1; 32 MP, 26mm (wide), 1/2.8\", 0.8μm, Features:, Reno (4G)/Reno Z: HDR, Reno (5G)/Reno 10x zoom: LED flash, HDR, Video:, All: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "3765 mAh (Reno) , 4035 mAh (Reno Z) , 4065 mAh (Reno 10x Zoom)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 a/b/g/n/ac MIMO), GPS, A-GPS, GLONASS, BDS, NFC , USB-C , 3.5mm audio jack (Reno only)"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 710",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3765,
+    "os": "Android 9",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 185,
+    "thickness_mm": 9.3,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Reno",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Reno"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Reno\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo Reno",
+    "revid": 1370132325
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

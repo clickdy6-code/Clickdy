@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-8210",
+  "brand": "Nokia",
+  "name": "8210",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Nokia_8210.jpg/500px-Nokia_8210.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Nokia_8210.jpg/250px-Nokia_8210.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 8210",
+      "credit": "TEL0000, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_8210.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 1999",
+      "Discontinued": "2004",
+      "Predecessor": "Nokia 8810 (8210/8260/8290), Nokia 8860 (8250/8270)",
+      "Successor": "Nokia 2100 (8270), Nokia 3610 (8250), Nokia 6500 (8265i), Nokia 6510 (8265), Nokia 6590 (8280), Nokia 6590i (8280i), Nokia 8210 4G (revival), Nokia 8310 (8210), Nokia 8390 (8290)"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 (8210/8250/8290), TDMA 850/1900 AMPS 850 (8260/8265/8265i), CDMA 1900 (8270/8277)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "101.5 ×",
+      "Weight": "79 g",
+      "Other": "Xpress-on covers"
+    },
+    "Platform": {
+      "Operating system": "Series 20"
+    },
+    "Memory": {
+      "Storage": "up to 250 contacts"
+    },
+    "Display": {
+      "Display": "Monochrome"
+    },
+    "Sound": {
+      "Sound": "Headset connector"
+    },
+    "Battery": {
+      "Battery": "650 mAh Li-Ion (BLB-2), replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Infrared (IrDA)"
+    }
+  },
+  "key": {
+    "battery_mah": 650,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 79,
+    "year": 1999
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 8210",
+      "url": "https://en.wikipedia.org/wiki/Nokia_8210"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 8210\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 8210",
+    "revid": 1361477892
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "nokia-n93i",
+  "brand": "Nokia",
+  "name": "N93i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Nokia_N93i_Closed.JPG/500px-Nokia_N93i_Closed.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Nokia_N93i_Closed.JPG/250px-Nokia_N93i_Closed.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N93i",
+      "credit": "Davek92 at English Wikipedia\n\n(Original text: Davek92 (talk)), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N93i_Closed.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia N93",
+      "Successor": "Nokia N82 and Nokia N85"
+    },
+    "Network": {
+      "Technology": "GSM / GPRS / EDGE, GSM 900, GSM 1800, GSM 1900, DTM, WCDMA 2100"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "108 x 58 x 25 mm, 115 cc",
+      "Weight": "163 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.1",
+      "CPU": "Dual Core Arm-11 332 MHz"
+    },
+    "Memory": {
+      "RAM": "Up to 50 MB built-in memory",
+      "Card slot": "Up to 2 GB with miniSD"
+    },
+    "Display": {
+      "Display": "TFT, 16.7 million colors, 240x320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP / 2048 x 1536 / 3x optical zoom / 20x digital zoom / LED flash / video recorder",
+      "Front camera": "288 x 352 / 2x digital zoom"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 950 mAh (BL-5F)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, HSCSD, EDGE, 3G, WLAN, Bluetooth, Infrared, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 950,
+    "os": "Symbian OS 9.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 163
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N93i",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N93i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N93i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N93i",
+    "revid": 1361478536
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

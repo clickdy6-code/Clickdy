@@ -1,0 +1,66 @@
+{
+  "slug": "nokia-8110",
+  "brand": "Nokia",
+  "name": "8110",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Nokia_8110.jpg/500px-Nokia_8110.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Nokia_8110.jpg/250px-Nokia_8110.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 8110",
+      "credit": "Lewis Collard, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_8110.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 2140 (8110), Nokia 2140i (8110i), Nokia 2146 (8146), Nokia 2148 (8148), Nokia 2148i (8148i)",
+      "Successor": "Nokia 7110 (8146), Nokia 7160 (8148), Nokia 7190 (8148i), Nokia 8110 4G (revival), Nokia 8810 (8110), Nokia 8860 (8110i)"
+    },
+    "Network": {
+      "Technology": "GSM-900"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "141 x 48 x 25 mm",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "CPU": "16bit Hitachi H8"
+    },
+    "Memory": {
+      "RAM": "No",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "Monochrome partly-graphic LCD"
+    },
+    "Battery": {
+      "Battery": "Slim 400 mAh Li-Ion, Extended 900 mAh Li-Ion"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 400,
+    "five_g": false,
+    "weight_g": 145
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 8110",
+      "url": "https://en.wikipedia.org/wiki/Nokia_8110"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 8110\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 8110",
+    "revid": 1382269993
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

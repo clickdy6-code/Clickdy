@@ -1,0 +1,86 @@
+{
+  "slug": "foxconn-nokia-8-3-5g",
+  "brand": "Foxconn",
+  "name": "Nokia 8.3 5G",
+  "status": "published",
+  "announced": "2020-09-15",
+  "released": "2020-09-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-09-15 (Europe, Asia, other regions), 2020-10-08, (North America)",
+      "Series": "Nokia 8 Series",
+      "Predecessor": "Nokia 8.1"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "171.9 x",
+      "Weight": "220 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10, upgradable to Android 12, (Android One)",
+      "Chipset": "Qualcomm Snapdragon 765G (7 nm)",
+      "CPU": "Octa-core (1x2.4 GHz Kryo 475 Prime & 1x2.2 GHz Kryo 475 Gold & 6x1.8 GHz Kryo 475 Silver)",
+      "GPU": "Adreno 620"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB LPDDR4X RAM",
+      "Storage": "64 or 128 GB",
+      "Card slot": "microSD, up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.81 in (112.0 cm2) 1080p FHD+ IPS LCD, ~386 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "Quad Camera Set-up:, 64 MP (f/1.9, 1/1.72\", 0.8 μm, PDAF) Wide, 12 MP (f/2.2, 120˚, 1/2.43\", 1.4 μm, autofocus) Ultrawide, 2 MP Macro, 2 MP Depth, ZEISS optics, Dual-LED flash, panorama, HDR, Video: 4K@30/60fps, 1080p@30/240fps, 720p@960fps, gyro-EIS",
+      "Front camera": "24 MP (f/2.0, 1/2.8\", 0.9 μm) Wide, ZEISS optics, HDR, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Nokia OZO 360° audio (For Recording Video Only)"
+    },
+    "Battery": {
+      "Battery": "4500 mAh Li-Po, non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth 5.0, USB 2.0 via USB-C port, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.81,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 765G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 24,
+    "battery_mah": 4500,
+    "os": "Android 10",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 220,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 8.3 5G",
+      "url": "https://en.wikipedia.org/wiki/Nokia_8.3_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 8.3 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 8.3 5G",
+    "revid": 1361477862
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

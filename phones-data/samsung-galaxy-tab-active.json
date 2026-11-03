@@ -1,0 +1,63 @@
+{
+  "slug": "samsung-galaxy-tab-active",
+  "brand": "Samsung",
+  "name": "Galaxy Tab Active",
+  "status": "published",
+  "announced": "2014-09-04",
+  "released": "2014-09-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-09-04",
+      "Series": "Galaxy Tab Active",
+      "Successor": "Samsung Galaxy Tab Active 5 Pro"
+    },
+    "Network": {
+      "Technology": "WiFi/5G Only"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Weight": "393 (13.86)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.2 \"KitKat\", Current: Android 5.1.1 \"Lollipop\", with Magazine UX for TouchWiz Nature UX 3.0",
+      "Chipset": "Qualcomm Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP",
+      "Front camera": "1.2 MP"
+    },
+    "Battery": {
+      "Battery": "4450 mAh"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm Snapdragon 400",
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 1.2,
+    "battery_mah": 4450,
+    "os": "Android 4.4",
+    "five_g": true,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab Active",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_Active"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab Active\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab Active",
+    "revid": 1381058499
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

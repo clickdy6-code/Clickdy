@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-a31",
+  "brand": "Samsung",
+  "name": "Galaxy A31",
+  "status": "published",
+  "announced": "2020-04-27",
+  "released": "2020-04-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/GalaxyA31.png/500px-GalaxyA31.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/GalaxyA31.png/250px-GalaxyA31.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A31",
+      "credit": "Marcusph, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GalaxyA31.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-04-27",
+      "Series": "Samsung Galaxy A series",
+      "Predecessor": "Samsung Galaxy A30",
+      "Successor": "Samsung Galaxy A32, Samsung Galaxy A41"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "159.3 x 73.1 x 8.6 mm (6.27 x 2.88 x 0.34 in)",
+      "Weight": "185 g (6.53 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with One UI 2.1, Current: Android 12 with One UI 4.1",
+      "Chipset": "MediaTek Helio P65 (MT6768)",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)",
+      "GPU": "Mali-G52 MC2"
+    },
+    "Memory": {
+      "RAM": "4, 6, 8, 12 GB RAM",
+      "Storage": "64 and 128 GB",
+      "Card slot": "microSDXC, expandable up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.4\" FHD Super AMOLED Display (411ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/2.0, 26mm, PDAF (wide), 8 MP, f/2.2, 123˚ (ultrawide), 5 MP, f/2.4 (macro), 5 MP, f/2.4 (depth)",
+      "Front camera": "20 MP, f/2.2 (wide)"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "Fast charging at 15 W"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "Super AMOLED",
+    "chipset": "MediaTek Helio P65",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 20,
+    "battery_mah": 5000,
+    "wired_w": 15,
+    "os": "Android 10",
+    "weight_g": 185,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A31",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A31"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A31\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A31",
+    "revid": 1383538035
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

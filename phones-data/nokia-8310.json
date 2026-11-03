@@ -1,0 +1,65 @@
+{
+  "slug": "nokia-8310",
+  "brand": "Nokia",
+  "name": "8310",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Nokia_8310_phone.jpg/500px-Nokia_8310_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Nokia_8310_phone.jpg/250px-Nokia_8310_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 8310",
+      "credit": "Jll at English Wikipedia, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_8310_phone.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2004",
+      "Predecessor": "Nokia 8210",
+      "Successor": "Nokia 6610, Nokia 7210"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 (8310), GSM 1900 (8390)"
+    },
+    "Body": {
+      "Dimensions": "97 x 43 x 20 mm, 67 cc",
+      "Weight": "84 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30"
+    },
+    "Display": {
+      "Display": "Monochrome graphic, 84 x 48 pixels"
+    },
+    "Battery": {
+      "Battery": "Standard, 750 mAh Li-Ion (BLB-2)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, Infrared port"
+    }
+  },
+  "key": {
+    "battery_mah": 750,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 84
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 8310",
+      "url": "https://en.wikipedia.org/wiki/Nokia_8310"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 8310\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 8310",
+    "revid": 1377497011
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

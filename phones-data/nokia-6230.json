@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-6230",
+  "brand": "Nokia",
+  "name": "6230",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Nokia_6230_01.jpg/500px-Nokia_6230_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Nokia_6230_01.jpg/250px-Nokia_6230_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6230",
+      "credit": "Miguel Durán, CC BY-SA 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6230_01.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6100, Nokia 6310i, Nokia 6610",
+      "Successor": "Nokia 6020, Nokia 6070, Nokia 6230i, Nokia 6233, Nokia E50, Nokia E60"
+    },
+    "Network": {
+      "Technology": "Nokia 6230 RH-12 - GSM 900/1800/1900 MHz. , Nokia 6230b RH-28 - GSM 850/1800/1900 MHz for the North American market."
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "103 x 44 x 20 mm, 76 cc",
+      "Other": "SAR Nokia 6230 (Type RH-12): 0.59 W/kg, Nokia 6230 (Type RH-28): 0.29 W/kg"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "6 MB shared memory",
+      "Card slot": "MultiMediaCard"
+    },
+    "Display": {
+      "Display": "Active TFT, 65K colors, 128 x 128 pixels, 5 lines, 27 x 27 mm"
+    },
+    "Cameras": {
+      "Rear camera": "Nokia 6230 - 0.3 MegaPixel. , Nokia 6230i - 1.3 MegaPixel.",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-5C , Li-Ion 850 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS Class 10 (4+1/3+2 slots) 32 - 48 kbit/s. , HSCSD 43.2 kbit/s. , EDGE Class 10, 236.8 kbit/s. , Bluetooth v1.1, Infrared port. , USB via Pop-Port."
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 850,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6230",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6230"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6230\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6230",
+    "revid": 1369655948
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

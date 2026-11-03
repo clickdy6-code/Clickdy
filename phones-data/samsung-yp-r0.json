@@ -1,0 +1,80 @@
+{
+  "slug": "samsung-yp-r0",
+  "brand": "Samsung",
+  "name": "YP-R0",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Samsung_YP-R0.JPG/500px-Samsung_YP-R0.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Samsung_YP-R0.JPG/250px-Samsung_YP-R0.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung YP-R0",
+      "credit": "Lebellium, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_YP-R0.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 2009",
+      "Discontinued": "2011",
+      "Series": "Samsung YEPP"
+    },
+    "Body": {
+      "Form factor": "Portable Media Player",
+      "Dimensions": "93 mm H , 52 mm W , 8.8 mm D",
+      "Weight": "60 g"
+    },
+    "Platform": {
+      "Operating system": "Proprietary firmware (latest v1.25) / Rockbox",
+      "Chipset": "Freescale IMX.37",
+      "CPU": "532MHz ARM1176JZF"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Storage": "4, 8, 16 GB",
+      "Card slot": "microSDHC up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.6 inch 240x320 pixel TFT LCD"
+    },
+    "Sound": {
+      "Sound": "AMS AS3543"
+    },
+    "Battery": {
+      "Battery": "Li-Polymer 600mAh made by Amperex Technology Limited"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 (Micro B)"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "TFT",
+    "chipset": "Freescale IMX.37",
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 600,
+    "nfc": false,
+    "weight_g": 60,
+    "thickness_mm": 8.8,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung YP-R0",
+      "url": "https://en.wikipedia.org/wiki/Samsung_YP-R0"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung YP-R0\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung YP-R0",
+    "revid": 1361483721
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

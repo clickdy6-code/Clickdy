@@ -1,0 +1,83 @@
+{
+  "slug": "royole-flexpai",
+  "brand": "Royole",
+  "name": "FlexPai",
+  "status": "published",
+  "announced": "2018-01-08",
+  "released": "2018-01-08",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-01-08",
+      "Successor": "Royole FlexPai 2"
+    },
+    "Body": {
+      "Form factor": "Folding slate",
+      "Dimensions": "Unfolded, 160.9 mm H, 117.9 mm W, 6.9 mm D, Folded, 160.9 mm H, 62.9 mm W, 15.5 mm D",
+      "Weight": "320 g",
+      "Other": "Physical sound volume keys, USB-C"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9.0 \"Pie\"",
+      "Chipset": "Qualcomm Snapdragon 8 Series, 8150, 64-bit Processor",
+      "CPU": "Octa-Core 2.8GHz Clock Speed",
+      "GPU": "Qualcomm Adreno 640"
+    },
+    "Memory": {
+      "RAM": "6 GB / 8 GB LPDDR4X",
+      "Storage": "128 GB / 512 GB UFS 3.0",
+      "Card slot": "External Memory Supported Up to 256GB"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED, FHD+, 4:3 Aspect Ratio (expanded mode), 311PPI, Unfolded: 1920 x 1440, 7.8 in, 4:3 Display aspect ratio, ratio, 311 pixel density, ppi, Folded: 390 x 1440, 4.0 in, 21:9 aspect ratio, 21:9 ratio, 311 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "20, f-number, f/1.8 aperture",
+      "Front camera": "16, f-number, f/1.8 aperture"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-Removable 4,000 mAh Lithium-Polymer, 5V/5A"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.1, Wi-Fi b/g/n/ac/ax, 3G/4G/4G LTE"
+    }
+  },
+  "key": {
+    "display_in": 7.8,
+    "display_type": "Dynamic AMOLED",
+    "chipset": "Qualcomm Snapdragon 8 Series",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      512
+    ],
+    "battery_mah": 4000,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 320,
+    "thickness_mm": 6.9,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Royole FlexPai",
+      "url": "https://en.wikipedia.org/wiki/Royole_FlexPai"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Royole FlexPai\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Royole FlexPai",
+    "revid": 1374669703
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

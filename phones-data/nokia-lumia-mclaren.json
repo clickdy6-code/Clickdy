@@ -1,0 +1,70 @@
+{
+  "slug": "nokia-lumia-mclaren",
+  "brand": "Nokia",
+  "name": "Lumia McLaren",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Never released",
+      "Predecessor": "Nokia Lumia 930, Nokia Lumia 1020",
+      "Successor": "Microsoft Lumia 950, Microsoft Lumia 950 XL"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1 Update 1",
+      "CPU": "Qualcomm Snapdragon 800 (MSM8974) 2.3GHz quad-core processor",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "32 GB",
+      "Card slot": "microSD up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5-inch Full HD LCD with projected-capacitive touch technology (unconfirmed)"
+    },
+    "Cameras": {
+      "Rear camera": "20 MP (estimated) PureView sensor with Zeiss optics, optical image stabilisation and a dual-LED flash.",
+      "Front camera": "2 MP"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 20,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 2,
+    "os": "Windows Phone 8.1",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia McLaren",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_McLaren"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia McLaren\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia McLaren",
+    "revid": 1382042482
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "samsung-b7330-omnia-pro",
+  "brand": "Samsung",
+  "name": "B7330 Omnia Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung Omnia Series",
+      "Predecessor": "Samsung OmniaPRO B7320"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "114.9 × 59 × 10.7 mm",
+      "Weight": "109g",
+      "Other": "Windows Media Player 10 Mobile, ArcSoft Streaming Player"
+    },
+    "Platform": {
+      "Operating system": "Microsoft Windows Mobile 6.5 Standard",
+      "CPU": "ARM1136EJS"
+    },
+    "Memory": {
+      "RAM": "Phone Memory: 200MB, Storage Memory: 400MB",
+      "Card slot": "microSD up to 32GB"
+    },
+    "Display": {
+      "Display": "2.62 inch 320 × 320 65K colors TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels (back)",
+      "Front camera": "Video call (front)"
+    },
+    "Battery": {
+      "Battery": "3.7V 1500 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth v2.0 with A2DP, Wi-Fi b/g (DLNA), Internet Explorer Mobile 6.0"
+    }
+  },
+  "key": {
+    "display_in": 2.62,
+    "display_type": "TFT",
+    "battery_mah": 1500,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 109
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung B7330 Omnia Pro",
+      "url": "https://en.wikipedia.org/wiki/Samsung_B7330_Omnia_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung B7330 Omnia Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung B7330 Omnia Pro",
+    "revid": 1361480444
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "oppo-f9",
+  "brand": "Oppo",
+  "name": "F9",
+  "status": "published",
+  "announced": "2018-08-15",
+  "released": "2018-08-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "15 August 2018",
+      "Series": "Oppo F",
+      "Predecessor": "Oppo F7",
+      "Successor": "Oppo F11"
+    },
+    "Network": {
+      "SIM": "Nano-SIM, 2 slot SIM card (dual SIM)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "156.70 x 74.04 x 7.99 mm",
+      "Weight": "169g",
+      "Other": "2G, 3G, LTE, LTE-A"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 5.2, based on Android 8.1 \"Oreo\", upgradable to ColorOS 7.2 based on Android 10 \"Quince Tart\"",
+      "Chipset": "Mediatek MT6771 Helio P60",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3 @ 800MHz"
+    },
+    "Memory": {
+      "RAM": "4 GB or 6 GB LPDDR4X 1866 MHz",
+      "Storage": "64 GB eMMC 5.1",
+      "Card slot": "microSD Card up to 256 GB"
+    },
+    "Display": {
+      "Display": "2340×1080 1080pMulti-touch, Capacitive touchscreen with 90.8% screen-to-body ratio, Corning Gorilla Glass 5, Aspect ratio: 19.5:9"
+    },
+    "Cameras": {
+      "Rear camera": "Primary: 16 MP, f/1.8, 1/3.1\", 1.0µm, PDAF, Depth: 2 MP, f/2.4, 1/5.0\", 1.75µm, LED flash, HDR, panorama, 1080p@30fps",
+      "Front camera": "25 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Vibration; MP3, WAV ringtones"
+    },
+    "Battery": {
+      "Battery": "3500 mAh Li-Po",
+      "Charging": "20W VOOC Flash Charge, microUSB 2.0 port"
+    },
+    "Connectivity": {
+      "Connectivity": "2.4/5GHz 802.11 a/b/g/n/acbluetoothBT2.1(+EDR)/BT4.2, location (GPS, Galileo, GLONASS, BeiDou)"
+    }
+  },
+  "key": {
+    "chipset": "Mediatek MT6771 Helio P60",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 25,
+    "battery_mah": 3500,
+    "wired_w": 20,
+    "os": "Android 8.1",
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 169,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo F9",
+      "url": "https://en.wikipedia.org/wiki/Oppo_F9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo F9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo F9",
+    "revid": 1382624389
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

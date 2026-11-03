@@ -1,0 +1,62 @@
+{
+  "slug": "palm-pre-2",
+  "brand": "Palm",
+  "name": "Pre 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Palm Pre",
+      "Successor": "Pre 3"
+    },
+    "Body": {
+      "Form factor": "Slider smartphone",
+      "Dimensions": "100.7 mm (h), 59.6 mm (w), 16.9 mm (d)",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "webOS",
+      "CPU": "Texas Instruments OMAP 3630 clocked at 1GHz (ARM Cortex-A8) + PowerVR SGX clocked at 430Mhz"
+    },
+    "Memory": {
+      "RAM": "512 MB 200MHz DDR DRAM",
+      "Storage": "Flash memory 16 GB"
+    },
+    "Display": {
+      "Display": "320 × 480 px, 3.1 in HVGA, 24-bit color LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel camera with LED flash, \"extended depth of field\", and geotagging"
+    },
+    "Battery": {
+      "Battery": "3.7 V 1150 mAh, \"Palm BP1\" Internal rechargeable removable lithium-ion battery"
+    }
+  },
+  "key": {
+    "display_in": 3.1,
+    "display_type": "LCD",
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1150,
+    "weight_g": 145,
+    "thickness_mm": 16.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Palm Pre 2",
+      "url": "https://en.wikipedia.org/wiki/Palm_Pre_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Palm Pre 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Palm Pre 2",
+    "revid": 1361479276
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

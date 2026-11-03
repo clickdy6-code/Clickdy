@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-galaxy-gear",
+  "brand": "Samsung",
+  "name": "Galaxy Gear",
+  "status": "published",
+  "announced": "2013-09-04",
+  "released": "2013-09-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Samsung_Galaxy_Gear_blank_screen.jpg/500px-Samsung_Galaxy_Gear_blank_screen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Samsung_Galaxy_Gear_blank_screen.jpg/250px-Samsung_Galaxy_Gear_blank_screen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Gear",
+      "credit": "Kārlis Dambrāns, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Gear_blank_screen.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-09-04",
+      "Discontinued": "2014-02-24",
+      "Series": "Samsung Galaxy, Samsung Gear",
+      "Successor": "Samsung Gear 2"
+    },
+    "Body": {
+      "Form factor": "Smartwatch"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.3 \"Jelly Bean\", Current: Tizen",
+      "Chipset": "Exynos 4212",
+      "CPU": "Dual-core 1,600 MHz ARM"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4 GB"
+    },
+    "Display": {
+      "Display": "1.6 in Super AMOLED with RGB matrix, 320×320 pixels (1:1 aspect ratio) (275 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "1.9 MP, BSI, 720p video recording"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth Low Energy"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos 4212",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 1.9,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "os": "Android 4.3",
+    "nfc": false,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Gear",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Gear"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Gear\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Gear",
+    "revid": 1383320314
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

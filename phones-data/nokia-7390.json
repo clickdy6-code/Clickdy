@@ -1,0 +1,66 @@
+{
+  "slug": "nokia-7390",
+  "brand": "Nokia",
+  "name": "7390",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Nokia_7390_aufgeklappt_v2.jpg/500px-Nokia_7390_aufgeklappt_v2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Nokia_7390_aufgeklappt_v2.jpg/250px-Nokia_7390_aufgeklappt_v2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 7390",
+      "credit": "Hundehalter, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7390_aufgeklappt_v2.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 7270",
+      "Successor": "Nokia N76, Nokia 7376, Nokia 7510 Supernova"
+    },
+    "Network": {
+      "Technology": "WCDMA, GSM / GPRS / Tri-Band (900/1800/1900)"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "90 x 47 x 19 mm (L x W x D)",
+      "Weight": "115 grams"
+    },
+    "Memory": {
+      "Card slot": "MicroSD max 2 GB"
+    },
+    "Display": {
+      "Display": "2.3\"; 16M color 320x240 (174ppi) internal display and 262K color TFT 160x128 external display"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 megapixel",
+      "Front camera": "Video call (Front)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.3,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7390",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7390"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7390\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7390",
+    "revid": 1361477795
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

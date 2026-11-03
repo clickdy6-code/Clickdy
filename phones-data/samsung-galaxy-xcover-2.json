@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-galaxy-xcover-2",
+  "brand": "Samsung",
+  "name": "Galaxy Xcover 2",
+  "status": "published",
+  "announced": "2013-03-01",
+  "released": "2013-03-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Samsung_Galaxy_Xcover_2.JPG/500px-Samsung_Galaxy_Xcover_2.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Samsung_Galaxy_Xcover_2.JPG/250px-Samsung_Galaxy_Xcover_2.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Xcover 2",
+      "credit": "Santeri Viinamäki, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Xcover_2.JPG",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-03-01",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy Xcover",
+      "Successor": "Samsung Galaxy Xcover 3"
+    },
+    "Network": {
+      "Technology": "2G EDGE/GPRS (850/900/1800/1900 MHz), 3G HSPA (42/5.76 Mbps 850/900/2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "130.5 mm H , 66.7 mm W , 12.08 mm D",
+      "Weight": "148.5 g",
+      "Other": "IP67 water and dust proof, physical options and go-back buttons"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Jelly Bean, Android 4.1.2 \"Jelly Bean\" With TouchWiz, Current: Android Jelly Bean, Android 4.2.2 \"Jelly Bean\" With TouchWiz",
+      "CPU": "NovaThor Dual Core Application Processor; Cortex A9 1GHz",
+      "GPU": "Mali-400"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB (about 100 MB available, the rest is filled with preinstalled apps)",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.0 in TFT LCD diagonal, 480×800 px WVGA, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "5 Mpx 2560 x 1920 pixels, 720p@30fps, autofocus, LED flash, physical shutter button",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1,700 mAh, 3.7 V, internal rechargeable Li-ion, user replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm jack, Bluetooth 4.0 with A2DP, DLNA, Stereo FM radio with RDS, Micro-USB 2.0, Wi-Fi 802.11 b/g/n, Wi-Fi Direct, Wi-Fi hotspot"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 1700,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "ip": "IP67",
+    "weight_g": 148.5,
+    "thickness_mm": 12.08,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Xcover 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Xcover 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Xcover 2",
+    "revid": 1361483097
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

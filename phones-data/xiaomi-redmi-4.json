@@ -1,0 +1,92 @@
+{
+  "slug": "xiaomi-redmi-4",
+  "brand": "Xiaomi",
+  "name": "Redmi 4",
+  "status": "published",
+  "announced": "2016-11-04",
+  "released": "2016-11-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-11-04",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 3",
+      "Successor": "Redmi 5"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Micro-SIM + Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "141.3 × 69.6 × 8.9 mm",
+      "Weight": "156 g",
+      "Other": "Fingerprint scanner (rear), proximity sensor, accelerometer, gyroscope, compass, Hall-effect sensor"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0.1 Marshmallow + MIUI 8, Current: Android 6.0. 1 Marshmallow + MIUI 10",
+      "Chipset": "Redmi 4: Qualcomm MSM8937 Snapdragon 430 (28 nm), Redmi 4 Prime: Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "CPU": "Redmi 4: 8×1.4 GHz Cortex-A53, Redmi 4 Prime: 8×2.0 GHz Cortex-A53",
+      "GPU": "Redmi 4: Adreno 505, Redmi 4 Prime: Adreno 506"
+    },
+    "Memory": {
+      "RAM": "Redmi 4: 2 GB, Redmi 4 Prime: 3 GB, LPDDR3",
+      "Storage": "Redmi 4: 16 GB, Redmi 4 Prime: 32 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "Both models: IPS, 5.0\", 16:9, Redmi 4: 1280 × 720 (HD), 296 ppi, Redmi 4 Prime: 1920 × 1080 (FHD), 441 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Both models: 13 MP, f/2.2, PDAF, HDR, panorama, Video: 1080p@30fps, Redmi 4: LED flash, Redmi 4 Prime: 2-LED dual-tone flash",
+      "Front camera": "5 MP, f/2.2, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4100 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 4.1 (Redmi 4)/4.2 (Redmi 4 Prime) (A2DP, LE), IR port, FM radio, Wi-Fi 802.11 a/b /g/n (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "chipset": "Redmi 4: Qualcomm MSM8937 Snapdragon 430",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 4100,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 156,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 4",
+      "url": "https://en.wikipedia.org/wiki/Redmi_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 4",
+    "revid": 1374559848
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "samsung-sgh-f210",
+  "brand": "Samsung",
+  "name": "SGH-F210",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2007-11"
+    },
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Form factor": "Swivel",
+      "Dimensions": "87.8 x 31 x 20.5 mm",
+      "Weight": "72 g"
+    },
+    "Memory": {
+      "RAM": "1GB",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "128 x 220 Pixels 262.144 colours TFT screen"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 + EDR (A2DP/AVRCP), WAP 2.0, USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 72,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-F210",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-F210"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-F210\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-F210",
+    "revid": 1361483483
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

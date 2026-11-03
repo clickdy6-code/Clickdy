@@ -1,0 +1,103 @@
+{
+  "slug": "samsung-galaxy-a06",
+  "brand": "Samsung",
+  "name": "Galaxy A06",
+  "status": "published",
+  "announced": "2024-08-16",
+  "released": "2024-08-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Samsung_Galaxy_A06_5G_2025.jpg/500px-Samsung_Galaxy_A06_5G_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Samsung_Galaxy_A06_5G_2025.jpg/250px-Samsung_Galaxy_A06_5G_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A06",
+      "credit": "Captainmorlypogi1959, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A06_5G_2025.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A06: 2024-08-16, F06 5G: 2025-02-12, A06 5G: 2025-02-19, M06 5G: 2025-02-27",
+      "Series": "Galaxy A, Galaxy M, Galaxy F",
+      "Predecessor": "Samsung Galaxy A05",
+      "Successor": "Samsung Galaxy A07"
+    },
+    "Network": {
+      "Technology": "A06: 2G / 3G / 4G LTE, A06 5G, M06 5G and F06 5G: 2G / 3G / 4G LTE / 5G NR",
+      "SIM": "Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "167.3 mm H, 77.3 mm W, 8 mm D",
+      "Weight": "A06: 189 g, A06 5G, M06 5G and F06 5G: 191 g"
+    },
+    "Platform": {
+      "Operating system": "Original:, A06: Android 14 with One UI 6.1, A06 5G, M06 5G and F06 5G: Android 15 with One UI 7.0, Current:, A06: Android 16 with One UI 8.0, A06 5G, M06 5G and F06 5G: Android 16 with One UI 8.5",
+      "Chipset": "A06: MediaTek Helio G85 (12 nm), A06 5G, M06 5G and F06 5G: MediaTek Dimensity 6300 (6 nm)",
+      "CPU": "A06: Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55), A06 5G: Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "A06: Mali-G52 MC2, A06 5G, M06 5G and F06 5G: Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "4, 6 GB",
+      "Storage": "64, 128 GB"
+    },
+    "Display": {
+      "Display": "A06: 6.7 in, 720 x 1600 px resolution, 20:9 ratio (~262 ppi density), PLS LCD, 60Hz, A06 5G, F06 5G and M06 5G: 6.7 in, 720 x 1600 px resolution, 20:9 ratio (~262 ppi density), PLS LCD, 90Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Dual-Camera Setup, Primary: Samsung ISOCELL (S5K)JN1; 50 MP, f/1.8, 26mm, FoV 79.2°, 1/2.76\", 0.64µm, PDAF, Depth: SmartSens SC202CS; 2 MP, f/2.4, 1/5.1\", 1.75µm, Camera features: LED flash, Video recording: 1080p@30/60fps",
+      "Front camera": "GalaxyCore GC08A8; 8 MP, f/2.0, 26mm (wide), FoV 79°, 1/4.0\", 1.12µm, Video recording: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm auxiliary (headphone jack)"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "25 W Super Fast Charging (Charger not included in box)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Bluetooth 5.3, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "LCD",
+    "refresh_hz": 90,
+    "chipset": "A06: MediaTek Helio G85",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 189,
+    "thickness_mm": 8,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A06",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A06"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A06\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A06",
+    "revid": 1381417137
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

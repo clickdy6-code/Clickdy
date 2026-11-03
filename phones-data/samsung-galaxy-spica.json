@@ -1,0 +1,80 @@
+{
+  "slug": "samsung-galaxy-spica",
+  "brand": "Samsung",
+  "name": "Galaxy Spica",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Samsung_i5700.jpg/500px-Samsung_i5700.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Samsung_i5700.jpg/250px-Samsung_i5700.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Spica",
+      "credit": "Prunk -- Jan Prunk, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_i5700.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-11",
+      "Successor": "Samsung Galaxy 3"
+    },
+    "Network": {
+      "Technology": "HSDPA (3G) 900/2100, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115 mm H , 57 mm W , 13.2 mm D",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 1.5 \"Cupcake\", Current: Android 2.1 \"Eclair\"",
+      "CPU": "Samsung S3C6410 800 MHz",
+      "GPU": "FIMG 3DSE"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "512 MB flash, 180 MB user available",
+      "Card slot": "MicroSD support for up to 32 GB"
+    },
+    "Display": {
+      "Display": "320×480 px, 3.2 in, HVGA, 65,536 color LCD at 180 pixels per inch (ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Megapixels"
+    },
+    "Battery": {
+      "Battery": "Li-Ion (1500 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.1, Wi-Fi 802.11 b/g, GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "LCD",
+    "battery_mah": 1500,
+    "os": "Android 1.5",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 124,
+    "thickness_mm": 13.2,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Spica",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Spica"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Spica\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Spica",
+    "revid": 1361482960
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

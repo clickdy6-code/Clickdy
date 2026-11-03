@@ -1,0 +1,58 @@
+{
+  "slug": "samsung-galaxy-prevail",
+  "brand": "Samsung",
+  "name": "Galaxy Prevail",
+  "status": "published",
+  "announced": "2011-04-11",
+  "released": "2011-04-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-04-11",
+      "Series": "Samsung Galaxy"
+    },
+    "Network": {
+      "Technology": "Boost Mobile"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "4.4 in H , 2.3 in W , 0.5 in D",
+      "Weight": "3.8 oz"
+    },
+    "Memory": {
+      "Storage": "micro-SD (up to 32 GB supported)"
+    },
+    "Display": {
+      "Display": "3.2 in"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Prevail",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Prevail"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Prevail\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Prevail",
+    "revid": 1361482728
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-galaxy-tab-s6",
+  "brand": "Samsung",
+  "name": "Galaxy Tab S6",
+  "status": "published",
+  "announced": "2019-07-31",
+  "released": "2019-07-31",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Tab S6: 2019-07-31, Tab S6 5G: 2020-01-29, Tab S6 Lite: 2020-04-02, Tab S6 Lite 2022: 2022-05-14 , Tab S6 Lite 2024: 2024-03-26",
+      "Discontinued": "Tab S6 and S6 5G:",
+      "Series": "Galaxy Tab S",
+      "Predecessor": "Samsung Galaxy Tab S4, Samsung Galaxy Tab S5e",
+      "Successor": "Samsung Galaxy Tab S7, Samsung Galaxy Tab S10 Lite (for Tab S6 Lite)"
+    },
+    "Network": {
+      "Technology": "Tab S6: GSM / HSPA / LTE, Tab S6 5G: GSM / HSPA / LTE / 5G",
+      "SIM": "Nano-SIM (where applicable)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "244.5 mm H, 159.5 mm W, 5.7 mm D",
+      "Weight": "Tab S6 & Tab S6 5G: 420g, Tab S6 Lite (2020, 2022 & 2024): 465/467g"
+    },
+    "Platform": {
+      "Operating system": "S6 and S6 5G:, Original: Android 9.0 Pie with One UI 1.5, Current: Android 12.1/12L with One UI 4.1.1, S6 Lite:, Original: Android 10 with One UI 2.1, Current: Android 13 with One UI 5.1.1, S6 Lite 2022:, Original: Android 12 with One UI 4.1, Current: Android 14 with One UI 6.1.1, S6 Lite 2024:, Original: Android 14 with One UI 6.1, Current: Android 16 with One UI 8.5",
+      "Chipset": "Tab S6: Qualcomm Snapdragon 855 (7 nm), Tab S6 5G: Qualcomm Snapdragon 855+ (7 nm), Tab S6 Lite: Exynos 9611 (10nm), Tab S6 Lite 2022: Qualcomm Snapdragon 720G/732G (8nm) , Tab S6 Lite 2024: Exynos 1280 (5nm)",
+      "CPU": "Tab S6: Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485), Tab S6 5G: Octa-core (1x2.96 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.8 GHz Kryo 485), Tab S6 Lite: Octa-core (4x2.3 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53, Tab S6 Lite 2022: Octa-core (2x2.3 GHz Kyro 465/470 Gold & 6x1.8 GHz Kyro 465/470 Silver), Tab S6 Lite 2024: Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Tab S6/S6 5G: Adreno 640, Tab S6 Lite: Mali-G72 MP3, Tab S6 Lite 2022: Adreno 618, Tab S6 Lite 2024: Mali-G68 MP4"
+    },
+    "Memory": {
+      "RAM": "Tab S6: 4 GB, 6 GB, 8 GB RAM, Tab S6 5G: 6 GB RAM, Tab S6 Lite (2020, 2022 & 2024): 4 GB RAM",
+      "Storage": "Tab S6: 64 GB, 128 GB, 256 GB UFS 3.0, Tab S6 5G: 128 GB UFS 3.0 , Tab S6 Lite (2020, 2022 & 2024): 64 and 128 GB",
+      "Card slot": "microSDXC (up to 1 TB)"
+    },
+    "Display": {
+      "Display": "Tab S6: 10.5 in, px resolution, 16:10 ratio (~287 ppi density), Super AMOLED, HDR10+, Tab S6 Lite (2020, 2022 & 2024): 10.3 in, px resolution, 5:3 ratio (~224 ppi density), TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Tab S6: 13 MP, f/2.0, 26mm wide, 1/3.4\", 1.0µm, AF, 5 MP, f/2.2, 12mm ultrawide, 1.12µm, HDR, panorama, 4K@30fps, Tab S6 Lite: 8 MP, (wide), 1/4.0\", 1.12µm, 1080p@30fps",
+      "Front camera": "Tab S6: 8 MP, f/2.0, 26mm wide, 1/4\", 1.12µm, Tab S6 Lite: 5 MP, (wide), All: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, Tuned by AKG"
+    },
+    "Battery": {
+      "Battery": "Li-Po 7040 mAh, non-removable",
+      "Charging": "Wired fast charging up to 15W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "chipset": "Tab S6: Qualcomm Snapdragon 855",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 7040,
+    "wired_w": 15,
+    "os": "Android 9.0",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 420,
+    "thickness_mm": 5.7,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab S6",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab S6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab S6",
+    "revid": 1380801864
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

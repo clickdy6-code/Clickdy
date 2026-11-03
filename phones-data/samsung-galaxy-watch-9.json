@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-watch-9",
+  "brand": "Samsung",
+  "name": "Galaxy Watch 9",
+  "status": "published",
+  "announced": "2026-08-07",
+  "released": "2026-08-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Galaxy_Watch_Ultra2_and_Watch_9_series.jpg/500px-Galaxy_Watch_Ultra2_and_Watch_9_series.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Galaxy_Watch_Ultra2_and_Watch_9_series.jpg/250px-Galaxy_Watch_Ultra2_and_Watch_9_series.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Watch 9",
+      "credit": "Kyu3a, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_Watch_Ultra2_and_Watch_9_series.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-08-07",
+      "Series": "Galaxy Watch",
+      "Predecessor": "Samsung Galaxy Watch 8, Samsung Galaxy Watch Ultra"
+    },
+    "Network": {
+      "Technology": "LTE models: 4G LTE",
+      "SIM": "LTE models: eSIM"
+    },
+    "Body": {
+      "Form factor": "Smartwatch",
+      "Dimensions": "Watch 9 (40 mm): 42.7 x 40.4 x 8.6 mm, Watch 9 (44 mm): 46.0 x 43.7 x 8.6 mm, Watch Ultra 2: 47.4 x 47.1 x 10.7 mm",
+      "Weight": "31.5 g (40 mm), 34 g (44 mm), 61.5 g (Ultra 2, without strap)"
+    },
+    "Platform": {
+      "Operating system": "Wear OS 7.0 with One UI 9 Watch",
+      "Chipset": "Qualcomm Snapdragon Wear Elite (SDW6100, penta-core, 3 nm)"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB (Watch 9), 64 GB (Watch Ultra 2)"
+    },
+    "Display": {
+      "Display": "Watch 9: Super AMOLED, 1.34 in 438×438 (40 mm),1.47 in 480×480 (44 mm), up to 3,000 nits, Watch Ultra 2: Super AMOLED, 1.52 in (38.5 mm) 498×498, up to 5,000 nits, Sapphire crystal"
+    },
+    "Battery": {
+      "Battery": "390 mAh (40 mm), 445 mAh (44 mm), 800 mAh (Ultra 2)",
+      "Charging": "Qi-based wireless charging, Watch Ultra 2: high-frequency fast charging, up to 40% in about 30 minutes"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 6.0, Wi-Fi 2.4 GHz + 5 GHz, NFC, GPS (L1+L5 dual-frequency)"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "peak_nits": 5000,
+    "chipset": "Qualcomm Snapdragon Wear Elite",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "battery_mah": 390,
+    "five_g": false,
+    "nfc": true,
+    "esim": true,
+    "weight_g": 31.5,
+    "thickness_mm": 44,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Watch 9",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Watch_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Watch 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Watch 9",
+    "revid": 1383617654
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

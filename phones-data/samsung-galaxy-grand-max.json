@@ -1,0 +1,82 @@
+{
+  "slug": "samsung-galaxy-grand-max",
+  "brand": "Samsung",
+  "name": "Galaxy Grand Max",
+  "status": "published",
+  "announced": "2015-08-14",
+  "released": "2015-08-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 14, 2015",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy Grand 2"
+    },
+    "Network": {
+      "Technology": "2G GSM, 3G UMTS, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "146 x 74.8 x 7.9 mm",
+      "Weight": "161 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Android 4.4.4 \"KitKat\", Current: Android 5.1.1 \"Lollipop\"",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53"
+    },
+    "Memory": {
+      "RAM": "1.5 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "up to 64 GB"
+    },
+    "Display": {
+      "Display": "5.25 inch HD Super AMOLED 278 ppi (1280×720)."
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 2600 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN, Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_in": 5.25,
+    "display_type": "Super AMOLED",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 161,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Grand Max",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Grand_Max"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Grand Max\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Grand Max",
+    "revid": 1373056416
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

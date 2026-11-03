@@ -1,0 +1,64 @@
+{
+  "slug": "samsung-b3210",
+  "brand": "Samsung",
+  "name": "B3210",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series",
+      "Predecessor": "Samsung Tocco"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "104 x 53 x 11.9 mm",
+      "Weight": "93.5g",
+      "Other": "Touchscreen (Samsung S3650 version only), Full web browser (Jasmine), Haptic Touch feedback"
+    },
+    "Platform": {
+      "Operating system": "Samsung Touchwiz 1.0"
+    },
+    "Memory": {
+      "RAM": "144 MB",
+      "Card slot": "Micro SD, up to 8 GB"
+    },
+    "Display": {
+      "Display": "240 x 400 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel"
+    },
+    "Battery": {
+      "Battery": "Li-lon 1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 and USB 2.0"
+    }
+  },
+  "key": {
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 93.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung B3210",
+      "url": "https://en.wikipedia.org/wiki/Samsung_B3210"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung B3210\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung B3210",
+    "revid": 1367609844
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

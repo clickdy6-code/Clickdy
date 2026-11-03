@@ -1,0 +1,74 @@
+{
+  "slug": "samsung-blackjack-ii",
+  "brand": "Samsung",
+  "name": "BlackJack II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Pink_Samsung_Blackjack_II.jpg/500px-Pink_Samsung_Blackjack_II.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Pink_Samsung_Blackjack_II.jpg/250px-Pink_Samsung_Blackjack_II.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung BlackJack II",
+      "credit": "Joefrance1995, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pink_Samsung_Blackjack_II.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Blackjack",
+      "Predecessor": "BlackJack",
+      "Successor": "Samsung jack or Samsung Epix"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, UMTS, HSDPA, EDGE, GPRS"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "4.4\" x 2.3\" x 0.4\"",
+      "Weight": "3.52 oz"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6 Standard Edition",
+      "CPU": "260 MHz Texas Instruments OMAP 2420"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM, 256 MB ROM",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "320 x 240 pixels, 65K color TFT-LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel"
+    },
+    "Battery": {
+      "Battery": "3.7 Volt Lithium-ion, 1,700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1700,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung BlackJack II",
+      "url": "https://en.wikipedia.org/wiki/Samsung_BlackJack_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung BlackJack II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung BlackJack II",
+    "revid": 1378474625
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

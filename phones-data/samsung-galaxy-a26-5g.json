@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-galaxy-a26-5g",
+  "brand": "Samsung",
+  "name": "Galaxy A26 5G",
+  "status": "published",
+  "announced": "2025-03-02",
+  "released": "2025-03-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Samsung_Galaxy_A26_5G_2025.jpg/500px-Samsung_Galaxy_A26_5G_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Samsung_Galaxy_A26_5G_2025.jpg/250px-Samsung_Galaxy_A26_5G_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A26 5G",
+      "credit": "Captainmorlypogi1959, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A26_5G_2025.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-03-02",
+      "Series": "Galaxy A series",
+      "Predecessor": "Samsung Galaxy A25 5G",
+      "Successor": "Samsung Galaxy A27 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164 mm H , 77.5 mm W , 7.7 mm D",
+      "Weight": "200 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 15 with One UI 7, Current: Android 17 with One UI 9",
+      "Chipset": "Exynos 1380 (5nm) (all except Latin America), Exynos 1280 (5nm) (Latin America)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55) (Exynos 1280), Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55) (Exynos 1380)",
+      "GPU": "Mali-G68 MP5 (Exynos 1380), Mali-G58 (Exynos 1280)"
+    },
+    "Memory": {
+      "RAM": "6 GB, 8 GB RAM",
+      "Storage": "128 GB or 256 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.7 in, Infinity-U Display, 1080 x 2340 px resolution, 19.5:9 ratio (~385 ppi density), Super AMOLED, 120Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Samsung ISOCELL (S5K)JN1; 50 Megapixel, MP, f/1.8, 27mm, FoV 78.4°, 1/2.76\", 0.64 μm, PDAF, OIS, Ultrawide: Samsung ISOCELL (S5K)4HA; 8 Megapixel, MP, f/2.2, 16mm, FoV 108.7°, 1/4.0\", 1.12 μm, Macro: GalaxyCore GC02M1; 2 Megapixel, MP, f/2.4, 1/5.0\", 1.75 μm, Camera features: LED flash, panorama, HDR, Video recording: 4K resolution, 4K@30fps, 1080p@30fps, 720p@480fps, gyro-EIS",
+      "Front camera": "Hynix Hi-1339; 13 Megapixel, MP, f/2.2, 25mm (wide), FoV 80.6°, 1/3.06\", 1.12 μm, Video recording: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "Fast charging 25W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.3, A2DP, LE, GPS, GALILEO, GLONASS, BeiDou, QZSS, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Exynos 1380",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 200,
+    "thickness_mm": 7.7,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A26 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A26_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A26 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A26 5G",
+    "revid": 1383538301
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

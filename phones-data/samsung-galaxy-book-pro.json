@@ -1,0 +1,81 @@
+{
+  "slug": "samsung-galaxy-book-pro",
+  "brand": "Samsung",
+  "name": "Galaxy Book Pro",
+  "status": "published",
+  "announced": "2021-04-28",
+  "released": "2021-04-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%EB%B6%81_%ED%94%84%EB%A1%9C_360.jpg/500px-20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%EB%B6%81_%ED%94%84%EB%A1%9C_360.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%EB%B6%81_%ED%94%84%EB%A1%9C_360.jpg/250px-20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%EB%B6%81_%ED%94%84%EB%A1%9C_360.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Book Pro",
+      "credit": "Striker9498, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20230729_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_%EB%B6%81_%ED%94%84%EB%A1%9C_360.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-04-28",
+      "Series": "Galaxy Book"
+    },
+    "Body": {
+      "Form factor": "Laptop computer",
+      "Dimensions": "302.5 mm H, 202 mm W, 11.5 mm D",
+      "Weight": "1.04 kg (2.29 lbs)",
+      "Other": "Graphics:, Intel Iris Xe Graphics G7 (80EU)"
+    },
+    "Platform": {
+      "Operating system": "Original: Windows 10, Current: Windows 11",
+      "Chipset": "Intel Core i5 1135G7, Intel Core i7 1165G7"
+    },
+    "Memory": {
+      "RAM": "8GB, 16GB RAM",
+      "Storage": "256GB, 512GB, 1024GB"
+    },
+    "Display": {
+      "Display": "13.3 in, 1920 x 1080 (FHD) AMOLED Display"
+    },
+    "Cameras": {
+      "Front camera": "720p webcam"
+    },
+    "Sound": {
+      "Sound": "AKG Stereo Speakers with Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "65W charging"
+    }
+  },
+  "key": {
+    "display_in": 3.3,
+    "display_type": "AMOLED",
+    "chipset": "Intel Core i5 1135G7",
+    "ram_gb": [
+      8,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "thickness_mm": 11.5,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Book Pro",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Book_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Book Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Book Pro",
+    "revid": 1378742344
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

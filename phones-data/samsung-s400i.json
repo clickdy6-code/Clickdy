@@ -1,0 +1,68 @@
+{
+  "slug": "samsung-s400i",
+  "brand": "Samsung",
+  "name": "S400i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Samsung_S400i_closed.jpg/500px-Samsung_S400i_closed.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Samsung_S400i_closed.jpg/250px-Samsung_S400i_closed.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung S400i",
+      "credit": "ThePinkFireman, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_S400i_closed.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "91 x 45 x 21 mm",
+      "Weight": "88g"
+    },
+    "Memory": {
+      "Storage": "13 MB"
+    },
+    "Display": {
+      "Display": "1.8 inch, 176x220 px"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP, VGA"
+    },
+    "Battery": {
+      "Battery": "900 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 88
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung S400i",
+      "url": "https://en.wikipedia.org/wiki/Samsung_S400i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung S400i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung S400i",
+    "revid": 1361483354
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

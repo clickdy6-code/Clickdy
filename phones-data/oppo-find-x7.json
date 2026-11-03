@@ -1,0 +1,103 @@
+{
+  "slug": "oppo-find-x7",
+  "brand": "Oppo",
+  "name": "Find X7",
+  "status": "published",
+  "announced": "2024-01-08",
+  "released": "2024-01-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Oppo_Find_X7_Ultra.jpg/500px-Oppo_Find_X7_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Oppo_Find_X7_Ultra.jpg/250px-Oppo_Find_X7_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo Find X7",
+      "credit": "HundenvonPenang, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oppo_Find_X7_Ultra.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-01-08",
+      "Series": "Oppo Find X series",
+      "Predecessor": "Oppo Find X6",
+      "Successor": "Oppo Find X8"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Find X7: 162.7 x 75.4 x 9 mm, Find X7 Ultra: 164.3 x 76.2 x 9.5 mm",
+      "Weight": "Find X7: 206 g, Find X7 Ultra: 221 g or 218 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 14, (based on Android 14)",
+      "Chipset": "Find X7: List of MediaTek systems on chips#Dimensity 9000 Series, MediaTek Dimensity 9300, Find X7 Ultra: Qualcomm Snapdragon List of Qualcomm Snapdragon processors#Snapdragon 8/8s Gen 3 (2024), 8 Gen 3",
+      "CPU": "Octa-core, Find X7: (1x3.25 GHz Cortex-X4, 3x2.85 GHz Cortex-X4, 4x2.0 GHz Cortex-A720), Find X7 Ultra: (1x3.3 GHz Cortex-X4, 5x3.2 GHz Cortex-A720, 2x2.3 GHz Cortex-A520)",
+      "GPU": "Find X7: Immortalis-G720 MC12, Find X7 Ultra: Adreno 750"
+    },
+    "Memory": {
+      "RAM": "12 or 16 GB RAM LPDDR5X",
+      "Storage": "Find X7: 256 GB, 512 GB or 1 TB UFS 4.0, Find X7 Ultra: 256 or 512 GB UFS 4.0"
+    },
+    "Display": {
+      "Display": "Find X7: 6.78 in LTPO AMOLED capacitive touchscreen, (450 ppi with 91.1% screen-to-body ratio), 120 Hz refresh rate, 1B colors, HDR10+, Find X7 Ultra: 6.82 in LTPO AMOLED capacitive touchscreen, 1440p, (510 ppi with 90.3% screen-to-body ratio), 120 Hz refresh rate, 1B colors, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "Find X7: 50 MP, f/1.6, 23 mm, 1/1.56\" (wide) + 50 MP, f/2.0, 15 mm (ultrawide) + 64 MP, f/2.6, 70 mm, 1/2.0\" (telephoto), 3x optical zoom, omnidirectional PDAF, OIS, gyro-EIS, dual-LED flash, Auto HDR, 4K@30/60 fps, 1080p@30/60/240 fps, Find X7 Ultra: 50 MP, f/1.8, 23 mm, 1.0\"-type, 1.6 μm (wide) + 50 MP, f/2.0, 1/1.95\", 1.0 μm (ultrawide) + 50 MP (telephoto), f/2.6, 65 mm, 1/1.56\" (telephoto), 2.8x optical zoom + 50 MP, f/4.3, 1/1.95\", 1.0 μm (ultrawide) + 50 MP (telephoto), f/4.3, 135 mm, 1/2.51\" (telephoto), 6x optical zoom omnidirectional PDAF, OIS, gyro-EIS, dual-LED flash, Auto HDR, 4K@30/60 fps, 1080p@30/60/240 fps",
+      "Front camera": "32 MP, f/2.4, 21 mm, 1/2.74\", 0.8 μm, 4K@30 fps (Find X7), 4K@60 fps (Find X7 Ultra), HDR"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers with active noise cancellation and Active Privacy Protection for Voice Call"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "SuperVOOC technology"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi a/b/g/n/ac/6e/7, Bluetooth#Bluetooth 5.4, Bluetooth 5.4, A2DP, LE, aptX HD, LHDC"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Find X7: List of MediaTek systems on chips#Dimensity 9000 Se",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 5000,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 206,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Find X7",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Find_X7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Find X7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo Find X7",
+    "revid": 1379534125
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

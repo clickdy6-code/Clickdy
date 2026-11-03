@@ -1,0 +1,55 @@
+{
+  "slug": "samsung-m800-instinct",
+  "brand": "Samsung",
+  "name": "M800 Instinct",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Samsung Instinct s30"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "11.61×5.51×1.24 cm",
+      "Weight": "4.4 oz (127.4 g)"
+    },
+    "Memory": {
+      "Card slot": "2 GB MicroSD (included)"
+    },
+    "Display": {
+      "Display": "240 x 432 px, 3.1\" LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel"
+    },
+    "Battery": {
+      "Battery": "Lithium-ion polymer battery with 2nd battery included"
+    },
+    "Connectivity": {
+      "Connectivity": "Dock connector, Headphone jack, Bluetooth 2.0+EDR"
+    }
+  },
+  "key": {
+    "display_in": 3.1,
+    "display_type": "LCD",
+    "nfc": false,
+    "weight_g": 127.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung M800 Instinct",
+      "url": "https://en.wikipedia.org/wiki/Samsung_M800_Instinct"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung M800 Instinct\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung M800 Instinct",
+    "revid": 1361483278
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

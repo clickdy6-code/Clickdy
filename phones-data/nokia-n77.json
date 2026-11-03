@@ -1,0 +1,58 @@
+{
+  "slug": "nokia-n77",
+  "brand": "Nokia",
+  "name": "N77",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia N72",
+      "Successor": "Nokia N78"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Weight": "114 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.1, S60 3rd Edition",
+      "CPU": "Freescale 220 MHz"
+    },
+    "Memory": {
+      "RAM": "20 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels, 2.4\", 16M Colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel, LED flash",
+      "Front camera": "CIF Video Call Camera"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, Micro USB, SMS, MMS, Wi-Fi"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "os": "Symbian OS v9.1",
+    "nfc": false,
+    "weight_g": 114
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N77",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N77"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N77\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N77",
+    "revid": 1361478440
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

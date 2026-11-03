@@ -1,0 +1,84 @@
+{
+  "slug": "samsung-galaxy-a27-5g",
+  "brand": "Samsung",
+  "name": "Galaxy A27 5G",
+  "status": "published",
+  "announced": "2026-06-25",
+  "released": "2026-06-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A27 5G: 2026-06-25, M47 5G: 2026-06-29, Jump 5: 2026-07-02, F70 Pro 5G: 2026-08-03",
+      "Series": "Galaxy A/Galaxy M/Galaxy F",
+      "Predecessor": "Samsung Galaxy A26 5G, Samsung Galaxy M36 5G (Galaxy Jump 4)"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 16 with One UI 8.5, Current: Android 17 with One UI 9.0",
+      "Chipset": "Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
+      "CPU": "Octa-core (4x2.4 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55)",
+      "GPU": "Adreno 710"
+    },
+    "Memory": {
+      "RAM": "6 GB, 8 GB RAM",
+      "Storage": "128 GB or 256 GB",
+      "Card slot": "microSDXC"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: 50 MP, f/1.8, 27mm, FoV 78.4°, 1/2.76\", 0.64 μm, PDAF, OIS, Ultrawide: 8 MP, f/2.2, 16mm, FoV 108.7°, 1/4.0\", 1.12 μm, Macro: 2 MP, f/2.4, 1/5.0\", 1.75 μm, Camera features: LED flash, panorama, HDR, Video recording: 4K@30fps, 1080p@30fps, 720p@480fps, gyro-EIS",
+      "Front camera": "12 MP, f/2.2, 25mm (wide), FoV 80.6°, 1/3.06\", 1.12 μm, Video recording: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "A27 5G: 5000 mAh, M47 5G & F70 Pro 5G: 6000 mAh",
+      "Charging": "A27 5G: Fast charging 25W, M47 5G & F70 Pro 5G: Fast charging 45W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.3, A2DP, LE, GPS, GALILEO, GLONASS, BDS, QZSS, NFC"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm SM6475-AB Snapdragon 6 Gen 3",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 12,
+    "battery_mah": 5000,
+    "wired_w": 45,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "dual_sim": true,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A27 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A27_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A27 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A27 5G",
+    "revid": 1382372544
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "samsung-galaxy-a8",
+  "brand": "Samsung",
+  "name": "Galaxy A8",
+  "status": "published",
+  "announced": "2017-12-17",
+  "released": "2017-12-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/50/Samsung_Galaxy_A8_%282018%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/50/Samsung_Galaxy_A8_%282018%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung Galaxy A8",
+      "credit": "DoerNoc, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A8_(2018).png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-12-17",
+      "Series": "Galaxy A series",
+      "Predecessor": "Samsung Galaxy A8 (2016) , Samsung Galaxy A5 (2017) , Samsung Galaxy A7 (2017)",
+      "Successor": "Samsung Galaxy A8s , Samsung Galaxy A9 (2018) , Samsung Galaxy A50 (A8) , Samsung Galaxy A70 (A8+)"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "A8: H: 149.2 mm, W: 70.6 mm, D: 8.4 mm, A8+: H: 159.9 mm, W: 75.7 mm, D: 8.3 mm",
+      "Weight": "A8: 172 g, A8+: 191 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 \"Nougat\" with Samsung Experience 8.5 , Current: Android 9 \"Pie\" with One UI 1.0",
+      "Chipset": "Exynos 7885 Octa",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53)",
+      "GPU": "Mali-G71"
+    },
+    "Memory": {
+      "RAM": "A8: 4 GB RAM, A8+: 4 or 6 GB RAM",
+      "Storage": "32 or 64 GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "A8: 5.6 in 1080p AMOLED, ~441ppi with Gorilla Glass 4, A8+: 6 in 1080p AMOLED, ~410ppi with Gorilla Glass 4"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP, f/1.7, phase detection autofocus, LED flash, 1080p video at 30fps",
+      "Front camera": "Dual 16 MP + 8 MP, f/1.9, 1080p video @ 30FPS"
+    },
+    "Battery": {
+      "Battery": "Both: Non-removable, A8: 3,000 mAh, A8+: 3,500 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.6,
+    "display_type": "AMOLED",
+    "chipset": "Exynos 7885 Octa",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 16,
+    "battery_mah": 3000,
+    "os": "Android 7.1",
+    "five_g": false,
+    "weight_g": 172,
+    "thickness_mm": 8.4,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A8 (2018)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A8_%282018%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A8 (2018)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy A8 (2018)",
+    "revid": 1383538654
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

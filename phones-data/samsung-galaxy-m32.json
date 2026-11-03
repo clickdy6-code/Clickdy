@@ -1,0 +1,101 @@
+{
+  "slug": "samsung-galaxy-m32",
+  "brand": "Samsung",
+  "name": "Galaxy M32",
+  "status": "published",
+  "announced": "2021-06-28",
+  "released": "2021-06-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Samsung_Galaxy_M32.jpg/500px-Samsung_Galaxy_M32.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Samsung_Galaxy_M32.jpg/250px-Samsung_Galaxy_M32.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy M32",
+      "credit": "Blue Mango Juice, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_M32.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "India: , 2021-06-28 , Other markets: , 2021-07",
+      "Series": "Samsung Galaxy M series",
+      "Predecessor": "Samsung Galaxy M31",
+      "Successor": "Samsung Galaxy M33 5G"
+    },
+    "Network": {
+      "SIM": "Dual nanoSIM, DSDS"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "180 g (international) , 196 g (for India)"
+    },
+    "Platform": {
+      "Operating system": "Shipped:Android 11, One UI 3.0, Current:Android 13, One UI 5",
+      "Chipset": "MediaTek Helio G80 MT6769V/CU (12nm)",
+      "CPU": "Octa-core CPU (2x2.0 GHz ARM Cortex-A75 & 6x1.8 GHz ARM Cortex-A55)",
+      "GPU": "ARM Mali-G52 MC2"
+    },
+    "Memory": {
+      "RAM": "4, 6 or 8 GB RAM",
+      "Storage": "64 GB or 128 GB eMMC 5.1",
+      "Card slot": "microSD card support up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.4 in Super AMOLED, 1080 x 2400 pixels, 20:9 ratio, ~411 ppi pixel density, 90 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-camera setup: , 64 MP main camera , 8 MP wide-angle camera , 2 MP macro camera , 2 MP depth sensor",
+      "Front camera": "20 MP, f/2.2"
+    },
+    "Sound": {
+      "Sound": "3.5mm Jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh Li-ion battery (international) , 6000 mAh Li-ion battery (India)",
+      "Charging": "25W Samsung Super Fast Charging(International), 15W Samsung Fast Charging(India)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi , Wi-Fi Direct , Wi-Fi Hotspot , Bluetooth 5.0 , 3.5 mm headphone jack , USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 90,
+    "chipset": "MediaTek Helio G80 MT6769V/CU",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 20,
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 11",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 180,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M32",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M32"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M32\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M32",
+    "revid": 1380482460
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

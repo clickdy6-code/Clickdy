@@ -1,0 +1,61 @@
+{
+  "slug": "samsung-e1107",
+  "brand": "Samsung",
+  "name": "E1107",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Samsung_E1107.jpg/500px-Samsung_E1107.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Samsung_E1107.jpg/250px-Samsung_E1107.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung E1107",
+      "credit": "Yamavu, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_E1107.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Samsung Blue Earth (with solar charging support), Samsung Galaxy Mini (direct)"
+    },
+    "Network": {
+      "Technology": "GSM 900, GSM 1800"
+    },
+    "Body": {
+      "Form factor": "candybar",
+      "Dimensions": "105.2 x 44.15 x 16.4",
+      "Weight": "119 g",
+      "Other": "solar panel"
+    },
+    "Memory": {
+      "Storage": "1.5MB (up to 500 contacts)"
+    },
+    "Display": {
+      "Display": "128x128px, 1.52\", 65K CSTN"
+    },
+    "Battery": {
+      "Battery": "Li-ion 800 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 800,
+    "five_g": false,
+    "weight_g": 119
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung E1107",
+      "url": "https://en.wikipedia.org/wiki/Samsung_E1107"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung E1107\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung E1107",
+    "revid": 1361480519
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

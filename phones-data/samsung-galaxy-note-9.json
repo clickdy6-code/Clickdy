@@ -1,0 +1,110 @@
+{
+  "slug": "samsung-galaxy-note-9",
+  "brand": "Samsung",
+  "name": "Galaxy Note 9",
+  "status": "published",
+  "announced": "2018-08-24",
+  "released": "2018-08-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Samsung_Galaxy_Note_9.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Samsung_Galaxy_Note_9.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung Galaxy Note 9",
+      "credit": "TheWikiContributor, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Note_9.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-08-24",
+      "Series": "Galaxy Note",
+      "Predecessor": "Samsung Galaxy Note 8",
+      "Successor": "Samsung Galaxy Note 10"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE",
+      "SIM": "1x or 2x nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 161.9 mm, W: 76.4 mm, D: 8.8 mm",
+      "Weight": "201 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Oreo 8.1 with Samsung Experience 9.5, Current: Android 10 with One UI 2.5 , Unofficial: Up to Android 15 with One UI 7.0, Noble ROM",
+      "Chipset": "Australia, United Kingdom and the rest of the world: Samsung Exynos 9810, North America, China, Hong Kong, Japan and Latin America: Qualcomm Snapdragon 845",
+      "CPU": "Exynos: Octa-core (4x2.7 GHz Cortex-A55 & 4x1.7 GHz Mongoose M3), Snapdragon: Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Exynos: Mali (GPU), Mali-G72 MP18, Snapdragon: Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6 GB (128 GB model) 8 GB (512 GB model)",
+      "Storage": "128 GB or 512 GB UFS 2.1",
+      "Card slot": "microSD card support up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.4 inches (162.0 mm) Super AMOLED capacitive touchscreen display, 2960×1440 px resolution (516 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 12 MP (1.4 μm, f/1.5/2.4) + 12 MP ((1.0 μm), f/2.4), Dual OIS, 4K at 30 or 60 fps (limited to 5 min)[1], QHD at 30 fps, 1080p at 30 or 60 fps, 720p at 30 fps and slow motion at 960 fps",
+      "Front camera": "8 MP (1.22 μm, f/1.7), autofocus"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers tuned by AKG with Dolby Atmos support"
+    },
+    "Battery": {
+      "Battery": "4000 mAh (non user-replaceable)",
+      "Charging": "Wired: Qualcomm Quick Charge 2.0 (15 W), Qi wireless charging at 15 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 5 802.11 a/b/g/n/ac (2.4/5 GHz), VHT80, MU-MIMO, 1024-QAM Bluetooth 5.0 (LE up to 2 Mbps), ANT+, USB-C, 3.5 mm headphone jack, NFC, location (GPS, Galileo, GLONASS, BeiDou)"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "Super AMOLED",
+    "chipset": "Australia",
+    "ram_gb": [
+      6,
+      8,
+      12,
+      28
+    ],
+    "storage_gb": [
+      128,
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "wireless_w": 15,
+    "wired_w": 15,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": true,
+    "wifi": "Wi-Fi 5",
+    "usb": "USB-C",
+    "weight_g": 201,
+    "thickness_mm": 8.8,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note 9",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note 9",
+    "revid": 1382949793
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

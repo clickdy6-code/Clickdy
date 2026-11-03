@@ -1,0 +1,91 @@
+{
+  "slug": "hmd-nokia-g300",
+  "brand": "HMD",
+  "name": "Nokia G300",
+  "status": "published",
+  "announced": "2021-10-19",
+  "released": "2021-10-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-10-19",
+      "Series": "Nokia G series",
+      "Predecessor": "Nokia G20"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "169.4 × 78.4 × 9.3 mm",
+      "Weight": "210 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11",
+      "Chipset": "Qualcomm Snapdragon 480 5G",
+      "CPU": "Octa-core (2×2.0 GHz Kryo 460 & 6×1.8 GHz Kryo 460)",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSDXC (expandable)"
+    },
+    "Display": {
+      "Display": "6.52 in (166 mm) IPS LCD, 720 × 1600 pixels, 20:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP (wide) + 5 MP (ultra-wide) + 2 MP (depth)",
+      "Front camera": "8 MP"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "4470 mAh (non-removable)",
+      "Charging": "18 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, Bluetooth 5.0, GPS, NFC, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.52,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 480 5G",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4470,
+    "wired_w": 18,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 210,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia G300",
+      "url": "https://en.wikipedia.org/wiki/Nokia_G300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia G300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia G300",
+    "revid": 1361478266
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

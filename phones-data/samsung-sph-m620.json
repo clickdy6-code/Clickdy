@@ -1,0 +1,56 @@
+{
+  "slug": "samsung-sph-m620",
+  "brand": "Samsung",
+  "name": "SPH-M620",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA 800/1900, EVDO"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "4.1 x 1.7 x 0.35 in (10.4 x 4.3 x 0.9 cm)",
+      "Weight": "2.6 oz (70 g)"
+    },
+    "Memory": {
+      "RAM": "45.3 MB",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "176 X 220 px TFT LCD, 262k colors"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 Megapixel VGA"
+    },
+    "Battery": {
+      "Battery": "800 mAh Lithium ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "nfc": false,
+    "weight_g": 70
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SPH-M620",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SPH-M620"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SPH-M620\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SPH-M620",
+    "revid": 1361483626
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "xiaomi-redmi-13",
+  "brand": "Xiaomi",
+  "name": "Redmi 13",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Redmi_13_Product_photography_05.jpg/500px-Redmi_13_Product_photography_05.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Redmi_13_Product_photography_05.jpg/250px-Redmi_13_Product_photography_05.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 13",
+      "credit": "Wasiul Bahar, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_13_Product_photography_05.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Redmi / Redmi Note / POCO M series",
+      "Predecessor": "Redmi 12 / POCO M5",
+      "Successor": "Redmi 15"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14 with HyperOS, Current: Android 16 with HyperOS 3",
+      "Chipset": "4G models: MediaTek Helio G91 (12 nm), 5G models: Qualcomm Snapdragon 4 Gen 2 AE (4 nm)",
+      "CPU": "Octa-core",
+      "GPU": "Mali-G52 MC2 (4G), Adreno 613 (5G)"
+    },
+    "Memory": {
+      "RAM": "4–12 GB LPDDR4X",
+      "Storage": "128–512 GB (eMMC 5.1 / UFS 2.2)",
+      "Card slot": "microSDXC (up to 1 TB)"
+    },
+    "Display": {
+      "Display": "6.79 in IPS LCD, 2460 × 1080 (FHD+), 90Hz / 120Hz"
+    },
+    "Cameras": {
+      "Rear camera": "108 MP (HM6) or 50 MP (Note 13R) + 2 MP macro",
+      "Front camera": "13 MP (8 MP on Note 13R)"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm audio jack"
+    },
+    "Battery": {
+      "Battery": "5030 mAh Li-Po",
+      "Charging": "33W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Wi-Fi ac, Bluetooth 5.x, GPS, NFC (market dependent), IR blaster"
+    }
+  },
+  "key": {
+    "display_in": 6.79,
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "chipset": "4G models: MediaTek Helio G91",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 108,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 13,
+    "battery_mah": 5030,
+    "wired_w": 33,
+    "os": "Android 14",
+    "nfc": true,
+    "usb": "USB-C"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 13",
+      "url": "https://en.wikipedia.org/wiki/Redmi_13"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 13\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 13",
+    "revid": 1365486694
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

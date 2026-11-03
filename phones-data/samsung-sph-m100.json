@@ -1,0 +1,50 @@
+{
+  "slug": "samsung-sph-m100",
+  "brand": "Samsung",
+  "name": "SPH-M100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "Sprint PCS/CDMA 1900"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Dimensions": "4.1 x 1.7 x 0.9 in (106 x 46 x 23 mm)",
+      "Weight": "4.2 oz (119 g)"
+    },
+    "Memory": {
+      "RAM": "64 MB"
+    },
+    "Display": {
+      "Display": "five-line Segment"
+    },
+    "Battery": {
+      "Battery": "Lithium-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB"
+    }
+  },
+  "key": {
+    "nfc": false,
+    "weight_g": 119
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SPH-M100",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SPH-M100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SPH-M100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SPH-M100",
+    "revid": 1372515471
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

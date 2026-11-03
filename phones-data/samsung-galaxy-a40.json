@@ -1,0 +1,95 @@
+{
+  "slug": "samsung-galaxy-a40",
+  "brand": "Samsung",
+  "name": "Galaxy A40",
+  "status": "published",
+  "announced": "2019-04-10",
+  "released": "2019-04-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Samsung_A40.jpg/500px-Samsung_A40.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Samsung_A40.jpg/250px-Samsung_A40.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A40",
+      "credit": "Nils Austa, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_A40.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-04-10",
+      "Series": "Samsung Galaxy A series",
+      "Predecessor": "Samsung Galaxy J6",
+      "Successor": "Samsung Galaxy A41"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "144.4 mm H , 69.2 mm W , 7.9 mm D",
+      "Weight": "140 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Pie, Android 9.0 \"Pie\" with One UI#One UI 1, One UI 1.1, Currently: Android 11 with One UI#One UI 3, One UI 3.1",
+      "Chipset": "Samsung Exynos 7 Octa 7904",
+      "CPU": "Octa-core (2x1.8 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53)",
+      "GPU": "Mali-G71 MP2"
+    },
+    "Memory": {
+      "RAM": "4 RAM",
+      "Storage": "64 GB"
+    },
+    "Display": {
+      "Display": "5.9 in 1080 x 2340 px (437 ppi) Super AMOLED Gorilla Glass 3, 19.5:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP, f/1.7 aperture, PDAF (Wide-angle), 5 MP, f/2.2 aperture, 12mm (Ultra-wide angle)",
+      "Front camera": "25 MP, f/2.0 aperture"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "3100 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi hotspot, Bluetooth: 5.0, USB: 2.0, Type-C 1.0 reversible connector"
+    }
+  },
+  "key": {
+    "display_in": 5.9,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 7 Octa 7904",
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 25,
+    "battery_mah": 3100,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 140,
+    "thickness_mm": 7.9,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A40",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A40"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A40\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A40",
+    "revid": 1383537644
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

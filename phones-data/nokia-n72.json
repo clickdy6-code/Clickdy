@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-n72",
+  "brand": "Nokia",
+  "name": "N72",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/35/Nokia_N72_large.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/35/Nokia_N72_large.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia N72",
+      "credit": "Neo, Attribution via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N72_large.jpg",
+      "license": "Attribution"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6681",
+      "Successor": "Nokia N77"
+    },
+    "Network": {
+      "Technology": "GPRS, EDGE"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108.8 × 53 × 22 mm",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v8.1a, S60 2nd Edition Feature Pack 3",
+      "CPU": "TI OMAP 1710, ARM9 32-bit RISC CPU @ 220 MHz"
+    },
+    "Memory": {
+      "RAM": "20 MB",
+      "Card slot": "DV RS-MMC / MMC-Mobile"
+    },
+    "Display": {
+      "Display": "176 × 208 pixels 256k, matrix screen"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels, 1600 × 1200",
+      "Front camera": "No"
+    },
+    "Sound": {
+      "Sound": "Polyphonic (64 channels), MP3"
+    },
+    "Battery": {
+      "Battery": "Li-Ion BL-5C Battery, 3.7 V, 1020 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "battery_mah": 1020,
+    "os": "Symbian OS v8.1a",
+    "nfc": false,
+    "weight_g": 124
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N72",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N72"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N72\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N72",
+    "revid": 1361478426
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

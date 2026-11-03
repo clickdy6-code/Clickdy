@@ -1,0 +1,65 @@
+{
+  "slug": "nokia-7110",
+  "brand": "Nokia",
+  "name": "7110",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Nokia_7110_open.png/500px-Nokia_7110_open.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Nokia_7110_open.png/250px-Nokia_7110_open.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 7110",
+      "credit": "Original photo by Falense, Gimpshopped by Opspin, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7110_open.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 1999",
+      "Predecessor": "Nokia 8146 (7110), Nokia 8148 (7160), Nokia 8148i (7190)",
+      "Successor": "Nokia 7650 (7110), Nokia 3660 (7160), Nokia 3600 (7190), Nokia 3620 (7190)"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 (7110), TDMA 850/1900, AMPS 850 (7160), GSM 1900 (7190)",
+      "SIM": "Mini-SIM"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "125 ×",
+      "Weight": "140 g"
+    },
+    "Memory": {
+      "RAM": "No",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "96x65 Monochrome graphic"
+    },
+    "Battery": {
+      "Battery": "BPS-1, 600 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 600,
+    "five_g": false,
+    "weight_g": 140,
+    "year": 1999
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7110",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7110"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7110\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7110",
+    "revid": 1361477760
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

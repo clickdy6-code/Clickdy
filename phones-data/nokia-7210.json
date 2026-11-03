@@ -1,0 +1,80 @@
+{
+  "slug": "nokia-7210",
+  "brand": "Nokia",
+  "name": "7210",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/70/IBook_G3_and_Nokia_7210_%28cropped_7210_version%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/IBook_G3_and_Nokia_7210_%28cropped_7210_version%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 7210",
+      "credit": "Wayne Sadler, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IBook_G3_and_Nokia_7210_(cropped_7210_version).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2002-10",
+      "Discontinued": "2003",
+      "Predecessor": "Nokia 8310",
+      "Successor": "Nokia 7250"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900, GPRS",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "106 mm H , 45 mm W , 17.5 mm D",
+      "Weight": "83 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 1st Edition",
+      "CPU": "50 MHz UPP8M, ARM7"
+    },
+    "Memory": {
+      "RAM": "512 KB SRAM",
+      "Storage": "8 MB"
+    },
+    "Display": {
+      "Display": "1.5 in diagonal CSTN LCD, 128 × 128 px, 1:1 aspect-ratio, 4096 colors"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, Pop-Port (Line out)"
+    },
+    "Battery": {
+      "Battery": "Nokia BLD-3, 780 mAh, 3.7 V user replaceable Li-ion",
+      "Charging": "Nokia 3.5-mm DC Charging Interface"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA, Pop-Port (FBus)"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 780,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 83,
+    "thickness_mm": 17.5,
+    "year": 2002
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7210",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7210"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7210\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7210",
+    "revid": 1362748659
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

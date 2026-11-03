@@ -1,0 +1,80 @@
+{
+  "slug": "xiaomi-redmi-2",
+  "brand": "Xiaomi",
+  "name": "Redmi 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Xiaomi_wt88047_plamo_%28cropped%2C_enhanced%29.png/500px-Xiaomi_wt88047_plamo_%28cropped%2C_enhanced%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Xiaomi_wt88047_plamo_%28cropped%2C_enhanced%29.png/250px-Xiaomi_wt88047_plamo_%28cropped%2C_enhanced%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 2",
+      "credit": "JulianGro (from postmarketOS wiki), CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_wt88047_plamo_(cropped,_enhanced).png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-01",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 1S",
+      "Successor": "Redmi 2 Prime (Revision), Redmi 3"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "MIUI 6 based on Android v4.4 KitKat",
+      "Chipset": "1.2 GHz Qualcomm Snapdragon 410 MSM8916",
+      "CPU": "Quad Core ARMv8 1.2 GHz",
+      "GPU": "Adreno 306 GPU"
+    },
+    "Memory": {
+      "RAM": "1GB or 2GB",
+      "Storage": "8GB or 16GB",
+      "Card slot": "Up to 32GB"
+    },
+    "Display": {
+      "Display": "1280 x 720 pixel, 4.7 inch IPS Display (312ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixel, BSI, f/2.2, Full HD video recording",
+      "Front camera": "2 megapixels, f/2.0, HD video recording"
+    },
+    "Battery": {
+      "Battery": "2200 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "IPS",
+    "chipset": "1.2 GHz Qualcomm Snapdragon 410 MSM8916",
+    "ram_gb": [
+      1,
+      2
+    ],
+    "storage_gb": [
+      8,
+      16
+    ],
+    "battery_mah": 2200,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 2",
+      "url": "https://en.wikipedia.org/wiki/Redmi_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 2",
+    "revid": 1370590433
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

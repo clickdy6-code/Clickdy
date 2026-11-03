@@ -1,0 +1,51 @@
+{
+  "slug": "samsung-sgh-x480",
+  "brand": "Samsung",
+  "name": "SGH-X480",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Samsung_SGH-X480.jpg/500px-Samsung_SGH-X480.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Samsung_SGH-X480.jpg/250px-Samsung_SGH-X480.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SGH-X480",
+      "credit": "Oxiq, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_SGH-X480.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "Tri Band (GSM 900 / 1800 / 1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Dimensions": "85 x 43.5 x 22 mm",
+      "Weight": "75 g"
+    },
+    "Battery": {
+      "Battery": "800 mAh Li-ion"
+    }
+  },
+  "key": {
+    "battery_mah": 800,
+    "five_g": false,
+    "weight_g": 75
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-X480",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-X480"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-X480\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-X480",
+    "revid": 1382835062
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

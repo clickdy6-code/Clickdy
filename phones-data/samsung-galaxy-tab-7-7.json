@@ -1,0 +1,80 @@
+{
+  "slug": "samsung-galaxy-tab-7-7",
+  "brand": "Samsung",
+  "name": "Galaxy Tab 7.7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2011",
+      "Series": "Galaxy Tab",
+      "Predecessor": "Samsung Galaxy Tab",
+      "Successor": "Samsung Galaxy Tab 3 8.0"
+    },
+    "Body": {
+      "Form factor": "Tablet, media player, PC",
+      "Dimensions": "196.7 mm H, 133.0 mm W, 7.9 mm D",
+      "Weight": "340 g"
+    },
+    "Platform": {
+      "Operating system": "Android 3.2 \"Honeycomb\" upgradable to Android 4.1.2 \"Jelly Bean\"",
+      "CPU": "1.4 GHz dual-core ARM Cortex-A9 SoC processor Samsung Exynos 4210",
+      "GPU": "ARM Mali-400 MP"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "16/32/64 GB flash memory, microSD slot (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "1280×800 px (1 megapixel), 7.7 in diagonal, 197 ppi, Super AMOLED Plus display"
+    },
+    "Cameras": {
+      "Rear camera": "3.0 MP AF camera with LED flash, 2.0 MP front-facing (for video calls)"
+    },
+    "Battery": {
+      "Battery": "5,100 mAh Li-Ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "HSPA+ 21 Mbit/s 850/900/1900/2100 MHz , EDGE/GPRS 850/900/1800/1900 MHz , Wi-Fi 802.11a/b/g/n, Bluetooth 3.0, HDMI (external cable)"
+    }
+  },
+  "key": {
+    "display_in": 7.7,
+    "display_type": "Super AMOLED",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 3,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 5100,
+    "os": "Android 3.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 340,
+    "thickness_mm": 7.9,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab 7.7",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_7.7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab 7.7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab 7.7",
+    "revid": 1378044214
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

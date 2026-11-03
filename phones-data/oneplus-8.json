@@ -1,0 +1,98 @@
+{
+  "slug": "oneplus-8",
+  "brand": "OnePlus",
+  "name": "8",
+  "status": "published",
+  "announced": "2020-04-14",
+  "released": "2020-04-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/OnePlus_8_Pro.jpg/500px-OnePlus_8_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/OnePlus_8_Pro.jpg/250px-OnePlus_8_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 8",
+      "credit": "Pluckerwank, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_8_Pro.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-04-14",
+      "Predecessor": "OnePlus 7T",
+      "Successor": "OnePlus 8T"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "8: 160.2 x 72.9 x 8 mm, 8 Pro: 165.3 x 74.4 x 8.5 mm",
+      "Weight": "8: 180 g, 8 Pro: 199 g"
+    },
+    "Platform": {
+      "Operating system": "Original: OxygenOS 10, (based on Android 10), Current: OxygenOS 13, (based on Android 13)",
+      "Chipset": "Qualcomm Snapdragon 865",
+      "CPU": "Octa-core (1x2.84 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)",
+      "GPU": "Qualcomm Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8 or 12 GB RAM, 8: LPDDR4X, 8 Pro: LPDDR5",
+      "Storage": "128 GB or 256 GB UFS 3.0"
+    },
+    "Display": {
+      "Display": "Fluid AMOLED capacitive touchscreen with HDR10+ support, 8: 6.55 in 1080p, (402 Pixel density, ppi with 20:9 Display aspect ratio, aspect ratio), 90 Hertz, Hz refresh rate, 16 million colors, 8 Pro: 6.78 in 1440p, (513 Pixel density, ppi with 19.8:9 Display aspect ratio, aspect ratio), 120 Hertz, Hz refresh rate, 1 billion colors"
+    },
+    "Cameras": {
+      "Rear camera": "8: 48 MP, f/1.78, 25 mm, 1/2\", 0.8 μm (wide), 16 MP, f/2.2, 14 mm (ultrawide), 2 MP, f/2.4, 1.75 μm (macro), Autofocus#Phase detection, PDAF, 8 Pro: 48 MP, f/1.75, 25 mm, 1/1.43\", 1.12 μm (wide), 48 MP, f/2.2, 14 mm, 1/2\", 0.8 μm (ultrawide), 8 MP, f/2.44, 1.0 μm (telephoto), 5 MP, f/2.4 (depth), 3x optical zoom, omnidirectional Autofocus#Phase detection, PDAF, Laser Autofocus, AF, Both: Image stabilization#Optical image stabilization, OIS, gyro-Image stabilization#Digital image stabilization, EIS, dual-LED flash, Auto HDR, 4K@30/60 fps, 1080p@30/60/240 fps, 720p@480 fps",
+      "Front camera": "16 MP, f/2.45, 1/3\", 1.0 μm , 1080p@30 fps, Auto-HDR, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos Dual stereo speakers with active noise cancellation"
+    },
+    "Battery": {
+      "Battery": "8: 4300 mAh, 8 Pro: 4510 mAh, VOOC, Warp Charge technology"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.1, Bluetooth 5.1, Wi-Fi a/b/g/n/ac/ax, A2DP, LE, aptX HD, USB 3.1 Gen 1 (OTG, PTP, MIDI)"
+    }
+  },
+  "key": {
+    "display_in": 6.55,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 865",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4300,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 180,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 8",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "OnePlus 8",
+    "revid": 1381716064
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

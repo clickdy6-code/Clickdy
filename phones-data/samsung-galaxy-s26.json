@@ -1,0 +1,80 @@
+{
+  "slug": "samsung-galaxy-s26",
+  "brand": "Samsung",
+  "name": "Galaxy S26",
+  "status": "published",
+  "announced": "2026-03-11",
+  "released": "2026-03-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/20260227_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_S26_%EC%8B%9C%EB%A6%AC%EC%A6%88.jpg/500px-20260227_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_S26_%EC%8B%9C%EB%A6%AC%EC%A6%88.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/20260227_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_S26_%EC%8B%9C%EB%A6%AC%EC%A6%88.jpg/250px-20260227_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_S26_%EC%8B%9C%EB%A6%AC%EC%A6%88.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S26",
+      "credit": "Striker9498, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20260227_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_S26_%EC%8B%9C%EB%A6%AC%EC%A6%88.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "S26, S26+ and S26 Ultra: 2026-03-11, S26 FE: 2026-09-04",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S25"
+    },
+    "Network": {
+      "Technology": "GSM CDMA 2G, HSDPA CDMA2000 3G, 4G LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "S26: H: 149.6 mm, W: 71.7 mm, D: 7.2 mm, S26+: H: 158.4 mm, W: 75.8 mm, D: 7.3 mm, S26 Ultra: H: 163.6 mm, W: 78.1 mm, D: 7.9 mm, S26 FE: H: 161.6 mm, W: 76.9 mm, D: 7.4 mm",
+      "Weight": "S26: 167 g, S26+: 190 g, S26 Ultra: 214 g, S26 FE: 193 g"
+    },
+    "Platform": {
+      "Operating system": "Original:, All except S26 FE: Android 16 with One UI 8.5, S26 FE: Android 17 with One UI 9.0, Current: , All: Android 17 with One UI 9.0",
+      "Chipset": "S26 & S26+ (US, China) & S26 Ultra: Qualcomm Snapdragon 8 Elite Gen 5 (3 nm), S26 & S26+ (worldwide): Samsung Exynos 2600 (2 nm), S26 FE: Samsung Exynos 2500",
+      "GPU": "S26 & S26+ (US, China) & S26 Ultra (worldwide): Adreno 840, S26 & S26+ (worldwide): Xclipse 960, S26 FE: Adreno 840"
+    },
+    "Memory": {
+      "Storage": "S26 & S26+: 256, 512 GB, S26 Ultra: 256, 512 GB, 1 TB, S26 FE: 128, 256, 512 GB, UFS 4.0"
+    },
+    "Battery": {
+      "Battery": "S26: 4300 mAh, S26+, S26 FE: 4900 mAh, S26 Ultra: 5000 mAh",
+      "Charging": "S26:, 25W Super Fast Charging, 15W Fast Wireless Charging, S26+:, 45W Super Fast Charging, 20W Fast Wireless Charging, S26 Ultra:, 60W Super Fast Charging, 25W Fast Wireless Charging, S26 FE: Super fast charging 2.0 at 45W, All:, Qi2 wireless charging at up to 15W, Reverse charging at 4.5W (wired and wireless), All: 4.5W Reverse Wireless Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7, NFC"
+    }
+  },
+  "key": {
+    "chipset": "S26 & S26+",
+    "storage_gb": [
+      512,
+      1024
+    ],
+    "battery_mah": 4300,
+    "wireless_w": 15,
+    "wired_w": 60,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "weight_g": 167,
+    "thickness_mm": 7.2,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S26",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S26"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S26\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S26",
+    "revid": 1383386844
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

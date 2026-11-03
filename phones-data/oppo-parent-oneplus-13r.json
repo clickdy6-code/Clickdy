@@ -1,0 +1,98 @@
+{
+  "slug": "oppo-parent-oneplus-13r",
+  "brand": "Oppo (parent )",
+  "name": "OnePlus 13R",
+  "status": "published",
+  "announced": "2025-01-14",
+  "released": "2025-01-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/OnePlus_13R_front.jpg/500px-OnePlus_13R_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/OnePlus_13R_front.jpg/250px-OnePlus_13R_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo (parent ) OnePlus 13R",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_13R_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-01-14",
+      "Series": "OnePlus Ace / R series",
+      "Predecessor": "OnePlus 12R",
+      "Successor": "OnePlus 15R"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, HSPA, LTE, 5G",
+      "SIM": "Dual Nano-SIM / eSIM (market dependent)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.7 × 75.8 × 8 mm",
+      "Weight": "206 g"
+    },
+    "Platform": {
+      "Operating system": "Android 15 with OxygenOS 15",
+      "Chipset": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
+      "CPU": "Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)",
+      "GPU": "Adreno 750"
+    },
+    "Memory": {
+      "RAM": "12 GB (Europe and North America) or 16 GB RAM with built-in LPDDR5X (India)",
+      "Storage": "256 GB or 512 GB UFS 4.0",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "6.78 in (172 mm) LTPO 4.1 AMOLED ProXDR Display, 1264 x 2780 pixels, 19.8:9 ratio (~450 ppi density), 120Hz, Dolby Vision, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "Triple:, 50 MP, f/1.8 (wide), Sony LYT-700, OIS, 50 MP, f/2.0 (telephoto), S5KJN5, 2x optical zoom, 8 MP, f/2.2 (ultrawide), 112° FoV",
+      "Front camera": "16 MP, f/2.4, 26mm (wide)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 6000 mAh",
+      "Charging": "80W wired"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "LTPO 4.1 AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SM8650-AB Snapdragon 8 Gen 3",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 16,
+    "battery_mah": 6000,
+    "wired_w": 80,
+    "os": "Android 15",
+    "five_g": true,
+    "esim": true,
+    "weight_g": 206,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 13R",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_13R"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 13R\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 13R",
+    "revid": 1382785407
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

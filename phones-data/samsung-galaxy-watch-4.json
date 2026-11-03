@@ -1,0 +1,78 @@
+{
+  "slug": "samsung-galaxy-watch-4",
+  "brand": "Samsung",
+  "name": "Galaxy Watch 4",
+  "status": "published",
+  "announced": "2021-08-27",
+  "released": "2021-08-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_Watch_series.jpg/500px-Samsung_Galaxy_Watch_series.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_Watch_series.jpg/250px-Samsung_Galaxy_Watch_series.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Watch 4",
+      "credit": "Ka Kit Pang, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Watch_series.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-08-27",
+      "Series": "Galaxy Watch",
+      "Predecessor": "Samsung Galaxy Watch Active 2, Samsung Galaxy Watch 3",
+      "Successor": "Samsung Galaxy Watch 5"
+    },
+    "Network": {
+      "Technology": "Cellular: 3G, 4G"
+    },
+    "Body": {
+      "Form factor": "Smartwatch"
+    },
+    "Platform": {
+      "Operating system": "Original: Wear OS 3.0 with One UI Watch 3.0, Current: Wear OS 6.0 with One UI Watch 8.0",
+      "Chipset": "Exynos W920 (5 nm) System-in-Package",
+      "CPU": "Dual-core 1.18GHz Cortex-A55",
+      "GPU": "667MHz Mali-G68 MP2"
+    },
+    "Memory": {
+      "RAM": "1.5 GB LPDDR4X RAM",
+      "Storage": "16 GB eMMC 5.1"
+    },
+    "Display": {
+      "Display": "1.19 in RGB stripe Super AMOLED capacitive display, 396×396 pixels, 16 M colours, ~330 ppi, 1:1 aspect ratio, 1.36 in RGB stripe Super AMOLED capacitive display, 450×450 pixels, 16 M colours, ~327 ppi, 1:1 aspect ratio, Digital touch bezel or physical rotating bezel (Classic), Glass front (Gorilla Glass DX+) (Galaxy Watch 4) (Gorilla Glass DX+) (Galaxy Watch 4 Classic)"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion, 247mAh (40 mm), 361mAh (44 mm)",
+      "Charging": "Wireless up to 10W"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos W920",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 247,
+    "wireless_w": 10,
+    "five_g": false,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Watch 4",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Watch_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Watch 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Watch 4",
+    "revid": 1380484528
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

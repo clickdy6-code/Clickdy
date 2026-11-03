@@ -1,0 +1,94 @@
+{
+  "slug": "oneplus-9",
+  "brand": "OnePlus",
+  "name": "9",
+  "status": "published",
+  "announced": "2021-03-26",
+  "released": "2021-03-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/OnePlus_9_Pro_Camera_Module_with_Hasselblad_logo.jpg/500px-OnePlus_9_Pro_Camera_Module_with_Hasselblad_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/OnePlus_9_Pro_Camera_Module_with_Hasselblad_logo.jpg/250px-OnePlus_9_Pro_Camera_Module_with_Hasselblad_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 9",
+      "credit": "金琛玮, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_9_Pro_Camera_Module_with_Hasselblad_logo.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-03-26",
+      "Predecessor": "OnePlus 8T, OnePlus 8 Pro",
+      "Successor": "OnePlus 10 Pro"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "9 (EU/NA): 160 mm H , 74.2 mm W , 8.7 mm D, 9 (IN/CA): 160 mm H , 73.9 mm W , 8.1 mm D, 9 Pro: 163.2 mm H , 73.6 mm W , 8.7 mm D",
+      "Weight": "9 (EU/NA): 192 g, 9 (IN/CA): 183 g, 9 Pro: 197 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with OxygenOS 11 (upgradable to Android 14 with Oxygen OS 14), China: Android 11 with ColorOS 11",
+      "Chipset": "Qualcomm Snapdragon 888",
+      "CPU": "Octa-core (1x2.84 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680)",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "8 or 12 GB",
+      "Storage": "128 or 256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "Fluid AMOLED capacitive touchscreen with HDR10+ support and 120 Hz refresh rate, 9: 6.55 in 1080p, (402 Pixel density, ppi with 20:9 Display aspect ratio, aspect ratio), 16M colors, 9 Pro: 6.7 in 1440p, (525 Pixel density, ppi with 20:9 Display aspect ratio, aspect ratio), 1B colors"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 23mm (wide), 1/1.43\", 1.12 μm, 9: Sony Exmor IMX689 (Phase detection autofocus, omnidirectional PDAF), 9 Pro: Sony Exmor IMX789 (omnidirectional PDAF, Autofocus, Laser AF & Optical image stabilization, OIS), 50 MP, 14mm (ultrawide), 1/1.56\", 1.0 μm, 2 MP, f/2.4 (depth), Hasselblad optics, dual-LED flash, HDR, panorama, Video: 8K resolution, 8K@30 fps, 4K resolution, 4K@30/60/120 fps, 1080p@30/60/240 fps, Auto High dynamic range, HDR, Electronic image stabilization, gyro-EIS, 9 Pro: In addition to above:, 8 MP, 77mm (telephoto), 1.0 μm, PDAF, OIS, 3.3x optical zoom",
+      "Front camera": "16 MP, (wide), 1/3.06\", 1.0 μm"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker (stereo)"
+    },
+    "Battery": {
+      "Battery": "4500 mAh lithium polymer",
+      "Charging": "All: 65 W fast charging, 9 (EU/NA): 15 W fast wireless charging, 9 Pro: 50 W fast wireless charging"
+    }
+  },
+  "key": {
+    "display_in": 6.55,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 888",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K",
+    "front_mp": 16,
+    "battery_mah": 4500,
+    "wireless_w": 15,
+    "wired_w": 65,
+    "os": "Android 11",
+    "weight_g": 192,
+    "thickness_mm": 8.7,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 9",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "OnePlus 9",
+    "revid": 1382784937
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "samsung-galaxy-a57-5g",
+  "brand": "Samsung",
+  "name": "Galaxy A57 5G",
+  "status": "published",
+  "announced": "2026-03-25",
+  "released": "2026-03-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Samsung_Galaxy_A57_5G.jpg/500px-Samsung_Galaxy_A57_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Samsung_Galaxy_A57_5G.jpg/250px-Samsung_Galaxy_A57_5G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A57 5G",
+      "credit": "OGCWiki, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A57_5G.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-03-25",
+      "Series": "Galaxy A",
+      "Predecessor": "Samsung Galaxy A56 5G"
+    },
+    "Network": {
+      "SIM": "nano-SIM + eSIM, nano-SIM + nano-SIM + eSIM + eSIM (max 2 at a time)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.5 mm H , 76.8 mm W , 6.9 mm D",
+      "Weight": "179 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 16 with One UI 8.5, Current: Android 17 with One UI 9.0",
+      "Chipset": "Exynos 1680",
+      "CPU": "Octa-core (1x2.9 GHz Cortex-720 & 4x2.6 GHz Cortex-720 & 3x1.95 GHz Cortex-520)",
+      "GPU": "Xclipse 550"
+    },
+    "Memory": {
+      "RAM": "8 GB / 12 GB",
+      "Storage": "128 GB / 256 GB / 512 GB"
+    },
+    "Display": {
+      "Display": "6.7 in, 1080 x 2340 px resolution, 19.5:9 ratio (~385 ppi density), Super AMOLED+, 120Hz, 1200 nits (HBM), 1900 nits (peak), Corning Gorilla Glass Victus+, Mohs level 5"
+    },
+    "Cameras": {
+      "Rear camera": "Primary: Sony IMX 906 or Samsung ISOCELL (S5K)GNJ (region dependent); 50 Megapixel, MP, f-number, f/1.8, 23mm, FoV 85.3°, 1/1.56\", 1.0 Micrometre, μm, Phase detection autofocus, PDAF, Optical image stabilization, OIS, Ultrawide: Samsung ISOCELL (S5K)3L6; 12 Megapixel, MP, f-number, f/2.2, 13mm, FoV 116.3°, 1/3.06\", 1.12 Micrometre, μm, FF, Macro: GalaxyCore GC05A3; 5 Megapixel, MP, f-number, f/2.4, 25mm, 1/5.0\", 1.12 Micrometre, μm, FF, Camera features: Best Face, LED flash, Panorama, High dynamic range, HDR, Video recording: 4K resolution, 4K@30Frame rate, fps, 1080p@30/60Frame rate, fps, High dynamic range, HDR, gyro-EIS",
+      "Front camera": "Sony IMX 823; 12 MP, f/2.2, 25mm (wide), FoV 82°, 1/3.2\", 1.12 μm, FF, 4K@30fps, 1080p@30/60fps, 10-bit HDR"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "45 W Super Fast Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, Bluetooth 6"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 1900,
+    "chipset": "Exynos 1680",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "front_mp": 12,
+    "battery_mah": 5000,
+    "wired_w": 45,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": false,
+    "esim": true,
+    "weight_g": 179,
+    "thickness_mm": 6.9,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A57 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A57_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A57 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A57 5G",
+    "revid": 1383617021
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

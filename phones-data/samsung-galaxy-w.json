@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-w",
+  "brand": "Samsung",
+  "name": "Galaxy W",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Samsung_Galaxy_W_%28GT-I8150%29_front_1.jpg/500px-Samsung_Galaxy_W_%28GT-I8150%29_front_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Samsung_Galaxy_W_%28GT-I8150%29_front_1.jpg/250px-Samsung_Galaxy_W_%28GT-I8150%29_front_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy W",
+      "credit": "Andy.Cowley, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_W_(GT-I8150)_front_1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011",
+      "Series": "I Series",
+      "Successor": "Samsung Galaxy S III Mini"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS 850/900/1800/1900 MHz; 3GUMTS/HSDPA 850/900/1900/2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "115.5 mm H, 59.8 mm W, 11.5 mm D",
+      "Weight": "110 g",
+      "Other": "Exchange ActiveSync, integrated messaging Social Hub, Readers Hub, Music Hub, and Game Hub"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3 \"Gingerbread\" (Gingerbread) with TouchWiz UI 4.0",
+      "CPU": "1.4 GHz single-core Qualcomm Scorpion MSM8255T Snapdragon SoC processor",
+      "GPU": "Adreno 205 GPU"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB flash memory",
+      "Card slot": "microSD (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "800×480 px, 9.34 cm at 252 ppi WVGA TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5 Mpx with auto focus, 720p 30 fps HD video recording and stills Single LED flash",
+      "Front camera": "VGA for video chatting, video recording, and stills"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1500 mA·h"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS; Wi-Fi (802.11a/b/g/n); Wi-Fi Direct; Bluetooth 3.0; Micro-USB 2.0; DLNA, GPS"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110,
+    "thickness_mm": 11.5,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy W",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_W"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy W\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy W",
+    "revid": 1374882843
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

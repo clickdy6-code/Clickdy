@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-tab-a9",
+  "brand": "Samsung",
+  "name": "Galaxy Tab A9",
+  "status": "published",
+  "announced": "2023-10-05",
+  "released": "2023-10-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Samsung_Galaxy_Tab_A9%2B_tablet.jpg/500px-Samsung_Galaxy_Tab_A9%2B_tablet.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Samsung_Galaxy_Tab_A9%2B_tablet.jpg/250px-Samsung_Galaxy_Tab_A9%2B_tablet.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Tab A9",
+      "credit": "JGBlue1509, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Tab_A9%2B_tablet.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-10-05",
+      "Discontinued": "Tab A9: , Tab A9+:",
+      "Series": "Galaxy Tab A",
+      "Predecessor": "Samsung Galaxy Tab A8",
+      "Successor": "Samsung Galaxy Tab A11"
+    },
+    "Network": {
+      "Technology": "GSM (2G) 850 / 900 / 1800 / 1900, HSDPA (3G) 850 / 900 / 1700(AWS) / 1900 / 2100, LTE 4G 1, 2, 3, 4, 5, 7, 8, 12, 13 (Tab A9+ only), 17, 20, 26 (Tab A9+ only), 28, 38, 40, 41, 66, 5G 1, 3, 5, 7, 8, 20, 28, 38, 40, 41, 66, 77, 78 SA/NSA/Sub6 (Tab A9+ only)",
+      "SIM": "Nano-SIM + eSIM (cellular model only)"
+    },
+    "Body": {
+      "Form factor": "Tablet computer",
+      "Dimensions": "Tab A9: 211 x 124.7 x 8 mm, Tab A9+: 257.1 x 168.7 x 6.9 mm"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with One UI 5.1.1, Current: Android 16 with One UI 8",
+      "Chipset": "Tab A9: Mediatek Helio G99 (6 nm), Tab A9+ Qualcomm SM6375 Snapdragon 695 5G (6 nm)",
+      "CPU": "Tab A9: 2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55, Tab A9+: 2x2.2 GHz Kryo 660 Gold & 6x1.8 GHz Kryo 660 Silver",
+      "GPU": "Tab A9: Mali-G57 MC2, Tab A9+ Adreno 619"
+    },
+    "Memory": {
+      "RAM": "4/8GB RAM",
+      "Storage": "64/128/256 GB"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, autofocus, Video: 1080p@30fps",
+      "Front camera": "2 MP (Tab A9), 5 MP (Tab A9+), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Tab A9: Li-po 5100 mAh, Tab A9+: Li-po 7040 mAh",
+      "Charging": "15W Type-C 2.0 wired charging"
+    }
+  },
+  "key": {
+    "chipset": "Tab A9: Mediatek Helio G99",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 2,
+    "battery_mah": 5100,
+    "wired_w": 15,
+    "os": "Android 13",
+    "five_g": true,
+    "esim": true,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab A9",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_A9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab A9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab A9",
+    "revid": 1381370398
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

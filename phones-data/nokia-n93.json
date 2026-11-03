@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-n93",
+  "brand": "Nokia",
+  "name": "N93",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Nokia_n93-1.jpg/500px-Nokia_n93-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Nokia_n93-1.jpg/250px-Nokia_n93-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N93",
+      "credit": "affemitwaffe, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_n93-1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2006-07 , Announced April, 2006",
+      "Predecessor": "Nokia N90",
+      "Successor": "Nokia N93i, Nokia N95"
+    },
+    "Network": {
+      "Technology": "HSCSD, UMTS, Tri band GSM / GPRS / EDGE, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Dimensions": "118 × 55.5 × 28.2 mm",
+      "Weight": "180 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.1, S60 3rd Edition"
+    },
+    "Memory": {
+      "RAM": "50 MB",
+      "Card slot": "MiniSD"
+    },
+    "Display": {
+      "Display": "320 × 240 pixels; 262,144 colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Megapixels"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1100 mAh (BL – 6M)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, Infrared, Wi-Fi 802.11b/g, USB 2.0"
+    }
+  },
+  "key": {
+    "battery_mah": 1100,
+    "os": "Symbian OS v9.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 180,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N93",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N93"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N93\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N93",
+    "revid": 1374925988
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

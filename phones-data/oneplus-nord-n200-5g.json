@@ -1,0 +1,83 @@
+{
+  "slug": "oneplus-nord-n200-5g",
+  "brand": "OnePlus",
+  "name": "Nord N200 5G",
+  "status": "published",
+  "announced": "2021-06-25",
+  "released": "2021-06-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-06-25",
+      "Predecessor": "OnePlus Nord N100",
+      "Successor": "OnePlus Nord N300 5G"
+    },
+    "Body": {
+      "Dimensions": "163.1 mm H , 74.9 mm W , 8.3 mm D",
+      "Weight": "189 g"
+    },
+    "Platform": {
+      "Operating system": "Original: OxygenOS 11 (based on Android 11), Current: OxygenOS 12 (based on Android 12)",
+      "Chipset": "Qualcomm Snapdragon 480 (8 nm)",
+      "CPU": "Octa-core (2×2.0 GHz Kryo 260 & 6×1.8 GHz Kryo 260)",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB UFS 2.1",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.49 in (~83.2% screen-to-body ratio) 90Hz LTPS IPS LCD, 20:9 ratio (~406 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Triple:, 13 MP f/2.2 wide, PDAF, 2 MP f/2.4 macro, 2 MP f/2.4 depth",
+      "Front camera": "16 MP, f/2.1"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "5000 mAh Li-Ion",
+      "Charging": "18 W fast-charging"
+    }
+  },
+  "key": {
+    "display_in": 6.49,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "Qualcomm Snapdragon 480",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 11",
+    "weight_g": 189,
+    "thickness_mm": 8.3,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus Nord N200 5G",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_Nord_N200_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus Nord N200 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus Nord N200 5G",
+    "revid": 1383373443
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

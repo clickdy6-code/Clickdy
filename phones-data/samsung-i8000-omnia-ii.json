@@ -1,0 +1,85 @@
+{
+  "slug": "samsung-i8000-omnia-ii",
+  "brand": "Samsung",
+  "name": "i8000 Omnia II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Samsung_GT-i8000_8GB.png/500px-Samsung_GT-i8000_8GB.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Samsung_GT-i8000_8GB.png/250px-Samsung_GT-i8000_8GB.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung i8000 Omnia II",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_GT-i8000_8GB.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung Omnia Series",
+      "Predecessor": "Samsung i900 Omnia",
+      "Successor": "Samsung Galaxy S, Samsung Omnia 7"
+    },
+    "Network": {
+      "Technology": "HSUPA 5.76 Mbit/s, HSDPA 7.2 Mbit/s, EDGE/GPRS Quad Band 850, 900, 1,800, and 1,900 MHz, UMTS Tri Band 900, 1,900, and 2,100 MHz"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "118 × 60 × 11.9 mm",
+      "Weight": "117 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.1, upgradable to Windows Mobile 6.5 Professional",
+      "CPU": "Samsung S3C6410 ARM 1176 800 MHz (32-Bit) processor, dedicated graphics"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM, 512 MB ROM, 2, 8, or 16 GB internal flash memory",
+      "Storage": "8 or 16 GB",
+      "Card slot": "microSDHC 32 GB max."
+    },
+    "Display": {
+      "Display": "3.7 in 16M (limited to 65K) colours advanced resistive touchscreen WVGA AMOLED (480 × 800)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, 2,560×1,920 pixels, 720×480 (D1) video recording, autofocus, dual-LED flash, QVGA Slow Motion Capabilities at 120 FPS"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1.5 Ah, user-replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g, USB 2.0, Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "AMOLED",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "nfc": false,
+    "weight_g": 117
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung i8000 Omnia II",
+      "url": "https://en.wikipedia.org/wiki/Samsung_i8000_Omnia_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung i8000 Omnia II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung i8000 Omnia II",
+    "revid": 1361483771
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

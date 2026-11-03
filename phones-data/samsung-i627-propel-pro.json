@@ -1,0 +1,69 @@
+{
+  "slug": "samsung-i627-propel-pro",
+  "brand": "Samsung",
+  "name": "i627 Propel Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Samsung_SGH-i627.JPG/500px-Samsung_SGH-i627.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Samsung_SGH-i627.JPG/250px-Samsung_SGH-i627.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung i627 Propel Pro",
+      "credit": "Walshga, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_SGH-i627.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "HSDPA, GSM 850/900/1800/1900, UMTS 850/1900/2100, EDGE, GPRS"
+    },
+    "Body": {
+      "Form factor": "slider",
+      "Dimensions": "61 × 99.4 × 16.7 millimetres (3.9 × 2.4 × 0.6 inches)",
+      "Weight": "105 grams (4.83 ounces)",
+      "Other": "built-in GPS receiver"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.1 Standard",
+      "CPU": "528 MHz Qualcomm MSM7201 ARM11"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM/256 MB ROM",
+      "Card slot": "MicroSD, MicroSDHC"
+    },
+    "Display": {
+      "Display": "320 × 320 px, 65k colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.0 megapixel"
+    },
+    "Battery": {
+      "Battery": "3.7 V Lithium-ion 1,440 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi b/g, Bluetooth 2.0, USB 2.0 client, 12 Mbit/s mini-USB"
+    }
+  },
+  "key": {
+    "battery_mah": 1440,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung i627 Propel Pro",
+      "url": "https://en.wikipedia.org/wiki/Samsung_i627_Propel_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung i627 Propel Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung i627 Propel Pro",
+    "revid": 1370099974
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

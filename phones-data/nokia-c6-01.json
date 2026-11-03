@@ -1,0 +1,78 @@
+{
+  "slug": "nokia-c6-01",
+  "brand": "Nokia",
+  "name": "C6-01",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Nokia_C6-01_%28Black%29.jpg/500px-Nokia_C6-01_%28Black%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Nokia_C6-01_%28Black%29.jpg/250px-Nokia_C6-01_%28Black%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C6-01",
+      "credit": "Nokia65, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_C6-01_(Black).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Cseries",
+      "Predecessor": "Nokia E66, Nokia C5-00",
+      "Successor": "Nokia 701"
+    },
+    "Network": {
+      "Technology": "HSDPA (Pentaband) (3.5G) 850 / 900 / 1700 / 1900 / 2100, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "103.8 × 52.5 × 13.9 mm (4.09 × 2.07 × 0.55 in)",
+      "Weight": "131 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian^3, upgradeable to Nokia Belle Refresh (111.040.1511)",
+      "CPU": "ARM11 684MHz processor"
+    },
+    "Memory": {
+      "Storage": "up to 340 MB internal memory",
+      "Card slot": "2 GB Hot swap microSD included; up to 32 GB supported w/ microSDHC support"
+    },
+    "Display": {
+      "Display": "640 × 360 px (nHD), 3.2\" capacitive, multi-touch AMOLED display with the Nokia ClearBlack technology"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixels (main), 16:9 720p video, 25 FPS",
+      "Front camera": "VGA, for video calling"
+    },
+    "Battery": {
+      "Battery": "BL-5CT 1050 mAh Li-Ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 via MicroUSB, USB On-The-Go, Bluetooth 3.0, 3.5mm jack, Wi-Fi 802.11b/g/n, GPS with A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "AMOLED",
+    "battery_mah": 1050,
+    "os": "Symbian^3",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 131
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C6-01",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C6-01"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C6-01\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C6-01",
+    "revid": 1381742415
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

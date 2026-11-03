@@ -1,0 +1,94 @@
+{
+  "slug": "foxconn-nokia-9-pureview",
+  "brand": "Foxconn",
+  "name": "Nokia 9 PureView",
+  "status": "published",
+  "announced": "2019-02-08",
+  "released": "2019-02-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Nokia_9_Pureview_2.jpg/500px-Nokia_9_Pureview_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Nokia_9_Pureview_2.jpg/250px-Nokia_9_Pureview_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 9 PureView",
+      "credit": "TGspot, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_9_Pureview_2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-02-08",
+      "Predecessor": "Nokia 8 Sirocco , Nokia Lumia 1020 & Lumia McLaren (spiritual)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "H: 155 mm, W: 75 mm, D: 8 mm",
+      "Weight": "172 g",
+      "Other": "IP67 dust and water resistance"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9.0 \"Pie\", Current: Android 10, (Android One)",
+      "Chipset": "Qualcomm Snapdragon 845 (10 nm)",
+      "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X RAM",
+      "Storage": "128 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "5.99 in (92.6 cm2) 1440p QHD pOLED with HDR10 and Gorilla Glass 5 protection, ~538 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "Penta Camera Set-up:, 5x 12 MP (f/1.8, 28mm, 1/2.9\", 1.25 μm) Wide, (2x RGB & 3x B/W cameras, working simultaneously) + ToF sensor 3D, Depth, ZEISS optics, dual-LED dual-tone flash, HDR, panorama, Video: 4K@30fps, 1080p@30fps, HDR",
+      "Front camera": "20 MP (f/2.0, 1/2.8\", 1.0 μm) Wide, HDR, Video: 4K@30fps, 1080p@30fps, HDR"
+    },
+    "Battery": {
+      "Battery": "3320 mAh Li-Po, non-removable",
+      "Charging": "Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "LTE Cat16 1024 Mbps DL / Cat13 150 Mbps UL, Bluetooth 5.0, USB 3.1 via USB-C port, NFC"
+    }
+  },
+  "key": {
+    "display_in": 5.99,
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 20,
+    "battery_mah": 3320,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "ip": "IP67",
+    "weight_g": 172,
+    "thickness_mm": 8,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 9 PureView",
+      "url": "https://en.wikipedia.org/wiki/Nokia_9_PureView"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 9 PureView\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 9 PureView",
+    "revid": 1361477914
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

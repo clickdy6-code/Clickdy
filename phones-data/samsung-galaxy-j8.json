@@ -1,0 +1,94 @@
+{
+  "slug": "samsung-galaxy-j8",
+  "brand": "Samsung",
+  "name": "Galaxy J8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Samsung_galaxy_J8.jpg/500px-Samsung_galaxy_J8.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Samsung_galaxy_J8.jpg/250px-Samsung_galaxy_J8.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy J8",
+      "credit": "Ahmadkurdi44, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_galaxy_J8.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-07",
+      "Discontinued": "April 2019",
+      "Series": "Galaxy J/Galaxy On",
+      "Predecessor": "Samsung Galaxy J7 (2017)",
+      "Successor": "Samsung Galaxy M20 , Samsung Galaxy A30"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 3G UMTS/HSPA+ – 850, 900, 1900, 2100 MHz, 4G LTE 2100 (1), 1800 (3), 850 (5), 2600 (7), 900 (8), 800 (20) MHz, TD-SCDMA"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.2 mm H , 75.7 mm W , 8.2 mm D",
+      "Weight": "177 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.0 \"Oreo\" with Samsung Experience 9.0, Current: Android 10 with One UI 2.0",
+      "Chipset": "Qualcomm Snapdragon 450",
+      "CPU": "1.8 GHz Octa core Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "3 GB, 4 GB",
+      "Storage": "32 GB, 64 GB",
+      "Card slot": "Up to 512 GB microSDXC"
+    },
+    "Display": {
+      "Display": "6.00 in RGB Super AMOLED , 1480x720 px, HD (274 PPI), Corning Gorilla Glass"
+    },
+    "Cameras": {
+      "Front camera": "16.0 MP, HD video (1080p) at 30 fps"
+    },
+    "Battery": {
+      "Battery": "3500 mAh (22.00 Wh , V) Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS; Wi-Fi (802.11b/g/n 2.4 GHz); Wi-Fi Direct; Bluetooth 4.2; micro USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 450",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "front_mp": 16,
+    "battery_mah": 3500,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 177,
+    "thickness_mm": 8.2,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J8",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J8",
+    "revid": 1380480023
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

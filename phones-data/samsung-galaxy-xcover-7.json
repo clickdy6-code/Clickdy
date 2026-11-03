@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-xcover-7",
+  "brand": "Samsung",
+  "name": "Galaxy Xcover 7",
+  "status": "published",
+  "announced": "2024-01-23",
+  "released": "2024-01-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Samsung_Galaxy_Xcover_7.jpg/500px-Samsung_Galaxy_Xcover_7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Samsung_Galaxy_Xcover_7.jpg/250px-Samsung_Galaxy_Xcover_7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Xcover 7",
+      "credit": "Samsung Electronics, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Xcover_7.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Xcover 7: 2024-01-23, Xcover 7 Pro: 2025-05-07",
+      "Series": "Galaxy Xcover",
+      "Predecessor": "Samsung Galaxy Xcover 5, Samsung Galaxy Xcover 6 Pro"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "6.6 in (1049 mm)"
+    },
+    "Platform": {
+      "Operating system": "Original:, Xcover 7: Android 14 with One UI 6.0, Xcover 7 Pro: Android 15 with One UI 7.0, Current:, Xcover 7: Android 16 with One UI 8.5, Xcover 7 Pro: Android 17 with One UI 9.0",
+      "Chipset": "Xcover 7: Mediatek Dimensity 6100+, Xcover 7 Pro: Qualcomm SM7635 Snapdragon 7s Gen 3"
+    },
+    "Memory": {
+      "RAM": "Xcover 7: 4GB, 6GB, Xcover 7 Pro: 6GB, 8GB",
+      "Storage": "Xcover 7: 64GB, 128GB, Xcover 7 Pro: 128GB, 256GB"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP",
+      "Front camera": "Xcover 7: 5 MP, Xcover 7 Pro: 13 MP"
+    },
+    "Battery": {
+      "Battery": "Xcover 7: 4050 mAh, Xcover 7 Pro: 4350 mAh, removable",
+      "Charging": "15W Fast charging"
+    }
+  },
+  "key": {
+    "chipset": "Xcover 7: Mediatek Dimensity 6100+",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4050,
+    "wired_w": 15,
+    "os": "Android 14",
+    "five_g": false,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Xcover 7",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Xcover 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Xcover 7",
+    "revid": 1382761712
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

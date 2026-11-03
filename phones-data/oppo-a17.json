@@ -1,0 +1,93 @@
+{
+  "slug": "oppo-a17",
+  "brand": "Oppo",
+  "name": "A17",
+  "status": "published",
+  "announced": "2022-09-26",
+  "released": "2022-09-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A17: 2022-09-26, A17k: 2022-10-13",
+      "Series": "A series",
+      "Predecessor": "Oppo A16, Oppo A16k",
+      "Successor": "Oppo A18"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.2 × 75.6 × 8.3 mm",
+      "Weight": "189 g",
+      "Other": "Fingerprint sensor (side-mounted), proximity sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Android 12 with ColorOS 12.1.1",
+      "Chipset": "MediaTek MT6765G Helio G35 (12 nm)",
+      "CPU": "Octa-core (4×2.3 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "A17: 4 GB, A17k: 3 GB, LPDDR4X",
+      "Storage": "64 GB eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.56\", 1612 × 720 (HD+), 20:9, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "A17: 50 MP, 26 mm, FoV 77° (wide), 1/2.8\", 0.64µm, PDAF + 2 MP, (depth), 1/5.0\", 1.75µm, A17k: 8 MP, FoV 78° (wide), 1/4.0\", 1.12µm, AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, FoV 76.8° (wide), 1/5.0\", 1.12µm, HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB 2.0, 3.5 mm jack, Bluetooth 5.3 (A2DP, LE, aptX HD), FM radio, Wi-Fi 802.11 a/b/g/n/ac (Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, Galileo, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.56,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6765G Helio G35",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 189,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo A17",
+      "url": "https://en.wikipedia.org/wiki/Oppo_A17"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo A17\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo A17",
+    "revid": 1361478955
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

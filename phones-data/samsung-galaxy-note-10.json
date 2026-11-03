@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-galaxy-note-10",
+  "brand": "Samsung",
+  "name": "Galaxy Note 10",
+  "status": "published",
+  "announced": "2019-08-07",
+  "released": "2019-08-07",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Note 10 and Note 10+: 2019-08-07, Note 10 Lite: 2020-01-03",
+      "Discontinued": "December 2021",
+      "Series": "Galaxy Note",
+      "Predecessor": "Samsung Galaxy Note 9, Samsung Galaxy Note 3 Neo (direct for Note 10 Lite), Samsung Galaxy Note FE (indirect for Note 10 Lite)",
+      "Successor": "Samsung Galaxy Note 20, Samsung Galaxy S20 FE (for Note 10 Lite)"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G / 4G LTE, 5G (Note 10 5G & Note 10+ 5G)",
+      "SIM": "nanoSIM, eSIM, Single SIM or Hybrid Dual SIM in dual stand-by"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Note 10: 151 x 71.8 x 7.9 mm, Note 10+: 162.3 x 77.2 x 7.9 mm, Note 10 Lite: 163.7 x 76.1 x 8.7 mm",
+      "Weight": "Note 10: 5.9 oz, Note 10+: 6.98 oz, Note 10 Lite: 7.02 oz",
+      "Other": "Samsung Galaxy S10"
+    },
+    "Platform": {
+      "Operating system": "Original (Note 10 and Note 10+): Android 9 \"Pie\" with One UI 1.5, Original (Note 10 Lite): Android 10 with One UI 2.0, Current (Note 10 and Note 10+): Android 12 with One UI 4.1, Current (Note 10 Lite): Android 13 with One UI 5.1",
+      "Chipset": "Worldwide: Samsung Exynos 9 Series 9825, U.S., Canada, Hong Kong, China, Japan and Latin America (Except Brazil): Qualcomm Snapdragon 855, Note 10 Lite: Samsung Exynos 9 Series 9810",
+      "CPU": "Octa-core, Exynos 9825:, 2*2.73 GHz Mongoose M4, 2*2.4 GHz ARM Cortex-A75, Cortex-A75, 4*1.9 GHz Cortex-A55, Snapdragon:, 1*2.8 GHz Kryo 485, 3*2.4 GHz Kryo 485, 4*1.7 GHz Kryo 485, Exynos 9810:, 4*2.7 GHz Mongoose M3, 4*1.7 GHz Cortex-A55",
+      "GPU": "Exynos 9825: Mali-G76 MP12, Snapdragon: Adreno 640, Exynos 9810: Mali-G72 MP18"
+    },
+    "Memory": {
+      "RAM": "Note 10: 8 GB/12 GB RAM, Note 10+: 12 GB RAM, Note 10 Lite: 6 GB/8 GB RAM",
+      "Storage": "Note 10: 256 GB UFS 3.0, Note 10+: 256 GB/512 GB UFS 3.0, Note 10 Lite: 128 GB UFS 2.1",
+      "Card slot": "Note 10: none, Note 10+: microSD card support up to 1 TB, Note 10 Lite: microSD card support up to 1 TB"
+    },
+    "Display": {
+      "Display": "Note 10: 2280×1080 1080p Dynamic AMOLED Gorilla Glass 6 6.3 in (160.0 mm), (401 ppi), Note 10+: 3040×1440 1440p Dynamic AMOLED Gorilla Glass 6 6.8 in (172.7 mm), (498 ppi), Note 10 Lite: 2400×1080 1080p Super AMOLED Gorilla Glass 3 1080p 6.7 in (170.2 mm), (394 ppi), All: capacitive touchscreen HDR10+ Infinity-O display"
+    },
+    "Cameras": {
+      "Rear camera": "Note 10 and Note 10+:, Primary: 12 Megapixel, MP, f-number, f/1.5-2.4, 27mm, 1/2.55\", 1.4Micrometre, µm, dual pixel Phase detection autofocus, PDAF, Image stabilization#Optical image stabilization, OIS, Telephoto: 12 Megapixel, MP, f-number, f/2.1, 52mm, 1/3.6\", 1.0Micrometre, µm, Phase detection autofocus, PDAF, Image stabilization#Optical image stabilization, OIS, 2x optical zoom, Ultrawide: 16 Megapixel, MP, f-number, f/2.2, 12mm, 1/3.1\", 1.0Micrometre, µm, Super Steady video, VGA DepthVision (Note 10+), Note 10 Lite:, Primary: 12 Megapixel, MP, f-number, f/1.7, 27mm, 1/2.55\", 1.4Micrometre, µm, dual pixel Phase detection autofocus, PDAF, Image stabilization#Optical image stabilization, O",
+      "Front camera": "Note 10 & Note 10+: 10 MP, f/2.2, 26mm (wide), 1/3\", 1.22µm, dual pixel PDAF, Note 10 Lite: 32 MP, f/2.2, 25mm (wide), 1/2.8\", 0.8µm"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speaker tuned by AKG"
+    },
+    "Battery": {
+      "Battery": "Note 10: 3500 mAh, Note 10+: 4300 mAh, Note 10 Lite: 4500 mAh",
+      "Charging": "Note 10 and Note 10 Lite: Fast charging up to 25W , Note 10+: Fast charging up to 45W , Qi & reverse wireless charging (excluding Note 10 Lite)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi b/g/n/ac/ax"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "Dynamic AMOLED",
+    "chipset": "Worldwide: Samsung Exynos 9 Series 9825",
+    "ram_gb": [
+      6,
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "front_mp": 10,
+    "battery_mah": 3500,
+    "wired_w": 45,
+    "os": "Android 9",
+    "five_g": true,
+    "nfc": false,
+    "esim": true,
+    "dual_sim": true,
+    "thickness_mm": 8.7,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note 10",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note 10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note 10",
+    "revid": 1374882357
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "samsung-galaxy-a24",
+  "brand": "Samsung",
+  "name": "Galaxy A24",
+  "status": "published",
+  "announced": "2023-04-29",
+  "released": "2023-04-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A24.jpg/500px-%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A24.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A24.jpg/250px-%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A24.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A24",
+      "credit": "Striker9498, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9C_A24.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-04-29",
+      "Series": "Galaxy A series",
+      "Predecessor": "Samsung Galaxy A23",
+      "Successor": "Samsung Galaxy A25 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.4 mm H , 76.9 mm W , 8.4 mm D",
+      "Weight": "195 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with One UI 5.1, Current: Android 16 with One UI 8.5",
+      "Chipset": "MediaTek MT8781 Helio G99 (6nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "4 GB, 6 GB, 8 GB RAM",
+      "Storage": "128 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.5 in, Infinity-U Display, 1080 x 2408 px resolution, 20:9 ratio (~406 ppi density), Super AMOLED, 90Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Samsung ISOCELL (S5K)JN1; 50 Megapixel, MP, f/1.8, 27mm, FoV 78.4°, 1/2.76\", 0.64μm, PDAF, OIS, Ultrawide: GalaxyCore GC5035; 5 Megapixel, MP, f/2.2, 17mm, FoV 104.3°, 1/5.0\", 1.12μm, Macro: GalaxyCore GC02M1; 2 Megapixel, MP, f/2.4, 1/5.0\", 1.75μm, fixed focus, Camera features: LED flash, panorama, HDR, Video recording: 1080p@30fps, gyro-EIS",
+      "Front camera": "Sony IMX 258 or Hynix Hi-1339; 13 MP, f/2.2, 25mm (wide), FoV 80.9°, 1/3.06\", 1.12μm, Video recording: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "Fast charging 25W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.3, A2DP, LE, A-GPS, GLONASS, GALILEO, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 90,
+    "chipset": "MediaTek MT8781 Helio G99",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "front_mp": 13,
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 13",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 195,
+    "thickness_mm": 8.4,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A24",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A24"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A24\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A24",
+    "revid": 1383538272
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

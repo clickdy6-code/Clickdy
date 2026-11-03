@@ -1,0 +1,76 @@
+{
+  "slug": "samsung-focus-2",
+  "brand": "Samsung",
+  "name": "Focus 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Samsung Focus"
+    },
+    "Network": {
+      "Technology": "AT&T Mobility"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "4.79 x 2.47 x 0.43, (122 x 63 x 11 mm)",
+      "Weight": "4.3 oz"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone",
+      "CPU": "Qualcomm 1.4GHz Scorpion Snapdragon, Adreno 205 GPU"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM, 1 GB ROM",
+      "Storage": "8 GB"
+    },
+    "Display": {
+      "Display": "4-inch (diagonal) widescreen, Super AMOLED Pentile, 480-by-800 WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP with autofocus, 5× digital zoom, 720p HD video recording, LED flash, Geotagging, Image stabilization",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1750mAh Li-ion, Talk: up to 6 hrs, Standby: up to 300 hrs"
+    },
+    "Connectivity": {
+      "Connectivity": "Quad-band GSM/GPRS/EDGE , (850 900 1800 1900 MHz) , Tri-band UMTS/HSDPA , (850 1900 2100 MHz) , Wi-Fi (802.11 b/g/n) , Bluetooth 2.1 + EDR , A-GPS , FM radio , LTE"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1750,
+    "os": "Windows Phone",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Focus 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Focus_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Focus 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Focus 2",
+    "revid": 1361480553
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "nokia-x3-00",
+  "brand": "Nokia",
+  "name": "X3-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/NokiaX3-00Slide.jpg/500px-NokiaX3-00Slide.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/NokiaX3-00Slide.jpg/250px-NokiaX3-00Slide.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia X3-00",
+      "credit": "TOP2923, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NokiaX3-00Slide.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "Q1 2013",
+      "Series": "Nokia Xseries",
+      "Predecessor": "Nokia 5330",
+      "Successor": "Nokia X3 Touch and Type"
+    },
+    "Network": {
+      "Technology": "Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "slider",
+      "Dimensions": "96 × 49.3 × 14.1 mm",
+      "Weight": "103 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 6th Edition"
+    },
+    "Memory": {
+      "RAM": "46 MB flash memory",
+      "Storage": "microSD (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "240×320 pixels 16:9 2.4 in TFT LCD screen for model-00, 320x240 2.36 in for model-01"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel, 2048×1536 pixels, enhanced fixed focus, digital zoom"
+    },
+    "Battery": {
+      "Battery": "BL-4CT (Li-Ion 860 mAh, standard battery"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB, USB 2.0, Bluetooth 2.1 with A2DP, GPRS, EDGE"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 103
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X3-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X3-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X3-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Nokia X3-00",
+    "revid": 1377526156
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

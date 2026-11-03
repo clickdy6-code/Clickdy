@@ -1,0 +1,83 @@
+{
+  "slug": "samsung-galaxy-m51",
+  "brand": "Samsung",
+  "name": "Galaxy M51",
+  "status": "published",
+  "announced": "2020-08-31",
+  "released": "2020-08-31",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Galaxy_m51_phone.jpg/500px-Galaxy_m51_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Galaxy_m51_phone.jpg/250px-Galaxy_m51_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy M51",
+      "credit": "Gihan Jayaweera, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_m51_phone.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-08-31",
+      "Series": "Samsung Galaxy M series",
+      "Successor": "Samsung Galaxy M52 5G, Samsung Galaxy M62"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "163.9 mm H , 76.3 mm W , 9.5 mm D",
+      "Weight": "213 NNN"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with One UI 2.1",
+      "Chipset": "Qualcomm SDM730 Snapdragon 730G (8 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver)",
+      "GPU": "Adreno 618"
+    },
+    "Memory": {
+      "RAM": "6/8GB RAM",
+      "Storage": "128GB/512GB ROM",
+      "Card slot": "SD card"
+    },
+    "Display": {
+      "Display": "6.7 in sAMOLED Plus 1080 x 2400 pixels, 20:9 ratio (~385 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Primary: Sony IMX 682; 64 Megapixel, MP, f-number, f/1.8, 26mm (wide), 1/1.73\", 0.8Micrometre, µm, Phase detection autofocus, PDAF, Ultrawide: Samsung ISOCELL S5K3L6; 12 Megapixel, MP, f-number, f/2.2, 13mm, 123˚, 1/3.0\", 1.12Micrometre, µm, Macro: GalaxyCore GC5035; 5 Megapixel, MP, f-number, f/2.4, 1/5.0\", 1.12Micrometre, µm, Depth: GalaxyCore GC5035; 5 Megapixel, MP, f-number, f/2.4, 1/5.0\", 1.12Micrometre, µm, LED flash, Panorama, High dynamic range, HDR, 4K resolution, 4K@30Frame rate, fps, 1080p@30Frame rate, fps",
+      "Front camera": "Sony IMX 616; 32 Megapixel, MP, f-number, f/2.0, 26mm (wide), 1/2.74\", 0.8Micrometre, µm, High dynamic range, HDR, 4K resolution, 4K@30Frame rate, fps, 1080p@30Frame rate, fps"
+    },
+    "Battery": {
+      "Battery": "7000 mAh non-removable Lithium Polymer",
+      "Charging": "25W Fast Charging"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "chipset": "Qualcomm SDM730 Snapdragon 730G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      512
+    ],
+    "battery_mah": 7000,
+    "wired_w": 25,
+    "os": "Android 10",
+    "thickness_mm": 9.5,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M51",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M51"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M51\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M51",
+    "revid": 1380482464
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

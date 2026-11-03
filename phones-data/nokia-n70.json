@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-n70",
+  "brand": "Nokia",
+  "name": "N70",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nokia_N70.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nokia_N70.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia N70",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N70.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2008",
+      "Predecessor": "Nokia 6680",
+      "Successor": "Nokia N73"
+    },
+    "Network": {
+      "Technology": "GPRS, EDGE, WCDMA"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108.8 × 53 × 21.8 mm, 95.9 cc",
+      "Weight": "128 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v8.1a, S60 Second Edition, Feature Pack 3",
+      "CPU": "TI OMAP 1710 ARM-926 220 MHz"
+    },
+    "Memory": {
+      "RAM": "32 MB",
+      "Card slot": "DV RS-MMC / MMC-Mobile"
+    },
+    "Display": {
+      "Display": "176 × 208 pixels, 35 × 41 mm"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels (Back)",
+      "Front camera": "0.3 Megapixels – VGA (Front)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion BL-5C Battery, 3.7V, 970 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 970,
+    "os": "Symbian OS v8.1a",
+    "weight_g": 128
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N70",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N70"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N70\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N70",
+    "revid": 1374925141
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

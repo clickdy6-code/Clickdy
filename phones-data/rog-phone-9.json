@@ -1,0 +1,76 @@
+{
+  "slug": "rog-phone-9",
+  "brand": "ROG",
+  "name": "Phone 9",
+  "status": "published",
+  "announced": "2024-11-19",
+  "released": "2024-11-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/ROG_Phone_9.jpg/500px-ROG_Phone_9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/ROG_Phone_9.jpg/250px-ROG_Phone_9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "ROG Phone 9",
+      "credit": "Yccnt, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ROG_Phone_9.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 19, 2024",
+      "Predecessor": "ROG Phone 8 Series"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "163.8 x 77 x 8.9 mm",
+      "Weight": "227g, 225g (9 FE)"
+    },
+    "Platform": {
+      "Operating system": "Android 15"
+    },
+    "Memory": {
+      "RAM": "12GB or 16GB LPDDR5X, 16GB LPDDR5X (9 FE and 9 Pro), 24GB LPDDR5X (9 Pro Edition)",
+      "Storage": "256GB, 512GB or 1TB UFS 4.0"
+    },
+    "Display": {
+      "Display": "6.78\" FHD+ (2400x1080 pixels) 185Hz SAMSUNG Flexible AMOLED"
+    },
+    "Battery": {
+      "Battery": "5800mAh, 5500mAh (9 FE)"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "AMOLED",
+    "refresh_hz": 185,
+    "ram_gb": [
+      12,
+      16,
+      24
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "battery_mah": 5800,
+    "os": "Android 15",
+    "weight_g": 227,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ROG Phone 9",
+      "url": "https://en.wikipedia.org/wiki/ROG_Phone_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ROG Phone 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ROG Phone 9",
+    "revid": 1380603501
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

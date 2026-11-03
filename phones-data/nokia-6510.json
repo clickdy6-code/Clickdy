@@ -1,0 +1,53 @@
+{
+  "slug": "nokia-6510",
+  "brand": "Nokia",
+  "name": "6510",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2005",
+      "Predecessor": "Nokia 8265 (6510), Nokia 8265i (6500), Nokia 8280 (6590), Nokia 8280i (6590i)",
+      "Successor": "Nokia 6100 (6510), Nokia 6108 (6500), Nokia 6610 (6590), Nokia 6610i (6590i)"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800"
+    },
+    "Body": {
+      "Dimensions": "97 x 43 x 20 mm, 67 cc",
+      "Weight": "84 g"
+    },
+    "Display": {
+      "Display": "Monochrome graphic, 96 x 65 pixels, 5 lines"
+    },
+    "Battery": {
+      "Battery": "Standard, 750 mAh Li-Ion (BLB-2)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, Infrared port"
+    }
+  },
+  "key": {
+    "battery_mah": 750,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 84
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6510",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6510"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6510\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6510",
+    "revid": 1361477637
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

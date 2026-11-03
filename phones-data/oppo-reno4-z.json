@@ -1,0 +1,88 @@
+{
+  "slug": "oppo-reno4-z",
+  "brand": "Oppo",
+  "name": "Reno4 Z",
+  "status": "published",
+  "announced": "2020-04-20",
+  "released": "2020-04-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A92s: 2020-04-20, Reno4 Z: 2020-09-29",
+      "Series": "Reno / A",
+      "Predecessor": "Oppo Reno2 Z",
+      "Successor": "Oppo Reno5 Z, Oppo A93 5G"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.8 × 75.5 × 8.1 mm",
+      "Weight": "184 g",
+      "Other": "Fingerprint sensor (side-mounted), proximity sensor, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 10 with ColorOS 7.2, Current: Android 11 with ColorOS 11",
+      "CPU": "MediaTek MT6873V Dimensity 800 (7 nm), Octa-core (4×2.0 GHz Cortex-A76 & 4×2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC4"
+    },
+    "Memory": {
+      "RAM": "Reno4 Z: 8 GB, A92s: 6/8 GB, LPDDR4X",
+      "Storage": "Reno4 Z: 128 GB, A92s: 128/256 GB, UFS 2.1"
+    },
+    "Display": {
+      "Display": "LTPS LCD, 6.57\", 2400 × 1080 (Full HD+), 20:9, 401 ppi, 120 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP Sony IMX 586, f/1.7, 26 mm (wide), 1/2.0\", 0.8 μm, PDAF + 8 MP, f/2.2, 119° (ultrawide), 1/4.0\", 1.12 μm + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth sensor), LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30/120fps (A92s), gyro-EIS",
+      "Front camera": "16 MP, f/2.0, 26 mm (wide), 1/3.06\", 1.0 μm + 2 MP, f/2.4 (depth sensor), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4000 mAh, 18 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm audio jack, Bluetooth 5.0 (A92s) / 5.1 (A2DP, LE, aptX HD (Reno4 Z)), NFC, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BeiDou, GALILEO, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.57,
+    "display_type": "LCD",
+    "refresh_hz": 120,
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 184,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Reno4 Z",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Reno4_Z"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Reno4 Z\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Reno4 Z",
+    "revid": 1361479227
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

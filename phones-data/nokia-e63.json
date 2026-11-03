@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-e63",
+  "brand": "Nokia",
+  "name": "E63",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/NOKIA_E63.jpg/500px-NOKIA_E63.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/NOKIA_E63.jpg/250px-NOKIA_E63.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia E63",
+      "credit": "clive darr, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NOKIA_E63.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "E Series",
+      "Predecessor": "Nokia E61",
+      "Successor": "Nokia E5-00, Nokia X5-01"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "113 × 59 × 13 mm",
+      "Weight": "126 g"
+    },
+    "Platform": {
+      "Operating system": "S60 v3.1 (3rd Edition, Feature Pack 1) UI on Symbian OS v9.2",
+      "CPU": "369 MHz ARM11 Freescale processor"
+    },
+    "Memory": {
+      "RAM": "110 MB internal dynamic memory",
+      "Storage": "2 GB MicroSD included",
+      "Card slot": "microSDHC Hot-swappable max. 16 GB verified (32 GB unofficial)"
+    },
+    "Display": {
+      "Display": "TFT active matrix, 320 x 240 pixels, 2.36 inches, 16 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel, LED flash"
+    },
+    "Battery": {
+      "Battery": "BP-4L, 3.7V 1,500 mAh lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN (Wi-Fi) 802.11 b/g , Bluetooth 2.0, microUSB, 3.5 mm standard AV connector"
+    }
+  },
+  "key": {
+    "display_in": 2.36,
+    "display_type": "TFT",
+    "battery_mah": 1500,
+    "os": "Symbian OS v9.2",
+    "nfc": false,
+    "weight_g": 126
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E63",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E63"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E63\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E63",
+    "revid": 1380462067
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

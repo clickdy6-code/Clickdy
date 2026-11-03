@@ -1,0 +1,107 @@
+{
+  "slug": "pixel-11",
+  "brand": "Pixel",
+  "name": "11",
+  "status": "published",
+  "announced": "2026-08-20",
+  "released": "2026-08-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Pixel_11_front_%28Hibiscus%29.svg/500px-Pixel_11_front_%28Hibiscus%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Pixel_11_front_%28Hibiscus%29.svg/250px-Pixel_11_front_%28Hibiscus%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Pixel 11",
+      "credit": "DM115Wiki, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pixel_11_front_(Hibiscus).svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-08-20",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 10"
+    },
+    "Network": {
+      "Technology": "GSM / EDGE (telecommunication), EDGE, UMTS / HSPA+ / HSDPA, LTE (telecommunication), LTE, 5G sub-6 / mmWave",
+      "SIM": "Dual eSIM (US), Nano-SIM and eSIM (elsewhere)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 152.8 mm, W: 72 mm, D: 8.6 mm",
+      "Weight": "197 g",
+      "Other": "Gorilla Glass Victus 2 cover, Gorilla Glass Victus 2 back, Titan M, Titan M3 security module"
+    },
+    "Platform": {
+      "Operating system": "Android 17",
+      "Chipset": "Google Tensor G6",
+      "CPU": "1x 4.11 GHz Cortex C1-Ultra + 4x 3.38 GHz Cortex C1-Pro + 2x 2.65 GHz Cortex C1-Pro",
+      "GPU": "PowerVR CXTP-48-1536"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB Universal Flash Storage, UFS 4.0, 512 GB Zoned UFS 4.0"
+    },
+    "Display": {
+      "Display": "161 mm FHD+ 1080p OLED px (20:9) aspect ratio at 422 ppi HDR, 60–120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 1.7, 85˚ field of view (wide), 1/1.56\", 13 MP, 2.2, 120˚ field of view (ultrawide), 1/3.1\", 10.8 MP, 3.1, 23° field of view (telephoto), 5x optical zoom, 1/3.2\", 4K resolution, 4K video at 24, 30, or 60 FPS, 1080p video at 24, 30, or 60 FPS",
+      "Front camera": "10.5 MP, 2.2, 95˚ field of view (ultrawide), 4K video at 30, or 60 FPS, 1080p video at 30, or 60 FPS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3 microphones, Noise suppression, Spatial audio"
+    },
+    "Battery": {
+      "Battery": "4985 mAh",
+      "Charging": "30 W? fast charging, 25 W Qi2.2 wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6E? + MIMO, Bluetooth 6.0, Near-field communication, NFC, Google Cast, Dual-band Satellite navigation, GNSS (GPS / GLONASS / Galileo (satellite navigation), Galileo), USB-C 3.2"
+    }
+  },
+  "key": {
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Google Tensor G6",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 10.5,
+    "battery_mah": 4985,
+    "wireless_w": 25,
+    "wired_w": 30,
+    "os": "Android 17",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6E",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 197,
+    "thickness_mm": 8.6,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 11",
+      "url": "https://en.wikipedia.org/wiki/Pixel_11"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 11\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 11",
+    "revid": 1382662889
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

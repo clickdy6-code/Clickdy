@@ -1,0 +1,76 @@
+{
+  "slug": "samsung-galaxy-beam-i8530",
+  "brand": "Samsung",
+  "name": "Galaxy Beam i8530",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Projector_Phone.jpg/500px-Projector_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Projector_Phone.jpg/250px-Projector_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Beam i8530",
+      "credit": "Thom Cochrane, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Projector_Phone.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-07",
+      "Predecessor": "Samsung Galaxy Beam I8520"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE – 850, 900, 1,800, 1,900 MHz, 3G UMTS/HSPA+ – 850, 900, 1,900, 2,100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "124 mm H , 64.2 mm W , 12.5 mm D",
+      "Weight": "145.3 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 \"Gingerbread\"",
+      "Chipset": "ST-Ericsson NovaThor U8500",
+      "CPU": "1.0 GHz dual-core Cortex-A9",
+      "GPU": "Mali-400 MP"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "8 GB flash memory",
+      "Card slot": "Up to 32 GB microSDHC"
+    },
+    "Cameras": {
+      "Front camera": "1.3 megapixels, Video MPEG-4, H.264, H.263, DivX, DivX3.11, WMV7/8"
+    },
+    "Battery": {
+      "Battery": "2,000 mAh, 7.6 Wh, 3.8 V, Internal rechargeable Li-ion, User replaceable"
+    }
+  },
+  "key": {
+    "chipset": "ST-Ericsson NovaThor U8500",
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2000,
+    "os": "Android 2.3",
+    "five_g": false,
+    "weight_g": 145.3,
+    "thickness_mm": 12.5,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Beam i8530",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Beam_i8530"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Beam i8530\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Beam i8530",
+    "revid": 1381145896
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

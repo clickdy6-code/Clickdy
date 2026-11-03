@@ -1,0 +1,100 @@
+{
+  "slug": "oppo-oneplus-nord-ce4",
+  "brand": "OPPO",
+  "name": "OnePlus Nord CE4",
+  "status": "published",
+  "announced": "2024-04-01",
+  "released": "2024-04-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Nord CE4: 2024-04-01, Oppo K12: 2024-04-24",
+      "Series": "OnePlus Nord / Oppo K",
+      "Predecessor": "OnePlus Nord CE 3 5G",
+      "Successor": "OnePlus Nord CE5"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G, LTE, 5G",
+      "SIM": "Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.5 × 75.3 × 8.37 mm",
+      "Weight": "186 g",
+      "Other": "Fingerprint (under display, optical), proximity, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Nord CE4: Android 14 with OxygenOS 14, Oppo K12: Android 14 with ColorOS 14",
+      "Chipset": "Qualcomm Snapdragon 7 Gen 3 (4 nm)",
+      "CPU": "Octa-core (1× 2.63 GHz Cortex-A715 & 4× 2.4 GHz Cortex-A715 & 3× 1.8 GHz Cortex-A510)",
+      "GPU": "Adreno 720"
+    },
+    "Memory": {
+      "RAM": "Nord CE4: 8 GB, Oppo K12: 8/12 GB, LPDDR4X",
+      "Storage": "Nord CE4: 128/256 GB, Oppo K12: 256/512 GB, UFS 3.1",
+      "Card slot": "microSDXC up to 1 TB (uses shared SIM slot)"
+    },
+    "Display": {
+      "Display": "AMOLED, 6.7\", 2412 × 1080 (Full HD+), 394 ppi, 20:9 ratio, 120 Hz, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, 26mm (wide), 1/1.95\", 0.8µm, PDAF, OIS + 8 MP, f/2.2, 16mm, 112° (ultrawide), 1/4\", 1.12µm, Dual-LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60/120fps, gyro-EIS",
+      "Front camera": "16 MP, f/2.4, 26mm (wide), 1/3\", 1µm, Panorama, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5500 mAh",
+      "Charging": "100W wired, SUPERVOOC"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.4 (A2DP, LE, aptX HD, LHDC), NFC (Oppo K12 only), IR blaster, Wi-Fi 6 (802.11 a/b/g/n/ac/ax), GPS, GLONASS, BeiDou, Galileo, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 7 Gen 3",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 5500,
+    "wired_w": 100,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 186,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus Nord CE4",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_Nord_CE4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus Nord CE4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus Nord CE4",
+    "revid": 1361478880
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

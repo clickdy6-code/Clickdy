@@ -1,0 +1,91 @@
+{
+  "slug": "samsung-galaxy-a82-5g",
+  "brand": "Samsung",
+  "name": "Galaxy A82 5G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2021",
+      "Series": "Samsung Galaxy A series",
+      "Predecessor": "Samsung Galaxy A80 , Samsung Galaxy A Quantum",
+      "Successor": "Samsung Galaxy Quantum 3"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "bar",
+      "Dimensions": "161.9 mm H , 73.8 mm W , 8.1 mm D",
+      "Weight": "176 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11 with One UI 3.1, Current: Android 14 with One UI 6.1",
+      "Chipset": "Qualcomm SM8150 Snapdragon 855+ (7 nm), BELA security",
+      "CPU": "Octa-core (1x2.96 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485)",
+      "GPU": "Adreno 640 (700 MHz)"
+    },
+    "Memory": {
+      "RAM": "6GB RAM",
+      "Storage": "128GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.7 in, Dynamic AMOLED 2X, 120Hz, 1200 nits (peak), 1440 x 3040 pixels, 19:9 ratio, 502 ppi density"
+    },
+    "Cameras": {
+      "Rear camera": "Primary: 64 Megapixel, MP, f-number, f/1.8, 26mm, 1/1.72\", 0.8Micrometre, µm, Phase detection autofocus, PDAF, OIS, Ultrawide: 12 Megapixel, MP, f-number, f/2.2, 123°, 1.12Micrometre, µm, Macro: 5 Megapixel, MP, f-number, f/2.4, 1/5.0\", 1.12Micrometre, µm, LED flash, Panorama, High dynamic range, HDR, 4K resolution, 4K@30Frame rate, fps, 1080p@30/60/240Frame rate, fps; gyro-EIS",
+      "Front camera": "10 Megapixel, MP, f-number, f/2.2, (wide), High dynamic range, HDR, 1080p@30Frame rate, fps"
+    },
+    "Sound": {
+      "Sound": "3.5mm Audio Jack"
+    },
+    "Battery": {
+      "Battery": "Li-Po 4500 mAh",
+      "Charging": "25W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Type-C 2.0, Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "peak_nits": 1200,
+    "chipset": "Qualcomm SM8150 Snapdragon 855+",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "battery_mah": 4500,
+    "wired_w": 25,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 176,
+    "thickness_mm": 8.1,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A82 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A82_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A82 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A82 5G",
+    "revid": 1383537460
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

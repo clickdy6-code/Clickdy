@@ -1,0 +1,82 @@
+{
+  "slug": "nokia-6220-classic",
+  "brand": "Nokia",
+  "name": "6220 Classic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Nokia_6220_classic_front.jpg/500px-Nokia_6220_classic_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Nokia_6220_classic_front.jpg/250px-Nokia_6220_classic_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6220 Classic",
+      "credit": "Richmeistertalk, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6220_classic_front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6120 classic",
+      "Successor": "Nokia 6720 classic"
+    },
+    "Network": {
+      "Technology": "EGSM 850/900/1800/1900 WCDMA/HSDPA 900/2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 mm × 46.5 mm × 15.2 mm",
+      "Weight": "90 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.3 + S60 platform 3rd Edition, Feature Pack 2",
+      "CPU": "ARM11 @ 369 MHz"
+    },
+    "Memory": {
+      "RAM": "128 MB (RAM), 256 MB NAND (120 MB free)",
+      "Card slot": "MicroSD(SDHC) (Max 8 GB)"
+    },
+    "Display": {
+      "Display": "TFT, 2.2 inches, 320 × 240 pixels, 16 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, AF, xenon flash",
+      "Front camera": "320 × 240 pixels (CIF+ resolution)"
+    },
+    "Battery": {
+      "Battery": "BP-5M Battery LiPoly 3.7 V 900 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mass Storage via micro USB, Bluetooth 2.0 with A2DP profile"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 900,
+    "os": "Symbian OS 9.3 + S60 platform 3rd Edition",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 90,
+    "thickness_mm": 15.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6220 Classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6220_Classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6220 Classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6220 Classic",
+    "revid": 1361477552
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

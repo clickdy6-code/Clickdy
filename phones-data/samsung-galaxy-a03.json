@@ -1,0 +1,106 @@
+{
+  "slug": "samsung-galaxy-a03",
+  "brand": "Samsung",
+  "name": "Galaxy A03",
+  "status": "published",
+  "announced": "2021-08-18",
+  "released": "2021-08-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Samsung_Galaxy_A03_2022.jpg/500px-Samsung_Galaxy_A03_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Samsung_Galaxy_A03_2022.jpg/250px-Samsung_Galaxy_A03_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A03",
+      "credit": "Captainmorlypogi1959, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A03_2022.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A03s:, 2021-08-18, A03 Core:, 2021-11-15, A03:, 2021-11-26",
+      "Series": "Samsung Galaxy A series",
+      "Predecessor": "Samsung Galaxy A02, Samsung Galaxy A02s",
+      "Successor": "Samsung Galaxy A04"
+    },
+    "Network": {
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "A03: 164.1 mm H , 75.9 mm W , 9.1 mm D, A03s/A03 Core: 164.2 mm H , 75.9 mm W , 9.1 mm D",
+      "Weight": "A03/A03s: 196 g, A03 Core: 211 g"
+    },
+    "Platform": {
+      "Operating system": "A03/A03s: Android 11 with One UI Core 3.1 (Upgradeable to Android 13 with One UI Core 5), A03 Core: Android 11 (Go edition) (Upgradeable to Android 13 (Go edition))",
+      "Chipset": "A03: Unisoc T606 (12nm), A03s: MediaTek MT6765 Helio P35 (12nm), A03 Core: Unisoc SC9863A (28nm)",
+      "CPU": "A03: Octa-core (2x 1.6GHz Cortex-A75 & 6x1.6 GHz Cortex-A55), A03s: Octa-core (4x2.35 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53), A03 Core: Octa-core (4x1.6 GHz Cortex-A55 & 4x1.2 GHz Cortex-A55)",
+      "GPU": "A03: Mali-G57 MP1, A03s: PowerVR GE8320, A03 Core: IMG8322"
+    },
+    "Memory": {
+      "RAM": "A03/A03s: 3 GB or 4 GB, A03 Core: 2 GB",
+      "Storage": "32 GB, 64 GB or 128 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "6.5 in, HD, PLS IPS, Infinity-V Display (1600x720 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "A03:, Primary: Hynix Hi-4821Q; 48 MP, f/1.8, (wide), 1/2.0\", 0.8µm, AF, Depth: GalaxyCore GC2375H; 2 MP, f/2.4, 1/5.0\", 1.75μm, A03s:, Primary: 13 MP, f/2.2, (wide), AF, Macro: 2 MP, f/2.4, Depth: 2 MP, f/2.4, A03 Core:, 8 MP, f/2.0, AF, All: LED flash, 1080p@30fps",
+      "Front camera": "GalaxyCore GC5035; 5 MP, f/2.2, (wide), 1/5.0\", 1.12µm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh",
+      "Charging": "A03:, 10W Standard Charging, A03s:, 15W Adaptive Fast Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot, Bluetooth 5.1, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS",
+    "chipset": "A03: Unisoc T606",
+    "ram_gb": [
+      2,
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 15,
+    "os": "Android 11",
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 196,
+    "thickness_mm": 9.1,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A03",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A03"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A03\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A03",
+    "revid": 1383539133
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

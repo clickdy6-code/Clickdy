@@ -1,0 +1,83 @@
+{
+  "slug": "nokia-6500-slide",
+  "brand": "Nokia",
+  "name": "6500 slide",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Nokia6500SlideOpen.jpg/500px-Nokia6500SlideOpen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Nokia6500SlideOpen.jpg/250px-Nokia6500SlideOpen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6500 slide",
+      "credit": "Joshualam, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia6500SlideOpen.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Announced in May, released in September 2007",
+      "Discontinued": "Discontinued in 2009",
+      "Series": "Series 40",
+      "Predecessor": "Nokia 6233",
+      "Successor": "Nokia 6700 slide"
+    },
+    "Network": {
+      "Technology": "Quad band GSM / GPRS / EDGE: (850, 900, 1800, 1900 MHz), Dual band UMTS (W-CDMA): (850, 2100 MHz)",
+      "SIM": "Single miniSIM"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "96.5 × 46.5 × 16.4 mm",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 5th Edition",
+      "CPU": "ARM9-based single core, not publicly advertised"
+    },
+    "Memory": {
+      "RAM": "32 MB SDRAM + 64 MB flash ROM",
+      "Storage": "20 MB",
+      "Card slot": "microSDHC up to 4 GB, unofficially up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.2 inch QVGA LCD (16.7 million colors)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels, Carl Zeiss AG optics with auto-focus",
+      "Front camera": "VGA camera (for video calls)"
+    },
+    "Battery": {
+      "Battery": "User replaceable 900 mAh Li-ion (BP-5M)",
+      "Charging": "800mA with the standard 2mm charger"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, Micro-USB with USB 2.0, 2.5mm AV connector"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "LCD",
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 124,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6500 slide",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6500_slide"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6500 slide\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6500 slide",
+    "revid": 1361477632
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

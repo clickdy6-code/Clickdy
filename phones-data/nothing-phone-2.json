@@ -1,0 +1,104 @@
+{
+  "slug": "nothing-phone-2",
+  "brand": "Nothing",
+  "name": "Phone 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Nothing_phone_%282%29_%28Booredatwork.com%29_013.png/500px-Nothing_phone_%282%29_%28Booredatwork.com%29_013.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Nothing_phone_%282%29_%28Booredatwork.com%29_013.png/250px-Nothing_phone_%282%29_%28Booredatwork.com%29_013.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nothing Phone 2",
+      "credit": "Booredatwork.com, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nothing_phone_(2)_(Booredatwork.com)_013.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nothing Phone (1)",
+      "Successor": "Nothing Phone 3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, and 5G",
+      "SIM": "Dual-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.1 mm H , 76.4 mm W , 8.1 mm D",
+      "Weight": "201.2 g",
+      "Other": "Glyph Interface, Glyph Composer"
+    },
+    "Platform": {
+      "Operating system": "Android 13",
+      "Chipset": "Qualcomm Snapdragon 8+ Gen1 UC",
+      "CPU": "Octa-core (1x3.0 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "8 and 12 GB RAM",
+      "Storage": "128, 256, 512 GB"
+    },
+    "Display": {
+      "Display": "6.7 in, 2412x1080 resolution (394 ppi), LTPO OLED, 1B colors, 120Hz, HDR10+, 1600 nits (HBM), 1600 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, ƒ/1.88, 24mm (main), 1/1.56\", 1 μm, 50 MP, ƒ/2.2 (ultrawide), 1/2.76\", 4K@60fps, 1080p@30/60/480fps",
+      "Front camera": "32 MP, ƒ/2.45 aperture, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Dual stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4700 mAh",
+      "Charging": "Fast charging up to 45W Qi Wireless Charging, Reverse Wireless Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct, Bluetooth 5.3, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "LTPO OLED",
+    "refresh_hz": 120,
+    "peak_nits": 1600,
+    "chipset": "Qualcomm Snapdragon 8+ Gen1 UC",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@60fps",
+    "front_mp": 32,
+    "battery_mah": 4700,
+    "wireless_w": 45,
+    "wired_w": 45,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 201.2,
+    "thickness_mm": 8.1
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nothing Phone 2",
+      "url": "https://en.wikipedia.org/wiki/Nothing_Phone_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nothing Phone 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nothing Phone 2",
+    "revid": 1383526138
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

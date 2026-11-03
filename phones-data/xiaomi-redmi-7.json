@@ -1,0 +1,97 @@
+{
+  "slug": "xiaomi-redmi-7",
+  "brand": "Xiaomi",
+  "name": "Redmi 7",
+  "status": "published",
+  "announced": "2019-03-18",
+  "released": "2019-03-18",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "7: 2019-03-18, Y3: 2019-04-25",
+      "Series": "Redmi, Redmi Y",
+      "Predecessor": "Redmi 6, Redmi Y2",
+      "Successor": "Redmi 8"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / LTE",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158.7 mm H , 75.6 mm W , 8.5 mm D",
+      "Weight": "180 g",
+      "Other": "Fingerprint scanner (on the back), accelerometer, proximity sensor, compass"
+    },
+    "Platform": {
+      "Operating system": "Original: Android (operating system), Android Android Pie, 9 Pie with MIUI 10, Current (Global)/Y3: Android 10 with MIUI 11, Current (China): Android 10 with MIUI 12.5",
+      "Chipset": "Qualcomm Snapdragon 632 (14 nm)",
+      "CPU": "Qualcomm Snapdragon 632 (14 nm), 8 cores (4×1.8 GHz Kryo 250 Gold & 4x1.8 GHz Kryo 250 Silver)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "7: 2 and 3 GB RAM, Y3: 3/4 GB, LPDDR3",
+      "Storage": "7: 16/32/64 GB, Y3: 32/64 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.26 in, 720 x 1520 px resolution, 19:9 ratio (~269 ppi density), Corning Gorilla Glass 5, IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/2.2, 1/2.9\", 1.25 μm, PDAF, 2 MP, (depth), LED flash, HDR, panorama, 1080p@30/60fps",
+      "Front camera": "7: 8 Mp, 1/4\", 1.12 μm, Y3: 32 Mp, 26 mm (wide-angle lens), 1/2.8\", 0.8 μm, HDR, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 4.2 (A2DP, LE, aptX HD), IR port, FM radio, Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot, GPS, A-GPS, GLONASS, GALILEO, BDS (7)"
+    }
+  },
+  "key": {
+    "display_in": 6.26,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 632",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 180,
+    "thickness_mm": 8.5,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 7",
+      "url": "https://en.wikipedia.org/wiki/Redmi_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 7",
+    "revid": 1361479805
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

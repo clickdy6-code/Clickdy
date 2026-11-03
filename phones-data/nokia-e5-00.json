@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-e5-00",
+  "brand": "Nokia",
+  "name": "E5-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/34/Nokia_E5.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/34/Nokia_E5.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia E5-00",
+      "credit": "Dienthoaiquangcao11, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_E5.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia E63, Nokia E55",
+      "Successor": "Nokia 700"
+    },
+    "Network": {
+      "Technology": "GSM 800 / 900 / 1800 / 1900 MHz, Tri Band UMTS / HSDPA / HSUPA / 850 / 1900 / 2100 MHz (North American Version)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "115 × 58.9 × 12.8 mm",
+      "Weight": "126 g (with battery)",
+      "Other": "FOTA (Firmware update Over The Air) , Ambient Light Sensor"
+    },
+    "Platform": {
+      "Operating system": "S60 3rd Edition Feature Pack 2 UI on Symbian OS v9.3",
+      "CPU": "600 MHz ARM11 processor"
+    },
+    "Memory": {
+      "RAM": "ROM (NAND) 512 MB; SDRAM 256MB",
+      "Card slot": "MicroSDHC support for up to 32GB, 2GB included inbox"
+    },
+    "Display": {
+      "Display": "transmissive LCD technology 320 × 240 px, 2.36 in, up to 256,000 colours"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel (2592 × 1944 pixels) with full focus and LED flash, VGA video capture at 15 FPS"
+    },
+    "Battery": {
+      "Battery": "BL-4D, 3.7V 1,200 mAh lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 802.11 b,g, Integrated & Assisted GPS, Bluetooth 2.0 + EDR, microUSB, 3.5 mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 2.36,
+    "display_type": "LCD",
+    "battery_mah": 1200,
+    "os": "Symbian OS v9.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 126
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E5-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E5-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E5-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E5-00",
+    "revid": 1374924540
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "oppo-realme-c15",
+  "brand": "Oppo",
+  "name": "Realme C15",
+  "status": "published",
+  "announced": "2020-07-28",
+  "released": "2020-07-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "MediaTek: 2020-07-28, Qualcomm: 2020-10-28",
+      "Series": "realme C",
+      "Successor": "Realme C25"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.5 × 75.9 × 9.8 mm",
+      "Weight": "209 g",
+      "Other": "Fingerprint scanner (rear-mounted), accelerometer, proximity sensor, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 10 with realme UI 1, Current: Android 11 with realme UI 2",
+      "CPU": "MediaTek: MediaTek MT6762 Helio G35 (12 nm), octa-core (4×2.3 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53), Qualcomm: Qualcomm Snapdragon 460 (11 nm), octa-core (4×1.8 GHz Kryo 240 & 4×1.6 GHz Kryo 240)",
+      "GPU": "MediaTek: PowerVR GE8320, Qualcomm: Adreno 610"
+    },
+    "Memory": {
+      "RAM": "3/4 GB LPDDR4X",
+      "Storage": "32/64/128 GB eMMC 5.1",
+      "Card slot": "MicroSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1600 × 720 (720p HD+), 20:9, 270 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, (wide), PDAF + 8 MP, 119˚ (ultrawide), AF + 2 MP, (B&W), 1/5.0\", 1.75 µm + 2 MP, (macro), 1/5.0\", 1.75 µmLED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, (wide)HDR, panorama, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 6000 mAh",
+      "Charging": "18 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB microUSB 2.0, 3.5 mm jack, Bluetooth 5.0 (A2DP, LE, aptX (MediaTek) / aptX HD (Qualcomm)), FM radio, Wi-Fi 802.11 b/g/n (hotspot), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 6000,
+    "wired_w": 18,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 209,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C15",
+      "url": "https://en.wikipedia.org/wiki/Realme_C15"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C15\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C15",
+    "revid": 1363626233
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

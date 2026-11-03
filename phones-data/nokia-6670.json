@@ -1,0 +1,70 @@
+{
+  "slug": "nokia-6670",
+  "brand": "Nokia",
+  "name": "6670",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_6670.png/500px-Nokia_6670.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_6670.png/250px-Nokia_6670.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6670",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6670.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6100",
+      "Successor": "Nokia 6681"
+    },
+    "Network": {
+      "Technology": "GSM tri-band, 900/1800/1900 Europe, 850/1800/1900 America"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108.6 x 53 x 20.9 mm",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian 7.0s",
+      "CPU": "32-bit RISC CPU, ARM-9 family at 123 MHz"
+    },
+    "Memory": {
+      "RAM": "8 MB",
+      "Card slot": "RS-MultiMediaCard 64 MB"
+    },
+    "Display": {
+      "Display": "TFT 176 x 208 pixels, 65,536 colours"
+    },
+    "Cameras": {
+      "Rear camera": "1 megapixel, 4x digital zoom"
+    },
+    "Battery": {
+      "Battery": "BL-5C Battery Li-ion 900 mA·h"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "os": "Symbian 7.0s",
+    "five_g": false,
+    "weight_g": 120
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6670",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6670"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6670\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6670",
+    "revid": 1361477688
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

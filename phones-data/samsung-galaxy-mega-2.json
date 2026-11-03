@@ -1,0 +1,94 @@
+{
+  "slug": "samsung-galaxy-mega-2",
+  "brand": "Samsung",
+  "name": "Galaxy Mega 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/69/Samsung_Galaxy_Mega_2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/69/Samsung_Galaxy_Mega_2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung Galaxy Mega 2",
+      "credit": "AnVuong1222004 (11), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Mega_2.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2014",
+      "Series": "Samsung Galaxy",
+      "Predecessor": "Samsung Galaxy Mega",
+      "Successor": "Samsung Galaxy A8 (2015)"
+    },
+    "Network": {
+      "Technology": "2G bands 850 / 900 / 1800 / 1900, 3G bands 850 / 900 / 1900 / 2100, 4G LTE: dependent on device, 1 2 3 4 5 7 17 29 (SM-G750A), 1 3 5 7 8 20 (SM-G750F), 1 3 7 38 39 40 41 (SM-G7508Q)",
+      "SIM": "micro-SIM, 1 slot (SM-G750A, SM-G750F, SM-G7508), 2 slots (SM-G750H, SM-G7508Q)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.6 x",
+      "Weight": "194g",
+      "Other": "Available in White, Black"
+    },
+    "Platform": {
+      "Operating system": "Original: Android KitKat, Android 4.4.2 \"KitKat\" with TouchWiz, Current: Android Lollipop, Android 5.1.1 \"Lollipop\"",
+      "Chipset": "Exynos 4415 (SM-G750F, SM-G7508Q), Qualcomm MSM8916 Snapdragon 410 (SM-G750A, SM-G750H, SM-G7508)",
+      "CPU": "Quad-core 1.5 GHz Cortex-A9 (SM-G750A, SM-G750F, SM-G7508Q), Quad-core 1.2 GHz Cortex-A53 (SM-G750H, SM-G7508)",
+      "GPU": "Mali-400 (SM-G750A, SM-G750F, SM-G7508Q), Adreno 306 (SM-G7508, SM-G750H)"
+    },
+    "Memory": {
+      "RAM": "1.5 GB RAM",
+      "Storage": "Internal Memory, 16GB - 12.69GB Usable (SM-G750A, SM-G750F, SM-G7508Q), 8GB - 4.69GB Usable (SM-G750H, SM-G7508)",
+      "Card slot": "microSDXC (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "6.0 in 720p HD Super Clear LCD, 245 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel rear-facing camera",
+      "Front camera": "2.1-megapixel front-facing camera"
+    },
+    "Battery": {
+      "Battery": "Li-ion 2,800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/, WiFi Direct, Bluetooth 4.0 (BLE), USB 2.0 H/S GPS+ GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "LCD",
+    "chipset": "Exynos 4415",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      8,
+      16,
+      69
+    ],
+    "battery_mah": 2800,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 194,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Mega 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Mega_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Mega 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Mega 2",
+    "revid": 1365007643
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

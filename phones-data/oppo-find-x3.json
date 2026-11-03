@@ -1,0 +1,98 @@
+{
+  "slug": "oppo-find-x3",
+  "brand": "Oppo",
+  "name": "Find X3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/OPPO_find_x3_front.jpg/500px-OPPO_find_x3_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/OPPO_find_x3_front.jpg/250px-OPPO_find_x3_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo Find X3",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OPPO_find_x3_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Oppo Find X2",
+      "Successor": "Oppo Find X5"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.6 x 74 x 8.3 mm",
+      "Weight": "193 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 11.2, (based on Android 11)",
+      "Chipset": "Find X3 Lite: Qualcomm Snapdragon List of Qualcomm Snapdragon processors#Snapdragon 865/865+ 5G (2020) and 870 5G (2021), 765G, Find X3 Neo: Qualcomm Snapdragon List of Qualcomm Snapdragon processors#Snapdragon 865/865+ 5G (2020) and 870 5G (2021), 865, Find X3: Qualcomm Snapdragon List of Qualcomm Snapdragon processors#Snapdragon 865/865+ 5G (2020) and 870 5G (2021), 870, Find X3 Pro: Qualcomm Snapdragon List of Qualcomm Snapdragon processors#Snapdragon 888/888+ 5G (2021), 888",
+      "CPU": "Octa-core, Find X3 Neo: (1x 2.84 GHz Kryo 585 & 3x 2.42 GHz Kryo 585 & 4x 1.8 GHz Kryo 585), Find X3: (1x 3.2 GHz Kryo 585 & 3x 2.42 GHz Kryo 585 & 4x 1.8 GHz Kryo 585), Find X3 Pro: (1x 2.84 GHz Kryo 680 & 3x 2.42 GHz Kryo 680 & 4x 1.8 GHz Kryo 680)",
+      "GPU": "Find X3 Lite: Adreno 620, Find X3 Neo: Adreno 650, Find X3: Adreno 650, Find X3 Pro: Adreno 660"
+    },
+    "Memory": {
+      "RAM": "8 or 12 GB LPDDR5 RAM",
+      "Storage": "128 GB or 256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "6.7 in LTPO AMOLED capacitive touchscreen, 1440p, (525 ppi with 20:9 aspect ratio), 120 Hz refresh rate, 1B colors, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, 1/1.56\", 1.0 μm (wide) + 50 MP, f/2.2, 1/1.56\", 1.0 μm (ultrawide) + 13 MP, f/2.4, 52 mm (telephoto) + 3 MP, f/3.0 (macro), 2x optical zoom, omnidirectional PDAF, OIS, gyro-EIS, dual-LED flash, Auto HDR, 4K@30/60 fps, 1080p@30/60/240 fps",
+      "Front camera": "32 MP, f/2.4, 26 mm, 1/2.8\", 0.8 μm , 1080p@30 fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers with active noise cancellation"
+    },
+    "Battery": {
+      "Battery": "4500 mAh",
+      "Charging": "SuperVOOC technology"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.2, Bluetooth 5.2, Wi-Fi a/b/g/n/ac/6e, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Find X3 Lite: Qualcomm Snapdragon List of Qualcomm Snapdrago",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4500,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 193
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Find X3",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Find_X3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Find X3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Find X3",
+    "revid": 1361479099
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

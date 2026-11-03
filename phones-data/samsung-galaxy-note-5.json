@@ -1,0 +1,81 @@
+{
+  "slug": "samsung-galaxy-note-5",
+  "brand": "Samsung",
+  "name": "Galaxy Note 5",
+  "status": "published",
+  "announced": "2015-08-21",
+  "released": "2015-08-21",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-08-21",
+      "Series": "Galaxy Note",
+      "Predecessor": "Samsung Galaxy Note 4",
+      "Successor": "Samsung Galaxy Note 7, Samsung Galaxy Note FE, Samsung Galaxy Note 8"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153.2 mm H, 76.1 mm W, 7.6 mm D",
+      "Weight": "171 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\", First major update: Android 6.0.1 \"Marshmallow\", Current: Android 7.0 \"Nougat\" with Samsung Experience 8.0, Unofficial: Android 14.0 \"Upside Down Cake\", via LineageOS",
+      "Chipset": "Exynos 7 Octa 7420",
+      "CPU": "Octa-core 64-bit 14 nm, • Quad-core 2.1 GHz Cortex-A57, • Quad-core 1.5 GHz Cortex-A53",
+      "GPU": "Mali-T760 MP8"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4",
+      "Storage": "32, 64, or 128 GB UFS 2.0"
+    },
+    "Display": {
+      "Display": "5.7 inch (145 mm) Quad HD Super AMOLED, (16:9 aspect ratio) 2560×1440 pixel resolution, 518 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "16 megapixel Samsung ISOCELL S5K2P2 or Sony Exmor RS IMX240, f/1.9, 2160p@30 fps, 1440p@30fps, 1080p@60/30 fps, 720p@30/60 fps, auto HDR, slow motion video recording 720p at 120fps, optical image stabilization, video stabilization, phase detection autofocus, tracking autofocus, manual focus, LED flash",
+      "Front camera": "5 MP, 1440p/1080p/720p video recording, dual video call, auto HDR"
+    },
+    "Sound": {
+      "Sound": "Dolby Digital Sound 2.0"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 3000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos 7 Octa 7420",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 5.1",
+    "five_g": false,
+    "weight_g": 171,
+    "thickness_mm": 7.6,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note 5",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note 5",
+    "revid": 1374560967
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

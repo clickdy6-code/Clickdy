@@ -1,0 +1,100 @@
+{
+  "slug": "samsung-galaxy-a30",
+  "brand": "Samsung",
+  "name": "Galaxy A30",
+  "status": "published",
+  "announced": "2019-03-02",
+  "released": "2019-03-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Samsung_Galaxy_A30.jpg/500px-Samsung_Galaxy_A30.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Samsung_Galaxy_A30.jpg/250px-Samsung_Galaxy_A30.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A30",
+      "credit": "Striker9498, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A30.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A30: 2019-03-02, A30s: 2019-08-22",
+      "Series": "Galaxy A",
+      "Predecessor": "Samsung Galaxy A6 (2018), Samsung Galaxy A6+, Samsung Galaxy J8",
+      "Successor": "Samsung Galaxy A31"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE",
+      "SIM": "Dual 4G Sim, VoLTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "A30:, International:, 158.5 mm H, 74.7 mm W, 7.7 mm D, Japan:, 160 mm H, 75 mm W , 8.0 mm D",
+      "Weight": "A30:, International: 165 g, Japan: 176 g",
+      "Other": "USB: 2.0, Type-C 1.0 reversible connector, 3.50 mm Headphone jack"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9.0 \"Pie\" with One UI 1.1, Current: Android 11 with One UI 3.1",
+      "Chipset": "Samsung Exynos 7 Octa 7904",
+      "CPU": "Octa-core (2x1.8 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53) 64Bit (14nm) FinFET",
+      "GPU": "Mali-G71 MP2 up to 845Mhz"
+    },
+    "Memory": {
+      "RAM": "3, 4 GB",
+      "Storage": "32, 64, 128 (A30s only) GB eMMC 5.1",
+      "Card slot": "1TB"
+    },
+    "Display": {
+      "Display": "6.4 in Super AMOLED 1080 x 2340 px (403 ppi), 19.5:9 aspect ratio, Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "International:, 16 MP, f/1.7 aperture, PDAF (Wide-angle), 5 MP, f/2.2 aperture, 12mm (Ultra-wide angle), Japan:, 13 MP, f/1.9 aperture, PDAF (Wide-angle), 5 MP, f/2.2 aperture, 12mm (Ultra-wide angle)",
+      "Front camera": "International: 16 MP, f/2.0 aperture, Japan: 8 MP, f/2.0 aperture"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "International: 4000 mAh, Japan: 3900 mAh",
+      "Charging": "15W Fast Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi hotspot, Bluetooth: 5.0, FeliCa (Japanese models only), LTE: Carrier Aggregation, LTE+"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 7 Octa 7904",
+    "ram_gb": [
+      4
+    ],
+    "main_mp": 16,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "wired_w": 15,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 165,
+    "thickness_mm": 7.7,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A30",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A30"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A30\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A30",
+    "revid": 1380481521
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

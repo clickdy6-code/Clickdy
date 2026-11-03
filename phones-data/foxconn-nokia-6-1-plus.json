@@ -1,0 +1,78 @@
+{
+  "slug": "foxconn-nokia-6-1-plus",
+  "brand": "Foxconn",
+  "name": "Nokia 6.1 Plus",
+  "status": "published",
+  "announced": "2018-08-30",
+  "released": "2018-08-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-08-30",
+      "Series": "Nokia 6",
+      "Predecessor": "Nokia 6",
+      "Successor": "Nokia 6.2"
+    },
+    "Body": {
+      "Dimensions": "147.2 mm H , 71 mm W , 8 mm D",
+      "Weight": "151 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\", Current: Android 10, (Android One)",
+      "Chipset": "Qualcomm Snapdragon 636 (14 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Kryo 260 Gold & 4x1.6 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 509"
+    },
+    "Memory": {
+      "RAM": "4 or 6 GB LPDDR4 RAM",
+      "Storage": "32 or 64 GB",
+      "Card slot": "microSD, up to 400 GB"
+    },
+    "Display": {
+      "Display": "5.8 inches, 1080x2280p IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "16+5 MP dual camera",
+      "Front camera": "16 MP"
+    },
+    "Battery": {
+      "Battery": "3060 mAh Li-ion, non-removable"
+    }
+  },
+  "key": {
+    "display_in": 5.8,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 636",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 3060,
+    "os": "Android 8.1",
+    "weight_g": 151,
+    "thickness_mm": 8,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6.1 Plus",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6.1_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6.1 Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6.1 Plus",
+    "revid": 1361477454
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

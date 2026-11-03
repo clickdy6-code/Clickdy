@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-galaxy-a2-core",
+  "brand": "Samsung",
+  "name": "Galaxy A2 Core",
+  "status": "published",
+  "announced": "2019-04-15",
+  "released": "2019-04-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-04-15",
+      "Series": "Galaxy A series",
+      "Predecessor": "Galaxy J2 Core",
+      "Successor": "Galaxy A01 Core/A3 Core"
+    },
+    "Network": {
+      "Technology": "2G, 3G, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "141.6 mm H , 71 mm W , 9.1 mm D",
+      "Weight": "142 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1.0 Oreo Go Edition, Samsung Experience 9.5",
+      "Chipset": "Exynos 7870",
+      "CPU": "Octa-core (8×1.6 GHz) ARM Cortex-A53",
+      "GPU": "ARM Mali-T830 MP1"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "8 or 16 GB",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0\", 540×960 qHD IPS LCD, 220 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "5MP f/1.9",
+      "Front camera": "5MP f/2.2"
+    },
+    "Battery": {
+      "Battery": "2600 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, Bluetooth 4.2, Wi-Fi, headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Exynos 7870",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 142,
+    "thickness_mm": 9.1,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A2 Core",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A2_Core"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A2 Core\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A2 Core",
+    "revid": 1380481421
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

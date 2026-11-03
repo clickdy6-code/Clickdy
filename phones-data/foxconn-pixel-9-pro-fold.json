@@ -1,0 +1,83 @@
+{
+  "slug": "foxconn-pixel-9-pro-fold",
+  "brand": "Foxconn",
+  "name": "Pixel 9 Pro Fold",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Google_Pixel_9_Pro_Fold_%28Porcelain%29_unfolded.svg/500px-Google_Pixel_9_Pro_Fold_%28Porcelain%29_unfolded.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Google_Pixel_9_Pro_Fold_%28Porcelain%29_unfolded.svg/250px-Google_Pixel_9_Pro_Fold_%28Porcelain%29_unfolded.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Pixel 9 Pro Fold",
+      "credit": "Mliu92, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Pixel_9_Pro_Fold_(Porcelain)_unfolded.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2025-08-20",
+      "Series": "Pixel",
+      "Predecessor": "Pixel Fold",
+      "Successor": "Pixel 10 Pro Fold"
+    },
+    "Network": {
+      "Technology": "GSM / EDGE (telecommunication), EDGE, UMTS / HSPA+ / HSDPA, LTE (telecommunication), LTE, 5G sub-6 / mmWave",
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Foldable"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14 (QPR3), Current: Android 17",
+      "Chipset": "Google Tensor G4"
+    },
+    "Memory": {
+      "RAM": "16 GB LPDDR5",
+      "Storage": "256 or 512 GB UFS 3.1"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP",
+      "Front camera": "10 MP"
+    },
+    "Battery": {
+      "Battery": "4650 mAh",
+      "Charging": "30 W fast charging, Qi (standard), Qi wireless charging"
+    }
+  },
+  "key": {
+    "chipset": "Google Tensor G4",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 10,
+    "battery_mah": 4650,
+    "wired_w": 30,
+    "os": "Android 14",
+    "five_g": true,
+    "esim": true
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 9 Pro Fold",
+      "url": "https://en.wikipedia.org/wiki/Pixel_9_Pro_Fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 9 Pro Fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 9 Pro Fold",
+    "revid": 1372631931
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "xiaomi-redmi-a3",
+  "brand": "Xiaomi",
+  "name": "Redmi A3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A3: , POCO C61: , A3x:",
+      "Series": "Redmi A, POCO C",
+      "Predecessor": "Redmi A2",
+      "Successor": "Redmi A4 5G, POCO C71"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slab",
+      "Dimensions": "H: 168.4 mm, W: 76.3 mm, T: 8.3 mm",
+      "Weight": "A3/POCO C61:199 g (glass), 193 g (eco-leather)A3x: 193 g",
+      "Other": "Virtual proximity sensor, Touch-sensitive Multi-touch, microphone, fingerprint scanner (in power button), accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Android 14",
+      "Chipset": "A3/POCO C61: MediaTek Helio G36 (12 nm), A3x: UNISOC T603 (22 nm)",
+      "CPU": "A3/POCO C61: 8 cores (4×2.2 GHz Cortex-A53 & 4×1.6 GHz Cortex-A53), A3x: 8 cores (2×1.8 GHz Cortex-A53 & 6×1.6 GHz Cortex-A53)",
+      "GPU": "A3/POCO C61: PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "A3: 2/3/4/6 GB, POCO C61: 4/6 GB, A3x: 3/4 GB",
+      "Storage": "64/128 GB eMMC 5.1",
+      "Card slot": "MicroSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 90 Hz, 6.71\", 1650 × 720 (HD+), 20.6:9, 268 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, (Wide-angle) + QVGA (auxiliary lens), LED-flash, HDR, Video: 1080p@30fps",
+      "Front camera": "5 MP, (Wide-angle), HDR, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono sound"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "10 W"
+    }
+  },
+  "key": {
+    "display_in": 6.71,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "A3/POCO C61: MediaTek Helio G36",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 14",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 199,
+    "thickness_mm": 8.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi A3",
+      "url": "https://en.wikipedia.org/wiki/Redmi_A3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi A3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi A3",
+    "revid": 1369347369
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

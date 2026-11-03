@@ -1,0 +1,76 @@
+{
+  "slug": "samsung-beam-i8520",
+  "brand": "Samsung",
+  "name": "Beam i8520",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Samsung Galaxy Beam I8530"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "123 × 59.8 × 14.9 mm",
+      "Weight": "156 g"
+    },
+    "Platform": {
+      "Operating system": "Android OS, v2.1 (Eclair)",
+      "Chipset": "TI OMAP 3440",
+      "CPU": "720 MHz ARM Cortex-A8",
+      "GPU": "PowerVR SGX530"
+    },
+    "Memory": {
+      "RAM": "384 MB RAM, 512 MB ROM, 16 GB internal, microSD expandable up to 32 GB",
+      "Card slot": "microSD, microSDHC"
+    },
+    "Display": {
+      "Display": "480×800 px, 3.7 in (252 ppi), Super AMOLED capacitive touchscreen, 16M colours"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels (3264×2448), autofocus, image stabiliser, video (720p@30 frame/s), LED flash, camera geo-tagging, auto-panorama shot, face, smile and blink detection",
+      "Front camera": "VGA video call (front)"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Ion 1800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, Bluetooth 3.0 with A1DP, Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "Super AMOLED",
+    "chipset": "TI OMAP 3440",
+    "ram_gb": [
+      16,
+      32
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1800,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 156
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Beam i8520",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Beam_i8520"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Beam i8520\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Beam i8520",
+    "revid": 1361480458
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

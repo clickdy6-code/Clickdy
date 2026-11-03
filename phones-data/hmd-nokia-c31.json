@@ -1,0 +1,93 @@
+{
+  "slug": "hmd-nokia-c31",
+  "brand": "HMD",
+  "name": "Nokia C31",
+  "status": "published",
+  "announced": "2022-09-01",
+  "released": "2022-09-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-09-01",
+      "Series": "C series",
+      "Predecessor": "Nokia C30",
+      "Successor": "Nokia C32"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "168.2 × 77.98 × 8.55 mm",
+      "Weight": "200 g",
+      "Other": "Fingerprint scanner (rear-mounted), Accelerometer, Proximity sensor"
+    },
+    "Platform": {
+      "Operating system": "Android 12",
+      "Chipset": "Unisoc SC9863A (28 nm)",
+      "CPU": "8 cores (4×1.6 GHz Cortex-A55 & 4×1.2 GHz Cortex-A55)",
+      "GPU": "IMG8322"
+    },
+    "Memory": {
+      "RAM": "3/4 GB LPDDR4X",
+      "Storage": "32/64/128 GB eMMC 5.1",
+      "Card slot": "MicroSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.745\", 1600 × 720 (HD+), 20:9, 260 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (wide-angle), AF + 2 MP, (macro) + 2 MP, (depth sensor), LED flash, HDR, Video: 1080p@30fps",
+      "Front camera": "5 MP, Video: 720p@30fps"
+    },
+    "Sound": {
+      "Sound": "Audio: Mono"
+    },
+    "Battery": {
+      "Battery": "Removable, Li-Ion 5050 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm audio jack, Bluetooth 4.2 (A2DP), FM radio, Wi-Fi 802.11 a/b/g/n, GPS, A-GPS, Galileo"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Unisoc SC9863A",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5050,
+    "wired_w": 10,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 200,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C31",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C31"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C31\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C31",
+    "revid": 1361478141
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

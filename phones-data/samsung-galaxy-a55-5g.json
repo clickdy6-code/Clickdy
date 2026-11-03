@@ -1,0 +1,106 @@
+{
+  "slug": "samsung-galaxy-a55-5g",
+  "brand": "Samsung",
+  "name": "Galaxy A55 5G",
+  "status": "published",
+  "announced": "2024-03-15",
+  "released": "2024-03-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Samsung_Galaxy_A55_5G_2024.jpg/500px-Samsung_Galaxy_A55_5G_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Samsung_Galaxy_A55_5G_2024.jpg/250px-Samsung_Galaxy_A55_5G_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A55 5G",
+      "credit": "Captainmorlypogi1959, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A55_5G_2024.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-03-15",
+      "Series": "Samsung Galaxy A series",
+      "Predecessor": "Samsung Galaxy A54 5G",
+      "Successor": "Samsung Galaxy A56 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Nano-SIM and eSIM or dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.1 mm H , 77.4 mm W , 8.2 mm D",
+      "Weight": "213 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14 with One UI 6.1 , Current: Android 17 with One UI 9.0",
+      "Chipset": "Exynos 1480",
+      "CPU": "Octa-core (4x2.7 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Xclipse 530"
+    },
+    "Memory": {
+      "RAM": "8 and 12 GB RAM",
+      "Storage": "128 and 256 GB"
+    },
+    "Display": {
+      "Display": "6.6 in, px resolution, 19.5:9 ratio (~396 ppi density), Super AMOLED, 120Hz refresh rate, HDR10+, Always On"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Sony IMX 906; 50 MP, f/1.8, 23mm, FoV 85.3°, 1/1.56\", 1.0µm, PDAF, OIS, Ultrawide: Sony IMX 258; 12 MP, f/2.2, 13mm, FoV 116.3°, 1/3.06\", 1.12µm, Macro: 5 MP, f/2.4, fixed focus, Camera features: LED flash, panorama, HDR, Video recording: 4K@30fps, 1080p@30/60fps, 720p@480fps; gyro-EIS",
+      "Front camera": "Sony IMX 616; 32 MP, f/2.2, 26mm (wide), FoV 82.5°, 1/2.74\", 0.8µm, Video recording: 4K@30fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 5000 mAh",
+      "Charging": "Super Fast charging 25W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6 802.11 a/b/g/n/ac/ax (dual-band, Wi-Fi Direct), Bluetooth\t5.3 (A2DP, LE)"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Exynos 1480",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 213,
+    "thickness_mm": 8.2,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A55 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A55_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A55 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A55 5G",
+    "revid": 1381683297
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

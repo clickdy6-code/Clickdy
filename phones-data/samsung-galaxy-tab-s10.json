@@ -1,0 +1,105 @@
+{
+  "slug": "samsung-galaxy-tab-s10",
+  "brand": "Samsung",
+  "name": "Galaxy Tab S10",
+  "status": "published",
+  "announced": "2024-09-27",
+  "released": "2024-09-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Tab_S10_Ultra_frontal_image.png/500px-Tab_S10_Ultra_frontal_image.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Tab_S10_Ultra_frontal_image.png/250px-Tab_S10_Ultra_frontal_image.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Tab S10",
+      "credit": "Hinothi1, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tab_S10_Ultra_frontal_image.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Tab S10+/S10 Ultra: 2024-09-27, Tab S10 FE/FE+: 2025-04-02, Tab S10 Lite: 2025-08-25",
+      "Discontinued": "Tab S10+/S10 Ultra:",
+      "Series": "Galaxy Tab S",
+      "Predecessor": "Samsung Galaxy Tab S6 Lite (for S10 Lite), Samsung Galaxy Tab S9",
+      "Successor": "Samsung Galaxy Tab S11"
+    },
+    "Network": {
+      "Technology": "Cellular: GSM/HSPA/4G LTE/5G (sub-6GHz)",
+      "SIM": "Nano-SIM/eSIM (Cellular models only)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "Tab S10+:, 285.4 x 185.4 x 5.6 mm (11.24 x 7.30 x 0.22 in), Tab S10 Ultra:, 326.4 x 208.6 x 5.4 mm (12.85 x 8.21 x 0.21 in), Tab S10 FE:, 254.3 x 165.8 x 6 mm (10.01 x 6.53 x 0.24 in), Tab S10 FE+:, 300.6 x 194.7 x 6 mm (11.83 x 7.67 x 0.24 in), Tab S10 Lite:, 254.3 x 165.8 x 6.6 mm (10.01 x 6.53 x 0.26 in)",
+      "Weight": "Tab S10+: 571g (Wi-Fi), 576g (5G), Tab S10 Ultra: 718g (Wi-Fi), 723g (5G), Tab S10 FE: 497g (Wi-Fi), 500g (5G), Tab S10 FE+: 664g (Wi-Fi), 668g (5G), Tab S10 Lite: 524g (Wi-Fi), 524g (5G)"
+    },
+    "Platform": {
+      "Operating system": "Original (Tab S10+/S10 Ultra):, Android 14 with One UI 6.1.1, Original (Tab S10 FE/S10 FE+/S10 Lite):, Android 15 with One UI 7.0 , Current (all):, Android 16 with One UI 8.5",
+      "Chipset": "Tab S10+/S10 Ultra: MediaTek Dimensity 9300+ (4nm), Tab S10 FE/S10 FE+: Samsung Exynos 1580 (4nm), Tab S10 Lite: Samsung Exynos 1380 (5nm)"
+    },
+    "Memory": {
+      "RAM": "Tab S10+: 12GB, Tab S10 Ultra: 12GB/16GB, Tab S10 FE/S10 FE+: 8GB/12GB, Tab S10 Lite: 6GB/8GB",
+      "Storage": "Tab S10+: 256GB/512GB UFS 4.0, Tab S10 Ultra: 256GB/512GB/1TB UFS 4.0, Tab S10 FE/S10 FE+/Lite: 128GB/256GB UFS 3.1",
+      "Card slot": "dedicated microSDXC slot"
+    },
+    "Display": {
+      "Display": "Tab S10+: 12.4 in diagonal AMOLED, Dynamic AMOLED 2X, 1752 x 2800 px, 16:10 aspect-ratio wide-screen, 120HZ HDR10+, Tab S10 Ultra: 14.6 in diagonal AMOLED, Dynamic AMOLED 2X, 1848 x 2960 px, 16:10 aspect-ratio wide-screen, 120HZ HDR10+, Tab S10 FE: 10.9 in diagonal Super PLS Liquid-crystal display, LCD, 1440 x 2304 px, 16:10 aspect-ratio wide-screen, 90HZ HDR10, Tab S10 FE+: 13.1 in diagonal Super PLS Liquid-crystal display, LCD, 1800 x 2880 px, 16:10 aspect-ratio wide-screen, 90HZ HDR10, Tab S10 Lite: 10.9 in diagonal TFT_LCD, TFT Liquid-crystal display, LCD, 1320 x 2112 px, 16:10 aspect-ratio wide-screen, 90HZ HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "Wide: 13 MP, f/2.0, 26mm, 1/3.4\", 1.0μm, AF, Ultrawide: 8 MP, f/2.2",
+      "Front camera": "Ultrawide: 12MP 120°, Wide (Tab S10 Ultra): 12MP 26mm"
+    },
+    "Sound": {
+      "Sound": "Tab S10+/Tab S10 Ultra: 4 speaker audio (Dolby Atmos), Tab S10 FE/S10 FE+/Lite: 2 speaker audio (Dolby Atmos)"
+    },
+    "Battery": {
+      "Battery": "Tab S10+ and S10 FE+: 10090 mAh non-user replaceable LiPo, Tab S10 Ultra: 11200 mAh non-user replaceable LiPo, Tab S10 FE/Lite: 8000 mAh non-user replaceable LiPo",
+      "Charging": "Tab S10+/S10 Ultra/S10 FE/S10 FE+: Fast charging up to 45 W, Tab S10 Lite: Fast charging up to 25 W"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Tab S10+/S10 Ultra: MediaTek Dimensity 9300+",
+    "ram_gb": [
+      6,
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 12,
+    "battery_mah": 10090,
+    "wired_w": 45,
+    "os": "Android 14",
+    "five_g": true,
+    "esim": true,
+    "weight_g": 571,
+    "thickness_mm": 6,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab S10",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab S10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab S10",
+    "revid": 1377953668
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

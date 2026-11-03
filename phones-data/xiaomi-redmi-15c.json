@@ -1,0 +1,106 @@
+{
+  "slug": "xiaomi-redmi-15c",
+  "brand": "Xiaomi",
+  "name": "Redmi 15C",
+  "status": "published",
+  "announced": "2025-08-01",
+  "released": "2025-08-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Front_of_the_Redmi_15C.jpg/500px-Front_of_the_Redmi_15C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Front_of_the_Redmi_15C.jpg/250px-Front_of_the_Redmi_15C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 15C",
+      "credit": "JGBlue1509, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Front_of_the_Redmi_15C.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "15C: 2025-08-01, 15C 5G: 2025-09-18, 15R: 2025-09-17, POCO C85: 2025-09-01, POCO C85 5G: 2025-12-09",
+      "Series": "Redmi / POCO C series",
+      "Predecessor": "Redmi 14C"
+    },
+    "Network": {
+      "Technology": "15C / POCO C85: GSM, 3G, 4G (LTE), 15C 5G / 15R / POCO C85 5G: GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "15C / 15R / POCO C85:H: 171.56 mm, W: 79.47 mm, D: 7.99 mm15C 5G / POCO C85 5G:H: 173.16 mm, W: 81.07 mm, D: 8.2 mm",
+      "Weight": "15C / 15R / POCO C85: 204 g, 15C 5G / POCO C85 5G: 211 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 15 + HyperOS 2.2, Current: Android 16 + HyperOS 3.1",
+      "Chipset": "15C / POCO C85: MediaTek Helio G81 Ultra (12 nm), 15C 5G / 15R / POCO C85 5G: MediaTek Dimensity 6300 (6 nm)",
+      "CPU": "15C / POCO C85: Octa-core (2×2 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55), 15C 5G / 15R / POCO C85 5G: Octa-core (2×2.4 GHz Cortex-A76 & 6×2 GHz Cortex-A55)",
+      "GPU": "15C / POCO C85: Mali-G52 MC2, 15C 5G / 15R / POCO C85 5G: Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "15C / 15C 5G / POCO C85 5G: 4 / 6 / 8 GB, 15R: 4 / 6 / 8 / 12 GB, POCO C85: 6 / 8 GB, LPDDR4X",
+      "Storage": "128 / 256 GB, 15C / POCO C85: eMMC 5.1, 15C 5G / POCO C85 5G: UFS 2.2",
+      "Card slot": "MicroSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 120 Hz, 6.9\", 1600 × 720 (HD+), 20:9 ratio, 254 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "15C / 15C 5G / POCO C85 / C85 5G: 50 MP, 26 mm (wide), 1/2.76\", 0.64 µm, PDAF + auxiliary lens, 15R: 13 MP (wide), PDAF + auxiliary lens, LED flash, HDR, Video: 1080p@30fps",
+      "Front camera": "15C / 15C 5G / POCO C85 / C85 5G: 8 MP, (wide), 1/4\", 1.12 µm, 15R: 5 MP, HDR, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono sound"
+    },
+    "Battery": {
+      "Battery": "Non-removable, 6000 mAh",
+      "Charging": "33 W fast charging, Power Delivery, 10 W reverse wired charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0 (OTG), 3.5 mm audio jack, Bluetooth 5.4 (A2DP, LE), FM radio, NFC (except 15R / POCO C85 5G; market/region dependent for 15C / 15C 5G / POCO C85), Wi-Fi 802.11 a/b/g/n/ac (dual-band), Satellite navigation: GPS (A-GPS), GLONASS, Galileo, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.9,
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "chipset": "15C / POCO C85: MediaTek Helio G81 Ultra",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 6000,
+    "wired_w": 33,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 204,
+    "thickness_mm": 7.99,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 15C",
+      "url": "https://en.wikipedia.org/wiki/Redmi_15C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 15C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 15C",
+    "revid": 1376107688
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

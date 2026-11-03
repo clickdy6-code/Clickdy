@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-n82",
+  "brand": "Nokia",
+  "name": "N82",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Nokia_N82_%28front_view%29.jpg/500px-Nokia_N82_%28front_view%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Nokia_N82_%28front_view%29.jpg/250px-Nokia_N82_%28front_view%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N82",
+      "credit": "Mackarus, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N82_(front_view).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia N73, Nokia N93i",
+      "Successor": "Nokia N85, Nokia N86 8MP, Nokia N96"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, UMTS 2100 with HSDPA (excluding China)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "112 mm × 50.2 mm × 17.3 mm",
+      "Weight": "114 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.2, S60 3rd Edition Feature Pack 1"
+    },
+    "Display": {
+      "Display": "2.4\" QVGA LCD, 240 × 320 px, 16.7 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "5-MP / Carl Zeiss optics / Xenon flash (back)",
+      "Front camera": "CIF video call (front)"
+    },
+    "Battery": {
+      "Battery": "Nokia battery (BP-6MT) 1050 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g (excluding China), Bluetooth, Micro-USB 2.0, Nokia 3.5 mm AV Connector, Hot swappable microSD"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "LCD",
+    "battery_mah": 1050,
+    "os": "Symbian OS v9.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 114,
+    "thickness_mm": 17.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N82",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N82"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N82\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N82",
+    "revid": 1361478477
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

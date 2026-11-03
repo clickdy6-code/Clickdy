@@ -1,0 +1,62 @@
+{
+  "slug": "nokia-6103",
+  "brand": "Nokia",
+  "name": "6103",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Nokia6103black.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Nokia6103black.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 6103",
+      "credit": "BlueMint at en.wikipedia, CC BY 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia6103black.jpg",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6101",
+      "Successor": "Nokia 6131"
+    },
+    "Network": {
+      "Technology": "GSM 850 1800 1900 , GSM 900 1800 1900"
+    },
+    "Body": {
+      "Other": "FM radio"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Display": {
+      "Display": "TFT , 128x160 px , 65k colors"
+    },
+    "Cameras": {
+      "Rear camera": "640x480 VGA"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6103",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6103"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6103\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6103",
+    "revid": 1361725277
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

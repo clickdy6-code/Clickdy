@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-omnia-m",
+  "brand": "Samsung",
+  "name": "Omnia M",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2012",
+      "Series": "Samsung Omnia Series – S7530"
+    },
+    "Network": {
+      "Technology": "2.5G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 3G UMTS/HSDPA 7.2 Mbit/s – 900, 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "121.6 mm H, 64.1 mm W, 10.5 mm D",
+      "Weight": "119 g",
+      "Other": "Talk time: Up to 12.6 hours , Standby time: Up to 530 hours (approx. 22 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7.5",
+      "CPU": "1 GHz single core Qualcomm S1 MSM7227A",
+      "GPU": "Adreno 200 (enhanced)"
+    },
+    "Memory": {
+      "RAM": "384 MB RAM",
+      "Storage": "4/8 GB internal flash and 7 GB free in SkyDrive"
+    },
+    "Display": {
+      "Display": "4.0 in WVGA Super AMOLED, 800 x 480 pixels at 233 ppi, 15:9 aspect ratio, Color depth 16 bit, 65k colors, 60 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, 480p VGA video capture @ 30 fps",
+      "Front camera": "0.3 megapixel VGA"
+    },
+    "Battery": {
+      "Battery": "User serviceable 1500 mAh Li-poly battery"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 60,
+    "storage_gb": [
+      7,
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Windows Phone 7.5",
+    "five_g": true,
+    "weight_g": 119,
+    "thickness_mm": 10.5,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Omnia M",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Omnia_M"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Omnia M\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Omnia M",
+    "revid": 1374882433
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

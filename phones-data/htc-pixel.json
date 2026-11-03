@@ -1,0 +1,87 @@
+{
+  "slug": "htc-pixel",
+  "brand": "HTC",
+  "name": "Pixel",
+  "status": "published",
+  "announced": "2016-10-20",
+  "released": "2016-10-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-10-20",
+      "Discontinued": "2018-04-11",
+      "Series": "Pixel",
+      "Predecessor": "Nexus 5X, Nexus 6P",
+      "Successor": "Pixel 2"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel:, H: 143.8 mm , W: 69.5 mm , D: 8.5 mm, Pixel XL:, H: 154.7 mm , W: 75.7 mm, D: 8.5 mm",
+      "Weight": "Pixel: 143 g, Pixel XL: 168 g",
+      "Other": "IP53, proximity/ALS, accelerometer+Gyrometer, magnetometer, Pixel Imprint (fingerprint sensor), barometer, Hall effect sensor, Android Sensor Hub"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1 \"Nougat\" , Last: Android 10",
+      "Chipset": "Qualcomm Snapdragon 821",
+      "CPU": "Quad-core (2 × 2.15 GHz & 2 × 1.6 GHz) Kryo 64-bit ARMv8-A cores",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM",
+      "Storage": "32 GB or 128 GB, UFS 2.0"
+    },
+    "Display": {
+      "Display": "Pixel: 5.0 in FHD AMOLED, (441 ppi), Pixel XL: 5.5 in QHD AMOLED, (534 ppi), All models:, 2.5D Corning Gorilla Glass 4, 100% NTSC Color Space, 100,000:1 contrast ratio, 24 bit/px depth, 16.78 million colours"
+    },
+    "Cameras": {
+      "Rear camera": "12.3 MP Sony Exmor IMX378 1.55 μm pixel size with 2.0 aperture, phase-detection Autofocus + Laser Autofocus, HDR+ Processing, Night Sight, HD 720p (up to 240 FPS), FHD 1080p video (up to 120 FPS), 4K 2160p video (up to 30 FPS), Electronic Image Stabilization (sampling gyroscope at 200 Hz)",
+      "Front camera": "8 MP Sony Exmor IMX179 1.4 μm pixel size with 2.4 aperture, FHD 1080p video (up to 30 FPS)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM, LTE, LTE Advanced, Voice over LTE, HSDPA, CDMA"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 821",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32,
+      128
+    ],
+    "main_mp": 12.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 8,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": false,
+    "ip": "IP53",
+    "weight_g": 143,
+    "thickness_mm": 8.5,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel (1st generation)",
+      "url": "https://en.wikipedia.org/wiki/Pixel_%281st_generation%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel (1st generation)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Pixel (1st generation)",
+    "revid": 1369167394
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

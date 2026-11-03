@@ -1,0 +1,87 @@
+{
+  "slug": "realme-c30",
+  "brand": "Realme",
+  "name": "C30",
+  "status": "published",
+  "announced": "2022-06-20",
+  "released": "2022-06-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "C30: 2022-06-20, narzo 50i Prime: 2022-06-22, C30s: 2022-09-14",
+      "Series": "C series / narzo series",
+      "Predecessor": "Realme C20"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "C30/narzo 50i Prime: 164.1 × 75.6 × 8.5 mm, C30s: 164.2 × 75.7 × 8.5 mm",
+      "Weight": "C30/narzo 50i Prime: 182 g, C30s: 186 g",
+      "Other": "Fingerprint scanner (side-mounted; C30s), accelerometer, proximity sensor, compass"
+    },
+    "Platform": {
+      "Operating system": "C30/narzo 50i Prime: Android 11 with realme UI Go Edition, C30s: Android 12 with realme UI Go Edition",
+      "CPU": "C30/narzo 50i Prime: Unisoc T612 (12 nm), Octa-core (2×1.8 GHz Cortex-A75 & 6×1.8 GHz Cortex-A53), C30s: Unisoc SC9863A (28 nm), 8×1.6 GHz Cortex-A55",
+      "GPU": "C30/narzo 50i Prime: Mali-G57, C30s: PowerVR IMG8322"
+    },
+    "Memory": {
+      "RAM": "C30/C30s: 2/3/4 GB, narzo 50i Prime: 3/4 GB, LPDDR4X",
+      "Storage": "32/64 GB, C30/narzo 50i Prime: UFS 2.2, C30s: eMMC 5.1",
+      "Card slot": "microSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1600 × 720 (HD+), 20:9, 270 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, 27 mm (wide), 1/4\", 1.12 µm, AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, 27 mm (wide), 1/5.0\", 1.12 µm, HDR, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "10 W, narzo 50i Prime: Reverse charging"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm audio jack, Bluetooth 5.0 (A2DP, LE), FM radio, Wi-Fi 802.11 b/g/n, GPS, GLONASS, Galileo, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 182,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C30",
+      "url": "https://en.wikipedia.org/wiki/Realme_C30"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C30\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C30",
+    "revid": 1361479645
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

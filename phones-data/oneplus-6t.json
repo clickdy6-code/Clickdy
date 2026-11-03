@@ -1,0 +1,96 @@
+{
+  "slug": "oneplus-6t",
+  "brand": "OnePlus",
+  "name": "6T",
+  "status": "published",
+  "announced": "2018-11-06",
+  "released": "2018-11-06",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Oneplus_6T.jpg/500px-Oneplus_6T.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Oneplus_6T.jpg/250px-Oneplus_6T.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 6T",
+      "credit": "Rohit Thakur, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oneplus_6T.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-11-06",
+      "Predecessor": "OnePlus 6",
+      "Successor": "OnePlus 7, OnePlus 7 Pro"
+    },
+    "Network": {
+      "Technology": "2G, 3G and 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "157.5 mm H , 74.8 mm W , 8.2 mm D",
+      "Weight": "6.5 ounces (185 g)"
+    },
+    "Platform": {
+      "Operating system": "OxygenOS (based on Android Pie, upgradable to Android 11)",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4×2.8 GHz + 4×1.8 GHz) Kryo",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6, 8 or 10 (McLaren Edition) GB LPDDR4X RAM",
+      "Storage": "128 or 256 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "6.41 in 1080p (2340 ×1080 pixels) Full-HD+ Optic AMOLED / DCI-P3 (402 ppi) with 19.5:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP Sony Exmor IMX519 (f/1.7, OIS + EIS) + 20 MP Sony Exmor IMX376K (f/1.7), phase detection autofocus, dual-LED flash, Video 4K at 30 or 60fps, 1080p at 30, 60 or 240 fps, 720p at 30 or 480 fps",
+      "Front camera": "16 MP Sony Exmor IMX371 (f/2.0, EIS, HDR), Video 1080p at 30 fps, 720p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "Bottom-facing speaker"
+    },
+    "Battery": {
+      "Battery": "3700 mAh Li-Ion with Dash Charge technology"
+    },
+    "Connectivity": {
+      "Connectivity": "3G, 4G VoLTE, Bluetooth 5.0 with aptX, NFC, 2x2 MIMO WiFi 802.11a/b/g/n/ac, GPS, GLONASS, BeiDou and Galileo, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.41,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 845",
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3700,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 185,
+    "thickness_mm": 8.2,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 6T",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_6T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 6T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 6T",
+    "revid": 1361478800
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

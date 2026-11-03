@@ -1,0 +1,103 @@
+{
+  "slug": "foxconn-pixel-6a",
+  "brand": "Foxconn",
+  "name": "Pixel 6a",
+  "status": "published",
+  "announced": "2022-07-21",
+  "released": "2022-07-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Pixel_6a_%282022%29.svg/500px-Pixel_6a_%282022%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Pixel_6a_%282022%29.svg/250px-Pixel_6a_%282022%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Pixel 6a",
+      "credit": "JorgenQ, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pixel_6a_(2022).svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-07-21",
+      "Discontinued": "2023-05-10",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 5a",
+      "Successor": "Pixel 7a"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE (telecommunication), EDGE, UMTS/HSPA+, Evolution-Data Optimized, CDMA EVDO Rev A, WCDMA, LTE (telecommunication), LTE, LTE Advanced, 5G sub-6 / mmWave",
+      "SIM": "Dual Sim, Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "152.2 mm H, 71.8 mm W, 8.7 mm D",
+      "Weight": "178 g",
+      "Other": "3D thermoformed composite back, Gorilla Glass 3 cover, Titan M, Titan M2 security module"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12, Current: Android 17",
+      "Chipset": "Google Tensor (5 nm)",
+      "CPU": "Octa-core (2x2.80 GHz Cortex-X1 & 2x2.25 GHz Cortex-A76 & 4x1.80 GHz Cortex-A55)",
+      "GPU": "Mali-G78 MP20"
+    },
+    "Memory": {
+      "RAM": "6 GB RAM",
+      "Storage": "128 GB UFS 3.1",
+      "Card slot": "No removable storage"
+    },
+    "Display": {
+      "Display": "6.1 in 1080p FHD+ OLED, px resolution, 20:9 Display aspect ratio, aspect ratio (~429 ppi density), High-dynamic-range, HDR, Gorilla Glass, Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 Megapixel, MP, 1.7, 27mm (wide), 1/2.55\", 1.4 μm, dual pixel PDAF, OIS, 12 Megapixel, MP, 2.2, 17mm, 114˚ (ultrawide), 1.25 μm, Dual-LED flash, Pixel Shift, Auto-HDR, panorama, 4K resolution, 4K video at 30 or 60fps, 1080p video at 30, 60, 120 or 240fps, gyro-EIS, OIS",
+      "Front camera": "8 Megapixel, MP, 2.0, 24mm (wide), 1.12 μm, Auto-HDR, panorama, 1080p video at 30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, Stereo loudspeakers, 2 microphones"
+    },
+    "Battery": {
+      "Battery": "Li-Po 4410 mAh",
+      "Charging": "Fast charging 18W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6E + HE160 + 2X2 MIMO, Bluetooth 5.2, Near-field communication, NFC, Google Cast, Satellite navigation, GNSS (GPS / GLONASS / Galileo (satellite navigation), Galileo / Quasi-Zenith Satellite System, QZSS), USB-C: USB 5Gbps"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "OLED",
+    "chipset": "Google Tensor",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "battery_mah": 4410,
+    "wired_w": 18,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6E",
+    "usb": "USB-C",
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 178,
+    "thickness_mm": 8.7,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 6a",
+      "url": "https://en.wikipedia.org/wiki/Pixel_6a"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 6a\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 6a",
+    "revid": 1361479377
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

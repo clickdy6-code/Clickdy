@@ -1,0 +1,78 @@
+{
+  "slug": "nokia-8600-luna",
+  "brand": "Nokia",
+  "name": "8600 Luna",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Nokia_8600.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Nokia_8600.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 8600 Luna",
+      "credit": "AnVuong1222004 (2), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_8600.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2012",
+      "Predecessor": "Nokia 8800",
+      "Successor": "Nokia N97"
+    },
+    "Network": {
+      "Technology": "EDGE/GPRS/GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "107 x 45 x 15.9 mm, (4.21 x 1.77 x 0.63 inches)",
+      "Weight": "140 g (4.9 oz)"
+    },
+    "Platform": {
+      "Operating system": "Series 40 3rd Edition, Feature Pack 1"
+    },
+    "Memory": {
+      "RAM": "128MB"
+    },
+    "Display": {
+      "Display": "TFT, 16.7 million colors, 240 x 320 pixels, 2 inches"
+    },
+    "Cameras": {
+      "Rear camera": "1600 x 1200 px (2 MP)"
+    },
+    "Battery": {
+      "Battery": "BP-5M 900mAh 3.7V"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 +EDR, MicroUSB"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 140
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 8600 Luna",
+      "url": "https://en.wikipedia.org/wiki/Nokia_8600_Luna"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 8600 Luna\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 8600 Luna",
+    "revid": 1376231576
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "samsung-galaxy-folder-2",
+  "brand": "Samsung",
+  "name": "Galaxy Folder 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/GalaxyFolder2.png/500px-GalaxyFolder2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/GalaxyFolder2.png/250px-GalaxyFolder2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Folder 2",
+      "credit": "mgsmpl, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GalaxyFolder2.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2016",
+      "Series": "Samsung Galaxy",
+      "Predecessor": "Samsung Galaxy Folder"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "122 x 60.2 x 16.1 mm",
+      "Weight": "165 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 \"Marshmallow\", later upgraded to Android 7.1.1 \"Nougat\"",
+      "Chipset": "Qualcomm Snapdragon 425",
+      "CPU": "ARM Cortex-A53 1.4 GHz Quad",
+      "GPU": "Adreno 308 450 MHz"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16 GB"
+    },
+    "Display": {
+      "Display": "3.8 inch 480x800 TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "8MP f/1.9 with flash",
+      "Front camera": "5MP f/1.9"
+    },
+    "Battery": {
+      "Battery": "removable 1950 mAh Li-ion battery",
+      "Charging": "USB Micro B"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi b/g/n, Bluetooth 4.2, GPS, microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.8,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 425",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 1950,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 165,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Folder 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Folder_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Folder 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Folder 2",
+    "revid": 1380298327
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

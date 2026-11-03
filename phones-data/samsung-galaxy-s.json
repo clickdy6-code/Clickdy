@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-galaxy-s",
+  "brand": "Samsung",
+  "name": "Galaxy S",
+  "status": "published",
+  "announced": "2010-06-04",
+  "released": "2010-06-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Samsung_Galaxy_S_White.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Samsung_Galaxy_S_White.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung Galaxy S",
+      "credit": "Dj106, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_White.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-06-04",
+      "Series": "Samsung Galaxy S",
+      "Predecessor": "Samsung Galaxy, Samsung S8300 UltraTouch",
+      "Successor": "Samsung Galaxy S II, Samsung Galaxy S Plus"
+    },
+    "Network": {
+      "Technology": "Dual band CDMA2000/EV-DO Rev. A 800 and 1,900 MHz;, WiMAX 2.5 to 2.7 GHz; , 802.16e 2.5G (GSM/GPRS/EDGE): 850, 900, 1,700, 1,800, 1,900, and 2,100 MHz;, 3G (HSDPA 7.2 Mbit/s, HSUPA 5.76 Mbit/s): 900, 1,900, and 2,100 MHz;, TD-SCDMA (China Mobile Only)",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone (most versions) , Slider (Sprint version)",
+      "Dimensions": "122.4 mm H, 64.2 mm W, 9.9 – D",
+      "Weight": "119 g (4.20 oz)",
+      "Other": "TV out, integrated messaging Social Hub, Google Play, GALAXY Apps, A-GPS, Augmented reality with Layar Reality Browser, video messaging, Exchange ActiveSync (offline and no SIM Mode), voice command, RSS reader, Widgets, Smart security"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 (Eclair), upgradable to 2.3 (Gingerbread), TouchWiz UI 3",
+      "Chipset": "Samsung Exynos 3110 (previously known as Hummingbird S5PC110)",
+      "CPU": "1.0 GHz ARM Cortex A8",
+      "GPU": "PowerVR SGX 540"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "8 GB / 16 GB",
+      "Card slot": "microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "4.0 in Super AMOLED with RGBG-Matrix (Pentile), 480x800 px WVGA (233 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP with auto focus; 720p HD video 29.45 FPS, (12 Mb/s); auto-focus; self-shot, action, panorama, smile shot; face detection; anti-shake; add me",
+      "Front camera": "0.3 Megapixel (VGA)"
+    },
+    "Sound": {
+      "Sound": "SoundAlive, 16 kHz 64 kbit/s mono in HD video recording"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1,500 mAh Battery"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS; Wi-Fi 802.11b/g/n; DLNA; Bluetooth 3.0; micro-USB 2.0; FM radio with RDS with recording"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 3110",
+    "storage_gb": [
+      8,
+      16
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1500,
+    "os": "Android 2.1",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 119,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S (1st generation)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_%281st_generation%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S (1st generation)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S (1st generation)",
+    "revid": 1382795529
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

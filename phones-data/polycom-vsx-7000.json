@@ -1,0 +1,50 @@
+{
+  "slug": "polycom-vsx-7000",
+  "brand": "Polycom",
+  "name": "VSX 7000",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Polycom_VSX_7000_white_bg.JPG/500px-Polycom_VSX_7000_white_bg.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Polycom_VSX_7000_white_bg.JPG/250px-Polycom_VSX_7000_white_bg.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Polycom VSX 7000",
+      "credit": "Polycom_VSX_7000_in_on_position.JPG: BrokenSphere\nderivative work: Thomas von de, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Polycom_VSX_7000_white_bg.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Polycom VSX 7000s"
+    },
+    "Display": {
+      "Display": "External, not included in the unit"
+    },
+    "Cameras": {
+      "Rear camera": "65° field of view, 12× zoom, 30 frames/sec, FECC"
+    },
+    "Connectivity": {
+      "Connectivity": "[[Internet Protocol, [[Integrated services digital network"
+    }
+  },
+  "key": {
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Polycom VSX 7000",
+      "url": "https://en.wikipedia.org/wiki/Polycom_VSX_7000"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Polycom VSX 7000\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Polycom VSX 7000",
+    "revid": 1361479462
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "samsung-galaxy-s6",
+  "brand": "Samsung",
+  "name": "Galaxy S6",
+  "status": "published",
+  "announced": "2015-04-10",
+  "released": "2015-04-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Samsung_Galaxy_S6_S6_Edge_and_S6_Edge_Plus.png/500px-Samsung_Galaxy_S6_S6_Edge_and_S6_Edge_Plus.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Samsung_Galaxy_S6_S6_Edge_and_S6_Edge_Plus.png/250px-Samsung_Galaxy_S6_S6_Edge_and_S6_Edge_Plus.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S6",
+      "credit": "GadgetsGuy and GalaxyOptimus collage., CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S6_S6_Edge_and_S6_Edge_Plus.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "S6 and S6 Edge:, 2015-04-10, S6 Active: 2015-06-12, S6 Edge+: 2015-08-21",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S5, Samsung Galaxy K Zoom (for S6 Edge), Samsung Galaxy Note Edge (for S6 Edge+)",
+      "Successor": "Samsung Galaxy S7"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "S6: 143.4 x 70.5 x 6.8 mm (5.65 x 2.78 x 0.27 inches), S6 Edge: 142.1 x 70.1 x 7 mm (5.59 x 2.76 x 0.38 inches), S6 Edge+: 154.4 x 75.8 x 6.9 mm (6.08 x 2.98 x 0.27 inches), S6 Active: 146.8 x 73.4 x 8.6 mm (5.78 x 2.89 x 0.34 inches)",
+      "Weight": "S6: 138 g (4.87 oz), S6 Edge: 132 g (4.66 oz), S6 Edge+: 153 g (5.40 oz), S6 Active: 170 g (6.00 oz)"
+    },
+    "Platform": {
+      "Operating system": "Originally (S6, S6 Edge & S6 Active): Android 5.0.2 (Lollipop) with TouchWiz Zero UX, Originally (S6 Edge+): Android 5.1.1 (Lollipop) with TouchWiz Noble UX, Currently (all): Android 7.0 (Nougat) with Samsung Experience 8.0, Unofficial: Android 14 with LineageOS",
+      "Chipset": "Samsung Exynos 7420 Octa (14nm)",
+      "CPU": "Quad-core 2.1 GHz Cortex-A57 + Quad-core 1.5 GHz Cortex-A53",
+      "GPU": "Mali-T760 MP8"
+    },
+    "Memory": {
+      "RAM": "S6, S6 Edge and S6 Active: 3 GB, S6 Edge+: 4 GB",
+      "Storage": "S6, S6 Edge and S6 Active (additional): 32 GB, 64 GB or 128 GB, S6 Edge+ and S6 Active: 32 GB or 64 GB UFS 2.0"
+    },
+    "Display": {
+      "Display": "S6, S6 Edge and S6 Active: 5.1 inches 1440p Super AMOLED display, S6 Edge+: 5.7 inches 1440 Super AMOLED display, (both Diamond PenTile)"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP (f/1.9) 2160p @ 30fps,1440p @ 30fps, 1080p @ 60/30fps, 720p @30/120fps (real-time); 28 mm, Features: OIS, Autofocus, LED Flash, Auto-HDR, Panorama",
+      "Front camera": "5 MP (f/1.9) @1440p 30fps 22 mm, Features: Auto-HDR"
+    },
+    "Battery": {
+      "Battery": "S6: Li-Ion 2,550 mAh battery, S6 Edge: Li-Ion 2,600 mAh battery, S6 Edge+: Li-Ion 3,000 mAh battery, S6 Active: Li-Ion 3,500 mAh battery, 15W charging speed"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (2.4 & 5 GHz), Bluetooth 4, 4G/LTE"
+    }
+  },
+  "key": {
+    "display_in": 5.1,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 7420 Octa",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@60fps",
+    "front_mp": 5,
+    "battery_mah": 2550,
+    "os": "Android 5.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 138,
+    "thickness_mm": 6.9,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S6",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy S6",
+    "revid": 1380483121
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "palm-pre",
+  "brand": "Palm",
+  "name": "Pre",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Palm_Pre.jpg/500px-Palm_Pre.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Palm_Pre.jpg/250px-Palm_Pre.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Palm Pre",
+      "credit": "James Whatley, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Palm_Pre.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Palm Pre 2"
+    },
+    "Body": {
+      "Form factor": "Slider smartphone",
+      "Dimensions": "100.53 mm (h), 59.57 mm (w), 16.95 mm (d)",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "Palm webOS",
+      "CPU": "600 MHz (underclocked to 500 MHz) Texas Instruments OMAP 3430 (ARM Cortex A8 + PowerVR SGX)"
+    },
+    "Memory": {
+      "RAM": "Original: 256 MB 166MHz DDR DRAM, Pre Plus: 512 MB 166MHz DDR DRAM",
+      "Storage": "Flash memory, Original: 8 GB, Pre Plus: 16 GB"
+    },
+    "Display": {
+      "Display": "320 × 480 px, 3.1 in HVGA, 24-bit color LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel camera with LED flash, \"extended depth of field\", and geotagging"
+    },
+    "Battery": {
+      "Battery": "3.7 V 1150 mAh, Internal rechargeable removable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g), Bluetooth 2.1+EDR, MicroUSB, A-GPS, CDMA version: Dual band CDMA2000/EV-DO Rev. A 800, 1900 MHz, GSM version: Quad band GSM 850/900/1800/1900 MHz GPRS/EDGE, Dual band UMTS 850/1900 or 900/2100 MHz HSDPA"
+    }
+  },
+  "key": {
+    "display_in": 3.1,
+    "display_type": "LCD",
+    "storage_gb": [
+      8,
+      16
+    ],
+    "battery_mah": 1150,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135,
+    "thickness_mm": 16.95
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Palm Pre",
+      "url": "https://en.wikipedia.org/wiki/Palm_Pre"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Palm Pre\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Palm Pre",
+    "revid": 1383611760
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

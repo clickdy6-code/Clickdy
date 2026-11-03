@@ -1,0 +1,80 @@
+{
+  "slug": "nokia-x6-00",
+  "brand": "Nokia",
+  "name": "X6-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Nokia_x6_16gb.jpg/500px-Nokia_x6_16gb.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Nokia_x6_16gb.jpg/250px-Nokia_x6_16gb.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia X6-00",
+      "credit": "Medvedev, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_x6_16gb.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia Xseries (Previously XpressMusic)",
+      "Predecessor": "Nokia 5800 XpressMusic, Nokia 5530 XpressMusic, Nokia 5630 XpressMusic, Nokia 5730 XpressMusic",
+      "Successor": "Nokia X7-00, Nokia X6 (2018)"
+    },
+    "Network": {
+      "Technology": "(3.5G), UMTS, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "candybar",
+      "Dimensions": "111.0 × 51.0 × 13.8 mm",
+      "Weight": "122 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.4 with Nokia S60 5th Edition UI.",
+      "CPU": "ARM 11 clocked at 433.9 Mhz"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM, 512 MB ROM, 32,16 or 8 GB NAND memory, expandable up to 16 GB."
+    },
+    "Display": {
+      "Display": "640×360 (16:9 nHD) 3.2 inch TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5.0-megapixel with Carl Zeiss optics, 4x digital zoom, dual LED flash, Front-facing CIF camera"
+    },
+    "Battery": {
+      "Battery": "BL-5J (1,320 mAh), AC-8U (2.0 mm power connector)"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g with UPnP, Micro-USB 2.0, Bluetooth 2.1 with A2DP, GPS, aGPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "ram_gb": [
+      8,
+      16
+    ],
+    "battery_mah": 1320,
+    "os": "Symbian OS 9.4 with Nokia S60 5th Edition UI.",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 122
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X6-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X6-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X6-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X6-00",
+    "revid": 1365934391
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

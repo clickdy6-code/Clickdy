@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-7710",
+  "brand": "Nokia",
+  "name": "7710",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Nokia_7710.png/500px-Nokia_7710.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Nokia_7710.png/250px-Nokia_7710.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 7710",
+      "credit": "AnVuong1222004 (2), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7710.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 7700",
+      "Successor": "Nokia 770 Internet Tablet, Nokia N800"
+    },
+    "Network": {
+      "Technology": "GPRS, HSCSD, EDGE"
+    },
+    "Body": {
+      "Dimensions": "128 x 69.5 x 19 mm",
+      "Weight": "189 grams"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS / Nokia Series 90"
+    },
+    "Memory": {
+      "RAM": "~90 MB (shared)",
+      "Card slot": "MMC"
+    },
+    "Display": {
+      "Display": "640 x 320 px, 65,536 colours"
+    },
+    "Cameras": {
+      "Rear camera": "1 MP, Video Recording"
+    },
+    "Battery": {
+      "Battery": "BP-5L, 1300 mAh lithium-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, Nokia Pop-Port (USB)"
+    }
+  },
+  "key": {
+    "main_mp": 1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1300,
+    "os": "Symbian OS / Nokia Series 90",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7710",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7710"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7710\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7710",
+    "revid": 1361477828
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

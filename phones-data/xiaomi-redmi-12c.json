@@ -1,0 +1,104 @@
+{
+  "slug": "xiaomi-redmi-12c",
+  "brand": "Xiaomi",
+  "name": "Redmi 12C",
+  "status": "published",
+  "announced": "2022-12-31",
+  "released": "2022-12-31",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Redmi_12C_front.jpg/500px-Redmi_12C_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Redmi_12C_front.jpg/250px-Redmi_12C_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 12C",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_12C_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "12C: 2022-12-31, Poco C55: 2023-02-21",
+      "Series": "Redmi/Poco C",
+      "Predecessor": "Redmi 10C , Redmi 10A",
+      "Successor": "Redmi 13C"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "168.76 mm H , 76.41 mm W , 8.77 mm D",
+      "Weight": "192 g",
+      "Other": "Fingerprint scanner (on the back), accelerometer, virtual proximity sensor"
+    },
+    "Platform": {
+      "Operating system": "Initial:, 12C: Android 12 + MIUI 13, Poco C55: Android 12 + MIUI 13 for Poco, Current: Android 14 + Xiaomi HyperOS",
+      "Chipset": "MediaTek Helio G85 (12nm)",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G52 MC2"
+    },
+    "Memory": {
+      "RAM": "3 and 4 and 6 GB RAM",
+      "Storage": "32, 64, 128 GB eMMC 5.1",
+      "Card slot": "MicroSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.71 in, px resolution (~268 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, (wide), 1/2.76\", PDAF, 0.08 MP (depth), LED flash, HDR, 1080p@30fps",
+      "Front camera": "5 MP, f/2.2, (wide), 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeakers, speakerphone, 3.5 mm Audio"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "10W"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, Bluetooth 5.0 (Poco C55)/5.1 (Redmi 12C) (A2DP, LE), FM radio, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, Galileo, Beidou, QZSS (Poco C55)"
+    }
+  },
+  "key": {
+    "display_in": 6.71,
+    "chipset": "MediaTek Helio G85",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 192,
+    "thickness_mm": 8.77,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 12C",
+      "url": "https://en.wikipedia.org/wiki/Redmi_12C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 12C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 12C",
+    "revid": 1361479751
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

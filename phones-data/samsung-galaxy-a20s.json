@@ -1,0 +1,97 @@
+{
+  "slug": "samsung-galaxy-a20s",
+  "brand": "Samsung",
+  "name": "Galaxy A20s",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 5th, 2019",
+      "Series": "Samsung Galaxy A Series",
+      "Predecessor": "Samsung Galaxy A20",
+      "Successor": "Samsung Galaxy A21, Samsung Galaxy A21s"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, LTE",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, Dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Touch Bar",
+      "Dimensions": "H: 163.3 mm (6.43 in ), W: 77.5 mm (3.05 in), D: 8.0 mm (0.31 in)",
+      "Weight": "183 g",
+      "Other": "A-GPS, GLONASS, GALILEO, BDS, FM Radio"
+    },
+    "Platform": {
+      "Operating system": "Android version shipped: Android 9, One UI 1, Last: Android 11, One UI 3.1",
+      "Chipset": "Qualcomm Snapdragon 450",
+      "CPU": "Octa-core 1.8 GHz",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "3 GB or 4 GB LPDDR3",
+      "Storage": "32 GB or 64 GB eMMC 5.1",
+      "Card slot": "microSDXC UHS-I up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.5 inches, IPS LCD, 720x1560px aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "13MP (Wide) + 8MP (Ultrawide) + 5MP (Depth)",
+      "Front camera": "8MP (Wide)"
+    },
+    "Sound": {
+      "Sound": "Internal speakers with Dolby Atmos support, 3.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "Li - Po 4000mAh, non-removable",
+      "Charging": "Charging up to 15W, no wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wifi 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Hotspot, Bluetooth v.4.2"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 450",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "wired_w": 15,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 183,
+    "thickness_mm": 8,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A20s",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A20s"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A20s\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A20s",
+    "revid": 1380481491
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

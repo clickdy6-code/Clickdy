@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy",
+  "brand": "Samsung",
+  "name": "Galaxy",
+  "status": "published",
+  "announced": "2009-06-29",
+  "released": "2009-06-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Samsung_Galaxy_i7500_Home_Screen.jpg/500px-Samsung_Galaxy_i7500_Home_Screen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Samsung_Galaxy_i7500_Home_Screen.jpg/250px-Samsung_Galaxy_i7500_Home_Screen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy",
+      "credit": "Vankata453, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_i7500_Home_Screen.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-06-29",
+      "Successor": "Samsung Galaxy S"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G) 900/1700/2100, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "115 mm × 56 mm × 11.9 mm",
+      "Weight": "114 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 1.5 \"Cupcake\", Current: Android 1.6 \"Donut\", Unofficial: Android 2.3 \"Gingerbread\" via custom ROMs",
+      "Chipset": "Qualcomm MSM7200A",
+      "CPU": "ARM11 528 MHz + DSP 256 MHz",
+      "GPU": "Adreno 130"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM",
+      "Storage": "8 GB, 7.6 GB user available",
+      "Card slot": "MicroSD support for up to 32 GB"
+    },
+    "Display": {
+      "Display": "320 x 480 px, 3.2 in, AMOLED, Touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixels with flash"
+    },
+    "Battery": {
+      "Battery": "Li-Ion (1500 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.1, Wi-Fi b/g, GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm MSM7200A",
+    "storage_gb": [
+      6,
+      8
+    ],
+    "battery_mah": 1500,
+    "os": "Android 1.5",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 114,
+    "thickness_mm": 11.9,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy (2009 smartphone)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_%282009_smartphone%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy (2009 smartphone)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy (2009 smartphone)",
+    "revid": 1380074510
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

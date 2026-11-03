@@ -1,0 +1,83 @@
+{
+  "slug": "samsung-galaxy-mini",
+  "brand": "Samsung",
+  "name": "Galaxy Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Samsung_Galaxy_Mini.png/500px-Samsung_Galaxy_Mini.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Samsung_Galaxy_Mini.png/250px-Samsung_Galaxy_Mini.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Mini",
+      "credit": "Dienthoaiquangcao4, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Mini.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "February 2011",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung E1107, Samsung Galaxy 5",
+      "Successor": "Samsung Galaxy Mini 2"
+    },
+    "Network": {
+      "Technology": "GSM 850 MHz/900 MHz/1800 MHz/1900 MHz , HSDPA 7.2 Mbit/s 850 MHz / 900 MHz / 1700 MHz / 1900 MHz / 2100 MHz , CDMA CDMA2000 1xRTT/cdmaOne/EV-DO Rel. 0 800 MHz (SCH-i559)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "110.4 mm H, 60.6 mm W, 12.1 mm D",
+      "Weight": "106.6 g",
+      "Other": "Swype keyboard"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.2.1 \"Froyo\" , Current: Android 2.3.6 \"Gingerbread\" , Unofficial: Android 4.4.2 \"KitKat\" via CyanogenMod",
+      "CPU": "Qualcomm MSM7227 600 MHz (GT-S5570), Broadcom BCM21553 832 MHz (GT-S5570i)",
+      "GPU": "Adreno 200 (GT-S5570), Broadcom BCM2763 Videocore IV (GT-S5570i)"
+    },
+    "Memory": {
+      "RAM": "278 MB (GT-S5570), 384 MB (GT-S5570i)",
+      "Storage": "160 MB",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "TFT LCD 3.14\", 127 ppi, 240×320 pixels QVGA, 256k colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.15-megapixel"
+    },
+    "Battery": {
+      "Battery": "1200 mAh Li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm jack , Bluetooth v2.1 with A2DP, FM Radio with RDS:, - mono (GT-S5570); , - stereo (GT-S5570i), micro USB 2.0, Wi-Fi 802.11 (b/g/n)"
+    }
+  },
+  "key": {
+    "display_in": 3.14,
+    "display_type": "TFT",
+    "battery_mah": 1200,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 106.6,
+    "thickness_mm": 12.1,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Mini",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Mini",
+    "revid": 1376040052
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

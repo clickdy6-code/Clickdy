@@ -1,0 +1,97 @@
+{
+  "slug": "oppo-oneplus-nord-ce-3-5g",
+  "brand": "Oppo",
+  "name": "OnePlus Nord CE 3 5G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Nord CE 3: , Oppo K11:",
+      "Series": "OnePlus Nord / Oppo K",
+      "Predecessor": "OnePlus Nord CE 2 5G, Oppo K10 5G",
+      "Successor": "OnePlus Nord CE4"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G, LTE, 5G",
+      "SIM": "Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.7 × 75.5 × 8.2 mm",
+      "Weight": "184 g",
+      "Other": "Fingerprint (under display, optical), proximity, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Nord CE 3:, Initial: Android 13 with OxygenOS 13.1, Oppo K11:, Initial: Android 13 with ColorOS 13.1",
+      "Chipset": "Qualcomm Snapdragon 782G (6 nm)",
+      "CPU": "Octa-core (1×2.7 GHz Cortex-A78 & 3×2.4 GHz Cortex-A78 & 4×1.8 GHz Cortex-A55)",
+      "GPU": "Adreno 642L"
+    },
+    "Memory": {
+      "RAM": "8/12 GB LPDDR4X",
+      "Storage": "Nord CE 3: 128/256 GB, Oppo K11: 256/512 GB, UFS 3.1",
+      "Card slot": "microSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "AMOLED, 6.7\", 2412 × 1080 (Full HD+), 394 ppi, 20:9, 120 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP Sony IMX890, 24 mm (wide), 1/1.56\", 1µm, multi-directional PDAF, OIS + 8 MP Sony IMX355, 112° (ultrawide), 1/4\", 1.12µm + 2 MP, (macro), LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60/120fps, gyro-EIS",
+      "Front camera": "16 MP, 24 mm (wide), 1.0 µm, HDR, panorama, Video: 1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "Nord CE 3: 80W wired SuperVOOC, Oppo K11: 100W wired SuperVOOC"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.2 (A2DP, LE, aptX Adaptive/HD), NFC, IR blaster, Wi-Fi 802.11 a/b/g/n/ac/6 (dual-band, Wi-Fi Direct), GPS, GLONASS, BeiDou, Galileo, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 782G",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 100,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 184
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus Nord CE 3 5G",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_Nord_CE_3_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus Nord CE 3 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus Nord CE 3 5G",
+    "revid": 1369334403
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

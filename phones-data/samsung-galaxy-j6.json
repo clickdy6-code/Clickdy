@@ -1,0 +1,91 @@
+{
+  "slug": "samsung-galaxy-j6",
+  "brand": "Samsung",
+  "name": "Galaxy J6+",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Samsung_Galaxy_J6%2B.jpg/500px-Samsung_Galaxy_J6%2B.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Samsung_Galaxy_J6%2B.jpg/250px-Samsung_Galaxy_J6%2B.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy J6+",
+      "credit": "Ahmadkurdi44, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_J6%2B.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10",
+      "Discontinued": "April 2019",
+      "Series": "Galaxy J series"
+    },
+    "Network": {
+      "Technology": "2G GSM 850, 900, 1800, 1900 , 3G HSDPA 850, 900, 1700, 1900, 2100 , 4G LTE Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 20, 28, 38, 40, 41, 66"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.4 mm H , 76.9 mm W , 7.9 mm D",
+      "Weight": "178 g",
+      "Other": "FM radio"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\"; Samsung Experience , Current: Android 10; One UI 2.0",
+      "Chipset": "Qualcomm MSM8917 Snapdragon 425",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "RAM": "3 or 4 GB",
+      "Storage": "32 or 64 GB",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.0\", 720×1480 px (274 ppi) TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/1.7, 5 MP, f/1.9",
+      "Front camera": "8 MP, f/.1.9"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g/n, Bluetooth 4.2, GPS/GLONASS, NFC, microUSB 2.0, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM8917 Snapdragon 425",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 178,
+    "thickness_mm": 7.9,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J6+",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J6%2B"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J6+\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J6+",
+    "revid": 1380480008
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "pixel-10-pro",
+  "brand": "Pixel",
+  "name": "10 Pro",
+  "status": "published",
+  "announced": "2025-08-28",
+  "released": "2025-08-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-08-28",
+      "Discontinued": "2026-08-12",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 9 Pro, Pixel 9 Pro XL",
+      "Successor": "Pixel 11 Pro, Pixel 11 Pro XL"
+    },
+    "Network": {
+      "Technology": "GSM / EDGE (telecommunication), EDGE, UMTS / HSPA+ / HSDPA, LTE (telecommunication), LTE, 5G sub-6 / mmWave",
+      "SIM": "Dual eSIM (US), Nano-SIM and eSIM (elsewhere)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel 10 Pro:H: 152.8 mm, W: 72 mm, D: 8.6 mm, Pixel 10 Pro XL:H: 162.8 mm, W: 76.6 mm, D: 8.5 mm",
+      "Weight": "Pixel 10 Pro: 207 g, Pixel 10 Pro XL: 232 g",
+      "Other": "Gorilla Glass Victus 2 cover, Gorilla Glass Victus 2 back, Titan M, Titan M2 security module, Ultra-wideband (UWB) chip, Thread_(network_protocol), Thread Radio"
+    },
+    "Platform": {
+      "Operating system": "Android 16, upgradable to Android 17",
+      "Chipset": "Google Tensor G5",
+      "CPU": "1x 3.78 GHz Cortex-X4 + 5x 3.05 GHz Cortex-A725 + 2x 2.25 GHz Cortex-A520",
+      "GPU": "2x 1.1 GHz Imagination DXT-48-1536"
+    },
+    "Memory": {
+      "RAM": "16 GB LPDDR5X",
+      "Storage": "Pixel 10 Pro:, 128 GB Universal Flash Storage, UFS 3.1, 256 GB UFS 4.0, 512 GB & 1 TB Zoned UFS 4.0, Pixel 10 Pro XL:, 256 GB UFS 4.0, 512 GB & 1 TB Zoned UFS 4.0"
+    },
+    "Display": {
+      "Display": "Pixel 10 Pro:, 161 mm FHD+ Low-temperature polycrystalline silicon, LTPO OLED at 495 ppi, px (20:9), 2200 nits (High dynamic range, HDR), 3300 nits (peak brightness), 1–120 Hz refresh rate, Pixel 10 Pro XL:, 172 mm QHD+ LTPO OLED at 486 ppi, px (20:9), 2200 nits (HDR), 3300 nits (peak brightness), 1–120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, 1.68, 82˚ field of view (wide), 1/1.3\", 48 MP, 1.7, 123˚ field of view (ultrawide), 1/2.55\", 48 MP, 2.8, 22˚ field of view (telephoto), 5× optical zoom, 1/2.55\", 1080p video at 24, 30, or 60 FPS, 4K resolution, 4K video at 24, 30, or 60 FPS, 8K resolution, 8K video at 30 Frame rate, FPS",
+      "Front camera": "42 MP, 2.2, 103˚ field of view (ultrawide), 4K video at 30 or 60 FPS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3 microphones, Noise suppression, Spatial audio"
+    },
+    "Battery": {
+      "Battery": "Pixel 10 Pro: 4870 mAh, Pixel 10 Pro XL: 5200 mAh",
+      "Charging": "Pixel 10 Pro:, 30 W fast charging, 15 W Qi (standard), Qi2 wireless charging, Pixel 10 Pro XL:, 45 W fast charging, 25 W Qi (standard), Qi2.2 wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 + MIMO, Bluetooth 6.0, Near-field communication, NFC, Google Cast, Dual-band Satellite navigation, GNSS (GPS / GLONASS / Galileo (satellite navigation), Galileo), USB-C 3.2"
+    }
+  },
+  "key": {
+    "display_type": "LTPO OLED",
+    "refresh_hz": 120,
+    "peak_nits": 3300,
+    "chipset": "Google Tensor G5",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "video": "1080p",
+    "front_mp": 42,
+    "battery_mah": 4870,
+    "wired_w": 45,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 207,
+    "thickness_mm": 8.6,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 10 Pro",
+      "url": "https://en.wikipedia.org/wiki/Pixel_10_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 10 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 10 Pro",
+    "revid": 1379535061
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "xiaomi-poco-m6-pro",
+  "brand": "Xiaomi",
+  "name": "Poco M6 Pro",
+  "status": "published",
+  "announced": "2024-01-12",
+  "released": "2024-01-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-01-12",
+      "Series": "Poco M series",
+      "Predecessor": "Poco M5 Pro"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE (4G)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.1 × 75 × 8 mm",
+      "Weight": "179 g"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with MIUI 14 (upgradable to Android 14 with HyperOS)",
+      "Chipset": "MediaTek Helio G99 Ultra",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "8 GB or 12 GB LPDDR4X",
+      "Storage": "256 GB or 512 GB UFS 2.2",
+      "Card slot": "microSDXC (uses shared SIM slot)"
+    },
+    "Display": {
+      "Display": "6.67 in (169 mm) AMOLED, 120Hz, 1000 nits (HBM), 1300 nits (peak) , 1080 × 2400 pixels, 20:9 ratio (~395 ppi density) , Protection: (Gorilla Glass 5)"
+    },
+    "Cameras": {
+      "Rear camera": "Triple:, • 64 MP, f/1.8, 25mm (wide), 1/2.0\", 0.7µm, PDAF, OIS, • 8 MP, f/2.2 (ultrawide), • 2 MP, f/2.4 (macro), Features: LED flash, HDR, panorama, Video: 1080p@30/60fps, gyro-EIS",
+      "Front camera": "16 MP, f/2.5 (wide), Video: 1080p@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3.5mm jack, 24-bit/192kHz Hi-Res audio"
+    },
+    "Battery": {
+      "Battery": "5,000 mAh Li-Po (non-removable)",
+      "Charging": "67W wired (100% in 44 min)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Bluetooth 5.2, A2DP, LE, GPS, GALILEO, GLONASS, BDS, NFC (market dependent), Infrared port, FM radio, USB Type-C 2.0, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 1300,
+    "chipset": "MediaTek Helio G99 Ultra",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 67,
+    "os": "Android 13",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 179,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Poco M6 Pro",
+      "url": "https://en.wikipedia.org/wiki/Poco_M6_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Poco M6 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Poco M6 Pro",
+    "revid": 1364824759
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

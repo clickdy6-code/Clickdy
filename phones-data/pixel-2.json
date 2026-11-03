@@ -1,0 +1,90 @@
+{
+  "slug": "pixel-2",
+  "brand": "Pixel",
+  "name": "2",
+  "status": "published",
+  "announced": "2017-10-19",
+  "released": "2017-10-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-10-19",
+      "Discontinued": "2019-04-01",
+      "Series": "Pixel",
+      "Predecessor": "Pixel",
+      "Successor": "Pixel 3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel 2: 145.7*69.7*7.8 mm, Pixel 2 XL: 157.9*76.7*7.9 mm",
+      "Weight": "Pixel 2: 143 g, Pixel 2 XL: 175 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.0 \"Oreo\", Last: Android 11",
+      "Chipset": "Qualcomm Snapdragon 835",
+      "CPU": "Octa-core (4 × 2.35 GHz, 4 × 1.9 GHz) Kryo",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X RAM",
+      "Storage": "64 or 128 GB"
+    },
+    "Display": {
+      "Display": "Pixel 2: 5 in FHD AMOLED, 1920 × 1080 (441 ppi), Pixel 2 XL: 6 in QHD P-OLED, 2880 × 1440 (538 ppi), All: Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor IMX362, 12.2 MP, 1.4 μm pixel size, f/1.8 aperture, Phase-detection autofocus and laser autofocus, HDR+ processing, Night Sight, Dual pixel, HD 720p (up to 240 FPS), FHD 1080p video (up to 120 FPS), 4K 2160p video (up to 30 FPS), Image stabilization#Electronic image stabilization, EIS, Optical image stabilization, OIS",
+      "Front camera": "8 MP, Sony Exmor IMX179, 1.4 μm pixel size, f/2.4 aperture"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker with stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Pixel 2: 2,700 mAh, Pixel 2 XL: 3,520 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM, LTE, LTE Advanced, Voice over LTE, HSDPA, CDMA, TD-LTE, TD-SCDMA"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 835",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12.2,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 8,
+    "battery_mah": 2700,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 143,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 2",
+      "url": "https://en.wikipedia.org/wiki/Pixel_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Pixel 2",
+    "revid": 1380356653
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

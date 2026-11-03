@@ -1,0 +1,81 @@
+{
+  "slug": "nokia-c7-00",
+  "brand": "Nokia",
+  "name": "C7-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Nokia_C7_with_Nokia_Belle.jpg/500px-Nokia_C7_with_Nokia_Belle.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Nokia_C7_with_Nokia_Belle.jpg/250px-Nokia_C7_with_Nokia_Belle.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C7-00",
+      "credit": "Seqtre, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_C7_with_Nokia_Belle.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Cseries",
+      "Predecessor": "Nokia E66, Nokia 5800 XpressMusic, Nokia C6-00, Nokia N97 Mini",
+      "Successor": "Nokia 701, Nokia Lumia 710"
+    },
+    "Network": {
+      "Technology": "HSDPA (Pentaband) (3.5G) 850 / 900 / 1700 / 1900 / 2100, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "117.3 × 56.8 × 10.5 mm (4.62 × 2.24 × 0.41 in)",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian^3, upgradeable to Nokia Belle Refresh (111.040.1511)",
+      "CPU": "ARM11 680MHz processor"
+    },
+    "Memory": {
+      "Storage": "up to 350 MB internal memory, 8 GB on-board memory, 1 GB ROM",
+      "Card slot": "microSD, up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "640 × 360 px (nHD), 3.5\" capacitive, multi-touch display with AMOLED technology"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixels (main), 16:9 720p video, 30 FPS",
+      "Front camera": "VGA, for video calling"
+    },
+    "Battery": {
+      "Battery": "BL-5K 1200 mAh Li-Ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 via MicroUSB, USB On-The-Go, Bluetooth 3.0, Wi-Fi 802.11b/g/n, GPS with A-GPS, NFC, DLNA"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "AMOLED",
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 1200,
+    "os": "Symbian^3",
+    "five_g": true,
+    "nfc": true,
+    "weight_g": 130
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C7-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C7-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C7-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C7-00",
+    "revid": 1361478170
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

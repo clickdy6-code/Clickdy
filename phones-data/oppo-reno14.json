@@ -1,0 +1,85 @@
+{
+  "slug": "oppo-reno14",
+  "brand": "Oppo",
+  "name": "Reno14",
+  "status": "published",
+  "announced": "2025-05-15",
+  "released": "2025-05-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-05-15 (China), 2025-07-01 (International)",
+      "Series": "OPPO Reno series",
+      "Predecessor": "Oppo Reno13"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "F / FS: ~180 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 15.0 (based on Android)",
+      "Chipset": "Reno14 Pro 5G: MediaTek Dimensity 8450, Reno14 5G: MediaTek Dimensity 8350, Reno14 F / FS 5G: Qualcomm Snapdragon 6 Gen 1"
+    },
+    "Memory": {
+      "RAM": "8 GB, 12 GB, 16 GB",
+      "Storage": "128 GB, 256 GB, 512 GB"
+    },
+    "Display": {
+      "Display": "AMOLED, 120 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Reno14 Pro 5G, 50 MP (wide, OIS), 50 MP (ultrawide), 50 MP (telephoto, OIS, 3.5×), Reno14 5G, 50 MP (wide, OIS), 8 MP (ultrawide), 50 MP (telephoto, OIS, 3.5×), Reno14 F / FS 5G, 50 MP (wide, OIS), 8 MP (ultrawide), 2 MP (macro)",
+      "Front camera": "Pro / Reno14 5G: 50 MP (AF), F / FS: 32 MP (AF)"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Reno14 Pro 5G: 6200 mAh, Reno14 / F / FS 5G: 6000 mAh",
+      "Charging": "80 W SUPERVOOC (wired), 50 W AIRVOOC (Pro only)"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Reno14 Pro 5G: MediaTek Dimensity 8450",
+    "ram_gb": [
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 50,
+    "battery_mah": 6200,
+    "wired_w": 80,
+    "five_g": true,
+    "weight_g": 180,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Reno14",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Reno14"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Reno14\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Reno14",
+    "revid": 1369721245
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

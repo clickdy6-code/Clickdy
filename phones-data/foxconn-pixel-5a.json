@@ -1,0 +1,106 @@
+{
+  "slug": "foxconn-pixel-5a",
+  "brand": "Foxconn",
+  "name": "Pixel 5a",
+  "status": "published",
+  "announced": "2021-08-26",
+  "released": "2021-08-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pixel_4a_front_schematic.svg/500px-Pixel_4a_front_schematic.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pixel_4a_front_schematic.svg/250px-Pixel_4a_front_schematic.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Pixel 5a",
+      "credit": "SpurriousCorrelation, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pixel_4a_front_schematic.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-08-26",
+      "Discontinued": "2022-07-21",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 4a",
+      "Successor": "Pixel 6a"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE, UMTS/HSPA+, CDMA EVDO Rev A, WCDMA, LTE, LTE Advanced, 5G",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 154.9 mm, W: 73.7 mm, D: 7.6 mm",
+      "Weight": "183 g",
+      "Other": "Titan M security module"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11, Current: Android 14",
+      "Chipset": "Qualcomm Snapdragon 765G",
+      "CPU": "Octa-core, (1×2.4 GHz Kryo 475 Prime & 1×2.2 GHz Kryo 475 Gold & 6×1.8 GHz Kryo 475 Silver)",
+      "GPU": "Adreno 620"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X",
+      "Storage": "128 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "FHD+ 1080p OLED, resolution (20:9 aspect ratio), Gorilla Glass 3, HDR, 6.34 in, 415 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor IMX363 12.2 MP, 1.4 μm with 1.7 lens (wide), Dual Pixel Phase autofocus and optical image stabilization + 16 MP (ultrawide), 1.0 μm with 2.2 lens, 107°, Electronic image stabilization, 4K at 30/60 fps, 1080p at 30/60/120/240 fps, 720p at 30/60/240 fps",
+      "Front camera": "8 MP with 2.0 lens and 84° lens, fixed focus, 1080p at 30 fps, 720p at 30 fps, 480p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3.5mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "4680 mAh",
+      "Charging": "18 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 5 (ac/n/g/b/a) 2.4 + 5.0 GHz, Bluetooth 5.0 + LE, NFC, GPS (GLONASS, Galileo, QZSS)"
+    }
+  },
+  "key": {
+    "display_in": 6.34,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 765G",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12.2,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 4680,
+    "wired_w": 18,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 5",
+    "esim": true,
+    "weight_g": 183,
+    "thickness_mm": 7.6,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 5a",
+      "url": "https://en.wikipedia.org/wiki/Pixel_5a"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 5a\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 5a",
+    "revid": 1367161705
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

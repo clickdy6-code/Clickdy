@@ -1,0 +1,79 @@
+{
+  "slug": "foxconn-nokia-c2",
+  "brand": "Foxconn",
+  "name": "Nokia C2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Nokia C20"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "H: 154.8 mm, W: 75.6 mm, D: 8.9 mm",
+      "Weight": "161 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9 \"Pie\", (Android Go)",
+      "Chipset": "Unisoc (28 nm)",
+      "CPU": "Quad-core 1.4 GHz"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSD, up to 64 GB"
+    },
+    "Display": {
+      "Display": "5.7 in (83.8 cm2) 720p IPS LCD, ~282 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (f/2.2, autofocus), LED flash, HDR, Video: 720p@30fps",
+      "Front camera": "5 MP, LED flash, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "2800 mAh Li-ion, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth 4.2, micro USB 2.0 port"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS LCD",
+    "chipset": "Unisoc",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2800,
+    "os": "Android 9",
+    "nfc": false,
+    "weight_g": 161,
+    "thickness_mm": 8.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C2 (2020)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C2_%282020%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C2 (2020)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C2 (2020)",
+    "revid": 1361478079
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

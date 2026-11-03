@@ -1,0 +1,90 @@
+{
+  "slug": "samsung-galaxy-tab-s11",
+  "brand": "Samsung",
+  "name": "Galaxy Tab S11",
+  "status": "published",
+  "announced": "2025-09-19",
+  "released": "2025-09-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Imgi-17-samsung-galaxy-tab-s11-ultra-galaxy-ai-scaled.webp/500px-Imgi-17-samsung-galaxy-tab-s11-ultra-galaxy-ai-scaled.webp?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Imgi-17-samsung-galaxy-tab-s11-ultra-galaxy-ai-scaled.webp/250px-Imgi-17-samsung-galaxy-tab-s11-ultra-galaxy-ai-scaled.webp?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Tab S11",
+      "credit": "Samsung, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Imgi-17-samsung-galaxy-tab-s11-ultra-galaxy-ai-scaled.webp",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-09-19",
+      "Series": "Galaxy Tab S",
+      "Predecessor": "Samsung Galaxy Tab S10",
+      "Successor": "Samsung Galaxy Tab S12"
+    },
+    "Network": {
+      "Technology": "Cellular: GSM/HSPA/4G LTE/5G (sub-6GHz)",
+      "SIM": "Nano-SIM/eSIM (Cellular models only)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "Tab S11: 165.3 × 253.8 × 5.5 mm, Tab S11 Ultra: 208.5 × 326.3 × 5.1 mm",
+      "Weight": "Tab S11: 469 g, Tab S11 Ultra: 692 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 16 with One UI 8.0, Current: Android 17 with One UI 9.0",
+      "Chipset": "MediaTek Dimensity 9400+ (3 nm)",
+      "CPU": "Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720)",
+      "GPU": "Immortalis-G925"
+    },
+    "Memory": {
+      "RAM": "Tab S11: 12 GB RAM, Tab S11 Ultra: 12 GB, 16 GB RAM",
+      "Storage": "Tab S11: 128 GB, 256 GB, 512 GB, Tab S11 Ultra: 256 GB, 512 GB, 1 TB",
+      "Card slot": "Dedicated microSDXC slot"
+    },
+    "Cameras": {
+      "Rear camera": "Single-Camera Setup, Tab S11:, OmniVision PureCel®Plus‑S OV13A10; 13 Megapixel, MP, 26mm (wide), FoV 80.4°, 1/3.4\", 1.0 Micrometre, µm, AF, Dual-Camera Setup, Tab S11 Ultra:, Primary: OmniVision PureCel®Plus‑S OV13A10; 13 Megapixel, MP, 26mm (wide), FoV 80.4°, 1/3.4\", 1.0 Micrometre, µm, AF, Ultra wide angle lens, Ultrawide: Hynix Hi-847; 8 Megapixel, MP, 16mm, FoV 120°, 1/4.4\", 1.0 Micrometre, µm, FF, Camera features:, All:, LED flash, High dynamic range, HDR, Panorama, Video recording:, All:, 4K resolution, 4K@30Frame rate, fps, 1080p@30Frame rate, fps",
+      "Front camera": "All:, OmniVision PureCel®Plus‑S OV13A10F; 12 MP, 15mm, 120° (ultrawide), 1/3.4\", 1.0 µm, FF, Camera features:, HDR, Video recording:, 4K@30fps, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Tab S11: 8400 mAh non-user replaceable LiPo, Tab S11 Ultra: 11600 mAh non-user replaceable LiPo",
+      "Charging": "45 W USB PD charging"
+    }
+  },
+  "key": {
+    "chipset": "MediaTek Dimensity 9400+",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "front_mp": 12,
+    "battery_mah": 8400,
+    "wired_w": 45,
+    "os": "Android 16",
+    "five_g": true,
+    "esim": true,
+    "weight_g": 469,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab S11",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S11"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab S11\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab S11",
+    "revid": 1382947450
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-x3-touch-and-type",
+  "brand": "Nokia",
+  "name": "X3 Touch and Type",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Nokia_X3-2.jpg/500px-Nokia_X3-2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Nokia_X3-2.jpg/250px-Nokia_X3-2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia X3 Touch and Type",
+      "credit": "Stefan-Xp, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_X3-2.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia X3-00",
+      "Successor": "Nokia Asha 303"
+    },
+    "Network": {
+      "Technology": "UMTS 850/900/1900/2100 GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar (similar to Torch)",
+      "Dimensions": "106.2 x 48.4 x 9.6 mm",
+      "Weight": "77.4 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 6th Edition Feature Pack No.7 (S40 6th v7.5.1)"
+    },
+    "Memory": {
+      "RAM": "50 MB"
+    },
+    "Display": {
+      "Display": "240x320 pixels, 2.4 inch resistive touch QVGA TFT (262 000 colors)"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels, with 4 x digital zoom, full focus"
+    },
+    "Battery": {
+      "Battery": "BL-4S 3.7 V 860 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1+EDR, Micro-USB"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 77.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia X3 Touch and Type",
+      "url": "https://en.wikipedia.org/wiki/Nokia_X3_Touch_and_Type"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia X3 Touch and Type\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia X3 Touch and Type",
+    "revid": 1361478648
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

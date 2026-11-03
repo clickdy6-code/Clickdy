@@ -1,0 +1,95 @@
+{
+  "slug": "xiaomi-redmi-note-5",
+  "brand": "Xiaomi",
+  "name": "Redmi Note 5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/XiaomiRedmiNote5front.jpg/500px-XiaomiRedmiNote5front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/XiaomiRedmiNote5front.jpg/250px-XiaomiRedmiNote5front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi Note 5",
+      "credit": "Zukunft, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:XiaomiRedmiNote5front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-02 near EOL as of 2021",
+      "Series": "Redmi Note",
+      "Predecessor": "Redmi Note 4",
+      "Successor": "Redmi Note 6 Pro, Redmi Note 7"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 158.6 mm (6.24 in), W: 75.4 mm (2.97 in), D: 8.1 mm (0.32 in), D max: 9.2 mm (0.36 in)(camera)"
+    },
+    "Platform": {
+      "Operating system": "Original: Note 5: Android (operating system), Android Android Oreo, 8.1 \"Oreo\" with MIUI 9, Note 5 Pro: Android Nougat, Android 7.1.2 \"Nougat\" with MIUI 9Current:Note 5 (Global firmware)/Pro:Android Pie, Android 9 \"Pie\" with MIUI 12 / MIUI 11, Note 5 (Chinese firmware):Android Pie, Android 9 \"Pie\" with MIUI 12",
+      "Chipset": "Qualcomm Snapdragon 636 (downclocked SDM660)",
+      "CPU": "Octa-core (4x 1.8 GHz Performance Kryo 260 cores based on Cortex A73 + 4x 1.6 GHz efficiency Kryo 260 cores based on Cortex A53)",
+      "GPU": "Adreno 509"
+    },
+    "Memory": {
+      "RAM": "Note 5: 3 or 4 GB RAM, Note 5 Pro: 4 or 6 LPDDR4X RAM",
+      "Storage": "Note 5: 32 GB or 64 GB, Note 5 Pro: 32 GB or 64",
+      "Card slot": "microSDXC, expandable up to 2 TB (uses SIM 2 slot)"
+    },
+    "Display": {
+      "Display": "5.99 inches, 1080 x 2160 pixels, 18:9 ratio (403 ppi), IPS LCD capacitive touchscreen, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "Note 5:, Dual: Samsung 12 MP (f/1.9, 1.25 μm) Dual-PD + Samsung 5 MP (f/2.0, 1.12 μm), Note 5 Pro:, Dual: Sony Exmor RS IMX486 12 MP (f/2.2, 1.25 μm) + Samsung S5K5E8 5 MP (f/2.0, 1.12 μm), phase detection autofocus, LED flash, Geo-tagging, touch focus, face detection, panorama, HDR",
+      "Front camera": "Note 5: OmniVision OV13855 13 MP 1.0 μm, Note 5 Pro: Sony Exmor RS IMX376 20 MP (f/2.2, 1/2.8\", 1.0 μm), LED flash, 1080p"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4000 mAh battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (2.4 & 5 GHz), dual-band, WiFi Direct, hotspot, Bluetooth V5, A2DP, Low-energy"
+    }
+  },
+  "key": {
+    "display_in": 5.99,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 636",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 13,
+    "battery_mah": 4000,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 8.1,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi Note 5",
+      "url": "https://en.wikipedia.org/wiki/Redmi_Note_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi Note 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi Note 5",
+    "revid": 1372942125
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

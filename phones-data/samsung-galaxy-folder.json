@@ -1,0 +1,84 @@
+{
+  "slug": "samsung-galaxy-folder",
+  "brand": "Samsung",
+  "name": "Galaxy Folder",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2015",
+      "Series": "Samsung Galaxy",
+      "Successor": "Samsung Galaxy Folder 2"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "122 x 60.2 x 15.3 mm",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1.1 \"Lollipop\"",
+      "Chipset": "Samsung Exynos 3475",
+      "CPU": "ARM Cortex-A7 1.2 GHz Quad",
+      "GPU": "Mali T720 MP1 600 MHz"
+    },
+    "Memory": {
+      "RAM": "1.5 GB",
+      "Storage": "8 GB"
+    },
+    "Display": {
+      "Display": "3.8 inch WVGA TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP",
+      "Front camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "removable 1800 mAh Li-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth 4.1, GPS, microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.8,
+    "display_type": "TFT",
+    "chipset": "Samsung Exynos 3475",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 1800,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 155,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Folder",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Folder"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Folder\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Folder",
+    "revid": 1361481955
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

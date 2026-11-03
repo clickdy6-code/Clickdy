@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-n71",
+  "brand": "Nokia",
+  "name": "N71",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/54/804NK%28Nokia-N71%29_01.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/54/804NK%28Nokia-N71%29_01.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia N71",
+      "credit": "The original uploader was D.Bellwood at Japanese Wikipedia., CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:804NK(Nokia-N71)_01.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6170",
+      "Successor": "Nokia N75, Nokia N76"
+    },
+    "Network": {
+      "Technology": "Single band UMTS / UMTS 2100, Quad band GSM / GPRS / GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "98.6 x 51.2 x 25.8mm",
+      "Weight": "139g"
+    },
+    "Platform": {
+      "Operating system": "Symbian 9.1 (S60 3rd)",
+      "CPU": "220 MHz"
+    },
+    "Memory": {
+      "RAM": "10 megabytes",
+      "Card slot": "128 MiB MiniSD card"
+    },
+    "Display": {
+      "Display": "320x240 pixels, 262,144 colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixel",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 970 mAh (BL-5C)"
+    }
+  },
+  "key": {
+    "battery_mah": 970,
+    "os": "Symbian 9.1 (S60 3rd)",
+    "five_g": false,
+    "weight_g": 139
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N71",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N71"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N71\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N71",
+    "revid": 1361478419
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "oppo-realme-c25",
+  "brand": "Oppo",
+  "name": "Realme C25",
+  "status": "published",
+  "announced": "2021-02-24",
+  "released": "2021-02-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "narzo 30A: 2021-02-24, C25: 2021-03-23, C25s: 2021-06-08, narzo 50A: 2021-09-24",
+      "Series": "C/narzo",
+      "Predecessor": "Realme C15, realme narzo 20A",
+      "Successor": "Realme C35"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "C25 & C25s & narzo 50A: 164.5 × 75.9 × 9.6 mm, narzo 30A: 164.5 × 75.9 × 9.8 mm",
+      "Weight": "C25 & C25s: 209 g, narzo 30A: 205 g, narzo 50A: 207 g"
+    },
+    "Platform": {
+      "Operating system": "Initial:, narzo 30A: Android 10 + realme UI 1, C25 & C25s & narzo 50A: Android 11 + realme UI 2, Current: Android 11 + realme UI 2",
+      "CPU": "C25: MediaTek MT6762 Helio G70 (12 nm), octa-core (2×2.0 GHz Cortex-A75 & 6×1.7 GHz Cortex-A55), C25s & narzo 30A & narzo 50A: MediaTek MT6762 Helio G85 (12 nm), octa-core (2×2.0 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55)",
+      "GPU": "C25: Mali-G52 2EEMC2, C25s & narzo 30A & narzo 50A: Mali-G52 MC2"
+    },
+    "Memory": {
+      "RAM": "C25 & C25s & narzo 50A: 4 GB, narzo 30A: 3/4 GB, LPDDR4X",
+      "Storage": "C25 & C25s & narzo 50A: 64/128 GB, narzo 30A: 32/64 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1600 × 720 (HD+), 20:9, 270 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "C25 & C25s (Global): 48 MP, 26 mm (wide), PDAF + 2 MP, (B/W), 1/5.0\", 1.75 µm + 2 MP, (macro), 1/5.0\", 1.75 µm, C25 & C25s (India): 13 MP, 26 mm (wide), 1.12 µm, PDAF + 2 MP, (B/W), 1/5.0\", 1.75 µm + 2 MP, (macro), 1/5.0\", 1.75 µm, narzo 30A: 13 MP, 26 mm (wide), 1.12 µm, PDAF + 2 MP, (B/W), 1/5.0\", 1.75 µm, narzo 50A: 50 MP, (wide), PDAF + 2 MP, (B/W), 1/5.0\", 1.75 µm + 2 MP, (macro), 1/5.0\", 1.75 µm, LED flash, HDR, panorama, Video: 1080p@30/60fps (except narzo 30A)",
+      "Front camera": "8 MP, 26 mm (wide), 1/4.0\", 1.12 µm, HDR, panorama, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 6000 mAh",
+      "Charging": "18W Fast charging, reverse charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm Audio jack, Bluetooth 5.0 (A2DP, LE), NFC (region dependent), FM radio, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 6000,
+    "wired_w": 18,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 209,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C25",
+      "url": "https://en.wikipedia.org/wiki/Realme_C25"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C25\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C25",
+    "revid": 1361479632
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

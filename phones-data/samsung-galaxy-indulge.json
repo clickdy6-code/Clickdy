@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-galaxy-indulge",
+  "brand": "Samsung",
+  "name": "Galaxy Indulge",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-02",
+      "Series": "Samsung Galaxy"
+    },
+    "Network": {
+      "Technology": "CDMA, LTE"
+    },
+    "Body": {
+      "Form factor": "Side-slider",
+      "Dimensions": "132 x",
+      "Weight": "152 g",
+      "Other": "QWERTY keyboard, Accelerometer, Proximity sensor, Ambient light sensor"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 (Froyo)",
+      "CPU": "1.0 GHz Cortex-A8 (Samsung Exynos 3 Single)",
+      "GPU": "PowerVR SGX540"
+    },
+    "Memory": {
+      "Storage": "2 GB",
+      "Card slot": "microSDHC up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.5 in (89 mm) TFT LCD, 320×480 px (165 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "3.0 MP, autofocus, video"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "1,500 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g/n), Bluetooth 3.0, Micro-USB (USB 2.0), GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 152,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Indulge",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Indulge"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Indulge\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Indulge",
+    "revid": 1361482066
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

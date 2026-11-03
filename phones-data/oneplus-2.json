@@ -1,0 +1,94 @@
+{
+  "slug": "oneplus-2",
+  "brand": "OnePlus",
+  "name": "2",
+  "status": "published",
+  "announced": "2015-07-28",
+  "released": "2015-07-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/OnePlus_2_%28in_packaging%29.jpg/500px-OnePlus_2_%28in_packaging%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/OnePlus_2_%28in_packaging%29.jpg/250px-OnePlus_2_%28in_packaging%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 2",
+      "credit": "Wikimedia Commons, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_2_(in_packaging).jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-07-28",
+      "Predecessor": "OnePlus One",
+      "Successor": "OnePlus 3"
+    },
+    "Network": {
+      "Technology": "GSM, WCDMA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151.8 mm H, 74.9 mm W, 9.85 mm D",
+      "Weight": "175 g"
+    },
+    "Platform": {
+      "Operating system": "Android based OxygenOS (global version) or HydrogenOS (Chinese version)",
+      "Chipset": "Qualcomm Snapdragon 810",
+      "CPU": "Octa-core 64-bit 20 nm, • Quad-core 1.77 GHz Cortex-A57, • Quad-core 1.56 GHz Cortex A-53",
+      "GPU": "Adreno 430 630 MHz"
+    },
+    "Memory": {
+      "RAM": "3 or 4 GB LPDDR4 RAM",
+      "Storage": "16 or 64 GB eMMC v5.0",
+      "Card slot": "None; 2 removable nano-SIM card slots"
+    },
+    "Display": {
+      "Display": "5.5 in 1920 x 1080 pixel resolution (401 ppi) , 1080p Full HD IPS LCD In-Cell"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP OmniVision Technologies PureCel-S™ OV13860 1.3 μm-pixel optical sensor, f/2.0 aperture, 2160p@30fps, 1080p@60fps, 720p@120fps, optical image stabilization, laser autofocus, dual LED flash",
+      "Front camera": "5 MP OmniVision Technologies OV5648 1.4 μm-pixel optical sensor, wide-angle lens, 1080p@30fps, 720p@60fps"
+    },
+    "Sound": {
+      "Sound": "Single mono speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "3,300 mAh Li-Po"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 810",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@60fps",
+    "front_mp": 5,
+    "battery_mah": 3300,
+    "five_g": false,
+    "weight_g": 175,
+    "thickness_mm": 9.85,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 2",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 2",
+    "revid": 1361478768
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

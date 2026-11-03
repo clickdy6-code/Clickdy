@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-galaxy-book",
+  "brand": "Samsung",
+  "name": "Galaxy Book",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Samsung_Galaxy_Book.jpg/500px-Samsung_Galaxy_Book.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Samsung_Galaxy_Book.jpg/250px-Samsung_Galaxy_Book.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Book",
+      "credit": "Ben Miller from Berlin, Germany, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Book.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "February 2017",
+      "Series": "Galaxy Book",
+      "Predecessor": "Galaxy TabPro S",
+      "Successor": "Galaxy Book 2"
+    },
+    "Body": {
+      "Form factor": "Tablet",
+      "Dimensions": "261.2 x 179.1 x 8.9 mm metal body; 291.3x199.8x7.4 mm metal body",
+      "Weight": "10.6\" [640g(Wi-Fi) / 650g(LTE)], 12.0\" [754g (Wi-Fi and LTE)]"
+    },
+    "Platform": {
+      "Operating system": "Original: Windows 10 1607, Current: One UI Book 4 (Windows 11 21H2)",
+      "CPU": "Intel 7th Gen i5 Dual Core (Kaby Lake), 3.1 GHz, Intel Core m3"
+    },
+    "Memory": {
+      "RAM": "4 GB or 8GB RAM",
+      "Storage": "64/128/256 GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "1920x1280 3:2 TFT FHD (10.6\") and 2160x1440 3:2 AMOLED (12.0\")"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP Auto focus",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "30.4 Wh, 7.7 V w/Fast Charging (10.6\"), 39.04 Wh, 7.7 V w/Fast Charging (12.0\")"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, 2X2 MIMO; LTE Cat. 6; Bluetooth® 4.1 BLE; GPS + GLONASS; USB 3.1(Type-C)(2 ports)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      4,
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 640,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Book (2017)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Book_%282017%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Book (2017)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Book (2017)",
+    "revid": 1378742298
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

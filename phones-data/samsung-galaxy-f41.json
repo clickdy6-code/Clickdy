@@ -1,0 +1,85 @@
+{
+  "slug": "samsung-galaxy-f41",
+  "brand": "Samsung",
+  "name": "Galaxy F41",
+  "status": "published",
+  "announced": "2020-10-08",
+  "released": "2020-10-08",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-10-08",
+      "Series": "Galaxy F series",
+      "Successor": "Samsung Galaxy F42 5G"
+    },
+    "Body": {
+      "Dimensions": "159.2 mm H , 75.1 mm W , 8.9 mm D",
+      "Weight": "191 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10, One UI 2.1, Current: Android 12, One UI 4.1",
+      "Chipset": "Exynos 9611",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "RAM": "6 GB RAM",
+      "Storage": "64 GB, 128 GB UFS 2.1",
+      "Card slot": "up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.4 in super AMOLED Infinity-U Display, 19.5:9 aspect ratio ,~84.1% screen-to-body ratio, ~403 ppi density"
+    },
+    "Cameras": {
+      "Rear camera": "64MP main, 8MP ultrawide, 5MP depth sensor",
+      "Front camera": "32MP"
+    },
+    "Battery": {
+      "Battery": "6000mAh",
+      "Charging": "15W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "super AMOLED",
+    "chipset": "Exynos 9611",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 32,
+    "battery_mah": 6000,
+    "wired_w": 15,
+    "os": "Android 10",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 191,
+    "thickness_mm": 8.9,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy F41",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_F41"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy F41\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy F41",
+    "revid": 1361481788
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

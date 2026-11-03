@@ -1,0 +1,74 @@
+{
+  "slug": "samsung-freeform",
+  "brand": "Samsung",
+  "name": "Freeform",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-08",
+      "Discontinued": "Yes",
+      "Successor": "Samsung Freeform II"
+    },
+    "Network": {
+      "Technology": "CDMA, CDMA2000 1x"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "112 x",
+      "Weight": "103 g"
+    },
+    "Platform": {
+      "Operating system": "Proprietary"
+    },
+    "Memory": {
+      "Storage": "55 MB",
+      "Card slot": "microSD (dedicated slot)"
+    },
+    "Display": {
+      "Display": "2.2 in (56 mm) TFT LCD, 256K colors, 220 x 176 pixels (~128 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 MP",
+      "Front camera": "No"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 2.5 mm audio jack"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (A2DP), microUSB 2.0, GPS (A-GPS)"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 1.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1000,
+    "nfc": false,
+    "weight_g": 103,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Freeform",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Freeform"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Freeform\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Freeform",
+    "revid": 1363081082
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

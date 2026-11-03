@@ -1,0 +1,60 @@
+{
+  "slug": "samsung-sgh-u600",
+  "brand": "Samsung",
+  "name": "SGH-U600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Samsung_SGH-U600_%28Sapphire_Blue%29_-_Front_%28Open%2C_splash_screen%29.jpg/500px-Samsung_SGH-U600_%28Sapphire_Blue%29_-_Front_%28Open%2C_splash_screen%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Samsung_SGH-U600_%28Sapphire_Blue%29_-_Front_%28Open%2C_splash_screen%29.jpg/250px-Samsung_SGH-U600_%28Sapphire_Blue%29_-_Front_%28Open%2C_splash_screen%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SGH-U600",
+      "credit": "Beamish4, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_SGH-U600_(Sapphire_Blue)_-_Front_(Open,_splash_screen).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Dimensions": "103.2 × 49.3 × 10.9 mm",
+      "Weight": "81g"
+    },
+    "Memory": {
+      "RAM": "60 MB available to user, MicroSD memory card up to 2 GB, 1000 SMS messages"
+    },
+    "Display": {
+      "Display": "240x320 pixels QVGA 262,144 (18-bit) colour TFT LCD"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS Class 10 (4+1/3+2 slots) 32 - 48 kbit/s, Bluetooth 2.0, USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 81
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-U600",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-U600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-U600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-U600",
+    "revid": 1381169898
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

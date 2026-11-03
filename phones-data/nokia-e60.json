@@ -1,0 +1,68 @@
+{
+  "slug": "nokia-e60",
+  "brand": "Nokia",
+  "name": "E60",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Nokia_E60.jpg/500px-Nokia_E60.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Nokia_E60.jpg/250px-Nokia_E60.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia E60",
+      "credit": "MalcolmScott (talk), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_E60.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6230",
+      "Successor": "Nokia E51"
+    },
+    "Network": {
+      "Technology": "EGSM 900, GSM 1800, GSM 1900 and WCDMA"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "115 × 49 × 16.9 mm",
+      "Weight": "117 grams"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.1, S60 3rd Edition UI"
+    },
+    "Memory": {
+      "RAM": "64 MB"
+    },
+    "Display": {
+      "Display": "352 × 416"
+    },
+    "Cameras": {
+      "Rear camera": "No",
+      "Front camera": "No"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN (WiFi)"
+    }
+  },
+  "key": {
+    "os": "Symbian OS v9.1",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E60",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E60",
+    "revid": 1361478201
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

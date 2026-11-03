@@ -1,0 +1,100 @@
+{
+  "slug": "nothing-phone-1",
+  "brand": "Nothing",
+  "name": "Phone 1",
+  "status": "published",
+  "announced": "2022-07-12",
+  "released": "2022-07-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Nothing_phone%281%29_White_%28back%29.svg/500px-Nothing_phone%281%29_White_%28back%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Nothing_phone%281%29_White_%28back%29.svg/250px-Nothing_phone%281%29_White_%28back%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nothing Phone 1",
+      "credit": "Raju, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nothing_phone(1)_White_(back).svg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-07-12",
+      "Successor": "Nothing Phone 2"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE, and 5G",
+      "SIM": "Dual"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.2 x 75.8 x 8.3 mm",
+      "Weight": "193.5 g"
+    },
+    "Platform": {
+      "Operating system": "Release: Nothing OS 1.0 (Android 12), Current: Nothing OS 3.2 (Android 15) (as of July 2025)",
+      "Chipset": "Qualcomm Snapdragon 778G+",
+      "GPU": "Adreno 642L"
+    },
+    "Memory": {
+      "RAM": "8 or 12 GB LPDDR5",
+      "Storage": "128 or 256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "6.55 in OLED touchscreen with HDR10+ support with a 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Main: 50 MP, ƒ/1.88, 1/1.56\", 1 μm, Ultrawide: 50 MP, ƒ/2.2, 1/2.76\", Both: HDR, Night Mode, 4K@30 fps, 1080p@30/60 fps",
+      "Front camera": "16 MP, ƒ/2.45, 1/3.1\", 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Dual stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4500 mAh",
+      "Charging": "33W PD3.0 wired charging, 15W Qi Wireless charging, 5W Reverse charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.2, Wi-Fi a/b/g/n/ac/ax"
+    }
+  },
+  "key": {
+    "display_in": 6.55,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 778G+",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4500,
+    "wireless_w": 15,
+    "wired_w": 33,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 193.5,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nothing Phone 1",
+      "url": "https://en.wikipedia.org/wiki/Nothing_Phone_1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nothing Phone 1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nothing Phone 1",
+    "revid": 1383526076
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

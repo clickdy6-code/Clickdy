@@ -1,0 +1,70 @@
+{
+  "slug": "nokia-n75",
+  "brand": "Nokia",
+  "name": "N75",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6682, Nokia N71",
+      "Successor": "Nokia 6650 fold"
+    },
+    "Network": {
+      "Technology": "WCDMA 850/1900 and GSM 850/900/1800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "95 x 52 x 20 mm, 93 cc",
+      "Weight": "123.5 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.1, S60 Third Edition",
+      "CPU": "TI OMAP 1710 ARM-926 220 MHz"
+    },
+    "Memory": {
+      "RAM": "Up to 50 MB built-in memory",
+      "Card slot": "Up to 2 GB with microSD"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels, 2.4\", 16M Colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP / 1600 x 1200 px / 8X Digital Zoom"
+    },
+    "Battery": {
+      "Battery": "800MaH Nokia BL-5BT battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB-to-Pop-Port, SMS, MMS"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 800,
+    "os": "Symbian OS v9.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 123.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N75",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N75"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N75\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N75",
+    "revid": 1361478431
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

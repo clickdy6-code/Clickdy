@@ -1,0 +1,89 @@
+{
+  "slug": "nokia-n9",
+  "brand": "Nokia",
+  "name": "N9",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Nokia_N9.jpg/500px-Nokia_N9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Nokia_N9.jpg/250px-Nokia_N9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N9",
+      "credit": "Animist, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N9.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nseries",
+      "Predecessor": "Nokia N900, Nokia N8",
+      "Successor": "Nokia Lumia 900"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, GPRS/EDGE class B, multislot class 33, HSDPA (Pentaband), HSDPA/UMTS 850 / 900 / 1700 / 1900 / 2100, HSDPA Cat10, up to 14.4 Mbps, HSUPA Cat6, up to 5.7 Mbps"
+    },
+    "Body": {
+      "Dimensions": "Width: 61.2 mm, Height: 116.45 mm, Thickness: 7.6 to 12.1 mm",
+      "Weight": "135 g",
+      "Other": "polycarbonate unibody (unpainted)"
+    },
+    "Platform": {
+      "Operating system": "MeeGo 1.2 \"Harmattan\"",
+      "CPU": "1 GHz ARM Cortex-A8 SoC processor; TI OMAP3630, 3D Graphics PowerVR SGX530 GPU, 430 MHz TI TMS320C64x Digital signal processor"
+    },
+    "Memory": {
+      "RAM": "1 GB Mobile DDR",
+      "Storage": "16 or 64 GB"
+    },
+    "Display": {
+      "Display": "\"ClearBlack\" AMOLED 854 × 480 px (FWVGA), 3.9\" (99.1 mm), 16.7 million colors (24 bits)"
+    },
+    "Cameras": {
+      "Rear camera": "8.7 MP (CMOS sensor of 1/3.0\" size) with Carl Zeiss optics (F2.2, Focal length: 3.77mm / 28mm), 720p at 30 FPS, Digital zoom 4X for camera and video",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "BV-5JW 1450 mAh Li-Ion battery (removable by service), micro USB charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 a/b/g/n (2.4 and 5GHz), bluetooth 2.1 +EDR (Hardware Supports 4.0, micro USB 2.0, GPS and A-GPS, 3.5 mm AV connector (audio in/out, video in/out, tv-set out)), Near Field Communication (NFC), Digital Living Network Alliance (DLNA), micro SIM card, FM receiver"
+    }
+  },
+  "key": {
+    "display_in": 3.9,
+    "display_type": "AMOLED",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 8.7,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 1450,
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 135,
+    "thickness_mm": 12.1
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N9",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N9",
+    "revid": 1381382438
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

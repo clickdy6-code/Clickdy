@@ -1,0 +1,97 @@
+{
+  "slug": "samsung-galaxy-m30s",
+  "brand": "Samsung",
+  "name": "Galaxy M30s",
+  "status": "published",
+  "announced": "2019-09-18",
+  "released": "2019-09-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Samsung_Galaxy_M30s_Screen.jpg/500px-Samsung_Galaxy_M30s_Screen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Samsung_Galaxy_M30s_Screen.jpg/250px-Samsung_Galaxy_M30s_Screen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy M30s",
+      "credit": "HHHHHYYYY, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_M30s_Screen.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "18 September 2019; in India",
+      "Series": "Galaxy M",
+      "Predecessor": "Galaxy M30",
+      "Successor": "Galaxy M31"
+    },
+    "Network": {
+      "Technology": "Wi-Fi, 2G, 3G, LTE"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "159 mm H, 75.1 mm W, 8.9 mm D",
+      "Weight": "188 g",
+      "Other": "FM radio, RDS, Recording, Vibration, Gyroscope, Fingerprint, Accelerometer, Proximity, Compass"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with One UI Core 3.1",
+      "Chipset": "Samsung Exynos 9611 Octa",
+      "CPU": "Octa-core 8 × 2.3 GHz and 4 × 1.7 GHz Cortex-A73 and Cortex-A53",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "RAM": "4 RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSD, expandable up to 1 [[Terabyte (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.4 in, (1080×2340) 1080p Super AMOLED capacitive touchscreen, 19.5:9 ratio, 100.5cm² (~91% screen-to-body ratio), 16M colors, ~403 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/2.0 aperture, 0.8 μm pixel size, PDAF, 4K or 1080p at 30 gyro-EIS, 8 MP, f/2.2 aperture, 12 mm focal length ultra wide sensor, 5 MP depth sensor, f/2.2 aperture",
+      "Front camera": "16 MP, f/2.0 aperture, 1080p at 30 [[Frame per second"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "6000 Li-Po (non-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Hotspot, Bluetooth: 5.0, A2DP, LE, GPS: A-GPS, GLONASS, BDS, USB: 2.0, Type-C 1.0 reversible connector"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 9611 Octa",
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 16,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 188,
+    "thickness_mm": 8.9,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M30s",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M30s"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M30s\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M30s",
+    "revid": 1380482459
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

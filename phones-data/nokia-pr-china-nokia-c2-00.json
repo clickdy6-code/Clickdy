@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-pr-china-nokia-c2-00",
+  "brand": "Nokia PR China",
+  "name": "Nokia C2-00",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Nokia-C2-00.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Nokia-C2-00.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia PR China Nokia C2-00",
+      "credit": "Dineshrd, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia-C2-00.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "Q2 2013",
+      "Predecessor": "Nokia 100",
+      "Successor": "Nokia Asha 201"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 x 45 x 14.65 mm",
+      "Weight": "74.1 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 6th edition feature pack 1"
+    },
+    "Memory": {
+      "Storage": "16 MB [RAM]"
+    },
+    "Display": {
+      "Display": "1.8 inch TFT (262 000 colors)"
+    },
+    "Cameras": {
+      "Rear camera": "640 x 480 px"
+    },
+    "Battery": {
+      "Battery": "BL-5C 3.7 V 1020 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1+EDR, Micro-USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 74.1
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C2-00",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C2-00"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C2-00\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C2-00",
+    "revid": 1378925956
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

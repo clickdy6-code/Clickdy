@@ -1,0 +1,84 @@
+{
+  "slug": "oppo-neo-7",
+  "brand": "Oppo",
+  "name": "Neo 7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 2015",
+      "Series": "Oppo Neo Series"
+    },
+    "Network": {
+      "Technology": "2G bands: GSM 850 / 900 / 1800 / 1900, 3G bands: HSDPA 850 / 900 / 1900 / 2100, HSDPA 2100 - India, HSDPA 850 / 900 / 2100 - 3G model, 4G bands: 1, 3, 5, 7, 8, 20, 40 - Global, Bands 1, 2, 4, 7, 17 - USA, Bands 3, 40 - India, HSPA 42.2/5.76 Mbit/s, LTE Cat4 150/50 Mbit/s - 4G model, HSPA 21.1/5.76 Mbit/s - 3G model"
+    },
+    "Body": {
+      "Dimensions": "142.7x71.7x7.6 mm, 5.62x2.82x0.30 in",
+      "Weight": "141 g (4.97 oz)",
+      "Other": "Colors: Blue, White"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 2.1 running on Android 5.1",
+      "Chipset": "MediaTek MT6582 (3G model), MSM8916 Snapdragon 410 (4G model)",
+      "CPU": "4x1.3 GHz Cortex-A7 (3G model), 4x1.2 GHz Cortex-A53 (4G model)",
+      "GPU": "Mali-400MP2 (3G model), Adreno 306 (4G model)"
+    },
+    "Memory": {
+      "RAM": "1GB single channel LPDDR3, 533 MHz",
+      "Storage": "16 GB (9.7 GB user available) eMMC 4.5",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD, Size: 5.0 inches, 68.9 cm^2, Resolution: 540x960, 220 ppi, Ratios: 16:9 aspect ratio, 67.4% StB ratios"
+    },
+    "Cameras": {
+      "Rear camera": "Single-Camera Setup, OmniVision PureCel OV8858; 8 megapixel, MP (3264x2448), 1/4.0\", 1.12 Micrometre, μm, AF, CMOS BSI, Camera features: LED flash, High dynamic range, HDR, Panorama, UltraHD (up to 24 megapixel, MP), Video recording: 1080p@30Frame rate, fps",
+      "Front camera": "Samsung S5K5E2; 5 megapixel, MP (2560x1920), 1/5.0\", 1.12 Micrometre, μm, FF, Video recording: 720p@30Frame rate, fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker: Yes, 3.5mm jack: Yes"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po, 2420mAh",
+      "Charging": "microUSB 2.0"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, hotspot, Bluetooth 4.0, A2DP, A-GPS, FM radio, microUSB 2.0, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6582",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      7,
+      16
+    ],
+    "battery_mah": 2420,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 141,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Neo 7",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Neo_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Neo 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Neo 7",
+    "revid": 1361479145
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "foxconn-pixel-4",
+  "brand": "Foxconn",
+  "name": "Pixel 4",
+  "status": "published",
+  "announced": "2019-10-24",
+  "released": "2019-10-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Pixel_4_schematic.svg/500px-Pixel_4_schematic.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Pixel_4_schematic.svg/250px-Pixel_4_schematic.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Pixel 4",
+      "credit": "Mliu92, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pixel_4_schematic.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-10-24",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 3",
+      "Successor": "Pixel 5"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE, UMTS/HSPA+, CDMA EVDO Rev A, WCDMA, LTE, LTE Advanced",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel 4:, H: 147.1 mm, W: 68.8 mm, D: 8.2 mm, Pixel 4 XL:, H: 160.4 mm, W: 75.1 mm, D: 8.2 mm",
+      "Weight": "Pixel 4: 162 g, Pixel 4 XL: 193 g",
+      "Other": "Titan M security module, Pixel Neural Core"
+    },
+    "Platform": {
+      "Operating system": "Android 10, Upgradable to Android 13",
+      "Chipset": "Qualcomm Snapdragon 855",
+      "CPU": "Octa-core (1 × 2.84 GHz Kryo 485 Gold Prime & 3 × 2.42 GHz Kryo 485 Gold & 4 × 1.78 GHz Kryo 485 Silver)",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X",
+      "Storage": "64 GB or 128 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "Pixel 4: 5.7 in FHD+ 1080p OLED#Polymer light-emitting diodes, P-OLED at 444 Pixels per inch, ppi, pixel resolution (19:9), Pixel 4 XL: 6.3 in QHD+ 1440p P-OLED at 537 ppi, pixel resolution (19:9), Both: Gorilla Glass, Corning Gorilla Glass 5, dynamic 90 Hertz, Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor IMX363 12.2 MP (1.4 μm) with 1.7 lens, 28 mm (wide), 1/2.55\" + 16 MP (1.0 μm) with 2.4 lens, 48 mm (telephoto), Dual Pixel PDAF, optical and electronic image stabilization, 1.7× optical zoom, 8× zoom, Dual-LED flash, Live HDR+, panorama, 1080p at 30/60/120 fps, 4K at 30 fps",
+      "Front camera": "8 MP with 2.0 lens, 22 mm (ultra wide, 90°), 1.22 μm, 1080p at 30 fps, Auto-HDR + ToF camera"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Pixel 4: 2800 mAh, Pixel 4 XL: 3700 mAh",
+      "Charging": "18 W fast charging, 11 W Qi (standard), Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 5 (a/b/g/n/ac) 2.4 + 5.0 GHz, Bluetooth 5.0 + LE, NFC, eSIM capable, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 855",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 12.2,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": true,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 2800,
+    "wired_w": 18,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": true,
+    "wifi": "Wi-Fi 5",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 162,
+    "thickness_mm": 8.2,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 4",
+      "url": "https://en.wikipedia.org/wiki/Pixel_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Pixel 4",
+    "revid": 1361479358
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

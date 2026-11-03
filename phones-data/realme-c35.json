@@ -1,0 +1,99 @@
+{
+  "slug": "realme-c35",
+  "brand": "Realme",
+  "name": "C35",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Front_of_realme_C35.jpg/500px-Front_of_realme_C35.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Front_of_realme_C35.jpg/250px-Front_of_realme_C35.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Realme C35",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Front_of_realme_C35.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "C35: , narzo 50A Prime:",
+      "Series": "C/narzo",
+      "Predecessor": "Realme C25"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "164.4 × 75.6 × 8.1 mm",
+      "Weight": "189 g",
+      "Other": "Fingerprint scanner (side-mounted), accelerometer, proximity sensor, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 11 + realme UI R Edition, Current: Android 13 + realme UI T Edition",
+      "Chipset": "C35: Unisoc T616 (12 nm), narzo 50A Prime: Unisoc T612 (12 nm)",
+      "CPU": "C35: Octa-core (2×2.0 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55), narzo 50A Prime: Octa-core (2×1.8 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55)",
+      "GPU": "C35: Mali-G57 MP1, narzo 50A Prime: Mali-G57"
+    },
+    "Memory": {
+      "RAM": "C35: 4/6 GB, narzo 50A Prime: 4 GB, LPDDR4X",
+      "Storage": "64/128 GB, UFS 2.2",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.6\", 2408 × 1080 (FullHD+), 20:9, 401 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP Samsung JN1, 26 mm (wide), 1/2.76\", 0.64 μm, PDAF + 2 MP, (macro) + 0.3 MP, (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, 26 mm (wide), 1/4.0\", 1.12 μm, HDR, panorama, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "Fast charging 18 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm Audio, Bluetooth 5.0 (A2DP, LE), FM radio, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS LCD",
+    "chipset": "C35: Unisoc T616",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 189
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C35",
+      "url": "https://en.wikipedia.org/wiki/Realme_C35"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C35\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C35",
+    "revid": 1373369128
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

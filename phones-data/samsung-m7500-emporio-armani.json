@@ -1,0 +1,70 @@
+{
+  "slug": "samsung-m7500-emporio-armani",
+  "brand": "Samsung",
+  "name": "M7500 Emporio Armani",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Samsung-m7500.jpg/500px-Samsung-m7500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Samsung-m7500.jpg/250px-Samsung-m7500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung M7500 Emporio Armani",
+      "credit": "Shritwod (talk), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung-m7500.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "HSUPA 5.76 Mbit/s / HSDPA 7.2 Mbit/s, EDGE/GPRS Class 12 Quad Band (850 / 900 / 1800 / 1900), UMTS Tri Band (900 / 1900 / 2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "114.9 x 47.4 x 12 mm",
+      "Weight": "90.2 g"
+    },
+    "Memory": {
+      "RAM": "120 MB internal",
+      "Card slot": "microSDHC 16 GB max (32 GB Max MicroSDHC available in 2009)"
+    },
+    "Display": {
+      "Display": "2.2\" AMOLED (240 x 320)"
+    },
+    "Cameras": {
+      "Rear camera": "3 MP, 3264x2448 pixels, autofocus, LED flash"
+    },
+    "Battery": {
+      "Battery": "1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "AMOLED",
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "nfc": false,
+    "weight_g": 90.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung M7500 Emporio Armani",
+      "url": "https://en.wikipedia.org/wiki/Samsung_M7500_Emporio_Armani"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung M7500 Emporio Armani\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung M7500 Emporio Armani",
+    "revid": 1361881437
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "samsung-galaxy-note-fe",
+  "brand": "Samsung",
+  "name": "Galaxy Note FE",
+  "status": "published",
+  "announced": "2017-07-07",
+  "released": "2017-07-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Samsung_Galaxy_Note_FE.png/500px-Samsung_Galaxy_Note_FE.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Samsung_Galaxy_Note_FE.png/250px-Samsung_Galaxy_Note_FE.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Note FE",
+      "credit": "DReview, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Note_FE.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-07-07",
+      "Series": "Galaxy Note",
+      "Predecessor": "Samsung Galaxy Note 3 Neo",
+      "Successor": "Samsung Galaxy Note 10 Lite (indirect), Samsung Galaxy S20 FE"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153.5 mm H, 73.7 mm W, 7.9 mm D",
+      "Weight": "167 g"
+    },
+    "Platform": {
+      "Operating system": "Original:: Android 7.0 \"Nougat\" with Samsung Experience 8.1, Current:: Android 9.0 \"Pie\" with One UI 1.0",
+      "Chipset": "Samsung Exynos 8890",
+      "CPU": "2.3 GHz Mongoose & 1.6 GHz Cortex-A53 Octa-core, 2.2 GHz Kyro & 1.6 GHz Kryo Quad-Core",
+      "GPU": "Mali-T880 MP12"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSDXC (up to 256 GB)"
+    },
+    "Display": {
+      "Display": "5.7 in 227 ppcm (518 ppi), Quad HD Super AMOLED 2560×1440 pixel resolution (16:9 aspect ratio)"
+    },
+    "Battery": {
+      "Battery": "3.85 V, 3200 mAh (12.32 Wh) Li-ion battery, not user-replaceable",
+      "Charging": "25W USB-C Fast Charging, Qi wireless charging standard"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 8890",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 3200,
+    "wired_w": 25,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 167,
+    "thickness_mm": 7.9,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note FE",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_FE"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note FE\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note FE",
+    "revid": 1383294957
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

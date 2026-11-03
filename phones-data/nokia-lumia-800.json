@@ -1,0 +1,82 @@
+{
+  "slug": "nokia-lumia-800",
+  "brand": "Nokia",
+  "name": "Lumia 800",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Nokia_Lumia_800_front.jpg/500px-Nokia_Lumia_800_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Nokia_Lumia_800_front.jpg/250px-Nokia_Lumia_800_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Lumia 800",
+      "credit": "Petar Milošević, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_800_front.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Nokia Lumia 820"
+    },
+    "Network": {
+      "Technology": "Lumia 800, 2G GSM GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 3G WCDMA/HSDPA – 850, 1900, 2100 MHz, Lumia 800C (Mainland China only), 2G CDMA – 800, 1900 MHz; GSM/GPRS– 850, 900, 1800, 1900 MHz (International roaming only, including Hong Kong, Macau and Taiwan), 3G CDMA2000"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "116.5 mm H , 61.2 mm W , 12.1 mm D",
+      "Weight": "142 g",
+      "Other": "Available in cyan, magenta, black and white"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7.5, updateable to Windows Phone 7.8",
+      "Chipset": "Qualcomm Snapdragon S2 MSM8255T",
+      "CPU": "1.4 GHz single-core Qualcomm Scorpion",
+      "GPU": "Qualcomm Adreno 205"
+    },
+    "Memory": {
+      "RAM": "16 GB internal flash, 512 MB ROM , 512 MB RAM"
+    },
+    "Display": {
+      "Display": "3.7\" ClearBlack, Gorilla Glass AMOLED PenTile at 252 ppi capacitive touchscreen, 480x800 px 16M-color WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel, 3264x2448 pixels, dual-LED flash, autofocus Carl Zeiss optics, 720p video capture"
+    },
+    "Battery": {
+      "Battery": "Rechargeable BV-5JW 3.7v 1450 mAh Li-ion battery:, Standby for up to 265h on 2G, up to 335h on 3G, Talk time for up to 13h on 2G, up to 9h 30min on 3G, Music playback for up to 55 hours."
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, 802.11b/g/n, G-Sensor, Digital Compass, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon S2 MSM8255T",
+    "ram_gb": [
+      16
+    ],
+    "battery_mah": 1450,
+    "os": "Windows Phone 7.5",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 142,
+    "thickness_mm": 12.1
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 800",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_800"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 800\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 800",
+    "revid": 1383611194
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

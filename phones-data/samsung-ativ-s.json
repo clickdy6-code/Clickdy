@@ -1,0 +1,75 @@
+{
+  "slug": "samsung-ativ-s",
+  "brand": "Samsung",
+  "name": "Ativ S",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/03/Samsung_Ativ_S.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/03/Samsung_Ativ_S.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung Ativ S",
+      "credit": "Hi-tech@Mail.Ru, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Ativ_S.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung ATIV"
+    },
+    "Network": {
+      "Technology": "1700 MHz LTE (SGH-T899M); 2G GSM/GPRS/EDGE – 850, 900, 1,800, 1,900 MHz; HSPA – 700, 800, 1,700, 1,900, 2,100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "137.2 x",
+      "Weight": "135 g",
+      "Other": "Wi-Fi hotspot, AllShare, damage-resistant Gorilla Glass 2"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8, upgradeable to Windows Phone 8.1 Update 1",
+      "CPU": "1.5 GHz dual-core Krait",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 or 32 GB flash memory",
+      "Card slot": "microSD (supports SDXC)"
+    },
+    "Cameras": {
+      "Front camera": "1.2 or 1.9 megapixels"
+    },
+    "Battery": {
+      "Battery": "2,300 mAh, 7.98 Wh, 3.8 V, Internal rechargeable li-ion, User replaceable"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2300,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "weight_g": 135
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Ativ S",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Ativ_S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Ativ S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Ativ S",
+    "revid": 1383613263
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

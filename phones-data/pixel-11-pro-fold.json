@@ -1,0 +1,97 @@
+{
+  "slug": "pixel-11-pro-fold",
+  "brand": "Pixel",
+  "name": "11 Pro Fold",
+  "status": "published",
+  "announced": "2026-08-20",
+  "released": "2026-08-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-08-20",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 10 Pro Fold"
+    },
+    "Network": {
+      "Technology": "GSM / EDGE (telecommunication), EDGE, UMTS / HSPA+ / HSDPA, LTE (telecommunication), LTE, 5G sub-6 / mmWave",
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Foldable",
+      "Dimensions": "Folded:H: 155.2 mm, W: 76.0 mm, D: 10.1 mm, Unfolded:H: 155.2 mm, W: 150.4 mm, D: 5.0 mm",
+      "Weight": "239 g",
+      "Other": "Gorilla Glass Victus 2 cover, Ultra-thin Glass (Internal Display), Gorilla Glass Victus 2 back, Titan M, Titan M3 security module"
+    },
+    "Platform": {
+      "Operating system": "Android 17",
+      "Chipset": "Google Tensor G6",
+      "CPU": "1x 4.11 GHz Cortex C1-Ultra + 4x 3.38 GHz Cortex C1-Pro + 2x 2.65 GHz Cortex C1-Pro",
+      "GPU": "PowerVR CXTP-48-1536"
+    },
+    "Memory": {
+      "RAM": "16 GB LPDDR5X",
+      "Storage": "256 GB Universal Flash Storage, UFS 4.0, 512 GB & 1 TB Zoned UFS 4.0"
+    },
+    "Display": {
+      "Display": "Cover:, 164 mm FHD+ 1080p LTPO OLED at 399 Pixels per inch, ppi, px (19.5:9), 1-120 Hertz, Hz refresh rate, Folding:, 204 mm FHD+ LTPO OLED at 372 Pixels per inch, ppi, px (1.04:1), 1-120 Hertz, Hz refresh rate, Both: HDR"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 1.7, 85˚ field of view (wide), 1/1.56\", 10.5 MP, 2.2, 127˚ field of view (ultrawide), 1/3.4\", 10.8 MP, 3.1, 23° field of view (telephoto), 5x optical zoom, 1/3.2\", 4K resolution, 4K video at 24, 30, 60 FPS, 1080p video at 24, 30, 60 FPS",
+      "Front camera": "Front & Inner:, 10 MP, 2.2, 87˚ field of view (ultrawide), 4K video at 30, 60 FPS, 1080p video at 30, 60 FPS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3 microphones, Noise suppression, Spatial audio"
+    },
+    "Battery": {
+      "Battery": "4806 mAh",
+      "Charging": "30 W? fast charging, 25 W Qi (standard), Qi2.2 wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 + MIMO, Bluetooth 6.0, Near-field communication, NFC, Google Cast, Dual-band Satellite navigation, GNSS (GPS / GLONASS / Galileo (satellite navigation), Galileo), Ultra-wideband (UWB) chip, Thread_(network_protocol), Thread Radio, USB-C 3.2"
+    }
+  },
+  "key": {
+    "display_type": "LTPO OLED",
+    "chipset": "Google Tensor G6",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 10,
+    "battery_mah": 4806,
+    "wired_w": 30,
+    "os": "Android 17",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 239,
+    "thickness_mm": 10.1,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 11 Pro Fold",
+      "url": "https://en.wikipedia.org/wiki/Pixel_11_Pro_Fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 11 Pro Fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 11 Pro Fold",
+    "revid": 1380320314
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

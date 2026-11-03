@@ -1,0 +1,107 @@
+{
+  "slug": "xiaomi-redmi-10-5g",
+  "brand": "Xiaomi",
+  "name": "Redmi 10 5G",
+  "status": "published",
+  "announced": "2022-03-02",
+  "released": "2022-03-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F%E5%BA%97_Xiaomi_basement_shop_September_2023_Red12S_04.jpg/500px-HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F%E5%BA%97_Xiaomi_basement_shop_September_2023_Red12S_04.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F%E5%BA%97_Xiaomi_basement_shop_September_2023_Red12S_04.jpg/250px-HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F%E5%BA%97_Xiaomi_basement_shop_September_2023_Red12S_04.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 10 5G",
+      "credit": "XaiMei B01 Num12S, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HK_MK_%E6%97%BA%E8%A7%92_Mongkok_%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F%E5%BA%97_Xiaomi_basement_shop_September_2023_Red12S_04.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Note 11E: 2022-03-02, 10 5G: 2022-03-29, Poco M4 5G: 2022-04-29, 11 Prime 5G: 2022-09-06 , Note 11R: 2022-09-30",
+      "Series": "Redmi/Redmi Note , Poco M",
+      "Predecessor": "Redmi 9 , Redmi 10 Prime , Poco M3",
+      "Successor": "Redmi 12 5G , Poco M5"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Dual nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164 mm H , 76.1 mm W , 8.9 mm D",
+      "Weight": "200 g"
+    },
+    "Platform": {
+      "Operating system": "Original: , 10 5G/11 Prime 5G/Note 11E/Note 11R: Android 12, MIUI 13 , Poco M4 5G: Android 12, MIUI 13 for Poco, Current: Android 14, Xiaomi HyperOS",
+      "Chipset": "MediaTek MT6833 Dimensity 700 5G (7 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "10 5G/11 Prime 5G/Note 11E/Poco M4 5G: 4 GB, 6 GB , Note 11R: 4 GB, 6 GB, 8 GB , LPDDR4X RAM",
+      "Storage": "10 5G/Poco M4 5G: 64 GB, 128 GB, Note 11E/Note 11R: 128 GB",
+      "Card slot": "microSDXC, 10 5G/11 Prime 5G/Note 11E/Poco M4 5G (India): expandable up to 512 GB, Poco M4 5G/Note 11R: expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.58 in, 104.3 cm2 (~83.6% screen-to-body ratio), 1080 x 2048 pixels, 20:9 ratio (~401 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "10 5G/11 Prime 5G/Note 11E/Poco M4 5G (India): 50 MP, 26mm (wide), PDAF, 2 MP, (depth), Poco M4 5G/Note 11R: 13 MP, (wide), PDAF, 2 MP, (depth), Video: 1080p@30fps",
+      "Front camera": "10 5G/Note 11E/Note 11R/Poco M4 5G: 5 MP, 11 Prime 5G: 8 MP, (wide), 1.0 μm, Poco M4 5G (India): 8 MP, (wide), 1.0 μm"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh",
+      "Charging": "Fast charging 18 W, Power Delivery 3.0, Quick Charge 3+"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Type-C 2.0, Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.1, A2DP, LE, A-GPS, GLONASS, BDS, GALILEO (except Poco M4 5G)"
+    }
+  },
+  "key": {
+    "display_in": 6.58,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6833 Dimensity 700 5G",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 200,
+    "thickness_mm": 8.9,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 10 5G",
+      "url": "https://en.wikipedia.org/wiki/Redmi_10_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 10 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 10 5G",
+    "revid": 1361479727
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

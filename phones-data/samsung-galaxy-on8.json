@@ -1,0 +1,75 @@
+{
+  "slug": "samsung-galaxy-on8",
+  "brand": "Samsung",
+  "name": "Galaxy On8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Samsung Galaxy On series",
+      "Predecessor": "Samsung Galaxy On7",
+      "Successor": "Samsung Galaxy On8 (2018)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "169g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0",
+      "Chipset": "Exynos 7580 Octa",
+      "CPU": "Octa-core 1.6 GHz Cortex-A53",
+      "GPU": "Mali-T720MP2"
+    },
+    "Memory": {
+      "RAM": "3GB RAM",
+      "Storage": "16GB eMMC 5.0",
+      "Card slot": "microSD, up to 256GB"
+    },
+    "Display": {
+      "Display": "5.5 in Full HD Super AMOLED (401 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 3300 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos 7580 Octa",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3300,
+    "os": "Android 6.0",
+    "weight_g": 169
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy On8",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_On8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy On8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy On8",
+    "revid": 1361482703
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

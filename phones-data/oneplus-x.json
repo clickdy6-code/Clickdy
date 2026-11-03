@@ -1,0 +1,91 @@
+{
+  "slug": "oneplus-x",
+  "brand": "OnePlus",
+  "name": "X",
+  "status": "published",
+  "announced": "2015-10-29",
+  "released": "2015-10-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/OnePlus_X.jpg/500px-OnePlus_X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/OnePlus_X.jpg/250px-OnePlus_X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus X",
+      "credit": "jan_ehr, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_X.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-10-29",
+      "Discontinued": "2016-06-15",
+      "Successor": "OnePlus Nord (indirect)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "140 mm H, 69 mm W, 6.9 mm D",
+      "Weight": "138 or 160 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1.1 \"Lollipop\": OxygenOS 2.2.2 (Global version) , HydrogenOS (Chinese version) , Current: Android 6.0.1 \"Marshmallow\": OxygenOS 3.1.4 (global version)",
+      "Chipset": "Qualcomm Snapdragon 801",
+      "CPU": "Quad-core 32-bit 28 nm, • Quad-core 2.3 GHz Krait 400",
+      "GPU": "Adreno 330 578 MHz"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3 RAM",
+      "Storage": "16 GB eMMC v5.0",
+      "Card slot": "2 removable nano-SIM card slots; 2nd SIM slot swappable with Micro SD up to 128 GB"
+    },
+    "Display": {
+      "Display": "5 in 1920 × 1080 pixel resolution (441 ppi) , 1080p Full HD AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP f/2.2 aperture, 1080p@30 fps (60 fps when low light), 720p@120 fps, phase autofocus, LED flash",
+      "Front camera": "8 MP wide-angle lens, f/2.4 aperture"
+    },
+    "Sound": {
+      "Sound": "Single mono speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "2,525 mAh Li-Po"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 801",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 2525,
+    "os": "Android 5.1",
+    "weight_g": 160,
+    "thickness_mm": 6.9,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus X",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus X",
+    "revid": 1361478932
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

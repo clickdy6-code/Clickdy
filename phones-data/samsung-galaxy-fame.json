@@ -1,0 +1,84 @@
+{
+  "slug": "samsung-galaxy-fame",
+  "brand": "Samsung",
+  "name": "Galaxy Fame",
+  "status": "published",
+  "announced": "2013-04-23",
+  "released": "2013-04-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Samsung_Galaxy_Fame_white_-_front.jpg/500px-Samsung_Galaxy_Fame_white_-_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Samsung_Galaxy_Fame_white_-_front.jpg/250px-Samsung_Galaxy_Fame_white_-_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Fame",
+      "credit": "Katie Chan, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Fame_white_-_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "23 April 2013",
+      "Predecessor": "Samsung Galaxy Mini 2"
+    },
+    "Network": {
+      "SIM": "1 MiniSIM slot (regular variants) , 2 MiniSIM slots (Dual SIM variant)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "113.2 mm H, 61.6 mm W, 11.6 mm D",
+      "Weight": "120.6 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2 \"Jelly Bean\" With TouchWiz Non-upgradeable",
+      "CPU": "1 GHz single-core ARM Cortex-A9",
+      "GPU": "Broadcom VideoCore IV"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM LPDDR2",
+      "Storage": "4 GB (2GB user accessible)",
+      "Card slot": "MicroSD (HC/XC) up to 64 GB"
+    },
+    "Display": {
+      "Display": "3.5 in HVGA LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixel, 2560 x 1920 pixels, autofocus, LED Flash",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 4.0, Wi-Fi b/g, Wi-Fi Direct, GPS Location, NFC and S-Beam (GT-S6810P)"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "LCD",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1300,
+    "os": "Android 4.1",
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 120.6,
+    "thickness_mm": 11.6,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Fame",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Fame"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Fame\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Fame",
+    "revid": 1375837806
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

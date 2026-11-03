@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-5530-xpressmusic",
+  "brand": "Nokia",
+  "name": "5530 XpressMusic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Nokia_5530_XpressMusic.png/500px-Nokia_5530_XpressMusic.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Nokia_5530_XpressMusic.png/250px-Nokia_5530_XpressMusic.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5530 XpressMusic",
+      "credit": "Lemonix1004, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5530_XpressMusic.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5220",
+      "Successor": "Nokia C6-00, Nokia X5-01"
+    },
+    "Network": {
+      "Technology": "GSM, EGPRS UMTS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "104 × 49 × 13 mm",
+      "Weight": "107g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.4 + S60 platform 5th Edition, Firmware version 40.0.003",
+      "CPU": "ARM11 @ 434 MHz"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM",
+      "Card slot": "max. 16 GB microSDHC (32 GB unofficial), 4 GB card included, Internal 70MB memory"
+    },
+    "Display": {
+      "Display": "nHD 640 x 360 pixels, 2.9-inch 16:9 widescreen, (16.7 million colors)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Megapixels with autofocus, monoflash LED"
+    },
+    "Battery": {
+      "Battery": "BL-4U (3.7V 1000mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (EDR/A2DP), WLAN (802.11 b/g), MicroUSB 2.0; 3.5 mm headphone and video-out jack"
+    }
+  },
+  "key": {
+    "battery_mah": 1000,
+    "os": "Symbian OS 9.4 + S60 platform 5th Edition",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 107
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5530 XpressMusic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5530_XpressMusic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5530 XpressMusic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5530 XpressMusic",
+    "revid": 1380968997
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

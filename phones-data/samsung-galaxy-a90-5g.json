@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-a90-5g",
+  "brand": "Samsung",
+  "name": "Galaxy A90 5G",
+  "status": "published",
+  "announced": "2019-09-03",
+  "released": "2019-09-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/4/44/Galaxy_A90_5G.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Galaxy_A90_5G.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung Galaxy A90 5G",
+      "credit": "Marcusph, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_A90_5G.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09-03",
+      "Series": "Galaxy A",
+      "Predecessor": "Samsung Galaxy A9 (2018)",
+      "Successor": "Samsung Galaxy S10 Lite, Samsung Galaxy A71 5G (Galaxy A Quantum)"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, LTE, VoLTE, 5G Wi-Fi, Bluetooth, NFC"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.8 mm H, 76.4 mm W, 8.4 mm D",
+      "Weight": "206 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 \"Pie\" with One UI 1.5 , Last: Android 12 with One UI 4.1",
+      "Chipset": "Snapdragon 855",
+      "CPU": "Octa core (1×2.84 GHz Kryo 485), (3×2.42 GHz Kryo 485) & (4×1.8 GHz Kryo 485)",
+      "GPU": "Adreno 640 GPU"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB RAM",
+      "Storage": "128 GB"
+    },
+    "Display": {
+      "Display": "6.7 in, Infinity-U Display, 1080 x 2400 pixels, 20:9 ratio (~393 ppi density), Super AMOLED, 60Hz refresh rate, Corning Gorilla Glass 6, Always on"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/2.0, 26mm (wide), 1/2.0\", 0.8 μm, PDAF, 8 MP, f/2.2, 12mm (ultrawide), 1/4.0\", 1.12 μm, 5 MP, f/2.2, (depth), LED flash, panorama, HDR, 4K@30fps, 1080p@30/60fps (gyro-EIS), 720p@960fps",
+      "Front camera": "32 MP, f/2.0, 25mm (wide), 1/2.8\", 0.8 μm, 1080p@30fps"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 60,
+    "chipset": "Snapdragon 855",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "os": "Android 9",
+    "five_g": true,
+    "weight_g": 206,
+    "thickness_mm": 8.4,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A90 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A90_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A90 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A90 5G",
+    "revid": 1380481562
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

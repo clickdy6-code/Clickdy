@@ -1,0 +1,83 @@
+{
+  "slug": "samsung-sch-u470",
+  "brand": "Samsung",
+  "name": "SCH-U470",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Samsung_Juke.jpg/500px-Samsung_Juke.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Samsung_Juke.jpg/250px-Samsung_Juke.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SCH-U470",
+      "credit": "CaseyPenk at en.wikipedia, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Juke.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States Q4 2007 (Verizon Wireless)",
+      "Successor": "Samsung YEPP"
+    },
+    "Network": {
+      "Technology": "Verizon Wireless"
+    },
+    "Body": {
+      "Form factor": "Swivel",
+      "Dimensions": "3.8 × 1.2 × 0.8 in, (9.7 × 3 × 2.1 cm)",
+      "Weight": "88 g (2.8 oz)",
+      "Other": "Call waiting (network-dependent), Three-way calling (network-dependent), No SIM card due to operator-specific device."
+    },
+    "Platform": {
+      "Operating system": "Brew 3.1.4",
+      "CPU": "Qualcomm MSM6125"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "Up to 22 MB for pictures, sounds, ringtones;, 1.87 GB for music only"
+    },
+    "Display": {
+      "Display": "128×220 px"
+    },
+    "Cameras": {
+      "Rear camera": "640×480 px (VGA)"
+    },
+    "Sound": {
+      "Sound": "Vibration, Polyphonic ringtones, Non-MP3 audio ringtones obtainable via Get It Now., Speakerphone, Voice memo, Audio player: MP3, WMA, WMA Pro, AAC, AAC+"
+    },
+    "Battery": {
+      "Battery": "750mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Picture messaging, Bluetooth, supported profiles: HSP (headset), HFP (hands-free), PBAP, A2DP, AVRCP, OPP (vCard), and SPP (not all BT OBEX profiles supported), Mobile instant messenger;, Data calls for Get It Now and some apps, GPS (requires separate software download from Get It Now)"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      87
+    ],
+    "battery_mah": 750,
+    "nfc": false,
+    "weight_g": 88,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SCH-U470",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SCH-U470"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SCH-U470\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SCH-U470",
+    "revid": 1380205388
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

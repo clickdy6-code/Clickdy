@@ -1,0 +1,67 @@
+{
+  "slug": "nokia-5630-xpressmusic",
+  "brand": "Nokia",
+  "name": "5630 XpressMusic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5320 XpressMusic",
+      "Successor": "Nokia X6-00, Nokia C5-00"
+    },
+    "Network": {
+      "Technology": "GSM, EGPRS, WCDMA, HSDPA, HSUPA"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "112 × 46 × 12 mm",
+      "Weight": "83g"
+    },
+    "Platform": {
+      "Operating system": "S60 3rd Edition Feature Pack 2",
+      "CPU": "ARM11 600 MHz Samsung K5W4G2GACA – AL54 processor"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM",
+      "Card slot": "max. 16 GB microSD, 4 GB card included"
+    },
+    "Display": {
+      "Display": "TFT QVGA 320 x 240 pixels, 2.2 inch (16.7 million colors)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-megapixel camera with EDOF and dual LED flash",
+      "Front camera": "0.3-megapixel front camera for video calls"
+    },
+    "Battery": {
+      "Battery": "BL-4CT (3.7V 860mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (EDR/A2DP), WLAN (802.11 b/g), MicroUSB 2.0; 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 83
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5630 XpressMusic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5630_XpressMusic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5630 XpressMusic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5630 XpressMusic",
+    "revid": 1361477424
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

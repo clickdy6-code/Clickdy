@@ -1,0 +1,72 @@
+{
+  "slug": "nokia-600",
+  "brand": "Nokia",
+  "name": "600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Unreleased",
+      "Series": "Nokia 3-digit series"
+    },
+    "Network": {
+      "Technology": "GSM (850/900/1800/1900 MHz), HSDPA, (850/900/1700/1900/2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "H: 111 mm, W: 53 mm, D: 13 mm",
+      "Weight": "100 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian Belle",
+      "CPU": "1.0 GHz processor"
+    },
+    "Memory": {
+      "Storage": "2 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.2 360x640 px, TFT, 16M color"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP VGA with LED flash, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "1200 mAh Li-ion, removable (Nokia BL-4J), Standby:, up to 540 h (2G), up to 600 h (3G), Talktime:, up to 15 h (2G), up to 6 h 30 min (3G)"
+    },
+    "Connectivity": {
+      "Connectivity": "Sensors:, Accelerometer, Magnetometer, Electronic compass, Proximity sensor, Other:, 3.5 mm headphone jack, Bluetooth 3.0, Wi-Fi 802.11 b/g, GPS with A-GPS, FM radio, Stereo, RDS, FM transmitter, built-in Antenna, USB 2.0 via MicroUSB port, NFC"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 1200,
+    "os": "Symbian Belle",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 100,
+    "thickness_mm": 13
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 600",
+      "url": "https://en.wikipedia.org/wiki/Nokia_600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 600",
+    "revid": 1361477467
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

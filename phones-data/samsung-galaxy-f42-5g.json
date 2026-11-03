@@ -1,0 +1,97 @@
+{
+  "slug": "samsung-galaxy-f42-5g",
+  "brand": "Samsung",
+  "name": "Galaxy F42 5G",
+  "status": "published",
+  "announced": "2021-10-03",
+  "released": "2021-10-03",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-10-03",
+      "Series": "Galaxy F",
+      "Predecessor": "Samsung Galaxy F41, Samsung Galaxy Wide4",
+      "Successor": "Samsung Galaxy Wide6"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "167.2 mm H, 76.4 mm W, 9 mm D",
+      "Weight": "203 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11 with One UI 3.1, Current: Android 13 with One UI 5.1",
+      "Chipset": "MediaTek MT6833 Dimensity 700 5G (7 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "6GB, 8GB",
+      "Storage": "128GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.6 inches, 104.9 cm2 (~82.1% screen-to-body ratio), TFT, 90Hz, 1080 x 2408 pixels, 20:9 ratio (~400 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, f/1.8, (wide), PDAF, 5 MP, f/2.2, 115˚ (ultrawide), 1/5.0\", 1.12 μm, 2 MP, f/2.4, (depth), LED flash, panorama, HDR, 1152p@30fps",
+      "Front camera": "8 MP, f/2.0, (wide), 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh",
+      "Charging": "Fast charging 15W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Type-C 2.0, Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "TFT",
+    "refresh_hz": 90,
+    "chipset": "MediaTek MT6833 Dimensity 700 5G",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 15,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 203,
+    "thickness_mm": 9,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy F42 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_F42_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy F42 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy F42 5G",
+    "revid": 1375853349
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

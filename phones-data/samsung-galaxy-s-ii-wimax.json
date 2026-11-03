@@ -1,0 +1,60 @@
+{
+  "slug": "samsung-galaxy-s-ii-wimax",
+  "brand": "Samsung",
+  "name": "Galaxy S II WiMAX",
+  "status": "published",
+  "announced": "2012-01-20",
+  "released": "2012-01-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/ISW11SC.jpg/500px-ISW11SC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/ISW11SC.jpg/250px-ISW11SC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S II WiMAX",
+      "credit": "Jr223, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ISW11SC.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-01-20 (Noble Black), 2012-03-24 (Ceramic White), 2012-07-20 (Shiny Magenta)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 → 4.0.4",
+      "CPU": "Exynos 4210 Dual-core 1.4GHz"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB"
+    },
+    "Battery": {
+      "Battery": "1,850 mAh"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1850,
+    "os": "Android 2.3",
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S II WiMAX",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_II_WiMAX"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S II WiMAX\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S II WiMAX",
+    "revid": 1380483082
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

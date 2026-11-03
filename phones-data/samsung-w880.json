@@ -1,0 +1,76 @@
+{
+  "slug": "samsung-w880",
+  "brand": "Samsung",
+  "name": "W880",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "S-Series"
+    },
+    "Network": {
+      "Technology": "GSM 800/900/1700/1800/1900/2100, 3G 900/2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "4.6x2.2x0.6 inches",
+      "Weight": "96g"
+    },
+    "Platform": {
+      "Operating system": "TouchWiz v2.0 UI"
+    },
+    "Memory": {
+      "RAM": "4GB internal",
+      "Storage": "up to 32GB",
+      "Card slot": "microSD/microSDHC"
+    },
+    "Display": {
+      "Display": "16M (colors), 480 x 800 pixels (resolution), 3.3 inches AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "12MP at 4000x3000 pixels (picture), 720p at 30fps (HD video)"
+    },
+    "Battery": {
+      "Battery": "Li-lon 1100mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, HSDPA 7.2 Mbps, Bluetooth 2.0 and USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.3,
+    "display_type": "AMOLED",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 96
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung W880",
+      "url": "https://en.wikipedia.org/wiki/Samsung_W880"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung W880\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung W880",
+    "revid": 1361483710
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

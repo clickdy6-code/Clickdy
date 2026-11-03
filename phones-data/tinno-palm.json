@@ -1,0 +1,88 @@
+{
+  "slug": "tinno-palm",
+  "brand": "Tinno",
+  "name": "Palm",
+  "status": "published",
+  "announced": "2018-11-02",
+  "released": "2018-11-02",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-11-02"
+    },
+    "Network": {
+      "Technology": "2G GSM/EDGE, 3G UMTS/HSPA, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "96.6 x 50.6 x 7.4 mm",
+      "Weight": "62.5 g",
+      "Other": "Fleksy on-screen virtual keyboard"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 435",
+      "CPU": "MSM8940 Octa-core (4x1.4 GHz and 4x1.1 GHz) Kryo 360",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "non-expandable"
+    },
+    "Display": {
+      "Display": "3.3 in 1280x720 LCD (445 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "12MP with flash",
+      "Front camera": "8MP"
+    },
+    "Sound": {
+      "Sound": "Dual purpose speaker"
+    },
+    "Battery": {
+      "Battery": "800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.2 low energy, Wi-Fi b/g/n (2.4GHz), USB-C"
+    }
+  },
+  "key": {
+    "display_in": 3.3,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon 435",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 800,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 62.5,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Palm (companion)",
+      "url": "https://en.wikipedia.org/wiki/Palm_%28companion%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Palm (companion)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Palm (companion)",
+    "revid": 1381311758
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

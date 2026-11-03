@@ -1,0 +1,93 @@
+{
+  "slug": "xiaomi-redmi-s2",
+  "brand": "Xiaomi",
+  "name": "Redmi S2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Xiaomi_Redmi_S2.jpg/500px-Xiaomi_Redmi_S2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Xiaomi_Redmi_S2.jpg/250px-Xiaomi_Redmi_S2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi S2",
+      "credit": "Art-barko, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Redmi_S2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 2018",
+      "Series": "Redmi/Redmi Y",
+      "Predecessor": "Redmi Y1",
+      "Successor": "Redmi Y3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "170g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 Oreo with MIUI 9 , Current: Android 9 Pie with MIUI 12",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "CPU": "Octa-core 2.0 GHz (8x Cortex-A53)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "3/4GB",
+      "Storage": "32/64 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "5.99\", 16:9, 720x1440, IPS LCD, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/2.2, 1.25μm, PDAF, 5 MP, f/2.4, (depth)",
+      "Front camera": "16 MP, f/2.5, (wide), 1/3.06\" 1.0µm"
+    },
+    "Sound": {
+      "Sound": "Mono loudspeaker"
+    },
+    "Battery": {
+      "Battery": "3080 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.99,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8953 Snapdragon 625",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 3080,
+    "os": "Android 8.1",
+    "five_g": false,
+    "weight_g": 170,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi S2",
+      "url": "https://en.wikipedia.org/wiki/Redmi_S2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi S2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi S2",
+    "revid": 1361480389
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

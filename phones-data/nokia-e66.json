@@ -1,0 +1,79 @@
+{
+  "slug": "nokia-e66",
+  "brand": "Nokia",
+  "name": "E66",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Nokia_E66_front_open.jpg/500px-Nokia_E66_front_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Nokia_E66_front_open.jpg/250px-Nokia_E66_front_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia E66",
+      "credit": "Bearded90, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_E66_front_open.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "Q1 2010",
+      "Predecessor": "Nokia E65",
+      "Successor": "Nokia C6-01, Nokia C7-00"
+    },
+    "Network": {
+      "Technology": "Quad band , GSM / GPRS / , EDGE: GSM 850 / 900 / 1800 / 1900, Dual band , UMTS / HSDPA"
+    },
+    "Body": {
+      "Form factor": "slider",
+      "Dimensions": "107.5 × 49.5 × 13.6 mm, Volume: 62.6 cm3",
+      "Weight": "121 g",
+      "Other": "FOTA (Firmware update Over The Air) This handset does not support FOTA as of firmware v 510.21.009"
+    },
+    "Platform": {
+      "Operating system": "S60 v3.1 (3rd Edition, Feature Pack 1) UI on Symbian OS v9.2",
+      "CPU": "369 MHz ARM11 Freescale processor"
+    },
+    "Memory": {
+      "RAM": "110 MB Internal user storage , ROM: 256 MB , SDRAM: 128 MB , ~71 MB Free Executable RAM",
+      "Card slot": "8 GB max MicroSDHC Hot-swappable"
+    },
+    "Display": {
+      "Display": "2.4 in TFT QVGA (240×320 pixel), 166 ppi, 16.8 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-megapixel, 2048 × 1536 pixel, autofocus, video (QVGA, 150, frames/second), flash",
+      "Front camera": "video call camera"
+    },
+    "Battery": {
+      "Battery": "BL-4U, 3.7 V 1000 mAh lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 802.11 b,g, Integrated & Assisted GPS, Bluetooth 2.0, Infrared and microUSB"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "os": "Symbian OS v9.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 121
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E66",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E66"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E66\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E66",
+    "revid": 1361478220
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

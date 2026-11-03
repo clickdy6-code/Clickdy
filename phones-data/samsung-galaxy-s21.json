@@ -1,0 +1,111 @@
+{
+  "slug": "samsung-galaxy-s21",
+  "brand": "Samsung",
+  "name": "Galaxy S21",
+  "status": "published",
+  "announced": "2021-01-14",
+  "released": "2021-01-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/GalaxyS21.png/500px-GalaxyS21.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/GalaxyS21.png/250px-GalaxyS21.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S21",
+      "credit": "Marcusph, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GalaxyS21.png",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "S21, S21+ and S21 Ultra: 2021-01-14, S21 FE: 2022-01-04",
+      "Discontinued": "S21, S21+ and S21 Ultra: , S21 FE:",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S20, Samsung Galaxy Note 20 (indirect for S21 Ultra)",
+      "Successor": "Samsung Galaxy S22, Samsung Galaxy S23 FE (for S21 FE)"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G",
+      "SIM": "nanoSIM, eSIM, Single SIM or Hybrid Dual SIM in dual stand-by"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "S21: 151.7xx71.2xx7.9 mm, S21+: 161.5xx75.6xx7.8 mm, S21 Ultra: 165.1xx75.6xx8.9 mm, S21 FE: 155.7xx74.5xx7.9 mm",
+      "Weight": "S21: 169 g, S21+: 200 g, S21 Ultra: 227 g, S21 FE: 177 g"
+    },
+    "Platform": {
+      "Operating system": "S21, S21+ and S21 Ultra:, Original: Android 11 with One UI 3.1, Current: Android 15 with One UI 7, S21 FE:, Original: Android 12 with One UI 4, Current: Android 16 with One UI 8",
+      "Chipset": "International: Exynos#Exynos 1000/2000 series (2021), Samsung Exynos 2100, United States, Canada, China, Japan: List of Qualcomm Snapdragon systems on chips#Snapdragon 800 series (2013–2021), Qualcomm Snapdragon 888",
+      "CPU": "Exynos: Octa-core (1x2.9 GHz Cortex-X1, 3x2.80 GHz Cortex-A78 and 4x2.2 GHz Cortex-A55), Snapdragon: Octa-core (1x2.84 GHz, 3x2.42 GHz and 4x1.80 GHz) Kryo 680",
+      "GPU": "Exynos: Mali-G78 MP14, Snapdragon: Adreno 660"
+    },
+    "Memory": {
+      "RAM": "S21 and S21+: 8 GB RAM, S21 Ultra: 12/16 GB RAM, S21 FE: 6/8 GB RAM",
+      "Storage": "S21, S21+ and S21 FE: 128/256 GB UFS 3.1, S21 Ultra: 128/256/512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED 2X Infinity-O capacitive touchscreen, 10Hz-120 Hz refresh rate, 20:9 Display aspect ratio, aspect ratio, HDR10+, (PenTile matrix family#PenTile RGBG, Diamond PenTile), S21: 6.2 in (2.5 MP) (421 ppi) 1300 nits, S21+: 6.7 in (394 ppi) 1300 nits, S21 Ultra: 6.8 in (4.6 MP) (515 ppi) 1600 nits, S21 FE: 6.4 in (411 ppi) 1300 nits"
+    },
+    "Cameras": {
+      "Rear camera": "All: Features: LED flash, auto-HDR, panorama, Video: 8K@24fps, 4K@30/60fps, 1080p@30/60/120fps, 720p@960fps, HDR10+, stereo sound rec., gyro-EIS & OIS, S21 and S21+:, 12 MP, f/1.8, 26 mm (wide), 1/1.76\", 1.8 μm, Dual Pixel PDAF, OIS, 64 MP, f/2.0, 28 mm (telephoto), 1/1.76\", 0.8 μm, PDAF, OIS, 1.1x optical, 3x hybrid, 12 MP, f/2.2, 13 mm 120° (ultrawide), 1/2.55\" 1.4 μm, Super Steady video, S21 Ultra:, 108 MP (2nd gen), f/1.8, 26 mm (wide), 1/1.33\", 0.8 μm, PDAF, Laser AF, OIS, 10 MP, f/4.9, 240 mm (periscope telephoto), 1/3.24\", 1.22 μm, dual pixel PDAF, OIS, 10x optical, 10 MP, f/2.4, 70 mm (telephoto), 1/3.24\", 1.22 μm, dual pixel PDAF, OIS, 3x optical, 12 MP, f/2.2, 13 mm (ultrawide), 1/",
+      "Front camera": "S21 and S21+: 10 MP, f/2.2, 26 mm (wide), 1/3.24\", 1.22 μm, Dual Pixel PDAF, S21 Ultra: 40 MP, f/2.2, 26 mm (wide), 1/2.8\", 0.7 μm, PDAF, S21 FE: 32 MP, f/2.2, 26 mm (wide), 1/2.74\", 0.8 μm, Dual Pixel PDAF"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers tuned by AKG"
+    },
+    "Battery": {
+      "Battery": "S21: 4000 mAh Lithium polymer, S21+: 4800 mAh Lithium polymer, S21 Ultra: 5000 mAh Lithium polymer, S21 FE: 4500 mAh Lithium polymer",
+      "Charging": "USB PD: 25W (PPS), 15W (non-PPS), 15 W QI wireless, 4.5 W Reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.2, Wi-Fi 802.11 a/b/g/n/ac/ax(Wi-Fi 6E: S21 Ultra)"
+    }
+  },
+  "key": {
+    "display_in": 6.2,
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "peak_nits": 1600,
+    "chipset": "International: Exynos#Exynos 1000/2000 series",
+    "ram_gb": [
+      8,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 10,
+    "battery_mah": 4000,
+    "wireless_w": 15,
+    "wired_w": 25,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 6E",
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 169,
+    "thickness_mm": 8.9,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S21",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S21"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S21\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy S21",
+    "revid": 1383397514
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

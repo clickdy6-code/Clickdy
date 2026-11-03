@@ -1,0 +1,108 @@
+{
+  "slug": "samsung-galaxy-tab-s8",
+  "brand": "Samsung",
+  "name": "Galaxy Tab S8",
+  "status": "published",
+  "announced": "2022-02-09",
+  "released": "2022-02-09",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Samsung_Galaxy_Tab_S8_Ultra.jpg/500px-Samsung_Galaxy_Tab_S8_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Samsung_Galaxy_Tab_S8_Ultra.jpg/250px-Samsung_Galaxy_Tab_S8_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Tab S8",
+      "credit": "Dylan240, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Tab_S8_Ultra.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-02-09",
+      "Series": "Galaxy Tab S",
+      "Predecessor": "Samsung Galaxy Tab S7",
+      "Successor": "Samsung Galaxy Tab S9"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Tablet Computer",
+      "Dimensions": "Tab S8: 253.8 mm H, 165.3 mm W, 6.3 mm D, Tab S8+: 285 mm H, 185 mm W, 5.7 mm D, Tab S8 Ultra: 326.4 mm H, 208.6 mm W, 5.5 mm D",
+      "Weight": "Tab S8: 503 g (Wi-Fi), 507 g (5G), Tab S8+: 567 g (Wi-Fi), 572 g (5G), Tab S8 Ultra: 726 g (Wi-Fi), 728 g (5G)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12 with One UI 4.1, Current: Android 16 with One UI 8",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 1 (4 nm)",
+      "CPU": "Octa-core (1x3.00 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "Tab S8 and S8+: 8 GB, 12 GB RAM, Tab S8 Ultra: 8 GB, 12 GB, 16 GB RAM",
+      "Storage": "Tab S8 and S8+: 128 GB, 256 GB, Tab S8 Ultra: 128 GB, 256 GB, 512 GB",
+      "Card slot": "microSDXC, up to 1 TB"
+    },
+    "Display": {
+      "Display": "Tab S8: 11.0 in TFT LCD, pixels, 16:10 aspect ratio (~274 ppi density), 120Hz refresh rate, Tab S8+: 12.4 in Super AMOLED, pixels, 16:10 aspect ratio (~266 ppi density), 120Hz refresh rate, Tab S8 Ultra: 14.6 in Super AMOLED, pixels, 16:10 aspect ratio (~240 ppi density), 120Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.0, 26mm (wide), 1/3.4\", 1.0 μm, AF, 6 MP, f/2.2, (ultrawide), LED flash, HDR, panorama, 4K@30/60fps, 1080p@30fps",
+      "Front camera": "Tab S8 and S8+: 12 MP, f/2.4, 120˚ (ultrawide), Tab S8 Ultra: 12 MP, f/2.2, 26mm (wide), 12 MP, f/2.4, 120˚ (ultrawide)"
+    },
+    "Sound": {
+      "Sound": "Quad stereo loudspeakers tuned by AKG"
+    },
+    "Battery": {
+      "Battery": "Tab S8: 8000 mAh, Tab S8+: 10090 mAh, Tab S8 Ultra: 11200 mAh",
+      "Charging": "USB PD: 45W (PPS), 15W (non-PPS)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Type-C 3.2, Wi-Fi 802.11 a/b/g/n/ac/ax, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 8 Gen 1",
+    "ram_gb": [
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 12,
+    "battery_mah": 8000,
+    "wired_w": 45,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 503,
+    "thickness_mm": 6.3,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab S8",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab S8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab S8",
+    "revid": 1378518338
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

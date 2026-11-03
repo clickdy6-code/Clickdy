@@ -1,0 +1,89 @@
+{
+  "slug": "realme-c11",
+  "brand": "Realme",
+  "name": "C11",
+  "status": "published",
+  "announced": "2020-07-07",
+  "released": "2020-07-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Smartphone_Realme_C11_%282021%29.jpg/500px-Smartphone_Realme_C11_%282021%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Smartphone_Realme_C11_%282021%29.jpg/250px-Smartphone_Realme_C11_%282021%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Realme C11",
+      "credit": "Issuial, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Smartphone_Realme_C11_(2021).jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 7, 2020"
+    },
+    "Network": {
+      "SIM": "Nano-SIM + Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.4 × 75.9 × 9.1 mm",
+      "Weight": "196 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10, Realme UI",
+      "Chipset": "MediaTek MT6765G Helio G35 (12 nm)",
+      "CPU": "Octa-core (4×2.3 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "2 GB or 3 GB RAM",
+      "Storage": "32 GB eMMC 5.1",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.5-inch IPS LCD, 720 × 1560 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (wide), 2 MP (depth)",
+      "Front camera": "5 MP (wide)"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "10W wired"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6765G Helio G35",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "weight_g": 196,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C11",
+      "url": "https://en.wikipedia.org/wiki/Realme_C11"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C11\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C11",
+    "revid": 1374928793
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

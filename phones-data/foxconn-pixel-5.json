@@ -1,0 +1,106 @@
+{
+  "slug": "foxconn-pixel-5",
+  "brand": "Foxconn",
+  "name": "Pixel 5",
+  "status": "published",
+  "announced": "2020-10-15",
+  "released": "2020-10-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Pixel_5_%282020%29.svg/500px-Pixel_5_%282020%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Pixel_5_%282020%29.svg/250px-Pixel_5_%282020%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Pixel 5",
+      "credit": "JorgenQ, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pixel_5_(2020).svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-10-15",
+      "Discontinued": "2021-08-20",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 4",
+      "Successor": "Pixel 6"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE, UMTS/HSPA+, CDMA EVDO Rev A, WCDMA, LTE, LTE Advanced, 5G",
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 144.7 mm, W: 70.4 mm, D: 8 mm",
+      "Weight": "151 g",
+      "Other": "18 W fast charging, 12 W Qi (standard), Qi wireless charging, Titan M security module"
+    },
+    "Platform": {
+      "Operating system": "Android 11, Upgradable to Android 14",
+      "Chipset": "Qualcomm Snapdragon 765G",
+      "CPU": "Octa-core (1 × 2.4 GHz Kryo 475 Prime & 1 × 2.2 GHz Kryo 475 Gold & 6 × 1.8 GHz Kryo 475 Silver)",
+      "GPU": "Adreno 620"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR4X",
+      "Storage": "128 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "6 in FHD+ 1080p OLED at 432 ppi, pixel resolution (13:6), Corning Gorilla Glass 6, 90 Hz refresh rate, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor IMX363 12.2 MP (1.4 μm) with 1.7 lens, 27 mm (wide), 1/2.55\" + 16 MP (1.0 μm) with 2.2 lens, 107° (ultrawide), Dual Pixel PDAF, optical and electronic image stabilization, LED flash, Live HDR+, panorama, 1080p at 30/60/120 fps, 4K at 30/60 fps",
+      "Front camera": "8 MP with 2.0 lens, 24 mm (wide), 1.12 μm, 1080p at 30 fps, Auto-HDR"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4080 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C, Wi-Fi 5 (a/b/g/n/ac) 2.4 + 5.0 GHz, Bluetooth 5.0 + LE, NFC, eSIM capable"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "OLED",
+    "refresh_hz": 90,
+    "chipset": "Qualcomm Snapdragon 765G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12.2,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 4080,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 5",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 151,
+    "thickness_mm": 8,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 5",
+      "url": "https://en.wikipedia.org/wiki/Pixel_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 5",
+    "revid": 1361479364
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

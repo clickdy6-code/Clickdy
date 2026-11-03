@@ -1,0 +1,76 @@
+{
+  "slug": "lg-qua-phone-px",
+  "brand": "LG",
+  "name": "Qua phone PX",
+  "status": "published",
+  "announced": "2016-07-01",
+  "released": "2016-07-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-07-01",
+      "Series": "Qua",
+      "Predecessor": "Qua phone"
+    },
+    "Network": {
+      "Technology": "3.9G: FDD-LTE (au VoLTE) (700 MHz / N800 MHz / 2 GHz), 3G: W-CDMA (850 MHz / 2 GHz), 2G: GSM (1.9 GHz / 1.8 GHz / 900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "148 mm H , 73 mm W , 7.5 mm D",
+      "Weight": "127 g (approx.)"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0",
+      "Chipset": "Qualcomm Snapdragon 430 (MSM8937)",
+      "CPU": "1.4 GHz + 1.1 GHz octa-core"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 200 GB) (as published by KDDI)"
+    },
+    "Display": {
+      "Display": "5.2-inch IPS, FHD (1920 × 1080 pixels), approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 16.1 megapixels, backside-illuminated CMOS image sensor, image stabilization, face recognition",
+      "Front camera": "Approx. 8.0 megapixels, CMOS image sensor, HD video recording"
+    },
+    "Battery": {
+      "Battery": "3,000 mAh, Battery life: approx. 105 hours",
+      "Charging": "Approx. 90 minutes"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 430",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 3000,
+    "os": "Android 6.0",
+    "five_g": false,
+    "weight_g": 127,
+    "thickness_mm": 7.5,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Qua phone PX",
+      "url": "https://en.wikipedia.org/wiki/Qua_phone_PX"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Qua phone PX\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Qua phone PX",
+    "revid": 1363451901
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "foxconn-nokia-800-tough",
+  "brand": "Foxconn",
+  "name": "Nokia 800 Tough",
+  "status": "published",
+  "announced": "2019-09-05",
+  "released": "2019-09-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Nokia_800_Tough%2C_Winschoten_%282019%29.jpg/500px-Nokia_800_Tough%2C_Winschoten_%282019%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Nokia_800_Tough%2C_Winschoten_%282019%29.jpg/250px-Nokia_800_Tough%2C_Winschoten_%282019%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 800 Tough",
+      "credit": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 Intern, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_800_Tough,_Winschoten_(2019).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09-05",
+      "Predecessor": "Nokia 2720 Flip",
+      "Successor": "HMD Terra M"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "145.4 mm H, 62.1 mm W, 16.1 mm D",
+      "Weight": "161 g"
+    },
+    "Platform": {
+      "Operating system": "KaiOS",
+      "Chipset": "Qualcomm MSM8905 Snapdragon 205 (28 nm)",
+      "CPU": "Dual-core (2x1.1 GHz Cortex-A7)",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "RAM": "512 MB LPDDR3 RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.4 in TFT LCD, 240 x 320 resolution"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, LED flash"
+    },
+    "Battery": {
+      "Battery": "2100 mAh Li-ion (non-removable), stand-by time:, up to 43 days (3G)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth 4.1 with A2DP, LE, WiFi 802.11 b/g/n, hotspot, GPS, GLONASS, FM radio, micro USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM8905 Snapdragon 205",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 2100,
+    "os": "KaiOS",
+    "nfc": false,
+    "weight_g": 161,
+    "thickness_mm": 16.1,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 800 Tough",
+      "url": "https://en.wikipedia.org/wiki/Nokia_800_Tough"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 800 Tough\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 800 Tough",
+    "revid": 1374641414
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "foxconn-nokia-c1",
+  "brand": "Foxconn",
+  "name": "Nokia C1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Nokia C10"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "147.6xx71.4xx8.7 mm",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9 Pie (Go Edition)",
+      "CPU": "Quad-core 1.3 GHz"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSD, up to 64 GB"
+    },
+    "Display": {
+      "Display": "5.45 in (76.7 cm2) 480p IPS LCD with toughened glass, ~197 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (f/2.4, autofocus), LED flash, Video: 720p@30fps",
+      "Front camera": "5 MP, LED flash, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "2500 mAh Li-ion, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth 4.2, micro USB 2.0 port"
+    }
+  },
+  "key": {
+    "display_in": 5.45,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2500,
+    "os": "Android 9",
+    "nfc": false,
+    "weight_g": 155
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C1",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C1",
+    "revid": 1361478057
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

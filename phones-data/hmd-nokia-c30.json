@@ -1,0 +1,84 @@
+{
+  "slug": "hmd-nokia-c30",
+  "brand": "HMD",
+  "name": "Nokia C30",
+  "status": "published",
+  "announced": "2021-07-27",
+  "released": "2021-07-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-07-27",
+      "Series": "C",
+      "Predecessor": "Nokia C3",
+      "Successor": "Nokia C31"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "177.7 × 79.1 × 9.9 mm",
+      "Weight": "237 g",
+      "Other": "Fingerprint scanner (rear-mounted), accelerometer, proximity sensor"
+    },
+    "Platform": {
+      "Operating system": "Android 11 (Go Edition)",
+      "CPU": "UNISOC SC9863A (28 nm), 8 cores (4×1.6 GHz Cortex-A55 & 4×1.2 GHz Cortex-A55)",
+      "GPU": "IMG8322"
+    },
+    "Memory": {
+      "RAM": "2/3/4 GB, LPDDR4X",
+      "Storage": "32/64 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.82\", 1600 × 720 (HD+), 20:9, 257 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (wide-angle) + 2 MP, (depth sensor), LED flash, Video: 1080p@30fps",
+      "Front camera": "5 MP, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Removable, Li-Ion 6000 mAh",
+      "Charging": "10 W"
+    }
+  },
+  "key": {
+    "display_in": 6.82,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 6000,
+    "wired_w": 10,
+    "os": "Android 11",
+    "five_g": false,
+    "weight_g": 237,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C30",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C30"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C30\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C30",
+    "revid": 1361478137
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

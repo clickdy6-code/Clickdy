@@ -1,0 +1,58 @@
+{
+  "slug": "nokia-9300",
+  "brand": "Nokia",
+  "name": "9300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Nokia9300.png/500px-Nokia9300.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Nokia9300.png/250px-Nokia9300.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 9300",
+      "credit": "Nokia 9300 Smartphone.jpg: Original uploader was EiZei at en.wikipedia\nderivativ, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia9300.png",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 9210 Communicator (9300), Nokia 9210i Communicator (9300i), Nokia 9290 Communicator (9300b)",
+      "Successor": "Nokia E61 (9300), Nokia E61i (9300i) , Nokia E63"
+    },
+    "Network": {
+      "Technology": "GPRS, EDGE"
+    },
+    "Body": {
+      "Dimensions": "132 × 51 × 21 mm"
+    },
+    "Memory": {
+      "Card slot": "MultiMediaCard"
+    },
+    "Battery": {
+      "Battery": "970 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, IrDA, Wi-Fi (9300i only)"
+    }
+  },
+  "key": {
+    "battery_mah": 970,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 9300",
+      "url": "https://en.wikipedia.org/wiki/Nokia_9300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 9300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 9300",
+    "revid": 1361477930
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

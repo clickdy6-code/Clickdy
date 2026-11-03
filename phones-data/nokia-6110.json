@@ -1,0 +1,40 @@
+{
+  "slug": "nokia-6110",
+  "brand": "Nokia",
+  "name": "6110",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 2110 (6110), Nokia 2120 (6120), Nokia 2120 Plus (6120i), Nokia 2160 (6160), Nokia 2160i (6160i), Nokia 2180 (6180), Nokia 2190 (6190)",
+      "Successor": "Nokia 6150 (6110), Nokia 6340 (6120), Nokia 6340i (6120i), Nokia 6360 (6160), Nokia 6370 (6180), Nokia 6385 (6185)"
+    },
+    "Network": {
+      "Technology": "GSM 900 (Europe), GSM 1900 (US)"
+    },
+    "Battery": {
+      "Battery": "Extended NiMH Battery 900 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 900,
+    "five_g": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6110",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6110"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6110\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6110",
+    "revid": 1361477515
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "nokia-asha-305",
+  "brand": "Nokia",
+  "name": "Asha 305",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Nokia_Asha_305.jpg/500px-Nokia_Asha_305.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Nokia_Asha_305.jpg/250px-Nokia_Asha_305.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Asha 305",
+      "credit": "Nash Izumrud, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Asha_305.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Full Touch",
+      "Predecessor": "Nokia C2-02"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800, GPRS/EDGE class B, multislot class 33"
+    },
+    "Body": {
+      "Form factor": "Full Touch candybar",
+      "Dimensions": "Width: 53.8 mm, Height: 110.3 mm, Thickness: 12.8 mm",
+      "Weight": "96 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Asha Series 40 OS"
+    },
+    "Memory": {
+      "RAM": "32 MB RAM, 64 MB ROM",
+      "Storage": "10 Mb maximum user storage",
+      "Card slot": "Up to 32 GB, microSDHC;, 2 Gb memory card included"
+    },
+    "Display": {
+      "Display": "240 × 400 px (WQVGA), 3.0\" (155 ppi), 16 bits"
+    },
+    "Cameras": {
+      "Rear camera": "2 MPix (CMOS sensor) EDoF, 1600x1200 px;, Focus range, 100 cm–∞"
+    },
+    "Battery": {
+      "Battery": "Removable, model BP-4U, Li-Ion 1100 mAh, microUSB and 2 mm DC plug charging, Talk time: Up to 14 hours, Standby: 528 h (22 days), Music playback: 40 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 +EDR, microUSB 2.0, USB On-the-Go 1.3, 3.5 mm AV connector (audio in/out), mini-SIM, FM receiver with RDS"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 96,
+    "thickness_mm": 12.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 305",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_305"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 305\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 305",
+    "revid": 1368249441
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

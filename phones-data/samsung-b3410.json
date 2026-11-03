@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-b3410",
+  "brand": "Samsung",
+  "name": "B3410",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Samsung_Delphi_GT-B3410.JPG/500px-Samsung_Delphi_GT-B3410.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Samsung_Delphi_GT-B3410.JPG/250px-Samsung_Delphi_GT-B3410.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung B3410",
+      "credit": "Ananas96, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Delphi_GT-B3410.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "B-Series"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, GPRS, EDGE"
+    },
+    "Body": {
+      "Form factor": "QWERTY slider",
+      "Dimensions": "102.3 × 52.4 × 15.9 mm",
+      "Weight": "113.7g",
+      "Other": "Full Web browser (NetFront), vibration feedback"
+    },
+    "Platform": {
+      "Operating system": "TouchWiz 1.0 with Java support"
+    },
+    "Memory": {
+      "Storage": "30 MB",
+      "Card slot": "microSD up to 8 GB (microSDHC compatible)"
+    },
+    "Display": {
+      "Display": "2.6 in (66 mm) QVGA 240×320"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "960 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.1, Wi-Fi 802.11b/g (B3410W only)"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 960,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 113.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung B3410",
+      "url": "https://en.wikipedia.org/wiki/Samsung_B3410"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung B3410\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung B3410",
+    "revid": 1361480435
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

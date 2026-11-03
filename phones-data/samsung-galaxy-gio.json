@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-gio",
+  "brand": "Samsung",
+  "name": "Galaxy Gio",
+  "status": "published",
+  "announced": "2011-03-01",
+  "released": "2011-03-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Samsung_Galaxy_Gio.JPG/500px-Samsung_Galaxy_Gio.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Samsung_Galaxy_Gio.JPG/250px-Samsung_Galaxy_Gio.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Gio",
+      "credit": "Xanor, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Gio.JPG",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "UK 2011-03-01",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy 3 (Galaxy Apollo/GT-I5800",
+      "Successor": "Samsung Galaxy Ace (GT-S5830)"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 , HSDPA 7.2 Mbps 900/2100",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "110.5 mm H , 57.5 mm W , 12.15 mm D",
+      "Weight": "102 g",
+      "Other": "Swype keyboard"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.2 \"Froyo\", Current: Android 2.3.6 \"Gingerbread\", Unofficial: Android 4.4 \"KitKat\" via CyanogenMod 11 by Maclaw (now NovaFusion)",
+      "CPU": "800 MHz Qualcomm MSM7227-1 Turbo, ARMv6 O/C to 8=961MHz",
+      "GPU": "Adreno 200 GPU"
+    },
+    "Memory": {
+      "RAM": "384 MB (accessible: 278 MB)",
+      "Storage": "512 MB (accessible: 150 MB / 181 MB)",
+      "Card slot": "microSDHC (supports up to 32 GB);, 2 GB card included"
+    },
+    "Display": {
+      "Display": "TFT LCD, 180 ppi, 3.2 in diagonal, 320×480 px HVGA , 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 Mpix, 2048×1536 max, autofocus, 2× digital zoom;, QVGA video, 320×240@15 fps, MPEG4"
+    },
+    "Battery": {
+      "Battery": "1,350 mAh, 5.0 Wh, 3.7 V, internal rechargeable Li-ion, user-replaceable",
+      "Charging": "MicroUSB 2.0 port (standard charging speed)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm jack , Bluetooth v2.1 with A2DP , DLNA , Stereo FM radio with RDS , Micro-USB 2.0 , Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1350,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 102,
+    "thickness_mm": 12.15,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Gio",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Gio"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Gio\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Gio",
+    "revid": 1361481985
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

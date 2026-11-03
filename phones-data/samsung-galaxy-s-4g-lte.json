@@ -1,0 +1,69 @@
+{
+  "slug": "samsung-galaxy-s-4g-lte",
+  "brand": "Samsung",
+  "name": "Galaxy S 4G LTE",
+  "status": "published",
+  "announced": "2011-05-14",
+  "released": "2011-05-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States May 14, 2011 (Verizon Wireless)",
+      "Series": "Galaxy"
+    },
+    "Network": {
+      "Technology": "Dual band CDMA2000, EV-DO Rev. A , 800/1900 MHz, LTE 750 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "122.4 mm H, 64.2 mm W, 9.9 – D.",
+      "Other": "TV out, integrated messaging Social Hub, Android Market, Samsung Apps, A-GPS, video messaging. Exchange ActiveSync, offline, voice command, RSS reader, widgets"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2.1 with TouchWiz 3.0, upgradeable to 2.3.6 Gingerbread",
+      "CPU": "Samsung Hummingbird S5PC110 (ARM Cortex A8), 1 GHz",
+      "GPU": "PowerVR SGX 540"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "2 GB Internal",
+      "Card slot": "micro-SD 32 GB Preinstalled (up to 32 GB supported)"
+    },
+    "Display": {
+      "Display": "4.3 in Super AMOLED Plus, 480x800 px (217 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixel with auto focus; 720p HD video; self-, action, panorama, and smile shot; stop motion; add me , Front-facing camera (some models)"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1600 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g/n); Bluetooth 3.0; USB 2.0, DLNA"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "Super AMOLED",
+    "battery_mah": 1600,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S 4G LTE",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_4G_LTE"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S 4G LTE\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S 4G LTE",
+    "revid": 1380483071
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

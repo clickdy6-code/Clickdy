@@ -1,0 +1,105 @@
+{
+  "slug": "samsung-galaxy-m13",
+  "brand": "Samsung",
+  "name": "Galaxy M13",
+  "status": "published",
+  "announced": "2022-05-27",
+  "released": "2022-05-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Galaxym13.png/500px-Galaxym13.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Galaxym13.png/250px-Galaxym13.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy M13",
+      "credit": "Грицик Владислав, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxym13.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "M13: 2022-05-27, M13 5G: 2022-07-23",
+      "Series": "Samsung Galaxy M series",
+      "Predecessor": "Samsung Galaxy M12",
+      "Successor": "Samsung Galaxy M14, Samsung Galaxy M14 5G"
+    },
+    "Network": {
+      "Technology": "M13: GSM / HSPA / LTE, M13 5G: GSM / HSPA / LTE / 5G NR",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "M13: 165.4 mm H , 76.9 mm W , 8.4 mm D, M13 5G: 164.5 mm H , 76.5 mm W , 8.8 mm D",
+      "Weight": "M13: 192 g, M13 5G: 195 g"
+    },
+    "Platform": {
+      "Operating system": "Android 12 with One UI 4.1",
+      "Chipset": "M13: Samsung Exynos 850 (8nm), M13 5G: MediaTek MT6833 Dimensity 700 (7 nm)",
+      "CPU": "M13: Octa-core (4x2.0 GHz Cortex-A55 & 4x2.0 GHz Cortex-A55), M13 5G: Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "M13: Mali-G52, M13 5G: Mali-G57"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB, 128 GB eMMC 5.1",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "M13: 6.6 in, M13 5G: 6.5 in, All: Infinity-U Display, resolution, 20:9 aspect ratio (~266 ppi density), PLS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "M13: 50 MP, f/1.8, (wide), PDAF, 5 MP, f/2.2, 123˚ (ultrawide), 2 MP, f/2.4, (depth), M13 5G: 50 MP, f/1.8, (wide), PDAF, 2 MP, f/2.4, (depth), Both: LED flash, panorama, HDR, 1080p@30fps",
+      "Front camera": "M13: 8 MP, f/2.2, (wide), M13 5G: 5 MP, f/2.0, (wide), Both: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "6000 mAh",
+      "Charging": "Fast charging 15W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot, Bluetooth 5.0, A2DP, LE, A-GPS, GLONASS, GALILEO, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "LCD",
+    "chipset": "M13: Samsung Exynos 850",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 6000,
+    "wired_w": 15,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 192,
+    "thickness_mm": 8.4,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M13",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M13"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M13\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy M13",
+    "revid": 1380482440
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

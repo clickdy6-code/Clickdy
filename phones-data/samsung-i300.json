@@ -1,0 +1,53 @@
+{
+  "slug": "samsung-i300",
+  "brand": "Samsung",
+  "name": "i300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900/1800/1900, GPRS"
+    },
+    "Body": {
+      "Form factor": "bar"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 2003"
+    },
+    "Memory": {
+      "RAM": "3 GB"
+    },
+    "Display": {
+      "Display": "2.0\" TFT LCD"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA, Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "ram_gb": [
+      3
+    ],
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung i300",
+      "url": "https://en.wikipedia.org/wiki/Samsung_i300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung i300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung i300",
+    "revid": 1361483751
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

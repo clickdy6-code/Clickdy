@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-e75",
+  "brand": "Nokia",
+  "name": "E75",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Nokia_E75_%28open%29-3284596583_063f9ce1d0_o.jpg/500px-Nokia_E75_%28open%29-3284596583_063f9ce1d0_o.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Nokia_E75_%28open%29-3284596583_063f9ce1d0_o.jpg/250px-Nokia_E75_%28open%29-3284596583_063f9ce1d0_o.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia E75",
+      "credit": "https://www.flickr.com/photos/james_nash/, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_E75_(open)-3284596583_063f9ce1d0_o.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia E70, Nokia E90 Communicator",
+      "Successor": "Nokia C6-00, Nokia E7-00"
+    },
+    "Network": {
+      "Technology": "Quad band , GSM / GPRS / , EDGE: GSM 850 / 900 / 1800 / 1900, Dual band , UMTS / HSDPA"
+    },
+    "Body": {
+      "Form factor": "Side slider with full keyboard",
+      "Dimensions": "111.8 × 50/80 × 14.4 millimeters",
+      "Weight": "139 g, Volume: 69 cc",
+      "Other": "FOTA (Firmware update Over The Air)"
+    },
+    "Platform": {
+      "Operating system": "S60 3rd Edition Feature Pack 2",
+      "CPU": "ARM11 369 MHz Freescale MXC300-30 processor"
+    },
+    "Memory": {
+      "RAM": "50 MB Internal user storage , ROM: 256 MB , SDRAM: 128 MB , ~71 MB Free Executable RAM",
+      "Card slot": "MicroSDHC Hot-swappable"
+    },
+    "Display": {
+      "Display": "240 × 320 px, 2.4 in, up to 16 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel with auto focus and flash",
+      "Front camera": "Front-facing"
+    },
+    "Battery": {
+      "Battery": "BL-4U, 3.7V 1000 mAh lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 802.11 b,g, Integrated & Assisted GPS, Bluetooth 2.0, microUSB, 3.5 mm Nokia AV connector"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 139
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E75",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E75"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E75\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E75",
+    "revid": 1361478247
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "foxconn-nokia-6-2",
+  "brand": "Foxconn",
+  "name": "Nokia 6.2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6.1",
+      "Successor": "Nokia 5.3 , Nokia 5.4 , Nokia G42 5G"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "H: 159.9 mm, W: 75.1 mm, D: 8.3 mm",
+      "Weight": "180 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 \"Pie\", Current: Android 11, (Android One)",
+      "Chipset": "Qualcomm Snapdragon 636 (14 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Kryo 260 Gold & 4x1.6 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 509"
+    },
+    "Memory": {
+      "RAM": "3 or 4 GB LPDDR4 RAM",
+      "Storage": "32, 64 or 128 GB",
+      "Card slot": "microSD, up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.3 inches (99.1 cm2) 1080p IPS LCD with Gorilla Glass 3 protection, ~400 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "Triple Camera Set-up:, 16 MP (f/1.8, 27mm, 1.0 μm, PDAF) Wide, 8 MP (f/2.2, 13mm, 1/4.0\", 1.12 μm) Ultrawide 0.6x Zoom, 5 MP (f/2.4) Depth, ZEISS optics, phase detection autofocus, dual-LED dual-tone flash, panorama, HDR, Video: 4K@30fps, 1080p@30fps",
+      "Front camera": "8 MP (f/2.0, 1/4.0\", 1.12 μm), autofocus, HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "3500 mAh Li-Po, non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth 5.0, USB 2.0 via USB-C port, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 636",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 3500,
+    "os": "Android 9",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 180,
+    "thickness_mm": 8.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6.2",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6.2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6.2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6.2",
+    "revid": 1361477464
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

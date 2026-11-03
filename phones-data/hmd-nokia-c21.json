@@ -1,0 +1,90 @@
+{
+  "slug": "hmd-nokia-c21",
+  "brand": "HMD",
+  "name": "Nokia C21",
+  "status": "published",
+  "announced": "2022-02-28",
+  "released": "2022-02-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-02-28",
+      "Series": "C series",
+      "Predecessor": "Nokia C20",
+      "Successor": "Nokia C22"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "C21: 169.9 × 77.9 × 8.8 mm, C21 Plus: 164.8 × 75.9 × 8.6 mm",
+      "Weight": "C21: 195 g, C21 Plus: 178 or 191 g",
+      "Other": "Rear-mounted fingerprint scanner, accelerometer, proximity sensor"
+    },
+    "Platform": {
+      "Operating system": "Android 11 (Go edition)",
+      "Chipset": "Unisoc SC9863A (28 nm), Octa-core (4×1.6 GHz Cortex-A55 & 4×1.2 GHz Cortex-A55)",
+      "GPU": "IMG8322"
+    },
+    "Memory": {
+      "RAM": "C21: 2/3 GB, C21 Plus: 2/3/4 GB, LPDDR4X",
+      "Storage": "32/64 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.52\", 1600 × 720 (HD+), 20:9, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "C21: 8 MP, LED flash, HDR, panorama, Video: 720p@30fps, C21 Plus: 13 MP (wide), AF + 2 MP, f/2.4 (depth), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, f/2.2, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Li-Ion, C21: removable, 3000 mAh, C21 Plus: non-removable, 4000 or 5050 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm audio jack, Bluetooth 4.2 (A2DP), FM radio, Wi-Fi 802.11 a/b/g/n (hotspot), GPS, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.52,
+    "display_type": "IPS LCD",
+    "chipset": "Unisoc SC9863A",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "wired_w": 10,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 195,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C21",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C21"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C21\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C21",
+    "revid": 1361478119
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

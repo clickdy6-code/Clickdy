@@ -1,0 +1,94 @@
+{
+  "slug": "foxconn-pixel-3a",
+  "brand": "Foxconn",
+  "name": "Pixel 3a",
+  "status": "published",
+  "announced": "2019-05-07",
+  "released": "2019-05-07",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-05-07",
+      "Series": "Pixel",
+      "Successor": "Pixel 4a"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE, UMTS/HSPA+, CDMA EVDO Rev A, WCDMA, LTE, LTE Advanced",
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel 3a:, H: 151.3 mm, W: 70.1 mm, D: 8.2 mm, Pixel 3a XL:, H: 160.1 mm, W: 76.1 mm, D: 8.2 mm",
+      "Weight": "Pixel 3a: 147 g, Pixel 3a XL: 167 g",
+      "Other": "Titan M security module"
+    },
+    "Platform": {
+      "Operating system": "Android 9 \"Pie\" , Last: Android 12L",
+      "Chipset": "Qualcomm Snapdragon 670",
+      "CPU": "2.0 GHz + 1.7 GHz, 64-Bit Octa-Core",
+      "GPU": "Adreno 615"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X",
+      "Storage": "64 GB eMMC 5.1"
+    },
+    "Display": {
+      "Display": "Pixel 3a: 5.6 in FHD+ OLED at 441 ppi, resolution () , Pixel 3a XL: 6.0 in FHD+ OLED at 402 ppi, () resolution, Both displays have Asahi Dragontrail Glass"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 MP (1.4 μm) with 1.8 lens, Dual Pixel Phase autofocus, optical and electronic image stabilization 1080p at 30/60/120 fps, 720p at 30/60/240 fps, 4K at 30 fps",
+      "Front camera": "8 MP with 2.0 lens and 84° lens, fixed focus, 1080p at 30 fps, 720p at 30 fps, 480p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Pixel 3a: 3000 mAh, Pixel 3a XL: 3700 mAh",
+      "Charging": "18 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 2.4 GHz + 5.0 GHz 802.11a/b/g/n/ac, Bluetooth 5.0 + LE, NFC, GPS (GLONASS, Galileo, QZSS, BeiDou)"
+    }
+  },
+  "key": {
+    "display_in": 5.6,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 670",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "wired_w": 18,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "esim": true,
+    "weight_g": 147,
+    "thickness_mm": 8.2,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 3a",
+      "url": "https://en.wikipedia.org/wiki/Pixel_3a"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 3a\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Pixel 3a",
+    "revid": 1361479355
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

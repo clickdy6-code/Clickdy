@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-7610",
+  "brand": "Nokia",
+  "name": "7610",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Nokia_7610.png/500px-Nokia_7610.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Nokia_7610.png/250px-Nokia_7610.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 7610",
+      "credit": "AnVuong1222004 (11), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_7610.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 7250",
+      "Successor": "Nokia 6681"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900, Nokia 7610B for US: GSM 850/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "109 x 53 x 19 mm, 93 cc",
+      "Weight": "118 g"
+    },
+    "Platform": {
+      "Operating system": "S60 v2.1 UI on Symbian OS v7.0",
+      "CPU": "ARM4T 123 MHz"
+    },
+    "Memory": {
+      "RAM": "8 MB internal, 32 MB (8 MB free executable) RAM",
+      "Card slot": "RS-MMC"
+    },
+    "Cameras": {
+      "Rear camera": "1.0 megapixel"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 900mAh (BL-5C)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v1.1 , USB via Pop-Port"
+    }
+  },
+  "key": {
+    "battery_mah": 900,
+    "os": "Symbian OS v7.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 118
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 7610",
+      "url": "https://en.wikipedia.org/wiki/Nokia_7610"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 7610\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 7610",
+    "revid": 1382796897
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

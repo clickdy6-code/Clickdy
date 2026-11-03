@@ -1,0 +1,98 @@
+{
+  "slug": "xiaomi-poco-m6-pro-5g",
+  "brand": "Xiaomi",
+  "name": "POCO M6 Pro 5G",
+  "status": "published",
+  "announced": "2023-08-05",
+  "released": "2023-08-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-08-05",
+      "Series": "Poco M series",
+      "Predecessor": "Poco M5 Pro (implied)"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "168.6 mm H , 76.3 mm W , 8.2 mm D",
+      "Weight": "199 g"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with MIUI 14",
+      "Chipset": "Qualcomm Snapdragon 4 Gen 2 (4 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A78 & 6x1.95 GHz Cortex-A55)",
+      "GPU": "Adreno 613"
+    },
+    "Memory": {
+      "RAM": "4 GB, 6 GB, or 8 GB LPDDR4X",
+      "Storage": "64 GB, 128 GB, or 256 GB UFS 2.2",
+      "Card slot": "microSDXC (uses shared SIM slot)"
+    },
+    "Display": {
+      "Display": "6.79 in (172 mm) IPS LCD, 90Hz, 550 nits, 2460 × 1080 pixels (~396 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8 (wide), PDAF, 2 MP, f/2.4 (depth)",
+      "Front camera": "8 MP, f/2.0 (wide), 1.12µm"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm jack, 24-bit/192kHz Hi-Res audio"
+    },
+    "Battery": {
+      "Battery": "5,000 mAh Li-Po (non-removable)",
+      "Charging": "18W wired, Power Delivery fast-charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Bluetooth 5.3, A2DP, LE, GPS, GLONASS, GALILEO, BDS, Infrared port, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.79,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "peak_nits": 550,
+    "chipset": "Qualcomm Snapdragon 4 Gen 2",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 199,
+    "thickness_mm": 8.2,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: POCO M6 Pro 5G",
+      "url": "https://en.wikipedia.org/wiki/POCO_M6_Pro_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"POCO M6 Pro 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "POCO M6 Pro 5G",
+    "revid": 1361479248
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

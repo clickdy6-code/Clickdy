@@ -1,0 +1,103 @@
+{
+  "slug": "pixel-fold",
+  "brand": "Pixel",
+  "name": "Fold",
+  "status": "published",
+  "announced": "2023-06-28",
+  "released": "2023-06-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/PixelFold.jpg/500px-PixelFold.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/PixelFold.jpg/250px-PixelFold.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Pixel Fold",
+      "credit": "PopePompus, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PixelFold.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-06-28",
+      "Discontinued": "August 13, 2024",
+      "Series": "Pixel",
+      "Successor": "Pixel 9 Pro Fold"
+    },
+    "Network": {
+      "Technology": "GSM / EDGE (telecommunication), EDGE, UMTS / HSPA+ / HSDPA, LTE (telecommunication), LTE, 5G sub-6 / mmWave",
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Folded:H: 139.7 mm, W: 79.5 mm, D: 12.1 mm, Unfolded:H: 139.7 mm, W: 158.7 mm, D: 5.8 mm",
+      "Weight": "283 g",
+      "Other": "Folded:, Gorilla Glass Victus cover, Unfolded:, Ultra Thin Glass cover, Both:, Gorilla Glass Victus back, Titan M, Titan M2 security module, Ultra-wideband (UWB) chip"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13, Current: Android 17",
+      "Chipset": "Google Tensor G2"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5",
+      "Storage": "256 or 512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "Folded:, 146.7 mm FHD+ 1080p OLED at 408 Pixels per inch, ppi, px (17.4:9), 120 Hertz, Hz refresh rate, Unfolded:, 192.3 mm FHD+ 1080p OLED at 380 Pixels per inch, ppi, px (6:5), 120 Hertz, Hz refresh rate, Both: HDR"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 1.7, 82˚ field of view (wide), 0.8 μm, 10.8 MP, 2.2, 121.1˚ field of view (ultrawide), 1.25 μm, 10.8 MP, 3.05, 21.9˚ field of view (telephoto), 1.22 μm, 4K resolution, 4K video at 30 or 60 Frame rate, FPS, 1080p video at 30 or 60 FPS",
+      "Front camera": "Folded:, 9.5 MP, 2.2, 84˚ field of view (wide), 1.22 μm, 4K video at 30 or 60 FPS, 1080p video at 30 or 60 FPS, Unfolded:, 8 MP, 2.0, 84˚ field of view (wide), 1.12 μm, 1080p video at 30 FPS"
+    },
+    "Sound": {
+      "Sound": "Spatial audio, Stereo speakers, 3 microphones, Noise suppression"
+    },
+    "Battery": {
+      "Battery": "4821 mAh",
+      "Charging": "30 W fast charging, Qi (standard), Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6E + HE160 + MIMO, Bluetooth 5.2, Near-field communication, NFC, Google Cast, Dual-band Satellite navigation, GNSS (GPS / GLONASS / Galileo (satellite navigation), Galileo / Quasi-Zenith Satellite System, QZSS), USB-C 3.2"
+    }
+  },
+  "key": {
+    "display_type": "OLED",
+    "chipset": "Google Tensor G2",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 9.5,
+    "battery_mah": 4821,
+    "wired_w": 30,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6E",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 283,
+    "thickness_mm": 12.1,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel Fold",
+      "url": "https://en.wikipedia.org/wiki/Pixel_Fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel Fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel Fold",
+    "revid": 1379162991
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

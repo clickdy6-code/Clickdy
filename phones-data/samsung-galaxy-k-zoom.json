@@ -1,0 +1,93 @@
+{
+  "slug": "samsung-galaxy-k-zoom",
+  "brand": "Samsung",
+  "name": "Galaxy K Zoom",
+  "status": "published",
+  "announced": "2014-05-31",
+  "released": "2014-05-31",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Samsung_Galaxy_K_Zoom_%2814204820767%29.jpg/500px-Samsung_Galaxy_K_Zoom_%2814204820767%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Samsung_Galaxy_K_Zoom_%2814204820767%29.jpg/250px-Samsung_Galaxy_K_Zoom_%2814204820767%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy K Zoom",
+      "credit": "Kārlis Dambrāns from Latvia, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_K_Zoom_(14204820767).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-05-31",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S4 Zoom",
+      "Successor": "Samsung Galaxy S6 Edge"
+    },
+    "Network": {
+      "SIM": "MicroSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "Width 70.8 mm, Height 137.5 mm, Thickness 16.6 (min)/20.2 (max) mm",
+      "Weight": "200 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 KitKat with TouchWiz Nature UX 3.0",
+      "Chipset": "Exynos 5 Hexa (5260)",
+      "CPU": "ARM Holdings Cortex-A15 1.7 GHz Dual Core + ARM Holdings Cortex-A7 1.3 GHz Quad Core",
+      "GPU": "ARM Holdings Mali-T624 (MP4) 533 MHz"
+    },
+    "Memory": {
+      "RAM": "Type eMMC 4.5, Capacity 8 GB, 16 GB, MicroSD/SDHC/SDXC (Supports up to 64 GB)",
+      "Storage": "Capacity 2 GB, Type LPDDR3 SDRAM, Speed 12.8 GB/s (32-bit Dual Channel 800 MHz)"
+    },
+    "Display": {
+      "Display": "Approx. 4.8 \" (12.19 cm) HD Super AMOLED (AM OLED), Resolution 720 x 1280 (720p HD, Pixel Density 306 ppi), 16777216 (224(24 bit)) Color, Gorilla Glass 3, HDMI"
+    },
+    "Cameras": {
+      "Rear camera": "Sensor Information, Sensor Type, Samsung Electronics S5 BSI CMOS Image Sensor, Pixels, 20.7 million, Sensor Size, 1/2.3, Aperture, f/3.1~6.3, Shooting Performance, ISO 100~3,200, Focal Length 24 ~ 240 mm, Up to 10x Optical Zoom, Optical Image Stabilization, Auto Focus/Manual Focus, Flash, Xenon Flash",
+      "Front camera": "Sensor Information, Sensor Type, Samsung Electronics S5K6B2 BSI CMOS Image Sensor, Pixels, 1.34 µm, 2 million, Sensor Size, 1/6 \", Shooting Performance, Max 1080p HD quality video Shooting, Up to 30 fps video recording, Fixed Focus"
+    },
+    "Sound": {
+      "Sound": "Sound Chipset Wolfson WM1811, Audio Playback Capability 16 Bits, 44.1 kHz, Sound Field SoundAlive"
+    },
+    "Battery": {
+      "Battery": "Removable Lithium-ion battery, 2,430 mAh, 3.8 V, Approx. 9.23 Wh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, USB On-the-Go, MHL 1.3, HDMI, (Micro USB Type B/HDMI Type D integrated connector), 3.5 mm US TRRS (4-pole) Phone Connector"
+    }
+  },
+  "key": {
+    "display_in": 4.8,
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos 5 Hexa",
+    "ram_gb": [
+      8,
+      16,
+      64
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2430,
+    "os": "Android 4.4",
+    "nfc": false,
+    "weight_g": 200,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy K Zoom",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_K_Zoom"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy K Zoom\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy K Zoom",
+    "revid": 1381858142
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

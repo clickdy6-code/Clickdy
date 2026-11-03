@@ -1,0 +1,106 @@
+{
+  "slug": "xiaomi-redmi-10c",
+  "brand": "Xiaomi",
+  "name": "Redmi 10C",
+  "status": "published",
+  "announced": "2022-03-17",
+  "released": "2022-03-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Front_of_Redmi_10C.jpg/500px-Front_of_Redmi_10C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Front_of_Redmi_10C.jpg/250px-Front_of_Redmi_10C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 10C",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Front_of_Redmi_10C.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "10: 2022-03-17 , 10C: 2022-03-21 , 10 Power: 2022-04-20",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 9C, Redmi 9 Power",
+      "Successor": "Redmi 12C"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "169.6 mm H , 76.6 mm W , 10C: 8.3 mm D , 10/Power: 9.1 mm D",
+      "Weight": "10C: 190 g , 10/Power: 203 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11 with MIUI 13, Current: Android 13 with MIUI 14",
+      "Chipset": "Snapdragon 680 4G (6 nm)",
+      "CPU": "Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver)",
+      "GPU": "Adreno 610, (1114 MHz)"
+    },
+    "Memory": {
+      "RAM": "10C: 3 or 4 GB RAM , 10: 4 or 6 GB RAM , 10 Power: 8 GB RAM",
+      "Storage": "10C/10: 64 or 128 GB UFS 2.2 , 10 Power: 128 GB UFS 2.2",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.71 in, 720 x 1650 pixels (~268 ppi density), IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, 26mm (wide), PDAF, 2 MP, f/2.4, (depth), LED flash, HDR, panorama, 1080p@30fps",
+      "Front camera": "5 MP, f/2.2, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "Li-Po , 10C: 5000 mAh , 10/Power: 6000 mAh",
+      "Charging": "Fast charging 18W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LEGPS, GPS, A-GPS, GLONASS, BDS, GALILEO"
+    }
+  },
+  "key": {
+    "display_in": 6.71,
+    "display_type": "IPS LCD",
+    "chipset": "Snapdragon 680 4G",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 190,
+    "thickness_mm": 8.3,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 10C",
+      "url": "https://en.wikipedia.org/wiki/Redmi_10C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 10C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 10C",
+    "revid": 1361479737
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

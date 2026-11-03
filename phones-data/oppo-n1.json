@@ -1,0 +1,88 @@
+{
+  "slug": "oppo-n1",
+  "brand": "Oppo",
+  "name": "N1",
+  "status": "published",
+  "announced": "2013-12-10",
+  "released": "2013-12-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/OPPO_N1_%2815059746038%29.jpg/500px-OPPO_N1_%2815059746038%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/OPPO_N1_%2815059746038%29.jpg/250px-OPPO_N1_%2815059746038%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo N1",
+      "credit": "Maurizio Pesce from Milan, Italia, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OPPO_N1_(15059746038).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-12-10",
+      "Series": "Oppo N",
+      "Successor": "Oppo N3"
+    },
+    "Network": {
+      "Technology": "GSM 850 900 1800 1900 , HSPA+ 850 900 1700 1900 2100"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "170.7 mm H , 82.6 mm W , 9 mm D",
+      "Weight": "213 g",
+      "Other": "Ambient light sensor, Gyroscope, Proximity sensor, Tilt sensor"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2 \"Jelly Bean\", CyanogenMod 10.2 (based on Android 4.3)",
+      "CPU": "1.7 GHz quad-core Snapdragon 600",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16/32 GB"
+    },
+    "Display": {
+      "Display": "5.9 in diagonal, (16:9 aspect ratio), multi-touch display, IPS TFT LCD, 1920x1080 pixels at 377 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (3264×2448 px max.) , 1080p HD video recording , Can swivel up to 206 degrees"
+    },
+    "Battery": {
+      "Battery": "3610 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.9,
+    "display_type": "IPS",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "battery_mah": 3610,
+    "os": "Android 4.2",
+    "five_g": false,
+    "weight_g": 213,
+    "thickness_mm": 9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo N1",
+      "url": "https://en.wikipedia.org/wiki/Oppo_N1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo N1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo N1",
+    "revid": 1382892250
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

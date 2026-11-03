@@ -1,0 +1,81 @@
+{
+  "slug": "nokia-n73",
+  "brand": "Nokia",
+  "name": "N73",
+  "status": "published",
+  "announced": "2006-04-25",
+  "released": "2006-04-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Nokia-N73.jpg/500px-Nokia-N73.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Nokia-N73.jpg/250px-Nokia-N73.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N73",
+      "credit": "Paul3vanz, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia-N73.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2006-04-25",
+      "Discontinued": "Q1 2011",
+      "Series": "Nokia Nseries",
+      "Predecessor": "Nokia N70 , Nokia N71 , Nokia N72 , Nokia N90 , Nokia N91",
+      "Successor": "Nokia N77 , Nokia N78 , Nokia N92 , Nokia N93/Nokia N93i"
+    },
+    "Network": {
+      "Technology": "GSM quad-band, UMTS 2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "110 × 49 × 19 mm",
+      "Weight": "116g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.1 + S60 3rd Edition",
+      "CPU": "Dual CPU ARM9 220 MHz"
+    },
+    "Memory": {
+      "RAM": "64 MB",
+      "Storage": "42 MB (Nokia N73), 40 MB (Nokia N73 Music Edition)",
+      "Card slot": "miniSD up to 2 GB, (up to 4 GB unofficial)"
+    },
+    "Display": {
+      "Display": "2.4-inch QVGA, TFT, 262,144 colours, 240 × 320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 megapixels (Carl Zeiss Tessar lens, flash, red-eye reduction, autofocus, 20x digital zoom)",
+      "Front camera": "VGA camera (640 × 480 pixels) with up to 2× digital zoom"
+    },
+    "Battery": {
+      "Battery": "BP-6M Battery, Li-Ion, 3.7 V, 900 mAh, 1100 mAh (Music Edition)"
+    },
+    "Connectivity": {
+      "Connectivity": "3G, EDGE, UMTS, Bluetooth 2.0 + EDR, Infrared"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 900,
+    "os": "Symbian OS v9.1 + S60 3rd Edition",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 116,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N73",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N73"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N73\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N73",
+    "revid": 1374925874
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

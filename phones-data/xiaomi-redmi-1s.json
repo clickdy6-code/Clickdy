@@ -1,0 +1,95 @@
+{
+  "slug": "xiaomi-redmi-1s",
+  "brand": "Xiaomi",
+  "name": "Redmi 1S",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Xiaomi_Redmi_1S.jpg/500px-Xiaomi_Redmi_1S.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Xiaomi_Redmi_1S.jpg/250px-Xiaomi_Redmi_1S.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 1S",
+      "credit": "Great HE, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Redmi_1S.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "CN: 2014-02 , IN: 2014-07",
+      "Series": "Redmi",
+      "Predecessor": "Redmi (phone)",
+      "Successor": "Redmi 2"
+    },
+    "Network": {
+      "Technology": "GSM: 900/1800/1900 , HSPA: 14.4 Mbps 900/2100",
+      "SIM": "Dual SIM miniSIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "137 mm H , 69 mm W , 9.9 mm D",
+      "Weight": "158 g"
+    },
+    "Platform": {
+      "Operating system": "China:, MIUI 9 beta and stable, based on Android v4.4.4 KitKat, Global:, MIUI 9 beta and stable based on Android v4.4.4 KitKat",
+      "Chipset": "1.6 GHz Qualcomm Snapdragon 400 MSM8228",
+      "CPU": "Quad Core ARMv7 1.6 GHz",
+      "GPU": "Adreno 305 GPU"
+    },
+    "Memory": {
+      "RAM": "1 GB (861 MB usable)",
+      "Storage": "8 GB (5.7 GB usable)",
+      "Card slot": "Supports up to 64 GB, microSDXC"
+    },
+    "Display": {
+      "Display": "4.70 in IPS LCD with AGC Dragontrail Glass , 1280×720 px (312 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixel auto-focus with LED flash",
+      "Front camera": "1.6 Megapixel (720p HD)"
+    },
+    "Battery": {
+      "Battery": "2,050 mAh, 7.6 Wh, 3.896 V, internal rechargeable Li-Poly, user-replaceable, Battery Scale:100",
+      "Charging": "MicroUSB port 2.0 wired charging up to 5W (standard)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPS / GLONASS, Wi-Fi 802.11 b/g/n, Bluetooth 4.0, Micro-USB"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "IPS LCD",
+    "chipset": "1.6 GHz Qualcomm Snapdragon 400 MSM8228",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      7,
+      8
+    ],
+    "battery_mah": 2050,
+    "wired_w": 5,
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 158,
+    "thickness_mm": 9.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 1S",
+      "url": "https://en.wikipedia.org/wiki/Redmi_1S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 1S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 1S",
+    "revid": 1361479773
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

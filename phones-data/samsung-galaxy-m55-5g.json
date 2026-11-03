@@ -1,0 +1,92 @@
+{
+  "slug": "samsung-galaxy-m55-5g",
+  "brand": "Samsung",
+  "name": "Galaxy M55 5G",
+  "status": "published",
+  "announced": "2024-03-28",
+  "released": "2024-03-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "M55 5G: 2024-03-28, С55 5G: 2024-04-22, F55 5G: 2024-05-17, M55s 5G: 2024-09-24",
+      "Series": "Galaxy M/Galaxy F/Galaxy C",
+      "Predecessor": "Samsung Galaxy M54 5G",
+      "Successor": "Samsung Galaxy M56 5G"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G",
+      "SIM": "Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.9 × 76.5 × 7.8 mm",
+      "Weight": "180 g",
+      "Other": "Fingerprint scanner (under display, optical), Accelerometer, Gyroscope, Proximity sensor, compass"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14 with One UI 6.1, Current: Android 16 with One UI 8.5",
+      "Chipset": "Qualcomm SM7450-AB Snapdragon 7 Gen 1 (4 nm)",
+      "CPU": "8 cores (1×2.4 GHz Cortex-A710 & 3×2.36 GHz Cortex-A710 & 4×1.8 GHz Cortex-A510)",
+      "GPU": "Adreno 644"
+    },
+    "Memory": {
+      "RAM": "M55 5G/F55 5G/C55 5G: 8/12 GB, LPDDR4X",
+      "Storage": "M55 5G/M55s 5G/F55 5G: 128/256 GB, C55 5G: 256 GB",
+      "Card slot": "microSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "Super AMOLED+, 120 Hz, 6.7\", 2400 × 1080 (FHD+), 20:9, 393 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, (wide-angle), 1/1.56\", 1 μm, PDAF, OIS + 8 MP, 123° (ultrawide) + 2 MP, (macro), LED flash, panorama, HDR, Video: 4K@30fps, 1080p@30/60fps, gyro-EIS, OIS",
+      "Front camera": "50 MP, (wide-angle), HDR, Video: 4K@30fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo sound"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 5000 mAh",
+      "Charging": "45 W fast charging"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SM7450-AB Snapdragon 7 Gen 1",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 50,
+    "battery_mah": 5000,
+    "wired_w": 45,
+    "os": "Android 14",
+    "five_g": true,
+    "dual_sim": true,
+    "weight_g": 180,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M55 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M55_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M55 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M55 5G",
+    "revid": 1380482390
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

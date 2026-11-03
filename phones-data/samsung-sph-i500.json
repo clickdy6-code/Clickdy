@@ -1,0 +1,58 @@
+{
+  "slug": "samsung-sph-i500",
+  "brand": "Samsung",
+  "name": "SPH-i500",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Samsung SPH-i330",
+      "Successor": "Samsung SPH-i550 (cancelled)"
+    },
+    "Network": {
+      "Technology": "CDMA"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "3.4×2.1×1 in",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "Palm OS 4.1",
+      "CPU": "Dragonball 66 MHz"
+    },
+    "Memory": {
+      "RAM": "16 MB"
+    },
+    "Display": {
+      "Display": "160 X 240 px"
+    },
+    "Battery": {
+      "Battery": "Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, Infrared (IrDA)"
+    }
+  },
+  "key": {
+    "nfc": false,
+    "weight_g": 130
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SPH-i500",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SPH-i500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SPH-i500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SPH-i500",
+    "revid": 1361483640
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

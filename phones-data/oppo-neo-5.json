@@ -1,0 +1,96 @@
+{
+  "slug": "oppo-neo-5",
+  "brand": "Oppo",
+  "name": "Neo 5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Oppo_Neo_5_Bagian_depan_Bootloop.jpg/500px-Oppo_Neo_5_Bagian_depan_Bootloop.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Oppo_Neo_5_Bagian_depan_Bootloop.jpg/250px-Oppo_Neo_5_Bagian_depan_Bootloop.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo Neo 5",
+      "credit": "MobilGalantsuper1999PS, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oppo_Neo_5_Bagian_depan_Bootloop.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2015 (Neo 5 (2015)), May 2015 (Neo 5s)",
+      "Series": "Oppo Neo Series",
+      "Predecessor": "Oppo Neo 5",
+      "Successor": "Oppo Neo 7"
+    },
+    "Body": {
+      "Dimensions": "131.9x65.5x8 mm, 5.19x2.58x0.31 in",
+      "Weight": "135 g (4.76 oz)",
+      "Other": "Colors: Blue, White"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 2 running on Android 4.4.2",
+      "Chipset": "MediaTek MT6582 (Neo 5 (2015)), Qualcomm MSM8916 Snapdragon 410 (Neo 5s)",
+      "CPU": "4x1.2 GHz ARM Cortex-A7 (Neo 5 (2015)), 4x1.2 GHz ARM Cortex-A53 (Neo 5s)",
+      "GPU": "Mali-400MP2, Adreno 306"
+    },
+    "Memory": {
+      "RAM": "1GB Single channel, 533 MHz",
+      "Storage": "8GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD, Size: 4.5 inches, 55.8 cm^2, Resolution: 480x854, 218 ppi, Ratios: 16:9 aspect ratio, 64.6% StB ratio"
+    },
+    "Cameras": {
+      "Rear camera": "CMOS, f/2.2, 5 lens, 3264x2448 (7.99MP), Video: 720p at 30fps",
+      "Front camera": "f/2.8, 1600x1200 (1.92MP), Video: 480p at 30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker: Yes, 3.5mm jack: Yes"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po, 2000mAh",
+      "Charging": "microUSB 2.0, USB On-The-Go"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, hotspot, Bluetooth 4.0, A2DP, A-GPS, FM radio, microUSB 2.0, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6582",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 7.99,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 1.92,
+    "battery_mah": 2000,
+    "os": "Android 4.4",
+    "nfc": false,
+    "weight_g": 135,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Neo 5 (2015)",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Neo_5_%282015%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Neo 5 (2015)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Neo 5 (2015)",
+    "revid": 1363101727
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "oppo-find-x5",
+  "brand": "Oppo",
+  "name": "Find X5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Oppo Find X3",
+      "Successor": "Oppo Find X6"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Find X5: 163.7 x 72.6 x 8.7 mm, Find X5 Pro: 163.7 x 73.9 x 8.5 mm, Find X5 Lite: 160.6 x 73.2 x 7.8 mm",
+      "Weight": "Find X5: 196 g, Find X5 Pro: 195 g or 218 g, Find X5 Lite: 173 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 12.1, (based on Android 12)",
+      "Chipset": "Find X5: Qualcomm Snapdragon List of Qualcomm Snapdragon processors#Snapdragon 888/888+ 5G (2021), 888, Find X5 Pro Dimensity Edition: List of MediaTek systems on chips#Dimensity 9000 Series, MediaTek Dimensity 9000, Find X5 Pro: Qualcomm Snapdragon 8 Gen 1, Find X5 Lite: MediaTek MT6877 Dimensity 900 (6 nm)",
+      "CPU": "Octa-core, Find X5: (1x 2.84 GHz Kryo 680 & 3x 2.42 GHz Kryo 680 & 4x 1.8 GHz Kryo 680), Find X5 Pro: (1x 3.0 GHz Cortex-X2 & 3x 2.5 GHz Cortex A710 & 4x 1.8 GHz Cortex A510), Find X5 Lite: Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Find X5: Adreno 660, Find X5 Pro: Adreno 730, Find X5 Lite: Mali-G68 MC4"
+    },
+    "Memory": {
+      "RAM": "8 or 12 GB LPDDR5 RAM",
+      "Storage": "Find X5: 128 GB or 256 GB UFS 3.1, Find X5 Pro: 128 GB, 256 GB or 512 GB UFS 3.1, Find X5 Lite: 256 GB"
+    },
+    "Display": {
+      "Display": "Find X5: 6.55 in AMOLED capacitive touchscreen, 1080p, (402 ppi with 20:9 aspect ratio), 120 Hz refresh rate, 1B colors, HDR10+, Find X5 Pro: 6.7 in LTPO2 AMOLED capacitive touchscreen, 1440p, (525 ppi with 20:9 aspect ratio), 120 Hz refresh rate, 1B colors, HDR10+, Find X5 Lite: 6.43 in LTPO2 AMOLED capacitive touchscreen, 1080p, (409 ppi with 20:9 aspect ratio), 90 Hz refresh rate, 1B colors, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "Find X5/Find X5 Pro: 50 MP, f/1.8, 1/1.56\", 1.0 μm (wide) + 50 MP, f/2.2, 1/1.56\", 1.0 μm (ultrawide) + 13 MP (telephoto), 2x optical zoom, omnidirectional PDAF, OIS, gyro-EIS, dual-LED flash, Auto HDR, 4K@30/60 fps, 1080p@30/60/240 fps, Find X5 Lite: 64 MP, f/1.7, 26mm (wide), 1/2.0\", 0.7 μm, PDAF, 8 MP, f/2.3, 119˚ (ultrawide), 2 MP, f/2.4, (macro), LED flash, HDR, panorama, 4K@30fps, 1080p@30/60/120fps, gyro-EIS",
+      "Front camera": "32 MP, f/2.4, 26 mm, 1/2.8\", 0.8 μm , 1080p@30 fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers with active noise cancellation"
+    },
+    "Battery": {
+      "Battery": "Find X5: 4800 mAh, Find X5 Pro: 5000 mAh, Find X5 Lite: 4500 mAh",
+      "Charging": "SuperVOOC technology"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.2, Bluetooth 5.2, Wi-Fi a/b/g/n/ac/6e, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.55,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Find X5: Qualcomm Snapdragon List of Qualcomm Snapdragon pro",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4800,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 196,
+    "thickness_mm": 7.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Find X5",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Find_X5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Find X5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo Find X5",
+    "revid": 1361479102
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

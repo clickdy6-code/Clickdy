@@ -1,0 +1,106 @@
+{
+  "slug": "samsung-galaxy-xcover-6-pro",
+  "brand": "Samsung",
+  "name": "Galaxy Xcover 6 Pro",
+  "status": "published",
+  "announced": "2022-07-13",
+  "released": "2022-07-13",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Samsung_Galaxy_XCover_6_pro.jpg/500px-Samsung_Galaxy_XCover_6_pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Samsung_Galaxy_XCover_6_pro.jpg/250px-Samsung_Galaxy_XCover_6_pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Xcover 6 Pro",
+      "credit": "Tadejs07, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_XCover_6_pro.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-07-13",
+      "Series": "Galaxy Xcover",
+      "Predecessor": "Samsung Galaxy Xcover Pro, Samsung Galaxy Xcover 5",
+      "Successor": "Samsung Galaxy Xcover 7 Pro"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "168.8 mm H, 79.9 mm W, 9.9 mm D",
+      "Weight": "235 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12 with One UI 4.1, Current: Android 16 with One UI 8.0",
+      "Chipset": "Qualcomm Snapdragon 778G 5G (6 nm)",
+      "CPU": "Octa-core (1x2.4 GHz Cortex-A78 & 3x2.2 GHz Cortex-A78 & 4x1.9 GHz Cortex-A55)",
+      "GPU": "Adreno 642L"
+    },
+    "Memory": {
+      "RAM": "6 GB RAM",
+      "Storage": "128 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.6 in, 1080 x 2408 pixels, 20:9 ratio (~400 ppi density), PLS LCD, 120Hz refresh rate, Corning Gorilla Glass Victus+"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, (wide), 1/2.76\", 0.64μm, PDAF, 8 MP, f/2.2, 123˚ (ultrawide), 1/4.0\", 1.12μm, Dual-LED flash, HDR, panorama, 4K@30fps, 1080p@30fps",
+      "Front camera": "13 MP, f/2.2, (wide), 1/3.1\", 1.12μm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Yes"
+    },
+    "Battery": {
+      "Battery": "Li-Po 4050 mAh, removable",
+      "Charging": "15W Fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C (with Samsung DeX/DisplayPort support), Wi-Fi 802.11 a/b/g/n/ac/mc/6e, tri-band, Wi-Fi Direct, Bluetooth 5.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "LCD",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 778G 5G",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 13,
+    "battery_mah": 4050,
+    "wired_w": 15,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 235,
+    "thickness_mm": 9.9,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Xcover 6 Pro",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover_6_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Xcover 6 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Xcover 6 Pro",
+    "revid": 1361483111
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

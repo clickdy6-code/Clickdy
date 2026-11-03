@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-n85",
+  "brand": "Nokia",
+  "name": "N85",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Nokia_N85_Aperto_1.jpg/500px-Nokia_N85_Aperto_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Nokia_N85_Aperto_1.jpg/250px-Nokia_N85_Aperto_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia N85",
+      "credit": "Alfa1981, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_N85_Aperto_1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6650 fold, Nokia N81, Nokia N82",
+      "Successor": "Nokia N86 8MP, Nokia C7, Nokia X6"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G) 900 / 1900 / 2100 (European) 850 / 1900 / 2100 (North American), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Two-way slider",
+      "Dimensions": "103 × 50 × 16 mm",
+      "Weight": "128 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.3, S60 rel. 3.2",
+      "CPU": "ARM 11 369 MHz processor"
+    },
+    "Memory": {
+      "RAM": "128 MiB RAM",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "240x320 px, 2.6 in, Active Matrix OLED technology"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels (back) with 480p video recorder",
+      "Front camera": "VGA video call (front)"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1200 mAh (BL-5K)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 via MicroUSB, Bluetooth 2.0, Wi-Fi 802.11 b/g, FM transmitter"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "OLED",
+    "battery_mah": 1200,
+    "os": "Symbian OS 9.3",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 128
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia N85",
+      "url": "https://en.wikipedia.org/wiki/Nokia_N85"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia N85\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia N85",
+    "revid": 1361478485
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

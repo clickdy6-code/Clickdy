@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-galaxy-s5-mini",
+  "brand": "Samsung",
+  "name": "Galaxy S5 Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Samsung_Galaxy_S5_mini.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Samsung_Galaxy_S5_mini.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung Galaxy S5 Mini",
+      "credit": "GadgetsGuy, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S5_mini.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-07",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy S4 Mini",
+      "Successor": "Samsung Galaxy Alpha, Samsung Galaxy A3, Samsung Galaxy A5, Samsung Galaxy A7"
+    },
+    "Network": {
+      "Technology": "(GSM/GPRS/EDGE): 850, 900, 1,800 and 1,900 MHz; , 3G (HSDPA 42.2 Mbit/s, HSUPA 5.76 Mbit/s): 850, 900, 1,900 and 2,100 MHz; , LTE: 800, 850, 900, 1,800, 2,100 and 2,600 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "131.1 mm H, 64.8 mm W, 9.1 mm D",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.2 \"KitKat\", Current: Android 6.0.1 \"Marshmallow\"",
+      "Chipset": "Samsung Exynos 3 Quad 3470 (SM-G800F, SM-G800M and SM-G800Y), Qualcomm Snapdragon 400 MSM8228 (SM-G800A, SM-G800H and SM-G800R4)",
+      "CPU": "1.4 GHz quad-core Cortex-A7",
+      "GPU": "ARM Mali 400MP4 (SM-G800F), Adreno 305 (SM-G800A & SM-G800H)"
+    },
+    "Memory": {
+      "RAM": "1.5 GB LPDDR3 RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSDXC up to 64 GB"
+    },
+    "Display": {
+      "Display": "4.5 in 1280x720 px (326 ppi) HD Super AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels (3264x2448 px)",
+      "Front camera": "2.1 megapixels (1080p) HD video recording @ 30 fps"
+    },
+    "Battery": {
+      "Battery": "2100 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 3 Quad 3470",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 2100,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 120,
+    "thickness_mm": 9.1,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S5 Mini",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S5_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S5 Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S5 Mini",
+    "revid": 1380483113
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

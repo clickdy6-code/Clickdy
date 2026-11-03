@@ -1,0 +1,90 @@
+{
+  "slug": "nokia-asha-300",
+  "brand": "Nokia",
+  "name": "Asha 300",
+  "status": "published",
+  "announced": "2011-10-26",
+  "released": "2011-10-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nokia_Asha_300_%2820190930%29.jpg/500px-Nokia_Asha_300_%2820190930%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nokia_Asha_300_%2820190930%29.jpg/250px-Nokia_Asha_300_%2820190930%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Asha 300",
+      "credit": "顏嘉佑, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Asha_300_(20190930).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-10-26",
+      "Series": "Touch & Type",
+      "Predecessor": "Nokia C2-01, Nokia C3 Touch and Type",
+      "Successor": "Nokia Asha 301"
+    },
+    "Network": {
+      "Technology": "WCDMA network: 850 MHz, 900 MHz, 1900 MHz, 2100 MHz, WCDMA max data speed DL: HSDPA - 10.2 Mbit/s, WCDMA max data speed UL: HSUPA - 2 Mbit/s, GSM network: 850 MHz, 900 MHz, 1800 MHz, 1900 MHz, GSM max data speed DL: EGPRS 296.0 kbit/s, GSM max data speed UL: EGPRS 236.8 kbit/s",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Touch & Type",
+      "Dimensions": "112.8 x 49.5 x 12.7 mm",
+      "Weight": "85 g",
+      "Other": "Available in graphite, night shade, gold, white silver, pink and red."
+    },
+    "Platform": {
+      "Operating system": "Nokia OS",
+      "CPU": "Series 40 Asha",
+      "GPU": "Not supported"
+    },
+    "Memory": {
+      "RAM": "128 MB",
+      "Storage": "140 MB",
+      "Card slot": "microSDHC, up to 32 GB"
+    },
+    "Display": {
+      "Display": "Contrast ratio: 856:1 (nominal)"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP (640 x 480 px) VGA"
+    },
+    "Sound": {
+      "Sound": "Nokia Music"
+    },
+    "Battery": {
+      "Battery": "Battery model: BL-4U, Battery capacity: 1110 mAh, Battery voltage: 3.7 V, Maximum standby time: 24 days, Maximum talk time (2G): 6.9 h, Maximum talk time (3G): 4.3 h, Maximum music playback time: 28 h, Maximum video playback time: 6 h",
+      "Charging": "2.0 mm Nokia proprietary charging up to 5W & microUSB charging (OTG)"
+    },
+    "Connectivity": {
+      "Connectivity": "SIM card type: Mini SIM, Dual SIM: No, Charging connectors: 2.0 mm Charging Connector, Micro-USB, AV connectors: 3.5 mm audio connector, System connectors: Micro-USB-AB, Bluetooth: Bluetooth 2.1 + EDR, Bluetooth profiles: SIM Access Profile (SAP), Serial Port profile (SPP), Audio/Video Remote Control Profile (AVRCP) 1.0, General *Audio/Video Distribution Profile (GAVDP), Service Discovery Application Profile (SDAP), Phone Book Access Profile (PBAP) 1.1, Wi-Fi: No Wi-Fi, NFC: No NFC"
+    }
+  },
+  "key": {
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1110,
+    "wired_w": 5,
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 85,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 300",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 300",
+    "revid": 1361477978
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

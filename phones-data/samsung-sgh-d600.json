@@ -1,0 +1,68 @@
+{
+  "slug": "samsung-sgh-d600",
+  "brand": "Samsung",
+  "name": "SGH-D600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Sgh-d600.jpg/500px-Sgh-d600.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Sgh-d600.jpg/250px-Sgh-d600.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung SGH-D600",
+      "credit": "Janipewter at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sgh-d600.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Samsung SGH-D500",
+      "Successor": "Samsung SGH-D800"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 , D600E: GSM 900/1800/1900, EDGE"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "3.78\" X 1.83\" X .85\" (96 x 46.5 x 21.5 mm)",
+      "Weight": "3.63 oz"
+    },
+    "Platform": {
+      "Operating system": "Proprietary"
+    },
+    "Memory": {
+      "RAM": "81 MB, 4 MB for Java applications",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "240x320 pixels (QVGA) TFT LCD, 16-bit color"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixel"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS Class 10 (4+1/3+2 slots) 32 - 48 kbit/s, EDGE Class 10 (D600E only), 236.8 kbit/s, Bluetooth 1.2, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung SGH-D600",
+      "url": "https://en.wikipedia.org/wiki/Samsung_SGH-D600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung SGH-D600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung SGH-D600",
+    "revid": 1363527653
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

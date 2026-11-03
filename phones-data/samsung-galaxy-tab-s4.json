@@ -1,0 +1,82 @@
+{
+  "slug": "samsung-galaxy-tab-s4",
+  "brand": "Samsung",
+  "name": "Galaxy Tab S4",
+  "status": "published",
+  "announced": "2018-08-01",
+  "released": "2018-08-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-08-01",
+      "Series": "Galaxy Tab S",
+      "Predecessor": "Samsung Galaxy Tab S3",
+      "Successor": "Samsung Galaxy Tab S6"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "249.3 mm (h), 164.3 mm (w), 7.1 mm (d)",
+      "Weight": "Wi-Fi: 482 g, Wi-Fi + Cellular: 483 g",
+      "Other": "Price:, $649.99 (WIFI/64G), $749.99 (WIFI/256G), $729.99 (LTE/64G) (United States), £599 (WIFI/64G), £649 (LTE/64G) (UK), 699€(WIFI/64G), 759€ (LTE/64G) (France/Germany), 792000₩ (WIFI/64G), 891000₩ (WIFI/256G), 880000₩ (LTE/64G), 990000₩(LTE/256G) (Korea), 5888¥(CNY) (LTE/64G), Samsung online store:, 6388¥(CNY)(LTE/256G), 4888¥(CNY)(WIFI/64G)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\" with Samsung Experience 9.5, Current: Android 10 with One UI 2.0",
+      "Chipset": "Qualcomm MSM8998 Snapdragon 835",
+      "CPU": "Octa-core (4×2.35 GHz Kryo and 4×1.9 GHz Kryo)",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X SDRAM",
+      "Storage": "64 or 256 GB flash memory",
+      "Card slot": "microSDXC, expandable up to 400 GB"
+    },
+    "Display": {
+      "Display": "10.5 in (267.2 mm) diagonal, 2560×1600 px (287 ppi) (AMOLED panel), 16:10 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "13 megapixels 4K",
+      "Front camera": "8 megapixels 1080p"
+    },
+    "Sound": {
+      "Sound": "Quad stereo speakers tuned by AKG, Dolby Atmos surround sound"
+    },
+    "Battery": {
+      "Battery": "7,300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4 and 5GHz), MIMO, Bluetooth 5.0, USB-C, 3.5mm headphone jack, location (GPS, Galileo, GLONASS, BeiDou)"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm MSM8998 Snapdragon 835",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 7300,
+    "os": "Android 8.1",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 482,
+    "thickness_mm": 7.1,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab S4",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab S4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab S4",
+    "revid": 1364673791
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

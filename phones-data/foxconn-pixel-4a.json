@@ -1,0 +1,104 @@
+{
+  "slug": "foxconn-pixel-4a",
+  "brand": "Foxconn",
+  "name": "Pixel 4a",
+  "status": "published",
+  "announced": "2020-08-20",
+  "released": "2020-08-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pixel_4a_front_schematic.svg/500px-Pixel_4a_front_schematic.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pixel_4a_front_schematic.svg/250px-Pixel_4a_front_schematic.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Pixel 4a",
+      "credit": "SpurriousCorrelation, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pixel_4a_front_schematic.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Pixel 4a: 2020-08-20, Pixel 4a (5G): 2020-11-05",
+      "Discontinued": "Pixel 4a: 2022-01-31, Pixel 4a (5G): 2021-08-20",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 3a",
+      "Successor": "Pixel 5a"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE, UMTS/HSPA+, CDMA EVDO Rev A, WCDMA, LTE, LTE Advanced, 5G",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel 4a:, H: 144 mm, W: 69.4 mm, D: 8.2 mm, Pixel 4a (5G):, H 153.9 mm, W: 74 mm, D 8.2-8.5 mm",
+      "Weight": "Pixel 4a: 143 g, Pixel 4a (5G): 168-171 g",
+      "Other": "18 W fast charging, Titan M security module"
+    },
+    "Platform": {
+      "Operating system": "Pixel 4a:, Android 10, upgradable to Android 13, Pixel 4a (5G):, Android 11, upgradable to Android 14",
+      "Chipset": "Pixel 4a: Qualcomm Qualcomm Snapdragon, Snapdragon List of Qualcomm Snapdragon systems-on-chip#Snapdragon 720G, 730/730G and 765/765G/768G (2019/20), 730G, Pixel 4a (5G): Qualcomm Snapdragon 765G",
+      "CPU": "Octa-core, Pixel 4a: (2×2.2 GHz Kryo 470 Gold & 6×1.8 GHz Kryo 470 Silver), Pixel 4a (5G): (1×2.4 GHz Kryo 475 Prime & 1×2.2 GHz Kryo 475 Gold & 6×1.8 GHz Kryo 475 Silver)",
+      "GPU": "Pixel 4a: Adreno 618, Pixel 4a (5G): Adreno 620"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X",
+      "Storage": "128 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "FHD+ OLED, resolution (19.5:9 aspect ratio), Gorilla Glass 3, Pixel 4a:, 5.8 in, 443 Pixels per inch, ppi, Pixel 4a (5G):, 6.2 in, 413 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Pixel 4a:, 12.2 Pixel#Megapixel, MP, 1.4 μm with 1.7 lens (wide), Dual Pixel Phase autofocus and optical image stabilization, Electronic image stabilization, 4K resolution, 4K at 30 fps, 1080p at 30/60/120 Frames per second, fps, 720p at 30/60/240 fps, Pixel 4a (5G):, 12.2 MP, 1.4 μm with 1.7 lens (wide), Dual Pixel Phase autofocus and optical image stabilization + 16 MP (ultrawide), 1.0 μm with 2.2 lens, 107Angle of view, °, Electronic image stabilization, 4K resolution, 4K at 30/60 fps, 1080p at 30/60/120/240 Frames per second, fps, 720p at 30/60/240 fps",
+      "Front camera": "8 MP with 2.0 lens and 84° lens, fixed focus, 1080p at 30 fps, 720p at 30 fps, 480p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3.5 mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "Pixel 4a: 3140 mAh, Pixel 4a (5G): 3885 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 5 (ac/n/g/b/a) 2.4 + 5.0 GHz, Bluetooth 5.0 + LE, NFC, GPS (GLONASS, Galileo, QZSS)"
+    }
+  },
+  "key": {
+    "display_in": 5.8,
+    "display_type": "OLED",
+    "chipset": "Pixel 4a: Qualcomm Qualcomm Snapdragon",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12.2,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 8,
+    "battery_mah": 3140,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 5",
+    "esim": true,
+    "weight_g": 143,
+    "thickness_mm": 8.2,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 4a",
+      "url": "https://en.wikipedia.org/wiki/Pixel_4a"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 4a\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Pixel 4a",
+    "revid": 1375487689
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "samsung-galaxy-a60",
+  "brand": "Samsung",
+  "name": "Galaxy A60",
+  "status": "published",
+  "announced": "2019-06-18",
+  "released": "2019-06-18",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A60: 2019-06, M40: 2019-06-18",
+      "Series": "Galaxy A/Galaxy M",
+      "Predecessor": "Samsung Galaxy A8s",
+      "Successor": "Samsung Galaxy A42 5G, Samsung Galaxy M42 5G"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155.3 mm H, 73.9 mm W, 7.9 mm D",
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 \"Pie\" with One UI 1.1, Current: Android 11 with One UI 3.1",
+      "Chipset": "Qualcomm Snapdragon 675",
+      "CPU": "Octa core 2.0 GHz Kryo 460 Gold and 1.7 GHz Kryo 460 Silver",
+      "GPU": "Adreno 612 GPU"
+    },
+    "Memory": {
+      "RAM": "4GB, 6GB RAM",
+      "Storage": "64GB, 128GB"
+    },
+    "Display": {
+      "Display": "6.3 in, 1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "32 MP, f/1.7, 26mm (wide), 1/2.8\", 0.8 μm, PDAF, 8 MP, f/2.2, 12mm (ultrawide), 1/4.0\", 1.12 μm, PDAF, 5 MP, f/2.2, (depth), LED flash, panorama, HDR, 4K@30fps, 1080p@30fps",
+      "Front camera": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0 μm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "3500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE, A-GPS, GLONASS, GALILEO, BDS, NFC for Samsung Pay"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "chipset": "Qualcomm Snapdragon 675",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 32,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3500,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 168,
+    "thickness_mm": 7.9,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A60",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A60",
+    "revid": 1380481549
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

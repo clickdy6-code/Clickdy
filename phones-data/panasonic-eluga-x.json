@@ -1,0 +1,90 @@
+{
+  "slug": "panasonic-eluga-x",
+  "brand": "Panasonic",
+  "name": "Eluga X",
+  "status": "published",
+  "announced": "2013-01-30",
+  "released": "2013-01-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/P-02E_front.jpg/500px-P-02E_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/P-02E_front.jpg/250px-P-02E_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Panasonic Eluga X",
+      "credit": "Jr223, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:P-02E_front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-01-30",
+      "Series": "docomo NEXT series",
+      "Predecessor": "ELUGA V P-06D, ELUGA power P-07D",
+      "Successor": "ELUGA P P-03E"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA), 2G: GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "139 mm H , 68 mm W , 9.9 mm D",
+      "Weight": "152 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2",
+      "CPU": "1.5 GHz quad-core Qualcomm Snapdragon S4 Pro APQ8064"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "5.0 in (127 mm) TFT LCD, 1920×1080 px (Full HD)"
+    },
+    "Cameras": {
+      "Rear camera": "13.2 MP CMOS",
+      "Front camera": "1.3 MP CMOS"
+    },
+    "Battery": {
+      "Battery": "2320 mAh",
+      "Charging": "Qi wireless charging"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 1.3,
+    "battery_mah": 2320,
+    "os": "Android 4.1",
+    "five_g": false,
+    "weight_g": 152,
+    "thickness_mm": 9.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Panasonic Eluga X",
+      "url": "https://en.wikipedia.org/wiki/Panasonic_Eluga_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Panasonic Eluga X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Panasonic Eluga X",
+    "revid": 1370245896
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

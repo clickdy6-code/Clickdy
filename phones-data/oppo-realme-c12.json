@@ -1,0 +1,84 @@
+{
+  "slug": "oppo-realme-c12",
+  "brand": "OPPO",
+  "name": "Realme C12",
+  "status": "published",
+  "announced": "2020-08-14",
+  "released": "2020-08-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-08-14",
+      "Series": "C",
+      "Predecessor": "realme C3"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.5 × 75.9 × 9.8 mm",
+      "Weight": "209 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with realme UI 1.0, Current: Android 11 with realme UI 2.0",
+      "Chipset": "MediaTek MT6762 Helio G35 (12 nm)",
+      "CPU": "Octa-core (4×2.3 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR4X",
+      "Storage": "32 GB eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1560 × 720 (HD+), 19.5:9, 264 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, (wide), PDAF + 2 MP, (B/W), 1/5\", 1.75 µm + 2 MP, (macro), 1/5\", 1.75 µm, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, (wide), HDR, panorama, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 6000 mAh",
+      "Charging": "10 W"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6762 Helio G35",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 6000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "five_g": false,
+    "weight_g": 209,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C12",
+      "url": "https://en.wikipedia.org/wiki/Realme_C12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C12",
+    "revid": 1374699833
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

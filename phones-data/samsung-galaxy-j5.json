@@ -1,0 +1,104 @@
+{
+  "slug": "samsung-galaxy-j5",
+  "brand": "Samsung",
+  "name": "Galaxy J5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Samsung_Galaxy_J5_%282017%2C_SM-J530F-DS%29-0346.jpg/500px-Samsung_Galaxy_J5_%282017%2C_SM-J530F-DS%29-0346.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Samsung_Galaxy_J5_%282017%2C_SM-J530F-DS%29-0346.jpg/250px-Samsung_Galaxy_J5_%282017%2C_SM-J530F-DS%29-0346.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy J5",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_J5_(2017,_SM-J530F-DS)-0346.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2017",
+      "Discontinued": "2018",
+      "Series": "Galaxy J",
+      "Predecessor": "Samsung Galaxy J5 (2016) , Samsung Galaxy J5 Prime",
+      "Successor": "Samsung Galaxy J6"
+    },
+    "Network": {
+      "Technology": "(GSM/HSPA/LTE) , 2G: GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only) , 3G UMTS: HSDPA 850 / 900 / 1900 / 2100 , 4G FDD LTE: LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800)",
+      "SIM": "no eSIM support, dual SIM in the J530F/DS model"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.2 mm (5.76 in) H, 71.3 mm (2.81 in) W, 8 mm (0.31 in) D",
+      "Weight": "160 g (5.64 oz)",
+      "Other": "WiFi hotspot, VoLTE and VoWiFi support"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0 Nougat with Samsung Experience, upgradable to Android 9 Pie with One UI 1.1",
+      "Chipset": "Samsung Exynos 7870 Octa",
+      "CPU": "Octa-core 1.6GHz Cortex A53",
+      "GPU": "Mali-T830 MP1 700MHz"
+    },
+    "Memory": {
+      "RAM": "J5 (2017): 2 GB , J5 Pro: 3 GB , LPDDR3 933MHz",
+      "Storage": "J5 (2017): 16 or 32 GB , J5 Pro: 32 GB eMMC 5.1",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.2 inch 720 × 1280 pixels (282 ppi) Super AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, 4128 × 3096 pixels, autofocus, LED flash , Video: 1080p @ 30 Hz",
+      "Front camera": "13 megapixels, LED flash , Video: 1080p @ 30 Hz"
+    },
+    "Sound": {
+      "Sound": "3.5mm headphones jack"
+    },
+    "Battery": {
+      "Battery": "Non Removable Li-Ion 3000 mAh battery",
+      "Charging": "Standard charging up to 7.75W (No wireless charging)"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 7870 Octa",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "battery_mah": 3000,
+    "wireless_w": 7.75,
+    "wired_w": 7.75,
+    "os": "Android 7.0",
+    "five_g": false,
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 160,
+    "thickness_mm": 8,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J5 (2017)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J5_%282017%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J5 (2017)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J5 (2017)",
+    "revid": 1380480001
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "nothing-phone-2a-2a-plus",
+  "brand": "Nothing",
+  "name": "Phone 2a/2a Plus",
+  "status": "published",
+  "announced": "2024-03-12",
+  "released": "2024-03-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Nothing-Design-Event-Tokyo-2024-07-05_018.jpg/500px-Nothing-Design-Event-Tokyo-2024-07-05_018.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Nothing-Design-Event-Tokyo-2024-07-05_018.jpg/250px-Nothing-Design-Event-Tokyo-2024-07-05_018.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nothing Phone 2a/2a Plus",
+      "credit": "RuinDig/Yuki Uchida, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nothing-Design-Event-Tokyo-2024-07-05_018.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-03-12",
+      "Series": "Phone"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G",
+      "SIM": "Dual-SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.74 mm H , 76.32 mm W , 8.55 mm D",
+      "Weight": "190 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Phone (2a): Android (operating system), Android Android 14, 14 with Nothing OS 2.5, Phone (2a) Plus: Android 14 with Nothing OS 2.6Current Android 16 with Nothing OS 4.0",
+      "Chipset": "Phone (2a): MediaTek Dimensity 7200 Pro , Phone (2a) Plus: MediaTek Dimensity 7350 Pro"
+    },
+    "Memory": {
+      "RAM": "8 and 12 GB RAM",
+      "Storage": "Phone (2a): 128, 256 GB , Phone (2a) Plus: 256 GB"
+    },
+    "Battery": {
+      "Battery": "Non-removable, 5000 mAh",
+      "Charging": "Phone (2a): fast charging up to 45 W , Phone (2a) Plus: fast charging up to 50 W"
+    }
+  },
+  "key": {
+    "chipset": "Phone",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 5000,
+    "wired_w": 50,
+    "os": "Android 14",
+    "five_g": true,
+    "dual_sim": true,
+    "weight_g": 190,
+    "thickness_mm": 8.55,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nothing Phone 2a/2a Plus",
+      "url": "https://en.wikipedia.org/wiki/Nothing_Phone_2a/2a_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nothing Phone 2a/2a Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nothing Phone 2a/2a Plus",
+    "revid": 1383526264
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

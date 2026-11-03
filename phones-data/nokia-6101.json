@@ -1,0 +1,64 @@
+{
+  "slug": "nokia-6101",
+  "brand": "Nokia",
+  "name": "6101",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nokia_6102i_Open.jpg/500px-Nokia_6102i_Open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nokia_6102i_Open.jpg/250px-Nokia_6102i_Open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6101",
+      "credit": "Myunknownside000, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6102i_Open.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 6060",
+      "Successor": "Nokia 6103"
+    },
+    "Network": {
+      "Technology": "GSM 900 1800 1900 , GSM 850 1800 1900 (US) , GPRS Class 10 (4+1/3+2 slots), 32-48 kbit/s , HSCSD 43.2 kbit/s , EDGE Class 6, 177.6 kbit/s"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Other": "Push to Talk , FM Radio , Java MIDP 2.0 , SyncML , T 9 , Presence Enhanced Contacts , Calendar , Built-in handsfree , Voice dial-memo"
+    },
+    "Display": {
+      "Display": "1.8 in TFT , 128x160 px , 65k colors"
+    },
+    "Cameras": {
+      "Front camera": "640x480 px VGA video"
+    },
+    "Battery": {
+      "Battery": "BL-4C , 860 mAh , Internal rechargeable li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Infrared , USB pop-port (CA-42)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6101",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6101"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6101\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6101",
+    "revid": 1361477501
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "samsung-galaxy-star",
+  "brand": "Samsung",
+  "name": "Galaxy Star",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-04",
+      "Series": "Samsung Galaxy",
+      "Successor": "Samsung Galaxy Star Pro, Samsung Galaxy Star Plus, Samsung Galaxy Star Advance, Samsung Galaxy Star 2, Samsung Galaxy Star 2 Plus"
+    },
+    "Network": {
+      "Technology": "GSM GPRS/EDGE 850, 900, 1800, 1900"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "105.2 x 58.5 x 11.9 mm",
+      "Weight": "102.5 g",
+      "Other": "ChatON, Samsung Apps, TouchWiz"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2 \"Jelly Bean\" With, TouchWiz",
+      "CPU": "Spreadtrum SC8810 Single-core ARM Cortex-A5 at 1 GHz",
+      "GPU": "Mali-300"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "2 GB (including System storage)",
+      "Card slot": "microSD support for up to 32 GB"
+    },
+    "Display": {
+      "Display": "3 inch 240x320 px QVGA LCD at 133 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP with 2x digital zoom, supports QVGA video recording"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1200 mAh(internal) Standard battery"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB, 3.5 mm audio jack, Bluetooth 4.0 with A2DP, Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "LCD",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 102.5,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Star",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Star"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Star\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Star",
+    "revid": 1372655486
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

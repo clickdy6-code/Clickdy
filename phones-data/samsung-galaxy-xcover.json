@@ -1,0 +1,75 @@
+{
+  "slug": "samsung-galaxy-xcover",
+  "brand": "Samsung",
+  "name": "Galaxy Xcover",
+  "status": "published",
+  "announced": "2011-08-01",
+  "released": "2011-08-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-08-01",
+      "Series": "Galaxy Xcover",
+      "Successor": "Samsung Galaxy Xcover 2"
+    },
+    "Network": {
+      "Technology": "2G EDGE/GPRS (850/900/1800/1900 MHz), 3G HSDPA 900/2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "121.5 mm H, 65.9 mm W, 12 mm D",
+      "Weight": "100 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 Gingerbread",
+      "CPU": "800 MHz Marvell MG2"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "128 MB",
+      "Card slot": "MicroSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.65 in (TFT)LCD diagonal, 320×480 px, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 Mpx, 2048 x 1536 pixels, 480p video, autofocus, LED flash"
+    },
+    "Battery": {
+      "Battery": "1,500 mAh, 3.7 V, Li-ion, user replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm jack, Bluetooth v3.0 with A2DP, EDR , Stereo FM radio with RDS, Micro-USB 2.0, Wi-Fi 802.11 b/g/n, Wi-Fi hotspot"
+    }
+  },
+  "key": {
+    "display_in": 3.65,
+    "display_type": "TFT",
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 100,
+    "thickness_mm": 12,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Xcover",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Xcover\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Xcover",
+    "revid": 1361483092
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

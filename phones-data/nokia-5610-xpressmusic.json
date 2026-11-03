@@ -1,0 +1,81 @@
+{
+  "slug": "nokia-5610-xpressmusic",
+  "brand": "Nokia",
+  "name": "5610 XpressMusic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nokia-5610-XpressMusic_MP3-Player.jpg/500px-Nokia-5610-XpressMusic_MP3-Player.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nokia-5610-XpressMusic_MP3-Player.jpg/250px-Nokia-5610-XpressMusic_MP3-Player.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5610 XpressMusic",
+      "credit": "Ulfb, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia-5610-XpressMusic_MP3-Player.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5300",
+      "Successor": "Nokia 5730 XpressMusic, Nokia 5800 XpressMusic, Nokia X3-00"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, UMTS 850/2100(RM-242) 850/1900(RM-279)"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "98.5 mm x 48.5 mm x 17 mm",
+      "Weight": "111g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 5th Edition",
+      "CPU": "Unknown CPU"
+    },
+    "Memory": {
+      "RAM": "20MB internal memory",
+      "Card slot": "microSD (supports up to 4 GB)"
+    },
+    "Display": {
+      "Display": "240 x 320 px, 2.2\", TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Mpix / 2048 x 1536 px, AF, Dual-LED Flash",
+      "Front camera": "VGA videocall (front)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 900 mAh (BP-5M)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, MicroUSB"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 111,
+    "thickness_mm": 17
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5610 XpressMusic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5610_XpressMusic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5610 XpressMusic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5610 XpressMusic",
+    "revid": 1374925060
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

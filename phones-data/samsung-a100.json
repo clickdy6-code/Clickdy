@@ -1,0 +1,57 @@
+{
+  "slug": "samsung-a100",
+  "brand": "Samsung",
+  "name": "A100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Samsung_SCH-A100_%281999%29.jpg/500px-Samsung_SCH-A100_%281999%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Samsung_SCH-A100_%281999%29.jpg/250px-Samsung_SCH-A100_%281999%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung A100",
+      "credit": "textlad, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_SCH-A100_(1999).jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Samsung SGH-A200, Samsung SGH-A300"
+    },
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Dimensions": "80 x 42 x 22.5 mm",
+      "Weight": "87 g"
+    },
+    "Display": {
+      "Display": "Monochrome graphic screen, 128×64 pixels"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 87
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung A100",
+      "url": "https://en.wikipedia.org/wiki/Samsung_A100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung A100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung A100",
+    "revid": 1361480405
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

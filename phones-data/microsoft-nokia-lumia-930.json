@@ -1,0 +1,84 @@
+{
+  "slug": "microsoft-nokia-lumia-930",
+  "brand": "Microsoft",
+  "name": "Nokia Lumia 930",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Microsoft_Nokia_Lumia_930.jpg/500px-Microsoft_Nokia_Lumia_930.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Microsoft_Nokia_Lumia_930.jpg/250px-Microsoft_Nokia_Lumia_930.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft Nokia Lumia 930",
+      "credit": "Freakedenough, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Microsoft_Nokia_Lumia_930.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2015-06-25 UK",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 920 , Nokia Lumia 925",
+      "Successor": "Microsoft Lumia 950"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900 , HSPA+ 850/900/1800/1900 , LTE 800/900/1800/2100/2600, Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "137 mm (H) , 71 mm (W) , 9.8 mm (D)",
+      "Weight": "167 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1, Windows 10 Mobileversion 1607",
+      "Chipset": "Qualcomm Snapdragon 800",
+      "CPU": "2.2 GHz quad core Qualcomm Snapdragon™ 800",
+      "GPU": "Qualcomm Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "32 GB internal flash"
+    },
+    "Display": {
+      "Display": "5 in 1080p with Gorilla Glass 3 , 441 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "20 megapixels 1080p Full 4K video capture @ 30 fps with focal length of 26 mm",
+      "Front camera": "720p (HD, 1280 x 720)"
+    },
+    "Battery": {
+      "Battery": "Integrated 2420 mAh Li-poly battery with Qi wireless charging"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "chipset": "Qualcomm Snapdragon 800",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2420,
+    "os": "Windows Phone 8.1",
+    "five_g": false,
+    "weight_g": 167,
+    "thickness_mm": 9.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 930",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_930"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 930\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 930",
+    "revid": 1375289959
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

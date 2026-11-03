@@ -1,0 +1,107 @@
+{
+  "slug": "samsung-galaxy-m35-5g",
+  "brand": "Samsung",
+  "name": "Galaxy M35 5G",
+  "status": "published",
+  "announced": "2024-07-17",
+  "released": "2024-07-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Galaxy_M35_front.jpg/500px-Galaxy_M35_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Galaxy_M35_front.jpg/250px-Galaxy_M35_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy M35 5G",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_M35_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-07-17",
+      "Series": "Galaxy M",
+      "Predecessor": "Samsung Galaxy M34 5G",
+      "Successor": "Samsung Galaxy M36 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.3 mm H, 78.6 mm W, 9.1 mm D",
+      "Weight": "222 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14 with One UI 6, Current: Android 16 with One UI 8",
+      "Chipset": "Samsung Exynos 1380 (5 nm)",
+      "CPU": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MP5"
+    },
+    "Memory": {
+      "RAM": "6 GB, 8 GB RAM",
+      "Storage": "128 GB, 256 GB, UFS 2.2",
+      "Card slot": "MicroSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.6 in, Super AMOLED display, 1080 x 2340 resolution, 19.5:9 ratio (~390 ppi density), 120Hz refresh rate, Corning Gorilla Glass Victus Plus"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, (wide), PDAF, OIS, 8 MP, f/2.2, (ultrawide), 1/4\", 1.12 μm, 5 MP, f/2.4, (macro), LED flash, panorama, HDR, 4K@30fps, 1080p@30/60fps",
+      "Front camera": "13 MP, f/2.2, 26mm (wide), 4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo Speakers"
+    },
+    "Battery": {
+      "Battery": "6000 mAh",
+      "Charging": "Super Fast charging up to 25W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.3, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Samsung Exynos 1380",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 13,
+    "battery_mah": 6000,
+    "wired_w": 25,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 222,
+    "thickness_mm": 9.1,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M35 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M35_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M35 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M35 5G",
+    "revid": 1380482385
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

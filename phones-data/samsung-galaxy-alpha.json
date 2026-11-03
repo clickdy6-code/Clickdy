@@ -1,0 +1,77 @@
+{
+  "slug": "samsung-galaxy-alpha",
+  "brand": "Samsung",
+  "name": "Galaxy Alpha",
+  "status": "published",
+  "announced": "2014-09-12",
+  "released": "2014-09-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-09-12",
+      "Series": "Samsung Galaxy",
+      "Predecessor": "Samsung Galaxy S5 Mini",
+      "Successor": "Samsung Galaxy A3 (2015), Samsung Galaxy A5 (2015), Samsung Galaxy A7 (2015)"
+    },
+    "Network": {
+      "Technology": "(GSM/GPRS/EDGE): 850, 900, 1,800 and 1,900 MHz;, 3G (HSDPA 42.2 Mbit/s, HSUPA 5.76 Mbit/s): 850, 900, 1,900 and 2,100 MHz;, LTE: 800, 850, 900, 1,800, 2,100 and 2,600 MHz, 3G TD-SCDMA 1900 / 2000 MHz, LTE-TDD"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "132.4 mm H, 65.5 mm W, 6.7 mm D",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.4 \"KitKat\" with TouchWiz Nature UX 3.0, Current: Android 5.0.2 \"Lollipop\" with TouchWiz Nature UX 4.0",
+      "Chipset": "Exynos 5 Octa 5430 (Global), Qualcomm Snapdragon 801 MSM8974AC (U.S & China)",
+      "CPU": "ARM Big Little (ARM Cortex-A15 MP4 1.8 GHz CPU + ARM Cortex-A7 MP4 1.3 GHz CPU) (Global), Qualcomm Krait 400 MP4 2.5 GHz (U.S & China)",
+      "GPU": "ARM Mali T628MP6 (Global), Qualcomm Adreno 330 578 MHz (U.S & China)"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "32 GB"
+    },
+    "Display": {
+      "Display": "4.7 in 1280×720 px Super AMOLED (312 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "12 megapixels",
+      "Front camera": "2.1 megapixels (1080p) HD video recording @ 30 fps back-illuminated sensor"
+    },
+    "Battery": {
+      "Battery": "Replaceable 1860 mAh Li-ion-Battery"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "Super AMOLED",
+    "chipset": "Exynos 5 Octa 5430",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1860,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 115,
+    "thickness_mm": 6.7,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Alpha",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Alpha"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Alpha\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Alpha",
+    "revid": 1374581590
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

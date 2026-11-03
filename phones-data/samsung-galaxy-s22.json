@@ -1,0 +1,110 @@
+{
+  "slug": "samsung-galaxy-s22",
+  "brand": "Samsung",
+  "name": "Galaxy S22",
+  "status": "published",
+  "announced": "2022-02-09",
+  "released": "2022-02-09",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/SamsungGalaxyS22Series.png/500px-SamsungGalaxyS22Series.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/SamsungGalaxyS22Series.png/250px-SamsungGalaxyS22Series.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S22",
+      "credit": "C4UNTRYB4LL193, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SamsungGalaxyS22Series.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-02-09",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S21, Samsung Galaxy Note 20 (for S22 Ultra)",
+      "Successor": "Samsung Galaxy S23"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G",
+      "SIM": "nanoSIM, eSIM, Single SIM or Hybrid Dual SIM in dual stand-by"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "S22: 146xx70.6xx7.6 mm, S22+: 157.4xx75.8xx7.6 mm, S22 Ultra: 163.3xx77.9xx8.9 mm",
+      "Weight": "S22: 167 g, S22+: 195 g, S22 Ultra: 228 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12 with One UI 4.1, Current: Android 16 with One UI 8",
+      "Chipset": "Europe: Samsung Exynos 2200, Global: Qualcomm Snapdragon 8 Gen 1",
+      "CPU": "Exynos: Octa-core, (1×2.80 GHz Cortex-X2 & 3×2.50 GHz Cortex-A710 & 4×1.80 GHz Cortex-A510), Snapdragon: Octa-core, (1×3.00 GHz Cortex-X2 & 3×2.40 GHz Cortex-A710 & 4×1.70 GHz Cortex-A510)",
+      "GPU": "Exynos: Xclipse 920 (based on AMD RDNA 2), Snapdragon: Adreno 730"
+    },
+    "Memory": {
+      "RAM": "S22 and S22+: 8 GB RAM, S22 Ultra: 8 or 12 GB RAM",
+      "Storage": "UFS 3.1, S22/S22+: 128 or 256 GB, S22 Ultra: 128, 256, 512 GB or 1 TB"
+    },
+    "Display": {
+      "Display": "Dynamic AMOLED 2X Infinity-O capacitive touchscreen, HDR10+, 1 billion colours, 1750 nits (peak), PenTile matrix family#PenTile RGBG, Diamond PenTile, S22: 6.1 in (425 ppi), 19.5:9 Display aspect ratio, aspect ratio, 120 Hz refresh rate, S22+: 6.6 in (393 ppi), 19.5:9 aspect ratio, 120 Hz, S22 Ultra: 6.8 in (500 ppi), 19.3:9 aspect ratio, 120 Hz LTPO"
+    },
+    "Cameras": {
+      "Rear camera": "S22 and S22+: 50 MP, f/1.8, 24 mm (wide), 1/1.56\", 1.0µm, Dual Pixel PDAF, OIS, 10 MP, f/2.4, 70 mm (telephoto), 1/3.94\", 1.0µm, PDAF, OIS, 3x optical zoom, 12 MP, f/2.2, 13 mm, 120˚ (ultrawide), 1/2.55\" 1.4µm, Super Steady video, S22 Ultra: 108 MP, f/1.8, 24 mm (wide), 1/1.33\", 0.8µm, PDAF, Laser AF, OIS, 10 MP, f/4.9, 230 mm (telephoto), 1/3.52\", 1.12µm, dual pixel PDAF, OIS, 10x optical zoom, 10 MP, f/2.4, 70 mm (telephoto), 1/3.52\", 1.12µm, dual pixel PDAF, OIS, 3x optical zoom, 12 MP, f/2.2, 13 mm, 120˚ (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF, Super Steady video",
+      "Front camera": "S22 and S22+: 10 Megapixel, MP, f-number, f/2.2, 26 mm (wide), 1/3.24\", 1.22µm, Autofocus#Phase detection, Dual Pixel PDAF, S22 Ultra: 40 MP, f/2.2, 26 mm (wide), 1/2.8\", 0.7µm, PDAF"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers tuned by AKG"
+    },
+    "Battery": {
+      "Battery": "S22: 3700 mAh, S22+: 4500 mAh, S22 Ultra: 5000 mAh",
+      "Charging": "USB PD:, S22: 25 W (PPS), 15W (non-PPS), S22+ and S22 Ultra: 45W (PPS), 15W (non-PPS), All models: 15W wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 3.2, Wi-Fi 802.11 a/b/g/n/ac/6(6e: S22+ and S22 Ultra), dual-band (S22)/tri-band (S22+ and S22 Ultra), Wi-Fi Direct, hotspot, Bluetooth 5.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Dynamic AMOLED 2X",
+    "refresh_hz": 120,
+    "peak_nits": 1750,
+    "chipset": "Europe: Samsung Exynos 2200",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 40,
+    "battery_mah": 3700,
+    "wireless_w": 15,
+    "wired_w": 45,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 167,
+    "thickness_mm": 8.9,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S22",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S22"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S22\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy S22",
+    "revid": 1382344444
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

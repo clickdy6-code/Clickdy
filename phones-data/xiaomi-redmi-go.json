@@ -1,0 +1,79 @@
+{
+  "slug": "xiaomi-redmi-go",
+  "brand": "Xiaomi",
+  "name": "Redmi Go",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "February 2019",
+      "Successor": "Redmi A1"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "137g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\" , Android Go",
+      "Chipset": "Qualcomm Snapdragon 425",
+      "CPU": "Cortex-A53, quad-core 1.4 GHz",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "8 GB / 16 GB",
+      "Card slot": "microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "5\", 16:9, 720x1280, IPS LCD, 294 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP f/2.0",
+      "Front camera": "5 MP f/2.2"
+    },
+    "Sound": {
+      "Sound": "Mono loudspeaker"
+    },
+    "Battery": {
+      "Battery": "3000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 425",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8,
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 8.1",
+    "weight_g": 137,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi Go",
+      "url": "https://en.wikipedia.org/wiki/Redmi_Go"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi Go\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi Go",
+    "revid": 1361479854
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

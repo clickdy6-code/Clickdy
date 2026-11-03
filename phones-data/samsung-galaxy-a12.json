@@ -1,0 +1,103 @@
+{
+  "slug": "samsung-galaxy-a12",
+  "brand": "Samsung",
+  "name": "Galaxy A12",
+  "status": "published",
+  "announced": "2020-11-24",
+  "released": "2020-11-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Galaxy_A12_front_and_Back.png/500px-Galaxy_A12_front_and_Back.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Galaxy_A12_front_and_Back.png/250px-Galaxy_A12_front_and_Back.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy A12",
+      "credit": "HSGTLAEHRE 3041/Bralyn Fuller, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_A12_front_and_Back.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A12: 2020-11-24, M12:, 2021-02-05 (India), 2021-04-19 (Europe), F12: 2021-04-05",
+      "Series": "Galaxy A series, Galaxy M series, Galaxy F series",
+      "Predecessor": "Samsung Galaxy A11, Samsung Galaxy M11",
+      "Successor": "Samsung Galaxy A13, Samsung Galaxy M13, Samsung Galaxy F13"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE",
+      "SIM": "Dual-slot nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Glass front, plastic back, plastic frame",
+      "Dimensions": "A12:, 164 mm H , 75.8 mm W , 8.9 mm D, M12, F12:, 164 mm H , 75.9 mm W , 9.7 mm D",
+      "Weight": "A12: 205 g, M12 (India), F12: 221 g, M12 (Europe): 212 g",
+      "Other": "NFC (market/region dependent)"
+    },
+    "Platform": {
+      "Operating system": "Original (A12): Android 10 with One UI, One UI Core 2.5, Original (M12, F12, A12 Nacho): Android 11 with One UI Core 3.1, Current (A12): Android 12 with One UI Core 4.1, Current (M12, F12, A12 Nacho): Android 13 with One UI Core 5.1",
+      "Chipset": "A12: Mediatek MT6765 Helio P35 (12nm) , M12, F12, A12 Nacho: Samsung Exynos 850 (S5E3830) (8nm)",
+      "CPU": "A12: Octa-core 4x 2.35 GHz Cortex-A53 + 4x 1.8 GHz Cortex-A53, M12, F12, A12 Nacho: Octa-core 8x 2.0 GHz Cortex-A55",
+      "GPU": "A12: PowerVR GE8320 , M12, F12, A12 Nacho: ARM Mali-G52"
+    },
+    "Memory": {
+      "RAM": "3 GB, 4 GB, or 6 GB",
+      "Storage": "32 GB, 64 GB or 128 GB (eMMC 5.1)",
+      "Card slot": "MicroSD (up to 1 TB)"
+    },
+    "Display": {
+      "Display": "A12: 60Hz refresh rate, IPS LCD , 6.5 in, 20:9 ratio, ~85.8% screen-to-body ratio, ~270 ppi density, M12, F12: 90Hz refresh rate, IPS LCD , 6.5 in, 20:9 ratio, ~81.9% screen-to-body ratio, ~270 ppi density, Gorilla Glass protection (Galaxy F12 only)"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-Camera Setup, A12:, Primary: Samsung ISOCELL S5KGM2 (Global) / Samsung ISOCELL S5K2P6 (U.S.); 16 Megapixel, MP (U.S.) / 48 Megapixel, MP (Global), 25mm (wide), FoV 82°, 1/3.06\" (U.S.) / 1/2.0\" (Global), 1.0 Micrometre, µm (U.S.) / 0.8 Micrometre, µm (Global), AF, Ultra wide angle lens, Ultrawide: GalaxyCore GC5035; 5 Megapixel, MP, 14mm, FoV 115°, 1/5.0\", 1.12 Micrometre, µm, FF, Macro: GalaxyCore GC02M1; 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, FF, Depth: GalaxyCore GC02M1B; 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, A12 Nacho / M12 / F12:, Primary: Samsung ISOCELL S5KGM2; 48 Megapixel, MP, 25mm (wide), FoV 82°, 1/2.0\", 0.8 Micrometre, µm, AF (A12 Nacho), Phase detection autofo",
+      "Front camera": "Samsung ISOCELL S5K4HAYX or Siliconfile SR846D; 8 Megapixel, MP, 25mm (wide), FoV 81.1°, 1/4.0\", 1.12 Micrometre, µm, FF, Camera features: High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm audio jack"
+    },
+    "Battery": {
+      "Battery": "A12, M12 (Europe): 5000 mAh lithium polymer, M12 (India), F12: 6000 mAh lithium polymer",
+      "Charging": "15W fast charging via USB Type-C"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm aux, Bluetooth 5.0, Wi-Fi 802.11 b/g/n 2.4GHz, FM radio"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "A12: Mediatek MT6765 Helio P35",
+    "ram_gb": [
+      3,
+      4,
+      6
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "battery_mah": 5000,
+    "wired_w": 15,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 205,
+    "thickness_mm": 8.9,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy A12",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy A12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy A12",
+    "revid": 1383538129
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

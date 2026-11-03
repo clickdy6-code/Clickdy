@@ -1,0 +1,79 @@
+{
+  "slug": "samsung-s8300-ultratouch",
+  "brand": "Samsung",
+  "name": "S8300 UltraTouch",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Samsung_S8300_Tocco_Ultra_-_Keypad.jpg/500px-Samsung_S8300_Tocco_Ultra_-_Keypad.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Samsung_S8300_Tocco_Ultra_-_Keypad.jpg/250px-Samsung_S8300_Tocco_Ultra_-_Keypad.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung S8300 UltraTouch",
+      "credit": "Asim18, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_S8300_Tocco_Ultra_-_Keypad.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Samsung SGH-F480",
+      "Successor": "Samsung Galaxy S"
+    },
+    "Network": {
+      "Technology": "AGPS, HSDPA (3.5G), Quad band GSM / GPRS / EDGE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen / Slider",
+      "Dimensions": "110 x 52 x 12.7 mm",
+      "Weight": "122 g"
+    },
+    "Platform": {
+      "Operating system": "Samsung Proprietary TouchWiz UI with Widget support",
+      "CPU": "500MHz Qualcomm MSM6281 processor."
+    },
+    "Memory": {
+      "Storage": "80 MB internal/ Up to 16 GB MicroSD",
+      "Card slot": "MicroSD (TransFlash)"
+    },
+    "Display": {
+      "Display": "240x400 px (rotatable), 2.8 in, AMOLED Touch Screen"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixels (Back) with 720x480@30fps Video Recording",
+      "Front camera": "3G Video Calling (Front)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion (880 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 (MicroUSB), Bluetooth 2.1 with A2DP"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "AMOLED",
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 880,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 122
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung S8300 UltraTouch",
+      "url": "https://en.wikipedia.org/wiki/Samsung_S8300_UltraTouch"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung S8300 UltraTouch\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung S8300 UltraTouch",
+    "revid": 1361483400
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

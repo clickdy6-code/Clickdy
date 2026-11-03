@@ -1,0 +1,94 @@
+{
+  "slug": "samsung-galaxy-mini-2",
+  "brand": "Samsung",
+  "name": "Galaxy Mini 2",
+  "status": "published",
+  "announced": "2012-02-01",
+  "released": "2012-02-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/GT-S6500L.jpg/500px-GT-S6500L.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/GT-S6500L.jpg/250px-GT-S6500L.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Mini 2",
+      "credit": "Eriqvaldezz, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GT-S6500L.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-02-01",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy Mini",
+      "Successor": "Samsung Galaxy Fame and Galaxy Young (low-end options), Galaxy S III Mini (direct)"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, HSDPA 900/2100"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "109.4 mm H , 58.6 mm W , 11.6 mm D",
+      "Weight": "105.3 g",
+      "Other": "Accelerometer, proximity sensor, compass, stereo FM radio with RDS and noise reduction"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.3.4 \"Gingerbread\", Last: Android 2.3.6 Gingerbread, Unofficial: CyanogenMod 11 (based on Android 4.4 \"KitKat\")",
+      "CPU": "Snapdragon S1 / MSM7227A, ARMv7: ARM Cortex-A5 800 MHz",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM (398 MB available for user)",
+      "Storage": "4 GB (1,83 GB is available)",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.27\" TFT, 320×480 pixels (~176 ppi pixel density)"
+    },
+    "Cameras": {
+      "Rear camera": "CMOS 3.0 MP (official spec); 2048×1536 pixels (~3.15 MP in pixel count)"
+    },
+    "Sound": {
+      "Sound": "3-pin TRS headphone jack, loudspeaker"
+    },
+    "Battery": {
+      "Battery": "Removable, 1300 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Wi-Fi hotspot, Wi-Fi Direct, DLNA, Bluetooth 3.0"
+    }
+  },
+  "key": {
+    "display_in": 3.27,
+    "display_type": "TFT",
+    "storage_gb": [
+      4,
+      83
+    ],
+    "main_mp": 3,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1300,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 105.3,
+    "thickness_mm": 11.6,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Mini 2",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Mini_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Mini 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Mini 2",
+    "revid": 1382981888
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

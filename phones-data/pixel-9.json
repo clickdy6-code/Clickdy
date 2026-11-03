@@ -1,0 +1,103 @@
+{
+  "slug": "pixel-9",
+  "brand": "Pixel",
+  "name": "9",
+  "status": "published",
+  "announced": "2024-08-22",
+  "released": "2024-08-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Pixel 9 and 9 Pro XL: 2024-08-22, Pixel 9 Pro: 2024-09-04",
+      "Discontinued": "2025-08-20",
+      "Series": "Pixel",
+      "Predecessor": "Pixel 8, Pixel 8 Pro",
+      "Successor": "Pixel 10, Pixel 10 Pro, Pixel 10 Pro XL"
+    },
+    "Network": {
+      "Technology": "GSM / EDGE (telecommunication), EDGE, UMTS / HSPA+ / HSDPA, LTE (telecommunication), LTE, 5G sub-6 / mmWave",
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pixel 9 and 9 Pro:H: 152.8 mm, W: 72 mm, D: 8.5 mm, Pixel 9 Pro XL:H: 162.8 mm, W: 76.6 mm, D: 8.5 mm",
+      "Weight": "Pixel 9: 198 g, Pixel 9 Pro: 199 g, Pixel 9 Pro XL: 221 g",
+      "Other": "All:, Gorilla Glass Victus 2 cover, Gorilla Glass Victus 2 back, Titan M, Titan M2 security module, Pixel 9 Pro and 9 Pro XL:, Ultra-wideband (UWB) chip"
+    },
+    "Platform": {
+      "Operating system": "Android 14, upgradable to Android 17",
+      "Chipset": "Google Tensor G4",
+      "CPU": "1x 3.1 GHz Cortex-X4 + 3x 2.6 GHz Cortex-A720 + 4x 1.9 GHz Cortex-A520",
+      "GPU": "Mali-G715 MP7 (940 MHz)"
+    },
+    "Memory": {
+      "RAM": "Pixel 9: 12 GB LPDDR5X, Pixel 9 Pro and 9 Pro XL: 16 GB LPDDR5X",
+      "Storage": "Pixel 9:, 128 or 256 GB Universal Flash Storage, UFS 3.1, Pixel 9 Pro and 9 Pro XL:, 128 GB, 256 GB, 512 GB, or 1 TB UFS 3.1"
+    },
+    "Display": {
+      "Display": "Pixel 9:, 160 mm FHD+ 1080p OLED at 422 Pixels per inch, ppi, px (20:9), 60–120 Hertz, Hz refresh rate, Pixel 9 Pro:, 161 mm FHD+ 1080p Low-temperature polycrystalline silicon, LTPO OLED at 495 ppi, px (20:9), 1–120 Hz refresh rate, Pixel 9 Pro XL:, 171 mm QHD+ 1440p LTPO OLED at 486 ppi, px (20:9), 1–120 Hz refresh rate, All: High-dynamic-range television, HDR"
+    },
+    "Cameras": {
+      "Rear camera": "All:, 50 MP, 1.68, 82˚ field of view (wide), 48 MP, 1.7, 123˚ field of view (ultrawide), 4K resolution, 4K video at 24, 30, or 60 FPS, 1080p video at 24, 30, or 60 FPS, Pixel 9 Pro and 9 Pro XL:, 48 MP, 2.8, 22˚ field of view (telephoto), 5× optical zoom, 8K resolution, 8K video at 30 Frame rate, FPS",
+      "Front camera": "Pixel 9:, 10.5 MP, 2.2, 95˚ field of view (ultrawide), Pixel 9 Pro and 9 Pro XL:, 42 MP, 2.2, 103˚ field of view (ultrawide), All:, 4K video at 30 or 60 FPS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3 microphones, Noise suppression, Spatial audio"
+    },
+    "Battery": {
+      "Battery": "Pixel 9 and 9 Pro: 4700 mAh, Pixel 9 Pro XL: 5060 mAh",
+      "Charging": "All:, Reverse wireless charging, Pixel 9:, 27 W fast charging, 15 W Qi (standard), Qi wireless charging, Pixel 9 Pro:, 27 W fast charging, 21 W Qi wireless charging, Pixel 9 Pro XL:, 37 W fast charging, 23 W Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 + MIMO, Bluetooth 5.3, Near-field communication, NFC, Google Cast, Dual-band Satellite navigation, GNSS (GPS / GLONASS / Galileo (satellite navigation), Galileo), USB-C 3.2"
+    }
+  },
+  "key": {
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Google Tensor G4",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 10.5,
+    "battery_mah": 4700,
+    "wireless_w": 21,
+    "wired_w": 37,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 198,
+    "thickness_mm": 8.5,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pixel 9",
+      "url": "https://en.wikipedia.org/wiki/Pixel_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pixel 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pixel 9",
+    "revid": 1383144152
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

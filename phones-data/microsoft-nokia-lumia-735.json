@@ -1,0 +1,91 @@
+{
+  "slug": "microsoft-nokia-lumia-735",
+  "brand": "Microsoft",
+  "name": "Nokia Lumia 735",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Lumia735.jpg/500px-Lumia735.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Lumia735.jpg/250px-Lumia735.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft Nokia Lumia 735",
+      "credit": "H4stings, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lumia735.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2017",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 720"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900 , HSPA+ 850/900/2100 , LTE800/1800/2600 , Wi-Fi b/g/n"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "134.7 mm H , 68.5 mm W , 8.9 mm D",
+      "Weight": "134 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1 with Lumia Denim, upgradable to Windows 10 Mobile",
+      "Chipset": "Qualcomm Snapdragon 400 MSM8926",
+      "CPU": "1.2 GHz quad core ARM Cortex-A7",
+      "GPU": "Qualcomm Adreno 305 clocked at 450MHz"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "8 GB internal flash",
+      "Card slot": "MicroSD (up to 128 GB)"
+    },
+    "Display": {
+      "Display": "4.7 in AMOLED 720p with Clearblack display technology and Corning Gorilla Glass 3 protection"
+    },
+    "Cameras": {
+      "Rear camera": "6.7 MP, ZEISS optics, 3088×2144 pixels, 1080p Full HD video capture @ 30fps f/1.9",
+      "Front camera": "5 MP, 1080p (FHD, 1920 x 1080), 2560×1920 pixels"
+    },
+    "Battery": {
+      "Battery": "Removable 2220 mAh Li-poly battery with Qi wireless charging"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 400 MSM8926",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 6.7,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "battery_mah": 2220,
+    "os": "Windows Phone 8.1",
+    "five_g": false,
+    "weight_g": 134,
+    "thickness_mm": 8.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 735",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_735"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 735\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 735",
+    "revid": 1374175270
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

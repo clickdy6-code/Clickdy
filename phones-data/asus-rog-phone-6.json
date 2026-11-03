@@ -1,0 +1,97 @@
+{
+  "slug": "asus-rog-phone-6",
+  "brand": "Asus",
+  "name": "ROG Phone 6",
+  "status": "published",
+  "announced": "2022-07-13",
+  "released": "2022-07-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-07-13",
+      "Series": "Asus ROG",
+      "Predecessor": "ROG Phone 5",
+      "Successor": "ROG Phone 7"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / LTE / 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "173 mm H , 77 mm W , 10.3 mm D",
+      "Weight": "239 g"
+    },
+    "Platform": {
+      "Operating system": "Android 12",
+      "Chipset": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+      "CPU": "Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "ROG Phone 6: 8, 12 or 16 GB LPDDR5 RAM, ROG Phone 6 Pro: 18 GB LPDDR5 RAM",
+      "Storage": "ROG Phone 6: 128, 256 or 512 GB, ROG Phone 6 Pro: 512 GB, All: UFS 3.1"
+    },
+    "Display": {
+      "Display": "6.78 in, px resolution (~395 ppi density), AMOLED, 1B colors, 165Hz refresh rate, HDR10+, 800 nits (typ), 1200 nits (peak), Corning Gorilla Glass Victus"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.9, (wide), 1/1.56\", 1.0µm, PDAF, 13 MP, f/2.2, (ultrawide), 5 MP, (macro), LED flash, HDR, panorama, 8K@24fps, 4K@30/60/120fps, 1080p@30/60/120/240fps, 720p@480fps; gyro-EIS",
+      "Front camera": "12 MP, 28mm (wide)"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "6000 mAh",
+      "Charging": "Fast charging 65W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band, Wi-Fi Direct, hotspot, Bluetooth 5.2, A2DP, LE, aptX HD, aptX Adaptive"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "AMOLED",
+    "refresh_hz": 165,
+    "peak_nits": 1200,
+    "chipset": "Qualcomm Snapdragon 8+ Gen 1",
+    "ram_gb": [
+      16,
+      18
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "8K@24fps",
+    "front_mp": 12,
+    "battery_mah": 6000,
+    "wired_w": 65,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 239,
+    "thickness_mm": 10.3,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ROG Phone 6",
+      "url": "https://en.wikipedia.org/wiki/ROG_Phone_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ROG Phone 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ROG Phone 6",
+    "revid": 1361479485
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "oppo-a72-5g",
+  "brand": "Oppo",
+  "name": "A72 5G",
+  "status": "published",
+  "announced": "2020-07-31",
+  "released": "2020-07-31",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-07-31",
+      "Series": "A",
+      "Predecessor": "Oppo A72",
+      "Successor": "Oppo A74 5G 5G"
+    },
+    "Network": {
+      "Technology": "2G GSM & CDMA , 3G HSDPA & EVDO , 4G LTE , 5G",
+      "SIM": "2x nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.2 x 75 x 7.9 mm",
+      "Weight": "6.17 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with ColorOS 7.2",
+      "Chipset": "Mediatek Dimensity 720 (7 nm)",
+      "CPU": "Octa-core, 2x 2.0 GHz Cortex-A76 7 6x 2.0 GHz Cortex-A55",
+      "GPU": "Mali-G57 MC3"
+    },
+    "Memory": {
+      "RAM": "4GB, 6GB, or 8GB",
+      "Storage": "128GB (UFS 2.1)"
+    },
+    "Display": {
+      "Display": "6.5\" IPS LCD, 90Hz, average screen brightness @ 480 nits, Resolution: 1080 × 2400 px (20:9 ratio) with 405 ppi density"
+    },
+    "Cameras": {
+      "Rear camera": "Triple, 16MP wide-angle with PDAF () + 8MP ultra-wide-angle (119°); lens size 1/4.0\" (1.12μm) () + 2MP in-depth sensor , Video: 4K@30fps and 1080p@30/120fps (gyro-EIS)",
+      "Front camera": "8MP wide-angle , Video: 1080p@30fps (gyro-EIS)"
+    },
+    "Battery": {
+      "Battery": "Li-po 4040 mAh",
+      "Charging": "USB Type-C 2.0 charging, up to 18W"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "peak_nits": 480,
+    "chipset": "Mediatek Dimensity 720",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 4040,
+    "wired_w": 18,
+    "os": "Android 10",
+    "five_g": true,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo A72 5G",
+      "url": "https://en.wikipedia.org/wiki/Oppo_A72_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo A72 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo A72 5G",
+    "revid": 1367167190
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

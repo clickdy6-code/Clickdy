@@ -1,0 +1,95 @@
+{
+  "slug": "nothing-phone-3",
+  "brand": "Nothing",
+  "name": "Phone 3",
+  "status": "published",
+  "announced": "2025-07-02",
+  "released": "2025-07-02",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2, 2025",
+      "Series": "Phone",
+      "Predecessor": "Phone 2"
+    },
+    "Network": {
+      "Technology": "5G, 4G, 3G, 2G, Speed: HSPA, LTE, 5G",
+      "SIM": "Dual SIM (Nano SIM), eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "160.6 x 75.6 x 9 (mm)",
+      "Weight": "218g"
+    },
+    "Platform": {
+      "Operating system": "Android 15 with Nothing OS 3.5",
+      "Chipset": "Qualcomm SM8735, Snapdragon 8s Gen 4",
+      "CPU": "Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720)",
+      "GPU": "Adreno 825"
+    },
+    "Memory": {
+      "RAM": "256GB: 12GB RAM, 512GB: 16GB RAM",
+      "Storage": "256GB & 512GB",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "Type: OLED, 1B colors, 120Hz, 2160Hz PWM, HDR10+, 4500 nits (peak), Resolutions: 1260 x 2800 pixels, 20:9 ratio, Size: 6.67 inches, Protection: Corning Gorilla Glass 7i"
+    },
+    "Cameras": {
+      "Rear camera": "Triple: 50+50+50 MP",
+      "Front camera": "50 MP"
+    },
+    "Sound": {
+      "Sound": "Stereo Speakers"
+    },
+    "Battery": {
+      "Battery": "5150 mAh (International models), 5500 mAh (Indian models)",
+      "Charging": "65W wired, PD3.0, PPS, QC4, 15W wireless, 7.5W reverse charging, 5W reverse wireless"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "OLED",
+    "refresh_hz": 160,
+    "peak_nits": 4500,
+    "chipset": "Qualcomm SM8735",
+    "ram_gb": [
+      12,
+      16,
+      56
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 50,
+    "battery_mah": 5150,
+    "wireless_w": 15,
+    "wired_w": 65,
+    "os": "Android 15",
+    "five_g": true,
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 218,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nothing Phone 3",
+      "url": "https://en.wikipedia.org/wiki/Nothing_Phone_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nothing Phone 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nothing Phone 3",
+    "revid": 1383526539
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

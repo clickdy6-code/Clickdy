@@ -1,0 +1,92 @@
+{
+  "slug": "samsung-galaxy-s9",
+  "brand": "Samsung",
+  "name": "Galaxy S9",
+  "status": "published",
+  "announced": "2018-03-16",
+  "released": "2018-03-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Samsung_Galaxy_S9_and_S9_Plus.png/500px-Samsung_Galaxy_S9_and_S9_Plus.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Samsung_Galaxy_S9_and_S9_Plus.png/250px-Samsung_Galaxy_S9_and_S9_Plus.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S9",
+      "credit": "GadgetsGuy (collage by GalaxyOptimus), CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S9_and_S9_Plus.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-03-16",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S8",
+      "Successor": "Samsung Galaxy S10"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "S9: 163 g, S9+: 189 g"
+    },
+    "Platform": {
+      "Chipset": "Global: Exynos 9810, USA/Canada/China/HK/Japan/Latin America: Qualcomm Snapdragon 845",
+      "CPU": "Exynos: Octa-core (4×2.7 GHz & 4×1.7 GHz), Snapdragon: Octa-core (4×2.8 GHz & 4×1.7 GHz) Kryo 385",
+      "GPU": "Exynos: Mali (GPU), Mali-G72 MP18, Snapdragon: Adreno 630"
+    },
+    "Memory": {
+      "Storage": "64, 128 or 256 GB UFS 2.1 (UFS 2.0 in some devices)",
+      "Card slot": "microSD, expandable up to 400 GB"
+    },
+    "Display": {
+      "Display": "2960×1440 1440p Super AMOLED capacitive touchscreen Infinity Display, Gorilla Glass 5, S9: 5.8 in, 570 ppi, S9+: 6.2 in, 529 ppi(both Diamond PenTile)"
+    },
+    "Cameras": {
+      "Rear camera": "S9: Sony IMX345; Samsung Isocell S5K2L3 12 (1.4, f/1.5/2.4), OIS, 4K at 30 fps (limited to 10 min) or 60 fps (limited to 5 min), QHD at 30 fps, 1080p at 60 fps (limited 10 min) or 30 fps, 720p at 30 and super slow motion at 960 fps (for 0.2 seconds)., S9+: Sony IMX345; Samsung Isocell S5K2L3 Dual 12 (1.4, f/1.5/2.4) + 12 MP ((1.0), f/2.4), Dual OIS, 4K at 30 or 60 fps (limited to 5 min), QHD at 30 fps, 1080p at 30 or 60 fps, 720p at 30 fps and super slow motion at 960 fps (for 0.2 seconds).",
+      "Front camera": "Sony IMX320; Samsung Isocell S5K31 8 (1.22, f/1.7), autofocus"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers tuned by AKG, Dolby Atmos surround sound"
+    },
+    "Battery": {
+      "Battery": "Non-Removable S9: 3000 mAh, S9+: 3500 mAh - both with 15W charging speed (Qualcomm Quick Charge 2.0)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5 GHz), VHT80, MU-MIMO, 1024-QAM, Bluetooth 5.0 (LE up to 2 Mbit/s), ANT+, USB-C, 3.5mm headphone jack, NFC, location (GPS, Galileo, GLONASS, BeiDou), 2G, 3G, LTE, LTE-A"
+    }
+  },
+  "key": {
+    "display_in": 5.8,
+    "display_type": "Super AMOLED",
+    "chipset": "Global: Exynos 9810",
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "battery_mah": 3000,
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 163,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S9",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy S9",
+    "revid": 1383525414
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

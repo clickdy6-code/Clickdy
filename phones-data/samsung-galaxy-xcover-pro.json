@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-galaxy-xcover-pro",
+  "brand": "Samsung",
+  "name": "Galaxy Xcover Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Xcover_Pro_back_view.jpg/500px-Xcover_Pro_back_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Xcover_Pro_back_view.jpg/250px-Xcover_Pro_back_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Xcover Pro",
+      "credit": "CarterTFTW, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xcover_Pro_back_view.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-01",
+      "Series": "Galaxy Xcover",
+      "Predecessor": "Samsung Galaxy Xcover FieldPro",
+      "Successor": "Samsung Galaxy Xcover 6 Pro"
+    },
+    "Network": {
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.9 mm H, 76.7 mm W, 10 mm D",
+      "Weight": "218 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with One UI 2.0, Current: Android 13 with One UI 5.1",
+      "Chipset": "Samsung Exynos 9611 (10nm)",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.3 in, resolution, 19.5:9 aspect ratio (~409 ppi density), Corning Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "25 MP, f/1.7, 26mm (wide), PDAF, 8 MP, f/2.2, 123˚ (ultrawide), 1/4.0\", 1.12 μm, Dual-LED flash, HDR, panorama, 1080p@30fps",
+      "Front camera": "13 MP, f/2.0, (wide), 1/3.1\", 1.12 μm, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "4050 mAh",
+      "Charging": "Fast charging 15W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/k/v/r, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "chipset": "Samsung Exynos 9611",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 25,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 13,
+    "battery_mah": 4050,
+    "wired_w": 15,
+    "os": "Android 10",
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 218,
+    "thickness_mm": 10,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Xcover Pro",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Xcover Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Xcover Pro",
+    "revid": 1378548511
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

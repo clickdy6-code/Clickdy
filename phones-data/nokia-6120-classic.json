@@ -1,0 +1,79 @@
+{
+  "slug": "nokia-6120-classic",
+  "brand": "Nokia",
+  "name": "6120 classic",
+  "status": "published",
+  "announced": "2007-03-17",
+  "released": "2007-03-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nokia_6120_Classic_alga_01.jpg/500px-Nokia_6120_Classic_alga_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Nokia_6120_Classic_alga_01.jpg/250px-Nokia_6120_Classic_alga_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6120 classic",
+      "credit": "Albertas Agejevas, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6120_Classic_alga_01.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "17 March 2007",
+      "Predecessor": "Nokia 3230, Nokia 6233",
+      "Successor": "Nokia 6220 Classic"
+    },
+    "Network": {
+      "Technology": "Quad-band GSM, Dual-band UMTS/HSDPA in 850/2100 and 900/2100 configurations"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "105 x 46 x 15 mm",
+      "Weight": "89 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.2 + S60 platform 3rd Edition, Feature Pack 1",
+      "CPU": "ARM 11 @ 369 MHz"
+    },
+    "Memory": {
+      "RAM": "64 MB (RAM), 128 MB NAND (35 MB free)",
+      "Card slot": "microSD (SDHC) (16 GB max)"
+    },
+    "Display": {
+      "Display": "TFT, 2 inches, 320 x 240 pixels, 16 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel with LED flash plus Video recording and Panoramic options",
+      "Front camera": "240 x 320 pixels (QVGA resolution)"
+    },
+    "Battery": {
+      "Battery": "BL-5B Battery Li-ion 3.7V 890 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mass Storage via mini USB, Bluetooth 2.0 with A2DP profile"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "battery_mah": 890,
+    "os": "Symbian OS 9.2 + S60 platform 3rd Edition",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 89,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6120 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6120_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6120 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6120 classic",
+    "revid": 1368187807
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

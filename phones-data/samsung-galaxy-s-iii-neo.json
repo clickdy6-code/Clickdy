@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-galaxy-s-iii-neo",
+  "brand": "Samsung",
+  "name": "Galaxy S III Neo",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_S_III.png/500px-Samsung_Galaxy_S_III.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_S_III.png/250px-Samsung_Galaxy_S_III.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S III Neo",
+      "credit": "GadgetsGuy, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_III.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-04",
+      "Series": "Galaxy S",
+      "Successor": "Samsung Galaxy S5 Neo"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "136.6 mm H, 70.7 mm W, 8.6 mm D",
+      "Weight": "132 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.3 Jelly Bean, Current: Android 4.4.4 \"KitKat\", With TouchWiz",
+      "Chipset": "Qualcomm Snapdragon 400 MSM8226",
+      "CPU": "1.4 GHz quad-core Cortex A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1.5 GB RAM",
+      "Storage": "16 GB (11.5 GB user available)",
+      "Card slot": "microSD up to 64 GB"
+    },
+    "Display": {
+      "Display": "4.8 in HD Super AMOLED (720×1280)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP Autofocus and LED Flash",
+      "Front camera": "1.9 MP"
+    },
+    "Battery": {
+      "Battery": "Removable 2100 mAh Li-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth 4.0"
+    }
+  },
+  "key": {
+    "display_in": 4.8,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 400 MSM8226",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      5,
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 1.9,
+    "battery_mah": 2100,
+    "os": "Android 4.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 132,
+    "thickness_mm": 8.6,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S III Neo",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III_Neo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S III Neo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S III Neo",
+    "revid": 1380483090
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "oppo-find-x8",
+  "brand": "Oppo",
+  "name": "Find X8",
+  "status": "published",
+  "announced": "2024-10-30",
+  "released": "2024-10-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Star_Grey_Oppo_Find_X8.jpg/500px-Star_Grey_Oppo_Find_X8.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Star_Grey_Oppo_Find_X8.jpg/250px-Star_Grey_Oppo_Find_X8.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo Find X8",
+      "credit": "Leongyy02, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Star_Grey_Oppo_Find_X8.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Find X8 / X8 Pro: 2024-10-30, Find X8 Ultra: 2025-04-16",
+      "Series": "Oppo Find X series",
+      "Predecessor": "Oppo Find X7",
+      "Successor": "Oppo Find X9"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G",
+      "SIM": "Nano-SIM + eSIM or Dual Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Find X8: 157.4 x 74.3 x 7.9 mm, Find X8 Pro: 162.3 x 76.7 x 8.2 mm, Find X8 Ultra: 163.1 x 76.8 x 8.8 mm",
+      "Weight": "Find X8: 193 g, Find X8 Pro: 215 g, Find X8 Ultra: 226 g"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 15, (based on Android 15)",
+      "Chipset": "Find X8 / X8 Pro: List of MediaTek systems on chips#Dimensity 9000 Series, MediaTek Dimensity 9400 (3 nm), Find X8 Ultra: Qualcomm Snapdragon List of Qualcomm Snapdragon processors#Snapdragon 8 Series, 8 Elite (3 nm)",
+      "CPU": "Octa-core",
+      "GPU": "Find X8/X8 Pro: Immortalis-G925, Find X8 Ultra: Adreno 830"
+    },
+    "Memory": {
+      "RAM": "12 or 16 GB RAM",
+      "Storage": "256 GB, 512 GB, or 1 TB, Find X8/X8 Pro: UFS 4.0, Find X8 Ultra: UFS 4.1"
+    },
+    "Display": {
+      "Display": "Find X8: 6.59 in LTPO AMOLED, 120 Hz refresh rate, 4500 nits peak brightness, Find X8 Pro: 6.78 in LTPO AMOLED, 120 Hz refresh rate, 4500 nits peak brightness, Find X8 Ultra: 6.82 in LTPO AMOLED, 1440p, 120 Hz refresh rate, 2500 nits peak brightness"
+    },
+    "Cameras": {
+      "Rear camera": "Find X8:, 50 MP, f/1.8, 24mm (wide), OIS, 50 MP, f/2.0, 15mm (ultrawide), 50 MP, f/2.6, 73mm, 3x optical zoom (periscope telephoto), OIS, Find X8 Pro:, 50 MP, f/1.6, 23mm (wide), OIS, 50 MP, f/2.0, 15mm (ultrawide), 50 MP, f/2.6, 73mm, 3x optical zoom (periscope telephoto), OIS, 50 MP, f/4.3, 135mm, 6x optical zoom (periscope telephoto), OIS, Find X8 Ultra:, 50 MP, f/1.8, 23mm, 1.0\"-type (wide), OIS, 50 MP, f/2.0, 15mm (ultrawide), 50 MP, f/2.1, 70mm, 3x optical zoom (periscope telephoto), OIS, 50 MP, f/3.1, 135mm, 6x optical zoom (periscope telephoto), OIS",
+      "Front camera": "32 MP, f/2.4, 21mm (wide), 4K@30/60 fps video recording"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Find X8: 5630 mAh, Find X8 Pro: 5910 mAh, Find X8 Ultra: 6100 mAh",
+      "Charging": "Find X8/X8 Pro: 80W wired, 50W wireless, 10W reverse wireless, Find X8 Ultra: 100W wired, 50W wireless, 10W reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6/7, Bluetooth#Bluetooth 5.4, Bluetooth 5.4, Near-field communication, NFC, Infrared port"
+    }
+  },
+  "key": {
+    "display_in": 6.59,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 4500,
+    "chipset": "Find X8 / X8 Pro: List of MediaTek systems on chips#Dimensit",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 5630,
+    "wireless_w": 50,
+    "wired_w": 100,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": true,
+    "esim": true,
+    "weight_g": 193,
+    "thickness_mm": 8.8,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Find X8",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Find_X8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Find X8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Oppo Find X8",
+    "revid": 1361479114
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

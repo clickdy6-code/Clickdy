@@ -1,0 +1,103 @@
+{
+  "slug": "xiaomi-redmi-4x",
+  "brand": "Xiaomi",
+  "name": "Redmi 4X",
+  "status": "published",
+  "announced": "2017-02-14",
+  "released": "2017-02-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Redmi_4X.jpg/500px-Redmi_4X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Redmi_4X.jpg/250px-Redmi_4X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 4X",
+      "credit": "Ethize, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_4X.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-02-14",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 3, Redmi 3X",
+      "Successor": "Redmi 5"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Hybrid Dual SIM (Micro-SIM + Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "139.2 × 70 × 8.7 mm",
+      "Weight": "150 g",
+      "Other": "Fingerprint scanner (rear), proximity sensor, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 6.0.1 Marshmallow + MIUI 8, Current: Android 7.1.2 Nougat + MIUI 11",
+      "Chipset": "Qualcomm MSM8940 Snapdragon 435",
+      "CPU": "8×1.4 GHz Cortex-A53",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "Redmi 4X: 2/3 GB, Redmi 4 (India): 2/3/4 GB, LPDDR3",
+      "Storage": "Redmi 4X: 16/32 GB, Redmi 4 (India): 16/32/64 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.0\", 1280 × 720 (HD), 16:9, 294 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 Mp, f/2.0, PDAF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 Mp, f/2.2, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4100 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 4.2 (A2DP, LE), IR port, FM radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8940 Snapdragon 435",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 4100,
+    "wired_w": 10,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 150,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 4X",
+      "url": "https://en.wikipedia.org/wiki/Redmi_4X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 4X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 4X",
+    "revid": 1361479792
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

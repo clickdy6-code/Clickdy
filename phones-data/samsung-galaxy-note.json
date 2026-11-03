@@ -1,0 +1,86 @@
+{
+  "slug": "samsung-galaxy-note",
+  "brand": "Samsung",
+  "name": "Galaxy Note",
+  "status": "published",
+  "announced": "2011-10-29",
+  "released": "2011-10-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Samsung_Galaxy_Note.png/500px-Samsung_Galaxy_Note.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Samsung_Galaxy_Note.png/250px-Samsung_Galaxy_Note.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Note",
+      "credit": "GadgetsGuy, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Note.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-10-29",
+      "Series": "Galaxy Note",
+      "Successor": "Samsung Galaxy Note II"
+    },
+    "Network": {
+      "Technology": "(GSM/GPRS/EDGE): 850, 900, 1800, and 1900 MHz, UMTS: 850, 900, 1900, and 2100 MHz, HSPA+: 21 Mbit/s;, HSUPA: 5.76 Mbit/s;, LTE, TD-SCDMA (China Mobile) & EV-DO Rev.A (China Telecom) 3G"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "146.85 mm H, 82.95 mm W , 9.65 mm D",
+      "Weight": "178 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.3.5 \"Gingerbread\" , Last: Android 4.1.2 \"Jelly Bean\", Unofficial: Android 16 QPR2 via LineageOS 23.2",
+      "Chipset": "Samsung Exynos 4210 (3G model), Qualcomm Snapdragon s3 APQ8060 (T-Mobile US & LTE models), MSM8660 (LG U+ models)",
+      "CPU": "1.4 GHz dual-core ARM Cortex-A9, 1.5 GHz dual-core Qualcomm Scorpion APQ8060 (Qualcomm models)",
+      "GPU": "ARM Mali-400 MP (Samsung model), Qualcomm Adreno 220 (Qualcomm model)"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR-400",
+      "Storage": "16/32 GB flash memory",
+      "Card slot": "microSD (up to 64 GB SDXC)"
+    },
+    "Display": {
+      "Display": "5.3 in (134.62 mm) Super AMOLED with RGBG-matrix (PenTile), 800x1280 px WXGA (285 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixel Back-illuminated sensor with auto focus, 1080p 30 fps Full HD video recording, LED flash",
+      "Front camera": "2 Megapixel video recording (VGA), and stills"
+    },
+    "Battery": {
+      "Battery": "2500 mAh, Internal rechargeable Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 5.3,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 4210",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2500,
+    "os": "Android 2.3",
+    "five_g": false,
+    "weight_g": 178,
+    "thickness_mm": 9.65,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note (1st generation)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_%281st_generation%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note (1st generation)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note (1st generation)",
+    "revid": 1383613287
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "oneplus-3t",
+  "brand": "OnePlus",
+  "name": "3T",
+  "status": "published",
+  "announced": "2016-11-15",
+  "released": "2016-11-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/OnePlus_3T_%2832563961435%29.jpg/500px-OnePlus_3T_%2832563961435%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/OnePlus_3T_%2832563961435%29.jpg/250px-OnePlus_3T_%2832563961435%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OnePlus 3T",
+      "credit": "Răzvan Băltărețu, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OnePlus_3T_(32563961435).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "15 November 2016",
+      "Discontinued": "9 May 2017 (128 GB variant only)",
+      "Predecessor": "OnePlus 3",
+      "Successor": "OnePlus 5"
+    },
+    "Network": {
+      "Technology": "2G, 3G, and 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "152.7 mm (6.01 in) H, 74.7 mm (2.94 in) W, 7.35 mm (0.29 in) D",
+      "Weight": "158 g",
+      "Other": "Vibration motor, RGB LED notification light"
+    },
+    "Platform": {
+      "Operating system": "OxygenOS (Global) HydrogenOS (Mainland China) Android Marshmallow, Android Nougat, Android Oreo, Android Pie",
+      "Chipset": "Qualcomm Snapdragon 821",
+      "CPU": "Kryo 2×2.35 GHz + 2×2.2 GHz",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4 RAM",
+      "Storage": "64 or 128 GB UFS 2.0"
+    },
+    "Display": {
+      "Display": "5.5\" 1920×1080 px resolution (401 ppi) optic AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP Sony IMX298",
+      "Front camera": "16 MP Samsung 3P8SP"
+    },
+    "Sound": {
+      "Sound": "Bottom-facing speaker, 3.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "3,400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "3G, 4G VoLTE, WiFi 802.11a/b/g/n/ac, Bluetooth 4.2, NFC, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 821",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 3400,
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 158,
+    "thickness_mm": 7.35,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: OnePlus 3T",
+      "url": "https://en.wikipedia.org/wiki/OnePlus_3T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"OnePlus 3T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "OnePlus 3T",
+    "revid": 1382784603
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

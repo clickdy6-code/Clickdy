@@ -1,0 +1,101 @@
+{
+  "slug": "samsung-galaxy-s7",
+  "brand": "Samsung",
+  "name": "Galaxy S7",
+  "status": "published",
+  "announced": "2016-02-21",
+  "released": "2016-02-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Samsung_Galaxy_S7_and_S7_Edge.png/500px-Samsung_Galaxy_S7_and_S7_Edge.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Samsung_Galaxy_S7_and_S7_Edge.png/250px-Samsung_Galaxy_S7_and_S7_Edge.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S7",
+      "credit": "GadgetsGuy (collage by GalaxyOptimus), CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S7_and_S7_Edge.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "S7 and S7 Edge:, 2016-02-21, S7 Active: 2016-06-04",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S6",
+      "Successor": "Samsung Galaxy S8"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 2G CDMA2000, CDMA 1xRTT – 800, 850, 1900 MHz, 3G TD-SCDMA – 1900, 2000 MHz, 3G UMTS/HSDPA/HSUPA/HSPA+ – 850, 900, Advanced Wireless Services, AWS (1700), 1900, 2000, 2100 MHz, 4G LTE (telecommunication), LTE – Bands 1–5, 7–8, 12–13, 17–20, 25–26, 28–30, 38–41",
+      "SIM": "1x or 2x nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "S7:, 142.4 mm H, 69.6 mm W, 7.9 mm D, S7 Edge:, 150.9 mm H, 72.6 mm W, 7.7 mm D, S7 Active:, 148.8 mm H, 74.9 mm W, 9.9 mm D",
+      "Weight": "S7: 152 g, S7 Edge: 157 g, S7 Active: 184.8 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0.1 \"Marshmallow\" with TouchWiz Hero UX, Current: Android 8.0 \"Oreo\" with Samsung Experience 9.0",
+      "Chipset": "Global: Samsung Exynos 8890, USA and China: Qualcomm Snapdragon 820",
+      "CPU": "Exynos: Octa-core (4x2.3 GHz Mongoose & 4x1.6 GHz Cortex-A53), Snapdragon: Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+      "GPU": "Exynos: Mali-T880 MP12, Snapdragon: Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM",
+      "Storage": "32, 64 or 128 GB UFS 2.0",
+      "Card slot": "microSDXC, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "S7: 5.1 in 227 ppcm (577 ppi), S7 Edge: 5.5 in 210 ppcm (534 ppi), S7 Active: 5.1 in 227 ppcm (576 ppi), Super AMOLED, Quad HD Super AMOLED 2560×1440 pixel resolution (16:9 Display aspect ratio, aspect ratio), (all PenTile matrix family#PenTile RGBG, Diamond PenTile)"
+    },
+    "Cameras": {
+      "Rear camera": "Samsung ISOCELL S5K2L1 or Sony Exmor RS IMX260 12 MP (4032×3024), 1.4 μm pixel size, f/1.7 aperture, 2160p(4K) at 30fps(limited to 10 m since Android 7 update), 1440p(QHD) at 30fps, 1080p at 30/60fps, 720p at 30/60fps, real-time slow motion video recording at 720p@240fps",
+      "Front camera": "Samsung S5K4E6 5 MP (2592×1464), f/1.7 aperture, 1440p/1080p/720p video recording"
+    },
+    "Battery": {
+      "Battery": "All internal:, S7: 3,000 mAh, 3.85 V, S7 Edge: 3,600 mAh, S7 Active: 4,000 mAh",
+      "Charging": "Wired: Qualcomm Quick Charge 2.0 up to 15 W, Wireless: Qi and AirFuel Inductive wireless charging up to 7.5 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (2.4 & 5 GHz), Bluetooth 4, 4G/LTE"
+    }
+  },
+  "key": {
+    "display_in": 5.1,
+    "display_type": "Super AMOLED",
+    "chipset": "Global: Samsung Exynos 8890",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "wireless_w": 7.5,
+    "wired_w": 15,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 152,
+    "thickness_mm": 7.9,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S7",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy S7",
+    "revid": 1383019790
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

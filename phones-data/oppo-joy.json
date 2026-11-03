@@ -1,0 +1,89 @@
+{
+  "slug": "oppo-joy",
+  "brand": "Oppo",
+  "name": "Joy",
+  "status": "published",
+  "announced": "2015-04-30",
+  "released": "2015-04-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 2014, April 30, 2015 (Plus)",
+      "Series": "Oppo Joy Series",
+      "Successor": "Oppo Joy 3"
+    },
+    "Network": {
+      "Technology": "2G bands: GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2, 3G bands: HSDPA 2100, HSPA"
+    },
+    "Body": {
+      "Dimensions": "124x63x9.9 mm, 4.88x2.48x0.39 in",
+      "Weight": "125 g (4.41 oz)",
+      "Other": "Colors: White, Black, Price: About 100 EUR"
+    },
+    "Platform": {
+      "Operating system": "ColorOS 1.0.2i running on Android 4.2.1, ColorOS 2 running on Android 4.4 (Plus)",
+      "Chipset": "MediaTek MT6572",
+      "CPU": "2x1.3 GHz Cortex-A7",
+      "GPU": "Mali-400 MP1, 500MHz"
+    },
+    "Memory": {
+      "RAM": "512MB LPDDR2, 266MHz, 1GB LPDDR2, 266MHz (Plus)",
+      "Storage": "4GB (1.3GB user available)",
+      "Card slot": "microSDHC"
+    },
+    "Display": {
+      "Display": "Type: TFT, Size: 4.0 inches, 45.5 cm^2, Resolution: 480x800, 233 ppi, Ratios: 5:3 aspect ratio, 58.3% StB ratio"
+    },
+    "Cameras": {
+      "Rear camera": "2048x1536 (3.15MP)",
+      "Front camera": "640x480 (0.3MP)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker: Yes, 3.5mm jack: Yes"
+    },
+    "Battery": {
+      "Battery": "Removable Li-ion, 1700mAh",
+      "Charging": "microUSB 2.0"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, DLNA, hotspot, Bluetooth 4.0, A2DP, A-GPS, FM radio, microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "chipset": "MediaTek MT6572",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.3,
+    "battery_mah": 1700,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 125,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Joy",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Joy"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Joy\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Joy",
+    "revid": 1361479122
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

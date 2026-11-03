@@ -1,0 +1,83 @@
+{
+  "slug": "nubia-x",
+  "brand": "Nubia",
+  "name": "X",
+  "status": "published",
+  "announced": "2018-10-31",
+  "released": "2018-10-31",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-31",
+      "Successor": "Nubia Z20"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, LTE (telecommunication), LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 154.1 mm , W: 73.3 mm , D: 8.4 mm",
+      "Weight": "181 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\", Nubia UI 6",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4 × 2.65 GHz, 4 × 1.8 GHz) Kryo",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB RAM",
+      "Storage": "64, 128, 256 or 512 GB"
+    },
+    "Display": {
+      "Display": "main: 6.26 in FHD+ IPS LCD, 2280 × 1080 (430 ppi), rear: 5.1 in HD OLED, 1520 × 720, All: Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 16 and 24 MP, f/1.7 and f/1.8 aperture, HDR+ processing, FHD 1080p video (up to 30 FPS), 4K 2160p video (up to 30 FPS)"
+    },
+    "Battery": {
+      "Battery": "3800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM, LTE, LTE Advanced, HSDPA, CDMA, TD-SCDMA"
+    }
+  },
+  "key": {
+    "display_in": 6.26,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 24,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "battery_mah": 3800,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 181,
+    "thickness_mm": 8.4,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nubia X",
+      "url": "https://en.wikipedia.org/wiki/Nubia_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nubia X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Nubia X",
+    "revid": 1361478729
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

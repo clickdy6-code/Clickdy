@@ -1,0 +1,98 @@
+{
+  "slug": "xiaomi-redmi-3",
+  "brand": "Xiaomi",
+  "name": "Redmi 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Redmi_3_front.jpg/500px-Redmi_3_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Redmi_3_front.jpg/250px-Redmi_3_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 3",
+      "credit": "Shashikumarshash, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_3_front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Redmi 3:, 2016-01, Redmi 3S:, 2016-06",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 2",
+      "Successor": "Redmi 3S, Redmi 4"
+    },
+    "Network": {
+      "SIM": "Dual SIM nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "H: 139.3 mm (5.48 in), W: 69.6 mm (2.74 in), D: 8.5 mm (0.33 in)",
+      "Weight": "144 g"
+    },
+    "Platform": {
+      "Operating system": "Redmi 3:, Original: MIUI 7 based on Android 5.1.1, Current: MIUI 9.6 based on Android 5.1.1, Redmi 3S:, Original: MIUI 7 based on Android 6.0.1, Current: MIUI 10.2 based on Android 6.0.1",
+      "CPU": "Redmi 3:, Snapdragon 616, Octa-core 1.2 GHz Cortex-A53, Redmi 3S:, Snapdragon 430, Octa-core 1.4 GHz Cortex-A53",
+      "GPU": "Redmi 3:, Adreno 405, Redmi 3S:, Adreno 505"
+    },
+    "Memory": {
+      "RAM": "Redmi 3:, 2 GB, Redmi 3S:, 2 or 3 GB",
+      "Storage": "Redmi 3:, 16 GB, Redmi 3S:, 16 or 32 GB",
+      "Card slot": "microSDXC, microSDHC, microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0\", 1280 × 720 pixels, 16:9 ratio, IPS LCD capacitive touchscreen, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (f/2.0), phase detection autofocus, panorama, HDR",
+      "Front camera": "5 MP (f/2.2)"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po, 4100 mAh",
+      "Charging": "MicroUSB"
+    },
+    "Connectivity": {
+      "Connectivity": "2G, 3G, 4G, 4G LTE, Wi-Fi 802.11 b/g/n (2.4 GHz), WiFi Direct, Hotspot, Bluetooth v4.1"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4100,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 144,
+    "thickness_mm": 8.5,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 3",
+      "url": "https://en.wikipedia.org/wiki/Redmi_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 3",
+    "revid": 1361479779
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

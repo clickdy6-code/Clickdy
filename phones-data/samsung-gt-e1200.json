@@ -1,0 +1,79 @@
+{
+  "slug": "samsung-gt-e1200",
+  "brand": "Samsung",
+  "name": "GT-E1200",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Samsung_E1200i-4313.jpg/500px-Samsung_E1200i-4313.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Samsung_E1200i-4313.jpg/250px-Samsung_E1200i-4313.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung GT-E1200",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_E1200i-4313.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-11",
+      "Predecessor": "Samsung E1180",
+      "Successor": "Samsung SM-B105E, Samsung Galaxy Young"
+    },
+    "Network": {
+      "Technology": "GSM 900, 1800 MHz",
+      "SIM": "Single slot of Mini SIM (Dual sim on GT-E1202)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 mm H , 45 mm Wi , 13.5 mm D",
+      "Weight": "65.1 g"
+    },
+    "Platform": {
+      "Operating system": "Closed Source Samsung General Proprietary OS (SGP)"
+    },
+    "Memory": {
+      "RAM": "2 / 4 MB ROM",
+      "Storage": "~ 4 / 8 MB"
+    },
+    "Display": {
+      "Display": "3.86 cm (1.51 in) TFT LCD, 128×128 pixels, 16384 pixels (120 ppi)"
+    },
+    "Sound": {
+      "Sound": "Speaker, Multipurpose jack"
+    },
+    "Battery": {
+      "Battery": "800 mAh , User-replaceable",
+      "Charging": "Standard charging up to 4.2V"
+    },
+    "Connectivity": {
+      "Connectivity": "SIM Card"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 65.1,
+    "thickness_mm": 13.5,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung GT-E1200",
+      "url": "https://en.wikipedia.org/wiki/Samsung_GT-E1200"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung GT-E1200\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung GT-E1200",
+    "revid": 1382788529
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

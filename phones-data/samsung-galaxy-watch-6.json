@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-galaxy-watch-6",
+  "brand": "Samsung",
+  "name": "Galaxy Watch 6",
+  "status": "published",
+  "announced": "2023-08-11",
+  "released": "2023-08-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Samsung_Galaxy_Watch_6.jpg/500px-Samsung_Galaxy_Watch_6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Samsung_Galaxy_Watch_6.jpg/250px-Samsung_Galaxy_Watch_6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Watch 6",
+      "credit": "Ganesh Mohan T, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Watch_6.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-08-11",
+      "Series": "Galaxy Watch",
+      "Predecessor": "Samsung Galaxy Watch 5",
+      "Successor": "Samsung Galaxy Watch 7"
+    },
+    "Network": {
+      "Technology": "3G / 4G",
+      "SIM": "eSIM"
+    },
+    "Body": {
+      "Form factor": "Smartwatch",
+      "Dimensions": "(40 mm), 40.4 mm H, 38.4 mm W, 9 mm D, (44 mm), 44.4 mm H, 42.8 mm W, 9 mm D",
+      "Weight": "28.7 g (40 mm), 33.3 g (44 mm)"
+    },
+    "Platform": {
+      "Operating system": "Original: Wear OS 4 with One UI Watch 5, Current: Wear OS 6 with One UI Watch 8",
+      "Chipset": "Exynos W930 (5 nm)",
+      "CPU": "Dual-core 1.4GHz Cortex-A55",
+      "GPU": "Mali-G68 MP2"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "1.31 in RGB stripe AMOLED, 432 x 432p (~330 ppi), 1.47 in RGB stripe AMOLED, 480 x 480p (~327 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "No",
+      "Front camera": "No"
+    },
+    "Sound": {
+      "Sound": "Yes, speaker on the side of the watch."
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion, 300 mAh (40 mm), 425 mAh (44 mm)",
+      "Charging": "Wireless up to 10W (5V 2A)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, dual-band, Bluetooth 5.3, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "chipset": "Exynos W930",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 300,
+    "wireless_w": 10,
+    "five_g": false,
+    "nfc": false,
+    "esim": true,
+    "weight_g": 28.7,
+    "thickness_mm": 38.4,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Watch 6",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Watch_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Watch 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Watch 6",
+    "revid": 1380484640
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

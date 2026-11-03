@@ -1,0 +1,94 @@
+{
+  "slug": "samsung-galaxy-s8",
+  "brand": "Samsung",
+  "name": "Galaxy S8",
+  "status": "published",
+  "announced": "2017-04-21",
+  "released": "2017-04-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Samsung_Galaxy_S8_and_S8_Plus.png/500px-Samsung_Galaxy_S8_and_S8_Plus.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Samsung_Galaxy_S8_and_S8_Plus.png/250px-Samsung_Galaxy_S8_and_S8_Plus.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S8",
+      "credit": "DoerNoc, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S8_and_S8_Plus.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "S8 and S8+:, 2017-04-21, S8 Active: 2017-08-11",
+      "Series": "Galaxy S",
+      "Predecessor": "Samsung Galaxy S7",
+      "Successor": "Samsung Galaxy S9"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "S8 and S8 Active:, 148.9 x 68.1 x 8.0 mm, S8+:, 159.5 x 73.4 x 8.1 mm",
+      "Weight": "S8: 155 g, S8+: 173 g, S8 Active: 208 g",
+      "Other": "Physical sound volume keys, Bixby key"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Nougat, Android 7.0 \"Nougat\" with Samsung Experience 8.1, Current: Android Pie, Android 9 \"Pie\" with One UI Version 1.0 (without Project Treble, Treble), Unofficial alternative: One UI 2, Android 11, Android 12, Android 13",
+      "Chipset": "Global: Exynos 8895, USA/Canada/China/HK/Japan: Qualcomm Snapdragon 835",
+      "CPU": "Exynos: Octa-core (4×2.3 GHz M2 Mongoose & 4×1.7 GHz) Cortex-A53 (GTS), Snapdragon: Octa-core (4×2.45 GHz Kryo & 4×1.9 GHz Kryo)",
+      "GPU": "Exynos: Mali (GPU), Mali-G71 MP20, Snapdragon: Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 or 6 LPDDR4X RAM",
+      "Storage": "64 GB UFS 2.1 / UFS 2.0 in some devices",
+      "Card slot": "microSDXC, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "2960×1440 1440p Super AMOLED capacitive touchscreen display, HDR10, S8 and S8 Active: 5.8 in, 225 ppcm (572 pixels per inch, ppi), S8+: 6.2 in, 208 ppcm (529 ppi)(both Diamond PenTile)"
+    },
+    "Cameras": {
+      "Rear camera": "12 (1.4), f/1.7, OIS, 4K at 30 fps, 1440p at 30fps, 1080p at 60 fps, 720p at 30 fps, slow motion 720p at 240 fps",
+      "Front camera": "8, autofocus, 1440p/1080p/720p video recording at 30fps"
+    },
+    "Sound": {
+      "Sound": "Sound and audio features e.g. speaker(s), audio jack, vibration motor, etc."
+    },
+    "Battery": {
+      "Battery": "Non-removable S8: 3000 mAh, S8+: 3500 mAh, S8 Active: 4000 mAh - all 15 Watts",
+      "Charging": "Fast charging up to 9W, Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Physical and wireless e.g. USB type-C, Bluetooth 5.0 (LE up to 2 Mbit/s), 802.11 a/b/g/n/ac (2.4/5GHz) WiFi, NFC, location (GPS, Galileo, GLONASS, BeiDou)"
+    }
+  },
+  "key": {
+    "display_in": 5.8,
+    "display_type": "Super AMOLED",
+    "chipset": "Global: Exynos 8895",
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 3000,
+    "wired_w": 9,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 155,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S8",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy S8",
+    "revid": 1383027421
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

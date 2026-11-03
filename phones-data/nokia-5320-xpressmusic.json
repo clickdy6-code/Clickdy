@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-5320-xpressmusic",
+  "brand": "Nokia",
+  "name": "5320 XpressMusic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nokia_5320.png/500px-Nokia_5320.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nokia_5320.png/250px-Nokia_5320.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5320 XpressMusic",
+      "credit": "Blakegripling ph, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5320.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "XpressMusic",
+      "Predecessor": "Nokia 5700 XpressMusic, Nokia 5310",
+      "Successor": "Nokia 5630 XpressMusic, Nokia 5730 XpressMusic"
+    },
+    "Network": {
+      "Technology": "GSM, EGPRS, WCDMA, HSDPA"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 x 46 x 15 mm",
+      "Weight": "90g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.3 + S60 platform 3rd Edition, Feature Pack 2",
+      "CPU": "ARM11 @ 369 Mhz"
+    },
+    "Memory": {
+      "RAM": "150 MB storage, 128 MB RAM",
+      "Card slot": "max. 32 GB microSDHC, 512 MB-1 GB microSD card included"
+    },
+    "Display": {
+      "Display": "QVGA 240x320, 16 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels with LED flash",
+      "Front camera": "Front VGA camera for video calls"
+    },
+    "Battery": {
+      "Battery": "BL-5B (3.7V 890mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (EDR/A2DP), MicroUSB 2.0; 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "battery_mah": 890,
+    "os": "Symbian OS 9.3 + S60 platform 3rd Edition",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 90
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5320 XpressMusic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5320_XpressMusic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5320 XpressMusic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5320 XpressMusic",
+    "revid": 1361477402
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

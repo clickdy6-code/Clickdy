@@ -1,0 +1,105 @@
+{
+  "slug": "oppo-find-n2",
+  "brand": "Oppo",
+  "name": "Find N2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/OPPO_Find_N2.jpg/500px-OPPO_Find_N2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/OPPO_Find_N2.jpg/250px-OPPO_Find_N2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo Find N2",
+      "credit": "X-SHLIED, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OPPO_Find_N2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "December 2022",
+      "Series": "Oppo Find N series",
+      "Predecessor": "Oppo Find N",
+      "Successor": "Oppo Find N3"
+    },
+    "Network": {
+      "SIM": "Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Foldable (vertical hinge)",
+      "Dimensions": "132.2 × 140.5 × 7.4 mm (unfolded), 132.2 × 72.6 × 14.6 mm (folded)",
+      "Weight": "233 g"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with ColorOS 13",
+      "Chipset": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+      "CPU": "Octa-core (1×3.0 GHz Cortex-X2 & 3×2.75 GHz Cortex-A710 & 4×2.0 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "12 GB or 16 GB LPDDR5",
+      "Storage": "256 GB or 512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "7.1 in Foldable LTPO AMOLED, 120Hz, HDR10+, ~1200 nits peak"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP (wide, OIS), 32 MP (telephoto), 48 MP (ultrawide)",
+      "Front camera": "32 MP front camera, 1080p@30fps, 4K video supported"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Li-Po 4520 mAh, non-removable",
+      "Charging": "67 W wired, 10 W reverse wired"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, Wi-Fi 6, Bluetooth 5.3, NFC, USB-C, GPS, OTG"
+    }
+  },
+  "key": {
+    "display_in": 7.1,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 1200,
+    "chipset": "Qualcomm Snapdragon 8+ Gen 1",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 4520,
+    "wired_w": 67,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "weight_g": 233,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo Find N2",
+      "url": "https://en.wikipedia.org/wiki/Oppo_Find_N2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo Find N2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo Find N2",
+    "revid": 1363179464
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

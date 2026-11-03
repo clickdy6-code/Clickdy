@@ -1,0 +1,87 @@
+{
+  "slug": "nubia-z20",
+  "brand": "Nubia",
+  "name": "Z20",
+  "status": "published",
+  "announced": "2019-08-16",
+  "released": "2019-08-16",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-08-16 (China), 2019-10-14 (global)",
+      "Series": "Z",
+      "Predecessor": "Nubia X"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, LTE (telecommunication), LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 158.6 mm , W: 75.2 mm , D: 9.2 mm",
+      "Weight": "186 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9 Pie, Nubia UI 7",
+      "Chipset": "Qualcomm Snapdragon 855+",
+      "CPU": "Octa-core (1 × 2.96 GHz, 3 × 2.42 GHz, 4 × 1.78 GHz) Kryo",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB RAM",
+      "Storage": "128 or 512 GB"
+    },
+    "Display": {
+      "Display": "6.42 in AMOLED, FHD+ 2340×1080 (2.5 MP) (401 ppi) , Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "Triple 48, 16 and 8 MP, f/1.7 aperture (main), HDR+ processing, HD 720p video (up to 1920 FPS), FHD 1080p video (up to 60 FPS), 4K 2160p video (up to 60 FPS), 8K 4320p video (up to 15 FPS)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker , 32-bit/384 kHz Hi-Res audio"
+    },
+    "Battery": {
+      "Battery": "4000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM, LTE, LTE Advanced, HSDPA, CDMA, TD-SCDMA"
+    }
+  },
+  "key": {
+    "display_in": 6.42,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 855+",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 4000,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 186,
+    "thickness_mm": 9.2,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nubia Z20",
+      "url": "https://en.wikipedia.org/wiki/Nubia_Z20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nubia Z20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nubia Z20",
+    "revid": 1383353163
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

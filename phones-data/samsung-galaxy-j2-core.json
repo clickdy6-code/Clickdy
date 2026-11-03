@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-j2-core",
+  "brand": "Samsung",
+  "name": "Galaxy J2 Core",
+  "status": "published",
+  "announced": "2020-04-27",
+  "released": "2020-04-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 27, 2020",
+      "Series": "Samsung Galaxy J",
+      "Predecessor": "Samsung Galaxy J2 Core (2018)"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "143.4 mm H , 72.1 mm W , 8.9 mm D",
+      "Weight": "154 g"
+    },
+    "Platform": {
+      "Operating system": "Android Oreo (Go edition)",
+      "Chipset": "Exynos 7570 Quad (14 nm)",
+      "CPU": "Quad-core 1.4 GHz Cortex-A53",
+      "GPU": "Mali-T720"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB eMMC 5.0",
+      "Card slot": "microSDXC (dedicated slot) up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0 in (127 mm) PLS LCD , 540 x 960 pixels, 16:9 ratio (~220 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.2, AF , LED flash, HDR, panorama , Video: 1080p@30fps",
+      "Front camera": "5 MP, f/2.2"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "2,600 mAh Li-ion (removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot , Bluetooth 4.2, A2DP , GPS (with A-GPS, GLONASS, BDS) , Micro-USB 2.0, USB OTG"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "LCD",
+    "chipset": "Exynos 7570 Quad",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 154,
+    "thickness_mm": 8.9,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J2 Core (2020)",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J2_Core_%282020%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J2 Core (2020)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J2 Core (2020)",
+    "revid": 1361482253
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

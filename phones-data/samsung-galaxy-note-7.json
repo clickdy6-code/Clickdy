@@ -1,0 +1,100 @@
+{
+  "slug": "samsung-galaxy-note-7",
+  "brand": "Samsung",
+  "name": "Galaxy Note 7",
+  "status": "published",
+  "announced": "2016-08-02",
+  "released": "2016-08-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Samsung_Galaxy_Note_7.png/500px-Samsung_Galaxy_Note_7.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Samsung_Galaxy_Note_7.png/250px-Samsung_Galaxy_Note_7.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Note 7",
+      "credit": "DoerNoc, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Note_7.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-08-02",
+      "Series": "Galaxy Note",
+      "Predecessor": "Samsung Galaxy Note 5",
+      "Successor": "Samsung Galaxy Note 8"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153.5 mm H, 73.7 mm W, 7.9 mm D",
+      "Weight": "169 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 \"Marshmallow\" with TouchWiz Grace UX",
+      "Chipset": "Global: Samsung Exynos#Past Exynos SoCs (2010–2019), Exynos 8890, Canada/China/US/Japan: List of Qualcomm Snapdragon systems on chips#Snapdragon 800 series (2013–2021), Qualcomm Snapdragon 820",
+      "CPU": "2.3 GHz Mongoose & 1.6 GHz Cortex-A53 Octa-core, 2.2 GHz Kyro & 1.6 GHz Kryo Quad-Core",
+      "GPU": "Global: Mali (processor)#Variants, Mali-T880 MP12, Canada/China/US/Japan: Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM",
+      "Storage": "64 GB UFS 2.0",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.7 in 227 ppcm (518 ppi), Super AMOLED, Quad HD Super AMOLED 2560×1440 pixel resolution (16:9 Display aspect ratio, aspect ratio)"
+    },
+    "Cameras": {
+      "Rear camera": "Samsung ISOCELL S5K2L1 or Sony Exmor R IMX260 12 MP (1.4 μm), f/1.7 aperture with fast Dual Pixel autofocus Technology, 4K video recording at 30 fps, 1080p at 60 fps, 720p at 240 fps",
+      "Front camera": "Samsung ISOCELL S54KE6 5.0 MP 1.7 with wide-angle lens"
+    },
+    "Battery": {
+      "Battery": "3.85 V, 3500 mAh (13.48 Wh) Li-ion battery, 15W charging, not user-replaceable",
+      "Charging": "15W USB-C Fast Charging, Qi wireless charging standard"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "Super AMOLED",
+    "chipset": "Global: Samsung Exynos#Past Exynos SoCs",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "battery_mah": 3500,
+    "wired_w": 15,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 169,
+    "thickness_mm": 7.9,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Note 7",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Note 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Note 7",
+    "revid": 1383295217
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

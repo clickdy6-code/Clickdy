@@ -1,0 +1,94 @@
+{
+  "slug": "nokia-lumia-icon",
+  "brand": "Nokia",
+  "name": "Lumia Icon",
+  "status": "published",
+  "announced": "2014-02-20",
+  "released": "2014-02-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Careem.jpg/500px-Careem.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Careem.jpg/250px-Careem.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Lumia Icon",
+      "credit": "Zizolo0ol, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Careem.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "February 20, 2014",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 928",
+      "Successor": "Microsoft Lumia 950"
+    },
+    "Network": {
+      "Technology": "2.5G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 2.5G CDMA 1xRTT/1x-Advanced - 800, 1900 MHz, 3G UMTS/DC-HSPA+ – 850, 900, 1900, 2100 MHz, 3G CDMA Ev-DO Rev. A - 800, 1900 MHz, 4G LTE Rel. 8 (UE Cat 3) – 700, 800, 900, 1800, 2100, 2600 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "137 mm H, 71 mm W, 9.8 mm D",
+      "Weight": "167 g",
+      "Other": "Talk time: Up to 16.4 hours , Standby time: Up to 432 hours (approx. 18 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8, upgradable to Windows 10 Mobile",
+      "Chipset": "Qualcomm Snapdragon 800 (MSM8974)",
+      "CPU": "2.2 GHz quad-core Krait",
+      "GPU": "Qualcomm Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3",
+      "Storage": "32 GB internal flash and 7 GB free in SkyDrive"
+    },
+    "Display": {
+      "Display": "5 in FHD AMOLED, 1920 x 1080 pixels at 441 ppi, 16:9 aspect ratio, 24-bit color depth, 16M colors, 60 Hz refresh rate, ClearBlack display, Sunlight Readability Enhancement (SRE), High Brightness Mode (HBM), Super-sensitive capacitive touch enables interacting with the display with gloves and long fingernails, 2.5D Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "20 MP PureView sensor, Carl Zeiss Tessar lens and dual LED flash, wide-angle, f/2.4, 26 mm true 16:9 optics, 1/2.5-inch sensor, OIS, 2160p video capture @ 30 fps with LED for video",
+      "Front camera": "1.2 MP wide angle, f/2.4, 720p video capture @ 30fps"
+    },
+    "Battery": {
+      "Battery": "Integrated 2420 mAh Li-poly battery with Qi wireless charging"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "AMOLED",
+    "refresh_hz": 60,
+    "chipset": "Qualcomm Snapdragon 800",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      7,
+      32
+    ],
+    "main_mp": 20,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 1.2,
+    "battery_mah": 2420,
+    "os": "Windows Phone 8",
+    "five_g": true,
+    "weight_g": 167,
+    "thickness_mm": 9.8,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia Icon",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_Icon"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia Icon\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia Icon",
+    "revid": 1383459920
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

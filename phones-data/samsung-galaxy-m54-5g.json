@@ -1,0 +1,90 @@
+{
+  "slug": "samsung-galaxy-m54-5g",
+  "brand": "Samsung",
+  "name": "Galaxy M54 5G",
+  "status": "published",
+  "announced": "2023-03-22",
+  "released": "2023-03-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "M54: 2023-03-22 , F54: 2023-06-06",
+      "Series": "Galaxy M/Galaxy F",
+      "Predecessor": "Samsung Galaxy M53 5G , Samsung Galaxy F52 5G",
+      "Successor": "Samsung Galaxy M55 5G"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.9 mm H , 77.3 mm W , 8.4 mm D",
+      "Weight": "199 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with One UI 5.1 , Current: Android 16 with One UI 8.5",
+      "Chipset": "Exynos 1380 (5 nm)",
+      "CPU": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MP5"
+    },
+    "Memory": {
+      "RAM": "8 GB RAM",
+      "Storage": "M54: 128 and 256 GB , F54: 256 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.7 in, Infinity-O Display, 1080 x 2400 px resolution, 20:9 aspect ratio (~393 ppi density), Super AMOLED Plus, 120Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Samsung ISOCELL S5KHM6; 108 Megapixel, MP, 23mm, FoV 87°, 1/1.67\", 0.64μm, PDAF, OIS, Ultrawide: Samsung ISOCELL S5K4HA; 8 Megapixel, MP, 16mm, FoV 123°, 1/3.94\", 1.12μm, Macro: GalaxyCore GC02M1; 2 Megapixel, MP, 26mm, 1/5.0\", 1.75μm, fixed focus, Features: LED flash, panorama, HDR, Video: 4K resolution, 4K@30fps, 1080p@30/60fps",
+      "Front camera": "Sony IMX 616; 32 Megapixel, MP, 25mm (wide), FoV 82.1°, 1/2.76\", 0.8μm, Video: 4K resolution, 4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "6000 mAh",
+      "Charging": "Fast charging 25W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.2, A2DP, LE, A-GPS, GLONASS, GALILEO, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Exynos 1380",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 6000,
+    "wired_w": 25,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 199,
+    "thickness_mm": 8.4,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M54 5G",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M54_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M54 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M54 5G",
+    "revid": 1380482473
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

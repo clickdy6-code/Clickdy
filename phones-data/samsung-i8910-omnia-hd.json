@@ -1,0 +1,80 @@
+{
+  "slug": "samsung-i8910-omnia-hd",
+  "brand": "Samsung",
+  "name": "i8910 Omnia HD",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Samsung_Omnia_HD_-_Front.jpg/500px-Samsung_Omnia_HD_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Samsung_Omnia_HD_-_Front.jpg/250px-Samsung_Omnia_HD_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung i8910 Omnia HD",
+      "credit": "Beamish4, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Omnia_HD_-_Front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "HSUPA 5.76 Mbit/s / HSDPA 7.2 Mbit/s, EDGE/GPRS Class 12 Quad Band (850 / 900 / 1800 / 1900), UMTS Tri Band (900 / 1900 / 2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "123 x 59 x 12.9 mm",
+      "Weight": "148g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.4 running S60 v5",
+      "CPU": "OMAP3430 CPU (ARM Cortex-A8 @600 MHz); 3D Graphics Hardware Accelerator by Texas Instruments"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "8 GB/16 GB internal",
+      "Card slot": "microSDHC 32 GB max"
+    },
+    "Display": {
+      "Display": "3.7\", 16 million colours, nHD (360x640) AMOLED capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, 3264x2448 pixels, autofocus, LED flash"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN 802.11b/g with DLNA, USB 2.0, Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "AMOLED",
+    "storage_gb": [
+      8,
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Symbian OS v9.4 running S60 v5",
+    "nfc": false,
+    "weight_g": 148
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung i8910 Omnia HD",
+      "url": "https://en.wikipedia.org/wiki/Samsung_i8910_Omnia_HD"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung i8910 Omnia HD\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung i8910 Omnia HD",
+    "revid": 1361483801
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

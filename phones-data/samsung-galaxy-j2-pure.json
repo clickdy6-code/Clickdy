@@ -1,0 +1,79 @@
+{
+  "slug": "samsung-galaxy-j2-pure",
+  "brand": "Samsung",
+  "name": "Galaxy J2 Pure",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-02",
+      "Series": "Galaxy J"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "153 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\" (Go edition)",
+      "Chipset": "Exynos 7570",
+      "CPU": "Quad-core ARM Cortex-A53 1.4 GHz",
+      "GPU": "Mali-T720"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB internal",
+      "Card slot": "microSD up to 400 GB"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "2600 mAh removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 4.2, GPS/GLONASS"
+    }
+  },
+  "key": {
+    "chipset": "Exynos 7570",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 153,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy J2 Pure",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_J2_Pure"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy J2 Pure\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy J2 Pure",
+    "revid": 1380479908
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "samsung-galaxy-e5",
+  "brand": "Samsung",
+  "name": "Galaxy E5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/59/Samsung_GALAXY_E500_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/Samsung_GALAXY_E500_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Samsung Galaxy E5",
+      "credit": "Merci pour, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_GALAXY_E500_(1).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 2015",
+      "Discontinued": "November 2016",
+      "Series": "E Series"
+    },
+    "Network": {
+      "Technology": "GSM/HSPA, 2G GSM, GSM 850 / 900 / 1800 / 1900, 3G HSPA, HSDPA 850 / 900 / 1900 / 2100"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "142.6 mm (5.57 in) H, 70.2 mm (2.76 in) W, 7.3mm (0.29 in) D",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.4 KitKat, Current: Android 5.1.1 Lollipop",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "RAM": "1.5 GB LPDDR3 RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSD up to 64 GB"
+    },
+    "Display": {
+      "Display": "5 in 720p (294 ppi) Super AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, 3264 x 2448 pixels, autofocus, LED flash, Features\t= Geo-tagging, touch focus, face detection, Video\t= 1080p@30fps",
+      "Front camera": "5 megapixels (1080p) HD video recording @ 30 fps back-illuminated sensor"
+    },
+    "Battery": {
+      "Battery": "2400 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "Super AMOLED",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "battery_mah": 2400,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 120,
+    "thickness_mm": 7.3,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy E5",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_E5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy E5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy E5",
+    "revid": 1361660466
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

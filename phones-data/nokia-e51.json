@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-e51",
+  "brand": "Nokia",
+  "name": "E51",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Nokia_E51_Phone_Black_Nero_Schwarz_2.jpg/500px-Nokia_E51_Phone_Black_Nero_Schwarz_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Nokia_E51_Phone_Black_Nero_Schwarz_2.jpg/250px-Nokia_E51_Phone_Black_Nero_Schwarz_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia E51",
+      "credit": "Digitalsignal, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_E51_Phone_Black_Nero_Schwarz_2.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia E50, Nokia E60",
+      "Successor": "Nokia E52/E55"
+    },
+    "Network": {
+      "Technology": "EGSM 850/900/1800/1900, UMTS 850/2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "115 × 47 × 12 millimeters , (4.49\" × 1.81\" × 0.47\"), 61 cc",
+      "Weight": "100 g (3.52oz)"
+    },
+    "Platform": {
+      "Operating system": "S60 3rd Edition, Feature Pack 1",
+      "CPU": "ARM 11 369 MHz"
+    },
+    "Memory": {
+      "RAM": "Max User Storage = 130 MB (Internal); Free Executable RAM = 70 MB",
+      "Card slot": "MicroSD Memory Card swappable up to 32 GB SDHC cards."
+    },
+    "Display": {
+      "Display": "16 m color TFT, QVGA (240 × 320 pixel) resolution, 2.0 in (50.8 mm)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel"
+    },
+    "Battery": {
+      "Battery": "Nokia BP-6MT, 3.7V, 1050 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mass Storage via USB 2.0, miniUSB, Bluetooth 2.0, Infrared, Wi-Fi"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "battery_mah": 1050,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 100
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia E51",
+      "url": "https://en.wikipedia.org/wiki/Nokia_E51"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia E51\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia E51",
+    "revid": 1376213392
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

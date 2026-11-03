@@ -1,0 +1,61 @@
+{
+  "slug": "nokia-5500-sport",
+  "brand": "Nokia",
+  "name": "5500 Sport",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nokia_5500.jpg/500px-Nokia_5500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nokia_5500.jpg/250px-Nokia_5500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5500 Sport",
+      "credit": "Arthbkins, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5500.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "Yes",
+      "Predecessor": "Nokia 5140",
+      "Successor": "Nokia 3720 classic"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 MHz"
+    },
+    "Body": {
+      "Dimensions": "107 mm x 45 mm x 18 mm (L x W x T)",
+      "Weight": "103 grams (including battery)"
+    },
+    "Memory": {
+      "RAM": "8 MB (internal) + MicroSD Memory Card"
+    },
+    "Display": {
+      "Display": "31 x 31 mm / 3.1 x 3.1 cm, 18 bit 208 x 208 pixels"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mass Storage via Pop-Port, Bluetooth 2.0, Infrared"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 18
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5500 Sport",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5500_Sport"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5500 Sport\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5500 Sport",
+    "revid": 1374773608
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

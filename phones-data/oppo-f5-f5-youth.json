@@ -1,0 +1,88 @@
+{
+  "slug": "oppo-f5-f5-youth",
+  "brand": "Oppo",
+  "name": "F5/F5 Youth",
+  "status": "published",
+  "announced": "2017-10-26",
+  "released": "2017-10-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "F5:, 2017-10-26, F5 Youth:, 2017-11-25",
+      "Series": "Oppo F",
+      "Predecessor": "Oppo F3",
+      "Successor": "Oppo F7"
+    },
+    "Body": {
+      "Dimensions": "156.5 mm H, 76.0 mm W, 7.5 mm D",
+      "Weight": "152 g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.1 \"Nougat\", ColorOS 3.2",
+      "Chipset": "Mediatek MT6763T Helio P23 (16 nm)",
+      "CPU": "Octa-core 2.5 GHz Cortex-A53",
+      "GPU": "Mali-G71 MP2"
+    },
+    "Memory": {
+      "RAM": "F5: 4GB or 6GB, F5 Youth: 3GB or 4GB",
+      "Storage": "F5: 32GB or 64GB, F5 Youth: 32GB"
+    },
+    "Display": {
+      "Display": "LTPS IPS LCD capacitive touchscreen, 6.0 inches (92.9 cm2) 1080 x 2160 pixels, 18:9 aspect ratio, Corning Gorilla Glass 5, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "F5:, Samsung S5K3P8SX;, 16 MP, f/1.8, 27mm, 1/3.1\", 1.0µm, PDAF, F5 Youth:, OmniVision OV13855;, 13 MP, f/2.2, 28mm, 1/3.06\", 1.12µm, PDAF, All: LED flash, HDR, panorama, 1080p@30fps",
+      "Front camera": "F5:, Sony IMX 376; 20 MP, f/2.0, 26mm (wide), 1/2.78\", 1.0μm, F5 Youth:, Sony IMX 371; 16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm, All: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Vibration; MP3, WAV ringtones"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 3200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, WiFi Direct, Hotspot, BT 4.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek MT6763T Helio P23",
+    "ram_gb": [
+      3,
+      4,
+      6
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 20,
+    "battery_mah": 3200,
+    "os": "Android 7.1",
+    "nfc": false,
+    "weight_g": 152,
+    "thickness_mm": 7.5,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo F5/F5 Youth",
+      "url": "https://en.wikipedia.org/wiki/Oppo_F5/F5_Youth"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo F5/F5 Youth\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo F5/F5 Youth",
+    "revid": 1382608118
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

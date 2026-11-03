@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-6310",
+  "brand": "Nokia",
+  "name": "6310",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Nokia_6310i.jpg/500px-Nokia_6310i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Nokia_6310i.jpg/250px-Nokia_6310i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 6310",
+      "credit": "Martinz6492, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_6310i.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2001 (6310), Q2 2002 (6310i)",
+      "Discontinued": "2005",
+      "Predecessor": "Nokia 6210",
+      "Successor": "Nokia 6600"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900, GPRS",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "129 mm H , 47 in W , 21 mm D",
+      "Weight": "111 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30",
+      "CPU": "50 MHz UPP8M, ARM7"
+    },
+    "Display": {
+      "Display": "1.7 in diagonal STN LCD, 96 × 65 px"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, line-out (proprietary)"
+    },
+    "Battery": {
+      "Battery": "Nokia BPS-2, 1100 mAh, 3.6 V user replaceable LiPo",
+      "Charging": "Nokia 3.5-mm DC Charging Interface"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.1 with HFP, HSP, OPP and DUN, IrDA, RS-232"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 111,
+    "year": 2001
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 6310",
+      "url": "https://en.wikipedia.org/wiki/Nokia_6310"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 6310\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 6310",
+    "revid": 1373601348
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "samsung-galaxy-c5",
+  "brand": "Samsung",
+  "name": "Galaxy C5",
+  "status": "published",
+  "announced": "2016-05-26",
+  "released": "2016-05-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "C5: 2016-05-26, C5 Pro: 2017-03-07",
+      "Series": "Galaxy C"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "C5: 145.9 mm H, 72 mm W, 6.7 mm DC5 Pro: 145.7 mm H, 71.4 mm W, 7 mm D",
+      "Weight": "C5: 143 g , C5 Pro: 145 g"
+    },
+    "Platform": {
+      "Operating system": "Original:C5: Android (operating system), Android Android Marshmallow, 6.0.1 Marshmallow with TouchWiz Hero UX, C5 Pro: Android 6.0.1 Marshmallow with TouchWiz Grace UXCurrent: Android 8.0 Oreo with Samsung Experience 9.0",
+      "Chipset": "C5: Qualcomm MSM8952 Snapdragon 617 , C5 Pro: Qualcomm MSM8953-Pro Snapdragon 626",
+      "CPU": "C5: Octa-core (4x1.5 GHz Cortex-A53 & 4x1.2 GHz Cortex-A53) , C5 Pro: Octa-core (2.2 GHz Cortex-A53)",
+      "GPU": "C5: Adreno 405 , C5 Pro: Adreno 506"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "C5: 32 or 64 GB , C5 Pro: 64 GB , eMMC 5.1",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.2 inch 1080 × 1920 pixels (424 ppi) Super AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP, AF , dual-LED (dual tone) flash, HDR, panorama , Video: 1080p @ 30 fps",
+      "Front camera": "C5: 8 MP, C5 Pro: 16 MP, 27 mm (wide), 1/3.06\", 1 μm , Video: 1080p @ 30 fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 2600 mAh",
+      "Charging": "C5: 10 W , C5 Pro: 18 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi :IEEE 802.11, 802.11 IEEE 802.11a-1999, a/IEEE 802.11b-1999, b/IEEE 802.11g-2003, g/IEEE 802.11n-2009, n (2.4/5 GHz), Wi-Fi Direct, Digital Living Network Alliance, DLNA, GPS/GLONASS/BeiDou, Near-field communication, NFC, Bluetooth 4.2, USB hardware#Micro connectors, MicroUSB (C5) / USB-C (C5 Pro) (USB#2.0, USB 2.0, USB On-The-Go, USB OTG), 3.50 mm Phone connector (audio), headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "Super AMOLED",
+    "chipset": "C5: Qualcomm MSM8952 Snapdragon 617",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 2600,
+    "wired_w": 18,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 143,
+    "thickness_mm": 6.7,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy C5",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_C5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy C5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy C5",
+    "revid": 1361481500
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

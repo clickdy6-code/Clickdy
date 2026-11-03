@@ -1,0 +1,102 @@
+{
+  "slug": "oppo-a18",
+  "brand": "Oppo",
+  "name": "A18",
+  "status": "published",
+  "announced": "2023-09-04",
+  "released": "2023-09-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/OPPO_A38_in_Glowing_Gold.jpg/500px-OPPO_A38_in_Glowing_Gold.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/OPPO_A38_in_Glowing_Gold.jpg/250px-OPPO_A38_in_Glowing_Gold.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Oppo A18",
+      "credit": "Danielrayyan09, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OPPO_A38_in_Glowing_Gold.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A38: 2023-09-04, A18: 2023-09-27",
+      "Series": "A series",
+      "Predecessor": "Oppo A17, Oppo A36",
+      "Successor": "Oppo A3x 4G, Oppo A3 (2024)"
+    },
+    "Network": {
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.74 × 75.03 × 8.16 mm",
+      "Weight": "A18: 188 g, A38: 190 g",
+      "Other": "Fingerprint sensor (side-mounted), proximity sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with ColorOS 13.1, Current: Android 15 with ColorOS 15",
+      "Chipset": "MediaTek Helio G85 (12 nm)",
+      "CPU": "Octa-core (2×2.0 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G52 MC2"
+    },
+    "Memory": {
+      "RAM": "A18: 4 GB, A38: 4/6 GB, LPDDR4X",
+      "Storage": "A18: 64/128 GB, A38: 128 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 90 Hz, 6.56\", 1612 × 720 (HD+), 20:9, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Wide:, A18: 8 MP, 78°, AF, A38: 50 MP, 75.5°, PDAF, Depth: 2 MP, 89.1°, Other: LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, 76.8° (wide), HDR, panorama, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "A18: 10 W, A38: 33 W SUPERVOOC fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm jack, Bluetooth 5.3 (A2DP, LE, aptX HD), NFC (A38), Wi-Fi 802.11 a/b/g/n/ac (dual-band), GPS, GLONASS, Galileo, BeiDou, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.56,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "MediaTek Helio G85",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 8,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 33,
+    "os": "Android 13",
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 188,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo A18",
+      "url": "https://en.wikipedia.org/wiki/Oppo_A18"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo A18\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo A18",
+    "revid": 1369055501
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "xiaomi-redmi-k30-pro",
+  "brand": "Xiaomi",
+  "name": "Redmi K30 Pro",
+  "status": "published",
+  "announced": "2020-03-27",
+  "released": "2020-03-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/The_reverse_side_of_Redmi_K30_Pro.jpg/500px-The_reverse_side_of_Redmi_K30_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/The_reverse_side_of_Redmi_K30_Pro.jpg/250px-The_reverse_side_of_Redmi_K30_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi K30 Pro",
+      "credit": "洛微, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_reverse_side_of_Redmi_K30_Pro.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "K30 Pro: 2020-03-27, K30 Pro Zoom: 2020-04-04, Poco F2 Pro: 2020-05-19, K30 Ultra: 2020-08-14",
+      "Series": "Redmi K, Poco F",
+      "Predecessor": "Redmi K20 Pro",
+      "Successor": "Redmi K40 Pro, Poco F5 Pro"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.3 x 75.4 x 8.9-9.1 mm",
+      "Weight": "K30 Ultra: 213 g, K30 Pro/K30 Pro Zoom: 218 g, Poco F2 Pro: 219 g"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI 11 based on Android 10, Current: MIUI 14 based on Android 12",
+      "Chipset": "Qualcomm SM8250 Snapdragon 865, K30 Ultra: MediaTek Dimensity 1000+",
+      "CPU": "Octa-core (1 + 3 + 4 cores (1x 2.84 GHz Kryo 585 Prime – Cortex A77 derivative + 3x 2.42 GHz Kryo 585 Gold – Cortex A77 derivative + 4x 1.8 GHz Kryo 585 Silver – Cortex A55 derivative)), K30 Ultra: (4 + 4 cores (4x 2.6 GHz Cortex-A77 + 4x 2.0 GHz Cortex-A55))",
+      "GPU": "Adreno 650, K30 Ultra: Mali-G77 MC9"
+    },
+    "Memory": {
+      "RAM": "Poco F2 Pro/K30 Ultra:, 6 GB or 8 Random Access Memory, RAM, K30 Pro:, 6 GB, 8 GB or 12 GB RAM, K30 Pro Zoom:, 8 GB or 12 GB RAM",
+      "Storage": "K30 Pro/Poco F2 Pro:, 128 Gigabyte, GB or 256 Gigabyte, GB, K30 Pro Zoom/K30 Ultra:, 128 Gigabyte, GB, 256 GB or 512 Gigabyte, GB"
+    },
+    "Display": {
+      "Display": "6.67 in AMOLED capacitive touchscreen, 1080x2400 pixels (2.5 MP), 20:9 ratio (395 ppi), 16M colors, 60 Hz refresh rate, K30 Ultra: 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "K30 Pro/ F2 Pro/K30 Ultra:, Quad: Sony Exmor, Exmor RS IMX686 64 megapixel, MP wide (f/1.9, 26mm, 1/1.72\", 0.8 μm) + 13 megapixel, MP ultrawide, (f/2.4, 13mm, 1.12 μm) + 5 megapixel, MP telephoto macro, (f/2.2, 50mm) + 2 megapixel, MP, depth sensor, (f/2.4), Autofocus, AF, Autofocus#Phase detection, PDAF, 2x zoom, Dual-LED flash, panorama, HDR, 8K@24/30fps, 4K@30/60fps, 1080p@30/60/120/240/960fps, K30 Ultra cannot record in 8K, K30 Pro Zoom:, Quad: Sony Exmor, Exmor RS IMX686 64 megapixel, MP wide (26mm, 1/1.72\", 0.8 μm) + 13 megapixel, MP ultrawide, (f/2.4, 13mm, 1.12 μm) + 8 megapixel, MP telephoto + 2 megapixel, MP depth sensor, (f/2.4), Autofocus#Phase detection, PDAF, Image stabilizatio",
+      "Front camera": "20 MP, (f/2.2, 27mm, 1/3.4\", 0.8 μm), HDR, 1080p@30fps, 720p@120fps"
+    },
+    "Battery": {
+      "Battery": "4700 mAh, K30 Ultra: 4500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "2G, 3G, 4G, 4G LTE, 5G, Wi-Fi 802.11a/b/g/n/ac (2.4 & 5GHz), dual-band, WiFi Direct, DLNA, hotspot, Bluetooth V5.1, A2DP, Low-energy, aptX-HD"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SM8250 Snapdragon 865",
+    "ram_gb": [
+      6,
+      8,
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "front_mp": 20,
+    "battery_mah": 4700,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 213,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi K30 Pro",
+      "url": "https://en.wikipedia.org/wiki/Redmi_K30_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi K30 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi K30 Pro",
+    "revid": 1361479865
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

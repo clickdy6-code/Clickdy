@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-c5-03",
+  "brand": "Nokia",
+  "name": "C5-03",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Nokia_C5-03.png/500px-Nokia_C5-03.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Nokia_C5-03.png/250px-Nokia_C5-03.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia C5-03",
+      "credit": "Tiia Monto, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_C5-03.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5230, Nokia 5233, Nokia 5250",
+      "Successor": "Nokia 500, Nokia Asha 311"
+    },
+    "Network": {
+      "Technology": "GSM, EGPRS, WCDMA, HSDPA, A-GPS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "105.8 x 51 x 13.8 mm",
+      "Weight": "93g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.4 + S60 platform 5th Edition (s60v5) (the newer Symbian3 OS was already available when the mobile was announced in October 2010)",
+      "CPU": "ARM11 @ 600 Mhz"
+    },
+    "Memory": {
+      "RAM": "40 MB User Storage, 128 MB SDRAM, 256 MB NAND",
+      "Card slot": "max. 16 GB microSDHC (32 GB unofficial), 8 GB card included"
+    },
+    "Display": {
+      "Display": "nHD 640 x 360 pixels, 3.2 inch 16:9 widescreen, (16.7 million colours) transmissive LCD technology"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 Megapixels, Video resolution: 640x352, 15fps",
+      "Front camera": "No dual camera"
+    },
+    "Battery": {
+      "Battery": "BL-4U (3.7V 1000mAh); 2 mm charging connector"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 (EDR/A2DP), WLAN (802.11 b/g), MicroUSB 2.0; 3.5 mm headphone and video-out jack"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "LCD",
+    "battery_mah": 1000,
+    "os": "Symbian OS 9.4 + S60 platform 5th Edition (s60v5) (the newer Symbian3 OS was already available when the mobile was announced in October 2010)",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 93
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C5-03",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C5-03"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C5-03\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C5-03",
+    "revid": 1361478150
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

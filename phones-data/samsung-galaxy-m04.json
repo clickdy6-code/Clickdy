@@ -1,0 +1,90 @@
+{
+  "slug": "samsung-galaxy-m04",
+  "brand": "Samsung",
+  "name": "Galaxy M04",
+  "status": "published",
+  "announced": "2022-12-10",
+  "released": "2022-12-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-12-10",
+      "Series": "Galaxy M",
+      "Predecessor": "Samsung Galaxy M02",
+      "Successor": "Samsung Galaxy M05"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 12 with One UI Core 4.1",
+      "Chipset": "Mediatek MT6765 Helio P35 (12nm)",
+      "CPU": "Octa-core (4x2.35 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 and 128 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.5 in, Infinity-V Display, PLS LCD, 720 x 1600 px resolution, 20:9 ratio (~270 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2, (wide), AF, 2 MP, f/2.4, (depth), LED flash, 1080p@30fps",
+      "Front camera": "5 MP, f/2.2, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Yes"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh",
+      "Charging": "Fast charging 15W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "LCD",
+    "chipset": "Mediatek MT6765 Helio P35",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 15,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy M04",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M04"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy M04\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy M04",
+    "revid": 1380482439
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

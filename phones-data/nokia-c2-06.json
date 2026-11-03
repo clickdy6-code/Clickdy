@@ -1,0 +1,60 @@
+{
+  "slug": "nokia-c2-06",
+  "brand": "Nokia",
+  "name": "C2-06",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900/1800"
+    },
+    "Body": {
+      "Form factor": "slider",
+      "Dimensions": "103 x 51.4 x 17 mm",
+      "Weight": "118 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 6th edition feature pack 1"
+    },
+    "Memory": {
+      "RAM": "10 MB ROM"
+    },
+    "Display": {
+      "Display": "2.4 inch resistive touch QVGA TFT (262 000 colors, 240x320 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels"
+    },
+    "Battery": {
+      "Battery": "BL-5C 3.7 V 1020 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1+EDR, Micro-USB"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 118
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia C2-06",
+      "url": "https://en.wikipedia.org/wiki/Nokia_C2-06"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia C2-06\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia C2-06",
+    "revid": 1361478107
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "samsung-galaxy-c7",
+  "brand": "Samsung",
+  "name": "Galaxy C7",
+  "status": "published",
+  "announced": "2016-05-26",
+  "released": "2016-05-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "C7: 2016-05-26, C7 Pro: 2017-01-13",
+      "Series": "Galaxy C",
+      "Successor": "Samsung Galaxy C8 / C7 (2017)"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "C7: 156.6 mm H, 77.2 mm W, 6.8 mm DC7 Pro: 156.5 mm H, 77.2 mm W, 7 mm D",
+      "Weight": "C7: 169 g , C7 Pro: 172 g"
+    },
+    "Platform": {
+      "Operating system": "Original:C7: Android (operating system), Android Android Marshmallow, 6.0.1 Marshmallow with TouchWiz Hero UX, C7 Pro: Android 6.0.1 Marshmallow with TouchWiz Grace UXCurrent: Android 8.0 Oreo with Samsung Experience 9.0",
+      "Chipset": "C7: Qualcomm MSM8953 Snapdragon 625 , C7 Pro: Qualcomm MSM8953-Pro Snapdragon 626",
+      "CPU": "C7: Octa-core (2 GHz Cortex-A53) , C7 Pro: Octa-core (2.2 GHz Cortex-A53)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "C7: 32 or 64 GB , C7 Pro: 64 GB , eMMC 5.1",
+      "Card slot": "microSDXC, up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.7 inch 1080 × 1920 pixels (386 ppi) Super AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP, AF , dual-LED (dual tone) flash, HDR, panorama , Video: 1080p @ 30 fps",
+      "Front camera": "C7: 8 MP, C7 Pro: 16 MP, 27 mm (wide), 1/3.06\", 1 μm , Video: 1080p @ 30 fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 3300 mAh",
+      "Charging": "18 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi :IEEE 802.11, 802.11 IEEE 802.11a-1999, a/IEEE 802.11b-1999, b/IEEE 802.11g-2003, g/IEEE 802.11n-2009, n/IEEE 802.11ac-2013, ac (2.4/5 GHz) (dual-band, Wi-Fi Direct, Digital Living Network Alliance, DLNA), GPS/GLONASS/BeiDou (C7), Near-field communication, NFC, Bluetooth 4.2, USB hardware#Micro connectors, MicroUSB (C7) / USB-C (C7 Pro) (USB#2.0, USB 2.0, USB On-The-Go, USB OTG), 3.50 mm Phone connector (audio), headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "Super AMOLED",
+    "chipset": "C7: Qualcomm MSM8953 Snapdragon 625",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3300,
+    "wired_w": 18,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 169,
+    "thickness_mm": 6.8,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy C7",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_C7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy C7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy C7",
+    "revid": 1361481515
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

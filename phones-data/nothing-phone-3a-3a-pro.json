@@ -1,0 +1,101 @@
+{
+  "slug": "nothing-phone-3a-3a-pro",
+  "brand": "Nothing",
+  "name": "Phone 3a/3a Pro",
+  "status": "published",
+  "announced": "2025-03-04",
+  "released": "2025-03-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nothing_Phone_%283a%29_Pro_20250628.jpg/500px-Nothing_Phone_%283a%29_Pro_20250628.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Nothing_Phone_%283a%29_Pro_20250628.jpg/250px-Nothing_Phone_%283a%29_Pro_20250628.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nothing Phone 3a/3a Pro",
+      "credit": "Steven Sun, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nothing_Phone_(3a)_Pro_20250628.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-03-04",
+      "Series": "Phone",
+      "Predecessor": "Phone 2a"
+    },
+    "Network": {
+      "SIM": "Dual-SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.5 mm H , 77.5 mm W , 8.4 mm D",
+      "Weight": "3a: 201g , 3a Pro: 211g"
+    },
+    "Platform": {
+      "Operating system": "Android 16 with Nothing OS 4.0, (up to 3 years of Android upgrades and 6 years of security patches)",
+      "Chipset": "Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)",
+      "CPU": "Octa-core (1x2.5 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520)",
+      "GPU": "Adreno 710 (940 MHz)"
+    },
+    "Memory": {
+      "RAM": "128 GB: 8 GB RAM , 256 GB: 12 GB RAM, LPDDR4X",
+      "Storage": "128 and 256 GB, UFS 2.2"
+    },
+    "Display": {
+      "Display": "Type: LTPS Flexible AMOLED, 1B colors, 120Hz, HDR10+, 800 nits (typ), 1300 nits (HBM), 3000 nits (peak), Size: 6.77 in , ~88.0% screen-to-body ratio, Resolution: 1080 x 2392 pixels, Protection: Panda Glass"
+    },
+    "Cameras": {
+      "Rear camera": "3a Triple camera Setup , ISOCELL, Samsung ISOCELL GN9 50 MP, f/1.88, 24mm (wide), 1/1.57\", 1.0µm, PDAF, OIS, ISOCELL, Samsung ISOCELL GN5 50 MP, f/2.0, 50mm (telephoto), 1/2.74\", 0.64µm, PDAF (25cm - ∞), 2x optical zoom, Exmor#Versions, Sony IMX 355, 8 MP, f/2.2, 15mm, 120˚ (ultrawide), 1/4.0\", 1.12µm, 3a Pro Camera Setup , Samsung GNJ, 50 MP, f/1.9, 24mm (wide), 1/1.57\", 1.0µm, dual pixel PDAF, OIS, Sony LYT-600, 50 MP, f/2.6, 70mm (periscope telephoto) (15cm - ∞), 1/1.95\", 0.8µm, PDAF, OIS, 3x optical zoom, Sony IMX 366, 8 MP, f/2.2, 15mm, 120˚ (ultrawide), 1/4.0\", 1.12µm",
+      "Front camera": "3a: 32 MP, f/2.2, 22mm (wide), 1/3.44\", 3a Pro: 50 MP, f/2.2, 24mm (wide), 1/2.76\""
+    },
+    "Battery": {
+      "Battery": "5000 mAh, li-ion, removable",
+      "Charging": "50 W wired, 50% in 19 min, 100% in 56 min"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.4 , A2DP, LE NFC, GPS, GLONASS, BDS, GALILEO, QZSS, WiFi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct"
+    }
+  },
+  "key": {
+    "display_in": 6.77,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 3000,
+    "chipset": "Qualcomm SM7635 Snapdragon 7s Gen 3",
+    "ram_gb": [
+      8,
+      12,
+      28,
+      56
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 5000,
+    "wired_w": 50,
+    "os": "Android 16",
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 201,
+    "thickness_mm": 8.4,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nothing Phone 3a/3a Pro",
+      "url": "https://en.wikipedia.org/wiki/Nothing_Phone_3a/3a_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nothing Phone 3a/3a Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nothing Phone 3a/3a Pro",
+    "revid": 1383526675
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

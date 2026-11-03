@@ -1,0 +1,81 @@
+{
+  "slug": "samsung-galaxy-tab-4-education",
+  "brand": "Samsung",
+  "name": "Galaxy Tab 4 Education",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Galaxy_Tab_4_pro_10.1_jeh.jpg/500px-Galaxy_Tab_4_pro_10.1_jeh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Galaxy_Tab_4_pro_10.1_jeh.jpg/250px-Galaxy_Tab_4_pro_10.1_jeh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Tab 4 Education",
+      "credit": "Jim.henderson, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Galaxy_Tab_4_pro_10.1_jeh.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 2014",
+      "Series": "Galaxy Tab",
+      "Predecessor": "Samsung Galaxy Tab"
+    },
+    "Body": {
+      "Form factor": "Tablet, media player, PC",
+      "Dimensions": "243.33 mm H, 176.27 mm W, 7.87 mm D",
+      "Weight": "490 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 \"KitKat\" With, TouchWiz",
+      "CPU": "1.2 GHz quad-core ARM",
+      "GPU": "No"
+    },
+    "Memory": {
+      "RAM": "1.5 GB",
+      "Storage": "16 GB flash memory, microSD slot (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "1280×800 px"
+    },
+    "Cameras": {
+      "Rear camera": "Yes"
+    },
+    "Battery": {
+      "Battery": "6,800 mAh Li-Ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n, Bluetooth 3.0, HDMI (external cable)"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16,
+      64
+    ],
+    "battery_mah": 6800,
+    "os": "Android 4.4",
+    "nfc": false,
+    "weight_g": 490,
+    "thickness_mm": 7.87,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Tab 4 Education",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_4_Education"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Tab 4 Education\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy Tab 4 Education",
+    "revid": 1361482973
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

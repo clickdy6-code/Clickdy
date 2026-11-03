@@ -1,0 +1,82 @@
+{
+  "slug": "nokia-asha-311",
+  "brand": "Nokia",
+  "name": "Asha 311",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Nokia_Asha_311.png/500px-Nokia_Asha_311.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Nokia_Asha_311.png/250px-Nokia_Asha_311.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Asha 311",
+      "credit": "AnVuong1222004 (1), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_Asha_311.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Full Touch",
+      "Predecessor": "Nokia C5-03, Nokia Asha 303",
+      "Successor": "Nokia Lumia 505, Nokia Lumia 510"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, GPRS/EDGE class B, multislot class 33, UMTS 850 / 900 / 1700 / 1900 / 2100, HSDPA Cat10, 14.4 Mbps, HSUPA Cat6 5.7 Mbps"
+    },
+    "Body": {
+      "Form factor": "Full Touch candybar",
+      "Dimensions": "Width: 52 mm, Height: 106 mm, Thickness: 12.9 mm",
+      "Weight": "95 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Asha Series 40 OS",
+      "CPU": "ARM11 1 GHz Samsung K5W2G1GACT – AP50 processor"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM, 256 MB ROM",
+      "Storage": "256 MB ROM memory (140 MB available to end user)",
+      "Card slot": "up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "240 x 400 px (WQVGA), 3.0\", 18 bits"
+    },
+    "Cameras": {
+      "Rear camera": "3.6MP (CMOS sensor) EDoF",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "BL-4U 1100 mAh Li-Ion battery (removable), Charging with micro-USB and 2 mm DC plug"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g/n (2.4 GHz), Bluetooth 2.1 +EDR, micro-USB 2.0, USB On-the-Go 1.3, 3.5 mm AV connector (audio in/out), SIM card, FM receiver with RDS"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "main_mp": 3.6,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 95,
+    "thickness_mm": 12.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Asha 311",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Asha_311"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Asha 311\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Asha 311",
+    "revid": 1363703803
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

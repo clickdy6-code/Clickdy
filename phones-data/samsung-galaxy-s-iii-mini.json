@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-galaxy-s-iii-mini",
+  "brand": "Samsung",
+  "name": "Galaxy S III Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Samsung_Galaxy_S_III_mini.png/500px-Samsung_Galaxy_S_III_mini.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Samsung_Galaxy_S_III_mini.png/250px-Samsung_Galaxy_S_III_mini.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy S III Mini",
+      "credit": "[1], CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_III_mini.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-10",
+      "Series": "Galaxy",
+      "Predecessor": "Samsung Galaxy W and Galaxy Mini 2",
+      "Successor": "Samsung Galaxy S4 Mini"
+    },
+    "Network": {
+      "Technology": "2G: GSM 850/900/1800/1900 MHz, 3G: HSDPA 900/1900/2100 MHz 3.5G: GSM 850/900/1800/1900 MHz, CDMA2000 800, 1900 MHz (Verizon Variant)"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "121.55 mm × 63 mm × 9.9 mm",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.1.1 \"Jelly Bean\", Current: Android 4.1.2 \"Jelly Bean\", Android 4.4.2 \"KitKat\" (AT&T and Verizon Wireless Galaxy S3 Mini only), Android 4.2.2 \"Jelly Bean\" (i8200 models only), Unofficial: Android 7.1.2 \"Nougat\" via LineageOS 14.1",
+      "Chipset": "ST-Ericsson NovaThor U8500 (GT-I8190), Marvell PXA986 (GT-I8200)",
+      "CPU": "1 GHz dual-core ARM Cortex-A9 (GT-I8190), 1.2 GHz dual-core ARM Cortex-A9 (GT-I8200), 1.2 GHz dual-core Krait (North American variant)",
+      "GPU": "ARM Mali-400 MP1 (GT-I8190), Vivante GC1000 (GT-I8200), Adreno 305 (North American variant)"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 / 16 flash (3.5 GB not available due to Android software and preinstalled apps)",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "4 in Super AMOLED PenTile 480×800 resolution (~233 PPI)"
+    },
+    "Cameras": {
+      "Rear camera": "5 Mpx with auto focus, 720p 30 fps HD video recording (at 12 Mbit/s, 128 kbit/s audio), single LED flash",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1500 mAh two versions: 3-pin & 4-pin & 2000 mAh (U.S. and Canada)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS, HSPA, Bluetooth 4.0+LE, Wi-Fi & Hotspot, DLNA, Kies Air, micro USB 2.0, NFC (GT-I8190N/GT-I8200N/SM-G730A/SM-G730V only)"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "Super AMOLED",
+    "chipset": "ST-Ericsson NovaThor U8500",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      5
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 1500,
+    "os": "Android 4.1",
+    "five_g": true,
+    "nfc": true,
+    "weight_g": 120,
+    "thickness_mm": 9.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy S III Mini",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy S III Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Galaxy S III Mini",
+    "revid": 1380483086
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

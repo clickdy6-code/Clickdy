@@ -1,0 +1,83 @@
+{
+  "slug": "nokia-lumia-822",
+  "brand": "Nokia",
+  "name": "Lumia 822",
+  "status": "published",
+  "announced": "2012-11-15",
+  "released": "2012-11-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "15 November 2012",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 800",
+      "Successor": "Nokia Lumia 830"
+    },
+    "Network": {
+      "Technology": "CDMA2000 1xEV-DO, GSM/GPRS/EDGE 850/900/1800/1900, HSPA 850/900/1900/2100, LTE Band 13 (700)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "127.8 mm H , 68.4 mm W , 11.2 mm D",
+      "Weight": "142 g",
+      "Other": "Talk time: Up to 10.2 hours , Standby time: Up to 486 hours (approx. 20.3 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8960",
+      "CPU": "1.5 GHz dual-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 225"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB internal flash",
+      "Card slot": "microSD, up to 64 GB"
+    },
+    "Display": {
+      "Display": "4.3\" AMOLED ClearBlack capacitive touchscreen, 800 x 480 pixels at 216.97 ppi, 16.7m-color, RGB Stripe, Gorilla Glass 2"
+    },
+    "Cameras": {
+      "Rear camera": "8.0-megapixel, 3264 x 2448 pixels, f/2.2, Short Pulse High Power Dual-LED flash, autofocus, Carl Zeiss optics, 1080p video capture",
+      "Front camera": "1.3-megapixel, 1280 x 960 pixels, 720p video capture"
+    },
+    "Battery": {
+      "Battery": "Rechargeable BP-4W 1800mAh Li-ion battery, Qi inductive charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0, Wi-Fi 802.11a/b/g/n, NFC, microUSB v2.0, USB On-The-Go, GPS with A-GPS & GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon S4 MSM8960",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1800,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 142,
+    "thickness_mm": 11.2,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia Lumia 822",
+      "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_822"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia Lumia 822\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia Lumia 822",
+    "revid": 1361478373
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

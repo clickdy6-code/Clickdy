@@ -1,0 +1,101 @@
+{
+  "slug": "oppo-a79-5g",
+  "brand": "OPPO",
+  "name": "A79 5G",
+  "status": "published",
+  "announced": "2023-10-27",
+  "released": "2023-10-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/OPPO_A2%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg/500px-OPPO_A2%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/OPPO_A2%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg/250px-OPPO_A2%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "OPPO A79 5G",
+      "credit": "メイド理世, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OPPO_A2%EF%BC%882024%E5%B9%B42%E6%9C%8820%E6%97%A5%EF%BC%89.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A79 5G: 2023-10-27, A2: 2023-11-03, A1s: 2024-04-16, OnePlus Nord N30 SE: 2024-01-29",
+      "Series": "Oppo A / OnePlus Nord",
+      "Predecessor": "Oppo A78 5G, Oppo A1 5G, OnePlus Nord N20 SE",
+      "Successor": "Oppo A3 Pro 5G / A80, Oppo A3 (2024), OnePlus N6"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.6 × 76 × 8 mm",
+      "Weight": "193 g"
+    },
+    "Platform": {
+      "Operating system": "A79 5G / A2: Initial: Android 13 with ColorOS 13.1, Current: Android 15 with ColorOS 15, OnePlus Nord N30 SE: Initial: Android 13 with OxygenOS 13.1, Current: Android 15 with OxygenOS 15",
+      "Chipset": "MediaTek Dimensity 6020 (7 nm)",
+      "CPU": "Octa-core (2×2.2 GHz Cortex-A76 & 6×2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "A79 5G: 4/8 GB, A2 / A1s: 12 GB, OnePlus Nord N30 SE: 4 GB, LPDDR4X",
+      "Storage": "A79 5G: 128/256 GB, A2 / A1s: 256/512 GB, OnePlus Nord N30 SE: 128 GB, UFS 2.2",
+      "Card slot": "MicroSDXC (up to 1 TB)"
+    },
+    "Display": {
+      "Display": "IPS LCD, 90 Hz, 6.72\", 2400 × 1080 (FHD+), 20:9 ratio, 392 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, (wide), 1/2.76\", 0.64 µm, PDAF + 2 MP, (depth), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, (wide), 1/4\", 1.12 µm, HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "Fast charging up to 33W"
+    }
+  },
+  "key": {
+    "display_in": 6.72,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "MediaTek Dimensity 6020",
+    "ram_gb": [
+      4,
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 33,
+    "os": "Android 13",
+    "five_g": true,
+    "dual_sim": true,
+    "weight_g": 193,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Oppo A79 5G",
+      "url": "https://en.wikipedia.org/wiki/Oppo_A79_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Oppo A79 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Oppo A79 5G",
+    "revid": 1374699857
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

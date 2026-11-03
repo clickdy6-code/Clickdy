@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-5230",
+  "brand": "Nokia",
+  "name": "5230",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Nokia-5230-black1.jpg/500px-Nokia-5230-black1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Nokia-5230-black1.jpg/250px-Nokia-5230-black1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5230",
+      "credit": "Anton Bagrin, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia-5230-black1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5220",
+      "Successor": "Nokia 5250, Nokia C5-03"
+    },
+    "Network": {
+      "Technology": "Nokia 5230: GSM/EDGE: 850/900/1800/1900, WCDMA: 850/1700/2100 (Nuron), 850/900/1900/2100 (non-Nuron), Nokia 5233/5228: GSM/UMTS/EGPRS Quad-Band 850/900/1800/1900 MHz, GPS"
+    },
+    "Body": {
+      "Form factor": "Candybar, Touchscreen",
+      "Dimensions": "111 x 51.7 x 15.5 mm",
+      "Weight": "115 g (with stylus)"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.4 S60v5 (Firmware Version V51.0.002)",
+      "CPU": "Single-core CPU, 434 MHz ARM11"
+    },
+    "Memory": {
+      "RAM": "128 MB DDR SDRAM, 256 MB NAND, 80 MB Internal User Storage (Nuron RM-588), 128 MB DDR SDRAM, 512 MB NAND, 320 MB Internal User Storage (non-Nuron RM-594 & RM-629)",
+      "Card slot": "Micro SD Memory Card Slot, with hot swap max. 16 GB"
+    },
+    "Display": {
+      "Display": "3.2 inches 640 x 360 nHD with 16:9 picture resistive touchscreen LCD TFT (16.7 million colours) and Brilliant quality display 14MP"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels (1600 x 1200)"
+    },
+    "Battery": {
+      "Battery": "BL-5J , 1320 mAh Li-Ion standard battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB connector, USB 2.0 high speed, 3.5 mm Nokia AV connector, Bluetooth version 2.0 with A2DP and AVRCP, GPS, AGPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "LCD",
+    "battery_mah": 1320,
+    "os": "Symbian OS v9.4 S60v5 (Firmware Version V51.0.002)",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 115
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5230",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5230"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5230\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5230",
+    "revid": 1381175976
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

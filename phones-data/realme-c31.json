@@ -1,0 +1,89 @@
+{
+  "slug": "realme-c31",
+  "brand": "Realme",
+  "name": "C31",
+  "status": "published",
+  "announced": "2022-03-25",
+  "released": "2022-03-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-03-25",
+      "Series": "C",
+      "Predecessor": "Realme C21",
+      "Successor": "Realme C51"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slab",
+      "Dimensions": "164.7 × 76.1 × 8.4 mm",
+      "Weight": "197 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 11 + realme UI R Edition, Current: Android 13 + realme UI T Edition",
+      "Chipset": "UNISOC T612 (12 nm)",
+      "CPU": "Octa-core (2×1.8 GHz Cortex-A75 & 6×1.8 GHz Cortex-A53)",
+      "GPU": "Mali-G57"
+    },
+    "Memory": {
+      "RAM": "3/4 GB LPDDR4X",
+      "Storage": "32/64 GB UFS 2.2",
+      "Card slot": "MicroSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1600 × 720 (HD+), 20:9, 270 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, 26 mm (wide-angle), 1/3.06\", 1.12 μm, AF + 2 MP, (macro) + 0.3 MP, (B/W), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, 27 mm (wide-angle), 1/5\", 1.12 μm, HDR, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 5.0 (A2DP, LE), Wi-Fi 802.11 b/g/n, GPS (A-GPS), GLONASS, Galileo, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "chipset": "UNISOC T612",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 197,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Realme C31",
+      "url": "https://en.wikipedia.org/wiki/Realme_C31"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Realme C31\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Realme C31",
+    "revid": 1361479653
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

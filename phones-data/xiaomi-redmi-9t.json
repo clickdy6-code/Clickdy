@@ -1,0 +1,78 @@
+{
+  "slug": "xiaomi-redmi-9t",
+  "brand": "Xiaomi",
+  "name": "Redmi 9T",
+  "status": "published",
+  "announced": "2020-11-24",
+  "released": "2020-11-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Redmi_Note_9_4G.jpg/500px-Redmi_Note_9_4G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Redmi_Note_9_4G.jpg/250px-Redmi_Note_9_4G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Redmi 9T",
+      "credit": "洛微, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_Note_9_4G.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Poco M3: 2020-11-24, Note 9 4G: 2020-11-26, 9 Power: 2020-12-17, 9T: 2021-01-08",
+      "Predecessor": "Redmi Note 8, Poco M2",
+      "Successor": "Redmi 10 5G, Redmi Note 11 4G, Redmi 10 Power"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA (Note 9 4G) / HSPA / LTE",
+      "SIM": "Nano-SIM + Nano-SIM"
+    },
+    "Body": {
+      "Dimensions": "162.3 x 77.3 x 9.6 mm (6.39 x 3.04 x 0.38 in)",
+      "Weight": "198 g (6.98 oz)"
+    },
+    "Platform": {
+      "Operating system": "9T/9 Power/Note 9 4G:, Initial: Android 10 + MIUI 12, Current: Android 12 + MIUI 14, Poco M3:, Initial: Android 10 + MIUI 12 for POCO, Current: Android 12 + MIUI 14 for POCO",
+      "CPU": "Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "Storage": "9T/9 Power/Poco M3: 64GB/128GB storage, microSDXC, Note 9 4G: 128GB/256GB storage, microSDXC"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-Camera Setup, Redmi 9T / 9 Power / Note 9:, Primary: Samsung ISOCELL (S5K)GM1st; 48 Megapixel, MP, 26mm (wide), 1/2.0\", 0.8 Micrometre, µm, Phase detection autofocus, PDAF, Ultra wide angle lens, Ultrawide: 8 Megapixel, MP, FoV 118° (Note 9), 120° (9T / 9 Power), 1/4.0\", 1.12 Micrometre, µm, FF, Macro: Hynix Hi-259; 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, FF (9T / 9 Power), AF (Note 9), Depth: OmniVision OV02B1B; 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, Triple-Camera Setup, Poco M3:, Primary: Samsung ISOCELL (S5K)GM1st; 48 Megapixel, MP, 26mm (wide), FoV 80.7°, 1/2.0\", 0.8 Micrometre, µm, Phase detection autofocus, PDAF, Macro: Hynix Hi-259; 2 Megapixel, MP, 1/5.0\", 1.75 Micr",
+      "Front camera": "9T/9 Power/Note 9 8 MP, f/2.0 or 2.1, 27mm (wide), 1/4.0\", 1.12μm, Poco M3 8 MP, f/2.1, (wide), 1/4.0\", 1.12μm"
+    },
+    "Battery": {
+      "Battery": "Li-Po 6000 mAh",
+      "Charging": "18W wired, 2.5W reverse wired"
+    }
+  },
+  "key": {
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "front_mp": 8,
+    "battery_mah": 6000,
+    "wired_w": 18,
+    "os": "Android 10",
+    "five_g": false,
+    "weight_g": 198,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 9T",
+      "url": "https://en.wikipedia.org/wiki/Redmi_9T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 9T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 9T",
+    "revid": 1365435682
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

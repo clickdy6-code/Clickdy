@@ -1,0 +1,88 @@
+{
+  "slug": "samsung-galaxy-watch-5",
+  "brand": "Samsung",
+  "name": "Galaxy Watch 5",
+  "status": "published",
+  "announced": "2022-08-10",
+  "released": "2022-08-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/SAMSUNG_Galaxy_Watch_5_%28cropped%29.jpg/500px-SAMSUNG_Galaxy_Watch_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/SAMSUNG_Galaxy_Watch_5_%28cropped%29.jpg/250px-SAMSUNG_Galaxy_Watch_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Galaxy Watch 5",
+      "credit": "Dinkun Chen, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_Watch_5_(cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-08-10",
+      "Series": "Galaxy Watch",
+      "Predecessor": "Samsung Galaxy Watch 4",
+      "Successor": "Samsung Galaxy Watch 6"
+    },
+    "Network": {
+      "Technology": "3G / 4G",
+      "SIM": "eSIM"
+    },
+    "Body": {
+      "Form factor": "Smart Watch",
+      "Dimensions": "(40 mm), 40.4 mm H, 39.3 mm W, 9.8 mm D, (44 mm), 44.4 mm H, 43.3 mm W, 9.8 mm D",
+      "Weight": "28.7 g (40 mm), 33.5 g (44 mm)"
+    },
+    "Platform": {
+      "Operating system": "Original: Wear OS 4.5 with One UI Watch 4, Current: Wear OS 6 with One UI Watch 8",
+      "Chipset": "Exynos W920 (5 nm)",
+      "CPU": "Dual-core 1.18 GHz Cortex-A55",
+      "GPU": "Mali-G68 MP2"
+    },
+    "Memory": {
+      "RAM": "1.5 GB RAM",
+      "Storage": "16 GB"
+    },
+    "Display": {
+      "Display": "1.19 in RGB stripe AMOLED, 396 x 396p (~330 ppi), 1.36 in RGB stripe AMOLED, 450 x 450p (~327 ppi)"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion, 284 mAh (40 mm), 410 mAh (44 mm), 590 mAh (Pro)",
+      "Charging": "Wireless up to 10W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, dual-band, Bluetooth 5.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "chipset": "Exynos W920",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 284,
+    "wireless_w": 10,
+    "five_g": false,
+    "nfc": false,
+    "esim": true,
+    "weight_g": 28.7,
+    "thickness_mm": 39.3,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Galaxy Watch 5",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Watch_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Galaxy Watch 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Samsung Galaxy Watch 5",
+    "revid": 1380484612
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

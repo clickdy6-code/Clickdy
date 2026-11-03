@@ -1,0 +1,106 @@
+{
+  "slug": "xiaomi-poco-m5",
+  "brand": "Xiaomi",
+  "name": "Poco M5",
+  "status": "published",
+  "announced": "2022-09-05",
+  "released": "2022-09-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/POCO_M5_front.jpg/500px-POCO_M5_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/POCO_M5_front.jpg/250px-POCO_M5_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Poco M5",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:POCO_M5_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "M5: 2022-09-05, Redmi 11 Prime: 2022-09-06",
+      "Series": "Poco M/Redmi",
+      "Predecessor": "Poco M4 5G , Redmi 10 Prime",
+      "Successor": "Poco M6 , Poco M6 5G , Redmi 12"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164 mm H , 76.1 mm W , 8.9 mm D",
+      "Weight": "201 g"
+    },
+    "Platform": {
+      "Operating system": "Original: , M5: Android 12, MIUI 13 for Poco , Redmi 11 Prime: Android 12, MIUI 13, Current: Android 14, Xiaomi HyperOS",
+      "Chipset": "MediaTek MT8781 Helio G99 (7 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "4 GB, 6 GB LPDDR4X RAM",
+      "Storage": "64 GB, 128 GB UFS 2.2",
+      "Card slot": "microSDXC expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.58 in, 104.3 cm2 (~83.6% screen-to-body ratio), 1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, 26mm (wide), PDAF, 2 MP, (macro), 2 MP, (depth), Video: 1080p@30fps",
+      "Front camera": "M5: 5 MP, (wide), 1/5.0\", 1.12 μm, M5 (India): 8 MP, (wide), 1/4.0\", 1.12 μm, Redmi 11 Prime: 8 MP, (wide), Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh",
+      "Charging": "Fast charging 18 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Type-C 2.0, Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Bluetooth 5.3 (M5)/5.1 (Redmi 11 Prime), A2DP, LE, A-GPS, GLONASS, BDS, GALILEO"
+    }
+  },
+  "key": {
+    "display_in": 6.58,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT8781 Helio G99",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 201,
+    "thickness_mm": 8.9,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Poco M5",
+      "url": "https://en.wikipedia.org/wiki/Poco_M5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Poco M5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Poco M5",
+    "revid": 1361479443
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

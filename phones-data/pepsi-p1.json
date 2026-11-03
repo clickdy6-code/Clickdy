@@ -1,0 +1,82 @@
+{
+  "slug": "pepsi-p1",
+  "brand": "Pepsi",
+  "name": "P1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-11 (China)"
+    },
+    "Network": {
+      "Technology": "4G LTE (Pepsi P1), China Unicom FDD-LTE (Pepsi P1S)"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "152.2 mm × 76.2 mm × 7.7 mm",
+      "Weight": "158 g"
+    },
+    "Platform": {
+      "Operating system": "dido OS 6.1, (based on Android 5.1 Lollipop)",
+      "Chipset": "MediaTek MT6592",
+      "GPU": "Mali 450-MP4"
+    },
+    "Memory": {
+      "RAM": "2GB RAM",
+      "Storage": "16GB",
+      "Card slot": "Micro SD card, (can't be used alongside a second SIM card)"
+    },
+    "Display": {
+      "Display": "5.5 in 1080p 2.5D display"
+    },
+    "Cameras": {
+      "Rear camera": "13MP with LED flash",
+      "Front camera": "5MP"
+    },
+    "Battery": {
+      "Battery": "3,000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "4G LTE / 3G, WiFi 802.1 b/g/n, Bluetooth 4.0, GPS, Micro USB"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "chipset": "MediaTek MT6592",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 0,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 158,
+    "thickness_mm": 7.7,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Pepsi P1",
+      "url": "https://en.wikipedia.org/wiki/Pepsi_P1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Pepsi P1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Pepsi P1",
+    "revid": 1372475891
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

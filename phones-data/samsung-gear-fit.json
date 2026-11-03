@@ -1,0 +1,57 @@
+{
+  "slug": "samsung-gear-fit",
+  "brand": "Samsung",
+  "name": "Gear Fit",
+  "status": "published",
+  "announced": "2014-04-11",
+  "released": "2014-04-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-04-11",
+      "Discontinued": "2016-06-02",
+      "Series": "Samsung Gear",
+      "Successor": "Samsung Gear Fit 2"
+    },
+    "Body": {
+      "Form factor": "fitness wristband, smartwatch",
+      "Dimensions": "23.4 x",
+      "Weight": "27 g"
+    },
+    "Platform": {
+      "Operating system": "Proprietary RTOS",
+      "CPU": "180 MHz ARM Cortex M4"
+    },
+    "Display": {
+      "Display": "Curved AMOLED, 1.84 in diagonal, 432 x 128 pixel"
+    },
+    "Battery": {
+      "Battery": "210 mAh lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth Low Energy"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "battery_mah": 210,
+    "nfc": false,
+    "weight_g": 27,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Samsung Gear Fit",
+      "url": "https://en.wikipedia.org/wiki/Samsung_Gear_Fit"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Samsung Gear Fit\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Samsung Gear Fit",
+    "revid": 1369967914
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}
