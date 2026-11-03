@@ -1,0 +1,89 @@
+{
+  "slug": "huawei-mate-10",
+  "brand": "Huawei",
+  "name": "Mate 10",
+  "status": "published",
+  "announced": "2017-10-16",
+  "released": "2017-10-16",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-10-16",
+      "Series": "Huawei Mate",
+      "Predecessor": "Huawei Mate 9",
+      "Successor": "Huawei Mate 20"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Weight": "Mate 10: 186 g, Mate 10 Pro/PD: 178 g",
+      "Other": "Gorilla Glass 5, NFC"
+    },
+    "Platform": {
+      "Operating system": "Android 10.0 Q with EMUI, Current: China: HarmonyOS 3",
+      "Chipset": "HiSilicon Kirin 970",
+      "CPU": "Octa-Core CPU (4*Cortex A73 2.36GHz + 4*Cortex A53 1.8GHz) + i7 co-processor + NPU (Neural Network Processing Unit)",
+      "GPU": "Mali-G72 MP12 850MHz"
+    },
+    "Memory": {
+      "RAM": "Mate 10 & 10 Pro: 4/6 GB RAM LPDDR4X 1833MHz, Mate 10 Porsche Design: 6GB RAM LPDDR4X 1833MHz",
+      "Storage": "Mate 10: 64 GB UFS 2.1, Mate 10 Pro: 64/128 GB UFS 2.1, Mate 10 Porsche Design: 256 GB UFS 2.1",
+      "Card slot": "microSD up to 256 GB (Mate 10) (uses SIM 2 slot)"
+    },
+    "Display": {
+      "Display": "Max 730 Nits, HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "20MP Monochrome, 12MP RGB OIS, f/1.6, BSI CMOS, Dual-LED flash, PDAF+CAF+Laser+Depth AF, 2x Hybrid Zoom, 4K Video, RAW (DNG) (Only in 12MP Pro Mode), Leica Certified",
+      "Front camera": "8MP FF f/2.0, 1080p Video"
+    },
+    "Sound": {
+      "Sound": "3.5mm Headphone Jack (Mate 10), Stereo Speakers, 32-bit/384kHz Dual DAC, Active Noise Cancellation With Dedicated Mic"
+    },
+    "Battery": {
+      "Battery": "4,000 mAh Li-Po battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 2.4G/5G, 802.11a/b/g/n/ac with Wi-Fi Direct support, BT4.2, BLE, aptX/aptX HD and LDAC HD Audio, USB Type C 3.1, DisplayPort 1.2"
+    }
+  },
+  "key": {
+    "peak_nits": 730,
+    "chipset": "HiSilicon Kirin 970",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 20,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 10.0",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 186,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate 10",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate 10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Mate 10",
+    "revid": 1382850486
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

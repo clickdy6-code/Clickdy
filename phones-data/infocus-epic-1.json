@@ -1,0 +1,77 @@
+{
+  "slug": "infocus-epic-1",
+  "brand": "InFocus",
+  "name": "Epic 1",
+  "status": "published",
+  "announced": "2016-10-25",
+  "released": "2016-10-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-10-25"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, LTE (telecommunication), LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153 x",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 \"Marshmallow\" with InLife UI 2.0",
+      "Chipset": "MT6797M",
+      "CPU": "Deca Core 1.4 GHz Helio X20"
+    },
+    "Memory": {
+      "RAM": "3 RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD, expandable up to 128 GB"
+    },
+    "Display": {
+      "Display": "1080x1920 1080p FHD LTPS touchscreen, 16M colors, 13.97 in)"
+    },
+    "Cameras": {
+      "Rear camera": "16, PDAF, 1080p at 30 fps",
+      "Front camera": "8 MP, f/2.0, 1080p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, vibration, active noise cancellation"
+    },
+    "Battery": {
+      "Battery": "3000 mAh (non-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM, WCDMA, LTE-FDD, TD-LTE, LTE"
+    }
+  },
+  "key": {
+    "display_in": 3.97,
+    "chipset": "MT6797M",
+    "storage_gb": [
+      32
+    ],
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 160,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: InFocus Epic 1",
+      "url": "https://en.wikipedia.org/wiki/InFocus_Epic_1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"InFocus Epic 1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "InFocus Epic 1",
+    "revid": 1361474634
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

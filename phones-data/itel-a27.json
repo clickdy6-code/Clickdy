@@ -1,0 +1,87 @@
+{
+  "slug": "itel-a27",
+  "brand": "itel",
+  "name": "A27",
+  "status": "published",
+  "announced": "2022-02-15",
+  "released": "2022-02-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-02-15",
+      "Series": "A series"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153 x",
+      "Weight": "188.8 g"
+    },
+    "Platform": {
+      "Operating system": "ItelOS 7.6.0 (Android 11 Go edition)",
+      "Chipset": "Unisoc SC9832E (28 nm)",
+      "CPU": "Quad-core 1.4 GHz Cortex-A53",
+      "GPU": "Mali-T820 MP1"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3",
+      "Storage": "32 GB eMMC 5.1",
+      "Card slot": "microSDXC (dedicated slot) up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.45 inches IPS LCD, 480 x 960 pixels, 18:9 ratio (~197 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, f/2.0, LED flash, HDR",
+      "Front camera": "2 MP"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "4,000 mAh non-removable Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, hotspot, Bluetooth 4.2, A2DP, GPS with A-GPS, microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 5.45,
+    "display_type": "IPS LCD",
+    "chipset": "Unisoc SC9832E",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 4000,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 188.8,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel A27",
+      "url": "https://en.wikipedia.org/wiki/Itel_A27"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel A27\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel A27",
+    "revid": 1361474715
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

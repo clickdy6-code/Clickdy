@@ -1,0 +1,106 @@
+{
+  "slug": "xiaomi-black-shark-3",
+  "brand": "Xiaomi",
+  "name": "Black Shark 3",
+  "status": "published",
+  "announced": "2020-03-06",
+  "released": "2020-03-06",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/The_back_of_Blackshark_3.png/500px-The_back_of_Blackshark_3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/The_back_of_Blackshark_3.png/250px-The_back_of_Blackshark_3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Black Shark 3",
+      "credit": "X-SHLIED, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_back_of_Blackshark_3.png",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-03-06",
+      "Series": "Black Shark",
+      "Predecessor": "Black Shark 2",
+      "Successor": "Black Shark 4"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "3/3S: 168.7 mm H , 77.3 mm W , 10.4 mm D, 3 Pro: 177.8 mm H , 83.3 mm W , 10.1 mm D",
+      "Weight": "3/3S: 222 g, 3 Pro: 253 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10 + Joy UI 12",
+      "Chipset": "Qualcomm Snapdragon 865 5G (7 nm+)",
+      "CPU": "Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55)",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8 or 12 GB RAM",
+      "Storage": "3/3S: 128 or 256 GB, 3 Pro: 256 or 512 GB"
+    },
+    "Display": {
+      "Display": "3: 6.67 in, px resolution, 20:9 aspect ratio (~395 ppi density), AMOLED, 90Hz refresh rate, HDR10+, 500 nits (typ), 3 Pro: 7.1 in, px resolution, 19.5:9 aspect ratio (~484 ppi density), AMOLED, 90Hz refresh rate, HDR10+, 500 nits (typ), 3S: 6.67 in, px resolution, 20:9 aspect ratio (~395 ppi density), AMOLED, 120Hz refresh rate, HDR10+, 500 nits (typ)"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, f/1.8, 26mm (wide), 1/1.72\", 0.8μm, PDAF, 13 MP, f/2.3, (ultrawide), 5 MP, f/2.2, (depth), LED flash, HDR, panorama, 4K@30/60fps, 1080p@30/60/240fps, 720p@1920fps",
+      "Front camera": "20 MP, f/2.2, (wide), 1/3\", 0.9μm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "3: Li-Po 4720 mAh, 3 Pro: Li-Po 5000 mAh, 3S: Li-Po 4729 mAh",
+      "Charging": "Fast charging 65W, Fast charging 30W (128/8 model), Magnetic charging 18W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot, Bluetooth\t5.0, A2DP, LE, aptX HD, aptX Adaptive"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 500,
+    "chipset": "Qualcomm Snapdragon 865 5G",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 20,
+    "battery_mah": 4720,
+    "wired_w": 65,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 222,
+    "thickness_mm": 10.4,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Black Shark 3",
+      "url": "https://en.wikipedia.org/wiki/Black_Shark_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Black Shark 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Black Shark 3",
+    "revid": 1361472667
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

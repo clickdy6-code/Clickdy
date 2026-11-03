@@ -1,0 +1,92 @@
+{
+  "slug": "nec-casio-medias-lte-n-04d",
+  "brand": "NEC Casio",
+  "name": "MEDIAS LTE N-04D",
+  "status": "published",
+  "announced": "2012-02-15",
+  "released": "2012-02-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Docomo_MEDIAS_LTE_N-04D_Front.jpg/500px-Docomo_MEDIAS_LTE_N-04D_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Docomo_MEDIAS_LTE_N-04D_Front.jpg/250px-Docomo_MEDIAS_LTE_N-04D_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "NEC Casio MEDIAS LTE N-04D",
+      "credit": "Ntoshi, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Docomo_MEDIAS_LTE_N-04D_Front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-02-15",
+      "Series": "MEDIAS"
+    },
+    "Network": {
+      "Technology": "3.9G: Xi, 3G: FOMA (W-CDMA), 2G: GSM, Wireless LAN (IEEE 802.11b/g/n)",
+      "SIM": "miniUIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "131 mm H / 67 mm W / 10.9 mm D (Thickest part approx. 11.3 mm)",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 (upgradable to 4.0.4)",
+      "Chipset": "Qualcomm Snapdragon S3 APQ8060",
+      "CPU": "1.2 GHz Dual-core",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB ROM (Data folder approx. 10.67 GB)",
+      "Card slot": "microSD (up to 2GB), microSDHC (up to 32GB)"
+    },
+    "Display": {
+      "Display": "4.3 in, 720 × 1280 pixels, TFT, ~16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.1 MP CMOS, HD 1080p video recording, image stabilization, face recognition, aperture"
+    },
+    "Battery": {
+      "Battery": "1520 mAh",
+      "Charging": "Approx. 220 minutes"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S3 APQ8060",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16,
+      67
+    ],
+    "main_mp": 8.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "battery_mah": 1520,
+    "os": "Android 2.3",
+    "five_g": false,
+    "weight_g": 149,
+    "thickness_mm": 10.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: NEC Casio MEDIAS LTE N-04D",
+      "url": "https://en.wikipedia.org/wiki/NEC_Casio_MEDIAS_LTE_N-04D"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"NEC Casio MEDIAS LTE N-04D\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "NEC Casio MEDIAS LTE N-04D",
+    "revid": 1380193799
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

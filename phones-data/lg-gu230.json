@@ -1,0 +1,56 @@
+{
+  "slug": "lg-gu230",
+  "brand": "LG",
+  "name": "GU230",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, GPRS Class 12, EDGE Class 12"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "104 x 48 x 15.2 mm",
+      "Weight": "89g"
+    },
+    "Platform": {
+      "Operating system": "S-Class"
+    },
+    "Display": {
+      "Display": "2.2\""
+    },
+    "Cameras": {
+      "Rear camera": "Yes"
+    },
+    "Battery": {
+      "Battery": "3.7V 900mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 89
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: GU230",
+      "url": "https://en.wikipedia.org/wiki/GU230"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"GU230\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "GU230",
+    "revid": 1361473033
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

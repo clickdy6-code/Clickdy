@@ -1,0 +1,92 @@
+{
+  "slug": "honor-x8-5g",
+  "brand": "Honor",
+  "name": "X8 5G",
+  "status": "published",
+  "announced": "2022-05-10",
+  "released": "2022-05-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Play 30: 2022-05-10, X8 5G: 2022-07-23",
+      "Series": "X/Play",
+      "Predecessor": "Honor 9C, Honor Play 20",
+      "Successor": "Honor Play 40"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.66 × 75.13 × 8.68 mm",
+      "Weight": "194 g"
+    },
+    "Platform": {
+      "Operating system": "X8 5G: Android 11, Magic UI 5.0, Play 30: Android 11 without Google Play, Magic UI 5.0",
+      "Chipset": "Qualcomm SM4350-AC Snapdragon 480+ (8 nm)",
+      "CPU": "(2× 2.2 GHz Kryo 460 & 6× 1.9 GHz Kryo 460)",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "X8 5G: 6 GB, Play 30: 4/8 GB, LPDDR4X",
+      "Storage": "128 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "Both models: TFT LCD, 6.5\", 1600 × 720 (HD+), 20:9, 270 ppi, X8 5G: 60 Hz, Play 30: 90 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "X8 5G: 48 MP, (wide), PDAF + 2 MP, (macro) + 2 MP, (depth), Play 30: 13 MP, (wide), AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "X8 5G: 8 MP, (wide), Play 30: 5 MP, (wide), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "X8 5G: 22.5 W, Play 30: 10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm audio jack, Bluetooth 5.1 (A2DP, LE), FM radio, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, DLNA, hotspot), NFC, GPS, A-GPS, GLONASS, Galileo, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "TFT",
+    "refresh_hz": 90,
+    "chipset": "Qualcomm SM4350-AC Snapdragon 480+",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 22.5,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 194,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor X8 5G",
+      "url": "https://en.wikipedia.org/wiki/Honor_X8_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor X8 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor X8 5G",
+    "revid": 1379067076
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "motorola-v600",
+  "brand": "Motorola",
+  "name": "V600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2004-01",
+      "Series": "V600",
+      "Predecessor": "Motorola V60",
+      "Successor": "Motorola V620 > Motorola V635, Motorola RAZR V3"
+    },
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "88 mm H (folded) , 48 mm W , 24 mm D",
+      "Weight": "115 g (V600/V620), 124 g (V635)"
+    },
+    "Display": {
+      "Display": "176 x 220 px color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "VGA resolution"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "weight_g": 115,
+    "thickness_mm": 24,
+    "year": 2004
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola V600",
+      "url": "https://en.wikipedia.org/wiki/Motorola_V600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola V600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola V600",
+    "revid": 1377226366
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

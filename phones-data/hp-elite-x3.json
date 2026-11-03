@@ -1,0 +1,90 @@
+{
+  "slug": "hp-elite-x3",
+  "brand": "HP",
+  "name": "Elite x3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/HP_Elite_X3.jpg/500px-HP_Elite_X3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/HP_Elite_X3.jpg/250px-HP_Elite_X3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HP Elite x3",
+      "credit": "Languaeditor, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HP_Elite_X3.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 2016"
+    },
+    "Network": {
+      "Technology": "GSM, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.5 mm H, 83.6 mm W, 7.9 mm D",
+      "Weight": "195 g",
+      "Other": "Iris scanner and fingerprint scanner for Windows Hello, Continuum for Phone via HP Desk Dock and Lap Dock, IP67, MIL-STD 810G"
+    },
+    "Platform": {
+      "Operating system": "Windows 10 Mobile",
+      "Chipset": "Qualcomm Snapdragon 820 (MSM8996)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM",
+      "Storage": "64 GB eMMC",
+      "Card slot": "microSD up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.96 in WQHD (2560 x 1440) AMOLED, 494 ppi, Gorilla Glass 4"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP, 4K",
+      "Front camera": "8 MP, 1080p"
+    },
+    "Battery": {
+      "Battery": "4,150 mAh Li-Ion battery, Qi/PMA wireless charging"
+    }
+  },
+  "key": {
+    "display_in": 5.96,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 820",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 8,
+    "battery_mah": 4150,
+    "five_g": false,
+    "ip": "IP67",
+    "weight_g": 195,
+    "thickness_mm": 7.9,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HP Elite x3",
+      "url": "https://en.wikipedia.org/wiki/HP_Elite_x3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HP Elite x3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HP Elite x3",
+    "revid": 1371852662
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

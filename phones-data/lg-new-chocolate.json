@@ -1,0 +1,51 @@
+{
+  "slug": "lg-new-chocolate",
+  "brand": "LG",
+  "name": "New Chocolate",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/BL40.jpg/500px-BL40.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/BL40.jpg/250px-BL40.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG New Chocolate",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BL40.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "LG Chocolate"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G), Quad band GSM / GPRS"
+    },
+    "Body": {
+      "Form factor": "candybar"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, WLAN"
+    }
+  },
+  "key": {
+    "five_g": true,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG New Chocolate (BL40)",
+      "url": "https://en.wikipedia.org/wiki/LG_New_Chocolate_%28BL40%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG New Chocolate (BL40)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG New Chocolate (BL40)",
+    "revid": 1361475171
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

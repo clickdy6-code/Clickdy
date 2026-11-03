@@ -1,0 +1,91 @@
+{
+  "slug": "asus-zenfone-live",
+  "brand": "Asus",
+  "name": "ZenFone Live",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "ZenFone Live",
+      "Predecessor": "Asus ZenFone Go ZB500KL",
+      "Successor": "Asus ZenFone Live (L1)"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G LTE",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 141.2 mm, W: 71.7 mm, D: 8 mm",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 Marshmallow + ZenUI 3.0",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3",
+      "Storage": "16/32 GB eMMC 4.5",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5\", 1280 × 720 (720p), 16:9 ratio, 294 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, 1.4 µm, AF, LED flash"
+    },
+    "Sound": {
+      "Sound": "Mono sound"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 2650 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0 (OTG), 3.5 mm audio jack, Bluetooth 4.0 (A2DP, LE), FM radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct), A-GPS, GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8916 Snapdragon 410",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2650,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 120,
+    "thickness_mm": 8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus ZenFone Live",
+      "url": "https://en.wikipedia.org/wiki/Asus_ZenFone_Live"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus ZenFone Live\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus ZenFone Live",
+    "revid": 1361472626
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "huawei-honor-60",
+  "brand": "Huawei",
+  "name": "Honor 60",
+  "status": "published",
+  "announced": "2021-12-01",
+  "released": "2021-12-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "60/Pro: 2021-12-01, 60 SE: 2022-02-07",
+      "Series": "Honor N",
+      "Predecessor": "Honor 50",
+      "Successor": "Honor 70, Honor 80 SE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "60: 160.4 × 73.8 × 8 mm, 60 Pro: 163.9 × 74.8 × 8.2 mm, 60 SE: 161.3 × 73.4 × 7.7 mm",
+      "Weight": "60: 179 g, 60 Pro: 192 g, 60 SE: 175 g",
+      "Other": "Fingerprint scanner (built-in under the display, optical), proximity sensor, light sensor, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 11 + Magic UI 5.0, Current: Android 13 + Magic UI 7.1",
+      "Chipset": "60: Qualcomm Snapdragon 778G (6 nm), 60 Pro: Qualcomm Snapdragon 778G+ (6 nm), 60 SE: MediaTek MT6877 Dimensity 900 5G (6 nm)",
+      "GPU": "60/Pro: Adreno 642L, 60 SE: Mali-G68 MC4"
+    },
+    "Memory": {
+      "RAM": "8/12 GB, LPDDR4X",
+      "Storage": "60/SE: 128/256 GB, 60 Pro: 256 GB, UFS 2.1"
+    },
+    "Display": {
+      "Display": "All models: OLED, 120 Hz, 60/SE: 6.67\", 2400 × 1080 (FullHD+), 20:9, 395 ppi, HDR10 (60)/HDR (60 SE), 60 Pro: 6.78\", 2652 × 1200, 19.9: 9, 429 ppi, HDR10+"
+    },
+    "Cameras": {
+      "Front camera": "60: 108 Mp, (wide-angle), 1/1.52\", 0.7 μm, PDAF + 8 Mp, 112˚ (ultra-wide) + 2 Mp, (macro), 60 Pro: 108 Mp, (wide-angle), 1/1.52\", 0.7 μm, PDAF + 50 Mp, 122˚(ultra-wide) + 2 Mp, (macro), 60 SE: 64 Mp, (wide), PDAF + 5 Mp, (ultra-wide angle) + 2 Mp, (macro), LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "USB-C"
+    },
+    "Battery": {
+      "Battery": "60: non-removable, Li-Ion 4800 mAh, 60 Pro: non-removable, Li-Po 4800 mA·h, 60 SE: non-removable, Li-Ion 4300 mA·h",
+      "Charging": "All models: fast charging at 66 W, reverse charging at 5 W, 60/Pro: 50 % in 15 min (advertised)60 SE: 55 % in 15 min (advertised)"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "60: Qualcomm Snapdragon 778G",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "front_mp": 108,
+    "battery_mah": 4800,
+    "wired_w": 66,
+    "os": "Android 11",
+    "weight_g": 179,
+    "thickness_mm": 7.7,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 60",
+      "url": "https://en.wikipedia.org/wiki/Honor_60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 60",
+    "revid": 1361483573
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

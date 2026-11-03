@@ -1,0 +1,95 @@
+{
+  "slug": "cherry-mobile-flare-s7-plus",
+  "brand": "Cherry",
+  "name": "Mobile Flare S7 Plus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-09",
+      "Discontinued": "2019-07-25",
+      "Series": "Flare S7 series",
+      "Predecessor": "Cherry Mobile Flare S6 Plus",
+      "Successor": "Cherry Mobile Flare S8 Plus"
+    },
+    "Network": {
+      "SIM": "Hybrid Dual-SIM Slot (nanoSIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155 mm H , 75.5 mm W , 7.8 mm D",
+      "Weight": "199 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\"",
+      "Chipset": "MediaTek Helio P60",
+      "CPU": "Octa Core (4x Cortex-A73 @ 2.0GHz & 4x Cortex-A53 @ 2.0GHz)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "RAM": "4GB",
+      "Storage": "64GB",
+      "Card slot": "MicroSDXC Expandable up to 256GB"
+    },
+    "Display": {
+      "Display": "6.18 in FHD+ 1080x2246 IPS LCD, (402 ppi) with 19:9 Aspect Ratio, Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 16MP Main Camera (f/2.0) + 5MP Depth Sensor, Autofocus and LED Flash",
+      "Front camera": "Single: 16MP Main Camera (f/2.0)"
+    },
+    "Sound": {
+      "Sound": "DTS Audio, USB Type-C Audio Output"
+    },
+    "Battery": {
+      "Battery": "3050 mAh Li-ion Battery",
+      "Charging": "Standard 10W Charging and 5W Wireless Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi List of WLAN channels, 802.11 b/g/n, Wi-Fi Direct, Bluetooth#Bluetooth 4.1, Bluetooth 4.1, Bluetooth Low Energy, BLE, USB-C, USB-C Port"
+    }
+  },
+  "key": {
+    "display_in": 6.18,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek Helio P60",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 3050,
+    "wireless_w": 10,
+    "wired_w": 10,
+    "os": "Android 8.1",
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 199,
+    "thickness_mm": 7.8,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Cherry Mobile Flare S7 Plus",
+      "url": "https://en.wikipedia.org/wiki/Cherry_Mobile_Flare_S7_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Cherry Mobile Flare S7 Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Cherry Mobile Flare S7 Plus",
+    "revid": 1367985789
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

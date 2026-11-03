@@ -1,0 +1,72 @@
+{
+  "slug": "htc-radar",
+  "brand": "HTC",
+  "name": "Radar",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/HTC_Radar_4G_-_WIND_Mobile.JPG/500px-HTC_Radar_4G_-_WIND_Mobile.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/HTC_Radar_4G_-_WIND_Mobile.JPG/250px-HTC_Radar_4G_-_WIND_Mobile.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Radar",
+      "credit": "True Tech Talk Time, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Radar_4G_-_WIND_Mobile.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM, HSDPA, Wi-Fi"
+    },
+    "Body": {
+      "Other": "Dolby Mobile Sound"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7.5",
+      "CPU": "Qualcomm MSM8255 1 GHz Scorpion (Snapdragon)"
+    },
+    "Memory": {
+      "RAM": "8 GB internal flash, 512 MB ROM, 512 MB RAM"
+    },
+    "Display": {
+      "Display": "3.8 in. S-LCD capacitive touchscreen, 480x800 px (~246 ppi pixel density) 16m-color WVGA, backlit TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel autofocus CMOS sensor with dual-flash, video up to 720p resolution",
+      "Front camera": "VGA resolution, front-facing"
+    },
+    "Battery": {
+      "Battery": "Rechargeable 1520mAh Li-ion battery (up to 535 hrs standby, 8.0 hrs talk time)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, 802.11b/g/n, G-Sensor, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.8,
+    "display_type": "LCD",
+    "ram_gb": [
+      8
+    ],
+    "battery_mah": 1520,
+    "os": "Windows Phone 7.5",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Radar",
+      "url": "https://en.wikipedia.org/wiki/HTC_Radar"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Radar\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Radar",
+    "revid": 1376856554
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

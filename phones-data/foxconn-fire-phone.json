@@ -1,0 +1,92 @@
+{
+  "slug": "foxconn-fire-phone",
+  "brand": "Foxconn",
+  "name": "Fire Phone",
+  "status": "published",
+  "announced": "2014-07-25",
+  "released": "2014-07-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Fire_Phone.jpg/500px-Fire_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Fire_Phone.jpg/250px-Fire_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Fire Phone",
+      "credit": "Frmorrison, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fire_Phone.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-07-25",
+      "Series": "Fire Phone Series"
+    },
+    "Network": {
+      "Technology": "UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz), Quad-band GSM/EDGE (850, 900, 1800, 1900 MHz), LTE (Bands 1, 2, 3, 4, 5, 7, 8, 17, 20)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "139.2 mm H, 66.5 mm W, 8.9 mm D",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Original Fire OS 3.5, Current Fire OS 4.6.5 (AT&T version), 4.6.6.1 (unlocked version).",
+      "Chipset": "Qualcomm Snapdragon 800",
+      "CPU": "2.26 GHz quad-core Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 or 64 GB"
+    },
+    "Display": {
+      "Display": "4.7 in IPS LCD , Gorilla Glass 3 , 1280×720 px (315 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP CMOS sensor with OIS",
+      "Front camera": "2.1 MP"
+    },
+    "Battery": {
+      "Battery": "2400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0, GPS, Micro USB, NFC, Wi-Fi 802.11 a/b/g/n/ac"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 800",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 2.1,
+    "battery_mah": 2400,
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 160,
+    "thickness_mm": 8.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Fire Phone",
+      "url": "https://en.wikipedia.org/wiki/Fire_Phone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Fire Phone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Fire Phone",
+    "revid": 1376030969
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

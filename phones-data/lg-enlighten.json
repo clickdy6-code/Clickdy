@@ -1,0 +1,74 @@
+{
+  "slug": "lg-enlighten",
+  "brand": "LG",
+  "name": "Enlighten",
+  "status": "published",
+  "announced": "2011-09-22",
+  "released": "2011-09-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-09-22",
+      "Discontinued": "Yes"
+    },
+    "Network": {
+      "Technology": "CDMA, EV-DO Rev. A , Carrier: Verizon Wireless"
+    },
+    "Body": {
+      "Form factor": "Side-sliding QWERTY",
+      "Dimensions": "114 x",
+      "Weight": "157 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 Gingerbread",
+      "Chipset": "Qualcomm MSM7627T",
+      "CPU": "800 MHz",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "Storage": "150 MB",
+      "Card slot": "microSDHC, up to 32 GB (2 GB card included)"
+    },
+    "Display": {
+      "Display": "3.2 in (81 mm) TFT LCD, 256K colors, 320 x 480 pixels (~180 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels, autofocus, 480p@24fps video",
+      "Front camera": "No"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, loudspeaker"
+    },
+    "Battery": {
+      "Battery": "Removable Li-ion 1540 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 3.0, Micro-USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM7627T",
+    "battery_mah": 1540,
+    "os": "Android 2.3",
+    "nfc": false,
+    "weight_g": 157,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Enlighten (VS700)",
+      "url": "https://en.wikipedia.org/wiki/LG_Enlighten_%28VS700%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Enlighten (VS700)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Enlighten (VS700)",
+    "revid": 1373769944
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

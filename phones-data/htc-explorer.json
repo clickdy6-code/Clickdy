@@ -1,0 +1,65 @@
+{
+  "slug": "htc-explorer",
+  "brand": "HTC",
+  "name": "Explorer",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/HTC_Explorer_front_view.JPG/500px-HTC_Explorer_front_view.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/HTC_Explorer_front_view.JPG/250px-HTC_Explorer_front_view.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Explorer",
+      "credit": "Rishabh Tatiraju, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Explorer_front_view.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "HTC Desire C"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.5 (Gingerbread) with HTC Sense 3.5",
+      "CPU": "Qualcomm MSM7225A Snapdragon 600 MHz processor, Adreno 200 GPU"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM (418 MB usable), 150 MB ROM (90 MB usable)",
+      "Card slot": "Supports up to 32 GB microSD"
+    },
+    "Display": {
+      "Display": "3.2 in TFT LCD 320 × 480 capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.15-Megapixel fixed-focus with geo-tagging and face detection"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1230 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v3.0, microUSB v2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "battery_mah": 1230,
+    "os": "Android 2.3",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Explorer",
+      "url": "https://en.wikipedia.org/wiki/HTC_Explorer"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Explorer\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Explorer",
+    "revid": 1361473285
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

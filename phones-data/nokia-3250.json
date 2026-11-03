@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-3250",
+  "brand": "Nokia",
+  "name": "3250",
+  "status": "published",
+  "announced": "2005-09-26",
+  "released": "2005-09-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nokia_3250.JPG/500px-Nokia_3250.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Nokia_3250.JPG/250px-Nokia_3250.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 3250",
+      "credit": "Nanami Kamimura, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3250.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2005-09-26",
+      "Discontinued": "Q3/Q4 2007",
+      "Predecessor": "Nokia 3230",
+      "Successor": "Nokia 5700 XpressMusic"
+    },
+    "Network": {
+      "Technology": "GPRS class 10, EDGE"
+    },
+    "Body": {
+      "Form factor": "Twist",
+      "Dimensions": "103.8x50x19.8 mm",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "Operating system": "S60 (3rd Edition)"
+    },
+    "Memory": {
+      "RAM": "32 MB SDRAM",
+      "Storage": "10 MB",
+      "Card slot": "microSD (supports up to 2 GB)"
+    },
+    "Display": {
+      "Display": "TFT Matrix, 262144 colors, 176x208 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixels, 4x digital zoom"
+    },
+    "Battery": {
+      "Battery": "BP-6M (1100 mA·h)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "weight_g": 115,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3250",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3250"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3250\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3250",
+    "revid": 1361477260
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

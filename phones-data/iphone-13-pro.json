@@ -1,0 +1,105 @@
+{
+  "slug": "iphone-13-pro",
+  "brand": "IPhone",
+  "name": "13 Pro",
+  "status": "published",
+  "announced": "2021-09-24",
+  "released": "2021-09-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/IPhone_13_Pro_vector.svg/500px-IPhone_13_Pro_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/IPhone_13_Pro_vector.svg/250px-IPhone_13_Pro_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 13 Pro",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_13_Pro_vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-09-24",
+      "Series": "iPhone Pro",
+      "Predecessor": "iPhone 12 Pro and Pro Max",
+      "Successor": "iPhone 14 Pro and Pro Max"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, EVDO, HSPA+, 4G LTE, 5G",
+      "SIM": "nanoSIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pro: 146.7*71.5*7.65 mm, Pro Max: 160.8*78.1*7.65 mm",
+      "Weight": "Pro: 204 g, Pro Max: 240 g",
+      "Other": "FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 15",
+      "Chipset": "A15 Bionic"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X",
+      "Storage": "128 GB, 256 GB, 512 GB, or 1 TB NVMe"
+    },
+    "Display": {
+      "Display": "13 Pro: 6.1 inch (155 mm) diagonal, 2532 × 1170 px at 460 Pixel density, ppi, (19.5:9 Display aspect ratio, aspect ratio) supplied by Samsung Electronics, Samsung Display, 13 Pro Max: 6.7 in, 2778 × 1284 px at 458 ppi, (19.5:9 aspect ratio) supplied by Samsung Display, Retina Display, Super Retina XDR, DCI-P3, P3 Gamut#Wide color gamut, wide color gamut, 1000 cd/m2 max. brightness (typical), 1200 cd/m2 max. brightness (HDR), ProMotion 10-120 Hz variable refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP Sony IMX703 1.9μm, f/1.5, 26 mm (wide), dual pixel PDAF, sensor-shift OIS, 3× optical zoom, 12 MP Sony IMX713 1μm, f/2.8, 77 mm (telephoto), PDAF, OIS, 12 MP Sony IMX772 1μm, f/1.8, 13 mm, 120˚ (ultrawide), PDAF, 2× optical zoom, Sony IMX590 TOF 3D LiDAR scanner (depth)",
+      "Front camera": "12 MP Sony IMX514, 2.2"
+    },
+    "Sound": {
+      "Sound": "Spatial Audio, Dolby Atmos, and lossless audio (Apple Music)"
+    },
+    "Battery": {
+      "Battery": "Pro: 11.97 Wh (3,095 mAh) lithium-ion battery @ 3.83 V, Pro Max: 16.75 Wh (4352 mAh) lithium-ion battery @ 3.83 V",
+      "Charging": "Lightning (connector), Lightning charging (12 W), USB hardware#USB Power Delivery, USB PD via Lightning fast charging (20-27 W) for the Pro Max and (20-23 W) for the Pro, MagSafe (iPhone), MagSafe wireless charging (15 W)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi‑Fi 6 (802.11ax), Bluetooth 5.0, ultra-wideband (UWB), GPS, GLONASS, Galileo, QZSS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Retina",
+    "refresh_hz": 120,
+    "chipset": "A15 Bionic",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 12,
+    "battery_mah": 3095,
+    "wireless_w": 15,
+    "wired_w": 27,
+    "os": "iOS 15",
+    "five_g": true,
+    "nfc": false,
+    "esim": true,
+    "weight_g": 204,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 13 Pro",
+      "url": "https://en.wikipedia.org/wiki/IPhone_13_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 13 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 13 Pro",
+    "revid": 1382565445
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

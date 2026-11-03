@@ -1,0 +1,91 @@
+{
+  "slug": "htc-desire-v",
+  "brand": "HTC",
+  "name": "Desire V",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/HTC_Desire_V.jpg/500px-HTC_Desire_V.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/HTC_Desire_V.jpg/250px-HTC_Desire_V.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Desire V",
+      "credit": "Tomiqta, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Desire_V.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012, June",
+      "Series": "A Series (Android)",
+      "Predecessor": "HTC Desire C",
+      "Successor": "HTC Desire 500"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "118.5mm x 62.3mm x 9.3mm",
+      "Weight": "114 g"
+    },
+    "Platform": {
+      "Operating system": "HTC Sense 4.0a on top of Android 4.0 (Ice Cream Sandwich)",
+      "CPU": "Qualcomm Snapdragon MSM7227A 1 GHz Cortex-A5",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD (up to 32GB)"
+    },
+    "Display": {
+      "Display": "480×800 pixels LCD 4 in, 233 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (720p at 30 frames per seconds)",
+      "Front camera": "No"
+    },
+    "Sound": {
+      "Sound": "Beats Audio speakers"
+    },
+    "Battery": {
+      "Battery": "Removable 1650 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "2G: GSM 850 / 900 / 1800 / 1900 MHz, 3G: HSDPA 900 / 2100 - SIM 1 only (SIM1 Only), Wi-Fi: 802.11b/g/n, Bluetooth: v4.0 with apt-x enabled, 3.5mm headphone jack, microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "LCD",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 1650,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 114,
+    "thickness_mm": 9.3,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire V",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_V"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire V\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire V",
+    "revid": 1361473239
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

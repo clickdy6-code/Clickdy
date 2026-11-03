@@ -1,0 +1,86 @@
+{
+  "slug": "meizu-u20",
+  "brand": "Meizu",
+  "name": "U20",
+  "status": "published",
+  "announced": "2016-08-24",
+  "released": "2016-08-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-08-24",
+      "Series": "Meizu U Series"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "153.0 mm H, 75.4 mm W, 7.7 mm D",
+      "Weight": "158 g",
+      "Other": "Dual SIM support with dual standby mode"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS, based on Android 6.0 Marshmallow",
+      "Chipset": "MediaTek Helio P10",
+      "CPU": "Octa-core (4x1.5GHz Cortex-A53, 4x1.0GHz Cortex-A53)",
+      "GPU": "ARM Mali-T860 MP2"
+    },
+    "Memory": {
+      "RAM": "2 or 3 GB LPDDR3",
+      "Storage": "16 or 32 GB flash memory",
+      "Card slot": "microSD slot (up to 128 GB)"
+    },
+    "Display": {
+      "Display": "5.5-inch diagonal , 1080x1920 px (400 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13.0 MP, PDAF autofocus, ƒ/2.2 aperture, LED flash, 1080p30 recording",
+      "Front camera": "5.0 MP, ƒ/2.0 aperture"
+    },
+    "Battery": {
+      "Battery": "3260 mAh Li-Ion rechargeable battery, not replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.1 with BLE, Dual-band WiFi (802.11 a/b/g/n/ac)"
+    }
+  },
+  "key": {
+    "chipset": "MediaTek Helio P10",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3260,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 158,
+    "thickness_mm": 7.7,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu U20",
+      "url": "https://en.wikipedia.org/wiki/Meizu_U20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu U20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu U20",
+    "revid": 1361475996
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

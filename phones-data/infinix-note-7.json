@@ -1,0 +1,92 @@
+{
+  "slug": "infinix-note-7",
+  "brand": "Infinix",
+  "name": "Note 7",
+  "status": "published",
+  "announced": "2020-05-14",
+  "released": "2020-05-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-05-14",
+      "Series": "Note 7",
+      "Predecessor": "Infinix Note 6",
+      "Successor": "Infinix Note 8"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Note 7 Lite:, 165.4 x 76.8 x 8.8 mm, Note 7:, 173.4 x 79 x 8.8 mm",
+      "Weight": "Note 7 Lite: 185 g, Note 7: 206 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with XOS 6.0",
+      "Chipset": "Note 7 Lite: MediaTek Helio P22, Note 7: MediaTek Helio G70",
+      "CPU": "Helio: Octa-core (4x2.0 GHz Cortex-A53, 4x1.8 GHz Cortex-A53) and (2x2.0 GHz Cortex-A75, 6x1.7 GHz Cortex-A55)",
+      "GPU": "PowerVR GE8320, Mali-G52 2EEMC2"
+    },
+    "Memory": {
+      "RAM": "Note 7 Lite: 4 RAM, Note 7: 4/6 GB RAM",
+      "Storage": "64/128 GB",
+      "Card slot": "microSD, expandable up to 256 GB (2 TB for Note 7)"
+    },
+    "Display": {
+      "Display": "720 x 1600 (720 x 1640 for Note 7) 720p IPS LCD Infinity-O capacitive touchscreen, Note 7 Lite: 6.6 in (165.4 mm), (266 ppi), Note 7: 6.95 in (173.4 mm), (258 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.8, (wide), 1/2.0\", 0.8 μm, PDAF + 2MP, 40mm macro, f/2.4 + 2MP (depth), f/2.4 + 2MP (dedicated video camera), f/1.8, QVGA, Quad LED flash, HDR, 1080p@30fps, panorama",
+      "Front camera": "Note 7 Lite: 8 MP, (wide), Note 7: 16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0 μm, All: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm Headphone jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "18W"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi 802.11 a/b/g/n/ac, USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS LCD",
+    "chipset": "Note 7 Lite: MediaTek Helio P22",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 185,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Infinix Note 7",
+      "url": "https://en.wikipedia.org/wiki/Infinix_Note_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Infinix Note 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Infinix Note 7",
+    "revid": 1361474674
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

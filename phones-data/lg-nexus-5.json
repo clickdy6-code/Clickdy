@@ -1,0 +1,103 @@
+{
+  "slug": "lg-nexus-5",
+  "brand": "LG",
+  "name": "Nexus 5",
+  "status": "published",
+  "announced": "2013-10-31",
+  "released": "2013-10-31",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Nexus_5_Front_View.png/500px-Nexus_5_Front_View.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Nexus_5_Front_View.png/250px-Nexus_5_Front_View.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Nexus 5",
+      "credit": "Google Android, CC BY 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nexus_5_Front_View.png",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-10-31",
+      "Discontinued": "2015-03-11",
+      "Series": "Google Nexus",
+      "Predecessor": "Nexus 4",
+      "Successor": "Nexus 6, Nexus 5X"
+    },
+    "Network": {
+      "Technology": "2G/3G/4G LTE , GSM: 850/900/1800/1900 MHz , Model LG-D820 (North America) , CDMA band class: 0/1/10 , WCDMA bands: 1/2/4/5/6/8/19 , LTE bands: 1/2/4/5/17/19/25/26/41 , Model LG-D821 (international) , WCDMA bands: 1/2/4/5/6/8 , LTE bands: 1/3/5/7/8/20"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "137.84 mm H , 69.17 mm W , 8.59 mm D",
+      "Weight": "130 g",
+      "Other": "Multi-color LED notification light"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.2 \"KitKat\", Last: Android 6.0.1 \"Marshmallow\"",
+      "Chipset": "Qualcomm Snapdragon 800",
+      "CPU": "2.26 GHz quad-core Krait 400",
+      "GPU": "Adreno 330, 450 MHz"
+    },
+    "Memory": {
+      "RAM": "2 GB of LPDDR3-1600 RAM",
+      "Storage": "16 GB (12.55 GB available) or 32 GB (26.7 GB available)"
+    },
+    "Display": {
+      "Display": "4.95 in Full HD 1080×1920 px (445 ppi) IPS LCD, with Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP Sony Exmor IMX179 1/3.2-inch, (1.4-μm pixels) CMOS sensor with OIS, 2.4 aperture and LED flash.",
+      "Front camera": "1.3 MP Aptina MT9M114B 1/6.0-inch, (1.9-μm pixels) CMOS sensor, 2.4 aperture"
+    },
+    "Sound": {
+      "Sound": "Monaural lateral loudspeaker, dual microphones, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "3.8 V 2300 mAh, 8 Wh, Qi wireless charging non-replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB, SlimPort, NFC, Bluetooth 4.0, Wi-Fi 802.11 a/b/g/n/ac (single stream)"
+    }
+  },
+  "key": {
+    "display_in": 4.95,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 800",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      7,
+      16,
+      32,
+      55
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 1.3,
+    "battery_mah": 2300,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 130,
+    "thickness_mm": 8.59,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nexus 5",
+      "url": "https://en.wikipedia.org/wiki/Nexus_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nexus 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nexus 5",
+    "revid": 1374561344
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

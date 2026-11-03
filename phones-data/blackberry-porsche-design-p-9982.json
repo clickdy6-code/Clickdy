@@ -1,0 +1,72 @@
+{
+  "slug": "blackberry-porsche-design-p-9982",
+  "brand": "BlackBerry",
+  "name": "Porsche Design P'9982",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "BlackBerry Porsche Design P'9983"
+    },
+    "Network": {
+      "Technology": "LTE, PCS, CDMA, HSPA+, EDGE, GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "131 mm H, 65.6 mm W, 9.5 mm",
+      "Weight": "140 g"
+    },
+    "Platform": {
+      "Operating system": "Blackberry 10.2.1, Released January 28, 2014",
+      "CPU": "ARM 1.5 GHz dual-core, Qualcomm Snapdragon S4 Plus (MSM8960) (STL100-2 & STL100-3 & STL100-4), Texas Instruments OMAP 4470 (STL-100-1)"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "64 GB flash memory",
+      "Card slot": "Up to the exFAT file system limit"
+    },
+    "Display": {
+      "Display": "1,280 × 768 px (0.98 megapixels) 4.2-inch (built on 71 µm pixel) at 356 ppi, 15:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels, 1080p video capture",
+      "Front camera": "2 megapixels, 720p video capture"
+    },
+    "Battery": {
+      "Battery": "1800 mAH removable battery"
+    },
+    "Connectivity": {
+      "Connectivity": "IEEE 802.11n-2009, Bluetooth 4.0, NFC, Micro HDMI, Micro-USB"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 1800,
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 140,
+    "thickness_mm": 9.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Porsche Design P'9982",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Porsche_Design_P%279982"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Porsche Design P'9982\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Porsche Design P'9982",
+    "revid": 1361472758
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

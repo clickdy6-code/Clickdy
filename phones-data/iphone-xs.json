@@ -1,0 +1,96 @@
+{
+  "slug": "iphone-xs",
+  "brand": "IPhone",
+  "name": "XS",
+  "status": "published",
+  "announced": "2018-09-21",
+  "released": "2018-09-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/IPhone_XS_Gold.svg/500px-IPhone_XS_Gold.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/IPhone_XS_Gold.svg/250px-IPhone_XS_Gold.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone XS",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_XS_Gold.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-09-21",
+      "Series": "12th",
+      "Predecessor": "iPhone X",
+      "Successor": "iPhone 11 Pro / iPhone 11 Pro Max"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA2000, EV-DO, HSPA+, LTE, LTE Advanced"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "XS: 143.6xx70.9xx7.7 mm, XS Max: 157.5xx77.4xx7.7 mm",
+      "Weight": "XS: 177 g, XS Max: 208 g",
+      "Other": "FaceTime audio- or video-calling, Qi wireless charging, USB-C to Lightning (connector) fast charging, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 12",
+      "Chipset": "Apple A12 Bionic"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X",
+      "Storage": "64, 256 or 512 GB NVMe"
+    },
+    "Display": {
+      "Display": "XS: 5.85 in, 2436×1125 px, XS Max: 6.46 in, 2688×1242 px"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, ƒ/1.8 aperture , 4K video recording at 24, 30 or 60 FPS, 1080p at 30 or 60 FPS or 720p at 30 FPS",
+      "Front camera": "7 MP, f/2.2 aperture, 1080p HD video recording"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers with Spatial Audio and Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "XS: 2658 mAh Li-ion, XS Max: 3174 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11ac Wi-Fi, Bluetooth 5.0"
+    }
+  },
+  "key": {
+    "display_in": 5.85,
+    "chipset": "Apple A12 Bionic",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 7,
+    "battery_mah": 2658,
+    "os": "iOS 12",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 177,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone XS",
+      "url": "https://en.wikipedia.org/wiki/IPhone_XS"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone XS\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone XS",
+    "revid": 1382577968
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

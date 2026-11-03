@@ -1,0 +1,51 @@
+{
+  "slug": "motorola-edge-s",
+  "brand": "Motorola",
+  "name": "Edge S",
+  "status": "published",
+  "announced": "2021-02-03",
+  "released": "2021-02-03",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-02-03",
+      "Series": "Edge"
+    },
+    "Network": {
+      "Technology": "2G EDGE, GPRS/3G HSPA, HSPA+/4G LTE, LTE+, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "168.40 x 74.00 x 9.7 mm",
+      "Weight": "215 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11",
+      "Chipset": "Qualcomm Snapdragon 870 5G",
+      "CPU": "octa-core , 3.2 GHz (1x 3.2 GHz Kryo 585 Prime + 3x 2.42 GHz Kryo 585 Gold + 4x 1.8 GHz Kryo 585 Silver)",
+      "GPU": "Adreno 640"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm Snapdragon 870 5G",
+    "os": "Android 11",
+    "five_g": true,
+    "weight_g": 215,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Edge S",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Edge_S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Edge S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Edge S",
+    "revid": 1361476566
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

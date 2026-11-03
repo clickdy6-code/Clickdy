@@ -1,0 +1,104 @@
+{
+  "slug": "huawei-nexus-6p",
+  "brand": "Huawei",
+  "name": "Nexus 6P",
+  "status": "published",
+  "announced": "2015-09-29",
+  "released": "2015-09-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Nexus_6P_%E6%A8%A1%E5%9E%8B.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Nexus_6P_%E6%A8%A1%E5%9E%8B.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Huawei Nexus 6P",
+      "credit": "April.Kai, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nexus_6P_%E6%A8%A1%E5%9E%8B.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-09-29",
+      "Discontinued": "2016-10-04",
+      "Series": "Google Nexus",
+      "Predecessor": "Nexus 6",
+      "Successor": "Pixel XL"
+    },
+    "Network": {
+      "SIM": "Single Nano SIM Slot"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "159.3 mm H, 77.8 mm W, 7.3 mm D",
+      "Weight": "179 g",
+      "Other": "RGB LED Notification Light"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0 \"Marshmallow\", Last: Android 8.1 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 810 v2.1",
+      "CPU": "2.0 GHz octa core (4×1.55 GHz Cortex-A53 & 4×2.0 GHz Cortex-A57) 64-bit ARMv8-A",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "RAM": "3 GB of LPDDR4 RAM",
+      "Storage": "32 GB, 64 GB, or 128 GB"
+    },
+    "Display": {
+      "Display": "5.7 in diagonal WQHD AMOLED Cinematic Display with scratch-resistant Corning Gorilla Glass 4, (518 ppi), aspect ratio, Fingerprint and smudge-resistant oleophobic coating"
+    },
+    "Cameras": {
+      "Rear camera": "12.3 MP, Sony Exmor IMX377, 1.55 μm pixel size, 2.0 aperture, IR laser-assisted autofocus, 4K (30 fps) video capture, Broad-spectrum CRI-90 dual flash, 720p slow motion at 240 fps",
+      "Front camera": "8 MP, Sony Exmor IMX179, 1.4 μm pixel size, 2.4 aperture, HD video (30 fps)"
+    },
+    "Sound": {
+      "Sound": "Dual front-facing stereo speakers, 3 microphones (2 front, 1 rear) with noise cancellation, 3.5 mm audio jack"
+    },
+    "Battery": {
+      "Battery": "3,450 mAh Li-Po (Non-removable), 89 min charge, 6 h 24 min use"
+    },
+    "Connectivity": {
+      "Connectivity": "Single USB-C 2.0, NFC, Bluetooth 4.2, LTE Cat. 6, Wi-Fi 802.11 a/b/g/n/ac 2×2 MIMO (Dual-Band, 2.4 GHz & 5.0 GHz), Nano-SIM, EDGE, UMTS, CDMA"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 810 v2.1",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "main_mp": 12.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 8,
+    "battery_mah": 3450,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 179,
+    "thickness_mm": 7.3,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nexus 6P",
+      "url": "https://en.wikipedia.org/wiki/Nexus_6P"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nexus 6P\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nexus 6P",
+    "revid": 1374560489
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

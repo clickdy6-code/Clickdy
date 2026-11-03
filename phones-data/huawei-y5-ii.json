@@ -1,0 +1,93 @@
+{
+  "slug": "huawei-y5-ii",
+  "brand": "Huawei",
+  "name": "Y5 II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Celu_Huawei_y5_por_detras.jpg/500px-Celu_Huawei_y5_por_detras.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Celu_Huawei_y5_por_detras.jpg/250px-Celu_Huawei_y5_por_detras.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Y5 II",
+      "credit": "EEIM, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Celu_Huawei_y5_por_detras.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2016",
+      "Series": "Huawei Y",
+      "Predecessor": "Huawei Y5",
+      "Successor": "Huawei Y5 (2017)"
+    },
+    "Network": {
+      "Technology": "2G/3G"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "143.8 х 72 х 8.9 mm",
+      "Weight": "135 grams"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1 (Lollipop)",
+      "Chipset": "MediaTek MT6582, Quad-core 1.3 GHz"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM, Card slot: microSD, up to 32 GB; dedicated slot",
+      "Storage": "8 GB"
+    },
+    "Display": {
+      "Display": "5\" (IPS), 5.0 inches, Size: 68.9 cm² (~66.6% screen-to-body ratio), Resolution: 720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, AF, f/2.0, with LED flash, Video: 720p@30fps",
+      "Front camera": "2 MP with LED flash"
+    },
+    "Battery": {
+      "Battery": "Li-Po 2200 mAh, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, hotspot"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "chipset": "MediaTek MT6582",
+    "ram_gb": [
+      1,
+      32
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 2,
+    "battery_mah": 2200,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y5 II",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y5_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y5 II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y5 II",
+    "revid": 1361474154
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

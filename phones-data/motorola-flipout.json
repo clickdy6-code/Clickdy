@@ -1,0 +1,74 @@
+{
+  "slug": "motorola-flipout",
+  "brand": "Motorola",
+  "name": "Flipout",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Motorola_flipout.jpg/500px-Motorola_flipout.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Motorola_flipout.jpg/250px-Motorola_flipout.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Flipout",
+      "credit": "Philphos, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_flipout.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2010"
+    },
+    "Body": {
+      "Form factor": "Swivel smartphone",
+      "Dimensions": "67 mm (h), 67 mm (w), 17 mm (d)",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1, (can be upgraded to unofficial CyanogenMod 7.1 (Android 2.3.7 \"Gingerbread\")",
+      "CPU": "720 MHz Texas Instruments OMAP3410 processor"
+    },
+    "Memory": {
+      "RAM": "512 MB ROM, 512 MB RAM",
+      "Card slot": "Supports up to 32 GB microSD"
+    },
+    "Display": {
+      "Display": "320 x 240 px, 2.8 in, QVGA, 256k color LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-megapixel"
+    },
+    "Battery": {
+      "Battery": "1170 mAh, Internal rechargeable removable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g), Bluetooth 2.1, MicroUSB, A-GPS, Quad band GSM 850 900 1800 1900 MHz GPRS/EDGE, Dual band UMTS 850 1900 MHz (US), UMTS 900 2100 MHz (UK) HSDPA/HSUPA (7.2/2 Mbit/s)"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "battery_mah": 1170,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 120,
+    "thickness_mm": 17,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Flipout",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Flipout"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Flipout\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Flipout",
+    "revid": 1361476573
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "htc-hd7",
+  "brand": "HTC",
+  "name": "HD7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/HTC_HD7.png/500px-HTC_HD7.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/HTC_HD7.png/250px-HTC_HD7.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC HD7",
+      "credit": "Dienthoaiquangcao66, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_HD7.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family",
+      "Predecessor": "HTC HD2",
+      "Successor": "HTC TITAN"
+    },
+    "Network": {
+      "Technology": "Europe: HSPA/WCDMA 900/2100, GSM 850/900/1800/1900, Asia Pacific: HSPA/WCDMA 900/2100, GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Dimensions": "122 x 68 x 11.2 mm, (4.8 x 2.68 x 0.44 in)",
+      "Weight": "162 grams / 5.7 ounces , (with battery)",
+      "Other": "Dolby Mobile and SRS surround sound, Kickstand"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7.5",
+      "CPU": "(Qualcomm Snapdragon QSD8250), 1 GHz Scorpion processor /, Adreno 200 graphics"
+    },
+    "Memory": {
+      "RAM": "Flash Memory microSD (hidden) , 8 GB, 8 GB and 16 GB, 16 GB Asia Pacific: 16 GB, 512 MB ROM, 576 MB RAM"
+    },
+    "Display": {
+      "Display": "109 mm (4.3\") LCD capacitive touchscreen, 480x800 px 216 PPI 16m-color WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel autofocus with dual LED flash, CMOS sensor, HD video recording up to 720p of resolution."
+    },
+    "Battery": {
+      "Battery": "Rechargeable 1230mAh Li-ion battery (Extended Battery Available)(up to 320 hrs standby, 6.3 hrs talk time)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + EDR, Wi-Fi 802.11b/g/n, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "ram_gb": [
+      8,
+      16
+    ],
+    "battery_mah": 1230,
+    "os": "Windows Phone 7.5",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC HD7",
+      "url": "https://en.wikipedia.org/wiki/HTC_HD7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC HD7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC HD7",
+    "revid": 1361473306
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

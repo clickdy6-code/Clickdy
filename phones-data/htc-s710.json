@@ -1,0 +1,58 @@
+{
+  "slug": "htc-s710",
+  "brand": "HTC",
+  "name": "S710",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/HTC_S710.JPG/500px-HTC_S710.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/HTC_S710.JPG/250px-HTC_S710.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC S710",
+      "credit": "ChickenFalls, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_S710.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE Quad-band module, (850/900/1800/1900MHz)"
+    },
+    "Body": {
+      "Dimensions": "101.5 mm(L) x 50 mm(W) x 18.6 mm(T)",
+      "Weight": "140g (with battery)"
+    },
+    "Memory": {
+      "RAM": "64Mb"
+    },
+    "Display": {
+      "Display": "240 x 320 color transflective TFT 2.4”, 65536 colors (16-bit color depth)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, Wi-Fi: IEEE 802.11b/g, HTC ExtUSB (11-pin mini-USB and audio jack in one)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 140,
+    "thickness_mm": 18.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC S710",
+      "url": "https://en.wikipedia.org/wiki/HTC_S710"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC S710\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC S710",
+    "revid": 1361473436
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

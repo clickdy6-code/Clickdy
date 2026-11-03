@@ -1,0 +1,93 @@
+{
+  "slug": "vivo-iqoo-z10",
+  "brand": "Vivo",
+  "name": "IQOO Z10",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 2025",
+      "Series": "iQOO Z series",
+      "Predecessor": "iQOO Z9"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "199 g",
+      "Other": "In-display fingerprint sensor, IP65, MIL-STD-810H"
+    },
+    "Platform": {
+      "Operating system": "Android 15 with Funtouch OS 15",
+      "Chipset": "Qualcomm Snapdragon 7s Gen 3",
+      "CPU": "Octa-core",
+      "GPU": "Adreno (variant dependent)"
+    },
+    "Memory": {
+      "RAM": "8 GB / 12 GB LPDDR4X",
+      "Storage": "128 GB / 256 GB UFS 2.2"
+    },
+    "Display": {
+      "Display": "6.77 in AMOLED, 1080 × 2392 pixels, 120 Hz, 5000 nits peak brightness"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP (wide, OIS), 2 MP (depth)",
+      "Front camera": "32 MP / 8 MP (variant dependent)"
+    },
+    "Sound": {
+      "Sound": "Single speaker"
+    },
+    "Battery": {
+      "Battery": "7300 mAh",
+      "Charging": "90 W wired, reverse wired"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, dual 4G VoLTE, Wi-Fi 6, Bluetooth 5.2, USB-C (OTG)"
+    }
+  },
+  "key": {
+    "display_in": 6.77,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 5000,
+    "chipset": "Qualcomm Snapdragon 7s Gen 3",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 32,
+    "battery_mah": 7300,
+    "wired_w": 90,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "ip": "IP65",
+    "weight_g": 199,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IQOO Z10",
+      "url": "https://en.wikipedia.org/wiki/IQOO_Z10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IQOO Z10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IQOO Z10",
+    "revid": 1382473240
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

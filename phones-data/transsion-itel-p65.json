@@ -1,0 +1,97 @@
+{
+  "slug": "transsion-itel-p65",
+  "brand": "Transsion",
+  "name": "Itel P65",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Itel_P65_in_Cyber_Blaze_%28red%2C_front%29.jpg/500px-Itel_P65_in_Cyber_Blaze_%28red%2C_front%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Itel_P65_in_Cyber_Blaze_%28red%2C_front%29.jpg/250px-Itel_P65_in_Cyber_Blaze_%28red%2C_front%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Transsion Itel P65",
+      "credit": "JGBlue1509, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Itel_P65_in_Cyber_Blaze_(red,_front).jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "P series",
+      "Predecessor": "Itel P55"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Dimensions": "165.9 mm × 77.3 mm × 7.9 mm",
+      "Weight": "6.81 oz",
+      "Other": "LED notification ring on the rear, FlexButton"
+    },
+    "Platform": {
+      "Operating system": "Android 14 with itel OS 14.0.0",
+      "Chipset": "Unisoc T615 (12 nm)",
+      "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "RAM": "4 GB, 6 GB, or 8 GB RAM",
+      "Storage": "128 GB or 256 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.7 in (170 mm) IPS LCD, 120Hz, 720 x 1600 pixels, 20:9 ratio (~262 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Single-Camera Setup, Primary: 50 Megapixel, MP, 27mm (wide), 1/2.8\", 0.64 Micrometre, µm, AF, Auxiliary lens, Camera features: LED flash, High dynamic range, HDR, Panorama, Video recording: 1080p@30Frame rate, fps, 720p@30Frame rate, fps",
+      "Front camera": "8 Megapixel, MP, 26mm (wide), 1/4.0\", 1.12 Micrometre, µm, FF, Video recording: 1080p@30Frame rate, fps, 720p@30Frame rate, fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "5,000 mAh Li-Po , Includes 2400 mAh charging case , Total: 7400 mAh",
+      "Charging": "18W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth, GPS, NFC (256GB/6GB model only), FM radio, USB-C with OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "chipset": "Unisoc T615",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 14",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "thickness_mm": 7.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel P65",
+      "url": "https://en.wikipedia.org/wiki/Itel_P65"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel P65\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel P65",
+    "revid": 1368456657
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

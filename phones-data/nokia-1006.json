@@ -1,0 +1,64 @@
+{
+  "slug": "nokia-1006",
+  "brand": "Nokia",
+  "name": "1006",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 2009"
+    },
+    "Network": {
+      "Technology": "CDMA, 800, 1700, 2100, 1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "H: 108 mm , W: 44 mm , D: 13.5 mm",
+      "Weight": "76 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "8 MB of internal storage , Phone Book Memory: 500 contacts",
+      "Card slot": "Not supported"
+    },
+    "Display": {
+      "Display": "LCD 1.8\" display, TFT/TFD (262K colors - 18 bit), Resolution 128 x 160px (~137 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Absent"
+    },
+    "Battery": {
+      "Battery": "860 mAh, Li-Ion, Talktime: 3.5h (210 min), Standby: 240h (10 days)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v2.0, USB, microUSB"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 860,
+    "nfc": false,
+    "weight_g": 76,
+    "thickness_mm": 13.5,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1006",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1006"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1006\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1006",
+    "revid": 1361476904
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

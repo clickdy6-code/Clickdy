@@ -1,0 +1,70 @@
+{
+  "slug": "lg-versa",
+  "brand": "LG",
+  "name": "Versa",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/LG_Versa.jpg/500px-LG_Versa.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/LG_Versa.jpg/250px-LG_Versa.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Versa",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Versa.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "EVDO, 1XRTT"
+    },
+    "Body": {
+      "Form factor": "Clamshell (Candybar/flip)",
+      "Dimensions": "4.16 x 2.07 x 0.54 inches",
+      "Weight": "140g (4.92 oz)"
+    },
+    "Platform": {
+      "Operating system": "BREW",
+      "CPU": "Qualcomm MSM7500A, 528MHz ARM1136EJ-S"
+    },
+    "Memory": {
+      "RAM": "310 MB",
+      "Card slot": "up to 16 GB (microSD)"
+    },
+    "Display": {
+      "Display": "LCD 240 x 480"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel"
+    },
+    "Battery": {
+      "Battery": "Li – Ion, 1100 mAH"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth / Micro USB Cable / 2.5mm Audio Jack"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 1100,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 140
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Versa",
+      "url": "https://en.wikipedia.org/wiki/LG_Versa"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Versa\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Versa",
+    "revid": 1361475610
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-mate-x5",
+  "brand": "Huawei",
+  "name": "Mate X5",
+  "status": "published",
+  "announced": "2023-09-08",
+  "released": "2023-09-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF%E5%8D%80_Longhua_District_%E6%99%AF%E9%BE%8D%E5%BB%BA%E8%A8%AD%E8%B7%AF_Jinglong_Jianshe_Road_%E5%A3%B9%E6%96%B9%E5%A4%A9%E5%9C%B0_Uniwalk_Mall_shop_Smartphones_%E8%8F%AF%E7%B6%AD_Huawei_Mate_X5_September_2023_R12S_10.jpg/500px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF%E5%8D%80_Longhua_District_%E6%99%AF%E9%BE%8D%E5%BB%BA%E8%A8%AD%E8%B7%AF_Jinglong_Jianshe_Road_%E5%A3%B9%E6%96%B9%E5%A4%A9%E5%9C%B0_Uniwalk_Mall_shop_Smartphones_%E8%8F%AF%E7%B6%AD_Huawei_Mate_X5_September_2023_R12S_10.jpg/250px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate X5",
+      "credit": "GHEIMKRjuhp HUA, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF%E5%8D%80_Longhua_District_%E6%99%AF%E9%BE%8D%E5%BB%BA%E8%A8%AD%E8%B7%AF_Jinglong_Jianshe_Road_%E5%A3%B9%E6%96%B9%E5%A4%A9%E5%9C%B0_Uniwalk_Mall_shop_Smartphones_%E8%8F%AF%E7%B6%AD_Huawei_Mate_X5_September_2023_R12S_10.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-09-08",
+      "Series": "Huawei Mate X series",
+      "Predecessor": "Huawei Mate X3",
+      "Successor": "Huawei Mate X6"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, HSPA, EVDO, LTE, 5G"
+    },
+    "Body": {
+      "Dimensions": "Unfolded: 156.9 mm × 141.5 mm × 5.3 mm, Folded: 156.9 mm × 72.4 mm × 11.1 mm",
+      "Weight": "243 g or 245 g"
+    },
+    "Platform": {
+      "Operating system": "HarmonyOS 4.0 (China), EMUI (Europe)",
+      "Chipset": "Kirin 9000S (7 nm)",
+      "CPU": "Octa-core (1x2.62 GHz Taishan Big & 3x2.15 GHz Taishan Mid & 4x1.53GHz Cortex-A510)",
+      "GPU": "Maleoon 910 MP4"
+    },
+    "Memory": {
+      "RAM": "12 GB or 16 GB RAM",
+      "Storage": "256 GB, 512 GB, or 1 TB UFS 3.1",
+      "Card slot": "Nano Memory up to 256 GB (uses shared SIM slot)"
+    },
+    "Display": {
+      "Display": "Main: 7.85 in (199 mm) Foldable OLED, 120Hz, 2224 × 2496 pixels (~426 ppi), Cover: 6.4 in (163 mm) OLED, 120Hz, 1080 × 2504 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "Triple:, • 50 MP, f/1.8, 23mm (wide), PDAF, OIS, • 12 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, • 13 MP, f/2.2, 13mm (ultrawide), AF, Features: Laser AF, color spectrum sensor, LED flash, panorama, HDR, Video: 4K@30/60fps, 1080p@30/60fps, gyro-EIS",
+      "Front camera": "Main: 8 MP, f/2.4 (wide), Cover: 8 MP, f/2.4 (wide), Video: 4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo loudspeakers, no 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "5,060 mAh Si/C Li-Ion (non-removable)",
+      "Charging": "66W wired, 50W wireless, 7.5W reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6 (dual-band, Wi-Fi Direct), Bluetooth 5.2 (A2DP, LE), NFC, Infrared port, USB Type-C 3.1 (DisplayPort 1.2, OTG)"
+    }
+  },
+  "key": {
+    "display_in": 7.85,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Kirin 9000S",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 5060,
+    "wireless_w": 50,
+    "wired_w": 66,
+    "os": "HarmonyOS 4.0",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 243,
+    "thickness_mm": 5.3,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate X5",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_X5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate X5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate X5",
+    "revid": 1378296043
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

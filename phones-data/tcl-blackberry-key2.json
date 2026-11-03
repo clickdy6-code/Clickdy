@@ -1,0 +1,82 @@
+{
+  "slug": "tcl-blackberry-key2",
+  "brand": "TCL",
+  "name": "BlackBerry Key2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/BlackBerryKey2LE3.png/500px-BlackBerryKey2LE3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/BlackBerryKey2LE3.png/250px-BlackBerryKey2LE3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "TCL BlackBerry Key2",
+      "credit": "Porsche997SBS, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BlackBerryKey2LE3.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "BlackBerry KeyOne , BlackBerry Q5 (Key2 LE)"
+    },
+    "Body": {
+      "Form factor": "Bar/Slate",
+      "Dimensions": "H 151.4 mm, W 71.8 mm, D 8.5 mm",
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 Oreo",
+      "Chipset": "Key2: Qualcomm Snapdragon 660, Key2 LE: Qualcomm Snapdragon 636",
+      "CPU": "Octacore, 4x Kryo 2.2 GHz, 4x Kryo 1.8 GHz",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "RAM": "Key2: 6 GiB RAM, Key2 LE: 4 GiB RAM",
+      "Storage": "Key2: 64 / 128 GB, Key2 LE: 32 / 64 GB",
+      "Card slot": "Up to 2 TB microSDXC"
+    },
+    "Display": {
+      "Display": "4.5\" (110 mm) IPS LCD, 1620 x 1080 pixels, 429 ppi, 3:2 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 MP with f/1.8 aperture, 79.3° FOV, Dual Phase Detect Auto Focus (Dual PDAF), 12 MP with f/2.6 aperture, 50° fov, Pixel-1.0um, Phase Detect Auto Focus (PDAF)",
+      "Front camera": "8 MP camera"
+    },
+    "Battery": {
+      "Battery": "Key2: 3,500 mAh Li-Ion non-removable battery, Key2 LE: 3,000 mAh Li-Ion non-removable battery"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS LCD",
+    "chipset": "Key2: Qualcomm Snapdragon 660",
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 12.2,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3500,
+    "os": "Android 8.1",
+    "weight_g": 168,
+    "thickness_mm": 8.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Key2",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Key2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Key2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Key2",
+    "revid": 1369946016
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

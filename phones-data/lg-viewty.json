@@ -1,0 +1,68 @@
+{
+  "slug": "lg-viewty",
+  "brand": "LG",
+  "name": "Viewty",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/8c/LG_Viewty.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8c/LG_Viewty.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG Viewty",
+      "credit": "sylvainratton, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Viewty.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "HSDPA, GSM / GPRS / EDGE Tri-Band (900/1800/1900)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "103.5 × 54.4 × 14.8 mm (L × W × D)",
+      "Weight": "112 g"
+    },
+    "Memory": {
+      "RAM": "100 MB",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "262K colour TFT touchscreen, 3\", 240×400 (WQVGA)"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP, VGA video 30 FPS or slo-mo QVGA video 120 FPS, strobe flash",
+      "Front camera": "VGA video call"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.2, USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 112
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Viewty",
+      "url": "https://en.wikipedia.org/wiki/LG_Viewty"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Viewty\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Viewty",
+    "revid": 1374925477
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

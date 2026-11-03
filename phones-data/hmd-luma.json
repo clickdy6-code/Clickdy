@@ -1,0 +1,93 @@
+{
+  "slug": "hmd-luma",
+  "brand": "HMD",
+  "name": "Luma",
+  "status": "published",
+  "announced": "2026-02-27",
+  "released": "2026-02-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-02-27"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.7 mm H , 76.5 mm W , 8.65 mm D",
+      "Weight": "197.9 g"
+    },
+    "Platform": {
+      "Operating system": "Android 15",
+      "Chipset": "Unisoc T615",
+      "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "128 GB or 256 GB",
+      "Card slot": "microSD up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.67 in IPS LCD (169 mm) HD+ (720*1604) , 120Hz refresh rate, 500 nits"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, LED flash , Video: 1080p @ 30fps",
+      "Front camera": "8 MP , Video: 1080p @ 30fps"
+    },
+    "Sound": {
+      "Sound": "Dual speakers, 3.5 mm headphone jack, FM Radio"
+    },
+    "Battery": {
+      "Battery": "5,000 mAh (18W charging)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 5 (802.11a/b/g/n/ac), Bluetooth 5.0, USB-C 2.0, GPS, GLONASS, BeiDou, Galileo"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "peak_nits": 500,
+    "chipset": "Unisoc T615",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "os": "Android 15",
+    "five_g": false,
+    "nfc": false,
+    "wifi": "Wi-Fi 5",
+    "usb": "USB-C",
+    "weight_g": 197.9,
+    "thickness_mm": 8.65,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HMD Luma",
+      "url": "https://en.wikipedia.org/wiki/HMD_Luma"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HMD Luma\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HMD Luma",
+    "revid": 1373551599
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

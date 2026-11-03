@@ -1,0 +1,69 @@
+{
+  "slug": "motorola-razr2",
+  "brand": "Motorola",
+  "name": "Razr2",
+  "status": "published",
+  "announced": "2007-06-29",
+  "released": "2007-06-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/V9.jpg/500px-V9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/V9.jpg/250px-V9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Razr2",
+      "credit": "User:Wheelz07, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:V9.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2007-06-29",
+      "Series": "Motorola Razr",
+      "Predecessor": "Motorola Razr (V3/V3i/V3x/V3xx), Motorola Razr Maxx (V6)"
+    },
+    "Network": {
+      "Technology": "V8: GSM/GPRS/EDGE, V9/V9x: GSM/GPRS/EDGE/HSDPA, V9m: CDMA2000/EV-DO"
+    },
+    "Body": {
+      "Dimensions": "V9: 103 x 53 x 13.3 mm (4.06 x 2.09 x 0.52 in), V8/V9m: 103 x 53 x 11.9 mm (4.06 x 2.09 x 0.47 in)",
+      "Weight": "V8: 117 g, V9: 125 g"
+    },
+    "Memory": {
+      "RAM": "420 MB or 2 GB internal memory"
+    },
+    "Display": {
+      "Display": "240×320 pixels, TFT LCD, 256,000 colours"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "weight_g": 117,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Razr2",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Razr2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Razr2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Razr2",
+    "revid": 1361476655
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

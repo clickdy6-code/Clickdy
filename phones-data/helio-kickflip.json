@@ -1,0 +1,48 @@
+{
+  "slug": "helio-kickflip",
+  "brand": "Helio",
+  "name": "Kickflip",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA 1xEV-DO 800/1900 MHz"
+    },
+    "Body": {
+      "Dimensions": "9.9×5×2.5 cm (3.88×1.96×0.98 in)",
+      "Weight": "127 g (4.47 oz)"
+    },
+    "Memory": {
+      "RAM": "70 MB + extra memory available via microSD"
+    },
+    "Display": {
+      "Display": "5.6 cm (2.2\") QVGA, 262K color TFT-LCD, 240 x 320 resolution"
+    },
+    "Connectivity": {
+      "Connectivity": "1xEV-DO, HSDPA, HSUPA, USB"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "nfc": false,
+    "weight_g": 127
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Helio Kickflip",
+      "url": "https://en.wikipedia.org/wiki/Helio_Kickflip"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Helio Kickflip\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Helio Kickflip",
+    "revid": 1364622599
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

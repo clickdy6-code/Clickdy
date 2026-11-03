@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-2730-classic",
+  "brand": "Nokia",
+  "name": "2730 classic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Nokia_2730_classic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Nokia_2730_classic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 2730 classic",
+      "credit": "Jeppis, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2730_classic.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia 2000 series",
+      "Predecessor": "Nokia 2630",
+      "Successor": "Nokia C2-01"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "109.6 × 46.9 × 14.4 mm",
+      "Weight": "87.7 g (with battery)"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 40, 5th Edition, Feature Pack 1",
+      "CPU": "ARM9 231 MHz"
+    },
+    "Memory": {
+      "RAM": "30 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "2 inch, 18-bit (262,144 colors), 240×320 px, TFT"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "BL-5C, 1020 mAh , Talk time: Up to 7 hrs (GSM), Up to 3 hrs (WCDMA) , Stand-by: Up to 360 hrs (GSM), Up to 400 hrs (WCDMA)"
+    },
+    "Connectivity": {
+      "Connectivity": "Photo and data sharing with Bluetooth 2.0 and USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "nfc": false,
+    "weight_g": 87.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2730 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2730_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2730 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2730 classic",
+    "revid": 1361477205
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

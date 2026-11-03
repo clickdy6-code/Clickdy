@@ -1,0 +1,78 @@
+{
+  "slug": "motorola-z6",
+  "brand": "Motorola",
+  "name": "Z6",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Motoz6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Motoz6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Motorola Z6",
+      "credit": "Hitman2007, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motoz6.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Motorola Rizr Z3, Motorola Rokr E6",
+      "Successor": "Motorola Rokr E8"
+    },
+    "Network": {
+      "Technology": "GSM quad-band with EDGE"
+    },
+    "Body": {
+      "Dimensions": "105.5 × 45.5 × 16 mm",
+      "Weight": "115g / 4.06 ounces"
+    },
+    "Platform": {
+      "Operating system": "MOTOMAGX",
+      "CPU": "Freescale MXC275-30, 32-bit 528 MHz ARM11"
+    },
+    "Memory": {
+      "RAM": "64 MB available to user, 96 MB ROM, 64 MB SDRAM",
+      "Card slot": "microSD (TransFlash) card up to 2 GB"
+    },
+    "Display": {
+      "Display": "2.1 in diagonal TFT LCD, 320×240 px, 262,000 colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MPix with LED flash"
+    },
+    "Battery": {
+      "Battery": "BC50 3.7V at 750mah"
+    },
+    "Connectivity": {
+      "Connectivity": "mini-USB, Bluetooth (Class 2) + A2DP"
+    }
+  },
+  "key": {
+    "display_in": 2.1,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 750,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Z6",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Z6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Z6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Z6",
+    "revid": 1369646644
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "lg-g3",
+  "brand": "LG",
+  "name": "G3",
+  "status": "published",
+  "announced": "2014-05-28",
+  "released": "2014-05-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/7f/LG_G3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7f/LG_G3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG G3",
+      "credit": "GadgetsGuy, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_G3.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-05-28",
+      "Series": "G series",
+      "Predecessor": "LG G2",
+      "Successor": "LG G4"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE (telecommunication), EDGE 850/900/1800/1900 MHz, CDMA 1.9 GHz CDMA PCS/800MHz, WCDMA / LTE (telecommunication), LTE, TD-SCDMA 1900, 2000 MHz, TD-LTE (China Mobile Plus Network)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.3xx74.6xx8.9 mm",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android KitKat, Android 4.4.2 \"KitKat\", Current: Android Marshmallow, Android 6.0.1 \"Marshmallow\"",
+      "Chipset": "Qualcomm Snapdragon 801 MSM8974AC v3"
+    },
+    "Memory": {
+      "RAM": "2 GB (16 GB model), 3 GB (32 GB model)",
+      "Storage": "16 or 32 GB",
+      "Card slot": "microSDXC (up to 200 GB)"
+    },
+    "Display": {
+      "Display": "5.5 in 2560×1440, (534 ppi) 1440p IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP Sony Exmor IMX135, 1/3.06 in OIS+, F2.4, dual-tone LED flash, hybrid infrared autofocus",
+      "Front camera": "2.1 MP Sony Exmor IMX204, F2.0"
+    },
+    "Battery": {
+      "Battery": "3,000 mAh, user-replaceable"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 801 MSM8974AC v3",
+    "ram_gb": [
+      2,
+      3,
+      16,
+      32
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 2.1,
+    "battery_mah": 3000,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 149,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G3",
+      "url": "https://en.wikipedia.org/wiki/LG_G3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG G3",
+    "revid": 1379965770
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "lg-v30",
+  "brand": "LG",
+  "name": "V30",
+  "status": "published",
+  "announced": "2017-09-21",
+  "released": "2017-09-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/LG_V30_%28cropped%29.jpg/500px-LG_V30_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/LG_V30_%28cropped%29.jpg/250px-LG_V30_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG V30",
+      "credit": "LG Electronics \n\n\n\n\n\nThis file comes from LG Electronics's official Flickr.\nThis, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_V30_(cropped).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-09-21",
+      "Discontinued": "2021",
+      "Series": "V series",
+      "Predecessor": "LG V20, LG V20 Pro (L-01K), LG isai Beat (LGV35)",
+      "Successor": "LG V35, LG V40 ThinQ, LG V60 ThinQ 5G (Japan)"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151.7 mm H , 75.4 mm W , 7.3 mm D",
+      "Weight": "158 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1\"Nougat\", Current: Android 9 \"Pie\", Unofficial alternative: Android 12.1, Android 13, Android 14",
+      "Chipset": "Qualcomm Snapdragon 835",
+      "CPU": "Octa-core (4x2.45 GHz & 4x1.9 GHz) Kryo",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "V30: 64 GB, V30+: 128 GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "6 in 2880×1440 1440p 2:1 aspect ratio (537 ppi) P-OLED, Dolby Vision, HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 16 MP Sony Exmor IMX351 (f/1.6, OIS, 3-axis, laser & phase detection AF) + 13 MP wide-angle (f/1.9), Video at 4K at 30fps, 1080p at 60fps, 720p at 120fps",
+      "Front camera": "5 MP (f/2.2), facial recognition"
+    },
+    "Sound": {
+      "Sound": "Quad ESS DAC"
+    },
+    "Battery": {
+      "Battery": "3,300 mAh, not user-replaceable"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 835",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 5,
+    "battery_mah": 3300,
+    "os": "Android 7.1",
+    "five_g": false,
+    "weight_g": 158,
+    "thickness_mm": 7.3,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG V30",
+      "url": "https://en.wikipedia.org/wiki/LG_V30"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG V30\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG V30",
+    "revid": 1382592891
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

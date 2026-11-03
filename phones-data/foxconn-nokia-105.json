@@ -1,0 +1,72 @@
+{
+  "slug": "foxconn-nokia-105",
+  "brand": "Foxconn",
+  "name": "Nokia 105",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Nokia_105_%282019_4th_Edn_Black%29_%28during_call%29_%28transparent%29.png/500px-Nokia_105_%282019_4th_Edn_Black%29_%28during_call%29_%28transparent%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Nokia_105_%282019_4th_Edn_Black%29_%28during_call%29_%28transparent%29.png/250px-Nokia_105_%282019_4th_Edn_Black%29_%28during_call%29_%28transparent%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 105",
+      "credit": "Multicherry, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_105_(2019_4th_Edn_Black)_(during_call)_(transparent).png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09",
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia 105 (2017)",
+      "Successor": "Nokia 105 (2022)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "119.0mm × 49.2mm × 14.4mm",
+      "Weight": "73.02 g",
+      "Other": "Flashlight"
+    },
+    "Platform": {
+      "Operating system": "Series 30+",
+      "Chipset": "Spreadtrum SC6531EFM"
+    },
+    "Memory": {
+      "RAM": "4MiB",
+      "Storage": "4MiB"
+    },
+    "Display": {
+      "Display": "1.77 in, QQVGA, 113dpi"
+    },
+    "Battery": {
+      "Battery": "800 mAh, Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "FM Radio, EDGE, GPRS"
+    }
+  },
+  "key": {
+    "chipset": "Spreadtrum SC6531EFM",
+    "battery_mah": 800,
+    "nfc": false,
+    "weight_g": 73.02,
+    "thickness_mm": 14.4,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 105 (2019)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_105_%282019%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 105 (2019)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 105 (2019)",
+    "revid": 1361476941
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

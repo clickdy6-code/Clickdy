@@ -1,0 +1,94 @@
+{
+  "slug": "essential-products-essential-phone",
+  "brand": "Essential Products",
+  "name": "Essential Phone",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Essential_Phone_in_ocean_depths.jpg/500px-Essential_Phone_in_ocean_depths.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Essential_Phone_in_ocean_depths.jpg/250px-Essential_Phone_in_ocean_depths.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Essential Products Essential Phone",
+      "credit": "Essential Products, Inc., CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Essential_Phone_in_ocean_depths.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2018-12-28",
+      "Successor": "Essential PH-2 (Cancelled)"
+    },
+    "Network": {
+      "Technology": "UMTS/HSPA+: 1, 2, 4, 5, 6, 8, GSM: 850, 900, 1800, 1900 MHz, CDMA EV-DO Rev. A: 0, 1, 10, LTE-FDD: 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 17, 20, 21, 25, 26, 28, 29, 30, 66, LTE-TDD: 38, 39, 40, 41, 42, 43, TD-SCDMA: 34, 39"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "141.5 mm H , 71.1 mm W , 7.8 mm D",
+      "Weight": "185 g",
+      "Other": "Titanium body, Ceramic back, Corning Gorilla Glass 5 cover glass, Rear-mounted fingerprint scanner, Modular pogo pins that transmit power for accessories connected over Wireless USB"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 \"Nougat\", Current: Android 10",
+      "Chipset": "Qualcomm Snapdragon 835",
+      "CPU": "Octa-core (4x2.32 GHz & 4x1.9 GHz) Kryo 280",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "128 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "5.71 in 2560 x 1312 QHD, 500 cd/m² brightness, 19.5:10 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP dual RGB + monochrome cameras each with 1.85 lens, hybrid autofocus combining contrast, phase detect and IR laser, video at 4K 30fps, 1080p 60fps or 720p 120fps",
+      "Front camera": "8 MP resolution with 16:9 aspect ratio, 2.2 fixed hyperfocal lens, video at 4K 30fps, 1080p 60fps or 720p 120fps"
+    },
+    "Battery": {
+      "Battery": "3,040 mAh, not user-replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5 LE, Wi-Fi: 802.11a/b/g/n/ac with MIMO, NFC, GPS and GLONASS , USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.71,
+    "chipset": "Qualcomm Snapdragon 835",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 3040,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 185,
+    "thickness_mm": 7.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Essential Phone",
+      "url": "https://en.wikipedia.org/wiki/Essential_Phone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Essential Phone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Essential Phone",
+    "revid": 1382725427
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

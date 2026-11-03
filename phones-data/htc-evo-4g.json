@@ -1,0 +1,79 @@
+{
+  "slug": "htc-evo-4g",
+  "brand": "HTC",
+  "name": "Evo 4G+",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Evo",
+      "Predecessor": "HTC Evo 4G",
+      "Successor": "HTC Evo 4G LTE"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE/GPRS (850/900/1800/1900 MHz), 3G WCDMA/HSPA (900/2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "126 mm H, 65 mm W, 12.05 mm D",
+      "Weight": "160 g",
+      "Other": "Wi-Fi Hotspot, USB tethering, FM-Radio, GPS navigation"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.3.4 \"Gingerbread\" with HTC Sense 3.0 overlay, Current: Android 4.0.3 \"Ice Cream Sandwich\" with HTC Sense 3.6",
+      "CPU": "Dual-Core, 1.2 GHz Qualcomm MSM8260 (Snapdragon)",
+      "GPU": "Qualcomm Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB eMMC",
+      "Card slot": "Micro-SDHC 8 GB (32 GB max)"
+    },
+    "Display": {
+      "Display": "960×540 px, 4.3 in (10.9 cm) at 256 ppi qHD Capacitative Super-LCD (0.49 megapixels)"
+    },
+    "Cameras": {
+      "Rear camera": "Backside illumination single 8-megapixel autofocus with dual LED flash, rear-facing",
+      "Front camera": "1.3-megapixel, front-facing"
+    },
+    "Battery": {
+      "Battery": "1730 mAh Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "EDGE 560 Kbps, GPRS 114 Kbps, 3G(WCDMA/UTMS 900/2100 MHz, ), 14.4 Mbps download speed, 5.76 Mbps upload speed, 4G(WiMAX/WiBro), Wi-Fi (802.11b/g/n), Bluetooth v3.0 + HS, Micro USB, HDMI (via MHL)"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1730,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 160,
+    "thickness_mm": 12.05
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Evo 4G+",
+      "url": "https://en.wikipedia.org/wiki/HTC_Evo_4G%2B"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Evo 4G+\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Evo 4G+",
+    "revid": 1361473262
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

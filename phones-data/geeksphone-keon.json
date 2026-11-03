@@ -1,0 +1,81 @@
+{
+  "slug": "geeksphone-keon",
+  "brand": "GeeksPhone",
+  "name": "Keon",
+  "status": "published",
+  "announced": "2013-04-23",
+  "released": "2013-04-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Kannada_language_input_in_a_GeeksPhone_Keon_running_Firefox_OS.JPG/500px-Kannada_language_input_in_a_GeeksPhone_Keon_running_Firefox_OS.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Kannada_language_input_in_a_GeeksPhone_Keon_running_Firefox_OS.JPG/250px-Kannada_language_input_in_a_GeeksPhone_Keon_running_Firefox_OS.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "GeeksPhone Keon",
+      "credit": "Subhashish Panigrahi, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kannada_language_input_in_a_GeeksPhone_Keon_running_Firefox_OS.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-04-23"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, HSDPA (Tri-band), HSDPA/UMTS 850 / 1900 / 2100"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "Width: 2.4 in, Height: 4.5 in, Thickness: 0.4 in",
+      "Weight": "4.2 oz"
+    },
+    "Platform": {
+      "Operating system": "Firefox OS",
+      "CPU": "1 GHz Qualcomm Snapdragon S1 7225AB processor (ARMv7)"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "480 × 320 px (HVGA) capacitive touchscreen, 3.5\""
+    },
+    "Cameras": {
+      "Rear camera": "3 MP"
+    },
+    "Battery": {
+      "Battery": "1580 mAh battery, micro-USB charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 a/b/g/n, bluetooth 2.1 +EDR, micro-USB 2.0, GPS, mini-SIM card, FM receiver"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1580,
+    "five_g": false,
+    "nfc": false,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: GeeksPhone Keon",
+      "url": "https://en.wikipedia.org/wiki/GeeksPhone_Keon"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"GeeksPhone Keon\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "GeeksPhone Keon",
+    "revid": 1361473047
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

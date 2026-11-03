@@ -1,0 +1,59 @@
+{
+  "slug": "helio-ocean",
+  "brand": "Helio",
+  "name": "Ocean",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Helio_ocean_qwerty.png/500px-Helio_ocean_qwerty.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Helio_ocean_qwerty.png/250px-Helio_ocean_qwerty.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Helio Ocean",
+      "credit": "Buster8079, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Helio_ocean_qwerty.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA 1x EV-DO 800/1900 MHz"
+    },
+    "Body": {
+      "Dimensions": "4.33\" (H) x 2.20\" (W) x 0.86\" (D)",
+      "Weight": "5.61 oz"
+    },
+    "Memory": {
+      "RAM": "200 MB + up to 2 GB extra memory available via microSD; SDHC is not compatible"
+    },
+    "Display": {
+      "Display": "2.4\" QVGA display, 262K color TFT-LAC, 240 x 320 resolution"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Helio Ocean",
+      "url": "https://en.wikipedia.org/wiki/Helio_Ocean"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Helio Ocean\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Helio Ocean",
+    "revid": 1361473582
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

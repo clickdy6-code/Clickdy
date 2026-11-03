@@ -1,0 +1,84 @@
+{
+  "slug": "foxconn-nokia-3210",
+  "brand": "Foxconn",
+  "name": "Nokia 3210",
+  "status": "published",
+  "announced": "2024-05-08",
+  "released": "2024-05-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Nokia3210.png/500px-Nokia3210.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Nokia3210.png/250px-Nokia3210.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 3210",
+      "credit": "ctunbox, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia3210.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-05-08",
+      "Series": "Nokia Originals",
+      "Predecessor": "Nokia 3210"
+    },
+    "Network": {
+      "Technology": "GSM (900/1800 MHz), GPRS, EDGE and 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Feature phone",
+      "Dimensions": "H: 122 mm, W: 52 mm, D: 13.1 mm",
+      "Weight": "87 g"
+    },
+    "Platform": {
+      "Operating system": "MOCOR (with Nokia Series 30+ interface)",
+      "Chipset": "Unisoc T107"
+    },
+    "Memory": {
+      "RAM": "64 MB of RAM, 128 MB of storage",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.4 in 240 x 320 QVGA TFT"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP with LED flash"
+    },
+    "Battery": {
+      "Battery": "1450 mAh Li-ion, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, Bluetooth 5.0, FM radio, Stereo, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "chipset": "Unisoc T107",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1450,
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 87,
+    "thickness_mm": 13.1,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3210 (2024)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3210_%282024%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3210 (2024)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3210 (2024)",
+    "revid": 1374696054
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

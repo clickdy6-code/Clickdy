@@ -1,0 +1,78 @@
+{
+  "slug": "motorola-moto-e4",
+  "brand": "Motorola",
+  "name": "Moto E4",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Moto E Family",
+      "Predecessor": "Moto E3",
+      "Successor": "Moto E5"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "144.7 mm H, 72.3 mm W, 9.3 mm D",
+      "Weight": "198 g",
+      "Other": "Proximity, Accelerometer, Fingerprint sensor (most models), FM Radio, Compass, Fast Charging"
+    },
+    "Platform": {
+      "Operating system": "Android 7.1.1 \"Nougat\"",
+      "Chipset": "Qualcomm Snapdragon 427 (USA), Mediatek MT6737 (Europe)",
+      "CPU": "4x1.4 GHz or 4x1.3 GHz Cortex-A53",
+      "GPU": "Adreno 308 or Mali T720"
+    },
+    "Memory": {
+      "RAM": "2 GB / 3 GB RAM",
+      "Storage": "16 GB / 32 GB"
+    },
+    "Display": {
+      "Display": "5.0 in, 1280 x 720 pixel resolution (293 ppi) / 5.5 in, 1280 x 720 pixel resolution (267 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, 2.2 aperture, LED flash, 13 MP, 2.0 aperture, LED flash",
+      "Front camera": "5 MP, 2.2 aperture, 1.4 μm pixel size, LED flash"
+    },
+    "Battery": {
+      "Battery": "2,800 mAh Li-Ion replaceable / 5,000 mAh Li-Ion non-replaceable"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "chipset": "Qualcomm Snapdragon 427",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2800,
+    "os": "Android 7.1",
+    "weight_g": 198,
+    "thickness_mm": 9.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto E4",
+      "url": "https://en.wikipedia.org/wiki/Moto_E4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto E4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Moto E4",
+    "revid": 1333554820
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

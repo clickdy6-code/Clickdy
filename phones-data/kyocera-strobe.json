@@ -1,0 +1,38 @@
+{
+  "slug": "kyocera-strobe",
+  "brand": "Kyocera",
+  "name": "Strobe",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 x 52 x 24 mm",
+      "Weight": "115 g"
+    },
+    "Battery": {
+      "Battery": "Standard lithium ion, (Lilon) battery (900 mAh)"
+    }
+  },
+  "key": {
+    "battery_mah": 900,
+    "weight_g": 115
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera Strobe",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_Strobe"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera Strobe\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera Strobe",
+    "revid": 1371335113
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

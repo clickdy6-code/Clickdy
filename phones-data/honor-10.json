@@ -1,0 +1,87 @@
+{
+  "slug": "honor-10",
+  "brand": "Honor",
+  "name": "10",
+  "status": "published",
+  "announced": "2018-04-19",
+  "released": "2018-04-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-04-19",
+      "Predecessor": "Honor 9",
+      "Successor": "Honor 10, Honor 20"
+    },
+    "Network": {
+      "Technology": "TD-LTE, TD-LTE, FDD-LTE, TD-SCDMA, WCDMA, CDMA2000, CDMA2000, CDMA 1X, GSM, (Each model and version supports different networks, and some models support dual SIM cards)"
+    },
+    "Body": {
+      "Form factor": "phablet",
+      "Dimensions": "149.6 mm H height, 71.2 mm W width, 7.7 mm D deep",
+      "Weight": "153 g"
+    },
+    "Platform": {
+      "Operating system": "Emotion UI 8.1 based on Android 8.1 Oreo",
+      "Chipset": "Kirin970",
+      "CPU": "4xCortex A73 2.36GHz + 4xCortex A53 1.8GHz + Micro Core i6",
+      "GPU": "Mali G72 MP12"
+    },
+    "Memory": {
+      "RAM": "4GB/6GB RAM, The above are all LPDDR4 specifications",
+      "Storage": "64GB/128GB (both UFS 2.1)",
+      "Card slot": "microSD, not expandable GB"
+    },
+    "Display": {
+      "Display": "5.8 inches negative LCD, 2240x1080 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "16 million pixels (color) + 24 million pixels (black and white), F/1.8 aperture, supports autofocus",
+      "Front camera": "24 million pixels, F/2.0 aperture, supports fixed focal length"
+    },
+    "Sound": {
+      "Sound": "3.5mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "3400 mAh lithium polymer battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi(802.11 a/b/g/n/ac), Bluetooth 4.2, GPS/GLONASS/Beidou/Galileo Navigation"
+    }
+  },
+  "key": {
+    "display_in": 5.8,
+    "display_type": "LCD",
+    "chipset": "Kirin970",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "battery_mah": 3400,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 153,
+    "thickness_mm": 7.7,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 10",
+      "url": "https://en.wikipedia.org/wiki/Honor_10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 10",
+    "revid": 1361473583
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

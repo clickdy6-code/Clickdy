@@ -1,0 +1,83 @@
+{
+  "slug": "geeksphone-peak",
+  "brand": "GeeksPhone",
+  "name": "Peak",
+  "status": "published",
+  "announced": "2013-04-23",
+  "released": "2013-04-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/GeeksPhone_Peak.jpeg/500px-GeeksPhone_Peak.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/GeeksPhone_Peak.jpeg/250px-GeeksPhone_Peak.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "GeeksPhone Peak",
+      "credit": "Havarhen, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GeeksPhone_Peak.jpeg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-04-23"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, HSPA (Tri-band), HSPA/UMTS 850 / 1900 / 2100"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "Width: 133.6 mm, Height: 66 mm, Thickness: 8.9 mm"
+    },
+    "Platform": {
+      "Operating system": "Firefox OS",
+      "CPU": "1.2 GHz Qualcomm Snapdragon S4 8225 processor (ARMv7)"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "540 × 960 px (qHD) capacitive touchscreen, 4.3\""
+    },
+    "Cameras": {
+      "Rear camera": "8 MP",
+      "Front camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "1800 mAh battery, micro-USB charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 a/b/g/n, Bluetooth 2.1 +EDR, micro-USB 2.0, GPS, mini-SIM card, FM receiver"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 1800,
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 8.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: GeeksPhone Peak",
+      "url": "https://en.wikipedia.org/wiki/GeeksPhone_Peak"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"GeeksPhone Peak\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "GeeksPhone Peak",
+    "revid": 1361473051
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

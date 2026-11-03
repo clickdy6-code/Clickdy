@@ -1,0 +1,65 @@
+{
+  "slug": "high-tech-computer-htc-touch-viva",
+  "brand": "High Tech Computer",
+  "name": "HTC Touch Viva",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family"
+    },
+    "Network": {
+      "Technology": "Quad band GSM/GPRS/EDGE (GSM 850, GSM 900, GSM 1800, GSM 1900)"
+    },
+    "Body": {
+      "Dimensions": "104.5 mm (h) 59 mm (w) 15.75 mm (d)",
+      "Weight": "110 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.1 Professional",
+      "CPU": "Texas Instruments OMAP 850 at 201 MHz"
+    },
+    "Memory": {
+      "RAM": "128 MiB RAM , 256 MiB ROM",
+      "Card slot": "microSDHC"
+    },
+    "Display": {
+      "Display": "320x240 px, 2.8 in, TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel Fixed focus back"
+    },
+    "Battery": {
+      "Battery": "1100mAh mAH Lithium-ion polymer battery, user accessible"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mini , Bluetooth 2.0 + EDR + A2DP , Wi-Fi (802.11b/g)"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110,
+    "thickness_mm": 15.75
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Touch Viva",
+      "url": "https://en.wikipedia.org/wiki/HTC_Touch_Viva"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Touch Viva\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Touch Viva",
+    "revid": 1370097174
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "lg-rumor-2",
+  "brand": "LG",
+  "name": "Rumor 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Rumor",
+      "Successor": "Rumor Touch, LG Cosmos"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "4.4 in x 2.1 in x 0.7 in",
+      "Weight": "4.2 oz"
+    },
+    "Memory": {
+      "Card slot": "microSD (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "240 x 320 px TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 Megapixels"
+    },
+    "Battery": {
+      "Battery": "950 mAh Li-Pol"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.2 / microUSB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 950,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Rumor 2",
+      "url": "https://en.wikipedia.org/wiki/LG_Rumor_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Rumor 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Rumor 2",
+    "revid": 1380173032
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

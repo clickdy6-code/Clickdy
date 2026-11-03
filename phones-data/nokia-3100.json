@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-3100",
+  "brand": "Nokia",
+  "name": "3100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Nokia_3100_blue_front_%28cutout_transparent_bg%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Nokia_3100_blue_front_%28cutout_transparent_bg%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 3100",
+      "credit": "Episteme, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3100_blue_front_(cutout_transparent_bg).png",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3510 (3100/3100b), Nokia 3530 (3105)",
+      "Successor": "Nokia 3108 (3105), Nokia 3200 (3100), Nokia 3205 (3105)"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 (3100/3120), GSM 850/1800/1900 (3100b/3120b), CDMA 800 (3105/3125)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "102 ×",
+      "Weight": "99 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 1st Edition"
+    },
+    "Memory": {
+      "RAM": "439 KB"
+    },
+    "Display": {
+      "Display": "128×128 4096 color CSTN"
+    },
+    "Cameras": {
+      "Rear camera": "640×480 VGA , (sold separately, added via Pop-Port)"
+    },
+    "Battery": {
+      "Battery": "BL-5C, 850 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Pop-Port only"
+    }
+  },
+  "key": {
+    "battery_mah": 850,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3100",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3100",
+    "revid": 1364669681
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

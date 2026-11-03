@@ -1,0 +1,106 @@
+{
+  "slug": "huawei-nova-y91",
+  "brand": "Huawei",
+  "name": "Nova Y91",
+  "status": "published",
+  "announced": "2023-04-17",
+  "released": "2023-04-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Huawei_60X%2C_February_4%2C_2024.jpg/500px-Huawei_60X%2C_February_4%2C_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Huawei_60X%2C_February_4%2C_2024.jpg/250px-Huawei_60X%2C_February_4%2C_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Nova Y91",
+      "credit": "メイド理世, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_60X,_February_4,_2024.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Enjoy 60X: 2023-04-17, Nova Y91: 2023-05-23, Nova 14i: 2025-10-08",
+      "Series": "Nova / Enjoy",
+      "Predecessor": "Huawei Nova Y90, Huawei Nova 13i",
+      "Successor": "Huawei Enjoy 70X"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 171.6 mm, W: 79.9 mm, D:, Nova Y91/Nova 14i/Enjoy 60X (128/256 GB): 8.9 mm, Enjoy 60X (512 GB): 9.1 mm",
+      "Weight": "Nova Y91: 214 g, Nova 14i/Enjoy 60X (128/256 GB): 216 g, Enjoy 60X (512 GB): 219 g"
+    },
+    "Platform": {
+      "Operating system": "Nova Y91:Initial: Android (operating system), Android Android 12, 12 (without Google Mobile Services) + EMUI 13, Current: Android 12 (without Google Mobile Services) + EMUI 14.2Nova 14i: Android 12 (without Google Mobile Services) + EMUI 14.2, Enjoy 60X:Initial: HarmonyOS 3.0, Current: HarmonyOS 4.2",
+      "Chipset": "Qualcomm SM6225 Snapdragon 680 4G (6 nm)",
+      "CPU": "Octa-core (4×2.4 GHz Kryo 265 Gold & 4×1.9 GHz Kryo 265 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "Nova Y91: 6/8 GB, Nova 14i/Enjoy 60X: 8 GB, LPDDR4X",
+      "Storage": "Nova Y91/Nova 14i: 128/256 GB, Enjoy 60X: 128/256/512 GB, UFS 2.2"
+    },
+    "Display": {
+      "Display": "IPS LCD, 90 Hz, 6.95\", 2388 × 1080 (FHD+), 19.8:9, 376 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, 26 mm (wide), 1/1.8\", PDAF + 2 MP, (depth), LED flash, panorama, HDR, Video: 1080p@30fps",
+      "Front camera": "8 MP, (wide), Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 7000 mAh",
+      "Charging": "22.5 W fast charging, Enjoy 60X (512 GB): 22.5 W reverse wired charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.0 (A2DP, LE), NFC (Enjoy 60X), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct), GPS (A-GPS), GLONASS, BeiDou, Galileo, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.95,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "Qualcomm SM6225 Snapdragon 680 4G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 7000,
+    "wired_w": 22.5,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 214,
+    "thickness_mm": 8.9,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova Y91",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_Y91"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova Y91\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova Y91",
+    "revid": 1370950409
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

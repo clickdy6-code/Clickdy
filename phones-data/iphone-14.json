@@ -1,0 +1,104 @@
+{
+  "slug": "iphone-14",
+  "brand": "IPhone",
+  "name": "14",
+  "status": "published",
+  "announced": "2022-09-16",
+  "released": "2022-09-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/IPhone_14_vector.svg/500px-IPhone_14_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/IPhone_14_vector.svg/250px-IPhone_14_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 14",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_14_vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "14: 2022-09-16, 14 Plus: 2022-10-07",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 13 and 13 Mini",
+      "Successor": "iPhone 15 and 15 Plus"
+    },
+    "Network": {
+      "Technology": "3G / 4G LTE / 5G NR",
+      "SIM": "Dual eSIM (US), Dual nano-SIM (Hong Kong, Macau and mainland China), nano-SIM and eSIM (elsewhere)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "14: 146.7xx71.5xx7.8 mm, 14 Plus: 160.8xx78.1xx7.8 mm",
+      "Weight": "14: 172 g, 14 Plus: 203 g",
+      "Other": "FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 16",
+      "Chipset": "Apple A15"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X",
+      "Storage": "128, 256 or 512 GB NVMe"
+    },
+    "Display": {
+      "Display": "14: 6.1 in resolution, 19.5:9 aspect ratio (~460 ppi density), Super Retina XDR OLED, HDR10, 800 nits (typ), 1200 nits (peak) supplied by Samsung Electronics, Samsung Display, LG Display, and BOE Technology, BOE, 14 Plus: 6.7 in, 2778 × 1284 pixels, 19.5:9 ratio (~458 ppi density, Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak) supplied by Samsung Electronics, Samsung Display"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.5, 26mm (wide), 12 MP, f/2.4, 13mm (ultrawide), 4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, HDR, Dolby Vision HDR (up to 60fps), Cinematic mode (4K@30fps), stereo sound rec.",
+      "Front camera": "12 MP, f/1.9, 23mm (wide), SL 3D, (depth/biometrics sensor), 4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, Spatial Audio, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "14: 12.68 Wh (3279 mAh) Lithium-ion battery, Li-ion, 14 Plus: 16.68 Wh (4325 mAh)",
+      "Charging": "MagSafe (wireless charger), MagSafe (up to 15W) and Qi (standard), Qi (7.5W) wireless charging, Wired charging via Lightning (connector), Lightning (fast-charge capable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6 (802.11ax (a/b/g/n/ac)) dual-band, Bluetooth 5.3 (A2DP, LE), Ultra-wideband (UWB), GPS, GLONASS, Galileo, QZSS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Super Retina XDR OLED",
+    "peak_nits": 1200,
+    "chipset": "Apple A15",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@24fps",
+    "front_mp": 12,
+    "battery_mah": 3279,
+    "wireless_w": 7.5,
+    "wired_w": 15,
+    "os": "iOS 16",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "esim": true,
+    "weight_g": 172,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 14",
+      "url": "https://en.wikipedia.org/wiki/IPhone_14"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 14\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 14",
+    "revid": 1383417098
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

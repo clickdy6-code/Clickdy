@@ -1,0 +1,80 @@
+{
+  "slug": "motorola-moto-g5",
+  "brand": "Motorola",
+  "name": "Moto G5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Moto G Family",
+      "Predecessor": "Moto G4",
+      "Successor": "Moto G6"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "G5:, 144 mm H, 73 mm W, 9.5 mm D, G5 Plus:, 150 mm H, 74 mm W, 9.7 mm D, G5S:, 150 mm H, 73.5 mm W, 8.2 mm D, G5S Plus:, 153.5 mm H, 76.2 mm W, 9.5 mm D",
+      "Weight": "G5: 145 g, G5 Plus: 155 g, G5S: 157 g, G5S Plus: 168 g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0 \"Nougat\", Upgradeable to 8.1.0 \"Oreo\"",
+      "Chipset": "G5 and G5S: Qualcomm Snapdragon List_of_Qualcomm_Snapdragon_systems_on_chips#Snapdragon_400_series_(2013%E2%80%932021), 430, G5 Plus and G5S Plus: Qualcomm Snapdragon List_of_Qualcomm_Snapdragon_systems_on_chips#Snapdragon_600_series_(2013%E2%80%932023), 625",
+      "CPU": "Octa-core Cortex-A53 (G5 and G5S at 1.4 GHz, G5 Plus and G5S Plus at 2.0 GHz)",
+      "GPU": "G5 and G5S: Adreno, Adreno 505, G5 Plus and G5S Plus: Adreno, Adreno 506"
+    },
+    "Memory": {
+      "RAM": "G5: 2 or 3 GB Mobile_DDR#LPDDR3, LPDDR3, G5 Plus: 2, 3, or 4 GB LPDDR3, G5S Plus: 3 or 4 GB LPDDR4",
+      "Storage": "16, 32 or 64 GB",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "G5: 5.0\" (127 mm) 1920 × 1080 (441 ppi) IPS LCD, G5 Plus and G5S: 5.2\" (132 mm) 1920 × 1080 (424 ppi) IPS LCD, G5S Plus: 5.5\" (140 mm) 1920 x 1080 (401 ppi) IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "G5: 13 megapixel (G5), G5 Plus: Exmor RS IMX362 Sensor with 12 megapixel resolution; ƒ/1.7 lens with dual-LED flash, G5S:16 megapixel resolution; ƒ/2.0 lens, G5S Plus: 13 megapixel resolution dual-lens; ƒ/2.0 lens with dual-LED flash",
+      "Front camera": "G5 and G5 Plus: OmniVision OV5695 Sensor with 5 megapixel resolution and ƒ/2.2 aperture, G5S: 5 megapixel resolution and ƒ/2.0 aperture with LED flash, G5S Plus: 8 megapixel resolution and ƒ/2.0 aperture with LED flash"
+    },
+    "Sound": {
+      "Sound": "Front-ported loud speaker, 2-Mics"
+    },
+    "Battery": {
+      "Battery": "G5: 2800 mAh removable, G5 Plus, G5S and G5S Plus: 3000 mAh non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "G5",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 2800,
+    "os": "Android 7.0",
+    "nfc": false,
+    "weight_g": 145,
+    "thickness_mm": 9.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto G5",
+      "url": "https://en.wikipedia.org/wiki/Moto_G5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto G5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto G5",
+    "revid": 1379432516
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

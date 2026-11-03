@@ -1,0 +1,75 @@
+{
+  "slug": "asus-zenfone-12-ultra",
+  "brand": "Asus",
+  "name": "Zenfone 12 Ultra",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Zenfone_12_Ultra.png/500px-Zenfone_12_Ultra.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Zenfone_12_Ultra.png/250px-Zenfone_12_Ultra.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Asus Zenfone 12 Ultra",
+      "credit": "Yccnt, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zenfone_12_Ultra.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-02",
+      "Series": "Asus Zenfone",
+      "Predecessor": "Asus Zenfone 11 Ultra"
+    },
+    "Network": {
+      "SIM": "Dual-SIM / Dual-Standby / eSIM support"
+    },
+    "Body": {
+      "Dimensions": "163.8 x 77.0 x 8.9mm",
+      "Weight": "220g"
+    },
+    "Platform": {
+      "Operating system": "Android 15"
+    },
+    "Memory": {
+      "Storage": "UFS4.0 256GB, UFS4.0 512GB"
+    },
+    "Cameras": {
+      "Rear camera": "Main Camera: Sony® Lytia 700, 50 MP, 1.78, 23.8 mm (wide), Second Camera: 13 MP, 12.7 mm (ultrawide), Third Camera: 32 MP, 65.3 mm, 3x optical zoom (telephoto)",
+      "Front camera": "32MP RGBW sensor, Pixel binning 1.4μm (Actual output photo: 8MP), 22 mm equivalent focal length in 35 mm film camera"
+    },
+    "Battery": {
+      "Battery": "5,500 mAh"
+    }
+  },
+  "key": {
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 5500,
+    "os": "Android 15",
+    "weight_g": 220,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus Zenfone 12 Ultra",
+      "url": "https://en.wikipedia.org/wiki/Asus_Zenfone_12_Ultra"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus Zenfone 12 Ultra\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus Zenfone 12 Ultra",
+    "revid": 1369990335
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

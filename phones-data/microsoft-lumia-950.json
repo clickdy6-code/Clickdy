@@ -1,0 +1,97 @@
+{
+  "slug": "microsoft-lumia-950",
+  "brand": "Microsoft",
+  "name": "Lumia 950",
+  "status": "published",
+  "announced": "2015-11-20",
+  "released": "2015-11-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Lumia950.jpg/500px-Lumia950.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Lumia950.jpg/250px-Lumia950.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft Lumia 950",
+      "credit": "Indrek Haav, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lumia950.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "20 November 2015",
+      "Series": "Lumia",
+      "Predecessor": "Lumia 930, Lumia Icon"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145 mm H, 73.2 mm W, 8.2 mm D",
+      "Weight": "150 g",
+      "Other": "Iris scanner (near infrared) for Windows Hello, Continuum for Phone via Microsoft Display Dock"
+    },
+    "Platform": {
+      "Operating system": "Windows 10 Mobile",
+      "Chipset": "Qualcomm Snapdragon 808",
+      "CPU": "1.82 GHz dual-core Cortex-A57 + 1.44 GHz quad-core Cortex-A53",
+      "GPU": "Adreno 418"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3",
+      "Storage": "32 GB",
+      "Card slot": "microSD up to 200 GB"
+    },
+    "Display": {
+      "Display": "5.2 in WQHD (1440x2560) AMOLED, 564 ppi, Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "20 MP PureView, 1/2.4 in PureView sensor, Zeiss optics with f/1.9 aperture, triple RGB LED flash, optical image stabilization, 4K video (2160p) at 30 fps",
+      "Front camera": "5 MP, f/2.4 aperture, 1080p video"
+    },
+    "Battery": {
+      "Battery": "User replaceable 3000 mAh Li-Ion battery, Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "HSDPA (850, 900, 1700, 1900, 2100 MHz), GSM (850, 900, 1800, 1900 MHz), Wi-Fi (802.11 a/b/g/n/ac), Bluetooth 4.1, GPS, GLONASS, BeiDou, LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 28, 38, 40: 2100, 1900, 1800, 1700/2100, 850, 2600, 900, 700, 700, 800, 700, 2600, 2300), USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 808",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 20,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 150,
+    "thickness_mm": 8.2,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Microsoft Lumia 950",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Lumia_950"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Microsoft Lumia 950\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Microsoft Lumia 950",
+    "revid": 1361476150
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

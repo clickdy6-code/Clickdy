@@ -1,0 +1,86 @@
+{
+  "slug": "motorola-droid-turbo",
+  "brand": "Motorola",
+  "name": "Droid Turbo",
+  "status": "published",
+  "announced": "2014-10-30",
+  "released": "2014-10-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Motorola_Droid_Turbo.jpg/500px-Motorola_Droid_Turbo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Motorola_Droid_Turbo.jpg/250px-Motorola_Droid_Turbo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid Turbo",
+      "credit": "User:McChizzle, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Droid_Turbo.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-10-30",
+      "Series": "Droid",
+      "Predecessor": "Droid Maxx",
+      "Successor": "Droid Turbo 2"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "143.5 mm H , 73.3 mm W , 8.3-11.2 mm",
+      "Weight": "176 g",
+      "Other": "Use time: up to 48 hours, Standby time: up to 20 days, Damage resistance:, Corning Gorilla Glass 3 screen, Ballistic nylon backing, water-repellent nanocoating, Media sharing: Miracast wireless video playback, Qi Wireless Charging"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.4 (KitKat), Upgradable to Android 6.0.1 (Marshmallow), unofficial upgrade to Android 11",
+      "Chipset": "Qualcomm Snapdragon 805",
+      "CPU": "2.7 GHz quad-core",
+      "GPU": "600 MHz Adreno 420"
+    },
+    "Memory": {
+      "RAM": "3 GiB dual-channel, 800 MHz LPDDR3 RAM",
+      "Storage": "32 GiB internal flash memory , 64 GiB internal flash memory"
+    },
+    "Display": {
+      "Display": "5.2 in diagonal, 16:9 aspect ratio widescreen, AMOLED RGB capacitive, multi-touch touchscreen, 1440x2560 pixel Quad HD (565 PPI), 16 M colors Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "21 MP (5248×3936 px), 15.5 MP (2952×5248 px in widescreen mode to fit screen aspect ratio), 4K video recording (24 fps); 1080p (30 fps); 720p (slow motion)",
+      "Front camera": "2 MP also ultra HD rear camera (2160)"
+    },
+    "Sound": {
+      "Sound": "Speaker, 3.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "3,900 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 805",
+    "main_mp": 21,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 2,
+    "battery_mah": 3900,
+    "os": "Android 4.4",
+    "weight_g": 176,
+    "thickness_mm": 11.2,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid Turbo",
+      "url": "https://en.wikipedia.org/wiki/Droid_Turbo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid Turbo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid Turbo",
+    "revid": 1382533108
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

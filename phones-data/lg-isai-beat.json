@@ -1,0 +1,84 @@
+{
+  "slug": "lg-isai-beat",
+  "brand": "LG",
+  "name": "isai Beat",
+  "status": "published",
+  "announced": "2016-11-18",
+  "released": "2016-11-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Lgv34_front.jpg/500px-Lgv34_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Lgv34_front.jpg/250px-Lgv34_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG isai Beat",
+      "credit": "W53CA, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lgv34_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-11-18"
+    },
+    "Network": {
+      "Technology": "3.9G: FDD-LTE (au VoLTE) (700 MHz/N800 MHz/2 GHz), 3G: W-CDMA (850 MHz/2 GHz), 2G: GSM (1.9 GHz/1.8 GHz/900 MHz)"
+    },
+    "Body": {
+      "Dimensions": "149 mm H , 72 mm W , 8.0 mm D",
+      "Weight": "146 g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0",
+      "CPU": "Qualcomm Snapdragon 820 (MSM8996 2.2 GHz + 1.6 GHz quad-core)"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSDHC (up to 32 GB), microSDXC (up to 256 GB) (officially supported by KDDI)"
+    },
+    "Display": {
+      "Display": "Main: 5.2-inch IPS display, WQHD (2560 × 1440 pixels), approx. 16.77 million colors, Secondary: IPS display, 160 × 1040 pixels, approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 16.0 megapixels + approx. 8.0 megapixels (dual camera), backside-illuminated CMOS image sensor, image stabilization (video recording supported), face recognition, laser autofocus, dual flash",
+      "Front camera": "Approx. 5.0 megapixels, CMOS image sensor"
+    },
+    "Battery": {
+      "Battery": "3,000 mAh",
+      "Charging": "Approx. 90 minutes"
+    },
+    "Connectivity": {
+      "Connectivity": "3.9/4G: FDD-LTE / LTE-Advanced (au 4G LTE / au 4G LTE CA) (700 MHz/N800 MHz/2 GHz), WiMAX 2.1 (WiMAX 2+), 3.5G: UMTS (W-CDMA), Other: Wireless LAN (IEEE 802.11a/b/g/n/ac 5 GHz/2.4 GHz)"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 3000,
+    "os": "Android 7.0",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 146,
+    "thickness_mm": 8,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG isai Beat",
+      "url": "https://en.wikipedia.org/wiki/LG_isai_Beat"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG isai Beat\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG isai Beat",
+    "revid": 1365012620
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

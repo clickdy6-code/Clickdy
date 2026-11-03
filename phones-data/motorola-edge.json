@@ -1,0 +1,92 @@
+{
+  "slug": "motorola-edge",
+  "brand": "Motorola",
+  "name": "Edge",
+  "status": "published",
+  "announced": "2020-05-29",
+  "released": "2020-05-29",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Edge (2020): 2020-05-29, Edge+ (2020): 2020-05-14",
+      "Series": "Edge",
+      "Predecessor": "Moto Z series , Moto X series",
+      "Successor": "Motorola Edge 20, Motorola Edge (2021)"
+    },
+    "Network": {
+      "Technology": "2G EDGE, GPRS/3G HSPA, HSPA+/4G LTE, LTE+, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Edge (2020): 161.6 x 71.1 x 9.3 mm, Edge+ (2020): 161.1 x 71.4 x 9.6 mm",
+      "Weight": "Edge (2020): 188 g, Edge+ (2020): 203 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10, Current (Edge (2020)): Android 11, Current (Edge+ (2020)): Android 12",
+      "Chipset": "Edge (2020): Qualcomm Snapdragon 765G, Edge+ (2020): Qualcomm Snapdragon 865",
+      "CPU": "Octa-core, Edge (2020): 2.4 GHz (1x 2.4 GHz Kryo 475 Prime + 1x 2.2 GHz Kryo 475 Gold + 6x 1.8 GHz Kryo 475 Silver), Edge+ (2020): 2.84 GHz (1x 2.84 GHz + 3x 2.42 GHz + 4x 1.8 GHz Kryo 585)",
+      "GPU": "Edge (2020): Adreno 620, Edge+ (2020): Adreno 650"
+    },
+    "Memory": {
+      "RAM": "Edge (2020): 4/6 GB RAM, Edge+ (2020): 12 GB RAM",
+      "Storage": "Edge(2020): 128/256 GB UFS 2.1, Edge+ (2020): 256 GB UFS 3.0",
+      "Card slot": "Edge (2020): microSDXC, Edge+ (2020): Non-expandable"
+    },
+    "Display": {
+      "Display": "6.7 in, (385 ppi), OLED capacitive touchscreen, 16M colors (Edge (2020))/1B colors (Edge+ (2020)) , 90 Hz refresh rate, HDR10 (Edge (2020))/HDR10+ (Edge+ (2020))"
+    },
+    "Cameras": {
+      "Rear camera": "Edge (2020): 64 MP, f/1.8, 1/1.72\", 0.8 μm (wide) + 16 MP, f/2.2, 13mm, 1.0 μm (ultrawide) + 8 MP, f/2.4, 52mm, 1.12 μm (telephoto) + ToF 3D (depth), PDAF, 2x optical zoom, 4K@30fps, 1080p@30/60fps, LED flash, panorama, HDR, Edge+ (2020): 108 MP, f/1.8, 1/1.33\", 0.8 μm (wide) + 16 MP, f/2.2, 13mm, 1.0 μm (ultrawide) + 8 MP, f/2.4, 81mm, 1.12 μm (telephoto) + ToF 3D (depth), PDAF, gyro-EIS, OIS, 3x optical zoom, 6K@30fps, 4K@30fps, 1080p@30/60/120fps, dual-LED flash, panorama, HDR",
+      "Front camera": "25 MP, f/2.0, 0.9 μm, 1080p@30fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Stereo loudspeakers, 3.5mm audio jack"
+    },
+    "Battery": {
+      "Battery": "Edge (2020): 4500 mAh, Edge+(2020): 5000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (2.4 & 5 GHz)/802.11a/b/g/n/ac/6 (2.4 & 5 GHz), dual-band, WiFi direct, hotspot, Bluetooth v5.1, A2DP, Low-energy"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "OLED",
+    "refresh_hz": 90,
+    "chipset": "Edge",
+    "ram_gb": [
+      6,
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 25,
+    "battery_mah": 4500,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 188,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Edge (2020)",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Edge_%282020%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Edge (2020)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Edge (2020)",
+    "revid": 1361476536
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

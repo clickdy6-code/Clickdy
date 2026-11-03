@@ -1,0 +1,85 @@
+{
+  "slug": "motorola-moto-g-5g",
+  "brand": "Motorola",
+  "name": "Moto G 5G",
+  "status": "published",
+  "announced": "2020-12-07",
+  "released": "2020-12-07",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "G 5G: 2020-12-07 , One 5G Ace: 2021-01-13",
+      "Series": "Moto G Family, Motorola One"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "166.1 x 76.1 x 9.9 mm",
+      "Weight": "212 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10",
+      "Chipset": "Qualcomm SM7225 Snapdragon 750G",
+      "CPU": "2x 2.2 GHz Kryo 570 & 6x 1.8 GHz Kryo 570",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "4 or 6 GB",
+      "Storage": "64 or 128 GB",
+      "Card slot": "microSDXC, up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.7 in LTPS IPS LCD capacitive touchscreen, (393 ppi with 20:9 aspect ratio), HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.7, 26mm, 1/2\", 0.8 μm (wide) + 8 MP, f/2.2, 1.12 μm (ultrawide) + 2 MP, f/2.4 (macro), 4K@30fps, 1080p@30/60fps, PDAF, AF, gyro-EIS, HDR, panorama",
+      "Front camera": "16 MP, f/2.2, 1.0 μm, 1080p@30fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Mono loudspeaker, 3.5mm audio jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "2G EDGE, GPRS/3G HSPA, HSPA+/4G LTE, LTE+, 5G, NFC, Wi-Fi 802.11a/b/g/n/ac 2.4GHz + 5GHz, Bluetooth 5.1, GPS, A-GPS, GLONASS, LTEPP, SUPL, Galileo"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm SM7225 Snapdragon 750G",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": true,
+    "weight_g": 212,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto G 5G",
+      "url": "https://en.wikipedia.org/wiki/Moto_G_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto G 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto G 5G",
+    "revid": 1361476288
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

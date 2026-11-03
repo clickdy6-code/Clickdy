@@ -1,0 +1,78 @@
+{
+  "slug": "lg-optimus-lte",
+  "brand": "LG",
+  "name": "Optimus LTE",
+  "status": "published",
+  "announced": "2011-10-10",
+  "released": "2011-10-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 10, 2011, November 22, 2011, December 4, 2011, December 15, 2011",
+      "Predecessor": "LG Optimus 3D, LG Revolution (Verizon Wireless)",
+      "Successor": "LG Optimus LTE 2"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "Different by country",
+      "Weight": "Different by country",
+      "Other": "aGPS with Google Maps, Google Street View, Google Latitude, Android Market"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.5 Gingerbread, upgrade to 4.0 ICS",
+      "CPU": "Qualcomm Snapdragon S3, (dual-core 1.5 GHz)"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB on board, supports up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "4.5-inch 1280×720 px IPS LCD at 329 ppi, 16 M colors"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP AF, digital zoom with LED Flash",
+      "Front camera": "1.3 MP imager for video chat, self image capture"
+    },
+    "Battery": {
+      "Battery": "1830 mAh, Talk time, GSM = 7 hrs, Standby time, GSM = 259 hrs"
+    },
+    "Connectivity": {
+      "Connectivity": "LTE 700 MHz, Class 17, GSM 850, 900, 1,900, and 1,800 MHz, audio jack 3.5 mm, Micro USB 2.0 HS, corporate sync, BOTA, Wi-Fi 2.4 GHz, 5 GHz 802.11 b/g/n, Bluetooth 3.0, HSPA at 14.4 Mbit/s"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 1.3,
+    "battery_mah": 1830,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus LTE",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_LTE"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus LTE\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus LTE",
+    "revid": 1361475297
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

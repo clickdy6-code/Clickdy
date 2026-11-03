@@ -1,0 +1,82 @@
+{
+  "slug": "lg-isai-vl-lgv31",
+  "brand": "LG",
+  "name": "Isai VL LGV31",
+  "status": "published",
+  "announced": "2014-12-12",
+  "released": "2014-12-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-12-12",
+      "Predecessor": "isai FL LGL24",
+      "Successor": "isai vivid LGV32"
+    },
+    "Network": {
+      "Technology": "3.9G：FDD-LTE, （au VoLTE）, (700MHz/N800MHz/2GHz), 3G：W-CDMA, (850MHz/2GHz), 2G：GSM, (1.9GHz/1.8GHz/900MHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145 mm H, 76 mm W, 10.5 mm D",
+      "Weight": "154 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4 \"KitKat\", Planned: Android 5.0 \"Lollipop\"",
+      "Chipset": "Qualcomm Snapdragon 801",
+      "CPU": "2.5 GHz quad-core Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "32 GB",
+      "Card slot": "microSD up to 2 GB, microSDHC up to 32 GB, microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5 in 2560x1440 , (534 ppi) 1440p IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "2.1MP, f2.0"
+    },
+    "Battery": {
+      "Battery": "3000 mAh (not user-replaceable)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 801",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2.1,
+    "battery_mah": 3000,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 154,
+    "thickness_mm": 10.5,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Isai VL LGV31",
+      "url": "https://en.wikipedia.org/wiki/Isai_VL_LGV31"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Isai VL LGV31\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Isai VL LGV31",
+    "revid": 1363453205
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "huawei-ascend-g6",
+  "brand": "Huawei",
+  "name": "Ascend G6",
+  "status": "published",
+  "announced": "2014-04-28",
+  "released": "2014-04-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Ascend G6 & G6 4G: 2014-02, Ascend P7 mini: 2014-04-28",
+      "Series": "Ascend G/P",
+      "Successor": "Huawei Ascend G7, Huawei P8 lite"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE) (except Ascend G6)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "131.2 × 65.3 × 7.8 mm",
+      "Weight": "115 g",
+      "Other": "Proximity sensor, ambient light sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 4.3 Jelly Bean + Emotion UI 2 Lite",
+      "CPU": "Ascend G6: Qualcomm MSM8X12 Snapdragon 200 (28 nm), 2×1.2 GHz ARM Cortex-A7, Ascend G6 4G & P7 mini: Qualcomm MSM8926 Snapdragon 400 (28 nm), 4×1.2 GHz ARM Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR3",
+      "Storage": "Ascend G6: 4 GB, Ascend G6 4G & P7 mini: 8 GB, eMMC 4.5",
+      "Card slot": "microSDXC up to 64 GB"
+    },
+    "Display": {
+      "Display": "All models: LCD, 4.5\", 960 × 540, 16:9, 245 ppi, Ascend G6 & G6 4G: IPS, Ascend P7 mini: TFT"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP Sony IMX134, f/2.0, 1/4.0\", 1.12 μm, AF, LED flash, Video: 720p@30fps",
+      "Front camera": "5 MP, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 2000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm audio jack, Bluetooth 4.0 (A2DP, EDR), NFC, FM radio, Wi-Fi 802.11 b/g/n (DLNA, hotspot), GPS, A-GPS, GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "LCD",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4,
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2000,
+    "os": "Android 4.3",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 115,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ascend G6",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ascend_G6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ascend G6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ascend G6",
+    "revid": 1379916128
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

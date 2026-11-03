@@ -1,0 +1,73 @@
+{
+  "slug": "huawei-ascend-p2",
+  "brand": "Huawei",
+  "name": "Ascend P2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Huawei Ascend",
+      "Predecessor": "Huawei Ascend P1",
+      "Successor": "Huawei Ascend P6"
+    },
+    "Network": {
+      "Technology": "2.5G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 3G UMTS/HSPA+ – 900, 2100 MHz, 4G LTE Rel. 8 (UE Cat 4) - 800, 1800, 2100, 2600"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "136.2 mm H, 66.7 mm W, 8.4 mm D",
+      "Weight": "122 g",
+      "Other": "Accelerometer, Ambient light sensor, Gyroscope, Magnetometer, Proximity sensor"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1 \"Jelly Bean\"",
+      "CPU": "1.5 GHz quad-core Hi-Silicon K3V2"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "16 GB"
+    },
+    "Display": {
+      "Display": "4.7 in IPS 315 ppi (1280×720), Corning Gorilla Glass 2.0"
+    },
+    "Cameras": {
+      "Rear camera": "13 megapixels 1080p full HD video recording @ 30fps auto focus, face detection, smile detection, digital zoom, geo tagging, high-dynamic-range mode (HDR)",
+      "Front camera": "1.3 megapixels"
+    },
+    "Battery": {
+      "Battery": "2420 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "IPS",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 2420,
+    "os": "Android 4.1",
+    "five_g": true,
+    "weight_g": 122,
+    "thickness_mm": 8.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ascend P2",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ascend_P2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ascend P2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ascend P2",
+    "revid": 1383068454
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

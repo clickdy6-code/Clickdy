@@ -1,0 +1,75 @@
+{
+  "slug": "itel-a60",
+  "brand": "Itel",
+  "name": "A60",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A60: February 2023, A60s: July 2023 (India)"
+    },
+    "Network": {
+      "SIM": "Dual SIM"
+    },
+    "Platform": {
+      "Operating system": "A60: Android 12 (Go edition), A60s: Android 12",
+      "CPU": "Quad-core 1.4 GHz",
+      "GPU": "Mali-T820 MP1"
+    },
+    "Memory": {
+      "RAM": "2GB RAM (A60), 4GB RAM (A60s)",
+      "Storage": "A60: 32GB, A60s: 64GB/128GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "IPS LCD; 6.6 inches; 720 x 1612 resoluion (20:9 ratio); 267 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "A60: Dual 8 MP 0.3 MP, A60s: Dual 8 MP (wide) 0.08 MP (auxiliary lens)",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "10W wired"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "main_mp": 8,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 12",
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel A60",
+      "url": "https://en.wikipedia.org/wiki/Itel_A60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel A60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel A60",
+    "revid": 1372966050
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

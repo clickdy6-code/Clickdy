@@ -1,0 +1,85 @@
+{
+  "slug": "foxconn-nokia-3-1-plus",
+  "brand": "Foxconn",
+  "name": "Nokia 3.1 Plus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 2018",
+      "Series": "Single digit Series",
+      "Predecessor": "Nokia 3"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "156.9 mm H, 76.4 mm W, 8.2 mm D",
+      "Weight": "180 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\", Current: Android 10, (Android One)",
+      "Chipset": "Global edition - MediaTek MT6762N(12nm), US edition - Qualcomm Snapdragon 439(12nm)",
+      "CPU": "Octa-Core Cortex-A53, Global edition @ 2.0 GHz, US edition 2 cores @ 1.95 GHz, 6 cores @ 1.45 GHz",
+      "GPU": "Global edition PowerVR GE8320, US edition Adreno 505"
+    },
+    "Memory": {
+      "RAM": "2/3 GB",
+      "Storage": "16/32 GB",
+      "Card slot": "microSDXC, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.0 in diagonal IPS LCD, with scratch-resistant Corning Gorilla Glass, 1440x720 px, 18:9 aspect ratio, 268 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP AF, F/2.0, LED Flash, 5 MP Depth Sensor, F/2.4",
+      "Front camera": "8 MP AF, F/2.2"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, Single speaker"
+    },
+    "Battery": {
+      "Battery": "3,500 mAh Non-removable, Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB (USB 2.0), USB OTG, Wi-Fi, Bluetooth, GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "IPS LCD",
+    "chipset": "Global edition - MediaTek MT6762N",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3500,
+    "os": "Android 8.1",
+    "nfc": false,
+    "weight_g": 180,
+    "thickness_mm": 8.2,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3.1 Plus",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3.1_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3.1 Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3.1 Plus",
+    "revid": 1361477223
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

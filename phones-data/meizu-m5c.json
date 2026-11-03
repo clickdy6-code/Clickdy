@@ -1,0 +1,90 @@
+{
+  "slug": "meizu-m5c",
+  "brand": "Meizu",
+  "name": "M5c",
+  "status": "published",
+  "announced": "2017-05-23",
+  "released": "2017-05-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-05-23",
+      "Series": "M series",
+      "Successor": "Meizu M8c"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "144 × 70.5 × 8.3 mm",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 Marshmallow with Flyme 6",
+      "Chipset": "MediaTek MT6737 (28 nm)",
+      "CPU": "Quad-core 1.3 GHz Cortex-A53",
+      "GPU": "Mali-T720MP1"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3",
+      "Storage": "16 GB eMMC 5.0",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5\", 1280 × 720 (HD), 16:9 ratio, 294 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP Samsung S5K4H8, 24 mm, 1/4\", 1.12 µm, AF, LED flash, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP Samsung S5K5E8, 36 mm (wide-angle), 1/5\", 1.12 µm, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 3000 mAh",
+      "Charging": "7.5 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm audio jack, Bluetooth 4.1 (A2DP, LE), Wi-Fi 802.11 a/b/g/n (dual-band), GPS (A-GPS), GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6737",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "wired_w": 7.5,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 135,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu M5c",
+      "url": "https://en.wikipedia.org/wiki/Meizu_M5c"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu M5c\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu M5c",
+    "revid": 1379537073
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

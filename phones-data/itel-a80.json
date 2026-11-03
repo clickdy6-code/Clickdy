@@ -1,0 +1,78 @@
+{
+  "slug": "itel-a80",
+  "brand": "Itel",
+  "name": "A80",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2024",
+      "Series": "Itel A series",
+      "Predecessor": "Itel A70"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Dimensions": "8.5 mm thickness"
+    },
+    "Platform": {
+      "Operating system": "Android 14, itel OS 14",
+      "Chipset": "Unisoc T603",
+      "CPU": "Octa-core"
+    },
+    "Memory": {
+      "Storage": "128GB storage with microSDXC"
+    },
+    "Display": {
+      "Display": "IPS LCD with 120Hz refresh rate, 500 nits, 720 x 1600 px (20:9), 262 ppi density"
+    },
+    "Cameras": {
+      "Rear camera": "Single 50 MP auxiliary lens, with dual-LED flash and HDR, Video: 1080p @ 30fps",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "10W wired"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "peak_nits": 500,
+    "chipset": "Unisoc T603",
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 14",
+    "five_g": false,
+    "dual_sim": true,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel A80",
+      "url": "https://en.wikipedia.org/wiki/Itel_A80"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel A80\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel A80",
+    "revid": 1361474744
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

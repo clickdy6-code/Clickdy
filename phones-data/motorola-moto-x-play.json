@@ -1,0 +1,91 @@
+{
+  "slug": "motorola-moto-x-play",
+  "brand": "Motorola",
+  "name": "Moto X Play",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Moto_X_Play.jpg/500px-Moto_X_Play.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Moto_X_Play.jpg/250px-Moto_X_Play.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto X Play",
+      "credit": "Rubberduck09, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Moto_X_Play.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Motorola Moto",
+      "Predecessor": "Droid Maxx",
+      "Successor": "Moto X4, Moto Z Play , Moto Z2 Play"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "148 mm H , 75 mm W , 10.9 mm D",
+      "Weight": "169 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\" , Current: Android 7.1.1 Nougat",
+      "Chipset": "Qualcomm Snapdragon 615",
+      "CPU": "1.7 GHz octa-core ARM Cortex-A53 (64-bit)",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3 RAM",
+      "Storage": "16 or 32 GB",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5\" (140 mm) 1080 × 1920 pixel (403 ppi) IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "21 MP Sony Exmor IMX230, f/2.0 aperture, dual CCT flash, 1080p video recording @ 30fps, slow motion",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "3630 mAh Li-Po, non-removable",
+      "Charging": "TurboPower fast charging"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 615",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 21,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "battery_mah": 3630,
+    "os": "Android 5.1",
+    "weight_g": 169,
+    "thickness_mm": 10.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto X Play",
+      "url": "https://en.wikipedia.org/wiki/Moto_X_Play"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto X Play\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto X Play",
+    "revid": 1381878069
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

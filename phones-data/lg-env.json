@@ -1,0 +1,67 @@
+{
+  "slug": "lg-env",
+  "brand": "LG",
+  "name": "enV",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/34/LG_EnV_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/34/LG_EnV_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG enV",
+      "credit": "Danielhalton (talk), Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_EnV_Phone.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "The V (VX9800)",
+      "Successor": "enV2 (VX9100), Voyager (VX10000)"
+    },
+    "Network": {
+      "Technology": "CDMA"
+    },
+    "Body": {
+      "Dimensions": "4.6 *",
+      "Weight": "4.6 oz"
+    },
+    "Platform": {
+      "Operating system": "proprietary"
+    },
+    "Memory": {
+      "RAM": "128 MB"
+    },
+    "Display": {
+      "Display": "2.25 in. (240 x 320 px LCD, 262k colors)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel with flash"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth / USB Cable"
+    }
+  },
+  "key": {
+    "display_in": 2.25,
+    "display_type": "LCD",
+    "nfc": false,
+    "usb": "USB-C"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG enV (VX9900)",
+      "url": "https://en.wikipedia.org/wiki/LG_enV_%28VX9900%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG enV (VX9900)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG enV (VX9900)",
+    "revid": 1379441986
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

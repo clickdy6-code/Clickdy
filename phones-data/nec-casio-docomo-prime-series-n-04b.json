@@ -1,0 +1,72 @@
+{
+  "slug": "nec-casio-docomo-prime-series-n-04b",
+  "brand": "NEC Casio",
+  "name": "Docomo PRIME series N-04B",
+  "status": "published",
+  "announced": "2010-05-27",
+  "released": "2010-05-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/NTT_docomo_N-04B_001.JPG/500px-NTT_docomo_N-04B_001.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/NTT_docomo_N-04B_001.JPG/250px-NTT_docomo_N-04B_001.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "NEC Casio Docomo PRIME series N-04B",
+      "credit": "KoroKoroColon, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NTT_docomo_N-04B_001.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-05-27",
+      "Series": "docomo PRIME series",
+      "Predecessor": "N-02B"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA, HSDPA/HSUPA), 2G: GSM, Wi-Fi (IEEE 802.11b/g)"
+    },
+    "Body": {
+      "Form factor": "Clamshell (2-axis swivel)",
+      "Dimensions": "113 mm H , 50 mm W , 15.9 mm D",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "Access Linux Platform + OPP(L)",
+      "Chipset": "Texas Instruments",
+      "CPU": "OMAP 3430"
+    },
+    "Memory": {
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "Main: 3.3 in (84 mm) TFT LCD, 480 × 854 pixels (Full Wide VGA), 16,777,216 colors, Sub: 0.8 in (20 mm) OLED, 96 × 35 pixels, 1 color"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 megapixel CMOS, 28mm wide-angle lens, autofocus, HD video recording, LED flash, image stabilization, face detection",
+      "Front camera": "0.33 megapixel CMOS"
+    }
+  },
+  "key": {
+    "display_in": 3.3,
+    "display_type": "TFT",
+    "chipset": "Texas Instruments",
+    "five_g": false,
+    "weight_g": 135,
+    "thickness_mm": 15.9,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Docomo PRIME series N-04B",
+      "url": "https://en.wikipedia.org/wiki/Docomo_PRIME_series_N-04B"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Docomo PRIME series N-04B\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Docomo PRIME series N-04B",
+    "revid": 1380054679
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

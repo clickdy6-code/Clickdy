@@ -1,0 +1,93 @@
+{
+  "slug": "iphone-4s",
+  "brand": "IPhone",
+  "name": "4s",
+  "status": "published",
+  "announced": "2011-10-14",
+  "released": "2011-10-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/IPhone_4S_No_shadow.png/500px-IPhone_4S_No_shadow.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/IPhone_4S_No_shadow.png/250px-IPhone_4S_No_shadow.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 4s",
+      "credit": "Zach Vega, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_4S_No_shadow.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-10-14",
+      "Discontinued": "32 GB and 64 GB: 2012-09-12, 16 GB: 2013-09-10, 8 GB: 2014-09-09 (outside India), 2016-02-17 (India) 2019-07-22 (iOS update support date)",
+      "Predecessor": "iPhone 4",
+      "Successor": "iPhone 5"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, 3G+, HSUPA 4G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115.2 mm H, 58.6 mm W, 9.3 mm D",
+      "Weight": "140 g"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 5.0, Last: iOS 9.3.6, released 2019-07-22",
+      "Chipset": "Dual-core Apple A5"
+    },
+    "Memory": {
+      "RAM": "512 MB DDR2 RAM",
+      "Storage": "8, 16, 32, or 64 GB"
+    },
+    "Display": {
+      "Display": "3.5 in diagonal 3:2 aspect ratio widescreen, LED backlit IPS TFT LCD, 960×640 Resolution at 326 ppi, 800:1 contrast ratio (typical), 500 cd/m2 max. brightness (typical), Fingerprint-resistant oleophobic coating on front and back glass"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor R IMX145 8 MP back-side illuminated sensor, HD video (1080p) at 30 frame/s, IR filter, Aperture f/2.4, 5 element lens, Image signal processor (built-in A5), Face detection (stills only), image stabilization",
+      "Front camera": "0.3 MP VGA (480p)"
+    },
+    "Sound": {
+      "Sound": "Single loudspeaker, 3.5 mm TRRS, 20 Hz to 20 kHz frequency response (internal, headset), 3.5mm audio jack"
+    },
+    "Battery": {
+      "Battery": "3.7 V, 5.3 W⋅h (~1430 mA⋅h) Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g/n) (2.4 GHz only), Bluetooth 4.0, Combined GSM/CDMA antenna: quad-band GSM/GPRS/EDGE, (800 850 900 1800 1900 MHz), Quad-band UMTS/HSDPA/HSUPA, (800 850 900 1900 2100 MHz) (800 MHz unannounced), Dual-band CDMA/EV-DO Rev. A (800 1900 MHz), GLONASS, Global Positioning System (GPS)"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "IPS",
+    "chipset": "Dual-core Apple A5",
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 0.3,
+    "os": "iOS 5.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 140,
+    "thickness_mm": 9.3,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 4s",
+      "url": "https://en.wikipedia.org/wiki/IPhone_4s"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 4s\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone 4s",
+    "revid": 1383309767
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

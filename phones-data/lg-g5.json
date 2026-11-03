@@ -1,0 +1,93 @@
+{
+  "slug": "lg-g5",
+  "brand": "LG",
+  "name": "G5",
+  "status": "published",
+  "announced": "2016-04-23",
+  "released": "2016-04-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/LG_G5.jpg/500px-LG_G5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/LG_G5.jpg/250px-LG_G5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG G5",
+      "credit": "LG Electronics, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_G5.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-04-23",
+      "Predecessor": "LG G4",
+      "Successor": "LG G6"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "149.4 mm H, 73.9 mm W, 7.7 mm D",
+      "Weight": "159 g (5.61 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0.1 \"Marshmallow\", Current: Android 8.1.0 \"Oreo\", Android 7.0 \"Nougat\" (Sprint models)",
+      "Chipset": "Qualcomm Snapdragon 820 MSM8996",
+      "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSDXC up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.3 in 2560×1440 1440p IPS LCD, (554 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "16 Megapixel#Megapixel, MP, Exmor, Sony IMX234 Exmor RS, Image stabilization#Optical image stabilization, OIS 2.0, Flash (photography)#Flash LED used in phones, LED flash, f/1.8 aperture, 1/2.6\" sensor, autofocus#Hybrid autofocus, hybrid infrared autofocus, 8 MP wide-angle, ƒ/2.4 aperture",
+      "Front camera": "8 MP, Toshiba T4KA3, f/2.0 aperture"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "Removable 2800‑mAh Li-Po"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 (Type C connector) + 802.11 a/b/g/n/ac Wi-Fi + Bluetooth 4.2 + NFC + IR transmitter, DisplayPort, HDMI, and Miracast"
+    }
+  },
+  "key": {
+    "display_in": 5.3,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 820 MSM8996",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 8,
+    "os": "Android 6.0",
+    "nfc": true,
+    "weight_g": 159,
+    "thickness_mm": 7.7,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G5",
+      "url": "https://en.wikipedia.org/wiki/LG_G5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG G5",
+    "revid": 1381249028
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

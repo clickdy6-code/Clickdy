@@ -1,0 +1,90 @@
+{
+  "slug": "inone-smart-htc-wildfire-x",
+  "brand": "InOne Smart",
+  "name": "HTC Wildfire X",
+  "status": "published",
+  "announced": "2019-08-22",
+  "released": "2019-08-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-08-22",
+      "Discontinued": "Yes",
+      "Series": "HTC Wildfire series",
+      "Predecessor": "HTC Wildfire S"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156.7 mm H , 74.9 mm W , 8.0 mm D",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 (Pie)",
+      "Chipset": "MediaTek MT6762 Helio P22 (12 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "3 GB or 4 GB",
+      "Storage": "32 GB or 128 GB eMMC 5.1",
+      "Card slot": "microSDXC (uses shared SIM slot)"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.2\", 720 × 1520, 19:9 ratio, ~271 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.8 (wide), 1/2.8\", 1.25µm, PDAF + 8 MP (telephoto), 2x optical zoom + 5 MP (depth), Dual-LED dual-tone flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 3300 mAh",
+      "Charging": "10 W wired"
+    }
+  },
+  "key": {
+    "display_in": 6.2,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6762 Helio P22",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3300,
+    "wired_w": 10,
+    "os": "Android 9.0",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 160,
+    "thickness_mm": 8,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Wildfire X",
+      "url": "https://en.wikipedia.org/wiki/HTC_Wildfire_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Wildfire X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Wildfire X",
+    "revid": 1380221401
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

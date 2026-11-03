@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-2630",
+  "brand": "Nokia",
+  "name": "2630",
+  "status": "published",
+  "announced": "2007-05-03",
+  "released": "2007-05-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Nokia_2630_w_polskiej_sieci_Play_pod_koniec_2018_roku.jpg/500px-Nokia_2630_w_polskiej_sieci_Play_pod_koniec_2018_roku.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Nokia_2630_w_polskiej_sieci_Play_pod_koniec_2018_roku.jpg/250px-Nokia_2630_w_polskiej_sieci_Play_pod_koniec_2018_roku.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 2630",
+      "credit": "Warszawska róg Szerokiej w Tomaszowie Mazowieckim, w województwie łódzkim, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2630_w_polskiej_sieci_Play_pod_koniec_2018_roku.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "3 May 2007",
+      "Predecessor": "Nokia 2610",
+      "Successor": "Nokia 2690, Nokia 2700 classic, Nokia 2730 classic, Nokia C1-01"
+    },
+    "Network": {
+      "Technology": "GSM 900 1800 , GSM 850 1900 (US)"
+    },
+    "Body": {
+      "Form factor": "candy bar",
+      "Dimensions": "105 mm H , 45 mm W , 9.9 mm D, 45 cc",
+      "Weight": "66 g",
+      "Other": "FM radio"
+    },
+    "Memory": {
+      "RAM": "11 MB internal memory, no card slot"
+    },
+    "Display": {
+      "Display": "1.8 in diagonal TFT LCD , 128x160 pixels, 65,536 Colour TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP (640x480 px max.) , 4x digital zoom , VGA video recording (128x96 px max.)"
+    },
+    "Sound": {
+      "Sound": "Polyphonic ringtones 24 voices, Real tone (MP3)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 66,
+    "thickness_mm": 9.9,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2630",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2630"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2630\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2630",
+    "revid": 1381185022
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

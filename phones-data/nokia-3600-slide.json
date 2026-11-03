@@ -1,0 +1,63 @@
+{
+  "slug": "nokia-3600-slide",
+  "brand": "Nokia",
+  "name": "3600 slide",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Slide",
+      "Dimensions": "97.8 x 47.2 x 14.5 mm (59.7cc)",
+      "Weight": "97.3 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "64 MB internal, up to 4 GB external supported"
+    },
+    "Display": {
+      "Display": "2 inch QVGA LCD (16.7 million colors)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels dual LED flash"
+    },
+    "Battery": {
+      "Battery": "BL-4S 860 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, Micro-USB, Packet Data"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "LCD",
+    "ram_gb": [
+      4
+    ],
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 97.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3600 slide",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3600_slide"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3600 slide\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3600 slide",
+    "revid": 1361477301
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "iphone-3gs",
+  "brand": "IPhone",
+  "name": "3GS",
+  "status": "published",
+  "announced": "2009-06-19",
+  "released": "2009-06-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/IPhone_3G_or_3GS_digital_render.png/500px-IPhone_3G_or_3GS_digital_render.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/IPhone_3G_or_3GS_digital_render.png/250px-IPhone_3G_or_3GS_digital_render.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 3GS",
+      "credit": "JoBot164, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_3G_or_3GS_digital_render.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-06-19",
+      "Discontinued": "16 and 32 GB:, 8 GB:",
+      "Series": "3rd",
+      "Predecessor": "iPhone 3G",
+      "Successor": "iPhone 4"
+    },
+    "Network": {
+      "Technology": "Quad-band GSM/GPRS/EDGE, (850, 900, 1800, 1900 MHz), Tri-band UMTS/HSDPA, (850, 1900, 2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115.5 mm H, 62.1 mm W, 12.3 mm D",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "Original: iPhone OS 3.0, Last: iOS 6.1.6, released 2014-02-21",
+      "Chipset": "Samsung S5PC100",
+      "CPU": "600 MHz ARM Cortex-A8",
+      "GPU": "PowerVR SGX535"
+    },
+    "Memory": {
+      "RAM": "256 MB DRAM",
+      "Storage": "8, 16 or 32 GB flash memory"
+    },
+    "Display": {
+      "Display": "3.5 in diagonal 3:2 aspect ratio screen, 24-bit (16.76 million colors) LCD , 480×320 pixel resolution at 163 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "3 MPix with video (VGA at 30 fps), Photo and video geotagging, Tap to focus video or still images, Exposure"
+    },
+    "Sound": {
+      "Sound": "Single loudspeaker , 3.5 mm TRRS, 20 Hz to 20 kHz frequency response (internal, headset)"
+    },
+    "Battery": {
+      "Battery": "Built-in rechargeable lithium-ion battery, 3.7 V 1220 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g) , Bluetooth 2.1+EDR , Dock connector"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "LCD",
+    "chipset": "Samsung S5PC100",
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1220,
+    "os": "iOS 6.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135,
+    "thickness_mm": 12.3,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 3GS",
+      "url": "https://en.wikipedia.org/wiki/IPhone_3GS"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 3GS\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone 3GS",
+    "revid": 1383296886
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

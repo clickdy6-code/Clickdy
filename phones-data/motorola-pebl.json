@@ -1,0 +1,61 @@
+{
+  "slug": "motorola-pebl",
+  "brand": "Motorola",
+  "name": "Pebl",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/MotorolaU62.jpg/500px-MotorolaU62.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/MotorolaU62.jpg/250px-MotorolaU62.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Pebl",
+      "credit": "Mackbeth24, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MotorolaU62.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 (quad band)"
+    },
+    "Body": {
+      "Dimensions": "49 mm×87 mm×20 mm",
+      "Weight": "110 g / 3.8 ounces"
+    },
+    "Memory": {
+      "RAM": "5 MB internal"
+    },
+    "Display": {
+      "Display": "1.8inch, 176×220 pixels, 262,000 color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "VGA, 640x480 pixels, video"
+    },
+    "Connectivity": {
+      "Connectivity": "mini-USB, Bluetooth (Class 1.2), GPRS class 10 (4+1/3+2 slots) 32 - 48 kbit/s, WAP 2.0/xHTML."
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110,
+    "thickness_mm": 20
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Pebl",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Pebl"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Pebl\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Pebl",
+    "revid": 1374926121
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

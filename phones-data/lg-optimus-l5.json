@@ -1,0 +1,89 @@
+{
+  "slug": "lg-optimus-l5",
+  "brand": "LG",
+  "name": "Optimus L5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/LG_Swift_L5_front.jpg/500px-LG_Swift_L5_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/LG_Swift_L5_front.jpg/250px-LG_Swift_L5_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus L5",
+      "credit": "MrSpectre, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Swift_L5_front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2012",
+      "Discontinued": "Yes",
+      "Series": "Optimus",
+      "Successor": "LG Optimus L5 II"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850, 900, 1800, 1900 MHz, 3G UMTS/HSPA+, (7.2 Mbit/s) 900, 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "H: 118.3 mm, W: 66.5 mm, D: 9.9 mm",
+      "Weight": "125 g",
+      "Other": "FM radio with RDS support"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.3 Ice Cream Sandwich (upgradable to Android 4.1.2 Jelly Bean)",
+      "CPU": "800 MHz",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB LP-DDR2 SDRAM",
+      "Storage": "4 GB eMMC",
+      "Card slot": "microSDHC (supports up to 32GB)"
+    },
+    "Display": {
+      "Display": "4-inch TFT, 320x480 px"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP AF, flash"
+    },
+    "Battery": {
+      "Battery": "1,540 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, DLNA, Bluetooth 3.1 + HS, NFC"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1540,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 125,
+    "thickness_mm": 9.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus L5",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_L5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus L5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus L5",
+    "revid": 1383099149
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

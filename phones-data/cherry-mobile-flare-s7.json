@@ -1,0 +1,101 @@
+{
+  "slug": "cherry-mobile-flare-s7",
+  "brand": "Cherry",
+  "name": "Mobile Flare S7",
+  "status": "published",
+  "announced": "2018-10-12",
+  "released": "2018-10-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/9/91/Cherry_mobile_flare_s7_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/91/Cherry_mobile_flare_s7_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Cherry Mobile Flare S7",
+      "credit": "Cherry Mobile, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cherry_mobile_flare_s7_logo.png",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-12",
+      "Discontinued": "2019-07-25",
+      "Series": "Flare S series",
+      "Predecessor": "Cherry Mobile Flare S6",
+      "Successor": "Cherry Mobile Flare S8"
+    },
+    "Network": {
+      "SIM": "Dual-SIM Slot (nanoSIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "150.3 mm H , 72 mm W , 9.2 mm D",
+      "Weight": "185 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\"",
+      "Chipset": "MediaTek MT6739WA",
+      "CPU": "Quad Core (4x Cortex-A53 @ 1.3GHz)",
+      "GPU": "PowerVR GE8100"
+    },
+    "Memory": {
+      "RAM": "2GB LPDDR4X RAM or 3GB LPDDR4X RAM",
+      "Storage": "16GB",
+      "Card slot": "MicroSDXC Expandable up to 128GB"
+    },
+    "Display": {
+      "Display": "5.5 in 720x1440 IPS LCD, (293 ppi) with 18:9 Aspect Ratio"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 13MP Main Camera (f/2.2) + 2MP Depth Sensor, Autofocus and LED Flash",
+      "Front camera": "Dual: 13MP Main Camera (f/2.2) + 2MP Depth Sensor, Soft LED Flash"
+    },
+    "Battery": {
+      "Battery": "2400 mAh Li-ion Battery (Removable)",
+      "Charging": "Standard 10W Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi List of WLAN channels, 802.11 b/g/n, Wi-Fi Direct, Bluetooth#Bluetooth 4.2, Bluetooth 4.2, Bluetooth Low Energy, BLE, USB-C, USB-C Port"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6739WA",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 13,
+    "battery_mah": 2400,
+    "wired_w": 10,
+    "os": "Android 8.1",
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 185,
+    "thickness_mm": 9.2,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Cherry Mobile Flare S7",
+      "url": "https://en.wikipedia.org/wiki/Cherry_Mobile_Flare_S7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Cherry Mobile Flare S7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Cherry Mobile Flare S7",
+    "revid": 1367985662
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

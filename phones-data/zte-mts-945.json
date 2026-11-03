@@ -1,0 +1,63 @@
+{
+  "slug": "zte-mts-945",
+  "brand": "ZTE",
+  "name": "MTS 945",
+  "status": "published",
+  "announced": "2011-03-31",
+  "released": "2011-03-31",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-03-31"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "109.1 mm H, 55.9 mm W, 14.1 mm D",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 \"Froyo\"",
+      "Chipset": "Qualcomm MSM7230",
+      "CPU": "ARMv7 Scorpion",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "130 MB",
+      "Card slot": "Up to 32 GB microSD"
+    },
+    "Display": {
+      "Display": "3.2 in TFT 145.77 ppi (400x240)"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels"
+    },
+    "Battery": {
+      "Battery": "1500 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM7230",
+    "battery_mah": 1500,
+    "os": "Android 2.2",
+    "weight_g": 130,
+    "thickness_mm": 14.1,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: MTS 945",
+      "url": "https://en.wikipedia.org/wiki/MTS_945"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"MTS 945\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "MTS 945",
+    "revid": 1361475748
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

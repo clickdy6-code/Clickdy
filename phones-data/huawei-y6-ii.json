@@ -1,0 +1,79 @@
+{
+  "slug": "huawei-y6-ii",
+  "brand": "Huawei",
+  "name": "Y6 II",
+  "status": "published",
+  "announced": "2016-10-12",
+  "released": "2016-10-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Y6 II: August 2016, Honor Holly 3: October 12, 2016",
+      "Predecessor": "Huawei Y6, Honor Holly 2 Plus",
+      "Successor": "Huawei Y6 (2017), Honor Holly 4"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), WLAN: Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "154.3 × 77.1 × 8.5 mm",
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 Marshmallow + EMUI 4.1",
+      "Chipset": "Kirin 620 (28 nm)",
+      "CPU": "HiSilicon Kirin 620 (28 nm), 8×1.2 GHz Cortex-A53",
+      "GPU": "Mali-450MP4"
+    },
+    "Memory": {
+      "RAM": "Y6 II & Honor 5A: 2GB, Honor Holly 3: 2/3GB LPDDR3, Memory card: MicroSDXC up to 128 GB",
+      "Storage": "Y6 II & Honor 5A: 16 GB, Honor Holly 3: 16/32 GB, eMMC 5.0"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.5\", 1280 × 720 (HD), 16:9, 267 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 Мп, f/2.0, 28 mm (wide), AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0, 24mm (wide), 1/4\", 1.12 μm, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 3100 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Kirin 620",
+    "ram_gb": [
+      2,
+      3,
+      28
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "front_mp": 8,
+    "battery_mah": 3100,
+    "os": "Android 6.0",
+    "five_g": false,
+    "weight_g": 168,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y6 II",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y6_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y6 II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y6 II",
+    "revid": 1361474190
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "uros-goodspeed",
+  "brand": "Uros",
+  "name": "Goodspeed",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "U100"
+    },
+    "Network": {
+      "Technology": "GPRS/EDGE/GSM 850 / 900 / 1800 / 1900, HSPA+/HSDPA/HSDPA/UMTS 850 / 900 / 1900 / 2100, Downlink up to 21.1 Mbps, Uplink up to 5.76 Mbps"
+    },
+    "Body": {
+      "Dimensions": "123 mm H, 63 mm W, 13 mm D",
+      "Weight": "127 g"
+    },
+    "Display": {
+      "Display": "1 in LCD 128×64 pixels"
+    },
+    "Battery": {
+      "Battery": "2550 mAh, micro USB charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 2550,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 127,
+    "thickness_mm": 13
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Goodspeed (internet provider)",
+      "url": "https://en.wikipedia.org/wiki/Goodspeed_%28internet_provider%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Goodspeed (internet provider)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Goodspeed (internet provider)",
+    "revid": 1361473065
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

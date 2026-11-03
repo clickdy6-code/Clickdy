@@ -1,0 +1,79 @@
+{
+  "slug": "htc-gratia",
+  "brand": "HTC",
+  "name": "Gratia",
+  "status": "published",
+  "announced": "2010-10-18",
+  "released": "2010-10-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/HTC_Aria_review.jpg/500px-HTC_Aria_review.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/HTC_Aria_review.jpg/250px-HTC_Aria_review.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Gratia",
+      "credit": "Cheon Fong Liew from Kluang, Malaysia, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Aria_review.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 18, 2010"
+    },
+    "Network": {
+      "Technology": "AT&T"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "104.14 mm (h), 58.42 mm (w), 11.68 mm (d)",
+      "Weight": "115g (4.05 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 (Eclair)",
+      "CPU": "600 MHz Qualcomm MSM7227"
+    },
+    "Memory": {
+      "RAM": "384 MB DDR RAM",
+      "Storage": "Flash memory: 512 MB, microSD memory card (SD 2.0 compatible), microSD slot supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "320 × 480px; 3.2 inch; HVGA capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel with auto focus"
+    },
+    "Battery": {
+      "Battery": "1200 mAh, Li-ion; 6 hrs talk time, 372 hrs standby time"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM 850/900/1800/1900MHz, HSDPA, EDGE, GPRS; Wi-Fi (802.11b/g); Bluetooth 2.1 with A2DP Stereo and EDR; A-GPS; FM tuner, 3.5 mm stereo audio jack, micro-USB"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1200,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115,
+    "thickness_mm": 11.68,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Gratia",
+      "url": "https://en.wikipedia.org/wiki/HTC_Gratia"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Gratia\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Gratia",
+    "revid": 1361473295
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "nokia-1800",
+  "brand": "Nokia",
+  "name": "1800",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Nokia_1800-2.jpg/500px-Nokia_1800-2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Nokia_1800-2.jpg/250px-Nokia_1800-2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 1800",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_1800-2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-05",
+      "Series": "Nokia 1000 series",
+      "Predecessor": "Nokia 1661",
+      "Successor": "Nokia 101"
+    },
+    "Body": {
+      "Form factor": "candybar",
+      "Dimensions": "H: 107 mm , W: 45 mm W , D: 15.3 mm",
+      "Weight": "78.5 g"
+    },
+    "Memory": {
+      "Storage": "8 MB"
+    },
+    "Display": {
+      "Display": "1.8 inch TFT"
+    },
+    "Battery": {
+      "Battery": "800 mAh (BL-5CB)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "weight_g": 78.5,
+    "thickness_mm": 15.3,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1800",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1800"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1800\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1800",
+    "revid": 1361477056
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

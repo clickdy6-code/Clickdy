@@ -1,0 +1,73 @@
+{
+  "slug": "lg-voyager",
+  "brand": "LG",
+  "name": "Voyager",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/LG_Voyager_VX10000_External.jpg/500px-LG_Voyager_VX10000_External.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/LG_Voyager_VX10000_External.jpg/250px-LG_Voyager_VX10000_External.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Voyager",
+      "credit": "ZeWrestler, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Voyager_VX10000_External.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "LG enV (VX9900)",
+      "Successor": "LG enV Touch (VX11000)"
+    },
+    "Network": {
+      "Technology": "EVDO, 1X"
+    },
+    "Body": {
+      "Form factor": "Clamshell (Candybar/flip)",
+      "Dimensions": "4.64 in (H) x 2.12 in (W) x 0.71 in (D)",
+      "Weight": "133g (4.69 oz)"
+    },
+    "Platform": {
+      "Operating system": "BREW"
+    },
+    "Memory": {
+      "RAM": "182 MB",
+      "Card slot": "8 GB (microSD)"
+    },
+    "Display": {
+      "Display": "LCD 400 x 240"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel"
+    },
+    "Battery": {
+      "Battery": "950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth / USB Cable"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 950,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 133
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Voyager",
+      "url": "https://en.wikipedia.org/wiki/LG_Voyager"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Voyager\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Voyager",
+    "revid": 1372510609
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

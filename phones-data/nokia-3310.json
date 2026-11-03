@@ -1,0 +1,64 @@
+{
+  "slug": "nokia-3310",
+  "brand": "Nokia",
+  "name": "3310",
+  "status": "published",
+  "announced": "2000-09-01",
+  "released": "2000-09-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2000-09-01 (3310); 2002 (3315, 3360, 3395)",
+      "Discontinued": "2005-12",
+      "Series": "Nokia 3000, series",
+      "Predecessor": "Nokia 3210 (3310), Nokia 5110 (3310), Nokia 5110i (3315), Nokia 5120 (3320), Nokia 5125 (3321), Nokia 5130 NK402 (3330), Nokia 5160 (3360), Nokia 5165 (3361), Nokia 5170 (3350), Nokia 5190 (3390 and 3395)",
+      "Successor": "Nokia 3410 (3310 and 3315), Nokia 3510 (3310), Nokia 3510i (3330), Nokia 3530 (3350), Nokia 3560 (3360), Nokia 3590 (3390), Nokia 3595 (3395), Nokia 2220 (3320), Nokia 2260 (3360), Nokia 2300 (3315), Nokia 2600 (3310), Nokia 1100 (3310 and 3315), Nokia 3310 (2017) (revival), Nokia 800 Tough (spiritual)"
+    },
+    "Network": {
+      "Technology": "GSM (3310, 3315, 3350, 3390, and 3395), TDMA (3320 and 3360)"
+    },
+    "Body": {
+      "Form factor": "Candy bar",
+      "Dimensions": "113 x",
+      "Weight": "133 g"
+    },
+    "Platform": {
+      "Operating system": "Series 20",
+      "CPU": "Texas Instruments MAD2WD1 (based on ARM7TDMI)"
+    },
+    "Memory": {
+      "RAM": "Built-in 1.5 KB"
+    },
+    "Display": {
+      "Display": "1.5-inch backlit monochrome graphic LCD, 84x48 px, 64 ppi, 5 lines"
+    },
+    "Sound": {
+      "Sound": "Monophonic ringtones"
+    },
+    "Battery": {
+      "Battery": "Removable, BMC-3 (NiMH) 900 mAh, or, BLC-2 (Li-ion) 1000 mAh"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 900,
+    "five_g": false,
+    "weight_g": 133,
+    "year": 2000
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3310",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3310"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3310\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3310",
+    "revid": 1382443548
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

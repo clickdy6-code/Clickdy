@@ -1,0 +1,88 @@
+{
+  "slug": "motorola-moto-e5",
+  "brand": "Motorola",
+  "name": "Moto E5",
+  "status": "published",
+  "announced": "2018-04-10",
+  "released": "2018-04-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Moto_E5_Plus_XT1924-1_Black.png/500px-Moto_E5_Plus_XT1924-1_Black.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Moto_E5_Plus_XT1924-1_Black.png/250px-Moto_E5_Plus_XT1924-1_Black.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto E5",
+      "credit": "JulianVilla26, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Moto_E5_Plus_XT1924-1_Black.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-04-10",
+      "Series": "Moto E Family",
+      "Predecessor": "Moto E4",
+      "Successor": "Moto E6"
+    },
+    "Network": {
+      "SIM": "MicroSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "174 g (6.1 oz)",
+      "Other": "Proximity sensor, Accelerometer, Fingerprint reader, Ambient light sensor, Magnetometer, FM radio, GPS, A-GPS, GLONASS"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1.0 \"Oreo\"",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "RAM": "2GB",
+      "Storage": "16GB"
+    },
+    "Display": {
+      "Display": "5.7\", IPS LCD, 1440x720"
+    },
+    "Cameras": {
+      "Rear camera": "LED Flash, 1080P@30fps, 720P@30fps, 480P@30fps",
+      "Front camera": "5MP"
+    },
+    "Battery": {
+      "Battery": "4000 mAh (fixed)",
+      "Charging": "10W (p/h)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.2 LE, Micro USB 2.0, Wii 802.11a/b/g/n 2.4/5.0 GHz, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "front_mp": 5,
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 8.1",
+    "nfc": false,
+    "weight_g": 174,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto E5",
+      "url": "https://en.wikipedia.org/wiki/Moto_E5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto E5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto E5",
+    "revid": 1363667849
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

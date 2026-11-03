@@ -1,0 +1,73 @@
+{
+  "slug": "huawei-y3-ii",
+  "brand": "Huawei",
+  "name": "Y3 II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2016",
+      "Predecessor": "Huawei Y3, Honor Bee",
+      "Successor": "Huawei Y3 (2017)"
+    },
+    "Network": {
+      "Technology": "2G/3G"
+    },
+    "Body": {
+      "Dimensions": "134.1 × 66.7 × 9.9 mm",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1 (Lolipop), EMUI 3.1 Lite",
+      "CPU": "Quad-core 1.0 GHz Cortex-A53 - 4G model, Quad-core 1.3 GHz Cortex-A7 - 3G model",
+      "GPU": "Mali-T720MP2 - 4G model, Mali-400MP2 - 3G model"
+    },
+    "Memory": {
+      "RAM": "microSD, up to 32 GB",
+      "Storage": "8GB 1GB RAM"
+    },
+    "Display": {
+      "Display": "Size: 4.5 inches, 55.8 cm² (~62.3% screen-to-body ratio) , Resoluion: 480 x 854 pixels, 16:9 ratio (~218 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Single 5 MP, AF with Dual-LED flash, Video: 1080p@30fps",
+      "Front camera": "Single 2 MP"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "ram_gb": [
+      32
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 2,
+    "os": "Android 5.1",
+    "five_g": false,
+    "weight_g": 150,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y3 II",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y3_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y3 II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y3 II",
+    "revid": 1361474120
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

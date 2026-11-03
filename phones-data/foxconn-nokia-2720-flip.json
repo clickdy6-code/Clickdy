@@ -1,0 +1,90 @@
+{
+  "slug": "foxconn-nokia-2720-flip",
+  "brand": "Foxconn",
+  "name": "Nokia 2720 Flip",
+  "status": "published",
+  "announced": "2019-09-05",
+  "released": "2019-09-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Nokia_2720_Flip_red_%28video_screenshot%29.jpg/500px-Nokia_2720_Flip_red_%28video_screenshot%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Nokia_2720_Flip_red_%28video_screenshot%29.jpg/250px-Nokia_2720_Flip_red_%28video_screenshot%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 2720 Flip",
+      "credit": "Saad Shah Khagga, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2720_Flip_red_(video_screenshot).jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09-05",
+      "Predecessor": "Nokia 2720 Fold"
+    },
+    "Network": {
+      "Technology": "4G LTE (150/50 Mbit/s)",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Dimensions": "192.7 mm H, 54.5 mm W, 11.6 mm D",
+      "Weight": "118 g"
+    },
+    "Platform": {
+      "Operating system": "KaiOS (With HMD custom UI layer \"Smart Feature OS\" on top of it)",
+      "Chipset": "Qualcomm MSM8905 Snapdragon 205 (28 nm)",
+      "CPU": "Dual-core (2x1.1 GHz Cortex-A7)",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "RAM": "512 MB LPDDR3 RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.8\" 240 X 320 pixels, 256k color TFT"
+    },
+    "Cameras": {
+      "Rear camera": "2MP"
+    },
+    "Battery": {
+      "Battery": "Removable 1500 mAh (BL-6V)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS headphone jack, Bluetooth 4.2 with A2DP, LE, WiFi 802.11 b/g/n, hotspot, A-GPS, GLONASS, FM radio, micro USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM8905 Snapdragon 205",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "KaiOS (With HMD custom UI layer \"Smart Feature OS\" on top of it)",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 118,
+    "thickness_mm": 11.6,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2720 Flip",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2720_Flip"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2720 Flip\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2720 Flip",
+    "revid": 1382040703
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

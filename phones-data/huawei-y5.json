@@ -1,0 +1,90 @@
+{
+  "slug": "huawei-y5",
+  "brand": "Huawei",
+  "name": "Y5",
+  "status": "published",
+  "announced": "2019-04-24",
+  "released": "2019-04-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Y5 2019: 2019-04-24, Honor 8S: 2019-04-25, Honor Play 8: 2019-07-09, Honor Play 3e: 2020-05-27",
+      "Series": "Huawei Y, Honor S/Play",
+      "Predecessor": "Huawei Y5 (2018), Honor 7S",
+      "Successor": "Huawei Y5p, Honor 9S"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Y5 2019: Nano-SIM or Dual SIM (Nano-SIM), Honor 8S/8S 2020: hybrid Dual SIM (Nano-SIM), Honor Play 3e: Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "147,13 × 70,78 × 8,45 mm",
+      "Weight": "146 g"
+    },
+    "Platform": {
+      "Operating system": "Initial:, Y5 2019/Honor 8S/8S 2020/Play 8: Android 9 Pie + EMUI 9.0, Play 3e: Android 9 Pie + EMUI 9.1, Current: Android 9 Pie + EMUI 9.1",
+      "Chipset": "Y5 2019/Honor 8S/8S 2020/Play 8: MediaTek MT6761 Helio A22 (12 нм), Play 3e: MediaTek MT6762R Helio P22 (12 нм)",
+      "CPU": "Y5 2019/Honor 8S/8S 2020/Play 8: 8×2 GHz Cortex-A53, Play 3e: Quad-core (4×2 ГГц Cortex-A53 & 4×1,5 ГГц Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "Y5 2019/Honor Play 8: 2GB, Honor 8S/Play 3e: 2/3GB, Honor 8S 2020: 3GB LPDDR4X, Memory card: microSDXC up to 512 GB",
+      "Storage": "Y5 2019: 16/32 GB, Honor 8S/Play 3e: 32/64 GB, Play 8: 32 GB, Honor 8S 2020: 64 GB, eMMC 5.1"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5,71\", 1520 × 720 (HD+), 19:9, 295 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, PDAF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 3020 mAh, non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5 мм Аудіо, Bluetooth 5.0 (A2DP, LE), NFC (market/region dependent; Y5 2019 AMN-LX1), FM-radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "chipset": "Y5 2019/Honor 8S/8S 2020/Play 8: MediaTek MT6761 Helio A22",
+    "ram_gb": [
+      2,
+      3,
+      12
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3020,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 146,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y5 (2019)",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y5_%282019%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y5 (2019)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y5 (2019)",
+    "revid": 1361474150
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

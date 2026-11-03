@@ -1,0 +1,81 @@
+{
+  "slug": "foxconn-nokia-150",
+  "brand": "Foxconn",
+  "name": "Nokia 150",
+  "status": "published",
+  "announced": "2016-12-13",
+  "released": "2016-12-13",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nokia_150.png/500px-Nokia_150.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nokia_150.png/250px-Nokia_150.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 150",
+      "credit": "Dienthoaiquangcao75, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_150.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-12-13, January 2017; 6 years ago (disputed)",
+      "Series": "3-Digit series",
+      "Predecessor": "Nokia 130",
+      "Successor": "Nokia 150 (2020)"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "106.0 mm, 45.5 mm, 13.9 mm",
+      "Weight": "81 g (2.86 oz)",
+      "Other": "Flashlight LED, (on back)"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 30+"
+    },
+    "Memory": {
+      "Card slot": "up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "2.4\" LCD, 320x240, pixels (167 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "VGA"
+    },
+    "Sound": {
+      "Sound": "3.5mm AV jack, speaker"
+    },
+    "Battery": {
+      "Battery": "1020 mAh Li-Ion, (Nokia BL-5C), Micro-B USB charger"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 micro-B, Bluetooth 3.0, FM radio"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "LCD",
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 81,
+    "thickness_mm": 13.9,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 150",
+      "url": "https://en.wikipedia.org/wiki/Nokia_150"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 150\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 150",
+    "revid": 1374882439
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

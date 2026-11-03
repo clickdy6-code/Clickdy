@@ -1,0 +1,68 @@
+{
+  "slug": "bq-aquaris-m10",
+  "brand": "BQ",
+  "name": "Aquaris M10",
+  "status": "published",
+  "announced": "2015-10-14",
+  "released": "2015-10-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "M10 & M10 FHD: 2015-10-14, M10 Ubuntu Edition: 2016-02-05",
+      "Series": "BQ Aquaris series",
+      "Predecessor": "BQ Aquaris E5 (phone)"
+    },
+    "Body": {
+      "Form factor": "Tablet",
+      "Dimensions": "246 mm H, 171 mm W, 8.2 mm D",
+      "Weight": "470 g"
+    },
+    "Platform": {
+      "Operating system": "Android, Ubuntu Touch",
+      "CPU": "M10: MediaTek MT8163B Quad-core 1.3 GHz, M10 FHD: MediaTek MT8163A 1.5 GHz",
+      "GPU": "Mali Mali-T720MP2"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16 GB",
+      "Card slot": "microSD slot, up to 64 GB"
+    },
+    "Display": {
+      "Display": "M10 : 10.1 in 1280x800 pixel (160 pixels per inch) , M10 FHD : 10.1 in 1920x1200 pixel (240 pixels per inch)"
+    },
+    "Cameras": {
+      "Rear camera": "M10: 5 megapixel, M10 FHD: 8 megapixel",
+      "Front camera": "M10: 2 megapixel , M10 FHD: 5 megapixel"
+    },
+    "Battery": {
+      "Battery": "7,280 mAh LIPO"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 7280,
+    "weight_g": 470,
+    "thickness_mm": 8.2,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BQ Aquaris M10",
+      "url": "https://en.wikipedia.org/wiki/BQ_Aquaris_M10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BQ Aquaris M10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BQ Aquaris M10",
+    "revid": 1362525406
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

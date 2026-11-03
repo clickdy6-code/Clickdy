@@ -1,0 +1,90 @@
+{
+  "slug": "huawei-ascend-y300",
+  "brand": "Huawei",
+  "name": "Ascend Y300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Huawei_Ascend_Y300.jpg/500px-Huawei_Ascend_Y300.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Huawei_Ascend_Y300.jpg/250px-Huawei_Ascend_Y300.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Ascend Y300",
+      "credit": "Parsa 2au, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Ascend_Y300.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 2013",
+      "Series": "Huawei Ascend",
+      "Predecessor": "Huawei Ascend Y210D",
+      "Successor": "Huawei Ascend Y321"
+    },
+    "Network": {
+      "Technology": "2G - GSM 850, 900, 1800, 1900, 3G Network - HSDPA 900, 2100 (Y300-0100 model), HSDPA 850, 1900, 2100 (Y300-0151 model)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "124.5 mm H, 63.8 mm W, 11.2 mm D",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.1 \"Jelly Bean\"",
+      "Chipset": "Qualcomm MSM8225 Snapdragon",
+      "CPU": "1 GHz Dual-core Cortex-A5",
+      "GPU": "Adreno 203"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4 GB (2 GB used by the system",
+      "Card slot": "Up to 32 GB microSD"
+    },
+    "Display": {
+      "Display": "4 in 480x800 px (233 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels",
+      "Front camera": "0.3 megapixels (VGA)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker &, 3.5mm headphone connector"
+    },
+    "Battery": {
+      "Battery": "1730 mAh Li-ion, User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, EDGE, Wi-Fi (802.11 b/g/n), Wi-Fi hotspot, DLNA, Bluetooth (v2.1, A2DP, EDR), USB (microUSB v2.0)"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "chipset": "Qualcomm MSM8225 Snapdragon",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1730,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 130,
+    "thickness_mm": 11.2,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ascend Y300",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ascend_Y300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ascend Y300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ascend Y300",
+    "revid": 1364509715
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

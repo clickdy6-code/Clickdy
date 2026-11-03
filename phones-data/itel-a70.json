@@ -1,0 +1,84 @@
+{
+  "slug": "itel-a70",
+  "brand": "Itel",
+  "name": "A70",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2023",
+      "Predecessor": "Itel A60",
+      "Successor": "Itel A80"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Dimensions": "8.6 mm thickness"
+    },
+    "Platform": {
+      "Operating system": "Android 13 (Go edition), itelOS 13.0.0",
+      "Chipset": "Unisoc T603",
+      "CPU": "Octa-core"
+    },
+    "Memory": {
+      "Storage": "64GB 4GB RAM, 128GB 3GB RAM, 128GB 4GB RAM, 256GB 4GB RAM",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "IPS LCD, 500 nits, 720 x 1612 px, 20:9 aspect ratio, 267 ppi density"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP auxiliary lens, features dual-LED flash and HDR",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "10W"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "peak_nits": 500,
+    "chipset": "Unisoc T603",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      4,
+      64,
+      128,
+      256
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 13",
+    "five_g": false,
+    "dual_sim": true,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel A70",
+      "url": "https://en.wikipedia.org/wiki/Itel_A70"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel A70\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel A70",
+    "revid": 1364468236
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

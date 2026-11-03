@@ -1,0 +1,81 @@
+{
+  "slug": "htc-hero",
+  "brand": "HTC",
+  "name": "Hero",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/CreativeTools.se_-_PackshotCreator_-_HTC_Hero_Android.jpg/500px-CreativeTools.se_-_PackshotCreator_-_HTC_Hero_Android.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/CreativeTools.se_-_PackshotCreator_-_HTC_Hero_Android.jpg/250px-CreativeTools.se_-_PackshotCreator_-_HTC_Hero_Android.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Hero",
+      "credit": "Creative Tools. Watermark removed by User:Ainali, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CreativeTools.se_-_PackshotCreator_-_HTC_Hero_Android.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Europe July 2009",
+      "Predecessor": "HTC Magic",
+      "Successor": "HTC Evo Design 4G, HTC Legend, HTC Desire"
+    },
+    "Network": {
+      "Technology": "GSM version: quad band GSM 850/900/1800/1900 MHz GPRS/EDGE, and, dual band UMTS 900/2100 MHz HSPA (Europe), or, dual band UMTS 850/1900 MHz HSPA (North America), CDMA version: dual band CDMA2000/EV-DO Rev. A 800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "112 mm H, 56.2 mm W, 14.35 mm D",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "Android 1.5 Cupcake, upgradable to Android 2.1 Eclair with HTC Sense UI",
+      "CPU": "528 MHz Qualcomm MSM7600A or MSM7200A ARM11 processor",
+      "GPU": "Adreno 130, OpenGL ES 1.1"
+    },
+    "Memory": {
+      "RAM": "288 MB DDR RAM",
+      "Storage": "512 MB, 165 for applications",
+      "Card slot": "microSDHC 2 GB (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "320 × 480 px, 3.2 in, HVGA, 65,536 color LCD at 180 pixels per inch (ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel with autofocus"
+    },
+    "Battery": {
+      "Battery": "GSM version: 3.7 V 1340 mAh, CDMA version: 3.7 V 1500 mAh, Internal rechargeable removable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g), Bluetooth 2.0+EDR, ExtUSB"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "LCD",
+    "battery_mah": 1340,
+    "os": "Android 1.5",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135,
+    "thickness_mm": 14.35,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Hero",
+      "url": "https://en.wikipedia.org/wiki/HTC_Hero"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Hero\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Hero",
+    "revid": 1382549241
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

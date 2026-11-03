@@ -1,0 +1,78 @@
+{
+  "slug": "fujitsu-docomo-prime-series-f-09c",
+  "brand": "Fujitsu",
+  "name": "Docomo PRIME series F-09C",
+  "status": "published",
+  "announced": "2011-06-24",
+  "released": "2011-06-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/F-09C_close_in_201810.jpg/500px-F-09C_close_in_201810.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/F-09C_close_in_201810.jpg/250px-F-09C_close_in_201810.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Fujitsu Docomo PRIME series F-09C",
+      "credit": "Mc681, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:F-09C_close_in_201810.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-06-24",
+      "Series": "docomo PRIME series",
+      "Predecessor": "F-06B"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA), 2G: GSM"
+    },
+    "Body": {
+      "Form factor": "Vertical slider (\"Yokomotion\")",
+      "Dimensions": "114 mm H , 51 mm W , 15.8 mm D",
+      "Weight": "146 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS + OPP(S)"
+    },
+    "Memory": {
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3.5 in (89 mm) TFT, 480 × 854 pixels, 16,777,216 colors, 3D autostereoscopic"
+    },
+    "Cameras": {
+      "Rear camera": "16.3 MP CMOS (\"Exmor R for mobile\"), AF, Image stabilization, Face recognition, 3D capture, Full HD video recording",
+      "Front camera": "0.32 MP CMOS"
+    },
+    "Battery": {
+      "Battery": "Continuous talk time: approx. 240 min (3G) / 300 min (GSM), Continuous standby time: approx. 720 hrs (3G) / 340 hrs (GSM)"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "main_mp": 16.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.32,
+    "os": "Symbian OS + OPP(S)",
+    "five_g": false,
+    "weight_g": 146,
+    "thickness_mm": 15.8,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Docomo PRIME series F-09C",
+      "url": "https://en.wikipedia.org/wiki/Docomo_PRIME_series_F-09C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Docomo PRIME series F-09C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Docomo PRIME series F-09C",
+    "revid": 1372981494
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

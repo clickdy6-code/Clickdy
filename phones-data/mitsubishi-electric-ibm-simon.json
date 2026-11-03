@@ -1,0 +1,71 @@
+{
+  "slug": "mitsubishi-electric-ibm-simon",
+  "brand": "Mitsubishi Electric",
+  "name": "IBM Simon",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/IBM_Simon_Personal_Communicator.png/500px-IBM_Simon_Personal_Communicator.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/IBM_Simon_Personal_Communicator.png/250px-IBM_Simon_Personal_Communicator.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Mitsubishi Electric IBM Simon",
+      "credit": "Bcos47, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IBM_Simon_Personal_Communicator.png",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "1994",
+      "Discontinued": "1995-02",
+      "Predecessor": "Angler (code name)"
+    },
+    "Network": {
+      "Technology": "AMPS"
+    },
+    "Body": {
+      "Form factor": "Brick",
+      "Dimensions": "8 in H, 2.5 in W, 1.5 in D",
+      "Weight": "18 oz"
+    },
+    "Platform": {
+      "Operating system": "Datalight ROM-DOS",
+      "CPU": "NEC V30HL, 16 MHz, 16-bit, 8086-compatible CPU as part of Vadem VG230 System on a chip"
+    },
+    "Memory": {
+      "RAM": "1 MB PSRAM (2× Hitachi HM658512LTT) , 32 KB SRAM (Sony CXK58257)",
+      "Storage": "1 MB NOR Flash (Intel/Hitachi) expanded to 2 MB by Stacker compression + 32KB BIOS NOR Flash",
+      "Card slot": "Optional PCMCIA Flash RAM cards"
+    },
+    "Display": {
+      "Display": "4.5 x, 160 × 293 pixel CGA monochrome backlit LCD"
+    },
+    "Battery": {
+      "Battery": "7.5V NiCad"
+    },
+    "Connectivity": {
+      "Connectivity": "2400-bit/s Hayes command set, Hayes-compatible modem, 33-pin connector, 9600-bps Group 3 send-and-receive fax, I/O connection port, PC Card, PCMCIA type 2"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "nfc": false,
+    "year": 1994
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IBM Simon",
+      "url": "https://en.wikipedia.org/wiki/IBM_Simon"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IBM Simon\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IBM Simon",
+    "revid": 1382937808
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

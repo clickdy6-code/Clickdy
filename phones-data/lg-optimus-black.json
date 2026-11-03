@@ -1,0 +1,85 @@
+{
+  "slug": "lg-optimus-black",
+  "brand": "LG",
+  "name": "Optimus Black",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/10/LG%EC%A0%84%EC%9E%90%2C_%EA%B0%80%EC%9E%A5_%EB%B0%9D%EC%9D%80_%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0_%E2%80%98%EC%98%B5%ED%8B%B0%EB%A8%B8%EC%8A%A4_%EB%B8%94%EB%9E%99%E2%80%99_%EC%B6%9C%EC%8B%9C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/10/LG%EC%A0%84%EC%9E%90%2C_%EA%B0%80%EC%9E%A5_%EB%B0%9D%EC%9D%80_%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0_%E2%80%98%EC%98%B5%ED%8B%B0%EB%A8%B8%EC%8A%A4_%EB%B8%94%EB%9E%99%E2%80%99_%EC%B6%9C%EC%8B%9C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG Optimus Black",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG%EC%A0%84%EC%9E%90,_%EA%B0%80%EC%9E%A5_%EB%B0%9D%EC%9D%80_%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0_%E2%80%98%EC%98%B5%ED%8B%B0%EB%A8%B8%EC%8A%A4_%EB%B8%94%EB%9E%99%E2%80%99_%EC%B6%9C%EC%8B%9C.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Optimus"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE Quad-band (850, 900, 1,800, and 1,900 MHz) , HSPA Tri-band (900, 1,700, and 2,100 MHz) , HSDPA 10.2 Mbit/s, HSUPA 5.76 Mbit/s, CDMA/EVDO (800, 1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "121 mm H , 63.5 mm W , 9.2 mm D",
+      "Weight": "109 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 Froyo (formerly) , 4.0.4 Ice Cream Sandwich (current)",
+      "CPU": "800 MHz ARM Cortex-A8 (Texas Instruments OMAP3630)",
+      "GPU": "PowerVR SGX530"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "2 GB (1 GB user-available)",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "Nova IPS LCD, 4.0 in diagonal , 480×800 px WVGA (~233 ppi), 16M COLORS"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 Mpx 2,592 x 1,944 px max. , Autofocus , LED flash , HD Video 720p at 30 fps",
+      "Front camera": "2.0 Mpx"
+    },
+    "Battery": {
+      "Battery": "1.500 mAh, Internal Rechargeable Li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS , Bluetooth 2.1 + EDR with A2DP , DLNA , FM stereo receiver , micro USB 2.0 , Wi-Fi 802.11b/g/n , Wi-Fi DIRECT , Wi-Fi hotspot"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "IPS LCD",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 2,
+    "battery_mah": 500,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 109,
+    "thickness_mm": 9.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus Black",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_Black"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus Black\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus Black",
+    "revid": 1361475220
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

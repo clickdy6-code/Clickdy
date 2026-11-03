@@ -1,0 +1,89 @@
+{
+  "slug": "huawei-p10-lite",
+  "brand": "Huawei",
+  "name": "P10 Lite",
+  "status": "published",
+  "announced": "2017-03-17",
+  "released": "2017-03-17",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-03-17",
+      "Series": "Huawei P/Nova",
+      "Predecessor": "Huawei P9 lite",
+      "Successor": "Huawei P20 lite"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, LTE",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.5 × 72 × 7.2 mm",
+      "Weight": "146 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.0 Nougat + EMUI 5.1, Current: Android 8.0 Oreo + EMUI 8",
+      "Chipset": "Kirin 658 (16 nm)",
+      "CPU": "Octa-core (4×2.1 GHz Cortex-A53 & 4×1.7 GHz Cortex-A53)",
+      "GPU": "Mali-T830 MP2"
+    },
+    "Memory": {
+      "RAM": "3/4 GB LPDDR3",
+      "Storage": "32/64 GB eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "LTPS LCD, 5.2\", 1920 × 1080 (FullHD), 16:9, 424 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, 1/2.8\", 1.25 μm, PDAF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, AF, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 3000 mAh, 18 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5 mm audio, Bluetooth 4.1 (A2DP, EDR, LE), NFC, FM radio, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "LCD",
+    "chipset": "Kirin 658",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 146,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P10 Lite",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P10_Lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P10 Lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P10 Lite",
+    "revid": 1361473994
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

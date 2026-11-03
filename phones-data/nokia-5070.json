@@ -1,0 +1,54 @@
+{
+  "slug": "nokia-5070",
+  "brand": "Nokia",
+  "name": "5070",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Nokia 3500 classic"
+    },
+    "Network": {
+      "Technology": "GSM 900 1800 1900 , GSM 850 1900 (US) , GPRS multislot class 10, max. 80 kbit/s, EDGE multislot class 6, max. 177,6 kbit/s"
+    },
+    "Body": {
+      "Dimensions": "105.4 mm H , 44.3 mm W , 18.6 mm D",
+      "Weight": "88 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Display": {
+      "Display": "128×160 px , 65k colors"
+    },
+    "Cameras": {
+      "Rear camera": "640x480 px VGA"
+    },
+    "Connectivity": {
+      "Connectivity": "Infrared , Pop-port"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 88,
+    "thickness_mm": 18.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5070",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5070"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5070\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5070",
+    "revid": 1374925010
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

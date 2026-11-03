@@ -1,0 +1,88 @@
+{
+  "slug": "micromax-canvas-a1",
+  "brand": "Micromax",
+  "name": "Canvas A1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2014",
+      "Series": "Android One"
+    },
+    "Network": {
+      "Technology": "2G/3G , GSM: 850/900/1800/1900 MHz , WCDMA: 850/2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate phone",
+      "Dimensions": "131 mm (5.16 in) H, 65 mm (2.56 in) W, 8 mm (0.32 in) H",
+      "Weight": "136 g (4.8 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 Marshmallow",
+      "Chipset": "MediaTek MT6582",
+      "CPU": "1.3 GHz quad-core Cortex",
+      "GPU": "Mali (GPU) 400MP"
+    },
+    "Memory": {
+      "RAM": "1 GB of RAM",
+      "Storage": "Internal 4 GB (2.1 GB for Apps)",
+      "Card slot": "Available, microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.5 in 480x854 of 218 ppi pixel density, Capacitive touchscreen IPS"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP with Autofocus and LED flash.",
+      "Front camera": "2.0 MP @ 1.4um pixel (Fixed Focus)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "1700 mAh Li-Po"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB, Bluetooth 4.0, Wi-Fi 802.11 b/g/n, Micro-SIM"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS",
+    "chipset": "MediaTek MT6582",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 1700,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 136,
+    "thickness_mm": 8,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Micromax Canvas A1",
+      "url": "https://en.wikipedia.org/wiki/Micromax_Canvas_A1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Micromax Canvas A1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Micromax Canvas A1",
+    "revid": 1361476042
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "huawei-nova-3i",
+  "brand": "Huawei",
+  "name": "Nova 3i",
+  "status": "published",
+  "announced": "2018-07-21",
+  "released": "2018-07-21",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-07-21",
+      "Series": "Huawei Nova",
+      "Predecessor": "Huawei Nova 2i",
+      "Successor": "Huawei P Smart+ 2019"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "157.6 mm H75.2 mm W7.6 mm D"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1.0 \"Oreo\" upgradable up to Android 9.0 \"Pie\""
+    },
+    "Memory": {
+      "RAM": "6 GB RAM",
+      "Storage": "128GB",
+      "Card slot": "microSD, up to 400 GB"
+    },
+    "Cameras": {
+      "Rear camera": "Dual (16MP + 2MP), laser autofocus, AI filter, f/2.2 aperture, 1080p resolution, 1080p video recording at 30 fps or 1080p at slow-motion video (1080p timelapse with stabilization, panorama, optical image stabilization, LED flash",
+      "Front camera": "(24 MP + 2 MP, depth sensor) aperture, exposure control, face detection"
+    },
+    "Battery": {
+      "Battery": "4000 mAh, Charging With 10W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi b/g/n/ac (2.4 GHz), Bluetooth 4.2, GPS, LTE, microUSB 2.0, USB 2.0"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 24,
+    "battery_mah": 4000,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 7.6,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova 3i",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_3i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova 3i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova 3i",
+    "revid": 1370317413
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

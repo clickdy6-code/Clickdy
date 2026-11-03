@@ -1,0 +1,78 @@
+{
+  "slug": "lenovo-moto-g22",
+  "brand": "Lenovo",
+  "name": "Moto G22",
+  "status": "published",
+  "announced": "2022-03-04",
+  "released": "2022-03-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "4 March 2022"
+    },
+    "Network": {
+      "Technology": "4G, 3G, 2G",
+      "SIM": "dual sim"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Weight": "185g"
+    },
+    "Platform": {
+      "Operating system": "Android 12",
+      "Chipset": "MediaTek Helio G37"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "64GB, 128GB",
+      "Card slot": "yes"
+    },
+    "Display": {
+      "Display": "720P"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, (wide), 0.64 μm, PDAF, 8 MP, f/2.2, 118˚ (ultrawide), 1/4.0\", 1.12 μm, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)",
+      "Front camera": "16 MP, f/2.5, (wide), 1.0 μm"
+    },
+    "Battery": {
+      "Battery": "5000mah",
+      "Charging": "Type C"
+    }
+  },
+  "key": {
+    "chipset": "MediaTek Helio G37",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "os": "Android 12",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 185,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto G22",
+      "url": "https://en.wikipedia.org/wiki/Moto_G22"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto G22\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto G22",
+    "revid": 1361476295
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

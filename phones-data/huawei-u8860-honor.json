@@ -1,0 +1,74 @@
+{
+  "slug": "huawei-u8860-honor",
+  "brand": "Huawei",
+  "name": "U8860 Honor",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010 in Chinese football",
+      "Series": "Huawei Honor series",
+      "Successor": "Honor 2"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, GPRS/EDGE class B, multislot class 33, HSDPA (Pentaband), HSDPA/UMTS 850 / 900 / 1700 / 1900 / 2100, HSDPA Cat10, up to 14.4 Mbps, HSUPA Cat6, up to 5.7 Mbps"
+    },
+    "Body": {
+      "Dimensions": "Width: 61 mm, Height: 122 mm, Thickness: 11 mm, colored (unpainted) polycarbon unibody",
+      "Weight": "140 g"
+    },
+    "Platform": {
+      "Operating system": "Android",
+      "CPU": "1,4 GHz Scorpion processor"
+    },
+    "Memory": {
+      "RAM": "512 MB Mobile DDR",
+      "Card slot": "microsd up to 32 GB"
+    },
+    "Display": {
+      "Display": "\"Clear Black\" TFT 480 x 854 px (FWVGA), 4.0\" (99.1 mm), 16.7 million colors (24 bits)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, 3264x2448 pixels, autofocus, LED flash, 720p at 30 FPS, Digital zoom 4X for camera and video",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "HB5F1H 1930 mAh Li-Polymer battery (removable by service), micro USB charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 a/b/g/n (2.4)Ghz, bluetooth 2.1 +EDR, micro USB 2.0, GPS, A-GPS and GLONASS, Digital Living Network Alliance (DLNA), Mini-SIM card, FM receiver"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 1930,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 140,
+    "thickness_mm": 11,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei U8860 Honor",
+      "url": "https://en.wikipedia.org/wiki/Huawei_U8860_Honor"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei U8860 Honor\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei U8860 Honor",
+    "revid": 1361474096
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

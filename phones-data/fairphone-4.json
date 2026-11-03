@@ -1,0 +1,94 @@
+{
+  "slug": "fairphone-4",
+  "brand": "Fairphone",
+  "name": "4",
+  "status": "published",
+  "announced": "2021-10-25",
+  "released": "2021-10-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Flat_UI_Speckle_%2851534331732%29.png/500px-Flat_UI_Speckle_%2851534331732%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Flat_UI_Speckle_%2851534331732%29.png/250px-Flat_UI_Speckle_%2851534331732%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Fairphone 4",
+      "credit": "Fairphone, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Flat_UI_Speckle_(51534331732).png",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-10-25",
+      "Discontinued": "2024-12",
+      "Predecessor": "Fairphone 3+",
+      "Successor": "Fairphone 5"
+    },
+    "Network": {
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162 x 75.5 x 10.5 mm",
+      "Weight": "225 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11, Upgradable: Android 15",
+      "Chipset": "Qualcomm Snapdragon 750G"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB",
+      "Storage": "128 or 256 GB",
+      "Card slot": "Micro SD up to 2 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD 6.3\" display with 1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "3 modules. 48 MP, f/1.6, (wide), 1/2.0\", 0.8μm, PDAF, OIS, 48 MP, f/2.2, (ultrawide), 1/2.0\", 0.8μm, PDAF, TOF 3D, (depth)",
+      "Front camera": "25 MP, f/2.2, (wide), 1/2.78\", 0.9μm"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 3905 mAh, 20 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 3.0 (DisplayPort, USB-OTG), Miracast"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 750G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 25,
+    "battery_mah": 3905,
+    "os": "Android 11",
+    "nfc": false,
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 225,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Fairphone 4",
+      "url": "https://en.wikipedia.org/wiki/Fairphone_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Fairphone 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Fairphone 4",
+    "revid": 1364115006
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

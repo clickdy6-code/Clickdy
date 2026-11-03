@@ -1,0 +1,81 @@
+{
+  "slug": "lg-g-pro-2",
+  "brand": "LG",
+  "name": "G Pro 2",
+  "status": "published",
+  "announced": "2014-03-18",
+  "released": "2014-03-18",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-03-18",
+      "Series": "LG G",
+      "Predecessor": "LG Optimus G Pro",
+      "Successor": "LG V10"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "157.9 mm H, 81.9 mm W, 8.3 mm D",
+      "Weight": "172 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4 \"KitKat\", Current: Android 5.0.1 \"Lollipop\"",
+      "Chipset": "Qualcomm Snapdragon 800",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "3GB DDR3",
+      "Storage": "16 or 32 GB eMMC",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "5.9\" 1920x1080 IPS"
+    },
+    "Cameras": {
+      "Rear camera": "13.0MP OIS+",
+      "Front camera": "2.1MP"
+    },
+    "Sound": {
+      "Sound": "4K"
+    },
+    "Battery": {
+      "Battery": "3200mAh (Removable)"
+    }
+  },
+  "key": {
+    "display_in": 5.9,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 800",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 2.1,
+    "battery_mah": 3200,
+    "os": "Android 4.4",
+    "weight_g": 172,
+    "thickness_mm": 8.3,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G Pro 2",
+      "url": "https://en.wikipedia.org/wiki/LG_G_Pro_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G Pro 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG G Pro 2",
+    "revid": 1361474938
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

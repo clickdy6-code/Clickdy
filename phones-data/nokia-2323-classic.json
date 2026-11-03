@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-2323-classic",
+  "brand": "Nokia",
+  "name": "2323 classic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Nokia_2323_classic.png/500px-Nokia_2323_classic.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Nokia_2323_classic.png/250px-Nokia_2323_classic.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 2323 classic",
+      "credit": "AnVuong1222004 (2), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2323_classic.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "2000 series",
+      "Predecessor": "Nokia 2310",
+      "Successor": "Nokia C1-02"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 or 850/1900",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "107 x 46 x 13.8 mm",
+      "Weight": "78g",
+      "Other": "Available in black, dark blue and dark gray."
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "Storage": "4 MB"
+    },
+    "Display": {
+      "Display": "65,536-colour LCD:, 1.8 in diagonal, 128 × 160 px"
+    },
+    "Battery": {
+      "Battery": "BL-5C 3.7V 1020mAh (removable):, Standby: up to 528 h (22 days), Talk time: up to 4.50 h",
+      "Charging": "2.0 mm Nokia Pin charging (standard)"
+    },
+    "Connectivity": {
+      "Connectivity": "SMS, MMS, Email, WAP 2.0/xHTML, Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 78
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2323 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2323_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2323 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2323 classic",
+    "revid": 1374882395
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

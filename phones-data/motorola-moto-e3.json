@@ -1,0 +1,79 @@
+{
+  "slug": "motorola-moto-e3",
+  "brand": "Motorola",
+  "name": "Moto E3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/E3_FRONT.jpg/500px-E3_FRONT.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/E3_FRONT.jpg/250px-E3_FRONT.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto E3",
+      "credit": "Jake Gutteridge, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:E3_FRONT.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "E3 in July 2016, E3 Power in September 2016",
+      "Predecessor": "Moto E (2nd generation)",
+      "Successor": "Moto E4"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 \"Marshmallow\"",
+      "CPU": "1 GHz MediaTek MT6735P",
+      "GPU": "Mali T720 GPU"
+    },
+    "Memory": {
+      "RAM": "1GB RAM (E3) / 2 GB RAM (E3 Power)",
+      "Storage": "8GB (E3) / 16 GB (E3 Power)"
+    },
+    "Display": {
+      "Display": "5 inch 720x1280 IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "Removable 2800 mAh (E3) / 3500 mAh (E3 Power)"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      1,
+      2
+    ],
+    "storage_gb": [
+      8,
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2800,
+    "os": "Android 6.0",
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto E3",
+      "url": "https://en.wikipedia.org/wiki/Moto_E3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto E3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto E3",
+    "revid": 1361476229
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

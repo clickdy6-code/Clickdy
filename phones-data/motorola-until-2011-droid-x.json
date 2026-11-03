@@ -1,0 +1,84 @@
+{
+  "slug": "motorola-until-2011-droid-x",
+  "brand": "Motorola (Until 2011)",
+  "name": "Droid X",
+  "status": "published",
+  "announced": "2010-07-15",
+  "released": "2010-07-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Mot_Droid_X_wp_jeh.jpg/500px-Mot_Droid_X_wp_jeh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Mot_Droid_X_wp_jeh.jpg/250px-Mot_Droid_X_wp_jeh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola (Until 2011) Droid X",
+      "credit": "Jim.henderson, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mot_Droid_X_wp_jeh.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States 2010-07-15 (Verizon Wireless)",
+      "Series": "Droid",
+      "Predecessor": "Motorola Droid",
+      "Successor": "Motorola Droid X2"
+    },
+    "Network": {
+      "Technology": "CDMA 1X 850/1900, EVDO Rev. A"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "127.5 mm H, 65.5 mm W, 9.9 mm D",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 (Eclair); upgradeable to Android 2.3 (Gingerbread)",
+      "CPU": "1 GHz TI OMAP3630-1000",
+      "GPU": "PowerVR SGX530"
+    },
+    "Memory": {
+      "RAM": "512 MB Mobile DDR SDRAM",
+      "Storage": "8 GB flash memory",
+      "Card slot": "2 GB microSDHC class 6, supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "TFT LCD, 4.3 in diagonal, 854×480 px FWVGA at 228 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8.0-megapixel with 4X digital zoom, Autofocus, Dual LED flash, 1/1000 mechanical shutter, 720×1280 (720P) video capture at 20 fps"
+    },
+    "Battery": {
+      "Battery": "Internal Rechargeable Li-ion, User replaceable, 1540mAh Part #: BH5X, 1880mAh Part #: BH6X (option)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS, Bluetooth v2.1 + EDR with A2DP & AVRCP, DLNA , micro-HDMI (type D) , micro-USB 2.0 , Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "TFT",
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 1540,
+    "os": "Android 2.1",
+    "nfc": false,
+    "weight_g": 155,
+    "thickness_mm": 9.9,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid X",
+      "url": "https://en.wikipedia.org/wiki/Droid_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid X",
+    "revid": 1361472952
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

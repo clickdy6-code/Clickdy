@@ -1,0 +1,92 @@
+{
+  "slug": "meizu-18x",
+  "brand": "Meizu",
+  "name": "18X",
+  "status": "published",
+  "announced": "2021-09-22",
+  "released": "2021-09-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-09-22",
+      "Series": "Meizu / Tosot G",
+      "Predecessor": "Meizu 16Xs, Gree Tosot G5",
+      "Successor": "Meizu 21 Note"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.1 × 76.35 × 7.99 mm",
+      "Weight": "189 g",
+      "Other": "Fingerprint (under display, optical), accelerometer, gyroscope, proximity sensor, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 11 with Flyme 9.2, Current: Android 12 with Flyme 10.2",
+      "Chipset": "Qualcomm SM8250-AC Snapdragon 870 (7 nm)",
+      "CPU": "Octa-core (1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8/12 GB LPDDR4X",
+      "Storage": "128/256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "OLED, 6.67\", 2400 × 1080 (Full HD+), 20:9, 395 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP Samsung GW3, f/1.8, 26 mm (wide), 1/1.97\", 0.7 µm, PDAF + 8 MP Hynix Hi846, f/2.2, 15 mm, 120˚ (ultrawide), 1/4.0\", 1.12 µm + 2 MP BF2253L, f/2.4 (depth), LED flash, HDR, panorama, Video: 8K@30fps, 4K@30/60fps, 1080p@30/60fps; gyro-EIS",
+      "Front camera": "13 MP, f/2.0 (wide), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4300 mAh",
+      "Charging": "30 W fast charging, 70% in 30 min, 100% in 60 min (advertised), Power Delivery 3.0, Quick Charge 4+"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.2 (A2DP, LE), Wi-Fi 802.11 b/g/n/ac/6e (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BeiDou, Galileo"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "OLED",
+    "chipset": "Qualcomm SM8250-AC Snapdragon 870",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "8K@30fps",
+    "front_mp": 13,
+    "battery_mah": 4300,
+    "wired_w": 30,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 189,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu 18X",
+      "url": "https://en.wikipedia.org/wiki/Meizu_18X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu 18X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu 18X",
+    "revid": 1361475773
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

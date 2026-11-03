@@ -1,0 +1,87 @@
+{
+  "slug": "huawei-nova-5t",
+  "brand": "Huawei",
+  "name": "Nova 5T",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2019",
+      "Series": "Huawei Nova"
+    },
+    "Network": {
+      "Technology": "2G (EDGE), 3G (WCDMA/UMTS), 4G (LTE)",
+      "SIM": "Duo Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "154.25 × 73.97 × 7.87 mm",
+      "Weight": "174 g",
+      "Other": "Light sensor, Gyroscope, Compass, Proximity sensor, Fingerprint sensor"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0, EMUI 9.1",
+      "CPU": "Huawei Kirin 980"
+    },
+    "Memory": {
+      "RAM": "6 GB RAM",
+      "Storage": "128 GB",
+      "Card slot": "No support"
+    },
+    "Display": {
+      "Display": "6.26\" LCD, 2340 x 1080 (Full HD+)"
+    },
+    "Cameras": {
+      "Rear camera": "Main: 48 MP (f/1.8) + 16 MP (f/2.2) + 2 MP (f/2.4) + 2 MP (f/2.4), Stereo sound, Front: 32 MP , Recording capability: 4K@30fps or 1080p@30/60fps with gyro-EIS",
+      "Front camera": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm with HDR, Recording capability: 1080p@30fps with gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 32-bit/192kHz audio"
+    },
+    "Battery": {
+      "Battery": "3750 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, MIMO, 2.4/5 GHz, Bluetooth 5.0, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.26,
+    "display_type": "LCD",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 3750,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 174,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova 5T",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_5T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova 5T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova 5T",
+    "revid": 1361473914
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

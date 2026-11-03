@@ -1,0 +1,47 @@
+{
+  "slug": "high-tech-computer-htc-cavalier",
+  "brand": "High Tech Computer",
+  "name": "HTC Cavalier",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Smartphone"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.0",
+      "CPU": "Samsung Samsung SC32442 400MHz"
+    },
+    "Display": {
+      "Display": "16-bit color 320x240 TFT"
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM with EDGE, GPRS, 802.11g WiFi, Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Cavalier",
+      "url": "https://en.wikipedia.org/wiki/HTC_Cavalier"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Cavalier\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Cavalier",
+    "revid": 1361473150
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

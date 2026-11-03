@@ -1,0 +1,69 @@
+{
+  "slug": "huawei-ideos",
+  "brand": "Huawei",
+  "name": "IDEOS",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Huawei_IDEOS_U8150_front.jpg/500px-Huawei_IDEOS_U8150_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Huawei_IDEOS_U8150_front.jpg/250px-Huawei_IDEOS_U8150_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei IDEOS",
+      "credit": "Nicolas1981, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_IDEOS_U8150_front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "104 mm H , 54.8 mm W , 13.5 mm D",
+      "Weight": "0.1021 kg"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 \"Froyo\"",
+      "CPU": "Qualcomm MSM7225 528 MHz ARM 11"
+    },
+    "Memory": {
+      "RAM": "256 MB (RAM)",
+      "Storage": "200 MB",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.8 in 320×240 px"
+    },
+    "Cameras": {
+      "Rear camera": "3.16 megapixel"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "HSPA, Bluetooth 2.1, Micro-USB, audio jack, aGPS, Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "battery_mah": 1200,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 13.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei IDEOS",
+      "url": "https://en.wikipedia.org/wiki/Huawei_IDEOS"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei IDEOS\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei IDEOS",
+    "revid": 1367295483
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

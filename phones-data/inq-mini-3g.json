@@ -1,0 +1,65 @@
+{
+  "slug": "inq-mini-3g",
+  "brand": "INQ",
+  "name": "Mini 3G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "INQ1",
+      "Successor": "Incumbent"
+    },
+    "Network": {
+      "Technology": "GPRS, EDGE, HSPDA"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "102.9mm * 45.8mm * 12.8mm",
+      "Weight": "90g (128g with battery)"
+    },
+    "Platform": {
+      "Operating system": "BREW 4.0 (Multi Tasking) + INQ System 1 extensions"
+    },
+    "Memory": {
+      "RAM": "128MB NAND + 128MB SDRAM",
+      "Card slot": "microSD/microSDHC, tested up to 8 GB"
+    },
+    "Display": {
+      "Display": "2.2 inch, QVGA (240×320 pixels) 262k TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixels"
+    },
+    "Battery": {
+      "Battery": "1150mAh Li-ion 3.7V(4.3Wh)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 + EDR (Headset, Handsfree, File Transfer, ObjectPush, A2DP, AVRCP, DUN), mini-USB v2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "battery_mah": 1150,
+    "nfc": false,
+    "weight_g": 90,
+    "thickness_mm": 12.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: INQ Mini 3G",
+      "url": "https://en.wikipedia.org/wiki/INQ_Mini_3G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"INQ Mini 3G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "INQ Mini 3G",
+    "revid": 1361474278
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "lg-vu",
+  "brand": "LG",
+  "name": "Vu",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/LG_CU920_%28Vu%29_phone.jpg/500px-LG_CU920_%28Vu%29_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/LG_CU920_%28Vu%29_phone.jpg/250px-LG_CU920_%28Vu%29_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Vu",
+      "credit": "Evan0512, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_CU920_(Vu)_phone.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "LG Prada"
+    },
+    "Network": {
+      "Technology": "GSM, 3G"
+    },
+    "Body": {
+      "Form factor": "Bar phone",
+      "Dimensions": "4.25” (H) x 2.16” (W) x 0.51” (D)",
+      "Weight": "3.16 oz."
+    },
+    "Platform": {
+      "Operating system": "proprietary",
+      "CPU": "400 MHz"
+    },
+    "Memory": {
+      "RAM": "152.7 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "262K Color TFT, 240 x 400 pixels, 3.00-inch (touch screen)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel with video capability"
+    },
+    "Battery": {
+      "Battery": "1,000 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Vu",
+      "url": "https://en.wikipedia.org/wiki/LG_Vu"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Vu\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Vu",
+    "revid": 1361475642
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

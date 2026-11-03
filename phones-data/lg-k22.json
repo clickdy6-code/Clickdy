@@ -1,0 +1,86 @@
+{
+  "slug": "lg-k22",
+  "brand": "LG",
+  "name": "K22",
+  "status": "published",
+  "announced": "2020-09-12",
+  "released": "2020-09-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-09-12",
+      "Series": "LG K",
+      "Predecessor": "LG K20"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "155.7 mm H, 75.4 mm W, 8.4 mm T",
+      "Weight": "169.5 g (6.0 oz)",
+      "Other": "Accelerometer, proximity sensor, light sensor, digital compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 10 + LG UX 9, Current: Android 12 + LG UX",
+      "CPU": "Qualcomm Snapdragon 215, 4 cores (28 nm), (4x1.3 GHz Cortex-A53)",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "RAM": "2/3 GB",
+      "Storage": "32/64 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.2\", 720 x 1520 (720p), 19:9, 271 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, (27 mm, wide-angle, 1/5.0\", 1.12 μm) + 2 MP, (macro), LED flash, HDR, Video: 1080p@30fps",
+      "Front camera": "5 MP (f/5.5, 24 mm, wide-angle. 1/5.0\", 1.12 μm), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 3000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n/, Bluetooth (5.0, A2DP, LE), GPS, GLONASS, microUSB"
+    }
+  },
+  "key": {
+    "display_in": 6.2,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 169.5,
+    "thickness_mm": 8.4,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG K22",
+      "url": "https://en.wikipedia.org/wiki/LG_K22"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG K22\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG K22",
+    "revid": 1361475090
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

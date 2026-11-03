@@ -1,0 +1,85 @@
+{
+  "slug": "nokia-500",
+  "brand": "Nokia",
+  "name": "500",
+  "status": "published",
+  "announced": "2011-08-01",
+  "released": "2011-08-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Nokia500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Nokia500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 500",
+      "credit": "Marcomogollon, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia500.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-08-01",
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia C5-03",
+      "Successor": "Nokia Lumia 510"
+    },
+    "Network": {
+      "Technology": "GSM (850/900/1800/1900 MHz), HSDPA, (850/900/1700/1900/2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "H: 111.3 mm, W: 53.8 mm, D: 14.1 mm",
+      "Weight": "93 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian Anna, upgradeable to Nokia Belle Refresh",
+      "CPU": "ARM11 1 GHz Samsung K5W2G1GACT – AP50 processor"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "2 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "640 × 360 px (nHD), 3.2\" capacitive, multi-touch TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, Video: 480p@15fps"
+    },
+    "Battery": {
+      "Battery": "1110 mAh Li-ion, removable (Nokia BL-4U)"
+    },
+    "Connectivity": {
+      "Connectivity": "Sensors:, Accelerometer, Magnetometer, Electronic compass, Proximity sensor, Other:, 3.5 mm headphone jack, Bluetooth 2.1, Wi-Fi 802.11 b/g, GPS with A-GPS, FM radio, Stereo, USB 2.0 via MicroUSB port"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1110,
+    "os": "Symbian Anna",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 93,
+    "thickness_mm": 14.1,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 500",
+      "url": "https://en.wikipedia.org/wiki/Nokia_500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 500",
+    "revid": 1361477343
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

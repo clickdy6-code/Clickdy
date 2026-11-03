@@ -1,0 +1,85 @@
+{
+  "slug": "huawei-ascend-g7",
+  "brand": "Huawei",
+  "name": "Ascend G7",
+  "status": "published",
+  "announced": "2014-09-04",
+  "released": "2014-09-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-09-04",
+      "Series": "Ascend G",
+      "Predecessor": "Huawei Ascend G6",
+      "Successor": "Huawei G8"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Micro-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153.5 mm H , 77.3 mm W , 7.6 mm D",
+      "Weight": "165 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.2 KitKat with EMUI 3, Upgradable: Android 6.0 Marshmallow with EMUI 4",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16 GB eMMC 4.5",
+      "Card slot": "microSDHC up to 32 GB"
+    },
+    "Display": {
+      "Display": "5.5 in (140 mm) IPS LCD, 1280 × 720 pixels (HD), 16:9 ratio, 267 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 3000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8916 Snapdragon 410",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 165,
+    "thickness_mm": 7.6,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ascend G7",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ascend_G7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ascend G7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ascend G7",
+    "revid": 1380229089
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

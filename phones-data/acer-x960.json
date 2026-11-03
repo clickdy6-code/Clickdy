@@ -1,0 +1,72 @@
+{
+  "slug": "acer-x960",
+  "brand": "Acer",
+  "name": "X960",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Acer_X960_smartphone.jpg/500px-Acer_X960_smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Acer_X960_smartphone.jpg/250px-Acer_X960_smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Acer X960",
+      "credit": "Jontintinjordan, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acer_X960_smartphone.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "HSDPA (3.5G), UMTS, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "106.4 (l) x 59 (w) x 13.7 (h) mm",
+      "Weight": "131.5 g"
+    },
+    "Platform": {
+      "Operating system": "Microsoft Windows Mobile 6.1 Professional",
+      "CPU": "533MHz Samsung S3C 6400"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM, 256 MB flash ROM",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "640 x 480 px, 2.8 in, TFT LCD, Touch Screen"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Megapixels with autofocus and flash (back)",
+      "Front camera": "VGA (front)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion (1530 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0 +EDR, Wi-Fi b/g, GPS SiRFstarIII"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1530,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 131.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer X960",
+      "url": "https://en.wikipedia.org/wiki/Acer_X960"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer X960\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer X960",
+    "revid": 1361472532
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "nokia-105",
+  "brand": "Nokia",
+  "name": "105",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/2013_Nokia_105_-_04.jpg/500px-2013_Nokia_105_-_04.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/2013_Nokia_105_-_04.jpg/250px-2013_Nokia_105_-_04.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 105",
+      "credit": "Alessandro Antonelli, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2013_Nokia_105_-_04.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 2013",
+      "Discontinued": "2016",
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia 100, Nokia 101",
+      "Successor": "Nokia 105 (2015)"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "107 mm, 44.8 mm, 14.3 mm",
+      "Weight": "70 g",
+      "Other": "LED Flashlight (on top)"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 30"
+    },
+    "Display": {
+      "Display": "1.45 in TFT, 128×128, pixels (125 ppi)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "800 mAh Li-Ion, (Nokia BL-5CB)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, FM radio, Proprietary charger"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 70,
+    "thickness_mm": 14.3,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 105 (2013)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_105_%282013%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 105 (2013)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 105 (2013)",
+    "revid": 1371681770
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

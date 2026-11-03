@@ -1,0 +1,80 @@
+{
+  "slug": "microsoft-lumia-550",
+  "brand": "Microsoft",
+  "name": "Lumia 550",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Lumia",
+      "Predecessor": "Microsoft Lumia 540",
+      "Successor": "Nokia 3"
+    },
+    "Network": {
+      "Technology": "EDGE, HSPA+, LTE"
+    },
+    "Body": {
+      "Dimensions": "136.1 mm H, 67.8 mm W, 9.9 mm D",
+      "Weight": "141.9 g"
+    },
+    "Platform": {
+      "Operating system": "Windows 10 Mobile",
+      "Chipset": "Qualcomm Snapdragon 210 MSM8909",
+      "CPU": "1.1 GHz quad-core ARM Cortex-A7",
+      "GPU": "Qualcomm Adreno 304"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSD up to 200 GB"
+    },
+    "Display": {
+      "Display": "4.7 in LCD, 1280 × 720 pixels at 315 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, 1/4-inch sensor, 720p video at 30 fps, LED flash, ƒ/2.4 aperture",
+      "Front camera": "2 MP, 480P video, ƒ/2.8 aperture"
+    },
+    "Battery": {
+      "Battery": "User-removable 2100 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon 210 MSM8909",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 2,
+    "battery_mah": 2100,
+    "five_g": false,
+    "weight_g": 141.9,
+    "thickness_mm": 9.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Microsoft Lumia 550",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Lumia_550"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Microsoft Lumia 550\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Microsoft Lumia 550",
+    "revid": 1361476125
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

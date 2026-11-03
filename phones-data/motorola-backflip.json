@@ -1,0 +1,64 @@
+{
+  "slug": "motorola-backflip",
+  "brand": "Motorola",
+  "name": "Backflip",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "UMTS 900/1900/2100"
+    },
+    "Body": {
+      "Form factor": "Flip smartphone",
+      "Dimensions": "53.00 × 108.00 × 15.30 mm",
+      "Weight": "133 g"
+    },
+    "Platform": {
+      "Operating system": "Android v1.5 (Cupcake), 2.1 (Eclair), can go up to 2.2.1 (Froyo), and 2.3.7 (Gingerbread) via CyanogenMod",
+      "CPU": "528 MHz Qualcomm MSM7201A processor (overclockable to 768 MHz via root and overclock kernel)"
+    },
+    "Memory": {
+      "RAM": "RAM: 256MB, ROM: 512MB",
+      "Storage": "Flash memory: 256 MB, 199 free; microSD slot: supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "320 × 480 px, 3.1 in, TFT LCD, HVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel with auto focus, geotagging"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-ion 1420 mAh, stand-by: up to 320 h, talk time: up to 6 h"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g), Bluetooth 2.0+EDR, Micro USB, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.1,
+    "display_type": "TFT",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1420,
+    "nfc": false,
+    "weight_g": 133
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Backflip",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Backflip"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Backflip\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Backflip",
+    "revid": 1380261604
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

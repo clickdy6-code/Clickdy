@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-mate-x3",
+  "brand": "Huawei",
+  "name": "Mate X3",
+  "status": "published",
+  "announced": "2023-03-23",
+  "released": "2023-03-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/HUAWEI_Mate_X3.jpg/500px-HUAWEI_Mate_X3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/HUAWEI_Mate_X3.jpg/250px-HUAWEI_Mate_X3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate X3",
+      "credit": "X-SHLIED, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HUAWEI_Mate_X3.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-03-23",
+      "Series": "Huawei Mate Series",
+      "Predecessor": "Huawei Mate X2",
+      "Successor": "Huawei Mate X5"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, HSPA, EVDO, LTE, 5G (China model only)"
+    },
+    "Body": {
+      "Form factor": "Foldable smartphone",
+      "Dimensions": "Unfolded: 156.9 mm × 141.5 mm × 5.3 mm (6.18 in × 5.57 in × 0.21 in), Folded: 156.9 mm × 72.4 mm × 11.1 mm (6.18 in × 2.85 in × 0.44 in)",
+      "Weight": "239 g or 241 g (8.43 oz or 8.50 oz)"
+    },
+    "Platform": {
+      "Operating system": "HarmonyOS 3.1 (China), EMUI 13.1 (Europe)",
+      "Chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 4G (4 nm)",
+      "CPU": "Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x2.0 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "12 GB RAM",
+      "Storage": "256 GB, 512 GB, or 1 TB",
+      "Card slot": "Nano Memory (uses shared SIM slot), up to 256 GB"
+    },
+    "Display": {
+      "Display": "Main: 7.85 in (199 mm) Foldable OLED, 120Hz, 2224 × 2496 pixels (~426 ppi), Cover: 6.4 in (160 mm) OLED, 120Hz, Kunlun Glass, 1080 × 2504 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, 23mm (wide), PDAF, Optical image stabilization, OIS, 12 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 13 MP, f/2.2, 13mm (ultrawide), AF Video: 4K@30/60fps, 1080p@30/60fps, gyro-EIS",
+      "Front camera": "Internal: 8 MP, f/2.4 (wide), Cover: 8 MP, f/2.4 (wide) Video: 4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, no 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "4800 mAh Lithium polymer battery, Li-Po (Global), 5060 mAh Si/C Lithium-ion battery, Li-Ion (China only)",
+      "Charging": "66W wired, 50W wireless, 7.5W reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, Bluetooth 5.2, NFC, Infrared port, USB-C 3.1"
+    }
+  },
+  "key": {
+    "display_in": 7.85,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SM8475 Snapdragon 8+ Gen 1 4G",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 4800,
+    "wireless_w": 50,
+    "wired_w": 66,
+    "os": "HarmonyOS 3.1",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 239,
+    "thickness_mm": 5.3,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate X3",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_X3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate X3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate X3",
+    "revid": 1376498590
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

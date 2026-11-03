@@ -1,0 +1,49 @@
+{
+  "slug": "alcatel-one-touch-501",
+  "brand": "Alcatel",
+  "name": "One Touch 501",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM-900 / GSM-1800"
+    },
+    "Body": {
+      "Form factor": "Block",
+      "Dimensions": "103 x 42 x 23.9 mm",
+      "Weight": "103g"
+    },
+    "Memory": {
+      "RAM": "Up to 1000 names in phonebook"
+    },
+    "Display": {
+      "Display": "96 x 64 pixels, Monochrome"
+    },
+    "Battery": {
+      "Battery": "600 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 600,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 103
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Alcatel One Touch 501",
+      "url": "https://en.wikipedia.org/wiki/Alcatel_One_Touch_501"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Alcatel One Touch 501\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Alcatel One Touch 501",
+    "revid": 1361472547
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

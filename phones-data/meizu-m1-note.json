@@ -1,0 +1,85 @@
+{
+  "slug": "meizu-m1-note",
+  "brand": "Meizu",
+  "name": "M1 Note",
+  "status": "published",
+  "announced": "2014-12-23",
+  "released": "2014-12-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "China, 2014-12-23",
+      "Series": "Meizu m note",
+      "Successor": "Meizu M2 Note"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Weight": "145 g",
+      "Other": "Wireless Charger, Flyme account, Flyme cloud"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4 or up gradable to 5.0 Lollipop",
+      "Chipset": "MediaTek MT6752",
+      "CPU": "Octa-core 1.7 GHz Cortex-A53",
+      "GPU": "Mali (GPU) T760"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16 GB, 32 GB",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "1920x1080px IPS Screen FullHD 418dpi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, 4208 x 3120 pixels, autofocus, dual-LED (dual tone) flash",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3140 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth WiFi"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "chipset": "MediaTek MT6752",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3140,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 145,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu M1 Note",
+      "url": "https://en.wikipedia.org/wiki/Meizu_M1_Note"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu M1 Note\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu M1 Note",
+    "revid": 1381995008
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

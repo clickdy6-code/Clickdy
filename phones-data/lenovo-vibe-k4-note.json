@@ -1,0 +1,86 @@
+{
+  "slug": "lenovo-vibe-k4-note",
+  "brand": "Lenovo",
+  "name": "Vibe K4 Note",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-01 (In India)",
+      "Series": "K series",
+      "Successor": "Lenovo K5 Note"
+    },
+    "Network": {
+      "Technology": "2G (GSM/GPRS/EDGE): 850, 900, 1,800 and 1,900 MHz; , 3G (HSDPA HSUPA) 850, 900, 1,900 and 2,100 MHz; , 4G (LTE): 800, 850, 900, 1,800, 2,100 and 2,600"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "153/6 mm (5.59 in) H, 76.5 mm (2.85 in) W, 9.2 mm (0.31 in) D",
+      "Weight": "158 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1.1 Lollipop, upgradeable to Android 6.0",
+      "Chipset": "Mediatek MT6753",
+      "CPU": "1.3 GHz Octa-Core Cortex-A53",
+      "GPU": "ARM Mali T720MP3"
+    },
+    "Memory": {
+      "RAM": "2 GB (A7010), 3 GB (A7010a48) LLDDR2 RAM",
+      "Storage": "16 GB, 32 GB microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.5\" 1080×1920 (401 Pixels per inch), IPS display"
+    },
+    "Cameras": {
+      "Rear camera": "13 mega pixels, ƒ/2.0 aperture, 3.56 mm focal length, 1080p video at 30 fps",
+      "Front camera": "5 mega pixels, ƒ/2.2 aperture, (1080p) HD video recording @ 30 fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers and Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "3300 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "◦WLAN: Wi-Fi 802.11 dual band a/b/g/n/ac, Wi-Fi hotspot, ◦Bluetooth: 4.0 A2DP, LE, ◦Radio: FM Receiver"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS",
+    "chipset": "Mediatek MT6753",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32,
+      256
+    ],
+    "battery_mah": 3300,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 158,
+    "thickness_mm": 9.2,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Lenovo Vibe K4 Note",
+      "url": "https://en.wikipedia.org/wiki/Lenovo_Vibe_K4_Note"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Lenovo Vibe K4 Note\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Lenovo Vibe K4 Note",
+    "revid": 1361475736
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

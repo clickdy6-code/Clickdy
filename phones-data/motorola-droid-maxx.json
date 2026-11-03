@@ -1,0 +1,90 @@
+{
+  "slug": "motorola-droid-maxx",
+  "brand": "Motorola",
+  "name": "Droid Maxx",
+  "status": "published",
+  "announced": "2013-07-23",
+  "released": "2013-07-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Motorola_Droid_Maxx_XT1080.jpg/500px-Motorola_Droid_Maxx_XT1080.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Motorola_Droid_Maxx_XT1080.jpg/250px-Motorola_Droid_Maxx_XT1080.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid Maxx",
+      "credit": "Jabartlett7, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Droid_Maxx_XT1080.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-07-23",
+      "Discontinued": "2014-06",
+      "Series": "Droid",
+      "Predecessor": "Droid Razr HD, Droid Razr Maxx HD, Motorola Photon Q",
+      "Successor": "Droid Turbo, Droid Maxx 2"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "137.5 mm H , 71.2 mm W , 7.18 mm D (Droid Ultra), 8.5 mm D (Droid Maxx)",
+      "Weight": "137 g (Ultra) , 167 g (Maxx)",
+      "Other": "Use time: up to 48 hours, Standby Time: Up to 20 days, Damage-resistance: , Corning Gorilla Glass screen, DuPont Kevlar backing, water-repellent nanocoating, Media sharing: Miracast wireless video playback, Qi wireless charging (Droid Maxx only), 32 GiB variant in matte \"black\" (discontinued), 16 GiB variant available in matte \"black with chrome\" and glossy \"red\""
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2.2 \"Jelly Bean\", Current: Android 4.4.4 \"KitKat\"",
+      "Chipset": "Motorola X8 Mobile Computing System",
+      "CPU": "1.7 GHz dual-core Qualcomm 8960 Pro",
+      "GPU": "400 MHz quad-core Adreno 320"
+    },
+    "Memory": {
+      "RAM": "2 GiB Dual-channel, 500 MHz LPDDR2 RAM",
+      "Storage": "16 GiB internal flash memory , 32 GB internal flash memory"
+    },
+    "Display": {
+      "Display": "5.0 in diagonal, 16:9 aspect ratio widescreen, Super AMOLED RGB capacitive, multi-touch touchscreen, 720×1280 pixels (294 PPI), 16 M colors"
+    },
+    "Cameras": {
+      "Rear camera": "10 MP (3264×2448 px), 6 MP (3264×1840 px in widescreen mode to fit screen aspect ratio), 1080p video recording (1920×1080, 60 fps)",
+      "Front camera": "2 MP"
+    },
+    "Sound": {
+      "Sound": "Speaker, 3.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "3,500 mAh (Droid Maxx)"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Motorola X8 Mobile Computing System",
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 10,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 2,
+    "battery_mah": 3500,
+    "os": "Android 4.2",
+    "weight_g": 137,
+    "thickness_mm": 7.18,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid Maxx",
+      "url": "https://en.wikipedia.org/wiki/Droid_Maxx"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid Maxx\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid Maxx",
+    "revid": 1363199121
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

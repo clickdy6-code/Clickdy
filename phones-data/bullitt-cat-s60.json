@@ -1,0 +1,87 @@
+{
+  "slug": "bullitt-cat-s60",
+  "brand": "Bullitt",
+  "name": "Cat S60",
+  "status": "published",
+  "announced": "2016-06-30",
+  "released": "2016-06-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/S60_in_Snow.jpg/500px-S60_in_Snow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/S60_in_Snow.jpg/250px-S60_in_Snow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Bullitt Cat S60",
+      "credit": "Prosthetic Head, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:S60_in_Snow.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-06-30",
+      "Series": "Cat phones",
+      "Successor": "Cat S61"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE/LTE GSM (850, 900, 1800, and 1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Rugged smartphone",
+      "Other": "Wi-Fi hotspot, USB tethering, FM Radio, Drop-to-concrete resistance up to 1.8 m, MIL-STD-810G certified, Water proof up to 5 m for 60 min"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 \"Marshmallow\"",
+      "Chipset": "Qualcomm Snapdragon 617",
+      "CPU": "Octa-core 1.5 GHz Cortex-A53",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD, up to 256 GB (dedicated slot)"
+    },
+    "Display": {
+      "Display": "720×1280 px, 312 ppi, 4.7 in diagonal, IPS LCD panel with Corning Gorilla Glass 4"
+    },
+    "Cameras": {
+      "Rear camera": "13 megapixel, auto focus, Dual-LED (Dual-tone) flash, FLIR thermal camera (lepton module)",
+      "Front camera": "5 megapixel"
+    },
+    "Battery": {
+      "Battery": "3,800 mAh, Non-removable Li-Ion rechargeable Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS, A-GPS, Bluetooth 4.1, A2DP, Micro USB 2.0, Wi-Fi 802.11a/b/g/n/ac, NFC"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 617",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 3800,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Cat S60",
+      "url": "https://en.wikipedia.org/wiki/Cat_S60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Cat S60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Cat S60",
+    "revid": 1367329722
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

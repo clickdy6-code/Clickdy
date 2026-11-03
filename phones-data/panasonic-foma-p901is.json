@@ -1,0 +1,61 @@
+{
+  "slug": "panasonic-foma-p901is",
+  "brand": "Panasonic",
+  "name": "FOMA P901iS",
+  "status": "published",
+  "announced": "2005-06-10",
+  "released": "2005-06-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2005-06-10",
+      "Series": "FOMA",
+      "Predecessor": "P901i"
+    },
+    "Network": {
+      "Technology": "FOMA (W-CDMA) 800 MHz, 2 GHz"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "102 mm H , 49 mm W , 25 mm D",
+      "Weight": "115 g (without outer jacket), 120 g (with outer jacket)"
+    },
+    "Memory": {
+      "Card slot": "miniSD card (up to 256 MB)"
+    },
+    "Display": {
+      "Display": "Main: 2.2 in (56 mm) TFT LCD, 240x320 pixels (QVGA), approx. 260,000 colors, Sub: 0.8 in (20 mm) OLED, 96×25 pixels, blue mono"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 2.02 MP νMaicovicon",
+      "Front camera": "Approx. 0.1 MP CMOS"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 2.02,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.1,
+    "weight_g": 115,
+    "thickness_mm": 25,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: FOMA P901iS",
+      "url": "https://en.wikipedia.org/wiki/FOMA_P901iS"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"FOMA P901iS\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "FOMA P901iS",
+    "revid": 1370573041
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

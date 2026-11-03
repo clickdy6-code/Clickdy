@@ -1,0 +1,88 @@
+{
+  "slug": "huawei-honor-8a",
+  "brand": "Huawei",
+  "name": "Honor 8A",
+  "status": "published",
+  "announced": "2019-01-05",
+  "released": "2019-01-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Honor Play 8A: 2019-01-05, Huawei Enjoy 9e: 2019-03-25, Honor 8A Prime: 2019-03-31, Honor 8A: 2019-04, Honor 8A Pro: 2019-04-12, Huawei Y6s: 2020-01-28, Honor 8A 2020: 2020-04-10",
+      "Series": "Honor A / Play, Huawei Y / Enjoy",
+      "Predecessor": "Honor 7A, Honor 7A / 7A Pro, Huawei Enjoy 8e, Huawei Y6 2019",
+      "Successor": "Honor 9A, Huawei Y6p"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM), Huawei Y6s: Nano-SIM or Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156.28 mm H , 73.5 mm W , 8 mm D",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Initial:, Honor 8A / Pro / Prime / 2020 / Play 8A / Huawei Enjoy 9e: Android 9 Pie, EMUI 9.0, Huawei Y6s: Android 9 Pie, EMUI 9.1, Current: Android 9 Pie, EMUI 9.1",
+      "Chipset": "MediaTek MT6765 Helio P35 (12 nm)",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320 (680 MHz)"
+    },
+    "Memory": {
+      "RAM": "Honor 8A: 2 GB, Honor 8A Pro: 2/3 GB, Honor 8A 2020 / Prime / Play 8A / Huawei Y6s / Enjoy 9e: 3 GB, LPDDR3",
+      "Storage": "Honor 8A: 32 GB, Honor 8A Pro / Play 8A / Huawei Y6s / Enjoy 9e: 32/64 GB, Honor 8A 2020 / Prime: 64 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.09\", 1560 × 720 (HD+), 19.5:9 ratio, 282 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, PDAF, LED flash, panorama, HDR, Video: 1080p@30fps",
+      "Front camera": "8 MP, LED flash (Huawei Enjoy 9e), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 3020 mAh"
+    }
+  },
+  "key": {
+    "display_in": 6.09,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6765 Helio P35",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3020,
+    "os": "Android 9",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 150,
+    "thickness_mm": 8,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 8A",
+      "url": "https://en.wikipedia.org/wiki/Honor_8A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 8A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 8A",
+    "revid": 1375543022
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

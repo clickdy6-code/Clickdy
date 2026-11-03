@@ -1,0 +1,77 @@
+{
+  "slug": "motorola-moto-z3",
+  "brand": "Motorola",
+  "name": "Moto Z3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-08",
+      "Predecessor": "Moto Z2 Play, Moto Z2 Force Edition",
+      "Successor": "Moto Z4"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 156.5 mm, W: 76.5 mm, D: 6.75 mm",
+      "Weight": "156 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\", Current: Android 9.0 \"Pie\"",
+      "CPU": "Qualcomm Snapdragon 835",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "64 GB",
+      "Card slot": "microSD up to 2 TB"
+    },
+    "Display": {
+      "Display": "6.01 in Super AMOLED (18:9 aspect ratio, 402 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, 2.0 aperture, 1.25 μm + 12 MP monochrome, Laser Autofocus (pDAF), Color Correlated Temperature (CCT) dual LED flash, Zero Shutter Lag (ZSL)., Video capture, Up to 4K 30 fps, 1080p 60 fps",
+      "Front camera": "8 MP, 2.0 aperture, 1.12 μm, wide-angle 84° lens, screen flash, Video capture, 1080p 30 fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3000 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 6.01,
+    "display_type": "Super AMOLED",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 8.1",
+    "weight_g": 156,
+    "thickness_mm": 6.75,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto Z3",
+      "url": "https://en.wikipedia.org/wiki/Moto_Z3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto Z3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto Z3",
+    "revid": 1381882843
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

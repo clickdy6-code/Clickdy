@@ -1,0 +1,85 @@
+{
+  "slug": "htc-nexus-one",
+  "brand": "HTC",
+  "name": "Nexus One",
+  "status": "published",
+  "announced": "2010-01-05",
+  "released": "2010-01-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nexus_One.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/Nexus_One.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "HTC Nexus One",
+      "credit": "Zach Vega, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nexus_One.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-01-05 [US, UK, Hong Kong]",
+      "Discontinued": "2010-07-18",
+      "Series": "Google Nexus",
+      "Predecessor": "HTC Dream",
+      "Successor": "Nexus S"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE 850/900/1800/1900 MHz , UMTS 850/1900/2100 MHz , or UMTS 900/1700/2100 MHz , HSDPA 7.2 Mbit/s , HSUPA 2 Mbit/s , GPRS Class 10"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "119 mm H , 59.8 mm W , 11.5 mm D",
+      "Weight": "130 g [with battery] , 100 g [without battery]"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.1 \"Eclair\", Last: Android 2.3.6 \"Gingerbread\", Unofficial: Android 3.0 \"Honeycomb\"",
+      "Chipset": "Qualcomm Snapdragon QSD8250 (Snapdragon S1)",
+      "CPU": "Single-core 1 GHz Qualcomm Scorpion",
+      "GPU": "Qualcomm Adreno 200 @ 128 MHz"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "512 MB (190 MB application storage)",
+      "Card slot": "microSDHC 4 GB Included (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "At launch: AMOLED , Later: Super LCD , 3.7 in diagonal PenTile , 480×800 px 254 ppi , (0.38 Megapixels) , 3:5 aspect ratio WVGA , 24-bit color , 100,000:1 contrast ratio , 1 ms response rate"
+    },
+    "Cameras": {
+      "Rear camera": "5.0-megapixel with 2X digital zoom, 2592×1944 max., Autofocus , LED flash , 720×480 video at 20 FPS or higher"
+    },
+    "Battery": {
+      "Battery": "1400 mAh Rechargeable Li-ion (User replaceable)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS , Bluetooth v2.1 + EDR with A2DP , micro USB 2.0 , Wi-Fi IEEE 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon QSD8250",
+    "battery_mah": 1400,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 130,
+    "thickness_mm": 11.5,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nexus One",
+      "url": "https://en.wikipedia.org/wiki/Nexus_One"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nexus One\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nexus One",
+    "revid": 1383316477
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

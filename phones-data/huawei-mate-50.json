@@ -1,0 +1,105 @@
+{
+  "slug": "huawei-mate-50",
+  "brand": "Huawei",
+  "name": "Mate 50",
+  "status": "published",
+  "announced": "2022-09-28",
+  "released": "2022-09-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E5%8D%8E%E4%B8%BAMate50_Pro%E5%86%B0%E9%9C%9C%E9%93%B6.jpg/500px-%E5%8D%8E%E4%B8%BAMate50_Pro%E5%86%B0%E9%9C%9C%E9%93%B6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/%E5%8D%8E%E4%B8%BAMate50_Pro%E5%86%B0%E9%9C%9C%E9%93%B6.jpg/250px-%E5%8D%8E%E4%B8%BAMate50_Pro%E5%86%B0%E9%9C%9C%E9%93%B6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate 50",
+      "credit": "Tuqoday, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8D%8E%E4%B8%BAMate50_Pro%E5%86%B0%E9%9C%9C%E9%93%B6.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-09-28",
+      "Series": "Huawei Mate series",
+      "Predecessor": "Huawei Mate 40",
+      "Successor": "Huawei Mate 60"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / CDMA2000 / LTE",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "50: 161.5 mm H , 76.1 mm W , 8 mm D, 50 Pro: 162.1 mm H , 75.5 mm W , 8.5 mm D, 50 RS Porsche Design: 162.1 mm H , 75.5 mm W , 9.92 mm D",
+      "Weight": "50: 206 g, 50 Pro: 209 g, 50 RS Porsche Design: 232 g"
+    },
+    "Platform": {
+      "Operating system": "International: EMUI 13, China: HarmonyOS 3, Current: China: HarmonyOS 4.2 , International: EMUI 14.2",
+      "Chipset": "Qualcomm SM8425 Snapdragon 8+ Gen 1 4G (4 nm)",
+      "CPU": "Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x2.0 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "8/12 GB RAM",
+      "Storage": "128, 256, 512 GB"
+    },
+    "Display": {
+      "Display": "50: 6.7 in, 1224 x 2700 px resolution (~442 ppi density), 50 Pro/RS Porsche Design: 6.74 in, 1212 x 2616 px resolution, 19.5:9 ratio (~428 ppi density), 50: OLED, 1B colors, 90Hz refresh rate, 50 Pro/50 RS Porsche Design: OLED, 1B colors, 120Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "50: 50 MP, RYYB, f/1.4-f/4.0, 24mm (wide), omnidirectional PDAF, Laser AF, 12 MP, RYYB, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 13 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF, 50 Pro: 50 MP, RYYB, f/1.4-f/4.0, 24mm (wide), omnidirectional PDAF, Laser AF, OIS, 64 MP, RYYB, f/3.5, 90mm (periscope telephoto), PDAF, OIS, 3.5x optical zoom, 13 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF, 50 RS Porsche Design: 50 MP, RYYB, f/1.4-f/4.0, 24mm (wide), omnidirectional PDAF, Laser AF, OIS, 48 MP, f/3.0, 90mm (periscope telephoto macro), PDAF, OIS, 3.5x optical zoom, 13 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF, All: LED flash, panorama, HDR, 4K@30/60fps, 1080p@30/60/120/240fps, 1080p@960f",
+      "Front camera": "13 MP, f/2.4, 18mm (ultrawide), 50 Pro and 50 RS Porsche Design: TOF 3D, (depth/biometrics sensor), HDR, panorama, 4K@30/60fps, 1080p@30/60/240fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "50: Li-Po 4460 mAh, 50 Pro/50 RS Porsche Design: Li-Po 4700 mAh",
+      "Charging": "Fast charging 66W, Wireless charging 50W, Reverse wireless charging 5W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/ax(6), dual-band, Wi-Fi Direct, hotspot, Bluetooth\t5.2, A2DP, LE, DisplayPort 1.2"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SM8425 Snapdragon 8+ Gen 1 4G",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 13,
+    "battery_mah": 4460,
+    "wireless_w": 50,
+    "wired_w": 66,
+    "os": "HarmonyOS 3",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 206,
+    "thickness_mm": 8,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate 50",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_50"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate 50\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate 50",
+    "revid": 1361473831
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

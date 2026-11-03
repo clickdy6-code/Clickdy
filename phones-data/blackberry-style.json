@@ -1,0 +1,45 @@
+{
+  "slug": "blackberry-style",
+  "brand": "BlackBerry",
+  "name": "Style",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Flip/Clamshell",
+      "Weight": "131 grams, (4.62 ounces)"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry OS 6.0"
+    },
+    "Display": {
+      "Display": "360x400 QVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel"
+    },
+    "Battery": {
+      "Battery": "1150 mAHr lithium-ion"
+    }
+  },
+  "key": {
+    "battery_mah": 1150
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Style",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Style"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Style\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Style",
+    "revid": 1361472785
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

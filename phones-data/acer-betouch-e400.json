@@ -1,0 +1,62 @@
+{
+  "slug": "acer-betouch-e400",
+  "brand": "Acer",
+  "name": "beTouch E400",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Acer-betouch-e400-android-photos.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Acer-betouch-e400-android-photos.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Acer beTouch E400",
+      "credit": "Eg81, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acer-betouch-e400-android-photos.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Dimensions": "115 x 59.3 x 12 mm",
+      "Weight": "125 g",
+      "Other": "nemoPlayer, social networking integration"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1",
+      "CPU": "Qualcomm 7227 600 MHz processor"
+    },
+    "Display": {
+      "Display": "3.2-inch HVGA touchscreen display"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP camera with geo-tagging"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1090 mAh"
+    }
+  },
+  "key": {
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1090,
+    "os": "Android 2.1",
+    "weight_g": 125
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer beTouch E400",
+      "url": "https://en.wikipedia.org/wiki/Acer_beTouch_E400"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer beTouch E400\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer beTouch E400",
+    "revid": 1363690858
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-3210",
+  "brand": "Nokia",
+  "name": "3210",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nokia_3210_3.jpg/500px-Nokia_3210_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nokia_3210_3.jpg/250px-Nokia_3210_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 3210",
+      "credit": "Michael Brandtner, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3210_3.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Q2 1999",
+      "Discontinued": "2001",
+      "Series": "Nokia 3000 series",
+      "Predecessor": "Nokia 3110, Nokia 5110",
+      "Successor": "Nokia 3310, Nokia 5510, Nokia 210 (2019), Nokia 3210 (2024)"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800"
+    },
+    "Body": {
+      "Form factor": "Candy bar",
+      "Dimensions": "123.8 x",
+      "Weight": "151 g"
+    },
+    "Platform": {
+      "Operating system": "Series 20 UI",
+      "CPU": "Texas Instruments MAD2PR1"
+    },
+    "Memory": {
+      "RAM": "SIM card only – up to 250 names in phonebook"
+    },
+    "Display": {
+      "Display": "1.5-inch backlit monochrome graphic LCD (84×48 px, 64 ppi, 5 lines)"
+    },
+    "Sound": {
+      "Sound": "Monophonic ringtones"
+    },
+    "Battery": {
+      "Battery": "Removable BML-3 (NiMH) 1250 mAh"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 1250,
+    "five_g": false,
+    "weight_g": 151,
+    "year": 1999
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3210",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3210"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3210\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3210",
+    "revid": 1383371708
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "foxconn-on-contract-iphone-xr",
+  "brand": "Foxconn (on contract)",
+  "name": "IPhone XR",
+  "status": "published",
+  "announced": "2018-10-26",
+  "released": "2018-10-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/IPhone_XR_Blue.svg/500px-IPhone_XR_Blue.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/IPhone_XR_Blue.svg/250px-IPhone_XR_Blue.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn (on contract) IPhone XR",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_XR_Blue.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-26",
+      "Series": "12th",
+      "Predecessor": "iPhone 8 / iPhone 8 Plus",
+      "Successor": "iPhone 11"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA2000, EV-DO, HSPA+, 3G, LTE, LTE Advanced"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "150.9xx75.7xx8.3 mm",
+      "Weight": "194 g",
+      "Other": "FaceTime audio- or video-calling, Lightning connector for charging, wired headphones and other accessories (not included), Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 12",
+      "Chipset": "Apple A12 Bionic"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR4X",
+      "Storage": "64, 128, or 256 GB NVMe"
+    },
+    "Display": {
+      "Display": "6.1 inch (155 mm) diagonal Liquid Retina: LED-backlit IPS LCD, 1792 × 828 px (326 ppi), 625 cd/m² max. brightness (typical), with dual-ion exchange-strengthened glass."
+    },
+    "Cameras": {
+      "Rear camera": "12 MP with QuickTake video, (1.4 μm) (1/2.55\") Sony Exmor IMX333-Inspired, quad-LED flash, ƒ/1.8 aperture, Optical image Stabilization, autofocus, IR filter, Burst mode, 6-element lens, 4K video recording at 30 or 60 FPS or 1080p at 30 or 60 FPS, Slow-motion video (1080p at 120 FPS or 240 FPS), Time-lapse with stabilization, Panorama (up to 63 megapixels), Portrait Mode, Portrait Lighting (excluding Stage Light), Face detection, Digital image stabilization, Stereo audio recording",
+      "Front camera": "7 MP with QuickTake video, f/2.2 aperture, burst mode, exposure control, face detection, Smart-HDR, auto image stabilization, Retina flash, 1080p HD video recording, Portrait Mode, Portrait Lighting, and Animoji, (same as iPhone XS)"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "3.81 V 11.21 W·h (2942 mAh) Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Retina",
+    "chipset": "Apple A12 Bionic",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 7,
+    "battery_mah": 2942,
+    "os": "iOS 12",
+    "five_g": false,
+    "weight_g": 194,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone XR",
+      "url": "https://en.wikipedia.org/wiki/IPhone_XR"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone XR\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone XR",
+    "revid": 1383373588
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

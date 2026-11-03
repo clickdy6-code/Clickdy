@@ -1,0 +1,81 @@
+{
+  "slug": "cherry-mobile-flare-s7-prime",
+  "brand": "Cherry",
+  "name": "Mobile Flare S7 Prime",
+  "status": "published",
+  "announced": "2018-10-17",
+  "released": "2018-10-17",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-17"
+    },
+    "Network": {
+      "Technology": "3G only",
+      "SIM": "Dual-SIM slot (nanoSIM)"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\" (Go Edition)",
+      "Chipset": "MediaTek MT6580",
+      "CPU": "Quad-core (4x Cortex-A7 @ 1.3 GHz)",
+      "GPU": "Mali-400"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB ROM",
+      "Card slot": "MicroSDXC Expandable up to 64GB via microSD"
+    },
+    "Display": {
+      "Display": "5.5 in 720x1440 HD+ IPS LCD, (293 ppi) with 18:9 Aspect Ratio"
+    },
+    "Cameras": {
+      "Rear camera": "Single: 13 MP Main Camera, Autofocus & LED Flash",
+      "Front camera": "Single: 13 MP Main Camera, Autofocus & LED Flash"
+    },
+    "Battery": {
+      "Battery": "2400 mAh lithium-ion battery (removable)",
+      "Charging": "Standard 10 W Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi List of WLAN channels, 802.11 b/g/n, Wi-Fi Direct, Bluetooth#Bluetooth 4.1, Bluetooth 4.1, Bluetooth Low Energy, BLE, USB hardware#Micro connectors, Micro USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6580",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 13,
+    "battery_mah": 2400,
+    "wired_w": 10,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Cherry Mobile Flare S7 Prime",
+      "url": "https://en.wikipedia.org/wiki/Cherry_Mobile_Flare_S7_Prime"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Cherry Mobile Flare S7 Prime\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Cherry Mobile Flare S7 Prime",
+    "revid": 1367985838
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

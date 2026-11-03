@@ -1,0 +1,58 @@
+{
+  "slug": "alcatel-subcontractor-bic-phone",
+  "brand": "Alcatel subcontractor",
+  "name": "Bic Phone",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/BIC_Phone_7121359535_e04112ef8b_o.jpg/500px-BIC_Phone_7121359535_e04112ef8b_o.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/BIC_Phone_7121359535_e04112ef8b_o.jpg/250px-BIC_Phone_7121359535_e04112ef8b_o.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Alcatel subcontractor Bic Phone",
+      "credit": "Andrew Currie from Toronto, Canada, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BIC_Phone_7121359535_e04112ef8b_o.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM bands 900 and 1800"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "98×44×12.3 mm",
+      "Weight": "70 g"
+    },
+    "Display": {
+      "Display": "1.5\", 128×128 pixels, 65,000 colours"
+    },
+    "Battery": {
+      "Battery": "4 h call time, 240 h standby"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB connector for charging"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 70
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Bic Phone",
+      "url": "https://en.wikipedia.org/wiki/Bic_Phone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Bic Phone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Bic Phone",
+    "revid": 1361472664
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

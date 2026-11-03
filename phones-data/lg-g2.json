@@ -1,0 +1,88 @@
+{
+  "slug": "lg-g2",
+  "brand": "LG",
+  "name": "G2",
+  "status": "published",
+  "announced": "2013-09-12",
+  "released": "2013-09-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/LG_G2.png/500px-LG_G2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/LG_G2.png/250px-LG_G2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG G2",
+      "credit": "GadgetsGuy, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_G2.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-09-12",
+      "Predecessor": "LG Optimus G",
+      "Successor": "LG G3"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "138.5 mm H, 70.9 mm W, 8.9 mm D",
+      "Weight": "143 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2.2 \"Jelly Bean\", Last: Android 5.0.2 \"Lollipop\"",
+      "Chipset": "Qualcomm Snapdragon 800 MSM8974",
+      "CPU": "2.26 GHz Qualcomm quad-core Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB or 32 GB",
+      "Card slot": "microSDXC up to 64GB (South Korean variant only)"
+    },
+    "Display": {
+      "Display": "5.2 in diagonal IPS LCD 1920x1080 (424 ppi) with Gorilla Glass 2"
+    },
+    "Cameras": {
+      "Rear camera": "Sony IMX135 Exmor RS CMOS 13 MP OIS, F2.4, LED flash",
+      "Front camera": "2.1 MP, F2.6"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Pol 3,000 mAh, Removable Li-ion 2,610 mAh (South Korean variant)"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 800 MSM8974",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 2.1,
+    "battery_mah": 3000,
+    "os": "Android 4.2",
+    "weight_g": 143,
+    "thickness_mm": 8.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G2",
+      "url": "https://en.wikipedia.org/wiki/LG_G2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG G2",
+    "revid": 1380356545
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

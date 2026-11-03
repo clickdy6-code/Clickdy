@@ -1,0 +1,57 @@
+{
+  "slug": "huawei-mate-s",
+  "brand": "Huawei",
+  "name": "Mate S",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Huawei_Mate_S_-_Mobile_World_Congress_2016_%2825130726999%29.jpg/500px-Huawei_Mate_S_-_Mobile_World_Congress_2016_%2825130726999%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Huawei_Mate_S_-_Mobile_World_Congress_2016_%2825130726999%29.jpg/250px-Huawei_Mate_S_-_Mobile_World_Congress_2016_%2825130726999%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate S",
+      "credit": "Kārlis Dambrāns, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_S_-_Mobile_World_Congress_2016_(25130726999).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015",
+      "Series": "Huawei Mate"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5, 1.1 \"Lollipop\", Current: Android 6.0.1 \"Marshmallow\""
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "32/64/128 GB",
+      "Card slot": "microSD up to 256 GB"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      128
+    ],
+    "os": "Android 5",
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate S",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Mate S",
+    "revid": 1378602777
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

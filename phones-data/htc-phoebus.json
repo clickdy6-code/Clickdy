@@ -1,0 +1,50 @@
+{
+  "slug": "htc-phoebus",
+  "brand": "HTC",
+  "name": "Phoebus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GPRS/EDGE, GSM Quad Band"
+    },
+    "Body": {
+      "Dimensions": "103mm (L) x 53mm (W) x 15mm (D)",
+      "Weight": "150g"
+    },
+    "Memory": {
+      "RAM": "256 MB ROM, 128 MB RAM"
+    },
+    "Display": {
+      "Display": "2.8\" QVGA TFT LCD, 320X240 64K-color screen"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, Wi-Fi: IEEE 802.11b/g, HTC ExtUSB (11-pin mini-USB and audio jack in one)"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 150,
+    "thickness_mm": 15
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Phoebus",
+      "url": "https://en.wikipedia.org/wiki/HTC_Phoebus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Phoebus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Phoebus",
+    "revid": 1379779252
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "lg-arena",
+  "brand": "LG",
+  "name": "Arena",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, UMTS 900/1200, GPRS, EDGE, HSDPA 7.2 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "105.9 x 55.3 x 11.96mm",
+      "Weight": "105g"
+    },
+    "Memory": {
+      "RAM": "128 MB DRAM, 256 MB NAND ROM; 8 GB flash internal",
+      "Card slot": "microSD (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3\", 800 x 480 pixel touchscreen, 16M TFT"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel CMOS, VGA front camera"
+    },
+    "Battery": {
+      "Battery": "Li-ion, 1000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (NO WPA-Enterprise), Bluetooth 2.1, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "ram_gb": [
+      8
+    ],
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 105
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Arena (KM900)",
+      "url": "https://en.wikipedia.org/wiki/LG_Arena_%28KM900%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Arena (KM900)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Arena (KM900)",
+    "revid": 1361474829
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

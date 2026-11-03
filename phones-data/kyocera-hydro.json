@@ -1,0 +1,61 @@
+{
+  "slug": "kyocera-hydro",
+  "brand": "Kyocera",
+  "name": "Hydro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Hydro"
+    },
+    "Network": {
+      "Technology": "CDMA/EVDO (800, 1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "115 mm H , 62 mm W , 12.8 mm D",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0 Ice Cream Sandwich (Upgrade to Android 4.3 Jellybean)",
+      "CPU": "1 GHz Qualcomm MSM8655 Snapdragon",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "2 GB",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "IPS LCD, 4.0 in diagonal , 320×480 px HVGA"
+    },
+    "Cameras": {
+      "Front camera": "3.2 Mpx"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "IPS LCD",
+    "front_mp": 3.2,
+    "os": "Android 4.0",
+    "weight_g": 120,
+    "thickness_mm": 12.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera Hydro",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_Hydro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera Hydro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera Hydro",
+    "revid": 1361474803
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

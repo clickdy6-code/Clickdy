@@ -1,0 +1,92 @@
+{
+  "slug": "transsion-on-contract-infinix-note-60-pro",
+  "brand": "Transsion (on contract)",
+  "name": "Infinix Note 60 Pro",
+  "status": "published",
+  "announced": "2026-03-11",
+  "released": "2026-03-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/db/Infinix_Note_60_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/Infinix_Note_60_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Transsion (on contract) Infinix Note 60 Pro",
+      "credit": "specs domain, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Infinix_Note_60_Pro.png",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-03-11",
+      "Series": "Infinix Note Series"
+    },
+    "Network": {
+      "Technology": "5G, 4G LTE, 3G"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 16 with XOS 16",
+      "Chipset": "Qualcomm Snapdragon 7s Gen 4",
+      "CPU": "Octa-core, 1x 2.7 GHz Cortex-A720 & 3x 2.4 GHz Cortex-A720 & 4x 1.8 GHz Cortex-A520",
+      "GPU": "Adreno 810"
+    },
+    "Memory": {
+      "RAM": "8 or 12 GB",
+      "Storage": "128 or 256 GB"
+    },
+    "Display": {
+      "Display": "6.78-inch AMOLED, 144Hz, 2304Hz PWM, 700 nits (typ), 1600 nits (HBM), 4500 nits (peak), 1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density) with Ultra HDR support"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP (primary); triple-camera system"
+    },
+    "Battery": {
+      "Battery": "6,000 or 6,500 mAh",
+      "Charging": "90 W wired, 30 W wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, Wi-Fi, Bluetooth 5.4, NFC, USB-C, IR blaster"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "refresh_hz": 304,
+    "peak_nits": 4500,
+    "chipset": "Qualcomm Snapdragon 7s Gen 4",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 6500,
+    "wireless_w": 30,
+    "wired_w": 90,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Infinix Note 60 Pro",
+      "url": "https://en.wikipedia.org/wiki/Infinix_Note_60_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Infinix Note 60 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Infinix Note 60 Pro",
+    "revid": 1381258449
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

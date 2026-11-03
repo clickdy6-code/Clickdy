@@ -1,0 +1,90 @@
+{
+  "slug": "huawei-mate-xt",
+  "brand": "Huawei",
+  "name": "Mate XT",
+  "status": "published",
+  "announced": "2024-09-20",
+  "released": "2024-09-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Huawei_Mate_XT_Ultimate_Design.jpg/500px-Huawei_Mate_XT_Ultimate_Design.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Huawei_Mate_XT_Ultimate_Design.jpg/250px-Huawei_Mate_XT_Ultimate_Design.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate XT",
+      "credit": "メイド理世, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_XT_Ultimate_Design.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-09-20",
+      "Series": "Huawei Mate"
+    },
+    "Network": {
+      "Technology": "GSM/ CDMA/ HSPA / CDMA2000/ LTE",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Foldable smartphone",
+      "Dimensions": "Height: 156.7 mm, Width:, single screen: 73.5 mm, dual screen: 143.0 mm, triple screen: 219.0 mm, Depth:, single screen: 12.8 mm, dual screen: 7.45 mm / 4.75 mm, triple screen: 3.6 mm / 3.6 mm / 4.75 mm",
+      "Weight": "298 g"
+    },
+    "Platform": {
+      "Operating system": "HarmonyOS 4.2 (EMUI 14.2) Supports upgrade to HarmonyOS 5",
+      "Chipset": "HiSilicon Kirin 9010 (7 nm)",
+      "CPU": "Octa-core (1×2.3 GHz Taishan Big & 3×2.18 GHz Taishan Mid & 4×1.55 GHz Cortex-A510)",
+      "GPU": "Maleoon 910"
+    },
+    "Memory": {
+      "RAM": "16 GB RAM (LPDDR5 specification)",
+      "Storage": "256GB / 512GB / 1TB ROM, (UFS 4.0 specification)"
+    },
+    "Display": {
+      "Display": "1 panel: 6.4 in, 2 panels: 7.9 in, 3 panels:10.2 in, Resolutions:, 1 panel:2232 x 1008 px , 2 panels:2232 x 2048 px, 3 panels: 2232 x 3184 px"
+    },
+    "Battery": {
+      "Battery": "5600mAh (rated), not removable or replaceable",
+      "Charging": "Wired charging: 66W, Wireless charging: 50W, Wireless reverse charging: 7.5W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac/ax, 2x2 MIMO, HE160, 4096 QAM, 8 spatial-stream sounding MU-MIMO, Bluetooth 5.2, Bluetooth Low Energy, SBC, AAC, LDAC and L2HC, HD audio, NearLink, USB 3.1 Gen1 Type-C"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "chipset": "HiSilicon Kirin 9010",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "battery_mah": 5600,
+    "wireless_w": 50,
+    "wired_w": 66,
+    "os": "HarmonyOS 4.2",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 298,
+    "thickness_mm": 143,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate XT",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_XT"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate XT\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate XT",
+    "revid": 1382144506
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

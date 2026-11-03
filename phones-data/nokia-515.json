@@ -1,0 +1,88 @@
+{
+  "slug": "nokia-515",
+  "brand": "Nokia",
+  "name": "515",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Nokia_515_%28Black%29_-_Front.jpg/500px-Nokia_515_%28Black%29_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Nokia_515_%28Black%29_-_Front.jpg/250px-Nokia_515_%28Black%29_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 515",
+      "credit": "Beamish4, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_515_(Black)_-_Front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-09",
+      "Predecessor": "Nokia 6700 classic"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, UMTS 900/2100, HSDPA 7.2 Mbps, HSUPA 5.76 Mbps, GPRS, EDGE",
+      "SIM": "microSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "114 mm H , 48 mm W , 11 mm D",
+      "Weight": "101.1 g",
+      "Other": "USB tethering"
+    },
+    "Platform": {
+      "Operating system": "Series 40 6th Edition Feature Pack 1",
+      "CPU": "416 MHz Infineon PMB9803 X-GOLD614, ARM11"
+    },
+    "Memory": {
+      "RAM": "64 MB",
+      "Storage": "256 MB",
+      "Card slot": "microSDHC, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.4 in diagonal TFT LCD, 240 × 320 px QVGA, 1:1. aspect-ratio full-screen, 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (2592×1944px max.), LED flash, QVGA video recording (320×240 px. MPEG4 at 30 fps max.)"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-4U, 1200 mAh, 3.7 V user replaceable Li-ion",
+      "Charging": "Micro USB 2.0"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0 with A2DP, HFP, HSP, OPP and DUN, Micro USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 101.1,
+    "thickness_mm": 11,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 515",
+      "url": "https://en.wikipedia.org/wiki/Nokia_515"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 515\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 515",
+    "revid": 1361477371
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

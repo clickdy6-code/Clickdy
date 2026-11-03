@@ -1,0 +1,84 @@
+{
+  "slug": "lg-optimus-l3",
+  "brand": "LG",
+  "name": "Optimus L3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/LG_Optimus_L3_E400_display.JPG/500px-LG_Optimus_L3_E400_display.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/LG_Optimus_L3_E400_display.JPG/250px-LG_Optimus_L3_E400_display.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus L3",
+      "credit": "АндрейХьюстон, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Optimus_L3_E400_display.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "February 2012",
+      "Series": "Optimus",
+      "Successor": "LG Optimus L3 II"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850, 900, 1800, 1900 MHz, 3G UMTS/HSPA%2B, (3,6 Mbit) 900, 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "H 102.6mm, W 61.6mm, D 11.9mm",
+      "Weight": "110 g"
+    },
+    "Platform": {
+      "Operating system": "Android v2.3 Gingerbread",
+      "CPU": "Qualcomm Snapdragon MSM7225A, 800MHz",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "384 MB RAM",
+      "Storage": "1GB eMMC",
+      "Card slot": "microSD (supports up to 32GB)"
+    },
+    "Display": {
+      "Display": "3.2-inch (240x320) TFT (125 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "still: 3.15 MP (2048×1536) , video: 640×480",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "1,500mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Wi-Fi Hotspot, DLNA, Bluetooth 3.0 + A2DP"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 500,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110,
+    "thickness_mm": 11.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus L3",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_L3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus L3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus L3",
+    "revid": 1382040836
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

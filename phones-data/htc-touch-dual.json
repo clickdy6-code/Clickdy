@@ -1,0 +1,68 @@
+{
+  "slug": "htc-touch-dual",
+  "brand": "HTC",
+  "name": "Touch Dual",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family",
+      "Predecessor": "HTC Touch",
+      "Successor": "HTC Touch Pro"
+    },
+    "Network": {
+      "Technology": "HSDPA (3.5G), Tri band GSM / GPRS / EDGE, GSM 900, GSM 1800, GSM 1900 CDMA EVDO"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "107x55x15.8 mm",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6 Professional",
+      "CPU": "Qualcomm MSM 7200, 400MHz"
+    },
+    "Memory": {
+      "RAM": "256 MB ROM, 128 MB SDRAM",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "320x240 px, 2.6 in, TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels (Back)",
+      "Front camera": "CIF CMOS colour (Front)"
+    },
+    "Battery": {
+      "Battery": "1,120mAh Li-polymer battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "TFT",
+    "battery_mah": 120,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 120
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Touch Dual",
+      "url": "https://en.wikipedia.org/wiki/HTC_Touch_Dual"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Touch Dual\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Touch Dual",
+    "revid": 1373051809
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

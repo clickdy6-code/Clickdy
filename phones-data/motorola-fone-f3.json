@@ -1,0 +1,49 @@
+{
+  "slug": "motorola-fone-f3",
+  "brand": "Motorola",
+  "name": "Fone F3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/MOTOFONE.jpg/500px-MOTOFONE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/MOTOFONE.jpg/250px-MOTOFONE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Fone F3",
+      "credit": "Moralist, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MOTOFONE.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM / CDMA"
+    },
+    "Body": {
+      "Dimensions": "47 x 114 x 9.1 mm",
+      "Weight": "68 g"
+    },
+    "Display": {
+      "Display": "electronic paper (ClearVision Display)"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "weight_g": 68
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Fone F3",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Fone_F3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Fone F3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Fone F3",
+    "revid": 1362228367
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

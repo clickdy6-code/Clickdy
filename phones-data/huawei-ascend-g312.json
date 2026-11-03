@@ -1,0 +1,75 @@
+{
+  "slug": "huawei-ascend-g312",
+  "brand": "Huawei",
+  "name": "Ascend G312",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Q3 2012",
+      "Discontinued": "Yes",
+      "Predecessor": "Huawei Ascend G300",
+      "Successor": "Huawei Ascend G330"
+    },
+    "Network": {
+      "SIM": "Mini-SIM"
+    },
+    "Body": {
+      "Dimensions": "122.5 x 62.5 x 10.5 mm (4.82 x 2.46 x 0.41 in)",
+      "Weight": "4.94 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0 (Ice Cream Sandwich)",
+      "CPU": "1.4 GHz"
+    },
+    "Memory": {
+      "RAM": "1GB RAM",
+      "Storage": "4GB (2GB user available)",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "TFT, 256K colors, 4.0 inches, 45.5 cm² (~59.5% screen-to-body ratio), 480 x 800 pixels, 5:3 ratio (~233 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, AF with LED flash",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh, removable"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 4.0",
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ascend G312",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ascend_G312"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ascend G312\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ascend G312",
+    "revid": 1361473684
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

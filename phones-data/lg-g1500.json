@@ -1,0 +1,52 @@
+{
+  "slug": "lg-g1500",
+  "brand": "LG",
+  "name": "G1500",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900/1800 (Dual band)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "105 x 44 x 21 mm",
+      "Weight": "80 g"
+    },
+    "Memory": {
+      "RAM": "Phonebook 255 entries"
+    },
+    "Display": {
+      "Display": "Monochrome 128 x 64 pixels"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 850 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "CSD/GPRS (WML)"
+    }
+  },
+  "key": {
+    "battery_mah": 850,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 80
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G1500",
+      "url": "https://en.wikipedia.org/wiki/LG_G1500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G1500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG G1500",
+    "revid": 1361474953
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

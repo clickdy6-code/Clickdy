@@ -1,0 +1,86 @@
+{
+  "slug": "meizu-u10",
+  "brand": "Meizu",
+  "name": "U10",
+  "status": "published",
+  "announced": "2016-08-24",
+  "released": "2016-08-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-08-24",
+      "Series": "Meizu U Series"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "141.9 mm H, 69.6 mm W, 7.9 mm D",
+      "Weight": "139 g",
+      "Other": "Dual SIM support with dual standby mode"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS, based on Android 6.0 Marshmallow",
+      "Chipset": "MediaTek MT6750",
+      "CPU": "Octa-core (4x1.5GHz Cortex-A53, 4x1.0GHz Cortex-A53)",
+      "GPU": "ARM Mali-T860 MP2"
+    },
+    "Memory": {
+      "RAM": "2 or 3 GB LPDDR3",
+      "Storage": "16 or 32 GB flash memory",
+      "Card slot": "microSD slot (up to 128 GB)"
+    },
+    "Display": {
+      "Display": "5-inch diagonal , 720x1280 px (296 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13.0 MP, PDAF autofocus, ƒ/2.2 aperture, LED flash, 1080p30 recording",
+      "Front camera": "5.0 MP, ƒ/2.0 aperture"
+    },
+    "Battery": {
+      "Battery": "2760 mAh Li-Ion rechargeable battery, not replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.1 with BLE, Dual-band WiFi (802.11 a/b/g/n/ac)"
+    }
+  },
+  "key": {
+    "chipset": "MediaTek MT6750",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2760,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 139,
+    "thickness_mm": 7.9,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu U10",
+      "url": "https://en.wikipedia.org/wiki/Meizu_U10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu U10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu U10",
+    "revid": 1361475988
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

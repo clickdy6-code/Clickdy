@@ -1,0 +1,71 @@
+{
+  "slug": "alcatel-one-touch-808",
+  "brand": "Alcatel",
+  "name": "One Touch 808",
+  "status": "published",
+  "announced": "2010-02-11",
+  "released": "2010-02-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-02-11"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800 (OT-808) / GSM 850 / 1900 (OT-808A)",
+      "SIM": "Mini SIM"
+    },
+    "Body": {
+      "Form factor": "Clamshell / QWERTY flip phone",
+      "Dimensions": "70.6 mm H , 70.6 mm W , 20.7 mm D",
+      "Weight": "113 g"
+    },
+    "Platform": {
+      "Operating system": "Alcatel Proprietary (MediaTek MAUI / Nucleus RTOS)",
+      "Chipset": "MediaTek MT6235BSA",
+      "CPU": "208 MHz ARM926EJ-S"
+    },
+    "Memory": {
+      "RAM": "64 MB LPDDR",
+      "Storage": "80 MB",
+      "Card slot": "microSDHC, up to 8GB"
+    },
+    "Display": {
+      "Display": "Primary: 2.4-inch TFT, 320 x 240 pixels (4:3 ratio, ~167 ppi), Secondary: 1.1-inch monochrome OLED, 128 x 36 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, fixed focus"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 850 mAh",
+      "Charging": "Mini USB / microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "MediaTek MT6235BSA",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 850,
+    "five_g": false,
+    "weight_g": 113,
+    "thickness_mm": 20.7,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Alcatel One Touch 808",
+      "url": "https://en.wikipedia.org/wiki/Alcatel_One_Touch_808"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Alcatel One Touch 808\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Alcatel One Touch 808",
+    "revid": 1379759708
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

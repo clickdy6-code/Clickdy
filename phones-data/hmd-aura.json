@@ -1,0 +1,93 @@
+{
+  "slug": "hmd-aura",
+  "brand": "HMD",
+  "name": "Aura",
+  "status": "published",
+  "announced": "2024-05-23",
+  "released": "2024-05-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-05-23",
+      "Predecessor": "Nokia C22",
+      "Successor": "HMD Aura 2"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Weight": "175 g"
+    },
+    "Platform": {
+      "Operating system": "Android 13",
+      "Chipset": "UNISOC SC9863A1 (22 nm)",
+      "CPU": "Octa-core (4×1.6 GHz Cortex-A55 & 4×1.2 GHz Cortex-A55)",
+      "GPU": "IMG8322"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "64/128 GB",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.56\" IPS LCD, HD+ (720 × 1612 px), 60 Hz, 480 nits (typ)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (wide), auxiliary lens",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "Mono"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0 (OTG), Bluetooth 4.2, Wi-Fi 802.11 b/g/n, GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.56,
+    "display_type": "IPS LCD",
+    "refresh_hz": 60,
+    "peak_nits": 480,
+    "chipset": "UNISOC SC9863A1",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 13",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 175,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HMD Aura",
+      "url": "https://en.wikipedia.org/wiki/HMD_Aura"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HMD Aura\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HMD Aura",
+    "revid": 1364130248
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

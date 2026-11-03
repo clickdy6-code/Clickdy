@@ -1,0 +1,82 @@
+{
+  "slug": "motorola-droid",
+  "brand": "Motorola",
+  "name": "Droid",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Motorola-milestone-wikipedia.png/500px-Motorola-milestone-wikipedia.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Motorola-milestone-wikipedia.png/250px-Motorola-milestone-wikipedia.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid",
+      "credit": "Shritwod, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola-milestone-wikipedia.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Droid",
+      "Successor": "Droid 2"
+    },
+    "Network": {
+      "Technology": "US version: dual band CDMA2000/EV-DO Rev. A 800/1900 MHz, European version quad band GSM, UMTS @ 900/2100MHz, N.A. GSM version quad band GSM, UMTS @ 850/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate slider smartphone",
+      "Dimensions": "115.8 mm H, 60 mm W, 13.7 mm D",
+      "Weight": "169 g",
+      "Other": "430MHz TMS320 C64x DSP (digital signal processor) + ISP (image signal processor)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.0, 2.0.1 with OTA update (Droid, Milestone) December 2009, 2.1 with OTA update (Droid, Milestone) March 2010, 2.2 with OTA update September 2010, 2.2.1 (FRG83D) 6 December 2010, 2.2.2 (FRG83G) 14 March 2011, 2.2.3 (FRK76) 21 November 2011, 2.3–4.1.1 via unofficial ROMs",
+      "Chipset": "TI OMAP 3430",
+      "CPU": "ARM Cortex-A8 600 MHz underclocked to 550 MHz",
+      "GPU": "PowerVR SGX 530"
+    },
+    "Memory": {
+      "RAM": "256 MB Mobile DDR SDRAM",
+      "Storage": "512 MB flash memory",
+      "Card slot": "16 GB Class2 microSDHC included (8 GB Milestone); expandable up to 64 GB"
+    },
+    "Display": {
+      "Display": "854 × 480 px FWVGA, (0.41 megapixels) TFT LCD, 3.7 in, 16:9 aspect ratio, 265 pixels per inch (ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel with video (720 × 480 px at 30 fps or higher), geotagging, dual LED flash, autofocus"
+    },
+    "Battery": {
+      "Battery": "Rated 1390 mAh minimum 1420 mAh nominal, Internal rechargeable removable lithium-ion polymer battery, talk time 385 minutes, standby time: 270 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm CTIA, USB Micro-B, Wi-Fi (802.11b/g), Bluetooth 2.1+EDR, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "TFT",
+    "chipset": "TI OMAP 3430",
+    "battery_mah": 1390,
+    "os": "Android 2.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 169,
+    "thickness_mm": 13.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Droid",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Droid"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Droid\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Droid",
+    "revid": 1378711153
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

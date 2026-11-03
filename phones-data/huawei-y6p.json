@@ -1,0 +1,84 @@
+{
+  "slug": "huawei-y6p",
+  "brand": "Huawei",
+  "name": "Y6p",
+  "status": "published",
+  "announced": "2020-05-06",
+  "released": "2020-05-06",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-05-06",
+      "Series": "Y series",
+      "Predecessor": "Huawei Y6s",
+      "Successor": "Huawei Nova Y60"
+    },
+    "Network": {
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.1 x 74.1 x 9 mm",
+      "Weight": "185 g"
+    },
+    "Platform": {
+      "Operating system": "EMUI 10.1 Based on Android 10",
+      "Chipset": "Mediatek Helio P22",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A53 & 4x1.5 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "3GB RAM, 4GB RAM (region dependent)",
+      "Storage": "64GB ROM",
+      "Card slot": "microSDXC (Up to 512gb expandable storage)"
+    },
+    "Display": {
+      "Display": "6.3 in 720x1600 IPS LCD, 278ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Triple Camera: 13 MP, f/1.8, (wide) + PDAF 5 MP, f/2.2, 120˚ (ultrawide)+ 2 MP, f/2.4 (depth)",
+      "Front camera": "8 MP, f/2.0 (wide)"
+    },
+    "Battery": {
+      "Battery": "5000mAh",
+      "Charging": "10W Standard Charging"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek Helio P22",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "weight_g": 185,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y6p",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y6p"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y6p\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y6p",
+    "revid": 1382381006
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

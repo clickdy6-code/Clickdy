@@ -1,0 +1,70 @@
+{
+  "slug": "htc-s730",
+  "brand": "HTC",
+  "name": "S730",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/HTC_S730.JPG/500px-HTC_S730.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/HTC_S730.JPG/250px-HTC_S730.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC S730",
+      "credit": "ChickenFalls, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_S730.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "HSDPA (3.5G), Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "105.8x51x19.4 mm",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Microsoft Windows Mobile 6.0 Standard",
+      "CPU": "Qualcomm MSM7200, 400 MHz processor"
+    },
+    "Memory": {
+      "RAM": "64 MB Ram and 256MB ROM",
+      "Card slot": "MicroSD, microSDHC"
+    },
+    "Display": {
+      "Display": "2.4 in, 240x320 px"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels (Back)",
+      "Front camera": "CIF video call (Front)"
+    },
+    "Battery": {
+      "Battery": "lithium polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0, Wi-Fi b/g"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 150
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC S730",
+      "url": "https://en.wikipedia.org/wiki/HTC_S730"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC S730\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC S730",
+    "revid": 1370162401
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

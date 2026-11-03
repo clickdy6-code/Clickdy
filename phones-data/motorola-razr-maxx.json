@@ -1,0 +1,70 @@
+{
+  "slug": "motorola-razr-maxx",
+  "brand": "Motorola",
+  "name": "Razr Maxx",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/MOTORAZR_maxx_Ve.JPG/500px-MOTORAZR_maxx_Ve.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/MOTORAZR_maxx_Ve.JPG/250px-MOTORAZR_maxx_Ve.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Razr Maxx",
+      "credit": "Elipongo, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MOTORAZR_maxx_Ve.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "maxx V6:GSM 900/1800/1900 MHz, UMTS 2100 with HSDPA, maxx Ve:CDMA2000 1x 800/1900 MHz with EV-DO"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "53x104.5x15.5 mm",
+      "Weight": "107 g",
+      "Other": "External touch music controls, Ringtones: Polyphonic, MP3"
+    },
+    "Platform": {
+      "GPU": "NVIDIA GoForce 4800 GPU Processor"
+    },
+    "Memory": {
+      "RAM": "50 MB"
+    },
+    "Display": {
+      "Display": "QVGA, 2.2 inch, 262,144 Colors, 320x240"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels 1600x1200 (maxx Ve has Auto Focus)",
+      "Front camera": "0.3 Megapixels (VGA) used for video calling (maxx Ve is not supported)"
+    },
+    "Battery": {
+      "Battery": "880 mAh (For United States), 900 mAh (For Europe, Australia and Asia markets)"
+    },
+    "Connectivity": {
+      "Connectivity": "Mini USB 2.0, Bluetooth 2.0 + EDR"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "battery_mah": 880,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 107
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Razr Maxx",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Razr_Maxx"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Razr Maxx\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Razr Maxx",
+    "revid": 1361476641
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

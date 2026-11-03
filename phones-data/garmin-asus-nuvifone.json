@@ -1,0 +1,56 @@
+{
+  "slug": "garmin-asus-nuvifone",
+  "brand": "Garmin-ASUS",
+  "name": "Nüvifone",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Garmin_nuvifone_g60.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Garmin_nuvifone_g60.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Garmin-ASUS Nüvifone",
+      "credit": "Jontintinjordan, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Garmin_nuvifone_g60.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "Quad-band GSM, GPRS/EDGE, HSDPA"
+    },
+    "Body": {
+      "Form factor": "Candybar Smartphone"
+    },
+    "Display": {
+      "Display": "3.5 in, color LCD"
+    },
+    "Sound": {
+      "Sound": "MP3 and MPEG4/AAC"
+    },
+    "Connectivity": {
+      "Connectivity": "WiFi, Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "LCD",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Garmin-ASUS Nüvifone",
+      "url": "https://en.wikipedia.org/wiki/Garmin-ASUS_N%C3%BCvifone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Garmin-ASUS Nüvifone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Garmin-ASUS Nüvifone",
+    "revid": 1374925356
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

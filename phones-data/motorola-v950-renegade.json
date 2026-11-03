@@ -1,0 +1,51 @@
+{
+  "slug": "motorola-v950-renegade",
+  "brand": "Motorola",
+  "name": "V950 Renegade",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA (Sprint PCS)"
+    },
+    "Body": {
+      "Form factor": "Clamshell (flip)",
+      "Dimensions": "53 x 104 x 17 mm",
+      "Weight": "118 g"
+    },
+    "Memory": {
+      "RAM": "MicroSD up to 8GB, and internal memory"
+    },
+    "Display": {
+      "Display": "2.2\" 240x320 internal, 1.6\" 120x160 external"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, Micro USB"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "ram_gb": [
+      8
+    ],
+    "nfc": false,
+    "weight_g": 118
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola V950 Renegade",
+      "url": "https://en.wikipedia.org/wiki/Motorola_V950_Renegade"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola V950 Renegade\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola V950 Renegade",
+    "revid": 1361476746
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

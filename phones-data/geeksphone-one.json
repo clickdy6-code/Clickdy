@@ -1,0 +1,57 @@
+{
+  "slug": "geeksphone-one",
+  "brand": "GeeksPhone",
+  "name": "One",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "110 × 55 × 14 (mm)"
+    },
+    "Platform": {
+      "Operating system": "Android 1.6 “Donut”",
+      "CPU": "528 MHz ARM11 (ARM1136EJ-S) Jazelle series"
+    },
+    "Memory": {
+      "RAM": "256 MB mDDR, 512 MB NAND flash"
+    },
+    "Display": {
+      "Display": "3.2 in. WQVGA (240×400) TFT"
+    },
+    "Cameras": {
+      "Rear camera": "3.1 Megapixels with autofocus"
+    },
+    "Battery": {
+      "Battery": "1110 mAh 3.7V Li-Po battery"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM 850/900/1800/1900, Bluetooth 2.0, GPRS, HSDPA, AGPS, WiFi (802.11 b/g), USB"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "battery_mah": 1110,
+    "os": "Android 1.6",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: GeeksPhone One",
+      "url": "https://en.wikipedia.org/wiki/GeeksPhone_One"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"GeeksPhone One\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "GeeksPhone One",
+    "revid": 1362865593
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

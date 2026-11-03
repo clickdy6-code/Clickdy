@@ -1,0 +1,94 @@
+{
+  "slug": "lenovo-moto-e14",
+  "brand": "Lenovo",
+  "name": "Moto E14",
+  "status": "published",
+  "announced": "2024-06-17",
+  "released": "2024-06-17",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-06-17",
+      "Series": "Moto E series",
+      "Predecessor": "Moto E13",
+      "Successor": "Moto E15"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Dimensions": "163.5 × 74.5 × 8 mm",
+      "Weight": "178.8 g (6.31 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 14 (Go edition)",
+      "Chipset": "Unisoc T606 (12 nm)",
+      "CPU": "Octa-core (2x1.6 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "RAM": "2 GB or 4 GB RAM",
+      "Storage": "64 GB UFS 2.2",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.56 in (167 mm) IPS LCD, 90Hz, Corning Gorilla Glass 3, 720 × 1612 pixels, 20:9 ratio (~269 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2, (wide), PDAF, LED flash, HDR, 1080p@30fps video",
+      "Front camera": "5 MP, f/2.2, (wide), HDR, 1080p@30fps video"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "5,000 mAh Li-Po (non-removable)",
+      "Charging": "15W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Bluetooth 5.0, A2DP, LE, GPS, GALILEO, GLONASS, USB Type-C 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.56,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "Unisoc T606",
+    "ram_gb": [
+      2,
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 15,
+    "os": "Android 14",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 178.8,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto E14",
+      "url": "https://en.wikipedia.org/wiki/Moto_E14"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto E14\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto E14",
+    "revid": 1368313948
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

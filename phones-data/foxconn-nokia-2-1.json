@@ -1,0 +1,93 @@
+{
+  "slug": "foxconn-nokia-2-1",
+  "brand": "Foxconn",
+  "name": "Nokia 2.1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_2.1_%283%29.jpg/500px-Nokia_2.1_%283%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_2.1_%283%29.jpg/250px-Nokia_2.1_%283%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 2.1",
+      "credit": "Bindydad123, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2.1_(3).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-08",
+      "Predecessor": "Nokia 2",
+      "Successor": "Nokia 2.2"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "153.6×77.6×9.7 mm",
+      "Weight": "174 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\", Current: Android 10, (Android Go)",
+      "Chipset": "Qualcomm Snapdragon 425 (28nm)",
+      "CPU": "Quad-core ARM Cortex-A53 @ 1.4 GHz",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "8 GB",
+      "Card slot": "microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5\" (13.97cm) 16:9 720x1280p IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Single 8 MP with flash.",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "Stereo Speakers + 3.5mm Headphone Jack"
+    },
+    "Battery": {
+      "Battery": "4000 mAH Non-removable Li-ion, charges at 10W"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5mm Headphone Jack, MicroSD slot, Bluetooth 4.2, GPS, FM Radio & Wifi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 425",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4000,
+    "os": "Android 8.1",
+    "nfc": false,
+    "weight_g": 174,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2.1",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2.1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2.1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2.1",
+    "revid": 1361477061
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

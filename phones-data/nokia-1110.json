@@ -1,0 +1,65 @@
+{
+  "slug": "nokia-1110",
+  "brand": "Nokia",
+  "name": "1110",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nokia_1110_DG_01.jpg/500px-Nokia_1110_DG_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nokia_1110_DG_01.jpg/250px-Nokia_1110_DG_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 1110",
+      "credit": "DogGunn at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_1110_DG_01.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 1100 (1110), Nokia 1101 (1110i)",
+      "Successor": "Nokia 1200"
+    },
+    "Network": {
+      "Technology": "2G Network GSM 900 / 1800 , US version - GSM 850 / 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "104 x 44 x 17 mm",
+      "Weight": "80 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30"
+    },
+    "Display": {
+      "Display": "96x68 pixels, monochrome"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-5CA Li-Ion 700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Cellular network GSM"
+    }
+  },
+  "key": {
+    "battery_mah": 700,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 80
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1110",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1110"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1110\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1110",
+    "revid": 1382686645
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

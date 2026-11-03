@@ -1,0 +1,61 @@
+{
+  "slug": "kyocera-6035",
+  "brand": "Kyocera",
+  "name": "6035",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Kyocera6035.jpg/500px-Kyocera6035.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Kyocera6035.jpg/250px-Kyocera6035.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Kyocera 6035",
+      "credit": "KeithTyler at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kyocera6035.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Qualcomm pdQ",
+      "Successor": "Kyocera 7135"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "142 mm H , 64 mm W , 22 mm D",
+      "Weight": "208 g"
+    },
+    "Platform": {
+      "Operating system": "Palm OS 3.5.2",
+      "CPU": "20 MHz DragonBall EZ"
+    },
+    "Memory": {
+      "RAM": "8 MB"
+    },
+    "Display": {
+      "Display": "160 x 160 px, reverse backlight"
+    },
+    "Battery": {
+      "Battery": "Lithium-ion"
+    }
+  },
+  "key": {
+    "weight_g": 208,
+    "thickness_mm": 22
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera 6035",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_6035"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera 6035\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera 6035",
+    "revid": 1361474791
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

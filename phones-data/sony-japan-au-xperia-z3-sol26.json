@@ -1,0 +1,77 @@
+{
+  "slug": "sony-japan-au-xperia-z3-sol26",
+  "brand": "Sony   Japan",
+  "name": "Au Xperia Z3 SOL26",
+  "status": "published",
+  "announced": "2014-10-23",
+  "released": "2014-10-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-10-23"
+    },
+    "Network": {
+      "Technology": "3G: CDMA2000 1xMC (au 3G) (New 800 MHz/2 GHz), W-CDMA (850 MHz/2 GHz), 2G: GSM (1.9 GHz/1.8 GHz/900 MHz), 3.9G/4G: FDD-LTE / LTE-A (au 4G LTE / au 4G LTE CA) (New 800 MHz/2 GHz), WiMAX 2.1 (WiMAX 2+), 3.5G: CDMA2000 1xEV-DO MC-Rev.A (WIN HIGH SPEED), CDMA2000 1xEV-DO Rev.A (au 3G), CDMA2000 1xEV-DO Rel.0 (au 3G), UMTS (W-CDMA), 3G: CDMA2000 1xMC (au 3G), Other: Wireless LAN (IEEE 802.11a/b/g/n/ac 5 GHz/2.4 GHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146 mm × 72 mm × 7.3 mm",
+      "Weight": "Approx. 152 g",
+      "Other": "Tethering, Bluetooth 4.0"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.4, upgradable to Android 5.0.2",
+      "CPU": "2.5 GHz quad-core Qualcomm Snapdragon 801 (MSM8974AC)"
+    },
+    "Memory": {
+      "RAM": "32 GB storage, 3 GB RAM",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 128 GB) (officially supported by KDDI)"
+    },
+    "Display": {
+      "Display": "Touch pad: FeliCa / NFC , Display: 5.2-inch IPS Triluminos Display for mobile, FHD (1920 × 1080 pixels), approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 20.7 megapixels, backside-illuminated stacked CMOS image sensor (Exmor RS for mobile), face detection autofocus, 4K UHD video recording, image stabilization, Timeshift video, AR effect",
+      "Front camera": "Approx. 2.2 megapixels, CMOS image sensor (Exmor R for mobile)"
+    },
+    "Battery": {
+      "Battery": "Capacity: 3,100 mAh (non-removable), Talk time: Approx. 1,370 minutes, Stand by time: Approx. 770 hours (3G), Approx. 670 hours (LTE/WiMAX 2+)",
+      "Charging": "Time: Approx. 150 minutes"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB, MHL 3.0, Headset jack"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "ram_gb": [
+      3,
+      32
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 3100,
+    "os": "Android 4.4",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 152,
+    "thickness_mm": 7.3,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Au Xperia Z3 SOL26",
+      "url": "https://en.wikipedia.org/wiki/Au_Xperia_Z3_SOL26"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Au Xperia Z3 SOL26\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Au Xperia Z3 SOL26",
+    "revid": 1363452001
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

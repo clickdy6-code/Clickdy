@@ -1,0 +1,95 @@
+{
+  "slug": "iphone-8",
+  "brand": "IPhone",
+  "name": "8",
+  "status": "published",
+  "announced": "2017-09-22",
+  "released": "2017-09-22",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/IPhone_8_vector.svg/500px-IPhone_8_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/IPhone_8_vector.svg/250px-IPhone_8_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 8",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_8_vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-09-22",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 7 and iPhone 7 Plus",
+      "Successor": "iPhone XR"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA2000, 3G, EV-DO, HSPA+, LTE, LTE Advanced"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "8: 2 138.4xx67.3xx7.3, 8 Plus: 2 158.4xx78.1xx7.5",
+      "Weight": "8: 148 g, 8 Plus: 202 g",
+      "Other": "FaceTime audio or video, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 11",
+      "Chipset": "Apple A11 Bionic",
+      "CPU": "4 cores at 1.42 GHz: Mistral & 2 cores at 2.39 GHz: Monsoon hexa-core 64-bit",
+      "GPU": "Apple-designed 3 core, up to 409 GFLOPS"
+    },
+    "Memory": {
+      "RAM": "8: 2 GB LPDDR4X RAM, 8 Plus: 3 GB LPDDR4X RAM",
+      "Storage": "64, 128, or 256 GB NVMe"
+    },
+    "Display": {
+      "Display": "8: 4.7 in Retina HD: LED-backlit IPS LCD, 1334×750 px (326 ppi, aspect ratio 16:9), 8 Plus: 5.5 in Retina HD: LED-backlit IPS LCD, 1920×1080 px (401 ppi, aspect ratio 16:9), All models: 625 cd/m² max. brightness (typical), with dual-ion exchange-strengthened glass and 3D Touch"
+    },
+    "Cameras": {
+      "Rear camera": "8: 12 MP with six-element lens, quad-LED \"True Tone\" flash with Slow Sync, autofocus, IR filter, Burst mode, f/1.8 aperture, 4K video recording at 24, 30, or 60 fps or 1080p at 30 or 60 fps, slow-motion video (1080p at 120 or 240 fps), timelapse with stabilization, panorama, face detection, digital image stabilization, optical image stabilization, 8 Plus: In addition to above: A telephoto lens with 2× optical zoom / 10× digital zoom, f/2.8 aperture, Portrait Mode, Portrait Lighting (beta)",
+      "Front camera": "7 MP, f/2.2 aperture, burst mode, exposure control, face detection, auto-HDR, auto image stabilization, Retina flash, 1080p HD video recording"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "8: 3.82 V 6.96 W·h (1821 mA·h) Li-ion, 8 Plus: 3.82 V 10.28 W·h (2691 mA·h) Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "Retina",
+    "chipset": "Apple A11 Bionic",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 7,
+    "os": "iOS 11",
+    "five_g": false,
+    "weight_g": 148,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 8",
+      "url": "https://en.wikipedia.org/wiki/IPhone_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 8",
+    "revid": 1382902212
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

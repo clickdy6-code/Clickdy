@@ -1,0 +1,69 @@
+{
+  "slug": "3-skypephone-s2",
+  "brand": "3",
+  "name": "Skypephone S2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Skypephone-S2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Skypephone-S2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "3 Skypephone S2",
+      "credit": "Parzival, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Skypephone-S2.png",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "3 Skypephone"
+    },
+    "Network": {
+      "Technology": "UMTS 2100, GSM 900, GSM 1800, PCS1900, GSM 1900, HSDPA, 3G"
+    },
+    "Body": {
+      "Dimensions": "100x44x13.6 mm",
+      "Weight": "95 g"
+    },
+    "Platform": {
+      "Operating system": "Qualcomm's BREW"
+    },
+    "Memory": {
+      "RAM": "50MB internal Expandable to 4 GB microSD"
+    },
+    "Display": {
+      "Display": "2.2in QVGA"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Megapixels"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 + EDR, USB (with Mass Storage Mode and Modem dongle support)"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "ram_gb": [
+      4
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 95
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: 3 Skypephone S2",
+      "url": "https://en.wikipedia.org/wiki/3_Skypephone_S2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"3 Skypephone S2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "3 Skypephone S2",
+    "revid": 1361472481
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

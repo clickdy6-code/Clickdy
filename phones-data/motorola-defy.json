@@ -1,0 +1,76 @@
+{
+  "slug": "motorola-defy",
+  "brand": "Motorola",
+  "name": "Defy",
+  "status": "published",
+  "announced": "2010-11-03",
+  "released": "2010-11-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Motorola_Defy_crop_2.jpg/500px-Motorola_Defy_crop_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Motorola_Defy_crop_2.jpg/250px-Motorola_Defy_crop_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Defy",
+      "credit": "Motorola_Defy_crop.jpg: *Motorola_Defy.jpg: Dr Doofenshmirtz\nderivative work: Ro, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Defy_crop_2.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-11-03",
+      "Successor": "Motorola Defy Plus, Motorola Defy (2021)"
+    },
+    "Network": {
+      "Technology": "Quad band GSM with GPRS/EDGE (850/900/1800/1900 MHz in all regions), Dual band UMTS with HSPA+/HSUPA (850/1700/2100 MHz in the USA, 900/2100 MHz in Europe, and 850/2100 MHz in Australia, New Zealand and Thailand)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "4.21 in H, 2.32 in W, 0.53 in D",
+      "Weight": "118.0 g",
+      "Other": "Built-in FM radio (requires headset/headphones cable to be plugged into the audio jack to function, as this cable serves as antenna)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1-update1, 2.2.1, 2.2.2, 2.3.4 (beta) with enhanced Motoblur; 4.0.3 Ice Cream Sandwich (CyanogenMod) & MIUI; 4.1.2 ,4.2.1 Jelly Bean (CyanogenMod); 4.4 KitKat(CyanogenMod)",
+      "CPU": "800 MHz TI OMAP3610-800 (or OMAP3630-800)",
+      "GPU": "PowerVR SGX 530"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "2 GB, internal storage (approx. 1.2 GB available)",
+      "Card slot": "microSDHC supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.7 in S-TFT FWVGA 854×480 px using Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel (2,560 × 1,920), LED flash"
+    },
+    "Battery": {
+      "Battery": "1,540 mAh, internal rechargeable Li-ion (replaceable)"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "TFT",
+    "battery_mah": 1540,
+    "os": "Android 2.1",
+    "five_g": false,
+    "weight_g": 118,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Defy",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Defy"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Defy\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Defy",
+    "revid": 1361476505
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

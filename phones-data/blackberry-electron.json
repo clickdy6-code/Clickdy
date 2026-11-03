@@ -1,0 +1,54 @@
+{
+  "slug": "blackberry-electron",
+  "brand": "BlackBerry",
+  "name": "Electron",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA, GSM"
+    },
+    "Body": {
+      "Dimensions": "110 x 69.5 x 19.5 mm",
+      "Weight": "134 g"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry OS"
+    },
+    "Memory": {
+      "RAM": "64MB"
+    },
+    "Display": {
+      "Display": "65K colors, 320 x 240 pixels, 2.6 in"
+    },
+    "Battery": {
+      "Battery": "Talk time Up to 4 h, Stand-by Up to 450 h"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB (with Mass Storage Mode support)"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 134
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Electron",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Electron"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Electron\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Electron",
+    "revid": 1361472709
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

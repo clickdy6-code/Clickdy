@@ -1,0 +1,72 @@
+{
+  "slug": "lg-env-touch",
+  "brand": "LG",
+  "name": "enV Touch",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/LG_enV_touch.jpg/500px-LG_enV_touch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/LG_enV_touch.jpg/250px-LG_enV_touch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG enV Touch",
+      "credit": "Dandaman32 (talk), Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_enV_touch.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "LG Voyager (VX10000)",
+      "Successor": "LG Genesis"
+    },
+    "Network": {
+      "Technology": "EVDO, 1X, 3G connection"
+    },
+    "Body": {
+      "Form factor": "Clamshell (Candybar/flip)",
+      "Dimensions": "4.52 x 2.16 x 0.66 inches (115 x 55 x 17 mm)",
+      "Weight": "140g (4.92 oz)"
+    },
+    "Platform": {
+      "Operating system": "BREW"
+    },
+    "Memory": {
+      "RAM": "250 MB",
+      "Card slot": "up to 16 GB (microSD)"
+    },
+    "Display": {
+      "Display": "LCD 800 x 480"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-megapixel"
+    },
+    "Sound": {
+      "Sound": "Stereo, VCast Video/Music, VZ Navigator, Visual Voicemail (VX10KV09 and above Only)"
+    },
+    "Battery": {
+      "Battery": "950 mAh"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 950,
+    "five_g": false,
+    "weight_g": 140
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG enV Touch",
+      "url": "https://en.wikipedia.org/wiki/LG_enV_Touch"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG enV Touch\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG enV Touch",
+    "revid": 1364495503
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "sharp-aquos-phone-serie-isw16sh",
+  "brand": "Sharp",
+  "name": "Aquos Phone Serie ISW16SH",
+  "status": "published",
+  "announced": "2012-06-28",
+  "released": "2012-06-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-06-28"
+    },
+    "Network": {
+      "Technology": "3G: CDMA2000 1xMC (CDMA 1X WIN) (New 800 MHz/2 GHz), W-CDMA (850 MHz/2 GHz), 2G: GSM (1.9 GHz/1.8 GHz/900 MHz)",
+      "SIM": "microSIM (au IC card)"
+    },
+    "Body": {
+      "Form factor": "Bar (Waterproof & Dustproof)",
+      "Dimensions": "126 mm H , 66 mm W , 11.2 mm D",
+      "Weight": "136 g (approx.)"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.4",
+      "CPU": "1.5 GHz Qualcomm Snapdragon S4 (MSM8660A)"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB ROM (Internal Storage: 16 GB)",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 64 GB) ※ Figures officially supported by KDDI"
+    },
+    "Display": {
+      "Display": "4.6-inch high-transmittance CG Silicon LCD touchscreen, HD (720 × 1280 pixels), approx. 16,777,216 colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 12.11 megapixels, CMOS, autofocus, Full HD video recording (1080p)",
+      "Front camera": "Approx. 310,000 pixels, CMOS"
+    },
+    "Battery": {
+      "Battery": "1,800 mAh, Stand by: 360 hours (within Japan) + Combination of moving and stationary , Talk: 510 minutes (within Japan)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.9G: +WiMAX (WiMAX IEEE 802.16e-2005), 3G: CDMA2000 1xEV-DO MC-Rev.A (WIN HIGH SPEED), UMTS (W-CDMA), Other: Wireless LAN (IEEE 802.11a/b/g/n 5 GHz/2.4 GHz)"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1800,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 136,
+    "thickness_mm": 11.2,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Aquos Phone Serie ISW16SH",
+      "url": "https://en.wikipedia.org/wiki/Aquos_Phone_Serie_ISW16SH"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Aquos Phone Serie ISW16SH\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Aquos Phone Serie ISW16SH",
+    "revid": 1373901512
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

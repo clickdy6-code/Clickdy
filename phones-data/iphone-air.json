@@ -1,0 +1,102 @@
+{
+  "slug": "iphone-air",
+  "brand": "IPhone",
+  "name": "Air",
+  "status": "published",
+  "announced": "2025-09-19",
+  "released": "2025-09-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/IPhone_Air_Vector.svg/500px-IPhone_Air_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/IPhone_Air_Vector.svg/250px-IPhone_Air_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone Air",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_Air_Vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-09-19",
+      "Series": "iPhone"
+    },
+    "Network": {
+      "Technology": "2G GSM/EDGE, 3G UMTS/HSPA+, 4G LTE, 5G NR/5G-A",
+      "SIM": "Dual eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "2 156.2xx74.7xx5.64",
+      "Weight": "165 g",
+      "Other": "Emergency SOS, Messages and Find My via satellite, FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone (if supported by the carrier)"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 26",
+      "Chipset": "Apple A19 Pro"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB, 512 GB or 1 TB NVMe"
+    },
+    "Display": {
+      "Display": "6.5 in OLED, resolution at 460 ppi, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.6, 26 mm (wide)",
+      "Front camera": "18 MP, f/1.9 (wide)"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "12.263Wh (3149mAh) @ 3.894V",
+      "Charging": "MagSafe (wireless charger), MagSafe and Qi 2 wireless, USB-C fast-charge"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 (802.11a/b/g/n/ac/ax/be) tri-band, Bluetooth 6.0 (A2DP, LE) , Ultra-wideband (UWB) , Thread, NFC (reader mode, Express Cards), USB-C: USB 2.0 480 Mbit/s, Dual-frequency GPS (L1, L5), GLONASS, Galileo, QZSS, BeiDou, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Apple A19 Pro",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 48,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 18,
+    "battery_mah": 3149,
+    "os": "iOS 26",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 165,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone Air",
+      "url": "https://en.wikipedia.org/wiki/IPhone_Air"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone Air\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone Air",
+    "revid": 1380313691
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

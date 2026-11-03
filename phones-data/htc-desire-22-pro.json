@@ -1,0 +1,69 @@
+{
+  "slug": "htc-desire-22-pro",
+  "brand": "HTC",
+  "name": "Desire 22 Pro",
+  "status": "published",
+  "announced": "2022-07-01",
+  "released": "2022-07-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-07-01",
+      "Series": "Desire",
+      "Predecessor": "HTC Desire 21 Pro 5G"
+    },
+    "Network": {
+      "Technology": "3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "166.3 mm H , 76.9 mm W , 9.4 mm D",
+      "Weight": "205.5 g"
+    },
+    "Platform": {
+      "CPU": "Snapdragon 695",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "8 GB",
+      "Storage": "128 GB",
+      "Card slot": "yes"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "4250 mAh",
+      "Charging": "Fast charging 18W , Wireless charging , Reverse charging"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "battery_mah": 4250,
+    "wired_w": 18,
+    "five_g": true,
+    "weight_g": 205.5,
+    "thickness_mm": 9.4,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire 22 Pro",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_22_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire 22 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire 22 Pro",
+    "revid": 1371278869
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

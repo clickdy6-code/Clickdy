@@ -1,0 +1,106 @@
+{
+  "slug": "iphone-13",
+  "brand": "IPhone",
+  "name": "13",
+  "status": "published",
+  "announced": "2021-09-24",
+  "released": "2021-09-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/IPhone_13_vector.svg/500px-IPhone_13_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/IPhone_13_vector.svg/250px-IPhone_13_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 13",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_13_vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-09-24",
+      "Discontinued": "13 Mini:, 13:",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 12 and 12 Mini",
+      "Successor": "iPhone 14 and 14 Plus"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, EVDO, HSPA+, 4G LTE, 5G",
+      "SIM": "nanoSIM and eSIM (eSIM not available on China mainland models, and on Hong Kong and Macau iPhone 13 mini models)Single SIM or Dual SIM in dual stand-by"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "13: H: 146.7 mm, W: 71.5 mm, D: 7.65 mm, 13 Mini:, H: 131.5 mm, W: 64.2 mm, D: 7.65 mm",
+      "Weight": "13: 173-174 g, 13 Mini: 140-141 g",
+      "Other": "FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 15",
+      "Chipset": "A15 Bionic",
+      "CPU": "Hexa-core (2x \"high-performance\" – 3.23 GHz, Avalanche + 4x \"energy-saving\" Blizzard) – 2.02 GHz",
+      "GPU": "Apple-designed 4 core, up to 1.37 TFLOPS"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X",
+      "Storage": "128, 256 or 512 GB NVMe"
+    },
+    "Display": {
+      "Display": "13: 6.1 in diagonal Super Retina XDR OLED, 1170x2532px (460 ppi, 19.5:9 aspect ratio), supplied by LG Display,Samsung Display, and BOE, 13 Mini: 5.4 in diagonal Super Retina XDR OLED, 1080x2340 px (476 ppi, 19.5:9 aspect ratio), supplied by LG Display and Samsung Display"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.6, 26 mm (wide), 1.7 μm, dual pixel PDAF, sensor-shift OIS, 12 MP, f/2.4, 120°, 13 mm (ultrawide), Dual-LED dual-tone flash, HDR (photo/panorama), 4K@24/30/60fps, 1080p@30/60/120/240fps, HDR, Dolby Vision HDR (up to 60fps), stereo sound rec",
+      "Front camera": "12 MP, f/2.2, 23 mm (wide), 1/3.6\", SL 3D, (depth/biometrics sensor), HDR, 4K@24/25/30/60fps, 1080p@30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Spatial Audio, Dolby Atmos, Dolby Audio"
+    },
+    "Battery": {
+      "Battery": "13: 3.84 V 12.41 W·h (3227 mA·h) Li-ion, 13 Mini: 3.88 V 9.34 W·h (2406 mA·h) Li-ion",
+      "Charging": "MagSafe and Qi wireless charging, Lightning fast charging (20W)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6 (802.11ax), Bluetooth 5.0, Ultra-wideband (UWB), GPS, GLONASS, Galileo, QZSS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Super Retina XDR OLED",
+    "chipset": "A15 Bionic",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@24fps",
+    "front_mp": 12,
+    "wired_w": 20,
+    "os": "iOS 15",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 174,
+    "thickness_mm": 7.65,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 13",
+      "url": "https://en.wikipedia.org/wiki/IPhone_13"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 13\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 13",
+    "revid": 1382825084
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

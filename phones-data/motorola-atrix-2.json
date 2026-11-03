@@ -1,0 +1,88 @@
+{
+  "slug": "motorola-atrix-2",
+  "brand": "Motorola",
+  "name": "Atrix 2",
+  "status": "published",
+  "announced": "2011-10-16",
+  "released": "2011-10-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Motorola_Atrix_2.JPG/500px-Motorola_Atrix_2.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Motorola_Atrix_2.JPG/250px-Motorola_Atrix_2.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Atrix 2",
+      "credit": "Someguy432, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Atrix_2.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 16, 2011",
+      "Series": "Atrix",
+      "Predecessor": "Motorola Atrix 4G",
+      "Successor": "Motorola Atrix HD"
+    },
+    "Network": {
+      "Technology": "AT&T"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3 initial release, upgradable to 4.0.4",
+      "Chipset": "TI OMAP4430",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "PowerVR SGX540"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "8 GB",
+      "Card slot": "2 GB, expandable to 32 GB"
+    },
+    "Display": {
+      "Display": "960 × 540"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP (3264x2448) with Flash",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1785 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "HSDPA+, HSUPA, WiFi 802.11b/g/n, Bluetooth 2.1+EDR"
+    }
+  },
+  "key": {
+    "chipset": "TI OMAP4430",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1785,
+    "os": "Android 2.3",
+    "nfc": false,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Atrix 2",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Atrix_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Atrix 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Atrix 2",
+    "revid": 1381871055
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

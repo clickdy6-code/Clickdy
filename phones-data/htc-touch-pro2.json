@@ -1,0 +1,76 @@
+{
+  "slug": "htc-touch-pro2",
+  "brand": "HTC",
+  "name": "Touch Pro2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Htc_Touch_Pro2_Georgy.JPG/500px-Htc_Touch_Pro2_Georgy.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Htc_Touch_Pro2_Georgy.JPG/250px-Htc_Touch_Pro2_Georgy.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Touch Pro2",
+      "credit": "Georgy90, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htc_Touch_Pro2_Georgy.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family",
+      "Predecessor": "HTC Touch Pro",
+      "Successor": "HTC 7 Pro"
+    },
+    "Network": {
+      "Technology": "AT&T Mobility, Sprint Nextel, T-Mobile USA, US Cellular, Verizon Wireless, Unlocked GSM"
+    },
+    "Body": {
+      "Form factor": "Slide",
+      "Dimensions": "116.8 × 58.4 × 17.8 mm (4.6 × 2.3 × 0.7 inches)",
+      "Weight": "175.8 g (6.2 oz) w/ battery",
+      "Other": "Official website"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.5 Professional, Android",
+      "CPU": "Qualcomm MSM7200A ARM11 @ 528 MHz"
+    },
+    "Memory": {
+      "RAM": "288 MB RAM",
+      "Card slot": "microSDHC, up to 32 GB"
+    },
+    "Display": {
+      "Display": "480×800 px (WVGA), 3.6 in"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel AF back"
+    },
+    "Battery": {
+      "Battery": "1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "HTC ExtUSB, Bluetooth 2.1 + EDR, A2DP"
+    }
+  },
+  "key": {
+    "display_in": 3.6,
+    "battery_mah": 1500,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 175.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Touch Pro2",
+      "url": "https://en.wikipedia.org/wiki/HTC_Touch_Pro2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Touch Pro2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Touch Pro2",
+    "revid": 1361473517
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

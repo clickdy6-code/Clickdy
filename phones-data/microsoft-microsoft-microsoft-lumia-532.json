@@ -1,0 +1,88 @@
+{
+  "slug": "microsoft-microsoft-microsoft-lumia-532",
+  "brand": "Microsoft  (Microsoft)",
+  "name": "Microsoft Lumia 532",
+  "status": "published",
+  "announced": "2015-01-14",
+  "released": "2015-01-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Zellos_Lumia_532_A.jpg/500px-Zellos_Lumia_532_A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Zellos_Lumia_532_A.jpg/250px-Zellos_Lumia_532_A.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft  (Microsoft) Microsoft Lumia 532",
+      "credit": "Lumia930uploader, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zellos_Lumia_532_A.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "14 January 2015",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 530",
+      "Successor": "Microsoft Lumia 540"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "118,9 x 65,5 x 11,6 mm",
+      "Weight": "136 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1 Upgradeable to Windows 10 Mobile",
+      "CPU": "1.2 GHz Qualcomm Snapdragon Quad-Core processor",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB internal",
+      "Card slot": "Up to 128GB"
+    },
+    "Display": {
+      "Display": "4-inch TFT LCD, 480x800 resolution (233ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (480p recording)",
+      "Front camera": ".3 MP VGA(480)"
+    },
+    "Battery": {
+      "Battery": "3.8 V 1560 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11b/g/n Wi-Fi, Bluetooth 4.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 3,
+    "battery_mah": 1560,
+    "os": "Windows Phone 8.1",
+    "nfc": false,
+    "weight_g": 136,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Microsoft Lumia 532",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Lumia_532"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Microsoft Lumia 532\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Microsoft Lumia 532",
+    "revid": 1361476099
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

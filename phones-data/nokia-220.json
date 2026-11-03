@@ -1,0 +1,78 @@
+{
+  "slug": "nokia-220",
+  "brand": "Nokia",
+  "name": "220",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nokia_220.png/500px-Nokia_220.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nokia_220.png/250px-Nokia_220.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 220",
+      "credit": "Dienthoaiquangcao84, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_220.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-02",
+      "Discontinued": "Yes",
+      "Successor": "Nokia 220 4G"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800",
+      "SIM": "Mini-SIM (Single or Dual SIM)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "116.4 × 50.3 × 13.2 mm",
+      "Weight": "83.6 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia OS"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "2.4 in (61 mm) TFT LCD, 256K colors, 240 x 320 pixels, 4:3 ratio (~167 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, 1/5.0\", Video: 320p@15fps",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1100 mAh (BL-5C)"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1100,
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 83.6,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 220",
+      "url": "https://en.wikipedia.org/wiki/Nokia_220"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 220\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 220",
+    "revid": 1364129686
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

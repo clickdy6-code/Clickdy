@@ -1,0 +1,80 @@
+{
+  "slug": "aquos-phone-sh-06d",
+  "brand": "Aquos",
+  "name": "Phone SH-06D",
+  "status": "published",
+  "announced": "2012-03-23",
+  "released": "2012-03-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/SH-06D_front.JPG/500px-SH-06D_front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/SH-06D_front.JPG/250px-SH-06D_front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Aquos Phone SH-06D",
+      "credit": "Y k asz, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SH-06D_front.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-03-23",
+      "Series": "Aquos Phone"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3 \"Gingerbread\"",
+      "Chipset": "Texas Instruments OMAP 4460",
+      "CPU": "1.2 GHz dual-core ARM Cortex-A9"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "8 GB",
+      "Card slot": "Up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "4.5 in LCD, 1280x720, autostereoscopic"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP",
+      "Front camera": "3.2 MP"
+    },
+    "Battery": {
+      "Battery": "rechargeable Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "LCD",
+    "chipset": "Texas Instruments OMAP 4460",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 3.2,
+    "os": "Android 2.3",
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Aquos Phone SH-06D",
+      "url": "https://en.wikipedia.org/wiki/Aquos_Phone_SH-06D"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Aquos Phone SH-06D\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Aquos Phone SH-06D",
+    "revid": 1361472570
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

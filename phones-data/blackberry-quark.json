@@ -1,0 +1,66 @@
+{
+  "slug": "blackberry-quark",
+  "brand": "BlackBerry",
+  "name": "Quark",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/58/Blackberry_Quark.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/58/Blackberry_Quark.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "BlackBerry Quark",
+      "credit": "The original uploader was KeithTyler at English Wikipedia., Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Blackberry_Quark.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June, 2003"
+    },
+    "Network": {
+      "Technology": "GSM900 and GSM1900"
+    },
+    "Body": {
+      "Dimensions": "75 x 113 x 20 mm, 3 x 4.4 x 0.8 inches",
+      "Weight": "136 g (including battery)"
+    },
+    "Platform": {
+      "Operating system": "RIM BlackBerry OS 3.x (originally) , RIM Blackberry OS 4.0.2 (latest)"
+    },
+    "Memory": {
+      "RAM": "2 MB SRAM, 16 MB flash"
+    },
+    "Display": {
+      "Display": "160 x 100 (16000 pixels)"
+    },
+    "Battery": {
+      "Battery": "Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB (with Mass Storage Mode support)"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 136,
+    "year": 2003
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Quark",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Quark"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Quark\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Quark",
+    "revid": 1372661500
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

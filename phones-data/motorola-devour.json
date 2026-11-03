@@ -1,0 +1,67 @@
+{
+  "slug": "motorola-devour",
+  "brand": "Motorola",
+  "name": "Devour",
+  "status": "published",
+  "announced": "2010-03-25",
+  "released": "2010-03-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 25, 2010"
+    },
+    "Body": {
+      "Form factor": "Slider smartphone",
+      "Dimensions": "115.5 mm (h), 61 mm (w), 15.4 mm (d)",
+      "Weight": "180 g"
+    },
+    "Platform": {
+      "Operating system": "Android 1.6",
+      "CPU": "600 MHz Qualcomm MSM7627"
+    },
+    "Memory": {
+      "RAM": "512 MB ROM , 256 MB RAM",
+      "Storage": "Removable: 8 GB; expandable up to 32 GB"
+    },
+    "Display": {
+      "Display": "480 x 320 px, 3.1 in, 3:2 aspect ratio, HVGA"
+    },
+    "Cameras": {
+      "Rear camera": "3.0 megapixel with fixed focus"
+    },
+    "Battery": {
+      "Battery": "1400 mAh , Internal rechargeable removable lithium-ion polymer battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Micro-B , Wi-Fi (802.11b/g), Bluetooth 2.1+EDR, US Version: Dual band CDMA2000/EV-DO Rev. A 800 1900"
+    }
+  },
+  "key": {
+    "display_in": 3.1,
+    "storage_gb": [
+      8,
+      32
+    ],
+    "battery_mah": 1400,
+    "os": "Android 1.6",
+    "nfc": false,
+    "weight_g": 180,
+    "thickness_mm": 15.4,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Devour",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Devour"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Devour\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Devour",
+    "revid": 1361476514
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

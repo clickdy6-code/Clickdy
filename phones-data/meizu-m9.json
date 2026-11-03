@@ -1,0 +1,71 @@
+{
+  "slug": "meizu-m9",
+  "brand": "Meizu",
+  "name": "M9",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Meizu M8",
+      "Successor": "Meizu MX"
+    },
+    "Network": {
+      "Technology": "(GSM/GPRS/EDGE): 900 and 1,800 MHz , UMTS: 2,100 MHz , HSPA+: 21 Mbit/s; HSUPA: 5.76 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "113.0 mm H, 59.8 mm W, 11.2 mm D",
+      "Weight": "123 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.5 (Gingerbread), Android 4.0.3 (Flyme OS 1.1.5)",
+      "CPU": "Samsung Hummingbird S5PC110 (ARM Cortex A8), 1 GHz",
+      "GPU": "PowerVR SGX 540"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "8 & 16 GB (NAND flash memory)",
+      "Card slot": "microSD (up to 128 GB)"
+    },
+    "Display": {
+      "Display": "3.54 in 960x640 px"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel; 720p HD video"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1.37 Ah"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11a/b/g/n); Wi-Fi Direct; Bluetooth 2.1+EDR"
+    }
+  },
+  "key": {
+    "display_in": 3.54,
+    "storage_gb": [
+      16
+    ],
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 123,
+    "thickness_mm": 11.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu M9",
+      "url": "https://en.wikipedia.org/wiki/Meizu_M9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu M9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu M9",
+    "revid": 1364776819
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

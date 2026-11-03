@@ -1,0 +1,88 @@
+{
+  "slug": "tcl-alcatel-one-touch-fire",
+  "brand": "TCL",
+  "name": "Alcatel One Touch Fire",
+  "status": "published",
+  "announced": "2013-07-12",
+  "released": "2013-07-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Alcatel_One_Touch_Fire_FirefoxOS.jpg/500px-Alcatel_One_Touch_Fire_FirefoxOS.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Alcatel_One_Touch_Fire_FirefoxOS.jpg/250px-Alcatel_One_Touch_Fire_FirefoxOS.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "TCL Alcatel One Touch Fire",
+      "credit": "Polskiblues, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alcatel_One_Touch_Fire_FirefoxOS.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-07-12",
+      "Series": "One Touch Fire",
+      "Successor": "Alcatel One Touch Fire C"
+    },
+    "Network": {
+      "Technology": "4012A, GSM 850/900/1800/1900, (GPRS, EDGE), UMTS 850/1900/2100, 4012X, UMTS 900/2100, (HSDPA, HSUPA)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115 mm H , 62.3 mm W , 12.2 mm D",
+      "Weight": "108 g"
+    },
+    "Platform": {
+      "Operating system": "Firefox OS",
+      "Chipset": "Snapdragon S1 MSM7227A",
+      "CPU": "ARM Cortex-A5",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "256 MB",
+      "Storage": "512 MB",
+      "Card slot": "2 GB (max. 32 GB)"
+    },
+    "Display": {
+      "Display": "3.5\", 320x480 (HVGA), 165 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP"
+    },
+    "Sound": {
+      "Sound": "Speaker, 3.5mm audio jack, vibration"
+    },
+    "Battery": {
+      "Battery": "1400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB 2.0, Bluetooth 3.0 with A2DP, 802.11 b/g/n WiFi"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "chipset": "Snapdragon S1 MSM7227A",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1400,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 108,
+    "thickness_mm": 12.2,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Alcatel One Touch Fire",
+      "url": "https://en.wikipedia.org/wiki/Alcatel_One_Touch_Fire"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Alcatel One Touch Fire\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Alcatel One Touch Fire",
+    "revid": 1361472561
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "iphone-17-pro",
+  "brand": "IPhone",
+  "name": "17 Pro",
+  "status": "published",
+  "announced": "2025-09-19",
+  "released": "2025-09-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/500px-IPhone_17_Pro_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/250px-IPhone_17_Pro_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 17 Pro",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_17_Pro_Vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-09-19",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 16 Pro and Pro Max",
+      "Successor": "iPhone 18 Pro and Pro Max"
+    },
+    "Network": {
+      "Technology": "2G GSM/EDGE, 3G UMTS/HSPA+, 4G LTE, 5G NR/5G-A",
+      "SIM": "Dual eSIM (US, Guam, US Virgin Islands, Canada, Mexico, Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, United Arab Emirates, Japan), Dual nano-SIM (mainland China), nano-SIM and eSIM (elsewhere)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pro: 2 150.0x71.9x8.75, Pro Max: 2 163.4x78.0x8.75",
+      "Weight": "Pro: 206 g, Pro Max: 233 g",
+      "Other": "Emergency SOS, Messages and Find My via satellite, FaceTime audio or video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone (if supported by the carrier)"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 26",
+      "Chipset": "Apple A19 Pro"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB, 512 GB, 1 TB, 2 TB (Pro Max only)NVMe"
+    },
+    "Display": {
+      "Display": "Pro: 6.3 in pixel resolution at 460 ppi, Pro Max: 6.9 in pixel resolution at 460 ppi, ProMotion technology with Variable refresh rate, adaptive refresh rates up to 120 Hz, Always-on display, Always-On display at 1 Hz, Wide color gamut (P3), 2,000,000:1 contrast ratio (typical), 1,000 nits max brightness (typical), 1,600 nits peak brightness (High dynamic range, HDR), 3,000 nits peak brightness (outdoor), 1 nit minimum brightness"
+    },
+    "Cameras": {
+      "Rear camera": "Fusion Main: 48 MP, 1.78, 24 mm (wide), Fusion Ultrawide: 48 MP, 2.2, 13 mm (ultrawide), Fusion Telephoto: 48 MP, 2.8, 100 mm (periscope telephoto), TOF 3D LiDAR scanner, Dolby Vision, ProRes, ProRes RAW",
+      "Front camera": "18 MP Center Stage camera, 1.9, 23 mm (wide), Dolby Vision, ProRes, ProRes RAW"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, spatial audio"
+    },
+    "Battery": {
+      "Battery": "Pro: 15.534 Wh (3988 mAh) @ 3.895 V (physical SIM), 16.558 Wh (4252 mAh) @ 3.894 V (eSIM), Pro Max: 18.748 Wh (4823 mAh) @ 3.887 V (physical SIM), 19.772 Wh (5088 mAh) @ 3.886 V (eSIM)",
+      "Charging": "MagSafe (wireless charger), MagSafe and Qi 2 wireless, USB-C fast-charge, Up to 50% charge in 20 minutes with 40 W adaptor or higher, provided via 15 V"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 tri-band, Bluetooth 6.0 (A2DP, LE), Ultra-wideband, Thread, NFC (reader mode, Express Cards), LEO satellite (Globalstar, limited), USB-C: USB 10Gbps, Dual-frequency GPS (L1, L5), GLONASS, Galileo, QZSS, BeiDou, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "refresh_hz": 120,
+    "peak_nits": 3000,
+    "chipset": "Apple A19 Pro",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 18,
+    "battery_mah": 3988,
+    "wired_w": 40,
+    "os": "iOS 26",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 206,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 17 Pro",
+      "url": "https://en.wikipedia.org/wiki/IPhone_17_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 17 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 17 Pro",
+    "revid": 1383257848
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

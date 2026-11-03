@@ -1,0 +1,84 @@
+{
+  "slug": "foxconn-nokia-5-1-plus",
+  "brand": "Foxconn",
+  "name": "Nokia 5.1 Plus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/HMD_Nokia_5.1_Plus_Blue_%28front_and_rear%29.jpg/500px-HMD_Nokia_5.1_Plus_Blue_%28front_and_rear%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/HMD_Nokia_5.1_Plus_Blue_%28front_and_rear%29.jpg/250px-HMD_Nokia_5.1_Plus_Blue_%28front_and_rear%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 5.1 Plus",
+      "credit": "Multicherry, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HMD_Nokia_5.1_Plus_Blue_(front_and_rear).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5.1"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "149.5 x 72 x 8.1 mm (5.89 x 2.83 x 0.32 in)",
+      "Weight": "160 g (5.64 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\", Current: Android 10 \"Q\", (Android One)",
+      "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Cortex A-73 & 4x1.8 GHz Cortex A-53) (Global), Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53) (China)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "RAM": "3, 4 or 6 GB RAM",
+      "Storage": "32 or 64 GB",
+      "Card slot": "microSD, up to 400 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, Size: 5.86 inches, 85.7 cm2 (~79.6% screen-to-body ratio), Resolution: 720 x 1520 pixels, 19:9 ratio (~287 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.0, PDAF, 5 MP, f/2.4 (depth), LED flash, HDR, Panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.2, 26mm (wide), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 3060 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.86,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek MT6771 Helio P60",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3060,
+    "os": "Android 8.1",
+    "weight_g": 160
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5.1 Plus",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5.1_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5.1 Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5.1 Plus",
+    "revid": 1361477330
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "ericsson-r290",
+  "brand": "Ericsson",
+  "name": "R290",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Ericsson_R290_Satellite_001-01.jpg/500px-Ericsson_R290_Satellite_001-01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Ericsson_R290_Satellite_001-01.jpg/250px-Ericsson_R290_Satellite_001-01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Ericsson R290",
+      "credit": "Peter Häll / Swedish National Museum of Science and Technology, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ericsson_R290_Satellite_001-01.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900/1800 , L-Band 1616-1626.5 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "162 mm H , 62 mm W , 39 mm D",
+      "Weight": "350 g with slim battery",
+      "Other": "SMS"
+    },
+    "Display": {
+      "Display": "Monochrome bitmap LCD"
+    },
+    "Connectivity": {
+      "Connectivity": "Proprietary accessories connector , Proprietary charging connector"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 350,
+    "thickness_mm": 39
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Ericsson R290",
+      "url": "https://en.wikipedia.org/wiki/Ericsson_R290"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Ericsson R290\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Ericsson R290",
+    "revid": 1361472965
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "iphone-se",
+  "brand": "IPhone",
+  "name": "SE",
+  "status": "published",
+  "announced": "2020-04-24",
+  "released": "2020-04-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-04-24",
+      "Predecessor": "iPhone SE (1st generation)",
+      "Successor": "iPhone SE (3rd generation)"
+    },
+    "Network": {
+      "Technology": "GSM, EDGE, UMTS, HSPA+, DC‑HSDPA, CDMA EV‑DO, FDD‑LTE, TD‑LTE",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 138.4 mm, W: 67.3 mm, D: 7.3 mm",
+      "Weight": "148 g"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 13.4",
+      "Chipset": "A13 Bionic"
+    },
+    "Memory": {
+      "RAM": "3 GB of LPDDR4X RAM",
+      "Storage": "64, 128, or 256 GB(256 GB model discontinued since 2021-09-14) NVMe"
+    },
+    "Display": {
+      "Display": "4.7 in True Tone Retina HD display with IPS technology, 1334 × 750 pixel resolution (326 ppi), 1400:1 contrast ratio (typical), 625 nits max brightness (typical), with dual-ion exchange-strengthened glass and [[Force Touch"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP with six-element lens, ƒ/1.8 aperture, quad-LED \"True Tone\" flash with Slow Sync, autofocus, IR filter, Burst mode (photography), 4K video recording at 24, 25, 30, or 60 fps; 1080p at 25, 30 or 60 fps; 720p at 30 fps, slow-motion video (1080p at 120 or 240 fps), timelapse with stabilization, panorama, face detection, Smart HDR, digital image stabilization, optical image stabilization, cinematic video stabilization (4K, 1080p, and 720p), Portrait mode and Portrait lighting",
+      "Front camera": "7 MP with QuickTake video, f/2.2 aperture, burst mode, exposure control, face detection, auto-HDR, auto image stabilization, Retina Flash, 1080p HD video recording, cinematic video stabilization (1080p and 720p), Portrait mode and Portrait lighting"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "1821 mAh, 3.82 V Li-ion",
+      "Charging": "Lightning connector (fast-charge capable up to 18W), or Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Near-field communication (NFC), Lightning connector, Bluetooth 5.0, Wi-Fi 6 (802.11ax), Voice over LTE (VoLTE), Wi‑Fi calling, GPS, GNSS, Express Cards with power reserve"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "Retina",
+    "peak_nits": 625,
+    "chipset": "A13 Bionic",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 7,
+    "battery_mah": 1821,
+    "wired_w": 18,
+    "os": "iOS 13.4",
+    "five_g": false,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "esim": true,
+    "weight_g": 148,
+    "thickness_mm": 7.3,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone SE (2nd generation)",
+      "url": "https://en.wikipedia.org/wiki/IPhone_SE_%282nd_generation%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone SE (2nd generation)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone SE (2nd generation)",
+    "revid": 1380214892
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

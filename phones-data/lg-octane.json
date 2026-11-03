@@ -1,0 +1,57 @@
+{
+  "slug": "lg-octane",
+  "brand": "LG",
+  "name": "Octane",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Successor to enV Series",
+      "Predecessor": "LG enV3"
+    },
+    "Network": {
+      "Technology": "CDMA and 3G"
+    },
+    "Body": {
+      "Form factor": "Clamshell form factor",
+      "Dimensions": "4.21\" (H) x 2.16\" (W) x 0.63\" (D)",
+      "Weight": "4.5 oz"
+    },
+    "Memory": {
+      "RAM": "Double memory system (multimedia and basic memories, approximately 250 MB total)",
+      "Card slot": "Supports up to 16 GB"
+    },
+    "Display": {
+      "Display": "Internal LCD: 262K color TFT, 320 x 240 Pixels, 2.60\""
+    },
+    "Cameras": {
+      "Rear camera": "3.2 Megapixels with video capabilities and LED flash"
+    },
+    "Battery": {
+      "Battery": "950mAh; Usage time: up to 7 hours, Standby time: up to 340 hours"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "LCD",
+    "battery_mah": 950,
+    "five_g": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Octane",
+      "url": "https://en.wikipedia.org/wiki/LG_Octane"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Octane\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Octane",
+    "revid": 1361475177
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

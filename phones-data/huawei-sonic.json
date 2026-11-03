@@ -1,0 +1,80 @@
+{
+  "slug": "huawei-sonic",
+  "brand": "Huawei",
+  "name": "Sonic",
+  "status": "published",
+  "announced": "2011-06-21",
+  "released": "2011-06-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Hua8650.JPG/500px-Hua8650.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Hua8650.JPG/250px-Hua8650.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Sonic",
+      "credit": "Solaris3001, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hua8650.JPG",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-06-21"
+    },
+    "Network": {
+      "Technology": "GSM:, 900, 1800, 1900 MHz, UMTS:900, 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "4.58 x 2.38 x 0.47 (116.3 x 60.5 x 11.9 mm)",
+      "Weight": "120g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.3 update available to 2.3.5",
+      "CPU": "Single-Core 600MHz Qualcomm MSM7227",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM / 512 MB ROM",
+      "Card slot": "MicroSD, up to 32gb"
+    },
+    "Display": {
+      "Display": "3.5 inches"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 mpx"
+    },
+    "Battery": {
+      "Battery": "1400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Wi-Fi, Wi-Fi hot spot, Bluetooth v2.1 with A2DP + EDR, NFC (optional), microUSB v2.0"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1400,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 120,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Sonic",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Sonic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Sonic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Sonic",
+    "revid": 1368966689
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

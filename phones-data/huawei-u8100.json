@@ -1,0 +1,68 @@
+{
+  "slug": "huawei-u8100",
+  "brand": "Huawei",
+  "name": "U8100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-03"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA",
+      "SIM": "Single SIM (Regular-SIM)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "107.5 mm H , 57.0 mm W , 13.8 mm D",
+      "Weight": "104.0 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 (Eclair)",
+      "CPU": "One-core"
+    },
+    "Memory": {
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.80-inch TFT touchscreen, 240 x 320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP with LED flash",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1150 mAh Removable Li-Ion"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1150,
+    "os": "Android 2.1",
+    "five_g": false,
+    "weight_g": 104,
+    "thickness_mm": 13.8,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei U8100",
+      "url": "https://en.wikipedia.org/wiki/Huawei_U8100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei U8100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei U8100",
+    "revid": 1380768879
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

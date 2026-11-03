@@ -1,0 +1,101 @@
+{
+  "slug": "huawei-p9",
+  "brand": "Huawei",
+  "name": "P9",
+  "status": "published",
+  "announced": "2016-04-29",
+  "released": "2016-04-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Huawei_P9_main_camera.jpg/500px-Huawei_P9_main_camera.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Huawei_P9_main_camera.jpg/250px-Huawei_P9_main_camera.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei P9",
+      "credit": "Kārlis Dambrāns, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_P9_main_camera.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-04-29",
+      "Discontinued": "Yes",
+      "Series": "P",
+      "Predecessor": "Huawei P8",
+      "Successor": "Huawei P10"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only), HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - EVA-L19, HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100 - EVA-L29, LTE band 1(2100), 3(1800), 4(1700/2100), 7(2600), 20(800), 38(2600), 39(1900), 40(2300), B41 - EVA-L19, LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 6(900), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 26(850), 38(2600), 39(1900), 40(2300), B41 - EVA-L29, LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 6(900), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 26(850), 28(700), 38(2600), 39(1900), 40(2300) - EVA-L09",
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "145 mm H , 70.9 mm W , 7 mm D",
+      "Weight": "144 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0 (Marshmallow) EMUI 4 , Current: Android 7.0 (Nougat) EMUI 5",
+      "Chipset": "HiSilicon Kirin 955",
+      "CPU": "Quad-core 2.5 GHz Cortex-A72 & quad-core 1.8 GHz Cortex-A53",
+      "GPU": "Mali-T880 MP4"
+    },
+    "Memory": {
+      "RAM": "3/4 GB RAM",
+      "Storage": "32/64 GB",
+      "Card slot": "microSD, up to 128 GB (uses SIM 2 slot)"
+    },
+    "Display": {
+      "Display": "5.2\" 1080 x 1920 pixels IPS-NEO LCD capacitive multitouch display, 16M colors, Corning Gorilla Glass 3 Protection"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 12 MP, f/2.2, 27 mm Stereo camera, Leica optics, Contrast autofocus, dual-LED (dual tone) flash",
+      "Front camera": "8 MP, f/2.4, 1080p"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3000 mAh lithium polymer battery",
+      "Charging": "Supercharge"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, WiFi Direct, hotspot , Bluetooth v4.2, A2DP, LE, GPS Yes, with A-GPS, GLONASS/ BDS (market dependent), USB Type-C 1.0 reversible connector"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS",
+    "chipset": "HiSilicon Kirin 955",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 144,
+    "thickness_mm": 7,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P9",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P9",
+    "revid": 1382985251
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

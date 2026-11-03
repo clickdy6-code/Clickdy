@@ -1,0 +1,77 @@
+{
+  "slug": "innos-dialog-i43",
+  "brand": "innos",
+  "name": "Dialog i43",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Dialog i series",
+      "Predecessor": "Dialog i35"
+    },
+    "Network": {
+      "Technology": "2G (850/900/1800/1900 MHz), 3G (WCDMA 2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "126.9mm x 69.5mm x 10.2mm",
+      "Weight": "Approx 165g",
+      "Other": "Wi-Fi hotspot"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.5 Gingerbread",
+      "CPU": "1 GHz ARM Cortex A5"
+    },
+    "Memory": {
+      "RAM": "512 MB LPDDR1 SDRAM",
+      "Storage": "4 GB",
+      "Card slot": "up to 32 GB micro SD"
+    },
+    "Display": {
+      "Display": "4.3 inch, IPS WVGA, capacitive display, 480x800 pixels, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels, autofocus, dual-LED flash, Geo-tagging, touch focus, face detection",
+      "Front camera": "0.3 megapixels"
+    },
+    "Sound": {
+      "Sound": "MP3/AAC/WMA/WAV"
+    },
+    "Battery": {
+      "Battery": "1630 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth with A2DP, micro USB"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "IPS",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1630,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 165,
+    "thickness_mm": 10.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Dialog i43",
+      "url": "https://en.wikipedia.org/wiki/Dialog_i43"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Dialog i43\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Dialog i43",
+    "revid": 1363022708
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

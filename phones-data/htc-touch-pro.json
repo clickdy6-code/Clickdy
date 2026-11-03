@@ -1,0 +1,79 @@
+{
+  "slug": "htc-touch-pro",
+  "brand": "HTC",
+  "name": "Touch Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/06/HTCTouchPro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/06/HTCTouchPro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "HTC Touch Pro",
+      "credit": "MikelZap at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTCTouchPro.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family",
+      "Predecessor": "HTC TyTN II",
+      "Successor": "HTC Touch Pro2"
+    },
+    "Network": {
+      "Technology": "aGPS , HTC Raphael 100: Quad band GSM 850, 900, 1800, 1900, GPRS, EDGE , Quad band UMTS 850,900,1900, 2100, HSDPA, HSUPA , HTC Raphael 800: Dual band CDMA 800, 1900 , Single band EV-DO 2000 1xEV-DO Rev A."
+    },
+    "Body": {
+      "Form factor": "Slide",
+      "Dimensions": "102 mm (h) , 51 mm (w) , 18 mm (d)",
+      "Weight": "158.9 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Windows Mobile 6.1 Professional, Unofficial: Android 1.6 \"Donut\" if XDAndroid installed and ported to Android",
+      "CPU": "Qualcomm MSM7201A ARM 11 at 528 MHz"
+    },
+    "Memory": {
+      "RAM": "288 MB RAM , 512 MB ROM",
+      "Card slot": "microSDHC, up to 32 GB"
+    },
+    "Display": {
+      "Display": "480×640 px, 2.8 in, 285 PPI, 65536 color LCD, 3:4 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel AF back",
+      "Front camera": ".3 megapixel front (only on GSM Unlocked version)"
+    },
+    "Battery": {
+      "Battery": "1340mAh mAh Lithium-ion polymer battery, user accessible"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mini-B , Bluetooth 2.0 + EDR , Wi-Fi (802.11b/g)"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "battery_mah": 1340,
+    "os": "Android 1.6",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 158.9,
+    "thickness_mm": 18
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Touch Pro",
+      "url": "https://en.wikipedia.org/wiki/HTC_Touch_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Touch Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Touch Pro",
+    "revid": 1370095986
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

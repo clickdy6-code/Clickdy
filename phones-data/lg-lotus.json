@@ -1,0 +1,63 @@
+{
+  "slug": "lg-lotus",
+  "brand": "LG",
+  "name": "Lotus",
+  "status": "published",
+  "announced": "2008-09-10",
+  "released": "2008-09-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 10, 2008"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "3.30” (H) x 2.40” (W) x 0.70” (D)",
+      "Weight": "3.7 oz"
+    },
+    "Memory": {
+      "RAM": "80 mb",
+      "Storage": "12 GB"
+    },
+    "Display": {
+      "Display": "2.4 in"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP"
+    },
+    "Battery": {
+      "Battery": "900 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB & Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "storage_gb": [
+      12
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 900,
+    "nfc": false,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Lotus (LX600)",
+      "url": "https://en.wikipedia.org/wiki/LG_Lotus_%28LX600%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Lotus (LX600)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Lotus (LX600)",
+    "revid": 1361475166
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

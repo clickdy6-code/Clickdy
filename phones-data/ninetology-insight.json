@@ -1,0 +1,79 @@
+{
+  "slug": "ninetology-insight",
+  "brand": "Ninetology",
+  "name": "Insight",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Touch"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/, GPRS/EDGE class B, multislot class 33, UMTS 2011, HSDPA Cat9, 10.2 Mbps"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "Width: 66.5 mm, Height: 126.9 mm, Thickness: 10.8 mm",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Android Ice Cream Sandwich 4.0",
+      "CPU": "Dual Core 1.0 GHz"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM, 4 GB ROM",
+      "Storage": "4 GB internal memory (1GB available to end user)",
+      "Card slot": "up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "Capacitive IPS Display, One Glass Solution, 480 x 800 (240 PPI pixel density), 4.3\", Capable of displaying up to 16.7M colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 MP",
+      "Front camera": "2.0 MP"
+    },
+    "Battery": {
+      "Battery": "1800mAh Li-Ion battery (removable), micro USB and 2 mm DC plug charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g/n (2.4 GHz), bluetooth 3.0, micro USB 2.0, 3.5 mm AV connector (audio in/out), FM receiver"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "IPS",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 1800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 160,
+    "thickness_mm": 10.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Ninetology Insight",
+      "url": "https://en.wikipedia.org/wiki/Ninetology_Insight"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Ninetology Insight\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Ninetology Insight",
+    "revid": 1361476847
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

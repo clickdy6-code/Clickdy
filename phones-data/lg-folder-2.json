@@ -1,0 +1,82 @@
+{
+  "slug": "lg-folder-2",
+  "brand": "LG",
+  "name": "Folder 2",
+  "status": "published",
+  "announced": "2020-04-14",
+  "released": "2020-04-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-04-14",
+      "Series": "LG Folder series",
+      "Predecessor": "LG Exalt LTE"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Dimensions": "107.9 mm H , 55 mm W , 18 mm D",
+      "Weight": "127 g"
+    },
+    "Platform": {
+      "Operating system": "Android Oreo",
+      "Chipset": "Qualcomm MSM8909 Snapdragon 210 (28 nm)",
+      "CPU": "Quad-core 1.1 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB"
+    },
+    "Display": {
+      "Display": "2.8 inches, 24.3 cm2 (~40.9% screen-to-body ratio), IPS LCD, 240×320 pixels, 4:3 ratio (~143 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, 480p@30 fps"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1470 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth, A-GPS, FM Radio"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8909 Snapdragon 210",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1470,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 127,
+    "thickness_mm": 18,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Folder 2",
+      "url": "https://en.wikipedia.org/wiki/LG_Folder_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Folder 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Folder 2",
+    "revid": 1361474922
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

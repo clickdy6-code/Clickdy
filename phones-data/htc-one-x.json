@@ -1,0 +1,84 @@
+{
+  "slug": "htc-one-x",
+  "brand": "HTC",
+  "name": "One X+",
+  "status": "published",
+  "announced": "2012-11-13",
+  "released": "2012-11-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-11-13",
+      "Series": "HTC One series",
+      "Predecessor": "HTC One X",
+      "Successor": "HTC One (M7)"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Micro-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "134.4 mm H 69.9 mm W 8.9 mm D",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.1 (Jelly Bean) with HTC Sense UI 4",
+      "Chipset": "NVIDIA Tegra 3 AP37",
+      "CPU": "Quad-core 1.7 GHz",
+      "GPU": "ULP GeForce"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "32 GB / 64 GB",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "4.7-inch Super LCD2, 720 x 1280 pixels, Corning Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, AF, LED flash, 1080p video recording",
+      "Front camera": "1.6 MP, 720p video recording"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 2100 mAh"
+    }
+  },
+  "key": {
+    "chipset": "NVIDIA Tegra 3 AP37",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.6,
+    "battery_mah": 2100,
+    "os": "Android 4.1",
+    "five_g": false,
+    "weight_g": 135,
+    "thickness_mm": 8.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC One X+",
+      "url": "https://en.wikipedia.org/wiki/HTC_One_X%2B"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC One X+\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC One X+",
+    "revid": 1374027866
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

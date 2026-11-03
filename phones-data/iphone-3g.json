@@ -1,0 +1,87 @@
+{
+  "slug": "iphone-3g",
+  "brand": "IPhone",
+  "name": "3G",
+  "status": "published",
+  "announced": "2008-07-11",
+  "released": "2008-07-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/IPhone_3G_or_3GS_digital_render.png/500px-IPhone_3G_or_3GS_digital_render.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/IPhone_3G_or_3GS_digital_render.png/250px-IPhone_3G_or_3GS_digital_render.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 3G",
+      "credit": "JoBot164, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_3G_or_3GS_digital_render.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-07-11",
+      "Series": "iPhone",
+      "Predecessor": "iPhone (1st generation)",
+      "Successor": "iPhone 3GS"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115.5 mm H, 62.1 mm W, 12.3 mm D",
+      "Weight": "133 g"
+    },
+    "Platform": {
+      "Operating system": "Original: iPhone OS 2.0, Last: iOS 4.2.1, released November 22, 2010",
+      "CPU": "Samsung 32-bit RISC ARM 1176JZ(F)-S v1.0 , 620 MHz , Underclocked to 412 MHz",
+      "GPU": "PowerVR MBX Lite 3D GPU"
+    },
+    "Memory": {
+      "RAM": "128 MB DRAM",
+      "Storage": "8 or 16 GB flash memory"
+    },
+    "Display": {
+      "Display": "3.5-inch screen (diagonally) , 480×320 pixel resolution at 163 ppi , 3:2 aspect ratio , 18-bit (262,144 colors) LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP with geotagging"
+    },
+    "Sound": {
+      "Sound": "3.5 mm TRRS , One speaker , 20 Hz to 20 kHz frequency response (internal, headset) , Microphone"
+    },
+    "Battery": {
+      "Battery": "1150 mAh, 3.7 V Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Quad-band GSM/GPRS/EDGE , (850 900 1,800 1,900 MHz) , Tri-band UMTS/HSDPA 3.6 , (850 1,900 2,100 MHz) , Wi-Fi (802.11 b/g) , Bluetooth 2.0 + EDR , USB 2.0/Dock connector"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1150,
+    "os": "iOS 4.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 133,
+    "thickness_mm": 12.3,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 3G",
+      "url": "https://en.wikipedia.org/wiki/IPhone_3G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 3G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone 3G",
+    "revid": 1383467911
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "iphone-7",
+  "brand": "IPhone",
+  "name": "7",
+  "status": "published",
+  "announced": "2016-09-16",
+  "released": "2016-09-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/IPhone_7_Jet_Black.svg/500px-IPhone_7_Jet_Black.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/IPhone_7_Jet_Black.svg/250px-IPhone_7_Jet_Black.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 7",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_7_Jet_Black.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-09-16",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 6s / iPhone 6s Plus",
+      "Successor": "iPhone X, iPhone 8 / iPhone 8 Plus"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA2000, EV-DO, HSPA+, LTE, LTE Advanced"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "7: 138.3xx67.1xx7.1 mm, 7 Plus: 158.2xx77.9xx7.3 mm",
+      "Weight": "7: 138 g, 7 Plus: 188 g",
+      "Other": "FaceTime audio or video, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 10.0.1",
+      "Chipset": "Apple A10 Fusion"
+    },
+    "Memory": {
+      "RAM": "7: 2 GB LPDDR4 RAM, 7 Plus: 3 GB LPDDR4 RAM",
+      "Storage": "32, 128, or 256 GB NVMe"
+    },
+    "Display": {
+      "Display": "7: 4.7 in Retina HD: LED-backlit IPS LCD, 1334×750 px resolution (326 ppi) (1 megapixel), 7 Plus: 5.5 in Retina HD: LED-backlit IPS LCD, 1920×1080 px resolution (401 ppi) (2.1 megapixels), All models: 625 cd/m² max. brightness (typical), with dual-ion exchange-strengthened glass and 3D Touch"
+    },
+    "Cameras": {
+      "Rear camera": "7: 12 MP 2nd-generation Sony Exmor RS with six-element lens, quad-LED \"True Tone\" flash, autofocus, IR filter, Burst mode, f/1.8 aperture, 4K video recording at 30 fps or 1080p at 30 or 60 fps, slow-motion video (1080p at 120 fps and 720p at 240 fps), timelapse with stabilization, panorama, face detection, digital image stabilization, optical image stabilization, 7 Plus: In addition to above: A telephoto lens with 2× optical zoom / 10× digital zoom, f/2.8 aperture",
+      "Front camera": "7 MP, f/2.2 aperture, burst mode, exposure control, face detection, auto-HDR, auto image stabilisation, Retina flash, 1080p HD video recording"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "7: 3.80 V 7.45 W·h (1960 mA·h) Li-ion, 7 Plus: 3.82 V 11.10 W·h (2900 mA·h) Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "Retina",
+    "chipset": "Apple A10 Fusion",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 7,
+    "os": "iOS 10.0",
+    "five_g": false,
+    "weight_g": 138,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 7",
+      "url": "https://en.wikipedia.org/wiki/IPhone_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 7",
+    "revid": 1383234970
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

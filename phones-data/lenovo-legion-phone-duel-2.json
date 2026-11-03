@@ -1,0 +1,93 @@
+{
+  "slug": "lenovo-legion-phone-duel-2",
+  "brand": "Lenovo",
+  "name": "Legion Phone Duel 2",
+  "status": "published",
+  "announced": "2021-04-08",
+  "released": "2021-04-08",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 8, 2021",
+      "Series": "Lenovo Legion",
+      "Predecessor": "Legion Duel",
+      "Successor": "Lenovo Legion Y90"
+    },
+    "Network": {
+      "Technology": "4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "176 x 78.5 x 9.9 mm",
+      "Weight": "259 g",
+      "Other": "Intake and exhaust fans for main vapor chamber"
+    },
+    "Platform": {
+      "Operating system": "Legion OS/ZUI 12.5, (based on Android 11)",
+      "Chipset": "Qualcomm Snapdragon 888",
+      "CPU": "Octa-core (1x2.84 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.8 GHz Kryo 680)",
+      "GPU": "Qualcomm Adreno 660"
+    },
+    "Memory": {
+      "RAM": "12 or 16 GB LPDDR5 RAM",
+      "Storage": "256 or 512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "AMOLED capacitive touchscreen with HDR10+ support, 6.92 in 1080p, (388 ppi with 20.5:9 aspect ratio), 144 Hz refresh rate, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, f/1.9, 25 mm, 1/1.32\", 1.0 μm (wide) + 16 MP, f/2.2, 16 mm (ultrawide), PDAF, gyro-EIS, dual-LED dual-tone flash, panorama, HDR, 8K@24 fps, 4K@60 fps, 1080p@30/60/240 fps",
+      "Front camera": "44 MP, f/2.0, 24mm, 1/2.65\", 1.0 μm , LED flash, HDR , 4K@30/60 fps, 1080p@30/60/120 fps"
+    },
+    "Sound": {
+      "Sound": "DiracAudio stereo speakers"
+    },
+    "Battery": {
+      "Battery": "5500 mAh",
+      "Charging": "65 W (single USB-C port), 90 W (dual USB-C ports)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.2, Bluetooth 5.2, Wi-Fi a/b/g/n/ac/6, A2DP, LE, aptX HD, aptX Adaptive"
+    }
+  },
+  "key": {
+    "display_in": 6.92,
+    "display_type": "AMOLED",
+    "refresh_hz": 144,
+    "chipset": "Qualcomm Snapdragon 888",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 64,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "8K@24fps",
+    "front_mp": 44,
+    "battery_mah": 5500,
+    "wired_w": 90,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 259,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Legion Phone Duel 2",
+      "url": "https://en.wikipedia.org/wiki/Legion_Phone_Duel_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Legion Phone Duel 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Legion Phone Duel 2",
+    "revid": 1361475706
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

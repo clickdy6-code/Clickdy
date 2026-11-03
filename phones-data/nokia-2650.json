@@ -1,0 +1,57 @@
+{
+  "slug": "nokia-2650",
+  "brand": "Nokia",
+  "name": "2650",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Nokia2650.png/500px-Nokia2650.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Nokia2650.png/250px-Nokia2650.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 2650",
+      "credit": "Nokia_2650_abierto.jpg: Jorge Barrios\nderivative work: TheAdam0s (talk), Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia2650.png",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850 1900 , GSM 900 1800 , GPRS Class 4 (3+1 slots), 24 - 36 kbit/s"
+    },
+    "Body": {
+      "Form factor": "Clamshell"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "977 KB"
+    },
+    "Display": {
+      "Display": "CSTN , 128x128 px , 4096 colors"
+    },
+    "Battery": {
+      "Battery": "BL-4C , 760 mAh , Li-Ion"
+    }
+  },
+  "key": {
+    "battery_mah": 760,
+    "five_g": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2650",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2650"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2650\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2650",
+    "revid": 1361477170
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

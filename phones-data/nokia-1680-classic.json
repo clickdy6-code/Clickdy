@@ -1,0 +1,78 @@
+{
+  "slug": "nokia-1680-classic",
+  "brand": "Nokia",
+  "name": "1680 classic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nokia_1680_classic.jpg/500px-Nokia_1680_classic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nokia_1680_classic.jpg/250px-Nokia_1680_classic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 1680 classic",
+      "credit": "Roboonya, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_1680_classic.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia 1000 series",
+      "Predecessor": "Nokia 1650",
+      "Successor": "Nokia C1-01"
+    },
+    "Network": {
+      "Technology": "GSM, EGPRS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 mm x 46 mm x 15 mm",
+      "Weight": "53 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 5th edition lite"
+    },
+    "Memory": {
+      "RAM": "11 MB"
+    },
+    "Display": {
+      "Display": "65K color, 128 x 160, TFT"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP camera"
+    },
+    "Battery": {
+      "Battery": "BL-5CA, 700 mAh, Talk time: Up to 7 hrs 35 min, Stand-by: Up to 424 hrs"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM 1800, GSM 900"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 700,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 53,
+    "thickness_mm": 15
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1680 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1680_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1680 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1680 classic",
+    "revid": 1374698198
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

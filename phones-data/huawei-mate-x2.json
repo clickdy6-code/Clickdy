@@ -1,0 +1,86 @@
+{
+  "slug": "huawei-mate-x2",
+  "brand": "Huawei",
+  "name": "Mate X2",
+  "status": "published",
+  "announced": "2021-02-25",
+  "released": "2021-02-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-02-25",
+      "Discontinued": "2022-07-16",
+      "Series": "Mate X",
+      "Predecessor": "Huawei Mate X",
+      "Successor": "Huawei Mate Xs 2"
+    },
+    "Body": {
+      "Form factor": "Foldable phablet",
+      "Dimensions": "Unfolded:, 161.8 mm H , 145.8 mm W , 8.2 mm D, Folded:, 161.8 mm H , 74.6 mm W , 14.7 mm D",
+      "Weight": "295 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10, EMUI 11, HarmonyOS 2",
+      "Chipset": "Kirin 9000 5G (5 nm)",
+      "CPU": "Octa-core (1x3.13 GHz Cortex-A77 & 3x2.54 GHz Cortex-A77 & 4x2.05 GHz Cortex-A55)",
+      "GPU": "Mali-G78 MP24"
+    },
+    "Memory": {
+      "RAM": "8 GB RAM",
+      "Storage": "256 or 512 GB UFS 3.1",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "8 in OLED, (~413 ppi density), 90 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.9, 23 mm, (wide), 1/1.28\", RYYB, 1.22 μm, omnidirectional PDAF, Laser AF, OIS, 12 MP, f/2.4, 70 mm (telephoto), RYYB, PDAF, OIS, 3× optical zoom, 8 MP, f/4.4, 240 mm (periscope telephoto), PDAF, OIS, 10× optical zoom, 16 MP, f/2.2, 17 mm, AF (Ultrawide)",
+      "Front camera": "16 MP, f/2.2, (wide), 1080p/30 fps video"
+    },
+    "Sound": {
+      "Sound": "Stereo loudspeakers"
+    },
+    "Battery": {
+      "Battery": "4500 mAh lithium polymer",
+      "Charging": "55W Huawei SuperCharge"
+    }
+  },
+  "key": {
+    "display_in": 8.0,
+    "display_type": "OLED",
+    "refresh_hz": 90,
+    "chipset": "Kirin 9000 5G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 16,
+    "battery_mah": 4500,
+    "wired_w": 55,
+    "os": "Android 10",
+    "weight_g": 295,
+    "thickness_mm": 8.2,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate X2",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_X2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate X2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Mate X2",
+    "revid": 1361473870
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

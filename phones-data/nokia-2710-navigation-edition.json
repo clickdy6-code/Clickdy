@@ -1,0 +1,72 @@
+{
+  "slug": "nokia-2710-navigation-edition",
+  "brand": "Nokia",
+  "name": "2710 Navigation Edition",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-05",
+      "Series": "Nokia 2000 series"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "111.2 mm H, 45.7 mm W, 13.7 mm D",
+      "Weight": "87 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40, 6th Edition"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Storage": "128 MB ROM",
+      "Card slot": "microSDHC, up to 16 GB (2 GB included)"
+    },
+    "Display": {
+      "Display": "2.2 in (56 mm) TFT LCD, 256K colors , Resolution: 240 x 320 pixels, 4:3 ratio (~182 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP , Video: 320p@15fps"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1020 mAh (BL-5C)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS Class 32, EDGE Class 10, Bluetooth 2.1 (A2DP, EDR), microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 87,
+    "thickness_mm": 13.7,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2710 Navigation Edition",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2710_Navigation_Edition"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2710 Navigation Edition\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2710 Navigation Edition",
+    "revid": 1381161927
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

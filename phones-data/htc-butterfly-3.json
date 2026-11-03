@@ -1,0 +1,61 @@
+{
+  "slug": "htc-butterfly-3",
+  "brand": "HTC",
+  "name": "Butterfly 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "HTC Butterfly 2"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151 mm H , 73 mm W , 10 mm D",
+      "Weight": "161 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.0 \"Lollipop\"",
+      "Chipset": "Qualcomm Snapdragon 810",
+      "CPU": "Quad-core ARM Cortex A57 and quad-core A53 (64-bit support)",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR4 RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD up to 128 GB"
+    },
+    "Battery": {
+      "Battery": "2,700 mAh Li-Po"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm Snapdragon 810",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2700,
+    "os": "Android 5.0",
+    "weight_g": 161,
+    "thickness_mm": 10
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Butterfly 3",
+      "url": "https://en.wikipedia.org/wiki/HTC_Butterfly_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Butterfly 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Butterfly 3",
+    "revid": 1361473145
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

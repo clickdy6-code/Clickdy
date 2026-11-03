@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-3230",
+  "brand": "Nokia",
+  "name": "3230",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Nokia_3230.JPG/500px-Nokia_3230.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Nokia_3230.JPG/250px-Nokia_3230.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 3230",
+      "credit": "Cartonfox, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3230.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3220 , Nokia 3660",
+      "Successor": "Nokia 3250 , Nokia 6120 classic"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 7.0s Series 60 2.1",
+      "CPU": "32-bit RISC CPU based on ARM-9 series, 123 MHz"
+    },
+    "Memory": {
+      "Card slot": "RS-MMC (32 MB included)"
+    },
+    "Display": {
+      "Display": "16 bit, 176 x 208 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "1.23 Mp"
+    },
+    "Battery": {
+      "Battery": "BL-5B Lithium Ion, 760 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, IrDA"
+    }
+  },
+  "key": {
+    "main_mp": 1.23,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 760,
+    "os": "Symbian OS 7.0s Series 60 2.1",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3230",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3230"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3230\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3230",
+    "revid": 1361477256
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

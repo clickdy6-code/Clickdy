@@ -1,0 +1,76 @@
+{
+  "slug": "htc-dream",
+  "brand": "HTC",
+  "name": "Dream",
+  "status": "published",
+  "announced": "2008-10-20",
+  "released": "2008-10-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/HTC_Dream_Orange_FR.jpeg/500px-HTC_Dream_Orange_FR.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/HTC_Dream_Orange_FR.jpeg/250px-HTC_Dream_Orange_FR.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Dream",
+      "credit": "Akela NDE, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Dream_Orange_FR.jpeg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-10-20",
+      "Predecessor": "Google Sooner",
+      "Successor": "HTC Magic, HTC Desire Z (T-Mobile G2), Nexus One"
+    },
+    "Body": {
+      "Form factor": "Slider smartphone",
+      "Dimensions": "117.7 xx",
+      "Weight": "158 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 1.0, Last: Android 1.6 \"Donut\"",
+      "CPU": "528 MHz Qualcomm MSM7201A ARM11"
+    },
+    "Memory": {
+      "RAM": "192 MB RAM",
+      "Storage": "256 MB",
+      "Card slot": "microSD, up to 16 GB"
+    },
+    "Display": {
+      "Display": "px, 3.2 in, HVGA, 65,536 color TFT-LCD at 180 pixels per inch (ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 megapixel, autofocus"
+    },
+    "Battery": {
+      "Battery": "1150 mAh, Internal rechargeable removable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g), Bluetooth#Bluetooth 2.0 + EDR, Bluetooth 2.0+EDR, ExtUSB#Proprietary connectors and formats, ExtUSB, Assisted GPS, A-GPS, Multi-band device, Quad-band GSM frequency bands, GSM 850 900 1800 1900 MHz General Packet Radio Service, GPRS/Enhanced Data Rates for GSM Evolution, EDGE, Dual band UMTS frequency bands, UMTS 1700 2100 MHz High-Speed Downlink Packet Access, HSDPA/High-Speed Uplink Packet Access, HSUPA (US/Europe) (7.2/2 Mbit/s)"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "battery_mah": 1150,
+    "os": "Android 1.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 158,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Dream",
+      "url": "https://en.wikipedia.org/wiki/HTC_Dream"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Dream\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Dream",
+    "revid": 1383310317
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

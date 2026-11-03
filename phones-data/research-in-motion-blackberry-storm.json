@@ -1,0 +1,74 @@
+{
+  "slug": "research-in-motion-blackberry-storm",
+  "brand": "Research In Motion",
+  "name": "BlackBerry Storm",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Blackberry-storm-orig.jpg/500px-Blackberry-storm-orig.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Blackberry-storm-orig.jpg/250px-Blackberry-storm-orig.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Research In Motion BlackBerry Storm",
+      "credit": "aaltonen, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Blackberry-storm-orig.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "BlackBerry Storm 2"
+    },
+    "Body": {
+      "Form factor": "Candybar smartphone",
+      "Dimensions": "112.5 mm (h), 62.2 mm (w), 13.95 mm (d)",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry OS 5.0.0.419",
+      "CPU": "528 MHz Qualcomm processor"
+    },
+    "Memory": {
+      "Storage": "Flash memory:, 128 MB application memory, 1 GB device memory, microSDHC slot: supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "360 x 480 px, 3.25 in, HVGA, 65,536 color LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel with video at 480 x 352 px, flash, and autofocus"
+    },
+    "Battery": {
+      "Battery": "3.7 V 1400 mAh, Internal rechargeable removable lithium-ion battery, Talk time: 330 min, Standby time: 360 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0+EDR, Micro-USB, A-GPS, Quad band GSM 850 900 1800 1900 MHz GPRS/EDGE and Uni band UMTS/HSDPA 2100 MHz, CDMA version (9530) adds: Dual band CDMA2000/EV-DO Rev. A 800 1900 MHz"
+    }
+  },
+  "key": {
+    "display_in": 3.25,
+    "display_type": "LCD",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1400,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 155,
+    "thickness_mm": 13.95
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Storm",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Storm"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Storm\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Storm",
+    "revid": 1382933675
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "huawei-honor-9x",
+  "brand": "Huawei",
+  "name": "Honor 9X",
+  "status": "published",
+  "announced": "2019-07-23",
+  "released": "2019-07-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "China: July 23, 2019",
+      "Series": "Honor X",
+      "Predecessor": "Honor 8X",
+      "Successor": "Honor X10, Honor X9"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "163.5 mm H , 77.3 mm W , 8.8 mm D",
+      "Weight": "196.8 g"
+    },
+    "Platform": {
+      "Operating system": "EMUI 9.1 compatible with Android 9",
+      "Chipset": "HiSilicon Kirin 710F",
+      "CPU": "Cortex-A73 (4 × 2.2 GHz), Cortex-A53 (4 × 1.7 GHz)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "128 GB",
+      "Card slot": "microSD up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.59\" IPS LCD, 1080 × 2340 pixels (HONOR FullView)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP (), 20 MP () PDAF + 2 MP ()",
+      "Front camera": "Pop-up, 16 MP ()"
+    },
+    "Battery": {
+      "Battery": "4000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 6.59,
+    "display_type": "IPS LCD",
+    "chipset": "HiSilicon Kirin 710F",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "os": "Android 9",
+    "five_g": false,
+    "weight_g": 196.8,
+    "thickness_mm": 8.8,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 9X",
+      "url": "https://en.wikipedia.org/wiki/Honor_9X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 9X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 9X",
+    "revid": 1380228435
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

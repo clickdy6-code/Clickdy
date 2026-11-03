@@ -1,0 +1,71 @@
+{
+  "slug": "lg-cookie",
+  "brand": "LG",
+  "name": "Cookie",
+  "status": "published",
+  "announced": "2009-03-09",
+  "released": "2009-03-09",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/LG_Cookie_pink.jpg/500px-LG_Cookie_pink.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/LG_Cookie_pink.jpg/250px-LG_Cookie_pink.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Cookie",
+      "credit": "Own work, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Cookie_pink.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2008, March 9, 2009 (Cooky)"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, GPRS, EDGE, CDMA2000-1x, HSDPA & EV-DO (South Korean Cooky)"
+    },
+    "Body": {
+      "Dimensions": "106.5 x 55.4 x 11.9 mm, 107.0 x 55.4 x 10.9 mm (South Korean Cooky)",
+      "Weight": "89 grams, 108 grams (South Korean Cooky)"
+    },
+    "Platform": {
+      "CPU": "Infineon M8877 V2.1 (ARM9E) (32-bit) 175 MHz"
+    },
+    "Memory": {
+      "RAM": "47MB",
+      "Card slot": "microSD, up to 16GB"
+    },
+    "Display": {
+      "Display": "3\", 240x400 pixels (~155 ppi pixel density) Resistive Touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.0 Mega Pixel Fixed-Focus Videos AVI - 320x240 QVGA@30fps XviD + MP3 (decoding)"
+    },
+    "Battery": {
+      "Battery": "Li-ion, 900 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0/Bluetooth 2.1+EDR"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Cookie (KP500)",
+      "url": "https://en.wikipedia.org/wiki/LG_Cookie_%28KP500%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Cookie (KP500)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Cookie (KP500)",
+    "revid": 1361474866
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

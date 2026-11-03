@@ -1,0 +1,77 @@
+{
+  "slug": "blackberry-bold-9700",
+  "brand": "BlackBerry",
+  "name": "Bold 9700",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/BlackBerry_9700_white_and_black.jpg/500px-BlackBerry_9700_white_and_black.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/BlackBerry_9700_white_and_black.jpg/250px-BlackBerry_9700_white_and_black.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BlackBerry Bold 9700",
+      "credit": "bertconcepts, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BlackBerry_9700_white_and_black.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "BlackBerry Bold 9650"
+    },
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "109 mm (h), 60 mm (w), 14 mm (d)",
+      "Weight": "122 g"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry OS 5 upgradeable to version 6"
+    },
+    "Display": {
+      "Display": "2.4 in (6.1 cm), 480×360 non-touch LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3 MP, LED flash"
+    },
+    "Sound": {
+      "Sound": "Single loudspeaker, 3.5 mm audio jack, Microphone"
+    },
+    "Battery": {
+      "Battery": "1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g) (2.4 Hertz, [[Bluetooth 2.1"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "LCD",
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 122,
+    "thickness_mm": 14
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Bold 9700",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Bold_9700"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Bold 9700\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Bold 9700",
+    "revid": 1364913383
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

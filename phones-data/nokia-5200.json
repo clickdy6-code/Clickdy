@@ -1,0 +1,70 @@
+{
+  "slug": "nokia-5200",
+  "brand": "Nokia",
+  "name": "5200",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Nokia_5200_by_Georgy.jpg/500px-Nokia_5200_by_Georgy.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Nokia_5200_by_Georgy.jpg/250px-Nokia_5200_by_Georgy.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5200",
+      "credit": "Georgy90 The photo was taken by Georgy, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5200_by_Georgy.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2010-03-12",
+      "Predecessor": "Nokia 3220",
+      "Successor": "Nokia 5310"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "92.4×48.2×20.7 mm",
+      "Weight": "112 g"
+    },
+    "Memory": {
+      "RAM": "8 MB flash, microSD slot"
+    },
+    "Display": {
+      "Display": "128×160, CSTN / TFT, 262,144 colors"
+    },
+    "Cameras": {
+      "Rear camera": "VGA, 640×480 pixels, video"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 760 mAh (BL-5B)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, HSCSD, EDGE Class 10 236.8 kbit/s, Bluetooth, IrDA, USB; WAP 2.0/xHTML, HTML"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 760,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 112
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5200",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5200"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5200\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5200",
+    "revid": 1374925431
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

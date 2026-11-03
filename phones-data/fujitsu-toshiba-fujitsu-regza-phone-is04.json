@@ -1,0 +1,77 @@
+{
+  "slug": "fujitsu-toshiba-fujitsu-regza-phone-is04",
+  "brand": "Fujitsu Toshiba",
+  "name": "Fujitsu Regza Phone IS04",
+  "status": "published",
+  "announced": "2011-02-10",
+  "released": "2011-02-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/IS04_front.jpg/500px-IS04_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/IS04_front.jpg/250px-IS04_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Fujitsu Toshiba Fujitsu Regza Phone IS04",
+      "credit": "Jr223, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IS04_front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-02-10",
+      "Series": "IS series"
+    },
+    "Network": {
+      "Technology": "CDMA2000 1xMC, WIN HIGH SPEED (CDMA2000 1xEV-DO MC-Rev.A)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "126 mm H , 62 mm W , 11.9 mm D",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 (Upgradable to 2.2)",
+      "CPU": "1.0 GHz Qualcomm Snapdragon S1 QSD8650"
+    },
+    "Memory": {
+      "Storage": "400 MB",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "4.0 in (102 mm) TFT LCD, 854 × 480 px (Wide VGA+)"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 MP CMOS, autofocus, HD (1280×720) video recording"
+    },
+    "Battery": {
+      "Battery": "1300 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "main_mp": 12.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1300,
+    "os": "Android 2.1",
+    "weight_g": 149,
+    "thickness_mm": 11.9,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Fujitsu Regza Phone IS04",
+      "url": "https://en.wikipedia.org/wiki/Fujitsu_Regza_Phone_IS04"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Fujitsu Regza Phone IS04\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Fujitsu Regza Phone IS04",
+    "revid": 1368357072
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

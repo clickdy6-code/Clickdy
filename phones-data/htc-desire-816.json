@@ -1,0 +1,90 @@
+{
+  "slug": "htc-desire-816",
+  "brand": "HTC",
+  "name": "Desire 816",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Htc_desire_816_dual_running_android_4.4.2_on_sense_ui.jpg/500px-Htc_desire_816_dual_running_android_4.4.2_on_sense_ui.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Htc_desire_816_dual_running_android_4.4.2_on_sense_ui.jpg/250px-Htc_desire_816_dual_running_android_4.4.2_on_sense_ui.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Desire 816",
+      "credit": "Skralam810, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htc_desire_816_dual_running_android_4.4.2_on_sense_ui.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014",
+      "Series": "HTC Desire"
+    },
+    "Network": {
+      "Technology": "HSDPA (3G) 850/900/2100, GSM (2G) 850 / 900 / 1800 / 1900, LTE (4G) band 3(1800), 7(2600), 8(900), 20(800) - EMEA version, LTE band 1(2100), 3(1800), 7(2600), 8(900) - Asia version, CDMA (1x-RTT/1x-Advanced) 800/1900, (EV-DO Rev. A) 1900, LTE (4G) band 25 (1900), band 26 (800), band 41 (2500) - US version"
+    },
+    "Body": {
+      "Dimensions": "156.6 mm H , 78.7 mm W , 7.9 mm D",
+      "Weight": "165 g"
+    },
+    "Platform": {
+      "Operating system": "Android v4.4.2 (KitKat) (Original), Android v5.0.2 (Lollipop) (first major update), HTC Sense 6.0, Upgradeable to Android 6.0, HTC Sense 7.0, Upgradeable to Android 12 via custom ROM",
+      "CPU": "Quad-core Qualcomm Snapdragon 400, 1.6 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "8 GB, 1.5 GB RAM",
+      "Card slot": "MicroSD up to 128 GB"
+    },
+    "Display": {
+      "Display": "Super LCD2 capacitive touchscreen, 16M colors, 720 x 1280 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, 4160 x 3120 pixels, BSi sensor, f/2.2, 28 mm lens, 1080p video recording, autofocus, LED flash, check quality",
+      "Front camera": "5 MP, BSI sensor, 1080p video recording"
+    },
+    "Sound": {
+      "Sound": "MP3"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 2600 mAh battery, Stand-by:, Up to 737 h (3G), Talk time:, Up to 21 h (3G)"
+    },
+    "Connectivity": {
+      "Connectivity": "micro usb v2.0, Wi-Fi 802.11 b/g/n, DLNA, hotspot"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      5,
+      8
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 165,
+    "thickness_mm": 7.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire 816",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_816"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire 816\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire 816",
+    "revid": 1364131266
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

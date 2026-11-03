@@ -1,0 +1,97 @@
+{
+  "slug": "foxconn-iphone-se",
+  "brand": "Foxconn",
+  "name": "IPhone SE",
+  "status": "published",
+  "announced": "2022-03-18",
+  "released": "2022-03-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/IPhone_SE_%282nd_generation%29_white_vector.svg/500px-IPhone_SE_%282nd_generation%29_white_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/IPhone_SE_%282nd_generation%29_white_vector.svg/250px-IPhone_SE_%282nd_generation%29_white_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn IPhone SE",
+      "credit": "TheGoldenBox, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_SE_(2nd_generation)_white_vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-03-18",
+      "Series": "iPhone",
+      "Predecessor": "iPhone SE (2nd generation)",
+      "Successor": "iPhone 16e"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, EVDO, HSPA+, 4G LTE, 5G NR",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "138.4xx67.3xx7.3 mm",
+      "Weight": "144 g",
+      "Other": "FaceTime Audio / Video"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 15.4",
+      "Chipset": "Apple A15 Bionic"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X RAM",
+      "Storage": "64, 128, or 256 GB NVMe"
+    },
+    "Display": {
+      "Display": "4.7 in True Tone Retina HD display with IPS technology, pixel resolution (326 ppi), 1400:1 contrast ratio (typical), 625 nits max brightness (typical), with dual-ion exchange-strengthened glass and [[Force Touch"
+    },
+    "Cameras": {
+      "Rear camera": "12 Megapixel, MP, f/1.8 (Wide-angle lens, wide), PDAF, OIS, Quad-LED dual-tone flash, High-dynamic-range, HDR, panorama, 4K resolution, 4K@24/25/30/60 fps, 1080p@25/30/60/120/240 fps, HDR, OIS, stereo sound rec.",
+      "Front camera": "7 Megapixel, MP, f/2.2, 1080p@30/120 fps; gyro-EIS, HDR"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "3.88 V 7.82 W⋅h (2018 mA⋅h) Built-in rechargeable non-removable Lithium‑ion battery",
+      "Charging": "Lightning connector (fast-charge capable up to 18 W), or Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Near-field communication (NFC), Lightning connector, Bluetooth 5.0, Wi-Fi 6 (802.11ax), Voice over LTE (VoLTE), Wi‑Fi calling, GPS, GNSS, Express Cards with power reserve"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "Retina",
+    "peak_nits": 625,
+    "chipset": "Apple A15 Bionic",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      256
+    ],
+    "wireless_w": 7.82,
+    "wired_w": 18,
+    "os": "iOS 15.4",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "esim": true,
+    "weight_g": 144,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone SE (3rd generation)",
+      "url": "https://en.wikipedia.org/wiki/IPhone_SE_%283rd_generation%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone SE (3rd generation)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone SE (3rd generation)",
+    "revid": 1382889849
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

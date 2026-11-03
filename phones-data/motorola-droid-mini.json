@@ -1,0 +1,91 @@
+{
+  "slug": "motorola-droid-mini",
+  "brand": "Motorola",
+  "name": "Droid Mini",
+  "status": "published",
+  "announced": "2013-07-23",
+  "released": "2013-07-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Motorola_Droid_Mini_XT1030_Red.jpg/500px-Motorola_Droid_Mini_XT1030_Red.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Motorola_Droid_Mini_XT1030_Red.jpg/250px-Motorola_Droid_Mini_XT1030_Red.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid Mini",
+      "credit": "Steven H. Keys, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Droid_Mini_XT1030_Red.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-07-23",
+      "Series": "Motorola Razr , Droid",
+      "Predecessor": "Droid Razr M",
+      "Successor": "Moto E (1st generation), Moto G (2nd generation)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "121.3 mm H , 61.3 mm W , 8.9 mm D",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2.2 \"Jelly Bean\", Current:, Android 4.4.2 \"KitKat\"",
+      "Chipset": "Motorola X8 Mobile Computing System",
+      "CPU": "1.7 GHz dual-core Qualcomm 8960 Pro",
+      "GPU": "400 MHz quad-core Adreno 320"
+    },
+    "Memory": {
+      "RAM": "2GB Dual-channel, 500 MHz LPDDR2 RAM",
+      "Storage": "16 GB internal flash memory"
+    },
+    "Display": {
+      "Display": "4.3 in diagonal, 16:9 aspect ratio widescreen, LCD capacitive, multi-touch touchscreen, 1280x720 pixels (342 ppi), 16 M colors"
+    },
+    "Cameras": {
+      "Rear camera": "10 MP , 1080p video recording (1920×1080, 30 fps) Slomo 1280×720 at 60fps",
+      "Front camera": "2 MP"
+    },
+    "Sound": {
+      "Sound": "Speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "2,000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "chipset": "Motorola X8 Mobile Computing System",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 10,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 2,
+    "battery_mah": 2000,
+    "os": "Android 4.2",
+    "weight_g": 130,
+    "thickness_mm": 8.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid Mini",
+      "url": "https://en.wikipedia.org/wiki/Droid_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid Mini",
+    "revid": 1361472911
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

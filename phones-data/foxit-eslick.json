@@ -1,0 +1,49 @@
+{
+  "slug": "foxit-eslick",
+  "brand": "Foxit",
+  "name": "ESlick",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Dimensions": "188 × 118 × 9.2mm (7.4\" × 4.7\" × 0.4\")",
+      "Weight": "180 g (6.4 oz)"
+    },
+    "Platform": {
+      "Operating system": "Linux based"
+    },
+    "Memory": {
+      "RAM": "512MB internal, SD-card max 4 GB"
+    },
+    "Display": {
+      "Display": "6\" E Ink Vizplex screen 600 x 800 pixel resolution, 4-level gray scale"
+    },
+    "Battery": {
+      "Battery": "lithium"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "ram_gb": [
+      4
+    ],
+    "weight_g": 180
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ESlick",
+      "url": "https://en.wikipedia.org/wiki/ESlick"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ESlick\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ESlick",
+    "revid": 1383145051
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

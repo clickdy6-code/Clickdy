@@ -1,0 +1,93 @@
+{
+  "slug": "motorola-moto-g7",
+  "brand": "Motorola",
+  "name": "Moto G7",
+  "status": "published",
+  "announced": "2019-02-07",
+  "released": "2019-02-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Moto_G7_Plus.png/500px-Moto_G7_Plus.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Moto_G7_Plus.png/250px-Moto_G7_Plus.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto G7",
+      "credit": "AnVuong1222004 (11), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Moto_G7_Plus.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "7 February 2019",
+      "Series": "Moto G Family",
+      "Predecessor": "Moto G6",
+      "Successor": "Moto G8"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 9 \"Pie\", Upgradable to Android 10",
+      "Chipset": "G7 Play, G7 Power and G7: Snapdragon 632, G7 Plus: Snapdragon 636",
+      "GPU": "G7 Play, G7 Power and G7: Adreno 506, G7 Plus: Adreno 509"
+    },
+    "Memory": {
+      "RAM": "G7 Play: 2 GB LPDDR3, G7 Power and G7: 4GB LPDDR3, G7 Plus: 4GB LPDDR4",
+      "Storage": "G7 Play: 32 GB, G7 Power, G7 and G7 Plus: 64 GB",
+      "Card slot": "micro SD expansion slot"
+    },
+    "Display": {
+      "Display": "G7 Play: 5.7\" TFT IPS, G7 Power: 6.2\" LTPS IPS, G7 and G7 Plus: 6.24\" LTPS IPS"
+    },
+    "Cameras": {
+      "Rear camera": "G7 Play: 13 MP, G7 Power: 12 MP, G7: 12 MP+5 MP, G7 Plus: 16 MP + 5MP",
+      "Front camera": "G7 Play, G7 Power and G7: 8 MP, G7 Plus: 12 MP"
+    },
+    "Sound": {
+      "Sound": "Dolby Audio"
+    },
+    "Battery": {
+      "Battery": "G7 Play, G7 and G7 Plus: 3000mAh, G7 Power: 5000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "2G EDGE, GPRS/3G HSPA, HSPA+/4G LTE, LTE+ broadcast FM stereo"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "TFT",
+    "chipset": "G7 Play",
+    "ram_gb": [
+      2,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto G7",
+      "url": "https://en.wikipedia.org/wiki/Moto_G7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto G7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto G7",
+    "revid": 1377492885
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

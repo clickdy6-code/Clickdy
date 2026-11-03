@@ -1,0 +1,109 @@
+{
+  "slug": "huawei-nova-y61",
+  "brand": "Huawei",
+  "name": "Nova Y61",
+  "status": "published",
+  "announced": "2022-11-01",
+  "released": "2022-11-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Huawei_Nova_Y61_front.jpg/500px-Huawei_Nova_Y61_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Huawei_Nova_Y61_front.jpg/250px-Huawei_Nova_Y61_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Nova Y61",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Nova_Y61_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Nova Y61: 2022-11-01, Enjoy 50z: 2022-12-09, Nova Y62 / Y62 Plus: 2023-12",
+      "Series": "Nova / Enjoy",
+      "Predecessor": "Huawei Nova Y60, Huawei Enjoy 20e",
+      "Successor": "Huawei Nova Y63, Huawei Enjoy 70z"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G LTE",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.28 × 75.8 × 8.94 mm",
+      "Weight": "188 g",
+      "Other": "Fingerprint (side-mounted), proximity sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Nova Y61 / Y62 / Y62 Plus: Android 11 (no Google Play Services), EMUI 12, Enjoy 50z: HarmonyOS 2.0",
+      "Chipset": "Huawei HiSilicon KIRIN 710",
+      "CPU": "Octa-core , 4x ARM Cortex A73 @ 2.2GHz and 4x ARM Cortex A53 @ 1.7GHz",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "RAM": "Nova Y61: 4 / 6 GB, Nova Y62: 4 GB, Nova Y62 Plus: 8 GB, Enjoy 50z: 6 / 8 GB, LPDDR4X",
+      "Storage": "Nova Y61: 64 GB, Nova Y62 / Y62 Plus: 128 GB, Enjoy 50z: 128 / 256 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.52\", 1600 × 720 (HD+), 20:9, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, 26mm (wide), AF + 2 MP, (macro) + 2 MP, (depth), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, (wide), Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "22.5W Huawei SuperCharge"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.1 (A2DP, LE), NFC (Nova Y61 EVE-LX9N), Wi-Fi 802.11 a/b/g/n/ac (dual-band), GPS, A-GPS, GLONASS, Galileo, BeiDou, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.52,
+    "display_type": "IPS LCD",
+    "chipset": "Huawei HiSilicon KIRIN 710",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 22.5,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 188,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova Y61",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_Y61"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova Y61\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova Y61",
+    "revid": 1361473947
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

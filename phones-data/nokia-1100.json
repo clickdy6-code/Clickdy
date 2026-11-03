@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-1100",
+  "brand": "Nokia",
+  "name": "1100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Nokia1100_new.jpg/500px-Nokia1100_new.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Nokia1100_new.jpg/250px-Nokia1100_new.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 1100",
+      "credit": "Original uploader was Haxorjoe at English Wikipedia, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia1100_new.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2003",
+      "Discontinued": "2010",
+      "Predecessor": "Nokia 3310",
+      "Successor": "Nokia 1110"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "106 mm H , 46 mm W , 20 mm D",
+      "Weight": "86 g",
+      "Other": "Flashlight"
+    },
+    "Platform": {
+      "Operating system": "Series 30",
+      "CPU": "UPP2M, ARM7"
+    },
+    "Memory": {
+      "RAM": "256 KB SRAM",
+      "Storage": "2 MB"
+    },
+    "Display": {
+      "Display": "1.35 in diagonal STN LCD, 96 × 65 px"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 2.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-5C, 850 mAh, 3.7 V user replaceable Li-ion",
+      "Charging": "Nokia 3.5-mm DC Charging Interface"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 850,
+    "five_g": false,
+    "weight_g": 86,
+    "thickness_mm": 20,
+    "year": 2003
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1100",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1100",
+    "revid": 1361476976
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

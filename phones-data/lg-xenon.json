@@ -1,0 +1,63 @@
+{
+  "slug": "lg-xenon",
+  "brand": "LG",
+  "name": "Xenon",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/63/LGgr500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/63/LGgr500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG Xenon",
+      "credit": "simplified complication from Omak, WA, USA, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LGgr500.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "UMTS / HSDPA / EDGE / GPRS GSM 850 / 900 / 1800 / 1900"
+    },
+    "Body": {
+      "Form factor": "Slider, Touch",
+      "Dimensions": "4.16 x 2.11 x 0.62 inches",
+      "Weight": "3.81 ounces (108 g)"
+    },
+    "Platform": {
+      "Operating system": "Proprietary"
+    },
+    "Memory": {
+      "Card slot": "microSD card ( holds up to a 16gb)"
+    },
+    "Display": {
+      "Display": "240 x 400 pixels 262k colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixels , Flash"
+    },
+    "Battery": {
+      "Battery": "950 mAh , 4 hours talk time , 11 days stand by"
+    }
+  },
+  "key": {
+    "battery_mah": 950,
+    "five_g": false,
+    "weight_g": 108
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Xenon (GR500)",
+      "url": "https://en.wikipedia.org/wiki/LG_Xenon_%28GR500%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Xenon (GR500)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Xenon (GR500)",
+    "revid": 1361475657
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

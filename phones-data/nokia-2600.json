@@ -1,0 +1,64 @@
+{
+  "slug": "nokia-2600",
+  "brand": "Nokia",
+  "name": "2600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Nokia_2600.png/500px-Nokia_2600.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Nokia_2600.png/250px-Nokia_2600.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 2600",
+      "credit": "Pypaertv, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2600.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 2300",
+      "Successor": "Nokia 1650"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 x 46 x 201mm, 80 cc",
+      "Weight": "96g"
+    },
+    "Platform": {
+      "Operating system": "Series 30"
+    },
+    "Memory": {
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "128 x 128 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "No",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-5C , Li-Ion 850 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 850,
+    "weight_g": 96
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2600",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2600",
+    "revid": 1376088092
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

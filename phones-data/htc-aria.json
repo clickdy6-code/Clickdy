@@ -1,0 +1,67 @@
+{
+  "slug": "htc-aria",
+  "brand": "HTC",
+  "name": "Aria",
+  "status": "published",
+  "announced": "2010-06-20",
+  "released": "2010-06-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 20, 2010"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "104.14 mm (h), 58.42 mm (w), 11.68 mm (d)",
+      "Weight": "115g (4.05 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 (Eclair) and HTC Sense (with Friend Stream), upgradable to 2.2 via HTC, or 2.3 via CyanogenMod 7",
+      "CPU": "600 MHz Qualcomm MSM7227"
+    },
+    "Memory": {
+      "RAM": "384 MB DDR RAM",
+      "Storage": "Flash memory: 512 MB, microSD memory card (SD 2.0 compatible), microSD slot supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "320 × 480px; 3.2 inch; HVGA capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel with auto focus"
+    },
+    "Battery": {
+      "Battery": "1200 mAh, Li-ion; 6 hrs talk time, 372 hrs standby time"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM 850/900/1800/1900MHz, HSDPA, EDGE, GPRS; Wi-Fi (802.11b/g); Bluetooth 2.1 with A2DP Stereo and EDR; A-GPS; FM tuner, 3.5 mm stereo audio jack, micro-USB"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1200,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115,
+    "thickness_mm": 11.68,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Aria",
+      "url": "https://en.wikipedia.org/wiki/HTC_Aria"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Aria\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Aria",
+    "revid": 1378929881
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

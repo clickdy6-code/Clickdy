@@ -1,0 +1,92 @@
+{
+  "slug": "lg-prada-3-0",
+  "brand": "LG",
+  "name": "Prada 3.0",
+  "status": "published",
+  "announced": "2011-12-28",
+  "released": "2011-12-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/LG_PRADA_3.0_%28cropped%29.jpg/500px-LG_PRADA_3.0_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/LG_PRADA_3.0_%28cropped%29.jpg/250px-LG_PRADA_3.0_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Prada 3.0",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_PRADA_3.0_(cropped).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-12-28",
+      "Series": "Prada Phone By LG",
+      "Predecessor": "LG Prada II",
+      "Successor": "LG Optimus 4X HD (indirect), LG Optimus G (indirect)"
+    },
+    "Network": {
+      "Technology": "2G: 850/900/1800/1900 MHz, 3G: 900/1900/2100 MHz (international LG-P940), CDMA 800 MHz (global/CDMA), Korean PCS CDMA 1.8 GHz (LG U+)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "127.5 x 69 x 8.5 mm",
+      "Weight": "138g",
+      "Other": "FM radio, Mobile terrestrial TV (market-specific):, South Korea: DMB, Japan: Oneseg"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3",
+      "CPU": "1 GHz dual-core ARM Cortex-A9 SoC CPU; TI OMAP4430",
+      "GPU": "PowerVR SGX540"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB (Global), 16 GB (South Korea), 4 GB (Japan/NTT DoCoMo)",
+      "Card slot": "MicroSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "IPS nova 480 x 800 pixels, 4.3\", 800 nits"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels with LED flash",
+      "Front camera": "1.3 megapixels"
+    },
+    "Battery": {
+      "Battery": "1540 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot; DLNA; Bluetooth v3.0 with A2DP & EDR; NFC; microUSB v2.0; MHL (optional)"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "IPS",
+    "peak_nits": 800,
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4,
+      8,
+      16
+    ],
+    "battery_mah": 1540,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 138,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Prada 3.0",
+      "url": "https://en.wikipedia.org/wiki/LG_Prada_3.0"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Prada 3.0\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Prada 3.0",
+    "revid": 1380824313
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

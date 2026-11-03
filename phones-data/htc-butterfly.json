@@ -1,0 +1,92 @@
+{
+  "slug": "htc-butterfly",
+  "brand": "HTC",
+  "name": "Butterfly",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Au_by_KDDI_HTC_J_butterfly_HTL21_ScreenSide.JPG/500px-Au_by_KDDI_HTC_J_butterfly_HTL21_ScreenSide.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Au_by_KDDI_HTC_J_butterfly_HTL21_ScreenSide.JPG/250px-Au_by_KDDI_HTC_J_butterfly_HTL21_ScreenSide.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Butterfly",
+      "credit": "忘却彼方, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Au_by_KDDI_HTC_J_butterfly_HTL21_ScreenSide.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2013-06"
+    },
+    "Network": {
+      "Technology": "Droid DNA: dual-band CDMA2000, EV-DO Rev. A, 800 1900 MHz, LTE 700 MHz, quad-band GSM, UMTS 850 900 1900 2100 MHz, J Butterfly: quad-band GSM, UMTS 850 900 1900 2100 MHz, LTE"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "143 mm H, 71 mmW, 9.1 mm D",
+      "Weight": "140 g (HTC Droid DNA)"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1 \"Jelly Bean\"",
+      "Chipset": "Snapdragon S4 Pro",
+      "CPU": "Quad-core 1.5 GHz \"Krait\" APQ8064 processor"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB internal",
+      "Card slot": "Expandable up to 32 GB with microSD (J Butterfly only)"
+    },
+    "Display": {
+      "Display": "5 inch \"Super LCD 3\" display, 1920×1080 pixels (441 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, FullHD 1080p video recording at 30 FPS with re-invented zoom",
+      "Front camera": "2.1 MP, HD 720p video recording at 30 FPS"
+    },
+    "Battery": {
+      "Battery": "2020 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.0, WiFi, NFC, DLNA, FeliCa, infrared"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "LCD",
+    "chipset": "Snapdragon S4 Pro",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 2.1,
+    "battery_mah": 2020,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 140,
+    "thickness_mm": 9.1
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Butterfly",
+      "url": "https://en.wikipedia.org/wiki/HTC_Butterfly"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Butterfly\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Butterfly",
+    "revid": 1374211404
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

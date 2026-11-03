@@ -1,0 +1,64 @@
+{
+  "slug": "kyocera-wireless-kyocera-c4700",
+  "brand": "Kyocera Wireless",
+  "name": "Kyocera C4700",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/75/Kyocera_C4700.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Kyocera_C4700.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Kyocera Wireless Kyocera C4700",
+      "credit": "Smarterphone, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kyocera_C4700.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM, UMTS"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "111.6 x 59.6 x 13.2 mm",
+      "Weight": "103 g",
+      "Other": "Touchscreen, Haptic Touch feedback"
+    },
+    "Platform": {
+      "Operating system": "Smarterphone OS 2.4"
+    },
+    "Memory": {
+      "Card slot": "Micro SD"
+    },
+    "Display": {
+      "Display": "240x320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel"
+    },
+    "Battery": {
+      "Battery": "1030 mAh Li-ion"
+    }
+  },
+  "key": {
+    "battery_mah": 1030,
+    "five_g": false,
+    "weight_g": 103
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera C4700",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_C4700"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera C4700\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera C4700",
+    "revid": 1361474795
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

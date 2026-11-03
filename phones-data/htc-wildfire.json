@@ -1,0 +1,79 @@
+{
+  "slug": "htc-wildfire",
+  "brand": "HTC",
+  "name": "Wildfire",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Htcwildfire.JPG/500px-Htcwildfire.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Htcwildfire.JPG/250px-Htcwildfire.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Wildfire",
+      "credit": "Montgomery, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htcwildfire.JPG",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Wildfire",
+      "Predecessor": "HTC Tattoo",
+      "Successor": "HTC Wildfire S , HTC Wildfire X"
+    },
+    "Network": {
+      "Technology": "Europe/Asia Pacific: HSPA/WCDMA: 900/2100 MHz (A3333) or 850/2100 MHz (A3335) or 850/1900 MHz (A3334, also called \"Wildfire A\"); GSM: 850/900/1800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Candybar smartphone",
+      "Dimensions": "Original: 106.75 (4.2) × 60.4 (2.4) × 12.19 (0.48) mm (in) , CDMA ver.: 116.9 (4.6) × 61 (2.4) × 12 (0.47) mm (in)",
+      "Weight": "Original: 118 g , CDMA ver.: 115 g",
+      "Other": "Proximity sensor, FM Radio, Facebook, Twitter, MS Exchange, compass, GPS, A-GPS, Google turn-by-turn navigation, Full Flash support enabled / FlashLite"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 (Eclair) with HTC Sense Upgradable to 2.2, 2.2.1 and 2.3 (CDMA only) via HTC or 2.3.3 and 2.3.7 via CyanogenMod7 or CyanogenMod7.2. (Stable) or Android 4.0.4 (Ice Cream Sandwich) via CyanogenMod 9. (Stable, camera working with the use of power button, No panoramic mode or built in Youtube app)",
+      "CPU": "Qualcomm MSM7225 528 MHz (Overclocked 768 MHz)"
+    },
+    "Memory": {
+      "RAM": "384 MB",
+      "Storage": "512 MB",
+      "Card slot": "Supports up to 32 GB microSD"
+    },
+    "Display": {
+      "Display": "Original: 3.2 in TFT LCD QVGA 240 × 320 capacitive touchscreen , CDMA ver.: 3.2 in TFT LCD 256,000-color 240 × 320 capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixel autofocus with LED flash and geotagging, autofocus"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g); Bluetooth 2.1 with EDR"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "battery_mah": 1300,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 118
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Wildfire",
+      "url": "https://en.wikipedia.org/wiki/HTC_Wildfire"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Wildfire\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Wildfire",
+    "revid": 1376212175
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

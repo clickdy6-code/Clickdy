@@ -1,0 +1,71 @@
+{
+  "slug": "lg-optimus-chat",
+  "brand": "LG",
+  "name": "Optimus Chat",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/LG_Optimus_Chat.jpg/500px-LG_Optimus_Chat.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/LG_Optimus_Chat.jpg/250px-LG_Optimus_Chat.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus Chat",
+      "credit": "LGOC.png: TELUS freak again\nderivative work: Ubcule (talk), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Optimus_Chat.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Optimus"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE Quad-band (850/900/1800/1900) , UMTS/HSPA tri-band (900/1700/2100) , HSDPA 7.2 Mbit/s , GPRS Class 10 (4+1/3+2 slots), 32-48 kbit/s"
+    },
+    "Body": {
+      "Form factor": "Slide",
+      "Other": "Wi-Fi hotspot, USB tethering"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 Froyo",
+      "CPU": "GSM 600 MHz Qualcomm MSM7227 ARM1136EJ-S , CDMA 600 MHz MSM7627 ARM1136EJ-S",
+      "GPU": "Qualcomm Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB Flash EEPROM SDRAM",
+      "Storage": "512 MB ROM (140 or 170 MB user addressable)",
+      "Card slot": "2 GB microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "TFT LCD, 2.8 in diagonal , 240×320 pixels QVGA @ 206 ppi, 3:4 aspect-ratio standard screen , 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "VGA video recording (640×480 px, MPEG4 at 18 fps max.), Auto-focus , Europe and Asia 3-megapixels , United States and Canada 3.15 megapixels (2048×1536 px max.)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS , Bluetooth 2.1 + EDR with A2DP , FM stereo receiver (87.5-108 MHz) with RDS (certain variants) , Micro USB 2.0 , Wi-Fi 802.11b/g"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus Chat",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_Chat"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus Chat\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus Chat",
+    "revid": 1361475227
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

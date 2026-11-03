@@ -1,0 +1,87 @@
+{
+  "slug": "meizu-m3-max",
+  "brand": "Meizu",
+  "name": "M3 Max",
+  "status": "published",
+  "announced": "2016-09-05",
+  "released": "2016-09-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-09-05",
+      "Series": "Meizu M Series"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "163.4 mm H, 81.6 mm W, 7.9 mm D",
+      "Weight": "189 g",
+      "Other": "Dual SIM support with dual standby mode"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS, based on Android 6.0 Marshmallow",
+      "Chipset": "MediaTek Helio P10",
+      "CPU": "Octa-core (4x1.5GHz Cortex-A53, 4x1.0GHz Cortex-A53)",
+      "GPU": "ARM Mali-T860 MP2"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3",
+      "Storage": "64 GB flash memory",
+      "Card slot": "microSD slot (up to 128 GB)"
+    },
+    "Display": {
+      "Display": "6-inch diagonal IPS, 1080x1920 px (296 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13.0 MP, PDAF autofocus, ƒ/2.2 aperture, LED flash, 1080p30 recording",
+      "Front camera": "5.0 MP, ƒ/2.0 aperture"
+    },
+    "Battery": {
+      "Battery": "4100 mAh Li-Ion rechargeable battery, not replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.1 with BLE, Dual-band WiFi (802.11 a/b/g/n/ac)"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "chipset": "MediaTek Helio P10",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 4100,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 189,
+    "thickness_mm": 7.9,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu M3 Max",
+      "url": "https://en.wikipedia.org/wiki/Meizu_M3_Max"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu M3 Max\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu M3 Max",
+    "revid": 1365377137
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

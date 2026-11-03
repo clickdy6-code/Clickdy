@@ -1,0 +1,62 @@
+{
+  "slug": "intex-cloud-fx",
+  "brand": "Intex",
+  "name": "Cloud FX",
+  "status": "published",
+  "announced": "2014-08-23",
+  "released": "2014-08-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-08-23"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115.9 mm H, 62 mm W, 11.8 mm D",
+      "Weight": "104 g"
+    },
+    "Platform": {
+      "Operating system": "Firefox OS"
+    },
+    "Memory": {
+      "RAM": "128 MiB"
+    },
+    "Display": {
+      "Display": "3.5-inch screen (diagonally) , 320×480 pixel resolution at 163 ppi , 2:3 aspect ratio , 18-bit (262,144-color) LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP with geotagging"
+    },
+    "Sound": {
+      "Sound": "Two speakers , TRRS headphone jack, 20 Hz to 20 kHz frequency response (internal, headset) , Microphone"
+    },
+    "Battery": {
+      "Battery": "Built-in rechargeable 3.7 V 1 Ah"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "weight_g": 104,
+    "thickness_mm": 11.8,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Intex Cloud FX",
+      "url": "https://en.wikipedia.org/wiki/Intex_Cloud_FX"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Intex Cloud FX\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Intex Cloud FX",
+    "revid": 1370510965
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "ninetology-black-pearl-ii",
+  "brand": "Ninetology",
+  "name": "Black Pearl II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Touch"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800, GPRS/EDGE class B, multislot class 33, UMTS 900 / 2011, HSDPA Cat9, 10.2 Mbps"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "Width: 65.5 mm, Height: 129.0 mm, Thickness: 10.3 mm",
+      "Weight": "139 g"
+    },
+    "Platform": {
+      "Operating system": "Android Ice Cream Sandwich 4.0",
+      "CPU": "Dual Core 1.0 GHz"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM, 4 GB ROM",
+      "Storage": "4 GB internal memory (1GB available to end user)",
+      "Card slot": "up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "Capacitive, IPS LCD 800x 480px WVGA, 4.0\", 16M Colors"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP",
+      "Front camera": "0.3 MP"
+    },
+    "Battery": {
+      "Battery": "1600 mAh Li-Ion battery (removable), micro USB and 2 mm DC plug charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g/n (2.4 GHz), bluetooth 3.0, micro USB 2.0, 3.5 mm AV connector (audio in/out), Dual SIM card Capability, FM receiver"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.3,
+    "battery_mah": 1600,
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 139,
+    "thickness_mm": 10.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Ninetology Black Pearl II",
+      "url": "https://en.wikipedia.org/wiki/Ninetology_Black_Pearl_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Ninetology Black Pearl II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Ninetology Black Pearl II",
+    "revid": 1361476843
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

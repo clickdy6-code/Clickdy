@@ -1,0 +1,86 @@
+{
+  "slug": "meizu-m6",
+  "brand": "Meizu",
+  "name": "M6",
+  "status": "published",
+  "announced": "2017-09-22",
+  "released": "2017-09-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-09-22",
+      "Series": "Meizu M Series",
+      "Predecessor": "Meizu M5",
+      "Successor": "Meizu M8"
+    },
+    "Network": {
+      "Technology": "GSM, 3G 4G (LTE)",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "148.2 × 72.8 × 8.3 mm",
+      "Weight": "143 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 7.0 Nougat + Flyme 6.2 (China variant)/ Flyme 6.2.0.3G (International variant), Current: Android 7.0 Nougat + Flyme 7.1.2.0G (International)/ Flyme 8.0.5.0A (Chinese variant(",
+      "Chipset": "MediaTek MT6750 (28 nm)",
+      "CPU": "Octa-core (4×1.5 GHz Cortex-A53 & 4×1.0 GHz Cortex-A53)",
+      "GPU": "Mali-T860"
+    },
+    "Memory": {
+      "Storage": "16/32 GB, eMMC 5.1"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.2\", 1280 × 720 (HD), 16:9, 282 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP Sony IMX278, f/2.2, 28 mm (wide angle), 1/3.06\", 1.12 μm, PDAF, 2-LED dual-tone flash, Video: 1080p@30fps",
+      "Front camera": "8 MP OmniVision OV8856, f/2.0 (Wide-angle), 1/4.0\", 1.12 μm, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 3070 mAh, non-removable",
+      "Charging": "Fast charging 24W mCharge"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 4.1 (A2DP, LE), Wi-Fi 802.11 a/b/g/n (dual-band, hotspot), GPS, A-GPS, GLONASS, Digital compass"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6750",
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3070,
+    "wired_w": 24,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 143,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu M6",
+      "url": "https://en.wikipedia.org/wiki/Meizu_M6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu M6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu M6",
+    "revid": 1361475870
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

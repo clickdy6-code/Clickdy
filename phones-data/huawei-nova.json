@@ -1,0 +1,80 @@
+{
+  "slug": "huawei-nova",
+  "brand": "Huawei",
+  "name": "Nova",
+  "status": "published",
+  "announced": "2016-09-01",
+  "released": "2016-09-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-09-01",
+      "Successor": "Huawei Nova 2"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 2G CDMA 1xRTT – 800, 850, 1900 MHz, 3G TD-SCDMA – 1900, 2000 MHz, 3G UMTS – 800, 850, 900, 1700, 1900, 2100 MHz, 3G CDMA2000 1xEV-DO, 4G LTE – Bands 1/2/3/4/5/7/8/12/17/18/19/20/28/38/40"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "141.2 mm H, 69.1 mm W, 7.1 mm D",
+      "Weight": "146 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 \"Marshmallow\" with Emotion UI 4.1",
+      "Chipset": "Qualcomm Snapdragon 625"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3 RAM (worldwide), 4 GB LPDDR3 RAM (China)",
+      "Storage": "32 GB (worldwide), 64 GB (China)",
+      "Card slot": "microSD up to 128 GB"
+    },
+    "Display": {
+      "Display": "5-inch 1080 x 1920 pixels IPS display, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, with autofocus",
+      "Front camera": "8 MP, with fixed focus"
+    },
+    "Battery": {
+      "Battery": "4.4 V, 3020 mAh (13.29 Wh) Li-ion battery"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 625",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3020,
+    "os": "Android 6.0",
+    "five_g": false,
+    "weight_g": 146,
+    "thickness_mm": 7.1,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova",
+    "revid": 1377038754
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

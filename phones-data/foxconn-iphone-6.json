@@ -1,0 +1,93 @@
+{
+  "slug": "foxconn-iphone-6",
+  "brand": "Foxconn",
+  "name": "IPhone 6",
+  "status": "published",
+  "announced": "2014-09-19",
+  "released": "2014-09-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/IPhone_6_Space_Gray.svg/500px-IPhone_6_Space_Gray.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/IPhone_6_Space_Gray.svg/250px-IPhone_6_Space_Gray.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn IPhone 6",
+      "credit": "https://icon-park.com/author/kos/, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_6_Space_Gray.svg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-09-19",
+      "Discontinued": "2016-09-07 (except India and United States), 2018-09-12 (United States and India)",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 5s",
+      "Successor": "iPhone 6s / iPhone 6s Plus"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, EVDO, HSPA+, 4G, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "6: 138.1xx67.0xx6.9 mm, 6 Plus: 158.1xx77.8xx7.1 mm",
+      "Weight": "6: 129 g, 6 Plus: 172 g",
+      "Other": "FaceTime audio- or video-calling, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 8#8.0, iOS 8.0, Current: IOS 12, iOS 12.5.8, Unofficial: IOS 13, iOS 13",
+      "Chipset": "Apple A8"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR3 RAM",
+      "Storage": "16, 32 (iPhone 6 only), 64, 128 GB eMMC"
+    },
+    "Display": {
+      "Display": "6: 4.7 in Retina HD: LED-backlit IPS LCD, 1334×750 px resolution (326 ppi) (128 px/cm) pixel density, 16:9 aspect ratio, 1400:1 typ. contrast ratio, 6 Plus: 5.5 in Retina HD: LED-backlit IPS LCD 1920×1080 (401 ppi) (158 px/cm) pixel density, 16:9 aspect ratio, 1300:1 typ. contrast ratio, All models: 500 cd/m² max. brightness (typical), with dual-ion exchange-strengthened glass"
+    },
+    "Cameras": {
+      "Rear camera": "6: 8 MP (3264×2448 px max), True Tone flash, f/2.2 aperture, 1080p HD video recording (30 fps or 60 fps), slow-motion video (720p 120 fps or 240 fps)",
+      "Front camera": "1.2 MP (1280×960 px max), 720p video recording (30 fps), f/2.2 aperture"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "6: 3.82 V 6.91 W·h (1,810 mA·h) lithium polymer battery, 6 Plus: 3.82 V 11.1 W·h (2,915 mA·h) lithium polymer battery"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "Retina",
+    "chipset": "Apple A8",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.2,
+    "os": "iOS 8",
+    "five_g": false,
+    "weight_g": 129,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 6",
+      "url": "https://en.wikipedia.org/wiki/IPhone_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 6",
+    "revid": 1383230129
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

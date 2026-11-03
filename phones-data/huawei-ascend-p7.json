@@ -1,0 +1,91 @@
+{
+  "slug": "huawei-ascend-p7",
+  "brand": "Huawei",
+  "name": "Ascend P7",
+  "status": "published",
+  "announced": "2014-06-12",
+  "released": "2014-06-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Huawei_P7.jpg/500px-Huawei_P7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Huawei_P7.jpg/250px-Huawei_P7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Ascend P7",
+      "credit": "Matej.vondracek, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_P7.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-06-12",
+      "Discontinued": "April 2015",
+      "Series": "Huawei Ascend, Huawei P-series",
+      "Predecessor": "Huawei Ascend P6",
+      "Successor": "Huawei P8"
+    },
+    "Network": {
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Dimensions": "139.8 × 68.8 × 6.5 mm",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.2 \"KitKat\" with EMUI v2.3 , Current: Android 5.1.1 \"Lollipop\" with EMUI v3.1",
+      "Chipset": "HiSilicon Kirin 910T",
+      "CPU": "Quad-core 1.8 GHz Cortex-A9",
+      "GPU": "Mali-450"
+    },
+    "Memory": {
+      "RAM": "2 GB (RAM)",
+      "Storage": "16 GB (ROM) + expandable with microSD memory card (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "5.0 inch 1920x1080 px LED-backlit IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "13-MP autofocus, LED flash",
+      "Front camera": "8-MP"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 2500 mAh",
+      "Charging": "NA"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.0 with A2DP, microUSB 2.0, 3.5 mm audio jack, a-GPS and GLONASS, Wi-Fi 802.11 b/g/n, NFC, GSM 800 / 850 / 900 / 1800 / 1900 HSPA 850 / 1900 / 2100 / 2600"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "HiSilicon Kirin 910T",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      64
+    ],
+    "battery_mah": 2500,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 124,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ascend P7",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ascend_P7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ascend P7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ascend P7",
+    "revid": 1364509813
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

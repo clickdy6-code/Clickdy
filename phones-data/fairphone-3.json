@@ -1,0 +1,95 @@
+{
+  "slug": "fairphone-3",
+  "brand": "Fairphone",
+  "name": "3",
+  "status": "published",
+  "announced": "2019-09-03",
+  "released": "2019-09-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Fairphone_3_Angle_%2848858511188%29_%28cropped%29.png/500px-Fairphone_3_Angle_%2848858511188%29_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Fairphone_3_Angle_%2848858511188%29_%28cropped%29.png/250px-Fairphone_3_Angle_%2848858511188%29_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Fairphone 3",
+      "credit": "Fairphone, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fairphone_3_Angle_(48858511188)_(cropped).png",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09-03",
+      "Predecessor": "Fairphone 2",
+      "Successor": "Fairphone 4"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158 mm H, 71.8 mm W, 9.89 mm D",
+      "Weight": "189 g",
+      "Other": "Accelerometer, gyrometer, digital compass, proximity sensor, ambient light sensor, dual SIM"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Pie, Android 9 \"Pie\" (Fairphone 3) / Android 10 (Fairphone 3+), Upgradable: Android 11, Android 11 \"Red Velvet Cake\" / Android 13, Android 13 \"Tiramisu\", Other: LineageOS (upgradable to Android 15) / /e/OS",
+      "Chipset": "Qualcomm Snapdragon 632",
+      "CPU": "4 + 4 cores (1.8 GHz Kryo 250 Gold + 1.8 GHz Kryo 250 Silver)",
+      "GPU": "Qualcomm Adreno 506"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "5.65 in diagonal IPS LCD 1080×2160 px FullHD+ 427 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "FP3: 12 MP ƒ/1.8 Sony IMX363 Exmor CMOS sensor with dual-LED flash , FP3+: 48 MP (12 MP effective output) ƒ/1.79 Samsung ISOCELL GM1 CMOS sensor (Fairphone 3+) with dual-tone LED flash",
+      "Front camera": "8 MP (ƒ/2) (Fairphone 3) / 16 MP (ƒ/2) (Fairphone 3+)"
+    },
+    "Battery": {
+      "Battery": "3060 / 3000mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "2G (GSM/GPRS/EDGE): 850/900/1,800/1,900 MHz, 3G (HSPA+): 800/850/900/1700/1900/2100 MHz, LTE, Wi-Fi: 2.4/5.0 GHz, 802.11a/b/g/n/ac, Bluetooth: 5.0 LE, Wi-Fi Hotspot, USB-C with support for USB OTG"
+    }
+  },
+  "key": {
+    "display_in": 5.65,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 632",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 189,
+    "thickness_mm": 9.89,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Fairphone 3",
+      "url": "https://en.wikipedia.org/wiki/Fairphone_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Fairphone 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Fairphone 3",
+    "revid": 1376816030
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

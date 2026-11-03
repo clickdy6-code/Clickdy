@@ -1,0 +1,73 @@
+{
+  "slug": "foxconn-nokia-5-1",
+  "brand": "Foxconn",
+  "name": "Nokia 5.1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-07",
+      "Predecessor": "Nokia 5",
+      "Successor": "Nokia 5.3"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "151.1 mm H , 70.7 mm W , 8.2 mm D",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.0 \"Oreo\", Current: Android 10, (Android One)",
+      "Chipset": "MediaTek MT6755S (Helio P18)",
+      "CPU": "Octa-core (4×2.0 GHz & 4×1.2 GHz) Cortex-A53",
+      "GPU": "Mali-T860 MP2"
+    },
+    "Memory": {
+      "RAM": "2 or 3 GB RAM",
+      "Storage": "16 or 32 GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "2160×1080 1080p IPS LCD capacitive touchscreen, Gorilla Glass 3, 5.5 in, 439 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "16",
+      "Front camera": "8"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 2970 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6755S",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2970,
+    "os": "Android 8.0",
+    "weight_g": 150,
+    "thickness_mm": 8.2,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5.1",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5.1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5.1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5.1",
+    "revid": 1361477328
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

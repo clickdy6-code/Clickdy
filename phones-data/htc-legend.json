@@ -1,0 +1,83 @@
+{
+  "slug": "htc-legend",
+  "brand": "HTC",
+  "name": "Legend",
+  "status": "published",
+  "announced": "2010-04-01",
+  "released": "2010-04-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/HTC_Legend.png/500px-HTC_Legend.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/HTC_Legend.png/250px-HTC_Legend.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Legend",
+      "credit": "John Bullchicken, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Legend.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "1 April 2010",
+      "Series": "A Series",
+      "Predecessor": "HTC Hero",
+      "Successor": "HTC One V"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 MHz HSPA/WCDMA 900 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "112 mm H, 56.3 mm W, 11.5 mm D",
+      "Weight": "126 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 \"Eclair\" (upgradable to 2.2 \"Froyo\") with HTC Sense (unofficially upgradable to 2.3.7 \"Gingerbread\" with CyanogenMod 7)",
+      "CPU": "Qualcomm MSM 7227 600 MHz processor"
+    },
+    "Memory": {
+      "RAM": "384 MB RAM, 512 MB ROM",
+      "Storage": "microSD memory card (SD 2.0 compatible), microSD slot: supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "320 × 480 px (0.15 megapixels), 3.2 in, 180 PPI, HVGA, AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel with auto focus, widescreen photo capture, geotagging"
+    },
+    "Battery": {
+      "Battery": "1300 mAh, Internal rechargeable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g), Bluetooth 2.1+EDR"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "AMOLED",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1300,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 126,
+    "thickness_mm": 11.5,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Legend",
+      "url": "https://en.wikipedia.org/wiki/HTC_Legend"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Legend\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Legend",
+    "revid": 1361473327
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

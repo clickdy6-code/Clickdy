@@ -1,0 +1,92 @@
+{
+  "slug": "huawei-p8-lite",
+  "brand": "Huawei",
+  "name": "P8 lite",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Huawei_P8_Lite_2017-3352.jpg/500px-Huawei_P8_Lite_2017-3352.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Huawei_P8_Lite_2017-3352.jpg/250px-Huawei_P8_Lite_2017-3352.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei P8 lite",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_P8_Lite_2017-3352.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 2017",
+      "Series": "Huawei P/Nova/G, Honor Lite",
+      "Predecessor": "Huawei P8 lite, Huawei P9 lite, Honor 7 Lite, Huawei GR3",
+      "Successor": "Honor 9 Lite, Huawei Nova lite 2017, Huawei Nova 2 lite"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "147.2 x 73 x 7.6 mm",
+      "Weight": "147 grams"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0 , EMUI 5.0",
+      "CPU": "HiSilicon Kirin 655 (16 nm), Cortex-A53 (4 x 2.1 GHz + 4 x 1.7 GHz)",
+      "GPU": "Mali-T830 MP2 (implied by Kirin 655)"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "16 GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.2\" (IPS), Full HD 1920x1080"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, AF , LED flash",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable, 3000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g/n), Bluetooth 4.1, GPS"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": false,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P8 lite (2017)",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P8_lite_%282017%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P8 lite (2017)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P8 lite (2017)",
+    "revid": 1373770075
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

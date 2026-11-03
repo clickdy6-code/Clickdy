@@ -1,0 +1,79 @@
+{
+  "slug": "kyocera-urbano-progresso",
+  "brand": "Kyocera",
+  "name": "Urbano Progresso",
+  "status": "published",
+  "announced": "2012-05-30",
+  "released": "2012-05-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 30, 2012",
+      "Series": "URBANO series"
+    },
+    "Network": {
+      "Technology": "3G: CDMA2000 1xMC (800 MHz / 2 GHz), 2G: GSM (900 / 1800 / 1900 MHz)"
+    },
+    "Body": {
+      "Dimensions": "125 mm H , 64 mm W , 10.8 mm D",
+      "Weight": "139 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.3",
+      "Chipset": "Qualcomm Snapdragon S2 MSM8655T",
+      "CPU": "1.4 GHz"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB ROM (2 GB user accessible)",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3.97 in (101 mm) PenTile OLED, 480×800 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "8.08 MP CMOS, autofocus, image stabilization",
+      "Front camera": "0.32 MP CMOS"
+    },
+    "Battery": {
+      "Battery": "1,500 mAh"
+    }
+  },
+  "key": {
+    "display_in": 3.97,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon S2 MSM8655T",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 8.08,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.32,
+    "battery_mah": 1500,
+    "os": "Android 4.0",
+    "five_g": false,
+    "weight_g": 139,
+    "thickness_mm": 10.8,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera Urbano Progresso",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_Urbano_Progresso"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera Urbano Progresso\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera Urbano Progresso",
+    "revid": 1383536023
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "lg-optimus-l7",
+  "brand": "LG",
+  "name": "Optimus L7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/LG_Optimus_L7_pink_edition.jpg/500px-LG_Optimus_L7_pink_edition.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/LG_Optimus_L7_pink_edition.jpg/250px-LG_Optimus_L7_pink_edition.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus L7",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Optimus_L7_pink_edition.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2012",
+      "Series": "Optimus",
+      "Predecessor": "LG Optimus L5",
+      "Successor": "LG Optimus L9, LG Optimus L7 II"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE, 850, 900, 1800, 1900 MHz, 3G UMTS/HSPA+, (21 Mbps down, 5.76 Mbps up) 850, 900, 1900, 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "H 125.5mm, W 67.1mm, D 8.7mm",
+      "Weight": "122 g",
+      "Other": "Quick memo"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.3 Ice Cream Sandwich",
+      "CPU": "1GHz Qualcomm Snapdragon MSM7227A",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB LP DDR2 RAM",
+      "Storage": "4GB eMMC (2.4 GB user available)",
+      "Card slot": "microSD (supports up to 32GB)"
+    },
+    "Display": {
+      "Display": "4.3-inch (480x800) IPS LCD (~217 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP LED flash",
+      "Front camera": "VGA (640x480)"
+    },
+    "Battery": {
+      "Battery": "1,700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, DLNA, Bluetooth v3.0 + A2DP"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1700,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 122,
+    "thickness_mm": 8.7,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus L7",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_L7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus L7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus L7",
+    "revid": 1374016629
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

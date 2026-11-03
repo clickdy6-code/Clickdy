@@ -1,0 +1,109 @@
+{
+  "slug": "honor-gt",
+  "brand": "Honor",
+  "name": "GT",
+  "status": "published",
+  "announced": "2024-12-17",
+  "released": "2024-12-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Honor_GT_backside_%28May_1%2C_2025%29.jpg/500px-Honor_GT_backside_%28May_1%2C_2025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Honor_GT_backside_%28May_1%2C_2025%29.jpg/250px-Honor_GT_backside_%28May_1%2C_2025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Honor GT",
+      "credit": "茅野ふたば, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honor_GT_backside_(May_1,_2025).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-12-17",
+      "Series": "Honor GT series",
+      "Predecessor": "Honor 90 GT",
+      "Successor": "Honor Win RT"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Nano-SIM + Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161x74.2x7.7 mm",
+      "Weight": "196 g",
+      "Other": "Under-display fingerprint, ultrasound proximity, no microSD, no 3.5mm jack"
+    },
+    "Platform": {
+      "Operating system": "Android 15 with MagicOS 9",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 3 (4 nm)",
+      "CPU": "Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)",
+      "GPU": "Adreno 750"
+    },
+    "Memory": {
+      "RAM": "12 GB or 16 GB LPDDR5X",
+      "Storage": "256 GB, 512 GB, or 1 TB UFS 4.0"
+    },
+    "Display": {
+      "Display": "6.7 in AMOLED, 1B colors, 1200 × 2664 px @ 120 Hz, HDR, 1200 nits (HBM), 4000 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, 1.95 (wide), Sony IMX906, 1/1.56\", PDAF, OIS, 12 MP, 2.2, 112° (ultrawide), AF, Rear: 4K, 1080p, gyro-EIS, OIS",
+      "Front camera": "16 MP, 2.5 (wide), Front: 1080p, gyro-EIS, HDR"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, Honor Histen 7.3, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "5300 mAh Si/C Li-Ion",
+      "Charging": "100W wired (60% in 15 min), 5W reverse wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6 and 7 (802.11a/b/g/n/ac/6/7), Bluetooth 5.3 (A2DP, LE, aptX HD), NFC, Infrared port, USB-C 2.0 OTG, GPS (L1+L5), GLONASS, BDS, Galileo"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 4000,
+    "chipset": "Qualcomm Snapdragon 8 Gen 3",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 16,
+    "battery_mah": 5300,
+    "wired_w": 100,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "weight_g": 196,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor GT",
+      "url": "https://en.wikipedia.org/wiki/Honor_GT"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor GT\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor GT",
+    "revid": 1361473644
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

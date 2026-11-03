@@ -1,0 +1,88 @@
+{
+  "slug": "tcl-communication-alcatel-one-touch-fire-e",
+  "brand": "TCL Communication",
+  "name": "Alcatel One Touch Fire E",
+  "status": "published",
+  "announced": "2014-02-23",
+  "released": "2014-02-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Alcatel_One_Touch_Fire_E-front_illuminated_PNr%C2%B01035.jpg/500px-Alcatel_One_Touch_Fire_E-front_illuminated_PNr%C2%B01035.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Alcatel_One_Touch_Fire_E-front_illuminated_PNr%C2%B01035.jpg/250px-Alcatel_One_Touch_Fire_E-front_illuminated_PNr%C2%B01035.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "TCL Communication Alcatel One Touch Fire E",
+      "credit": "D-Kuru, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alcatel_One_Touch_Fire_E-front_illuminated_PNr%C2%B01035.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-02-23",
+      "Discontinued": "Yes",
+      "Series": "Alcatel Fire series",
+      "Predecessor": "Alcatel One Touch Fire"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA",
+      "SIM": "Micro-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "129.00 × 63.50 × 8.20 mm",
+      "Weight": "103 g"
+    },
+    "Platform": {
+      "Operating system": "Firefox OS 1.3",
+      "Chipset": "Qualcomm Snapdragon 200 (MSM8210)",
+      "CPU": "Dual-core 1.2 GHz",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "4.5 in (110 mm) IPS LCD, 540 x 960 pixels, 16:9 ratio (~245 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, AF, LED flash, HDR, Video: 720p@30fps",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1700 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 200",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 1700,
+    "five_g": false,
+    "weight_g": 103,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Alcatel One Touch Fire E",
+      "url": "https://en.wikipedia.org/wiki/Alcatel_One_Touch_Fire_E"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Alcatel One Touch Fire E\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Alcatel One Touch Fire E",
+    "revid": 1374562525
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "infinix-hot-9-pro",
+  "brand": "Infinix",
+  "name": "Hot 9 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Infinix_Hot_9_Pro.png/500px-Infinix_Hot_9_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Infinix_Hot_9_Pro.png/250px-Infinix_Hot_9_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Infinix Hot 9 Pro",
+      "credit": "ThePremiumBoy, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Infinix_Hot_9_Pro.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2020",
+      "Series": "Infinix Hot series"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE",
+      "SIM": "Dual sim (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Dimensions": "165 mm x 76.8 mm x 8.7 mm",
+      "Weight": "185 g (6.53 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with XOS 6.0",
+      "Chipset": "Mediatek Helio P22",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "4GB RAM",
+      "Storage": "64GB internal storage"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD, Size: 6.6 inches, Resolution: 720 × 1600 pixels, PPI: ~266 ppi density, Ratio: 20:9"
+    },
+    "Cameras": {
+      "Rear camera": "Quad Camera: 48 MP + 2 MP + 2 MP +QVGA (Low light sensor), Features: Quad-LED flash, HDR, Panorama, Video: 1080p @ 30fps",
+      "Front camera": "Single Camera: 8 MP, Features: LED flash, Video: 1080p @ 30fps"
+    },
+    "Battery": {
+      "Battery": "5000 mAh Lithium polymer battery, non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, GPS, Bluetooth, Wi-Fi Direct, Wi-Fi Hotspot, FM radio"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek Helio P22",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 185,
+    "thickness_mm": 8.7,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Infinix Hot 9 Pro",
+      "url": "https://en.wikipedia.org/wiki/Infinix_Hot_9_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Infinix Hot 9 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Infinix Hot 9 Pro",
+    "revid": 1361474645
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

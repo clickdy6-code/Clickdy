@@ -1,0 +1,89 @@
+{
+  "slug": "huawei-mediapad-m5",
+  "brand": "Huawei",
+  "name": "Mediapad M5",
+  "status": "published",
+  "announced": "2018-02-25",
+  "released": "2018-02-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-02-25",
+      "Series": "Huawei Mediapad",
+      "Predecessor": "Huawei Mediapad M3"
+    },
+    "Network": {
+      "Technology": "TD-LTE, TD-LTE, FDD-LTE, TD-SCDMA, WCDMA, CDMA2000, CDMA2000, CDMA 1X, GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "M5 10.8: , 258.7 mm H, 171.8 mm W, 7.3 mm D",
+      "Weight": "M5 8: 316 g, M5 10: 498 g, M5 10 Pro: 498 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 \"Oreo\" Upgradable to Android 9 Pie With EMUI 9.1",
+      "Chipset": "Kirin 960",
+      "CPU": "4xCortex A73 2.36GHz + 4xCortex A53 1.8GHz + i7 co-processor",
+      "GPU": "Mali G71 MP8"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4",
+      "Storage": "64 GB UFS 2.1",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "8.4 inch 2K IPS, 10.8 inch 2K IPS"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2, OIS",
+      "Front camera": "8 MP, f/2.2, OIS"
+    },
+    "Sound": {
+      "Sound": "Histen 3D Audio"
+    },
+    "Battery": {
+      "Battery": "7500 mAh Li-Po battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 a/b/g/n/ac), BT4.2, GPS/Glonass/BDS"
+    }
+  },
+  "key": {
+    "display_in": 8.4,
+    "display_type": "IPS",
+    "chipset": "Kirin 960",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 7500,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 316,
+    "thickness_mm": 7.3,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mediapad M5",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mediapad_M5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mediapad M5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mediapad M5",
+    "revid": 1374235463
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

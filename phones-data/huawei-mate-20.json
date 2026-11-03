@@ -1,0 +1,100 @@
+{
+  "slug": "huawei-mate-20",
+  "brand": "Huawei",
+  "name": "Mate 20",
+  "status": "published",
+  "announced": "2018-10-16",
+  "released": "2018-10-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Huawei_Mate_20_Pro_rear_view.jpg/500px-Huawei_Mate_20_Pro_rear_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Huawei_Mate_20_Pro_rear_view.jpg/250px-Huawei_Mate_20_Pro_rear_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate 20",
+      "credit": "Badudoy, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_20_Pro_rear_view.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-16",
+      "Series": "Huawei Mate",
+      "Predecessor": "Huawei Mate 10",
+      "Successor": "Huawei Mate 30"
+    },
+    "Network": {
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "Mate 20:, 158.2 mm H, 77.2 mm W, 8.3 mm D, Mate 20 Pro:, 157.8 mm H, 72.3 mm W, 8.6 mm D, Mate 20 X:, 174.6 mm H, 85.4 mm W, 8.2 mm D",
+      "Weight": "Mate 20: 188 g, Mate 20 Pro: 189 g, Mate 20 X: 232 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with EMUI 10.1, Current: China: HarmonyOS 4",
+      "Chipset": "Kirin 980",
+      "CPU": "Octa-core (2x 2.6 GHz Cortex A76, 2x 1.92 GHz Cortex A76, 4x 1.8 GHz Cortex A55)",
+      "GPU": "Mali-G76 MP10"
+    },
+    "Memory": {
+      "RAM": "Mate 20: 4 or 6 GB , Mate 20 Pro: 6 or 8 GB , Mate 20 X: 6 GB",
+      "Storage": "128 or 256 GB UFS 2.1",
+      "Card slot": "Huawei Nano Memory up to 256 GB"
+    },
+    "Display": {
+      "Display": "Mate 20:, 6.53 in 2244x1080, IPS LCD, 381 Pixels per inch, ppi, Mate 20 Pro, 6.39 in 3120x1440, AMOLED, 538 ppi, Mate 20 X, 7.2 in 2244x1080, AMOLED, 346 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Mate 20: Triple: 12 MP Wide (f/1.8, 27mm, 1/2.3\") + 16 MP Ultrawide (f/2.2, 17mm) + 8 MP Telephoto (f/2.4, 52mm), Leica optics, optical zoom, phase detection and laser AF, dual-LED dual-tone flash , Other models: Triple: 40 MP IMX600 Wide (f/1.8, 1/1.7\", 27mm) + 20 MP Ultrawide (f/2.2, 1/2.7\", 16mm) + 8 MP Telephoto (f/2.4, 1/4\", 80mm), Leica optics, 5x optical zoom, phase detection and laser AF, dual-LED dual-tone flash",
+      "Front camera": "24 MP (f/2.0, 26mm)"
+    },
+    "Battery": {
+      "Battery": "Mate 20: 4000 mAh Li-Po , Mate 20 Pro: 4200 mAh Li-Po , Mate 20 X: 5000 mAh Li-Po",
+      "Charging": "Fast battery charging: 18/22.5/40W Supercharge, Wireless: 15W, Backwards Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, 802.11a/b/g/n/ac with Wi-Fi Direct support, BT5.0, BLE, aptX/aptX HD, USB Type C 3.1"
+    }
+  },
+  "key": {
+    "display_in": 6.53,
+    "display_type": "IPS LCD",
+    "chipset": "Kirin 980",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 24,
+    "battery_mah": 4000,
+    "wireless_w": 15,
+    "wired_w": 40,
+    "os": "Android 10",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 188,
+    "thickness_mm": 8.3,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate 20",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate 20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate 20",
+    "revid": 1361473808
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

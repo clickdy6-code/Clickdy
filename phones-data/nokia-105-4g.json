@@ -1,0 +1,66 @@
+{
+  "slug": "nokia-105-4g",
+  "brand": "Nokia",
+  "name": "105 4G",
+  "status": "published",
+  "announced": "2021-06-15",
+  "released": "2021-06-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-06-15",
+      "Predecessor": "Nokia 105 (2019)",
+      "Successor": "Nokia 105 4G (2023)"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE (4G)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "121 mm H , 50 mm W , 14.5 mm D",
+      "Weight": "80.2 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30+",
+      "CPU": "Unisoc T107"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM",
+      "Storage": "48 MB",
+      "Card slot": "No (2021 model)"
+    },
+    "Display": {
+      "Display": "1.8 in (46 mm) TFT LCD, 65K colors , 120 x 160 pixels, 4:3 ratio (~111 ppi density)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "1020 mAh Li-ion (removable)",
+      "Charging": "Micro-USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1020,
+    "five_g": false,
+    "weight_g": 80.2,
+    "thickness_mm": 14.5,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 105 4G",
+      "url": "https://en.wikipedia.org/wiki/Nokia_105_4G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 105 4G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 105 4G",
+    "revid": 1361476943
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

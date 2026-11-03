@@ -1,0 +1,76 @@
+{
+  "slug": "htc-desire-300",
+  "brand": "HTC",
+  "name": "Desire 300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "2G , 3G"
+    },
+    "Body": {
+      "Dimensions": "131.78 x 66.23 x 10.12 mm",
+      "Weight": "120 grams"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2 Jelly Bean, HTC Sense 5.0",
+      "Chipset": "Qualcomm Snapdragon S4",
+      "CPU": "1.0 GHz dual core ARM Cortex-A5",
+      "GPU": "Adreno 203"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB (Only 1.4 GB is user accessible)",
+      "Card slot": "microSD card support up to 64 GB"
+    },
+    "Display": {
+      "Display": "4.3 inch LCD; WVGA (480x800 pixels) resolution, 217 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (f/2.8 aperture, 34mm focal length, autofocus, WVGA video recording)",
+      "Front camera": "VGA"
+    },
+    "Sound": {
+      "Sound": "Beats Audio"
+    },
+    "Battery": {
+      "Battery": "1650 mAh removable battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi , Bluetooth 4.0 , 3.5 mm headphone jack , microUSB"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon S4",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1650,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire 300",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire 300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire 300",
+    "revid": 1376704662
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

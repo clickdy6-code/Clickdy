@@ -1,0 +1,75 @@
+{
+  "slug": "high-tech-computer-htc-wizard",
+  "brand": "High Tech Computer",
+  "name": "HTC Wizard",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Htc_wizard.jpg/500px-Htc_wizard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Htc_wizard.jpg/250px-Htc_wizard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "High Tech Computer HTC Wizard",
+      "credit": "Original uploader was DJ 100 (Marek Gubiec) at pl.wikipedia, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htc_wizard.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "HTC P4350, HTC TyTN"
+    },
+    "Network": {
+      "Technology": "Quad band GSM 850 900 1800 1900, GPRS, EDGE"
+    },
+    "Body": {
+      "Form factor": "PDA, Smartphone",
+      "Dimensions": "108 mm (h) , 58 mm (w) , 23.7 mm (d)",
+      "Weight": "Wizard 100: 165 g, Wizard 110: 168 g, Wizard 200: 169 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 5.0",
+      "CPU": "TI OMAP 850 ARM Processor at 195 MHz"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM , 128 MB ROM",
+      "Card slot": "miniSD, up to 2 GB"
+    },
+    "Display": {
+      "Display": "240×320 px, 2.8 in, 65536 color LCD, 3:4 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixel rear"
+    },
+    "Battery": {
+      "Battery": "1250 mAH Lithium-ion battery, user accessible"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mini-AB , 2.5mm Headphone jack , Bluetooth 2.0 , IrDA , Wi-Fi (802.11b/g)"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "battery_mah": 1250,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 165,
+    "thickness_mm": 23.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Wizard",
+      "url": "https://en.wikipedia.org/wiki/HTC_Wizard"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Wizard\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Wizard",
+    "revid": 1380630458
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

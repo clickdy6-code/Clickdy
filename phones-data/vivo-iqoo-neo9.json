@@ -1,0 +1,99 @@
+{
+  "slug": "vivo-iqoo-neo9",
+  "brand": "Vivo",
+  "name": "IQOO Neo9",
+  "status": "published",
+  "announced": "2023-12-30",
+  "released": "2023-12-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-12-30",
+      "Series": "iQOO Neo",
+      "Predecessor": "iQOO Neo8",
+      "Successor": "iQOO Neo10"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / CDMA2000 / LTE / 5G",
+      "SIM": "Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.5 mm H , 75.7 mm W , 8.3 mm D",
+      "Weight": "190 g"
+    },
+    "Platform": {
+      "Operating system": "China: , Original: Origin OS 4 (Based on Android 14), Current: Origin OS 5 (Based on Android 15), India:, Current: Funtouch OS 14 (Based on Android 14)",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 2 (4 nm)",
+      "CPU": "Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "GPU": "Adreno 740"
+    },
+    "Memory": {
+      "RAM": "12GB/16GB RAM",
+      "Storage": "256GB/512GB/1TB",
+      "Card slot": "Not Supported"
+    },
+    "Display": {
+      "Display": "6.78 in LTPO AMOLED, 144Hz, HDR10+, 1B colors, 1400 nits (HBM), 1260 x 2800 pixels, 20:9 ratio (453 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 50 MP (wide, f/1.9, 1/1.49\", PDAF, OIS) + 8 MP (ultrawide, f/2.2, 119˚)",
+      "Front camera": "16 MP (wide, f/2.5)"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers (closed type), No 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "5160 mAh",
+      "Charging": "120 W wired (40% in 9 min), Reverse wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi List of WLAN channels, 802.11 a/b/g/n/ac/6/7, Dual-band, Wi-Fi Direct, Bluetooth 5.3 (A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless), Near Field Communication, NFC, USB-C, USB Type-C 2.0, USB On-The-Go, OTG, GPS, Galileo (satellite navigation), GALILEO, GLONASS, QZSS, BeiDou, BDS (B1I+B1c)"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 144,
+    "peak_nits": 1400,
+    "chipset": "Qualcomm Snapdragon 8 Gen 2",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 5160,
+    "wired_w": 120,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 190,
+    "thickness_mm": 8.3,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IQOO Neo9",
+      "url": "https://en.wikipedia.org/wiki/IQOO_Neo9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IQOO Neo9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IQOO Neo9",
+    "revid": 1382383841
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

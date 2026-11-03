@@ -1,0 +1,94 @@
+{
+  "slug": "hi-p-fairphone-2",
+  "brand": "Hi-P",
+  "name": "Fairphone 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Fairphone_2_%2825250139694%29_%28cropped%29.jpg/500px-Fairphone_2_%2825250139694%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Fairphone_2_%2825250139694%29_%28cropped%29.jpg/250px-Fairphone_2_%2825250139694%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Hi-P Fairphone 2",
+      "credit": "Fairphone, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fairphone_2_(25250139694)_(cropped).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-12",
+      "Predecessor": "Fairphone 1",
+      "Successor": "Fairphone 3"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "143.0 mm H, 73 mm W, 11 mm D",
+      "Weight": "168 g",
+      "Other": "accelerometer, gyrometer, digital compass, proximity sensor, ambient light sensor, dual SIM"
+    },
+    "Platform": {
+      "Operating system": "upgradeable to Android 10 , Android 5.1 \"Lollipop\" at launch",
+      "Chipset": "Qualcomm MSM8974AB-AB",
+      "CPU": "Qualcomm Snapdragon 801 (quad-core) 2.26 GHz",
+      "GPU": "Qualcomm Adreno 330 GPU 578 MHz"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3 RAM",
+      "Storage": "32 GB eMMC5",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "5 in diagonal IPS LCD 1080×1920 px HD 446 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP CMOS sensor (f/2.2) with dual-LED flash",
+      "Front camera": "5 MP (f/2.4)"
+    },
+    "Battery": {
+      "Battery": "2420 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "2G (GSM/GPRS/EDGE): 850/900/1,800/1,900 MHz, 3G (UMTS/HSPA/HSPA+): 900/1,900/2,100 MHz, LTE: 800/1,800/2,600 MHz, Wi-Fi: 2.4/5.0 GHz, 802.11b/g/n/ac, Bluetooth: 4.0 LE, Wi-Fi Hotspot, microUSB 2.0 with support for USB OTG, Expansion Port on the backside for connectivity to external case"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8974AB-AB",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2420,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 168,
+    "thickness_mm": 11,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Fairphone 2",
+      "url": "https://en.wikipedia.org/wiki/Fairphone_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Fairphone 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Fairphone 2",
+    "revid": 1367101472
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

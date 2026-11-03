@@ -1,0 +1,91 @@
+{
+  "slug": "honor-x8",
+  "brand": "Honor",
+  "name": "X8",
+  "status": "published",
+  "announced": "2021-10-28",
+  "released": "2021-10-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "X30i: 2021-10-28, X8: 2022-03-11",
+      "Series": "Honor X series",
+      "Predecessor": "Honor 9C",
+      "Successor": "Honor X8a, Honor X40i"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G (X30i only)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.4 × 74.7 × 7.45 mm",
+      "Weight": "X8: 177 g, X30i: 175 g",
+      "Other": "X8: Fingerprint scanner (side-mounted), virtual proximity sensor, Accelerometer, Gyroscope, Compass, NFC, X30i: Fingerprint scanner (side-mounted), virtual proximity sensor, Accelerometer, Gyroscope, Compass"
+    },
+    "Platform": {
+      "Operating system": "Initial:, X8: Android 11 + Magic UI 4.2, X30i: Android 11 + Magic UI 5.0",
+      "CPU": "X8: Qualcomm SDM678 Snapdragon 680 (6 nm), octa-core (4×2.4 GHz Kryo 265 Gold & 4×1.9 GHz Kryo 265 Silver), X30i: MediaTek MT6833P Dimensity 810 (6 nm), octa-core (2×2.4 GHz Cortex-A76 & 6×2.0 GHz Cortex-A55)",
+      "GPU": "X8: Adreno 610, X30i: Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "X8: 4 GB, X30i: 6/8 GB, LPDDR4X",
+      "Storage": "X8: 128 GB, X30i: 128/256 GB, UFS 2.1"
+    },
+    "Display": {
+      "Display": "IPS LCD 6.7\", 2388 × 1080 (FullHD+), 391 ppi, 90 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "X8: 64 MP, f/1.8, 26 mm (wide-angle), PDAF + 5 MP f/2.2 (ultrawide) + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth sensor), X30i: 48 MP, f/1.8 (wide-angle), PDAF + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "X8: 16 MP, f/2.5 (wide-angle), X30i: 8 MP, f/2.0 (wide-angle), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4000 mAh",
+      "Charging": "22.5W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "X8: USB-C 2.0, 3.5 mm audio, Bluetooth 5.0 (A2DP, LE), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), NFC, GPS, A-GPS, GLONASS, Galileo, BDS, X30i: USB-C 2.0, 3.5 mm audio, Bluetooth 5.1 (A2DP, LE), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "ram_gb": [
+      4,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "wired_w": 22.5,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 177,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor X8",
+      "url": "https://en.wikipedia.org/wiki/Honor_X8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor X8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor X8",
+    "revid": 1361473664
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

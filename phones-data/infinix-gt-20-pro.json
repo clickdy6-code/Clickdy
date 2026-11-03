@@ -1,0 +1,87 @@
+{
+  "slug": "infinix-gt-20-pro",
+  "brand": "Infinix",
+  "name": "GT 20 Pro",
+  "status": "published",
+  "announced": "2024-04-28",
+  "released": "2024-04-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-04-28",
+      "Series": "Infinix GT Series",
+      "Predecessor": "Infinix GT 10 Pro",
+      "Successor": "Infinix GT 30 Pro"
+    },
+    "Network": {
+      "SIM": "Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.26 mm H, 75.43 mm W, 8.15 mm D",
+      "Weight": "194 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14 with XOS 14 For GT, Current: Android 15 with XOS 15.1.2 For GT",
+      "Chipset": "MediaTek MT6896Z Dimensity 8200 Ultimate (4 nm)",
+      "CPU": "Octa-core (1x3.1 GHz Cortex-A78 & 3x3.0 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G610 MC6"
+    },
+    "Memory": {
+      "RAM": "8 / 12 GB RAM (LPDDR5X)",
+      "Storage": "256 GB (UFS 3.1)"
+    },
+    "Display": {
+      "Display": "6.78 in, 1080 x 2436 px resolution, 20:9 ratio (~388 ppi density), AMOLED, 1B colors, 144Hz, 2304Hz PWM, 1300 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Samsung ISOCELL S5K(HM6); 108 Megapixel, MP (6P lens), 24mm (wide), FoV 83.63°, 1/1.67\", 0.64 Micrometre, µm, AF, Optical image stabilization, OIS, Macro: 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, FF, Depth: 2 Megapixel, MP, 1/5.0\", 1.75 Micrometre, µm, FF, Camera features: Quad-LED flash, High dynamic range, HDR, Panorama, Video recording: 4K resolution, 4K@30/60Frame rate, fps, 1080p@30/60/120/240Frame rate, fps",
+      "Front camera": "GalaxyCore GC32E1; 32 Megapixel, MP (5P lens), 22mm (wide), FoV 88.9°, 1/3.1\", 0.7 Micrometre, µm, FF, Camera features: Dual-LED flash, Video recording: 1440p@30Frame rate, fps, 1080p@30/60Frame rate, fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers (Tuned by JBL), 24-bit/192kHz Hi-Res audio"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "45W Super Charge, PD3.0"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "AMOLED",
+    "refresh_hz": 304,
+    "peak_nits": 1300,
+    "chipset": "MediaTek MT6896Z Dimensity 8200 Ultimate",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 5000,
+    "wired_w": 45,
+    "os": "Android 14",
+    "nfc": false,
+    "weight_g": 194,
+    "thickness_mm": 8.15,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Infinix GT 20 Pro",
+      "url": "https://en.wikipedia.org/wiki/Infinix_GT_20_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Infinix GT 20 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Infinix GT 20 Pro",
+    "revid": 1361474639
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

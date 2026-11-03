@@ -1,0 +1,92 @@
+{
+  "slug": "meizu-mx5",
+  "brand": "Meizu",
+  "name": "MX5",
+  "status": "published",
+  "announced": "2015-06-30",
+  "released": "2015-06-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-06-30",
+      "Series": "Meizu MX Series",
+      "Predecessor": "Meizu MX4",
+      "Successor": "Meizu MX6"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "149.9 mm H, 74.7 mm W, 7.6 mm D",
+      "Weight": "149 g",
+      "Other": "Dual SIM support with dual standby mode"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS, based on Android 5.1 Lollipop",
+      "Chipset": "MediaTek MT6795 Helio X10",
+      "CPU": "Octa-core (8x2.2GHz Cortex-A53)",
+      "GPU": "PowerVR G6200"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3",
+      "Storage": "16 GB, 32 GB or 64 GB flash memory",
+      "Card slot": "Not supported"
+    },
+    "Display": {
+      "Display": "5.5 inch diagonal AMOLED, 1080x1920 px (403 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "20.7 MP, laser-aided PDAF autofocus, ƒ/2.2 aperture, LED flash, 4K recording",
+      "Front camera": "5.0 MP, ƒ/2.0 aperture"
+    },
+    "Battery": {
+      "Battery": "3150 mAh Li-Ion rechargeable battery, not replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.0 with BLE, Dual-band WiFi (802.11 a/b/g/n/ac)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "AMOLED",
+    "chipset": "MediaTek MT6795 Helio X10",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16,
+      32,
+      64
+    ],
+    "main_mp": 20.7,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "battery_mah": 3150,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 149,
+    "thickness_mm": 7.6,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu MX5",
+      "url": "https://en.wikipedia.org/wiki/Meizu_MX5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu MX5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu MX5",
+    "revid": 1364776013
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

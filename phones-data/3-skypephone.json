@@ -1,0 +1,70 @@
+{
+  "slug": "3-skypephone",
+  "brand": "3",
+  "name": "Skypephone",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Amoi_S1.JPG/500px-Amoi_S1.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Amoi_S1.JPG/250px-Amoi_S1.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "3 Skypephone",
+      "credit": "Darren Meacher, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amoi_S1.JPG",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "3 Skypephone S2"
+    },
+    "Network": {
+      "Technology": "UMTS 2100, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Dimensions": "100 x 44x13.6 mm",
+      "Weight": "86 g"
+    },
+    "Platform": {
+      "Operating system": "Qualcomm's BREW"
+    },
+    "Memory": {
+      "RAM": "16 MB internal Expandable to 1 GB (2 GB unofficially supported) microSD"
+    },
+    "Display": {
+      "Display": "2.2 in 176×220 pixel display"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixels"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 + EDR, USB (with Mass Storage Mode support)"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "ram_gb": [
+      1,
+      2
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 86
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: 3 Skypephone",
+      "url": "https://en.wikipedia.org/wiki/3_Skypephone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"3 Skypephone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "3 Skypephone",
+    "revid": 1381095298
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

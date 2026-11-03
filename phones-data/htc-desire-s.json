@@ -1,0 +1,83 @@
+{
+  "slug": "htc-desire-s",
+  "brand": "HTC",
+  "name": "Desire S",
+  "status": "published",
+  "announced": "2011-03-08",
+  "released": "2011-03-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/HTC_Desire_S.jpg/500px-HTC_Desire_S.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/HTC_Desire_S.jpg/250px-HTC_Desire_S.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Desire S",
+      "credit": "Broojo02, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Desire_S.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-03-08",
+      "Series": "A series",
+      "Predecessor": "HTC Desire",
+      "Successor": "HTC Desire X"
+    },
+    "Network": {
+      "Technology": "2.5G, 3G, HSUPA"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115 mm H, 59.8 mm W, 11.6 mm D",
+      "Weight": "130 g",
+      "Other": "Wi-Fi Hot Spot, FM radio"
+    },
+    "Platform": {
+      "Operating system": "Android with HTC Sense",
+      "CPU": "1 GHz Qualcomm MSM8255 (Snapdragon)",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "1.1 GB",
+      "Card slot": "Up to 32 GB MicroSD"
+    },
+    "Display": {
+      "Display": "3.7 in diagonal 480×800px Super LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1450 mAh Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth 3.0, USB 2.0, DLNA, UMA"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "LCD",
+    "battery_mah": 1450,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 130,
+    "thickness_mm": 11.6,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire S",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire S",
+    "revid": 1378842767
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

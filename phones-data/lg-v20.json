@@ -1,0 +1,104 @@
+{
+  "slug": "lg-v20",
+  "brand": "LG",
+  "name": "V20",
+  "status": "published",
+  "announced": "2016-09-29",
+  "released": "2016-09-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/LG_V20.jpg/500px-LG_V20.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/LG_V20.jpg/250px-LG_V20.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG V20",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_V20.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-09-29 (South Korea), 2016-10-14 (Philippines), 2016-10-21 (U.S.A.), 2016-11 (United Arab Emirates), 2016-11-08 (Australia), 2016-12 (India)",
+      "Discontinued": "2020",
+      "Series": "V series LG Ultra-Premium Category",
+      "Predecessor": "LG V10",
+      "Successor": "LG V30"
+    },
+    "Network": {
+      "Technology": "LTE Advanced, 4G+/LTE-A, X12 LTE Cat.12 up to 600 Mbps download speed"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.7 x 78.1 x 7.6 mm",
+      "Weight": "174 g",
+      "Other": "MIL-STD810G US Military standard Drop protection, AL6013 body, PolyCarbonate plastic up&down**, Metal battery cover with NFC antenna, rear-mounted Fast Fingerprint sensor, QuickCharge 3.0, USB Power Delivery Rev. 2, Steady Record 2.0, 24bit/192kHz Studio Quality sound recording to in FLAC audio format, Barometer sensor,\"Game battery saver\" energy saving function"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.0 \"Nougat\", Current: Android 8.0 \"Oreo\" (international), Android 9.0 \"Pie\" (F800L/S/K only), Unofficial alternative: Android 10, Android 11, Android 12.1, Android 13, Android 14, Android 15",
+      "Chipset": "Qualcomm Snapdragon 820",
+      "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo), HMP (2clusters), MSM8996, ARMv8 64bit architecture, 14 nm",
+      "GPU": "Adreno 530 with VulkanAPI 1.0 full support"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM (3.7 GB usable)",
+      "Storage": "64GB (52GB usable), encrypted EXT4 Filesystem",
+      "Card slot": "microSDXC up to 2 TB*(TexFAT Filesystem)"
+    },
+    "Display": {
+      "Display": "5.7 in Graphics display resolution#QHD / WQHD (2560×1440), QuadHD 2560×1440 1440p (515 pixel density, ppi) LG Quantum IPS panel, IPS LCD Gorilla Glass, Corning Gorilla Glass 4 Screen Protection, Secondary display 2.1 in 160×1040"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP f/1.8 aperture 75° normal angle lens, 8 MP f/2.4 aperture 135° wide angle lens, Image stabilization#Optical image stabilization, OIS,2x Optical zoom, 4K/30fps video recording, Support Google CameraAPI2 manual mode, PDAF(Phase Detection AutoFocus) and Laser AF(LDAF) with Contrast AF, Dual LED flash",
+      "Front camera": "5 MP f/1.9 aperture,83/120° wide-angle lens, FullHD 1080p video recording"
+    },
+    "Sound": {
+      "Sound": "Bottom-firing mono speaker, ESS Sabre \"32bit Hi-Fi\" QuadDAC+Headphones Amplifier"
+    },
+    "Battery": {
+      "Battery": "3,200 mAh/12.3Wh (removable); LG BL-44E1F Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 1.0 reversible USB2.0 speed, Bluetooth 4.2 with AptX-HD, LE, A2DP, NFC(File sending and Tap&Pay), GLONASS GPS support, IR for LG Remote, Wi-Fi a/b/g/n/ac with dual-band(2.4GHz and 5GHz), FM radio with RDS)"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 820",
+    "ram_gb": [
+      4,
+      7
+    ],
+    "storage_gb": [
+      52,
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "battery_mah": 3200,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 174,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG V20",
+      "url": "https://en.wikipedia.org/wiki/LG_V20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG V20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "LG V20",
+    "revid": 1382264496
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

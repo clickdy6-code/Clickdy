@@ -1,0 +1,68 @@
+{
+  "slug": "hmd-nokia-110-power",
+  "brand": "HMD",
+  "name": "Nokia 110 Power",
+  "status": "published",
+  "announced": "2026-02-10",
+  "released": "2026-02-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-02-10",
+      "Series": "Nokia 100 series"
+    },
+    "Network": {
+      "Technology": "GSM (900/1800 MHz)",
+      "SIM": "Dual SIM (Mini-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Dimensions": "117.7 x 50 x 14.2 mm (4.63 x 1.97 x 0.56 in)",
+      "Weight": "88 g (3.10 oz)"
+    },
+    "Platform": {
+      "Operating system": "Series 30+"
+    },
+    "Memory": {
+      "RAM": "4 MB RAM",
+      "Storage": "4 MB internal",
+      "Card slot": "microSDHC (dedicated slot), up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.0 inches, TFT LCD , Resolution: 120 x 160 pixels, 4:3 ratio (~100 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "QVGA"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1750 mAh, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB 2.0, 3.5mm jack"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "battery_mah": 1750,
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 88,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 110 Power",
+      "url": "https://en.wikipedia.org/wiki/Nokia_110_Power"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 110 Power\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 110 Power",
+    "revid": 1365139336
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

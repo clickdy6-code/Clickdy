@@ -1,0 +1,75 @@
+{
+  "slug": "tcl-communication-alcatel-one-touch-980",
+  "brand": "TCL Communication",
+  "name": "Alcatel One Touch 980",
+  "status": "published",
+  "announced": "2010-08-24",
+  "released": "2010-08-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Alcatel_OT_980.jpg/500px-Alcatel_OT_980.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Alcatel_OT_980.jpg/250px-Alcatel_OT_980.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "TCL Communication Alcatel One Touch 980",
+      "credit": "Tizizi, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alcatel_OT_980.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United Kingdom, 2010-08-24",
+      "Series": "One Touch"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "112.5 mm (h), 60.4 mm (w), 15.9 mm (d)",
+      "Weight": "152 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 (Éclair)",
+      "CPU": "Qualcomm 600 MHz CPU (MSM7227 ARM11 processor)"
+    },
+    "Memory": {
+      "RAM": "256 MB",
+      "Storage": "512 MB EEPROM (only 194 MB accessible)",
+      "Card slot": "microSD card (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "2.8 in touchscreen, 320x240 QVGA LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels"
+    },
+    "Battery": {
+      "Battery": "1150 mAh, Internal rechargeable lithium-ion battery, 8 hours talk time and 400 hours stand-by time, User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11b/g; Bluetooth v2.0 with A2DP; micro USB 2.0, 3.5 mm TRRS"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "battery_mah": 1150,
+    "os": "Android 2.1",
+    "nfc": false,
+    "weight_g": 152,
+    "thickness_mm": 15.9,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Alcatel One Touch 980",
+      "url": "https://en.wikipedia.org/wiki/Alcatel_One_Touch_980"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Alcatel One Touch 980\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Alcatel One Touch 980",
+    "revid": 1361472552
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

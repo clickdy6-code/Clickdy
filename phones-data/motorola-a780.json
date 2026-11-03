@@ -1,0 +1,72 @@
+{
+  "slug": "motorola-a780",
+  "brand": "Motorola",
+  "name": "A780",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/0a/MotoA780open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/MotoA780open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Motorola A780",
+      "credit": "Wikimedia Commons, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MotoA780open.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Motorola A1200"
+    },
+    "Network": {
+      "Technology": "GSM Quad-band (850/900/1800/1900)"
+    },
+    "Body": {
+      "Dimensions": "106 x 53 x 24 mm, 106 cc",
+      "Weight": "141 g"
+    },
+    "Platform": {
+      "Operating system": "MontaVista Linux OS (not MOTOMAGX)",
+      "CPU": "312 MHz processor"
+    },
+    "Memory": {
+      "RAM": "48MB RAM",
+      "Card slot": "SD/MMC expandable to 2 GB"
+    },
+    "Display": {
+      "Display": "2.5-inch 240 x 320 pixels, TFT with 65k colors"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixels 1280 x 1024 pixels, with full-screen viewfinder"
+    },
+    "Battery": {
+      "Battery": "Li-ion 780 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS Class 10, Enhanced Mini USB, BCM2035 Bluetooth 1.1 (+A2DP)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 780,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 141
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola A780",
+      "url": "https://en.wikipedia.org/wiki/Motorola_A780"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola A780\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola A780",
+    "revid": 1381536757
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

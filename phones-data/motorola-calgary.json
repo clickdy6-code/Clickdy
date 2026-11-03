@@ -1,0 +1,62 @@
+{
+  "slug": "motorola-calgary",
+  "brand": "Motorola",
+  "name": "Calgary",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Slider smartphone",
+      "Dimensions": "115.8 mm (h), 60 mm (w), 13.7 mm (d)",
+      "Weight": "169 g"
+    },
+    "Platform": {
+      "Operating system": "Android",
+      "CPU": "TI OMAP 3430:, Arm Cortex A8 550 mHz, 430MHz TMS320 C64x DSP + ISP (Image Signal Processor)",
+      "GPU": "PowerVR SGX 530"
+    },
+    "Memory": {
+      "RAM": "RAM: 256MB, ROM: 512MB",
+      "Storage": "Onboard Flash memory: 512MB/Expandable up to 32 GB."
+    },
+    "Display": {
+      "Display": "854 x 480 px, 3.2 in, WVGA, 265 pixels per inch (ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "3.0 megapixel with auto focus and flash"
+    },
+    "Battery": {
+      "Battery": "1400 mAh , Internal rechargeable removable lithium-ion polymer battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Micro-B , Wi-Fi (802.11b/g), Bluetooth 2.1+EDR, Dual band CDMA2000/EV-DO Rev. A 800 1900 MHz"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1400,
+    "nfc": false,
+    "weight_g": 169,
+    "thickness_mm": 13.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Calgary",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Calgary"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Calgary\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Calgary",
+    "revid": 1361476484
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

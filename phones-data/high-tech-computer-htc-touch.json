@@ -1,0 +1,75 @@
+{
+  "slug": "high-tech-computer-htc-touch",
+  "brand": "High Tech Computer",
+  "name": "HTC Touch",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/HTC_Touch_%281%29.jpg/500px-HTC_Touch_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/HTC_Touch_%281%29.jpg/250px-HTC_Touch_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "High Tech Computer HTC Touch",
+      "credit": "The original uploader was Dark-Fire at English Wikipedia., CC BY-SA 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Touch_(1).jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family",
+      "Successor": "HTC Touch2"
+    },
+    "Network": {
+      "Technology": "Tri band GSM / GPRS (Class 10) / EDGE, GSM 900/1800/1900, CDMA"
+    },
+    "Body": {
+      "Form factor": "PDA Phone",
+      "Dimensions": "99.9x58x13.9 mm",
+      "Weight": "112 g (including battery)"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.0, upgrades to 6.1 available via some carriers, 6.5 available via modded ROMS",
+      "CPU": "TI OMAP 850 201 MHz (GSM Touch), MSM7500 400MHz (CDMA Vogue)"
+    },
+    "Memory": {
+      "RAM": "128 MB internal flash, 64 MB SDRAM (GSM Touch), 256 MB internal flash , 128 MB SDRAM (CDMA Vogue)",
+      "Card slot": "Micro SD card, (SD 2.0 compatible)"
+    },
+    "Display": {
+      "Display": "65k-color QVGA (320x240 px), 2.8 in, TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel CMOS color"
+    },
+    "Battery": {
+      "Battery": "Rechargeable 1100 mAh Li-ion battery, up to 200 hr standby, 5 hr talk time"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0+EDR, 802.11b/g, Mini-USB"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 112
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Touch",
+      "url": "https://en.wikipedia.org/wiki/HTC_Touch"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Touch\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Touch",
+    "revid": 1375374048
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

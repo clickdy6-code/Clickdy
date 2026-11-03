@@ -1,0 +1,90 @@
+{
+  "slug": "meizu-x8",
+  "brand": "Meizu",
+  "name": "X8",
+  "status": "published",
+  "announced": "2018-09-19",
+  "released": "2018-09-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-09-19"
+    },
+    "Network": {
+      "Technology": "GSM, 3G 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "151.2 × 74.6 × 7.8 mm",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 8.1 Oreo + Flyme 7.1.7.0G, Current: Android 9 Pie + Flyme 8.1",
+      "Chipset": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+      "CPU": "Octa-core (2×2.2 GHz 360 Gold & 6×1.7 GHz Kryo 360 Silver)",
+      "GPU": "Adreno 616"
+    },
+    "Memory": {
+      "RAM": "4 GB, LPDDR4X (64 GB version), 6 GB LPDDRX (128 GB version)",
+      "Storage": "64/128 GB UFS 2.0"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.15\", 2220 × 1080, 18.5:9, 401 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP Samsung S5K2L7/Sony IMX362, f/1.9 (wide-angle lens), 1/2.55\", 1.4 μm, Dual Pixel PDAF + 5 MP, f/2.4 (depth sensor), 2-LED dual-tone flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "20 MP Sony IMX376, f/2.0 (wide-angle lens), 1/2.8\", 1.0 μm, PDAF, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 3210 mAh battery",
+      "Charging": "mCharge 4 24W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN: Wi-Fi 802.11 b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth: 5.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.15,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm SDM710 Snapdragon 710",
+    "ram_gb": [
+      4,
+      6,
+      28,
+      64
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 20,
+    "battery_mah": 3210,
+    "wired_w": 24,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 160,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu X8",
+      "url": "https://en.wikipedia.org/wiki/Meizu_X8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu X8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu X8",
+    "revid": 1361476013
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

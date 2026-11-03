@@ -1,0 +1,78 @@
+{
+  "slug": "microsoft-lumia-435",
+  "brand": "Microsoft",
+  "name": "Lumia 435",
+  "status": "published",
+  "announced": "2015-01-14",
+  "released": "2015-01-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Microsoft_Lumia_435_%282%29.jpg/500px-Microsoft_Lumia_435_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Microsoft_Lumia_435_%282%29.jpg/250px-Microsoft_Lumia_435_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft Lumia 435",
+      "credit": "JulianVilla26, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Microsoft_Lumia_435_(2).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "14 January 2015, SoC=Qualcomm snapdragon 200",
+      "Series": "Lumia",
+      "Predecessor": "Nokia X family"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1 (Lumia Denim) Upgradable to Windows 10 Mobile",
+      "CPU": "Dual-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB internal"
+    },
+    "Display": {
+      "Display": "4-inch TFT LCD, 480x800 resolution"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP",
+      "Front camera": "0.3m VGA"
+    },
+    "Battery": {
+      "Battery": "1560 mAh Battery, Maximum talk time (3G): 11.7 hours Maximum standby time: 21 days"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1560,
+    "os": "Windows Phone 8.1",
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Microsoft Lumia 435",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Lumia_435"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Microsoft Lumia 435\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Microsoft Lumia 435",
+    "revid": 1361476091
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

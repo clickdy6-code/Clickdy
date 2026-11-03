@@ -1,0 +1,98 @@
+{
+  "slug": "asus-zenfone-5",
+  "brand": "Asus",
+  "name": "ZenFone 5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Asus_zenfone_5_Front.JPG/500px-Asus_zenfone_5_Front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Asus_zenfone_5_Front.JPG/250px-Asus_zenfone_5_Front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Asus ZenFone 5",
+      "credit": "Nandhinikandhasamy, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Asus_zenfone_5_Front.JPG",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "A500CG: 2014-04, A500KL: 2014-07, A502CG (Lite): 2014-11",
+      "Discontinued": "Yes",
+      "Series": "Asus ZenFone",
+      "Predecessor": "Asus ZenFone 4",
+      "Successor": "Asus ZenFone 2"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA (A500CG / A502CG), GSM, HSPA, LTE (A500KL)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by), (A500KL is also available in Single Micro-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "A500CG / A500KL: 148.2 × 72.8 × 10.3 mm, A502CG: 148.2 × 72.8 × 10.8 mm",
+      "Weight": "A500CG / A500KL: 145 g, A502CG: 160 g"
+    },
+    "Platform": {
+      "Operating system": "A500CG: Android 4.3 (Jelly Bean), upgradable to 5.0.2 (Lollipop), A500KL: Android 4.4.2 (KitKat), upgradable to 5.0.2 (Lollipop), A502CG: Android 4.4.2 (KitKat)",
+      "Chipset": "A500CG: Intel Atom Z2580, A500KL: Qualcomm MSM8926 Snapdragon 400, A502CG: Intel Atom Z2520",
+      "CPU": "A500CG: Dual-core 2.0 GHz, A500KL: Quad-core 1.2 GHz Cortex-A7, A502CG: Dual-core 1.2 GHz",
+      "GPU": "A500CG / A502CG: PowerVR SGX544MP2, A500KL: Adreno 305"
+    },
+    "Memory": {
+      "RAM": "A500CG: 2 GB RAM, A500KL: 1 GB / 2 GB RAM, A502CG: 1 GB RAM",
+      "Storage": "A500CG / A500KL: 8 GB / 16 GB / 32 GB eMMC 4.5, A502CG: 8 GB eMMC 4.5",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "A500CG / A500KL: 5.0 in (127 mm) IPS LCD, 720 x 1280 pixels, 16:9 ratio (~294 ppi density), Corning Gorilla Glass 3, A502CG: 5.0 in (127 mm) IPS LCD, 540 x 960 pixels, 16:9 ratio (~220 ppi density), Oleophobic coating"
+    },
+    "Cameras": {
+      "Rear camera": "A500CG / A500KL: 8 MP, f/2.0, AF, LED flash, panorama (1080p@30fps video), A502CG: 8 MP, AF, LED flash, panorama (720p@30fps video)",
+      "Front camera": "A500CG / A500KL: 2 MP, f/2.4, A502CG: VGA"
+    },
+    "Battery": {
+      "Battery": "A500CG / A500KL: Non-removable Li-Po 2110 mAh, A502CG: Non-removable Li-Po 2500 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "A500CG: Intel Atom Z2580",
+    "ram_gb": [
+      1,
+      2
+    ],
+    "storage_gb": [
+      8,
+      16,
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 2,
+    "battery_mah": 2110,
+    "os": "Android 4.3",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 145,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus ZenFone 5",
+      "url": "https://en.wikipedia.org/wiki/Asus_ZenFone_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus ZenFone 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus ZenFone 5",
+    "revid": 1382283784
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

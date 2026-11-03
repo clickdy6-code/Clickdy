@@ -1,0 +1,81 @@
+{
+  "slug": "blackberry-priv",
+  "brand": "BlackBerry",
+  "name": "Priv",
+  "status": "published",
+  "announced": "2015-11-06",
+  "released": "2015-11-06",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/BlackBerry-Priv.jpg/500px-BlackBerry-Priv.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/BlackBerry-Priv.jpg/250px-BlackBerry-Priv.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BlackBerry Priv",
+      "credit": "FNDE, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BlackBerry-Priv.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-11-06",
+      "Predecessor": "BlackBerry Passport"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "H 147 mm, H 184 mm (opened), W 77.2 mm, D 9.4 mm",
+      "Weight": "192 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\", Current: Android 6.0.1 \"Marshmallow\"",
+      "Chipset": "Qualcomm Snapdragon 808",
+      "CPU": "Dual-core 1.82 GHz Cortex A57, Quad-core 1.44 GHz Cortex A53",
+      "GPU": "Adreno 418"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "32 GB",
+      "Card slot": "Up to 2TB microSDXC"
+    },
+    "Display": {
+      "Display": "5.43 in AMOLED, 2560x1440 pixels, 540 pixels per inch, PPI"
+    },
+    "Cameras": {
+      "Rear camera": "18 megapixels, 2160p video capture, phase detection autofocus, OISsmiled QLED",
+      "Front camera": "5 megapixels, 720p video capture"
+    },
+    "Battery": {
+      "Battery": "3410 mAh Li-Po non-removable battery, Qi wireless charging supported on (STV100-1),(STV100-2) and (STV100-5)"
+    }
+  },
+  "key": {
+    "display_in": 5.43,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 808",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 3410,
+    "os": "Android 5.1",
+    "weight_g": 192,
+    "thickness_mm": 77.2,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Priv",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Priv"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Priv\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Priv",
+    "revid": 1380267263
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

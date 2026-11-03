@@ -1,0 +1,90 @@
+{
+  "slug": "lg-g4",
+  "brand": "LG",
+  "name": "G4",
+  "status": "published",
+  "announced": "2015-04-29",
+  "released": "2015-04-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/LG_G4_White_Gold_Edition.jpg/500px-LG_G4_White_Gold_Edition.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/LG_G4_White_Gold_Edition.jpg/250px-LG_G4_White_Gold_Edition.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG G4",
+      "credit": "LG Electronics, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_G4_White_Gold_Edition.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-04-29",
+      "Predecessor": "LG G3",
+      "Successor": "LG G5"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "148.9 mm H, 76.1 mm W, 9.8 mm D",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\", Last: Android 7.0 \"Nougat\"",
+      "Chipset": "Qualcomm Snapdragon 808",
+      "CPU": "Hexa-core 64-bit 20 nm, • Dual-core 1.82 GHz Cortex A57, • Quad-core 1.44 GHz Cortex A53",
+      "GPU": "Adreno 418"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3 RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSDXC up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.5 in 2560×1440 1440p (534 ppi) IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP OIS 2.0, f/1.8 aperture, 1/2.6 in sensor, LED flash, Hybrid infrared autofocus, Sony Exmor RS IMX234",
+      "Front camera": "8 MP, Toshiba T4KA3 f/2.0 aperture"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "3000 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 808",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 5.1",
+    "weight_g": 155,
+    "thickness_mm": 9.8,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G4",
+      "url": "https://en.wikipedia.org/wiki/LG_G4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG G4",
+    "revid": 1381829422
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

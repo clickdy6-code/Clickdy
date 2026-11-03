@@ -1,0 +1,47 @@
+{
+  "slug": "nokia-5110",
+  "brand": "Nokia",
+  "name": "5110",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 232, Nokia 252, Nokia 3110, Nokia 2170 (5170), Nokia 2180 (5180/5185)",
+      "Successor": "Nokia 3210 (5110), Nokia 3315 (5110i), Nokia 3320 (5120), Nokia 3321 (5125), Nokia 3330 (5130), Nokia 3360 (5160), Nokia 3361 (5165), Nokia 3350 (5170), Nokia 3280 (5180), Nokia 3285 (5185), Nokia 3390 (5190)"
+    },
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "48 x 132 x 31 mm"
+    },
+    "Display": {
+      "Display": "84 x 48 B/W"
+    },
+    "Battery": {
+      "Battery": "900 mAh NiMH"
+    }
+  },
+  "key": {
+    "battery_mah": 900,
+    "five_g": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5110",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5110"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5110\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5110",
+    "revid": 1361477357
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "htc-7-trophy",
+  "brand": "HTC",
+  "name": "7 Trophy",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/HTC_Trophy_smartphone.jpg/500px-HTC_Trophy_smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/HTC_Trophy_smartphone.jpg/250px-HTC_Trophy_smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC 7 Trophy",
+      "credit": "John Karakatsanis, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Trophy_smartphone.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "January 31, 2013"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "118.5 mm (4.67 in) (h) , 65.5 mm (2.42 in) (w) , 11.96 mm (0.47 in) (d)",
+      "Weight": "140 g (4.94 oz)",
+      "Other": "Wi-Fi, FM-Radio, GPS"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7",
+      "CPU": "Qualcomm QSD8250 1GHz Scorpion (Snapdragon), Qualcomm QSD8650 1GHz Scorpion (Snapdragon) on Verizon"
+    },
+    "Memory": {
+      "RAM": "576 MB RAM",
+      "Storage": "512 MB ROM",
+      "Card slot": "16 GB internal micro SD Card on Verizon, 8 GB on other carriers"
+    },
+    "Display": {
+      "Display": "3.8-inch (diagonal) widescreen, 480-by-800 WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel autofocus with flash, rear-facing, with 720p video capture"
+    },
+    "Battery": {
+      "Battery": "1300 mAh Lithium-ion or Lithium-ion polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "CDMA EV-DO 800/1900, 2100 HSPA, WCDMA, 850/900/1800/1900 GSM, EDGE on Verizon Wireless, 900/2100 HSPA, WCDMA, 850/900/1800/1900 GSM, EDGE on all other carriers"
+    }
+  },
+  "key": {
+    "battery_mah": 1300,
+    "os": "Windows Phone 7",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 140,
+    "thickness_mm": 11.96
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC 7 Trophy",
+      "url": "https://en.wikipedia.org/wiki/HTC_7_Trophy"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC 7 Trophy\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC 7 Trophy",
+    "revid": 1361473133
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

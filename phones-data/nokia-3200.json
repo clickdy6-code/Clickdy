@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-3200",
+  "brand": "Nokia",
+  "name": "3200",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Nokia_3200_%28transparent_bg%29.png/500px-Nokia_3200_%28transparent_bg%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Nokia_3200_%28transparent_bg%29.png/250px-Nokia_3200_%28transparent_bg%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 3200",
+      "credit": "Valdachim at German Wikipedia, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3200_(transparent_bg).png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2003",
+      "Predecessor": "Nokia 3100 (3200), Nokia 3105 (3205)",
+      "Successor": "Nokia 3220"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 (3200), GSM 850/1800/1900 (3200b), CDMA 800/1900 AMPS 800 (3205)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "107 mm H, 45 mm W, 20.8 mm D",
+      "Weight": "90 g (3200) , 96 g (3205)"
+    },
+    "Platform": {
+      "Operating system": "Series 40 1st Edition"
+    },
+    "Memory": {
+      "RAM": "1MB"
+    },
+    "Display": {
+      "Display": "128 × 128 12-bit (4096) color CSTN"
+    },
+    "Cameras": {
+      "Rear camera": "352 × 288 CIF (3200) , 640 × 480 VGA (3205)"
+    },
+    "Battery": {
+      "Battery": "BLD-3 780 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA"
+    }
+  },
+  "key": {
+    "battery_mah": 780,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 90,
+    "thickness_mm": 20.8,
+    "year": 2003
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3200",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3200"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3200\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3200",
+    "revid": 1372920687
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

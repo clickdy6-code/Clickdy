@@ -1,0 +1,74 @@
+{
+  "slug": "huawei-u8800",
+  "brand": "Huawei",
+  "name": "U8800",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Huawei_u8800_front.png/500px-Huawei_u8800_front.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Huawei_u8800_front.png/250px-Huawei_u8800_front.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei U8800",
+      "credit": "Mewtu, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_u8800_front.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Form factor": "bar",
+      "Dimensions": "120 mm H , 62 mm W , 11.6 mm D",
+      "Weight": "0.130 kg"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2.2, official upgrade to 2.3.5",
+      "CPU": "Qualcomm MSM7230 800 MHz Scorpion (Snapdragon)",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB (RAM), 320MB available",
+      "Storage": "2 GB",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.8 in 800×480 px"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "HSPA+, Bluetooth 2.1, Micro-USB 2.0, 3.5 mm audio jack, aGPS, Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.8,
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 11.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei U8800",
+      "url": "https://en.wikipedia.org/wiki/Huawei_U8800"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei U8800\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei U8800",
+    "revid": 1380235907
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

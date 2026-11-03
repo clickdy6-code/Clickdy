@@ -1,0 +1,75 @@
+{
+  "slug": "huawei-ideos-x3",
+  "brand": "Huawei",
+  "name": "Ideos X3",
+  "status": "published",
+  "announced": "2011-06-02",
+  "released": "2011-06-02",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Singapore 2011-06-02",
+      "Series": "IDEOS"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA",
+      "SIM": "Mini-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "110 mm H , 56.5 mm W , 11.2 mm D",
+      "Weight": "104 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3 (Gingerbread)",
+      "Chipset": "Qualcomm MSM7227 Snapdragon S1",
+      "CPU": "600 MHz ARM 11",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "512 MB",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "TFT, 3.2 inches, 320 x 480 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Po 1200 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM7227 Snapdragon S1",
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "os": "Android 2.3",
+    "five_g": false,
+    "weight_g": 104,
+    "thickness_mm": 11.2,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ideos X3",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ideos_X3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ideos X3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ideos X3",
+    "revid": 1380416384
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

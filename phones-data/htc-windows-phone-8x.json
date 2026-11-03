@@ -1,0 +1,83 @@
+{
+  "slug": "htc-windows-phone-8x",
+  "brand": "HTC",
+  "name": "Windows Phone 8X",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/HTC_Windows_Phone_8X_%288315233001%29.jpg/500px-HTC_Windows_Phone_8X_%288315233001%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/HTC_Windows_Phone_8X_%288315233001%29.jpg/250px-HTC_Windows_Phone_8X_%288315233001%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Windows Phone 8X",
+      "credit": "Mack Male from Edmonton, AB, Canada, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Windows_Phone_8X_(8315233001).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Q4 2012"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA 850/900/1900/2100"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "132.35 x",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8 (upgradable to Windows Phone 8.1)",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8960",
+      "CPU": "1.5 GHz dual-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 225"
+    },
+    "Memory": {
+      "RAM": "16 GB internal flash, 1 GB RAM"
+    },
+    "Display": {
+      "Display": "4.3\" Super LCD 2, 1280 x 720 px at 342 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8.0-megapixel",
+      "Front camera": "2.1-megapixel"
+    },
+    "Battery": {
+      "Battery": "1800 mAh Li-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.1+EDR, NFC"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon S4 MSM8960",
+    "ram_gb": [
+      1,
+      16
+    ],
+    "battery_mah": 1800,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 130,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Windows Phone 8X",
+      "url": "https://en.wikipedia.org/wiki/HTC_Windows_Phone_8X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Windows Phone 8X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Windows Phone 8X",
+    "revid": 1361473568
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

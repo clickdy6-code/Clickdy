@@ -1,0 +1,81 @@
+{
+  "slug": "lg-optimus-l4-ii",
+  "brand": "LG",
+  "name": "Optimus L4 II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/LG_optimus_L4_II_alarma.JPG/500px-LG_optimus_L4_II_alarma.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/LG_optimus_L4_II_alarma.JPG/250px-LG_optimus_L4_II_alarma.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus L4 II",
+      "credit": "Eloi.x, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_optimus_L4_II_alarma.JPG",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013",
+      "Series": "Optimus",
+      "Successor": "LG L50 Sporty"
+    },
+    "Network": {
+      "Technology": "GSM: Quad Band (850/900/1800/1900 MHz), GPRS, UMTS, HSDPA/HSUPA 7,2 Mbps, GPS"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "64,7 x 112,5 x 11,9 mm",
+      "Weight": "125 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2 (Jelly Bean)",
+      "CPU": "Mediatek MT6575, 1 GHz single-core"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4 GB",
+      "Card slot": "microSDHC, 32 GB maximum"
+    },
+    "Display": {
+      "Display": "3,8\" 320x480 pixel"
+    },
+    "Cameras": {
+      "Rear camera": "3,15 megapixel"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 3.0"
+    }
+  },
+  "key": {
+    "display_in": 8.0,
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1700,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 125,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus L4 II",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_L4_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus L4 II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus L4 II",
+    "revid": 1379004412
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

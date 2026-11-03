@@ -1,0 +1,70 @@
+{
+  "slug": "bq-aquaris-e4-5",
+  "brand": "BQ",
+  "name": "Aquaris E4.5",
+  "status": "published",
+  "announced": "2014-06-01",
+  "released": "2014-06-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Android Edition 1 June 2014 , Ubuntu Edition 11 February 2015",
+      "Series": "BQ Aquaris series",
+      "Successor": "BQ Aquaris E5"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "137 mm H, 67 mm W, 9 mm D",
+      "Weight": "123 g"
+    },
+    "Platform": {
+      "Operating system": "Android, Ubuntu Touch",
+      "Chipset": "MediaTek MT6582",
+      "CPU": "Quad-core Cortex A7 up to 1.3 GHz MediaTek",
+      "GPU": "Mali 400 up to 500 MHz"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "8 GB"
+    },
+    "Display": {
+      "Display": "4.5 in 960x540 pixel (240 Pixels per inch)"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixel f/2.4, focus range 0.1 m~infinity, lens number 4P, lens size 1/3.2\", dual flash and autofocus",
+      "Front camera": "5 megapixel"
+    },
+    "Battery": {
+      "Battery": "2,150 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "chipset": "MediaTek MT6582",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2150,
+    "weight_g": 123,
+    "thickness_mm": 9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BQ Aquaris E4.5",
+      "url": "https://en.wikipedia.org/wiki/BQ_Aquaris_E4.5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BQ Aquaris E4.5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BQ Aquaris E4.5",
+    "revid": 1361472644
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "lg-v50-thinq",
+  "brand": "LG",
+  "name": "V50 ThinQ",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/LG_V50_ThinQ_%28cropped%29.png/500px-LG_V50_ThinQ_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/LG_V50_ThinQ_%28cropped%29.png/250px-LG_V50_ThinQ_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG V50 ThinQ",
+      "credit": "LG Electronics, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_V50_ThinQ_(cropped).png",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-10",
+      "Series": "V series",
+      "Predecessor": "LG V40 ThinQ",
+      "Successor": "LG V60 ThinQ"
+    },
+    "Network": {
+      "Technology": "2G GSM, GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 2G CDMA2000, CDMA 1xRTT – 800, 1900 MHz, 3G UMTS/HSDPA/HSUPA/HSPA+ – 850, 900, Advanced Wireless Services, AWS (1700), 1900, 2000, 2100 MHz, 4G LTE (telecommunication), LTE – Bands 1–5, 7–8, 12–14, 17–20, 25–26, 28–30, 38–41, 46–71, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Other": "IP68 resistant, MIL-STD-810G compliant, Secondary screen case support"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 with LG UX, upgradable to Android 12",
+      "Chipset": "Qualcomm Snapdragon 855",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "6 GB RAM",
+      "Storage": "128 GB",
+      "Card slot": "microSDXC, expandable up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.4 in, 3120x1440 1440p P-OLED, (19.5:9 aspect ratio) (538 ppi) Dolby Vision, HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP IMX363 Exmor RS, 27mm (standard), f/1.5, 1/2.6\", 1.4 μm, 3-axis OIS, dual pixel PDAF, 12 MP s5k3m5, 52mm (telephoto), f/2.4, 1.0 μm, 2x optical zoom, OIS, PDAF, 16 MP IMX351 Exmor RS, 16.9mm (ultrawide), f/1.9, 1/3.1\", 1.0 μm, no Auto Focus",
+      "Front camera": "8 MP, 26mm (standard), f/1.9, 1.4 μm, 5 MP, 21mm (wide), f/2.2, 1.4 μm"
+    },
+    "Sound": {
+      "Sound": "Dual stereo \"boombox\" speaker, 3.5mm headphone jack, 32-bit/192kHz audio, 24-bit/48kHz audio recording, Active noise cancellation with dedicated mic, DTS: X Surround Sound, tuned with Meridian Audio"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-po 4000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (2.4 & 5GHz), Bluetooth 5 with aptX, 4G/LTE"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 855",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 9.0",
+    "five_g": true,
+    "nfc": false,
+    "ip": "IP68",
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG V50 ThinQ",
+      "url": "https://en.wikipedia.org/wiki/LG_V50_ThinQ"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG V50 ThinQ\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG V50 ThinQ",
+    "revid": 1361475554
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

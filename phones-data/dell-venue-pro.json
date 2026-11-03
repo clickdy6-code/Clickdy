@@ -1,0 +1,82 @@
+{
+  "slug": "dell-venue-pro",
+  "brand": "Dell",
+  "name": "Venue Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dell_Venue_Pro_smartphone.jpg/500px-Dell_Venue_Pro_smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dell_Venue_Pro_smartphone.jpg/250px-Dell_Venue_Pro_smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Dell Venue Pro",
+      "credit": "Dell's Official Flickr Page, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dell_Venue_Pro_smartphone.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2010"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS"
+    },
+    "Body": {
+      "Form factor": "Slider smartphone",
+      "Dimensions": "122.0 mm (h), 63.5 mm (w), 15.2 mm (d)",
+      "Weight": "192.78 g (6.8 oz)",
+      "Other": "Wi-Fi, Vertical slide out QWERTY keyboard, FM radio, GPS"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone , 7.0.7392.0 (United States) , 7.0.7355.0 (India) , 7.10.8862.144 (Germany)",
+      "CPU": "Qualcomm QSD8250 1GHz Scorpion (Snapdragon)"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "8GB, 16GB, 32GB"
+    },
+    "Display": {
+      "Display": "4.1-inch (diagonal) widescreen, 480-by-800 WVGA AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel autofocus with flash, rear-facing"
+    },
+    "Battery": {
+      "Battery": "1400 mAh Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Quad-band UMTS 850; UMTS 1900; UMTS 1700; UMTS 2100"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "storage_gb": [
+      8,
+      16,
+      32
+    ],
+    "battery_mah": 1400,
+    "os": "Windows Phone",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 192.78,
+    "thickness_mm": 15.2,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Dell Venue Pro",
+      "url": "https://en.wikipedia.org/wiki/Dell_Venue_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Dell Venue Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Dell Venue Pro",
+    "revid": 1369431623
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

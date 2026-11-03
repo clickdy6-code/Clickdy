@@ -1,0 +1,64 @@
+{
+  "slug": "nokia-3110",
+  "brand": "Nokia",
+  "name": "3110",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Nokia_3110_%282%29.jpg/500px-Nokia_3110_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Nokia_3110_%282%29.jpg/250px-Nokia_3110_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 3110",
+      "credit": "DasReboot at English Wikipedia, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3110_(2).jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 1610",
+      "Successor": "Nokia 5110, Nokia 3210"
+    },
+    "Network": {
+      "Technology": "2G (GSM): 900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "136 x 45 x 21 mm, 139 cc",
+      "Weight": "146 g (slim battery) , 187 g (standard battery)"
+    },
+    "Platform": {
+      "Operating system": "default"
+    },
+    "Memory": {
+      "RAM": "SIM card"
+    },
+    "Display": {
+      "Display": "Monochrome"
+    },
+    "Battery": {
+      "Battery": "Slim Battery, 400 mAh, Li-Ion , Standard Battery, 550 mAh, NiMH"
+    }
+  },
+  "key": {
+    "battery_mah": 400,
+    "five_g": false,
+    "weight_g": 146
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3110",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3110"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3110\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3110",
+    "revid": 1361477236
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

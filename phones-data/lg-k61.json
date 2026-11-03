@@ -1,0 +1,92 @@
+{
+  "slug": "lg-k61",
+  "brand": "LG",
+  "name": "K61",
+  "status": "published",
+  "announced": "2020-04-27",
+  "released": "2020-04-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-04-27",
+      "Series": "LG K series",
+      "Successor": "LG K71"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.5 mm H , 77.5 mm W , 8.4 mm D",
+      "Weight": "191 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 \"Pie\"",
+      "Chipset": "MediaTek MT6765 Helio P35 (12 nm)",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB or 128 GB",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.53 in (166 mm) IPS LCD, 1080 × 2340 pixels, 19.5:9 ratio (~394 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Quad:, • 48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF, • 8 MP, f/2.2, 118° (ultrawide), • 2 MP, f/2.4 (macro / depth), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "16 MP, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm audio jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac or b/g/n, Bluetooth 5.0 (A2DP, LE), GPS, NFC, USB Type-C 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.53,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6765 Helio P35",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 191,
+    "thickness_mm": 8.4,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG K61",
+      "url": "https://en.wikipedia.org/wiki/LG_K61"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG K61\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG K61",
+    "revid": 1363626420
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

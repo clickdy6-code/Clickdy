@@ -1,0 +1,91 @@
+{
+  "slug": "cherry-mobile-flare-s8",
+  "brand": "Cherry",
+  "name": "Mobile Flare S8",
+  "status": "published",
+  "announced": "2019-07-25",
+  "released": "2019-07-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-07-25 (S8, S8 Pro & S8 Plus), 2019-10-03 (S8 Lite, S8 Deluxe, S8 Prime & S8 Max)",
+      "Discontinued": "Yes",
+      "Series": "Flare",
+      "Predecessor": "Cherry Mobile Flare S7",
+      "Successor": "Cherry Mobile Aqua S9"
+    },
+    "Network": {
+      "SIM": "Dual-SIM Slot or Hybrid (nanoSIM)"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Cherry OS V2.0 (based on Android 9)",
+      "Chipset": "S8/S8 Lite/S8 Prime/S8 Max: Mediatek Helio P23, S8 Pro: Mediatek Helio P22, S8 Deluxe: UNISOC SC9863A, S8 Plus: Mediatek Helio P70",
+      "CPU": "Mediatek Helio P23: Octa-core (4x Cortex-A53 @ 2.3GHz & 4x Cortex-A53 @ 1.65GHz), Mediatek Helio P22: Octa-core (4x2.0 GHz Cortex-A53 & 4x1.5 GHz Cortex-A53), UNISOC SC9863A: Octa-core (4x Cortex-A55 @ 1.6GHz), Mediatek Helio P70: Octa-core (4x Cortex-A73 @ 2.1GHz & 4x Cortex-A53 @ 2.0GHz)",
+      "GPU": "Mediatek Helio P23: Mali G71-MP2, UNISOC SC9863A: PowerVR GE8322, Mediatek Helio P22: PowerVR GE8320, Mediatek Helio P70: Mali G72-MP3"
+    },
+    "Memory": {
+      "RAM": "S8: 3GB, S8 Lite: 2GB, S8 Deluxe/S8 Pro/S8 Prime/S8 Max: 4GB, S8 Plus: 6GB",
+      "Storage": "S8: 32GB, S8 Lite: 16GB, S8 Deluxe/S8 Pro/S8 Prime/S8 Max: 64GB, S8 Plus: 128GB",
+      "Card slot": "MicroSDXC expandable up to 128GB (S8, S8 Lite, S8 Deluxe & S8 Max), MicroSDXC expandable up to 256GB (S8 Prime), MicroSDXC expandable up to 512GB (S8 Pro & S8 Plus)"
+    },
+    "Display": {
+      "Display": "S8: 6.26 in 720x1520 IPS LCD, (269 ppi), S8 Lite: 5.71 in 720x1520 IPS LCD, (295 ppi), S8 Deluxe: 6.26 in 720x1520 IPS LCD, (269 ppi), S8 Pro: 6.5 in 720x1520 IPS LCD, (259 ppi), S8 Plus: 6.26 in 1080x2280 IPS LCD, (403 ppi), S8 Prime: 6.53 in 1080x2340 IPS LCD, (395 ppi), S8 Max: 7.0 in 1080x2160 IPS LCD, (345 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "S8: Dual: 13MP Main Camera (f/2.0 Aperture, Autofocus) + 2MP Depth Sensor, S8 Lite: Dual: 8MP Main Camera + 2MP Depth Camera, S8 Deluxe: Dual: 16MP Main Camera + 2MP Depth Sensor, S8 Pro: Dual: 20MP Main Camera (f/2.0 Aperture, Autofocus) + 5MP Depth Sensor, S8 Plus: Triple: 16MP Main Camera (f/1.6 Aperture, PDAF) + 5MP Secondary Camera + 2MP Depth Sensor, S8 Prime: Dual: 16MP Main Camera (Sony IMX298) + 5MP Depth Camera (Galaxy Core GC2385), S8 Max: Dual: 16MP Main Camera (PDAF) + 2MP Depth Camera",
+      "Front camera": "S8: 13MP front camera, f/2.0, 1080p video, S8 Lite: 5MP front camera, S8 Deluxe: 8MP front camera, S8 Pro: 20 MP front camera, S8 Plus: Dual: 13MP front camera + 2 MP Depth Sensor (motorized pop-up camera), S8 Prime: 16MP motorized pop-up front camera, S8 Max: 13MP front camera"
+    },
+    "Battery": {
+      "Battery": "S8: 2800mAh, S8 Lite: 2500mAh (removable), S8 Deluxe: 3000 mAh, S8 Pro: 4000 mAh, S8 Plus: 3250 mAh, S8 Prime: 3300 mAh, S8 Max: 6000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, 802.11 b/g/n with Wi-Fi Direct support, BT4.2, BLE, Micro USB 2.0 (S8, S8 Lite, S8 Deluxe & S8 Max), USB-C (S8 Pro, S8 Plus & S8 Prime)"
+    }
+  },
+  "key": {
+    "display_in": 6.26,
+    "display_type": "IPS LCD",
+    "chipset": "S8/S8 Lite/S8 Prime/S8 Max: Mediatek Helio P23",
+    "ram_gb": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "storage_gb": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 13,
+    "battery_mah": 2800,
+    "os": "Android 9",
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Cherry Mobile Flare S8",
+      "url": "https://en.wikipedia.org/wiki/Cherry_Mobile_Flare_S8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Cherry Mobile Flare S8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Cherry Mobile Flare S8",
+    "revid": 1363493088
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

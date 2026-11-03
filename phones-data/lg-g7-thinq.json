@@ -1,0 +1,93 @@
+{
+  "slug": "lg-g7-thinq",
+  "brand": "LG",
+  "name": "G7 ThinQ",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/34/LG_G7_ThinQ_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/34/LG_G7_ThinQ_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG G7 ThinQ",
+      "credit": "LG Electronics, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_G7_ThinQ_(cropped).png",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "LG G6",
+      "Successor": "LG G8 ThinQ"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153.2 x 71.9 x 7.9 mm (6.03 x 2.83 x 0.31 in)",
+      "Weight": "162 g (5.75 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.0 \"Oreo\", Current: Android 10/11, Unofficial alternative: Android 14",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4x 2.8GHz & 4x 1.8GHz) Kryo",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "4 GB/6 GB LPDDR4 RAM",
+      "Storage": "64 or 128 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.09 in (full rectangle), 5.94 in (without notch), 3120 × 1440 1440p IPS LCD (19.5:9 aspect ratio) (564 ppi) Dolby Vision, HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP (f/1.6, OIS) + 16 MP wide angle (f/1.9), active autofocus, LED flash, 2160p@30/60fps, 1080p@30/60fps, Slow-Motion 720p@240fps, HDR10, stereo sound rec.",
+      "Front camera": "8 MP, f/1.9, 1080p"
+    },
+    "Sound": {
+      "Sound": "Mono \"boombox\" speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "3000 mAh Li-Po, non removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Type-C 1.0 reversible connector + 802.11 a/b/g/n/ac Wi-fi, dual-band + Bluetooth 5.0 + NFC + Radio + GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.09,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 8.0",
+    "nfc": true,
+    "weight_g": 162
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G7 ThinQ",
+      "url": "https://en.wikipedia.org/wiki/LG_G7_ThinQ"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G7 ThinQ\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "LG G7 ThinQ",
+    "revid": 1361475003
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

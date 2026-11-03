@@ -1,0 +1,72 @@
+{
+  "slug": "transsion-itel-a49",
+  "brand": "Transsion",
+  "name": "Itel A49",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 2022",
+      "Series": "A series",
+      "Predecessor": "Itel A48"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Platform": {
+      "Operating system": "Android 11 (Go edition), itelOS 7.6.0",
+      "Chipset": "Unisoc SC9832E (28 nm)",
+      "CPU": "Quad-core 1.4GHz"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "6.3-inch Waterdrop Full Screen"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP + QVGA Dual Camera",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "4,000 mAh"
+    }
+  },
+  "key": {
+    "chipset": "Unisoc SC9832E",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4000,
+    "os": "Android 11",
+    "five_g": false,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel A49",
+      "url": "https://en.wikipedia.org/wiki/Itel_A49"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel A49\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel A49",
+    "revid": 1355712727
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

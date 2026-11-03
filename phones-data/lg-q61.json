@@ -1,0 +1,86 @@
+{
+  "slug": "lg-q61",
+  "brand": "LG",
+  "name": "Q61",
+  "status": "published",
+  "announced": "2020-05-21",
+  "released": "2020-05-21",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-05-21 (South Korea)",
+      "Discontinued": "Yes",
+      "Series": "LG Q series",
+      "Predecessor": "LG Q60"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.5 mm H , 77.5 mm W , 8.3 mm D",
+      "Other": "Durability enhancement: MIL-STD-810G (military-grade)"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 (Pie)",
+      "Chipset": "MediaTek MT6765 Helio P35 (12 nm)",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB eMMC 5.1",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.53 in (166 mm) IPS LCD, 1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Quad:, 48 MP, f/1.8 (wide), PDAF, 8 MP, f/2.2 (ultrawide), 2 MP, f/2.4 (macro), 5 MP, f/2.4 (depth), LED flash, panorama, HDR",
+      "Front camera": "16 MP"
+    },
+    "Sound": {
+      "Sound": "DTS:X 3D Surround Sound"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 6.53,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6765 Helio P35",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "os": "Android 9.0",
+    "five_g": false,
+    "thickness_mm": 8.3,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Q61",
+      "url": "https://en.wikipedia.org/wiki/LG_Q61"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Q61\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Q61",
+    "revid": 1363626405
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

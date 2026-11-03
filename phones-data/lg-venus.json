@@ -1,0 +1,54 @@
+{
+  "slug": "lg-venus",
+  "brand": "LG",
+  "name": "Venus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "LG Chocolate"
+    },
+    "Body": {
+      "Dimensions": "4.00\" (H) x 2.00\" (W) x 0.62\" (D)",
+      "Weight": "3.79 oz."
+    },
+    "Memory": {
+      "RAM": "60 MB for music",
+      "Card slot": "up to 8 GB microSD (not included)"
+    },
+    "Display": {
+      "Display": "Color TFT TouchScreen 240 x 320 pixels (262.144 colors)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixels"
+    },
+    "Battery": {
+      "Battery": "Li – Ion, 800 mAH"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Venus",
+      "url": "https://en.wikipedia.org/wiki/LG_Venus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Venus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Venus",
+    "revid": 1361475606
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

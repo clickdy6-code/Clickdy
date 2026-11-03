@@ -1,0 +1,75 @@
+{
+  "slug": "htc-u12",
+  "brand": "HTC",
+  "name": "U12+",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/HTC_U12%2B_Mockup.png/500px-HTC_U12%2B_Mockup.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/HTC_U12%2B_Mockup.png/250px-HTC_U12%2B_Mockup.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC U12+",
+      "credit": "The original uploader was MDXDave at German Wikipedia., CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_U12%2B_Mockup.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC U",
+      "Predecessor": "HTC U11, HTC U11#HTC U11+, HTC U11+",
+      "Successor": "HTC U19e"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "156.6 mm H, 73.9 mm W, 8.7 mm D",
+      "Weight": "188 g",
+      "Other": "IP68 protection"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.0 \"Oreo\" with HTC Sense 10 (with Treble) , Current: Android 9.0 \"Pie\"",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4×2.8 & 4×1.7 GHz) Kryo",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6 LPDDR4X RAM",
+      "Storage": "64 or 128 GB",
+      "Card slot": "microSD up to 2"
+    },
+    "Display": {
+      "Display": "6 in Super LCD6 capacitive touchscreen with Corning Gorilla Glass 5, 2880×1440 resolution (~537 ppi pixel density)"
+    },
+    "Battery": {
+      "Battery": "3,500 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "chipset": "Qualcomm Snapdragon 845",
+    "storage_gb": [
+      128
+    ],
+    "battery_mah": 3500,
+    "os": "Android 8.0",
+    "ip": "IP68",
+    "weight_g": 188,
+    "thickness_mm": 8.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC U12+",
+      "url": "https://en.wikipedia.org/wiki/HTC_U12%2B"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC U12+\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC U12+",
+    "revid": 1361473555
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

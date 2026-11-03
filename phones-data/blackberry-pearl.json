@@ -1,0 +1,70 @@
+{
+  "slug": "blackberry-pearl",
+  "brand": "BlackBerry",
+  "name": "Pearl",
+  "status": "published",
+  "announced": "2006-09-12",
+  "released": "2006-09-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Habemus_Pearl_01_%28263107907%29.jpg/500px-Habemus_Pearl_01_%28263107907%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Habemus_Pearl_01_%28263107907%29.jpg/250px-Habemus_Pearl_01_%28263107907%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BlackBerry Pearl",
+      "credit": "Enrique Dans from Madrid, Spain, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Habemus_Pearl_01_(263107907).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2006-09-12",
+      "Successor": "BlackBerry Curve"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE 850 / 900 / 1800 / 1900 (8100, 8110, 8120), CDMA 850 / 1900 (8130 only)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "107 × 51 × 15 mm",
+      "Weight": "90.7 g"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry OS 4.5 (shipped)"
+    },
+    "Memory": {
+      "RAM": "64 MB, MicroSD slot"
+    },
+    "Display": {
+      "Display": "240x260 pixel, 57 mm (2.25 in) diagonal, 62 pixels/cm (157 ppi), 65536 colors (16-bit) TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "1.33 megapixel (8100) or 2.0 megapixel (8110/8120/8130)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (8120 and 8220 only), Bluetooth, USB (with Mass Storage Mode support)"
+    }
+  },
+  "key": {
+    "display_in": 2.25,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 90.7,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Pearl",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Pearl"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Pearl\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Pearl",
+    "revid": 1380113019
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "htc-u-play",
+  "brand": "HTC",
+  "name": "U Play",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/HTC_U_Play_Brilliant_Black_box_20170521.jpg/500px-HTC_U_Play_Brilliant_Black_box_20170521.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/HTC_U_Play_Brilliant_Black_box_20170521.jpg/250px-HTC_U_Play_Brilliant_Black_box_20170521.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC U Play",
+      "credit": "GilPe, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_U_Play_Brilliant_Black_box_20170521.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC U"
+    },
+    "Body": {
+      "Form factor": "Smartphone"
+    },
+    "Platform": {
+      "Operating system": "Android \"Marshmallow\" 6.0, with HTC Sense",
+      "Chipset": "Mediatek Helio P10",
+      "GPU": "Mali-T860MP2"
+    },
+    "Memory": {
+      "RAM": "3 or 4 GB",
+      "Storage": "32 or 64 GB",
+      "Card slot": "MicroSD up to 2TB"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 2500 mAh battery"
+    }
+  },
+  "key": {
+    "chipset": "Mediatek Helio P10",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 2500
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC U Play",
+      "url": "https://en.wikipedia.org/wiki/HTC_U_Play"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC U Play\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC U Play",
+    "revid": 1361473540
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

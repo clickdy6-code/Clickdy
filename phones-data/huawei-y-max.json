@@ -1,0 +1,94 @@
+{
+  "slug": "huawei-y-max",
+  "brand": "Huawei",
+  "name": "Y Max",
+  "status": "published",
+  "announced": "2018-09-05",
+  "released": "2018-09-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Honor 8X Max: 2018-09-05, Enjoy Max: 2018-10-15, Y Max: 2018-11",
+      "Series": "Huawei Y/Enjoy, Honor X"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 177.6 mm, W: 86.2 mm, D:, Y Max/Enjoy Max: 8.5 mm, Honor 8X Max: 8.1 mm",
+      "Weight": "210 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 8.1 + EMUI 8.2, Current (Honor 8X Max): Android 9 Pie + EMUI 9.1",
+      "Chipset": "Y Max/Enjoy Max/Honor 8X Max (6 GB): Qualcomm Snapdragon 660 (14 nm), Honor 8X Max (4 GB): Qualcomm Snapdragon 636 (14 nm)",
+      "CPU": "Y Max/Enjoy Max/Honor 8X Max (6 GB): Octa-core (4×1.95 GHz Kryo 260 Gold & 4×1.8 GHz Kryo 260 Silver), Honor 8X Max (4 GB): Octa-core (4×1.8 GHz Kryo 260 Gold & 4×1.6 GHz Kryo 260 Silver)",
+      "GPU": "Y Max/Enjoy Max/Honor 8X Max (6 GB): Adreno 512, Honor 8X Max (4 GB): Adreno 509"
+    },
+    "Memory": {
+      "RAM": "Y Max/Enjoy Max: 4 GB, Honor 8X Max: 4/6 GB, LPDDR4X",
+      "Storage": "64/128 GB; eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD 7.12\", 2244 × 1080 (FullHD+), 18.7:9, 350 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP, PDAF + 2 MP, (depth sensor), LED flash, panorama, HDR, Video: 1080p@30fps",
+      "Front camera": "8 MP, HDR, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "Y Max/Enjoy Max: 10 W, Honor 8X Max: 18 W fast charging, 5 W reverse wired charging"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5 mm audio jack, Bluetooth 4.2 (A2DP, LE), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 7.12,
+    "display_type": "IPS LCD",
+    "chipset": "Y Max/Enjoy Max/Honor 8X Max",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 210,
+    "thickness_mm": 8.5,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y Max",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y_Max"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y Max\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y Max",
+    "revid": 1361474100
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

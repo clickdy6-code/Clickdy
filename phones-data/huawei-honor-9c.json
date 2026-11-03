@@ -1,0 +1,93 @@
+{
+  "slug": "huawei-honor-9c",
+  "brand": "Huawei",
+  "name": "Honor 9C",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Play 3: , 9C:",
+      "Series": "C/Play",
+      "Predecessor": "Honor 8C",
+      "Successor": "Honor X7, Honor X8, Honor Play 4"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.8 × 76.1 × 8.1 mm",
+      "Weight": "176 g",
+      "Other": "Fingerprint scanner (rear-mounted on 9C), proximity sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "9C: Android 10 without Google Play Services, Magic UI 3.1, Play 3:, Initial: Android 9 Pie without Google Play Services, EMUI 9.1, Current: HarmonyOS 2.0",
+      "Chipset": "9C: HiSilicon Kirin 710A (14 nm), Play 3: HiSilicon Kirin 710F (12 nm)",
+      "CPU": "Octa-core (4×2.0 GHz Cortex-A73 & 4×1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "RAM": "9C: 4 GB, Play 3: 4/6 GB, LPDDR4",
+      "Storage": "9C: 64 GB, Play 3: 64/128 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.39\", 1560 × 720 (HD+), 19.5:9, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.8 (wide-angle), 1/2.0\", 0.8 µm, PDAF + 8 MP, f/2.4, 120˚ (ultrawide) + 2 MP, f/2.4, (depth), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0 (wide-angle), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5 mm audio jack, Bluetooth 5.0 (A2DP, LE), NFC (9C), FM radio (Play 3), Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.39,
+    "display_type": "IPS LCD",
+    "chipset": "9C: HiSilicon Kirin 710A",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 176
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 9C",
+      "url": "https://en.wikipedia.org/wiki/Honor_9C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 9C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 9C",
+    "revid": 1361473637
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

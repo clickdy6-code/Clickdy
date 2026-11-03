@@ -1,0 +1,78 @@
+{
+  "slug": "htc-magic",
+  "brand": "HTC",
+  "name": "Magic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/f/f8/NTT_docomo_HT-03A_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/NTT_docomo_HT-03A_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "HTC Magic",
+      "credit": "HT-03android.jpg: 自分\nderivative work: Ch Th Jo (talk), Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NTT_docomo_HT-03A_front.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "HTC Dream",
+      "Successor": "HTC Hero"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850 900 1800 1900 MHz , WCDMA/UMTS 900 1700 2100 MHz , HSDPA 7.2 Mbit/s , HSUPA 2 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "113 mm H , 55.56 mm W , 13.65 mm D",
+      "Weight": "116 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 1.5 \"Cupcake\" , Current: Android 2.2.1 \"Froyo\", Unofficial: Android 2.3.3 \"Gingerbread\"",
+      "CPU": "PVT32A 528 MHz Qualcomm MSM7200A ARM11 , PVT32B 528 MHz Qualcomm MSM7201A ARM11"
+    },
+    "Memory": {
+      "RAM": "PVT32A 288 MB RAM , PVT32B 192 MB RAM",
+      "Storage": "512 MB ROM",
+      "Card slot": "microSD (supports up to 16 GB)"
+    },
+    "Display": {
+      "Display": "320 x 480 px, 3.2 in, HVGA, 65,536 color LCD at 180 pixels per inch (PPI)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel, autofocus"
+    },
+    "Battery": {
+      "Battery": "1340 mAh, 3.7 V , Internal Rechargeable Li-ion , User-replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + EDR with A2DP , HTC ExtUSB , Wi-Fi 802.11b/g"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "LCD",
+    "battery_mah": 1340,
+    "os": "Android 1.5",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 116,
+    "thickness_mm": 13.65
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Magic",
+      "url": "https://en.wikipedia.org/wiki/HTC_Magic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Magic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Magic",
+    "revid": 1370097081
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

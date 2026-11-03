@@ -1,0 +1,91 @@
+{
+  "slug": "meizu-mx4",
+  "brand": "Meizu",
+  "name": "MX4",
+  "status": "published",
+  "announced": "2014-09-02",
+  "released": "2014-09-02",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-09-02",
+      "Series": "Meizu MX Series",
+      "Predecessor": "Meizu MX3",
+      "Successor": "Meizu MX5"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "144.0 mm H, 75.2 mm W, 8.9 mm D",
+      "Weight": "147 g",
+      "Other": "Dual SIM support with dual standby mode"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS, based on Android 4.4.2 KitKat",
+      "Chipset": "MediaTek MT6595",
+      "CPU": "Octa-core (4x2.2GHz Cortex-A17 4x1.7GHz Cortex-A7)",
+      "GPU": "PowerVR G6200"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3",
+      "Storage": "16 GB, 32 GB or 64 GB flash memory",
+      "Card slot": "Not supported"
+    },
+    "Display": {
+      "Display": "5.36 inch diagonal OGS, 1152x1920 px (418 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "20.7 MP, PDAF autofocus, ƒ/2.2 aperture, LED flash, 4K recording",
+      "Front camera": "2.0 MP, ƒ/2.0 aperture"
+    },
+    "Battery": {
+      "Battery": "3100 mAh Li-Ion rechargeable battery, not replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.0 with BLE, Dual-band WiFi (802.11 a/b/g/n/ac)"
+    }
+  },
+  "key": {
+    "display_in": 5.36,
+    "chipset": "MediaTek MT6595",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32,
+      64
+    ],
+    "main_mp": 20.7,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 2,
+    "battery_mah": 3100,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 147,
+    "thickness_mm": 8.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu MX4",
+      "url": "https://en.wikipedia.org/wiki/Meizu_MX4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu MX4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu MX4",
+    "revid": 1364776177
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

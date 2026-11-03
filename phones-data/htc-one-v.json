@@ -1,0 +1,86 @@
+{
+  "slug": "htc-one-v",
+  "brand": "HTC",
+  "name": "One V",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/HTC_One_V_T320e_with_Hami_apps_coupon_from_Senao_20120616.jpg/500px-HTC_One_V_T320e_with_Hami_apps_coupon_from_Senao_20120616.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/HTC_One_V_T320e_with_Hami_apps_coupon_from_Senao_20120616.jpg/250px-HTC_One_V_T320e_with_Hami_apps_coupon_from_Senao_20120616.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC One V",
+      "credit": "Sinchen.Lin, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_One_V_T320e_with_Hami_apps_coupon_from_Senao_20120616.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC One",
+      "Predecessor": "HTC Legend"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "120.3 mm H , 59.7 mm W , 9.2 mm D",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.3 with HTC Sense 4.0, unofficially upgradeable to Android 4.4 (CDMA) and Android 6.0 (GSM) via custom ROM",
+      "Chipset": "Qualcomm Snapdragon S255",
+      "CPU": "1 GHz single-core Qualcomm Scorpion",
+      "GPU": "Qualcomm Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.7 in 480×800 pixels, Super IPS LCD2 [252ppi]"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP + autofocus, LED flash",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "1500 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "2G: 850 900 1800 1900 MHz, 3G: 850 900 1900 2100 MHz, HSDPA: 14.4 Mbps#Megabit per second, Mbps, Wi-Fi: 802.11b/g/n, Bluetooth: Bluetooth#Bluetooth v4.0, v4.0 with aptX® enabled"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon S255",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115,
+    "thickness_mm": 9.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC One V",
+      "url": "https://en.wikipedia.org/wiki/HTC_One_V"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC One V\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC One V",
+    "revid": 1383188568
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "lg-g2-mini",
+  "brand": "LG",
+  "name": "G2 Mini",
+  "status": "published",
+  "announced": "2014-04-29",
+  "released": "2014-04-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/LG_G2_Mini.png/500px-LG_G2_Mini.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/LG_G2_Mini.png/250px-LG_G2_Mini.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG G2 Mini",
+      "credit": "GadgetsGuy, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_G2_Mini.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-04-29",
+      "Successor": "LG G3 Stylus"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "129.6 mm H, 66 mm W, 9.8 mm D",
+      "Weight": "121 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.2 \"KitKat\", Current: Android 5.0.2 \"Lollipop\"",
+      "Chipset": "Qualcomm Snapdragon 400 MSM8226 (Global WCDMA Variant), Qualcomm Snapdragon 400 MSM8926 (Global LTE Variant), Nvidia Tegra 4i SP3X (South American Variant)",
+      "CPU": "1.2 GHz ARM Cortex-A7 (Global Variant), ARM Cortex-A9 R4 MP4 1.7 GHz (South America Variant)",
+      "GPU": "Adreno 305 (Global Variant), nVIDIA ULP GeForce 660 MHz (South American Variant)"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSD up to 64GB"
+    },
+    "Display": {
+      "Display": "4.7 in diagonal , qHD IPS LCD 960x540 (234 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP (Global Variant), 13 MP OIS (South American Variant), LED flash",
+      "Front camera": "1.3 MP"
+    },
+    "Battery": {
+      "Battery": "Li-Pol 2,440 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 400 MSM8226",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 1.3,
+    "battery_mah": 2440,
+    "os": "Android 4.4",
+    "weight_g": 121,
+    "thickness_mm": 9.8,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G2 Mini",
+      "url": "https://en.wikipedia.org/wiki/LG_G2_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G2 Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG G2 Mini",
+    "revid": 1361474968
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

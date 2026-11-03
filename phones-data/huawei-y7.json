@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-y7",
+  "brand": "Huawei",
+  "name": "Y7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Huawei_Y7_ene_2019.jpg/500px-Huawei_Y7_ene_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Huawei_Y7_ene_2019.jpg/250px-Huawei_Y7_ene_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Y7",
+      "credit": "EEIM, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Y7_ene_2019.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Play 7C: , Nova 2 lite: , Y7 Prime 2018: , Enjoy 8: , Y7 2018/Pro 2018: , Honor 7C: , Honor 7C Pro:",
+      "Series": "Huawei Y/Enjoy/Nova, Honor C/Play",
+      "Predecessor": "Huawei Y7, Huawei Enjoy 7, Huawei Nova lite, Honor 6C, Honor 6C Pro",
+      "Successor": "Huawei Y7 (2019), Honor 8C"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Y7 2018: Nano-SIM or Dual SIM (Nano-SIM), Y7 Prime 2018/Pro 2018/Enjoy 8/Nova 2 lite/Honor 7C/Pro/Play 7C: Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158.3 × 76.7 × 7.8 mm",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 Oreo + EMUI 8",
+      "Chipset": "Y7/Prime 2018/Pro 2018/Enjoy 8/Nova 2 lite: Qualcomm MSM8937 Snapdragon 430 (28 nm), Honor 7C/Pro/Play 7C: Qualcomm SDM450 Snapdragon 450 (14 nm)",
+      "CPU": "Y7/Prime 2018/Pro 2018/Enjoy 8/Nova 2 lite: 8 cores (4×1.8 GHz Cortex-A53 + 4×1.1 GHz Cortex-A53), Honor 7C/Pro/Play 7C: 8×1.8 GHz Cortex-A53",
+      "GPU": "Y7/Prime 2018/Pro 2018/Enjoy 8/Nova 2i: Adreno 505, Honor 7C/Pro/Play 7C: Adreno 506"
+    },
+    "Memory": {
+      "RAM": "Y7 2018: 2 GB, Y7 Prime 2018/Honor 7C/Play 7C: 3/4 GB, Y7 Pro 2018/Enjoy 8/Nova 2 lite/Honor 7C Pro: 3 GB",
+      "Storage": "Y7 2018: 16 GB, Y7 Prime 2018/Honor 7C/Play 7C: 32/64 GB, Y7 Pro 2018/Enjoy 8/Nova 2 lite/Honor 7C Pro: 32 GB, eMMC 5.1",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.99\", 1440 × 720 (720p HD+), 18:9, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Y7 2018: 13 MP, PDAF, Y7 Prime 2018/Pro 2018/Enjoy 8/Nova 2 lite/Honor 7C/Pro/Play 7C: 13 MP, PDAF + 2 MP (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono sound"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 3000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB 2.0, 3.5 mm Audio, Bluetooth 4.2 (A2DP, LE), NFC (depending on region for Y7 2018, Enjoy 8), FM radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct), GPS (A-GPS), GLONASS, BeiDou (Honor 7C/Pro/Play 7C)"
+    }
+  },
+  "key": {
+    "display_in": 5.99,
+    "display_type": "IPS LCD",
+    "chipset": "Y7/Prime 2018/Pro 2018/Enjoy 8/Nova 2 lite: Qualcomm MSM8937",
+    "ram_gb": [
+      2,
+      3,
+      4
+    ],
+    "storage_gb": [
+      16,
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "wired_w": 10,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 155,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y7 (2018)",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y7_%282018%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y7 (2018)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y7 (2018)",
+    "revid": 1361474207
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

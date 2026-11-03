@@ -1,0 +1,82 @@
+{
+  "slug": "microsoft-microsoft-microsoft-lumia-540",
+  "brand": "Microsoft  (Microsoft)",
+  "name": "Microsoft Lumia 540",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 2015",
+      "Series": "Lumia",
+      "Predecessor": "Microsoft Lumia 535[http://www.thedailystar.net/bytes/hands-review/microsoft-lumia-540-vivid-midranger-100891 Microsoft Lumia 540: Vivid Midranger",
+      "Successor": "Microsoft Lumia 550"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA 900/2100"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1 Update 2 (Lumia Denim)",
+      "Chipset": "Qualcomm Snapdragon 200",
+      "CPU": "1.2 GHz quad-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 302"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB Internal",
+      "Card slot": "128 GB, microSD"
+    },
+    "Display": {
+      "Display": "5-inch IPS LCD, HD 1280x720 resolution, 294 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 MP auto-focus, f/2.2 with LED flash, 480p video recording",
+      "Front camera": "5.0 MP"
+    },
+    "Battery": {
+      "Battery": "2200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.0 (LE), Assisted GPS, GPS/GLONASS, Micro-USB 2.0, Wi-Fi :802.11b/g/n, WiFi Hotspot, Wi-Fi-based positioning system (WPS), FM radio, Internet radio"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 200",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2200,
+    "os": "Windows Phone 8.1",
+    "five_g": false,
+    "nfc": false,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Microsoft Lumia 540",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Lumia_540"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Microsoft Lumia 540\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Microsoft Lumia 540",
+    "revid": 1361476116
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "lg-chocolate-platinum",
+  "brand": "LG",
+  "name": "Chocolate Platinum",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM triband 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "96 ×48 × 16.4 mm",
+      "Weight": "95 grams"
+    },
+    "Memory": {
+      "RAM": "55 MB of RAM",
+      "Card slot": "support up to 2 GB"
+    },
+    "Display": {
+      "Display": "TFT, 262,144 colours, QVGA 320×240 pixels, 30 mm × 40 mm, 2.0 inches (5 cm) diagonal."
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel (1600×1200 pixels) photo in JPEG, video in MPEG4 QCIF(176×144 pixels), Flash"
+    },
+    "Battery": {
+      "Battery": "800 mAh Li-Ion polymer 6-hour talk-time and 270-hour standby-time battery life"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, Bluetooth, GPRS"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Chocolate Platinum (KE800)",
+      "url": "https://en.wikipedia.org/wiki/LG_Chocolate_Platinum_%28KE800%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Chocolate Platinum (KE800)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Chocolate Platinum (KE800)",
+    "revid": 1361474850
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

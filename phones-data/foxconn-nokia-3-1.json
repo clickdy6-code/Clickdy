@@ -1,0 +1,88 @@
+{
+  "slug": "foxconn-nokia-3-1",
+  "brand": "Foxconn",
+  "name": "Nokia 3.1",
+  "status": "published",
+  "announced": "2018-05-25",
+  "released": "2018-05-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-05-25",
+      "Predecessor": "Nokia 3",
+      "Successor": "Nokia 3.2"
+    },
+    "Network": {
+      "SIM": "Nano SIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "146.25 mm H, 68.65 mm W, 8.7 mm D (with or without camera bump)",
+      "Weight": "138.3 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.0 \"Oreo\", Current: Android 10, (Android One)",
+      "Chipset": "MediaTek MT6750N",
+      "CPU": "Octa-Core 1.5 GHz",
+      "GPU": "Mali-T860 MP2"
+    },
+    "Memory": {
+      "RAM": "2/3 GB",
+      "Storage": "16/32 GB",
+      "Card slot": "microSDXC, expandable up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.2 in diagonal IPS LCD, with scratch-resistant Corning Gorilla Glass, 1440x720 px, 18:9 aspect ratio, 310 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP AF, LED flash",
+      "Front camera": "8 MP AF, FOV 84 degrees"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, single speaker"
+    },
+    "Battery": {
+      "Battery": "2,990 mAh Non-removable, Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB (USB 2.0), USB OTG, Wi-Fi, Bluetooth, GPS"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6750N",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2990,
+    "os": "Android 8.0",
+    "nfc": false,
+    "weight_g": 138.3,
+    "thickness_mm": 8.7,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3.1",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3.1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3.1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3.1",
+    "revid": 1366185971
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

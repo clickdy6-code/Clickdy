@@ -1,0 +1,95 @@
+{
+  "slug": "foxconn-nokia-3",
+  "brand": "Foxconn",
+  "name": "Nokia 3",
+  "status": "published",
+  "announced": "2017-06-13",
+  "released": "2017-06-13",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Nokia_3_camera.jpg/500px-Nokia_3_camera.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Nokia_3_camera.jpg/250px-Nokia_3_camera.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 3",
+      "credit": "Tinh tế Photo, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3_camera.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-06-13",
+      "Series": "Single digit Series",
+      "Successor": "Nokia 3.1"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "143.4 mm H, 71.4 mm W, 8.48 mm D, 8.68 mm D (including camera bump)",
+      "Weight": "140 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 \"Nougat\", Current: Android 9 \"Pie\"",
+      "Chipset": "MediaTek MT6737",
+      "CPU": "Quad-core 1.3 GHz Cortex-A53",
+      "GPU": "Mali-T720MP1"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3 RAM",
+      "Storage": "16 GB eMMC 5.0",
+      "Card slot": "microSDXC, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0 in diagonal IPS LCD, with scratch-resistant Corning Gorilla Glass, 1280x720 px, 16:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP AF, 1.12 μm pixel size, f/2 aperture, LED Flash, 1280x720 (720p) 30 fps video",
+      "Front camera": "8 MP AF, 1.12 μm, f/2 aperture, FOV 84 degrees, 1280x720 (720p) 30 fps video"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, Single speaker"
+    },
+    "Battery": {
+      "Battery": "2,630 mAh Non-removable Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB (USB 2.0), USB OTG, Wi-Fi, Bluetooth, NFC"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6737",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 8,
+    "battery_mah": 2630,
+    "os": "Android 7.1",
+    "nfc": true,
+    "weight_g": 140,
+    "thickness_mm": 8.48,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3",
+    "revid": 1361477216
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

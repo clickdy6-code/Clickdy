@@ -1,0 +1,89 @@
+{
+  "slug": "nokia-3650",
+  "brand": "Nokia",
+  "name": "3650",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Nokia_3650_Front_and_Back.jpg/500px-Nokia_3650_Front_and_Back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Nokia_3650_Front_and_Back.jpg/250px-Nokia_3650_Front_and_Back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 3650",
+      "credit": "Conrad Longmore, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3650_Front_and_Back.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2003-02",
+      "Discontinued": "2006",
+      "Predecessor": "Nokia 7650",
+      "Successor": "Nokia 3230 (3650 and 3660) , Nokia 6620 (3600 and 3620)"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "130 mm H , 57 mm W , 26 mm D, 139 cm3",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "S60 1st Edition",
+      "CPU": "104 MHz UPP_WD2, ARM9"
+    },
+    "Memory": {
+      "RAM": "8 MB",
+      "Storage": "24 MB, 3.4 MB available to user",
+      "Card slot": "MMC, up to 4 GB"
+    },
+    "Display": {
+      "Display": "2.1 in diagonal TFT LCD, 176 × 208 px, 4096 colors"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP (640×480 max.), Video recording"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, line-out (proprietary)"
+    },
+    "Battery": {
+      "Battery": "Nokia BL-5C, 850 mAh, 3.7 V user replaceable Li-ion",
+      "Charging": "Nokia 3.5-mm DC Charging Interface"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.1 with HFP, HSP, OPP and DUN, IrDA"
+    }
+  },
+  "key": {
+    "display_in": 2.1,
+    "display_type": "TFT",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 850,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 130,
+    "thickness_mm": 26,
+    "year": 2003
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3650",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3650"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3650\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3650",
+    "revid": 1376687602
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

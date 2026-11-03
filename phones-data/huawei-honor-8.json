@@ -1,0 +1,72 @@
+{
+  "slug": "huawei-honor-8",
+  "brand": "Huawei",
+  "name": "Honor 8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Honor_8_black_-_reverse.jpg/500px-Honor_8_black_-_reverse.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Honor_8_black_-_reverse.jpg/250px-Honor_8_black_-_reverse.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 8",
+      "credit": "Honor, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honor_8_black_-_reverse.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Huawei Honor 7",
+      "Successor": "Huawei Honor 8 Pro, Huawei Honor 9"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "145.5 mm H , 71 mm W , 7.45 mm D",
+      "Weight": "153 g",
+      "Other": "Dual SIM"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 \"Marshmallow\", upgradable to 8.0 \"Oreo\"",
+      "Chipset": "Hisilicon Kirin 950",
+      "CPU": "Octa-core (4×2.3 GHz & 4×1.8 GHz)",
+      "GPU": "Mali-T880 MP4"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM",
+      "Storage": "32GB/64GB"
+    },
+    "Battery": {
+      "Battery": "3000 mAh (typical)"
+    }
+  },
+  "key": {
+    "chipset": "Hisilicon Kirin 950",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "battery_mah": 3000,
+    "os": "Android 6.0",
+    "weight_g": 153,
+    "thickness_mm": 7.45
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 8",
+      "url": "https://en.wikipedia.org/wiki/Honor_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 8",
+    "revid": 1361473607
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

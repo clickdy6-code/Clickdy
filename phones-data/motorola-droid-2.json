@@ -1,0 +1,92 @@
+{
+  "slug": "motorola-droid-2",
+  "brand": "Motorola",
+  "name": "Droid 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/A956_Motorola_Droid_2_Global.jpg/500px-A956_Motorola_Droid_2_Global.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/A956_Motorola_Droid_2_Global.jpg/250px-A956_Motorola_Droid_2_Global.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid 2",
+      "credit": "Jourdan Cameron, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A956_Motorola_Droid_2_Global.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "Q3 2011",
+      "Series": "Droid",
+      "Predecessor": "Motorola Droid",
+      "Successor": "Droid 3, Droid 4"
+    },
+    "Network": {
+      "Technology": "Droid 2: CDMA2000/EV-DO Rev. A 800/1900 MHz, Milestone 2: quad band GSM, UMTS 900/2100 MHz, Droid 2 Global: quad band GSM, UMTS 850/1900/2100 MHz, CDMA 800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate slider smartphone",
+      "Dimensions": "116.3 mm H, 60.5 mm W, 13.7 mm D",
+      "Weight": "169 g",
+      "Other": "Virtual QWERTY keyboard, Swype, physical keyboard (QWERTY keyboard)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2, 2.3.4 Gingerbread with over-air update August 2011, 4.0.4 Ice Cream Sandwich with custom ROMs",
+      "CPU": "1 GHz OMAP 3630 Droid 2 Global runs an OMAP3640 clocked at 1.2 GHz"
+    },
+    "Memory": {
+      "RAM": "8 GB flash ROM, 512 MB RAM",
+      "Storage": "8 GB onboard phone, SD card up to 32 GB (included 8 GB MicroSD Card)",
+      "Card slot": "8 GB microSD, maximum 32 GB"
+    },
+    "Display": {
+      "Display": "480×854 px (0.41 MP) TFT LCD, 3.7 in, 16:9 aspect ratio, WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP, autofocus, dual LED flash, digital zoom, geotagging"
+    },
+    "Battery": {
+      "Battery": "1400 mAh internal rechargeable removable lithium-ion polymer battery, Talk time: 9.58 hours, Standby time: up to 315 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, HTML web browser, synchronization, Wi-Fi, WLAN, 3G Mobile Hotspot"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "TFT",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      8,
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1400,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 169,
+    "thickness_mm": 13.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid 2",
+      "url": "https://en.wikipedia.org/wiki/Droid_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid 2",
+    "revid": 1363730171
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

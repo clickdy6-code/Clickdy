@@ -1,0 +1,81 @@
+{
+  "slug": "htc-first",
+  "brand": "HTC",
+  "name": "First",
+  "status": "published",
+  "announced": "2013-04-12",
+  "released": "2013-04-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "12 April 2013",
+      "Predecessor": "HTC ChaCha/Status, HTC Salsa"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "126 mm H, 65 mm W, 8.9 mm D",
+      "Weight": "123.9 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2",
+      "Chipset": "Qualcomm Snapdragon 400",
+      "CPU": "1.4 GHz dual-core Krait",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB Internal ROM, non-expandable"
+    },
+    "Display": {
+      "Display": "4.3 in diagonal, 1280 x 720 HD, 342 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, 1080p@30fps video recording",
+      "Front camera": "1.6 MP"
+    },
+    "Battery": {
+      "Battery": "2,000 mAh Li-Po"
+    },
+    "Connectivity": {
+      "Connectivity": "2G (GSM/GPRS/EDGE): 850/900/1,800/1,900 MHz, 3G (UMTS/HSPA/HSPA+): 850/900/1,900/2,100 MHz, LTE, GPS, GLONASS, Micro USB 2.0, Bluetooth 4.0 with A2DP, Wi-Fi 802.11 a/b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "chipset": "Qualcomm Snapdragon 400",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 1.6,
+    "battery_mah": 2000,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 123.9,
+    "thickness_mm": 8.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC First",
+      "url": "https://en.wikipedia.org/wiki/HTC_First"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC First\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC First",
+    "revid": 1361473289
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

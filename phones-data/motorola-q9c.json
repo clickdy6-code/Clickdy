@@ -1,0 +1,65 @@
+{
+  "slug": "motorola-q9c",
+  "brand": "Motorola",
+  "name": "Q9c",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Motorola_Q9C.jpg/500px-Motorola_Q9C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Motorola_Q9C.jpg/250px-Motorola_Q9C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Q9c",
+      "credit": "Parker.l.reed, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Q9C.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "13 February 2009 (still received smaller updates till 2008)"
+    },
+    "Network": {
+      "Technology": "CDMA"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "4.60 × 2.55 × 0.46 in",
+      "Weight": "4.58 oz."
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.0 Standard; Windows Mobile 6.1 Standard (Motorola Update)"
+    },
+    "Memory": {
+      "Card slot": "MiniSD"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 Megapixel"
+    },
+    "Battery": {
+      "Battery": "1170 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "battery_mah": 1170,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Q9c",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Q9c"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Q9c\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Q9c",
+    "revid": 1380726263
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "sharp-aquos-shot-sh003",
+  "brand": "Sharp",
+  "name": "Aquos Shot SH003",
+  "status": "published",
+  "announced": "2009-10-30",
+  "released": "2009-10-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/SH003.JPG/500px-SH003.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/SH003.JPG/250px-SH003.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sharp Aquos Shot SH003",
+      "credit": "Jr223, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SH003.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-10-30"
+    },
+    "Network": {
+      "Technology": "CDMA 1X WIN, (CDMA2000 1xMC), 800 MHz / 2 GHz / New 800 MHz"
+    },
+    "Body": {
+      "Form factor": "2-axis clamshell",
+      "Dimensions": "112 mm × 51 mm × 16.6 mm (max thickness: 21 mm)",
+      "Weight": "132 g",
+      "Other": "1seg (supports Dubbing 10), FM radio, infrared (IrSimple), Bluetooth"
+    },
+    "Platform": {
+      "Operating system": "KCP+ (integrated OS)",
+      "CPU": "Qualcomm MSM7500 (600 MHz), (application: ARM11E equivalent), (modem: ARM9E equivalent)"
+    },
+    "Memory": {
+      "Storage": "760 MB (data folder)",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 16 GB) (officially supported by KDDI)"
+    },
+    "Display": {
+      "Display": "3.4-inch NEW Mobile ASV LCD, Wide VGA+ (480 × 854 pixels), approx. 260,000 colors, equipped with a touch panel, Osaifu-Keitai (FeliCa) supported"
+    },
+    "Cameras": {
+      "Rear camera": "12.1 megapixels, CCD image sensor, AF"
+    },
+    "Battery": {
+      "Battery": "Talk time: 260 minutes (domestic use) , Stand-by time: 280 hours (domestic use, combined mobile and stationary)",
+      "Charging": "Approx. 150 minutes"
+    },
+    "Connectivity": {
+      "Connectivity": "CDMA 1X WIN, (CDMA2000 1xEV-DO Rev.A)"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "nfc": false,
+    "weight_g": 132,
+    "thickness_mm": 16.6,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Aquos Shot SH003",
+      "url": "https://en.wikipedia.org/wiki/Aquos_Shot_SH003"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Aquos Shot SH003\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Aquos Shot SH003",
+    "revid": 1381004289
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

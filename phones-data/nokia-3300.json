@@ -1,0 +1,62 @@
+{
+  "slug": "nokia-3300",
+  "brand": "Nokia",
+  "name": "3300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Nokia_3300.jpg/500px-Nokia_3300.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Nokia_3300.jpg/250px-Nokia_3300.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 3300",
+      "credit": "Shritwod at English Wikipedia, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3300.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5510 (3300/3300b)",
+      "Successor": "Nokia 7600 (3300b), Nokia 7700 (3300)"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 (3300), GSM 850/1900 (3300b)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "114 x 63 x 20 mm",
+      "Weight": "125 g"
+    },
+    "Memory": {
+      "Storage": "64MB",
+      "Card slot": "MMC"
+    },
+    "Display": {
+      "Display": "128 x 128 pixels"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 780 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 780,
+    "five_g": false,
+    "weight_g": 125
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3300",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3300",
+    "revid": 1361477266
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

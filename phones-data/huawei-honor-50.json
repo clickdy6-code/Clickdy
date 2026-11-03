@@ -1,0 +1,67 @@
+{
+  "slug": "huawei-honor-50",
+  "brand": "Huawei",
+  "name": "Honor 50",
+  "status": "published",
+  "announced": "2021-06-16",
+  "released": "2021-06-16",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Honor 50 & 50 Pro & 50 SE: 2021-06-16, Nova 9 & 9 Pro: 2021-09-23",
+      "Series": "Honor N, Huawei Nova",
+      "Predecessor": "Honor 30",
+      "Successor": "Honor 60"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Weight": "Honor 50 & Nova 9: 175 g, 50 Pro: 187 g, 50 SE: 191 g< br/>Nova 9 Pro: 186 g"
+    },
+    "Platform": {
+      "Operating system": "Initial:, Honor 50 & 50 Pro & 50 SE: Android 11 + Magic UI 4.2, Nova 9: Android 11 + EMUI 12 / HarmonyOS 2.0, Nova 9 Pro: HarmonyOS 2.0",
+      "GPU": "Honor 50 & 50 Pro & Nova 9 & 9 Pro: Adreno 642L, Honor 50 SE: Mali-G68 MC4"
+    },
+    "Memory": {
+      "RAM": "Honor 50 & 50 SE & Nova 9 & 9 Pro: 128/256 GB, 50 Pro: 256 GB, UFS 2.1"
+    },
+    "Cameras": {
+      "Front camera": "Honor 50 & 50 Pro: 108 Mp, f/1.9 (wide-angle), 1/1.52\", 0.7 µm, PDAF + 8 Mp, f/2.2, 120˚, 17mm (ultra-wide) + 2MP, f/2.4 (macro) + 2MP, f/2.4 (depth sensor), Honor 50 SE: 108 MP, f/1.9 (wide angle), 1/1.52\", 0.7 µm, PDAF + 8 MP, f/2.2, 120˚, 17 mm (ultra-wide) + 2 Mp, f/2.4 (macro), Nova 9 & 9 Pro: 50 Mp, f/1.9, 23 mm (wide-angle), PDAF + 8 MP, f/2.2, 120˚, 17 mm (ultra-wide) + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth sensor) LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "USB-C"
+    },
+    "Battery": {
+      "Battery": "All models: non-removable, Lithium polymer, Honor 50 & 50 SE & Nova 9: 4300 mAh, Honor 50 Pro & Nova 9 Pro: 4000 mAh",
+      "Charging": "Honor 50: fast charging at 66 W, 70 % in 20 min (advertised), Honor 50 Pro: fast charging at 100 W, 100 % in 25 min (advertised), Honor 50 SE: fast charging at 66 W, 75 % in 20 min (advertised), Nova 9: fast charging at 66 W, 60 % in 18 min, 100 % in 38 min (advertised), Nova 9 Pro: fast charging at 100 W, 100 % in 20 min (advertised)"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      56
+    ],
+    "storage_gb": [
+      256
+    ],
+    "front_mp": 108,
+    "battery_mah": 4300,
+    "wired_w": 100,
+    "os": "Android 11",
+    "weight_g": 175,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 50",
+      "url": "https://en.wikipedia.org/wiki/Honor_50"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 50\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 50",
+    "revid": 1383195838
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

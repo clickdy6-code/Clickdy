@@ -1,0 +1,85 @@
+{
+  "slug": "lg-stylo-5",
+  "brand": "LG",
+  "name": "Stylo 5",
+  "status": "published",
+  "announced": "2019-06-30",
+  "released": "2019-06-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-06-30 (Cricket and Boost Mobile) , 2019-07-29 (Verizon Wireless) , 2019-08-27 (Verizon Wireless)",
+      "Discontinued": "Yes",
+      "Series": "LG Stylo",
+      "Predecessor": "LG Stylo 4",
+      "Successor": "LG Stylo 6"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "160 x",
+      "Weight": "179 g",
+      "Other": "Stylus pen"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 (Pie), upgradable to Android 10",
+      "Chipset": "Qualcomm SDM450 Snapdragon 450 (14 nm)",
+      "CPU": "Octa-core 1.8 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "32 GB eMMC 5.1",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.2 in (157 mm) IPS LCD, 1080 x 2160 pixels, 18:9 ratio (~390 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, PDAF, LED flash, panorama, HDR",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 3500 mAh"
+    }
+  },
+  "key": {
+    "display_in": 6.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm SDM450 Snapdragon 450",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3500,
+    "os": "Android 9.0",
+    "five_g": false,
+    "weight_g": 179,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Stylo 5",
+      "url": "https://en.wikipedia.org/wiki/LG_Stylo_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Stylo 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Stylo 5",
+    "revid": 1368313708
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

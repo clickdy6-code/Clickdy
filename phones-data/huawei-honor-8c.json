@@ -1,0 +1,86 @@
+{
+  "slug": "huawei-honor-8c",
+  "brand": "Huawei",
+  "name": "Honor 8C",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "C series",
+      "Predecessor": "Honor 7C",
+      "Successor": "Honor 9C"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158.7 × 75.8 × 8 mm",
+      "Weight": "167.2 g",
+      "Other": "Fingerprint sensor (rear-mounted), Proximity sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 Oreo with EMUI 8.2",
+      "CPU": "Qualcomm Snapdragon 632 (14 nm), Octa-core (4×1.8 GHz Kryo 250 Gold & 4×1.8 GHz Kryo 250 Silver)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "3 or 4 GB LPDDR4",
+      "Storage": "32 or 64 GB eMMC 5.1",
+      "Card slot": "MicroSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.26\", 1520 × 720 (HD+), 19:9 ratio, 269 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/1.8 (wide-angle), PDAF + 2 MP, f/2.4 (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0 (wide-angle), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB 2.0, 3.5 mm audio jack, Bluetooth 4.2 (A2DP, LE), Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.26,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 167.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 8C",
+      "url": "https://en.wikipedia.org/wiki/Honor_8C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 8C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 8C",
+    "revid": 1361473619
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

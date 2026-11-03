@@ -1,0 +1,74 @@
+{
+  "slug": "bullitt-cat-b25",
+  "brand": "Bullitt",
+  "name": "Cat B25",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/CAT-B25.jpg/500px-CAT-B25.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/CAT-B25.jpg/250px-CAT-B25.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Bullitt Cat B25",
+      "credit": "MarcoTangerino, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CAT-B25.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013",
+      "Series": "Cat phones"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE GSM (850, 900, 1800, and 1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Feature phone",
+      "Other": "FM Radio , Drop-to-concrete resistance up to 1.8 m , IP67 dust/water resistant up to 1m for 30 mins"
+    },
+    "Platform": {
+      "Chipset": "MediaTek MT6260A"
+    },
+    "Memory": {
+      "Card slot": "microSD, up to 8 GB (dedicated slot)"
+    },
+    "Display": {
+      "Display": "240x320 pixels px, 200 ppi , 2 in diagonal, TFT LCD panel"
+    },
+    "Cameras": {
+      "Rear camera": "1,92 megapixel , auto focus , LED flash"
+    },
+    "Battery": {
+      "Battery": "1,300 mAh , Removable Li-Ion rechargeable Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB 2.0 , Bluetooth 2.1"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "chipset": "MediaTek MT6260A",
+    "battery_mah": 1300,
+    "five_g": false,
+    "nfc": false,
+    "ip": "IP67",
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Cat B25",
+      "url": "https://en.wikipedia.org/wiki/Cat_B25"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Cat B25\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Cat B25",
+    "revid": 1361472829
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

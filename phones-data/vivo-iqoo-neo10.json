@@ -1,0 +1,99 @@
+{
+  "slug": "vivo-iqoo-neo10",
+  "brand": "Vivo",
+  "name": "IQOO Neo10",
+  "status": "published",
+  "announced": "2024-11-29",
+  "released": "2024-11-29",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-11-29",
+      "Series": "iQOO Neo",
+      "Predecessor": "iQOO Neo9",
+      "Successor": "iQOO Neo11"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Dual Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.9 mm H , 75.4 mm W , 8 mm D",
+      "Weight": "199 g or 206 g"
+    },
+    "Platform": {
+      "Operating system": "Origin OS 5 (Based on Android 15)",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 3 (4 nm)",
+      "CPU": "Octa-core (1×3.3 GHz Cortex-X4, 3×3.2 GHz Cortex-A720, 2×3.0 GHz Cortex-A720, 2×2.3 GHz Cortex-A520)",
+      "GPU": "Adreno 750"
+    },
+    "Memory": {
+      "RAM": "12GB/16GB RAM",
+      "Storage": "256GB/512GB/1TB (UFS 4.0, UFS 4.1 through system update)",
+      "Card slot": "Not Supported"
+    },
+    "Display": {
+      "Display": "6.78 in 1260×2800 LTPO AMOLED, 144Hz, HDR10+, 1800 nits (HBM), 4500 nits (peak) (453 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 50 MP, f/1.8 (wide), 1/1.56\", PDAF, OIS + 8 MP, f/2.2, 119˚ (ultrawide)",
+      "Front camera": "Single: 32 MP, f/2.5 (wide)"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers (closed type), No 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "6100 mAh, Si/C Li-Ion",
+      "Charging": "120W Flash Charge (100% in 30 min), 100W PPS+PD, Bypass charging, Reverse charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi List of WLAN channels, 802.11 a/b/g/n/ac/6/7, Dual-band, Bluetooth#Bluetooth 5.4, Bluetooth 5.4 (A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5), GPS (L1+L5), GLONASS, BeiDou, BDS (B1I+B1c+B2a), Galileo (satellite navigation), GALILEO (E1+E5a), QZSS (L1+L5), Near Field Communication, NFC, Infrared blaster, Infrared port, USB-C, USB Type-C 2.0, USB On-The-Go, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 144,
+    "peak_nits": 4500,
+    "chipset": "Qualcomm Snapdragon 8 Gen 3",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 32,
+    "battery_mah": 6100,
+    "wired_w": 120,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 199,
+    "thickness_mm": 8,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IQOO Neo10",
+      "url": "https://en.wikipedia.org/wiki/IQOO_Neo10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IQOO Neo10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IQOO Neo10",
+    "revid": 1382383145
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

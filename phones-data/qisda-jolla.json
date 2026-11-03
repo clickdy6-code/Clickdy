@@ -1,0 +1,84 @@
+{
+  "slug": "qisda-jolla",
+  "brand": "Qisda",
+  "name": "Jolla",
+  "status": "published",
+  "announced": "2013-11-27",
+  "released": "2013-11-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Jolla_phone_vector.svg/500px-Jolla_phone_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Jolla_phone_vector.svg/250px-Jolla_phone_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Qisda Jolla",
+      "credit": "Rafael Fernandez, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jolla_phone_vector.svg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-11-27",
+      "Predecessor": "Nokia N9 (by MeeGo, community & spiritual legacy)"
+    },
+    "Network": {
+      "Technology": "GSM/3G/4G/LTE"
+    },
+    "Body": {
+      "Dimensions": "Height: 131 mm, Width: 68 mm, Thickness: 9.9 mm",
+      "Weight": "141 g"
+    },
+    "Platform": {
+      "Operating system": "Sailfish OS",
+      "CPU": "Qualcomm Snapdragon 400 1.4 GHz dual-core processor"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSDHC, up to 32GB is officially supported; up to 64GB if microSDXC card is formatted to Jolla-supported formats like Fat32."
+    },
+    "Display": {
+      "Display": "4.5\" IPS qHD (960 × 540 px) \"Estrade\" display"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixel AF camera with LED flash",
+      "Front camera": "2 megapixel front-facing camera"
+    },
+    "Battery": {
+      "Battery": "2100 mAh user-replaceable battery, Up to approximately 9 to 10 hours of talk time (GSM/3G, respectively)"
+    },
+    "Connectivity": {
+      "Connectivity": "WiFi-N, Bluetooth, GPS, A-GPS, GLONASS, NFC"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 2100,
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 141,
+    "thickness_mm": 9.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Jolla (smartphone)",
+      "url": "https://en.wikipedia.org/wiki/Jolla_%28smartphone%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Jolla (smartphone)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Jolla (smartphone)",
+    "revid": 1382955244
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

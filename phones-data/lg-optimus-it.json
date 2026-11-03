@@ -1,0 +1,91 @@
+{
+  "slug": "lg-optimus-it",
+  "brand": "LG",
+  "name": "Optimus it",
+  "status": "published",
+  "announced": "2012-06-30",
+  "released": "2012-06-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Optimus_it_L-05D.jpg/500px-Optimus_it_L-05D.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Optimus_it_L-05D.jpg/250px-Optimus_it_L-05D.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus it",
+      "credit": "Piroli YUKARINOMIYA, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Optimus_it_L-05D.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-06-30",
+      "Series": "Optimus"
+    },
+    "Network": {
+      "Technology": "NTT DoCoMo (3G/FOMA, LTE/Xi, GSM)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "124 mm H , 62 mm W , 10 mm D",
+      "Weight": "131 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.4 (Ice Cream Sandwich), upgradable to 4.1.2 (Jelly Bean)",
+      "CPU": "1.5 GHz dual-core Qualcomm Snapdragon S4 (MSM8960)"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "4 inches, 480 x 800 pixels (WVGA), IPS LCD, 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.2 MP, CMOS, autofocus, LED flash, aperture",
+      "Front camera": "0.32 MP, CMOS, aperture"
+    },
+    "Battery": {
+      "Battery": "1650 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g/n), Bluetooth 4.0, micro-USB, 3.5 mm headphone jack, FeliCa, Infrared"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.32,
+    "battery_mah": 1650,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 131,
+    "thickness_mm": 10,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus it",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_it"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus it\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus it",
+    "revid": 1380769119
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

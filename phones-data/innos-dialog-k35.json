@@ -1,0 +1,69 @@
+{
+  "slug": "innos-dialog-k35",
+  "brand": "innos",
+  "name": "Dialog K35",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Dialog K series",
+      "Successor": "Dialog K45"
+    },
+    "Network": {
+      "Technology": "2G (850/900/1800/1900 MHz), 3G (WCDMA 2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Other": "Wi-Fi hotspot"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.4 Ice Cream Sandwich",
+      "CPU": "1 GHz Broadcom 21654 processor"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "Micro SD (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3.5 inch, IPS QHD Capacitive display, 320×480 pixels, 265K colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixles, Autofocus, dual-LED flash, Geo-tagging, touch focus, face detection",
+      "Front camera": "0.3 megapixels"
+    },
+    "Sound": {
+      "Sound": "MP3/AAC/WMA/WAV"
+    },
+    "Connectivity": {
+      "Connectivity": "Wifi 802.11 b/g/n, Bluetooth with A2DP, micro USB"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "IPS",
+    "storage_gb": [
+      4
+    ],
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Dialog K35",
+      "url": "https://en.wikipedia.org/wiki/Dialog_K35"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Dialog K35\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Dialog K35",
+    "revid": 1361472874
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

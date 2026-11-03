@@ -1,0 +1,93 @@
+{
+  "slug": "lg-vu-3",
+  "brand": "LG",
+  "name": "Vu 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/LG_Vu3_%28White%29.jpg/500px-LG_Vu3_%28White%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/LG_Vu3_%28White%29.jpg/250px-LG_Vu3_%28White%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Vu 3",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Vu3_(White).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 27 2013 (KR)",
+      "Series": "Vu",
+      "Predecessor": "LG Optimus Vu II",
+      "Successor": "LG V10"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850, 900, 1800, 1900 MHz, 3G UMTS/HSPA+, 900, 2100 MHz / 850, 2100 MHz 4G LTE 800 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H 132.1 mm, W 85.6 mm, D 9.4 mm",
+      "Weight": "161 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2.2 \"Jelly Bean\", Current: Android 4.4.2 \"KitKat\"",
+      "CPU": "Krait 400 Quad-core 2.26 GHz",
+      "GPU": "Adreno 300"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB"
+    },
+    "Display": {
+      "Display": "5.2-inch (960×1280) IPS LCD (308 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, 1080p at 60 FPS video",
+      "Front camera": "2.1 MP"
+    },
+    "Battery": {
+      "Battery": "2,610 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Hotspot, DLNA, Bluetooth 4.0 + A2DP, NFC"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@60fps",
+    "front_mp": 2.1,
+    "battery_mah": 2610,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 161,
+    "thickness_mm": 9.4,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Vu 3",
+      "url": "https://en.wikipedia.org/wiki/LG_Vu_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Vu 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Vu 3",
+    "revid": 1361475644
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

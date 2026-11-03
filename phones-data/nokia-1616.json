@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-1616",
+  "brand": "Nokia",
+  "name": "1616",
+  "status": "published",
+  "announced": "2009-11-04",
+  "released": "2009-11-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Nokia_1616.png/500px-Nokia_1616.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Nokia_1616.png/250px-Nokia_1616.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 1616",
+      "credit": "Dienthoaiquangcao64, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_1616.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-11-04",
+      "Discontinued": "2012",
+      "Series": "Ultrabasic",
+      "Predecessor": "Nokia 1661",
+      "Successor": "Nokia 100"
+    },
+    "Network": {
+      "Technology": "GSM 850/1900, EGSM 900/1800"
+    },
+    "Body": {
+      "Form factor": "candybar",
+      "Dimensions": "107 x 45 x 15 mm",
+      "Weight": "78.55 g (with battery)",
+      "Other": "Mini-SIM, Flashlight"
+    },
+    "Platform": {
+      "Operating system": "Series 30"
+    },
+    "Display": {
+      "Display": "1.8\" TFT, 128x160 px, 65K colors"
+    },
+    "Sound": {
+      "Sound": "Speakerphone;, FM radio (requires headset), 3.5 mm 4-pin TRRS socket for headset (Nokia WH-102); Supports 3-pin TRS for standard headphones (then audio-out only)"
+    },
+    "Battery": {
+      "Battery": "Removable, BL-5CB, 800mAh 3.7V 3.0Wh, Standby: 22.5 days (540 h), Talk time: 8.52 hours",
+      "Charging": "2.0 mm connector for Nokia AC-3 or compatible charger"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "five_g": false,
+    "weight_g": 78.55,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1616",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1616"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1616\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1616",
+    "revid": 1361477043
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "huawei-p20",
+  "brand": "Huawei",
+  "name": "P20",
+  "status": "published",
+  "announced": "2018-03-27",
+  "released": "2018-03-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Huawei_P20_Pro_in_Paris.jpg/500px-Huawei_P20_Pro_in_Paris.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Huawei_P20_Pro_in_Paris.jpg/250px-Huawei_P20_Pro_in_Paris.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei P20",
+      "credit": "GillyBerlin, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_P20_Pro_in_Paris.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-03-27",
+      "Discontinued": "2019-03-12",
+      "Series": "Huawei P series",
+      "Predecessor": "Huawei P10",
+      "Successor": "Huawei P30"
+    },
+    "Network": {
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "<!--P20:, H: mm , W: mm , D: mm, P20 Pro:, H: mm , W: mm, D: mm",
+      "Weight": "165g",
+      "Other": "GPS, GLONASS, Galileo, BeiDou"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 with EMUI 8.1, Current: , P20 and P20 Pro: Android 10 with EMUI 12 (Global) and HarmonyOS 3 (China), P20 Lite: Android 9 with EMUI 9.1",
+      "Chipset": "Kirin 970",
+      "CPU": "Octa-core (4x2.4 GHz Cortex-A73 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP12"
+    },
+    "Memory": {
+      "RAM": "P20: 4 GB LPDDR4X RAM, P20 Pro: 6 GB LPDDR4X RAM",
+      "Storage": "128 GB"
+    },
+    "Display": {
+      "Display": "P20: 5.84 in 1080x2244 LTPS LCD, ~432ppi pixel density, P20 Pro: 6.1 in 1080x2244 AMOLED, 408ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "P20: Dual: 20 MP Monochrome (f/1.6, 1/2.3\", 1.55 μm, OIS) + 12 MP RGB (f/1.8, 27mm), Leica optics, 2x optical zoom, phase detection and laser AF, dual-LED dual-tone flash, P20 Pro: Triple: 40 MP IMX600 RGB (f/1.8, 1/1.7\", OIS) + 20 MP Monochrome (f/1.6) + 8 MP RGB Telephoto (f/2.4), Leica optics, 3x optical zoom, phase detection and laser AF, dual-LED dual-tone flash",
+      "Front camera": "24 MP, fixed-focus, f/2.0, 1080p video"
+    },
+    "Battery": {
+      "Battery": "P20: 3400 mAh, P20 Pro: 4000 mAh",
+      "Charging": "Supercharge"
+    }
+  },
+  "key": {
+    "display_in": 5.84,
+    "display_type": "LCD",
+    "chipset": "Kirin 970",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 20,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 24,
+    "battery_mah": 3400,
+    "os": "Android 8.1",
+    "weight_g": 165,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P20",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei P20",
+    "revid": 1382784214
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

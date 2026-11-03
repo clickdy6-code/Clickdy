@@ -1,0 +1,77 @@
+{
+  "slug": "huawei-pura-80",
+  "brand": "Huawei",
+  "name": "Pura 80",
+  "status": "published",
+  "announced": "2025-06-11",
+  "released": "2025-06-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Huawei_Pura80_Pro_001.jpg/500px-Huawei_Pura80_Pro_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Huawei_Pura80_Pro_001.jpg/250px-Huawei_Pura80_Pro_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Pura 80",
+      "credit": "毕明明, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Pura80_Pro_001.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "11 June 2025",
+      "Series": "Huawei Pura",
+      "Predecessor": "Huawei Pura 70"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G"
+    },
+    "Body": {
+      "Form factor": "Smartphone"
+    },
+    "Platform": {
+      "Operating system": "China: Harmony OS 5.1 (current: HarmonyOS 6);, International: EMUI",
+      "Chipset": "Pura 80: Kirin 9010S; , All other versions: Kirin 9020"
+    },
+    "Memory": {
+      "RAM": "Pura 80/80 Pro：12GB, Pura 80 Pro+/Ultra：16GB",
+      "Storage": "Pura 80/80 Pro：256GB/512GB/1TB, Pura 80Pro+/Ultra：512GB/1TB",
+      "Card slot": "No support for memory card expansion"
+    },
+    "Battery": {
+      "Battery": "Pura 80: Li-Po 5600 mAh (typical value), non-removable or replaceable, Pura 80 Pro/Pro+/Ultra: Li-Po 5700 mAh (typical value), non-removable or replaceable",
+      "Charging": "Pura 80: 66W wired / 50W wireless, Pura 80 Pro/Pro+/Ultra: 100W wired / 80W wireless"
+    }
+  },
+  "key": {
+    "chipset": "Pura 80: Kirin 9010S",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "battery_mah": 5600,
+    "wireless_w": 66,
+    "wired_w": 100,
+    "os": "HarmonyOS 6",
+    "five_g": true,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Pura 80",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Pura_80"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Pura 80\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Pura 80",
+    "revid": 1383164651
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

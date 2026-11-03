@@ -1,0 +1,85 @@
+{
+  "slug": "nokia-oyj-nokia-3710-fold",
+  "brand": "Nokia Oyj",
+  "name": "Nokia 3710 fold",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/3710_fold.jpg/500px-3710_fold.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/3710_fold.jpg/250px-3710_fold.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia Oyj Nokia 3710 fold",
+      "credit": "Nash Izumrud, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:3710_fold.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2009",
+      "Discontinued": "2011",
+      "Predecessor": "Nokia 3610 fold"
+    },
+    "Network": {
+      "Technology": "2G, 3G, GPRS: Class 32, 88 kbps, EDGE: Class 32, 296 kbits, Speed: 384 kbps"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "89 x 47 x 15.2 mm",
+      "Weight": "94 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia OS Series 40 6th Edition",
+      "CPU": "ARM11 369 mHz"
+    },
+    "Memory": {
+      "Storage": "70 Mb internal",
+      "Card slot": "MicroSD (Expandable up to 8GB)"
+    },
+    "Display": {
+      "Display": "TFT 2.2\", pixel density 240X320, colors 16m"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP, 2048 x 1536 pixels with LED flash",
+      "Front camera": "Yes, VGA video calling"
+    },
+    "Sound": {
+      "Sound": "2.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 860 mAh battery (BL-4S) removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v2.1, USB: Yes, microUSB v2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 94,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3710 fold",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3710_fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3710 fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3710 fold",
+    "revid": 1361477312
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

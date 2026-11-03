@@ -1,0 +1,88 @@
+{
+  "slug": "lenovo-z6",
+  "brand": "Lenovo",
+  "name": "Z6",
+  "status": "published",
+  "announced": "2019-07-09",
+  "released": "2019-07-09",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-07-09",
+      "Discontinued": "Yes",
+      "Series": "Lenovo Z series",
+      "Predecessor": "Lenovo Z5"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, HSPA, LTE",
+      "SIM": "Dual Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "157.00 × 74.50 × 8.00 mm",
+      "Weight": "159 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 (Pie), ZUI 11",
+      "Chipset": "Qualcomm SDM730 Snapdragon 730 (8 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver)",
+      "GPU": "Adreno 618"
+    },
+    "Memory": {
+      "RAM": "6 GB or 8 GB RAM",
+      "Storage": "64 GB or 128 GB UFS 2.1",
+      "Card slot": "microSDXC (uses shared SIM slot)"
+    },
+    "Display": {
+      "Display": "6.39 in (162 mm) Super AMOLED, 120Hz, HDR10, 1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Triple:, 24 MP, f/1.8, (wide), PDAF, 8 MP, f/2.4, (telephoto), PDAF, 2x optical zoom, 5 MP, f/2.2, (depth sensor), Dual-LED flash, panorama, HDR",
+      "Front camera": "16 MP, f/2.0, (wide), HDR"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4000 mAh",
+      "Charging": "15W wired"
+    }
+  },
+  "key": {
+    "display_in": 6.39,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SDM730 Snapdragon 730",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 24,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "wired_w": 15,
+    "os": "Android 9.0",
+    "five_g": false,
+    "weight_g": 159,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Lenovo Z6",
+      "url": "https://en.wikipedia.org/wiki/Lenovo_Z6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Lenovo Z6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Lenovo Z6",
+    "revid": 1379218173
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

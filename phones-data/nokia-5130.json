@@ -1,0 +1,86 @@
+{
+  "slug": "nokia-5130",
+  "brand": "Nokia",
+  "name": "5130",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Nokia_5130XpressMusic.jpg/500px-Nokia_5130XpressMusic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Nokia_5130XpressMusic.jpg/250px-Nokia_5130XpressMusic.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 5130",
+      "credit": "Niklas Bildhauer, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5130XpressMusic.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2008",
+      "Discontinued": "January 2011",
+      "Predecessor": "Nokia 5310 , Nokia 5220 , Nokia 3110 classic",
+      "Successor": "Nokia X2-00 , Nokia X2-01"
+    },
+    "Network": {
+      "Technology": "Quad-band GSM 845 900 1800 1900 , * GPRS multislot class 32 max. 88 kbit/s , * EDGE class 32 max. 296 kbit/s"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "107.5 mm H , 46.7 mm W , 14.8 mm D",
+      "Weight": "88 g",
+      "Other": "FM radio , Standard 3.5 mm headphone jack, voice memo , Games: Bounce Tales, Rally 3D, Snake III"
+    },
+    "Platform": {
+      "Operating system": "Series 40 (5th edition Feature Pack 1)",
+      "CPU": "234 MHz ARM9"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "LCD , 240x320 px QVGA, Colors: 256 thousand (24-bit) , Resolution: 240 × 320 pixels (QVGA)"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP , with 4x digital zoom, video recording (128×96 px. or 176×144 px. at 15 fps max.)"
+    },
+    "Sound": {
+      "Sound": "3.5mm stereo audio jack , (Supported audio formats: WAV, AAC, eAAC, eAAC+, MP3, MP4, MIDI, WMA, WAMR, MXMF, AMR)"
+    },
+    "Battery": {
+      "Battery": "Li-ion (BL-5C, 1020 mAh) , Battery Life, Talk time (maximum): – GSM 6 h, Standby time (maximum): – GSM 288 h, Video playback time (maximum): 4 h, Video recording time (maximum): 1 h, Music playback time (maximum): 21 h",
+      "Charging": "2.0 mm charger connector"
+    },
+    "Connectivity": {
+      "Connectivity": "built-in Micro-USB (hot swap) , Bluetooth 2.0 with A2DP"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 88,
+    "thickness_mm": 14.8,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5130",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5130"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5130\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5130",
+    "revid": 1361477365
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

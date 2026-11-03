@@ -1,0 +1,70 @@
+{
+  "slug": "lg-quantum",
+  "brand": "LG",
+  "name": "Quantum",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/LG_Quantum.jpg/500px-LG_Quantum.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/LG_Quantum.jpg/250px-LG_Quantum.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Quantum",
+      "credit": "MicrosoftPDC, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Quantum.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "AT&T Mobility , Telstra , Bell Canada"
+    },
+    "Body": {
+      "Form factor": "QWERTY slider smartphone",
+      "Dimensions": "4.70” (H) x 2.34” (W) x 0.60” (D)",
+      "Weight": "6.27 oz.",
+      "Other": "Wi-Fi, FM-Radio, GPS"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone",
+      "CPU": "Qualcomm QSD8250 1GHz Scorpion (Snapdragon)"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "16GB ROM",
+      "Card slot": "16gb"
+    },
+    "Display": {
+      "Display": "3.5-inch (diagonal) widescreen, 480-by-800 WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel autofocus with flash, rear-facing"
+    },
+    "Connectivity": {
+      "Connectivity": "UMTS/HSDPA Tri-band (850/1900/2100 MHz) GSM/GPRS/EDGE"
+    }
+  },
+  "key": {
+    "storage_gb": [
+      16
+    ],
+    "os": "Windows Phone",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Quantum",
+      "url": "https://en.wikipedia.org/wiki/LG_Quantum"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Quantum\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Quantum",
+    "revid": 1370686188
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

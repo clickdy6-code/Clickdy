@@ -1,0 +1,88 @@
+{
+  "slug": "huawei-nova-8i",
+  "brand": "Huawei",
+  "name": "Nova 8i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Nova 8i: , Honor X20: , Honor Play 5 Youth & 50 Lite:",
+      "Series": "Huawei Nova, Honor N / X / Play",
+      "Predecessor": "Huawei Nova 7i, Honor X10, Honor 30 Lite",
+      "Successor": "Huawei Nova 11i, Honor X30"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G, LTE, 5G (Honor X20 & Play 5 Youth)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.85 × 74.7 × 8.58 mm",
+      "Weight": "Nova 8i: 190 g, Honor X20 & Play 5 Youth & 50 Lite: 192 g"
+    },
+    "Platform": {
+      "Operating system": "Initial:, Nova 8i: Android 10 with EMUI 11, Honor X20 & Play 5 Youth & 50 Lite: Android 11 with Magic UI 4.2, Without Google Play Services (except Honor 50 Lite)",
+      "CPU": "Nova 8i: Qualcomm Snapdragon 662 (11 nm), octa-core (4×2.0 GHz Kryo 260 Gold & 4×1.8 GHz Kryo 260 Silver), Honor X20 & Play 5 Youth: MediaTek Dimensity 900 (6 nm), octa-core (2×2.4 GHz Cortex-A78 & 6×2.0 GHz Cortex-A55)",
+      "GPU": "Nova 8i & Honor 50 Lite: Adreno 610, Honor X20 & Play 5 Youth: Mali-G78 MC4"
+    },
+    "Memory": {
+      "RAM": "Nova 8i & Honor X20 & 50 Lite: 6/8 GB, Honor Play 5 Youth: 6/8 GB, LPDDR4X",
+      "Storage": "Nova 8i & Honor 50 Lite: 128 GB, Honor X20 & Play 5 Youth: 128/256 GB, UFS 2.1"
+    },
+    "Display": {
+      "Display": "All models: IPS LCD 6.67\", 2376 × 1080 (FullHD+), 391 ppi, Nova 8i and Honor X20 & 50 Lite: 60 Hz, Honor Play 5 Youth: 120 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Nova 8i & Honor 50 Lite: 64 MP, 26 mm (wide), PDAF + 8 MP , 120° (ultrawide) + 2 MP, (macro) + 2 MP, (depth), Honor X20: 64 MP, 26 mm (wide), PDAF + 2 MP, (macro) + 2 MP, (depth), Honor Play 5 Youth: 64 MP, 26 mm (wide), PDAF + 2 MP, (depth), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "16 MP, (wide), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4300 mAh",
+      "Charging": "66W fast charging, 60% in 17 min, 100% in 38 min"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm audio jack, Bluetooth 5.0 (Nova 8i & Honor 50 Lite) / 5.1 (Honor X20 & Play 5 Youth) (A2DP, LE), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BeiDou, Galileo"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 4300,
+    "wired_w": 66,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 190
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova 8i",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_8i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova 8i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova 8i",
+    "revid": 1361473927
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

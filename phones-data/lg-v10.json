@@ -1,0 +1,91 @@
+{
+  "slug": "lg-v10",
+  "brand": "LG",
+  "name": "V10",
+  "status": "published",
+  "announced": "2015-10-08",
+  "released": "2015-10-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d2/LG_V10_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d2/LG_V10_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG V10",
+      "credit": "LG Electronics, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_V10_(cropped).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-10-08",
+      "Series": "V series",
+      "Predecessor": "LG Vu 3, LG G Pro 2",
+      "Successor": "LG V20"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.6 mm H, 79.3 mm W, 8.6 mm D",
+      "Weight": "192 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\", Current: Android 7.0 \"Nougat\" (some variants)",
+      "Chipset": "Qualcomm Snapdragon 808",
+      "CPU": "Hexa-core 64-bit 20 nm, • Dual-core 1.82 GHz Cortex A57, • Quad-core 1.44 GHz Cortex A53",
+      "GPU": "Adreno 418"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR3 RAM",
+      "Storage": "32 or 64 GB",
+      "Card slot": "microSDXC up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.7 in 2560×1440 1440p (515 pixel density, ppi) IPS panel, IPS LCD, Secondary display 2.1 in 160×1040"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP OIS 2.0, f/1.8 aperture, LED flash, hybrid infrared autofocus",
+      "Front camera": "Dual 5 MP, f/2.0 aperture 80°, or f/2.2 120° wide-angle"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "3000 mAh, removable"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 808",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 5.1",
+    "weight_g": 192,
+    "thickness_mm": 8.6,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG V10",
+      "url": "https://en.wikipedia.org/wiki/LG_V10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG V10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "LG V10",
+    "revid": 1361475513
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

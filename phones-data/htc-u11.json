@@ -1,0 +1,93 @@
+{
+  "slug": "htc-u11",
+  "brand": "HTC",
+  "name": "U11",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/HTC_U11.png/500px-HTC_U11.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/HTC_U11.png/250px-HTC_U11.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC U11",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_U11.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "U11: 2017-06, U11+: 2017-11",
+      "Series": "HTC U",
+      "Predecessor": "HTC 10",
+      "Successor": "HTC U12+"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "U11: 153.9 mm H , 75.9 mm W , 7.9 mm D, U11+: 158.5 mm H , 74.9 mm W , 8.5 mm D",
+      "Weight": "U11: 169 g, U11+: 188 g",
+      "Other": "U11: IP67 protection, U11+: IP68 protection"
+    },
+    "Platform": {
+      "Operating system": "U11: Android 7.1 \"Nougat\" with HTC Sense 9.0; Android 8.0 \"Oreo\" with HTC Sense 9.0 (without Treble); Android 9.0 \"Pie\", U11+: Android 8.0 \"Oreo\" (with Treble); Android 9 \"Pie\"",
+      "Chipset": "Qualcomm Snapdragon 835",
+      "CPU": "Octa-core (4×2.45 & 4×1.9 GHz) Kryo",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 or 6 LPDDR4X RAM",
+      "Storage": "64 or 128 GB",
+      "Card slot": "microSD up to 2"
+    },
+    "Display": {
+      "Display": "U11: 5.5 in Super LCD5 capacitive touchscreen with Corning Gorilla Glass 5, 2560×1440 resolution (~534 ppi pixel density), U11+: 6 in Super LCD6 capacitive touchscreen with Corning Gorilla Glass 5, 2880×1440 resolution (~538 ppi pixel density)"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP (1.4), f/1.7, OIS, UltraSpeed autofocus, dual-LED (dual tone) flash, geo-tagging, touch focus, face detection, auto-HDR, panorama",
+      "Front camera": "U11: 16 MP, 1080p, auto-HDR, U11+: 8 MP, 1080p, auto-HDR"
+    },
+    "Sound": {
+      "Sound": "HTC BoomSound Hi-Fi edition speakers, HTC USonic with Active Noise Cancellation, 3D Audio recording with 4 microphones, Hi-Res audio stereo recording, Hi-Res audio certified"
+    },
+    "Battery": {
+      "Battery": "U11: 3,000 mAh Li-ion, U11+: 3,930 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot, Bluetooth: v4.2, A2DP, LE, GPS: Yes, with A-GPS, GLONASS, BDS, NFC: Yes, USB: v3.1, Type-C 1.0 reversible connector (supports DisplayPort)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "chipset": "Qualcomm Snapdragon 835",
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 3000,
+    "os": "Android 7.1",
+    "nfc": true,
+    "ip": "IP67",
+    "weight_g": 169,
+    "thickness_mm": 7.9,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC U11",
+      "url": "https://en.wikipedia.org/wiki/HTC_U11"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC U11\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "HTC U11",
+    "revid": 1382772087
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

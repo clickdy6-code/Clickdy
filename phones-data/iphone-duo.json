@@ -1,0 +1,94 @@
+{
+  "slug": "iphone-duo",
+  "brand": "IPhone",
+  "name": "Duo",
+  "status": "published",
+  "announced": "2026-10-23",
+  "released": "2026-10-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-10-23",
+      "Series": "iPhone"
+    },
+    "Network": {
+      "Technology": "2G GSM/EDGE, 3G UMTS/HSPA+, 4G LTE, 5G NR/5G-A"
+    },
+    "Body": {
+      "Form factor": "Foldable (book-style)",
+      "Dimensions": "2 117.8xx164.6xx5.2 (when unfolded), 2 117.8xx84.1xx11.3 (when folded)",
+      "Weight": "254 g",
+      "Other": "Emergency SOS, Messages and Find My via satellite, FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone (if supported by the carrier)"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 27.1",
+      "Chipset": "Apple A20 Pro",
+      "CPU": "6-core CPU (2 performance cores, 4 efficiency cores)",
+      "GPU": "7-core GPU"
+    },
+    "Memory": {
+      "RAM": "12 GB RAM",
+      "Storage": "256 GB, 512 GB, 1 TB or 2 TB NVMe"
+    },
+    "Display": {
+      "Display": "Foldable 7.6-inch Super Retina XDR inner display, nano-texture finish; 5.4-inch outer display"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP Fusion Main camera; 48 MP Fusion Ultra Wide; 2x optical-quality telephoto; 4K 120 fps video; 4K Dolby Vision HDR",
+      "Front camera": "12 MP Center Stage front camera, under-display camera"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, spatial audio"
+    },
+    "Battery": {
+      "Battery": "4,883 mAh",
+      "Charging": "MagSafe (wireless charger), MagSafe and Qi 2 wireless, USB-C fast-charge, Up to 50% charge in 20 minutes with 60 W adaptor or higher"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 tri-band, Bluetooth 6.0 (A2DP, LE), Ultra-wideband, Thread, NFC (reader mode, Express Cards), LEO satellite (Globalstar, limited), USB-C (USB 10Gbps), Dual-frequency GPS (L1, L5), GLONASS, Galileo, QZSS, BeiDou, NavIC"
+    }
+  },
+  "key": {
+    "display_type": "Super Retina XDR",
+    "chipset": "Apple A20 Pro",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K@120fps",
+    "front_mp": 12,
+    "battery_mah": 4883,
+    "wired_w": 60,
+    "os": "iOS 27.1",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "weight_g": 254,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone Duo",
+      "url": "https://en.wikipedia.org/wiki/IPhone_Duo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone Duo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone Duo",
+    "revid": 1383495935
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "motorola-aura",
+  "brand": "Motorola",
+  "name": "Aura",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Bl4h-jengle2-2009_01_19_IMG_0204_%283210698686%29.jpg/500px-Bl4h-jengle2-2009_01_19_IMG_0204_%283210698686%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Bl4h-jengle2-2009_01_19_IMG_0204_%283210698686%29.jpg/250px-Bl4h-jengle2-2009_01_19_IMG_0204_%283210698686%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Aura",
+      "credit": "bl4h, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bl4h-jengle2-2009_01_19_IMG_0204_(3210698686).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "2G only, GSM 850 / 900 / 1800 / 1900"
+    },
+    "Body": {
+      "Form factor": "Swivel",
+      "Dimensions": "96.9 x 47.6 x 18.6 mm",
+      "Weight": "141 g",
+      "Other": "Stainless steel housing, Assisted opening blade mechanism with Carbon-carbide coated gears, voice memo, chemically engraved textures."
+    },
+    "Memory": {
+      "RAM": "2 GB internal memory, no Memory card slot"
+    },
+    "Display": {
+      "Display": "Circular TFT screen, 16 million colors, 480px in diameter"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel camera (1600×1200 pixels) with video"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 810 mAh, Talk time capacity: Up to 7 h 20 min."
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "battery_mah": 810,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 141
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Aura",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Aura"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Aura\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Aura",
+    "revid": 1361476468
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

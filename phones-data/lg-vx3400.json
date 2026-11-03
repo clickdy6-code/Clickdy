@@ -1,0 +1,51 @@
+{
+  "slug": "lg-vx3400",
+  "brand": "LG",
+  "name": "VX3400",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "AMPS 800 MHz; CDMA 800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "3.33 x",
+      "Weight": "3.00 oz"
+    },
+    "Display": {
+      "Display": "128 x 128 pixels, STN LCD, 65,536 colors"
+    },
+    "Sound": {
+      "Sound": "32-voice polyphonic ringtones, 2.5 mm headset jack"
+    },
+    "Battery": {
+      "Battery": "1100 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, GPS"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 1100,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG VX3400",
+      "url": "https://en.wikipedia.org/wiki/LG_VX3400"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG VX3400\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG VX3400",
+    "revid": 1374020730
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

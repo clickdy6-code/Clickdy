@@ -1,0 +1,77 @@
+{
+  "slug": "htc-hd2",
+  "brand": "HTC",
+  "name": "HD2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Htc-hd2.jpg/500px-Htc-hd2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Htc-hd2.jpg/250px-Htc-hd2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC HD2",
+      "credit": "Electzik, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htc-hd2.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family",
+      "Predecessor": "HTC Touch, HTC Touch HD",
+      "Successor": "HTC HD7"
+    },
+    "Network": {
+      "Technology": "Quadband GSM / GPRS, EDGE and dual band WCDMA, HSDPA, HSUPA"
+    },
+    "Body": {
+      "Dimensions": "120.5 x 67 x 11 mm, (4.74 x 2.64 x 0.43 in), (T-Mobile US version, 122 x 67 x 11 mm)",
+      "Weight": "162 g (5.54 oz), (157 g T-Mobile US version)"
+    },
+    "Platform": {
+      "Operating system": "Official: Windows Mobile 6.5 Professional, Unofficial: Windows Phone, Android, Firefox OS, Windows RT, MeeGo, Ubuntu, iOS",
+      "CPU": "1 GHz single-core Qualcomm Scorpion processor, (Snapdragon S1 QSD8250 chipset)",
+      "GPU": "Adreno 200 (AMD Z430) with OpenGL ES 2.0 support"
+    },
+    "Memory": {
+      "RAM": "512MB internal flash ROM (1024MB on T-Mobile US version), 576 MB RAM , (Software is limited to using 448 MB on non-US versions)",
+      "Card slot": "microSDHC, up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.3 in. LCD capacitive touchscreen, 480x800 px 65k-color WVGA, back-lit TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels autofocus CMOS sensor, video up to 800×480 resolution"
+    },
+    "Battery": {
+      "Battery": "Rechargeable 1230mAh Li-ion battery (2300mAh extended battery available)(up to 490 hrs standby, 6.3 hrs talk time)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, 802.11b/g, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "battery_mah": 1230,
+    "os": "Windows Phone",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 162
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC HD2",
+      "url": "https://en.wikipedia.org/wiki/HTC_HD2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC HD2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC HD2",
+    "revid": 1378872487
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

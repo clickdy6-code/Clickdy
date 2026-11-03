@@ -1,0 +1,92 @@
+{
+  "slug": "lg-velvet",
+  "brand": "LG",
+  "name": "Velvet",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/LG_Velvet_Aurora_Green_version.jpg/500px-LG_Velvet_Aurora_Green_version.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/LG_Velvet_Aurora_Green_version.jpg/250px-LG_Velvet_Aurora_Green_version.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Velvet",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Velvet_Aurora_Green_version.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2021-04-05",
+      "Predecessor": "LG G8 ThinQ"
+    },
+    "Network": {
+      "Technology": "2G GSM, GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 2G CDMA2000, CDMA 1xRTT – 800, 1900 MHz, 3G UMTS/HSDPA/HSUPA/HSPA+ – 850, 900, Advanced Wireless Services, AWS (1700), 1900, 2000, 2100 MHz, 4G LTE (telecommunication), LTE, 5G SA/NSA"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "167.2 mm H, 74.1 mm W, 7.9 mm D",
+      "Weight": "180 g",
+      "Other": "MIL-STD 810G Compliance, IP68 Water and Dust Resistance"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with LG UX 10, Current: Android 13 with LG UX",
+      "Chipset": "4G:, List of Qualcomm Snapdragon processors, Qualcomm Snapdragon 845, 5G South Korea:, List of Qualcomm Snapdragon processors, Qualcomm Snapdragon 765, 5G Global/Verizon:, List of Qualcomm Snapdragon processors, Qualcomm Snapdragon 765G, 5G T-Mobile:, List of MediaTek processors#Dimensity Series, MediaTek Dimensity 1000C",
+      "CPU": "Octa-core, 4G:, (4x 2.8 GHz Gold, 4x 1.8 GHz Silver) Kryo (microarchitecture), Kryo 385, 5G Global/Verizon:, (1x 2.4 GHz Gold Prime, 1x 2.2 GHz Gold, 6x 1.8 GHz Silver) Kryo (microarchitecture), Kryo 475, 5G T-Mobile:, (4x 2.0 GHz ARM Cortex-A77, Cortex-A77, 4x 2.0 GHz ARM Cortex-A55, Cortex-A55)",
+      "GPU": "4G: Adreno 630, 5G Global/Verizon: Adreno 620, 5G T-Mobile: Mali (GPU), Mali-G57 MC5"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB RAM",
+      "Storage": "128 GB UFS 2.1",
+      "Card slot": "microSDXC, expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "P-OLED capacitive touchscreen, 6.8 in 1080p, (41:18 aspect ratio, 395 ppi), 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP (wide), f/1.8, 1/2\", 0.8µm, OIS, PDAF, 8 MP (ultrawide), f/2.2, 1/4\", 1.12µm, 5 MP (depth), f/2.4, LED flash, panorama, HDR, gyro-EIS, 4K, 1080p",
+      "Front camera": "16 MP, f/2.0, 1/3.1\", 1.0µm, HDR, 1080p@30fps, connectivity =Wi-Fi 802.11a/b/g/n/ac (2.4 & 5GHz), dual-band, Wi-Fi Direct, DLNA, hotspot, Bluetooth 5.0, A2DP, LE, dual-band A-GPS, Galileo, GLONASS, BDS"
+    },
+    "Battery": {
+      "Battery": "Non-removable Lithium-polymer battery, Li-Po, 4300mAh, 4000mAh (5G T-Mobile)"
+    }
+  },
+  "key": {
+    "display_in": 6.8,
+    "display_type": "OLED",
+    "chipset": "4G:",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 16,
+    "battery_mah": 4300,
+    "os": "Android 10",
+    "five_g": true,
+    "ip": "IP68",
+    "weight_g": 180,
+    "thickness_mm": 7.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Velvet",
+      "url": "https://en.wikipedia.org/wiki/LG_Velvet"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Velvet\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Velvet",
+    "revid": 1361475599
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

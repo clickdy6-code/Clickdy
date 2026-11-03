@@ -1,0 +1,104 @@
+{
+  "slug": "huawei-mate-x6",
+  "brand": "Huawei",
+  "name": "Mate X6",
+  "status": "published",
+  "announced": "2024-11-26",
+  "released": "2024-11-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Huawei_phones_%2854260635922%29.jpg/500px-Huawei_phones_%2854260635922%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Huawei_phones_%2854260635922%29.jpg/250px-Huawei_phones_%2854260635922%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate X6",
+      "credit": "メイド理世, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_phones_(54260635922).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-11-26",
+      "Series": "Huawei Mate"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, HSPA, EVDO, LTE, 5G"
+    },
+    "Body": {
+      "Dimensions": "Unfolded: 156.6 mm × 144.1 mm × 4.6 mm, Folded: 156.6 mm × 73.8 mm × 9.9 mm",
+      "Weight": "239 g (8.43 oz)"
+    },
+    "Platform": {
+      "Operating system": "EMUI 15 (International), HarmonyOS 4.3 (China)",
+      "Chipset": "Kirin 9020 (7 nm)",
+      "CPU": "Octa-core (1x 2.5 GHz & 3x 2.15 GHz & 4x 1.53 GHz)",
+      "GPU": "Maleoon 920"
+    },
+    "Memory": {
+      "RAM": "12 GB or 16 GB LPDDR5X RAM",
+      "Storage": "256 GB, 512 GB, or 1 TB UFS 4.x",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "Main screen:, 7.93 in (202.1 cm²), Foldable LTPO OLED, 120Hz, 2240 x 2440 pixels (~418 ppi density), Cover screen:, 6.45 in, LTPO OLED, 120Hz, 1080 x 2440 pixels, Kunlun Glass 2"
+    },
+    "Cameras": {
+      "Rear camera": "Triple camera setup:, • 50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, OIS, • 48 MP, f/3.0, 90mm (periscope telephoto), PDAF, OIS, 4x optical zoom, • 40 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF, Features: Laser AF, color spectrum sensor, LED flash, Video: 1080p / 4K",
+      "Front camera": "Inner camera: 8 MP, f/2.2 (wide), Cover camera: 8 MP, f/2.4 (wide), Video: 1080p / 4K"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, no 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "5110 or 5200 mAh Si/C Li-Ion, 66W wired charging, 50W wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6 (802.11 a/b/g/n/ac/6), dual-band, Wi-Fi Direct, Bluetooth 5.2, A2DP, LE, L2HC, GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC, NFC, Infrared port, USB-C 3.1 (OTG, DisplayPort 1.2)"
+    }
+  },
+  "key": {
+    "display_in": 7.93,
+    "display_type": "LTPO OLED",
+    "refresh_hz": 120,
+    "chipset": "Kirin 9020",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "1080p",
+    "front_mp": 8,
+    "battery_mah": 5200,
+    "wireless_w": 50,
+    "os": "HarmonyOS 4.3",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "weight_g": 239,
+    "thickness_mm": 4.6,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate X6",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_X6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate X6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate X6",
+    "revid": 1363084995
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

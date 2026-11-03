@@ -1,0 +1,68 @@
+{
+  "slug": "hmd-100",
+  "brand": "HMD",
+  "name": "100",
+  "status": "published",
+  "announced": "2025-12-08",
+  "released": "2025-12-08",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-12-08"
+    },
+    "Network": {
+      "Technology": "2G (GSM 900 / 1800)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "114.3 mm H , 50 mm W , 14.3 mm D",
+      "Weight": "73 g"
+    },
+    "Platform": {
+      "CPU": "Unisoc 6533G"
+    },
+    "Memory": {
+      "RAM": "8 MB RAM",
+      "Storage": "4 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "1.77 in (45 mm) TFT LCD, 128 x 160 pixels (~116 ppi)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "800 mAh Li-Ion (removable)",
+      "Charging": "2.75 W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB, Wireless FM radio, Flashlight"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "wired_w": 2.75,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 73,
+    "thickness_mm": 14.3,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HMD 100",
+      "url": "https://en.wikipedia.org/wiki/HMD_100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HMD 100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HMD 100",
+    "revid": 1361473081
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

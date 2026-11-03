@@ -1,0 +1,92 @@
+{
+  "slug": "iphone-16e",
+  "brand": "IPhone",
+  "name": "16e",
+  "status": "published",
+  "announced": "2025-02-28",
+  "released": "2025-02-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-02-28",
+      "Series": "iPhone",
+      "Predecessor": "iPhone SE (3rd generation) and iPhone 14",
+      "Successor": "iPhone 17e"
+    },
+    "Network": {
+      "Technology": "2G GSM/EDGE, 3G UMTS/HSPA+, 4G LTE, 5G NR",
+      "SIM": "Dual eSIM (US), Dual nano-SIM (mainland China), nano-SIM and eSIM (elsewhere)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.7xx71.5xx7.8 mm",
+      "Weight": "167 g",
+      "Other": "Emergency SOS, Messages and Find My via satellite, Action Button, FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone (if supported by the carrier)"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 18.3",
+      "Chipset": "Apple A18"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR5X",
+      "Storage": "128, 256 or 512 GB NVMe"
+    },
+    "Display": {
+      "Display": "6.1 in, resolution at 60 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 1.6, 26 mm (wide)",
+      "Front camera": "12 MP, 1.9, 23 mm (wide)"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos-tuned Spatial Audio"
+    },
+    "Battery": {
+      "Battery": "15.55 W⋅h (4005 mA⋅h) Li-ion @ 3.88 V",
+      "Charging": "Qi (standard), Qi wireless up to 7.5 W, USB-C"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6 (802.11a/b/g/n/ac/ax) dual-band, Bluetooth 5.3 (A2DP, LE) , NFC (reader mode, Express Cards), USB-C: USB 2.0 480 Mbit/s, GPS, GLONASS, Galileo, QZSS, BeiDou, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "refresh_hz": 60,
+    "chipset": "Apple A18",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 12,
+    "wireless_w": 7.5,
+    "os": "iOS 18.3",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 167,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 16e",
+      "url": "https://en.wikipedia.org/wiki/IPhone_16e"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 16e\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone 16e",
+    "revid": 1382988773
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

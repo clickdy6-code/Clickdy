@@ -1,0 +1,75 @@
+{
+  "slug": "motorola-rokr-e6",
+  "brand": "Motorola",
+  "name": "Rokr E6",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Motorola_ROKR_E6.png/500px-Motorola_ROKR_E6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Motorola_ROKR_E6.png/250px-Motorola_ROKR_E6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Rokr E6",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_ROKR_E6.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Motorola Rokr E2",
+      "Successor": "Motorola Z6"
+    },
+    "Network": {
+      "Technology": "GSM Tri-band (900/1800/1900, hackable to Quad-band)"
+    },
+    "Body": {
+      "Dimensions": "111 × 51.5 × 14 mm (82 cc)",
+      "Weight": "122 g"
+    },
+    "Platform": {
+      "Operating system": "MontaVista Linux OS (not MOTOMAGX)",
+      "CPU": "Intel XScale-PXA27x rev 7 (v5l)"
+    },
+    "Memory": {
+      "RAM": "46 MB RAM (50% free after boot-up)",
+      "Storage": "120 MB",
+      "Card slot": "SD/MMC expandable to 4 GB (New patch)"
+    },
+    "Display": {
+      "Display": "2.4 in diagonal touch TFT LCD, 262k colors, 240×320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels + Macro Mode"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS Class 10, BCM2045 Bluetooth 2.0 (+A2DP), 3.5 mm Stereo/Mic Jack, Enhanced Mini USB"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 122
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Rokr E6",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Rokr_E6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Rokr E6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Rokr E6",
+    "revid": 1361476680
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

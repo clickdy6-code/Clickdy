@@ -1,0 +1,80 @@
+{
+  "slug": "ninetology-vox",
+  "brand": "Ninetology",
+  "name": "Vox",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ninetology_Vox.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ninetology_Vox.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Ninetology Vox",
+      "credit": "Bendley8888, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ninetology_Vox.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Feature"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800, GPRS/EDGE class B, multislot class 33"
+    },
+    "Body": {
+      "Form factor": "Keypad",
+      "Dimensions": "Width: 49.6 mm, Height: 115.6 mm, Thickness: 14.5 mm",
+      "Weight": "88 g"
+    },
+    "Platform": {
+      "Operating system": "-",
+      "CPU": "MT 6250 Single Core Processor (260 MHz)"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM, 64 MB ROM",
+      "Card slot": "up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "IPS Display, 240 x 320, 2.4\", Capable of displaying up to 65K colors"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 MP",
+      "Front camera": "-"
+    },
+    "Battery": {
+      "Battery": "1200mAh Li-Ion battery (removable), micro USB and 2 mm DC plug charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g/n (2.4 GHz), bluetooth 2.0, USB 1.1, 3.5 mm AV connector (audio in/out), FM receiver, Mobile TV"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "IPS",
+    "main_mp": 1.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 88,
+    "thickness_mm": 14.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Ninetology Vox",
+      "url": "https://en.wikipedia.org/wiki/Ninetology_Vox"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Ninetology Vox\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Ninetology Vox",
+    "revid": 1361476871
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

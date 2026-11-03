@@ -1,0 +1,101 @@
+{
+  "slug": "foxconn-on-contract-iphone-11",
+  "brand": "Foxconn (on contract)",
+  "name": "IPhone 11",
+  "status": "published",
+  "announced": "2019-09-20",
+  "released": "2019-09-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/IPhone_11_Green.svg/500px-IPhone_11_Green.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/IPhone_11_Green.svg/250px-IPhone_11_Green.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn (on contract) IPhone 11",
+      "credit": "TheGoldenBox, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_11_Green.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09-20",
+      "Series": "13th",
+      "Predecessor": "iPhone XR",
+      "Successor": "iPhone 12 and 12 Mini"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 150.9 mm, W: 75.7 mm, D: 8.3 mm",
+      "Weight": "194 g",
+      "Other": "FaceTime audio- or video-calling, USB-C to Lightning, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 13",
+      "Chipset": "A13 Bionic",
+      "CPU": "Hexa-core (2× high power Lightning cores at 2.66 GHz + 4× low power Thunder cores at 1.82 GHz)",
+      "GPU": "Apple-designed 4-core, up to 690 GFLOPS"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X RAM",
+      "Storage": "64, 128 or 256 GB"
+    },
+    "Display": {
+      "Display": "6.1-inch (155 mm) diagonal Liquid Retina: LED-backlit IPS LCD, 1792×828 px (326 ppi), 625 cd/m2 max. brightness (typical), with dual-ion exchange-strengthened glass and Haptic Touch."
+    },
+    "Cameras": {
+      "Rear camera": "12 MP (1.4 μm) (1/2.55″), quad-LED flash, ƒ/1.8 aperture, Optical image stabilization (Wide-angle only) quad-LED flash, autofocus, IR filter, Burst mode, Five‑element lens (Ultra Wide); six‑element lens (Wide), 4K video recording at 24, 30 or 60 fps or 1080p at 30 or 60 fps, Slow-motion video (1080p at 120 fps or 240 fps), Time-lapse with stabilization, Panorama (up to 63 megapixels), Portrait Mode, Portrait Lighting, Face detection, Digital image stabilization, Optical image stabilization, Stereo audio recording, Night Mode",
+      "Front camera": "12 MP, f/2.2 aperture, burst mode, exposure control, face detection, auto-HDR, auto image stabilization, Retina flash, 4K video recording at 24, 30 or 60 fps or 1080p HD at 30 or 60 fps, Slow-motion video (1080p at 120 fps), Portrait Mode, Portrait Lighting and Animoji"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "3110 mAh Li-ion (3.83 V)",
+      "Charging": "Fast charging, Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6 (802.11ax), Bluetooth 5.0, Ultra-wideband (UWB)"
+    }
+  },
+  "key": {
+    "display_type": "Retina",
+    "chipset": "A13 Bionic",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 12,
+    "battery_mah": 3110,
+    "os": "iOS 13",
+    "five_g": false,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "weight_g": 194,
+    "thickness_mm": 8.3,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 11",
+      "url": "https://en.wikipedia.org/wiki/IPhone_11"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 11\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone 11",
+    "revid": 1382803122
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

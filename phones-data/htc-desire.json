@@ -1,0 +1,81 @@
+{
+  "slug": "htc-desire",
+  "brand": "HTC",
+  "name": "Desire",
+  "status": "published",
+  "announced": "2010-02-16",
+  "released": "2010-02-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Htc-desire-2.jpg/500px-Htc-desire-2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Htc-desire-2.jpg/250px-Htc-desire-2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Desire",
+      "credit": "Shritwod (talk), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htc-desire-2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-02-16",
+      "Predecessor": "HTC Hero",
+      "Successor": "HTC Desire S , HTC Desire HD"
+    },
+    "Network": {
+      "Technology": "Europe/Asia Pacific: HSPA/WCDMA, 900/2100 MHz [Model A8181], 850/1900 (Telus Mobility Canada) [Model A8182], 850/2100 MHz (Telstra Australia) [Model A8183], GSM 850/900/1800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "119 mm H , 60 mm W , 11.9 mm D",
+      "Weight": "135 g",
+      "Other": "HTC Sense 1.9 interface , Flash 10.1 enabled (update to Flash 11 available in Android Market)"
+    },
+    "Platform": {
+      "Operating system": "Launched with Android 2.1 \"Eclair\", Upgradeable to Android 2.3 \"Gingerbread\" (Though only 2.2 is supported by HTC) or up to Android 6.0 \"Marshmallow\" via custom ROM",
+      "CPU": "1 GHz Qualcomm QSD8250 Snapdragon",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "576 MB RAM",
+      "Storage": "512 MB flash (150 MB user accessible)",
+      "Card slot": "microSDHC supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.7-inch 480×800 px (0.38 Megapixels) WVGA AMOLED or Super LCD capacitive touchscreen covered by Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixel , Autofocus , LED flash , face detection, Geotagging"
+    },
+    "Battery": {
+      "Battery": "1400 mAh, Internal Rechargeable Li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 with EDR , Micro USB , Wi-Fi 802.11b/g"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "battery_mah": 1400,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135,
+    "thickness_mm": 11.9,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire",
+    "revid": 1361473163
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

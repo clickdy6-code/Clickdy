@@ -1,0 +1,66 @@
+{
+  "slug": "fujitsu-docomo-style-series-f-10c",
+  "brand": "Fujitsu",
+  "name": "Docomo STYLE series F-10C",
+  "status": "published",
+  "announced": "2011-06-04",
+  "released": "2011-06-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-06-04",
+      "Series": "docomo STYLE series"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA) (800 MHz, 850 MHz, 1.7 GHz, 2 GHz), 2G: GSM (900 MHz, 1800 MHz, 1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "111 mm H , 51 mm W , 11.8 mm D",
+      "Weight": "110 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS + OPP(S)",
+      "CPU": "SH-Mobile G4"
+    },
+    "Memory": {
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "Main: 3.3 in TFT LCD, 480 x 854 pixels, 16,777,216 colors, Sub: 0.8 in OLED, 39 x 96 pixels, 1 color"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 MP CMOS, (approx.), autofocus, image stabilization, face recognition",
+      "Front camera": "0.32 MP CMOS"
+    }
+  },
+  "key": {
+    "display_in": 3.3,
+    "display_type": "TFT",
+    "main_mp": 12.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.32,
+    "os": "Symbian OS + OPP(S)",
+    "five_g": false,
+    "weight_g": 110,
+    "thickness_mm": 11.8,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Docomo STYLE series F-10C",
+      "url": "https://en.wikipedia.org/wiki/Docomo_STYLE_series_F-10C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Docomo STYLE series F-10C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Docomo STYLE series F-10C",
+    "revid": 1380509414
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

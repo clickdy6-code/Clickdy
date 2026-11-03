@@ -1,0 +1,82 @@
+{
+  "slug": "lg-fiesta",
+  "brand": "LG",
+  "name": "Fiesta",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/LG_Fiesta_2017.jpg/500px-LG_Fiesta_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/LG_Fiesta_2017.jpg/250px-LG_Fiesta_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Fiesta",
+      "credit": "EDG 543, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Fiesta_2017.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2017",
+      "Successor": "LG Fiesta 2"
+    },
+    "Body": {
+      "Form factor": "Touchscreen Smartphone",
+      "Dimensions": "154.7 x 77.97 x 8.4 mm (6.17 x 3.04 x 0.27 in)",
+      "Weight": "164g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0 Nougat",
+      "CPU": "1.4 GHz Quad core",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "RAM": "1.5GB RAM",
+      "Storage": "16GB",
+      "Card slot": "microSD, up to 2TB"
+    },
+    "Display": {
+      "Display": "5.5 in"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 4500 mAh (Non-Removable)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4500,
+    "os": "Android 7.0",
+    "weight_g": 164,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Fiesta",
+      "url": "https://en.wikipedia.org/wiki/LG_Fiesta"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Fiesta\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Fiesta",
+    "revid": 1361474917
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

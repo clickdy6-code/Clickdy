@@ -1,0 +1,105 @@
+{
+  "slug": "iphone-12",
+  "brand": "IPhone",
+  "name": "12",
+  "status": "published",
+  "announced": "2020-10-23",
+  "released": "2020-10-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/IPhone_12_Blue.svg/500px-IPhone_12_Blue.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/IPhone_12_Blue.svg/250px-IPhone_12_Blue.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 12",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_12_Blue.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "12: 2020-10-23, 12 mini: 2020-11-13",
+      "Discontinued": "12 mini:, 12:",
+      "Series": "14th generation",
+      "Predecessor": "iPhone 11",
+      "Successor": "iPhone 13 and iPhone 13 Mini"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "12: H: 146.7 mm, W: 71.5 mm, D: 7.4 mm, 12 mini:, H: 131.5 mm, W: 64.2 mm, D: 7.4 mm",
+      "Weight": "12: 162 g, 12 mini: 133 g",
+      "Other": "FaceTime audio- or video-calling, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "12:, Original: iOS 14.1, 12 mini:, Original: iOS 14.2",
+      "Chipset": "A14 Bionic",
+      "CPU": "Hexa-core (2 \"high performance\" Firestorm @ 3.1 GHz + 4 \"energy-saving\" Icestorm)",
+      "GPU": "Apple-designed 4 core, up to 750 GFLOPS"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X",
+      "Storage": "64, 128, 256 GB NVMe"
+    },
+    "Display": {
+      "Display": "12: 6.1 in diagonal Super Retina XDR OLED, 2532×1170px (460 ppi, aspect ratio 19.5:9), supplied by LG Display and Samsung Display, 12 mini: 5.4 in diagonal Super Retina XDR OLED, 2340×1080 px (476 ppi, aspect ratio 19.5:9), supplied by Samsung Display"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.6, 26 mm (wide), 1.4 μm, dual pixel PDAF, OIS, 12 MP, f/2.4, 13 mm, 120° (ultrawide), 1/3.6\", Dual-LED dual-tone flash, HDR (photo/panorama), 4K@24/30/60fps, 1080p@30/60/120/240fps, HDR, Dolby Vision HDR (up to 30fps), stereo sound rec.",
+      "Front camera": "12 MP, f/2.2, 23 mm (wide), 1/3.6\", HDR, 4K@24/30/60fps, 1080p@30/60/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Spatial Audio, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "12: 3.83 V 10.78 Wh (2,815 mAh) Li-ion, 12 mini: 3.85 V 8.57 Wh (2,227 mAh) Li-ion",
+      "Charging": "Qi wireless charging (7.5 W), Lightning fast charging (20 W), MagSafe wireless charging (15 W/12 W (Mini))"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6 (802.11ax), Bluetooth 5.0, Ultra-wideband (UWB)"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Super Retina XDR OLED",
+    "chipset": "A14 Bionic",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@24fps",
+    "front_mp": 12,
+    "battery_mah": 2815,
+    "wireless_w": 7.5,
+    "wired_w": 20,
+    "os": "iOS 14.1",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "weight_g": 162,
+    "thickness_mm": 7.4,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 12",
+      "url": "https://en.wikipedia.org/wiki/IPhone_12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 12",
+    "revid": 1382946914
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

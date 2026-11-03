@@ -1,0 +1,93 @@
+{
+  "slug": "htc-infobar-a02",
+  "brand": "HTC",
+  "name": "Infobar A02",
+  "status": "published",
+  "announced": "2013-02-15",
+  "released": "2013-02-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/KDDI_INFOBAR_A02_NISHIKIGOI.jpg/500px-KDDI_INFOBAR_A02_NISHIKIGOI.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/KDDI_INFOBAR_A02_NISHIKIGOI.jpg/250px-KDDI_INFOBAR_A02_NISHIKIGOI.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Infobar A02",
+      "credit": "8F02E, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KDDI_INFOBAR_A02_NISHIKIGOI.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-02-15",
+      "Discontinued": "July 2013",
+      "Series": "iida / au design project",
+      "Predecessor": "INFOBAR A01",
+      "Successor": "INFOBAR A03"
+    },
+    "Network": {
+      "Technology": "3G: CDMA2000 1xMC (CDMA 1X) (800 MHz/2 GHz), W-CDMA (850 MHz/2 GHz; unavailable in Japan), 2G: GSM (850/900/1800/1900 MHz; unavailable in Japan), 3.9G LTE: FDD-LTE (au 4G LTE) (800 MHz/1.5 GHz), 3.5G: CDMA2000 1xEV-DO MC-Rev.A (CDMA 1X WIN/WIN HIGH SPEED), CDMA2000 1xEV-DO Rev.A/Rel.0, UMTS (W-CDMA; unavailable in Japan)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "138 mm H , 70 mm W , 9.7 mm D",
+      "Weight": "147 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1 with iida UI 2.0",
+      "Chipset": "Qualcomm Snapdragon S4 Pro APQ8064",
+      "CPU": "1.5 GHz quad-core"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB ROM",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "4.7 in (120 mm) CG-Silicon TFT LCD, 1280×720 pixels (HD), 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 MP CMOS, autofocus",
+      "Front camera": "2.1 MP CMOS"
+    },
+    "Battery": {
+      "Battery": "2,100 mAh (removable)",
+      "Charging": "Approx. 150 minutes"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S4 Pro APQ8064",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2.1,
+    "battery_mah": 2100,
+    "os": "Android 4.1",
+    "five_g": true,
+    "weight_g": 147,
+    "thickness_mm": 9.7,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Infobar A02",
+      "url": "https://en.wikipedia.org/wiki/HTC_Infobar_A02"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Infobar A02\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Infobar A02",
+    "revid": 1379664483
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

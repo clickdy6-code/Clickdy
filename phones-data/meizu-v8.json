@@ -1,0 +1,103 @@
+{
+  "slug": "meizu-v8",
+  "brand": "Meizu",
+  "name": "V8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Meizu_V8_Pro.jpg/500px-Meizu_V8_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Meizu_V8_Pro.jpg/250px-Meizu_V8_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Meizu V8",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meizu_V8_Pro.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "V/M",
+      "Predecessor": "Meizu M6",
+      "Successor": "Meizu M10"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, LTE (4G)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "V8: 148 × 73 × 8.4 mm, V8 Pro: 147.5 × 72.7 × 8.1 mm",
+      "Weight": "V8: 145 g, V8 Pro: 159 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 Oreo with Flyme 7.1",
+      "Chipset": "V8: MediaTek MT6739 (28 nm), V8 Pro: MediaTek MT6762 Helio P22 (12 nm)",
+      "CPU": "V8: 4×1.5 GHz Cortex-A53, V8 Pro: 8×2 GHz Cortex-A53",
+      "GPU": "V8: PowerVR GE8100, V8 Pro: PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "V8: 3 GB, V8 Pro: 4 GB, LPDDR3",
+      "Storage": "V8: 32 GB, V8 Pro: 64 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.7\", 1440 × 720 (HD+), 18:9 ratio, 282 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "V8: 13 MP, (wide), AF, V8 Pro: 12 MP, (wide), AF + 5 MP, (depth), Dual-LED dual-tone flash, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, (wide), Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "Both models: non-removable, Li-Ion, V8: 3200 mAh, V8 Pro: 3100 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm jack, Bluetooth 4.2 (V8) / 5.0 (V8 Pro) (A2DP, LE), Wi-Fi 802.11 a (V8 Pro)/b/g/n (dual-band (V8 Pro), Wi-Fi Direct), GPS, A-GPS, GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS LCD",
+    "chipset": "V8: MediaTek MT6739",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3200,
+    "wired_w": 10,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 145
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu V8",
+      "url": "https://en.wikipedia.org/wiki/Meizu_V8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu V8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu V8",
+    "revid": 1361476002
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

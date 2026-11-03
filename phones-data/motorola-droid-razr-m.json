@@ -1,0 +1,91 @@
+{
+  "slug": "motorola-droid-razr-m",
+  "brand": "Motorola",
+  "name": "Droid Razr M",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Resistance_training_equipment_and_phone_2014.jpg/500px-Resistance_training_equipment_and_phone_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Resistance_training_equipment_and_phone_2014.jpg/250px-Resistance_training_equipment_and_phone_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid Razr M",
+      "credit": "Lkcarnes, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Resistance_training_equipment_and_phone_2014.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Motorola Razr , Droid",
+      "Predecessor": "Droid Razr",
+      "Successor": "Droid Mini"
+    },
+    "Network": {
+      "Technology": "3G UMTS/HSPA+, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "122.5 mm H, 60.9 mm W, 8.3 mm D",
+      "Weight": "4.44 oz",
+      "Other": "Gorilla Glass 2"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1 Jelly Bean",
+      "Chipset": "1.5 GHz Dual-core Qualcomm Snapdragon S4 MSM8960 Intel Atom Z2460 Razr i",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB flash memory",
+      "Card slot": "microSD supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.3″(10.9cm) edge-to-edge 960x540qHD (256 ppi) Super AMOLED Advanced display"
+    },
+    "Cameras": {
+      "Rear camera": "8MP, Sony Exmor IMX145",
+      "Front camera": "1.3 megapixels"
+    },
+    "Battery": {
+      "Battery": "2000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GLONASS"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "chipset": "1.5 GHz Dual-core Qualcomm Snapdragon S4 MSM8960 Intel Atom ",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 2000,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 8.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid Razr M",
+      "url": "https://en.wikipedia.org/wiki/Droid_Razr_M"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid Razr M\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid Razr M",
+    "revid": 1373553744
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

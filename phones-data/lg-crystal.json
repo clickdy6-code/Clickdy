@@ -1,0 +1,72 @@
+{
+  "slug": "lg-crystal",
+  "brand": "LG",
+  "name": "Crystal",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Lg_gd900_phone_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Lg_gd900_phone_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG Crystal",
+      "credit": "Jontintinjordan, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lg_gd900_phone_1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "HSDPA 7.2 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "13.4 mm thick"
+    },
+    "Platform": {
+      "Operating system": "LG S-class interface"
+    },
+    "Memory": {
+      "RAM": "1.5 GB",
+      "Card slot": "up to 32 GB"
+    },
+    "Display": {
+      "Display": "800×480, 16 million colours, WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, WiFi"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      5
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1000,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Crystal",
+      "url": "https://en.wikipedia.org/wiki/LG_Crystal"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Crystal\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Crystal",
+    "revid": 1361474880
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

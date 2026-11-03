@@ -1,0 +1,90 @@
+{
+  "slug": "huawei-p-smart-pro",
+  "brand": "Huawei",
+  "name": "P Smart Pro",
+  "status": "published",
+  "announced": "2019-09-05",
+  "released": "2019-09-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Enjoy 10 Plus: 2019-09-05, P Smart Pro: 2019-11-14",
+      "Series": "P Smart/Y",
+      "Predecessor": "Huawei P Smart Z, Huawei Y9 2019",
+      "Successor": "Huawei Y9a"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "P Smart Pro & Y9s: 163.1 × 77.2 × 8.8 mm, Enjoy 10 Plus: 163.5 × 77.3 × 8.8 mm",
+      "Weight": "P Smart Pro & Y9s: 206 g, Enjoy 10 Plus: 163.5 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 Pie + EMUI 9.1, Current:, P Smart Pro/Y9s: Android 10 + EMUI 12, Enjoy 10 Plus: HarmonyOS 3",
+      "CPU": "Kirin 710F (12 nm), Octa-core (4×2.2 GHz Cortex-A73 & 4×1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "RAM": "P Smart Pro & Y9s: 6 GB, Enjoy 10 Plus: 4/6/8 GB, LPDDR4",
+      "Storage": "128 GB, UFS 2.1",
+      "Card slot": "MicroSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "LTPS LCD, 6.59\", 2340 × 1080 (FullHD+), 19.5:9, 391 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.8, 26 mm (wide-angle), 1/2.0\", 0.8 μm, PDAF + 8 MP, f/2.4, 13 mm (ultrawide) + 2 MP, f/2.4, (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "Pop-up, 16 MP, f/2.2, HDR, Video: 1080p@60fps"
+    },
+    "Sound": {
+      "Sound": "Video: 3gp, mp4"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm Audio Jack, Bluetooth 4.2 (A2DP, LE), FM radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot) (Enjoy 10 Plus in STK-AL00 model), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.59,
+    "display_type": "LCD",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 206,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P Smart Pro",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P_Smart_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P Smart Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P Smart Pro",
+    "revid": 1361473981
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

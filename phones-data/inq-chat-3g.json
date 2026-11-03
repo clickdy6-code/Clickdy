@@ -1,0 +1,64 @@
+{
+  "slug": "inq-chat-3g",
+  "brand": "INQ",
+  "name": "Chat 3G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "INQ1",
+      "Successor": "INQ Cloud Touch"
+    },
+    "Network": {
+      "Technology": "GPRS, EDGE, HSPDA"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "114.5 x 61 x 12.8 mm",
+      "Weight": "122g"
+    },
+    "Platform": {
+      "Operating system": "INQ System1, based upon Qualcomm's BREW"
+    },
+    "Memory": {
+      "RAM": "175.6 megabytes",
+      "Card slot": "microSD/microSDHC, up to 4 GB"
+    },
+    "Display": {
+      "Display": "2.4\" TFT LCD, 256k colours"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels with autofocus"
+    },
+    "Battery": {
+      "Battery": "1500mAh Li-ion Polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v2.0 with A2DP, mini-USB v2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 1500,
+    "nfc": false,
+    "weight_g": 122
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: INQ Chat 3G",
+      "url": "https://en.wikipedia.org/wiki/INQ_Chat_3G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"INQ Chat 3G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "INQ Chat 3G",
+    "revid": 1361474263
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

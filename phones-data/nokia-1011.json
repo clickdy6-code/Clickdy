@@ -1,0 +1,66 @@
+{
+  "slug": "nokia-1011",
+  "brand": "Nokia",
+  "name": "1011",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Nokia_1011_museum.jpg/500px-Nokia_1011_museum.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Nokia_1011_museum.jpg/250px-Nokia_1011_museum.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 1011",
+      "credit": "Unknown, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_1011_museum.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "1992",
+      "Successor": "Nokia 2010, Nokia 2110"
+    },
+    "Network": {
+      "Technology": "GSM 900"
+    },
+    "Body": {
+      "Form factor": "Brick with antenna",
+      "Dimensions": "195 x 60 x 45mm, (with standard battery and internal antenna)",
+      "Weight": "495g"
+    },
+    "Platform": {
+      "Operating system": "embedded"
+    },
+    "Memory": {
+      "RAM": "99-entry Phonebook"
+    },
+    "Display": {
+      "Display": "2-line, 8-character monochrome LCD with dedicated function symbols"
+    },
+    "Battery": {
+      "Battery": "Ni-CD 7.2V 900 mAh"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 900,
+    "five_g": false,
+    "weight_g": 495,
+    "year": 1992
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1011",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1011"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1011\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1011",
+    "revid": 1361476915
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

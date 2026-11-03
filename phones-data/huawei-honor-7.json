@@ -1,0 +1,87 @@
+{
+  "slug": "huawei-honor-7",
+  "brand": "Huawei",
+  "name": "Honor 7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Huawei_Honor_7.png/500px-Huawei_Honor_7.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Huawei_Honor_7.png/250px-Huawei_Honor_7.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 7",
+      "credit": "AkshayAnand, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Honor_7.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2015 (China) , October 2015 (India)",
+      "Series": "Honor N",
+      "Predecessor": "Huawei Honor 6",
+      "Successor": "Honor 8"
+    },
+    "Network": {
+      "Technology": "2.5G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 4G LTE Rel. 8 (UE Cat 4) - 1800, 2100, 2600, 800 MHz European"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "143.20 mm H, 71.90 mm W, 8.50 mm D",
+      "Weight": "157 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.0 Lollipop upgradeable to Android 6.0 Marshmallow",
+      "Chipset": "Hisilicon Kirin 935",
+      "CPU": "Octa-core (4×2.2 GHz Cortex-A53 + 4×1.5 GHz Cortex-A53)",
+      "GPU": "Mali-T628 MP4"
+    },
+    "Memory": {
+      "RAM": "3GB RAM",
+      "Storage": "16/64GB",
+      "Card slot": "microSD, up to 128GB"
+    },
+    "Display": {
+      "Display": "5.2 in IPS-NEO LCD capacitive touchscreen, 16M colors, 423 ppi (1080×1920)"
+    },
+    "Cameras": {
+      "Rear camera": "20 megapixels (Sony IMX230) 1080p 5152 x 3888 pixels, Super night mode, Fast Focus, phase detection autofocus, dual-LED (dual tone) flash, video 1080p@30fps, HDR",
+      "Front camera": "8 megapixels, front-faced soft light, panorama"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3100 mAh battery (11.8 Wh)"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS",
+    "chipset": "Hisilicon Kirin 935",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "battery_mah": 3100,
+    "os": "Android 5.0",
+    "five_g": true,
+    "weight_g": 157,
+    "thickness_mm": 8.5,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Honor 7",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Honor_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Honor 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Honor 7",
+    "revid": 1361473794
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

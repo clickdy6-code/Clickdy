@@ -1,0 +1,74 @@
+{
+  "slug": "acer-liquid-e",
+  "brand": "Acer",
+  "name": "Liquid E",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Acer-ferrari-Liquid.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Acer-ferrari-Liquid.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Acer Liquid E",
+      "credit": "Eg81, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acer-ferrari-Liquid.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Acer Liquid A1",
+      "Successor": "Acer Liquid Metal"
+    },
+    "Body": {
+      "Dimensions": "62.5 x 115 x 12.5 millimetres",
+      "Weight": "135 grams (battery included)",
+      "Other": "Google turn-by-turn navigation"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 \"Éclair\". (Upgradeable to Android 2.2 \"Froyo\")",
+      "CPU": "Qualcomm QSD 8250 (Snapdragon), 768 MHz"
+    },
+    "Memory": {
+      "Card slot": "microSD, up to 32GB"
+    },
+    "Display": {
+      "Display": "3.5\" TFT LCD, capacitive touchscreen; 480x800 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, 2560х1920 pixels, autofocus"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1350 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 + EDR; Wi-Fi 802.11g, GPS with A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1350,
+    "os": "Android 2.1",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer Liquid E",
+      "url": "https://en.wikipedia.org/wiki/Acer_Liquid_E"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer Liquid E\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer Liquid E",
+    "revid": 1383065579
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

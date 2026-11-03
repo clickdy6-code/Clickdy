@@ -1,0 +1,98 @@
+{
+  "slug": "motorola-razr",
+  "brand": "Motorola",
+  "name": "Razr",
+  "status": "published",
+  "announced": "2019-11-14",
+  "released": "2019-11-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Moto_Razr_2020.png/500px-Moto_Razr_2020.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Moto_Razr_2020.png/250px-Moto_Razr_2020.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Razr",
+      "credit": "Booredatwork.com, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Moto_Razr_2020.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "4G: 2019-11-14 , 5G: 2020-09-09",
+      "Successor": "Motorola Razr 2022"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "Unfolded (4G), 172 mm H, 72 mm W, 6.9 mm D, Unfolded (5G), 169.2 mm H, 72.6 mm W, 7.9 mm D, Folded (4G), 94 mm H, 72 mm W, 14 mm D, Folded (5G), 91.7 mm H, 72.6 mm W, 16 mm D",
+      "Weight": "205 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9.0 \"Pie\" (4G), Android 10 (5G), Current: Android 10 (4G), Android 14 (5G)",
+      "Chipset": "4G: Qualcomm Snapdragon 710 , 5G: Qualcomm Snapdragon 765G",
+      "CPU": "4G: Octa-core (2x2.2 GHz and 6x2.42 GHz) Kryo 360 Gold & Silver , 5G: Octa-core (2x2.2 GHz and 6x2.42 GHz) Kryo 360 Gold & Silver",
+      "GPU": "4G: Adreno 616 , 5G: Adreno 620"
+    },
+    "Memory": {
+      "RAM": "6 GB (4G/LTE only) or 8 GB & 12 GB (5G only)",
+      "Storage": "128 GB (4G/LTE only) or 256 GB & 512 GB (5G only)",
+      "Card slot": "non-expandable"
+    },
+    "Display": {
+      "Display": "Foldable P-OLED, 876 × 2142, 6.2 in, ~22:9 aspect ratio, 373 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "4G: 16 MP, f/1.7, 1.22μm, Dual-pixel PDAF, Dual-LED dual-tone flash, HDR, panorama, gyro-EIS, 4K@30fps, 1080p@30fps, 5G: 50 MP, f/1.7, 0.8 μm, Dual-pixel PDAF, Dual-LED dual-tone flash, auto HDR, panorama, gyro-EIS, 4K@30fps, 1080p@30/60/120fps",
+      "Front camera": "4G: 5 MP, f/2.0, 1.12 μm, HDR, 1080p@30fps , 5G: 20 MP, f/2.2, 0.8 μm, auto HDR, 1080p@30/60fps"
+    },
+    "Battery": {
+      "Battery": "4G: 2510 mAh , 5G: 2800 mAh, 4000 mAh",
+      "Charging": "Fast charging 45W & Quick charge 15W"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi a/b/g/n/ac, 3G/LTE/5G, Direct, Hotspot, GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.2,
+    "display_type": "OLED",
+    "chipset": "4G: Qualcomm Snapdragon 710",
+    "ram_gb": [
+      6,
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 16,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 5,
+    "battery_mah": 2510,
+    "wired_w": 45,
+    "os": "Android 9.0",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 205,
+    "thickness_mm": 6.9,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Razr (2020)",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Razr_%282020%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Razr (2020)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Razr (2020)",
+    "revid": 1380587916
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

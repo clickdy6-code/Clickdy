@@ -1,0 +1,99 @@
+{
+  "slug": "foxconn-iphone-17",
+  "brand": "Foxconn",
+  "name": "IPhone 17",
+  "status": "published",
+  "announced": "2025-09-19",
+  "released": "2025-09-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/IPhone_17_Vector.svg/500px-IPhone_17_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/IPhone_17_Vector.svg/250px-IPhone_17_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn IPhone 17",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_17_Vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-09-19",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 16 and 16 Plus"
+    },
+    "Network": {
+      "Technology": "2G GSM/EDGE, 3G UMTS/HSPA+, 4G LTE, 5G NR/5G-A"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "149.6 xx",
+      "Weight": "177 g",
+      "Other": "Emergency SOS, Messages and Find My via satellite, FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone (if supported by the carrier)"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 26",
+      "Chipset": "Apple A19"
+    },
+    "Memory": {
+      "RAM": "8 GB (LPDDR5X)",
+      "Storage": "256 or 512 GB (NVMe)"
+    },
+    "Display": {
+      "Display": "6.3 in , 460 ppi, 120 Hz, LTPO Super Retina XDR OLED, HDR10, 3000 nits"
+    },
+    "Cameras": {
+      "Rear camera": "Wide: 48 MP, 26 mm, Ultrawide: 48 MP, 13 mm",
+      "Front camera": "18 MP, 23 mm"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, spatial audio"
+    },
+    "Battery": {
+      "Battery": "14.351 Wh (3692 mAh) @ 3.887 V lithium-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 (802.11a/b/g/n/ac/ax/be) tri-band, Bluetooth 6.0 (A2DP, LE) , Ultra-wideband (UWB) , Thread, NFC (reader mode, Express Cards), USB-C: USB 2.0 480 Mbit/s, Dual-frequency GPS (L1, L5), GLONASS, Galileo, QZSS, BeiDou, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "LTPO Super Retina XDR OLED",
+    "refresh_hz": 120,
+    "peak_nits": 3000,
+    "chipset": "Apple A19",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 18,
+    "battery_mah": 3692,
+    "os": "iOS 26",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "weight_g": 177,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 17",
+      "url": "https://en.wikipedia.org/wiki/IPhone_17"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 17\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone 17",
+    "revid": 1383483448
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

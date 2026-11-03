@@ -1,0 +1,103 @@
+{
+  "slug": "lenovo-moto-g32",
+  "brand": "Lenovo",
+  "name": "Moto G32",
+  "status": "published",
+  "announced": "2022-08-09",
+  "released": "2022-08-09",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Xiaomi%2C_Realme%2C_Infinix%2C_Poco_and_Motorola_Smartphones_in_Zabrze%2C_Silesian_Voivodeship%2C_Poland%2C_March_2024.jpg/500px-Xiaomi%2C_Realme%2C_Infinix%2C_Poco_and_Motorola_Smartphones_in_Zabrze%2C_Silesian_Voivodeship%2C_Poland%2C_March_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Xiaomi%2C_Realme%2C_Infinix%2C_Poco_and_Motorola_Smartphones_in_Zabrze%2C_Silesian_Voivodeship%2C_Poland%2C_March_2024.jpg/250px-Xiaomi%2C_Realme%2C_Infinix%2C_Poco_and_Motorola_Smartphones_in_Zabrze%2C_Silesian_Voivodeship%2C_Poland%2C_March_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Lenovo Moto G32",
+      "credit": "MichalPL, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi,_Realme,_Infinix,_Poco_and_Motorola_Smartphones_in_Zabrze,_Silesian_Voivodeship,_Poland,_March_2024.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-08-09 (India)",
+      "Series": "Moto G"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.8 × 73.8 × 8.5 mm",
+      "Weight": "184 g"
+    },
+    "Platform": {
+      "Operating system": "Android 12, upgradable to Android 13",
+      "Chipset": "Qualcomm SM6225 Snapdragon 680 4G (6 nm)",
+      "CPU": "Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "4 GB, 6 GB, or 8 GB RAM",
+      "Storage": "64 GB, 128 GB, or 256 GB",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.5 in (170 mm) IPS LCD, 90Hz, 1080 × 2400 pixels, 20:9 ratio (~405 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Triple:, • 50 MP, f/1.8 (wide), 1/2.76\", 0.64µm, PDAF, • 8 MP, f/2.2, 118˚ (ultrawide), 1/4.0\", 1.12µm, • 2 MP, f/2.4 (macro), Video: 1080p@30fps",
+      "Front camera": "16 MP, f/2.4 (wide), 1.0µm, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3.5mm audio jack"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh (non-removable), 30W wired charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Bluetooth 5.2, A2DP, LE, GPS, GLONASS, GALILEO, NFC (market/region dependent), FM radio, USB-C 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "Qualcomm SM6225 Snapdragon 680 4G",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 184,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto G32",
+      "url": "https://en.wikipedia.org/wiki/Moto_G32"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto G32\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto G32",
+    "revid": 1364553890
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

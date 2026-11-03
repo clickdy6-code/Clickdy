@@ -1,0 +1,84 @@
+{
+  "slug": "huawei-mate-9",
+  "brand": "Huawei",
+  "name": "Mate 9",
+  "status": "published",
+  "announced": "2016-11-03",
+  "released": "2016-11-03",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-11-03",
+      "Series": "Huawei Mate",
+      "Predecessor": "Huawei Mate 8",
+      "Successor": "Huawei Mate 10"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 2G CDMA 1xRTT – 800, 850, 1900 MHz, 3G TD-SCDMA – Band 34/39, 3G UMTS – Bands 1/2/4/5/6/8/19, 3G CDMA2000 1xEV-DO–, 4G LTE – Bands 1/2/3/4/5/7/8/9/12/17/18/19/20/26/28/29/38/40/41"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "156.9 mm H, 78.9 mm W, 7.9 mm D, Porsche Design Edition, 152 mm H, 75 mm W, 7.5 mm D",
+      "Weight": "190 g, 169 g (Porsche Design Edition)"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0 \"Nougat\" with Emotion UI 5.0, upgradable to Android 9 \"Pie\" with Emotion UI 9.1 and HarmonyOS 2 (China)",
+      "Chipset": "HiSilicon Kirin 960"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM, 6 GB RAM (Chinese Edition and Porsche Design Edition)",
+      "Storage": "32 GB (Chinese Edition), 64 GB, 128 GB (Chinese Edition), 256 GB (Porsche Design Edition) – UFS 2.1.",
+      "Card slot": "microSD up to 256 GB (except Porsche Design Edition)"
+    },
+    "Display": {
+      "Display": "5.9-inch 1080 x 1920 pixels IPS display, 16.7M colors, 5.5-inch 1440 x 2560 pixels Curved AMOLED Display, 16.7M colors (Porsche Design Edition)"
+    },
+    "Cameras": {
+      "Rear camera": "20 MP + 12 MP",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "4,000 mAh Li-ion battery"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "chipset": "HiSilicon Kirin 960",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "main_mp": 20,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 7.0",
+    "five_g": false,
+    "weight_g": 190,
+    "thickness_mm": 7.9,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate 9",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Mate 9",
+    "revid": 1382850198
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

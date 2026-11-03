@@ -1,0 +1,90 @@
+{
+  "slug": "meizu-mx3",
+  "brand": "Meizu",
+  "name": "MX3",
+  "status": "published",
+  "announced": "2013-09-02",
+  "released": "2013-09-02",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-09-02",
+      "Series": "Meizu MX Series",
+      "Predecessor": "Meizu MX2",
+      "Successor": "Meizu MX4"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "139.0 mm H, 71.9 mm W, 9.1 mm D",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS, based on Android 4.2 Jelly Bean",
+      "Chipset": "Samsung Exynos 5410 Octa",
+      "CPU": "Quad-core (4x1.6 GHz Cortex-A15 & 4x1.2 GHz Cortex-A7)",
+      "GPU": "SGX 544MP3"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3",
+      "Storage": "16 GB, 32 GB, 64 GB or 128 GB flash memory",
+      "Card slot": "Not supported"
+    },
+    "Display": {
+      "Display": "5.1 inch diagonal OGS, 1080x1800 px (418 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, PDAF autofocus, ƒ/2.0 aperture, LED flash, 1080p30 recording",
+      "Front camera": "2.0 MP, ƒ/2.0 aperture, 1080p30 recording"
+    },
+    "Battery": {
+      "Battery": "2400 mAh Li-Ion rechargeable battery, not replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.0, Dual-band WiFi (802.11 a/b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 5.1,
+    "chipset": "Samsung Exynos 5410 Octa",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 2,
+    "battery_mah": 2400,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 149,
+    "thickness_mm": 9.1,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu MX3",
+      "url": "https://en.wikipedia.org/wiki/Meizu_MX3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu MX3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu MX3",
+    "revid": 1364776456
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

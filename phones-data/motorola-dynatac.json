@@ -1,0 +1,57 @@
+{
+  "slug": "motorola-dynatac",
+  "brand": "Motorola",
+  "name": "DynaTAC",
+  "status": "published",
+  "announced": "1983-03-06",
+  "released": "1983-03-06",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/74/DynaTAC8000X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/74/DynaTAC8000X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Motorola DynaTAC",
+      "credit": "Redrum0486, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DynaTAC8000X.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "1983-03-06",
+      "Successor": "MicroTAC"
+    },
+    "Network": {
+      "Technology": "Advanced Mobile Phone System or GSM on Ameritech"
+    },
+    "Body": {
+      "Form factor": "Brick",
+      "Dimensions": "10 in Height",
+      "Weight": "2.5 lb"
+    },
+    "Display": {
+      "Display": "LED or vacuum fluorescent display"
+    },
+    "Battery": {
+      "Charging": "10 Hours"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "year": 1983
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: DynaTAC",
+      "url": "https://en.wikipedia.org/wiki/DynaTAC"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"DynaTAC\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "DynaTAC",
+    "revid": 1380699464
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

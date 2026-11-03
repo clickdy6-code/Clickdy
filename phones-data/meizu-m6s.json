@@ -1,0 +1,85 @@
+{
+  "slug": "meizu-m6s",
+  "brand": "Meizu",
+  "name": "M6s",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "M",
+      "Predecessor": "Meizu M5s"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "152 × 72.5 × 8 mm",
+      "Weight": "160 g",
+      "Other": "Fingerprint scanner (side-mounted), accelerometer, gyroscope, proximity sensor, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 7.0 Nougat + Flyme 6.2 (China) or Flyme 6.3.1.0G (Global), Current: Android 7.0 Nougat + Flyme 8.0.5.0A/Flyme 8.19.12.17A beta (China) or Flyme 7.1.6.0G (Global)",
+      "CPU": "Samsung Exynos 7872 (14 nm), 6 cores (4×1.6 GHz Cortex-A53 & 2×2.0 GHz Cortex-A73)",
+      "GPU": "Mali-G71 MP1"
+    },
+    "Memory": {
+      "RAM": "3 GB, LPDDR3",
+      "Storage": "32/64 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.7\", 1440 × 720 (HD+), 18:9, 282 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP Samsung S5K2P7, 1/2.8\", 1.12 μm, PDAF, 2-LED dual-tone flash, Video: 1080p@30fps",
+      "Front camera": "8 MP Samsung S5K4H7, (wide-angle), 1/4.0\", 1.12 μm, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 3000 mAh",
+      "Charging": "Fast charging mCharge at 18 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 4.2 (A2DP, LE), Wi-Fi 802.11 a/b/g/n (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "wired_w": 18,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 160
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu M6s",
+      "url": "https://en.wikipedia.org/wiki/Meizu_M6s"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu M6s\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu M6s",
+    "revid": 1361475890
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

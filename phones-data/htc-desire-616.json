@@ -1,0 +1,74 @@
+{
+  "slug": "htc-desire-616",
+  "brand": "HTC",
+  "name": "Desire 616",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Dimensions": "142 x 71.9 x 9.2 mm",
+      "Weight": "150 grams"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2.2 Jelly Bean, HTC Sense 5.5",
+      "Chipset": "MediaTek MT6592",
+      "CPU": "1.4 GHz ARM Cortex-A7 , octa-core CPU",
+      "GPU": "ARM Mali-450 MP4"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD card support up to 32 GB"
+    },
+    "Display": {
+      "Display": "5.0 inch TFT LCD, 720x1280 pixels (HD) resolution, 294 ppi pixel density"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP; 1080p video recording",
+      "Front camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "2000 mAh removable battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n , Bluetooth 4.0 , microUSB 2.0 , 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "TFT",
+    "chipset": "MediaTek MT6592",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 2,
+    "battery_mah": 2000,
+    "os": "Android 4.2",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire 616",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_616"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire 616\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire 616",
+    "revid": 1361473197
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

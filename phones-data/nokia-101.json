@@ -1,0 +1,70 @@
+{
+  "slug": "nokia-101",
+  "brand": "Nokia",
+  "name": "101",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Nokia_101-0134.jpg/500px-Nokia_101-0134.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Nokia_101-0134.jpg/250px-Nokia_101-0134.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 101",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_101-0134.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-08",
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia 1800",
+      "Successor": "Nokia 105"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "110 x",
+      "Weight": "71 g",
+      "Other": "MP3 player, Flashlight"
+    },
+    "Platform": {
+      "Operating system": "Series 30"
+    },
+    "Memory": {
+      "RAM": "8 MB RAM",
+      "Card slot": "microSD, up to 16 GB"
+    },
+    "Display": {
+      "Display": "TFT, 65K colors , 128 x 160 pixels, 1.8 inches (~114 ppi pixel density)"
+    },
+    "Battery": {
+      "Battery": "BL-5C, 3.7 V 1020 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, FM radio, Stereo"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1020,
+    "nfc": false,
+    "weight_g": 71,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 101 (2011)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_101_%282011%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 101 (2011)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 101 (2011)",
+    "revid": 1373719729
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

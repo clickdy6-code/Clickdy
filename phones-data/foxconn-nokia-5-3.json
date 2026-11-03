@@ -1,0 +1,85 @@
+{
+  "slug": "foxconn-nokia-5-3",
+  "brand": "Foxconn",
+  "name": "Nokia 5.3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Nokia_5.3_2020-07_2.jpg/500px-Nokia_5.3_2020-07_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Nokia_5.3_2020-07_2.jpg/250px-Nokia_5.3_2020-07_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 5.3",
+      "credit": "Svetlov Artem, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5.3_2020-07_2.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5.1, Nokia 5.1 Plus",
+      "Successor": "Nokia 5.4"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "164.3 x 76.6 x 8.5 mm",
+      "Weight": "185 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10, Current: Android 12",
+      "Chipset": "Qualcomm Snapdragon 665 (11 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Kryo 260 Gold (ARM Cortex-A73 based) & 4x1.8 GHz Kryo 260 Silver (ARM Cortex-A53 based))",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "3, 4 or 6 GB",
+      "Storage": "64 GB",
+      "Card slot": "microSD, up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.55\" (16.63 cm) 20:9 720x1600p IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/1.8, (wide), PDAF, 5 MP, 13mm (ultrawide), 2 MP (macro), 2 MP (depth), LED flash, HDR, Panorama, Video: 4K@30fps, 1080p@30fps",
+      "Front camera": "8 MP, f/2.0 (wide), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "4000 mAH non-removable Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 6.55,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 665",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 10",
+    "weight_g": 185
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5.3",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5.3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5.3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5.3",
+    "revid": 1361477336
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

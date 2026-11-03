@@ -1,0 +1,83 @@
+{
+  "slug": "lg-optimus-one",
+  "brand": "LG",
+  "name": "Optimus One",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/LG_P500_OPTIMUS_ONE.jpg/500px-LG_P500_OPTIMUS_ONE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/LG_P500_OPTIMUS_ONE.jpg/250px-LG_P500_OPTIMUS_ONE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus One",
+      "credit": "GillyBerlin, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_P500_OPTIMUS_ONE.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-10",
+      "Series": "Optimus",
+      "Predecessor": "LG GT540 Optimus",
+      "Successor": "LG Optimus 2X"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE Quad-band (850/900/1800/1900) , UMTS/HSPA tri-band (900/1700/2100) , HSDPA 7.2 Mbit/s , GPRS Class 10 (4+1/3+2 slots), 32-48 kbit/s , CDMA EVDO Rev. A (800/1900-Global, 1800-Korea LG U+ Variant Korean Pcs)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "113.5 mm H , 59 mm W , 13.3 mm D",
+      "Weight": "129 g",
+      "Other": "Wi-Fi hotspot, USB tethering"
+    },
+    "Platform": {
+      "Operating system": "Original: Android Froyo, Android 2.2.1 \"Froyo\", Current: Android Gingerbread, Android 2.3.3 \"Gingerbread\"",
+      "CPU": "Qualcomm 600 MHz ARM1136EJ-S , GSM MSM7227 , CDMA MSM7627",
+      "GPU": "Qualcomm Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB SDRAM",
+      "Storage": "512 MB flash EEPROM (140 or 170 MB user addressable)",
+      "Card slot": "2 GB microSD (supports up to 32 GB, with the exception of Optimus T)"
+    },
+    "Display": {
+      "Display": "TFT LCD, 3.2 in diagonal , 320×480px HVGA @ 180ppi, 2:3 aspect-ratio wide-screen , 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "VGA video recording (640×480 px, MPEG4 at 18 fps max.), Auto-focus , Europe and Asia 3-megapixels , United States and Canada 3.15 megapixels (2048×1536 px max.)"
+    },
+    "Battery": {
+      "Battery": "LGIP-400N , 1,500 mAh, 5.6 Wh, 3.7 V , Internal Rechargeable Li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm audio jack , Bluetooth 2.1 + EDR with A2DP , FM stereo receiver (87.5-108 MHz) with RDS (certain variants) , Micro USB 2.0 , Wi-Fi 802.11b/g"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "battery_mah": 1500,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 129,
+    "thickness_mm": 13.3,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus One",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_One"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus One\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus One",
+    "revid": 1361475303
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

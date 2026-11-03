@@ -1,0 +1,73 @@
+{
+  "slug": "motorola-moto-g",
+  "brand": "Motorola",
+  "name": "Moto G",
+  "status": "published",
+  "announced": "2025-01-30",
+  "released": "2025-01-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-01-30",
+      "Series": "Moto G Family",
+      "Successor": "Moto G (2026)"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 15"
+    },
+    "Memory": {
+      "RAM": "4GB",
+      "Storage": "128GB"
+    },
+    "Display": {
+      "Display": "120Hz"
+    },
+    "Cameras": {
+      "Rear camera": "50MP, 2MP",
+      "Front camera": "16MP"
+    },
+    "Battery": {
+      "Battery": "5,000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "2G, 3G, 4G LTE and 5G"
+    }
+  },
+  "key": {
+    "refresh_hz": 120,
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 0,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": false,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto G (2025)",
+      "url": "https://en.wikipedia.org/wiki/Moto_G_%282025%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto G (2025)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto G (2025)",
+    "revid": 1379726951
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

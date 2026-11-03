@@ -1,0 +1,78 @@
+{
+  "slug": "htc-tytn-ii",
+  "brand": "HTC",
+  "name": "TyTN II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Htc_tytn_ii.jpg/500px-Htc_tytn_ii.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Htc_tytn_ii.jpg/250px-Htc_tytn_ii.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC TyTN II",
+      "credit": "edvvc, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htc_tytn_ii.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC TyTN",
+      "Predecessor": "HTC TyTN",
+      "Successor": "HTC Touch Pro"
+    },
+    "Network": {
+      "Technology": "Quad band GSM 850/900/1800/1900, GPRS, EDGE , Tri band UMTS 850/1900/2100, HSDPA, HSUPA , aGPS"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "112 mm H , 59 mm W , 19 mm D",
+      "Weight": "190 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.1, 6.5 (unofficial); Android (unofficial)",
+      "CPU": "Qualcomm 7200 ARM 400 MHz , GPU: Qualcomm Q3Dimension"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM , 256 MB ROM",
+      "Card slot": "microSDHC, up to 32 GB"
+    },
+    "Display": {
+      "Display": "240x320 px, 2.8 in, 65536 color LCD, 3:4 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "3.1 megapixel",
+      "Front camera": "0.3-megapixel"
+    },
+    "Battery": {
+      "Battery": "1300 or 1350 mAh Lithium-ion polymer battery, user accessible"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mini-B , Wi-Fi (802.11b/g) , Bluetooth 2.0 + EDR"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "battery_mah": 1350,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 190,
+    "thickness_mm": 19
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC TyTN II",
+      "url": "https://en.wikipedia.org/wiki/HTC_TyTN_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC TyTN II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC TyTN II",
+    "revid": 1368300013
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

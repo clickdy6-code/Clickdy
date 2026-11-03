@@ -1,0 +1,87 @@
+{
+  "slug": "lg-optimus-l5-ii",
+  "brand": "LG",
+  "name": "Optimus L5 II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/LG_E455_Optimus_L5_II_Dual-1802.jpg/500px-LG_E455_Optimus_L5_II_Dual-1802.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/LG_E455_Optimus_L5_II_Dual-1802.jpg/250px-LG_E455_Optimus_L5_II_Dual-1802.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus L5 II",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_E455_Optimus_L5_II_Dual-1802.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 2013",
+      "Series": "Optimus",
+      "Predecessor": "LG Optimus L5"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850, 900, 1800, 1900 MHz, 3G UMTS/HSPA+, (7,2 Mbit) 900, 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "H 117.5mm, W 62.2mm, D 9.2mm",
+      "Weight": "103.3 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2 Jelly Bean",
+      "CPU": "1 GHz MediaTek MT6575 (40 nm)",
+      "GPU": "PowerVR SGX531"
+    },
+    "Memory": {
+      "RAM": "512 MB LP DDR2 RAM",
+      "Storage": "4GB eMMC",
+      "Card slot": "microSD (supports up to 32GB)"
+    },
+    "Display": {
+      "Display": "4-inch (480×800) IPS"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP"
+    },
+    "Battery": {
+      "Battery": "Li-Ion, model BL-44JH, 1,700 mAh / 6.5 Wh / 3.8 V"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, DLNA, Bluetooth 3.1 + HS"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1700,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 103.3,
+    "thickness_mm": 9.2,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus L5 II",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_L5_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus L5 II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus L5 II",
+    "revid": 1379004658
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

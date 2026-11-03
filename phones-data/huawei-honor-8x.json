@@ -1,0 +1,94 @@
+{
+  "slug": "huawei-honor-8x",
+  "brand": "Huawei",
+  "name": "Honor 8x",
+  "status": "published",
+  "announced": "2018-10-24",
+  "released": "2018-10-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Honor_8X.jpg/500px-Honor_8X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Honor_8X.jpg/250px-Honor_8X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 8x",
+      "credit": "Ahmadkurdi44, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honor_8X.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-24",
+      "Predecessor": "Honor 7X",
+      "Successor": "Honor 9X"
+    },
+    "Body": {
+      "Form factor": "Smartphone+ hard Phone",
+      "Dimensions": "160.4 mm H , 76.6 mm W , 7.8 mm D",
+      "Weight": "175 g",
+      "Other": "Hall sensor, infrared sensor, FaceID Screen Lock, Fingerprint (rear-mounted), proximity sensor, ambient light sensor, magnetometer, digital compass, gravity sensor, gyroscope, status indicator"
+    },
+    "Platform": {
+      "Operating system": "Android 10",
+      "Chipset": "HiSilicon Kirin 710",
+      "CPU": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "RAM": "4 or 6GB RAM",
+      "Storage": "64 or 128GB",
+      "Card slot": "microSD, up to 400GB"
+    },
+    "Display": {
+      "Display": "6.5 in FHD (1080 x 2340 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual (20MP + 2MP), laser autofocus, autofocus, AI filter, Burst mode, f/2.2 aperture, 1080p video recording at 30 fps or 1080p at slow-motion video (1080p timelapse with stabilization, panorama, facial recognition, digital image stabilization, optical image stabilization 1080p 60FPS video, LED flash",
+      "Front camera": "16MP, f/2.2 aperture, exposure control, face detection, auto-HDR, auto image stabilization, Retina flash, 1080p HD video recording"
+    },
+    "Battery": {
+      "Battery": "3750mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Hybrid Dual SIM (nano + nano/microSD), LTE Cat.6, Wi-Fi a/b/g/n/ac (2,4/5 GHz), Bluetooth 4.2, GPS, NFC (JSN-L21 only), microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "chipset": "HiSilicon Kirin 710",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 20,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 16,
+    "battery_mah": 3750,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 175,
+    "thickness_mm": 7.8,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 8x",
+      "url": "https://en.wikipedia.org/wiki/Honor_8x"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 8x\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 8x",
+    "revid": 1361473626
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

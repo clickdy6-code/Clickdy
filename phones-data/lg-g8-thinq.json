@@ -1,0 +1,95 @@
+{
+  "slug": "lg-g8-thinq",
+  "brand": "LG",
+  "name": "G8 ThinQ",
+  "status": "published",
+  "announced": "2019-03-22",
+  "released": "2019-03-22",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/LG_G8_ThinQ_%28cropped%29.png/500px-LG_G8_ThinQ_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/LG_G8_ThinQ_%28cropped%29.png/250px-LG_G8_ThinQ_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG G8 ThinQ",
+      "credit": "LG Electronics, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_G8_ThinQ_(cropped).png",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-03-22",
+      "Predecessor": "LG G7 ThinQ",
+      "Successor": "LG Velvet"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 5.98 in (151.9 mm), W: 2.83 in (71.8 mm), D: 0.35 in (8.4 mm)",
+      "Weight": "167 g (5.89 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 \"Pie\", Current: Android 12",
+      "Chipset": "Qualcomm Snapdragon 855",
+      "CPU": "Octa-core (1x 2.84GHz + 3x 2.42GHz + 4x 1.8GHz) Kryo 485",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X RAM",
+      "Storage": "128 GB",
+      "Card slot": "microSD, up to 2TB"
+    },
+    "Display": {
+      "Display": "6.1 in, 3120 × 1440 1440p OLED, (19.5:9 aspect ratio) (564 ppi) Dolby Vision, HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "Dual or Triple (market dependent*), 12MP + 16MP + 12MP, 12 MP Sony IMX363, (f/1.5, 27mm, 1/2.55\", 1.4μm, OIS) +, 16 MP Sony IMX361, (f/1.9, 16mm, 1/3.09\", 1.0μm) +, 12 MP Telephoto*, (f/2.4, 52mm, 1.0μm, OIS), Other Camera Specs:, Dual PDAF, Manual Mode, Food Mode, Slow-Mo, Cine Video, Panorama, YouTube Live, Time-Laps, 360 Panorama, AI Composition, Night View, Google Lens, Live Photo, AR Emoji, My Avatar, Quick Sharing and Film Effect, Active Autofocus, 2x optical zoom & LED flash, 4K@30/60fps, 1080p@30/60fps, 720p@240fps, HDR, stereo sound rec. HDR10 video, Video Manual Mode, Video Studio",
+      "Front camera": "8 MP, f/1.7, 26mm, 1.22μm, 1080p + ToF sensor"
+    },
+    "Sound": {
+      "Sound": "Bottom-Firing \"Boombox\" Speaker"
+    },
+    "Battery": {
+      "Battery": "3500 mAh Li-Po, non removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Type-C 1.0 reversible connector + 802.11a/b/g/n/ac Wi-fi, dual-band + Bluetooth 5.0 + NFC + Radio + GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 855",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 3500,
+    "os": "Android 9",
+    "nfc": true,
+    "weight_g": 167,
+    "thickness_mm": 8.4,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G8 ThinQ",
+      "url": "https://en.wikipedia.org/wiki/LG_G8_ThinQ"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G8 ThinQ\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG G8 ThinQ",
+    "revid": 1370447783
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

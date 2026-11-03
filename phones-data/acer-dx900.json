@@ -1,0 +1,63 @@
+{
+  "slug": "acer-dx900",
+  "brand": "Acer",
+  "name": "DX900",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "HSDPA (3.5G), UMTS, Quad band GSM / GPRS / EDGE GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "106 (l) x 60.5 (w) x 17 (h) mm",
+      "Weight": "147 g"
+    },
+    "Platform": {
+      "Operating system": "Microsoft Windows Mobile 6.1 Professional",
+      "CPU": "533MHz Samsung S3C 6400"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM, 256 MB flash ROM",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "640 x 480 px, 2.8 in, TFT LCD, Touch Screen"
+    },
+    "Cameras": {
+      "Rear camera": "3 Megapixels with autofocus (back)",
+      "Front camera": "VGA (front)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion (1530 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0 +EDR, Wi-Fi b/g, GPS"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1530,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 147
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer DX900",
+      "url": "https://en.wikipedia.org/wiki/Acer_DX900"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer DX900\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer DX900",
+    "revid": 1374924705
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

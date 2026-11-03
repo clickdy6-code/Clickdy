@@ -1,0 +1,82 @@
+{
+  "slug": "transsion-itel-a26",
+  "brand": "Transsion",
+  "name": "Itel A26",
+  "status": "published",
+  "announced": "2021-09-22",
+  "released": "2021-09-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-09-22",
+      "Series": "A series"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS (3G), LTE (4G)",
+      "SIM": "Dual Nano-SIM (dual stand-by)"
+    },
+    "Body": {
+      "Dimensions": "148.0 × 72.3 × 9.9mm",
+      "Weight": "164 g (5.78 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 10 (Go edition)",
+      "CPU": "Quad-core 1.4 GHz Spreadtrum SC9832E",
+      "GPU": "ARM Mali-T820 @ 600 MHz"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD, microSDHC, microSDXC (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "5.7 in (140 mm) IPS TFT, 720 x 1520 pixels, 19:9 ratio (~295 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, AF, 0.3 MP (secondary), LED flash",
+      "Front camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "3,020 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth, GPS with A-GPS, Micro-USB 2.0, 3.5mm jack"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 3020,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 164,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel A26",
+      "url": "https://en.wikipedia.org/wiki/Itel_A26"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel A26\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel A26",
+    "revid": 1377470619
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

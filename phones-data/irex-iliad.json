@@ -1,0 +1,63 @@
+{
+  "slug": "irex-iliad",
+  "brand": "iRex",
+  "name": "ILiad",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Irex_Iliad_%28V2%29.jpg/500px-Irex_Iliad_%28V2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Irex_Iliad_%28V2%29.jpg/250px-Irex_Iliad_%28V2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "iRex ILiad",
+      "credit": "Magnus Manske, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Irex_Iliad_(V2).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "MyiRex account"
+    },
+    "Body": {
+      "Dimensions": "155x217x16 mm (WxHxD)",
+      "Weight": "389 g"
+    },
+    "Platform": {
+      "Operating system": "Linux, 2.4 kernel",
+      "CPU": "400 MHz Intel XScale"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Storage": "256 MB internal, 128 MB available, Expandable by USB, MMC, CF cards"
+    },
+    "Display": {
+      "Display": "124×152 mm (W×H), 768×1024 pixels, 160 ppi density, 16-level grayscale, Electronic paper"
+    },
+    "Battery": {
+      "Battery": "Lithium ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "WiFi 802.11g, 10/100 Mbit/s Ethernet LAN (via travel hub), USB port, audio jack"
+    }
+  },
+  "key": {
+    "nfc": false,
+    "weight_g": 389
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ILiad",
+      "url": "https://en.wikipedia.org/wiki/ILiad"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ILiad\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ILiad",
+    "revid": 1378924956
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

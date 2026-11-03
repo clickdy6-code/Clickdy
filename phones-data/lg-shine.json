@@ -1,0 +1,78 @@
+{
+  "slug": "lg-shine",
+  "brand": "LG",
+  "name": "Shine",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/LG_shine_imgp0493_resize.jpg/500px-LG_shine_imgp0493_resize.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/LG_shine_imgp0493_resize.jpg/250px-LG_shine_imgp0493_resize.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Shine",
+      "credit": "Hyundaiboy at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_shine_imgp0493_resize.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Black Label Series",
+      "Predecessor": "LG Chocolate",
+      "Successor": "LG Secret"
+    },
+    "Network": {
+      "Technology": "GSM (KE970 900/1800/1900 - ME970 850/1800/1900 , EDGE / GPRS"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "99.8 x 50.6 x 13.8mm",
+      "Weight": "118g"
+    },
+    "Platform": {
+      "Operating system": "APOXI, Java MIDP 2.0",
+      "CPU": "208 MHz Infineon S-Gold 2 PMB8876, ARM9"
+    },
+    "Memory": {
+      "RAM": "32 MB SDRAM",
+      "Storage": "128 MB StrataFlash NOR",
+      "Card slot": "microSD (TransFlash) external memory card slot"
+    },
+    "Display": {
+      "Display": "240 x 320, 2.2\" Display , 262K-color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixels , Autofocus , Schneider-Kreuznach",
+      "Front camera": "QCIF Video (320x240), VGA camera (U970 only)"
+    },
+    "Battery": {
+      "Battery": "800mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB & Bluetooth V 1.2"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 118
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Shine",
+      "url": "https://en.wikipedia.org/wiki/LG_Shine"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Shine\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Shine",
+    "revid": 1375741204
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

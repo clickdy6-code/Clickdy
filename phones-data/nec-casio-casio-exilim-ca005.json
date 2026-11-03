@@ -1,0 +1,76 @@
+{
+  "slug": "nec-casio-casio-exilim-ca005",
+  "brand": "NEC Casio",
+  "name": "Casio Exilim CA005",
+  "status": "published",
+  "announced": "2010-05-28",
+  "released": "2010-05-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/CA005_1.jpg/500px-CA005_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/CA005_1.jpg/250px-CA005_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "NEC Casio Casio Exilim CA005",
+      "credit": "Kuha455405, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CA005_1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-05-28",
+      "Series": "EXILIM Keitai"
+    },
+    "Network": {
+      "Technology": "CDMA 1X WIN (CDMA2000 1xMC / 1xEV-DO Rev.A), 800 MHz / New 800 MHz / 2 GHz"
+    },
+    "Body": {
+      "Form factor": "Waterproof dual-axis clamshell",
+      "Dimensions": "110 mm H , 50 mm W , 14.5 mm D",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "KCP+",
+      "CPU": "Qualcomm MSM7500 (600 MHz)"
+    },
+    "Memory": {
+      "Storage": "500 MB (Data folder)",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "3.2 in (81 mm) IPS LCD, Wide VGA+ (480×854 pixels), 260,000 colors"
+    },
+    "Cameras": {
+      "Rear camera": "12.95 MP CMOS with AF, image stabilization, and face detection"
+    },
+    "Battery": {
+      "Battery": "Continuous talk time: approx. 290 minutes, Continuous standby time: approx. 320 hours",
+      "Charging": "AC adapter: approx. 150 minutes, DC adapter: approx. 170 minutes"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "IPS LCD",
+    "main_mp": 12.95,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "weight_g": 124,
+    "thickness_mm": 14.5,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Casio Exilim CA005",
+      "url": "https://en.wikipedia.org/wiki/Casio_Exilim_CA005"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Casio Exilim CA005\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Casio Exilim CA005",
+    "revid": 1368313075
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

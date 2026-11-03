@@ -1,0 +1,79 @@
+{
+  "slug": "bq-aquaris-e5",
+  "brand": "BQ",
+  "name": "Aquaris E5",
+  "status": "published",
+  "announced": "2014-07-01",
+  "released": "2014-07-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Bq_Aquaris_E5_-_Frontal_view_-_on.JPG/500px-Bq_Aquaris_E5_-_Frontal_view_-_on.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Bq_Aquaris_E5_-_Frontal_view_-_on.JPG/250px-Bq_Aquaris_E5_-_Frontal_view_-_on.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BQ Aquaris E5",
+      "credit": "Américo Toledano, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bq_Aquaris_E5_-_Frontal_view_-_on.JPG",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "E5 & E5 FHD 2014-07-01, E5 HD Ubuntu Edition 2015-06-10",
+      "Series": "BQ Aquaris series",
+      "Predecessor": "BQ Aquaris E4.5"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "142 mm H, 71 mm W, 8.65 mm D",
+      "Weight": "134 g"
+    },
+    "Platform": {
+      "Operating system": "Android, Ubuntu Touch",
+      "CPU": "E5 : Quad-core Cortex A7 up to 1.3Ghz MediaTek MT6582, E5 FHD : MediaTek MT6592 2.0 GHz True8Core",
+      "GPU": "Mali 400-MP2 up to 500 MHz"
+    },
+    "Memory": {
+      "RAM": "E5 : 1GB , E5 FHD : 2GB",
+      "Storage": "16 GB",
+      "Card slot": "MicroSD slot, up to 32 GB"
+    },
+    "Display": {
+      "Display": "E5 : 5.0 in 1280x720 pixel (294 Pixels per inch) , E5 FHD : 5.0 in 1920x1080 pixel (440 Pixels per inch)"
+    },
+    "Cameras": {
+      "Rear camera": "13 megapixel f/2.2, focus range 0.1m~infinity, lens number 5P, lens size 1/3.2\", dual flash and autofocus",
+      "Front camera": "5 megapixel f/2.4"
+    },
+    "Battery": {
+      "Battery": "2,500 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "ram_gb": [
+      1,
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 2500,
+    "weight_g": 134,
+    "thickness_mm": 8.65,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BQ Aquaris E5",
+      "url": "https://en.wikipedia.org/wiki/BQ_Aquaris_E5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BQ Aquaris E5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BQ Aquaris E5",
+    "revid": 1367324191
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

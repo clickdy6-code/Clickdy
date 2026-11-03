@@ -1,0 +1,81 @@
+{
+  "slug": "lg-optimus",
+  "brand": "LG",
+  "name": "Optimus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/LG%EC%A0%84%EC%9E%90%EC%9D%98_%EB%91%90_%EB%B2%88%EC%A7%B8_%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%ED%8F%B0_%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0%28LG_GT540%29.jpg/500px-LG%EC%A0%84%EC%9E%90%EC%9D%98_%EB%91%90_%EB%B2%88%EC%A7%B8_%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%ED%8F%B0_%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0%28LG_GT540%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/LG%EC%A0%84%EC%9E%90%EC%9D%98_%EB%91%90_%EB%B2%88%EC%A7%B8_%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%ED%8F%B0_%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0%28LG_GT540%29.jpg/250px-LG%EC%A0%84%EC%9E%90%EC%9D%98_%EB%91%90_%EB%B2%88%EC%A7%B8_%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%ED%8F%B0_%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0%28LG_GT540%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus",
+      "credit": "LG전자 (LG Electorics), CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG%EC%A0%84%EC%9E%90%EC%9D%98_%EB%91%90_%EB%B2%88%EC%A7%B8_%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%ED%8F%B0_%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0(LG_GT540).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-06",
+      "Series": "Optimus",
+      "Predecessor": "LG GW620",
+      "Successor": "LG Optimus One"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900HSPA 900/2100, HSDPA 7.2"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "109 mm H, 54.5 mm W, 12.9 mm D",
+      "Weight": "115.5 g"
+    },
+    "Platform": {
+      "Operating system": "Android 1.6 \"Donut\" , Upgradeable to Android 2.1 Eclair , Unofficial upgrades to Android 2.2 Froyo, 2.3 Gingerbread, 4.0 Ice Cream Sandwich",
+      "CPU": "600 MHz Qualcomm MSM7227",
+      "GPU": "Adreno 200 Imageon"
+    },
+    "Memory": {
+      "RAM": "512 MB ROM (Only 140 MB accessible for user data), 256 MB RAM (Only 156 MB accessible)",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "TFT LCD, 3 in-inch/76-mm 320×480 px , 252K colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 Megapixel 2048x1536 px max. , Autofocus , VGA video @ 17fps"
+    },
+    "Battery": {
+      "Battery": "LGIP-400N, 1,500mAh, 5.6Wh, 3.7V, Internal Rechargeable Li-ion, User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS, Bluetooth 2.1 + EDR with A2DP , micro USB 2.0, Wi-Fi 802.11b/g"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "battery_mah": 500,
+    "os": "Android 1.6",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115.5,
+    "thickness_mm": 12.9,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus (original)",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_%28original%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus (original)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus (original)",
+    "revid": 1361475183
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

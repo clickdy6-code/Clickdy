@@ -1,0 +1,84 @@
+{
+  "slug": "nokia-2700-classic",
+  "brand": "Nokia",
+  "name": "2700 classic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nokia2700.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nokia2700.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 2700 classic",
+      "credit": "Honou from Bangkok, Thailand, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia2700.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia 2000 series",
+      "Predecessor": "Nokia 2630",
+      "Successor": "Nokia C2-01"
+    },
+    "Network": {
+      "Technology": "GSM, GPRS",
+      "SIM": "1 SIM"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "109.2 mm × 46.9 mm × 14.4 mm",
+      "Weight": "85 g (with battery)"
+    },
+    "Platform": {
+      "Operating system": "Series 40 5th Edition Feature pack 1",
+      "CPU": "Advanced Risc Machines ARM926EJ-S A ~203 MHz single core"
+    },
+    "Memory": {
+      "RAM": "32 MB",
+      "Storage": "64 MB",
+      "Card slot": "MicroSD, max 2 GB"
+    },
+    "Display": {
+      "Display": "2 inch, 262,144 color, 240×320 px, TFT"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "BL-5C, 1020 mAh Talk time: Up to 6 hrs 25 mins(GSM), Stand-by: Up to 299 hrs (GSM)",
+      "Charging": "5V 350mA 2.0 mm thin barrel connector"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 85,
+    "thickness_mm": 14.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2700 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2700_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2700 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2700 classic",
+    "revid": 1381294397
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

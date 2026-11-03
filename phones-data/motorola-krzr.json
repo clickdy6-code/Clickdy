@@ -1,0 +1,60 @@
+{
+  "slug": "motorola-krzr",
+  "brand": "Motorola",
+  "name": "Krzr",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Motorola_KRZR_K1_%28Black%29_-_Front_%28Open%29.jpg/500px-Motorola_KRZR_K1_%28Black%29_-_Front_%28Open%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Motorola_KRZR_K1_%28Black%29_-_Front_%28Open%29.jpg/250px-Motorola_KRZR_K1_%28Black%29_-_Front_%28Open%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Krzr",
+      "credit": "Beamish4, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_KRZR_K1_(Black)_-_Front_(Open).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 (quad band)"
+    },
+    "Body": {
+      "Dimensions": "4.05\" x 1.65\" x 0.63\" (103 x 45 x 16 mm)",
+      "Weight": "100 g / 3.6 ounces"
+    },
+    "Memory": {
+      "RAM": "20 or 64 MB (see article)"
+    },
+    "Display": {
+      "Display": "176×220 pixel , 262,000 color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel"
+    },
+    "Connectivity": {
+      "Connectivity": "mini-USB, Bluetooth (Class 2)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 100
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Krzr",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Krzr"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Krzr\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Krzr",
+    "revid": 1361476592
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

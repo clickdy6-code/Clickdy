@@ -1,0 +1,97 @@
+{
+  "slug": "xiaomi-black-shark-4",
+  "brand": "Xiaomi",
+  "name": "Black Shark 4",
+  "status": "published",
+  "announced": "2021-03-30",
+  "released": "2021-03-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-03-30",
+      "Series": "Black Shark",
+      "Predecessor": "Black Shark 3",
+      "Successor": "Black Shark 5"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE and 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Black Shark 4/4 Pro: 163.8 mm H , 76.4 mm W , 9.9 mm D, Black Shark 4S/4S Pro: 163.7 mm H , 76.2 mm W , 9.9 mm D",
+      "Weight": "Black Shark 4/4S: 210 g, Black Shark 4 Pro/4S Pro: 220 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with Joy UI 12.5",
+      "Chipset": "Black Shark 4/4S: Qualcomm Snapdragon List of Qualcomm Snapdragon processors#Snapdragon 865/865+ 5G (2020) and 870 5G (2021), 870 5G, Black Shark 4 Pro: Qualcomm Snapdragon 888 5G (5 nm), Black Shark 4S Pro: Qualcomm Snapdragon 888+ 5G (5 nm)",
+      "CPU": "Black Shark 4/4S: Octa-core (1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585), Black Shark 4 Pro: Octa-core (1x2.84 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680), Black Shark 4S Pro: Octa-core (1x3.0 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680",
+      "GPU": "Black Shark 4/4S: Adreno 650, Black Shark 4 Pro/4S Pro: Adreno 660"
+    },
+    "Memory": {
+      "RAM": "6 GB/8 GB/12 GB (Base), 8 GB/12 GB/16 GB (Pro)",
+      "Storage": "UFS 3.1, 128/256 GB (Base), 128/256/512 GB (Pro)"
+    },
+    "Display": {
+      "Display": "6.67 in, 1080 x 2400 resolution, 20:9 ratio (~395 ppi density), Super AMOLED, 144Hz refresh rate, HDR10+, 1300 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "Black Shark 4/4S: 48 MP, f/1.8, (wide), 1/2.0\", 0.8μm, PDAF, 8 MP, f/2.2, 120˚ (ultrawide), 1/4.0\", 1.12μm, 5 MP, f/2.4, (macro), AF, Black Shark 4 Pro/4S Pro: 64 MP, f/1.8, (wide), 1/1.97\", 0.7μm, PDAF, 8 MP, f/2.2, 120˚ (ultrawide), 1/4.0\", 1.12μm, 5 MP, f/2.4, (macro), AF, All: LED flash, HDR, panorama, 4K@30/60fps, 1080p@30/60/240fps, 1080p@960fps",
+      "Front camera": "20 MP, f/2.0, (wide), 0.8μm, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Li-Po 4500 mAh",
+      "Charging": "120W Hyper Charge"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.2, A2DP, LE, aptX HD, aptX Adaptive"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 144,
+    "peak_nits": 1300,
+    "chipset": "Black Shark 4/4S: Qualcomm Snapdragon List of Qualcomm Snapd",
+    "ram_gb": [
+      6,
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 20,
+    "battery_mah": 4500,
+    "wired_w": 120,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 210,
+    "thickness_mm": 9.9,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Black Shark 4",
+      "url": "https://en.wikipedia.org/wiki/Black_Shark_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Black Shark 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Black Shark 4",
+    "revid": 1361472679
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

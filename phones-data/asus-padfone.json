@@ -1,0 +1,80 @@
+{
+  "slug": "asus-padfone",
+  "brand": "Asus",
+  "name": "PadFone",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/ASUS_PadFone_1.jpg/500px-ASUS_PadFone_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/ASUS_PadFone_1.jpg/250px-ASUS_PadFone_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Asus PadFone",
+      "credit": "Vernon Chan, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ASUS_PadFone_1.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Taiwan: April 2012",
+      "Series": "PadFone",
+      "Successor": "Asus PadFone 2"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850 900 1800 1900 MHz, UMTS/HSPA, 900 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "128 mm H, 65.4 mm W, 9.2 mm D",
+      "Weight": "129 g (with battery)"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0 \"Ice Cream Sandwich\" with ASUS Waveshare UI",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8260A",
+      "CPU": "1.5 GHz dual-core Qualcomm Krait",
+      "GPU": "Qualcomm Adreno 225"
+    },
+    "Memory": {
+      "RAM": "1 GiB RAM",
+      "Storage": "16/32/64 GiB eMMc flash memory",
+      "Card slot": "microSD (up to 64 GiB)"
+    },
+    "Display": {
+      "Display": "4.3 in capacitive Super AMOLED touch screen with qHD (540×960) resolution"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel (3264×2448) with autofocus, LED flash, 1080p HD video recording",
+      "Front camera": "0.3-megapixel VGA"
+    },
+    "Battery": {
+      "Battery": "1520 mAh internal rechargeable li-ion, 6600 mAh rechargeable li-ion (Padfone Station)"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon S4 MSM8260A",
+    "battery_mah": 1520,
+    "os": "Android 4.0",
+    "five_g": false,
+    "weight_g": 129,
+    "thickness_mm": 9.2,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus PadFone",
+      "url": "https://en.wikipedia.org/wiki/Asus_PadFone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus PadFone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus PadFone",
+    "revid": 1374882788
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

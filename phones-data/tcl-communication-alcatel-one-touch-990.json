@@ -1,0 +1,63 @@
+{
+  "slug": "tcl-communication-alcatel-one-touch-990",
+  "brand": "TCL Communication",
+  "name": "Alcatel One Touch 990",
+  "status": "published",
+  "announced": "2011-11-29",
+  "released": "2011-11-29",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Russia/Georgia, 2011-11-29",
+      "Series": "One Touch",
+      "Predecessor": "Alcatel One Touch 918",
+      "Successor": "Alcatel One Touch 995"
+    },
+    "Network": {
+      "Technology": "2G, 3G, Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Other": "Headset: 3.5 mm audio jack, FM radio (87.5-108MHz) with RDS, Built-in GPS module"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2.2 (Froyo) (can be upgraded to Android 2.3.4 Gingerbread, via One Touch Upgrade), with Alcatel Application List Ultra",
+      "CPU": "Qualcomm 600 MHz CPU (MSM7227 ARM11 processor)"
+    },
+    "Memory": {
+      "RAM": "700 MB RAM",
+      "Card slot": "microSD card (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "touchscreen, 3.5-inch display"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels with auto focus",
+      "Front camera": "VGA"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, mobile hotspot capable, Bluetooth v2.0"
+    }
+  },
+  "key": {
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Alcatel One Touch 990",
+      "url": "https://en.wikipedia.org/wiki/Alcatel_One_Touch_990"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Alcatel One Touch 990\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Alcatel One Touch 990",
+    "revid": 1374882744
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "foxconn-nokia-3-2",
+  "brand": "Foxconn",
+  "name": "Nokia 3.2",
+  "status": "published",
+  "announced": "2019-05-21",
+  "released": "2019-05-21",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "21 May 2019",
+      "Predecessor": "Nokia 3.1",
+      "Successor": "Nokia 3.4"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "159.4×76.2×8.6 mm",
+      "Weight": "181 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9.0 \"Pie\", Current: Android 11.0, (Android One)",
+      "Chipset": "Qualcomm Snapdragon 429 (12nm)",
+      "CPU": "Quad-core ARM Cortex-A53 @ 1.8 GHz",
+      "GPU": "Adreno 504"
+    },
+    "Memory": {
+      "RAM": "2/3 GB",
+      "Storage": "16/32 GB",
+      "Card slot": "microSD, up to 400 GB"
+    },
+    "Display": {
+      "Display": "6.26\" (15.9cm/97.8cm²) 19:9 720x1520p IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Single 13 MP with flash.",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "Speaker + 3.5mm Headphone Jack"
+    },
+    "Battery": {
+      "Battery": "4000 mAH Non-removable Li-ion, charges at 10W"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5mm Headphone Jack, MicroSD slot, Bluetooth 4.2, GPS, FM Radio & Wi-Fi b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 6.26,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 429",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4000,
+    "os": "Android 9.0",
+    "nfc": false,
+    "weight_g": 181,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3.2",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3.2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3.2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3.2",
+    "revid": 1361477226
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

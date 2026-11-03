@@ -1,0 +1,54 @@
+{
+  "slug": "nokia-2010",
+  "brand": "Nokia",
+  "name": "2010",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Nokia_2010_NHE-3DN.jpg/500px-Nokia_2010_NHE-3DN.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Nokia_2010_NHE-3DN.jpg/250px-Nokia_2010_NHE-3DN.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 2010",
+      "credit": "Mustaraamattu, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2010_NHE-3DN.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 1011",
+      "Successor": "Nokia 1610"
+    },
+    "Network": {
+      "Technology": "GSM900"
+    },
+    "Body": {
+      "Form factor": "Bar/Brick",
+      "Dimensions": "165 x 58 x 28 mm",
+      "Weight": "275 g"
+    },
+    "Display": {
+      "Display": "monochrome"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "weight_g": 275
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2010",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2010"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2010\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2010",
+    "revid": 1361477081
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

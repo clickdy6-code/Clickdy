@@ -1,0 +1,92 @@
+{
+  "slug": "meizu-m10",
+  "brand": "Meizu",
+  "name": "M10",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "M",
+      "Predecessor": "Meizu M8"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.87 × 76.33 × 8.45 mm",
+      "Weight": "184 g",
+      "Other": "Fingerprint scanner (rear-mounted), accelerometer, proximity sensor, compass"
+    },
+    "Platform": {
+      "Operating system": "Android 9 Pie",
+      "Chipset": "MediaTek MT6757T Helio P25 (16 nm)",
+      "CPU": "8 cores (4×2.5 GHz Cortex-A53 & 4×1.6 GHz Cortex-A53)",
+      "GPU": "Mali-T880 MP2"
+    },
+    "Memory": {
+      "RAM": "2/3 GB LPDDR4X",
+      "Storage": "32 GB eMMC 5.1",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1600 × 720 (HD+), 19.5:9, 270 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, (wide-angle), PDAF + 2 MP, (macro) + 2 MP, (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, HDR, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5 mm Audio, Bluetooth 4.2 (A2DP, LE), Wi-Fi 802.11 b/g/n (hotspot), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6757T Helio P25",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 184
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu M10",
+      "url": "https://en.wikipedia.org/wiki/Meizu_M10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu M10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu M10",
+    "revid": 1368314140
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

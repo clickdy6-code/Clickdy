@@ -1,0 +1,79 @@
+{
+  "slug": "chinese-oem-micromax-canvas-2-a110",
+  "brand": "Chinese OEM",
+  "name": "Micromax Canvas 2 A110",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-11",
+      "Series": "Micromax Canvas",
+      "Predecessor": "Micromax Superphone Canvas A100",
+      "Successor": "Micromax Canvas HD A116"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "147 mm H, 76.5 mm W, 9.7 mm D",
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Android v4.0.4(Ice Cream Sandwich), upgradable to v4.1.1 (Jelly Bean) only through service centers",
+      "Chipset": "MediaTek MT6577",
+      "CPU": "1 GHz Dual-Core Cortex-A9",
+      "GPU": "PowerVR SGX531"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB internal storage (2 GB user available) + Up to 32 GB on microSD memory card"
+    },
+    "Display": {
+      "Display": "5 in IPS panel with 480×854 pixels (196 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 MP (3264 x 2448) autofocus, dual LED flash",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Li-on 2000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0 with A2DP, microUSB 2.0 with OTG, 3.5 mm audio jack, aGPS, Wi-Fi 802.11 b/g/n, GSM 900 / 1800 - SIM 1 & SIM 2, HSDPA 2100"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "chipset": "MediaTek MT6577",
+    "storage_gb": [
+      4,
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 2000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 168,
+    "thickness_mm": 9.7,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Micromax Canvas 2 A110",
+      "url": "https://en.wikipedia.org/wiki/Micromax_Canvas_2_A110"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Micromax Canvas 2 A110\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Micromax Canvas 2 A110",
+    "revid": 1361476027
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "hyundai-mb-490i",
+  "brand": "Hyundai",
+  "name": "MB 490i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/38/Hyundai_mb-490i_450.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/38/Hyundai_mb-490i_450.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Hyundai MB 490i",
+      "credit": "Jontintinjordan (talk)Jon Jordan, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hyundai_mb-490i_450.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900/1800/1900, GPRS, EDGE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen"
+    },
+    "Memory": {
+      "RAM": "microSD"
+    },
+    "Display": {
+      "Display": "400 × 240 WQVGA"
+    },
+    "Cameras": {
+      "Rear camera": "2MP"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Hyundai MB 490i",
+      "url": "https://en.wikipedia.org/wiki/Hyundai_MB_490i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Hyundai MB 490i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Hyundai MB 490i",
+    "revid": 1373932671
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

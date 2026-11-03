@@ -1,0 +1,67 @@
+{
+  "slug": "dell-venue",
+  "brand": "Dell",
+  "name": "Venue",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Discontinued": "2016-06-30"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 , WCDMA 850/1900/2100 or 900/AWS/2100"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "121 mm H , 64 mm W , 12.9 mm D",
+      "Weight": "5.8 oz",
+      "Other": "Curved Corning Gorilla Glass"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 \"Froyo\" , Upgradeable to Android 2.3 \"Gingerbread\"",
+      "CPU": "1 GHz Qualcomm Snapdragon QSD8250"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "1 GB",
+      "Card slot": "microSD card; 16 GB included, max 32 GB"
+    },
+    "Display": {
+      "Display": "4.1” AM-OLED with 800x480 resolution, 24-bit, 16 M colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.0-megapixel (720p video recording)"
+    },
+    "Battery": {
+      "Battery": "Lithium-ion (1400 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi , Bluetooth 2.1 , Micro-USB , GPS , 3.5mm headset jack"
+    }
+  },
+  "key": {
+    "display_type": "OLED",
+    "battery_mah": 1400,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 12.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Dell Venue",
+      "url": "https://en.wikipedia.org/wiki/Dell_Venue"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Dell Venue\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Dell Venue",
+    "revid": 1369433390
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

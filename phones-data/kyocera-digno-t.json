@@ -1,0 +1,72 @@
+{
+  "slug": "kyocera-digno-t",
+  "brand": "Kyocera",
+  "name": "DIGNO T",
+  "status": "published",
+  "announced": "2014-09-11",
+  "released": "2014-09-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-09-11"
+    },
+    "Network": {
+      "Technology": "UMTS, GSM, Data: AXGP, LTE, UMTS, GSM, Frequencies: AXGP 2.5 GHz / LTE Bands 1/8 / UMTS Bands 1/8 / GSM Tri-Band"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "132 mm H , 65 mm W , 11.2 mm D",
+      "Weight": "139 g",
+      "Other": "Shock resistance: MIL-STD-810G Method 516.6:Shock-Procedure IV"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2",
+      "CPU": "1.2 GHz quad-core Qualcomm Snapdragon 400 (MSM8926)"
+    },
+    "Memory": {
+      "RAM": "1.5 GB RAM",
+      "Storage": "8 GB ROM",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "4.5-inch TFT, qHD (540 × 960 pixels), approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 8 megapixels CMOS image sensor",
+      "Front camera": "Approx. 1.96 megapixels CMOS image sensor"
+    },
+    "Battery": {
+      "Battery": "2,000 mAh (removable)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2000,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 139,
+    "thickness_mm": 11.2,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera DIGNO T",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_DIGNO_T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera DIGNO T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera DIGNO T",
+    "revid": 1368313920
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

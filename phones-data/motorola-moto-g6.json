@@ -1,0 +1,75 @@
+{
+  "slug": "motorola-moto-g6",
+  "brand": "Motorola",
+  "name": "Moto G6",
+  "status": "published",
+  "announced": "2018-04-19",
+  "released": "2018-04-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Moto_G6.png/500px-Moto_G6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Moto_G6.png/250px-Moto_G6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto G6",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Moto_G6.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "19 April 2018",
+      "Series": "Moto G Family",
+      "Predecessor": "Moto G5",
+      "Successor": "Moto G7"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 \"Oreo\" (upgradeable to 9.0 \"Pie\")",
+      "CPU": "G6: Snapdragon 450, G6 Play: Qualcomm Snapdragon 430, G6 Plus: Snapdragon 630",
+      "GPU": "G6: Adreno 506, G6 Play: Adreno 505, G6 Plus: Adreno 508"
+    },
+    "Memory": {
+      "RAM": "2 or 3 GB RAM"
+    },
+    "Display": {
+      "Display": "G6: 5.7 in, G6 Play: 5.7 in, G6 Plus: 5.9 in"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, Dolby Audio, with built-in presets and a custom equalizer"
+    },
+    "Battery": {
+      "Battery": "G6: 3000 mAh, G6 Play: 4000 mAh, G6 Plus: 3200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "ram_gb": [
+      3
+    ],
+    "battery_mah": 3000,
+    "os": "Android 8.0",
+    "nfc": false,
+    "usb": "USB-C",
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto G6",
+      "url": "https://en.wikipedia.org/wiki/Moto_G6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto G6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Moto G6",
+    "revid": 1372039934
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

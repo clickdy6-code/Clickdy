@@ -1,0 +1,75 @@
+{
+  "slug": "kyocera-echo",
+  "brand": "Kyocera",
+  "name": "Echo",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Kyocera_Echo_open_jeh.jpg/500px-Kyocera_Echo_open_jeh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Kyocera_Echo_open_jeh.jpg/250px-Kyocera_Echo_open_jeh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Kyocera Echo",
+      "credit": "Jim.henderson, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kyocera_Echo_open_jeh.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115.0 mm H , 56.5 mm W , 17.2 mm D",
+      "Weight": "193 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.2.1 \"Froyo\", Current: Android 2.3.4 \"Gingerbread\"",
+      "CPU": "1 GHz Qualcomm Snapdragon S1 QSD8650",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "8 GB microSD card; supports cards up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.5 in, 800 x 480 px WVGA 262 K color TFT x2; 4.7 in total"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel, 720p video capture"
+    },
+    "Battery": {
+      "Battery": "Talk time: up to 7 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g) hotspot, supports up to 5 devices; 3.5 mm stereo headset jack"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "ram_gb": [
+      8,
+      32
+    ],
+    "storage_gb": [
+      32
+    ],
+    "os": "Android 2.2",
+    "nfc": false,
+    "weight_g": 193,
+    "thickness_mm": 17.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera Echo",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_Echo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera Echo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Kyocera Echo",
+    "revid": 1361474800
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "nokia-103",
+  "brand": "Nokia",
+  "name": "103",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia 1280",
+      "Successor": "Nokia 106"
+    },
+    "Network": {
+      "Technology": "GSM 900, GSM 1800"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "107.2 x 45.1 x 15.3 mm",
+      "Weight": "76.6 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30"
+    },
+    "Display": {
+      "Display": "96 x 68 pixels, 1.36 inches (~87 ppi pixel density)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion BL-5CB 800mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 800,
+    "five_g": false,
+    "weight_g": 76.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 103",
+      "url": "https://en.wikipedia.org/wiki/Nokia_103"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 103\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 103",
+    "revid": 1371559003
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

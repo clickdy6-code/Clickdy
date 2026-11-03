@@ -1,0 +1,60 @@
+{
+  "slug": "lg-docomo-style-series-l-01c",
+  "brand": "LG",
+  "name": "Docomo STYLE series L-01C",
+  "status": "published",
+  "announced": "2010-12-22",
+  "released": "2010-12-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-12-22",
+      "Series": "docomo STYLE series",
+      "Predecessor": "L-03B"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA / HSDPA), 2G: GSM (EDGE)"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "109 mm H , 50 mm W , 16.5 mm D",
+      "Weight": "128 g"
+    },
+    "Memory": {
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "Main: 2.8 in (71 mm) TFT LCD, 240×400 px, 262,144 colors, Sub: 0.9 in (23 mm) LED Matrix, 128×36 px, 1 color"
+    },
+    "Cameras": {
+      "Rear camera": "5.1 MP CMOS with autofocus and image stabilization"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "main_mp": 5.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "weight_g": 128,
+    "thickness_mm": 16.5,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Docomo STYLE series L-01C",
+      "url": "https://en.wikipedia.org/wiki/Docomo_STYLE_series_L-01C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Docomo STYLE series L-01C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Docomo STYLE series L-01C",
+    "revid": 1380701899
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

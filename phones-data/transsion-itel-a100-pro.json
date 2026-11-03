@@ -1,0 +1,92 @@
+{
+  "slug": "transsion-itel-a100-pro",
+  "brand": "Transsion",
+  "name": "Itel A100 Pro",
+  "status": "published",
+  "announced": "2026-05-20",
+  "released": "2026-05-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-05-20",
+      "Series": "itel \"A\" series"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE",
+      "SIM": "Dual Nano-SIM"
+    },
+    "Body": {
+      "Dimensions": "8.5 mm thickness"
+    },
+    "Platform": {
+      "Operating system": "Android 15 (Go edition), itel OS 15",
+      "Chipset": "Unisoc T7100",
+      "CPU": "Octa-core processor, 1.8 GHz",
+      "GPU": "PowerVR GE8322"
+    },
+    "Memory": {
+      "RAM": "3 GB or 4 GB RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.56 in (167 mm) IPS LCD, 90Hz, 400 nits"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, LED flash, 1080p@30fps",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "10W standard charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (dual-band), Bluetooth 5.0 (A2DP, LE), GPS, Infrared port, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.56,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "peak_nits": 400,
+    "chipset": "Unisoc T7100",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 15",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel A100 Pro",
+      "url": "https://en.wikipedia.org/wiki/Itel_A100_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel A100 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel A100 Pro",
+    "revid": 1363999749
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

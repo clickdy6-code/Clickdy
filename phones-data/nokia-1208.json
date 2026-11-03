@@ -1,0 +1,68 @@
+{
+  "slug": "nokia-1208",
+  "brand": "Nokia",
+  "name": "1208",
+  "status": "published",
+  "announced": "2007-05-02",
+  "released": "2007-05-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Nokia_1208.jpg/500px-Nokia_1208.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Nokia_1208.jpg/250px-Nokia_1208.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 1208",
+      "credit": "Mboehn (Mathias Bøhn Grytemark), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_1208.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2007-05-02",
+      "Discontinued": "Q3 2010",
+      "Predecessor": "Nokia 1600",
+      "Successor": "Nokia 1661"
+    },
+    "Network": {
+      "Technology": "GSM 850, 1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "27.6 mm H , 21.8 mm W",
+      "Weight": "79.9 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30"
+    },
+    "Display": {
+      "Display": "1.4\" TFT LCD, 96x68 pixels (ppi)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, S20 Pin earjack"
+    },
+    "Battery": {
+      "Battery": "700 mAh , User replaceable"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 700,
+    "five_g": false,
+    "weight_g": 79.9,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1208",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1208"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1208\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1208",
+    "revid": 1361477001
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

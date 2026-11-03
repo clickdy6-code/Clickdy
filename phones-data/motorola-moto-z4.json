@@ -1,0 +1,77 @@
+{
+  "slug": "motorola-moto-z4",
+  "brand": "Motorola",
+  "name": "Moto Z4",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-06",
+      "Predecessor": "Moto Z3"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 158 mm, W: 75 mm, D: 7.4 mm",
+      "Weight": "165 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 \"Pie\" , Current: Android 10",
+      "Chipset": "Qualcomm Snapdragon 675",
+      "GPU": "Adreno 612"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "128 GB",
+      "Card slot": "microSD up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.4 in OLED , 2340 × 1080 px (19.5:9 aspect ratio) (403 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, ƒ/1.7aperture, 1/2\", 0.8um, PDAF, OIS, dual LED flash, panorama, HDR, Video capture, Up to 4K(30 fps), 1080p@30/60fps",
+      "Front camera": "25 MP, ƒ/2.0 aperture, 0.9um, screen flash, HDR, Video capture, 1080p (30 fps)"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3600 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 675",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 25,
+    "battery_mah": 3600,
+    "os": "Android 9",
+    "weight_g": 165,
+    "thickness_mm": 7.4,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto Z4",
+      "url": "https://en.wikipedia.org/wiki/Moto_Z4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto Z4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto Z4",
+    "revid": 1381882993
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

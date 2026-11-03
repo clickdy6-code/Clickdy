@@ -1,0 +1,73 @@
+{
+  "slug": "lg-env2",
+  "brand": "LG",
+  "name": "enV2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/LG_enV2_%28VX9100%29.JPG/500px-LG_enV2_%28VX9100%29.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/LG_enV2_%28VX9100%29.JPG/250px-LG_enV2_%28VX9100%29.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG enV2",
+      "credit": "Arbitrarily0, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_enV2_(VX9100).JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "enV (VX9900)",
+      "Successor": "enV3 (VX9200)"
+    },
+    "Network": {
+      "Technology": "CDMA"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "3.75 in x 2.13 in x 0.65 in",
+      "Weight": "4.23 oz"
+    },
+    "Platform": {
+      "Operating system": "BREW",
+      "CPU": "Qualcomm MSM6550 (32-bit ARM, 225Mhz, 1 core)"
+    },
+    "Memory": {
+      "RAM": "63 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "2.4 in. (320 x 240 px) TFT LCD (260K Color)"
+    },
+    "Cameras": {
+      "Rear camera": "2 Megapixel"
+    },
+    "Battery": {
+      "Battery": "950 mAh Li-Pol"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.2 / microUSB"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 950,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG enV2 (VX9100)",
+      "url": "https://en.wikipedia.org/wiki/LG_enV2_%28VX9100%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG enV2 (VX9100)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG enV2 (VX9100)",
+    "revid": 1361475676
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

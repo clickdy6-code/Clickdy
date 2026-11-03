@@ -1,0 +1,67 @@
+{
+  "slug": "nokia-2760",
+  "brand": "Nokia",
+  "name": "2760",
+  "status": "published",
+  "announced": "2007-04-26",
+  "released": "2007-04-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2007-04-26",
+      "Discontinued": "Q4 2011",
+      "Series": "series 2000"
+    },
+    "Network": {
+      "Technology": "wap, html"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "87mm x 45mm x 21mm (when closed)",
+      "Weight": "81g",
+      "Other": "Superb life java apps"
+    },
+    "Platform": {
+      "Operating system": "Series 40 5th Edition LE, Java ME",
+      "CPU": "1core, 1MB, 15mhz"
+    },
+    "Memory": {
+      "RAM": "13MB / 11MB open",
+      "Card slot": "no"
+    },
+    "Display": {
+      "Display": "128x160 pixels, 65 thousand colors"
+    },
+    "Cameras": {
+      "Rear camera": "VGA (640x480) stills, 128x96 8fps video",
+      "Front camera": "no"
+    },
+    "Battery": {
+      "Battery": "Up to 7 hours talk time, up to 14 days standby, BL-4B 600mA/h"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, 2.5mm audio jack, handsfree connector"
+    }
+  },
+  "key": {
+    "nfc": false,
+    "weight_g": 81,
+    "thickness_mm": 21,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2760",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2760"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2760\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2760",
+    "revid": 1374924902
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

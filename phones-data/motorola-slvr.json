@@ -1,0 +1,67 @@
+{
+  "slug": "motorola-slvr",
+  "brand": "Motorola",
+  "name": "Slvr",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Motorola_SLVR_L7_flickr_214905784.jpg/500px-Motorola_SLVR_L7_flickr_214905784.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Motorola_SLVR_L7_flickr_214905784.jpg/250px-Motorola_SLVR_L7_flickr_214905784.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Slvr",
+      "credit": "matalyn, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_SLVR_L7_flickr_214905784.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Q1 2005"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 (quad band), GPRS; CDMA 850/1900, 1xEVDO"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "1.9 x 4.5 x .45 in. / 113 x 49 x 11.5 mm",
+      "Weight": "3.38 oz"
+    },
+    "Memory": {
+      "RAM": "11 MB Internal and External microSD cards expandable up to 1 GB."
+    },
+    "Display": {
+      "Display": "176×220 pixel (1.9\") 262,144 color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "VGA resolution (640x480) still photos or QCIF resolution (176x144) video"
+    },
+    "Connectivity": {
+      "Connectivity": "mini-USB, Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "five_g": false,
+    "nfc": false,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Slvr",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Slvr"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Slvr\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Slvr",
+    "revid": 1361476686
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

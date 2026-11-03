@@ -1,0 +1,91 @@
+{
+  "slug": "lg-optimus-g-pro",
+  "brand": "LG",
+  "name": "Optimus G Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/LG_Optimus_G_Pro_%28Black%29.jpg/500px-LG_Optimus_G_Pro_%28Black%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/LG_Optimus_G_Pro_%28Black%29.jpg/250px-LG_Optimus_G_Pro_%28Black%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus G Pro",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Optimus_G_Pro_(Black).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 2013",
+      "Series": "Optimus, G series",
+      "Successor": "LG G Pro 2"
+    },
+    "Network": {
+      "Technology": "GSM (850 / 900 / 1800 / 1900), HSDPA, LTE, CDMA Korean PCS 1.8 GHz (LG U+ Plus Network)(Global Variant), TD-LTE & TD-SCDMA(China Mobile Variant)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "150.2 mm H, 76.1 mm W, 9.4 mm",
+      "Weight": "172 g (6.07 oz)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.1.2 \"Jelly Bean , Current: Android 4.4.2 \"KitKat\", Android 4.2 Jelly Bean (China Mobile Variant) upgradable to Android 4.4.2 KitKat",
+      "Chipset": "Qualcomm Snapdragon 600, 28nm LP",
+      "CPU": "1.7 GHz quad-core Qualcomm Krait, 2 MB L2 Cache",
+      "GPU": "Qualcomm Adreno 320"
+    },
+    "Memory": {
+      "RAM": "2 GB LP-DDR3 RAM",
+      "Storage": "16 & 32 GB",
+      "Card slot": "microSDXC up to 64 GB"
+    },
+    "Display": {
+      "Display": "5.5 in diagonal , \"True HD\" IPS LCD 1080×1920 pixels, Corning Gorilla Glass 2"
+    },
+    "Cameras": {
+      "Rear camera": "13.0 megapixels Back-illuminated sensor, LED flash, HD video (1080p) at 30 frames/s, Time catch shot, smart shutter and cheese shutter, Simultaneous HD video and image recording, Smile and face detection, Image stabilization",
+      "Front camera": "2.1 MP, HD video recording (1080p)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 3140 mAh (Global Variant), Li-ion 2940 mAh(China Mobile Variant)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm stereo audio jack, Wi-Fi 802.11 a/b/g/n, Wi-Fi Hotspot, DLNA, Bluetooth 4.0 + A2DP, micro-USB 2.0 (5-pin) port with mobile high-definition video link (MHL) for USB or HDMI connection, NFC"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 600",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "front_mp": 2.1,
+    "battery_mah": 3140,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 172,
+    "thickness_mm": 9.4,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus G Pro",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_G_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus G Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus G Pro",
+    "revid": 1378998028
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

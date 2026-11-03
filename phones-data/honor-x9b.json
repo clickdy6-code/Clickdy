@@ -1,0 +1,95 @@
+{
+  "slug": "honor-x9b",
+  "brand": "HONOR",
+  "name": "X9b",
+  "status": "published",
+  "announced": "2023-10-26",
+  "released": "2023-10-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Honor_X9b.jpg/500px-Honor_X9b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Honor_X9b.jpg/250px-Honor_X9b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HONOR X9b",
+      "credit": "Ahmetiliyus, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honor_X9b.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "X9b: October 26, 2023, X50: July 5, 2023",
+      "Series": "HONOR X Series",
+      "Predecessor": "Honor X9a",
+      "Successor": "Honor X9c"
+    },
+    "Network": {
+      "Technology": "5G, 4G LTE, 3G, 2G",
+      "SIM": "dual Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Touchscreen slate",
+      "Dimensions": "Thickness: 7.98 mm",
+      "Weight": "185 g"
+    },
+    "Platform": {
+      "Operating system": "X9b: Android 13 + MagicOS 7.2, X50: Android 13 + MagicOS 7.1",
+      "Chipset": "Qualcomm Snapdragon 6 Gen 1 (4nm)",
+      "CPU": "Octa-core (4x 2.2 GHz Cortex-A78 & 4x 1.8 GHz Cortex-A55)",
+      "GPU": "Adreno 710"
+    },
+    "Memory": {
+      "RAM": "12 GB RAM (expandable up to 20 GB via HONOR RAM Turbo)",
+      "Storage": "256 GB"
+    },
+    "Display": {
+      "Display": "6.78-inch AMOLED Display, 1.5K Retinal Resolution (2652×1200 pixels), 120 Hz refresh rate, 1200 nits peak brightness, 429 PPI"
+    },
+    "Cameras": {
+      "Rear camera": "Triple camera system:, 108 MP Main Camera (f/1.75 aperture, 1/1.67\" sensor size, 3x lossless zoom), 5 MP Ultra Wide Angle Camera, 2 MP Macro Camera",
+      "Front camera": "16 MP (f/2.0 or standard portrait layout)"
+    },
+    "Battery": {
+      "Battery": "5800 mAh (typical), 5700 mAh (rated) Li-Po",
+      "Charging": "35W wired + Reverse"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 1200,
+    "chipset": "Qualcomm Snapdragon 6 Gen 1",
+    "ram_gb": [
+      12,
+      20
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 108,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 5800,
+    "wired_w": 35,
+    "os": "Android 13",
+    "five_g": true,
+    "weight_g": 185,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor X9b",
+      "url": "https://en.wikipedia.org/wiki/Honor_X9b"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor X9b\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor X9b",
+    "revid": 1382330089
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "lg-incite",
+  "brand": "LG",
+  "name": "Incite",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Platform": {
+      "Operating system": "Windows Mobile 6.1 Professional",
+      "CPU": "Qualcomm MSM7201A ARM Processor at 528 MHz"
+    },
+    "Display": {
+      "Display": "240x400 px, 3.0 in, 262K, 18-bit color LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel AF back"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "LCD"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Incite",
+      "url": "https://en.wikipedia.org/wiki/LG_Incite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Incite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Incite",
+    "revid": 1361475054
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

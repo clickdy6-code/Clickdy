@@ -1,0 +1,102 @@
+{
+  "slug": "motorola-edge-50-neo",
+  "brand": "Motorola",
+  "name": "Edge 50 Neo",
+  "status": "published",
+  "announced": "2024-08-29",
+  "released": "2024-08-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Motorola_Edge_50_Neo_Nautical_Blue_Rear_View.png/500px-Motorola_Edge_50_Neo_Nautical_Blue_Rear_View.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Motorola_Edge_50_Neo_Nautical_Blue_Rear_View.png/250px-Motorola_Edge_50_Neo_Nautical_Blue_Rear_View.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Edge 50 Neo",
+      "credit": "AdiDusi, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Edge_50_Neo_Nautical_Blue_Rear_View.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "29 August 2024",
+      "Series": "Motorola Edge 50 series"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G (dual SIM: Nano‑SIM + eSIM or dual Nano‑SIM)",
+      "SIM": "eSIM, NanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "154.1 mm × 71.2 mm × 8.1 mm",
+      "Weight": "171 g",
+      "Other": "On‑screen fingerprint reader; Moto AI features; up to 5 years of OS and security updates"
+    },
+    "Platform": {
+      "Operating system": "Android 14 with Hello UI, Currently Running Android 15 With Hello UI",
+      "Chipset": "MediaTek Dimensity 7300 (4 nm)",
+      "CPU": "Octa‑core (4×2.5 GHz + 4×2.0 GHz)"
+    },
+    "Memory": {
+      "RAM": "8 GB or 12 GB LPDDR4X",
+      "Storage": "256 GB or 512 GB UFS 2.2 (non‑expandable)"
+    },
+    "Display": {
+      "Display": "P‑OLED LTPO, ~6.4 inches, 120 Hz, FHD+ (~1220×2670 px), HDR10+, Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "Triple: 50 MP (wide, f/1.8, OIS & PDAF), 13 MP (ultrawide, f/2.2), 10 MP (telephoto, f/2.0, ~3× optical zoom)",
+      "Front camera": "32 MP (wide, f/2.4, autofocus)"
+    },
+    "Battery": {
+      "Battery": "4310 mAh",
+      "Charging": "68 W TurboPower wired, 15 W wireless charging support"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi‑Fi 802.11 a/b/g/n/ac (tri‑band), Bluetooth 5.3, NFC, USB‑C, GPS (GALILEO, GLONASS, BDS etc.)"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "MediaTek Dimensity 7300",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 4310,
+    "wireless_w": 15,
+    "wired_w": 68,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 171,
+    "thickness_mm": 8.1,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Edge 50 Neo",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Edge_50_Neo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Edge 50 Neo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Edge 50 Neo",
+    "revid": 1361476554
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

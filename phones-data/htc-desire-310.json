@@ -1,0 +1,71 @@
+{
+  "slug": "htc-desire-310",
+  "brand": "HTC",
+  "name": "Desire 310",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 2014",
+      "Predecessor": "HTC Desire 300",
+      "Successor": "HTC Desire 320"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2 \"Jelly Bean\"",
+      "Chipset": "MediaTek",
+      "CPU": "1.3 GHz"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "4 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "4.5\" 854x480"
+    },
+    "Cameras": {
+      "Rear camera": "5.0MP",
+      "Front camera": "300kP"
+    },
+    "Battery": {
+      "Battery": "2000mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "chipset": "MediaTek",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 2000,
+    "os": "Android 4.2",
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire 310",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_310"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire 310\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire 310",
+    "revid": 1371790250
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "micromax-in-1b",
+  "brand": "Micromax",
+  "name": "IN 1B",
+  "status": "published",
+  "announced": "2020-11-03",
+  "released": "2020-11-03",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Announced :3 November 2020 , Released: 24 November 2020",
+      "Series": "IN Series",
+      "Successor": "Micromax IN 2B"
+    },
+    "Network": {
+      "Technology": "2G Network :- GSM B2/3/5/8, 3G Network:- WCDMA B1/5/8, 4G Network:- LTE B1/3/5/8/40/41(120 MHz), Carrier Aggregation:- DL Intra-Band CA NCCA:B1/3/5/40, CCA:B3/5/40."
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.5 H , 75.8 W , 8.9 T",
+      "Weight": "188 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10 (Go Edition) in 2GB/32GB, Android 10 in 4GB/64GB",
+      "Chipset": "MediaTek Helio G35",
+      "CPU": "Octa-core, 8x ARM Cortex A53 @ 2.3GHz",
+      "GPU": "PowerVR GE8320 @ 680MHz"
+    },
+    "Memory": {
+      "RAM": "2GB or 4GB LPDDR4X",
+      "Storage": "32 GB or 64 GB"
+    },
+    "Display": {
+      "Display": "6.52 HD + IPS LCD (720x1600)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, (f/1.9), 26mm (wide), PDAF, 2 MP, (f/2.4), (depth)",
+      "Front camera": "8 MP, (f/2.0)"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh, non-removable",
+      "Charging": "Charging 10W , Reverse charging"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek Helio G35",
+    "ram_gb": [
+      2,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "five_g": false,
+    "weight_g": 188,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Micromax IN 1B",
+      "url": "https://en.wikipedia.org/wiki/Micromax_IN_1B"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Micromax IN 1B\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Micromax IN 1B",
+    "revid": 1369281595
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

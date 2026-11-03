@@ -1,0 +1,67 @@
+{
+  "slug": "compaq-c-series",
+  "brand": "Compaq",
+  "name": "C series",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Compaq_2000C_with_dock.jpg/500px-Compaq_2000C_with_dock.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Compaq_2000C_with_dock.jpg/250px-Compaq_2000C_with_dock.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Compaq C series",
+      "credit": "Initramfs, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Compaq_2000C_with_dock.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 1998",
+      "Series": "Handheld PC",
+      "Predecessor": "Compaq Aero",
+      "Successor": "iPAQ"
+    },
+    "Body": {
+      "Dimensions": "3.4 x 18.6 x 10 cm (810c), 4.1 x 18.6 x 10 cm (2010c)",
+      "Weight": "395g(810c), 430g(2010c)"
+    },
+    "Platform": {
+      "Operating system": "Windows CE",
+      "CPU": "75 MHz RISC MIPS processor"
+    },
+    "Memory": {
+      "RAM": "16 MB ROM, 8 MB RAM (810c), 20 MB RAM (2010c)",
+      "Card slot": "PC Card"
+    },
+    "Display": {
+      "Display": "640 x 240 STN, 256 colours"
+    },
+    "Battery": {
+      "Battery": "2 NiMH batteries"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA, 33.6 kbps Modem"
+    }
+  },
+  "key": {
+    "nfc": false,
+    "weight_g": 395,
+    "year": 1998
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Compaq C series",
+      "url": "https://en.wikipedia.org/wiki/Compaq_C_series"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Compaq C series\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Compaq C series",
+    "revid": 1361472857
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

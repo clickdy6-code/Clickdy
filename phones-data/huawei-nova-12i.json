@@ -1,0 +1,94 @@
+{
+  "slug": "huawei-nova-12i",
+  "brand": "Huawei",
+  "name": "Nova 12i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E5%8D%8E%E4%B8%BA%E7%95%85%E4%BA%AB70_Pro.jpg/500px-%E5%8D%8E%E4%B8%BA%E7%95%85%E4%BA%AB70_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/%E5%8D%8E%E4%B8%BA%E7%95%85%E4%BA%AB70_Pro.jpg/250px-%E5%8D%8E%E4%B8%BA%E7%95%85%E4%BA%AB70_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Nova 12i",
+      "credit": "メイド理世, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8D%8E%E4%B8%BA%E7%95%85%E4%BA%AB70_Pro.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Nova 12i: , Nova 13i: , Enjoy 70 Pro: , Hi Enjoy 70 Pro 5G:",
+      "Series": "Huawei Nova/Enjoy, Wiko Hi Enjoy",
+      "Predecessor": "Huawei Nova 11i, Huawei Enjoy 60 Pro, Wiko Hi Enjoy 60 Pro 5G",
+      "Successor": "Huawei Nova 14i, Huawei Enjoy 90 Pro Max, Wiko Hi Enjoy 80 Pro"
+    },
+    "Network": {
+      "Technology": "Nova 12i/13i/Enjoy 70 Pro: GSM, 3G, 4G (LTE), Hi Enjoy 70 Pro 5G: GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 163.3 mm, W: 74.7 mm, D: 8.4 mm",
+      "Weight": "199 g"
+    },
+    "Platform": {
+      "Operating system": "Nova 12i:Initial: Android (operating system), Android Android 12, 12 (without Google Mobile Services) + EMUI 14, Current: Android 12 (without Google Mobile Services) + EMUI 14.2Nova 13i: Android 12 (without Google Mobile Services) + EMUI 14.2, Enjoy 70 Pro:Initial: HarmonyOS 4.0, Current: HarmonyOS 4.2Hi Enjoy 70 Pro 5G: HarmonyOS Connect",
+      "Chipset": "Nova 12i/13i/Enjoy 70 Pro: Qualcomm SM6225 Snapdragon 680 4G (6 nm), Hi Enjoy 70 Pro 5G: MediaTek Dimensity 700 (7 nm)"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR4X",
+      "Storage": "128/256 GB UFS 2.2"
+    },
+    "Display": {
+      "Display": "IPS LCD, 90 Hz, 6.7\", 2388 × 1080 (FHD+), 19.8:9 aspect ratio, 391 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "108 MP, 26 mm (wide), PDAF + 2 MP, (depth), LED flash, panorama, HDR, Video: 1080p@30fps",
+      "Front camera": "8 MP, (wide), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "40 W fast charging (Huawei SuperCharge Turbo 2.0)"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "Nova 12i/13i/Enjoy 70 Pro: Qualcomm SM6225 Snapdragon 680 4G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 108,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 40,
+    "os": "Android 12",
+    "five_g": true,
+    "dual_sim": true,
+    "weight_g": 199,
+    "thickness_mm": 8.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova 12i",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_12i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova 12i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova 12i",
+    "revid": 1370950320
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "nokia-207",
+  "brand": "Nokia",
+  "name": "207",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM (850, 900, 1800, 1900), HSDPA (900, 2100)"
+    },
+    "Body": {
+      "Dimensions": "114.2 x",
+      "Weight": "91.3 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 40"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Storage": "256 MB",
+      "Card slot": "microSDHC, up to 32 GB (dedicated slot)"
+    },
+    "Display": {
+      "Display": "2.4 in (61 mm) TFT LCD, 256K colors , Resolution: 240 x 320 pixels, 4:3 ratio (~167 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "No",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1020 mAh battery (BL-5C)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0, A2DP, Micro-USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 91.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 207",
+      "url": "https://en.wikipedia.org/wiki/Nokia_207"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 207\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 207",
+    "revid": 1364129947
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

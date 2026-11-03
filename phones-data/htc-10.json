@@ -1,0 +1,84 @@
+{
+  "slug": "htc-10",
+  "brand": "HTC",
+  "name": "10",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/HTC_10.svg/500px-HTC_10.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/HTC_10.svg/250px-HTC_10.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC 10",
+      "credit": "Rafael Fernandez, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_10.svg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "HTC One M9",
+      "Successor": "HTC U Ultra, HTC U11"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, EVDO, HSPA+, LTE, LTE Advanced"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145.9 mm H , 71.9 mm W , 9 mm D",
+      "Weight": "161 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 \"Marshmallow\" (release), Android 7.0 \"Nougat\", Android 8.0 \"Oreo\" (current), Android 12 (unofficial) via LineageOS 19.1",
+      "Chipset": "Qualcomm Snapdragon 820",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM",
+      "Storage": "32 or 64 GB",
+      "Card slot": "microSD up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.2 in Super LCD 5 with RGB matrix, 2560 x 1440 pixels (564 ppi), Corning Gorilla Glass 4"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor R IMX377 12.3 megapixels (4032×3024 px), Laser autofocus, dual-LED dual tone flash, f/1.8 aperture, 26 mm lens, optical image stabilization",
+      "Front camera": "5 MP, f/1.8 aperture, optical image stabilization"
+    },
+    "Battery": {
+      "Battery": "3.8 V, 11.5 Wh (3,000 mAh) Li-Ion, non-replaceable"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon 820",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 6.0",
+    "five_g": false,
+    "weight_g": 161,
+    "thickness_mm": 9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC 10",
+      "url": "https://en.wikipedia.org/wiki/HTC_10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC 10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC 10",
+    "revid": 1382772010
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

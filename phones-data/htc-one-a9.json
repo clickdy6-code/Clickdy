@@ -1,0 +1,88 @@
+{
+  "slug": "htc-one-a9",
+  "brand": "HTC",
+  "name": "One A9",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/HTC_One_A9.jpg/500px-HTC_One_A9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/HTC_One_A9.jpg/250px-HTC_One_A9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC One A9",
+      "credit": "Sham Hardy, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_One_A9.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC One",
+      "Predecessor": "HTC One Mini 2"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145.75 mm H , 70.8 mm W , 7.26 mm D",
+      "Weight": "143 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0 \"Marshmallow\", Current: Android 7.0 \"Nougat\", Unofficial: Android 12 via LineageOS",
+      "Chipset": "Qualcomm Snapdragon 617",
+      "CPU": "Octa-core ARM 64-bit 1.5 GHz",
+      "GPU": "Adreno 405 OpenGL ES 3.1"
+    },
+    "Memory": {
+      "RAM": "2 GB or 3 GB LPDDR4 RAM",
+      "Storage": "16 GB or 32 GB",
+      "Card slot": "microSD up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.0 in Super AMOLED , 1920 x 1080 pixels (16:9 Aspect ratio) (440 ppi) , 2.5D Corning Gorilla Glass 4.0"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP with autofocus, dual-LED dual tone flash, ƒ/2.0 aperture, optical image stabilization, BSI , 1080p video recording",
+      "Front camera": "4 MP, UltraPixel fixed-focus camera, ƒ/2.0 aperture , 1080p video recording"
+    },
+    "Battery": {
+      "Battery": "2150 mAh Li-Po"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 617",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 4,
+    "battery_mah": 2150,
+    "os": "Android 6.0",
+    "weight_g": 143,
+    "thickness_mm": 7.26
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC One A9",
+      "url": "https://en.wikipedia.org/wiki/HTC_One_A9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC One A9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC One A9",
+    "revid": 1382771986
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

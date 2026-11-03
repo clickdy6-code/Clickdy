@@ -1,0 +1,63 @@
+{
+  "slug": "nokia-2310",
+  "brand": "Nokia",
+  "name": "2310",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Nokia_2310_front.jpg/500px-Nokia_2310_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Nokia_2310_front.jpg/250px-Nokia_2310_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 2310",
+      "credit": "Tomhannen, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2310_front.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Nokia 1208"
+    },
+    "Network": {
+      "Technology": "Dual band, GSM 900/1800"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "105 x 44 x 19 mm",
+      "Weight": "85 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30"
+    },
+    "Memory": {
+      "RAM": "4 MB",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "96 x 68 65,536 colours"
+    },
+    "Cameras": {
+      "Rear camera": "No"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "weight_g": 85
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2310",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2310"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2310\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2310",
+    "revid": 1361477137
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

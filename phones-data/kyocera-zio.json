@@ -1,0 +1,67 @@
+{
+  "slug": "kyocera-zio",
+  "brand": "Kyocera",
+  "name": "Zio",
+  "status": "published",
+  "announced": "2010-03-23",
+  "released": "2010-03-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States 2010-03-23 (Cricket)"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "116 mm H, 58.6 mm W, 12.2 mm D",
+      "Weight": "105 g"
+    },
+    "Platform": {
+      "Operating system": "Android 1.6 at release, 2.2 on Cricket, 2.2 on Sprint, Sprint ID",
+      "CPU": "600 MHz Qualcomm MSM7227 CPU ARM11 processor"
+    },
+    "Memory": {
+      "RAM": "256 MB",
+      "Storage": "Flash memory: 512 MB, microSD slot: supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "800 × 480 px, 3.5 in, WVGA, 262,140 color LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel with auto focus and 30 fps video"
+    },
+    "Battery": {
+      "Battery": "3.7 V 1130 mAh, Internal rechargeable removable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g), Bluetooth 2.0+EDR, MicroUSB, A-GPS, 1x EV-DO Rev.A"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "LCD",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1130,
+    "os": "Android 1.6",
+    "nfc": false,
+    "weight_g": 105,
+    "thickness_mm": 12.2,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera Zio",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_Zio"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera Zio\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera Zio",
+    "revid": 1361474823
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "acer-cloudmobile-s500",
+  "brand": "Acer",
+  "name": "CloudMobile S500",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2012",
+      "Series": "S"
+    },
+    "Network": {
+      "Technology": "GSM 850 MHz/900 MHz/1800 MHz/1900 MHz , HSDPA 43.2 Mbit/s 900 MHz / 1900 MHz / 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "127 mm H, 65,8 mm W, 9.9 mm D",
+      "Weight": "125 g (battery included)",
+      "Other": "Dolby Mobile sound enhancement, Android Beam, AcerCloud"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.4 (Ice Cream Sandwich)",
+      "Chipset": "Qualcomm MSM8260A S4",
+      "CPU": "Krait Dual-core 1.5 GHz",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "8 GB",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "IPS LCD 4.3\", ~342 ppi, 720×1280 pixels, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel auto focus with LED flash",
+      "Front camera": "0.9-megapixel HD"
+    },
+    "Battery": {
+      "Battery": "1460 mAh, Internal Rechargeable Li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm jack , Bluetooth v4.0 with A2DP, Mono FM Radio with RDS , micro USB 2.0 802.11 (b/g/n)"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8260A S4",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 1460,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 125,
+    "thickness_mm": 9.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer CloudMobile S500",
+      "url": "https://en.wikipedia.org/wiki/Acer_CloudMobile_S500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer CloudMobile S500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer CloudMobile S500",
+    "revid": 1363087111
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

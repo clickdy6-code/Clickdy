@@ -1,0 +1,68 @@
+{
+  "slug": "lg-ultra-tab",
+  "brand": "LG",
+  "name": "Ultra Tab",
+  "status": "published",
+  "announced": "2022-08-05",
+  "released": "2022-08-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022: 2022-08-05, 2024: 2024-09"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Weight": "458 g (1.01 lb)"
+    },
+    "Platform": {
+      "Operating system": "2022: Android 12, 2024: Android 14",
+      "Chipset": "2022: Qualcomm SM6225 Snapdragon 680 4G (6 nm), 2024: MediaTek Helio G99 MT8781",
+      "CPU": "2022: Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver), 2024: Cortex-A76 MP2 2.2 GHz + ARM Cortex-A55 MP6 2.0 GHz",
+      "GPU": "2022: Adreno 610, 2024: Mali-G57"
+    },
+    "Memory": {
+      "RAM": "microSDXC (dedicated slot)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, AF",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "2022: Li-Ion 7040 mAh, 2024: Li-Ion 6000 mAh",
+      "Charging": "16W wired, QC3"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 5, Bluetooth 5.1"
+    }
+  },
+  "key": {
+    "chipset": "2022: Qualcomm SM6225 Snapdragon 680 4G",
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 7040,
+    "wired_w": 16,
+    "os": "Android 12",
+    "nfc": false,
+    "wifi": "Wi-Fi 5",
+    "weight_g": 458,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Ultra Tab",
+      "url": "https://en.wikipedia.org/wiki/LG_Ultra_Tab"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Ultra Tab\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Ultra Tab",
+    "revid": 1373342317
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

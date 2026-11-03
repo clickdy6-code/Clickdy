@@ -1,0 +1,95 @@
+{
+  "slug": "huawei-honor-9",
+  "brand": "Huawei",
+  "name": "Honor 9",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Huawei_Honor_9.jpg/500px-Huawei_Honor_9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Huawei_Honor_9.jpg/250px-Huawei_Honor_9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 9",
+      "credit": "Huawei, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Honor_9.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-06",
+      "Series": "Honor N",
+      "Predecessor": "Honor 8",
+      "Successor": "Honor 10"
+    },
+    "Body": {
+      "Form factor": "Smartphone+ hard Phone",
+      "Dimensions": "147.3 mm H , 70.9 mm W , 7.5 mm D",
+      "Weight": "155 g",
+      "Other": "Hall sensor, infrared sensor, fingerprint sensor, proximity sensor, ambient light sensor, magnetometer, digital compass, gravity sensor, gyroscope, status indicator"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.0 \"Nougat\", Current: Android 9 \"Pie\"",
+      "Chipset": "HiSilicon Kirin 960",
+      "CPU": "Octa-core (4x2.4 GHz + 4x1.8 GHz)",
+      "GPU": "Mali-G71"
+    },
+    "Memory": {
+      "RAM": "4 or 6 GB RAM",
+      "Storage": "64 or 128 GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.15 in FHD (1,920 × 1,080 resolution)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual (20 MP + 12 MP), laser autofocus, 4K video, LED flash",
+      "Front camera": "8 MP, f/2.0"
+    },
+    "Battery": {
+      "Battery": "3,200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Hybrid Dual SIM (nano + nano/microSD), LTE Cat.6, Wi-Fi a/b/g/n/ac (2,4/5 GHz), Bluetooth 4.2, GPS, NFC, USB 2.0 Type-C"
+    }
+  },
+  "key": {
+    "display_in": 5.15,
+    "chipset": "HiSilicon Kirin 960",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 20,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 8,
+    "battery_mah": 3200,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 155,
+    "thickness_mm": 7.5,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 9",
+      "url": "https://en.wikipedia.org/wiki/Honor_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 9",
+    "revid": 1361473632
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

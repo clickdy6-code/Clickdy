@@ -1,0 +1,93 @@
+{
+  "slug": "foxconn-nokia-1",
+  "brand": "Foxconn",
+  "name": "Nokia 1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Nokia_1.png/500px-Nokia_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Nokia_1.png/250px-Nokia_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 1",
+      "credit": "Dienthoaiquangcao63, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_1.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia Asha 230",
+      "Successor": "Nokia 1 Plus"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "133.6 x 67.78 x 9.5mm",
+      "Weight": "131g (including battery)",
+      "Other": "Dust and drip protection (IP52)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\", Current: Android 10, (Android Go)",
+      "Chipset": "MediaTek MT6737M",
+      "CPU": "Quad-core 1.1 GHz ARM Cortex-A53",
+      "GPU": "Mali-T720"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR3 RAM",
+      "Storage": "8 GB eMMC",
+      "Card slot": "microSD up to 128GB"
+    },
+    "Display": {
+      "Display": "4.5 in , 854x480 px FWVGA IPS, 16:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP with auto-focus and an LED flash",
+      "Front camera": "2 MP with fixed-focus lens"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "User-removable, 2150 mAh, Standby: up to 15 days, Talk time: up to 9 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth® 4.2, GPS/AGPS + cellular and Wi-Fi positioning"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS",
+    "chipset": "MediaTek MT6737M",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 2150,
+    "os": "Android 8.1",
+    "nfc": false,
+    "ip": "IP52",
+    "weight_g": 131
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1",
+    "revid": 1361476877
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

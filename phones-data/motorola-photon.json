@@ -1,0 +1,93 @@
+{
+  "slug": "motorola-photon",
+  "brand": "Motorola",
+  "name": "Photon",
+  "status": "published",
+  "announced": "2011-07-31",
+  "released": "2011-07-31",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Motorola_Photon_4G_%28250%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Motorola_Photon_4G_%28250%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Motorola Photon",
+      "credit": "Vanstrien, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Photon_4G_(250).jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "US: July 31, 2011",
+      "Successor": "Motorola Photon Q"
+    },
+    "Network": {
+      "Technology": "WiMAX 2.5 GHz, CDMA 800/1900 MHz (EV-DO Rev. A), GSM 850/900/1800/1900 MHz, UMTS/WCDMA 850/1900/2100 MHz (HSPA+ at 14.4 Mbit/s)"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "126.9 mm H, 66.9 mm W, 12.2 mm D",
+      "Weight": "158 g",
+      "Other": "Android WebKit with Adobe Flash Player, Mozilla Firefox 4.0.1 in Motorola Webtop mode, eCompass, aGPS with Google Maps, Google Street View, Google Latitude, Android Market"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.5 Gingerbread",
+      "CPU": "NVIDIA Tegra 2 dual-core 1 GHz, (Cortex-A9 dual-core)",
+      "GPU": "GeForce ULP"
+    },
+    "Memory": {
+      "RAM": "1 GB LP DDR2 RAM",
+      "Storage": "16 GB on board, supports up to 32 GB microSDHC, total 48 GB"
+    },
+    "Display": {
+      "Display": "4.3-inch 960×540 px qHD TFT LCD at 275 ppi, 16 M colors, Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP AF, digital zoom with LED Flash , Capture – 720p MPEG4 and H.264 at 30 frame/s (full 1080p may be supported via software upgrade post-launch)",
+      "Front camera": "VGA imager for video chat, self image capture"
+    },
+    "Battery": {
+      "Battery": "1700 mAh, Talk time, WCDMA = 9.1 hrs, GSM = 10.4 hrs, Standby time, WCDMA = 13.1 days, GSM = 12.2 days"
+    },
+    "Connectivity": {
+      "Connectivity": "audio jack 3.5 mm, Micro USB 2.0 HS, corporate sync, BOTA, Wi-Fi 2.4 GHz, 5 GHz 802.11 b/g/n, Bluetooth 2.1 EDR, Micro-HDMI"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16,
+      32,
+      48
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1700,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 158,
+    "thickness_mm": 12.2,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Photon",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Photon"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Photon\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Photon",
+    "revid": 1374882951
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

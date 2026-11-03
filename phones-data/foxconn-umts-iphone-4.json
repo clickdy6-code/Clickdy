@@ -1,0 +1,92 @@
+{
+  "slug": "foxconn-umts-iphone-4",
+  "brand": "Foxconn (UMTS",
+  "name": "IPhone 4",
+  "status": "published",
+  "announced": "2010-06-24",
+  "released": "2010-06-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/IPhone_4_Mock_No_Shadow_PSD.png/500px-IPhone_4_Mock_No_Shadow_PSD.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/IPhone_4_Mock_No_Shadow_PSD.png/250px-IPhone_4_Mock_No_Shadow_PSD.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn (UMTS IPhone 4",
+      "credit": "Justin14, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_4_Mock_No_Shadow_PSD.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "GSM model (black): 2010-06-24 , CDMA model (black): 2011-02-10 , GSM and CDMA models (white): 2011-04-28 , 8 GB models: 2011-10-04",
+      "Series": "4th",
+      "Predecessor": "iPhone 3GS",
+      "Successor": "iPhone 4s"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115.2 mm H, 58.6 mm W, 9.3 mm D",
+      "Weight": "137 g"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 4.0 (GSM model), iOS 5.0 (8 GB model), iOS 4.2.10 (CDMA model), Last: iOS 7.1.2, released 2014-06-30",
+      "Chipset": "Apple A4",
+      "CPU": "1 GHz (Underclocked to 800 MHz) single core 32-bit ARM Cortex-A8",
+      "GPU": "PowerVR SGX535"
+    },
+    "Memory": {
+      "RAM": "512 MB LPDDR DRAM",
+      "Storage": "8, 16, or 32 GB flash memory"
+    },
+    "Display": {
+      "Display": "3.5 in diagonal 3:2 aspect ratio widescreen , LED backlit IPS TFT LCD, 960×640 resolution at 326 ppi (0.61 megapixels), 800:1 contrast ratio (typical) , 500 cd/m2 max brightness (typical) , Fingerprint-resistant oleophobic coating on front and back glass"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP back-side illuminated sensor , HD video (720p) at 30 frame/s , 1.75 μm size pixels , 5× digital zoom , 4 element lens , LED flash , Photo and video geotagging",
+      "Front camera": "0.3 MP VGA (480p) at 30 fps, Tap to focus video or still images , Photo and video geotagging"
+    },
+    "Sound": {
+      "Sound": "Single loudspeaker , 3.5 mm TRRS, frequency response: 20 Hz to 20 kHz"
+    },
+    "Battery": {
+      "Battery": "3.7 V, 5.3 W⋅h (1420 mA⋅h) Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g/n) (2.4 Bluetooth 2.1 + EDR, GSM model: quad-band GSM/GPRS/EDGE , (800, 850, 900, 1800, 1900 MHz), Quad-band UMTS/HSDPA/HSUPA , (800, 850, 900, 1900, 2100 MHz) (800 MHz is not yet officially supported by Apple), CDMA model: dual-band CDMA/EV-DO Rev. A (800, 1900 MHz)"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "IPS",
+    "chipset": "Apple A4",
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 0.3,
+    "os": "iOS 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 137,
+    "thickness_mm": 9.3,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 4",
+      "url": "https://en.wikipedia.org/wiki/IPhone_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone 4",
+    "revid": 1383234932
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "motorola-zine-zn5",
+  "brand": "Motorola",
+  "name": "Zine ZN5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/7613_ZINE_oblique_lit_%2825718431460%29.jpg/500px-7613_ZINE_oblique_lit_%2825718431460%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/7613_ZINE_oblique_lit_%2825718431460%29.jpg/250px-7613_ZINE_oblique_lit_%2825718431460%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Zine ZN5",
+      "credit": "mliu92 from San Mateo, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:7613_ZINE_oblique_lit_(25718431460).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM quad band (850/900/1800/1900) with GPRS, EDGE"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "118 mm × 50.5 mm × 12-16 mm",
+      "Weight": "114 g"
+    },
+    "Memory": {
+      "RAM": "392 MB internal memory, 120 MB ROM",
+      "Card slot": "microSD cards (officially up to 4 GB, supports HC)"
+    },
+    "Display": {
+      "Display": "Screen manufacturer: Sharp Corporation(Japan); Type: Transflective TFT; Colors: 262K; Display Color Depth: 18bit/pixel (262144 scales); Size: 240 x 320 pixels(2.4 inches); Dot Pitch: 166.6 pixel/inch"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel, 4x zoom, AF, Xenon Flash"
+    },
+    "Battery": {
+      "Battery": "Li-ion 950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB#Mini.2C_Micro 2.0, 3.5 mm headphone jack, Bluetooth Class 2, Wi-Fi 802.11 b/g/i"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 950,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 114,
+    "thickness_mm": 16
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Zine ZN5",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Zine_ZN5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Zine ZN5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Zine ZN5",
+    "revid": 1379488682
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "nokia-106",
+  "brand": "Nokia",
+  "name": "106",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia 3-digit series",
+      "Successor": "Nokia 106 (2018) , Nokia 106 (2023)"
+    },
+    "Network": {
+      "Technology": "GSM (900/1800 MHz), GSM (850/1900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Feature phone",
+      "Dimensions": "H: 112.9 mm, W: 47.5 mm, D: 14.9 mm",
+      "Weight": "74.2 g",
+      "Other": "Flashlight"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 30"
+    },
+    "Display": {
+      "Display": "1.8 in 128 x 160 (~114 ppi pixel density) QVGA TFT with 65K colors"
+    },
+    "Battery": {
+      "Battery": "800 mAh Li-ion, removable (Nokia BL-5CB)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, FM radio, Proprietary charger"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 74.2,
+    "thickness_mm": 14.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 106",
+      "url": "https://en.wikipedia.org/wiki/Nokia_106"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 106\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 106",
+    "revid": 1361476948
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

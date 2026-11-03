@@ -1,0 +1,64 @@
+{
+  "slug": "blackberry-torch-9800",
+  "brand": "BlackBerry",
+  "name": "Torch 9800",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/BlackBerry_Torch.jpg/500px-BlackBerry_Torch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/BlackBerry_Torch.jpg/250px-BlackBerry_Torch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BlackBerry Torch 9800",
+      "credit": "edans / Enrique Dans, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Torch.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "Quad band GSM/GPRS/EDGE networks: 850/900/1800/1900MHz , Tri band 3G UMTS networks: 2100/1900/850/800 MHz"
+    },
+    "Body": {
+      "Form factor": "Slider smartphone",
+      "Dimensions": "4.37x2.44x0.57 in (111x62x14.6 mm)",
+      "Weight": "5.68 oz (161.1 g)"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry OS 6",
+      "CPU": "624 MHz Marvell Tavor PXA940 (ARM Cortex A8) compliant"
+    },
+    "Memory": {
+      "RAM": "512MB RAM, 4GB storage, microSD slot"
+    },
+    "Display": {
+      "Display": "360x480 px (0.17 megapixels) 3.2 inch"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel with scene options and auto-focus"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "ram_gb": [
+      4
+    ],
+    "five_g": false,
+    "weight_g": 161.1
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Torch 9800",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Torch_9800"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Torch 9800\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Torch 9800",
+    "revid": 1368985826
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "kyocera-basio-kyv32",
+  "brand": "Kyocera",
+  "name": "BASIO KYV32",
+  "status": "published",
+  "announced": "2015-02-13",
+  "released": "2015-02-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-02-13, (Red color variant: 2016-01-29)",
+      "Series": "Kantan Keitai",
+      "Predecessor": "Kantan Keitai K012 (KY012)",
+      "Successor": "Kantan Keitai KYF32, BASIO2 SHV36"
+    },
+    "Network": {
+      "Technology": "3.9G: FDD-LTE (au VoLTE) (N800 MHz/2 GHz), 3G: W-CDMA (850 MHz/2 GHz), 2G: GSM (1.9 GHz/1.8 GHz/900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Bar (Waterproof, dustproof, and shockproof)",
+      "Dimensions": "142 mm H , 70 mm W , 10.4 mm D",
+      "Weight": "152 g",
+      "Other": "1. LTE supports carrier aggregation, 2. Charging desktop stand (cradle) included as an accessory, 3. SAR value: 0.770 W/kg (head), 0.674 W/kg (body)"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.4",
+      "CPU": "2.3 GHz quad-core Qualcomm Snapdragon 801 (MSM8974AB)"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB ROM",
+      "Card slot": "microSDHC (up to 32 GB), microSDXC (up to 128 GB) (officially supported by KDDI), *Use of microSD cards 2 GB or lower, or Class 2 or lower transfer rate cards is not recommended."
+    },
+    "Display": {
+      "Display": "5.0-inch TFT LCD, FHD (1920 × 1080 pixels), approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 13 megapixels, CMOS image sensor with face detection autofocus",
+      "Front camera": "Approx. 970,000 pixels, CMOS image sensor (Exmor R for mobile)"
+    },
+    "Battery": {
+      "Battery": "3,000 mAh (non-removable)",
+      "Charging": "Approx. 120 minutes"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 3000,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 152,
+    "thickness_mm": 10.4,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BASIO KYV32",
+      "url": "https://en.wikipedia.org/wiki/BASIO_KYV32"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BASIO KYV32\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BASIO KYV32",
+    "revid": 1363625993
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

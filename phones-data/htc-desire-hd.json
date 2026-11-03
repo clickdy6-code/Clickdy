@@ -1,0 +1,80 @@
+{
+  "slug": "htc-desire-hd",
+  "brand": "HTC",
+  "name": "Desire HD",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/HTC_Desire_HD.jpg/500px-HTC_Desire_HD.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/HTC_Desire_HD.jpg/250px-HTC_Desire_HD.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Desire HD",
+      "credit": "Pucky2012, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Desire_HD.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "HTC Desire",
+      "Successor": "HTC Sensation"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "123 mm L, 68 mm W, 11.8 mm D",
+      "Weight": "164 g",
+      "Other": "FM tuner, Compass, A-GPS, DLNA support, micro-USB, 3.5 mm audio jack, and Wi-Fi tethering"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 \"Froyo\" with HTC Sense, Upgradeable to 2.3.5 \"Gingerbread\" with HTC Sense 3.0. Newer versions of Android are available through third-party ROMs.",
+      "CPU": "1 GHz Qualcomm 8255 Snapdragon",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "1.5 GB ROM",
+      "Card slot": "up to 32 GB with microSD"
+    },
+    "Display": {
+      "Display": "4.3 in 480x800 TFT S-LCD Multi-touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel autofocus with dual LED flash and 720p HD video recording."
+    },
+    "Battery": {
+      "Battery": "Li-ion 1230 mAh 3.7VDC 4.55Whr"
+    },
+    "Connectivity": {
+      "Connectivity": "2G: 850/900/1800/1900 MHz, 3G: 900/2100 MHz, HSDPA: 14.4 Mbps, HSUPA: 5.76 Mbps, Wi-Fi: 802.11b/g/n, Bluetooth: v2.1 with Enhanced Data Rate"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "TFT",
+    "storage_gb": [
+      5
+    ],
+    "battery_mah": 1230,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 164,
+    "thickness_mm": 11.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire HD",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_HD"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire HD\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire HD",
+    "revid": 1361473233
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "htc-7-surround",
+  "brand": "HTC",
+  "name": "7 Surround",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/HTC_Surround_%285334383134%29.jpg/500px-HTC_Surround_%285334383134%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/HTC_Surround_%285334383134%29.jpg/250px-HTC_Surround_%285334383134%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC 7 Surround",
+      "credit": "ETC@USC, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Surround_(5334383134).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "AT&T Mobility Telus Communications"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "119.7 mm (h), 61.5 mm (w), 12.97 mm (d)",
+      "Weight": "165 g (5.82 oz)",
+      "Other": "Wi-Fi, Kickstand, Slide out speakers, FM-Radio, GPS"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7",
+      "CPU": "Qualcomm QSD8250 1GHz Scorpion (Snapdragon)"
+    },
+    "Memory": {
+      "RAM": "448 MB RAM",
+      "Storage": "512 MB ROM",
+      "Card slot": "16 GB microSD"
+    },
+    "Display": {
+      "Display": "3.8-inch (diagonal) widescreen, 480-by-800 WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel autofocus with flash, rear-facing"
+    },
+    "Battery": {
+      "Battery": "1230 mAh Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Quad-band UMTS 2100/1900/850 + GSM GPRS EDGE 850/900/1800/1900"
+    }
+  },
+  "key": {
+    "battery_mah": 1230,
+    "os": "Windows Phone 7",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 165,
+    "thickness_mm": 12.97
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC 7 Surround",
+      "url": "https://en.wikipedia.org/wiki/HTC_7_Surround"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC 7 Surround\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC 7 Surround",
+    "revid": 1361473130
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

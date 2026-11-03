@@ -1,0 +1,93 @@
+{
+  "slug": "fujitsu-arrows-x-f-02e",
+  "brand": "Fujitsu",
+  "name": "Arrows X F-02E",
+  "status": "published",
+  "announced": "2013-02-22",
+  "released": "2013-02-22",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/ARROWS-X-F-02E-Black.JPG/500px-ARROWS-X-F-02E-Black.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/ARROWS-X-F-02E-Black.JPG/250px-ARROWS-X-F-02E-Black.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Fujitsu Arrows X F-02E",
+      "credit": "Mr.W, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ARROWS-X-F-02E-Black.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-02-22",
+      "Series": "docomo NEXT series"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA), 2G: GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "140 mm H , 69 mm W , 10.3 mm D",
+      "Weight": "157 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2",
+      "Chipset": "NVIDIA Tegra 3 AP37",
+      "CPU": "1.7 GHz quad-core"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "5.0 in (130 mm) TFT LCD, 1920 × 1080 pixels (FHD), 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "16.3 MP back-illuminated CMOS (Exmor R for mobile)",
+      "Front camera": "1.3 MP CMOS"
+    },
+    "Battery": {
+      "Battery": "2420 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "3.9G: Xi, 3G: FOMA (HSDPA / HSUPA), 2G: GSM, Wi-Fi (IEEE 802.11a/b/g/n), Bluetooth 4.0, Infrared (IrSimple), FeliCa / NFC (Payment unsupported), microUSB (Host and MHL combined), 3.5 mm headset jack, Desktop holder power terminal"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "TFT",
+    "chipset": "NVIDIA Tegra 3 AP37",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 16.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 1.3,
+    "battery_mah": 2420,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 157,
+    "thickness_mm": 10.3,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Fujitsu Arrows X F-02E",
+      "url": "https://en.wikipedia.org/wiki/Fujitsu_Arrows_X_F-02E"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Fujitsu Arrows X F-02E\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Fujitsu Arrows X F-02E",
+    "revid": 1379544485
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "huawei-honor-20",
+  "brand": "Huawei",
+  "name": "Honor 20",
+  "status": "published",
+  "announced": "2019-05-21",
+  "released": "2019-05-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/ed/HONOR_20_PRO.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ed/HONOR_20_PRO.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Huawei Honor 20",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HONOR_20_PRO.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-05-21 (London, United Kingdom)",
+      "Series": "HONOR series",
+      "Predecessor": "Honor 10",
+      "Successor": "Honor 30"
+    },
+    "Body": {
+      "Form factor": "Smartphone+ hard Phone",
+      "Weight": "Honor 20: 173 g , Honor 20 PRO: 182 g",
+      "Other": "Fast battery charging 22.5W, A fingerprint sensor integrated into the power button"
+    },
+    "Platform": {
+      "Operating system": "Android Pie 9.0",
+      "Chipset": "HiSilicon Kirin 980",
+      "CPU": "Octa-core (2x2.6 GHz Cortex-A76 & 2x1.92 GHz Cortex-A76 & 4x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G76 720MHz and MP10"
+    },
+    "Memory": {
+      "RAM": "6 or 8 GB RAM",
+      "Storage": "128 or 256 GB"
+    },
+    "Display": {
+      "Display": "6.26 in FHD+ (2,310 × 1,080 resolution)"
+    },
+    "Cameras": {
+      "Rear camera": "Quad (48 MP + 16 MP + 2 MP + 2 MP) with Dual-LED and AF",
+      "Front camera": "32 million pixels, f/2.0 aperture"
+    },
+    "Sound": {
+      "Sound": "USB-C"
+    },
+    "Battery": {
+      "Battery": "3,750 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C, Wifi 802.11 b/g/n/a/ac, Bluetooth5.0"
+    }
+  },
+  "key": {
+    "display_in": 6.26,
+    "chipset": "HiSilicon Kirin 980",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 3750,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 173,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 20",
+      "url": "https://en.wikipedia.org/wiki/Honor_20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 20",
+    "revid": 1361473587
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

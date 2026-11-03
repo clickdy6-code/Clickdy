@@ -1,0 +1,100 @@
+{
+  "slug": "iphone-5c",
+  "brand": "IPhone",
+  "name": "5c",
+  "status": "published",
+  "announced": "2013-09-20",
+  "released": "2013-09-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/IPhone_5C_%28blue%29.svg/500px-IPhone_5C_%28blue%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/IPhone_5C_%28blue%29.svg/250px-IPhone_5C_%28blue%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 5c",
+      "credit": "Rafael Fernandez, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_5C_(blue).svg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-09-20",
+      "Discontinued": "16 and 32 GB: 2014-09-09, 8 GB: 2015-09-09 (except India), 2016-02-17 (India)",
+      "Predecessor": "iPhone 5",
+      "Successor": "iPhone SE (1st generation)"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, EVDO, HSPA+, EDGE, LTE",
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "124.4 mm H, 59.2 mm W, 8.97 mm D",
+      "Weight": "132 g"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 7.0, Last: iOS 10.3.3, released July 19, 2017",
+      "Chipset": "Apple A6"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR2-1066 RAM",
+      "Storage": "8, 16 and 32 GB"
+    },
+    "Display": {
+      "Display": "4 inch , (16:9 aspect ratio), multi-touch display, LED backlit IPS TFT LCD, 640×1136 pixels at 326 ppi, 800:1 contrast ratio (typical), 500 cd/m2 max. brightness (typical), Fingerprint-resistant oleophobic coating on front"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor R IMX145 , 8 MP back-side illuminated sensor, HD video (1080p) at 30 frame/s, IR filter, Aperture f/2.4, 5 element lens, face detection (stills only), Image stabilization",
+      "Front camera": "1.2 MP, HD video (720p)"
+    },
+    "Sound": {
+      "Sound": "Single loudspeaker, 3.5 mm TRRS, 20 Hz to 20 kHz frequency response (internal, headset), 3.5 mm audio jack"
+    },
+    "Battery": {
+      "Battery": "5.73 Whr (1510 mAh) Lithium-ion battery",
+      "Charging": "5W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth 5, Lightning connector"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "IPS",
+    "chipset": "Apple A6",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.2,
+    "battery_mah": 1510,
+    "wired_w": 5,
+    "os": "iOS 7.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 132,
+    "thickness_mm": 8.97,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 5c",
+      "url": "https://en.wikipedia.org/wiki/IPhone_5c"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 5c\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone 5c",
+    "revid": 1376756483
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

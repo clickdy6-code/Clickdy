@@ -1,0 +1,95 @@
+{
+  "slug": "meizu-mx",
+  "brand": "Meizu",
+  "name": "MX",
+  "status": "published",
+  "announced": "2012-02-01",
+  "released": "2012-02-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Meizu_MX.svg/500px-Meizu_MX.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Meizu_MX.svg/250px-Meizu_MX.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Meizu MX",
+      "credit": "NeriDavide, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meizu_MX.svg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "China & Hong Kong only, 2012-02-01, (First Dual-core model), 2012-06-30, (Quad-core model), 2012-07-14, (New Dual-core model)",
+      "Predecessor": "Meizu M9",
+      "Successor": "Meizu MX2"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE: 850, 900, 1800, 1900 MHz Class 12, 3G UMTS/HSPA+/W-CDMA: 850, 900, 1700, 1900, 2100 MHz, HSDPA: 21.6 Mbps, HSUPA: 5.76 Mbps"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "121.3 mm H, 63.3 mm W, 10.3 mm D",
+      "Weight": "139 g",
+      "Other": "microSIM only (adapter provided), Gorilla Glass display panel, active noise cancellation, no FM radio"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS, based on Android 2.3.5 Gingerbread upgradable to Android 4.1.2 Jellybean",
+      "Chipset": "Exynos 4 Dual 45 nm, (First dual core model), Exynos 4 Quad 32 nm, (Quad core model), Exynos 4 Dual 32 nm, (new dual core model) or ARM Logic11 in Dual 32 nm, (Texas Instruments in 4.1.2 jellybean mode)",
+      "CPU": "1.4 GHz ARM Cortex-A9 or 1.2 GHz ARM Cortex-A9 + 400 MHz Logic11",
+      "GPU": "ARM Mali-400 MP (Quad-Core) or PowerVR SGX 540"
+    },
+    "Memory": {
+      "RAM": "1 GB DDR SDRAM",
+      "Storage": "16 GB flash memory (Dual-core models), 32 or 64 GB flash memory (Quad-core model)",
+      "Card slot": "Not supported"
+    },
+    "Display": {
+      "Display": "4.0 inch diagonal ASV, 640x960 px (288 ppi), 16M colours"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 MP, autofocus, LED flash, HD video recording",
+      "Front camera": "VGA resolution"
+    },
+    "Battery": {
+      "Battery": "1600 mAh Li-Ion rechargeable battery, not replaceable, (First dual core model), 1700 mAh Li-Ion rechargeable battery, not replaceable, (New dual core model and Quad-core model) or 1800 mAh Rechargeable but not replaceable battery"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 2.1 with A2DP and EDR, WiFi/WAPI (802.11 b/g/n), microUSB On-The-Go with MHL"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "chipset": "Exynos 4 Dual 45 nm",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16,
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1600,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 139,
+    "thickness_mm": 10.3,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu MX",
+      "url": "https://en.wikipedia.org/wiki/Meizu_MX"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu MX\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu MX",
+    "revid": 1374882813
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

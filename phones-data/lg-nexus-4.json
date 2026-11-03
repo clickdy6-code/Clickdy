@@ -1,0 +1,97 @@
+{
+  "slug": "lg-nexus-4",
+  "brand": "LG",
+  "name": "Nexus 4",
+  "status": "published",
+  "announced": "2012-11-13",
+  "released": "2012-11-13",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nexus_4.png/500px-Nexus_4.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nexus_4.png/250px-Nexus_4.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Nexus 4",
+      "credit": "developer.android.com, CC BY 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nexus_4.png",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-11-13",
+      "Discontinued": "2013-11-01",
+      "Series": "Google Nexus",
+      "Predecessor": "Galaxy Nexus",
+      "Successor": "Nexus 5"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE/GPRS (850, 900, 1800, 1900 MHz), 3G UMTS/HSPA+/DC-HSPA+ (850, 900, 1700, 1900, 2100 MHz), HSDPA 42 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "133.9 mm H, 68.7 mm W, 9.1 mm D",
+      "Weight": "139 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2 \"Jelly Bean\", Last: Android 5.1.1 \"Lollipop\"",
+      "Chipset": "Qualcomm Snapdragon S4 Pro APQ8064",
+      "CPU": "1.5 GHz quad-core Krait",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "RAM": "2 GB of LPDDR2 RAM, clocked at 533 MHz",
+      "Storage": "8 GB or 16 GB"
+    },
+    "Display": {
+      "Display": "4.7 in diagonal TrueHD IPS with Corning Gorilla Glass 2, px (318 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP back-side illuminated sensor with LED flash, 1080p video recording @ 30 fps",
+      "Front camera": "1.3 MP, 720p video recording @ 30 fps"
+    },
+    "Battery": {
+      "Battery": "2100 ampere hour, mAh, Li-Po, non-removable, Qi (standard), Qi-compatible"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS, GPS, GLONASS, Micro USB 2.0, Mobility DisplayPort (MyDP), Bluetooth 4.0 with A2DP, NFC, Wi-Fi 802.11 a/b/g/n (2.4/5 GHz), Miracast"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon S4 Pro APQ8064",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      8,
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.3,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 139,
+    "thickness_mm": 9.1,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nexus 4",
+      "url": "https://en.wikipedia.org/wiki/Nexus_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nexus 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nexus 4",
+    "revid": 1366837997
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

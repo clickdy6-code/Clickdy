@@ -1,0 +1,87 @@
+{
+  "slug": "lenovo-k6-power",
+  "brand": "Lenovo",
+  "name": "K6 Power",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-09 (In India)",
+      "Series": "K series"
+    },
+    "Network": {
+      "Technology": "2G (GSM/GPRS/EDGE): 850, 900, 1,800 and 1,900 MHz; , 3G (HSDPA HSUPA) 850, 900, 1,900 and 2,100 MHz; , 4G (LTE): B3(TD1800), B5(FD850), B40(TD2300)"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "141.9 mm (5.59 in) H, 70.3 mm (2.77 in) W, 9.3 mm (0.37 in) D",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Android Marshmallow 6.0 upgradable to Android Nougat 7.0",
+      "Chipset": "Qualcomm Snapdragon 430",
+      "CPU": "1.4 GHz Octa-Core ARM Cortex-A53",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "3 / 4 GB",
+      "Storage": "32 GB microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0\" 1080×1920 (441 Pixels per inch), IPS display"
+    },
+    "Cameras": {
+      "Rear camera": "Sony IMX258 13 MP PDAF Camera with LED Flash",
+      "Front camera": "Sony IMX219 8.0 MP Camera"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers and Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "4000 mAh Li-Po, non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN: Wi-Fi 802.11 b/g/n, Wi-Fi hotspot, Bluetooth®: 4.2 A2DP, LE, Radio: FM Receiver"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 430",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32,
+      256
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 145,
+    "thickness_mm": 9.3,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Lenovo K6 Power",
+      "url": "https://en.wikipedia.org/wiki/Lenovo_K6_Power"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Lenovo K6 Power\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Lenovo K6 Power",
+    "revid": 1361475723
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

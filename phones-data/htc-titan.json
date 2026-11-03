@@ -1,0 +1,82 @@
+{
+  "slug": "htc-titan",
+  "brand": "HTC",
+  "name": "Titan",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/HTC_Titan.jpeg/500px-HTC_Titan.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/HTC_Titan.jpeg/250px-HTC_Titan.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Titan",
+      "credit": "Havarhen, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Titan.jpeg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "HTC Titan II"
+    },
+    "Body": {
+      "Dimensions": "131.5 mm (h), 70.7 mm (w), 9.9 mm (d)",
+      "Weight": "160 grams",
+      "Other": "SRS surround sound, HTC Watch"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7.5",
+      "CPU": "1.5 GHz Scorpion SoC processor; Qualcomm Snapdragon S2 MSM8255T",
+      "GPU": "Adreno 205; 41 MPolygon/s, 245 Mpixel/s fill rate"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "16 GB flash memory"
+    },
+    "Display": {
+      "Display": "4.7 in. 480 × 800 px WVGA; S-LCD capacitive touchscreen 198 PPI, 16.7 million colors (24 bits)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP with F2.2 lens, autofocus, dual LED flash, back side illumination, CMOS sensor, HD video recording up to 720p resolution",
+      "Front camera": "1.3 MP for video calls"
+    },
+    "Battery": {
+      "Battery": "Rechargeable / Removable 1600mAh Li-ion battery (up to 460 hrs standby, 6.7 hrs talk time)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + EDR, Wi-Fi (802.11 b/g/n), DLNA, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "LCD",
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 1.3,
+    "battery_mah": 1600,
+    "os": "Windows Phone 7.5",
+    "nfc": false,
+    "thickness_mm": 9.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Titan",
+      "url": "https://en.wikipedia.org/wiki/HTC_Titan"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Titan\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Titan",
+    "revid": 1361473471
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

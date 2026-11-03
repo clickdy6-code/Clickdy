@@ -1,0 +1,70 @@
+{
+  "slug": "nokia-225",
+  "brand": "Nokia",
+  "name": "225",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-05",
+      "Discontinued": "Yes"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800, GSM 850 / 1900",
+      "SIM": "Mini-SIM (Single SIM) or Dual SIM (Mini-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "124 mm H , 55.5 mm W , 10.4 mm D",
+      "Weight": "99.8 g (3.53 oz) (Single SIM) / 100.6 g (3.56 oz) (Dual SIM)"
+    },
+    "Platform": {
+      "Operating system": "Nokia OS (Series 30+)"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "2.8 in (71 mm) TFT LCD, 256K colors, 240 x 320 pixels, 4:3 ratio (~143 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, 1/5.0\"",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1200 mAh (BL-4UL)",
+      "Charging": "microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 99.8,
+    "thickness_mm": 10.4,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 225",
+      "url": "https://en.wikipedia.org/wiki/Nokia_225"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 225\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 225",
+    "revid": 1376520365
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

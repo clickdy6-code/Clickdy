@@ -1,0 +1,109 @@
+{
+  "slug": "meizu-20-infinity",
+  "brand": "Meizu",
+  "name": "20 Infinity",
+  "status": "published",
+  "announced": "2023-06-12",
+  "released": "2023-06-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Meizu_20_INFINITY_back.jpg/500px-Meizu_20_INFINITY_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Meizu_20_INFINITY_back.jpg/250px-Meizu_20_INFINITY_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Meizu 20 Infinity",
+      "credit": "X-SHLIED, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Meizu_20_INFINITY_back.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-06-12",
+      "Series": "Meizu 20 Series",
+      "Successor": "Meizu 21 Pro"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Nano-SIM + Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.4 x",
+      "Weight": "215 g",
+      "Other": "Under-display optical fingerprint, accelerometer, gyro, proximity sensor, compass, barometer"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with Flyme 10",
+      "Chipset": "Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)",
+      "CPU": "Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "GPU": "Adreno 740"
+    },
+    "Memory": {
+      "RAM": "12 GB or 16 GB RAM",
+      "Storage": "256 GB, 512 GB, or 1 TB UFS 4.0"
+    },
+    "Display": {
+      "Display": "6.79 in LTPO OLED, 1B colors, 1368 × 3192 px @ 120 Hz, 600 nits (typ), 1800 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, 1.8, 23 mm (wide), PDAF, OIS, 12 MP, 2.0, 50 mm (telephoto), PDAF, OIS, optical zoom, 12 MP, 2.2, 13 mm (ultrawide), 122°, Rear: 8K, 4K, 1080p; gyro-Image_stabilization#Digital_image_stabilization, EIS",
+      "Front camera": "32 MP, 2.4 (wide) , Front: HDR, video recording supported"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4800 mAh Li-Po",
+      "Charging": "65W wired, 50W wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 (802.11a/b/g/n/ac/6e/7), Bluetooth 5.3 (A2DP, LE), NFC, USB Type-C, GPS (L1+L5), GLONASS, BDS, Galileo, Ultra Wideband"
+    }
+  },
+  "key": {
+    "display_in": 6.79,
+    "display_type": "LTPO OLED",
+    "refresh_hz": 120,
+    "peak_nits": 1800,
+    "chipset": "Qualcomm SM8550-AB Snapdragon 8 Gen 2",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K",
+    "front_mp": 32,
+    "battery_mah": 4800,
+    "wireless_w": 50,
+    "wired_w": 65,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "weight_g": 215,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu 20 Infinity",
+      "url": "https://en.wikipedia.org/wiki/Meizu_20_Infinity"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu 20 Infinity\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu 20 Infinity",
+    "revid": 1365408763
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

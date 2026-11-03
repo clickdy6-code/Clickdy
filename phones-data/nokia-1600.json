@@ -1,0 +1,77 @@
+{
+  "slug": "nokia-1600",
+  "brand": "Nokia",
+  "name": "1600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Nokia1600.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Nokia1600.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 1600",
+      "credit": "Nokia1600_01.jpg: Remigiusz Józefowicz\nderivative work: TheAdam0s (talk), CC BY-SA 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia1600.png",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 2005",
+      "Discontinued": "Q1 2009",
+      "Successor": "Nokia 1208, Nokia 1650"
+    },
+    "Network": {
+      "Technology": "GSM-900/GSM-1800 or , GSM-850/GSM-1900"
+    },
+    "Body": {
+      "Form factor": "candybar",
+      "Dimensions": "104 × 45 × 17 mm, (4.09 × 1.77 × 0.67 in)",
+      "Weight": "85g",
+      "Other": "Mini-SIM, Xpress-on covers, reminders, calculator"
+    },
+    "Platform": {
+      "Operating system": "Series 30 (2005–2013)",
+      "Chipset": "DCT4 platform, UPP2M (ARM7TDMI)"
+    },
+    "Memory": {
+      "RAM": "4MB, 200 phonebook entries"
+    },
+    "Display": {
+      "Display": "96×68 pixel CSTN LCD, 65,536 colors"
+    },
+    "Sound": {
+      "Sound": "20-voice polyphonic ringtones, ringtone composer., Speaking clock and alarm."
+    },
+    "Battery": {
+      "Battery": "Removable 3.7 V 970 mAh Li-Ion BL-5C, Standby: 450 hours, Talk time: 5 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "Picture messaging"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "chipset": "DCT4 platform",
+    "battery_mah": 970,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 85,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1600",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1600",
+    "revid": 1361477029
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

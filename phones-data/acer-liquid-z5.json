@@ -1,0 +1,68 @@
+{
+  "slug": "acer-liquid-z5",
+  "brand": "Acer",
+  "name": "Liquid Z5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-02",
+      "Series": "Acer Liquid"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2 Jelly Bean"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "Up to 64 GB (microSD)"
+    },
+    "Display": {
+      "Display": "5.00 in diagonal LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP with LED flash"
+    },
+    "Battery": {
+      "Battery": "2000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WiFi 802.11b/g/n, Bluetooth 3.0, GPS"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "LCD",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 2000,
+    "os": "Android 4.2",
+    "nfc": false,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer Liquid Z5",
+      "url": "https://en.wikipedia.org/wiki/Acer_Liquid_Z5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer Liquid Z5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer Liquid Z5",
+    "revid": 1383065818
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "neptune-pine",
+  "brand": "Neptune",
+  "name": "Pine",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/PinebyNeptune.jpg/500px-PinebyNeptune.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/PinebyNeptune.jpg/250px-PinebyNeptune.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Neptune Pine",
+      "credit": "Ffinder, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PinebyNeptune.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850, 900, 1800, 1900, UMTS/HSPA+/WCDMA 850, 1700, 1900, 2100"
+    },
+    "Body": {
+      "Form factor": "Standalone smartwatch",
+      "Dimensions": "66.0 x 53.5 x 14.2 mm",
+      "Weight": "60.8 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1 Jelly Bean",
+      "CPU": "Qualcomm Snapdragon S4 Play MSM8225 (1.2GHz Dual- Core ARM Cortex-A5)"
+    },
+    "Memory": {
+      "RAM": "512MB RAM",
+      "Card slot": "internal, non removable 16 or 32GB mass storage"
+    },
+    "Display": {
+      "Display": "2.4\" inch, TFT"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP rear-facing camera, VGA front-facing camera, LED flash (Front & Rear)"
+    },
+    "Battery": {
+      "Battery": "810 mAh lithium-ion battery Charging via USB to computer system or power adapter"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 4.0 (voice, stereo), USB 2.0, Micro-SIM"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 810,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 60.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Neptune Pine",
+      "url": "https://en.wikipedia.org/wiki/Neptune_Pine"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Neptune Pine\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Neptune Pine",
+    "revid": 1361476793
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "lenovo-moto-e20",
+  "brand": "Lenovo",
+  "name": "Moto E20",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Moto_e40_mrz_2022.jpg/500px-Moto_e40_mrz_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Moto_e40_mrz_2022.jpg/250px-Moto_e40_mrz_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Lenovo Moto E20",
+      "credit": "EEIM, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Moto_e40_mrz_2022.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "E20: , E40: , E30:",
+      "Series": "Moto E",
+      "Predecessor": "Moto E7",
+      "Successor": "Moto E12"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "E20: 164.8 × 75.5 × 8.5 mm, E30/E40: 165.1 × 75.6 × 9.1 mm",
+      "Weight": "E20: 184 g, E30 & E40: 198 g",
+      "Other": "Fingerprint scanner (rear-mounted), Proximity sensor, accelerometer, water-repellent coating"
+    },
+    "Platform": {
+      "Operating system": "E20/E30: Android 11 (Go Edition), E40: Android 11",
+      "Chipset": "E20: Unisoc T606 (12 nm), E30/E40: Unisoc T700 (12 nm)",
+      "CPU": "E20: Octa-core (2×1.6 GHz Cortex-A75 & 6×1.6 GHz Cortex-A55), E30/E40: Octa-core (2×1.82 GHz Cortex-A75 & 6×1.82 GHz Cortex-A55)",
+      "GPU": "E20: Mali-G57 MP1, E30/E40: Mali-G52"
+    },
+    "Memory": {
+      "RAM": "E20: 2/3 GB, E30: 2 GB, E40: 4 GB, LPDDR4X",
+      "Storage": "E20 & E30: 32 GB, E40: 64 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "All models: IPS LCD, 6.5\", 1600 × 720 (HD+), 20:9 aspect ratio, 270 ppi, E20: 60 Hz, E30 & E40: 90 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "E20: 13 MP, 26 mm (wide), PDAF + 2 MP, (macro), E30: 48 MP, 26 mm, (wide), 1/2.0\", 0.8 µm, PDAF + 2 MP, (macro) + 2 MP, (depth sensor), E40: 48 MP, 26 mm, (wide), PDAF + 2 MP, (macro) + 2 MP, (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "E20: 5 MP, E30/E40: 8 MP, 26 mm (wide), 1/4\", 1.12 µm, HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "All models: Non-removable, Li-Po, E20: 4000 mAh, E30 & E40: 5000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm Audio jack, Bluetooth 5.0 (A2DP, LE), FM radio, Wi-Fi 802.11 a (E30)/b/g/n (except E30) (hotspot), GPS, A-GPS, GLONASS (except E20), Galileo (except E20)"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "E20: Unisoc T606",
+    "ram_gb": [
+      2,
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 184
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto E20",
+      "url": "https://en.wikipedia.org/wiki/Moto_E20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto E20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto E20",
+    "revid": 1367349637
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

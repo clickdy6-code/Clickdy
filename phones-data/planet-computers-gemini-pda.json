@@ -1,0 +1,97 @@
+{
+  "slug": "planet-computers-gemini-pda",
+  "brand": "Planet Computers",
+  "name": "Gemini PDA",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Planet_Computers_Gemini_PDA_4G_%2843215707721%29.png/500px-Planet_Computers_Gemini_PDA_4G_%2843215707721%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Planet_Computers_Gemini_PDA_4G_%2843215707721%29.png/250px-Planet_Computers_Gemini_PDA_4G_%2843215707721%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Planet Computers Gemini PDA",
+      "credit": "Gareth Halfacree from Bradford, UK, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Planet_Computers_Gemini_PDA_4G_(43215707721).png",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018",
+      "Predecessor": "Psion Series 5, Psion Series 7",
+      "Successor": "Cosmo Communicator, Astro Slide 5G Transformer"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE (telecommunication), EDGE 850/900/1800/1900, CDMA 850/1900 MHz BC0 BC1+ Evolution-Data Optimized, EVDO, WCDMA 900/2100 MHz, LTE (telecommunication), LTE 1/2/3/4/5/7/12/17/20/41"
+    },
+    "Body": {
+      "Form factor": "Wide clamshell design, with physical keyboard",
+      "Dimensions": "15.1 mm H, 171.4 mm W, 79.3 mm D",
+      "Weight": "320 g"
+    },
+    "Platform": {
+      "Operating system": "Android (operating system), Android Android Nougat, 7.1 \"Nougat\", Debian Linux, Sailfish OS",
+      "Chipset": "Mediatek MT6797X Helio X27",
+      "CPU": "10×ARM Cortex-A: 2×A72 @2.6GHz, 4×A53 @2.0GHz, 4×A53 @1.6GHz",
+      "GPU": "Quad Core ARM Mali (GPU) T880 MP4 @875MHz"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR3 RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "5.99 in 2160×1080, 403 dpi"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (optional)",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3.5mm TRS connector, stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "4,220 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "2×USB-C USB On-The-Go, OTG, Bluetooth v4.1, Wi-Fi 802.11a/b/g/n/ac"
+    }
+  },
+  "key": {
+    "display_in": 5.99,
+    "chipset": "Mediatek MT6797X Helio X27",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4220,
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 320,
+    "thickness_mm": 79.3,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Gemini PDA",
+      "url": "https://en.wikipedia.org/wiki/Gemini_PDA"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Gemini PDA\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Gemini PDA",
+    "revid": 1363923205
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

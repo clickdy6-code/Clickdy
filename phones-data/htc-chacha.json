@@ -1,0 +1,65 @@
+{
+  "slug": "htc-chacha",
+  "brand": "HTC",
+  "name": "ChaCha",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2011",
+      "Successor": "HTC First"
+    },
+    "Network": {
+      "Technology": "AT&T"
+    },
+    "Body": {
+      "Dimensions": "114.4 mm x 64.6 mm x 10.7 mm",
+      "Weight": "124 grams (4.37 ounces) with battery"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3 Gingerbread",
+      "CPU": "800MHz Qualcomm Snapdragon MSM7227 processor (ARMv6)"
+    },
+    "Memory": {
+      "RAM": "512 MB of RAM",
+      "Storage": "microSD support"
+    },
+    "Display": {
+      "Display": "66 mm (2.6\") Touchscreen 480x320 px"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel camera"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1250 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "HSDPA/HSUPA, Wi-Fi(IEEE 802.11b/g/n)"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "battery_mah": 1250,
+    "os": "Android 2.3",
+    "nfc": false,
+    "thickness_mm": 10.7,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC ChaCha",
+      "url": "https://en.wikipedia.org/wiki/HTC_ChaCha"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC ChaCha\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC ChaCha",
+    "revid": 1361473155
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

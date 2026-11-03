@@ -1,0 +1,66 @@
+{
+  "slug": "lg-viewty-smart",
+  "brand": "LG",
+  "name": "Viewty Smart",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Viewty_Smart_%28LG-GC900%29.jpg/500px-Viewty_Smart_%28LG-GC900%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Viewty_Smart_%28LG-GC900%29.jpg/250px-Viewty_Smart_%28LG-GC900%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Viewty Smart",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Viewty_Smart_(LG-GC900).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "HSDPA, GSM, GPRS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "56.1 x 108.9 x 12.4 (W x L x D)",
+      "Weight": "102 grams"
+    },
+    "Memory": {
+      "RAM": "1.5 GB",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "TFT, touchscreen, 3\", 480x800 (WVGA)"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 megapixel, video 30 frame/s or slow-motion video 120 frame/s, Strobe Flash",
+      "Front camera": "VGA Video call (Front)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, USB 2.0, Wi-Fi"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "ram_gb": [
+      5
+    ],
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Viewty Smart (GC900)",
+      "url": "https://en.wikipedia.org/wiki/LG_Viewty_Smart_%28GC900%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Viewty Smart (GC900)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Viewty Smart (GC900)",
+    "revid": 1361475622
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

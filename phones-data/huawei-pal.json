@@ -1,0 +1,64 @@
+{
+  "slug": "huawei-pal",
+  "brand": "Huawei",
+  "name": "Pal",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2013 (MetroPCS)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "111 mm H, 47 mm W, 14 mm D",
+      "Weight": "75 g"
+    },
+    "Platform": {
+      "CPU": "230 MHz single-core"
+    },
+    "Memory": {
+      "RAM": "128 MB ROM",
+      "Storage": "0.06 GB"
+    },
+    "Display": {
+      "Display": "1.8-inch TFT LCD"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, earpiece"
+    },
+    "Battery": {
+      "Battery": "800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB, GPS/A-GPS"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "storage_gb": [
+      6
+    ],
+    "battery_mah": 800,
+    "nfc": false,
+    "weight_g": 75,
+    "thickness_mm": 14,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Pal",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Pal"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Pal\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Pal",
+    "revid": 1367452521
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

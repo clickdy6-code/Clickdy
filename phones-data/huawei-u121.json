@@ -1,0 +1,57 @@
+{
+  "slug": "huawei-u121",
+  "brand": "Huawei",
+  "name": "U121",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GPRS/GSM Tri-band 900/1800/1900, UMTS 2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "103mm (L) × 45mm (W) × 14.5mm (H)",
+      "Weight": "≤ 90g (with battery)"
+    },
+    "Memory": {
+      "RAM": "8 MB Internal and External microSD cards expandable up to 2 GB"
+    },
+    "Display": {
+      "Display": "1.8\" TFT LCD, 262k colours"
+    },
+    "Battery": {
+      "Battery": "800 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "mini-USB, Bluetooth Class 1.2 A2DP, GPRS"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 90,
+    "thickness_mm": 14.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei U121",
+      "url": "https://en.wikipedia.org/wiki/Huawei_U121"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei U121\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei U121",
+    "revid": 1361474077
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

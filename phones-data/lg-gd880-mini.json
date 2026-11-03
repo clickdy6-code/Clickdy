@@ -1,0 +1,64 @@
+{
+  "slug": "lg-gd880-mini",
+  "brand": "LG",
+  "name": "GD880 Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "LG KM900 (Arena)"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, UMTS 900/1200, GPRS, EDGE, HSDPA 7.2 Mbit/s, HSUPA 2 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "102 x 47.6 x 10.6 mm",
+      "Weight": "99 g"
+    },
+    "Platform": {
+      "Operating system": "Proprietary"
+    },
+    "Memory": {
+      "RAM": "330 MB Internal Flash",
+      "Card slot": "microSD (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3.2\", 854 x 480 pixel capacitive MultiTouch touchscreen, 256K TFT, Corning Gorilla Glass protection"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel CMOS"
+    },
+    "Battery": {
+      "Battery": "Li-ion, 1000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth 2.1, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG GD880 Mini",
+      "url": "https://en.wikipedia.org/wiki/LG_GD880_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG GD880 Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG GD880 Mini",
+    "revid": 1361475023
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "huawei-y8s",
+  "brand": "Huawei",
+  "name": "Y8s",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Y"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.4 x 77.1 x 8.1 mm",
+      "Weight": "180 g",
+      "Other": "Fingerprint scanner (rear-mounted), proximity sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Android 9 Pie + EMUI 9.1",
+      "Chipset": "Kirin 710 (12 nm)",
+      "CPU": "Octa-core (4×2.2 GHz Cortex-A73 & 4×1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4",
+      "Storage": "64/128 GB eMMC 5.1",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 2340 x 1080 (FullHD+), 19.5:9, 396 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.8, 26 mm (wide), 1/2.0\", 0.8μm, PDAF + 2 MP, f/2.4, (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0 (wide) + 2 MP, f/2.4, (depth sensor), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5 mm Audio, Bluetooth 4.2 (A2DP, LE), FM radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "chipset": "Kirin 710",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 180
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y8s",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y8s"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y8s\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y8s",
+    "revid": 1361474221
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

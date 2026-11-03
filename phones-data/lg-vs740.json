@@ -1,0 +1,74 @@
+{
+  "slug": "lg-vs740",
+  "brand": "LG",
+  "name": "VS740",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/LGAlly.JPG/500px-LGAlly.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/LGAlly.JPG/250px-LGAlly.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG VS740",
+      "credit": "Indiemon, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LGAlly.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-04 (United States)",
+      "Discontinued": "July 2011 Verizon Wireless version"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "4.56\" x 2.22\" x 0.62\" (116mm x 56mm x 16mm)",
+      "Weight": "5.57 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 as of 20 January 2011, unofficially updatable to 2.3.4 Gingerbread",
+      "CPU": "600 MHz Qualcomm MSM7627"
+    },
+    "Memory": {
+      "RAM": "256 MiB RAM, 512 MiB ROM",
+      "Storage": "4 GB microSD card, pre-installed"
+    },
+    "Display": {
+      "Display": "480 x 800 px Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-megapixel with video, LED flash and autofocus"
+    },
+    "Battery": {
+      "Battery": "Removable 1,500 mAh battery, charged via Micro-USB (type B)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g/n), Bluetooth 2.1+EDR, Micro-USB (B), A-GPS (gpsOne), 800/1900 MHz CDMA, EVDO Rev A"
+    }
+  },
+  "key": {
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1500,
+    "os": "Android 2.2",
+    "nfc": false,
+    "thickness_mm": 16,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG VS740",
+      "url": "https://en.wikipedia.org/wiki/LG_VS740"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG VS740\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG VS740",
+    "revid": 1361475561
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

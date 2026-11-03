@@ -1,0 +1,75 @@
+{
+  "slug": "innos-dialog-k45",
+  "brand": "innos",
+  "name": "Dialog K45",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Dialog K series",
+      "Predecessor": "Dialog K35"
+    },
+    "Network": {
+      "Technology": "2G (850/900/1800/1900 MHz), 3G (WCDMA 2100 MHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "131.1mm x 66.9mm x 9mm",
+      "Other": "Wi-Fi hotspot"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.4 Ice Cream Sandwich",
+      "CPU": "1.2GHz Dual-core ARM Cortex-A5"
+    },
+    "Memory": {
+      "RAM": "768 MB LPDDR1 SD-RAM",
+      "Storage": "4 GB",
+      "Card slot": "up to 32 GB micro SD"
+    },
+    "Display": {
+      "Display": "4.5 inch, IPS QHD Capacitive display, 540x960 pixels, 16.7M colors"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixles, Autofocus, dual-LED flash, Geo-tagging, touch focus, face detection",
+      "Front camera": "2 megapixels"
+    },
+    "Sound": {
+      "Sound": "MP3/AAC/WMA/WAV"
+    },
+    "Battery": {
+      "Battery": "1800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wifi 802.11 b/g/n, Bluetooth with A2DP, micro USB"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1800,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Dialog K45",
+      "url": "https://en.wikipedia.org/wiki/Dialog_K45"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Dialog K45\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Dialog K45",
+    "revid": 1361472876
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

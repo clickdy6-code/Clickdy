@@ -1,0 +1,64 @@
+{
+  "slug": "lg-cosmos-3",
+  "brand": "LG",
+  "name": "Cosmos 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-05",
+      "Series": "LG Cosmos",
+      "Predecessor": "LG Cosmos 2"
+    },
+    "Network": {
+      "Technology": "CDMA 1.9 GHz PCS, 800 MHz Digital Dual-Band"
+    },
+    "Body": {
+      "Form factor": "Slider with 4-line QWERTY keyboard",
+      "Dimensions": "4.41 in (H) x 2.06 in (W) x 0.63 in (D)",
+      "Weight": "4.58 oz",
+      "Other": "S-GPS, BREW, 1xRTT Data, Facebook updates"
+    },
+    "Memory": {
+      "Storage": "Expandable via microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.0-inch TFT LCD, 262K colors, 320 x 240 pixels (200 PPI)"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixels (1280 x 960 max resolution), 2x digital zoom"
+    },
+    "Battery": {
+      "Battery": "900 mAh (Standard); 1,800 mAh (Extended)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + EDR, Micro-USB, 3.5 mm headset jack"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 900,
+    "nfc": false,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Cosmos 3",
+      "url": "https://en.wikipedia.org/wiki/LG_Cosmos_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Cosmos 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Cosmos 3",
+    "revid": 1374326589
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

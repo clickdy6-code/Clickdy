@@ -1,0 +1,73 @@
+{
+  "slug": "high-tech-computer-htc-touch-diamond2",
+  "brand": "High Tech Computer",
+  "name": "HTC Touch Diamond2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/HTC_Touch_Diamond2_20090313.jpg/500px-HTC_Touch_Diamond2_20090313.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/HTC_Touch_Diamond2_20090313.jpg/250px-HTC_Touch_Diamond2_20090313.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "High Tech Computer HTC Touch Diamond2",
+      "credit": "Titanas, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Touch_Diamond2_20090313.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family",
+      "Predecessor": "HTC Touch Diamond",
+      "Successor": "HTC 7 Mozart"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "107.85 × 53.1 × 13.7 mm (4.25 × 2.09 × 0.54 inches)",
+      "Weight": "117.5 g with battery",
+      "Other": "Official website"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.5 Professional",
+      "CPU": "Qualcomm MSM7200A, 528 MHz"
+    },
+    "Memory": {
+      "RAM": "512 MB ROM, 288 MB RAM",
+      "Card slot": "microSD (SD 2.0/SDHC Compatible)"
+    },
+    "Display": {
+      "Display": "480×800 px (WVGA), 3.2 in touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel AF back",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1100 mAh, Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, IEEE 802.11 IEEE 802.11b-1999 [[ExtUSB mini-USB"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "battery_mah": 1100,
+    "nfc": false,
+    "weight_g": 117.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Touch Diamond2",
+      "url": "https://en.wikipedia.org/wiki/HTC_Touch_Diamond2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Touch Diamond2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Touch Diamond2",
+    "revid": 1374924801
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

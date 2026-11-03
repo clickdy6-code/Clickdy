@@ -1,0 +1,83 @@
+{
+  "slug": "nokia-206",
+  "brand": "Nokia",
+  "name": "206",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Nokia_206_transparency.jpg/500px-Nokia_206_transparency.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Nokia_206_transparency.jpg/250px-Nokia_206_transparency.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 206",
+      "credit": "Dienthoaiquangcao80, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_206_transparency.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Q4 2012",
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia Asha 200/201",
+      "Successor": "Nokia 208, Nokia 301, Nokia 515"
+    },
+    "Network": {
+      "Technology": "GSM (850/1900 MHz), GSM (900/1800 MHz), GPRS and EDGE",
+      "SIM": "mini-SIM (2 slots)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "Height: 116.0 mm, Width: 49.4 mm, Thickness: 12.4 mm",
+      "Weight": "91 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 40"
+    },
+    "Memory": {
+      "Storage": "64 MB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "Display size: 2.4\" , Orientation: Portrait , (240 x 320) , Height: 58.0 mm, Width: 48.0 mm, Colors: 65K, Technology: LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Sensor size: 1.3 MP, Resolution: 1280 x 960 pixels, Video: 176 x 144 pixels (15fps)"
+    },
+    "Battery": {
+      "Battery": "Capacity: 1110 mAh, Maximum 2G standby time: 680 h, Maximum 2G talk time: 20 h, Music playback time: 41 h"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, Bluetooth 2.1, FM radio, Stereo, RDS, recording, 2.0 mm Charging Connector"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "LCD",
+    "main_mp": 1.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1110,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 91,
+    "thickness_mm": 12.4,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 206",
+      "url": "https://en.wikipedia.org/wiki/Nokia_206"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 206\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 206",
+    "revid": 1361477091
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

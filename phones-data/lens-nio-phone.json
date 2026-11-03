@@ -1,0 +1,79 @@
+{
+  "slug": "lens-nio-phone",
+  "brand": "Lens",
+  "name": "NIO Phone",
+  "status": "published",
+  "announced": "2023-09-21",
+  "released": "2023-09-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/NIO_Phone_at_Auto_Guangzhou_2023_20231126.jpg/500px-NIO_Phone_at_Auto_Guangzhou_2023_20231126.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/NIO_Phone_at_Auto_Guangzhou_2023_20231126.jpg/250px-NIO_Phone_at_Auto_Guangzhou_2023_20231126.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Lens NIO Phone",
+      "credit": "Tim Wu, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NIO_Phone_at_Auto_Guangzhou_2023_20231126.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-09-21",
+      "Successor": "(All new/全新) NIO Phone (2)"
+    },
+    "Network": {
+      "Technology": "Code division multiple access: BC0, GSM: 850/900/1800/1900MHz, Universal Mobile Communications System: Bands 1/2/4/5/6/8/19, Long Term Evolution Technology, LTE-TDD: Bands 34/38/39/40/41, 5G NR: n1/n3/n5/n8/n28/n41/n77/n78/n79, LTE-FDD: Bands 1/2/3/4/5/7/8/12/17/18/19/20/26/28"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "Glass version:, Height: 165.19 mm, Width: 75.54 mm, Thickness: 8.9 mm, Ceramic leather version, Height: 165.19 mm, Width: 75.54 mm, Thickness: 9.07 mm",
+      "Weight": "Glass version: 212 g, Ceramic leather version: 216 g"
+    },
+    "Platform": {
+      "Operating system": "SkyUI",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 2 Advanced Edition",
+      "CPU": "1× 3.36 GHz Cortex-X3+ 2× 2.8 GHz Cortex-A715 + 2× 2.8 GHz Cortex-A710 + 3× 2.02 GHz Cortex-A510",
+      "GPU": "Adreno 740.719MHz"
+    },
+    "Memory": {
+      "RAM": "LPDDR5X",
+      "Storage": "UFS 4.0"
+    },
+    "Display": {
+      "Display": "Samsung E6 substrate 2k resolution"
+    },
+    "Cameras": {
+      "Rear camera": "Periscope telephoto lens: 50 megapixels, aperture f/2.6, SonyIMX890 sensor, Wide-angle lens: 50 megapixels, aperture f/2.35, SonyIMX707 sensor, Ultra-wide-angle lens: 50 megapixels, aperture f/1.9, SonyIMX766 sensor",
+      "Front camera": "12 megapixels, f/2.45"
+    },
+    "Battery": {
+      "Battery": "Single cell battery, 5200mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wireless LAN, WLAN: Support WLAN 2.4G/5.1G/5.8G, Bluetooth5.3, USB 3.2 GEN1"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm Snapdragon 8 Gen 2 Advanced Edition",
+    "battery_mah": 5200,
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 212,
+    "thickness_mm": 8.9,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: NIO Phone",
+      "url": "https://en.wikipedia.org/wiki/NIO_Phone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"NIO Phone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "NIO Phone",
+    "revid": 1361476785
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

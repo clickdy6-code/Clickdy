@@ -1,0 +1,96 @@
+{
+  "slug": "asus-zenfone-9",
+  "brand": "Asus",
+  "name": "ZenFone 9",
+  "status": "published",
+  "announced": "2022-09-15",
+  "released": "2022-09-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-09-15",
+      "Series": "Asus ZenFone",
+      "Predecessor": "Asus ZenFone 8",
+      "Successor": "Asus ZenFone 10"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.5 mm H , 68.1 mm W , 9.1 mm D",
+      "Weight": "169 g"
+    },
+    "Platform": {
+      "Operating system": "Android 12 upgradable to Android 13 and/or Android 14",
+      "Chipset": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+      "CPU": "Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "8 or 16 GB RAM",
+      "Storage": "128 or 256 GB"
+    },
+    "Display": {
+      "Display": "5.9 in, 2400 x 1080 px resolution, 20:9 ratio (~445 ppi density), Super AMOLED, 120Hz, HDR10+, 1100 nits (peak), Corning Gorilla Glass Victus, Logical Dimensions: 873 x 393"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.9, 26mm (wide), 1/1.56\", 1.0μm, PDAF, gimbal OIS, 12 MP, f/2.2, 113° (ultrawide), 1/2.93\", 1.4μm, AF, LED flash, HDR, panorama, 8K@24fps, 4K@30/60/120fps, 1080p@30/60/240fps, 720p@480fps; gyro-EIS, HDR",
+      "Front camera": "12 MP, f/2.5, 28mm (standard), 1/2.93\", 1.22μm, dual pixel PDAF, 4K@30fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4300 mAh",
+      "Charging": "Fast charging 30W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct, DLNA, hotspot, Bluetooth 5.2, A2DP, LE, aptX HD, aptX Adaptive, LDAC"
+    }
+  },
+  "key": {
+    "display_in": 5.9,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 1100,
+    "chipset": "Qualcomm Snapdragon 8+ Gen 1",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "8K@24fps",
+    "front_mp": 12,
+    "battery_mah": 4300,
+    "wired_w": 30,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 169,
+    "thickness_mm": 9.1,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus ZenFone 9",
+      "url": "https://en.wikipedia.org/wiki/Asus_ZenFone_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus ZenFone 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus ZenFone 9",
+    "revid": 1361472621
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

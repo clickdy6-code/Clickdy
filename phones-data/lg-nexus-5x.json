@@ -1,0 +1,90 @@
+{
+  "slug": "lg-nexus-5x",
+  "brand": "LG",
+  "name": "Nexus 5X",
+  "status": "published",
+  "announced": "2015-10-22",
+  "released": "2015-10-22",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Nexus_5X_%28White%29.jpg/500px-Nexus_5X_%28White%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Nexus_5X_%28White%29.jpg/250px-Nexus_5X_%28White%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Nexus 5X",
+      "credit": "LG Electronics, Google LLC, Android Open Source Project, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nexus_5X_(White).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-10-22",
+      "Discontinued": "2016-10-04",
+      "Series": "Google Nexus",
+      "Predecessor": "Nexus 5",
+      "Successor": "Pixel"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "147.0 mm H, 72.6 mm W, 7.9 mm D",
+      "Weight": "136 g",
+      "Other": "Proximity, Accelerometer+gyrometer, Magnetometer, Fingerprint sensor, Barometer, Hall effect sensor"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0 \"Marshmallow\", Last: Android 8.1 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 808",
+      "CPU": "1.8 GHz hexa core (4×1.4 GHz Cortex-A53 + 2×1.8 GHz Cortex-A57) 64-bit ARMv8-A",
+      "GPU": "Adreno 418"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3 RAM",
+      "Storage": "16 GB or 32 GB"
+    },
+    "Display": {
+      "Display": "5.2 in, pixel resolution (423 ppi) , 1080p Full HD, IPS LCD panel with Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "12.3 MP, 2.0 aperture, 1/2.3\" sensor size, 1.55 μm pixel size, dual LED flash, IR laser-assisted autofocus, Sony Exmor IMX377",
+      "Front camera": "5 MP, 1.4 μm pixel size, 2.0 aperture Omnivision OV5693"
+    },
+    "Battery": {
+      "Battery": "2,700 mAh Li-Po 100 min charge, 6 h 25 min use non-replaceable"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 808",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 12.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2700,
+    "os": "Android 6.0",
+    "weight_g": 136,
+    "thickness_mm": 7.9,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nexus 5X",
+      "url": "https://en.wikipedia.org/wiki/Nexus_5X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nexus 5X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nexus 5X",
+    "revid": 1381828940
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

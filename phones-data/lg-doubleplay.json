@@ -1,0 +1,42 @@
+{
+  "slug": "lg-doubleplay",
+  "brand": "LG",
+  "name": "DoublePlay",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Platform": {
+      "Operating system": "Android 2.3"
+    },
+    "Memory": {
+      "RAM": "512 MB"
+    },
+    "Display": {
+      "Display": "320 x 480"
+    },
+    "Battery": {
+      "Battery": "1500mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 1500,
+    "os": "Android 2.3"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG DoublePlay",
+      "url": "https://en.wikipedia.org/wiki/LG_DoublePlay"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG DoublePlay\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG DoublePlay",
+    "revid": 1352726222
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "nokia-3110-classic",
+  "brand": "Nokia",
+  "name": "3110 classic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Nokia3110.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Nokia3110.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 3110 classic",
+      "credit": "Chinneeb, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia3110.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 3100, Nokia 5070/6070/6080",
+      "Successor": "Nokia 3120 classic, Nokia 3720 classic, Nokia 5130, Nokia C3-00, Nokia 3310 (2017)"
+    },
+    "Network": {
+      "Technology": "GPRS, EDGE, EGPRS, HSCSD, CSD, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108.5 × 45.7 × 15.6 mm",
+      "Weight": "87 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia OS Series 40 3rd Edition, Feature Pack 2"
+    },
+    "Memory": {
+      "RAM": "2 Mb (available for JVM)",
+      "Storage": "9 MB (internal)",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "128 × 160 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 Megapixels (Back)"
+    },
+    "Battery": {
+      "Battery": "BL-5C , 970 mAh , 3.7 V , Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 + EDR, Bluetooth Stereo Audio, Infrared, Mini USB, Nokia Audio Visual Plug 2.5 mm"
+    }
+  },
+  "key": {
+    "battery_mah": 970,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 87
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3110 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3110_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3110 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3110 classic",
+    "revid": 1374643866
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

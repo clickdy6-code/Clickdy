@@ -1,0 +1,54 @@
+{
+  "slug": "lg-vx9400",
+  "brand": "LG",
+  "name": "VX9400",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA (EV-DO), 800/1900 MHz"
+    },
+    "Body": {
+      "Dimensions": "4.04 x",
+      "Weight": "4.06 oz"
+    },
+    "Memory": {
+      "RAM": "38 MB"
+    },
+    "Display": {
+      "Display": "LCD 240 x 320 Pixels (262,144 colors)"
+    },
+    "Cameras": {
+      "Rear camera": "1280 x 960 px"
+    },
+    "Battery": {
+      "Battery": "Li-polymer, 950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth / USB Cable"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 950,
+    "nfc": false,
+    "usb": "USB-C"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG VX9400",
+      "url": "https://en.wikipedia.org/wiki/LG_VX9400"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG VX9400\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG VX9400",
+    "revid": 1361475593
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

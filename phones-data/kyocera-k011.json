@@ -1,0 +1,70 @@
+{
+  "slug": "kyocera-k011",
+  "brand": "Kyocera",
+  "name": "K011",
+  "status": "published",
+  "announced": "2012-06-27",
+  "released": "2012-06-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-06-27 (K011), July 2012 (K011 Z)",
+      "Discontinued": "January 2014 (Hokuriku region), March 31, 2022 (3G service termination)",
+      "Predecessor": "K009 (KY009)",
+      "Successor": "MARVERA (MARVERA KYY08)"
+    },
+    "Network": {
+      "Technology": "3G: CDMA 1X (CDMA2000 1xMC), 2G: GSM"
+    },
+    "Body": {
+      "Form factor": "Waterproof clamshell",
+      "Dimensions": "112 mm H , 49 mm W , 15.3 mm D (thickest part approx. 17.0 mm)",
+      "Weight": "136 g"
+    },
+    "Platform": {
+      "Operating system": "KCP3.2 (Brew MP)",
+      "Chipset": "Qualcomm Snapdragon S1 (QSD8650)",
+      "CPU": "1 GHz"
+    },
+    "Memory": {
+      "RAM": "800 MB (Data folder)",
+      "Card slot": "microSD (up to 2GB, KDDI official), microSDHC (up to 32GB, KDDI official)"
+    },
+    "Display": {
+      "Display": "Main: 3.2-inch Wide VGA+ (480×854 dots) TFT LCD, 260,000 colors, Sub: 0.9-inch Organic EL, monochrome (1 color)"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 8.08 MP CMOS with image stabilization and AF (None for K011 Z)"
+    },
+    "Battery": {
+      "Battery": "Continuous talk time: 220 minutes (domestic use), Continuous standby time: 350 hours (domestic use)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S1",
+    "main_mp": 8.08,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "weight_g": 136,
+    "thickness_mm": 15.3,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera K011",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_K011"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera K011\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera K011",
+    "revid": 1380028236
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

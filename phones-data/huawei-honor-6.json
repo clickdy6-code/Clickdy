@@ -1,0 +1,95 @@
+{
+  "slug": "huawei-honor-6",
+  "brand": "Huawei",
+  "name": "Honor 6",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Huawei_Honor_6_MWC_2015.jpg/500px-Huawei_Honor_6_MWC_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Huawei_Honor_6_MWC_2015.jpg/250px-Huawei_Honor_6_MWC_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 6",
+      "credit": "Kārlis Dambrāns, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Honor_6_MWC_2015.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "6: August 2014 , 6 Plus: December 2014",
+      "Series": "Honor N",
+      "Predecessor": "Huawei Honor 3",
+      "Successor": "Honor 7"
+    },
+    "Network": {
+      "SIM": "6: single SIM (Micro-SIM) or dual SIM (Micro-SIM) , 6 Plus: single SIM (Micro-SIM) or hybrid dual SIM (Nano-SIM + Micro-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "6: 139.6 mm H, 69.7 mm W, 7.5 mm D6 Plus: 150.5 mm H, 71.9 mm W, 8.5 mm D",
+      "Weight": "6: 130 g , 6 Plus: 165 g"
+    },
+    "Platform": {
+      "Operating system": "Original: 6: Android (operating system), Android Android KitKat, 4.4.2 \"KitKat\" with EMUI, Emotion UI 2.3, 6 Plus: Android 4.4.2 \"KitKat\" with EMUI 3.0Current: Android 6.0 \"Marshmallow\" with EMUI 4.0",
+      "Chipset": "6: HiSilicon Kirin 920 , 6 Plus: HiSilicon Kirin 925",
+      "CPU": "6: Octa-core (4×1.7 GHz Cortex-A15 & 4×1.3 GHz Cortex-A7) , 6 Plus: Octa-core (4×1.8 GHz Cortex-A15 & 4×1.3 GHz Cortex-A7)",
+      "GPU": "6: Mali-T624 MP4 , 6 Plus: Mali-T628 MP4"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "16 or 32 GB",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "6: 5 in, 445 ppi , 6 Plus: 5.5 in 401 ppi , Both: IPS LCD, 1080 × 1920 pixels (Full HD), 16:9"
+    },
+    "Cameras": {
+      "Rear camera": "6: 13 MP, 28 mm (wide), AF , 6 Plus: 8 MP, AF + 2 MP (depth) , All models: 2-LED flash, HDR , Video: 1080p@30fps",
+      "Front camera": "6: 5 MP, 6 Plus: 8 MP, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Front earpiece, rear mono speaker"
+    },
+    "Battery": {
+      "Battery": "Removable, Li-Po , 6: 3100 mAh , 6 Plus: 3600 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "6: HiSilicon Kirin 920",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3100,
+    "os": "Android 4.4",
+    "weight_g": 130,
+    "thickness_mm": 7.5,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Honor 6",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Honor_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Honor 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Honor 6",
+    "revid": 1361473789
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

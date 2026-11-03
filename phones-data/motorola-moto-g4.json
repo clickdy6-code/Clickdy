@@ -1,0 +1,98 @@
+{
+  "slug": "motorola-moto-g4",
+  "brand": "Motorola",
+  "name": "Moto G4",
+  "status": "published",
+  "announced": "2016-05-17",
+  "released": "2016-05-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Moto_G4_Plus_LATAM_%284%29.jpg/500px-Moto_G4_Plus_LATAM_%284%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Moto_G4_Plus_LATAM_%284%29.jpg/250px-Moto_G4_Plus_LATAM_%284%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto G4",
+      "credit": "JulianVilla26, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Moto_G4_Plus_LATAM_(4).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-05-17",
+      "Series": "Moto",
+      "Predecessor": "Moto G (3rd generation)",
+      "Successor": "Moto G5"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "G4 Play: 144.4 mm H , 72 mm W , 9.9 mm D, G4, G4 Plus: 153 mm H , 76.6 mm W , 9.8 mm D",
+      "Weight": "G4 Play: 137 g , G4, G4 Plus: 155 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0.1 \"Marshmallow\", Current: Android 7.0 \"Nougat\" (8.1 \"Oreo\" on G4 Plus)",
+      "Chipset": "Qualcomm Snapdragon List of Qualcomm Snapdragon devices#Snapdragon 410 and 412, 410 (for Moto G4 Play), Qualcomm Snapdragon List of Qualcomm Snapdragon devices#Snapdragon 617 and 625, 617 (for Moto G4 and Moto G4 Plus)",
+      "CPU": "1.2 GHz (Moto G4 Play), 4x1.5 GHz 4x1.2 GHz 64-bit computing, 64-bit (Moto G4 and Moto G4 Plus)",
+      "GPU": "Adreno, Adreno 306 (Moto G4 Play), Adreno, Adreno 405 (Moto G4 and Moto G4 Plus)"
+    },
+    "Memory": {
+      "RAM": "1 or 2 GB (Moto G4 Play), 2 or 3 GB (Moto G4), 2, 3 or 4 GB (Moto G4 Plus)",
+      "Storage": "8 or 16 GB (Moto G4 Play), 16 or 32 GB (Moto G4), 16, 32 or 64 GB (Moto G4 Plus) All 3 models are expandable via microSD card slot",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "G4 Play: 5.0\" (127 mm) 1280 x 720 (294 ppi) 720p , G4, G4 Plus: 5.5\" (140 mm) 1920 x 1080 (401 ppi) 1080p with Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP (16 MP on Moto G4 Plus), f2.0 aperture, dual CCT dual tone flash, 1080p video recording @ 30fps, and slow motion record",
+      "Front camera": "5 MP, f2.2"
+    },
+    "Sound": {
+      "Sound": "Front-ported loud speaker, 2-Mics"
+    },
+    "Battery": {
+      "Battery": "2800 ampere hour, mAh Lithium polymer battery, Li-po removable (Moto G4 Play), 3000 ampere hour, mAh Lithium-ion battery, Li-ion non-removable (Moto G4 and Moto G4 Plus)"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB, 3.5 mm headset jack"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "chipset": "Qualcomm Snapdragon List of Qualcomm Snapdragon devices#Snap",
+    "ram_gb": [
+      2,
+      3,
+      4
+    ],
+    "storage_gb": [
+      16,
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "os": "Android 6.0",
+    "nfc": false,
+    "weight_g": 137,
+    "thickness_mm": 9.9,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto G4",
+      "url": "https://en.wikipedia.org/wiki/Moto_G4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto G4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto G4",
+    "revid": 1379275111
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

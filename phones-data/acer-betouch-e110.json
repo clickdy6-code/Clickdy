@@ -1,0 +1,63 @@
+{
+  "slug": "acer-betouch-e110",
+  "brand": "Acer",
+  "name": "beTouch E110",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/17/Acer_beTouch_E110.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/17/Acer_beTouch_E110.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Acer beTouch E110",
+      "credit": "DarkSTALKER, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acer_beTouch_E110.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "beTouch"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Weight": "105 grams"
+    },
+    "Platform": {
+      "Operating system": "Android 1.5 \"Cupcake\""
+    },
+    "Display": {
+      "Display": "71 mm QVGA touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels"
+    },
+    "Battery": {
+      "Battery": "1500 mAh, chargeable through microUSB slot"
+    },
+    "Connectivity": {
+      "Connectivity": "3G, Bluetooth, GPS, USB 2.0"
+    }
+  },
+  "key": {
+    "battery_mah": 1500,
+    "os": "Android 1.5",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer beTouch E110",
+      "url": "https://en.wikipedia.org/wiki/Acer_beTouch_E110"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer beTouch E110\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer beTouch E110",
+    "revid": 1363091675
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

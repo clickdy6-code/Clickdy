@@ -1,0 +1,58 @@
+{
+  "slug": "nokia-1112",
+  "brand": "Nokia",
+  "name": "1112",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Nokia_1112.jpg/500px-Nokia_1112.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Nokia_1112.jpg/250px-Nokia_1112.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 1112",
+      "credit": "Pooh01, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_1112.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 1108",
+      "Successor": "Nokia 1202"
+    },
+    "Network": {
+      "Technology": "GSM dual band"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "104 mm × 44 mm × 17 mm",
+      "Weight": "80 grams (including battery)"
+    },
+    "Display": {
+      "Display": "96 x 68 pixel monochrome"
+    },
+    "Battery": {
+      "Battery": "700 mAh Li-ion"
+    }
+  },
+  "key": {
+    "battery_mah": 700,
+    "five_g": false,
+    "thickness_mm": 17
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 1112",
+      "url": "https://en.wikipedia.org/wiki/Nokia_1112"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 1112\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 1112",
+    "revid": 1361476987
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

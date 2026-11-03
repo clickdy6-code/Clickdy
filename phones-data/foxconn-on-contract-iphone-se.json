@@ -1,0 +1,96 @@
+{
+  "slug": "foxconn-on-contract-iphone-se",
+  "brand": "Foxconn (on contract)",
+  "name": "IPhone SE",
+  "status": "published",
+  "announced": "2016-03-31",
+  "released": "2016-03-31",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/IPhone_SE_in_silver.png/500px-IPhone_SE_in_silver.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/IPhone_SE_in_silver.png/250px-IPhone_SE_in_silver.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn (on contract) IPhone SE",
+      "credit": "Micaman45., CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_SE_in_silver.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-03-31",
+      "Predecessor": "iPhone 5c",
+      "Successor": "iPhone SE (2nd generation)"
+    },
+    "Network": {
+      "Technology": "GSM, LTE, 3G, 4G, EDGE, UMTS, HSPA+, DC-HSDPA, CDMA, EVDO"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 123.8 mm, W: 58.6 mm, D: 7.6 mm",
+      "Weight": "113 g"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 9.3.1",
+      "Chipset": "Apple A9"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR4",
+      "Storage": "16, 32, 64, or 128 GB NAND connected via NVMe"
+    },
+    "Display": {
+      "Display": "4.0 in Retina Display, LED-backlit IPS LCD, 1136 × 640 pixel resolution (326 ppi, aspect ratio 16:9) with full sRGB standard, 500 cd/m2 max. brightness (typical), 800:1 contrast ratio (typical)"
+    },
+    "Cameras": {
+      "Rear camera": "Backlit Sony Exmor RS IMX315 12.2 MP (4032 x 3024, 1.22 μm), dual-tone LED flash, autofocus, IR filter, burst mode, f/2.2 aperture, 4K video recording at 30 fps, 1080p at 30 or 60 fps, slow-motion video (1080p at 120 fps and 720p at 240 fps)",
+      "Front camera": "1.2 MP, f/2.4 aperture, exposure control, face detection, auto-HDR, Retina Flash, 720p video recording"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "3.82 V, 6.21 W⋅h (1624 mA⋅h) built-in rechargeable LiPo",
+      "Charging": "Lightning connector"
+    },
+    "Connectivity": {
+      "Connectivity": "Near-field communication (NFC), Bluetooth 4.2, GPS, GLONASS, Wi-Fi (802.11 a/b/g/n/ac), VoLTE, Wi-Fi calling, Lightning connector, 3.5 mm stereo audio jack"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "Retina",
+    "chipset": "Apple A9",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 1.2,
+    "os": "iOS 9.3",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 113,
+    "thickness_mm": 7.6,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone SE (1st generation)",
+      "url": "https://en.wikipedia.org/wiki/IPhone_SE_%281st_generation%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone SE (1st generation)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone SE (1st generation)",
+    "revid": 1380357991
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

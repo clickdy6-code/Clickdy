@@ -1,0 +1,94 @@
+{
+  "slug": "foxconn-nokia-5",
+  "brand": "Foxconn",
+  "name": "Nokia 5",
+  "status": "published",
+  "announced": "2017-08-15",
+  "released": "2017-08-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Nokia_5.jpg/500px-Nokia_5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Nokia_5.jpg/250px-Nokia_5.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 5",
+      "credit": "Antti Havukainen, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-08-15",
+      "Discontinued": "2021-11-27",
+      "Successor": "Nokia 5.1"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "149.7 mm H, 72.5 mm W, 8.05 mm D, 8.55 mm D (including camera bump)",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 \"Nougat\", Current: Android 9.0 \"Pie\"",
+      "Chipset": "Qualcomm Snapdragon 430",
+      "CPU": "Octa-core 1.4 GHz Cortex -A53",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "2/3 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSDXC, expandable up to 256 GB (dedicated slot)"
+    },
+    "Display": {
+      "Display": "5.2 in diagonal IPS LCD, Laminated and polarized, with scratch-resistant Corning Gorilla Glass, 1280x720 px, 16:9 aspect ratio, Curved display"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP PDAF, 1.12 μm pixel size, f/2 aperture, Dual-Tone flash",
+      "Front camera": "8 MP AF, 1.12 μm, f/2 aperture, FOV 84 degrees"
+    },
+    "Sound": {
+      "Sound": "3.5 mm headphone jack, Single speaker, Smart amplifier (TFA9891)"
+    },
+    "Battery": {
+      "Battery": "3,000 mAh Non-removable, Li-Po"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB (USB 2.0), USB OTG, Wi-Fi, Bluetooth 4.1, NFC"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 430",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "os": "Android 7.1",
+    "nfc": true,
+    "weight_g": 160,
+    "thickness_mm": 8.05,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5",
+    "revid": 1374560921
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

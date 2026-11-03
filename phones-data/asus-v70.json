@@ -1,0 +1,56 @@
+{
+  "slug": "asus-v70",
+  "brand": "Asus",
+  "name": "v70",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Asus_V70.JPG/500px-Asus_V70.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Asus_V70.JPG/250px-Asus_V70.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Asus v70",
+      "credit": "Nachosanchezz (talk) (Uploads), Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Asus_V70.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900/1800/1900 (tri band) with EDGE / GPRS"
+    },
+    "Body": {
+      "Dimensions": "90 x 45 x 24mm",
+      "Weight": "85 g"
+    },
+    "Memory": {
+      "RAM": "64 MB internal, miniSD external memory card slot"
+    },
+    "Display": {
+      "Display": "176 x 220 1.8\" 262K-color"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, Bluetooth (audio device only)"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 85
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus v70",
+      "url": "https://en.wikipedia.org/wiki/Asus_v70"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus v70\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus v70",
+    "revid": 1375016523
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

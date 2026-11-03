@@ -1,0 +1,73 @@
+{
+  "slug": "blackberry-tour",
+  "brand": "BlackBerry",
+  "name": "Tour",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/BlackBerry_Tour.jpg/500px-BlackBerry_Tour.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/BlackBerry_Tour.jpg/250px-BlackBerry_Tour.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BlackBerry Tour",
+      "credit": "Andrew Maiman, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Tour.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "BlackBerry Bold 9650"
+    },
+    "Network": {
+      "Technology": "CDMA2000/EV-DO Rev. A 800/1900 MHz, UMTS/HSPA: 2100 MHz, GSM/GPRS/EDGE: 850/900/1800/1900MHz"
+    },
+    "Body": {
+      "Form factor": "Candybar smartphone",
+      "Weight": "130 g, (4.6 oz)"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry OS 5.0",
+      "CPU": "Qualcomm MSM7600 at 528 MHz"
+    },
+    "Memory": {
+      "RAM": "128 MB SDRAM",
+      "Storage": "256 MB Flash memory",
+      "Card slot": "2 GB microSD card included; expandable up to 16 GB"
+    },
+    "Display": {
+      "Display": "480×360 half VGA, 2.4\" (built on 100μm pixel)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 130
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Tour",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Tour"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Tour\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Tour",
+    "revid": 1379786746
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

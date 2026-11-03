@@ -1,0 +1,87 @@
+{
+  "slug": "huawei-honor-8-pro",
+  "brand": "Huawei",
+  "name": "Honor 8 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/6/64/Huawei_Honor_8_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/64/Huawei_Honor_8_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Huawei Honor 8 Pro",
+      "credit": "Huawei, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Honor_8_Pro.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Huawei Honor 8"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "157 × 77.5 × 6.97 mm",
+      "Weight": "184 gr (including battery)",
+      "Other": "Hall sensor, Infrared sensor, Fingerprint sensor, Proximity sensor, Ambient light sensor, Digital compass, Gravity sensor, Gyroscope, Status indicator"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0 Nougat, EMUI 5.1",
+      "CPU": "Kirin 960 octa-core (4×1.8GHz Cortex A53 + 4×2.4GHz Cortex A73)",
+      "GPU": "Mali-G71"
+    },
+    "Memory": {
+      "RAM": "6 GB RAM",
+      "Storage": "64GB/128GB",
+      "Card slot": "microSD (128 GB Max)"
+    },
+    "Display": {
+      "Display": "5.7” QHD (1,440 × 2,560 pixel)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 12 MP, f/2.2, laser autofocus, video 4K, LED flash",
+      "Front camera": "8 MP, f/2.0"
+    },
+    "Battery": {
+      "Battery": "4000 mAh, non removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Hybrid Dual SIM (nano + nano/microSD), LTE Cat.6, Wi-Fi a/b/g/n/ac (2,4/5 GHz), Bluetooth 4.2, GPS, NFC, USB 2.0 Type-C"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 8 Pro",
+      "url": "https://en.wikipedia.org/wiki/Honor_8_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 8 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor 8 Pro",
+    "revid": 1361473613
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

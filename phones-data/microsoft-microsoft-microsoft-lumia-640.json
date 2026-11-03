@@ -1,0 +1,95 @@
+{
+  "slug": "microsoft-microsoft-microsoft-lumia-640",
+  "brand": "Microsoft  (Microsoft)",
+  "name": "Microsoft Lumia 640",
+  "status": "published",
+  "announced": "2015-03-02",
+  "released": "2015-03-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Microsoft_Lumia_640_XL_%28cropped%29.jpg/500px-Microsoft_Lumia_640_XL_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Microsoft_Lumia_640_XL_%28cropped%29.jpg/250px-Microsoft_Lumia_640_XL_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft  (Microsoft) Microsoft Lumia 640",
+      "credit": "Maurizio Pesce, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Microsoft_Lumia_640_XL_(cropped).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-03-02",
+      "Series": "Lumia",
+      "Predecessor": "Nokia Lumia 630 , Nokia Lumia 1320",
+      "Successor": "Microsoft Lumia 650[http://www.nokiapoweruser.com/hands-on-video-of-lumia-650-published-by-microsoft-lumia-france/ Hands on video of Lumia 650 published by Microsoft Lumia France"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA 900/2100 (+ 850/1900 for RM-1018/RM-1020)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "141.3 mm H, 72.2 mm W, 8.8 mm D",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1 Update 2 (Lumia Denim) upgradable to Windows 10 Mobile",
+      "Chipset": "Qualcomm Snapdragon 400 MSM8226/MSM8926",
+      "CPU": "1.2 GHz quad-core ARM Cortex-A7",
+      "GPU": "Qualcomm Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB (only 3 GB available)",
+      "Card slot": "128 GB microSD"
+    },
+    "Display": {
+      "Display": "5-inch 720p HD IPS LCD, 294 ppi (Lumia 640), 5.7-inch 720p IPS LCD, 258 ppi (Lumia 640 XL), Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 MP auto-focus, f/2.2 with LED flash, FHD 1920x1080 video (Lumia 640), 13.0 MP, BSI, auto-focus, 10 cm minimum focus range, f/2.0, 28 mm focal length with LED flash, FHD 1920x1080 video (Lumia 640 XL Only)",
+      "Front camera": "0.9 MP, 720p video (Lumia 640), 5.0 MP, 1080p video (Lumia 640 XL Only)"
+    },
+    "Battery": {
+      "Battery": "2500 mAh Li-ion (Lumia 640) , 3000 mAh Li-ion (Lumia 640 XL)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.0 (LE), Assisted GPS, GPS/GLONASS/BeiDou, Micro-USB 2.0, Wi-Fi: 802.11b/g/n, WiFi Hotspot, WPS, FM radio"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 400 MSM8226/MSM8926",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.9,
+    "battery_mah": 2500,
+    "os": "Windows Phone 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 145,
+    "thickness_mm": 8.8,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Microsoft Lumia 640",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Lumia_640"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Microsoft Lumia 640\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Microsoft Lumia 640",
+    "revid": 1361476132
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

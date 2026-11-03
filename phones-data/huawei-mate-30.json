@@ -1,0 +1,99 @@
+{
+  "slug": "huawei-mate-30",
+  "brand": "Huawei",
+  "name": "Mate 30",
+  "status": "published",
+  "announced": "2019-09-19",
+  "released": "2019-09-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Mate_30_Pro.png/500px-Mate_30_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Mate_30_Pro.png/250px-Mate_30_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate 30",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mate_30_Pro.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09-19 (Munich, Germany)",
+      "Series": "Huawei Mate",
+      "Predecessor": "Huawei Mate 20",
+      "Successor": "Huawei Mate 40"
+    },
+    "Network": {
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Huawei Mate 30, 160.8 x 76.1 x 8.4 mm (6.33 x 3.00 x 0.33 in), Huawei Mate 30 Pro, 158.1 x 73.1 x 8.8 mm (6.22 x 2.88 x 0.35 in)",
+      "Weight": "Huawei Mate 30, 196 g (6.91 oz), Huawei Mate 30 Pro, 198 g (6.98 oz)"
+    },
+    "Platform": {
+      "Operating system": "EMUI 10.1 based on Android 10 (SDK Rom), Current: China: HarmonyOS 4.2",
+      "Chipset": "HiSilicon Kirin 990",
+      "CPU": "Huawei Mate 30/Pro, Octa-core (2x2.86 GHz Cortex-A76 & 2x2.09 GHz Cortex-A76 & 4x1.86 GHz Cortex-A55), Huawei Mate 30 5G/Pro 5G, Octa-core (2x2.86 GHz Cortex-A76 & 2x2.36 GHz Cortex-A76 & 4x1.95 GHz Cortex-A55)",
+      "GPU": "Mali-G76 MP16"
+    },
+    "Memory": {
+      "RAM": "6GB or 8GB RAM, 12GB RAM (RS Porsche Design)",
+      "Storage": "128GB or 256GB (expandable via the Huawei Nano Memory Card), 512GB (RS Porsche Design)",
+      "Card slot": "Huawei Nano Memory Card 256GB"
+    },
+    "Display": {
+      "Display": "Huawei Mate 30, OLED capacitive touchscreen, 16M colors, 6.62 inches, 107.6 cm2 (~87.9% screen-to-body ratio), 1080 x 2340 pixels, 19.5:9 ratio (~389 ppi density), DCI-P3, HDR10, Huawei Mate 30 Pro, OLED capacitive touchscreen, 16M colors, 6.53 inches, 108.7 cm2 (~94.1% screen-to-body ratio), 1176 x 2400 pixels, 18.5:9 ratio (~409 ppi density), Corning Gorilla Glass 6, DCI-P3, HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "Huawei Mate 30, Triple, 40 MP, f/1.8, 27mm (wide), 1/1.7\", PDAF, Laser AF, 8 MP, f/2.4, 80mm (telephoto), 1/4\", PDAF, Laser AF, OIS, 3x optical zoom, 16 MP, f/2.2, 17mm (ultrawide), Leica optics, dual-LED dual-tone flash, panorama, HDR, 2160p@30/60fps, 1080p@30/60/120fps, 720p@960fps, gyro-EIS, Huawei Mate 30 Pro, Quad\t40 MP, f/1.6, 27mm (wide), 1/1.7\", PDAF, OIS, 8 MP, f/2.4, 80mm (telephoto), 1/4\", PDAF, OIS, 3x optical zoom, 40 MP, f/1.8, 18mm (ultrawide), 1/1.54\", PDAF, 3D ToF camera, Leica optics, dual-LED dual-tone flash, panorama, HDR, 2160p@30/60fps, 1080p@30/60/120fps, 1080p@960fps, 720p@7680fps, gyro-EIS",
+      "Front camera": "Huawei Mate 30, 24 MP, f/2.0, 3D ToF cam, HDR, 1080p@30fps, Huawei Mate 30 Pro, 32 MP, f/2.0, (wide), 2.4 MP, (motion gesture camera), 3D ToF camera, HDR, panorama, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker with stereo speakers (Mate 30) or acoustic speaker (Mate 30 Pro), 3.5mm jack (Mate 30), 32-bit/384kHz audio, Active noise cancellation with dedicated microphone"
+    },
+    "Battery": {
+      "Battery": "Huawei Mate 30, Non-removable Li-Po 4200 mAh battery, Huawei Mate 30 Pro, Non-removable Li-Po 4500 mAh battery",
+      "Charging": "Supercharge"
+    }
+  },
+  "key": {
+    "display_in": 6.62,
+    "display_type": "OLED",
+    "chipset": "HiSilicon Kirin 990",
+    "ram_gb": [
+      6,
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 40,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "1080p@30fps",
+    "front_mp": 24,
+    "battery_mah": 4200,
+    "os": "Android 10",
+    "weight_g": 196,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate 30",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_30"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate 30\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate 30",
+    "revid": 1361473817
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

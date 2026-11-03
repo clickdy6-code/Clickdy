@@ -1,0 +1,90 @@
+{
+  "slug": "tcl-blackberry-keyone",
+  "brand": "TCL",
+  "name": "BlackBerry KeyOne",
+  "status": "published",
+  "announced": "2017-04-27",
+  "released": "2017-04-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/BlackBerry_KEYone.png/500px-BlackBerry_KEYone.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/BlackBerry_KEYone.png/250px-BlackBerry_KEYone.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "TCL BlackBerry KeyOne",
+      "credit": "Steven H. Keys, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BlackBerry_KEYone.png",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-04-27",
+      "Predecessor": "BlackBerry Q10, BlackBerry Classic",
+      "Successor": "BlackBerry Key2"
+    },
+    "Body": {
+      "Form factor": "Bar/slate",
+      "Dimensions": "H 149.1 mm, W 72.39 mm, D 9.4 mm",
+      "Weight": "180 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 \"Nougat\", Current: Android 8.1 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 625",
+      "CPU": "Octa-core 2.0 GHz",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "Original silver: 3 GB, Black Edition/Bronze Edition: 4 GB",
+      "Storage": "Original silver: 32 GB, Black Edition/Bronze Edition: 64 GB",
+      "Card slot": "Up to 2 TB microSDXC"
+    },
+    "Display": {
+      "Display": "4.5 in IPS LCD, 1620x1080 pixels, 434 pixels per inch, ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP with f/2.0 aperture, 4K video capture, HDR, phase detection autofocus, EIS",
+      "Front camera": "8 MP, 1080p video capture"
+    },
+    "Battery": {
+      "Battery": "3,505 mAh Li-Ion non-removable battery"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 625",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 8,
+    "battery_mah": 3505,
+    "os": "Android 7.1",
+    "weight_g": 180,
+    "thickness_mm": 9.4,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry KeyOne",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_KeyOne"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry KeyOne\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry KeyOne",
+    "revid": 1370271429
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

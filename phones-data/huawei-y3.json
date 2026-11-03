@@ -1,0 +1,85 @@
+{
+  "slug": "huawei-y3",
+  "brand": "Huawei",
+  "name": "Y3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 2018",
+      "Series": "Huawei Y",
+      "Predecessor": "Huawei Y3 (2017)"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145.1 × 73.7 × 9.5 mm",
+      "Weight": "175 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 Oreo (Go Edition)",
+      "Chipset": "MediaTek MT6737M (28 nm)",
+      "CPU": "4×1.1 GHz Cortex-A53",
+      "GPU": "Mali-T720MP2"
+    },
+    "Memory": {
+      "RAM": "1GB RAM",
+      "Storage": "8GB eMMC 5.0"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.0\", 854 × 480, 16:9, 196 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.0, AF, LED flash, Video: 720p@30fps",
+      "Front camera": "2 MP, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 2280 mAh, non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN: Wi-Fi 802.11 b/g/n, hotspot, Bluetooth: 4.0, A2DP"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6737M",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 2,
+    "battery_mah": 2280,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 175,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y3 (2018)",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y3_%282018%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y3 (2018)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y3 (2018)",
+    "revid": 1361474118
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

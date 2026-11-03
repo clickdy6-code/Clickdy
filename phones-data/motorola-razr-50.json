@@ -1,0 +1,76 @@
+{
+  "slug": "motorola-razr-50",
+  "brand": "Motorola",
+  "name": "Razr 50",
+  "status": "published",
+  "announced": "2024-06-25",
+  "released": "2024-06-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-06-25",
+      "Series": "Motorola Razr",
+      "Predecessor": "Motorola Razr 40"
+    },
+    "Body": {
+      "Form factor": "Clamshell"
+    },
+    "Platform": {
+      "Operating system": "Android 14",
+      "Chipset": "MediaTek Dimensity 7300X"
+    },
+    "Memory": {
+      "RAM": "8GB, 12GB RAM",
+      "Storage": "256GB, 512GB"
+    },
+    "Display": {
+      "Display": "6.9\" FHD+ pOLED, 10–120Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "50MP main, 13MP ultrawide"
+    },
+    "Battery": {
+      "Battery": "4,200 mAh, 33W charging"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, Wi-Fi, Bluetooth, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.9,
+    "refresh_hz": 120,
+    "chipset": "MediaTek Dimensity 7300X",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 4200,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Razr 50",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Razr_50"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Razr 50\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Razr 50",
+    "revid": 1367223579
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

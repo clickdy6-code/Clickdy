@@ -1,0 +1,81 @@
+{
+  "slug": "kyocera-honey-bee-201k",
+  "brand": "Kyocera",
+  "name": "Honey Bee 201K",
+  "status": "published",
+  "announced": "2013-01-25",
+  "released": "2013-01-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-01-25",
+      "Series": "SoftBank Smartphone",
+      "Predecessor": "101K"
+    },
+    "Network": {
+      "Technology": "SoftBank 3G (W-CDMA, 900 MHz Platinum Band), GSM, SoftBank 4G (AXGP)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "121 mm H , 57 mm W , 12.9 mm D",
+      "Weight": "129 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8960",
+      "CPU": "1.5 GHz dual-core"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB ROM",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "3.7 in (94 mm) WVGA (800×480 pixels) TFT, 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.1 MP back-illuminated CMOS",
+      "Front camera": "2.0 MP CMOS"
+    },
+    "Battery": {
+      "Battery": "2000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S4 MSM8960",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 8.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 2000,
+    "os": "Android 4.1",
+    "five_g": false,
+    "weight_g": 129,
+    "thickness_mm": 12.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera Honey Bee 201K",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_Honey_Bee_201K"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera Honey Bee 201K\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera Honey Bee 201K",
+    "revid": 1378833131
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

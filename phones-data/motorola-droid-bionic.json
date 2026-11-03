@@ -1,0 +1,81 @@
+{
+  "slug": "motorola-droid-bionic",
+  "brand": "Motorola",
+  "name": "Droid Bionic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Droid_Bionic_Android_4.1.2.jpg/500px-Droid_Bionic_Android_4.1.2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Droid_Bionic_Android_4.1.2.jpg/250px-Droid_Bionic_Android_4.1.2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid Bionic",
+      "credit": "Jabartlett7, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Droid_Bionic_Android_4.1.2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Droid",
+      "Predecessor": "Motorola DROID X2",
+      "Successor": "Motorola DROID RAZR"
+    },
+    "Network": {
+      "Technology": "CDMA 800/1900 MHz EVDO Rev. A, 700 MHz 4G LTE, 802.11b/g/n"
+    },
+    "Body": {
+      "Dimensions": "127.5 mm H, 66.9 mm W, 10.9 mm D",
+      "Weight": "158 g"
+    },
+    "Platform": {
+      "Operating system": "Official: Android 2.3.4 Gingerbread, upgradable to Android 4.1.2 Jelly Bean (with Motorola Application Platform) , Unofficial: Android 7.1 Nougat via LineageOS 14.1",
+      "CPU": "1 GHz dual-core ARM Cortex-A9 SoC processor; TI OMAP4430 (1.2 GHz after ICS update)",
+      "GPU": "PowerVR SGX540 @ 304 MHz"
+    },
+    "Memory": {
+      "RAM": "16 GB flash memory, 1 GB LP DDR2 RAM",
+      "Card slot": "16 GB pre-installed microSD card. Supports up to 32 GB microSD"
+    },
+    "Display": {
+      "Display": "4.3-inch 960 × 540 px qHD at 256 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel with 1080p HD video recording",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1735 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v2.1 + EDR, HDMI, 3.5 mm TRRS audio jack, Micro USB, DLNA"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      1,
+      16
+    ],
+    "battery_mah": 1735,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 158,
+    "thickness_mm": 10.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid Bionic",
+      "url": "https://en.wikipedia.org/wiki/Droid_Bionic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid Bionic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid Bionic",
+    "revid": 1381877827
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

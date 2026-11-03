@@ -1,0 +1,54 @@
+{
+  "slug": "i-m-s-p-a-i-m-watch",
+  "brand": "i'm S.p.A",
+  "name": "I'm Watch",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Smartwatch",
+      "Weight": "2.9 ounces"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1"
+    },
+    "Memory": {
+      "Storage": "4 GB"
+    },
+    "Display": {
+      "Display": "1.54-inch, 240x240px Color LCD Screen"
+    },
+    "Battery": {
+      "Battery": "450 mAh Lithium Polymer, Run time: 5-6 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1+ EDR and 4.0 and ANT+"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 450,
+    "os": "Android 2.1",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: I'm Watch",
+      "url": "https://en.wikipedia.org/wiki/I%27m_Watch"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"I'm Watch\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "I'm Watch",
+    "revid": 1364649666
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "huawei-honor-4x",
+  "brand": "Huawei",
+  "name": "Honor 4X",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Huawei_Honor_4X.jpg/500px-Huawei_Honor_4X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Huawei_Honor_4X.jpg/250px-Huawei_Honor_4X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 4X",
+      "credit": "Vernon Chan from Kuala Lumpur, Malaysia, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Honor_4X.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "October 2014",
+      "Predecessor": "Huawei Honor 3X",
+      "Successor": "Honor 5X"
+    },
+    "Network": {
+      "Technology": "2.5G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 4G LTE Rel. 8 (UE Cat 4) - 1800, 2100, 2600, 800 MHz European"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "150.9 mm H, 75.2 mm W, 8.7 mm D",
+      "Weight": "150 g",
+      "Other": "Accelerometer, Gyroscope, Magnetometer, Proximity sensor Compass"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 KitKat upgradeable to Android 6.0 Marshmallow",
+      "CPU": "HiSilicon Kirin 620 CPU Octa-core (Cortex-A53 1.2GHz)",
+      "GPU": "Mali-450 MP4"
+    },
+    "Memory": {
+      "RAM": "2GB RAM",
+      "Storage": "8GB",
+      "Card slot": "microSD, up to 32GB / 128 GB on Android 6.0"
+    },
+    "Display": {
+      "Display": "5.5 in IPS- LCD capacitive touchscreen, 16M colors, 245 ppi (1280x720)"
+    },
+    "Cameras": {
+      "Rear camera": "13 megapixels 1080p 4160 x 3120 pixels, pixels, Fast Focus, phase detection autofocus, single-LED flash, video 1080p@30fps, HDR",
+      "Front camera": "5 megapixels, front-faced soft light, panorama"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3000 mAh battery (11.5 Wh)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 3000,
+    "os": "Android 4.4",
+    "five_g": true,
+    "weight_g": 150,
+    "thickness_mm": 8.7,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Honor 4X",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Honor_4X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Honor 4X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Honor 4X",
+    "revid": 1361473770
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

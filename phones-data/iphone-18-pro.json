@@ -1,0 +1,94 @@
+{
+  "slug": "iphone-18-pro",
+  "brand": "IPhone",
+  "name": "18 Pro",
+  "status": "published",
+  "announced": "2026-09-18",
+  "released": "2026-09-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/IPhone_18_Pro_Vector.svg/500px-IPhone_18_Pro_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/IPhone_18_Pro_Vector.svg/250px-IPhone_18_Pro_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 18 Pro",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_18_Pro_Vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-09-18",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 17 Pro and Pro Max"
+    },
+    "Network": {
+      "Technology": "2G GSM/EDGE, 3G UMTS/HSPA+, 4G LTE, 5G NR/5G-A"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pro: 2 150.0x71.9x8.75, Pro Max: 2 163.4x78.0x8.75",
+      "Weight": "Pro: 211 g, Pro Max: 249 g",
+      "Other": "Emergency SOS, Messages and Find My via satellite, FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone (if supported by the carrier)"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 27",
+      "Chipset": "Apple A20 Pro"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "256 GB, 512 GB, 1 TB, 2 TBNVMe"
+    },
+    "Display": {
+      "Display": "Pro: 6.3 in -pixel resolution at 460 ppi, Pro Max: 6.9 in pixel resolution at 460 ppi, ProMotion technology with Variable refresh rate, adaptive refresh rates up to 120 Hz, Always-on display, Always-On display at 1 Hz, Wide color gamut (P3), 2,000,000:1 contrast ratio (typical), 1,000 nits max brightness (typical), 1,600 nits peak brightness (High dynamic range, HDR), 3,000 nits peak brightness (outdoor), 1 nit minimum brightness"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, spatial audio"
+    },
+    "Battery": {
+      "Battery": "Pro: (physical SIM): 15.855Wh (4,056 mAh) @ 3.909V , (eSIM): 16.758Wh (4,288 mAh) @ 3.908V , Pro Max: (physical SIM): 21.063Wh (5,391 mAh) @ 3.907V , (eSIM): 21.751Wh (5,567 mAh) @ 3.907V",
+      "Charging": "MagSafe (wireless charger), MagSafe and Qi 2 wireless, USB-C fast-charge, Up to 50% charge in 15 minutes with 60 W adaptor or higher, provided via 15 V or 18V using a PD3.2 AVS SPR power supply"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 tri-band, Bluetooth 6.0 (A2DP, LE), Ultra-wideband, Thread, NFC (reader mode, Express Cards), LEO satellite (Globalstar, limited), USB-C: USB 10Gbps, Dual-frequency GPS (L1, L5), GLONASS, Galileo, QZSS, BeiDou, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "refresh_hz": 120,
+    "peak_nits": 3000,
+    "chipset": "Apple A20 Pro",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "battery_mah": 4056,
+    "wired_w": 60,
+    "os": "iOS 27",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "weight_g": 211,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 18 Pro",
+      "url": "https://en.wikipedia.org/wiki/IPhone_18_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 18 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 18 Pro",
+    "revid": 1383369721
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "huawei-nova-7",
+  "brand": "Huawei",
+  "name": "Nova 7",
+  "status": "published",
+  "announced": "2020-04-23",
+  "released": "2020-04-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-04-23",
+      "Series": "Nova",
+      "Predecessor": "Huawei Nova 6",
+      "Successor": "Huawei Nova 8"
+    },
+    "Network": {
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "160.6 x 74.3 x 8 mm (6.32 x 2.93 x 0.31 in)",
+      "Weight": "180g"
+    },
+    "Platform": {
+      "Operating system": "Android 10, EMUI 10",
+      "Chipset": "Huawei Kirin 985 5G",
+      "CPU": "Octa-core (1x2.58 GHz Cortex-A76 & 3x2.40 GHz Cortex-A76 & 4x1.84 GHz Cortex-A55)",
+      "GPU": "Mali-G77(8 core)"
+    },
+    "Memory": {
+      "RAM": "8 GB RAM",
+      "Storage": "128GB, 256GB"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP, f/1.8, 26mm (wide), PDAF, 8 MP, f/2.4, 80mm (telephoto), PDAF, 3x optical zoom, 8 MP, f/2.4, 17mm (ultrawide), 2 MP, f/2.4, (macro), laser autofocus, AI filter, aperture, 1080p resolution",
+      "Front camera": "16 MP (wide) aperture, exposure control, face detection"
+    },
+    "Battery": {
+      "Battery": "4000 mAh",
+      "Charging": "Huawei Supercharge 40w"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi a/b/g/n/ac (2.4 GHz), Bluetooth 5.1, GPS, LTE, USB-C 2.0"
+    }
+  },
+  "key": {
+    "chipset": "Huawei Kirin 985 5G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": true,
+    "video": "1080p",
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 180,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova 7",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova 7",
+    "revid": 1361473917
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

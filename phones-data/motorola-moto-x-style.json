@@ -1,0 +1,96 @@
+{
+  "slug": "motorola-moto-x-style",
+  "brand": "Motorola",
+  "name": "Moto X Style",
+  "status": "published",
+  "announced": "2015-09-02",
+  "released": "2015-09-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Motorola_Moto_X_Style_%2822033955888%29.jpg/500px-Motorola_Moto_X_Style_%2822033955888%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Motorola_Moto_X_Style_%2822033955888%29.jpg/250px-Motorola_Moto_X_Style_%2822033955888%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto X Style",
+      "credit": "Mark Rimmel, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Moto_X_Style_(22033955888).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-09-02",
+      "Series": "Motorola Moto",
+      "Predecessor": "Moto X (2nd generation), Moto X Pro",
+      "Successor": "Moto X (4th generation)"
+    },
+    "Body": {
+      "Form factor": "Touchscreen Bar",
+      "Dimensions": "153.9 mm H , 76.2 mm W , 11.1 mm D",
+      "Weight": "179 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\", Current: Android 7.0 \"Nougat\"",
+      "Chipset": "Qualcomm Snapdragon 808",
+      "CPU": "1.8 GHz 64-bit Hexa-core",
+      "GPU": "Adreno 418"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3 RAM",
+      "Storage": "16, 32, and 64 GB",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.7 in 2560 x 1440 (520 ppi) Quad HD IPS TFT LCD with Corning Gorilla Glass 3"
+    },
+    "Cameras": {
+      "Rear camera": "21 MP Sony Exmor IMX230, f2.0 aperture, 1/2.4\" sensor, dual CCT flash, 4K video recording @ 30 fps, 1080p @ 60fps, slow motion recording",
+      "Front camera": "5 MP, f2.0, wide-angle lens, with flash"
+    },
+    "Sound": {
+      "Sound": "Front-facing dual stereo speakers"
+    },
+    "Battery": {
+      "Battery": "3000 mAh Li-ion non-removable[https://www.theguardian.com/technology/2015/oct/09/motorola-moto-x-style-review-cut-price-quality-phablet Motorola Moto X Style review: cut-price quality phablet"
+    },
+    "Connectivity": {
+      "Connectivity": "GPS, Wi-Fi, NFC, Bluetooth, USB, USB OTG, Miracast, Infrared motion sensors"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 808",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 21,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 5.1",
+    "nfc": true,
+    "weight_g": 179,
+    "thickness_mm": 11.1,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto X Style",
+      "url": "https://en.wikipedia.org/wiki/Moto_X_Style"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto X Style\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto X Style",
+    "revid": 1368708389
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

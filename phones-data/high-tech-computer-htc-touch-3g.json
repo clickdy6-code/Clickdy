@@ -1,0 +1,68 @@
+{
+  "slug": "high-tech-computer-htc-touch-3g",
+  "brand": "High Tech Computer",
+  "name": "HTC Touch 3G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-11",
+      "Series": "HTC Touch family",
+      "Predecessor": "HTC Touch"
+    },
+    "Network": {
+      "Technology": "Quad band GSM/GPRS/EDGE (GSM 850, GSM 900, GSM 1800, GSM 1900), Dual band UMTS/HSDPA/HSUPA (UMTS 900, UMTS 2100)"
+    },
+    "Body": {
+      "Dimensions": "102 mm (h) 53.6 mm (w) 14.5 mm (d)",
+      "Weight": "96 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.1 Professional",
+      "CPU": "Qualcomm MSM7225 at 528 MHz"
+    },
+    "Memory": {
+      "RAM": "192 MiB RAM , 256 MiB ROM",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "320x240 px, 2.8 in, TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel Fixed focus back"
+    },
+    "Battery": {
+      "Battery": "1100 mAh Lithium-ion polymer battery, user accessible"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mini , Bluetooth 2.0 + EDR + A2DP , Wi-Fi (802.11b/g)"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 96,
+    "thickness_mm": 14.5,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Touch 3G",
+      "url": "https://en.wikipedia.org/wiki/HTC_Touch_3G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Touch 3G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Touch 3G",
+    "revid": 1370097135
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

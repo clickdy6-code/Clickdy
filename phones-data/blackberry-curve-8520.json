@@ -1,0 +1,75 @@
+{
+  "slug": "blackberry-curve-8520",
+  "brand": "BlackBerry",
+  "name": "Curve 8520",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/83/Bb-curve-8520%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Bb-curve-8520%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "BlackBerry Curve 8520",
+      "credit": "Qc7600, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bb-curve-8520(1).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "BlackBerry Pearl 8100 series",
+      "Successor": "BlackBerry Curve 9220"
+    },
+    "Network": {
+      "Technology": "GSM 800/900/1800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "109 x 60 x 13.9 mm",
+      "Weight": "106 g (with battery)"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry OS 5.0",
+      "CPU": "512 MHz"
+    },
+    "Memory": {
+      "RAM": "256 MB flash, 256 MB RAM",
+      "Card slot": "microSDHC Hot-swappable, support for up to 32 GB"
+    },
+    "Display": {
+      "Display": "320×240 px (0.1 megapixels), 2.46 in, up to 65 k colours"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels (1600 x 1200 pixels)",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1150 mAh battery lithium-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN Wi-Fi 802.11 b, g, Integrated , Bluetooth 2.0, microUSB, 3.5 mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 2.46,
+    "battery_mah": 1150,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 106
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Curve 8520",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Curve_8520"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Curve 8520\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Curve 8520",
+    "revid": 1361472697
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

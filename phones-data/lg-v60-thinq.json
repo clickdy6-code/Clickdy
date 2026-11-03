@@ -1,0 +1,94 @@
+{
+  "slug": "lg-v60-thinq",
+  "brand": "LG",
+  "name": "V60 ThinQ",
+  "status": "published",
+  "announced": "2020-03-20",
+  "released": "2020-03-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-03-20",
+      "Discontinued": "2021-04-05",
+      "Series": "V series",
+      "Predecessor": "LG V50 ThinQ, LG V30+ (Japan)"
+    },
+    "Network": {
+      "Technology": "2G GSM, GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, 2G CDMA2000, CDMA 1xRTT – 800, 1900 MHz, 3G UMTS/HSDPA/HSUPA/HSPA+ – 850, 900, Advanced Wireless Services, AWS (1700), 1900, 2000, 2100 MHz, 4G LTE (telecommunication), LTE – Bands 2, 4, 5, 12, 25, 26, 41, 46, 48, 66, 71 (US, except LG V60 ThinQ 5G UW) 2, 3, 4, 5, 7, 12, 13, 20, 28, 46, 48, 66 (Other Models), 5G SA/NSA/Sub6 – Bands n2, n25, n41, n66, n71 (LG V60 ThinQ 5G) n260, n261, mmWave (LG V60 ThinQ 5G UW)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "169.3 mm H, 77.6 mm W, 8.9 mm D",
+      "Weight": "213-218 g",
+      "Other": "Stereo Speaker,4Ch Microphones, AI CAM, Google Lens, 32-bit Hi-Fi Quad DAC, LG 3D Sound Engine, HDR10+, Qualcomm Quick Charge™ 4+, MIL-STD 810G Compliance, IP68 Water and Dust Resistance, LG Pay, FM Radio"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with LG UX, Current: Android 13 with LG UX",
+      "Chipset": "Qualcomm Snapdragon 865",
+      "CPU": "Octa-core (1x 2.84 GHz Gold Prime, 3x 2.42 GHz Gold, 4x 1.8 GHz Silver) Kryo 585",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8 GB RAM (128GB Model) & (256GB Model)",
+      "Storage": "128 or 256 or 512 GB UFS 3.0",
+      "Card slot": "microSDXC, expandable up to 2 TB"
+    },
+    "Display": {
+      "Display": "6.8\", 1080x2460 (2.6 MP), P-OLED, 20.5:9, 395ppi"
+    },
+    "Cameras": {
+      "Rear camera": "64MP Standard, 27mm, f/1.8, 1/1.72\", 0.8 μm, 78˚, OIS, dual pixel (binning) PDAF, 13MP Super Wide, 12mm, f/1.9, 1/3.4\", 1.0 μm, 117˚, no Auto Focus, 0.3MP ToF 3D, f/1.4 (depth)",
+      "Front camera": "10MP Standard, 30mm, f/1.9, 1/3.1\", 1.22 μm, 72.5˚"
+    },
+    "Sound": {
+      "Sound": "Stereo speaker, 3.5mm headphone jack, 32-bit/384kHz audio (ESS Sabre ES9219), 24-bit/48kHz audio recording, Active noise cancellation with dedicated mic, DTS: X Surround Sound"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-po 5000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac/ax (2.4 & 5GHz), Bluetooth 5.1 with aptX, 4G/LTE, 5G"
+    }
+  },
+  "key": {
+    "display_in": 6.8,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 865",
+    "ram_gb": [
+      8,
+      28,
+      56
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 10,
+    "battery_mah": 5000,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "ip": "IP68",
+    "weight_g": 218,
+    "thickness_mm": 8.9,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG V60 ThinQ",
+      "url": "https://en.wikipedia.org/wiki/LG_V60_ThinQ"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG V60 ThinQ\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG V60 ThinQ",
+    "revid": 1366228312
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

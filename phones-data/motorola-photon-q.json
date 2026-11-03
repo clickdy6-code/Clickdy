@@ -1,0 +1,53 @@
+{
+  "slug": "motorola-photon-q",
+  "brand": "Motorola",
+  "name": "Photon Q",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-08",
+      "Predecessor": "Motorola Photon, Motorola Atrix HD",
+      "Successor": "Droid MAXX/Ultra"
+    },
+    "Body": {
+      "Form factor": "Slate, slider"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2 Jelly Bean upgradable to Android 7.1 Nougat via LineageOS 14.1",
+      "CPU": "1.5 GHz dual-core Snapdragon S4 (MSM8960) or 1.6 GHz dual core Snapdragon 400",
+      "GPU": "Adreno 305 or Adreno 320"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "8 GB on board and MicroSD slot"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "os": "Android 4.1",
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Photon Q",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Photon_Q"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Photon Q\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Photon Q",
+    "revid": 1361476616
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

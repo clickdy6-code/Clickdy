@@ -1,0 +1,73 @@
+{
+  "slug": "lg-cu500",
+  "brand": "LG",
+  "name": "CU500",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Cu500-1.jpg/500px-Cu500-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Cu500-1.jpg/250px-Cu500-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG CU500",
+      "credit": "james hiney/matt carr, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cu500-1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "LG CU575 (Trax)"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE:, 850/900/1800/1900 MHz, WCDMA (HSDPA/UMTS):, 850/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "3.80” x 1.95” x 0.76”",
+      "Weight": "3.70 oz (105 g)"
+    },
+    "Memory": {
+      "RAM": "16 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "65K color TFT, 176x220 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 MP, 1280 x 960 pixels"
+    },
+    "Battery": {
+      "Battery": "Li-polymer, 1100 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 1.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 105
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG CU500",
+      "url": "https://en.wikipedia.org/wiki/LG_CU500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG CU500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG CU500",
+    "revid": 1361474839
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

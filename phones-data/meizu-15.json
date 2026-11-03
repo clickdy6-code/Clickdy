@@ -1,0 +1,99 @@
+{
+  "slug": "meizu-15",
+  "brand": "Meizu",
+  "name": "15",
+  "status": "published",
+  "announced": "2018-04-22",
+  "released": "2018-04-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-04-22",
+      "Series": "Meizu/M",
+      "Predecessor": "Meizu PRO 7",
+      "Successor": "Meizu 16th, Meizu 16X"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "15/Plus: Dual SIM (Nano-SIM), 15 Lite: Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "15: 143 × 72 × 7.3 mm, 15 Plus: 153.8 × 78.3 × 7.3 mm, 15 Lite: 143.62 × 72.38 × 7.45 mm",
+      "Weight": "15: 152 g, 15 Plus: 177 g, 15 Lite: 145 g",
+      "Other": "Fingerprint scanner (built into the mTouch button), accelerometer, gyroscope, proximity sensor, compass, barometer (except 15 Lite)"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 7.1.2 Nougat + Flyme 7, Current: Android 7.1.2 Nougat + Flyme 8",
+      "Chipset": "15: Qualcomm SDM660 Snapdragon 660 (14 nm), 15 Plus: Exynos 8895 (10 nm), 15 Lite: Qualcomm MSM8953-Pro Snapdragon 626 (14 nm)",
+      "CPU": "15: Octa-core (4×2.2 GHz Kryo 260 Gold & 4×1.8 GHz Kryo 260 Silver), 15 Plus: Octa-core (4×2.5 GHz Mongoose M2 & 4×1.7 GHz Cortex-A53), 15 Lite: 8×2.2 GHz Cortex-A53",
+      "GPU": "15: Adreno 512, 15 Plus: Mali-G71 MP20, 15 Lite: Adreno 506"
+    },
+    "Memory": {
+      "RAM": "15: 4 GB LPDDR4X, 15 Plus: 6 GB LPDDR4X, 15 Lite: 4 GB LPDDR3/LPDDR4X",
+      "Storage": "15: 64/128 GB eMMC 5.1, 15 Plus: 64/128 GB UFS 2.1, 15 Lite: 64 GB eMMC 5.1",
+      "Card slot": "15/Plus: None, 15 Lite: microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "15: Super AMOLED, 5.46\", 1920 × 1080 (FHD), 403 ppi, 15 Plus: Super AMOLED 5.95\", 2560 × 1440 (QHD), 494 ppi, 15 Lite: LTPS IPS LCD, 5.46\", 1920 × 1080 (FHD), 403 ppi, All models: 16:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "15/Plus: 12 MP Sony IMX380, 1/2.3\", 1.55 µm, dual pixel PDAF, laser AF, 4-axis OIS + 20 MP, 1/2.8\", 1 µm, AF, portraits only, Video: 4K@30fps, 1080p@30fps, gyro-EIS (15 Plus), 15 Lite: 12 MP Sony IMX362, 1.4 µm, dual pixel PDAF, Video: 1080p@30fps, All models: 6-LED dual-tone flash, HDR, panorama",
+      "Front camera": "20 MP, (wide-angle), 1/2.8\", 1 µm, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "15/Plus: Stereo sound, 15 Lite: Mono sound"
+    },
+    "Battery": {
+      "Battery": "All models: Non-removable, Li-Ion, 15/Lite: 3000 mAh, 15 Plus: 3500 mAh",
+      "Charging": "15/Plus: 24 W mCharge 4 fast charging, 15 Lite: 18 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm Audio, Bluetooth 4.2 (A2DP, LE), Wi-Fi:15/Plus: 802.11 b/g/n/ac (dual-band, Wi-Fi Direct), 15 Lite: 802.11 a/b/g/n (Wi-Fi Direct)Satellite navigation: 15/Lite: GPS, Assisted GNSS, A-GPS, GLONASS, BeiDou, 15 Plus: GPS, Assisted GNSS, A-GPS, GLONASS, BeiDou, Galileo (satellite navigation), Galileo, SBAS, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 5.46,
+    "display_type": "Super AMOLED",
+    "chipset": "15: Qualcomm SDM660 Snapdragon 660",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 20,
+    "battery_mah": 3000,
+    "wired_w": 24,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 152,
+    "thickness_mm": 7.45,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu 15",
+      "url": "https://en.wikipedia.org/wiki/Meizu_15"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu 15\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu 15",
+    "revid": 1361475755
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

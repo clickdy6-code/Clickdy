@@ -1,0 +1,81 @@
+{
+  "slug": "foxconn-nokia-3310",
+  "brand": "Foxconn",
+  "name": "Nokia 3310",
+  "status": "published",
+  "announced": "2017-02-26",
+  "released": "2017-02-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Nokia_3310_3G.png/500px-Nokia_3310_3G.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Nokia_3310_3G.png/250px-Nokia_3310_3G.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 3310",
+      "credit": "SoonSoo90, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3310_3G.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-02-26 (2G), 2017-10-29 (3G)",
+      "Discontinued": "2022-11",
+      "Series": "Nokia Originals",
+      "Predecessor": "Nokia 3310"
+    },
+    "Network": {
+      "Technology": "GSM (2G version), GSM/HSPA (3G version), GSM/TD-SCDMA/LTE-TDD (4G China Mobile (CMCC) version)"
+    },
+    "Body": {
+      "Form factor": "Bar, candybar",
+      "Dimensions": "3310 (2G):, H: 115.6 mm, W: 51 mm, D: 12.8 mm, 3310 (3G/4G), H: 117 mm, W: 52.4 mm, D: 13.35 mm",
+      "Weight": "79.6 g (2G), 84.9 g (3G, Single-SIM), 88.2 g (3G, Dual-SIM), 88.1 g (4G, CMCC)"
+    },
+    "Platform": {
+      "Operating system": "Series 30+ based on MediaTek MAUI (2G), Java-powered Smart Feature OS, later Series 30+ based on Mocor RTOS (3G), AliOS (4G, CMCC)",
+      "Chipset": "MediaTek MT6260 (2G), Spreadtrum SC7701B (3G), Spreadtrum SC9820A (4G, CMCC)"
+    },
+    "Memory": {
+      "RAM": "8 MB (2G), 128 MB (3G), 256 MB (4G)",
+      "Storage": "16 MB (2G version), 128 MB (3G version), 512 MB (4G, CMCC version)",
+      "Card slot": "microSD, up to 32GB (2G and 3G), microSD, up to 64GB (4G, CMCC)"
+    },
+    "Display": {
+      "Display": "2.4 in 240×320 QVGA TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP with LED flash"
+    },
+    "Battery": {
+      "Battery": "1200 mAh Li-ion (removable), standby time:, up to 31 days (2G), up to 27 days (3G, Single-SIM), up to 25.3 days (Dual-SIM, non-3G), up to 24 days (3G, Dual-SIM), up to 15 days (4G, CMCC, GSM-only), up to 12 days (4G, CMCC, TD-SCDMA or LTE-VoLTE)"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "chipset": "MediaTek MT6260",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "five_g": false,
+    "weight_g": 79.6,
+    "thickness_mm": 12.8,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3310 (2017)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3310_%282017%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3310 (2017)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3310 (2017)",
+    "revid": 1379070846
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

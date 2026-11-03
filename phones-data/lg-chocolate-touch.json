@@ -1,0 +1,59 @@
+{
+  "slug": "lg-chocolate-touch",
+  "brand": "LG",
+  "name": "Chocolate Touch",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "LG Chocolate Series",
+      "Predecessor": "LG Chocolate 3 (LG VX-8560)"
+    },
+    "Network": {
+      "Technology": "Verizon Wireless"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Other": "Colors (both battery covers included): black or purple"
+    },
+    "Memory": {
+      "RAM": "1 Gigabyte Dedicated Built-In Storage for Music",
+      "Card slot": "Up To 8 GB MicroSD Card Slot (No Card Included)"
+    },
+    "Display": {
+      "Display": "3.2 Inch QVGA, Resistive Touch Screen"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-megapixel, with autofocus and flash"
+    },
+    "Battery": {
+      "Battery": "850 mAh Standard Battery"
+    },
+    "Connectivity": {
+      "Connectivity": "1X Digital and 3G CDMA"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "battery_mah": 850,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Chocolate Touch (VX8575)",
+      "url": "https://en.wikipedia.org/wiki/LG_Chocolate_Touch_%28VX8575%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Chocolate Touch (VX8575)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Chocolate Touch (VX8575)",
+    "revid": 1373900322
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

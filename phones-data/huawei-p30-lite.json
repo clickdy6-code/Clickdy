@@ -1,0 +1,94 @@
+{
+  "slug": "huawei-p30-lite",
+  "brand": "Huawei",
+  "name": "P30 lite",
+  "status": "published",
+  "announced": "2019-03-14",
+  "released": "2019-03-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Huawei_P30_lite.jpg/500px-Huawei_P30_lite.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Huawei_P30_lite.jpg/250px-Huawei_P30_lite.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei P30 lite",
+      "credit": "EEIM, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_P30_lite.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 14, 2019",
+      "Series": "Pura (formally known as the P series)",
+      "Predecessor": "Huawei P20 lite",
+      "Successor": "Huawei P40 lite"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "152.9 mm H , 72.7 mm W , 7.4 mm D",
+      "Weight": "159 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 (Pie), upgradable to Android 10, EMUI 10.0",
+      "CPU": "HiSilicon Kirin 710",
+      "GPU": "ARM Mali-G51 MP4 GPU"
+    },
+    "Memory": {
+      "RAM": "4 GB/6 GB (depends if its a new edition )",
+      "Storage": "128 GB/256 GB (depends if its a new edition )",
+      "Card slot": "MicroSD, up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.15\", LTPS IPS LCD, 16.7M colors, Full HD , 2312 х 1080"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.8 (wide) autofocus, 8 MP (ultrawide), 2 MP, f/2.4 (depth sensor)",
+      "Front camera": "24 MP, f/2.0"
+    },
+    "Battery": {
+      "Battery": "3340 mAh",
+      "Charging": "18W wired"
+    }
+  },
+  "key": {
+    "display_in": 6.15,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 24,
+    "battery_mah": 3340,
+    "wired_w": 18,
+    "os": "Android 9.0",
+    "five_g": false,
+    "weight_g": 159,
+    "thickness_mm": 7.4,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P30 lite",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P30_lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P30 lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P30 lite",
+    "revid": 1379331534
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "huawei-honor-4c",
+  "brand": "Huawei",
+  "name": "Honor 4C",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ahmed_apk_phone.jpg/500px-Ahmed_apk_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ahmed_apk_phone.jpg/250px-Ahmed_apk_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 4C",
+      "credit": "Ahmed apk, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ahmed_apk_phone.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 2015",
+      "Series": "Huawei Honor",
+      "Predecessor": "Huawei Honor 3C",
+      "Successor": "Huawei Honor 5c"
+    },
+    "Network": {
+      "Technology": "GSM: 850 / 900 / 1800 / 1900 (SIM 1 & SIM 2), HSDPA: 900 / 2100 (CHM-U01)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "143.3 x 71.9 x 8.8 mm (5.64 x 2.83 x 0.35 in)",
+      "Weight": "5.71 oz"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 4.4.2 KitKat , Current: Android 6.0 Marshmallow",
+      "Chipset": "Kirin 620 (28 nm)",
+      "CPU": "1.2 GHz Cortex-A53, octa-core",
+      "GPU": "Mali-450MP4"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSDHC"
+    },
+    "Display": {
+      "Display": "5.0\" IPS LCD; 720 x 1280 px (16:9, 294 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Single , 13MP () with AF , Video up to 1080p@30fps",
+      "Front camera": "Single , 5MP , Video up to 720p"
+    },
+    "Battery": {
+      "Battery": "Li-ion 2550 mAh (non-revomable)"
+    },
+    "Connectivity": {
+      "Connectivity": "GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Kirin 620",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2550,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Honor 4C",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Honor_4C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Honor 4C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Honor 4C",
+    "revid": 1361473769
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

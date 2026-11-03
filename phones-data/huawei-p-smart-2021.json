@@ -1,0 +1,97 @@
+{
+  "slug": "huawei-p-smart-2021",
+  "brand": "Huawei",
+  "name": "P Smart 2021",
+  "status": "published",
+  "announced": "2020-09-28",
+  "released": "2020-09-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "P Smart 2021: 2020-09-28, Y7a: 2020-10-21, Honor 10X Lite: 2020-10-29, Enjoy 20 SE: 2020-12-23",
+      "Series": "Huawei P / Y / Enjoy series, Honor X series",
+      "Predecessor": "Huawei P Smart 2020, Huawei Y7p, Honor 9X Lite",
+      "Successor": "Huawei Nova Y70"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G LTE",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.7 × 76.9 × 9.3 mm",
+      "Weight": "206 g"
+    },
+    "Platform": {
+      "Operating system": "P Smart 2021 / Y7a / Enjoy 20 SE: Android 10 without Google Play Services, EMUI 10.1, Honor 10X Lite: Android 10 without Google Play Services, Magic UI 3.1",
+      "Chipset": "Kirin 710A (14 nm)",
+      "CPU": "Octa-core (4×2.0 GHz Cortex-A73 & 4×1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "RAM": "P Smart 2021 / Y7a / Honor 10X Lite: 4 GB RAM, Enjoy 20 SE: 4 GB or 8 GB RAM",
+      "Storage": "P Smart 2021 / Enjoy 20 SE: 128 GB, Y7a / Honor 10X Lite: 64 GB or 128 GB",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.67 inches, 2400 × 1080 pixels (FHD+), 20:9 aspect ratio, 395 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "P Smart 2021 / Y7a / Honor 10X Lite: 48 MP, f/1.8, 26mm (wide), 1/2\", 0.8µm, PDAF + 8 MP, f/2.4, 120˚ (ultrawide) + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth), Enjoy 20 SE: 13 MP, f/1.8, 26mm (wide), PDAF + 8 MP, f/2.4, 120˚ (ultrawide) + 2 MP, f/2.4 (macro), LED flash, HDR, panorama, Video: 1080p@30/60fps",
+      "Front camera": "8 MP, f/2.0, HDR, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "22.5 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm audio jack, Bluetooth 5.1 (A2DP, LE), NFC (region dependent on P Smart 2021 / included on Honor 10X Lite), Wi-Fi 802.11 b/g/n (Wi-Fi Direct), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "IPS LCD",
+    "chipset": "Kirin 710A",
+    "ram_gb": [
+      4,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 22.5,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 206,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P Smart 2021",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P_Smart_2021"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P Smart 2021\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P Smart 2021",
+    "revid": 1361473975
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

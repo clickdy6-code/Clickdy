@@ -1,0 +1,73 @@
+{
+  "slug": "lg-optimus-slider",
+  "brand": "LG",
+  "name": "Optimus Slider",
+  "status": "published",
+  "announced": "2011-10-17",
+  "released": "2011-10-17",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States: 2011-10-17 (Virgin Mobile)",
+      "Series": "Optimus"
+    },
+    "Network": {
+      "Technology": "CDMA/EVDO Rev. A Dual-band (800/1,900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "115 mm H , 59 mm W , 15 mm D",
+      "Weight": "157 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3",
+      "CPU": "800MHz Qualcomm MSM7627T",
+      "GPU": "Qualcomm Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "150 MB internal storage",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "TFT LCD, 3.2 in diagonal , 320x480 px HVGA"
+    },
+    "Cameras": {
+      "Rear camera": "3.0 MP , Autofocus , Video 640x480 at 24 fps"
+    },
+    "Battery": {
+      "Battery": "1.5Ah , Internal Rechargeable Li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS , Bluetooth 3.0 with A2DP , micro USB 2.0 , Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "os": "Android 2.3",
+    "nfc": false,
+    "weight_g": 157,
+    "thickness_mm": 15,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus Slider",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_Slider"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus Slider\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus Slider",
+    "revid": 1361475319
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "htc-magician",
+  "brand": "HTC",
+  "name": "Magician",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Dimensions": "10.6 x 5.7 x 1.8 cm",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 2003",
+      "CPU": "Intel(R) XScale \"Bulverde\" PXA272 416 MHz CPU"
+    },
+    "Memory": {
+      "RAM": "Flash ROM: 64 MB, RAM: 64 MB SDRAM",
+      "Card slot": "SDIO/MMC card slot"
+    },
+    "Display": {
+      "Display": "QVGA Screen"
+    },
+    "Cameras": {
+      "Rear camera": "VGA Camera (1.3MP)"
+    },
+    "Battery": {
+      "Battery": "1200mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM/GPRS (Tri Band), IrDA, and Bluetooth."
+    }
+  },
+  "key": {
+    "main_mp": 1.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 150
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Magician",
+      "url": "https://en.wikipedia.org/wiki/HTC_Magician"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Magician\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Magician",
+    "revid": 1374925644
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

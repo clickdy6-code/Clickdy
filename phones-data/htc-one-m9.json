@@ -1,0 +1,75 @@
+{
+  "slug": "htc-one-m9",
+  "brand": "HTC",
+  "name": "One M9+",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "HTC One"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "150.99 mm H , 71.99 mm W , 9.61 mm D",
+      "Weight": "163 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.0 \"Lollipop\", Current: Android 6.0 \"Marshmallow\"",
+      "Chipset": "MediaTek HelioX10 MT6795",
+      "CPU": "2.2 GHz octa-core",
+      "GPU": "IMG Rogue G6200"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR4 RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.2 in WQHD , 1440 x 2560 pixels (16:9 Aspect ratio) (565 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "20 MP duo-camera with autofocus, dual-LED dual tone flash, f/2.2 aperture, 27.8 mm lens , 4K (2160p) video recording",
+      "Front camera": "4 MP, UltraPixel fixed-focus camera, ƒ/2.0 aperture, 26.8 mm , 1080p video recording"
+    },
+    "Battery": {
+      "Battery": "2,840 mAh Li-Po"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "chipset": "MediaTek HelioX10 MT6795",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 20,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 4,
+    "battery_mah": 2840,
+    "os": "Android 5.0",
+    "weight_g": 163,
+    "thickness_mm": 9.61
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC One M9+",
+      "url": "https://en.wikipedia.org/wiki/HTC_One_M9%2B"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC One M9+\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC One M9+",
+    "revid": 1382771952
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

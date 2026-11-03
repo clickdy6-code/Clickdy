@@ -1,0 +1,75 @@
+{
+  "slug": "huawei-ascend-w2",
+  "brand": "Huawei",
+  "name": "Ascend W2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013, Q3",
+      "Series": "Huawei Ascend (phone series)",
+      "Predecessor": "Huawei Ascend W1"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA 850/900/1700/1900/2100, Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "134 x 67 x 9.9 mm (5.28 x 2.64 x 0.39 in",
+      "Weight": "160 g (5.64 oz)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8",
+      "Chipset": "Qualcomm Snapdragon S4",
+      "CPU": "Dual-core 1.4 GHz Krait",
+      "GPU": "Qualcomm Adreno 305"
+    },
+    "Memory": {
+      "RAM": "8 GB internal flash, 512 MB RAM",
+      "Card slot": "MicroSD (up to 32GB)"
+    },
+    "Display": {
+      "Display": "4.3\" inches , 800x480 px 16m-color"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 Megapixel, 2592х1944pixels, LED flash, autofocus 720p video",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Ion 1950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "chipset": "Qualcomm Snapdragon S4",
+    "ram_gb": [
+      8
+    ],
+    "battery_mah": 1950,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 160,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ascend W2",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ascend_W2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ascend W2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ascend W2",
+    "revid": 1364509525
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

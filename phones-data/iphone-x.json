@@ -1,0 +1,95 @@
+{
+  "slug": "iphone-x",
+  "brand": "IPhone",
+  "name": "X",
+  "status": "published",
+  "announced": "2017-11-03",
+  "released": "2017-11-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/IPhone_X_vector.svg/500px-IPhone_X_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/IPhone_X_vector.svg/250px-IPhone_X_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone X",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_X_vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-11-03",
+      "Series": "11th",
+      "Predecessor": "iPhone 7 and iPhone 7 Plus",
+      "Successor": "iPhone XS and XS Max"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA2000, 3G, EV-DO, HSPA+, LTE, LTE Advanced"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 143.6 mm, W: 70.9 mm, D: 7.7 mm",
+      "Weight": "174.1 g",
+      "Other": "FaceTime audio- or video-calling, Qi wireless charging, USB-C to Lightning fast charging, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 11",
+      "Chipset": "Apple A11 Bionic",
+      "CPU": "Hexa-core 64-bit (2x high power Monsoon cores at 2.39 GHz + 4x low power Mistral cores at 1.42 GHz)",
+      "GPU": "Apple-designed 3 core, up to 409 GFLOPS"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR4X",
+      "Storage": "64 or 256 GB NVMe"
+    },
+    "Display": {
+      "Display": "5.85 in Super Retina HD: AMOLED, 19.5:9, 2436×1125 px resolution (458 ppi), supplied by Samsung Display 625 cd/m2 max. brightness (typical), with dual-ion exchange-strengthened glass and 3D Touch"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP with six-element lens, quad-LED \"True Tone\" flash with Slow Sync, autofocus, IR filter, burst mode, f/1.8 aperture, 4K video recording at 24, 30, or 60 fps or 1080p at 30 or 60 fps, slow-motion video (1080p at 120 or 240 fps), timelapse with stabilization, panorama, face detection, digital image stabilization, optical image stabilization, telephoto lens with 2× optical zoom / 10× digital zoom, Portrait Lighting (in beta), f/2.4 aperture, optical image stabilization",
+      "Front camera": "7 MP, f/2.2 aperture, burst mode, exposure control, face detection, auto-HDR, auto image stabilization, Retina flash, 1080p HD video recording, Portrait Mode, Portrait Lighting, and Animoji"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "3.81 V 10.35 W·h (2,716 mA·h) Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 5.85,
+    "display_type": "Retina",
+    "chipset": "Apple A11 Bionic",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 7,
+    "os": "iOS 11",
+    "five_g": false,
+    "weight_g": 174.1,
+    "thickness_mm": 7.7,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone X",
+      "url": "https://en.wikipedia.org/wiki/IPhone_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone X",
+    "revid": 1383023007
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

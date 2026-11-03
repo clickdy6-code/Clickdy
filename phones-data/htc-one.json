@@ -1,0 +1,86 @@
+{
+  "slug": "htc-one",
+  "brand": "HTC",
+  "name": "One",
+  "status": "published",
+  "announced": "2014-03-25",
+  "released": "2014-03-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Htc_One_%282014%29.svg/500px-Htc_One_%282014%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Htc_One_%282014%29.svg/250px-Htc_One_%282014%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC One",
+      "credit": "Rafael Fernandez, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htc_One_(2014).svg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-03-25",
+      "Series": "HTC One",
+      "Predecessor": "HTC One (M7)",
+      "Successor": "HTC One M9"
+    },
+    "Network": {
+      "SIM": "MicroSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.4 mm H , 70.6 mm W , 9.4 mm D",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.2 \"KitKat\", Last official: Android 6.0 \"Marshmallow\", Latest: Android 14 via LineageOS",
+      "Chipset": "Qualcomm Snapdragon 801",
+      "CPU": "2.26 GHz quad-core (MSM8974ABv3), 2.45 GHz quad-core (MSM8974ACv3)",
+      "GPU": "Adreno 330 550/578 MHz"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3 RAM",
+      "Storage": "16 or 32 GB flash",
+      "Card slot": "microSD up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.0 in Super LCD 3 with RGB matrix, 1920 x 1080 pixels (16:9 Aspect ratio) (441 ppi), Corning Gorilla Glass 3.0"
+    },
+    "Cameras": {
+      "Rear camera": "4.0-megapixel; 2.0 μm camera with autofocus, UltraPixel BSI image sensor, dual-LED dual tone flash, F2.0 aperture, 28 mm lens, continuous shooting, 2.0-megapixel depth of field sensor.",
+      "Front camera": "5.0-megapixel, 2.0 μm camera, BSI image sensor"
+    },
+    "Battery": {
+      "Battery": "2,600 mAh Li-po battery"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon 801",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2600,
+    "os": "Android 4.4",
+    "weight_g": 160,
+    "thickness_mm": 9.4,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC One (M8)",
+      "url": "https://en.wikipedia.org/wiki/HTC_One_%28M8%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC One (M8)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC One (M8)",
+    "revid": 1361473348
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

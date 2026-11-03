@@ -1,0 +1,81 @@
+{
+  "slug": "foxconn-nokia-130",
+  "brand": "Foxconn",
+  "name": "Nokia 130",
+  "status": "published",
+  "announced": "2017-07-17",
+  "released": "2017-07-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Nokia_130_%282017%29.png/500px-Nokia_130_%282017%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Nokia_130_%282017%29.png/250px-Nokia_130_%282017%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 130",
+      "credit": "AnVuong1222004 (11), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_130_(2017).png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-07-17",
+      "Series": "Nokia 3-digit series"
+    },
+    "Network": {
+      "Technology": "GSM (900/1800 MHz), GPRS and EDGE"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "H: 111.5 mm, W: 48.4 mm, D: 14.2 mm",
+      "Weight": "74.2 g",
+      "Other": "FM radio (requires wired headset), LED flashlight"
+    },
+    "Platform": {
+      "Operating system": "Series 30+"
+    },
+    "Memory": {
+      "RAM": "4 MB",
+      "Storage": "8 MB",
+      "Card slot": "32 GB MicroSDHC"
+    },
+    "Display": {
+      "Display": "1.8 in, TFT, 65K colours, 160 × 120 px (QQVGA), 4:3 aspect-ratio"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP, digital zoom, Images: 640 × 480 px (VGA), Videos: 176 x 144 px, ~10 fps"
+    },
+    "Battery": {
+      "Battery": "Removable, 1020 mAh, BL-5C battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB (USB 2.0), Bluetooth 3.0, 3.5 mm audio jack"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 74.2,
+    "thickness_mm": 14.2,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 130 (2017)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_130_%282017%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 130 (2017)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 130 (2017)",
+    "revid": 1361477015
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

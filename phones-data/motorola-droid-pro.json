@@ -1,0 +1,81 @@
+{
+  "slug": "motorola-droid-pro",
+  "brand": "Motorola",
+  "name": "Droid Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Motorola_Droid_Pro.jpg/500px-Motorola_Droid_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Motorola_Droid_Pro.jpg/250px-Motorola_Droid_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid Pro",
+      "credit": "23haveblue, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Droid_Pro.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Droid"
+    },
+    "Network": {
+      "Technology": "Verizon Wireless, Sprint, Boost Mobile"
+    },
+    "Body": {
+      "Dimensions": "4.68 in H , 2.51 in W , 0.46 in D",
+      "Weight": "4.72 oz",
+      "Other": "Sensors: Proximity, ambient light, eCompass"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2, was later updated to Android 2.3, (Android Ice Cream Sandwich) 4.0.4 (Developing) CyanogenMod 9",
+      "CPU": "TI OMAP3620-1000: ARMv7, 1GHz",
+      "GPU": "PowerVR SGX530"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM, 2 GB flash",
+      "Storage": "Internal: 2 GB flash; external: microSD slot up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.1\" 320x480 HVGA TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel autofocus with 4x digital zoom, dual LED flash, 480p video recorder"
+    },
+    "Battery": {
+      "Battery": "1420 mAh (DROID PRO), 1860 mAh (XPRT) internal rechargeable removable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "CDMA EVDO Rev. A 800/1900 with dual diversity antenna, GSM 850/900/1800/1900MHz, GPRS Class 12, EDGE Class 12, WCDMA category 9/10 850/1900/2100, HSDPA 10.2 mbps, HSUPA 5.76 mbps, stereo Bluetooth v2.1 + EDR (A2DP, AVRCP, HFP, HID, HSP, OPP, PBAP), 802.11b/g/n, USB 2.0 (HS), DLNA"
+    }
+  },
+  "key": {
+    "display_in": 3.1,
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1420,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid Pro",
+      "url": "https://en.wikipedia.org/wiki/Droid_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid Pro",
+    "revid": 1381174500
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

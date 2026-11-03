@@ -1,0 +1,73 @@
+{
+  "slug": "motorola-rokr-e8",
+  "brand": "Motorola",
+  "name": "Rokr E8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Motorola_Moto_ROKR_E8.jpg/500px-Motorola_Moto_ROKR_E8.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Motorola_Moto_ROKR_E8.jpg/250px-Motorola_Moto_ROKR_E8.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Rokr E8",
+      "credit": "Dave Mathews, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Moto_ROKR_E8.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Motorola Z6"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE"
+    },
+    "Body": {
+      "Dimensions": "115 mm × 53 mm × 10.6 mm",
+      "Weight": "100 g"
+    },
+    "Platform": {
+      "CPU": "500MHz CPU with Freescale SCM-A11 baseband processor"
+    },
+    "Memory": {
+      "Storage": "2 GB internal memory",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "Type: TFT; Colors: 250K; Size: 320 × 240 pixels (2 inches)"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel, 8× zoom"
+    },
+    "Battery": {
+      "Battery": "Li-ion 970 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "mini-USB, 3.5 mm headphone jack, Bluetooth Class 2"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "battery_mah": 970,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 100,
+    "thickness_mm": 10.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Rokr E8",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Rokr_E8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Rokr E8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Rokr E8",
+    "revid": 1361476684
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

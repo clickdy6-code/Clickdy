@@ -1,0 +1,96 @@
+{
+  "slug": "huawei-nova-y90",
+  "brand": "Huawei",
+  "name": "Nova Y90",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Nova Y90: , Enjoy 50 Pro: , Nzone 50 Pro:",
+      "Series": "Huawei Y/Enjoy, Nzone",
+      "Predecessor": "Huawei Y9a, Huawei Enjoy 20 Pro",
+      "Successor": "Huawei Nova Y91, Huawei Enjoy 60 Pro"
+    },
+    "Network": {
+      "Technology": "Nova Y90/Enjoy 50 Pro: GSM, 3G, 4G (LTE), Nzone 50 Pro: GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Nova Y90: Nano-SIM or Dual SIM (Nano-SIM), Enjoy 50 Pro/Nzone 50 Pro:: Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 163.3 mm, W: 74.7 mm, T: 8.4 mm",
+      "Weight": "195 g"
+    },
+    "Platform": {
+      "Operating system": "Nova Y90:, Original: Android 11 (without Google services) + EMUI 12, Current: Android 12 (without Google services) + EMUI 14.2, Enjoy 50 Pro/Nzone 50 Pro:, Original: HarmonyOS 2.0, Current: HarmonyOS 4.2",
+      "Chipset": "Nova Y90/Enjoy 50 Pro: Qualcomm SM6225 Snapdragon 680 4G (6 nm), Nzone 50 Pro: MediaTek Dimensity 700 (7 nm)",
+      "CPU": "Nova Y90/Enjoy 50 Pro: Octa-core (4×2.4 GHz Kryo 265 Gold & 4×1.9 GHz Kryo 265 Silver), Nzone 50 Pro: Octa-core (2×2.2 GHz Cortex-A76 & 6×2 GHz Cortex-A55)",
+      "GPU": "Nova Y90/Enjoy 50 Pro: Adreno 610, Nzone 50 Pro: Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "Nova Y90: 4/6/8 GB, Enjoy 50 Pro/Nzone 50 Pro: 8 GB, LPDDR4X",
+      "Storage": "Nova Y90: 128 GB, Enjoy 50 Pro/Nzone 50 Pro: 128/256 GB, UFS 2.2"
+    },
+    "Display": {
+      "Display": "IPS LCD, 90 Hz, 6.7\", 2388 × 1080 (FHD+), 19.9:9, 391 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, (wide), PDAF + 2 MP, (macro) + 2 MP, (depth sensor), LED flash, panorama, HDR, Video: 1080p@30fps",
+      "Front camera": "Nova Y90/Enjoy 50 Pro: 8 MP, Nzone 50 Pro: 16 MP, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "40 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm audio, Bluetooth 5.0 (A2DP, LE), NFC (Enjoy 50 Pro/region/market dependent Nova Y90), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct), GPS (A-GPS), GLONASS, BeiDou, Galileo, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "Nova Y90/Enjoy 50 Pro: Qualcomm SM6225 Snapdragon 680 4G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 40,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 195,
+    "thickness_mm": 8.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova Y90",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_Y90"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova Y90\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova Y90",
+    "revid": 1368314118
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

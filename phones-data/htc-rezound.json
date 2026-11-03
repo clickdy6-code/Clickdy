@@ -1,0 +1,82 @@
+{
+  "slug": "htc-rezound",
+  "brand": "HTC",
+  "name": "Rezound",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "HTC Amaze 4G , HTC Sensation , HTC Thunderbolt",
+      "Successor": "Droid DNA"
+    },
+    "Network": {
+      "Technology": "Dual-band CDMA/EVDO Rev. A (800 1900 MHz), LTE 700 MHz (band 13)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "129 mm (h), 65.5 mm (w), 13.65 mm (d)",
+      "Weight": "170g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 Gingerbread with HTC Sense 3.5 , Android 4.0.4 update with HTC Sense 3.6",
+      "CPU": "1.5 GHz Dual-Core Qualcomm Snapdragon S3 MSM8660",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1 GB",
+      "Storage": "16 GB",
+      "Card slot": "microSD card (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "4.3\" 720x1280 Super LCD HD Display (342 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP autofocus with dual LED flash",
+      "Front camera": "2 MP fixed-focus"
+    },
+    "Battery": {
+      "Battery": "1620 mAh Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "aGPS, Bluetooth v3.0, Wi-Fi: 802.11 a/b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 1620,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 170,
+    "thickness_mm": 13.65
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Rezound",
+      "url": "https://en.wikipedia.org/wiki/HTC_Rezound"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Rezound\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Rezound",
+    "revid": 1361473424
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "motorola-moto-x",
+  "brand": "Motorola",
+  "name": "Moto X",
+  "status": "published",
+  "announced": "2014-09-05",
+  "released": "2014-09-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Motorola_Moto_X_%2815697321143%29.jpg/500px-Motorola_Moto_X_%2815697321143%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Motorola_Moto_X_%2815697321143%29.jpg/250px-Motorola_Moto_X_%2815697321143%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto X",
+      "credit": "Maurizio Pesce from Milan, Italia, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Moto_X_(15697321143).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-09-05",
+      "Predecessor": "Moto X (1st generation)",
+      "Successor": "Moto X Style"
+    },
+    "Body": {
+      "Form factor": "Touchscreen Bar",
+      "Dimensions": "140.8 mm H , 72.4 mm W , 9.9 mm D",
+      "Weight": "144 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.4 \"KitKat\", Current: Android 6.0 \"Marshmallow\"",
+      "CPU": "2.5 GHz quad-core ARM Qualcomm Snapdragon 801",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16, 32, and 64 GB"
+    },
+    "Display": {
+      "Display": "5.2\" (132 mm) 1920 × 1080 pixel resolution, Super AMOLED (423 ppi), Corning Gorilla Glass 3 with Native Damage Resistance (NDR)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, dual LED flash, 4K Video Recording, Slow Motion Recording",
+      "Front camera": "2 MP HD recording up to 1080p resolution"
+    },
+    "Sound": {
+      "Sound": "Front-facing mono speaker"
+    },
+    "Battery": {
+      "Battery": "2300 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "GPS, Wi-Fi, NFC, Bluetooth, USB, USB OTG, Miracast, Infrared motion sensors"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "Super AMOLED",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 2,
+    "battery_mah": 2300,
+    "os": "Android 4.4",
+    "nfc": true,
+    "weight_g": 144,
+    "thickness_mm": 9.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto X (2nd generation)",
+      "url": "https://en.wikipedia.org/wiki/Moto_X_%282nd_generation%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto X (2nd generation)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto X (2nd generation)",
+    "revid": 1361476361
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "htc-desire-626",
+  "brand": "HTC",
+  "name": "Desire 626",
+  "status": "published",
+  "announced": "2015-08-27",
+  "released": "2015-08-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-08-27",
+      "Discontinued": "2018",
+      "Series": "Desire"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "146.9 mm H , 70.9 mm W , 8.2 mm D",
+      "Weight": "140 g",
+      "Other": "Accelerometer, compass, proximity sensor"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.4.4 KitKat; Current: Android 5.1.0 Lollipop, 626s: Original: Android 5.1 Lollipop; Current: Android 6.0 Marshmallow",
+      "Chipset": "Qualcomm Snapdragon 210 , Qualcomm Snapdragon 410 , MediaTek MT6752",
+      "CPU": "1.1 GHz quad-core ARM Cortex-A7 (210), 1.2 GHz quad-core ARM Cortex-A53 (410), 1.7 GHz octa-core ARM Cortex-A53 (MT6752)",
+      "GPU": "Adreno 304 (210), Adreno 306 (410), ARM Mali-T760 MP2 (MT6752)"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR2 RAM (410), 1.5 GB LPDDR2 RAM (210), 2 GB RAM (MT6752)",
+      "Storage": "8 or 16 GB",
+      "Card slot": "Up to 32 GB"
+    },
+    "Display": {
+      "Display": "5 in, 720 x 1280 pixels (294 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP with LED flash, 1080p video at 30fps, f/2.0 aperture, 626s: 8 MP with 720p video at 30fps",
+      "Front camera": "5 MP, 720p video, 626s: 2 MP"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi: 802.11 b/g/n, GPS with A-GPS, Bluetooth 4.0 with aptX, 626s: Bluetooth 4.1, DLNA, microUSB 2.0 for charging"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "chipset": "Qualcomm Snapdragon 210",
+    "ram_gb": [
+      1,
+      2,
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "os": "Android 4.4",
+    "nfc": false,
+    "weight_g": 140,
+    "thickness_mm": 8.2,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire 626",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_626"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire 626\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire 626",
+    "revid": 1374110502
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

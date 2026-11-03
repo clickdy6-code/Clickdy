@@ -1,0 +1,82 @@
+{
+  "slug": "lg-optimus-3d",
+  "brand": "LG",
+  "name": "Optimus 3D",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/LG_Optimus_3D%282%29.jpg/500px-LG_Optimus_3D%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/LG_Optimus_3D%282%29.jpg/250px-LG_Optimus_3D%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus 3D",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Optimus_3D(2).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Optimus",
+      "Predecessor": "LG Optimus 2X",
+      "Successor": "LG Optimus 3D Max"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "127 mm H, 66 mm W, 12 mm D",
+      "Weight": "170 g",
+      "Other": "Wi-Fi Hotspot, A-GPS, FM-radio"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 Froyo (upgradeable to 2.3 Gingerbread 4.0 Ice Cream Sandwich, and 4.1.2 Jellybean)",
+      "CPU": "1 GHz dual-core ARM Cortex-A9 SoC processor; TI OMAP4430",
+      "GPU": "PowerVR SGX540 @ 304 MHz"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "8 GB on board eMMC",
+      "Card slot": "Micro-SDHC (32 GB max)"
+    },
+    "Display": {
+      "Display": "800×480 px, 4.3 in (10.9 cm) at 217 ppi WVGA TFT LCD Autostereoscopic 3D-capable (glasses-free)"
+    },
+    "Cameras": {
+      "Rear camera": "Backside Illumination Dual 5 megapixel stereo cameras with autofocus",
+      "Front camera": "VGA (0.3 MP)"
+    },
+    "Battery": {
+      "Battery": "1500 mAh Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "tri-band CDMA/EVDO Rev. A (800/800Bluetooth v3.0 + HS, Micro USB, HDMI (via MHL)"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "TFT",
+    "storage_gb": [
+      8
+    ],
+    "front_mp": 0.3,
+    "battery_mah": 1500,
+    "os": "Android 2.2",
+    "nfc": false,
+    "weight_g": 170,
+    "thickness_mm": 12
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus 3D",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_3D"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus 3D\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus 3D",
+    "revid": 1361475194
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

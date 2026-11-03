@@ -1,0 +1,89 @@
+{
+  "slug": "foxconn-nokia-235-4g",
+  "brand": "Foxconn",
+  "name": "Nokia 235 4G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nokia_235_4G.jpg/500px-Nokia_235_4G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nokia_235_4G.jpg/250px-Nokia_235_4G.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 235 4G",
+      "credit": "Nash Izumrud, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_235_4G.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-05",
+      "Predecessor": "Nokia 225 4G (2020)"
+    },
+    "Network": {
+      "Technology": "GSM 850/1800/1900, UMTS 850/900/2100, LTE Varies by regional model, GPRS, EDGE, HSPA",
+      "SIM": "Dual nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "127.3 mm H, 54.2 mm W, 11.6 mm D",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30+",
+      "Chipset": "Unisoc T107"
+    },
+    "Memory": {
+      "RAM": "64 MB",
+      "Storage": "128 MB",
+      "Card slot": "microSDHC, up to 32 GB (dedicated slot, hot-swappable)"
+    },
+    "Display": {
+      "Display": "2.8 in diagonal IPS LCD, 240 × 320 px QVGA, 1:1. (or 3:4) aspect-ratio full-screen, 16.7M colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP (1600×1200px max.), LED flash, QVGA video recording (320×240 px. MPEG4 at 15 fps max.)"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "Nokia BA-L4M, 1450 mAh, 3.8 V user replaceable Li-ion",
+      "Charging": "USB-C"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0 with A2DP and LE, USB 2.0 (USB-C)"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "IPS LCD",
+    "chipset": "Unisoc T107",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1450,
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 120,
+    "thickness_mm": 11.6,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 235 4G",
+      "url": "https://en.wikipedia.org/wiki/Nokia_235_4G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 235 4G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 235 4G",
+    "revid": 1368512684
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

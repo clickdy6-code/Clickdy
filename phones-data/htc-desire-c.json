@@ -1,0 +1,86 @@
+{
+  "slug": "htc-desire-c",
+  "brand": "HTC",
+  "name": "Desire C",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/HTC_Desire_C.JPG/500px-HTC_Desire_C.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/HTC_Desire_C.JPG/250px-HTC_Desire_C.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Desire C",
+      "credit": "Fah112778, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Desire_C.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Desire",
+      "Predecessor": "HTC Explorer, HTC Wildfire S",
+      "Successor": "HTC Desire 200, HTC Desire 300"
+    },
+    "Network": {
+      "SIM": "Mini SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "107.2×60.6×11.95 mm",
+      "Weight": "98 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.3 with HTC Sense 4.0a, unofficially upgradable to Android 5.0 via Cyanogenmod",
+      "CPU": "GSM - 600 MHz Single-core Qualcomm Snapdragon S1 (MSM7225A), CDMA - 1 GHz Single-core Qualcomm Snapdragon S2 (MSM8655)"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "3.5 in 320×480 pixels, TFT"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Removable 1230 mAh Li-ion (BL01100)"
+    },
+    "Connectivity": {
+      "Connectivity": "2G: 850 900 1800 1900 MHz, 3G: 850 900 1900 2100 MHz, HSDPA: 14.4 Mbps, Wi-Fi: 802.11b/g/n, CDMA: 850 1700 1900 MHz, Bluetooth: v4.0 with apt-x enabled"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1230,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 98
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire C",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire C",
+    "revid": 1361473220
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

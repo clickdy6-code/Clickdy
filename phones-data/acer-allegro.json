@@ -1,0 +1,51 @@
+{
+  "slug": "acer-allegro",
+  "brand": "Acer",
+  "name": "Allegro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Platform": {
+      "Operating system": "Windows Phone",
+      "CPU": "(Qualcomm Snapdragon MSM8255), 1 GHz Scorpion processor /, Adreno 205 graphics"
+    },
+    "Memory": {
+      "RAM": "Flash Memory 8 GB, 512 MB ROM, 512 MB RAM"
+    },
+    "Display": {
+      "Display": "3.6 in. LCD capacitive touchscreen, 480x800 px 16m-color WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel autofocus"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + EDR, Wi-Fi 802.11b/g/n, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.6,
+    "display_type": "LCD",
+    "ram_gb": [
+      8
+    ],
+    "os": "Windows Phone",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer Allegro",
+      "url": "https://en.wikipedia.org/wiki/Acer_Allegro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer Allegro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer Allegro",
+    "revid": 1361472485
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

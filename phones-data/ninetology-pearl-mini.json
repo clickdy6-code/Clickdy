@@ -1,0 +1,72 @@
+{
+  "slug": "ninetology-pearl-mini",
+  "brand": "Ninetology",
+  "name": "Pearl Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Touch"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800, GPRS/EDGE class B, multislot class 33, UMTS 2011, HSDPA Cat9, 10.2 Mbps"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "Width: 62.0 mm, Height: 115.3 mm, Thickness: 11.8 mm",
+      "Weight": "108 g"
+    },
+    "Platform": {
+      "Operating system": "Android Gingerbread 2.3",
+      "CPU": "Qualcomm Snapdragon Single Core 1.0 GHz"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM, 512 MB ROM",
+      "Storage": "-",
+      "Card slot": "up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "Capacitive Display, 321x 480px HVGA, 3.5\", 262K Colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP",
+      "Front camera": "-"
+    },
+    "Battery": {
+      "Battery": "1300 mAh Li-Ion battery (removable), micro USB and 2 mm DC plug charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g/n (2.4 GHz), bluetooth 3.0, micro USB 2.0, 3.5 mm AV connector (audio in/out), Dual SIM card Capability, FM receiver"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1300,
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 108,
+    "thickness_mm": 11.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Ninetology Pearl Mini",
+      "url": "https://en.wikipedia.org/wiki/Ninetology_Pearl_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Ninetology Pearl Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Ninetology Pearl Mini",
+    "revid": 1369168115
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

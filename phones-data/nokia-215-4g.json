@@ -1,0 +1,71 @@
+{
+  "slug": "nokia-215-4g",
+  "brand": "Nokia",
+  "name": "215 4G",
+  "status": "published",
+  "announced": "2020-10-17",
+  "released": "2020-10-17",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-10-17",
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia 215",
+      "Successor": "Nokia 215 4G (2024)"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "124.7 mm H , 51 mm W , 13.7 mm D",
+      "Weight": "90.3 g",
+      "Other": "FM radio (built-in antenna), Flashlight (LED), Snake"
+    },
+    "Platform": {
+      "Operating system": "Series 30+",
+      "CPU": "1.0 GHz Cortex-A7 (Unisoc UMS9117)"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Storage": "128 MB",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "2.4-inch TFT LCD, 256K colors , 240 x 320 pixels, 4:3 ratio (~167 ppi)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "1150 mAh Li-ion (removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Micro-USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1150,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 90.3,
+    "thickness_mm": 13.7,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 215 4G",
+      "url": "https://en.wikipedia.org/wiki/Nokia_215_4G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 215 4G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 215 4G",
+    "revid": 1361477107
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

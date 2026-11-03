@@ -1,0 +1,72 @@
+{
+  "slug": "lenovo-ideaphone-a820",
+  "brand": "Lenovo",
+  "name": "IdeaPhone A820",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "A Series"
+    },
+    "Network": {
+      "Technology": "(GSM/GPRS/EDGE): 900, 1,800 and 1,900 MHz; , 3G: 900, and 2,100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "135 mm H, 68.2 mm W, 9.9 mm D.",
+      "Weight": "151 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2 \"Jelly Bean\"",
+      "Chipset": "MediaTek MT6589",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "PowerVR SGX544"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.5 in 960x540 px (245 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels (3624x2448 px)"
+    },
+    "Battery": {
+      "Battery": "2000 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "chipset": "MediaTek MT6589",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 2000,
+    "os": "Android 4.1",
+    "five_g": false,
+    "weight_g": 151,
+    "thickness_mm": 9.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Lenovo IdeaPhone A820",
+      "url": "https://en.wikipedia.org/wiki/Lenovo_IdeaPhone_A820"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Lenovo IdeaPhone A820\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Lenovo IdeaPhone A820",
+    "revid": 1361475717
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

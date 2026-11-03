@@ -1,0 +1,72 @@
+{
+  "slug": "nec-casio-casio-exilim-keitai-ca-01c",
+  "brand": "NEC Casio",
+  "name": "Casio EXILIM Keitai CA-01C",
+  "status": "published",
+  "announced": "2011-07-16",
+  "released": "2011-07-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/NTT_docomo_CA-01C_%281%29.jpg/500px-NTT_docomo_CA-01C_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/NTT_docomo_CA-01C_%281%29.jpg/250px-NTT_docomo_CA-01C_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "NEC Casio Casio EXILIM Keitai CA-01C",
+      "credit": "KoroKoroColon, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NTT_docomo_CA-01C_(1).jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-07-16",
+      "Series": "docomo PRIME series"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA), 2G: GSM"
+    },
+    "Body": {
+      "Form factor": "Waterproof 2-axis flip phone",
+      "Dimensions": "114 mm H , 51 mm W , 16.9 mm D (thickest section approx. 21.0 mm)",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Access Linux Platform + OPP(L)",
+      "CPU": "Texas Instruments OMAP3630"
+    },
+    "Memory": {
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "Main: 3.4 in (86 mm) TFT LCD (3D capable), 480 × 854 Full Wide VGA, 16,777,216 colors, Sub: 0.8 in (20 mm) Monochrome OLED, 96 × 35 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "16.3 MP backside-illuminated CMOS, HD video recording, image stabilization, face detection, 3D capture"
+    }
+  },
+  "key": {
+    "display_in": 3.4,
+    "display_type": "TFT",
+    "main_mp": 16.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "weight_g": 149,
+    "thickness_mm": 16.9,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Casio EXILIM Keitai CA-01C",
+      "url": "https://en.wikipedia.org/wiki/Casio_EXILIM_Keitai_CA-01C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Casio EXILIM Keitai CA-01C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Casio EXILIM Keitai CA-01C",
+    "revid": 1370700495
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

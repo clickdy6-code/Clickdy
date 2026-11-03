@@ -1,0 +1,80 @@
+{
+  "slug": "motorola-cliq",
+  "brand": "Motorola",
+  "name": "Cliq",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Motorola_Dext_%283949495679%29.jpg/500px-Motorola_Dext_%283949495679%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Motorola_Dext_%283949495679%29.jpg/250px-Motorola_Dext_%283949495679%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Cliq",
+      "credit": "Enrique Dans from Madrid, Spain, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Dext_(3949495679).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Europe, 2009-10"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, EDGE , UMTS 900/1700/2100"
+    },
+    "Body": {
+      "Form factor": "Slider smartphone",
+      "Dimensions": "114 mm H, 58 mm W, 15.6 mm D",
+      "Weight": "163 g"
+    },
+    "Platform": {
+      "Operating system": "Android v1.5 Cupcake, 2.1 Eclair upgrade, US only, 2.2 and 2.3 and 4.0 via Cyanogen 6,7,9",
+      "CPU": "528 MHz Qualcomm MSM7201A processor"
+    },
+    "Memory": {
+      "RAM": "RAM: 256MB, ROM: 512MB",
+      "Storage": "Flash memory: 256 MB, 199 free , microSD slot: supports up to 32 GB",
+      "Card slot": "microSD (TransFlash), up to 32GB, 2GB included"
+    },
+    "Display": {
+      "Display": "320 x 480 px, (0.15 megapixels) 3.2 in, TFT LCD, HVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel with auto focus, geotagging"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-ion 1420 mAh, stand-by: up to 320 h, talk time: up to 6 h"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g), Bluetooth 2.0+EDR, Micro USB 2.0, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1420,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 163,
+    "thickness_mm": 15.6,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Cliq",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Cliq"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Cliq\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Cliq",
+    "revid": 1361637609
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

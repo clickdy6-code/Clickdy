@@ -1,0 +1,75 @@
+{
+  "slug": "foxconn-hmd-barbie-phone",
+  "brand": "Foxconn",
+  "name": "HMD Barbie Phone",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/HMDBarbie.png/500px-HMDBarbie.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/HMDBarbie.png/250px-HMDBarbie.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn HMD Barbie Phone",
+      "credit": "KeEn, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HMDBarbie.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2024"
+    },
+    "Network": {
+      "Technology": "GSM GPRS EDGE 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Feature phone",
+      "Dimensions": "H: 201 mm, W: 55.1 mm, D: 10.9 mm (unfolded)",
+      "Weight": "123.5 g"
+    },
+    "Platform": {
+      "Operating system": "Mocor OS (Series 30+ UI), KaiOS (Smart Feature OS UI)",
+      "Chipset": "Unisoc T107 (international version), Qualcomm QM215 Snapdragon 215 (USA version)"
+    },
+    "Memory": {
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.8 in 240 x 320 QVGA TFT"
+    },
+    "Battery": {
+      "Battery": "1450 mAh Li-ion, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, Bluetooth 5.0, FM radio, Stereo, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "chipset": "Unisoc T107",
+    "battery_mah": 1450,
+    "os": "KaiOS (Smart Feature OS UI)",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 123.5,
+    "thickness_mm": 10.9,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HMD Barbie Phone",
+      "url": "https://en.wikipedia.org/wiki/HMD_Barbie_Phone"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HMD Barbie Phone\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HMD Barbie Phone",
+    "revid": 1361473090
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

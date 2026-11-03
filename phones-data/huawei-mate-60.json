@@ -1,0 +1,103 @@
+{
+  "slug": "huawei-mate-60",
+  "brand": "Huawei",
+  "name": "Mate 60",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Huawei_Mate_60.jpg/500px-Huawei_Mate_60.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Huawei_Mate_60.jpg/250px-Huawei_Mate_60.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate 60",
+      "credit": "メイド理世, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_60.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Unreleased direct listing",
+      "Series": "Huawei Mate",
+      "Predecessor": "Huawei Mate 50",
+      "Successor": "Huawei Mate 70"
+    },
+    "Network": {
+      "Technology": "GSM/ CDMA/ HSPA / CDMA2000/ LTE",
+      "SIM": "Card slot 1: Nano-SIM , Card slot 2: Choose one of the two Nano-SIM or NM memory card"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Mate 60: , 161.4 mm height, 76 mm Width, 7.95 mm Thickness, Mate 60 Pro: , 163 mm Height, 79 mm Width, 8.1 mm Thickness",
+      "Weight": "Mate 60: 209 g, Mate 60 Pro/60 Pro+: 225 g",
+      "Other": "IP68 dustproof and waterproof, second generation Kunlun glass"
+    },
+    "Platform": {
+      "Operating system": "HarmonyOS 4, Current: HarmonyOS 6",
+      "Chipset": "HiSilicon Kirin 9000S (7nm)",
+      "CPU": "HiSilicon Kirin 9000S",
+      "GPU": "Maleoon 910 MP4, up to 2.056 TFLOPS (FP32) clocked at 750MHz"
+    },
+    "Memory": {
+      "RAM": "Mate 60/Pro:, 12GB RAM, Mate 60 Pro+:, 16GB RAM, (LPDDR5 specification)",
+      "Storage": "256GB (Pro+ and RS do not have this specification)/512GB/1TB ROM, (UFS 3.1 specification)",
+      "Card slot": "NM card up to 256GB"
+    },
+    "Display": {
+      "Display": "Mate 60:, 6.69 in, 2688 x 1216 px resolution, Mate 60 Pro:, 6.82 in, 2720 x 1260 px resolution, 19.5:9 ratio (~428 ppi density), All: OLED, 1-120Hz LTPO adaptive refresh rate, 300Hz touch sampling rate"
+    },
+    "Cameras": {
+      "Rear camera": "Mate 60: , Main lens: 50 million pixels (F1.4-F4.0 aperture, OIS optical image stabilization) supports super optical zoom, Ultra wide angle: 12 million pixels (F2.2 aperture), Telephoto: 12 million pixel periscope (F3.4 aperture, OIS optical image stabilization), Mate 60 Pro:, Main lens: 50 million pixels (F1.4-F4.0 aperture, OIS optical image stabilization) supports super optical zoom, Ultra wide angle: 12 million pixels (F2. 2 aperture), Telephoto: 48 million pixels (F3.0 aperture, OIS optical image stabilization)",
+      "Front camera": "13 million pixel ultra-wide angle (F2.4 aperture), ToF camera"
+    },
+    "Sound": {
+      "Sound": "stereo"
+    },
+    "Battery": {
+      "Battery": "Mate 60:, Li-Po 4750mAh (typical), 4750mAh (rated), not removable or replaceable, Mate 60 Pro:, Li-Po 5000mAh (typ), 4900mAh (rated), not removable or replaceable",
+      "Charging": "Mate 60:, Wired fast charging: 66W, Wireless fast charging: 50W, Reverse wireless charging: 7.5W, Mate 60 Pro:, Wired fast charging: 88W, Wireless fast charging: 50W, Reverse wireless charging: 20W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/ax, 2 × 2 MIMO, HE160, 1024 QAM, 8 Spatial-stream Sounding MU-MIMO, Bluetooth 5.2, NearLink1.0 (Star Flash), supports SBC, AAC, supports LDAC and L2HC high-definition audio, USB 3.1 Gen 1 Type-C"
+    }
+  },
+  "key": {
+    "display_in": 6.69,
+    "display_type": "OLED",
+    "refresh_hz": 300,
+    "chipset": "HiSilicon Kirin 9000S",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "battery_mah": 4750,
+    "wireless_w": 50,
+    "wired_w": 88,
+    "os": "HarmonyOS 4",
+    "five_g": false,
+    "nfc": false,
+    "ip": "IP68",
+    "weight_g": 209,
+    "thickness_mm": 7.95
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate 60",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate 60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate 60",
+    "revid": 1361473838
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

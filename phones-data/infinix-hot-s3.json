@@ -1,0 +1,80 @@
+{
+  "slug": "infinix-hot-s3",
+  "brand": "Infinix",
+  "name": "Hot S3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-02",
+      "Series": "Hot S"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153 mm x 72.9 mm x 8.4 mm",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 430",
+      "CPU": "Octa-core 1.4 GHz Cortex-A53",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "3 RAM",
+      "Storage": "32"
+    },
+    "Display": {
+      "Display": "5.7 inches IPS LCD, 720 x 1440 pixels, ~282 ppi density"
+    },
+    "Cameras": {
+      "Rear camera": "13",
+      "Front camera": "20"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable 4000 mAh Li-Polymer",
+      "Charging": "10W charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Wi-Fi Direct, Wi-Fi Hotspot, Bluetooth, GPS"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 430",
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 150,
+    "thickness_mm": 8.4,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Infinix Hot S3",
+      "url": "https://en.wikipedia.org/wiki/Infinix_Hot_S3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Infinix Hot S3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Infinix Hot S3",
+    "revid": 1361474650
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

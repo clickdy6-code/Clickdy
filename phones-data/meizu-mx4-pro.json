@@ -1,0 +1,90 @@
+{
+  "slug": "meizu-mx4-pro",
+  "brand": "Meizu",
+  "name": "MX4 Pro",
+  "status": "published",
+  "announced": "2014-11-19",
+  "released": "2014-11-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-11-19",
+      "Series": "Meizu MX Series",
+      "Successor": "Meizu PRO 5"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "150.1 mm H, 77.0 mm W, 9.0 mm D",
+      "Weight": "158 g",
+      "Other": "Dual SIM support with dual standby mode"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS, based on Android 4.4 KitKat",
+      "Chipset": "Samsung Exynos 5430",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A15 & 4x1.5 GHz Cortex-A7)",
+      "GPU": "Mali-T628 MP6"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3",
+      "Storage": "16 GB, 32 GB or 64 GB flash memory",
+      "Card slot": "Not supported"
+    },
+    "Display": {
+      "Display": "5.5 inch diagonal JDI , 1536x2560 px (546 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "20.7 MP, autofocus, ƒ/2.2 aperture, LED flash, 4K recording",
+      "Front camera": "5.0 MP, ƒ/2.0 aperture"
+    },
+    "Battery": {
+      "Battery": "3350 mAh Li-Ion rechargeable battery, not replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.0 with BLE, Dual-band WiFi (802.11 a/b/g/n/ac)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "chipset": "Samsung Exynos 5430",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16,
+      32,
+      64
+    ],
+    "main_mp": 20.7,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "battery_mah": 3350,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 158,
+    "thickness_mm": 9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu MX4 Pro",
+      "url": "https://en.wikipedia.org/wiki/Meizu_MX4_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu MX4 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu MX4 Pro",
+    "revid": 1374513398
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

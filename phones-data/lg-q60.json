@@ -1,0 +1,101 @@
+{
+  "slug": "lg-q60",
+  "brand": "LG",
+  "name": "Q60",
+  "status": "published",
+  "announced": "2019-02-20",
+  "released": "2019-02-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/LG_Q60_in_Unreleased_Silver_Colour.jpg/500px-LG_Q60_in_Unreleased_Silver_Colour.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/LG_Q60_in_Unreleased_Silver_Colour.jpg/250px-LG_Q60_in_Unreleased_Silver_Colour.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Q60",
+      "credit": "TipzTeam, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Q60_in_Unreleased_Silver_Colour.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-02-20",
+      "Predecessor": "LG Q6 , LG Q7",
+      "Successor": "LG Q61"
+    },
+    "Network": {
+      "Technology": "2G GSM – 850, 900, 1800, 1900 MHz, SIM 1 and SIM 2, 3G HSDPA – 850, 900, 1900, 2100 MHz, 4G LTE (telecommunication), LTE - 1, 3, 7, 8, 20, 38",
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.3 mm x 77 mm x 8.7 mm",
+      "Weight": "172 g",
+      "Other": "MIL-STD-810G compliant, fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 with LG UX 8.0, Current: Android 10 with LG UX 9.0",
+      "Chipset": "MediaTek Helio P22 , MT6762",
+      "CPU": "Octa-core , 2.0 GHz Cortex-A53",
+      "GPU": "650 MHz PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "3 GB of RAM",
+      "Storage": "64 GB of internal storage",
+      "Card slot": "microSDXC, expandable up to 2 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD capacitive touchscreen, 6.26 in, 720p, (19:9 aspect ratio, ~269 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP (standard), f/2.0, 26mm, with PDAF, 5 MP (wide), f/2.2, 13mm, 2 MP (depth), f/2.4, LED flash, panorama, HDR, 1080p@30fps recording",
+      "Front camera": "13 MP, 1/3.1\", 1.12μm, 1080p@30fps recording"
+    },
+    "Sound": {
+      "Sound": "Mono speakers, 3.5mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable lithium polymer 3500 mAh battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot, Bluetooth 5.0, A2DP, LE, dual-band A-GPS, GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 6.26,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek Helio P22",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 13,
+    "battery_mah": 3500,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 172,
+    "thickness_mm": 8.7,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Q60",
+      "url": "https://en.wikipedia.org/wiki/LG_Q60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Q60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Q60",
+    "revid": 1361475366
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

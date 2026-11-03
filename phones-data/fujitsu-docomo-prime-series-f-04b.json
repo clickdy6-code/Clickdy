@@ -1,0 +1,75 @@
+{
+  "slug": "fujitsu-docomo-prime-series-f-04b",
+  "brand": "Fujitsu",
+  "name": "Docomo PRIME series F-04B",
+  "status": "published",
+  "announced": "2010-03-26",
+  "released": "2010-03-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/FOMA_F-04B_01.JPG/500px-FOMA_F-04B_01.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/FOMA_F-04B_01.JPG/250px-FOMA_F-04B_01.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Fujitsu Docomo PRIME series F-04B",
+      "credit": "Taisyo, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:FOMA_F-04B_01.JPG",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-03-26",
+      "Series": "docomo PRIME series"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA, HSDPA), 2G: GSM (EDGE), Frequencies:, 3G: 800 MHz, 850 MHz, 1.7 GHz, 2 GHz, 2G: 900 MHz, 1800 MHz, 1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Separable, slider, touchscreen",
+      "Dimensions": "Joined: 114 mm H , 51 mm W , 20 mm D, Display unit: 114 mm H , 51 mm W , 9.8 mm D, Key unit: 114 mm H , 51 mm W , 10.4 mm D",
+      "Weight": "Joined: 169 g, Display unit: 87 g, Key unit: 82 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS + MOAP(S)",
+      "CPU": "SH-Mobile G3"
+    },
+    "Memory": {
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "3.4 in (86 mm) wide TFT LCD, 480×960 pixels, 16,777,216 colors"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 MP CMOS, autofocus, image stabilization, face recognition",
+      "Front camera": "0.32 MP CMOS"
+    }
+  },
+  "key": {
+    "display_in": 3.4,
+    "display_type": "TFT",
+    "main_mp": 12.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.32,
+    "os": "Symbian OS + MOAP(S)",
+    "five_g": false,
+    "weight_g": 169,
+    "thickness_mm": 20,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Docomo PRIME series F-04B",
+      "url": "https://en.wikipedia.org/wiki/Docomo_PRIME_series_F-04B"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Docomo PRIME series F-04B\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Docomo PRIME series F-04B",
+    "revid": 1380130115
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

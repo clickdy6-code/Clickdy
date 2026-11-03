@@ -1,0 +1,81 @@
+{
+  "slug": "blackberry-z10",
+  "brand": "BlackBerry",
+  "name": "Z10",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/BlackBerry_Z10.jpg/500px-BlackBerry_Z10.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/BlackBerry_Z10.jpg/250px-BlackBerry_Z10.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BlackBerry Z10",
+      "credit": "Enrique Dans, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Z10.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "BlackBerry Torch 9860"
+    },
+    "Network": {
+      "Technology": "LTE, PCS, CDMA, HSPA+, EDGE, GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "130 mm H, 65.6 mm W, 9 mm D",
+      "Weight": "135.4 g"
+    },
+    "Platform": {
+      "Operating system": "Blackberry 10.2.1, Released January 28, 2014, Current: BlackBerry 10.3.3 (Released April 4, 2018)",
+      "CPU": "ARM 1.5 GHz dual-core, Qualcomm Snapdragon S4 Plus (MSM8960) (STL100-2 & STL100-3 & STL100-4), Texas Instruments OMAP 4470 (STL-100-1)"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB flash memory",
+      "Card slot": "Up to 256GB microSDXC"
+    },
+    "Display": {
+      "Display": "1,280 x 768 px (0.98 megapixels) 4.2-inch (built on 71μm pixel) at 356 ppi, 15:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels, 1080p video capture",
+      "Front camera": "2 megapixels, 720p video capture"
+    },
+    "Battery": {
+      "Battery": "1800 mAH removable battery"
+    },
+    "Connectivity": {
+      "Connectivity": "IEEE 802.11n-2009, Bluetooth 4.0, NFC, Micro HDMI, Micro-USB"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1800,
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 135.4,
+    "thickness_mm": 9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Z10",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Z10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Z10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Z10",
+    "revid": 1361472808
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

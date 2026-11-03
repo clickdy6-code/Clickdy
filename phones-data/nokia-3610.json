@@ -1,0 +1,57 @@
+{
+  "slug": "nokia-3610",
+  "brand": "Nokia",
+  "name": "3610",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2002",
+      "Predecessor": "Nokia 8250",
+      "Successor": "Nokia 6610"
+    },
+    "Network": {
+      "Technology": "GSM 900/GSM 1800"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "105 ×",
+      "Weight": "92 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30 or Series 40 1st Edition"
+    },
+    "Memory": {
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "96x65 Monochrome"
+    },
+    "Battery": {
+      "Battery": "BLB-2, 830 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 830,
+    "five_g": false,
+    "weight_g": 92,
+    "year": 2002
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3610",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3610"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3610\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3610",
+    "revid": 1361477304
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

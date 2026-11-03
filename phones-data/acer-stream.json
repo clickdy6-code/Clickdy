@@ -1,0 +1,57 @@
+{
+  "slug": "acer-stream",
+  "brand": "Acer",
+  "name": "Stream",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Acer_Stream.JPG/500px-Acer_Stream.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Acer_Stream.JPG/250px-Acer_Stream.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Acer Stream",
+      "credit": "Eg81, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acer_Stream.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Dimensions": "119.5 x 63 x 11.2 mm",
+      "Weight": "140 grams"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 “Eclair”",
+      "CPU": "1GHz Qualcomm Snapdragon processor"
+    },
+    "Display": {
+      "Display": "3.7” AMOLED capacitive multi-touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP autofocus"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "os": "Android 2.1"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer Stream",
+      "url": "https://en.wikipedia.org/wiki/Acer_Stream"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer Stream\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer Stream",
+    "revid": 1363510160
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

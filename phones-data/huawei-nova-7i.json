@@ -1,0 +1,85 @@
+{
+  "slug": "huawei-nova-7i",
+  "brand": "Huawei",
+  "name": "Nova 7i",
+  "status": "published",
+  "announced": "2020-01-30",
+  "released": "2020-01-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-01-30",
+      "Series": "Huawei Nova",
+      "Predecessor": "Huawei Nova 5i, Huawei P30 lite",
+      "Successor": "Huawei Nova 8i, Huawei Nova 7 SE"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "159.2 mm H76.3 mm W8.7 mm D",
+      "Weight": "183 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10.0 \"Pie\", EMUI 10 , Current: EMUI 12 (Global) and HarmonyOS 2 (China)",
+      "Chipset": "Huawei Kirin 810",
+      "GPU": "Mali-G52"
+    },
+    "Memory": {
+      "RAM": "8 GB RAM",
+      "Storage": "128GB, UFS 2.1",
+      "Card slot": "NM (Nano Memory), up to 256GB (uses shared SIM slot)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.8 (wide), 8 MP, f/2.4 (ultrawide), 2 MP, f/2.4 (macro), 2 MP, f/2.4 (depth), laser autofocus, AI filter, video recording at 30 FPS or 60 FPS, slow-motion video recording at 1080p, timelapse with stabilization, panorama, optical image stabilization, LED flash",
+      "Front camera": "16 MP, f/2.0 aperture (wide), exposure control, face detection"
+    },
+    "Sound": {
+      "Sound": "3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "4200 mAh",
+      "Charging": "Fast charging up to 40W Huawei Supercharge"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi b/g/n/ac (2.4 GHz), dual-band, Wi-Fi Direct, hotspot, Bluetooth 4.2, GPS, LTE, USB Type-C 2.0, USB On-The-Go, NFC"
+    }
+  },
+  "key": {
+    "chipset": "Huawei Kirin 810",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 16,
+    "battery_mah": 4200,
+    "wired_w": 40,
+    "os": "Android 10.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 183,
+    "thickness_mm": 8.7,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova 7i",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_7i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova 7i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova 7i",
+    "revid": 1361473919
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

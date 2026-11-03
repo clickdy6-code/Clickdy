@@ -1,0 +1,55 @@
+{
+  "slug": "motorola-v360",
+  "brand": "Motorola",
+  "name": "V360",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Motorola_V360.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Motorola_V360.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Motorola V360",
+      "credit": "Fritz Saalfeld, CC BY-SA 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_V360.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900/1800/1900 (Tri-Band)"
+    },
+    "Body": {
+      "Dimensions": "3.5 x",
+      "Weight": "3.7 oz"
+    },
+    "Memory": {
+      "Card slot": "microSD 512 MB max"
+    },
+    "Display": {
+      "Display": "176x220 pixels, 18-bit (262000 Colors)"
+    },
+    "Connectivity": {
+      "Connectivity": "miniUSB, Bluetooth 1.2"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola V360",
+      "url": "https://en.wikipedia.org/wiki/Motorola_V360"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola V360\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola V360",
+    "revid": 1361476715
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

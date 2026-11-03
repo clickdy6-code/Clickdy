@@ -1,0 +1,98 @@
+{
+  "slug": "huawei-p10",
+  "brand": "Huawei",
+  "name": "P10",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Huawei_P10_front.jpg/500px-Huawei_P10_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Huawei_P10_front.jpg/250px-Huawei_P10_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei P10",
+      "credit": "Petar Milošević, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_P10_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-03",
+      "Discontinued": "Yes",
+      "Series": "P series",
+      "Predecessor": "Huawei P9",
+      "Successor": "Huawei P20"
+    },
+    "Network": {
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "P10: 145.3xx69.3xx6.98 mm, P10 Plus: 153.5xx74.2xx6.98 mm",
+      "Weight": "P10: 145 g, P10 Plus: 165 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.0 \"Nougat\", Current: Android 9.0 \"Pie\" and HarmonyOS 2 (China)",
+      "Chipset": "Hisilicon Kirin 960",
+      "CPU": "Quad-core 2.4 GHz Cortex-A73 and quad-core 1.8 GHz Cortex-A53)",
+      "GPU": "Mali-G71 MP8"
+    },
+    "Memory": {
+      "RAM": "4 GB (P10), 4 or 6 GB (P10 Plus)",
+      "Storage": "32 GB, 64 GB or 128 GB",
+      "Card slot": "microSD, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.1\" 1080p (P10), 5.5\" 1440p (P10 Plus)"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP and 20 MP f/2.2",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "3200 mAh (P10), 3750 mAh (P10 Plus)",
+      "Charging": "Supercharge"
+    },
+    "Connectivity": {
+      "Connectivity": "GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 5.1,
+    "chipset": "Hisilicon Kirin 960",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3200,
+    "os": "Android 7.0",
+    "nfc": false,
+    "weight_g": 145,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P10",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P10",
+    "revid": 1382784312
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

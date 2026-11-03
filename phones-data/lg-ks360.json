@@ -1,0 +1,62 @@
+{
+  "slug": "lg-ks360",
+  "brand": "LG",
+  "name": "KS360",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Lg-ks360-fan.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Lg-ks360-fan.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG KS360",
+      "credit": "LorDDeviL, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lg-ks360-fan.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GPRS, EDGE, GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "QWERTY slider",
+      "Dimensions": "101.5 x 51 x 16.8 mm (L x W x D)",
+      "Weight": "115.6 grams"
+    },
+    "Memory": {
+      "RAM": "15 MB",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "262K color TFT touchscreen, 2.8\", 240 x 320 (QVGA)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel, video 320x240@10fps"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG KS360",
+      "url": "https://en.wikipedia.org/wiki/LG_KS360"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG KS360\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG KS360",
+    "revid": 1361475136
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "lg-prada-ii",
+  "brand": "LG",
+  "name": "Prada II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/PRADA_Phone_by_LG_%28LG-KF900%29.jpg/500px-PRADA_Phone_by_LG_%28LG-KF900%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/PRADA_Phone_by_LG_%28LG-KF900%29.jpg/250px-PRADA_Phone_by_LG_%28LG-KF900%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Prada II",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PRADA_Phone_by_LG_(LG-KF900).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "LG Prada",
+      "Successor": "LG Prada 3.0"
+    },
+    "Network": {
+      "Technology": "GSM, EDGE, UMTS, HSDPA"
+    },
+    "Body": {
+      "Form factor": "Candybar/Slide",
+      "Dimensions": "104.4×54×16.75 mm",
+      "Weight": "130 g"
+    },
+    "Memory": {
+      "RAM": "microSD Internal Memory Slot"
+    },
+    "Display": {
+      "Display": "256K color TFT touchscreen, 240 x 400 px"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel with auto-focus and flash, plus front-facing camera"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, USB 2.0, WiFi"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 130
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Prada II",
+      "url": "https://en.wikipedia.org/wiki/LG_Prada_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Prada II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Prada II",
+    "revid": 1373900786
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

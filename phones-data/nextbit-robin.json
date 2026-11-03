@@ -1,0 +1,87 @@
+{
+  "slug": "nextbit-robin",
+  "brand": "Nextbit",
+  "name": "Robin",
+  "status": "published",
+  "announced": "2016-02-16",
+  "released": "2016-02-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Nextbit_Robin_smartphone_%28cropped%29.jpg/500px-Nextbit_Robin_smartphone_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Nextbit_Robin_smartphone_%28cropped%29.jpg/250px-Nextbit_Robin_smartphone_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nextbit Robin",
+      "credit": "Maurizio Pesce from Milan, Italia, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nextbit_Robin_smartphone_(cropped).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-02-16, (Kickstarter)",
+      "Discontinued": "January 2017",
+      "Successor": "Nextbit Phoenix (unreleased) / Razer Phone (indirect)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "149 mm H, 72 mm W, 7 mm D",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\" , Current: Android 7.1.1 \"Nougat\"",
+      "Chipset": "Qualcomm Snapdragon 808 MSM8992",
+      "CPU": "Hexa-core (dual 1.82 GHz + quad 1.44 GHz) 64-bit custom CPU",
+      "GPU": "Adreno 418"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3 RAM",
+      "Storage": "32 GB internal and 100 GB cloud storage (support ended)"
+    },
+    "Display": {
+      "Display": "5.2 in 1080p IPS LCD, 424 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP with phase detection autofocus, dual-LED dual-tone flash",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "2,680 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 808 MSM8992",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32,
+      100
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2680,
+    "os": "Android 5.1",
+    "weight_g": 150,
+    "thickness_mm": 7,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nextbit Robin",
+      "url": "https://en.wikipedia.org/wiki/Nextbit_Robin"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nextbit Robin\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nextbit Robin",
+    "revid": 1374010542
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

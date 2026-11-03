@@ -1,0 +1,70 @@
+{
+  "slug": "motorola-edge-50-fusion",
+  "brand": "Motorola",
+  "name": "Edge 50 Fusion",
+  "status": "published",
+  "announced": "2024-05-15",
+  "released": "2024-05-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-05-15",
+      "Series": "Edge"
+    },
+    "Network": {
+      "Technology": "2G EDGE, GPRS/3G HSPA, HSPA+/4G LTE, LTE+, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162 x 73.1 x 7.8 mm",
+      "Weight": "175 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14",
+      "Chipset": "Qualcomm List of Qualcomm Snapdragon systems-on-chip#Snapdragon 7s Gen 2",
+      "CPU": "Octa-core",
+      "GPU": "Adreno 710"
+    },
+    "Memory": {
+      "RAM": "12 GB RAM",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.7 in, (395 ppi), pOLED capacitive touchscreen, 144 Hz refresh rate"
+    },
+    "Sound": {
+      "Sound": "stereo speaker system"
+    },
+    "Battery": {
+      "Battery": "5000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "refresh_hz": 144,
+    "chipset": "Qualcomm List of Qualcomm Snapdragon systems-on-chip#Snapdra",
+    "ram_gb": [
+      12
+    ],
+    "battery_mah": 5000,
+    "os": "Android 14",
+    "five_g": true,
+    "weight_g": 175,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Edge 50 Fusion",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Edge_50_Fusion"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Edge 50 Fusion\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Edge 50 Fusion",
+    "revid": 1361476545
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

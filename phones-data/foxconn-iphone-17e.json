@@ -1,0 +1,95 @@
+{
+  "slug": "foxconn-iphone-17e",
+  "brand": "Foxconn",
+  "name": "IPhone 17e",
+  "status": "published",
+  "announced": "2026-03-11",
+  "released": "2026-03-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/IPhone_17e_Vector.svg/500px-IPhone_17e_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/IPhone_17e_Vector.svg/250px-IPhone_17e_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn IPhone 17e",
+      "credit": "Pncke, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_17e_Vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-03-11",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 16e"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR /, 5G-A"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.7 xx",
+      "Weight": "169 g",
+      "Other": "Emergency SOS, Messages and Find My via satellite, Action Button, FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 26.3",
+      "Chipset": "Apple A19"
+    },
+    "Memory": {
+      "RAM": "8 GB",
+      "Storage": "256 or 512 GB"
+    },
+    "Display": {
+      "Display": "6.1 in , 460 ppi, Super Retina XDR OLED, HDR10, 1200 nits"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 26 mm",
+      "Front camera": "12 MP, 20 mm"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 4005 mAh",
+      "Charging": "Fast charging 30 W, Wireless MagSafe charging 25 W"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Super Retina XDR OLED",
+    "peak_nits": 1200,
+    "chipset": "Apple A19",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 12,
+    "battery_mah": 4005,
+    "wireless_w": 25,
+    "wired_w": 30,
+    "os": "iOS 26.3",
+    "five_g": true,
+    "weight_g": 169,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 17e",
+      "url": "https://en.wikipedia.org/wiki/IPhone_17e"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 17e\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "IPhone 17e",
+    "revid": 1381888223
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

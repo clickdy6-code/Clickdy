@@ -1,0 +1,63 @@
+{
+  "slug": "hyundai-mb-910",
+  "brand": "Hyundai",
+  "name": "MB 910",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hyundai_mb-910.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hyundai_mb-910.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Hyundai MB 910",
+      "credit": "Jontintinjordan (talk)Jon Jordan, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hyundai_mb-910.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "W-100"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900, GPRS Class 12"
+    },
+    "Body": {
+      "Form factor": "Watch",
+      "Dimensions": "58.1 x 44.2 x 16.4 mm",
+      "Weight": "58 grams"
+    },
+    "Memory": {
+      "RAM": "128MB of RAM"
+    },
+    "Display": {
+      "Display": "1.5\""
+    },
+    "Battery": {
+      "Battery": "400mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, mini USB"
+    }
+  },
+  "key": {
+    "battery_mah": 400,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Hyundai MB 910",
+      "url": "https://en.wikipedia.org/wiki/Hyundai_MB_910"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Hyundai MB 910\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Hyundai MB 910",
+    "revid": 1380638420
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

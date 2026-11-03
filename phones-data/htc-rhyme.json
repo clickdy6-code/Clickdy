@@ -1,0 +1,72 @@
+{
+  "slug": "htc-rhyme",
+  "brand": "HTC",
+  "name": "Rhyme",
+  "status": "published",
+  "announced": "2011-09-22",
+  "released": "2011-09-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-09-22"
+    },
+    "Network": {
+      "Technology": "2.5G (GSM/GPRS/EDGE): 850/900/1800/1900 MHz , 3G (HSDPA 14.4 Mbit/s, HSUPA 5.76 Mbit/s): 900/1900/2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "119.13 mm H, 60.7 mm W, 10.9 mm D",
+      "Weight": "130 g",
+      "Other": "Wi-Fi hotspot, FM radio"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 (upgradable to Android 4.0)",
+      "CPU": "1 GHz Qualcomm Snapdragon MSM8655",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "4.0 GB",
+      "Card slot": "Up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "3.7 in diagonal , 480x800 (252 ppi) Super LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Backside illumination 5 megapixel autofocus with LED flash, rear-facing",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1600 mAh Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g/n); Bluetooth 3.0; USB 2.0; DLNA; UMA"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "LCD",
+    "battery_mah": 1600,
+    "os": "Android 2.3",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 130,
+    "thickness_mm": 10.9,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Rhyme",
+      "url": "https://en.wikipedia.org/wiki/HTC_Rhyme"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Rhyme\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Rhyme",
+    "revid": 1374882670
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

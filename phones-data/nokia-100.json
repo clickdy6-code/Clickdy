@@ -1,0 +1,70 @@
+{
+  "slug": "nokia-100",
+  "brand": "Nokia",
+  "name": "100",
+  "status": "published",
+  "announced": "2011-08-25",
+  "released": "2011-08-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Nokia_100%2C_front_and_back.JPG/500px-Nokia_100%2C_front_and_back.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Nokia_100%2C_front_and_back.JPG/250px-Nokia_100%2C_front_and_back.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 100",
+      "credit": "ZolHaj, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_100,_front_and_back.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-08-25",
+      "Discontinued": "Q3 2015",
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia 1616",
+      "Successor": "Nokia 105"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800 or 850/1900"
+    },
+    "Body": {
+      "Form factor": "Feature phone",
+      "Dimensions": "110 x 45.5 x 14.9 mm",
+      "Weight": "70g"
+    },
+    "Platform": {
+      "Operating system": "Series 30"
+    },
+    "Display": {
+      "Display": "65,536-colour LCD:, 1.8 in diagonal, 120 × 160 px, (3:4 aspect ratio)"
+    },
+    "Battery": {
+      "Battery": "BL-5CB 3.7V 800mAh (removable):, Standby: up to 609.3 h, (25 days), Talk time: up to 6.7 h"
+    },
+    "Connectivity": {
+      "Connectivity": "FM radio"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 70,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 100",
+      "url": "https://en.wikipedia.org/wiki/Nokia_100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 100",
+    "revid": 1378737198
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

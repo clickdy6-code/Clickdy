@@ -1,0 +1,84 @@
+{
+  "slug": "cherry-mobile-alpha-luxe",
+  "brand": "Cherry",
+  "name": "Mobile Alpha Luxe",
+  "status": "published",
+  "announced": "2014-09-09",
+  "released": "2014-09-09",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-09-09",
+      "Series": "Alpha series"
+    },
+    "Network": {
+      "Technology": "2G EDGE, GPRS, 3G HSPA+",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145 mm H , 72 mm W , 9 mm D",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8.1",
+      "Chipset": "Qualcomm Snapdragon 200",
+      "CPU": "1.2 GHz quad-core",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "MicroSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "5.0 in (130 mm) HD IPS display, 1280 × 720 pixels (294 ppi), Dragontrail glass"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 MP autofocus with LED flash",
+      "Front camera": "2.0 MP"
+    },
+    "Battery": {
+      "Battery": "2,000 mAh Li-ion",
+      "Charging": "MicroUSB"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 200",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 2000,
+    "os": "Windows Phone 8.1",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 160,
+    "thickness_mm": 9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Cherry Mobile Alpha Luxe",
+      "url": "https://en.wikipedia.org/wiki/Cherry_Mobile_Alpha_Luxe"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Cherry Mobile Alpha Luxe\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Cherry Mobile Alpha Luxe",
+    "revid": 1382391156
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

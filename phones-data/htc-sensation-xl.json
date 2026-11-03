@@ -1,0 +1,80 @@
+{
+  "slug": "htc-sensation-xl",
+  "brand": "HTC",
+  "name": "Sensation XL",
+  "status": "published",
+  "announced": "2011-05-19",
+  "released": "2011-05-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-05-19 (Vodafone)",
+      "Series": "HTC Sensation",
+      "Predecessor": "HTC Desire HD",
+      "Successor": "HTC One X"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850 900 1800 1900 MHz, UMTS/HSPA, 850 1900 2100 or 900 1700 2100 MHz, HSDPA 14.4 Mbps, HSUPA 5.76 Mbps"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "132.5 mm H, 70.7 mm W, 9.9 mm D",
+      "Weight": "162.5 g",
+      "Other": "USB and Wi-Fi tethering, HTC Sense v3.5"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.3 Gingerbread (upgradeable to 4.0), HTC Sense 3.0 overlay",
+      "Chipset": "Qualcomm Snapdragon S2 MSM8255",
+      "CPU": "1.5 GHz Qualcomm Scorpion",
+      "GPU": "Qualcomm Adreno 205"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "16 GB (13 GB user accessible)"
+    },
+    "Display": {
+      "Display": "4.7 in LCD Gorilla glass touch screen with WVGA (480×800) resolution"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel (3264×2448) with autofocus and dual LED flash, 720p HD video recording @ 30 frame/s with tap-to-focus and digital zoom",
+      "Front camera": "VGA fixed-focus color camera (0.3-megapixel)"
+    },
+    "Battery": {
+      "Battery": "1600 mAh internal rechargeable li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS connector, Bluetooth 3.0 with A2DP, FM stereo receiver (87.5-108 MHz) with RDS, Micro USB 2.0 (5-pin) port with Mobile High-definition Link for USB or HDMI connection, Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon S2 MSM8255",
+    "storage_gb": [
+      13,
+      16
+    ],
+    "battery_mah": 1600,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 162.5,
+    "thickness_mm": 9.9,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Sensation XL",
+      "url": "https://en.wikipedia.org/wiki/HTC_Sensation_XL"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Sensation XL\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Sensation XL",
+    "revid": 1361473454
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

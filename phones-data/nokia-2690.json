@@ -1,0 +1,76 @@
+{
+  "slug": "nokia-2690",
+  "brand": "Nokia",
+  "name": "2690",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nokia_2690.jpg/500px-Nokia_2690.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Nokia_2690.jpg/250px-Nokia_2690.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 2690",
+      "credit": "Sheepdog85, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2690.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-11",
+      "Series": "Nokia 2000 series",
+      "Predecessor": "Nokia 2600 classic, Nokia 2630"
+    },
+    "Network": {
+      "Technology": "GSM, GPRS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "107.5 mm × 45.5 mm × 13.8 mm",
+      "Weight": "80.7 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40 5th Edition Feature Pack 1"
+    },
+    "Memory": {
+      "RAM": "25 MB",
+      "Card slot": "MicroSD, max. 8 GB"
+    },
+    "Display": {
+      "Display": "1.8 inch, 262,144 color, 128 × 160, TFT"
+    },
+    "Cameras": {
+      "Rear camera": "VGA (0.3 megapixels)"
+    },
+    "Battery": {
+      "Battery": "BL-4C, 860 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 80.7,
+    "thickness_mm": 13.8,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2690",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2690"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2690\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2690",
+    "revid": 1361477187
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

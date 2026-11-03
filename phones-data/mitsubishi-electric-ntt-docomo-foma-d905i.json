@@ -1,0 +1,76 @@
+{
+  "slug": "mitsubishi-electric-ntt-docomo-foma-d905i",
+  "brand": "Mitsubishi Electric",
+  "name": "NTT Docomo FOMA D905i",
+  "status": "published",
+  "announced": "2007-11-26",
+  "released": "2007-11-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/74/D905i01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/74/D905i01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Mitsubishi Electric NTT Docomo FOMA D905i",
+      "credit": "User:Toyolina, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:D905i01.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2007-11-26",
+      "Series": "905i",
+      "Predecessor": "D904i"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA), 2G: GSM"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "110 mm H , 49 mm W , 18.7 mm D",
+      "Weight": "132 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.3 + MOAP(S)",
+      "CPU": "SH-Mobile G2"
+    },
+    "Memory": {
+      "Card slot": "microSD (up to 2 GB)"
+    },
+    "Display": {
+      "Display": "3.1 in (79 mm) TFT LCD, Full Wide VGA (480×864 px), 260k colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP CMOS",
+      "Front camera": "0.1 MP CMOS"
+    }
+  },
+  "key": {
+    "display_in": 3.1,
+    "display_type": "TFT",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 0.1,
+    "os": "Symbian OS v9.3 + MOAP(S)",
+    "five_g": false,
+    "weight_g": 132,
+    "thickness_mm": 18.7,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: NTT Docomo FOMA D905i",
+      "url": "https://en.wikipedia.org/wiki/NTT_Docomo_FOMA_D905i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"NTT Docomo FOMA D905i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "NTT Docomo FOMA D905i",
+    "revid": 1370651972
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

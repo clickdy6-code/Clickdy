@@ -1,0 +1,81 @@
+{
+  "slug": "htc-desire-620",
+  "brand": "HTC",
+  "name": "Desire 620",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014 Dec",
+      "Series": "HTC Desire series",
+      "Predecessor": "HTC Desire 610",
+      "Successor": "HTC Desire 626"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "150.1 mm H , 72.7 mm W , 9.6 mm D",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.4 KitKat",
+      "Chipset": "Qualcomm Snapdragon 410",
+      "CPU": "Quad-core 1.2 GHz ARM Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "up to 128 GB microSD"
+    },
+    "Display": {
+      "Display": "5.0 in Super LCD, 720 x 1280 pixels (294 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel BSI camera with autofocus, 1x LED flash, f/2.4 aperture, 28 mm lens, 1080p video recording",
+      "Front camera": "5-megapixel BSI camera, f/2.4 aperture, 1080p video recording"
+    },
+    "Sound": {
+      "Sound": "Dual front-facing speakers"
+    },
+    "Battery": {
+      "Battery": "2,100 mAh Li-Po"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n , Bluetooth 4.0 , GPS , 3.5 mm headphone jack , microUSB"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon 410",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2100,
+    "os": "Android 4.4",
+    "nfc": false,
+    "weight_g": 145,
+    "thickness_mm": 9.6,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire 620",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_620"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire 620\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire 620",
+    "revid": 1361473199
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

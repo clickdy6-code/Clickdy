@@ -1,0 +1,77 @@
+{
+  "slug": "motorola-charm",
+  "brand": "Motorola",
+  "name": "Charm",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Motorola_Charm-Model_MB502.JPG/500px-Motorola_Charm-Model_MB502.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Motorola_Charm-Model_MB502.JPG/250px-Motorola_Charm-Model_MB502.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Charm",
+      "credit": "7r0w4w4y, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Charm-Model_MB502.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, EDGE , UMTS 900/1700/2100"
+    },
+    "Body": {
+      "Form factor": "Bar smartphone",
+      "Dimensions": "67.2 mm H, 98.4 mm W, 11.4 mm D",
+      "Weight": "110 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 Eclair",
+      "CPU": "720 MHz TI OMAP 3410 processor"
+    },
+    "Memory": {
+      "RAM": "RAM: 256 MB, ROM: 512 MB",
+      "Storage": "Flash memory: 256 MB, 199 free , microSD slot: supports up to 32 GB",
+      "Card slot": "microSD (TransFlash), up to 32 GB, 2 GB included"
+    },
+    "Display": {
+      "Display": "320 x 240 px (0.15 megapixels), 2.8 in, TFT LCD, QVGA"
+    },
+    "Cameras": {
+      "Rear camera": "3 megapixel with auto focus, geotagging"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-ion 1170 mAh, stand-by: up to 320 h, talk time: up to 405 minutes"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g/n), Bluetooth 2.0+EDR, ExtUSB, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1170,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110,
+    "thickness_mm": 11.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Charm",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Charm"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Charm\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Charm",
+    "revid": 1361476491
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

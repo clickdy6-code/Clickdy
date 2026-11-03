@@ -1,0 +1,90 @@
+{
+  "slug": "lenovo-p2",
+  "brand": "Lenovo",
+  "name": "P2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2016",
+      "Series": "Lenovo P Series",
+      "Predecessor": "Lenovo Vibe P1"
+    },
+    "Network": {
+      "Technology": "LTE, VoLTE, HSPA, GSM, EDGE, GPRS, 4G, 3G, 2G"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "153 x 76 x 8.3 mm (LxWxT)",
+      "Weight": "177 g (0.39 lbs)"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1, Android 7.0",
+      "Chipset": "Qualcomm Snapdragon 625 MSM8953",
+      "CPU": "Octa-core 2.0 GHz ARM Cortex-A53",
+      "GPU": "Adreno 506 at 550MHz"
+    },
+    "Memory": {
+      "RAM": "3GB or 4GB DDR3 Ram",
+      "Storage": "32GB or 64 GB expandable via 128 GB microSD card"
+    },
+    "Display": {
+      "Display": "5.5\" inch Full HD Super AMOLED Display with Gorilla Glass 3 1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, Sony IMX 258 sensor, f/2.0 aperture PDAF, Dual-tone LED flash, Geo-tagging, Touch Focus, Face Detection, HDR, Panorama",
+      "Front camera": "5 MP fixed-focus, f/2.2"
+    },
+    "Sound": {
+      "Sound": "Bottom-ported single speaker, 2-Mics"
+    },
+    "Battery": {
+      "Battery": "5100 mah non-removable with 24 Watt Rapid Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB, 3.5 mm headset jack, NFC"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 625 MSM8953",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64,
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 5100,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 177,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Lenovo P2",
+      "url": "https://en.wikipedia.org/wiki/Lenovo_P2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Lenovo P2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Lenovo P2",
+    "revid": 1319488113
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

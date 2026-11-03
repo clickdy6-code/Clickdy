@@ -1,0 +1,100 @@
+{
+  "slug": "huawei-mate-70",
+  "brand": "Huawei",
+  "name": "Mate 70",
+  "status": "published",
+  "announced": "2024-11-26",
+  "released": "2024-11-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Huawei_Mate_70_%2854235974194%29.jpg/500px-Huawei_Mate_70_%2854235974194%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Huawei_Mate_70_%2854235974194%29.jpg/250px-Huawei_Mate_70_%2854235974194%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate 70",
+      "credit": "メイド理世, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_70_(54235974194).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 26, 2024",
+      "Series": "Huawei Mate",
+      "Predecessor": "Huawei Mate 60"
+    },
+    "Network": {
+      "Technology": "GSM/ CDMA/ HSPA / CDMA2000/ LTE",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "Mate 70: 203 g, Mate 70 Pro: 221 g, Mate 70 Pro+: 226 g, Mate 70 RS: 251 g"
+    },
+    "Platform": {
+      "Operating system": "HarmonyOS Next, HarmonyOS 5 (Pioneer SKU), also supports HarmonyOS 4.3 standard SKU, Current: HarmonyOS 6",
+      "Chipset": "Mate 70: HiSilicon HiSilicon#Kirin_9000S_and_Kirin_9010_Family, Kirin 9010 (7 nm), Mate 70 Pro, Pro+, and RS: HiSilicon Kirin 9020"
+    },
+    "Memory": {
+      "RAM": "Mate 70, Pro: 12 GB RAM (LPDDR5 specification), Mate 70 Pro+, RS: 16GB (LPDDR5)",
+      "Storage": "Mate 70, 70 Pro: 256GB / 512GB / 1TB ROM, Mate 70 Pro+, RS: 512GB / 1TB ROM (UFS 4.0 specification)"
+    },
+    "Display": {
+      "Display": "1 panel: 6.9 in, Resolution:, 1316 x 2832 px"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, OIS, 12 MP, f/2.1, 93mm (periscope telephoto), PDAF, OIS, 3.5x Optical zoom, 40 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF",
+      "Front camera": "13 MP, f/2.4, 18mm (ultrawide), TOF 3D, (depth/biometrics sensor)"
+    },
+    "Sound": {
+      "Sound": "Yes, with stereo speakers, High-definition, no 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Mate 70: 5,300mAh (rated), not removable or replaceable, Mate 70 Pro: 5,500mAh (rated), not removable or replaceable, Mate 70 Pro+,RS: 5,700mAh (rated), not removable or replaceable",
+      "Charging": "Mate 70:, Wired charging: 66W, Wireless charging: 50W, Wireless reverse charging: 20W, Wired reverse charging: 18W, Mate 70 Pro, Pro+, and RS:, Wired charging: 100W, Wireless charging: 80W, Wireless reverse charging: 7.5W, Wired reverse charging: 5W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac/ax/be, 2x2 MIMO, HE160, 4096 QAM, 8 spatial-stream sounding MU-MIMO, Bluetooth 5.2, Bluetooth Low Energy, SBC, AAC, LDAC and L2HC, HD audio, NearLink, USB 3.1 Gen1 Type-C"
+    }
+  },
+  "key": {
+    "display_in": 6.9,
+    "chipset": "Mate 70: HiSilicon HiSilicon#Kirin_9000S_and_Kirin_9010_Fami",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 13,
+    "battery_mah": 300,
+    "wireless_w": 50,
+    "wired_w": 100,
+    "os": "HarmonyOS",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 203,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate 70",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_70"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate 70\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Mate 70",
+    "revid": 1382853793
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "fujitsu-toshiba-is12t",
+  "brand": "Fujitsu Toshiba",
+  "name": "IS12T",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/IS12T_Front.JPG/500px-IS12T_Front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/IS12T_Front.JPG/250px-IS12T_Front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Fujitsu Toshiba IS12T",
+      "credit": "Ooitoline, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IS12T_Front.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Dimensions": "118mm × 59mm × 10.6mm",
+      "Weight": "113g"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone",
+      "CPU": "(Qualcomm Snapdragon MSM8655), 1 GHz Scorpion processor /, Adreno 205 graphics"
+    },
+    "Memory": {
+      "RAM": "Flash Memory 32GB, 512 MB ROM, 512 MB RAM"
+    },
+    "Display": {
+      "Display": "3.7 in. LCD capacitive touchscreen, 480x800 px 16m-color WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "13.2-megapixel autofocus with LED flash, CMOS sensor, HD video recording up to 720p of resolution."
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + EDR, Wi-Fi 802.11b/g/n, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "LCD",
+    "ram_gb": [
+      32
+    ],
+    "storage_gb": [
+      32
+    ],
+    "os": "Windows Phone",
+    "nfc": false,
+    "weight_g": 113,
+    "thickness_mm": 10.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Fujitsu Toshiba IS12T",
+      "url": "https://en.wikipedia.org/wiki/Fujitsu_Toshiba_IS12T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Fujitsu Toshiba IS12T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Fujitsu Toshiba IS12T",
+    "revid": 1361473029
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

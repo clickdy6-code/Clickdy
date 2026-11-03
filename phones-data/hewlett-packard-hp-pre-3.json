@@ -1,0 +1,80 @@
+{
+  "slug": "hewlett-packard-hp-pre-3",
+  "brand": "Hewlett-Packard",
+  "name": "HP Pre 3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/HP_Pre3.jpg/500px-HP_Pre3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/HP_Pre3.jpg/250px-HP_Pre3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Hewlett-Packard HP Pre 3",
+      "credit": "Tom Raftery, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HP_Pre3.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Discontinued": "August 18, 2011",
+      "Series": "Palm Pre",
+      "Predecessor": "Palm Pre 2"
+    },
+    "Network": {
+      "Technology": "Quad band GSM networks: 850/900/1800/1900MHz, Tri band 3G UMTS networks: 900/1900/2100MHz"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "111 mm (h), 64 mm (w), 16 mm (d)",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "HP webOS 2.2.4",
+      "CPU": "1.4 GHz Qualcomm Snapdragon MSM8x55",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512MB RAM",
+      "Storage": "8GB or 16GB internal storage"
+    },
+    "Display": {
+      "Display": "3.58-inch multitouch screen with a 24-bit color, 480x800 resolution WVGA display"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel auto-focus camera with LED flash, HD (up to 720p) video recording",
+      "Front camera": "VGA"
+    },
+    "Sound": {
+      "Sound": "Mono speakerphone; dual-mic noise cancellation"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11 a/b/g/n WiFi, Bluetooth 2.1, HSPA+, EvDo Rev. A"
+    }
+  },
+  "key": {
+    "storage_gb": [
+      8,
+      16
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 155,
+    "thickness_mm": 16
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HP Pre 3",
+      "url": "https://en.wikipedia.org/wiki/HP_Pre_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HP Pre 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HP Pre 3",
+    "revid": 1361473115
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

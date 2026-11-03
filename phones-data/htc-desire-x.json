@@ -1,0 +1,87 @@
+{
+  "slug": "htc-desire-x",
+  "brand": "HTC",
+  "name": "Desire X",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/HTC-Desire-X-GER.JPG/500px-HTC-Desire-X-GER.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/HTC-Desire-X-GER.JPG/250px-HTC-Desire-X-GER.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Desire X",
+      "credit": "Tuxinaut, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC-Desire-X-GER.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Desire",
+      "Predecessor": "HTC Desire S",
+      "Successor": "HTC Desire 600, HTC Desire 601"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850 900 1,800 1,900 MHz, UMTS/HSPA, 850, 900, 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "118.5 mm H, 62.3 mm W, 9.3 mm D",
+      "Weight": "114 g",
+      "Other": "HTC Sense 4.0 user interface upgradable to HTC Sense 4.+"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0 Ice Cream Sandwich (upgradeable to Android 4.1 Jelly Bean), HTC Sense 4+ overlay",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8225",
+      "CPU": "1 GHz Dual-core ARM Cortex-A5",
+      "GPU": "Adreno 203"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "Yes (32 GB)"
+    },
+    "Display": {
+      "Display": "4 in Super LCD with RGB matrix, WVGA (800×480) resolution, (233 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel with autofocus, smart LED flash, BSI sensor, 480p video recording",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "1650 mAh internal rechargeable li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm stereo audio jack, Bluetooth 4.0 with aptX enabled, Wi-Fi: IEEE 802.11b/g/n, DLNA, micro-USB 2.0 (5-pin) port"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon S4 MSM8225",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1650,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 114,
+    "thickness_mm": 9.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire X",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire X",
+    "revid": 1361473245
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

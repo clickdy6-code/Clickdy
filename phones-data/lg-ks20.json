@@ -1,0 +1,54 @@
+{
+  "slug": "lg-ks20",
+  "brand": "LG",
+  "name": "KS20",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "HSDPA, GSM / GPRS / EDGE Tri-Band (900/1800/1900)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "99.8 x 58 x 12.8 mm (L x W x D)",
+      "Weight": "92.5 grams"
+    },
+    "Memory": {
+      "RAM": "128 MB",
+      "Card slot": "MicroSD"
+    },
+    "Display": {
+      "Display": "262K color TFT touchscreen, 2.8\", 240 x 320 (QVGA)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel, video QVGA@15fps, Strobe Flash",
+      "Front camera": "VGA Video call (Front)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.2, USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG KS20",
+      "url": "https://en.wikipedia.org/wiki/LG_KS20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG KS20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG KS20",
+    "revid": 1374924944
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

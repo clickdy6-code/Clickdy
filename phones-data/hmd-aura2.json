@@ -1,0 +1,89 @@
+{
+  "slug": "hmd-aura2",
+  "brand": "HMD",
+  "name": "Aura2",
+  "status": "published",
+  "announced": "2025-03-13",
+  "released": "2025-03-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-03-13",
+      "Series": "Aura",
+      "Predecessor": "HMD Aura"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "166.4 mm H , 76.9 mm W , 9 mm D",
+      "Weight": "185.4 g"
+    },
+    "Platform": {
+      "Operating system": "Android 14 (Go edition)",
+      "Chipset": "Unisoc SC9863A (28 nm)",
+      "CPU": "Octa-core (4x1.6 GHz Cortex-A55 & 4x1.2 GHz Cortex-A55)",
+      "GPU": "IMG8322"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "256 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.52 in (166 mm) IPS LCD, 576 x 1280 pixels, 20:9 ratio (~215 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, (wide), AF , LED flash, panorama, 1080p video",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh Li-Po",
+      "Charging": "10W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 5.2, GPS, GLONASS, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.52,
+    "display_type": "IPS LCD",
+    "chipset": "Unisoc SC9863A",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 14",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 185.4,
+    "thickness_mm": 9,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HMD Aura2",
+      "url": "https://en.wikipedia.org/wiki/HMD_Aura2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HMD Aura2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HMD Aura2",
+    "revid": 1361473083
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

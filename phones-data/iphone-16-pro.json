@@ -1,0 +1,107 @@
+{
+  "slug": "iphone-16-pro",
+  "brand": "IPhone",
+  "name": "16 Pro",
+  "status": "published",
+  "announced": "2024-09-20",
+  "released": "2024-09-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/IPhone_16_Pro_Vector.svg/500px-IPhone_16_Pro_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/IPhone_16_Pro_Vector.svg/250px-IPhone_16_Pro_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 16 Pro",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_16_Pro_Vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-09-20",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 15 Pro and Pro Max",
+      "Successor": "iPhone 17 Pro and Pro Max"
+    },
+    "Network": {
+      "Technology": "2G GSM/EDGE, 3G UMTS/HSPA+, 4G LTE, 5G NR",
+      "SIM": "Dual eSIM (US), Dual nano-SIM (Hong Kong, Macau and mainland China), nano-SIM and eSIM (elsewhere)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pro: 149.6xx71.5xx8.25 mm, Pro Max: 163.0xx77.6xx8.25 mm",
+      "Weight": "Pro: 199 g, Pro Max: 227 g",
+      "Other": "Emergency SOS, Messages and Find My via satellite, FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone (if supported by the carrier)"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 18",
+      "Chipset": "Apple A18 Pro",
+      "CPU": "2x P-cores (4.02 GHz) + 4x E-cores (2.42 GHz)",
+      "GPU": "6-core Apple GPU"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR5X",
+      "Storage": "128 GB (Pro only), 256 GB, 512 GB, 1 TB, NVMe"
+    },
+    "Display": {
+      "Display": "16 Pro: 6.3 in resolution at up to 120 hz, 16 Pro Max: 6.9 in resolution at up to 120 hz"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 1.8, 24mm (wide), 12 MP, 2.8, 120mm (periscope telephoto), 48 MP, 2.2, 13mm (ultrawide), TOF 3D LiDAR scanner",
+      "Front camera": "12 MP, 2.1, 23mm (wide)"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos-tuned Spatial Audio"
+    },
+    "Battery": {
+      "Battery": "16 Pro: 13.94 Wh (3582 mAh) Lithium-ion, Li-ion @ 3.89 V, 16 Pro Max: 18.17 Wh (4685 mAh) Li-ion @ 3.88 V",
+      "Charging": "MagSafe (wireless charger), MagSafe and Qi2 wireless charging, USB-C, (fast-charge capable: up to 50% charge in 30 minutes with 20W adaptor or higher), (Up to 50% charge in 20 minutes with 40W adaptor or higher)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 tri-band, Bluetooth 5.3 (A2DP, LE), Ultra-wideband, Thread, NFC (reader mode, Express Cards), LEO satellite (Globalstar, limited), USB-C: USB 10Gbps, Dual-frequency GPS (L1, L5), GLONASS, Galileo, QZSS, BeiDou, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "refresh_hz": 120,
+    "chipset": "Apple A18 Pro",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 12,
+    "battery_mah": 3582,
+    "wired_w": 40,
+    "os": "iOS 18",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 199,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 16 Pro",
+      "url": "https://en.wikipedia.org/wiki/IPhone_16_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 16 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 16 Pro",
+    "revid": 1382318498
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

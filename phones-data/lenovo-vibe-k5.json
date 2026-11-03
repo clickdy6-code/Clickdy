@@ -1,0 +1,90 @@
+{
+  "slug": "lenovo-vibe-k5",
+  "brand": "Lenovo",
+  "name": "Vibe K5",
+  "status": "published",
+  "announced": "2016-06-13",
+  "released": "2016-06-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 13, 2016"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "142 mm x 71 mm x 8 mm",
+      "Weight": "142 g (5.01 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1 (Lollipop)",
+      "Chipset": "Qualcomm Snapdragon 415",
+      "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x1.2 GHz Cortex-A53)",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB internal storage, eMMC 4.5",
+      "Card slot": "microSDHC card (dedicated slot)"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD, Size: 5.0 inches, 68.9 cm², Resolution: 720 x 1280 pixels, Ratio: 16:9, PPI density: ~294 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Single camera: 13 MP, f/2.2, Features: LED flash, HDR, panorama, Video: 1080p @ 30fps",
+      "Front camera": "Single camera: 5 MP, f/2.8"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "Capacity: 2750 mAh, Type: Li-ion, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi: Wi-Fi 802.11 b/g/n, Wi-Fi hotspot, Bluetooth: Bluetooth 4.1, A2DP, LE, GPS: Yes, with A-GPS, NFC: No, Radio: FM Radio, USB: microUSB 2.0, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 415",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2750,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 142,
+    "thickness_mm": 8,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Lenovo Vibe K5",
+      "url": "https://en.wikipedia.org/wiki/Lenovo_Vibe_K5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Lenovo Vibe K5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Lenovo Vibe K5",
+    "revid": 1361483631
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

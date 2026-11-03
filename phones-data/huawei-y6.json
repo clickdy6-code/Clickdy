@@ -1,0 +1,99 @@
+{
+  "slug": "huawei-y6",
+  "brand": "Huawei",
+  "name": "Y6",
+  "status": "published",
+  "announced": "2018-03-29",
+  "released": "2018-03-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Huawei_Y6_%282018%2C_ATU-L21%29-2462.jpg/500px-Huawei_Y6_%282018%2C_ATU-L21%29-2462.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Huawei_Y6_%282018%2C_ATU-L21%29-2462.jpg/250px-Huawei_Y6_%282018%2C_ATU-L21%29-2462.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Y6",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Y6_(2018,_ATU-L21)-2462.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Enjoy 8e: March 29, 2018, Y6 2018/Honor 7A/Pro: April 2018, Honor Play 7A: April 2, 2018",
+      "Series": "Huawei Y/Enjoy, Honor A/Play",
+      "Predecessor": "Huawei Y6 (2017), Huawei Y6 Pro (2017), Honor 6A, Honor 6C",
+      "Successor": "Huawei Y6 (2019), Honor 8A, Honor 8C"
+    },
+    "Network": {
+      "Technology": "4G (LTE)/3G/2G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "152.4 × 73 × 7.8 mm",
+      "Weight": "150 g",
+      "Other": "Accelerometer, proximity sensor, ambient light sensor, face unlock"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 Oreo, EMUI 8.0",
+      "Chipset": "Y6 2018/Prime 2018: Qualcomm MSM8917 Snapdragon 425 (14 nm), Enjoy 8e/Honor 7A/Pro/Play 7A: Qualcomm MSM8937 Snapdragon 430 (14 nm)",
+      "CPU": "Y6 2018/Prime 2018: 4×1.4 GHz Cortex-A53, Enjoy 8e/Honor 7A/Pro/Play 7A: 8 cores (4×1.8 GHz Cortex-A53 + 4×1.1 GHz Cortex-A53)",
+      "GPU": "Y6 2018/Prime 2018: Adreno 308, Enjoy 8e/Honor 7A/Pro/Play 7A: Adreno 505"
+    },
+    "Memory": {
+      "RAM": "Y6 2018/Prime 2018/Honor 7A/Play 7A: 2/3 GB, Enjoy 8e: 3 GB, Honor 7A Pro: 2 GB",
+      "Storage": "Y6 2018/Honor 7A Pro: 16 GB, Y6 Prime 2018/Honor 7A: 16/32 GB, Enjoy 8e/Honor Play 7A: 32 GB",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.7\" (S-IPS), 720 × 1440"
+    },
+    "Cameras": {
+      "Rear camera": "Y6 2018/Prime 2018/Honor 7A/Pro: 13 MP, f/2.2, PDAF, Enjoy 8e/Honor 7A (India)/Play 7A: 13 MP, f/2.2, PDAF + 2 MP, f/2.4 (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "Y6 2018: 5 MP, 720p@30fps, Y6 Prime 2018/Honor 7A/Pro/Play 7A: 8 MP, f/2.0, 1080p@30fps, All models: LED flash"
+    },
+    "Battery": {
+      "Battery": "3000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g/n), Bluetooth 4.2, FM radio, NFC (Honor 7C)"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "IPS",
+    "chipset": "Y6 2018/Prime 2018: Qualcomm MSM8917 Snapdragon 425",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 150,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y6 (2018)",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y6_%282018%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y6 (2018)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y6 (2018)",
+    "revid": 1374838414
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

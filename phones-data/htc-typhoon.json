@@ -1,0 +1,73 @@
+{
+  "slug": "htc-typhoon",
+  "brand": "HTC",
+  "name": "Typhoon",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Orange_spv_c500.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Orange_spv_c500.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "HTC Typhoon",
+      "credit": "CodenameCueball at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Orange_spv_c500.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "Tri band GSM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "108x46x18 mm",
+      "Weight": "107 g",
+      "Other": "Similar to the HTC Feeler and Amadeus platform"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 2003 SE",
+      "CPU": "TI OMAP730 200 MHz"
+    },
+    "Memory": {
+      "RAM": "32 MB RAM",
+      "Storage": "64 MB flash ROM",
+      "Card slot": "miniSD card"
+    },
+    "Display": {
+      "Display": "176 x 220 px 2.2 in 65,536 (16 bits) color LCD"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 (VGA) megapixel"
+    },
+    "Battery": {
+      "Battery": "1050 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, Bluetooth 1.2, Infrared, and 2.5 mm headset jack"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "LCD",
+    "battery_mah": 1050,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 107
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Typhoon",
+      "url": "https://en.wikipedia.org/wiki/HTC_Typhoon"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Typhoon\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Typhoon",
+    "revid": 1361473535
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

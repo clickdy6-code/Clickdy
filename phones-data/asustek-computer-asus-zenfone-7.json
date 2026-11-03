@@ -1,0 +1,105 @@
+{
+  "slug": "asustek-computer-asus-zenfone-7",
+  "brand": "AsusTek Computer",
+  "name": "Asus ZenFone 7",
+  "status": "published",
+  "announced": "2020-09-01",
+  "released": "2020-09-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/c7/ASUS_Zenfone-7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c7/ASUS_Zenfone-7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "AsusTek Computer Asus ZenFone 7",
+      "credit": "ROC-C.Z, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ASUS_Zenfone-7.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-09-01",
+      "Series": "Asus ZenFone",
+      "Predecessor": "ZenFone 6",
+      "Successor": "ZenFone 8"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 165.1 mm, W: 77.3 mm, D: 9.6 mm",
+      "Weight": "230 g",
+      "Other": "Gorilla Glass 6 display, Gorilla Glass 3 back, Liquid Metal camera housing, aluminium frame"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with ZenUI 7",
+      "Chipset": "Qualcomm Snapdragon 865, Qualcomm Snapdragon 865+",
+      "CPU": "Octa-core (1×2.84-3.1 GHz, 3×2.42 GHz, 4×1.8 GHz) Kryo 585",
+      "GPU": "2×512 ALUs, 587 MHz, Adreno 650"
+    },
+    "Memory": {
+      "RAM": "6/8 GB LPDDR5 RAM",
+      "Storage": "UFS 3.1 128/256 GB",
+      "Card slot": "microSDXC up to 2 TB, SIM contacts and SMS"
+    },
+    "Display": {
+      "Display": "6.67 in Super AMOLED capacitive touchscreen, 16M colors, 20:9 px (2.5 mp), 395 ppi (155.5 px/cm), 700 nits, HDR10+, Infinite CR, 90 Hz refresh rate, 110% DCI-P3/96% NTSC"
+    },
+    "Cameras": {
+      "Rear camera": "Wide: Sony Exmor IMX686 64 MP 1/1.72” (0.8 µm) Bayer_filter#Quad_Bayer, Quad Bayer sensor, f-number, ƒ/1.8 aperture, 79° Field of view, FOV, 26 mm equivalent, 6p lens, 2×1 OCL, Image stabilization#Optical image stabilization, OIS, Autofocus#Phase_detection, PDAF, Autofocus#Active, Laser AF, Ultra-wide: Sony Exmor IMX363, 12 MP 1/2.55\" (1.4 µm), ƒ/2.2 aperture, 113° FOV, 17 mm equivalent, dual pixel PDAF, Fixed-focus lens, fixed-focus, Distortion_(optics)#Software_correction, distortion correction, Telephoto: 8 MP, ƒ/2.4 aperture, 80 mm equivalent, PDAF, OIS, 3x optical zoom, Modes: Dual-LED flash, Auto High-dynamic-range_imaging, HDR, (Auto) Panoramic photography, Panorama, Portrait, Night p",
+      "Front camera": "Motorised flip-up rear camera"
+    },
+    "Sound": {
+      "Sound": "192 kHz/24-bit Hi-Res audio, DTS:X Ultra 1.0 7.1-channel virtual surround, Dual NXP TFA9874 amplifiers, Stereo speakers, USB Audio Device digital audio via USB-C, aptX Adaptive/SBC Bluetooth A2DP, ERM vibration motor"
+    },
+    "Battery": {
+      "Battery": "3.8 V 19 Wh (5,000 mAh) non-removable lithium polymer battery",
+      "Charging": "USB-C USB hardware#PD, Power Delivery 3.0 up to 30 W, USB-C USB On-The-Go, OTG reverse charging up to 10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 Type-C, Wi-Fi 6 802.11 a/b/g/n/ac/6 2x2 MIMO, Wi-Fi Direct/hotspot, Bluetooth 5.0 EDR, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 90,
+    "peak_nits": 700,
+    "chipset": "Qualcomm Snapdragon 865",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K",
+    "battery_mah": 5000,
+    "wired_w": 30,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "weight_g": 230,
+    "thickness_mm": 9.6,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus ZenFone 7",
+      "url": "https://en.wikipedia.org/wiki/Asus_ZenFone_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus ZenFone 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus ZenFone 7",
+    "revid": 1374559609
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

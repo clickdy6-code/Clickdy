@@ -1,0 +1,75 @@
+{
+  "slug": "lava-iris-x9",
+  "brand": "LAVA",
+  "name": "Iris X9",
+  "status": "published",
+  "announced": "2015-06-04",
+  "released": "2015-06-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 4, 2015, India",
+      "Predecessor": "Iris X8",
+      "Successor": "Iris X10"
+    },
+    "Body": {
+      "Form factor": "Smart phone",
+      "Dimensions": "9mm thickness, 76mm width, 152mm height",
+      "Weight": "145 grams",
+      "Other": "Wifi hotspot"
+    },
+    "Platform": {
+      "Operating system": "Android Lollipop",
+      "GPU": "Mali-400 MP2"
+    },
+    "Memory": {
+      "RAM": "2GB RAM",
+      "Storage": "16GB ROM"
+    },
+    "Display": {
+      "Display": "5.5' 1280x720 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "13MP",
+      "Front camera": "8MP"
+    },
+    "Battery": {
+      "Battery": "Li-polymer 2650mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB microusb 2.0"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2650,
+    "nfc": false,
+    "thickness_mm": 152,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Lava Iris X9",
+      "url": "https://en.wikipedia.org/wiki/Lava_Iris_X9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Lava Iris X9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Lava Iris X9",
+    "revid": 1361475691
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "htc-touch2",
+  "brand": "HTC",
+  "name": "Touch2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/HTC_Touch2_%28MEGA%2C_T3333%29.jpg/500px-HTC_Touch2_%28MEGA%2C_T3333%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/HTC_Touch2_%28MEGA%2C_T3333%29.jpg/250px-HTC_Touch2_%28MEGA%2C_T3333%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Touch2",
+      "credit": "Asim18, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Touch2_(MEGA,_T3333).jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family",
+      "Predecessor": "HTC Touch"
+    },
+    "Network": {
+      "Technology": "Quadband GSM / GPRS, EDGE and dual band WCDMA, HSDPA, HSUPA"
+    },
+    "Body": {
+      "Dimensions": "104 x 55 x 12.9 mm, (4.09 x 2.17 x 0.51 in)",
+      "Weight": "110 g (3.88 oz)"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.5 Professional",
+      "CPU": "528 MHz Qualcomm MSM7225"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "512 MB internal flash (260 MB user available)",
+      "Card slot": "microSDHC, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.8 in. LCD resistive touchscreen, 240x320 px 65k-color QVGA, backlit TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-megapixel CMOS sensor, picture up to 2048x1536 video up to 352×288"
+    },
+    "Battery": {
+      "Battery": "Rechargeable 1100mAh Li-ion battery (Extended Battery Available)(up to 370 hrs standby, 7.3 hrs talk time)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, 802.11b/g, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Touch2",
+      "url": "https://en.wikipedia.org/wiki/HTC_Touch2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Touch2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Touch2",
+    "revid": 1361473525
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

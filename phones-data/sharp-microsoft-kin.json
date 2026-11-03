@@ -1,0 +1,68 @@
+{
+  "slug": "sharp-microsoft-kin",
+  "brand": "Sharp",
+  "name": "Microsoft Kin",
+  "status": "published",
+  "announced": "2010-04-12",
+  "released": "2010-04-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 12, 2010"
+    },
+    "Network": {
+      "Technology": "CDMA"
+    },
+    "Body": {
+      "Form factor": "Slider/Texting phone",
+      "Dimensions": "ONE: 3.25 x, TWO: 4.25 x",
+      "Weight": "ONE: 110 g, TWO: 130 g"
+    },
+    "Platform": {
+      "Operating system": "KIN OS (based on Windows CE)",
+      "CPU": "Freescale i. MX31L processor ARM Core, nVidia Tegra APX 2600"
+    },
+    "Memory": {
+      "RAM": "256 MB DDR RAM",
+      "Storage": "ONE: 4 GB, TWO: 8 GB, KIN Studio (unlimited)"
+    },
+    "Display": {
+      "Display": "ONE: 2.6 in, TWO: 3.4 in"
+    },
+    "Cameras": {
+      "Rear camera": "ONE: 5 MP, TWO: 8 MP"
+    },
+    "Connectivity": {
+      "Connectivity": "EV-DO Rev, Wi-Fi, Bluetooth 2.1"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "storage_gb": [
+      4,
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "nfc": false,
+    "weight_g": 110,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Microsoft Kin",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Kin"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Microsoft Kin\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Microsoft Kin",
+    "revid": 1383315119
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

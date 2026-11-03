@@ -1,0 +1,95 @@
+{
+  "slug": "huawei-mate-x",
+  "brand": "Huawei",
+  "name": "Mate X",
+  "status": "published",
+  "announced": "2019-11-15",
+  "released": "2019-11-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Huawei_Mate_Xs.jpg/500px-Huawei_Mate_Xs.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Huawei_Mate_Xs.jpg/250px-Huawei_Mate_Xs.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate X",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_Xs.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-11-15 (China)",
+      "Discontinued": "NA",
+      "Series": "Huawei Mate",
+      "Successor": "Huawei Mate X2"
+    },
+    "Network": {
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "Unfolded, 161.3 mm H, 146.2 mm W, 5.4 mm D, Folded, 161.3 mm H, 78.3 mm W, 11 mm D",
+      "Weight": "295 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 (SDK Rom)",
+      "Chipset": "HiSilicon Kirin 980",
+      "CPU": "Octa-core (2x 2.6 GHz ARM Cortex-A76, 2x 1.92 GHz ARM Cortex-A76, 4x 1.8 GHz ARM Cortex-A55)",
+      "GPU": "ARM Mali-G76 MP10, 720 MHz"
+    },
+    "Memory": {
+      "RAM": "8 GB",
+      "Storage": "512 GB",
+      "Card slot": "Huawei Nano Memory up to 256 GB"
+    },
+    "Display": {
+      "Display": "OLED, 414 ppi, Full, 8 in 2480x2200, Cover, 6.6 in 2480x1148"
+    },
+    "Cameras": {
+      "Rear camera": "Leica: 40 MP Wide (f/1.8, 27mm, 1/1.7\", PDAF) + 16 MP Ultrawide (f/2.2, 17mm) + 8 MP Telephoto (f/2.4, 52mm) + ToF sensor"
+    },
+    "Battery": {
+      "Battery": "4500 mAh Li-Po",
+      "Charging": "Huawei Supercharge 55w"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, 802.11a/b/g/n/ac with Wi-Fi Direct support, BT5.0, BLE, aptX/aptX HD, USB Type C 3.1"
+    }
+  },
+  "key": {
+    "display_in": 8.0,
+    "display_type": "OLED",
+    "chipset": "HiSilicon Kirin 980",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 40,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "battery_mah": 4500,
+    "os": "Android 9.0",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 295,
+    "thickness_mm": 5.4,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate X",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate X",
+    "revid": 1361473863
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

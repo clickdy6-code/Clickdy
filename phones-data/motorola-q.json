@@ -1,0 +1,61 @@
+{
+  "slug": "motorola-q",
+  "brand": "Motorola",
+  "name": "Q",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Motorola_Q_2.jpg/500px-Motorola_Q_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Motorola_Q_2.jpg/250px-Motorola_Q_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Q",
+      "credit": "eliot_hack_a_day, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Q_2.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA"
+    },
+    "Body": {
+      "Weight": "4.06 oz"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 5.0 for Smartphone",
+      "CPU": "Intel XScale PXA272 312 MHz"
+    },
+    "Memory": {
+      "Card slot": "MiniSD"
+    },
+    "Display": {
+      "Display": "16-bit Color 320 × 240 TFT display"
+    },
+    "Cameras": {
+      "Rear camera": "1.3-megapixel"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Q",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Q"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Q\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Q",
+    "revid": 1361476619
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

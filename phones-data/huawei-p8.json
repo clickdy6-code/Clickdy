@@ -1,0 +1,97 @@
+{
+  "slug": "huawei-p8",
+  "brand": "Huawei",
+  "name": "P8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Huawei_P8_smartphone_%2816975510790%29.jpg/500px-Huawei_P8_smartphone_%2816975510790%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Huawei_P8_smartphone_%2816975510790%29.jpg/250px-Huawei_P8_smartphone_%2816975510790%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei P8",
+      "credit": "Maurizio Pesce from Milan, Italia, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_P8_smartphone_(16975510790).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-04",
+      "Discontinued": "Discontinued",
+      "Series": "Huawei P series",
+      "Predecessor": "Huawei Ascend P7",
+      "Successor": "Huawei P9"
+    },
+    "Network": {
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Other": "Signal+, WI-FI+"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 \"KitKat\" upgradable to Android 6.0 \"Marshmallow\"",
+      "Chipset": "HiSilicon Kirin 930/935",
+      "CPU": "Octa Core(Quad-core 2 GHz Cortex-A53 & quad-core 1.5 GHz Cortex-A53)",
+      "GPU": "Mali-T628 MP4"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "16 GB, 64 GB (Premium Edition)",
+      "Card slot": "microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.2\" 1080 x 1920 pixels IPS-NEO LCD capacitive multitouch display, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, 4160 x 3120 pixels, RGBW, auto-focus, optical image stabilization, dual-LED (dual tone) flash, 1080p@30fps video recording",
+      "Front camera": "8 MP, 1080p"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 2680 mAh battery",
+      "Charging": "NA"
+    },
+    "Connectivity": {
+      "Connectivity": "2G: GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2, 3G: HSDPA 850 / 900 / 1700 / 1900 / 2100 - UL00; HSDPA 800 / 850 / 900 / 1700 / 1800 / 1900 / 2100 - L09, 4G: LTE band 1(2100), 3(1800), 4(1700/2100), 7(2600), 38(2600), 39(1900), 40(2300), 41(2500) - UL00; LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 40(2300) - L09"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS",
+    "chipset": "HiSilicon Kirin 930/935",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 2680,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P8",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P8",
+    "revid": 1361692043
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

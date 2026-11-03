@@ -1,0 +1,78 @@
+{
+  "slug": "foxconn-nokia-2-2",
+  "brand": "Foxconn",
+  "name": "Nokia 2.2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2019",
+      "Predecessor": "Nokia 2.1",
+      "Successor": "Nokia 2.3"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "146x70.6x9.3 mm",
+      "Weight": "153 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 \"Pie\" (Android One), upgradeable to Android 11",
+      "Chipset": "Mediatek MT6761 Helio A22 (12nm)",
+      "CPU": "Quad-core ARM Cortex-A53 @ 2.0 GHz",
+      "GPU": "PowerVR GE8320 @ 660 MHz"
+    },
+    "Memory": {
+      "RAM": "2 or 3 GB",
+      "Storage": "16 or 32 GB",
+      "Card slot": "microSD, up to 400 GB"
+    },
+    "Display": {
+      "Display": "5.71\" (14.5cm//81.4cm2) 19:9 720×1520 px IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP 1080p @ 30 FPS video",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "User-removable Li-ion 3000 mAH"
+    }
+  },
+  "key": {
+    "display_in": 5.71,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek MT6761 Helio A22",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 9.0",
+    "weight_g": 153,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2.2",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2.2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2.2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2.2",
+    "revid": 1361477066
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

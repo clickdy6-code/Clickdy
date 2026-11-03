@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-3220",
+  "brand": "Nokia",
+  "name": "3220",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Nokia_3220_-_on_white_paper.jpg/500px-Nokia_3220_-_on_white_paper.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Nokia_3220_-_on_white_paper.jpg/250px-Nokia_3220_-_on_white_paper.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 3220",
+      "credit": "Yuval Y, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3220_-_on_white_paper.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2004",
+      "Predecessor": "Nokia 3200 (3220)",
+      "Successor": "Nokia 3230 (3220), Nokia 5200 (3220), Nokia 5300 (3220b)"
+    },
+    "Network": {
+      "Technology": "GSM 850/1800/1900 or , GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "104 x 44 x 18.8 mm",
+      "Weight": "86 g"
+    },
+    "Platform": {
+      "Operating system": "Series 40"
+    },
+    "Memory": {
+      "RAM": "4.5 MB (2.5 MB User & 1MB Java)"
+    },
+    "Display": {
+      "Display": "128 x 128 65,536 color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "640 x 480 VGA (0.3 mpix) with video recording capability"
+    },
+    "Battery": {
+      "Battery": "BL-5B 760 mAh"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 760,
+    "five_g": false,
+    "weight_g": 86,
+    "year": 2004
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3220",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3220"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3220\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3220",
+    "revid": 1372920724
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

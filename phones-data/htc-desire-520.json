@@ -1,0 +1,72 @@
+{
+  "slug": "htc-desire-520",
+  "brand": "HTC",
+  "name": "Desire 520",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2015, Released in November 2015",
+      "Series": "HTC Desire"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, HSDPA 850 / 1900, 4G 2, 4, 5, 17"
+    },
+    "Body": {
+      "Dimensions": "139.8 x 68.9 x 9.1 mm (5.50 x 2.71 x 0.36 in)"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1 (Lollipop), Sense 7 UI",
+      "Chipset": "Qualcomm MSM8909 Snapdragon 210 (28 nm)",
+      "CPU": "Quad-core 1.1 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "RAM": "1GB RAM",
+      "Storage": "8GB eMMC 4.5"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, AF with LED flash , Video: 720p@30fps",
+      "Front camera": "2 MP , Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 2000 mAh, removable"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm MSM8909 Snapdragon 210",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "front_mp": 2,
+    "battery_mah": 2000,
+    "os": "Android 5.1",
+    "five_g": false,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire 520",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_520"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire 520\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire 520",
+    "revid": 1361473177
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "htc-startrek",
+  "brand": "HTC",
+  "name": "Startrek",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "Quad band GSM / GPRS / EDGE: GSM 850 / 900 / 1800 / 1900"
+    },
+    "Body": {
+      "Dimensions": "98 mm x 51 mm x 16 mm",
+      "Weight": "99g or 108.5g w/ battery"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 5.0 for Smartphones",
+      "CPU": "TI OMAP 850 @ 195 MHz (overclockable to 252/263 MHz)"
+    },
+    "Memory": {
+      "RAM": "64 MB SDRAM 128 MB ROM",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "2.2 in QVGA (240x320)"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixel CMOS"
+    },
+    "Battery": {
+      "Battery": "750 or 1100 mA·h"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 1.2, USB 1.1"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99,
+    "thickness_mm": 16
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Startrek",
+      "url": "https://en.wikipedia.org/wiki/HTC_Startrek"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Startrek\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Startrek",
+    "revid": 1382402158
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

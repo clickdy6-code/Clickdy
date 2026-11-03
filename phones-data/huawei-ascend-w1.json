@@ -1,0 +1,81 @@
+{
+  "slug": "huawei-ascend-w1",
+  "brand": "Huawei",
+  "name": "Ascend W1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Huawei_W1-U00-7114.jpg/500px-Huawei_W1-U00-7114.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Huawei_W1-U00-7114.jpg/250px-Huawei_W1-U00-7114.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Ascend W1",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_W1-U00-7114.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013, Q1",
+      "Series": "Huawei Ascend",
+      "Successor": "Huawei Ascend W2"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA 850/900/1700/1900/2100, Wi-Fi"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 8",
+      "Chipset": "Qualcomm Snapdragon S4",
+      "CPU": "1.2 GHz dual-core Qualcomm Krait (MSM8230)",
+      "GPU": "Qualcomm Adreno 305"
+    },
+    "Memory": {
+      "RAM": "4 GB internal flash, 512 MB RAM",
+      "Card slot": "MicroSD (up to 32GB)"
+    },
+    "Display": {
+      "Display": "4.0\" inches , 800x480 px 16m-color"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 Megapixel, 2592х1944pixels, LED flash, autofocus 720p video",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Ion 1950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "chipset": "Qualcomm Snapdragon S4",
+    "ram_gb": [
+      4
+    ],
+    "battery_mah": 1950,
+    "os": "Windows Phone 8",
+    "five_g": false,
+    "nfc": false,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ascend W1",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ascend_W1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ascend W1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ascend W1",
+    "revid": 1364508879
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "nokia-5100",
+  "brand": "Nokia",
+  "name": "5100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Nokia_5100_Blue_%28sharper_brighter%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Nokia_5100_Blue_%28sharper_brighter%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Nokia 5100",
+      "credit": "Hundehalter, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_5100_Blue_(sharper_brighter).jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5210",
+      "Successor": "Nokia 5140"
+    },
+    "Network": {
+      "Technology": "EGSM 900 GSM 1800/1900 (Tri band)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "49.5 x 108.5 x 22 mm",
+      "Weight": "104 g"
+    },
+    "Display": {
+      "Display": "128 x 128 pixel 4096 colors"
+    },
+    "Battery": {
+      "Battery": "BL-4C (3.7 volts) 720 mAh, Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "infrared (IrDA)"
+    }
+  },
+  "key": {
+    "battery_mah": 720,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 104
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 5100",
+      "url": "https://en.wikipedia.org/wiki/Nokia_5100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 5100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 5100",
+    "revid": 1361477355
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

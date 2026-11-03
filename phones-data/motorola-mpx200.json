@@ -1,0 +1,72 @@
+{
+  "slug": "motorola-mpx200",
+  "brand": "Motorola",
+  "name": "MPx200",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/My_Second_Smartphone.jpg/500px-My_Second_Smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/My_Second_Smartphone.jpg/250px-My_Second_Smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola MPx200",
+      "credit": "Krishna Kumar, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:My_Second_Smartphone.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2003-12"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800 / 1900"
+    },
+    "Body": {
+      "Dimensions": "89 × 48 × 27 mm",
+      "Weight": "113 g"
+    },
+    "Platform": {
+      "Operating system": "Microsoft Smartphone 2002",
+      "CPU": "132 MHz Texas Instruments OMAP 710"
+    },
+    "Memory": {
+      "RAM": "32 MB RAM",
+      "Storage": "16 MB (8 MB available to user)",
+      "Card slot": "MMC/SD card"
+    },
+    "Display": {
+      "Display": "2.2 inch 176x220 pixel TFT LCD, 65,536 colors (16-bit), 9 lines"
+    },
+    "Battery": {
+      "Battery": "BA520 standard Li-Ion, 850 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS Class 8 (4+1 slots), 32–40 kbit/s speed, browser supports WAP 1.2.1 and HTML (PocketIE)., IrDA, mini-USB (with USB 1.1 protocol)"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "battery_mah": 850,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 113,
+    "year": 2003
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola MPx200",
+      "url": "https://en.wikipedia.org/wiki/Motorola_MPx200"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola MPx200\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola MPx200",
+    "revid": 1361476598
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

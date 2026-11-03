@@ -1,0 +1,85 @@
+{
+  "slug": "huawei-y5-lite",
+  "brand": "Huawei",
+  "name": "Y5 lite",
+  "status": "published",
+  "announced": "2019-01-02",
+  "released": "2019-01-02",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-01-02",
+      "Series": "Huawei Y series"
+    },
+    "Network": {
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "146.5 × 70.9 × 8.3 mm",
+      "Weight": "142 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 Oreo, Android Go",
+      "Chipset": "MediaTek MT6739 (28 nm)",
+      "CPU": "Quad-core 1.5 GHz Cortex-A53",
+      "GPU": "PowerVR GE8100"
+    },
+    "Memory": {
+      "RAM": "1 GB, Memory card: MicroSDXC up to 256 GB",
+      "Storage": "16 GB, eMMC 5.1"
+    },
+    "Display": {
+      "Display": "TFT LCD, 5.45\", 1440 × 720 (HD+), 18:9, 295 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.0, PDAF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, f/2.2, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 3020 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5 mm audio, Bluetooth 4.2 (A2DP, LE), FM-radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), GPS, A-GPS, ГЛОНАСС"
+    }
+  },
+  "key": {
+    "display_in": 5.45,
+    "display_type": "TFT",
+    "chipset": "MediaTek MT6739",
+    "ram_gb": [
+      1,
+      56
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3020,
+    "os": "Android 8.1",
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 142,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y5 lite",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y5_lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y5 lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y5 lite",
+    "revid": 1361474161
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

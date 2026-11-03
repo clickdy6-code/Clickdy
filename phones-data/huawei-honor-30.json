@@ -1,0 +1,89 @@
+{
+  "slug": "huawei-honor-30",
+  "brand": "Huawei",
+  "name": "Honor 30",
+  "status": "published",
+  "announced": "2020-04-15",
+  "released": "2020-04-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Honor30.jpg/500px-Honor30.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Honor30.jpg/250px-Honor30.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 30",
+      "credit": "Ahmadkurdi44, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honor30.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-04-15 (release time)",
+      "Series": "HONOR series",
+      "Predecessor": "Honor 20",
+      "Successor": "Honor 50"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "Honor 30: 185 g, Honor 30 Pro: 186 g, Honor 30 Pro+: 190 g",
+      "Other": "Fingerprint scanner (built-in under the display), proximity sensor, light sensor, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Magic UI 3.1.1 based on Android 10 (system version)",
+      "Chipset": "Honor 30: Kirin 985, Honor 30 Pro/Honor 30 Pro+: Kirin 990 5G",
+      "GPU": "Honor 30: Mali-G77MP8, Honor 30 Pro/Honor 30 Pro+: Mali-G76MP16"
+    },
+    "Memory": {
+      "RAM": "30: 6/8 GB, 30 Pro: 8 GB, 30 Pro+: 8/12 GB, LPDDR4X",
+      "Storage": "Honor 30/Honor 30 Pro: 128/256 GB, Honor 30 Pro+: 256 GB, UFS 3.0"
+    },
+    "Display": {
+      "Display": "Honor 30: 6.53 inches, 2400x1080 FHD+, OLED, Honor 30 Pro/Honor 30 Pro+: 6.57 inches, 2340x1080 90Hz OLED"
+    },
+    "Cameras": {
+      "Front camera": "Honor 30: 32-megapixel camera (f/2.0), Honor 30 Pro/Honor 30 Pro+: 32-megapixel camera (f/2.0) + 8 million Pixel camera (f/2.2)"
+    },
+    "Sound": {
+      "Sound": "USB-C"
+    },
+    "Battery": {
+      "Battery": "All models: non-removable, Li-Po 4000 mAh, 30 & 30 Pro: 40W fast charging, fast wireless 27W charging, 5W reverse charging, 30 Pro+: 40W fast charging, 25W fast wireless charging, 5W reverse charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth5.1, 802.11 a/b/g/n/ac (wave2), MIMO, VHT160 Wifi"
+    }
+  },
+  "key": {
+    "display_in": 6.53,
+    "display_type": "OLED",
+    "refresh_hz": 90,
+    "chipset": "Honor 30: Kirin 985",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 4000,
+    "wireless_w": 27,
+    "os": "Android 10",
+    "nfc": false,
+    "weight_g": 185,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor 30",
+      "url": "https://en.wikipedia.org/wiki/Honor_30"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 30\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Honor 30",
+    "revid": 1361473591
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

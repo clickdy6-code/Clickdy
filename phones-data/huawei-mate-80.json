@@ -1,0 +1,58 @@
+{
+  "slug": "huawei-mate-80",
+  "brand": "Huawei",
+  "name": "Mate 80",
+  "status": "published",
+  "announced": "2025-11-25",
+  "released": "2025-11-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/HUAWEI_Mate_80_Pro_Max_001.jpg/500px-HUAWEI_Mate_80_Pro_Max_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/HUAWEI_Mate_80_Pro_Max_001.jpg/250px-HUAWEI_Mate_80_Pro_Max_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate 80",
+      "credit": "RichardBi0129, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HUAWEI_Mate_80_Pro_Max_001.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 25, 2025",
+      "Series": "Huawei Mate",
+      "Predecessor": "Huawei Mate 70"
+    },
+    "Network": {
+      "Technology": "GSM/ CDMA/ HSPA / CDMA2000/ LTE",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "HarmonyOS 6",
+      "Chipset": "Kirin 9020 (Mate 80), Kirin 9030 (Mate 80 Pro, 12GB), Kirin 9030 Pro (Mate 80 Pro, 16GB/Pro Max/RS Ultimate Design)"
+    }
+  },
+  "key": {
+    "chipset": "Kirin 9020",
+    "os": "HarmonyOS 6",
+    "five_g": false,
+    "dual_sim": true,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate 80",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_80"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate 80\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Mate 80",
+    "revid": 1382854613
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

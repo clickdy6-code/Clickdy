@@ -1,0 +1,89 @@
+{
+  "slug": "huawei-y9a",
+  "brand": "Huawei",
+  "name": "Y9a",
+  "status": "published",
+  "announced": "2020-09-03",
+  "released": "2020-09-03",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Enjoy 20 Plus 5G: 2020-09-03, Y9a: 2020-09-07, Nova Y9a: 2022-01-31",
+      "Series": "Y/Nova/Enjoy",
+      "Predecessor": "Huawei Y9s",
+      "Successor": "Huawei Nova Y90"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G (Enjoy 20 Plus 5G)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.5 × 76.5 × 8.95 mm",
+      "Weight": "197 g",
+      "Other": "Fingerprint scanner (integrated into the power button), proximity sensor, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Android (operating system) 10 + EMUI 10, Without Google Play",
+      "CPU": "Y9a: MediaTek Helio G80 (12 nm), 8 cores (2×2.0 GHz Cortex-A75 & 6×1.8 GHz Cortex-A55), Enjoy 20 Plus 5G: MediaTek MT6853V Dimensity 720 5G (7 nm), 8 cores (2×2.0 GHz Cortex-A75 & 6×2.0 GHz Cortex-A55)",
+      "GPU": "Y9a: Mali-G55 MC2, Enjoy 20 Plus 5G: Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "Y9a/Enjoy 20 Plus 5G: 6/8 GB, Nova Y9a: 8 GB",
+      "Storage": "128 GB, UFS 2.1",
+      "Card slot": "NM (Nano Memory) up to 256 GB"
+    },
+    "Display": {
+      "Display": "Both models: IPS LCD, 6.63\", 2400 × 1080 (FullHD+), 20:9, 397 ppi, Y9a: 60 Hz, Enjoy 20 Plus 5G: 90 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Y9a/Nova Y9a: 64 MP, f/1.8, 26 mm (wide-angle), 1/1.73\", 0.8 μm, PDAF + 8 MP, f/2.4, 13 mm (ultra wide-angle) + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth sensor), Enjoy 20 Plus 5G: 48 MP, f/1.8, 26 mm (wide-angle), 1/2.0\", 0.8 μm, PDAF + 8 MP, f/2.4, 120˚ (ultra wide-angle) + 2 MP, f/2.4 (depth sensor), LED flash, HDR, panorama, Video: 4K@30fps (Enjoy 20 Plus 5G), 1080p@30fps, gyro-EIS",
+      "Front camera": "Pop-up, 16 MP, f/2.2 (wide-angle), 1/3.1\", 1.0 μm, HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "All models: non-removable, Li-Po, Y9a/Nova Y9a: 4200/4300 mAh, Enjoy 20 Plus: 4200 mAh",
+      "Charging": "Y9a: fast charging at 22.5 W (4200 mAh), fast charging at 40 W (4300 mAh), Enjoy 20 Plus: fast charging at 40 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm Audio, Bluetooth 5.1 (A2DP, LE), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, Beidou"
+    }
+  },
+  "key": {
+    "display_in": 6.63,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4300,
+    "wired_w": 40,
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 197,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y9a",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y9a"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y9a\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y9a",
+    "revid": 1361474229
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

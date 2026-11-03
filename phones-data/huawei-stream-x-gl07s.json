@@ -1,0 +1,77 @@
+{
+  "slug": "huawei-stream-x-gl07s",
+  "brand": "Huawei",
+  "name": "STREAM X GL07S",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/GL07S_BK_001.jpg/500px-GL07S_BK_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/GL07S_BK_001.jpg/250px-GL07S_BK_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei STREAM X GL07S",
+      "credit": "利用者:Shampoorobot aka A16504601 at Japanese Wikipedia, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:GL07S_BK_001.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Huawei Ascend P2"
+    },
+    "Body": {
+      "Form factor": "bar",
+      "Dimensions": "137 mm H , 67 mm W , 8.6 mm D",
+      "Weight": "0.122 kg"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1 \"Jelly Bean\"",
+      "CPU": "HiSilicon K3V2 1.5 GHz quadcore"
+    },
+    "Memory": {
+      "RAM": "1 GB (RAM)",
+      "Storage": "32 GB"
+    },
+    "Display": {
+      "Display": "4.7 in"
+    },
+    "Cameras": {
+      "Rear camera": "EXMOR RS for mobile"
+    },
+    "Battery": {
+      "Battery": "2350 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "LTE 1800MHz, HSPA/W-CDMA 1700/2100MHz, GSM 900/1800/1900MHz, Bluetooth 4.0, Micro-USB, audio jack, Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2350,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 8.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei STREAM X GL07S",
+      "url": "https://en.wikipedia.org/wiki/Huawei_STREAM_X_GL07S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei STREAM X GL07S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei STREAM X GL07S",
+    "revid": 1361474064
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

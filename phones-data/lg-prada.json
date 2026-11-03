@@ -1,0 +1,69 @@
+{
+  "slug": "lg-prada",
+  "brand": "LG",
+  "name": "Prada",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/LG_KE850_Prada_Hauptmen%C3%BC.jpg/500px-LG_KE850_Prada_Hauptmen%C3%BC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/LG_KE850_Prada_Hauptmen%C3%BC.jpg/250px-LG_KE850_Prada_Hauptmen%C3%BC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Prada",
+      "credit": "LG1991, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_KE850_Prada_Hauptmen%C3%BC.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "LG Prada",
+      "Successor": "LG Prada II"
+    },
+    "Network": {
+      "Technology": "GPRS/EDGE Tri-Band (900/1800/1900)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "98.8×54×12 mm",
+      "Weight": "85 g"
+    },
+    "Platform": {
+      "CPU": "208 MHz Infineon S-Gold 2 PMB8876, ARM926EJ-S"
+    },
+    "Memory": {
+      "RAM": "32 MB SDRAM",
+      "Storage": "128 MB StrataFlash NOR",
+      "Card slot": "microSD Internal Memory Slot, behind the battery."
+    },
+    "Display": {
+      "Display": "256K color TFT touchscreen, 240 × 400 px, 5:3 ratio (~155 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel, video CIF (30 frame/s), flash"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "nfc": false,
+    "weight_g": 85
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Prada",
+      "url": "https://en.wikipedia.org/wiki/LG_Prada"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Prada\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Prada",
+    "revid": 1370392627
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

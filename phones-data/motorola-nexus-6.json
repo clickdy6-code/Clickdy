@@ -1,0 +1,101 @@
+{
+  "slug": "motorola-nexus-6",
+  "brand": "Motorola",
+  "name": "Nexus 6",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Nexus_6.png/500px-Nexus_6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Nexus_6.png/250px-Nexus_6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Nexus 6",
+      "credit": "developers.android.com, CC BY 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nexus_6.png",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-11",
+      "Discontinued": "2015-12-09",
+      "Series": "Google Nexus",
+      "Predecessor": "Nexus 5",
+      "Successor": "Nexus 6P, Moto X Style (for Moto X Pro, China Only)"
+    },
+    "Network": {
+      "Technology": "2G/3G/4G LTE, GSM: 850/900/1800/1900 MHz, Model XT1103 (Americas):, CDMA band class: 0/1/10, WCDMA bands: 1/2/4/5/8, LTE bands: 2/3/4/5/7/12/13/17/25/26/29/41, CA DL bands: B2-B13, B2-B17, B2-29, B4-B5, B4-B13, B4-B17, B4-B29, Model XT1100 (International):, WCDMA bands: 1/2/4/5/6/8/9/19, LTE bands: 1/3/5/7/8/9/19/20/28/41, CA DL bands: B3-B5, B3-B8"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "159.26 mm H, 82.98 mm W, 3.8 - curve",
+      "Weight": "184 g",
+      "Other": "Notifications LED (requires root access)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.0 \"Lollipop\", Last: Android 7.1.2 \"Nougat\"",
+      "Chipset": "Qualcomm Snapdragon 805",
+      "CPU": "Qualcomm 2.7 GHz quad-core Krait 450",
+      "GPU": "Adreno 420"
+    },
+    "Memory": {
+      "RAM": "3 GB of LPDDR3 RAM",
+      "Storage": "32 GB or 64 GB",
+      "Card slot": "Not available"
+    },
+    "Display": {
+      "Display": "5.96 in PenTile RGBG AMOLED, (QHD) @ 493 ppi, scratch-resistant Corning Gorilla Glass 3 capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "Sony IMX214 Exmor R CMOS 13 MP 1/3.06\" (1.12-μm pixels) with OIS, 2.0 aperture and dual LED ring flash",
+      "Front camera": "2 MP, 1/6\", 1.4 μm, 2.2 aperture, FoV 71.6°"
+    },
+    "Sound": {
+      "Sound": "Dual front facing stereo speakers, 3.5 mm headphone jack with 4 button headset compatibility"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3.8 V 12.2 Wh (3,220 mAh), Qi wireless charging, turbo charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB, NFC, Bluetooth 4.1, Wi-Fi 802.11 a/b/g/n/ac 2×2 (MIMO), Nano-SIM"
+    }
+  },
+  "key": {
+    "display_in": 5.96,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 805",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 3220,
+    "os": "Android 5.0",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 184,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nexus 6",
+      "url": "https://en.wikipedia.org/wiki/Nexus_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nexus 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nexus 6",
+    "revid": 1362916195
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

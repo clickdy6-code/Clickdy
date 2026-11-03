@@ -1,0 +1,51 @@
+{
+  "slug": "kyocera-wireless-kyocera-e3100",
+  "brand": "Kyocera Wireless",
+  "name": "Kyocera E3100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA2000"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "105 x 56 x 12.8 mm",
+      "Weight": "90 g",
+      "Other": "Touchscreen, Haptic Touch feedback"
+    },
+    "Memory": {
+      "Card slot": "Micro SD"
+    },
+    "Display": {
+      "Display": "240x320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "1.3-megapixel"
+    },
+    "Battery": {
+      "Battery": "920 mAh Li-ion"
+    }
+  },
+  "key": {
+    "battery_mah": 920,
+    "weight_g": 90
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera E3100",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_E3100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera E3100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera E3100",
+    "revid": 1361474797
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

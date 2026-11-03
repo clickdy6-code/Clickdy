@@ -1,0 +1,108 @@
+{
+  "slug": "huawei-mate-40",
+  "brand": "Huawei",
+  "name": "Mate 40",
+  "status": "published",
+  "announced": "2020-10-22",
+  "released": "2020-10-22",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/HUAWEI_Mate_40_Pro_front.png/500px-HUAWEI_Mate_40_Pro_front.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/HUAWEI_Mate_40_Pro_front.png/250px-HUAWEI_Mate_40_Pro_front.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Mate 40",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HUAWEI_Mate_40_Pro_front.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-10-22 and 2021-06-18 (HarmonyOS China variant)",
+      "Series": "Huawei Mate series",
+      "Predecessor": "Huawei Mate 30",
+      "Successor": "Huawei Mate 50"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G",
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Mate 40 , 158.6 mm H , 72.5 mm W , 8.8 mm, Mate 40 Pro/Pro+, 162.9 mm H , 75.5 mm W , 8.8-9.1 mm",
+      "Weight": "Mate 40: 188 g, Mate 40 Pro: 212 g, Mate 40 Pro+: 230 g"
+    },
+    "Platform": {
+      "Operating system": "EMUI 13, based on Android 12 (SDK ROM), HarmonyOS 2.0 (China 2021 variant), Current: China: HarmonyOS 4.2",
+      "Chipset": "HiSilicon Kirin 9000/9000E",
+      "CPU": "Octa-core (1x3.13 GHz Cortex-A77 & 3x2.54 GHz Cortex-A77 & 4x2.05 GHz Cortex-A55)",
+      "GPU": "Mali-G78 MP22/MP24"
+    },
+    "Memory": {
+      "RAM": "Mate 40/Pro: 8 GB RAM, Mate 40 Pro+: 12 GB RAM",
+      "Storage": "Mate 40: 128 or 256 GB UFS 3.1, Mate 40 Pro/Pro+: 256 GB UFS 3.1, Mate 40 RS Porsche Design: 512 GB UFS 3.1",
+      "Card slot": "Nano Memory, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "Mate 40: 6.5 in OLED, (402 ppi), 19.8:9 aspect ratio, 90 Hz refresh rate, Mate 40 Pro/Pro+: 6.76 in OLED, (456 ppi), 18.5:9 aspect ratio, 90 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "All: 50 Megapixel, MP Wide (F-number, f/1.9, 23mm, 1/1.28\", 2.44µm, PDAF, Laser AF), Dual Pixel Autofocus#Phase detection, PDAF, Leica optics, gyro-EIS, HDR, LED flash, 4K@30/60fps, 1080p@30/60/120/240/480fps, Mate 40 Pro: In addition to above: + 20 MP Ultrawide (f/1.8, 18mm, PDAF)\t+ 12 MP Telephoto (f/3.4, 125mm, PDAF, OIS), 720p@960/3840fps, Mate 40 Pro+: In addition to Mate 40: OIS, + 20 MP Ultrawide (f/2.4, 14mm, PDAF), + 8 MP Telephoto (f/4.4, 240mm, PDAF, OIS) + 12 MP Telephoto (f/2.4, 80mm, PDAF, OIS) + Time-of-flight camera, time-of-flight sensor",
+      "Front camera": "13 MP, f/2.4, 18mm"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Mate 40: 4200 mAh, Mate 40 Pro/Pro+: 4400 mAh",
+      "Charging": "Mate 40: 40 W wired + 40W wireless + reverse wireless charging, Mate 40 Pro/Pro+ 66 W, 50 W wireless, reverse wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, 802.11a/b/g/n/ac/6 with Wi-Fi Direct support, BT5.2, BLE, USB Type C 3.1"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "OLED",
+    "refresh_hz": 90,
+    "chipset": "HiSilicon Kirin 9000/9000E",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 20,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 13,
+    "battery_mah": 4200,
+    "wireless_w": 40,
+    "wired_w": 66,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 188,
+    "thickness_mm": 8.8,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Mate 40",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Mate_40"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Mate 40\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Huawei Mate 40",
+    "revid": 1361473823
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

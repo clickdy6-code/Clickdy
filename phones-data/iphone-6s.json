@@ -1,0 +1,93 @@
+{
+  "slug": "iphone-6s",
+  "brand": "IPhone",
+  "name": "6s",
+  "status": "published",
+  "announced": "2015-09-25",
+  "released": "2015-09-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/IPhone_6s_vector.svg/500px-IPhone_6s_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/IPhone_6s_vector.svg/250px-IPhone_6s_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 6s",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_6s_vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-09-25",
+      "Discontinued": "16 and 64 GB:, 32 and 128 GB:",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 6 and 6 Plus",
+      "Successor": "iPhone 7 and 7 Plus"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, EVDO, HSPA+, LTE/4G, LTE Advanced/4G+"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "6s: 138.3xx67.1xx7.1 mm, 6s Plus: 158.2xx77.9xx7.3 mm",
+      "Weight": "6s: 143 g, 6s Plus: 192 g",
+      "Other": "FaceTime audio or video, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 9.0",
+      "Chipset": "Apple A9"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR4 RAM",
+      "Storage": "16, 32, 64 or 128 GB TLC NAND connected via NVMe"
+    },
+    "Display": {
+      "Display": "6s: 4.7 in Retina HD, LED-backlit IPS LCD, 1334 × 750 pixel resolution (326 ppi), 6s Plus: 5.5 in Retina HD, LED-backlit IPS LCD, 1920 × 1080 pixel resolution (401 ppi), 500 cd/m2 max brightness (typical)"
+    },
+    "Cameras": {
+      "Rear camera": "Sony Exmor RS IMX315 12 MP (1.22 μm), true-tone flash, autofocus, IR filter, burst mode, 4K video recording at 30 fps or 1080p at 30 or 60 fps, slow-motion video (1080p at 120 fps and 720p at 240 fps), timelapse with stabilization, panorama (up to 63 megapixels), face detection, digital image stabilization, optical image stabilization (6s Plus only)",
+      "Front camera": "5 MP, burst mode, exposure control, face detection, auto-HDR, 720p HD video recording, Retina flash"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, 3.5 mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "6s: 3.82 V 6.55 W·h (1715 mA·h) Lithium polymer battery, Li-Po, 6s Plus: 3.8 V 10.45 W·h (2750 mA·h) Li-Po"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "display_type": "Retina",
+    "chipset": "Apple A9",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "os": "iOS 9.0",
+    "five_g": false,
+    "weight_g": 143,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 6s",
+      "url": "https://en.wikipedia.org/wiki/IPhone_6s"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 6s\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 6s",
+    "revid": 1382615530
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "iphone-15",
+  "brand": "IPhone",
+  "name": "15",
+  "status": "published",
+  "announced": "2023-09-22",
+  "released": "2023-09-22",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/IPhone_15_Vector.svg/500px-IPhone_15_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/IPhone_15_Vector.svg/250px-IPhone_15_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 15",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_15_Vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-09-22",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 14 and 14 Plus",
+      "Successor": "iPhone 16 and 16 Plus"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G NR",
+      "SIM": "Dual eSIM (US), Dual nano-SIM (Hong Kong, Macau and mainland China), nano-SIM and eSIM (elsewhere)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "15: H: 147.6 mm , W: 71.6 mm , D: 7.8 mm, 15 Plus: H: 160.9 mm , W: 77.8 mm , D: 7.8 mm",
+      "Weight": "15: 171 g, 15 Plus: 201 g",
+      "Other": "FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone (if supported by the carrier)"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 17",
+      "Chipset": "Apple A16 Bionic"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR5",
+      "Storage": "128 GB, 256 GB or 512 GB NVMe"
+    },
+    "Display": {
+      "Display": "15: 6.1 in resolution, 19.5:9 aspect ratio (~460 ppi density) Super Retina XDR OLED, 60Hz, HDR10, 1000 nits (typ), 2000 nits (peak) supplied by Samsung Display, 15 Plus: 6.7 in resolution, 19.5:9 aspect ratio, (~460 ppi density) Super Retina XDR OLED, 60Hz, HDR10, 1000 nits (typ), 2000 nits (peak) supplied by Samsung Display"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 1.6, 26 mm equiv. (wide), 12 MP, 2.4, 13 mm, equiv. (ultrawide)",
+      "Front camera": "12 MP, 1.9, 23 mm equiv. (wide), SL 3D (depth/biometrics)"
+    },
+    "Battery": {
+      "Battery": "15: 12.98 Wh (3349 mAh) Lithium-ion battery, Li-ion, 15 Plus: 16.95 Wh (4383 mAh) Li-ion",
+      "Charging": "MagSafe (wireless charger), MagSafe and Qi2 wireless charging, USB-C, (fast-charge capable: up to 50% charge in 30 minutes with 20W adaptor or higher), (Up to 50% charge in 20 minutes with 40W adaptor or higher)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.3 (A2DP, LE), Ultra-wideband (UWB), USB-C (with DisplayPort support), Wi-Fi 6 (802.11a/b/g/n/ac/ax) dual-band, NFC (reader mode, Express Cards), GPS, GLONASS, Galileo, QZSS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Super Retina XDR OLED",
+    "refresh_hz": 60,
+    "peak_nits": 2000,
+    "chipset": "Apple A16 Bionic",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 12,
+    "battery_mah": 3349,
+    "wired_w": 40,
+    "os": "iOS 17",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 171,
+    "thickness_mm": 7.8,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 15",
+      "url": "https://en.wikipedia.org/wiki/IPhone_15"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 15\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 15",
+    "revid": 1383212871
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

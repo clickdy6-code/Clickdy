@@ -1,0 +1,75 @@
+{
+  "slug": "htc-inspire-4g",
+  "brand": "HTC",
+  "name": "Inspire 4G",
+  "status": "published",
+  "announced": "2011-02-13",
+  "released": "2011-02-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-02-13",
+      "Successor": "HTC Vivid 4G"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "122 mm H, 68 mm W, 12 mm D",
+      "Weight": "164 g (5.78 oz)",
+      "Other": "Wi-Fi Hot Spot, FM radio, A-GPS, 3.5 mm stereo audio jack, Micro-USB"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.5 with HTC Sense 3.0, Released 2012-07-31",
+      "CPU": "1 GHz Qualcomm Snapdragon MSM8255",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "768 MB RAM",
+      "Storage": "4 GB ROM",
+      "Card slot": "8 GB microSD, up to 32 GB supported"
+    },
+    "Display": {
+      "Display": "4.3 in class diagonal widescreen, 480x800 S-LCD TFT LCD at 217 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixel autofocus with dual LED flash, backside illumination"
+    },
+    "Sound": {
+      "Sound": "Dolby Mobile and SRS sound enhancement"
+    },
+    "Battery": {
+      "Battery": "1230 mAh Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "2.5G (GSM/GPRS/EDGE): 850/900/1800/1900 MHz; 3GPP (HSPA+ 850/1900 MHz); Wi-Fi (802.11 b/g/n); Bluetooth 3.0; USB 2.0, DLNA"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1230,
+    "os": "Android 2.3",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 164,
+    "thickness_mm": 12,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Inspire 4G",
+      "url": "https://en.wikipedia.org/wiki/HTC_Inspire_4G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Inspire 4G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Inspire 4G",
+    "revid": 1361473318
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

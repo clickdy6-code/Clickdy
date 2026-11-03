@@ -1,0 +1,45 @@
+{
+  "slug": "motorola-one",
+  "brand": "Motorola",
+  "name": "One",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018",
+      "Series": "Motorola One",
+      "Predecessor": "Moto X4"
+    },
+    "Body": {
+      "Form factor": "Smartphone"
+    },
+    "Memory": {
+      "Card slot": "microSD up to 2 TB"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C, NFC, Bluetooth 5.0 BR/EDR + BLE, Wi-Fi 802.11a/b/g/n/ac, 2.4 GHz + 5 GHz"
+    }
+  },
+  "key": {
+    "nfc": true,
+    "usb": "USB-C",
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola One",
+      "url": "https://en.wikipedia.org/wiki/Motorola_One"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola One\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola One",
+    "revid": 1373849952
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

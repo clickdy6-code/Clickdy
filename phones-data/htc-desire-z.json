@@ -1,0 +1,83 @@
+{
+  "slug": "htc-desire-z",
+  "brand": "HTC",
+  "name": "Desire Z",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/HTC_Desire_Z_-_with_keyboard_open.jpeg/500px-HTC_Desire_Z_-_with_keyboard_open.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/HTC_Desire_Z_-_with_keyboard_open.jpeg/250px-HTC_Desire_Z_-_with_keyboard_open.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Desire Z",
+      "credit": "Havarhen, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Desire_Z_-_with_keyboard_open.jpeg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "A Series",
+      "Predecessor": "HTC Dream (T-Mobile G1)"
+    },
+    "Network": {
+      "Technology": "900/2100 or 850/1900 MHz HSPA/WCDMA, 850/900/1800/1900 MHz GSM"
+    },
+    "Body": {
+      "Form factor": "Slate slider smartphone",
+      "Dimensions": "119 × 60.4 × 14.16 mm",
+      "Weight": "180 g",
+      "Other": "Proximity sensor, accelerometer, FM Radio, Facebook, Twitter, MS Exchange, compass, GPS, A-GPS, Google turn-by-turn navigation, Flash 10.1 enabled, upgradable to Flash 10.3"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.2.1 Froyo, Last: Android 2.3.3 \"Gingerbread\"",
+      "Chipset": "Qualcomm Snapdragon MSM7230",
+      "CPU": "ARMv7 800 MHz Scorpion",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "1.5 GB Flash",
+      "Card slot": "microSD (SD 2.0 compatible)"
+    },
+    "Display": {
+      "Display": "3.7-inch 800 × 480 WVGA Super LCD capacitive touchscreen@ 252 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel autofocus with LED flash, face detection, geotagging"
+    },
+    "Battery": {
+      "Battery": "1300 mAh Lithium-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm stereo jack, micro-USB hi-speed, Bluetooth 2.1, IEEE 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon MSM7230",
+    "storage_gb": [
+      5
+    ],
+    "battery_mah": 1300,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 180
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Desire Z",
+      "url": "https://en.wikipedia.org/wiki/HTC_Desire_Z"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Desire Z\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Desire Z",
+    "revid": 1361473248
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

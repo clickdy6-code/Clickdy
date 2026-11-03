@@ -1,0 +1,60 @@
+{
+  "slug": "netphone-701",
+  "brand": "Netphone",
+  "name": "701",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-09"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 \"Froyo\"",
+      "Chipset": "Qualcomm MSM7227 chipset",
+      "CPU": "600 MHz ARM CPU",
+      "GPU": "Adreno 200 GPU"
+    },
+    "Memory": {
+      "RAM": "430 MB RAM",
+      "Storage": "512 MB",
+      "Card slot": "microSD slot v2.0 compatible (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "480×800 px, 3.5 in (89 mm), 267 PPI, WVGA, TFT LCD capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP with autofocus"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM7227 chipset",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "os": "Android 2.2",
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Netphone 701",
+      "url": "https://en.wikipedia.org/wiki/Netphone_701"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Netphone 701\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Netphone 701",
+    "revid": 1361476795
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

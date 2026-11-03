@@ -1,0 +1,50 @@
+{
+  "slug": "motorola-microtac",
+  "brand": "Motorola",
+  "name": "MicroTAC",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Motorola_MicroTAC_9800x.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Motorola_MicroTAC_9800x.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Motorola MicroTAC",
+      "credit": "Ross Padluck (Redrum0486 at English Wikipedia), Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_MicroTAC_9800x.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "1989",
+      "Predecessor": "DynaTAC",
+      "Successor": "TeleTAC, StarTAC"
+    },
+    "Network": {
+      "Technology": "Advanced Mobile Phone System or GSM on Ameritech"
+    },
+    "Body": {
+      "Form factor": "Flip"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "year": 1989
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: MicroTAC",
+      "url": "https://en.wikipedia.org/wiki/MicroTAC"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"MicroTAC\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "MicroTAC",
+    "revid": 1368930739
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

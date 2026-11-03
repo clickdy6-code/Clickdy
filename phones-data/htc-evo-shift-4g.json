@@ -1,0 +1,66 @@
+{
+  "slug": "htc-evo-shift-4g",
+  "brand": "HTC",
+  "name": "Evo Shift 4G",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Evo"
+    },
+    "Network": {
+      "Technology": "Sprint"
+    },
+    "Body": {
+      "Form factor": "Slider Smartphone",
+      "Dimensions": "117 mm (h), 60 mm (w), 16 mm (d)",
+      "Weight": "167 g",
+      "Other": "Wi-Fi Hot Spot, FM-Radio, GPS navigation"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 , Released 2010-08-10, HTC Sense",
+      "CPU": "800 MHz Qualcomm MSM7630 (Snapdragon) , Adreno 205 Graphics"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "2 GB ROM (358 MB free)",
+      "Card slot": "2 GB microSD, up to 32 GB supported"
+    },
+    "Display": {
+      "Display": "3.6-inch diagonal widescreen, 480×800 TFT LCD at 259.15 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "backside illumination 5-megapixel autofocus with LED flash, rear-facing"
+    },
+    "Battery": {
+      "Battery": "1.5 Ah Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Dual-band CDMA/EVDO Rev. A (800 1900 MHz), 2.5 to 2.7 GHz WiMAX 802.16e, Wi-Fi (802.11b/g/n), Bluetooth 2.1 + EDR"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "os": "Android 2.2",
+    "nfc": false,
+    "weight_g": 167,
+    "thickness_mm": 16
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Evo Shift 4G",
+      "url": "https://en.wikipedia.org/wiki/HTC_Evo_Shift_4G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Evo Shift 4G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Evo Shift 4G",
+    "revid": 1361473274
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

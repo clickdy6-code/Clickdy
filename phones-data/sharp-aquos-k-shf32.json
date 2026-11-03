@@ -1,0 +1,88 @@
+{
+  "slug": "sharp-aquos-k-shf32",
+  "brand": "Sharp",
+  "name": "Aquos K SHF32",
+  "status": "published",
+  "announced": "2015-07-17",
+  "released": "2015-07-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/KDDI_SHF32_clear-white_open.jpg/500px-KDDI_SHF32_clear-white_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/KDDI_SHF32_clear-white_open.jpg/250px-KDDI_SHF32_clear-white_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sharp Aquos K SHF32",
+      "credit": "SelEle-MS, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KDDI_SHF32_clear-white_open.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-07-17",
+      "Predecessor": "AQUOS K SHF31"
+    },
+    "Network": {
+      "Technology": "3.9G FDD-LTE (au VoLTE) (800 MHz / 2 GHz), 3G: W-CDMA (850 MHz / 2 GHz), 2G: GSM (1.9 GHz / 1.8 GHz / 900 MHz)",
+      "SIM": "au Nano IC Card 04 (VoLTE)"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "113 mm H , 51 mm W , 16.9 mm D",
+      "Weight": "128 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4",
+      "Chipset": "Qualcomm Snapdragon 400 MSM8926",
+      "CPU": "1.2 GHz quad-core"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB ROM",
+      "Card slot": "microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3.4 in (86 mm) qHD (960×540 pixels) TFT LCD, 16.77M colors, Sub-display: 0.9 in (23 mm) OLED (monochrome)"
+    },
+    "Cameras": {
+      "Rear camera": "13.1 MP CMOS"
+    },
+    "Battery": {
+      "Battery": "1,410 mAh (removable)"
+    }
+  },
+  "key": {
+    "display_in": 3.4,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 400 MSM8926",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 13.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1410,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 128,
+    "thickness_mm": 16.9,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Aquos K SHF32",
+      "url": "https://en.wikipedia.org/wiki/Aquos_K_SHF32"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Aquos K SHF32\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Aquos K SHF32",
+    "revid": 1374015290
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

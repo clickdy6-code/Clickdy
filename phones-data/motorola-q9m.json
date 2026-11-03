@@ -1,0 +1,57 @@
+{
+  "slug": "motorola-q9m",
+  "brand": "Motorola",
+  "name": "Q9m",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA"
+    },
+    "Body": {
+      "Dimensions": "4.61 x",
+      "Weight": "4.76 oz"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.0 for Smartphone",
+      "CPU": "Intel XScale PXA27x 312 MHz"
+    },
+    "Memory": {
+      "Card slot": "MiniSD"
+    },
+    "Display": {
+      "Display": "16-bit Color 320 x 240 TFT display"
+    },
+    "Cameras": {
+      "Rear camera": "1.3-megapixel"
+    },
+    "Battery": {
+      "Battery": "1170 mAh LiIon, Talk: 4.5 hours max.(273 minutes), Standby: 212 hours max.(8.8 days)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1170,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Q9m",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Q9m"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Q9m\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Q9m",
+    "revid": 1361476625
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

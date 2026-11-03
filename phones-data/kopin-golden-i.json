@@ -1,0 +1,55 @@
+{
+  "slug": "kopin-golden-i",
+  "brand": "Kopin",
+  "name": "Golden-i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Golden-i_3.8_Headset_Computer.png/500px-Golden-i_3.8_Headset_Computer.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Golden-i_3.8_Headset_Computer.png/250px-Golden-i_3.8_Headset_Computer.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Kopin Golden-i",
+      "credit": "RCTajbhai, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Golden-i_3.8_Headset_Computer.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013"
+    },
+    "Platform": {
+      "Operating system": "Windows CE 6 R3",
+      "CPU": "TI OMAP 600Mhz"
+    },
+    "Memory": {
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "Kopin CyberDisplay SVGA"
+    },
+    "Connectivity": {
+      "Connectivity": "2.1 + EDR Wi-Fi"
+    }
+  },
+  "key": {
+    "nfc": false,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Golden-i",
+      "url": "https://en.wikipedia.org/wiki/Golden-i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Golden-i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Golden-i",
+    "revid": 1361473060
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

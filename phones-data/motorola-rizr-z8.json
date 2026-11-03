@@ -1,0 +1,76 @@
+{
+  "slug": "motorola-rizr-z8",
+  "brand": "Motorola",
+  "name": "Rizr Z8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Motorola_Z8_on_ATT_Network.jpg/500px-Motorola_Z8_on_ATT_Network.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Motorola_Z8_on_ATT_Network.jpg/250px-Motorola_Z8_on_ATT_Network.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Rizr Z8",
+      "credit": "Wikimedia Commons, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Z8_on_ATT_Network.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Motorola Rizr Z10"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 (quad-band)"
+    },
+    "Body": {
+      "Form factor": "Kick-slider (slider with extra hinge to conform to face)",
+      "Dimensions": "109 mm × 50 mm × 15 mm",
+      "Weight": "112 g (3.95 oz)"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.2, UIQ v3.1",
+      "CPU": "TI OMAP 2420 (ARM11)"
+    },
+    "Memory": {
+      "RAM": "90 MB internal memory",
+      "Card slot": "microSD, microSDHC (TransFlash) cards (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "240×320 pixels, 16 million (32bit) color TFT LCD, 240 × 320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "2.0-megapixel, 8× zoom, LED flash",
+      "Front camera": "VGA for videocalling"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1030 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "mini-USB, Bluetooth (Class 2), GPRS, EDGE, HSDPA"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1030,
+    "os": "Symbian OS v9.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 112,
+    "thickness_mm": 15
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Rizr Z8",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Rizr_Z8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Rizr Z8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Rizr Z8",
+    "revid": 1361476665
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

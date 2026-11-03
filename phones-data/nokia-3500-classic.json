@@ -1,0 +1,74 @@
+{
+  "slug": "nokia-3500-classic",
+  "brand": "Nokia",
+  "name": "3500 classic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Nokia_3500_classic_blue.jpg/500px-Nokia_3500_classic_blue.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Nokia_3500_classic_blue.jpg/250px-Nokia_3500_classic_blue.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 3500 classic",
+      "credit": "Niklas Bildhauer, Germany., CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_3500_classic_blue.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 5070, Nokia 3100",
+      "Successor": "Nokia 5220 , Nokia 208 , Nokia 3120 classic"
+    },
+    "Network": {
+      "Technology": "GPRS, EDGE, EGPRS, HSCSD, CSD, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "107 x 45 x 13.1 mm, 59 cc",
+      "Weight": "81 g",
+      "Other": "Game: Yes + downloadable"
+    },
+    "Platform": {
+      "Operating system": "Java MIDP 2.0-->"
+    },
+    "Memory": {
+      "RAM": "32 MB of flash memory and 16 MB of RAM (internal), 8.5 MB user memory",
+      "Card slot": "microSD (up to 2 GB)"
+    },
+    "Display": {
+      "Display": "1.8 inch 128x160 pixels TFT LCD (262,000 colors)"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixels"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Ion BL-4C 860 mAh , Stand-by Up to 300 h, Talk time Up to 3 h"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 with A2DP, Mini USB, Stereo FM radio with Nokia Audio Visual Plug 2.5mm"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 860,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 81
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 3500 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_3500_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 3500 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 3500 classic",
+    "revid": 1374644157
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

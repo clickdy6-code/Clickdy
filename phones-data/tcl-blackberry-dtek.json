@@ -1,0 +1,82 @@
+{
+  "slug": "tcl-blackberry-dtek",
+  "brand": "TCL",
+  "name": "BlackBerry DTEK",
+  "status": "published",
+  "announced": "2016-07-26",
+  "released": "2016-07-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-07-26 (DTEK50), 2016-10-25 (DTEK60)"
+    },
+    "Network": {
+      "Technology": "LTE, PCS, HSPA+, EDGE, GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "147 mm H, 72.5 mm W, 7.4 mm D (DTEK50), 153.9 mm H, 75.4 mm W, 6.99 mm D (DTEK60)",
+      "Weight": "135 g (DTEK50), 165 g",
+      "Other": "Accelerometer, Proximity sensor, Ambient light sensor, FM radio (DTEK50), Fingerprint sensor, 6-axis gyroscope (DTEK60)"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 \"Marshmallow\"",
+      "Chipset": "Qualcomm Snapdragon 617 (DTEK50), Qualcomm Snapdragon 820 (DTEK60)",
+      "CPU": "Quad-core 1.5 GHz Cortex-A53, Quad-core 1.2 GHz Cortex-A53 (DTEK50), Quad-core 2x 2.15 GHz Kryo, Quad-core 2x 1.6 GHz Kryo (DTEK60)",
+      "GPU": "Adreno 405 (DTEK50), Adreno 530 (DTEK60)"
+    },
+    "Memory": {
+      "RAM": "3 GB (DTEK50), 4 GB (DTEK60) RAM",
+      "Storage": "16 GB (DTEK50), 32 GB (DTEK60) internal storage",
+      "Card slot": "Up to 2 TB microSDXC"
+    },
+    "Display": {
+      "Display": "5.2 in IPS LCD, 1920x1080 pixels, 424 pixels per inch, PPI (DTEK50), 5.5 in AMOLED, 2560x1440 pixels, 534 pixels per inch, PPI (DTEK60)"
+    },
+    "Cameras": {
+      "Rear camera": "13 megapixels, 1080p video capture, Aperture f/2.0 (DTEK50), 21 megapixels, 2160p video capture, Aperture f/2.2, 6 element lens (DTEK60), autofocus, Digital Image Stabilization",
+      "Front camera": "8 megapixels, 1080p video capture"
+    },
+    "Battery": {
+      "Battery": "2610 mAh (DTEK50), 3000 mAh (DTEK60) Li-Ion non-removable battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi: (802.11 a/b/g/n/ac), Wi-Fi hotspot, GPS, Bluetooth 4.2, Micro-USB 2.0, USB OTG"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 617",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "battery_mah": 2610,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135,
+    "thickness_mm": 7.4,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry DTEK",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_DTEK"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry DTEK\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "BlackBerry DTEK",
+    "revid": 1361472703
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

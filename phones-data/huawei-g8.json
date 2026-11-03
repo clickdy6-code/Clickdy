@@ -1,0 +1,91 @@
+{
+  "slug": "huawei-g8",
+  "brand": "Huawei",
+  "name": "G8",
+  "status": "published",
+  "announced": "2015-09-02",
+  "released": "2015-09-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/HUAWEl_0210513_200147.jpg/500px-HUAWEl_0210513_200147.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/HUAWEl_0210513_200147.jpg/250px-HUAWEl_0210513_200147.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei G8",
+      "credit": "Hossein norouzi 306, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HUAWEl_0210513_200147.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-09-02",
+      "Series": "Huawei G",
+      "Predecessor": "Huawei Ascend G7",
+      "Successor": "Huawei G9 Plus"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE, 3G TD-SCDMA, 3G UMTS, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "152 mm H, 76.5 mm W, 7.5 mm D",
+      "Weight": "167 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1 \"Lollipop\" with Emotion UI 3.1",
+      "Chipset": "Qualcomm Snapdragon 615"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM, 2 GB RAM (Chinese Edition)",
+      "Storage": "32 GB, 16 GB (Chinese Edition)",
+      "Card slot": "microSD up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5-inch 1080 x 1920 pixels IPS display, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "3,000 mAh Li-ion battery"
+    }
+  },
+  "key": {
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 615",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 5.1",
+    "five_g": false,
+    "weight_g": 167,
+    "thickness_mm": 7.5,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei G8",
+      "url": "https://en.wikipedia.org/wiki/Huawei_G8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei G8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei G8",
+    "revid": 1365322067
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

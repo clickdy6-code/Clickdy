@@ -1,0 +1,67 @@
+{
+  "slug": "motorola-i1",
+  "brand": "Motorola",
+  "name": "i1",
+  "status": "published",
+  "announced": "2010-06-20",
+  "released": "2010-06-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States 2010-06-20 (Boost Mobile)"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "118 mm H, 58 mm W, 12.8 mm D",
+      "Weight": "131 g"
+    },
+    "Platform": {
+      "Operating system": "Android 1.5",
+      "CPU": "500 MHz Freescale Zeus 2.0 CPU ARM1136 processor"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "Flash memory: 512/256 MB user-accessible, microSD slot: supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "320 x 480 px, 3.1 in, HVGA, 64K (256K via hardware dithering) color LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel with autofocus"
+    },
+    "Battery": {
+      "Battery": "3.7 V 1400 mAh, Internal rechargeable removable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g), Bluetooth 2.0+EDR, MicroUSB, A-GPS, iDEN"
+    }
+  },
+  "key": {
+    "display_in": 3.1,
+    "display_type": "LCD",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1400,
+    "os": "Android 1.5",
+    "nfc": false,
+    "weight_g": 131,
+    "thickness_mm": 12.8,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola i1",
+      "url": "https://en.wikipedia.org/wiki/Motorola_i1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola i1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola i1",
+    "revid": 1361476775
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

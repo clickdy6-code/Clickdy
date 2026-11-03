@@ -1,0 +1,92 @@
+{
+  "slug": "huawei-gr3",
+  "brand": "Huawei",
+  "name": "GR3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Huawei_GR3_TAG-L03.jpg/500px-Huawei_GR3_TAG-L03.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Huawei_GR3_TAG-L03.jpg/250px-Huawei_GR3_TAG-L03.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei GR3",
+      "credit": "JulianVilla26, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_GR3_TAG-L03.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Enjoy 5s: , GR3:",
+      "Series": "G/Enjoy",
+      "Predecessor": "Huawei GR3 (2017), Huawei Enjoy 6S"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "151.3 x 76.3 x 8.2 mm",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1.1 Lollipop + EMUI 3.1",
+      "CPU": "MediaTek MT6753T, 4x1.5 GHz Cortex-A53",
+      "GPU": "Mali-T720MP3"
+    },
+    "Memory": {
+      "RAM": "2 GB, LPDDR3",
+      "Storage": "16 GB, eMMC 4.5",
+      "Card slot": "MicroSDXC up to 64 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.0\", 1280 x 720 (HD), 16:9, 294 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.0, AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, 28 mm (wide-angle), Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 2200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5 mm Audio, Bluetooth 4.0 (A2DP), FM radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), GPS, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 2200,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei GR3",
+      "url": "https://en.wikipedia.org/wiki/Huawei_GR3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei GR3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei GR3",
+    "revid": 1361473748
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "nec-casio-casio-g-zone-type-l",
+  "brand": "NEC Casio",
+  "name": "Casio G'zOne TYPE-L",
+  "status": "published",
+  "announced": "2012-11-02",
+  "released": "2012-11-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cal21_front.jpg/500px-Cal21_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cal21_front.jpg/250px-Cal21_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "NEC Casio Casio G'zOne TYPE-L",
+      "credit": "Jr223, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cal21_front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-11-02",
+      "Discontinued": "2013-07",
+      "Series": "G'zOne",
+      "Predecessor": "IS11CA"
+    },
+    "Network": {
+      "Technology": "3G: CDMA2000 1xMC (au 3G) (New 800 MHz / 2 GHz), W-CDMA (850 MHz / 2 GHz), 2G: GSM (1.9 GHz / 1.8 GHz / 900 MHz), Data: 3.9G FDD-LTE (au 4G LTE) (New 800 MHz / 1.5 GHz), 3.5G CDMA2000 1xEV-DO MC-Rev.A (WIN HIGH SPEED), CDMA2000 1xEV-DO Rev.A / Rel.0 (CDMA 1X WIN), UMTS (W-CDMA), 3G CDMA2000 1xMC, Other: Wi-Fi IEEE 802.11a/b/g/n (2.4 GHz / 5 GHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "134 mm H , 69 mm W , 14.7 mm D",
+      "Weight": "181 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.4",
+      "Chipset": "Qualcomm Snapdragon S4",
+      "CPU": "1.5 GHz dual-core MSM8960"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB ROM",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "4.0 in (102 mm) IPS WVGA (800 × 480 pixels), 16,777,216 colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.08 MP CMOS, autofocus, 1080p Full HD video recording, SNS sharing",
+      "Front camera": "1.36 MP CMOS, hand mirror function"
+    },
+    "Battery": {
+      "Battery": "1,800 mAh",
+      "Charging": "Desktop holder (approx. 110 min), AC adapter (approx. 150 min)"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon S4",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8.08,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.36,
+    "battery_mah": 1800,
+    "os": "Android 4.0",
+    "five_g": true,
+    "weight_g": 181,
+    "thickness_mm": 14.7,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Casio G'zOne TYPE-L",
+      "url": "https://en.wikipedia.org/wiki/Casio_G%27zOne_TYPE-L"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Casio G'zOne TYPE-L\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Casio G'zOne TYPE-L",
+    "revid": 1375811293
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

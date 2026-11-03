@@ -1,0 +1,108 @@
+{
+  "slug": "asus-zenfone-8",
+  "brand": "Asus",
+  "name": "ZenFone 8",
+  "status": "published",
+  "announced": "2021-05-12",
+  "released": "2021-05-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Zenfone_8_Flip_%2B_Case.jpg/500px-Zenfone_8_Flip_%2B_Case.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Zenfone_8_Flip_%2B_Case.jpg/250px-Zenfone_8_Flip_%2B_Case.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Asus ZenFone 8",
+      "credit": "Nash Izumrud, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zenfone_8_Flip_%2B_Case.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-05-12",
+      "Series": "Asus ZenFone",
+      "Predecessor": "Asus ZenFone 7",
+      "Successor": "Asus ZenFone 9"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "ZenFone 8: 148xx68.5xx8.9 mm, ZenFone 8 Flip: 165xx77.3xx9.6 mm",
+      "Weight": "ZenFone 8: 169 g, ZenFone 8 Flip: 230 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11, upgradable to Android 13, ZenUI",
+      "Chipset": "Qualcomm Snapdragon 888 5G (5 nm)",
+      "CPU": "Octa-core (1x2.84 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680)",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "6 GB, 8 GB, 12 GB, 16 GB RAM",
+      "Storage": "128 GB, 256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "5.9 in, 84.0 cm2 (~82.9% screen-to-body ratio), 2400 x 1080 pixels, 20:9 aspect ratio (~446 ppi density), Super AMOLED, 120Hz refresh rate, HDR10+, 700 nits (HBM), 1100 nits (peak) , Always-on display"
+    },
+    "Cameras": {
+      "Rear camera": "ZenFone 8: 64 Megapixel, MP, f/1.8, 26mm wide, 1/1.73\", 0.8μm, PDAF, Image stabilization#Optical image stabilization, OIS, 12 MP, f/2.2, 112˚, 14mm ultrawide, 1/2.55\", 1.4μm, dual pixel PDAF, LED flash, HDR, panorama, 8K resolution, 8K@24fps, 4K resolution, 4K@30/60/120fps, 1080p@30/60/240fps, 720p@480fps; gyro-EIS, HDR, ZenFone 8 Flip: 64 Megapixel, MP, f/1.8, 26mm wide, 1/1.73\", 0.8μm, PDAF, 8 MP, f/2.4, 80mm telephoto, PDAF, 3x optical zoom, 12 MP, f/2.2, 112˚, 14mm ultrawide, 1/2.55\", 1.4μm, dual pixel PDAF, Dual-LED flash, HDR, auto panorama (motorized rotation), 8K resolution, 8K@30fps, 4K resolution, 4K@30/60/120fps, 1080p@30/60/240fps, 720p@480fps, gyro-EIS, HDR",
+      "Front camera": "12 MP, f/2.5, 28mm standard, 1/2.93\", 1.22μm, dual pixel PDAF, 4K@30fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "ZenFone 8: 4000 mAh, ZenFone 8 Flip: 5000 mAh",
+      "Charging": "Fast charging 30W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.2, A2DP, LE, aptX HD, aptX Adaptive, dual-band A-GPS, GLONASS, GALILEO, BDS, QZSS, NavIC, NFC, FM radio"
+    }
+  },
+  "key": {
+    "display_in": 5.9,
+    "display_type": "Super AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 1100,
+    "chipset": "Qualcomm Snapdragon 888 5G",
+    "ram_gb": [
+      6,
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K",
+    "front_mp": 12,
+    "battery_mah": 4000,
+    "wired_w": 30,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 169,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus ZenFone 8",
+      "url": "https://en.wikipedia.org/wiki/Asus_ZenFone_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus ZenFone 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus ZenFone 8",
+    "revid": 1361472619
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

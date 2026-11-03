@@ -1,0 +1,52 @@
+{
+  "slug": "htc-iris",
+  "brand": "HTC",
+  "name": "Iris",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "CDMA 1X/EVDO"
+    },
+    "Body": {
+      "Dimensions": "101mm (L) x 59.6mm (W) x 13.9mm (D)",
+      "Weight": "112g"
+    },
+    "Platform": {
+      "CPU": "Qualcomm MSM7500, 400MHz"
+    },
+    "Memory": {
+      "RAM": "256 MB ROM, 64 MB RAM, expandable microSD slot"
+    },
+    "Display": {
+      "Display": "2.8\" QVGA TFT LCD, 320X240 64K-color screen"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0, Wi-Fi: IEEE 802.11b/g, HTC ExtUSB (11-pin mini-USB and audio jack in one)"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "nfc": false,
+    "weight_g": 112,
+    "thickness_mm": 13.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Iris",
+      "url": "https://en.wikipedia.org/wiki/HTC_Iris"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Iris\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Iris",
+    "revid": 1361473323
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

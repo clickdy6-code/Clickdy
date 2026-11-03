@@ -1,0 +1,71 @@
+{
+  "slug": "acer-liquid-metal",
+  "brand": "Acer",
+  "name": "Liquid Metal",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Acer_Liquid_mt_s120.jpg/500px-Acer_Liquid_mt_s120.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Acer_Liquid_mt_s120.jpg/250px-Acer_Liquid_mt_s120.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Acer Liquid Metal",
+      "credit": "Tmin10, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acer_Liquid_mt_s120.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Acer Liquid E",
+      "Successor": "Acer Liquid E2"
+    },
+    "Body": {
+      "Dimensions": "115 x 63 x 13.5 millimetres",
+      "Weight": "135 grams (battery included)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 Froyo (Upgradeable to Android 2.3.5 Gingerbread)"
+    },
+    "Memory": {
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "TFT LCD 3.6” WVGA multi-touch capacitive screen, 16 M colors"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, 2560х1920 pixels, autofocus"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 + EDR; Wi-Fi 802.11g, GPS with A-GPS"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 2.2",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Acer Liquid Metal",
+      "url": "https://en.wikipedia.org/wiki/Acer_Liquid_Metal"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Acer Liquid Metal\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Acer Liquid Metal",
+    "revid": 1361472504
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

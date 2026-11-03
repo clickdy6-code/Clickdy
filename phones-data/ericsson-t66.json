@@ -1,0 +1,53 @@
+{
+  "slug": "ericsson-t66",
+  "brand": "Ericsson",
+  "name": "T66",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Ericsson_T66.JPG/500px-Ericsson_T66.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Ericsson_T66.JPG/250px-Ericsson_T66.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Ericsson T66",
+      "credit": "Insider51, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ericsson_T66.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "92 x 41 x 17.5 mm, (3.6 x 1.6 x 0.7 inches)",
+      "Weight": "59 g (2.1 ounces)"
+    },
+    "Display": {
+      "Display": "101x65 pixels, monochrome"
+    },
+    "Battery": {
+      "Battery": "Li-ion"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "weight_g": 59
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Ericsson T66",
+      "url": "https://en.wikipedia.org/wiki/Ericsson_T66"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Ericsson T66\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Ericsson T66",
+    "revid": 1366177057
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

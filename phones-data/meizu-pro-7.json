@@ -1,0 +1,88 @@
+{
+  "slug": "meizu-pro-7",
+  "brand": "Meizu",
+  "name": "PRO 7",
+  "status": "published",
+  "announced": "2017-07-26",
+  "released": "2017-07-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-07-26",
+      "Series": "PRO",
+      "Predecessor": "Meizu PRO 6",
+      "Successor": "Meizu 15"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "PRO 7: 147.6 mm H, 70.7 mm W, 7.3 mm D, PRO 7 Plus: 157.3 mm H, 77.2 mm W, 7.3 mm D",
+      "Weight": "PRO 7: 163 g, PRO 7 Plus: 170 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.0 Nougat + Flyme 6, Current: Android 7.0 Nougat + Flyme 8",
+      "Chipset": "PRO 7 Standard: MediaTek MT6757T Helio P25 (16 nm), PRO 7 High/Plus: MediaTek MT6799 Helio X30 (10 nm)",
+      "CPU": "PRO 7 Standard: Octa-core (4×2.4 GHz Cortex-A53 & 4×1.6 GHz Cortex-A53), PRO 7 High/Plus: Deca-core (2×2.6 GHz Cortex-A73 & 4×1.9 GHz Cortex-A35 & 4×2.2 GHz Cortex-A53)",
+      "GPU": "PRO 7 Standard: Mali-T880MP2, PRO 7 High/Plus: PowerVR 7XTP"
+    },
+    "Memory": {
+      "RAM": "PRO 7: 4 GB, PRO 7 Plus: 6 GB, LPDDR4X",
+      "Storage": "64/128 GB, PRO 7: eMMC 5.1, PRO 7 High/Plus: UFS 2.1"
+    },
+    "Display": {
+      "Display": "PRO 7: 5.2 in, 1920 × 1080 (Full HD), 423 ppi, PRO 7 Plus: 5.7 in, 2560 × 1440 (2K), 494 ppi, Both models: Super AMOLED, 16:9 ratio, Secondary display: AMOLED, 1.9 in, 240 × 536, 20.1:9 ratio, 307 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP Sony IMX386, f/2.0, 26mm (wide), 1/2.9\", 1.25 µm, PDAF + 12 MP Sony IMX386, f/2.0, 26mm (monochrome), 1/2.9\", 1.25 µm, PDAF, Dual-LED dual-tone flash, HDR, panorama, Video: 4K@30fps, 1080p@30fps",
+      "Front camera": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1 µm, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Both models: Non-removable Li-Ion, PRO 7: 3000 mAh, PRO 7 Plus: 3500 mAh",
+      "Charging": "Both models: 24W fast charging, PRO 7: mCharge 3, PRO 7 Plus: mCharge 4, 45% in 30 min (advertised)"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "Super AMOLED",
+    "chipset": "PRO 7 Standard: MediaTek MT6757T Helio P25",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3000,
+    "wired_w": 24,
+    "os": "Android 7.0",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 163,
+    "thickness_mm": 7.3,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu PRO 7",
+      "url": "https://en.wikipedia.org/wiki/Meizu_PRO_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu PRO 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Meizu PRO 7",
+    "revid": 1367349666
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

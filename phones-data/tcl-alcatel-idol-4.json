@@ -1,0 +1,79 @@
+{
+  "slug": "tcl-alcatel-idol-4",
+  "brand": "TCL",
+  "name": "Alcatel Idol 4",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Alcatel_Idol_4_with_VR_box.jpg/500px-Alcatel_Idol_4_with_VR_box.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Alcatel_Idol_4_with_VR_box.jpg/250px-Alcatel_Idol_4_with_VR_box.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "TCL Alcatel Idol 4",
+      "credit": "Maurizio Pesce, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alcatel_Idol_4_with_VR_box.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Alcatel Idol",
+      "Predecessor": "Alcatel One Touch Idol 3",
+      "Successor": "Alcatel Idol 5"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Other": "Accelerometer, Proximity sensor, Ambient light sensor"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 \"Marshmallow\", Windows 10 Mobile",
+      "Chipset": "Idol 4: Qualcomm Snapdragon 617, Idol 4S: Qualcomm Snapdragon 652 (Android version), Qualcomm Snapdragon 820 (Windows version)",
+      "CPU": "Quad-core 1.5 GHz Cortex-A53, Quad-core 1.2 GHz Cortex-A53 (4), Quad-core 1.8 GHz Cortex-A72, Quad-core 1.4 GHz Cortex-A53 (4S)"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM, 4 GB RAM (Windows version)",
+      "Storage": "16 or 32 GB internal storage, 64 GB (Windows version)",
+      "Card slot": "Up to 512 GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.2 in IPS LCD, 1920x1080 pixels, 424 pixels per inch, PPI (4), 5.5 in Super AMOLED, 2560x1440 pixels (4S)"
+    },
+    "Cameras": {
+      "Rear camera": "13 (4), 16 (4S) or 21(Windows version) megapixels, 1080p video capture, autofocus, Digital Image, Stabilization",
+      "Front camera": "8 megapixels, 1080p video capture"
+    },
+    "Battery": {
+      "Battery": "2610 mAH non removable battery (4), 3000 mAH non removable battery (4S)"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Idol 4: Qualcomm Snapdragon 617",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "battery_mah": 2610,
+    "os": "Android 6.0"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Alcatel Idol 4",
+      "url": "https://en.wikipedia.org/wiki/Alcatel_Idol_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Alcatel Idol 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Alcatel Idol 4",
+    "revid": 1361472541
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

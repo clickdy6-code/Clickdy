@@ -1,0 +1,75 @@
+{
+  "slug": "ninetology-u9x1",
+  "brand": "Ninetology",
+  "name": "U9X1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "EDGE / GPRS (850 / 900 / 1,800 / 1,900 MHz), HSPA+ 21 / 42.2 Mbps"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Android Jelly Bean 4.2.2",
+      "CPU": "Quad core 1.2 GHz",
+      "GPU": "PowerVR SGX544"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB internal memory",
+      "Card slot": "up to 32 GB microSDHC"
+    },
+    "Display": {
+      "Display": "Capacitive 5-Point, IPS Touch Screen, Super AMOLED HD 1280 X 720ppx, 4.8\", 309ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13.0 MP",
+      "Front camera": "2.0 MP (720p HD)"
+    },
+    "Battery": {
+      "Battery": "2200 mAh Li-Ion battery (removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0, micro-USB 2.0, Wi-Fi (802.11a/b/g/n), Wi-Fi Direct, FM radio with RDS, A-GPS and GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 4.8,
+    "display_type": "IPS",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 2200,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 160
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Ninetology U9X1",
+      "url": "https://en.wikipedia.org/wiki/Ninetology_U9X1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Ninetology U9X1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Ninetology U9X1",
+    "revid": 1361476860
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

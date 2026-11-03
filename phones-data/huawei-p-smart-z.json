@@ -1,0 +1,105 @@
+{
+  "slug": "huawei-p-smart-z",
+  "brand": "Huawei",
+  "name": "P Smart Z",
+  "status": "published",
+  "announced": "2019-05-08",
+  "released": "2019-05-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Huawei_Y9.jpg/500px-Huawei_Y9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Huawei_Y9.jpg/250px-Huawei_Y9.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei P Smart Z",
+      "credit": "EEIM, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Y9.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "P Smart Z: 2019-05-08, Y9 Prime 2019: 2019-08-01",
+      "Series": "P Smart/Y",
+      "Successor": "Huawei P Smart Pro"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Nano-SIM or Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 163.5 mm, W: 77.3 mm, D: 8.8 mm",
+      "Weight": "196.8 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 Pie + EMUI 9.0, Current: Android 10 + EMUI 12",
+      "Chipset": "Kirin 710F (12 nm)",
+      "CPU": "Octa-core (4×2.2 GHz Cortex-A73 & 4×1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X",
+      "Storage": "P Smart Z: 64 GB, Y9 Prime 2019: 64/128 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.59\", 2340 × 1080 (FHD+), 19.5:9, 391 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Wide: 16 MP, PDAF, Ultra-wide:P Smart Z: None, Y9 Prime 2019: 8 MP, 13 mmDepth: 2 MP, LED flash, panorama, HDR, Video: 1080p@30fps",
+      "Front camera": "Motorized pop-up, 16 MP, HDR, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 4000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm jack, Bluetooth 5.0 (A2DP, LE), NFC (region dependent for P Smart Z), FM radio, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct), GPS (A-GPS), GLONASS, BeiDou, QZSS (Y9 Prime 2019)"
+    }
+  },
+  "key": {
+    "display_in": 6.59,
+    "display_type": "IPS LCD",
+    "chipset": "Kirin 710F",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 16,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 196.8,
+    "thickness_mm": 8.8,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P Smart Z",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P_Smart_Z"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P Smart Z\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P Smart Z",
+    "revid": 1361473989
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

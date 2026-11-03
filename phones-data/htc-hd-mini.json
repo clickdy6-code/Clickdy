@@ -1,0 +1,73 @@
+{
+  "slug": "htc-hd-mini",
+  "brand": "HTC",
+  "name": "HD Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/HTC_HD_Mini.JPG/500px-HTC_HD_Mini.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/HTC_HD_Mini.JPG/250px-HTC_HD_Mini.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC HD Mini",
+      "credit": "Unobjectionable, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_HD_Mini.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Touch family"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, HSDPA 900/2100"
+    },
+    "Body": {
+      "Dimensions": "103.8 mm x 57.7 mm x 11.7 mm",
+      "Weight": "110 g (3.88 oz)"
+    },
+    "Platform": {
+      "Operating system": "Official: Windows Mobile 6.5 Professional, Unofficial: Android",
+      "Chipset": "Qualcomm MSM7227",
+      "CPU": "600 MHz Qualcomm Snapdragon S1, Adreno 200 GPU"
+    },
+    "Memory": {
+      "RAM": "512MB internal flash ROM, 384 MB RAM",
+      "Card slot": "microSDHC, up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.2 in. LCD capacitive touchscreen, 320x480 px 65k-color, backlit TFT LCD, Corning Gorilla Glass"
+    },
+    "Battery": {
+      "Battery": "Rechargeable 1200mAh Li-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, 802.11b/g, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "LCD",
+    "chipset": "Qualcomm MSM7227",
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110,
+    "thickness_mm": 11.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC HD Mini",
+      "url": "https://en.wikipedia.org/wiki/HTC_HD_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC HD Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC HD Mini",
+    "revid": 1361473298
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

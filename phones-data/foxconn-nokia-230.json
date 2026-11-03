@@ -1,0 +1,82 @@
+{
+  "slug": "foxconn-nokia-230",
+  "brand": "Foxconn",
+  "name": "Nokia 230",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nokia_230_-_Front.jpg/500px-Nokia_230_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nokia_230_-_Front.jpg/250px-Nokia_230_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 230",
+      "credit": "Beamish4, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_230_-_Front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia 222",
+      "Successor": "Nokia 230 (2024)"
+    },
+    "Network": {
+      "Technology": "GSM (900/1800 MHz), GPRS and EDGE"
+    },
+    "Body": {
+      "Form factor": "Feature phone",
+      "Dimensions": "H: 124.6 mm, W: 53.4 mm, D: 10.9 mm",
+      "Weight": "91.8 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 30+"
+    },
+    "Memory": {
+      "RAM": "16 MB RAM",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.8 in 240 x 320 (~143 ppi pixel density) QVGA TFT with 65K colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP with LED flash, Video: 240p@15fps",
+      "Front camera": "2 MP with LED flash, Video: 480p"
+    },
+    "Battery": {
+      "Battery": "1200 mAh Li-ion, removable (Nokia BL-4UL)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, Bluetooth 3.0, FM radio, Stereo, micro USB 1.1"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 91.8,
+    "thickness_mm": 10.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 230",
+      "url": "https://en.wikipedia.org/wiki/Nokia_230"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 230\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 230",
+    "revid": 1363702788
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

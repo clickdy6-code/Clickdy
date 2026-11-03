@@ -1,0 +1,82 @@
+{
+  "slug": "huawei-p-smart-2019",
+  "brand": "Huawei",
+  "name": "P Smart 2019",
+  "status": "published",
+  "announced": "2019-01-11",
+  "released": "2019-01-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 11, 2019",
+      "Series": "Huawei P",
+      "Predecessor": "Huawei P Smart",
+      "Successor": "Huawei P Smart 2020"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155.2 × 73.4 × 7.95 mm",
+      "Weight": "160 g",
+      "Other": "Accelerometer, Gyroscope, Proximity sensor, Digital compass, Face unlock, FM radio"
+    },
+    "Platform": {
+      "Operating system": "Android 9 Pie, EMUI 9.0",
+      "CPU": "HiSilicon Kirin 710"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "64 GB",
+      "Card slot": "up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.21\" IPS, 1080 x 2340 px (FullHD+), 415 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Rear: 13 MP (f/1.8) + 2 MP, Front: 8 MP"
+    },
+    "Battery": {
+      "Battery": "3400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 a/b/g/n), Bluetooth 4.2, A2DP, LTE, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.21,
+    "display_type": "IPS",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 3400,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 160,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P Smart 2019",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P_Smart_2019"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P Smart 2019\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P Smart 2019",
+    "revid": 1361473964
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

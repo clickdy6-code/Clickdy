@@ -1,0 +1,80 @@
+{
+  "slug": "sony-au-xperia-z4-sov31",
+  "brand": "Sony",
+  "name": "Au Xperia Z4 SOV31",
+  "status": "published",
+  "announced": "2015-06-11",
+  "released": "2015-06-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-06-11",
+      "Series": "Sony Xperia Z series",
+      "Predecessor": "Xperia ZL2 SOL25",
+      "Successor": "Xperia Z5 SOV32"
+    },
+    "Network": {
+      "Technology": "3.9G: FDD-LTE (au VoLTE) (700 MHz/New 800 MHz/2 GHz), 3G: W-CDMA (850 MHz/2 GHz), 2G: GSM (1.9 GHz/1.8 GHz/900 MHz)",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "146 mm H , 72 mm W , 6.9 mm D",
+      "Weight": "Approx. 144 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.0, upgradable to 7.0",
+      "Chipset": "Qualcomm Snapdragon 810 (MSM8994)",
+      "CPU": "Octa-core (4×2.0 GHz & 4×1.5 GHz)",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR4 RAM",
+      "Storage": "32 GB eMMC",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 128 GB) (officially supported by KDDI)"
+    },
+    "Display": {
+      "Display": "5.2 in (130 mm) TFT Triluminos Display for mobile, FHD (1920 × 1080 pixels), approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "20.7 megapixels, backside-illuminated stacked CMOS image sensor (Exmor RS for mobile), face detection autofocus, 4K UHD video recording, image stabilization, Timeshift video, AR effect",
+      "Front camera": "5.1 megapixels, CMOS image sensor (Exmor R for mobile), face detection autofocus, 4K UHD video recording, image stabilization, Timeshift video, AR mask"
+    },
+    "Battery": {
+      "Battery": "2930 mAh (non-removable)",
+      "Charging": "Approx. 140 minutes"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 810",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2930,
+    "os": "Android 5.0",
+    "five_g": false,
+    "weight_g": 144,
+    "thickness_mm": 6.9,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Au Xperia Z4 SOV31",
+      "url": "https://en.wikipedia.org/wiki/Au_Xperia_Z4_SOV31"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Au Xperia Z4 SOV31\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Au Xperia Z4 SOV31",
+    "revid": 1377894779
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

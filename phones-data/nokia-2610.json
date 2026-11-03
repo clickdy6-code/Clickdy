@@ -1,0 +1,68 @@
+{
+  "slug": "nokia-2610",
+  "brand": "Nokia",
+  "name": "2610",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_2610_z_bateri%C4%85_BL-5C.jpg/500px-Nokia_2610_z_bateri%C4%85_BL-5C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Nokia_2610_z_bateri%C4%85_BL-5C.jpg/250px-Nokia_2610_z_bateri%C4%85_BL-5C.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 2610",
+      "credit": "WarszawskaRogSzerokiej@pm.me, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2610_z_bateri%C4%85_BL-5C.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Nokia 2600",
+      "Successor": "Nokia 2630, Nokia 2600 classic"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800, GSM 850/1900 (North American version)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "104 x 43 x 18 mm",
+      "Weight": "91 g"
+    },
+    "Platform": {
+      "Operating system": "Nokia OS (Series 40 user interface)"
+    },
+    "Memory": {
+      "RAM": "3 MB internal memory"
+    },
+    "Display": {
+      "Display": "1.5 in CSTN, 128x128 pixels, 65,536 colours"
+    },
+    "Battery": {
+      "Battery": "970–1020 mAh Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS"
+    }
+  },
+  "key": {
+    "battery_mah": 1020,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 91
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2610",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2610"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2610\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2610",
+    "revid": 1361477163
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "motorola-droid-razr",
+  "brand": "Motorola",
+  "name": "Droid Razr",
+  "status": "published",
+  "announced": "2011-11-11",
+  "released": "2011-11-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Motorola_RAZR_XT910.jpg/500px-Motorola_RAZR_XT910.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Motorola_RAZR_XT910.jpg/250px-Motorola_RAZR_XT910.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid Razr",
+      "credit": "Conrad Longmore, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_RAZR_XT910.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-11-11",
+      "Series": "Motorola Razr, Droid",
+      "Predecessor": "Motorola DROID BIONIC",
+      "Successor": "Droid Razr HD"
+    },
+    "Network": {
+      "Technology": "Droid Razr/Razr Maxx: dual-band CDMA2000, EV-DO Rev. A, 800 1900 MHz, LTE 750 MHz, quad-band GSM, UMTS 850 900 1900 2100 MHz Razr/Razr Maxx: quad-band GSM, UMTS 850 900 1900 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "130.7 mm H , 68.9 mm W , 7.1 mm D , (MAXX: 8.99 mm D)",
+      "Weight": "127 g , (MAXX: 145 g )",
+      "Other": "Talk Time: Up to 21.5 hours, Standby Time: Up to approx. 15.8 days (Razr Maxx)"
+    },
+    "Platform": {
+      "Operating system": "Release: 2.3.5 Gingerbread , Current: 4.0.4 Ice Cream Sandwich , 4.1.2 Jelly Bean",
+      "Chipset": "TI OMAP4430",
+      "CPU": "1.2 GHz dual-core ARM Cortex-A9",
+      "GPU": "PowerVR SGX 540 @ 300 MHz"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB Flash (8 ROM / 8 Internal Storage)",
+      "Card slot": "microSD comes with 16 GB card; Supports up to 64 GB SDXC"
+    },
+    "Display": {
+      "Display": "Super AMOLED Advanced PenTile 4.3 inch 540×960 px qHD at 256 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP still, 1080p video",
+      "Front camera": "1.3 MP with 720p HD video capture"
+    },
+    "Battery": {
+      "Battery": "1,780 mAh, 3,300 mAh (Droid Razr Maxx) Internal rechargeable li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n, Bluetooth 4.0, 4G Mobile Hotspot, aGPS (assisted), eCompass, sGPS (simultaneous), GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "Super AMOLED",
+    "chipset": "TI OMAP4430",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.3,
+    "battery_mah": 1780,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 127,
+    "thickness_mm": 7.1,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid Razr",
+      "url": "https://en.wikipedia.org/wiki/Droid_Razr"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid Razr\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid Razr",
+    "revid": 1381877960
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

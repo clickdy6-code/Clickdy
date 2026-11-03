@@ -1,0 +1,78 @@
+{
+  "slug": "lg-env3",
+  "brand": "LG",
+  "name": "enV3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/LG-ENV2.jpg/500px-LG-ENV2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/LG-ENV2.jpg/250px-LG-ENV2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG enV3",
+      "credit": "Evan-Amos, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG-ENV2.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "LG enV",
+      "Predecessor": "LG enV2",
+      "Successor": "LG Octane"
+    },
+    "Network": {
+      "Technology": "CDMA2000, Evolution-Data Optimized#EV-DO Rel. 0 (TIA-856 Release 0), 1xEV-DO"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "4.11 x 2.13 x 0.65 in",
+      "Weight": "3.77 oz",
+      "Other": "Colors: maroon, blue"
+    },
+    "Platform": {
+      "Operating system": "Proprietary"
+    },
+    "Memory": {
+      "RAM": "Internal memory",
+      "Card slot": "Up to 8 GB microSD card slot (card not included)"
+    },
+    "Display": {
+      "Display": "2.6 inch TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.0 MP"
+    },
+    "Battery": {
+      "Battery": "950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "display_type": "TFT",
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 950,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG enV3 (VX9200)",
+      "url": "https://en.wikipedia.org/wiki/LG_enV3_%28VX9200%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG enV3 (VX9200)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG enV3 (VX9200)",
+    "revid": 1383474810
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

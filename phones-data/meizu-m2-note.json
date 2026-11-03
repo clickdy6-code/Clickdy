@@ -1,0 +1,88 @@
+{
+  "slug": "meizu-m2-note",
+  "brand": "Meizu",
+  "name": "M2 Note",
+  "status": "published",
+  "announced": "2015-06-02",
+  "released": "2015-06-02",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-06-02",
+      "Series": "Meizu M Series",
+      "Predecessor": "Meizu M1 Note"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "150.9 mm H, 75.2 mm W, 8.7 mm D",
+      "Weight": "149 g",
+      "Other": "Dual SIM support with dual standby mode"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS, based on Android 5.0 Lollipop",
+      "Chipset": "MediaTek MTK MT6753",
+      "CPU": "Octa-core (8x1.3GHz Cortex-A53)",
+      "GPU": "ARM Mali-T720 MP3"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR3",
+      "Storage": "16 GB flash memory",
+      "Card slot": "microSD slot (up to 128 GB)"
+    },
+    "Display": {
+      "Display": "5.5 inch diagonal IGZO, 1080x1920 px (403 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13.0 MP, autofocus, ƒ/2.2 aperture, LED flash, 1080p30 recording",
+      "Front camera": "5.0 MP, ƒ/2.0 aperture"
+    },
+    "Battery": {
+      "Battery": "3100 mAh Li-Ion rechargeable battery, not replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.0 with BLE, Dual-band WiFi (802.11 a/b/g/n)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "chipset": "MediaTek MTK MT6753",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3100,
+    "os": "Android 5.0",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 149,
+    "thickness_mm": 8.7,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu M2 Note",
+      "url": "https://en.wikipedia.org/wiki/Meizu_M2_Note"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu M2 Note\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu M2 Note",
+    "revid": 1364923797
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

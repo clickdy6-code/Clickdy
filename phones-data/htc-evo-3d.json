@@ -1,0 +1,88 @@
+{
+  "slug": "htc-evo-3d",
+  "brand": "HTC",
+  "name": "Evo 3D",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/HTC_EVO_3D.jpg/500px-HTC_EVO_3D.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/HTC_EVO_3D.jpg/250px-HTC_EVO_3D.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Evo 3D",
+      "credit": "Crazymouseftw, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_EVO_3D.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC Evo",
+      "Predecessor": "HTC Evo 4G",
+      "Successor": "HTC Evo 4G LTE"
+    },
+    "Network": {
+      "Technology": "Sprint, Virgin Mobile USA Rogers Wireless",
+      "SIM": "Embedded UICC microSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "127 mm H, 66 mm W, 12 mm D",
+      "Weight": "170 g",
+      "Other": "Wi-Fi Hotspot, FM-Radio, GPS navigation"
+    },
+    "Platform": {
+      "Operating system": "Official: Android 2.3.4 \"Gingerbread\" with HTC Sense 3.0, Current: Android 4.0.3 \"Ice Cream Sandwich\" with HTC Sense 3.6, Unofficial: Android 4.1.2 \"Jelly Bean\" via CyanogenMod 10",
+      "CPU": "Dual-Core, 1.2 GHz Qualcomm MSM8660 (Snapdragon)",
+      "GPU": "Qualcomm Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB eMMC",
+      "Card slot": "8 GB microSDHC (32 GB max)"
+    },
+    "Display": {
+      "Display": "960×540 px, 4.3 in (10.9 cm) at 256 ppi qHD capacitive Super-LCD (0.49 megapixels) Autostereoscopic 3D-capable"
+    },
+    "Cameras": {
+      "Rear camera": "Backside Illumination Dual 5-megapixel autofocus with dual LED flash, rear-facing",
+      "Front camera": "1.3-megapixel, front-facing"
+    },
+    "Battery": {
+      "Battery": "1730 mAh Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Tri-band CDMA/EVDO Rev. A (800/800ESMR/1900 MHz), 2.5 to 2.7 GHz WiMAX 802.16e, Wi-Fi (802.11b/g/n), Bluetooth v3.0 + HS, Micro USB, HDMI (via MHL)"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1730,
+    "os": "Android 2.3",
+    "nfc": false,
+    "weight_g": 170,
+    "thickness_mm": 12
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Evo 3D",
+      "url": "https://en.wikipedia.org/wiki/HTC_Evo_3D"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Evo 3D\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Evo 3D",
+    "revid": 1361473253
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

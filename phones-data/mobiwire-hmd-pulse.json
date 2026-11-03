@@ -1,0 +1,98 @@
+{
+  "slug": "mobiwire-hmd-pulse",
+  "brand": "MobiWire",
+  "name": "HMD Pulse",
+  "status": "published",
+  "announced": "2024-04-24",
+  "released": "2024-04-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/HMDPulsePro.png/500px-HMDPulsePro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/HMDPulsePro.png/250px-HMDPulsePro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "MobiWire HMD Pulse",
+      "credit": "ctunbox, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HMDPulsePro.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-04-24",
+      "Predecessor": "Nokia G11, Nokia G22"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA, LTE",
+      "SIM": "Single SIM or Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Weight": "Pulse/+: 187 g, Pulse Pro: 196 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14, Current: Android 15",
+      "Chipset": "UNISOC Tiger T606 (12 nm)",
+      "CPU": "Octa-core (2×1.6 GHz Cortex-A75 & 6×1.6 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "RAM": "Pulse: 4/6 GB, Pulse+/Pro: 4/6/8 GB",
+      "Storage": "Pulse: 64 GB, Pulse+/Pro: 128 GB",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.65 in IPS LCD, HD+ (720 × 1612 px), 90 Hz, 480 nits (typ), 600 nits (HBM)"
+    },
+    "Cameras": {
+      "Rear camera": "Pulse: 13 MP (wide), AF + auxiliary lens, Pulse+: 50 MP (wide), AF + auxiliary lens, Pulse Pro: 50 MP (wide), AF + 2 MP (depth), LED flash, HDR, Video: 1080p@30 fps",
+      "Front camera": "Pulse/+: 8 MP, Pulse Pro: 50 MP, HDR, Video: 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0 (OTG), Bluetooth 5.0 (A2DP, LE), NFC, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct), GPS (A-GPS), Galileo"
+    }
+  },
+  "key": {
+    "display_in": 6.65,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "peak_nits": 600,
+    "chipset": "UNISOC Tiger T606",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "os": "Android 14",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 187,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HMD Pulse",
+      "url": "https://en.wikipedia.org/wiki/HMD_Pulse"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HMD Pulse\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HMD Pulse",
+    "revid": 1364130317
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

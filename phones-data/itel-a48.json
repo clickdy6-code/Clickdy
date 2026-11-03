@@ -1,0 +1,73 @@
+{
+  "slug": "itel-a48",
+  "brand": "Itel",
+  "name": "A48",
+  "status": "published",
+  "announced": "2021-08-17",
+  "released": "2021-08-17",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-08-17",
+      "Series": "Itel A series"
+    },
+    "Network": {
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "78 x 155 x 9 mm",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10 (Go edition)",
+      "Chipset": "Unisoc SC9832E (28 nm)",
+      "CPU": "Quad-core 1.4 GHz",
+      "GPU": "Mali-T820 MP1"
+    },
+    "Memory": {
+      "Storage": "32GB"
+    },
+    "Display": {
+      "Display": "IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP (wide), 0.08 MP (auxiliary lens)",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "3000 mAh"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "chipset": "Unisoc SC9832E",
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 10",
+    "weight_g": 160,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel A48",
+      "url": "https://en.wikipedia.org/wiki/Itel_A48"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel A48\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel A48",
+    "revid": 1371633158
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

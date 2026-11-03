@@ -1,0 +1,82 @@
+{
+  "slug": "htc-amaze-4g",
+  "brand": "HTC",
+  "name": "Amaze 4G",
+  "status": "published",
+  "announced": "2011-10-10",
+  "released": "2011-10-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-10-10",
+      "Predecessor": "HTC Sensation",
+      "Successor": "HTC One S"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 MHz, UMTS 850/1700/1900/2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "130 mm H , 65.6 mm W , 11.8 mm D",
+      "Weight": "173 g"
+    },
+    "Platform": {
+      "Operating system": "HTC Sense 3.0 with Android 2.3.4 Gingerbread , and , HTC Sense 3.6 with Android 4.0.3 Ice Cream Sandwich",
+      "CPU": "1.5 GHz dual core Qualcomm Snapdragon S3 (APQ8060)",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM, 2.5 GB ROM, 16 GB phone memory (9 GB usable)",
+      "Storage": "16 GB flash",
+      "Card slot": "microSDHC supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "qHD S-LCD , 4.3 in (109 mm) diagonal , 540×960 px at 256 ppi , 16:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixel with f/2.2 aperture , 1080p video , Autofocus , dual LED flash , Geotagging",
+      "Front camera": "2 Megapixel , fixed focus"
+    },
+    "Battery": {
+      "Battery": "1730 mAh, Internal Rechargeable Li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 3.0 with EDR , Micro USB(ExtMicro) , Wi-Fi 802.11a/b/g/n , 42 Mbps DC-HSPA+"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "ram_gb": [
+      1,
+      5,
+      9,
+      16
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1730,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 173,
+    "thickness_mm": 11.8,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Amaze 4G",
+      "url": "https://en.wikipedia.org/wiki/HTC_Amaze_4G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Amaze 4G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Amaze 4G",
+    "revid": 1361473136
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

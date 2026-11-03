@@ -1,0 +1,60 @@
+{
+  "slug": "asus-p535",
+  "brand": "Asus",
+  "name": "P535",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2006-11"
+    },
+    "Body": {
+      "Dimensions": "109 by",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6 Professional",
+      "CPU": "Intel XScale PXA27x @ 520 MHz"
+    },
+    "Memory": {
+      "RAM": "256 MB NAND flash ROM and 64 MB SDRAM"
+    },
+    "Display": {
+      "Display": "TFT LCD resistive touchscreen, 16-bit color, 240×320 pixels, 2.8 inches (~143 ppi)."
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel autofocus camera with flash"
+    },
+    "Battery": {
+      "Battery": "1300 mAh li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g, Bluetooth 2.0 plus Enhanced Data Rate, USB 1.1"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1300,
+    "nfc": false,
+    "weight_g": 145,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus P535",
+      "url": "https://en.wikipedia.org/wiki/Asus_P535"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus P535\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus P535",
+    "revid": 1361472579
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

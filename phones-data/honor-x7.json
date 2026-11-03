@@ -1,0 +1,91 @@
+{
+  "slug": "honor-x7",
+  "brand": "Honor",
+  "name": "X7",
+  "status": "published",
+  "announced": "2021-12-16",
+  "released": "2021-12-16",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Play 30 Plus: 2021-12-16, X7: 2022-03-30",
+      "Series": "X/Play",
+      "Predecessor": "Honor 9C, Honor Play 20 Pro",
+      "Successor": "Honor X7a, Honor Play 40 Plus"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G (Play 30 Plus)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "167.59 × 77.19 × 8.62 mm",
+      "Weight": "198 g",
+      "Other": "Fingerprint sensor (side-mounted), virtual proximity sensor, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Original:, X7: Android 11 with Magic UI 4.2, Play 30 Plus: Android 11 with Magic UI 5.0",
+      "CPU": "X7: Qualcomm Snapdragon 680 (6 nm), octa-core (4×2.4 GHz Kryo 265 Gold & 4×1.9 GHz Kryo 265 Silver), Play 30 Plus: MediaTek Dimensity 700 (7 nm), octa-core (2×2.2 GHz Cortex-A76 & 6×2.0 GHz Cortex-A55)",
+      "GPU": "X7: Adreno 610, Play 30 Plus: Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "X7: 4 GB, Play 30 Plus: 4/6/8 GB, LPDDR4X",
+      "Storage": "128 GB, UFS 2.1",
+      "Card slot": "MicroSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.74\" IPS LCD, 1600 × 720 (HD+), 260 ppi, 90 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "X7: 48 MP, f/1.8, 26 mm (wide), PDAF + 5 MP, f/2.2 (ultrawide) + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth), Play 30 Plus: 13 MP, f/1.8 (wide), PDAF + 2 MP, f/2.4 (depth), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "X7: 8 MP, f/2.0 (wide), Play 30 Plus: 5 MP, f/2.2 (wide), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "22.5 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm jack, Bluetooth 5.1 (A2DP, LE), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), NFC (X7), GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.74,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "ram_gb": [
+      4,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 22.5,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 198,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor X7",
+      "url": "https://en.wikipedia.org/wiki/Honor_X7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor X7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor X7",
+    "revid": 1363915026
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

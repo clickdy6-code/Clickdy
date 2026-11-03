@@ -1,0 +1,86 @@
+{
+  "slug": "meizu-note-8",
+  "brand": "Meizu",
+  "name": "Note 8",
+  "status": "published",
+  "announced": "2018-10-25",
+  "released": "2018-10-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-25",
+      "Series": "Note",
+      "Predecessor": "Meizu M6 Note",
+      "Successor": "Meizu Note 9"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153.6 × 75.5 × 7.9 mm",
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 8.1 Oreo + Flyme 7.1, Current: Android 8.1 Oreo + Flyme 8.1",
+      "CPU": "Qualcomm SDM632 Snapdragon 632 (14 nm), Octa-core (4×1.8 GHz Kryo 250 Gold & 4×1.8 GHz Kryo 250 Silver)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "4 GB, LPDDR3",
+      "Storage": "64 GB, eMMC 5.1"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.0\", 2160 × 1080, 18:9, 402 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP Samsung S5K2L7/Sony IMX362, f/1.9 (wide-angle), 1/2.55\", 1.4 μm, Dual Pixel PDAF + 5 MP, f/2.4 (depth sensor), Dual-LED dual-tone flash, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0 (wide-angle), 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 3600 mAh",
+      "Charging": "24 W mCharge 4 fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 4.2 (A2DP, LE), Wi-Fi 802.11 a/b/g/n (dual-band, hotspot), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3600,
+    "wired_w": 24,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 168,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu Note 8",
+      "url": "https://en.wikipedia.org/wiki/Meizu_Note_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu Note 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu Note 8",
+    "revid": 1366582615
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

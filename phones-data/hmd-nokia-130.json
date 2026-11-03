@@ -1,0 +1,76 @@
+{
+  "slug": "hmd-nokia-130",
+  "brand": "HMD",
+  "name": "Nokia 130",
+  "status": "published",
+  "announced": "2023-08-10",
+  "released": "2023-08-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-08-10",
+      "Series": "Nokia 100 series",
+      "Predecessor": "Nokia 130 (2017)",
+      "Successor": "Nokia 130 Music"
+    },
+    "Network": {
+      "Technology": "GSM (900 / 1800)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "130.9 mm H , 50.6 mm W , 14 mm D",
+      "Weight": "98.2 g",
+      "Other": "Flashlight, Dual SIM (Mini-SIM), IP52 water resistance"
+    },
+    "Platform": {
+      "Operating system": "Nokia S30+"
+    },
+    "Memory": {
+      "RAM": "4 MB RAM",
+      "Storage": "4 MB internal",
+      "Card slot": "microSDHC"
+    },
+    "Display": {
+      "Display": "2.4 in (61 mm) TFT LCD, 65K colors, 240 x 320 pixels, 4:3 ratio (~167 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "No"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, FM radio (built-in antenna), MP3 player"
+    },
+    "Battery": {
+      "Battery": "1,450 mAh Li-Ion (removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB 1.1, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 1450,
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "ip": "IP52",
+    "weight_g": 98.2,
+    "thickness_mm": 14,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 130 (2023)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_130_%282023%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 130 (2023)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 130 (2023)",
+    "revid": 1365139342
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

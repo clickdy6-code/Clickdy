@@ -1,0 +1,79 @@
+{
+  "slug": "motorola-ming",
+  "brand": "Motorola",
+  "name": "Ming",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Motorola_MING_Portrait.jpg/500px-Motorola_MING_Portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Motorola_MING_Portrait.jpg/250px-Motorola_MING_Portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Ming",
+      "credit": "Shanesan, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_MING_Portrait.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "MotoMing",
+      "Predecessor": "Motorola A780"
+    },
+    "Network": {
+      "Technology": "GSM Quad band with GPRS class 10, EDGE"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "95.7 mm H , 51.7 mm W , 21.5 mm D",
+      "Weight": "122 g"
+    },
+    "Platform": {
+      "Operating system": "Linux-based, kernel 2.4.20"
+    },
+    "Memory": {
+      "RAM": "8 MB",
+      "Card slot": "microSD up to 2 GB"
+    },
+    "Display": {
+      "Display": "2.4 in, 240x320 pixel, 262k colour TFT LCD touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, video recording, macro mode for fine shooting"
+    },
+    "Battery": {
+      "Battery": "850mAh, Internal Rechargeable Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "mini-USB, Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 850,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 122,
+    "thickness_mm": 21.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Ming",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Ming"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Ming\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Ming",
+    "revid": 1361476601
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

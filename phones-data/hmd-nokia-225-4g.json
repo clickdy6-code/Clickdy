@@ -1,0 +1,74 @@
+{
+  "slug": "hmd-nokia-225-4g",
+  "brand": "HMD",
+  "name": "Nokia 225 4G",
+  "status": "published",
+  "announced": "2024-04-30",
+  "released": "2024-04-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-04-30",
+      "Series": "Nokia 200 series"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "121.5 x",
+      "Other": "Wireless FM radio, MP3 player, Cloud Apps (YouTube Shorts, News, Weather)"
+    },
+    "Platform": {
+      "Operating system": "Series 30+",
+      "Chipset": "Unisoc T107 (22 nm)",
+      "CPU": "1.0 GHz Cortex-A7"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Storage": "128 MB",
+      "Card slot": "microSDHC up to 32 GB (dedicated slot)"
+    },
+    "Display": {
+      "Display": "2.4-inch TFT LCD, 256K colors, 240 x 320 pixels (~167 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP (VGA) with LED flash & video"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "1450 mAh Li-Ion (removable)",
+      "Charging": "USB-C"
+    },
+    "Connectivity": {
+      "Connectivity": "4G LTE, Bluetooth 5.0, USB-C 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "Unisoc T107",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1450,
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 225 4G (2024)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_225_4G_%282024%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 225 4G (2024)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 225 4G (2024)",
+    "revid": 1381591085
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

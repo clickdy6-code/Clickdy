@@ -1,0 +1,70 @@
+{
+  "slug": "htc-one-vx",
+  "brand": "HTC",
+  "name": "One VX",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "HTC One"
+    },
+    "Body": {
+      "Form factor": "Smartphone"
+    },
+    "Platform": {
+      "Operating system": "Android OS, v4.0 (Ice Cream Sandwich)",
+      "Chipset": "Qualcomm Snapdragon S4 MSM8930",
+      "CPU": "1.2 GHz dual-core Qualcomm Snapdragon S4 (MSM 8930)",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8GB eMMC",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.5 inch qHD super LCD 2 (960 x 540) 16M colors, 245 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "5MP, f/2.0, 28mm wide angle lens, smart LED flash, BSI sensor, HTC ImageChip, and 1080p HD video recorder",
+      "Front camera": "VGA front-facing camera"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1800 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon S4 MSM8930",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "battery_mah": 1800
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC One VX",
+      "url": "https://en.wikipedia.org/wiki/HTC_One_VX"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC One VX\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC One VX",
+    "revid": 1311415419
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

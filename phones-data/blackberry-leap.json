@@ -1,0 +1,84 @@
+{
+  "slug": "blackberry-leap",
+  "brand": "BlackBerry",
+  "name": "Leap",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/BlackBerry_Leap-front_illuminated_PNr%C2%B00567.jpg/500px-BlackBerry_Leap-front_illuminated_PNr%C2%B00567.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/BlackBerry_Leap-front_illuminated_PNr%C2%B00567.jpg/250px-BlackBerry_Leap-front_illuminated_PNr%C2%B00567.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BlackBerry Leap",
+      "credit": "D-Kuru, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Leap-front_illuminated_PNr%C2%B00567.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "BlackBerry Z3",
+      "Successor": "BlackBerry Motion , BlackBerry Evolve"
+    },
+    "Network": {
+      "Technology": "LTE, PCS, HSPA+, EDGE, GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "144 mm H, 72.8 mm W, 9.5 mm D",
+      "Weight": "170 g",
+      "Other": "Accelerometer, Proximity sensor, Ambient light sensor"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry 10.3.1",
+      "Chipset": "Qualcomm Snapdragon S4 Plus",
+      "CPU": "Krait, 1.5 GHz dual-core",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB internal storage",
+      "Card slot": "microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.0 in IPS LCD, 1280x720 pixels, 294 pixels per inch, PPI"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels, 1080p video capture, autofocus, Digital Image Stabilization",
+      "Front camera": "2 megapixels, 720p video capture"
+    },
+    "Battery": {
+      "Battery": "2800 mAH non removable battery"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon S4 Plus",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 2800,
+    "five_g": false,
+    "weight_g": 170,
+    "thickness_mm": 9.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Leap",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Leap"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Leap\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Leap",
+    "revid": 1380372971
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

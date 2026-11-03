@@ -1,0 +1,90 @@
+{
+  "slug": "lenovo-moto-e22",
+  "brand": "Lenovo",
+  "name": "Moto E22",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "E32: , E32s: , E22s: , E22/E22i: , E32 (India):",
+      "Series": "Moto E",
+      "Predecessor": "Moto E10",
+      "Successor": "Moto E13"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "E22/E22i: 163.6 × 74.7 × 8 mm, E22s/E32/E32s: 164 × 75 × 8.5 mm",
+      "Weight": "E22/E22i: 169 g, E22s/E32 (India)/E32s: 185 g, E32: 184 g"
+    },
+    "Platform": {
+      "Operating system": "E22/E22s/E32 (India): Android 12, E22i: Android 12 (Go Edition), E32/E32s: Android 11",
+      "CPU": "E22/E22i/E22s/E32 (India)/E32s: MediaTek MT6765V/CB Helio G37 (12 nm), octa-core (4×2.3 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53), E32: Unisoc T606 (12 nm), octa-core (2×1.6 GHz Cortex-A75 & 6×1.6 GHz Cortex-A55)",
+      "GPU": "E22/E22i/E22s/E32 (India)/E32s: PowerVR 8320, E32: Mali-G57 MP1"
+    },
+    "Memory": {
+      "RAM": "E22/E32s: 3/4 GB, E22i: 2 GB, E22s/E32: 4 GB, LPDDR4X",
+      "Storage": "E22/E32s: 32/64 GB, E22i: 32 GB, E22s/E32: 64 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.5\", 1600 × 720 (HD+), 20:9, 270 ppi, 90 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "E22/E22i/E22s: 16 MP, 26 mm (wide), 1.0 µm, PDAF + 2 MP, (depth sensor), E32/E32s: 16 MP, 26 mm (wide), 1.0 µm, PDAF + 2 MP, (macro) + 2 MP, (depth sensor), E32 (India): 50 MP, 26 mm, (wide), 0.64 µm, PDAF + 2 MP, (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "E22/E22i: 5 MP, 1/5\", 1.12 µm, E22s/E32/E32s: 8 MP, 26 mm (wide), 1/4\", 1.12 µm, HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "All models: non-removable, Li-Po, E22/E22i: 4020 mAh, E22s/E32/E32s: 5000 mAh",
+      "Charging": "E22/E22i/E22s/E32 (India): 10 W, E32: 18 W, E32s: 15 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm Audio jack, Bluetooth 5.0 (A2DP, LE), FM radio, NFC (E22 3/32 GB), Wi-Fi 802.11 a (except E32)/b/g/n/ac (except E32) (dual-band (except E32), Wi-Fi Direct (E32), hotspot), GPS, A-GPS, GLONASS, Galileo"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "ram_gb": [
+      2,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 4020,
+    "wired_w": 18,
+    "os": "Android 12",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 169
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto E22",
+      "url": "https://en.wikipedia.org/wiki/Moto_E22"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto E22\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto E22",
+    "revid": 1364410966
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

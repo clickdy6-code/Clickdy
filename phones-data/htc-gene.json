@@ -1,0 +1,70 @@
+{
+  "slug": "htc-gene",
+  "brand": "HTC",
+  "name": "Gene",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Htc_p3400i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Htc_p3400i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "HTC Gene",
+      "credit": "Sainath Parkar, the original uploader is English Wikipedia user Sainath468, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htc_p3400i.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "Quad-band GSM/GPRS/EDGE (GSM 850, GSM 900, GSM 1800, GSM 1900)"
+    },
+    "Body": {
+      "Form factor": "Personal digital assistant smartphone Pocket PC",
+      "Weight": "126 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6 Professional For HTC Gene P3400i & Windows Mobile 5.0 Pocket PC For HTC Gene P3400",
+      "CPU": "TI OMAP 850, 201 MHz processor"
+    },
+    "Memory": {
+      "RAM": "64 MiB RAM , 128 MiB ROM",
+      "Card slot": "SD, MMC, SDHC"
+    },
+    "Display": {
+      "Display": "240x320 px, 2.8 in TFT LCD QVGA resistive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel Fixed focus"
+    },
+    "Battery": {
+      "Battery": "1250mAh mAH Lithium-ion polymer battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mini , Bluetooth 2.0 + EDR + A2DP"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1250,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 126
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Gene",
+      "url": "https://en.wikipedia.org/wiki/HTC_Gene"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Gene\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Gene",
+    "revid": 1370162398
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

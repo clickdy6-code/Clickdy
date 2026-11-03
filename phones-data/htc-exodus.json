@@ -1,0 +1,46 @@
+{
+  "slug": "htc-exodus",
+  "brand": "HTC",
+  "name": "Exodus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "4G LTE"
+    },
+    "Platform": {
+      "Operating system": "Android O.",
+      "CPU": "Qualcomm® Snapdragon™ 845"
+    },
+    "Memory": {
+      "RAM": "6GB - DDR4x RAM",
+      "Storage": "128GB - UFS2.1 Storage"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "five_g": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Exodus",
+      "url": "https://en.wikipedia.org/wiki/HTC_Exodus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Exodus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Exodus",
+    "revid": 1361473278
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

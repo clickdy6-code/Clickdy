@@ -1,0 +1,75 @@
+{
+  "slug": "foxconn-nokia-222",
+  "brand": "Foxconn",
+  "name": "Nokia 222",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nokia_222_front.jpg/500px-Nokia_222_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nokia_222_front.jpg/250px-Nokia_222_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn Nokia 222",
+      "credit": "Elias Ojala, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_222_front.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia 215",
+      "Successor": "Nokia 230"
+    },
+    "Network": {
+      "Technology": "GSM (900/1800 MHz), GPRS and EDGE"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "116 mm x 50 mm x 12.9 mm",
+      "Weight": "79 g"
+    },
+    "Platform": {
+      "Operating system": "Series 30+"
+    },
+    "Memory": {
+      "RAM": "16 MB RAM",
+      "Card slot": "Up to MicroSD 32 GB"
+    },
+    "Display": {
+      "Display": "262K color, 320 x 240, LCD transmissive"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 MP camera, fixed focus, 2x digital zoom"
+    },
+    "Battery": {
+      "Battery": "1100 mAh"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1100,
+    "five_g": false,
+    "weight_g": 79,
+    "thickness_mm": 12.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 222",
+      "url": "https://en.wikipedia.org/wiki/Nokia_222"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 222\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 222",
+    "revid": 1361477114
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

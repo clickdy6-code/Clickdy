@@ -1,0 +1,65 @@
+{
+  "slug": "lg-trax",
+  "brand": "LG",
+  "name": "Trax",
+  "status": "published",
+  "announced": "2007-08-14",
+  "released": "2007-08-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States 2007-08-14 (AT&T)",
+      "Predecessor": "CU500"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE:, 850/900/1800/1900 MHz, WCDMA (HSDPA/UMTS):, 850/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "3.89” x 2.01” x 0.62”",
+      "Weight": "3.55 oz"
+    },
+    "Memory": {
+      "RAM": "16 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "65K color TFT, 176x220 pixels, 11 lines"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 MP, 1280 x 960, 640x480, 320x240, 160x120 pixels"
+    },
+    "Battery": {
+      "Battery": "Li-polymer, 980 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 1.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 980,
+    "five_g": false,
+    "nfc": false,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Trax (CU575)",
+      "url": "https://en.wikipedia.org/wiki/LG_Trax_%28CU575%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Trax (CU575)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Trax (CU575)",
+    "revid": 1361475467
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

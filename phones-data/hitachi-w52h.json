@@ -1,0 +1,79 @@
+{
+  "slug": "hitachi-w52h",
+  "brand": "Hitachi",
+  "name": "W52H",
+  "status": "published",
+  "announced": "2007-06-07",
+  "released": "2007-06-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/W52H.jpg/500px-W52H.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/W52H.jpg/250px-W52H.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Hitachi W52H",
+      "credit": "Jr223, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:W52H.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2007-06-07",
+      "Discontinued": "2007-10",
+      "Predecessor": "W43H/H II"
+    },
+    "Network": {
+      "Technology": "3.5G: CDMA 1X WIN (Packet WIN) (CDMA2000 1xEV-DO Rel.0), 3G: CDMA 1X (Packet 1X) (CDMA2000 1xMC), Frequency bands: 800 MHz / New 800 MHz / 2 GHz"
+    },
+    "Body": {
+      "Form factor": "2-axis swivel flip",
+      "Dimensions": "106 mm H , 50 mm W , 22 mm D",
+      "Weight": "141 g"
+    },
+    "Platform": {
+      "Operating system": "REX OS + KCP",
+      "CPU": "Qualcomm MSM6550 (225 MHz)"
+    },
+    "Memory": {
+      "Storage": "100 MB internal data folder",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "Main: 2.9 in (74 mm) IPS LCD, Wide QVGA (240×400 dots), 260k colors, Sub: 1.1 in (28 mm) White OLED, 128×36 dots, 2 colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.07 MP CMOS (Autofocus, image stabilization, text reader)"
+    },
+    "Battery": {
+      "Battery": "1100 mAh",
+      "Charging": "160 minutes"
+    }
+  },
+  "key": {
+    "display_in": 2.9,
+    "display_type": "IPS LCD",
+    "main_mp": 2.07,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1100,
+    "five_g": true,
+    "weight_g": 141,
+    "thickness_mm": 22,
+    "year": 2007
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Hitachi W52H",
+      "url": "https://en.wikipedia.org/wiki/Hitachi_W52H"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Hitachi W52H\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Hitachi W52H",
+    "revid": 1368647824
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "iphone-16",
+  "brand": "IPhone",
+  "name": "16",
+  "status": "published",
+  "announced": "2024-09-20",
+  "released": "2024-09-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/IPhone_16_Vector.svg/500px-IPhone_16_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/IPhone_16_Vector.svg/250px-IPhone_16_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 16",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_16_Vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-09-20",
+      "Discontinued": "16 Plus:",
+      "Series": "iPhone",
+      "Predecessor": "iPhone 15 and 15 Plus",
+      "Successor": "iPhone 17"
+    },
+    "Network": {
+      "Technology": "2G GSM/EDGE, 3G UMTS/HSPA+, 4G LTE, 5G NR",
+      "SIM": "Dual eSIM (US), Dual nano-SIM (Hong Kong, Macau and mainland China), nano-SIM and eSIM (elsewhere)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "16: 147.6xx71.6xx7.8 mm, 16 Plus: 160.9xx77.8xx7.8 mm",
+      "Weight": "16: 170 g, 16 Plus: 199 g",
+      "Other": "Emergency SOS, Messages and Find My via satellite, FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over 5G Standalone (if supported by the carrier)"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 18",
+      "Chipset": "Apple A18"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR5X",
+      "Storage": "128, 256 or 512 GB NVMe"
+    },
+    "Display": {
+      "Display": "Super Retina XDR OLED 16: 6.1 in resolution (~460 ppi density), 16 Plus: 6.7 in resolution (~460 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, 1.6, 26 mm (wide), 12 MP, 2.2, 13 mm (ultrawide)",
+      "Front camera": "12 MP, 1.9, 23 mm (wide)"
+    },
+    "Sound": {
+      "Sound": "Dolby Atmos-tuned Spatial Audio"
+    },
+    "Battery": {
+      "Battery": "16: 13.84 Wh (3561 mAh) Lithium-ion battery, Li-ion @ 3.89 V, 16 Plus: 18.11 Wh (4674 mAh) Li-ion @ 3.88 V",
+      "Charging": "MagSafe (wireless charger), MagSafe and Qi 2 wireless, USB-C fast-charge"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 (802.11a/b/g/n/ac/ax/be) tri-band, Bluetooth 5.3 (A2DP, LE) , Ultra-wideband (UWB) , Thread, NFC (reader mode, Express Cards), USB-C: USB 2.0 480 Mbit/s, GPS, GLONASS, Galileo, QZSS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Super Retina XDR OLED",
+    "chipset": "Apple A18",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 12,
+    "battery_mah": 3561,
+    "os": "iOS 18",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 170,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 16",
+      "url": "https://en.wikipedia.org/wiki/IPhone_16"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 16\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 16",
+    "revid": 1383478179
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

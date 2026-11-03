@@ -1,0 +1,108 @@
+{
+  "slug": "transsion-infinix-smart-10",
+  "brand": "Transsion",
+  "name": "Infinix Smart 10",
+  "status": "published",
+  "announced": "2025-06-16",
+  "released": "2025-06-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Infinix_Smart_10_series.jpg/500px-Infinix_Smart_10_series.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Infinix_Smart_10_series.jpg/250px-Infinix_Smart_10_series.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Transsion Infinix Smart 10",
+      "credit": "Meniirtjakarintan, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Infinix_Smart_10_series.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-06-16",
+      "Series": "Infinix Smart series",
+      "Predecessor": "Infinix Smart 9",
+      "Successor": "Infinix Smart 20"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "Smart 10 / 10 Plus: 165.6 mm × 77 mm × 8.3 mm (6.52 in × 3.03 in × 0.33 in), Smart 10 HD: 163.6 mm × 75.6 mm × 8.5 mm (6.44 in × 2.98 in × 0.33 in)",
+      "Weight": "Smart 10: 187 g, Smart 10 Plus: 198 g, Smart 10 HD: 184 g"
+    },
+    "Platform": {
+      "Operating system": "Smart 10: Android 15 / Android 15 (Go edition), XOS 15.1, Smart 10 Plus: Android 15, XOS 15.1, Smart 10 HD: Android 14 (Go edition), XOS 13.6",
+      "Chipset": "Smart 10 / 10 Plus: Unisoc T7250 (12 nm), Smart 10 HD: Unisoc T606 (12 nm)",
+      "CPU": "Smart 10 / 10 Plus: Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55), Smart 10 HD: Octa-core (2x1.6 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+      "GPU": "Smart 10 / 10 Plus: Mali-G57 MP1, Smart 10 HD: Mali-G57 MC1"
+    },
+    "Memory": {
+      "RAM": "Smart 10: 3 GB, 4 GB, 6 GB, or 8 GB RAM, Smart 10 Plus: 4 GB or 8 GB RAM, Smart 10 HD: 2 GB RAM",
+      "Storage": "Smart 10: 64 GB, 128 GB, or 256 GB eMMC 5.1, Smart 10 Plus: 128 GB eMMC 5.1, Smart 10 HD: 64 GB eMMC 5.1",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "Smart 10 / 10 Plus: 6.67 in (169 mm) IPS LCD, 120Hz, 720 × 1600 pixels (20:9 ratio), ~263 ppi, Smart 10 HD: 6.6 in (170 mm) IPS LCD, 90Hz, 720 × 1612 pixels (20:9 ratio), ~267 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Smart 10 / 10 Plus: 8 MP, f/2.0 (wide), AF, Dual-LED flash, video 1440p@30fps, Smart 10 HD: 13 MP, f/1.9 (wide), AF, Quad-LED flash, video 1080p@30fps",
+      "Front camera": "Smart 10 / 10 Plus: 8 MP, f/2.0 (wide), video 1440p@30fps, Smart 10 HD: 8 MP, f/2.0 (wide), video 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Smart 10 / 10 Plus: Loudspeaker with stereo speakers, 3.5 mm jack, Smart 10 HD: Loudspeaker, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "Smart 10: 5000 mAh, 15W wired charging, Smart 10 Plus: 6000 mAh, 18W wired charging, Smart 10 HD: 5000 mAh, 10W wired charging, (All variants support reverse wired charging)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Bluetooth, GPS, Infrared port, FM radio, USB Type-C 2.0, OTG , NFC support: , Smart 10 / 10 Plus: Yes (market/region dependent; data transfer only), Smart 10 HD: No"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "chipset": "Smart 10 / 10 Plus: Unisoc T7250",
+    "ram_gb": [
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 8,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "os": "Android 15",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 187,
+    "thickness_mm": 8.3,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Infinix Smart 10",
+      "url": "https://en.wikipedia.org/wiki/Infinix_Smart_10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Infinix Smart 10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Infinix Smart 10",
+    "revid": 1367452454
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

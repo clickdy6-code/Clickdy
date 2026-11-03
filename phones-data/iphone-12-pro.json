@@ -1,0 +1,98 @@
+{
+  "slug": "iphone-12-pro",
+  "brand": "IPhone",
+  "name": "12 Pro",
+  "status": "published",
+  "announced": "2020-10-23",
+  "released": "2020-10-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/IPhone_12_Pro_Gold.svg/500px-IPhone_12_Pro_Gold.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/IPhone_12_Pro_Gold.svg/250px-IPhone_12_Pro_Gold.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 12 Pro",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_12_Pro_Gold.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Pro: 2020-10-23, Pro Max: 2020-11-13",
+      "Discontinued": "2021-09-14",
+      "Series": "14th",
+      "Predecessor": "iPhone 11 Pro and Pro Max",
+      "Successor": "iPhone 13 Pro and Pro Max"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, EVDO, HSPA+, 4G LTE, 5G",
+      "SIM": "nanoSIM and eSIM (eSIM not available on Mainland China models, Hong Kong, Macao and Singapore models, as they have 2 physical SIMs)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pro:, H: 146.7 mm, W: 71.5 mm, D: 7.4 mm, Pro Max:, H: 160.8 mm, W: 78.1 mm, D: 7.4 mm",
+      "Weight": "Pro: 189 g, Pro Max: 228 g",
+      "Other": "FaceTime Audio / Video, Hotspot (Wi-Fi), Wi-Fi Hotspot, Voice over LTE (VoLTE), Generic Access Network, Wi-Fi Calling"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 14",
+      "Chipset": "A14 Bionic",
+      "CPU": "Hexa-core (2x high-power Firestorm cores @3.1 GHz + 4x low-power Icestorm cores @1.8 GHz)",
+      "GPU": "Quad-core Apple-designed GPU, up to 750 GFLOPS"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X",
+      "Storage": "128, 256 or 512 GB NVMe"
+    },
+    "Display": {
+      "Display": "12 Pro: 6.1 in diagonal, 2532×1170px at 460.3 Pixel density, ppi, supplied by Samsung Electronics, Samsung Display, 12 Pro Max: 6.7 in, 2778×1284px at 457.3 ppi, supplied by Samsung Display"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP (4032 x 3024 px); Dolby Vision; Night Mode; 4K @ 24, 30, 60; 1080p@30, 60, 120; 720p@240; 26 mm; 12 MP telephoto (52 mm, 2x) and ultra-wide (13 mm, 0.5x)",
+      "Front camera": "12 MP (4000 x 3000 px); Dolby Vision; 4K @ 24, 30, 60; 1080p@30, 60, 120; 720p@240; 26 mm"
+    },
+    "Battery": {
+      "Battery": "Pro: 10.78 Wh (2,815 mAh) Lithium-ion battery @ 3.83 V, Pro Max: 14.13 Wh (3,687 mAh) Lithium-ion battery @ 3.83 V",
+      "Charging": "Lightning (connector), Lightning charging (12 W), USB hardware#USB Power Delivery, USB PD via Lightning fast charging (20 W), MagSafe (iPhone), MagSafe wireless charging (15 W)"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "chipset": "A14 Bionic",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K@24fps",
+    "front_mp": 12,
+    "battery_mah": 2815,
+    "wireless_w": 15,
+    "wired_w": 20,
+    "os": "iOS 14",
+    "five_g": true,
+    "esim": true,
+    "weight_g": 189,
+    "thickness_mm": 7.4,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 12 Pro",
+      "url": "https://en.wikipedia.org/wiki/IPhone_12_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 12 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 12 Pro",
+    "revid": 1382566295
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

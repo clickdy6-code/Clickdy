@@ -1,0 +1,86 @@
+{
+  "slug": "huawei-p9-lite",
+  "brand": "Huawei",
+  "name": "P9 lite",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Huawei P/G, Honor N",
+      "Predecessor": "Huawei P8 lite",
+      "Successor": "Huawei P10 lite, Huawei P9 lite 2017"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.8 × 72.6 × 7.5 mm",
+      "Weight": "147 g",
+      "Other": "Fingerprint scanner (rear-mounted), proximity sensor, ambient light sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 6.0 Marshmallow + EMUI 4.1, Current: Android 7.0 Nougat + EMUI 5",
+      "CPU": "HiSilicon Kirin 650 (16 nm), 8 cores (4x2.0 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-T830 MP2"
+    },
+    "Memory": {
+      "RAM": "2/3 GB, LPDDR3",
+      "Storage": "16 GB, eMMC 5.1",
+      "Card slot": "MicroSD up to 128 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.2\", 1920 × 1080 (FullHD), 16:9, 424 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP Sony IMX214, f/2.0, 1/3.1\", 1.12μm, AF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0, Video: 1080p@30fps\\"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 3000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "MicroUSB 2.0, 3.5 mm audio, Bluetooth 4.1 (A2DP, LE), NFC, Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "wired_w": 10,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 147
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P9 lite",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P9_lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P9 lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P9 lite",
+    "revid": 1361483594
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

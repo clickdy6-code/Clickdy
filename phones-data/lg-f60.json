@@ -1,0 +1,84 @@
+{
+  "slug": "lg-f60",
+  "brand": "LG",
+  "name": "F60",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-10",
+      "Discontinued": "Yes",
+      "Series": "LG F series"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE",
+      "SIM": "Micro-SIM (Single or Dual SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "127.5 × 67.9 × 10.6 mm",
+      "Weight": "129.6 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 (KitKat)",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB, 8 GB",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "4.5 in (114 mm) IPS LCD, 480 x 800 pixels, 5:3 ratio (~207 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, AF, LED flash, panorama, Video: 720p@30fps",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 2100 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8916 Snapdragon 410",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4,
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@30fps",
+    "battery_mah": 2100,
+    "os": "Android 4.4",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 129.6,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG F60",
+      "url": "https://en.wikipedia.org/wiki/LG_F60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG F60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG F60",
+    "revid": 1383384880
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "huawei-p-smart-2020",
+  "brand": "Huawei",
+  "name": "P Smart 2020",
+  "status": "published",
+  "announced": "2020-04-29",
+  "released": "2020-04-29",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-04-29",
+      "Series": "P series",
+      "Predecessor": "Huawei P Smart 2019",
+      "Successor": "Huawei P Smart 2021"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155.2 x 73.4 x 8 mm",
+      "Weight": "160 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9 Pie with EMUI 9.1",
+      "CPU": "Kirin 710 (12 nm), octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4",
+      "Storage": "128 GB UFS 2.1",
+      "Card slot": "MicroSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "LTPS IPS LCD, 6.21\", 2340 x 1080 (Full HD+), 19.5:9 ratio, 415 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/1.8, PDAF + 2 MP, f/2.4 (depth sensor), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0, HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 3400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm audio jack, Bluetooth 4.2 (A2DP, LE), NFC, FM radio, Wi-Fi 802.11 b/g/n/ac (Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.21,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 3400,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 160,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P Smart 2020",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P_Smart_2020"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P Smart 2020\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P Smart 2020",
+    "revid": 1361473969
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

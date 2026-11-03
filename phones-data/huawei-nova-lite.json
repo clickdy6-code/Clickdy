@@ -1,0 +1,80 @@
+{
+  "slug": "huawei-nova-lite",
+  "brand": "Huawei",
+  "name": "Nova lite",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2017",
+      "Series": "Nova",
+      "Predecessor": "Huawei Nova lite, Huawei Y6 II Compact",
+      "Successor": "Huawei Nova lite 2, Huawei Y6 Prime 2018"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA"
+    },
+    "Body": {
+      "Form factor": "smartphone",
+      "Dimensions": "143.5 x 71 x 8.05 mm",
+      "Weight": "145 grams",
+      "Other": "Bluetooth, GPS, Wi-Fi 802.11 b/g/n , Micro USB, 3.5 mm audio jack"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0 (Nougat) + EMUI 5.1",
+      "CPU": "Qualcomm Snapdragon 425"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16 GB",
+      "Card slot": "Micro SD"
+    },
+    "Display": {
+      "Display": "5\", IPS-matrix, 1280x720, 294 ppi, 16:9"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP main, 5 MP front, Full HD video recording 1920x1080"
+    },
+    "Sound": {
+      "Sound": "MP3, eAAC+, WAV, Flac, MP4, H.264"
+    },
+    "Battery": {
+      "Battery": "3020 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 3020,
+    "os": "Android 7.0",
+    "five_g": false,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova lite",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova lite",
+    "revid": 1368314052
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

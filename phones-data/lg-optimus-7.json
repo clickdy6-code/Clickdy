@@ -1,0 +1,78 @@
+{
+  "slug": "lg-optimus-7",
+  "brand": "LG",
+  "name": "Optimus 7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/3f/LG_Optimus_7.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3f/LG_Optimus_7.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "LG Optimus 7",
+      "credit": "The original uploader was Esebi95 at English Wikipedia., CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Optimus_7.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Optimus"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "125 x 59.8 x 11.5 mm",
+      "Weight": "5.54 oz"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7",
+      "CPU": "Qualcomm QSD8650 1GHz Scorpion (Snapdragon)"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "16 GB"
+    },
+    "Display": {
+      "Display": "3.8-inch (diagonal) widescreen, 480-by-800 WVGA LCD TFT Capacitive Touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP with autofocus, 5× digital zoom, LED Flash, 720p HD video recording"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Quad-band GSM/GPRS/EDGE , (850 900 1800 1900 MHz) , Tri-band UMTS/HSDPA , (900 1900 2100 MHz) , Wi-Fi (802.11 b/g/n) , Bluetooth 2.1 + EDR , DLNA , A-GPS , FM radio"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1500,
+    "os": "Windows Phone 7",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus 7",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus 7",
+    "revid": 1361475209
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

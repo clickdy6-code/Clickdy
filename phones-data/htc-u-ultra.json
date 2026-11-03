@@ -1,0 +1,90 @@
+{
+  "slug": "htc-u-ultra",
+  "brand": "HTC",
+  "name": "U Ultra",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/HTC_U_Ultra.png/500px-HTC_U_Ultra.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/HTC_U_Ultra.png/250px-HTC_U_Ultra.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC U Ultra",
+      "credit": "AnVuong1222004, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_U_Ultra.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC U"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "162.4 mm H , 79.8 mm W , 8 mm D",
+      "Weight": "170 g"
+    },
+    "Platform": {
+      "Operating system": "Android \"Nougat\" 7.0; Android \"Oreo\" 8.0 with HTC Sense 8.0; Unofficial: Android 12 via LineageOS",
+      "Chipset": "Qualcomm Snapdragon 821",
+      "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 or 128 GB",
+      "Card slot": "MicroSD up to 2TB"
+    },
+    "Display": {
+      "Display": "5.7 inch Super LCD5 capacitive touchscreen with Corning Gorilla Glass 5 for the 64 GB model and Sapphire crystal glass for the 128 GB model., 1440 × 2560 pixels (~513 ppi pixel density)"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.8, 26mm, OIS, laser & phase detection autofocus, dual-LED (dual tone) flash, 1/2.3 in. sensor size, 1.55μm pixel size, geo-tagging, touch focus, face detection, Auto-HDR, panorama",
+      "Front camera": "16 MP, 1080p, Auto-HDR"
+    },
+    "Sound": {
+      "Sound": "HTC USonic, HTC BoomSound™ Hi-Fi edition, 3D Audio recording with 4 microphones, Hi-Res audio stereo recording, Hi-Res audio certified"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 3000 mAh battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot, Bluetooth: v4.2, A2DP, LE, GPS: Yes, with A-GPS, GLONASS, BDS, NFC: Yes, USB: v3.1, Type-C 1.0 reversible connector"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "chipset": "Qualcomm Snapdragon 821",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 3000,
+    "os": "Android 12",
+    "nfc": true,
+    "weight_g": 170,
+    "thickness_mm": 8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC U Ultra",
+      "url": "https://en.wikipedia.org/wiki/HTC_U_Ultra"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC U Ultra\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC U Ultra",
+    "revid": 1361473545
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

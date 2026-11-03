@@ -1,0 +1,74 @@
+{
+  "slug": "htc-tattoo",
+  "brand": "HTC",
+  "name": "Tattoo",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Htc_tattoo.jpg/500px-Htc_tattoo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Htc_tattoo.jpg/250px-Htc_tattoo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Tattoo",
+      "credit": "Cjackh, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Htc_tattoo.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "A Series",
+      "Successor": "HTC Wildfire"
+    },
+    "Network": {
+      "Technology": "HSPA/WCDMA 900/2100 MHz , Quad-band GSM/GPRS/EDGE 850/900/1800/1900 MHz (In Indian versions of this model, HTC disabled 3G services, confirmed by HTC)"
+    },
+    "Body": {
+      "Dimensions": "106 x 55.2 x 14 mm (4.17 x 2.17 x 0.55 inches)",
+      "Weight": "113 grams"
+    },
+    "Platform": {
+      "Operating system": "Android 1.6 with HTC Sense",
+      "CPU": "Qualcomm MSM7225, 528 MHz"
+    },
+    "Memory": {
+      "RAM": "ROM: 512 MB, RAM: 256 MB",
+      "Card slot": "microSD memory card (SD 2.0 compatible)"
+    },
+    "Display": {
+      "Display": "240 x 320 px, 2.8 in, QVGA TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel"
+    },
+    "Battery": {
+      "Battery": "1100 mAh rechargeable Lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 + EDR + A2DP , Wi-Fi (802.11b/g), HTC ExtUSB , 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1100,
+    "os": "Android 1.6",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Tattoo",
+      "url": "https://en.wikipedia.org/wiki/HTC_Tattoo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Tattoo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Tattoo",
+    "revid": 1379095445
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

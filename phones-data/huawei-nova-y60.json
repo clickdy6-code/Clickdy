@@ -1,0 +1,99 @@
+{
+  "slug": "huawei-nova-y60",
+  "brand": "Huawei",
+  "name": "Nova Y60",
+  "status": "published",
+  "announced": "2020-09-03",
+  "released": "2020-09-03",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Enjoy 20: 2020-09-03, Honor Play 5T Youth: 2021-04-20, Nova Y60: 2021-08-26",
+      "Series": "Huawei Nova / Enjoy, Honor Play",
+      "Predecessor": "Huawei Y6p, Huawei Enjoy 10",
+      "Successor": "Huawei Nova Y61, Huawei Enjoy 50"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G (Enjoy 20)",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.2 × 76 × 9.2 mm",
+      "Weight": "Nova Y60: 185 g, Enjoy 20: 188 g, Honor Play 5T Youth: 191 g",
+      "Other": "Fingerprint sensor (side-mounted), proximity sensor, accelerometer"
+    },
+    "Platform": {
+      "Operating system": "Nova Y60: Android 10 without Google Play Services, EMUI 11, Enjoy 20:, Original: Android 10 without Google Play Services, EMUI 10.1, Current: HarmonyOS 3, Honor Play 5T Youth: Android 10 without Google Play Services, Magic UI 4.0",
+      "Chipset": "Nova Y60/Honor Play 5T Youth: MediaTek MT6765 Helio P35 (12 nm), Enjoy 20: MediaTek MT6853V Dimensity 720 (7 nm)",
+      "CPU": "Nova Y60/Honor Play 5T Youth: Octa-core (4×2.35 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53), Enjoy 20: Octa-core (2×2.0 GHz Cortex-A76 & 6×2.0 GHz Cortex-A55)",
+      "GPU": "Nova Y60/Honor Play 5T Youth: PowerVR GE8320, Enjoy 20: Mali-G57 MC3"
+    },
+    "Memory": {
+      "RAM": "Nova Y60: 4 GB, Enjoy 20: 6/8 GB, Honor Play 5T Youth: 4/6 GB, LPDDR4X",
+      "Storage": "Nova Y60: 64 GB, Enjoy 20: 128 GB, Honor Play 5T Youth: 64/128 GB, eMMC 5.1",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.6\", 1600 × 720 (HD+), 20:9, 266 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Nova Y60/Enjoy 20: 13 MP, f/1.8, 26 mm (wide), PDAF + 5 MP, f/2.2, 120˚ (ultrawide) + 2 MP, f/2.4, (depth), Honor Play 5T Youth: 13 MP, f/1.8, 26 mm (wide), PDAF + 5 MP, f/2.2, 120˚ (ultrawide) + 2 MP, f/2.4, (macro) + 2 MP, f/2.4, (depth), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0 (wide), HDR, Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, earpiece, 3.5 mm audio jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "Nova Y60/Enjoy 20: 10 W, Honor Play 5T Youth: 22.5 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.0 (A2DP, LE), Wi-Fi 802.11 a (Enjoy 20)b/g/n/ac (Enjoy 20) (dual-band (Enjoy 20), Wi-Fi Direct (except Nova Y60), hotspot), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS LCD",
+    "chipset": "Nova Y60/Honor Play 5T Youth: MediaTek MT6765 Helio P35",
+    "ram_gb": [
+      4,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 22.5,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 185,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova Y60",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_Y60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova Y60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova Y60",
+    "revid": 1361473941
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

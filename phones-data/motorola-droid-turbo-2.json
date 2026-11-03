@@ -1,0 +1,87 @@
+{
+  "slug": "motorola-droid-turbo-2",
+  "brand": "Motorola",
+  "name": "Droid Turbo 2",
+  "status": "published",
+  "announced": "2015-10-27",
+  "released": "2015-10-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-10-27",
+      "Series": "Droid",
+      "Predecessor": "Droid Turbo",
+      "Successor": "Moto X4, Moto Z Force"
+    },
+    "Network": {
+      "Technology": "4G LTE (Cat 4), CDMA/EVDO Rev A, UMTS/HSPA+, GSM/EDGE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Height: 149.8 mm (5.90 in.), width: 78 mm (3.07 in.), curve: 7.6–9.2 mm (.30–.36 in.)",
+      "Weight": "169 g, 6 ounces",
+      "Other": "Nano-SIM format, Supports PMA and Qi wireless charging, Micro USB, 3.5 mm headset jack"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 \"Lollipop\", Last: Android 7.0 \"Nougat\"",
+      "Chipset": "Snapdragon 810",
+      "CPU": "MSM8994 (Snapdragon 810)",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "32 GB, 64 GB",
+      "Card slot": "MicroSD (HC, XC), up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.4\", 2560×1440"
+    },
+    "Cameras": {
+      "Rear camera": "2286",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "Front ported loud speaker"
+    },
+    "Battery": {
+      "Battery": "3760 mAH"
+    },
+    "Connectivity": {
+      "Connectivity": "NFC, Bluetooth 4.1, Quad Band GSM, CDMA"
+    }
+  },
+  "key": {
+    "display_in": 5.4,
+    "chipset": "Snapdragon 810",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "front_mp": 5,
+    "battery_mah": 3760,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 169,
+    "thickness_mm": 9.2,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid Turbo 2",
+      "url": "https://en.wikipedia.org/wiki/Droid_Turbo_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid Turbo 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid Turbo 2",
+    "revid": 1375658680
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "huawei-y5c",
+  "brand": "Huawei",
+  "name": "Y5c",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Honor Bee: 2015-05, Y5c: 2015-07",
+      "Series": "Huawei Y/Honor Bee",
+      "Successor": "Honor Bee 2"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Micro-SIM)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "134,3 x 66,7 x 10 mm",
+      "Weight": "170 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 (KitKat), EMUI Lite 3",
+      "Chipset": "Spreadtrum SC7731",
+      "CPU": "4×1,2 GHz Cortex-A7",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "RAM": "1GB RAM, Memory card: microSDHC",
+      "Storage": "8 GB eMMC 4.5"
+    },
+    "Display": {
+      "Display": "TFT LCD, 4.5\", 854 × 480, 16:9, 218 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, AF, Dual-LED flash, panorama, Video: 1080p@30fps",
+      "Front camera": "2 MP, Video: 480p@30fps"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1730 mAh, removable, Stand-by: Up to 280 h (2G), Up to 220 h (3G), Talk time: Up to 6 h min (2G), Up to 7 h (3G)"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN: Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot, Bluetooth: 4.0, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "TFT",
+    "chipset": "Spreadtrum SC7731",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 2,
+    "battery_mah": 1730,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 170,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Y5c",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Y5c"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Y5c\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Y5c",
+    "revid": 1361474165
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

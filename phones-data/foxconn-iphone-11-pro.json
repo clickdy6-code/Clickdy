@@ -1,0 +1,100 @@
+{
+  "slug": "foxconn-iphone-11-pro",
+  "brand": "Foxconn",
+  "name": "IPhone 11 Pro",
+  "status": "published",
+  "announced": "2019-09-20",
+  "released": "2019-09-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/IPhone_11_Pro_Midnight_Green.svg/500px-IPhone_11_Pro_Midnight_Green.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/IPhone_11_Pro_Midnight_Green.svg/250px-IPhone_11_Pro_Midnight_Green.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Foxconn IPhone 11 Pro",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_11_Pro_Midnight_Green.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09-20",
+      "Discontinued": "2020-10-13",
+      "Predecessor": "iPhone XS / iPhone XS Max",
+      "Successor": "iPhone 12 Pro / iPhone 12 Pro Max"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pro:, H: 144 mm, W: 71.4 mm, D: 8.1 mm, Pro Max: , H: 158 mm, W: 77.8 mm , D: 8.1 mm",
+      "Weight": "Pro:, 188 g, Pro Max:, 226 g",
+      "Other": "FaceTime audio- or video-calling, USB-C to Lightning, GPS/GNSS position, velocity and time, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 13",
+      "Chipset": "A13 Bionic"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X RAM",
+      "Storage": "64, 256 or 512 GB NVMe"
+    },
+    "Display": {
+      "Display": "Pro: 5.85 in, 2436 × 1125 px, supplied by Samsung Display , Pro Max: 6.46 in, 2688 × 1242 px, supplied by Samsung Display and LG Display , All models: 458 ppi, Super Retina XDR, Haptic Touch, wide color display (DCI-P3), true tone display, 800 cd/m2 max. brightness (typical), 1,200 cd/m2 max. brightness (HDR), with fingerprint-resistant oleophobic coating."
+    },
+    "Cameras": {
+      "Rear camera": "12 MP (wide), f/1.8, 26 mm, 1/2.55\", 1.4 μm, dual pixel PDAF, OIS, 12 MP (telephoto), f/2.0, 52 mm, 1/3.4\", 1.0 μm, PDAF, OIS, 2x optical zoom, 12 MP (ultrawide), f/2.4, 120˚, 13 mm, 1/3.6\"",
+      "Front camera": "12 MP (wide), f/2.2 aperture, 23 mm, 1/3.6\""
+    },
+    "Sound": {
+      "Sound": "Stereo speakers with Spatial audio and Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "Pro: 3.83 V 11.67 Wh (3,046 mAh) Li-ion , Pro Max: 3.79 V 15.04 Wh (3,969 mAh) Li-ion",
+      "Charging": "Lightning fast charging, Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6 (802.11ax), Bluetooth 5.0, Ultra-wideband (UWB)"
+    }
+  },
+  "key": {
+    "display_in": 5.85,
+    "display_type": "Super Retina XDR",
+    "chipset": "A13 Bionic",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 12,
+    "battery_mah": 3046,
+    "wireless_w": 11.67,
+    "os": "iOS 13",
+    "five_g": false,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "weight_g": 188,
+    "thickness_mm": 8.1,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 11 Pro",
+      "url": "https://en.wikipedia.org/wiki/IPhone_11_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 11 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 11 Pro",
+    "revid": 1382214903
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

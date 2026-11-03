@@ -1,0 +1,63 @@
+{
+  "slug": "htc-salsa",
+  "brand": "HTC",
+  "name": "Salsa",
+  "status": "published",
+  "announced": "2011-02-15",
+  "released": "2011-02-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "15 February 2011",
+      "Discontinued": "Yes",
+      "Successor": "HTC First"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "109.1 x 58.9 x 12.3 mm",
+      "Weight": "120 grams with battery"
+    },
+    "Platform": {
+      "Operating system": "Android Gingerbread 2.3.3",
+      "CPU": "800MHz Qualcomm Snapdragon MSM7227 (ARMv6 rev5)",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB of RAM",
+      "Storage": "microSD support"
+    },
+    "Display": {
+      "Display": "3.4 in diagonal , 320x480 px HVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel camera with Auto Focus, LED flash"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1520 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "HSDPA/HSUPA, Wi-Fi(IEEE 802.11b/g/n)"
+    }
+  },
+  "key": {
+    "display_in": 3.4,
+    "battery_mah": 1520,
+    "nfc": false,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Salsa",
+      "url": "https://en.wikipedia.org/wiki/HTC_Salsa"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Salsa\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Salsa",
+    "revid": 1361473444
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

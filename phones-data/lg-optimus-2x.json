@@ -1,0 +1,92 @@
+{
+  "slug": "lg-optimus-2x",
+  "brand": "LG",
+  "name": "Optimus 2X",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/LG_Optimus_2X.jpg/500px-LG_Optimus_2X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/LG_Optimus_2X.jpg/250px-LG_Optimus_2X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus 2X",
+      "credit": "LGEPR, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Optimus_2X.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "South Korea, 2011-02 (SK Telecom)",
+      "Series": "Optimus",
+      "Predecessor": "LG Optimus One",
+      "Successor": "LG Prada 3.0, LG Optimus 4X HD"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE Quad-band (850, 900, 1,800, and 1,900 MHz) , HSPA Tri-band (900, 1700/AWS [P999/T-Mobile USA Only] 1900, and 2100 MHz) , HSDPA 10.2 Mbit/s, HSUPA 5.76 Mbit/s"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "123.9 mm H , 63.2 mm W , 10.9 mm D",
+      "Weight": "128 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2.2 upgradeable to Android 2.3.4 (P999) and Android 4.0.4 (P990 & SU660)",
+      "CPU": "Nvidia Tegra 2 Series AP20H",
+      "GPU": "ULP GeForce"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM (of which 128 MB is dedicated to the GPU)",
+      "Storage": "8 GB internal storage (User Accessible : 6.4 GB)",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "TFT LCD, 4.0 in diagonal , 480×800 px WVGA (233 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 MP , Autofocus , LED flash , Video : 1080p at 24 fps, 720p at 30 fps",
+      "Front camera": "1.3 MP"
+    },
+    "Battery": {
+      "Battery": "1.5Ah, 3.7V, 5.5Wh , Internal Rechargeable Li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS , Bluetooth 2.1 + EDR with A2DP , DLNA , FM stereo receiver , HDMI Type D , micro USB 2.0 , Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "storage_gb": [
+      4,
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@24fps",
+    "front_mp": 1.3,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 128,
+    "thickness_mm": 10.9,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus 2X",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_2X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus 2X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus 2X",
+    "revid": 1361475189
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "meizu-m6-note",
+  "brand": "Meizu",
+  "name": "M6 Note",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017",
+      "Series": "Meizu M Series",
+      "Predecessor": "Meizu M5 Note",
+      "Successor": "Meizu Note 8"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA, LTE",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Weight": "173 g",
+      "Other": "Dual SIM support with dual standby mode, 3D Press force touch technology, Infrared proximity sensor, gyroscope"
+    },
+    "Platform": {
+      "Operating system": "Before: Flyme OS 6.1.4.0G, based on Android 7.1.2 Nougat, Now: Flyme OS 7.1.1.0G, based on Android 7.1.2 Nougat",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625",
+      "CPU": "Octa-core 2.0 GHz ARM Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "3/4GB",
+      "Storage": "16/32/64GB",
+      "Card slot": "microSDXC, supports up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5 inch diagonal TDDI, 1920x1080 px"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 12 MP + 5 MP, f/1.9, phase detection autofocus, quad-LED (dual tone) flash",
+      "Front camera": "16 MP, f/2.0, 1080p"
+    },
+    "Battery": {
+      "Battery": "4000 mAh Li-Ion rechargeable battery, Non removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.0 with BLE, Dual-band WiFi"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "chipset": "Qualcomm MSM8953 Snapdragon 625",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 173,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu M6 Note",
+      "url": "https://en.wikipedia.org/wiki/Meizu_M6_Note"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu M6 Note\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu M6 Note",
+    "revid": 1365403863
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

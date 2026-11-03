@@ -1,0 +1,77 @@
+{
+  "slug": "high-tech-computer-htc-tytn",
+  "brand": "High Tech Computer",
+  "name": "HTC TyTN",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Tytn-temp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Tytn-temp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "High Tech Computer HTC TyTN",
+      "credit": "Sandstig at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tytn-temp.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC TyTN",
+      "Predecessor": "HTC Wizard",
+      "Successor": "HTC TyTN II"
+    },
+    "Network": {
+      "Technology": "Quad band GSM 850 900 1800 1900, GPRS, EDGE , Tri band UMTS 850, 1900, 2100, HSDPA"
+    },
+    "Body": {
+      "Form factor": "Slide, <!-- deprecated?",
+      "Dimensions": "112.5 mm (h) 58 mm (w) 21.95 mm (d)",
+      "Weight": "176 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.0 Professional",
+      "CPU": "Samsung SC32442A ARM Processor at 400 MHz , GPU: ATI Imageon 2282"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM , 128 MB ROM",
+      "Card slot": "WM5 microSD , WM6 microSD & microSDHC"
+    },
+    "Display": {
+      "Display": "240×320 px, 2.8 in, 65536 color LCD, 3:4 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "1.9 megapixel rear"
+    },
+    "Battery": {
+      "Battery": "1300 or 1350 mAH Lithium-ion polymer battery, user accessible"
+    },
+    "Connectivity": {
+      "Connectivity": "USB Mini-B, Headphone jack , Bluetooth 2.0 + EDR , IrDA , Wi-Fi (802.11b/g)"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "LCD",
+    "battery_mah": 1350,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 176,
+    "thickness_mm": 21.95
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC TyTN",
+      "url": "https://en.wikipedia.org/wiki/HTC_TyTN"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC TyTN\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC TyTN",
+    "revid": 1382757408
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

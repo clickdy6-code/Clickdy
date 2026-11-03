@@ -1,0 +1,96 @@
+{
+  "slug": "motorola-edge-20",
+  "brand": "Motorola",
+  "name": "Edge 20",
+  "status": "published",
+  "announced": "2021-08-16",
+  "released": "2021-08-16",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-08-16",
+      "Series": "Edge",
+      "Predecessor": "Motorola Edge/Edge+",
+      "Successor": "Motorola Edge 30"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Edge 20 Lite & Edge 20 Fusion: 166 x 76 x 8.3 mm, Edge 20: 163 x 76 x 7 mm, Edge 20 Pro: 163 x 76 x 8 mm",
+      "Weight": "Edge 20 Lite & Edge 20 Fusion: 185 g, Edge 20: 163 g, Edge 20 Pro: 1 185-190"
+    },
+    "Platform": {
+      "Operating system": "Android 11",
+      "Chipset": "Edge 20 Lite: MediaTek Dimensity 720, Edge 20 Fusion: MediaTek Dimensity 800U, Edge 20: Qualcomm Snapdragon 778G, Edge 20 Pro: Qualcomm Snapdragon 870",
+      "CPU": "Octa-core, Edge 20 Lite: (2x 2.0 GHz ARM Cortex-A76, Cortex-A76 + 6x 2.0 GHz ARM Cortex-A55, Cortex-A55), Edge 20 Fusion: (2x 2.4 GHz Cortex-A76 + 6x 2.0 GHz Cortex-A55), Edge 20: (1x 2.4 GHz Kryo 670 + 3x 2.2 GHz Kryo 670 + 4x 1.9 GHz Kryo 670), Edge 20 Pro: (1x 3.2 GHz Kryo 585 + 3x 2.42 GHz Kryo 585 + 4x 1.8 GHz Kryo 585)",
+      "GPU": "Edge 20 Lite & Edge 20 Fusion: Mali (GPU), Mali-G57 MC3, Edge 20: Adreno 642L, Edge 20 Pro: Adreno 650"
+    },
+    "Memory": {
+      "RAM": "Edge 20 Lite & Edge 20 Fusion: 6 or 8 GB RAM, Edge 20: 8 GB RAM, Edge 20 Pro: 12 GB RAM",
+      "Storage": "Edge 20 Lite & Edge 20 Fusion: 128 GB Universal Flash Storage, UFS, Edge 20: 128 or 256 GB UFS, Edge 20 Pro: 256 GB UFS",
+      "Card slot": "Edge 20 Lite & Edge 20 Fusion: microSDXC, Edge 20 & Edge 20 Pro: None"
+    },
+    "Display": {
+      "Display": "6.7 in, 1080p (385 ppi), OLED capacitive touchscreen, 20:9 aspect ratio, 1B colors, HDR10+, Edge 20 Lite & Edge 20 Fusion: 90 Hz refresh rate, Edge 20 & Edge 20 Pro: 144 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Edge 20 Lite & Edge 20 Fusion: 108 MP, f/1.9, 26mm, 1/1.52\", 0.7 μm, (wide) + 8 MP, f/2.2, 13mm, 1.12 μm (ultrawide) + 2 MP, f/2.4 (depth), Edge 20: 108 MP, f/1.9, 26mm, 1/1.52\", 0.7 μm, (wide) + 16 MP, f/2.2, 13mm, 1.0 μm (ultrawide) + 8 MP, f/2.4, 79mm, 1.0 μm (telephoto), 3x optical zoom, Edge 20 Pro: 108 MP, f/1.9, 26mm, 1/1.52\", 0.7 μm (wide) + 16 MP, f/2.2, 13mm, 1.0 μm (ultrawide) + 8 MP, f/3.4, 126mm, 1.0 μm (telephoto), 5x optical zoom, PDAF, OIS (telephoto), 4K@30fps, 1080p@30/60/120fps, 720p@960fps, gyro-EIS, dual-LED flash, HDR, panorama, Edge 20 Pro: 8K@24fps, 4K@60fps",
+      "Front camera": "32 MP, f/2.3, 0.7 μm, 1080p@30fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm audio jack"
+    },
+    "Battery": {
+      "Battery": "Edge 20 Lite & Edge 20 Fusion: 5000 mAh, Edge 20: 4000 mAh, Edge 20 Pro: 4500 mAh",
+      "Charging": "30 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac/6e (2.4 & 5 GHz), dual-band, WiFi direct, hotspot, Bluetooth v5.2, A2DP, Low-energy"
+    }
+  },
+  "key": {
+    "display_in": 6.7,
+    "display_type": "OLED",
+    "refresh_hz": 144,
+    "chipset": "Edge 20 Lite: MediaTek Dimensity 720",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 108,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 5000,
+    "wired_w": 30,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 185,
+    "thickness_mm": 8,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Edge 20",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Edge_20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Edge 20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Edge 20",
+    "revid": 1381893039
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

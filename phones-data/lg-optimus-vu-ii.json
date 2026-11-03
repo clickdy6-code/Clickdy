@@ -1,0 +1,94 @@
+{
+  "slug": "lg-optimus-vu-ii",
+  "brand": "LG",
+  "name": "Optimus Vu II",
+  "status": "published",
+  "announced": "2012-09-27",
+  "released": "2012-09-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/LG_Optimus_Vu_II_%28White%29.jpg/500px-LG_Optimus_Vu_II_%28White%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/LG_Optimus_Vu_II_%28White%29.jpg/250px-LG_Optimus_Vu_II_%28White%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG Optimus Vu II",
+      "credit": "LG전자, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_Optimus_Vu_II_(White).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 27, 2012 (KR)",
+      "Series": "Optimus, Vu",
+      "Predecessor": "LG Optimus Vu",
+      "Successor": "LG Vu 3"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850, 900, 1800, 1900 MHz, 3G UMTS/HSPA+, 900, 2100 MHz / 850, 2100 MHz 4G LTE 800 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H 132.2 mm, W 85.6 mm, D 9.4 mm",
+      "Weight": "159 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.0.4 \"Ice Cream Sandwich\", Current: Android 4.4.2 \"KitKat\"",
+      "CPU": "Krait Dual-core 1.5 GHz",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "32 GB"
+    },
+    "Display": {
+      "Display": "5.0-inch (768×1024) IPS LCD (256 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, 1080p at 30 FPS video",
+      "Front camera": "1.3 MP"
+    },
+    "Battery": {
+      "Battery": "2,150 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Hotspot, DLNA, Bluetooth 4.0 + A2DP, NFC"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 1.3,
+    "battery_mah": 2150,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 159,
+    "thickness_mm": 9.4,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG Optimus Vu II",
+      "url": "https://en.wikipedia.org/wiki/LG_Optimus_Vu_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG Optimus Vu II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG Optimus Vu II",
+    "revid": 1361475332
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

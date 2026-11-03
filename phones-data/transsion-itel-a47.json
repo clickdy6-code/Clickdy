@@ -1,0 +1,83 @@
+{
+  "slug": "transsion-itel-a47",
+  "brand": "Transsion",
+  "name": "Itel A47",
+  "status": "published",
+  "announced": "2021-02-01",
+  "released": "2021-02-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-02-01",
+      "Series": "A series"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "149 x 72 x 10 mm",
+      "Weight": "164 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 (Pie) (Go Edition)",
+      "CPU": "1.4 GHz Quad-core (Unisoc SC9832E)",
+      "GPU": "Mali-T820 MP1"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSD, up to 32 GB (dedicated slot)"
+    },
+    "Display": {
+      "Display": "5.5 in (140 mm) IPS LCD, 720 x 1440 pixels, 18:9 ratio (~293 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP + 0.3 MP (VGA) AI Dual Camera, LED flash, 720p video",
+      "Front camera": "5 MP with soft LED flash"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "3020 mAh Li-ion (removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "4G LTE, Wi-Fi 802.11 b/g/n, Bluetooth 4.2, GPS/A-GPS, Micro-USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 5,
+    "battery_mah": 3020,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 164,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Itel A47",
+      "url": "https://en.wikipedia.org/wiki/Itel_A47"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Itel A47\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Itel A47",
+    "revid": 1367452507
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

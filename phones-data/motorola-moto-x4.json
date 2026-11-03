@@ -1,0 +1,104 @@
+{
+  "slug": "motorola-moto-x4",
+  "brand": "Motorola",
+  "name": "Moto X4",
+  "status": "published",
+  "announced": "2017-09-01",
+  "released": "2017-09-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Motorola_Moto_X4_%28X1900-7%29-7733.jpg/500px-Motorola_Moto_X4_%28X1900-7%29-7733.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Motorola_Moto_X4_%28X1900-7%29-7733.jpg/250px-Motorola_Moto_X4_%28X1900-7%29-7733.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto X4",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_Moto_X4_(X1900-7)-7733.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 1, 2017",
+      "Series": "Motorola Moto",
+      "Predecessor": "Moto X Style, Moto X Force/Droid Turbo 2, Moto X Play",
+      "Successor": "Motorola One, Motorola Edge series"
+    },
+    "Network": {
+      "Technology": "4G LTE (Cat11 DL, Cat5 UL), CDMA / EVDO Rev A, UMTS / HSPA+, GSM / EDGE, 2G: GSM band 2/3/5/8 CDMA BC 0/1/10, 3G: WCDMA band 1/2/4/5/8, 4G: FDD LTE band 1/2/3/4/5/7/8/12/13/17/20/25/26/28/66 TDD LTE band 38/41, LATAM model:, 4G LTE (Cat13 DL, Cat5 UL), UMTS / HSPA+, GSM / EDGE, 2G: GSM band 2/3/5/8, 3G: WCDMA band 1/2/4/5/8, 4G: FDD LTE band 1/2/3/4/5/7/12/17/28/66, EMEA model:, 4G LTE (Cat13 DL, Cat5 UL), UMTS / HSPA+, GSM / EDGE, 2G: GSM band 2/3/5/8, 3G: WCDMA band 1/2/4/5/8, 4G: FDD LTE band 1/3/4/5/7/8/20/28 TDD LTE band 38/40/41(AXGP+China), APAC model:, 4G LTE (Cat11 DL, Cat5 UL), UMTS / HSPA+, GSM / EDGE, 2G: GSM band 2/3/5/8, 3G: WCDMA band 1/2/4/5/8/19, 4G: FDD LTE band 1/2/3/4/5/7"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "148.35 mm H , 73.4 mm W , 7.99 mm D",
+      "Weight": "163 g",
+      "Other": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "Operating system": "Android 7.1 Nougat, upgradable to Android Pie",
+      "Chipset": "Qualcomm Snapdragon 630",
+      "CPU": "2.2 GHz octa-core (Snapdragon 630)",
+      "GPU": "650 MHz Adreno 508 (Snapdragon 630)"
+    },
+    "Memory": {
+      "RAM": "3 GB (LPDDR3) , 4 GB (LPDDR4) , 6 GB (LPDDR4)",
+      "Storage": "32 GB / 64 GB",
+      "Card slot": "microSD up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.2 in (, 424 px/in), LTPS IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Dual Lens - 12MP Dual Autofocus Pixel sensor (2.0, 1.4 μm), 8 MP ultra-wide angle with 120° field of view sensor (2.2, 1.12 μm)",
+      "Front camera": "16 MP (2.0, 1 μm) and front flash"
+    },
+    "Sound": {
+      "Sound": "3.5 mm headphone jack, front-facing speaker , 3 microphones: one to the left of the fingerprint scanner, one on the bottom of the back side, and one on the top side of the phone , Bluetooth support for connection to up to 5 speakers at the same time"
+    },
+    "Battery": {
+      "Battery": "3000 mAh non-removable"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C, NFC, Bluetooth 5.0 BR/EDR + BLE, Wi-Fi 802.11a/b/g/n/ac, 2.4 GHz + 5 GHz"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 630",
+    "ram_gb": [
+      3,
+      4,
+      6
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 3000,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 163,
+    "thickness_mm": 7.99,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto X4",
+      "url": "https://en.wikipedia.org/wiki/Moto_X4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto X4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto X4",
+    "revid": 1361476382
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

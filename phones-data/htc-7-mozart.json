@@ -1,0 +1,78 @@
+{
+  "slug": "htc-7-mozart",
+  "brand": "HTC",
+  "name": "7 Mozart",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/HTC_Mozart_smartphone.jpg/500px-HTC_Mozart_smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/HTC_Mozart_smartphone.jpg/250px-HTC_Mozart_smartphone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC 7 Mozart",
+      "credit": "Beau Giles, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Mozart_smartphone.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "HTC Touch Diamond2"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA, Wi-Fi"
+    },
+    "Body": {
+      "Dimensions": "119 x 60.2 x 11.9 mm",
+      "Weight": "130 g (4.59 oz)",
+      "Other": "Dolby Mobile Sound"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7",
+      "CPU": "Qualcomm QSD8250 1 GHz Scorpion (Snapdragon)"
+    },
+    "Memory": {
+      "RAM": "8 GB internal flash / , 16 GB with T-Mobile Germany branding, 512 MB ROM, 576 MB RAM"
+    },
+    "Display": {
+      "Display": "3.7 in. LCD capacitive touchscreen, 480x800 px 16m-color WVGA, backlit TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel autofocus CMOS sensor with Xenon flash, video up to 720p resolution"
+    },
+    "Battery": {
+      "Battery": "Rechargeable 1300mAh Li-ion battery (Extended Battery Available)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, 802.11b/g/n, G-Sensor, Digital Compass, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "LCD",
+    "ram_gb": [
+      8,
+      16
+    ],
+    "battery_mah": 1300,
+    "os": "Windows Phone 7",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 130
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC 7 Mozart",
+      "url": "https://en.wikipedia.org/wiki/HTC_7_Mozart"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC 7 Mozart\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC 7 Mozart",
+    "revid": 1361473120
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

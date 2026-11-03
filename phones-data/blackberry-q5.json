@@ -1,0 +1,80 @@
+{
+  "slug": "blackberry-q5",
+  "brand": "BlackBerry",
+  "name": "Q5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/BlackBerry_Q5_Handheld.jpg/500px-BlackBerry_Q5_Handheld.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/BlackBerry_Q5_Handheld.jpg/250px-BlackBerry_Q5_Handheld.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BlackBerry Q5",
+      "credit": "Usernamekiran, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BlackBerry_Q5_Handheld.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "BlackBerry Curve series",
+      "Successor": "BlackBerry Z3 , BlackBerry Key2 LE"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS (including HSPA+), LTE"
+    },
+    "Body": {
+      "Form factor": "Candy bar smartphone",
+      "Dimensions": "120 mm H, 66 mm W, 10.8 mm D",
+      "Weight": "120 g",
+      "Other": "Accelerometer, Ambient light sensor, Gyroscope, Magnetometer, Proximity sensor"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry 10",
+      "CPU": "1.5 GHz dual-core Snapdragon S4 Plus (MSM8960)",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "8 GB internal storage",
+      "Card slot": "exFAT file system limit"
+    },
+    "Display": {
+      "Display": "720x720 px (0.52 megapixels) 3.1-inch (built on 77μm pixel)"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels, 1080p video capture",
+      "Front camera": "2 megapixels, 720p video capture"
+    },
+    "Battery": {
+      "Battery": "2180 mAh Li-Ion non-removable battery"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2180,
+    "five_g": false,
+    "weight_g": 120,
+    "thickness_mm": 10.8
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Q5",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Q5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Q5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Q5",
+    "revid": 1379775789
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "meizu-16xs",
+  "brand": "Meizu",
+  "name": "16Xs",
+  "status": "published",
+  "announced": "2019-05-30",
+  "released": "2019-05-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-05-30",
+      "Predecessor": "Meizu 16X",
+      "Successor": "Meizu 18X"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151 mm H , 73.5 mm W , 7.5 mm D",
+      "Weight": "165 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 Pie + Flyme 7.3, Current: Android 10 + Flyme 8.1",
+      "Chipset": "Qualcomm Snapdragon 675 (11 nm)",
+      "CPU": "Octa-core (2x2.0 GHz Kryo 460 Gold & 6x1.7 GHz Kryo 460 Silver)",
+      "GPU": "Adreno 612"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X",
+      "Storage": "64/128 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "Super AMOLED, 6.2\", 2232 × 1080, 18.6:9 aspect ratio, 403 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP Samsung S5KGM1, f/1.7 (wide), 1/2.0\", 1.55 μm, PDAF + 8 MP, f/2.2, 15 mm, 118.8° (ultrawide) + 5 MP, f/1.9 (depth), LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30fps; gyro-EIS",
+      "Front camera": "16 MP, f/2.2, 26 mm (wide), 1/3.06\", 1.0 µm, PDAF, HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4000 mAh",
+      "Charging": "Fast charging mCharge 4 (24 W)"
+    }
+  },
+  "key": {
+    "display_in": 6.2,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 675",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "wired_w": 24,
+    "os": "Android 9",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 165,
+    "thickness_mm": 7.5,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu 16Xs",
+      "url": "https://en.wikipedia.org/wiki/Meizu_16Xs"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu 16Xs\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu 16Xs",
+    "revid": 1367349680
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

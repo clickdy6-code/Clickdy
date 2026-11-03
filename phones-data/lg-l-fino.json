@@ -1,0 +1,71 @@
+{
+  "slug": "lg-l-fino",
+  "brand": "LG",
+  "name": "L Fino",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/LG_L_Fino.jpg/500px-LG_L_Fino.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/LG_L_Fino.jpg/250px-LG_L_Fino.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG L Fino",
+      "credit": "https://www.flickr.com/people/lge/, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_L_Fino.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Platform": {
+      "Operating system": "Android 4.4.2 KitKat",
+      "Chipset": "Qualcomm Snapdragon 200",
+      "CPU": "1.2 GHz quad-core ARM Cortex-A7",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR2 RAM",
+      "Storage": "4 GB"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP (LED flash, autofocus, 800x480 video recording)",
+      "Front camera": "VGA (640x480 video recording)"
+    },
+    "Battery": {
+      "Battery": "1900 mAh Li-Ion removable battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n , Bluetooth 4.1 , GPS , GLONASS , BeiDou , 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm Snapdragon 200",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1900,
+    "os": "Android 4.4",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG L Fino",
+      "url": "https://en.wikipedia.org/wiki/LG_L_Fino"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG L Fino\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG L Fino",
+    "revid": 1362638154
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

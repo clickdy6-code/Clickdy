@@ -1,0 +1,90 @@
+{
+  "slug": "samsung-nexus-s",
+  "brand": "Samsung",
+  "name": "Nexus S",
+  "status": "published",
+  "announced": "2010-12-16",
+  "released": "2010-12-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nexus_S.png/500px-Nexus_S.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Nexus_S.png/250px-Nexus_S.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Samsung Nexus S",
+      "credit": "Nexus_S.jpg: Luckyz\nderivative work: Beao, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nexus_S.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States 2010-12-16 T-Mobile USA",
+      "Discontinued": "May 24, 2012 (Sprint)",
+      "Series": "Google Nexus",
+      "Predecessor": "Nexus One",
+      "Successor": "Galaxy Nexus"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE Quad-band (850, 900, 1800, and 1900 MHz) , AWS WCDMA/HSPA Tri-band (900, 1700, and 2100 MHz) OR UMTS WCDMA/HSPA Tri-band (850, 1900, and 2100 MHz) , HSDPA 7.2 Mbit/s , HSUPA 5.76 Mbit/s, CDMA2000 EV-DO Rev.A + Mobile WiMAX (Sprint Network)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "123.9 mm H, 63.0 mm W, 10.8 mm D",
+      "Weight": "129.0 g (AMOLED-Version) , 140.0 g (Super-Clear-LCD-Version)",
+      "Other": "Wi-Fi hotspot , USB tethering , Oleophobic display coating , SIP VoIP"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.3 \"Gingerbread\", Last: Android 4.1.2 \"Jelly Bean\"",
+      "Chipset": "Samsung Exynos 3 Single",
+      "CPU": "1 GHz single-core ARM Cortex-A8",
+      "GPU": "200 MHz PowerVR SGX 540 GPU"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM (split 128MB GPU / 384MB OS)",
+      "Storage": "16 GB iNAND (partitioned 1 GB internal storage, 15 GB USB storage)"
+    },
+    "Display": {
+      "Display": "800×480 px (0.37 megapixels), 4.0 in diagonal, (2.06×3.43 in), 233 ppi, WVGA Super AMOLED PenTile or Super Clear LCD (GT-i9023)"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel (2,560×1,920) auto focus , LED flash",
+      "Front camera": "VGA (640×480)"
+    },
+    "Battery": {
+      "Battery": "1,500 mAh , internal user-replaceable rechargeable Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS , A-GPS , Bluetooth 2.1 + EDR , Micro USB 2.0 , NFC , Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Samsung Exynos 3 Single",
+    "storage_gb": [
+      15,
+      16
+    ],
+    "battery_mah": 1500,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 129,
+    "thickness_mm": 10.8,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nexus S",
+      "url": "https://en.wikipedia.org/wiki/Nexus_S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nexus S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Nexus S",
+    "revid": 1381567768
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

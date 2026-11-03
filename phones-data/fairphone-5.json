@@ -1,0 +1,101 @@
+{
+  "slug": "fairphone-5",
+  "brand": "Fairphone",
+  "name": "5",
+  "status": "published",
+  "announced": "2023-08-30",
+  "released": "2023-08-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Fairphone_5_front.jpg/500px-Fairphone_5_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Fairphone_5_front.jpg/250px-Fairphone_5_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Fairphone 5",
+      "credit": "S03311251, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fairphone_5_front.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-08-30",
+      "Discontinued": "2026-01",
+      "Predecessor": "Fairphone 4",
+      "Successor": "Fairphone 6"
+    },
+    "Network": {
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.6 x 75.83 x 9.6 mm",
+      "Weight": "212 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13, Upgradable: Android 14 Android 15",
+      "Chipset": "Qualcomm QCM6490",
+      "CPU": "Kryo 670",
+      "GPU": "Adreno 643"
+    },
+    "Memory": {
+      "RAM": "6 GB, 8 GB",
+      "Storage": "128 GB, 256 GB",
+      "Card slot": "Micro SD up to 2 TB"
+    },
+    "Display": {
+      "Display": "90 Hz 6.46″ OLED FHD+ display with 1224 × 2700 pixels, 20:9 ratio (≈459 PPI density)"
+    },
+    "Cameras": {
+      "Rear camera": "2 modules. 50 MP, f/1.88, (wide), 1/1.56\", 1.0μm, PDAF, OIS, 48 MP, f/2.2, (ultrawide), 1/2.51\", 0.7μm, PDAF, TOF 3D, (depth)",
+      "Front camera": "50 MP, f/2.45, (wide), 1/2.6\", 0.64μm"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 4200 mAh",
+      "Charging": "30 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6E, Bluetooth 5.2, Near-field communication, NFC, Dual band Satellite navigation, GNSS (GPS/GLONASS/BeiDou Navigation Satellite System, BeiDou/Galileo (satellite navigation), Galileo), USB-C 3.0 (DisplayPort, USB-OTG)"
+    }
+  },
+  "key": {
+    "display_type": "OLED",
+    "refresh_hz": 90,
+    "chipset": "Qualcomm QCM6490",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 50,
+    "battery_mah": 4200,
+    "wired_w": 30,
+    "os": "Android 13",
+    "nfc": true,
+    "wifi": "Wi-Fi 6E",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 212,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Fairphone 5",
+      "url": "https://en.wikipedia.org/wiki/Fairphone_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Fairphone 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Fairphone 5",
+    "revid": 1370062197
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

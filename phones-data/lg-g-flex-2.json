@@ -1,0 +1,84 @@
+{
+  "slug": "lg-g-flex-2",
+  "brand": "LG",
+  "name": "G Flex 2",
+  "status": "published",
+  "announced": "2015-01-06",
+  "released": "2015-01-06",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/LG_G_Flex_2.jpg/500px-LG_G_Flex_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/LG_G_Flex_2.jpg/250px-LG_G_Flex_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "LG G Flex 2",
+      "credit": "https://www.flickr.com/people/lge/, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG_G_Flex_2.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-01-06",
+      "Series": "G series",
+      "Predecessor": "LG G Flex"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "149.1 mm H , 75.3 mm W, 7.1 mm D",
+      "Weight": "152 g",
+      "Other": "Accelerometer, gyroscope, Hall-effect sensor, magnetometer, proximity sensor, RGB light sensor"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.0.1 \"Lollipop\", Current: Android 6.0.1 \"Marshmallow\"",
+      "Chipset": "Qualcomm Snapdragon 810",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "RAM": "2 GB or 3 GB LPDDR4",
+      "Storage": "16 GB or 32 GB flash memory",
+      "Card slot": "microSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5 in Curved P-OLED 403 ppi (1920x1080)"
+    },
+    "Cameras": {
+      "Rear camera": "13-megapixel, camera with hybrid autofocus, BSI, OIS+, 1080p and 4K video recording",
+      "Front camera": "2.1-megapixel"
+    },
+    "Battery": {
+      "Battery": "3,000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 810",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "battery_mah": 3000,
+    "os": "Android 5.0",
+    "weight_g": 152,
+    "thickness_mm": 7.1,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG G Flex 2",
+      "url": "https://en.wikipedia.org/wiki/LG_G_Flex_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG G Flex 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG G Flex 2",
+    "revid": 1377896711
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

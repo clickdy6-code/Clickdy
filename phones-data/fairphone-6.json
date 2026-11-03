@@ -1,0 +1,88 @@
+{
+  "slug": "fairphone-6",
+  "brand": "Fairphone",
+  "name": "6",
+  "status": "published",
+  "announced": "2025-06-25",
+  "released": "2025-06-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/FP6-GREEN-COMMERCIAL-WALLPAPER-HERO.png/500px-FP6-GREEN-COMMERCIAL-WALLPAPER-HERO.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/FP6-GREEN-COMMERCIAL-WALLPAPER-HERO.png/250px-FP6-GREEN-COMMERCIAL-WALLPAPER-HERO.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Fairphone 6",
+      "credit": "Fairphone, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:FP6-GREEN-COMMERCIAL-WALLPAPER-HERO.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Fairphone 6: 2025-06-25 , Fairphone 6+: 2026-08-18",
+      "Predecessor": "Fairphone 5"
+    },
+    "Network": {
+      "SIM": "Nano SIM and eSIM"
+    },
+    "Body": {
+      "Dimensions": "156.5 x 73.3 x 9.6 mm",
+      "Weight": "193 g"
+    },
+    "Platform": {
+      "Operating system": "Fairphone 6: Android 15 , Fairphone 6+: Android 16",
+      "Chipset": "Fairphone 6: Qualcomm Snapdragon 7s Gen 3 , Fairphone 6+: Qualcomm Snapdragon 7s Gen 4",
+      "GPU": "Adreno 810"
+    },
+    "Memory": {
+      "RAM": "Fairphone 6: 8 GB , Fairphone 6+: 12 GB",
+      "Storage": "256 GB",
+      "Card slot": "Micro SD up to 2 TB"
+    },
+    "Display": {
+      "Display": "120 Hz 6.31\" OLED FHD+ display with 1116 x 2484 pixels, 20:9 ratio (~431 ppi density)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 4415 mAh",
+      "Charging": "30 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6E, Bluetooth 5.4, Near-field communication, NFC, USB-C 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.31,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Fairphone 6: Qualcomm Snapdragon 7s Gen 3",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 4415,
+    "wired_w": 30,
+    "os": "Android 15",
+    "nfc": true,
+    "wifi": "Wi-Fi 6E",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 193,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Fairphone 6",
+      "url": "https://en.wikipedia.org/wiki/Fairphone_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Fairphone 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Fairphone 6",
+    "revid": 1375510553
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

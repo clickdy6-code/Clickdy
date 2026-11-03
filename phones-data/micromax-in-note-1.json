@@ -1,0 +1,80 @@
+{
+  "slug": "micromax-in-note-1",
+  "brand": "Micromax",
+  "name": "IN Note 1",
+  "status": "published",
+  "announced": "2020-11-03",
+  "released": "2020-11-03",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Announced :3 November 2020; Released: 24 November 2020",
+      "Series": "IN Series",
+      "Successor": "Micromax IN Note 2"
+    },
+    "Network": {
+      "Technology": "2G Network :- GSM B2/3/5/8, 3G Network:- WCDMA B1/5/8, 4G Network:- LTE B1/3/5/8/40/41(120 MHz), Carrier Aggregation:- DL Intra-Band CA NCCA:B1/3/5/40, CCA:B3/5/40."
+    },
+    "Body": {
+      "Form factor": "slate",
+      "Dimensions": "165.25 H, 76.95 W, 8.99 T"
+    },
+    "Platform": {
+      "Operating system": "Stock Android 10",
+      "Chipset": "Mediatek Helio G85",
+      "CPU": "Octa-core, 2x ARM Cortex A75 @ 2.0GHz, 6x ARM Cortex A55 @ 1.8GHz",
+      "GPU": "ARM Mali G52 MC2 @ 1Ghz"
+    },
+    "Memory": {
+      "RAM": "4GB LPDDR4X",
+      "Storage": "64 GB or 128 GB"
+    },
+    "Display": {
+      "Display": "6.67 FHD+ IPS LCD (1080x2400)"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP(f/1.79), 5MP(f/2.2), 2MP(f/2.4), 2MP(f/2.4)",
+      "Front camera": "16 MP(f/2.0)"
+    },
+    "Battery": {
+      "Battery": "5000 mAh non-removable",
+      "Charging": "18 W Fast Charger"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek Helio G85",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 10",
+    "five_g": false,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Micromax IN Note 1",
+      "url": "https://en.wikipedia.org/wiki/Micromax_IN_Note_1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Micromax IN Note 1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Micromax IN Note 1",
+    "revid": 1361476062
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

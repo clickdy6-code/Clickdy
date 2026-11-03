@@ -1,0 +1,72 @@
+{
+  "slug": "huawei-honor-5x",
+  "brand": "Huawei",
+  "name": "Honor 5X",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Huawei_Honor_5X_-_Mobile_World_Congress_2016_%2824871702443%29.jpg/500px-Huawei_Honor_5X_-_Mobile_World_Congress_2016_%2824871702443%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Huawei_Honor_5X_-_Mobile_World_Congress_2016_%2824871702443%29.jpg/250px-Huawei_Honor_5X_-_Mobile_World_Congress_2016_%2824871702443%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 5X",
+      "credit": "Kārlis Dambrāns, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Honor_5X_-_Mobile_World_Congress_2016_(24871702443).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Honor 4X",
+      "Successor": "Honor 6X"
+    },
+    "Body": {
+      "Other": "FPC1020 fingerprint scanner"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1.1 Lollipop with EMUI 3.1, updated to Android 7.0 Nougat with EMUI 5.",
+      "CPU": "Qualcomm Snapdragon 616",
+      "GPU": "Adreno 405 GPU"
+    },
+    "Memory": {
+      "RAM": "2 or 3 GB of LPDDR3 RAM",
+      "Storage": "16 GB of internal storage."
+    },
+    "Display": {
+      "Display": "5.5 inch 1080p fully laminated display with a pixel density of 401 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 Megapixel rear camera with dual-LED flash, f/2.0 aperture and Phase Detection AutoFocus",
+      "Front camera": "f/2.4 5 Megapixel front facing camera"
+    },
+    "Battery": {
+      "Battery": "3000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 3000,
+    "os": "Android 5.1"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Honor 5X",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Honor_5X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Honor 5X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Honor 5X",
+    "revid": 1361473780
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

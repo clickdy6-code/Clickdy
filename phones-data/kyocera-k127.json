@@ -1,0 +1,45 @@
+{
+  "slug": "kyocera-k127",
+  "brand": "Kyocera",
+  "name": "K127",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "PCS"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "3.39 in x 1.73 in x 0.83 in (86 mm x 44 mm x 21 mm)",
+      "Weight": "2.96 ounces"
+    },
+    "Display": {
+      "Display": "128x128 pixel LCD Color Display"
+    },
+    "Battery": {
+      "Battery": "900 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "battery_mah": 900,
+    "thickness_mm": 21
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera K127",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_K127"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera K127\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera K127",
+    "revid": 1361474806
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

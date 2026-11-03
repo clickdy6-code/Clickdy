@@ -1,0 +1,77 @@
+{
+  "slug": "huawei-honor-3c",
+  "brand": "Huawei",
+  "name": "Honor 3C",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Huawei_Honor_3C_front.JPG/500px-Huawei_Honor_3C_front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Huawei_Honor_3C_front.JPG/250px-Huawei_Honor_3C_front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 3C",
+      "credit": "Ilya Plekhanov, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Honor_3C_front.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "3C: December 2013 , 3C 4G: April 2014 , 3C Play: August 2014",
+      "Series": "Huawei Honor",
+      "Successor": "Huawei Honor 4C"
+    },
+    "Network": {
+      "Technology": "GSM: 900 / 1800 / 1900 (SIM 1 & SIM 2), HSDPA: 900 (4G & Play only) / 2100, 4G (Honor 3C 4G): 1, 3, 41",
+      "SIM": "3C & 3C Play: Dual SIM (Micro-SIM, dual stand-by) , 3C 4G: Micro-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Honor 3C & 3C 4G: 139.5 x 71.4 x 9.2 mm (5.49 x 2.81 x 0.36 in), Honor 3C Play: 142.2 x 72.3 x 9.4 mm (5.60 x 2.85 x 0.37 in)",
+      "Weight": "Honor 3C & 3C 4G: 4.94 oz , Honor 3C Play: 5.50 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 Kitkat",
+      "Chipset": "Mediatek MT6582 (3C & 3C Play) , Kirin 910 (3C 4G)",
+      "CPU": "3C & 3C Play: 1.3 GHz Cortex-A7 quad-core , 3C 4G: 1.6 GHz Cortex-A9",
+      "GPU": "3C & 3C Play: Mali-400MP2 , 3C 3G: Mali-450MP4"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "8 GB for 3C,16GB for 3C play"
+    },
+    "Battery": {
+      "Battery": "3C: 2300 mAh Li-po , 3C 4G: 2300 mAh Li-ion , 3C Play: 2000 mAh Li-ion"
+    }
+  },
+  "key": {
+    "chipset": "Mediatek MT6582",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      8,
+      16
+    ],
+    "battery_mah": 2300,
+    "os": "Android 4.4",
+    "five_g": false,
+    "dual_sim": true,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Honor 3C",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Honor_3C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Honor 3C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Honor 3C",
+    "revid": 1361473758
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

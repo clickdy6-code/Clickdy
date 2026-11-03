@@ -1,0 +1,76 @@
+{
+  "slug": "htc-droid-incredible",
+  "brand": "HTC",
+  "name": "Droid Incredible",
+  "status": "published",
+  "announced": "2010-04-29",
+  "released": "2010-04-29",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-04-29",
+      "Discontinued": "2011-03-30",
+      "Series": "Droid",
+      "Predecessor": "HTC Droid Eris",
+      "Successor": "HTC Incredible S"
+    },
+    "Network": {
+      "Technology": "CDMA2000/EV-DO Rev. A"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "117.5 mm H , 58.5 mm W , 11.9 mm D",
+      "Weight": "130 g",
+      "Other": "HTC Sense (with Friend Stream)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 (Eclair) , upgradeable to Android 2.3.4 (Gingerbread) as of September 15, 2011",
+      "CPU": "1 GHz Qualcomm Snapdragon (QSD8650)",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB DDR RAM",
+      "Storage": "1 GB ROM (748 MB free to user) plus 8 GB moviNAND",
+      "Card slot": "microSD 2.0 memory card (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3.7-inch 480 × 800 px WVGA AMOLED or super TFT LCD (S-LCD) at 252 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8.0 megapixel back-facing camera with auto focus and dual LED flashes with 720p HD video recording (no front-facing camera)"
+    },
+    "Battery": {
+      "Battery": "1300 mAh lithium-ion , Talk time: Up to 313 minutes , Standby time: Up to 146 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g); Bluetooth 2.1 with A2DP stereo and EDR; A-GPS; FM tuner, 3.5 mm TRSS connector, micro-USB, mobile MiFi Verizon Wireless hotspot"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 1300,
+    "os": "Android 2.1",
+    "nfc": false,
+    "weight_g": 130,
+    "thickness_mm": 11.9,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid Incredible",
+      "url": "https://en.wikipedia.org/wiki/Droid_Incredible"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid Incredible\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid Incredible",
+    "revid": 1368029367
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

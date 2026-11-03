@@ -1,0 +1,108 @@
+{
+  "slug": "iphone-14-pro",
+  "brand": "IPhone",
+  "name": "14 Pro",
+  "status": "published",
+  "announced": "2022-09-16",
+  "released": "2022-09-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/IPhone_14_Pro_vector.svg/500px-IPhone_14_Pro_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/IPhone_14_Pro_vector.svg/250px-IPhone_14_Pro_vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "IPhone 14 Pro",
+      "credit": "Rafael Fernandez, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IPhone_14_Pro_vector.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-09-16",
+      "Series": "iPhone Pro",
+      "Predecessor": "iPhone 13 Pro and Pro Max",
+      "Successor": "iPhone 15 Pro and Pro Max"
+    },
+    "Network": {
+      "Technology": "GSM/EDGE, UMTS/HSPA+, 4G LTE, 5G NR",
+      "SIM": "Dual eSIM (US), Dual nano-SIM (Hong Kong, Macau, mainland China), nano-SIM and eSIM (elsewhere)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pro:, H: 147.5 mm, W: 71.5 mm, D: 7.85 mm, Pro Max:, H: 160.7 mm, W: 77.6 mm, D: 7.85 mm",
+      "Weight": "Pro: 206 g, Pro Max: 240 g",
+      "Other": "FaceTime Audio or Video at 1080p over Wi-Fi and 5G, Voice over LTE"
+    },
+    "Platform": {
+      "Operating system": "Original: iOS 16",
+      "Chipset": "Apple A16 Bionic"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR5",
+      "Storage": "128 GB, 256 GB, 512 GB or 1 TB NVMe"
+    },
+    "Display": {
+      "Display": "14 Pro: 6.1 in resolution, 19.5:9 ratio (~460 ppi density), Super Retina XDR OLED, HDR10, 1,000 nits (typical), 2,000 nits (peak); supplied by Samsung Electronics, Samsung Display, 14 Pro Max: 6.7 in, resolution, 19.5:9 ratio (~460 ppi density), Super Retina XDR OLED, HDR10, 1,000 nits (typical), 2,000 nits (peak); supplied by Samsung Display and LG Display"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP, f/1.78, 24 mm (main), 1/1.28\", 1.22 μm – 2.44 μm binned, dual pixel PDAF, Second generation sensor-shift OIS, 12 MP, f/2.8, 77 mm (telephoto), 1/3.4\", 1.0 μm, PDAF, OIS, 3x optical zoom, 12 MP, f/2.2, 13 mm (ultrawide), 1/2.55\", 1.4 μm, dual pixel PDAF, TOF 3D LiDAR scanner (depth), Adaptive True Tone flash with grid of 9 LEDs, HDR (photo/panorama/video), 4K @ 24/25/30/60 fps, 1080p @ 25/30/60/120/240 fps, 10 bit HDR, Dolby Vision HDR (up to 60 fps); stereo",
+      "Front camera": "12 MP, ƒ/1.9 aperture, autofocus with Focus Pixels Six‑element lens; SL 3D (depth/biometrics sensor), 4K @ 24/30/60 fps, 1080p @ 30/60/120 fps; gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "32-bit/384 kHz audio, active noise cancellation with dedicated mic"
+    },
+    "Battery": {
+      "Battery": "14 Pro: 12.38 Wh (3,200 mAh) Lithium-ion, Li-ion @ 3.87 V, 14 Pro Max: 16.68 Wh (4,323 mAh) Li-ion @ 3.86 V",
+      "Charging": "MagSafe (wireless charger), MagSafe (up to 15 W) and Qi (standard), Qi (7.5 W) wireless charging, Wired 2729 W charging via Lightning (connector), Lightning (fast-charging capable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6, dual-band, hotspot, Bluetooth 5.3 LE, LEO satellite (Globalstar, limited), Dual-frequency Global Positioning System, GPS (GPS signals, L1, L5), GLONASS, Galileo (satellite navigation), Galileo, Quasi-Zenith Satellite System, QZSS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "Super Retina XDR OLED",
+    "peak_nits": 2000,
+    "chipset": "Apple A16 Bionic",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@24fps",
+    "front_mp": 12,
+    "battery_mah": 3200,
+    "wireless_w": 7.5,
+    "wired_w": 729,
+    "os": "iOS 16",
+    "five_g": true,
+    "nfc": false,
+    "wifi": "Wi-Fi 6",
+    "esim": true,
+    "weight_g": 206,
+    "thickness_mm": 7.85,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: IPhone 14 Pro",
+      "url": "https://en.wikipedia.org/wiki/IPhone_14_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"IPhone 14 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "IPhone 14 Pro",
+    "revid": 1382651019
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "meizu-mx2",
+  "brand": "Meizu",
+  "name": "MX2",
+  "status": "published",
+  "announced": "2012-11-27",
+  "released": "2012-11-27",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-11-27",
+      "Series": "Meizu MX Series",
+      "Predecessor": "Meizu MX",
+      "Successor": "Meizu MX3"
+    },
+    "Network": {
+      "Technology": "GSM, UMTS, HSPA"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "124.9 mm H, 64.9 mm W, 10.2 mm D",
+      "Weight": "142 g"
+    },
+    "Platform": {
+      "Operating system": "Flyme OS 2.0, based on Android 4.1.1 Jelly Bean",
+      "Chipset": "Samsung Exynos 4412 Quad",
+      "CPU": "Quad-core (4x1.6 GHz Cortex-A9)",
+      "GPU": "Mali-400 MP4"
+    },
+    "Memory": {
+      "RAM": "2 GB LPDDR2",
+      "Storage": "16 GB, 32 GB or 64 GB flash memory",
+      "Card slot": "Not supported"
+    },
+    "Display": {
+      "Display": "4.4 inch diagonal IGZO, 800x1280 px (343 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, PDAF autofocus, ƒ/2.4 aperture, LED flash, 1080p30 recording",
+      "Front camera": "1.2 MP, ƒ/2.2 aperture, 720p30 recording"
+    },
+    "Battery": {
+      "Battery": "1800 mAh Li-Ion rechargeable battery, not replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRS connector, Bluetooth 4.0, Dual-band WiFi (802.11 b/g/n)"
+    }
+  },
+  "key": {
+    "display_in": 4.4,
+    "chipset": "Samsung Exynos 4412 Quad",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32,
+      64
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 1.2,
+    "battery_mah": 1800,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 142,
+    "thickness_mm": 10.2,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Meizu MX2",
+      "url": "https://en.wikipedia.org/wiki/Meizu_MX2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Meizu MX2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Meizu MX2",
+    "revid": 1364776653
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

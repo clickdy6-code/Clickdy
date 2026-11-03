@@ -1,0 +1,89 @@
+{
+  "slug": "huawei-nova-plus",
+  "brand": "Huawei",
+  "name": "Nova Plus",
+  "status": "published",
+  "announced": "2016-07-14",
+  "released": "2016-07-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Maimang 5: 2016-07-14, G9 Plus: 2016-08-19, Nova Plus: 2016-09-01",
+      "Series": "Huawei Nova/G/Maimang",
+      "Predecessor": "Huawei G8",
+      "Successor": "Huawei Nova 2 Plus, Huawei Maimang 6"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151.8 x 75.7 x 7.3 mm",
+      "Weight": "160 g",
+      "Other": "Fingerprint scanner (rear-mounted), proximity sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0.1 Marshmallow + EMUI 4.1, Current: Android 7.0 Nougat + EMUI 5",
+      "CPU": "Qualcomm MSM8953 Snapdragon 625 (14 nm), 8x2.0 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "Nova Plus: 3 GB, G9 Plus & Maimang 5: 3/4 GB",
+      "Storage": "Nova Plus: 32 GB, G9 Plus & Maimang 5: 32/64 GB, eMMC 5.1",
+      "Card slot": "MicroSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.5\", 1920 x 1080 (FullHD), 16:9, 401 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "16 MP, f/2.0, 1/2.8\", 1.12μm, PDAF, OIS, 2-LED dual-tone flash, HDR, panorama, Video: 4K@30fps, 1080p@30fps",
+      "Front camera": "8 MP, f/2.0, 22 mm (wide-angle), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 3340 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm Audio, Bluetooth 4.1 (A2DP, LE), NFC (Nova Plus), FM radio, Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS (G9 Plus)"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 3340,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 160,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Nova Plus",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Nova_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Nova Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Nova Plus",
+    "revid": 1361473935
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

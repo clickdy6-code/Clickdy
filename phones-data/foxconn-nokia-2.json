@@ -1,0 +1,85 @@
+{
+  "slug": "foxconn-nokia-2",
+  "brand": "Foxconn",
+  "name": "Nokia 2",
+  "status": "published",
+  "announced": "2017-10-31",
+  "released": "2017-10-31",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-10-31",
+      "Predecessor": "Nokia X2 (2014)",
+      "Successor": "Nokia 2.1"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "143.5 mm H, 71.3 mm W, 9.3 mm D",
+      "Weight": "161 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 \"Nougat\", Current: Android 8.1 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 212",
+      "CPU": "Quad core 1.3GHz ARM Cortex A7",
+      "GPU": "Qualcomm Adreno 304 GPU"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR3",
+      "Storage": "8 GB eMMC 4.5",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.0 in diagonal IPS LCD, with scratch-resistant Corning Gorilla Glass, 1280x720 px, 16:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP autofocus with LED flash",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "3.5 mm jack, single speaker"
+    },
+    "Battery": {
+      "Battery": "Non-removable 4100 mAh Li-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB (USB 2.0), Wi-Fi (802.11 b/g/n), Bluetooth 4.1"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 212",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4100,
+    "os": "Android 7.1",
+    "nfc": false,
+    "weight_g": 161,
+    "thickness_mm": 9.3,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2",
+    "revid": 1361477057
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

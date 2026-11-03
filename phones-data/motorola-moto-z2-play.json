@@ -1,0 +1,81 @@
+{
+  "slug": "motorola-moto-z2-play",
+  "brand": "Motorola",
+  "name": "Moto Z2 Play",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-06",
+      "Predecessor": "Moto Z Play, Moto Z",
+      "Successor": "Moto Z3, Moto Z3 Play"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156.2 mm H , 76.2 mm W , 6 mm D",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 \"Nougat\", Current: Android 9.0 \"Pie\"",
+      "Chipset": "Qualcomm Snapdragon 626",
+      "CPU": "Octa-core ARM 2.2 GHz",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "3 GB or 4 GB",
+      "Storage": "32 GB or 64 GB",
+      "Card slot": "microSD up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.5 in Super AMOLED , (16:9 aspect ratio, 401 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP with laser-assisted autofocus, dual-LED flash, 1.7 aperture, BSI , 720p 120 fps, 1080p 60 fps, and 4K 30 fps video recording",
+      "Front camera": "5 MP, 2.2 aperture, flash"
+    },
+    "Battery": {
+      "Battery": "3000 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 626",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@120fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 7.1",
+    "weight_g": 145,
+    "thickness_mm": 6,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto Z2 Play",
+      "url": "https://en.wikipedia.org/wiki/Moto_Z2_Play"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto Z2 Play\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto Z2 Play",
+    "revid": 1361476399
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

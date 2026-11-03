@@ -1,0 +1,75 @@
+{
+  "slug": "casio-hitachi-casio-exilim-keitai-ca003",
+  "brand": "Casio Hitachi",
+  "name": "Casio Exilim Keitai CA003",
+  "status": "published",
+  "announced": "2009-11-14",
+  "released": "2009-11-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/CA003-1002.JPG/500px-CA003-1002.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/CA003-1002.JPG/250px-CA003-1002.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Casio Hitachi Casio Exilim Keitai CA003",
+      "credit": "春夏秋冬奏慈, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CA003-1002.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2009-11-14",
+      "Discontinued": "2010-08",
+      "Series": "EXILIM Keitai",
+      "Predecessor": "W63CA",
+      "Successor": "CA005"
+    },
+    "Network": {
+      "Technology": "CDMA 1X WIN (Packet WIN) (CDMA2000 1xEV-DO Rel.0/Rev.A) (800 MHz/New 800 MHz/2 GHz)"
+    },
+    "Body": {
+      "Form factor": "2-axis swivel flip",
+      "Dimensions": "110 mm H , 50 mm W , 17.4 mm D",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "KCP+",
+      "CPU": "Qualcomm MSM7500 (600 MHz)"
+    },
+    "Memory": {
+      "Storage": "500 MB",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "3.3 in (84 mm) Visual Full Wide VGA OLED, 240RGBG×854 pixels (pseudo-480×854 resolution), 260,000 colors"
+    },
+    "Cameras": {
+      "Rear camera": "12.17 MP CMOS, Autofocus, image stabilization, face detection"
+    }
+  },
+  "key": {
+    "display_in": 3.3,
+    "display_type": "OLED",
+    "main_mp": 12.17,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "weight_g": 135,
+    "thickness_mm": 17.4,
+    "year": 2009
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Casio Exilim Keitai CA003",
+      "url": "https://en.wikipedia.org/wiki/Casio_Exilim_Keitai_CA003"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Casio Exilim Keitai CA003\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Casio Exilim Keitai CA003",
+    "revid": 1378770557
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

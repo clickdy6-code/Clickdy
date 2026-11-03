@@ -1,0 +1,92 @@
+{
+  "slug": "htc-one-s",
+  "brand": "HTC",
+  "name": "One S",
+  "status": "published",
+  "announced": "2012-03-30",
+  "released": "2012-03-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/5e/HTC_One_S.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/HTC_One_S.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "HTC One S",
+      "credit": "AnVuong1222004 (2), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_One_S.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 30, 2012",
+      "Series": "HTC One",
+      "Predecessor": "HTC Amaze 4G, HTC Sensation",
+      "Successor": "HTC One Mini"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE, 850 900 1800 1900 MHz, UMTS/HSPA (Z520m variant), 850 900 1700 1900 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "130.9 mm H, 65 mm W, 7.8 mm D",
+      "Weight": "119.5 g",
+      "Other": "HTC Sense 4.1 user interface"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.3 Ice Cream Sandwich, HTC Sense 4.1 overlay, upgradeable to Android 4.1.1 Jelly Bean and HTC Sense UI 4+ (Update to Sense 5 discontinued)",
+      "Chipset": "Qualcomm Snapdragon S4 Plus MSM8960 for Z520e variant and Qualcomm Snapdragon S3 MSM8260 for Z560e variant",
+      "CPU": "1.5 GHz Dual-core Qualcomm Krait for Z520e variant or 1.7 GHz Dual-core Qualcomm Scorpion for Z560e variant",
+      "GPU": "Adreno 225 for Z520e variant or Adreno 220 for Z560e variant"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "4.3 in Super AMOLED with RGBG-matrix (PenTile), qHD (540×960) resolution, covered with Gorilla glass"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel (3,264×2,448) with autofocus, smart LED flash, BSI sensor, 1080p HD video recording",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1650 mAh internal rechargeable li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm stereo audio jack, Bluetooth 4.0 with aptX enabled, Wi-Fi: IEEE 802.11b/g/n, DLNA, micro-USB 2.0 (5-pin) port with mobile high-definition video link (MHL) for USB or HDMI connection"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon S4 Plus MSM8960 for Z520e variant",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1650,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 119.5,
+    "thickness_mm": 7.8,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC One S",
+      "url": "https://en.wikipedia.org/wiki/HTC_One_S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC One S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC One S",
+    "revid": 1374024982
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

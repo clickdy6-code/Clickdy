@@ -1,0 +1,69 @@
+{
+  "slug": "inq-cloud-touch",
+  "brand": "INQ",
+  "name": "Cloud Touch",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "INQ Cloud",
+      "Predecessor": "INQ Mini 3G, INQ Chat 3G"
+    },
+    "Network": {
+      "Technology": "Triband HSPA, Quadband GSM, EDGE"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Weight": "122g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.2 \"Froyo\"",
+      "CPU": "Qualcomm 7227 chipset, 600MHz"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4 MB (internal) 4 GB (Micro SD packaged with phone)",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "3.5\" HVGA capacitive touchscreen and 1 cm touch strip"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixel autofocus"
+    },
+    "Battery": {
+      "Battery": "1300mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WiFi (802.11b/g/n), Bluetooth, GPS, FM radio"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "storage_gb": [
+      4
+    ],
+    "battery_mah": 1300,
+    "os": "Android 2.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 122
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: INQ Cloud Touch",
+      "url": "https://en.wikipedia.org/wiki/INQ_Cloud_Touch"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"INQ Cloud Touch\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "INQ Cloud Touch",
+    "revid": 1361474270
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

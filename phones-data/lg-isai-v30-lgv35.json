@@ -1,0 +1,85 @@
+{
+  "slug": "lg-isai-v30-lgv35",
+  "brand": "LG",
+  "name": "Isai V30+ LGV35",
+  "status": "published",
+  "announced": "2017-12-22",
+  "released": "2017-12-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-12-22"
+    },
+    "Network": {
+      "Technology": "3.9G: FDD-LTE (au VoLTE) (700 MHz / N800 MHz / 2 GHz), 3G: W-CDMA (850 MHz / 2 GHz), 2G: GSM (1.9 GHz / 1.8 GHz / 900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "152 mm × 75 mm × 7.4 mm",
+      "Weight": "158 g",
+      "Other": "USB Type-C, 3.5 mm headset jack, tethering, FeliCa / NFC touchpad"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 → 9.0",
+      "CPU": "Qualcomm Snapdragon 835 (MSM8998), 2.45 GHz + 1.9 GHz (Octa-core)"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "128 GB",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 256 GB)"
+    },
+    "Display": {
+      "Display": "6.0-inch OLED, WQHD+ (1440 × 2880 pixels), approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 16.5 MP / Approx. 13.1 MP back-illuminated CMOS (Dual Camera, image stabilization for video, face recognition, Laser AF, dual flash, Cine Video)",
+      "Front camera": "Approx. 5.1 MP CMOS"
+    },
+    "Sound": {
+      "Sound": "1Seg / Fullseg"
+    },
+    "Battery": {
+      "Battery": "3,300 mAh",
+      "Charging": "Approx. 110 minutes, Approx. 120 minutes"
+    },
+    "Connectivity": {
+      "Connectivity": "3.9G/4G: FDD-LTE / LTE-Advanced (au 4G LTE / au 4G LTE CA) (700 MHz / N800 MHz / 2 GHz), WiMAX 2.1 (WiMAX 2+), 3.5G: UMTS (W-CDMA), Other: Wireless LAN (IEEE 802.11a/b/g/n/ac 5 GHz / 2.4 GHz), Bluetooth 5.0"
+    }
+  },
+  "key": {
+    "display_type": "OLED",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 16.5,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5.1,
+    "battery_mah": 3300,
+    "os": "Android 8.0",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 158,
+    "thickness_mm": 7.4,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Isai V30+ LGV35",
+      "url": "https://en.wikipedia.org/wiki/Isai_V30%2B_LGV35"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Isai V30+ LGV35\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Isai V30+ LGV35",
+    "revid": 1363625932
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

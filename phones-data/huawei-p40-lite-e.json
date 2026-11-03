@@ -1,0 +1,89 @@
+{
+  "slug": "huawei-p40-lite-e",
+  "brand": "Huawei",
+  "name": "P40 lite E",
+  "status": "published",
+  "announced": "2019-10-18",
+  "released": "2019-10-18",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Enjoy 10: 2019-10-18 , P40 lite E: February 2020",
+      "Series": "Huawei P series, Y series, Enjoy series",
+      "Predecessor": "Huawei Y7 (2019)",
+      "Successor": "Huawei Y7a (P40 lite E), Huawei Enjoy 20 (Enjoy 10)"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.81 mm × 76.13 mm × 8.13 mm",
+      "Weight": "176 g",
+      "Other": "Ambient light sensor, compass, fingerprint sensor, face unlock, gyroscope"
+    },
+    "Platform": {
+      "Operating system": "P40 lite E:, Original: Android 9 Pie with EMUI 9, Current: Android 9 Pie with EMUI 9.1, Enjoy 10:, Original: Android 9 Pie with EMUI 9.1, Current: HarmonyOS 2.0",
+      "CPU": "HiSilicon [Kirin 710F (12 nm)"
+    },
+    "Memory": {
+      "RAM": "P40 lite E: 4 GB, Enjoy 10: 4/6 GB",
+      "Storage": "P40 lite E: 64 GB, Enjoy 10: 64/128 GB",
+      "Card slot": "microSDXC up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.39 in, IPS LCD, 720p (1560 × 720), 16.7M colors"
+    },
+    "Cameras": {
+      "Rear camera": "P40 lite E: 48 MP (wide), 8 MP (ultrawide), 2 MP (depth), Enjoy 10: 48 MP (wide), 2 MP (depth)",
+      "Front camera": "8 MP, f/2.0"
+    },
+    "Battery": {
+      "Battery": "4000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g/n), Bluetooth 5.0"
+    }
+  },
+  "key": {
+    "display_in": 6.39,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 176,
+    "thickness_mm": 8.13,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P40 lite E",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P40_lite_E"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P40 lite E\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P40 lite E",
+    "revid": 1364370195
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

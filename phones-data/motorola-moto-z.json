@@ -1,0 +1,88 @@
+{
+  "slug": "motorola-moto-z",
+  "brand": "Motorola",
+  "name": "Moto Z",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Moto_Z_Hasselblad_True_Zoom_%2832664949012%29.jpg/500px-Moto_Z_Hasselblad_True_Zoom_%2832664949012%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Moto_Z_Hasselblad_True_Zoom_%2832664949012%29.jpg/250px-Moto_Z_Hasselblad_True_Zoom_%2832664949012%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Moto Z",
+      "credit": "Sinchen.Lin, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Moto_Z_Hasselblad_True_Zoom_(32664949012).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-09",
+      "Successor": "Moto Z2 Play, Moto Z2 Force Edition"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153.5 mm H , 75.3 mm W , 5.19 mm D",
+      "Weight": "136 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android (operating system), Android Android Marshmallow, 6.0.1 \"Marshmallow\", Current: Android Oreo, Android 8.0 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 820",
+      "CPU": "Quad-core ARM 64-bit 2.2 GHz",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4 RAM",
+      "Storage": "32 GB or 64 GB",
+      "Card slot": "microSD up to 2 TB"
+    },
+    "Display": {
+      "Display": "5.5 in AMOLED , 2560 × 1440 pixels (16:9 aspect ratio) (535 ppi) , 2.5D Corning Gorilla Glass 4.0"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP with laser-assisted autofocus, dual-LED flash, ƒ/1.8 aperture, optical image stabilization, BSI , 1080p 60 fps, and 4K 30 fps video recording",
+      "Front camera": "5 MP, ƒ/2.2 aperture, flash"
+    },
+    "Battery": {
+      "Battery": "2600 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 820",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "video": "1080p@60fps",
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 8.0",
+    "weight_g": 136,
+    "thickness_mm": 5.19,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Moto Z",
+      "url": "https://en.wikipedia.org/wiki/Moto_Z"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Moto Z\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Moto Z",
+    "revid": 1361476393
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

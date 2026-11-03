@@ -1,0 +1,69 @@
+{
+  "slug": "hmd-nokia-110",
+  "brand": "HMD",
+  "name": "Nokia 110",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-08",
+      "Series": "Nokia 100 series",
+      "Predecessor": "Nokia 110 (2019)",
+      "Successor": "Nokia 110 (2023)"
+    },
+    "Network": {
+      "Technology": "GSM 900 / 1800"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "115.2 x",
+      "Weight": "71.7 g",
+      "Other": "FM radio (built-in antenna), MP3 player, Flashlight"
+    },
+    "Memory": {
+      "RAM": "4 MB",
+      "Storage": "4 MB",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "1.77 inches, TFT LCD, 65K colors , Resolution: 120 x 160 pixels, 4:3 ratio (~113 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "QVGA"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1000 mAh, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro-USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 71.7,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 110 (2022)",
+      "url": "https://en.wikipedia.org/wiki/Nokia_110_%282022%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 110 (2022)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 110 (2022)",
+    "revid": 1368392044
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

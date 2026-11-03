@@ -1,0 +1,83 @@
+{
+  "slug": "htc-one-x9",
+  "brand": "HTC",
+  "name": "One X9",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/HTC_One_A9_-_Mobile_World_Congress_2016_%2824871638573%29.jpg/500px-HTC_One_A9_-_Mobile_World_Congress_2016_%2824871638573%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/HTC_One_A9_-_Mobile_World_Congress_2016_%2824871638573%29.jpg/250px-HTC_One_A9_-_Mobile_World_Congress_2016_%2824871638573%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC One X9",
+      "credit": "Kārlis Dambrāns, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_One_A9_-_Mobile_World_Congress_2016_(24871638573).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC One",
+      "Successor": "HTC One X10"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "153.9 x 75.9 x 8 mm (6.06 x 2.99 x 0.31 in)",
+      "Weight": "170 g (6.00 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 \"Marshmallow\"",
+      "Chipset": "Mediatek MT6795 Helio X10",
+      "CPU": "Octa-Core Cortex-A53",
+      "GPU": "PowerVR G6200"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "32 GB",
+      "Card slot": "micro SD, up to 200 GB"
+    },
+    "Display": {
+      "Display": "5.5 inch, FHD, Super LCD, 1080 x 1920 16M colors, 401 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.0, 28mm, autofocus, OIS, dual-LED (dual tone) flash",
+      "Front camera": "5 MP, f/2.8, 34mm, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "3,000 Li-Ion mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "LCD",
+    "chipset": "Mediatek MT6795 Helio X10",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 5,
+    "os": "Android 6.0",
+    "weight_g": 170
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC One X9",
+      "url": "https://en.wikipedia.org/wiki/HTC_One_X9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC One X9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC One X9",
+    "revid": 1361473403
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

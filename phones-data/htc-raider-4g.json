@@ -1,0 +1,76 @@
+{
+  "slug": "htc-raider-4g",
+  "brand": "HTC",
+  "name": "Raider 4G",
+  "status": "published",
+  "announced": "2011-09-21",
+  "released": "2011-09-21",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-09-21, South Korea",
+      "Predecessor": "HTC Sensation",
+      "Successor": "HTC One X"
+    },
+    "Network": {
+      "Technology": "LTE(AWS/700, 850MHz or 700/1700/2100MHz), HSPA+/UMTS Tri-band (850/1900/2100MHz), GSM/GPRS/EDGE (850/900/1800/1900MHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "6.24 ounces",
+      "Other": "USB and Wi-Fi tethering"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 with HTC Sense 3.0, 2.3.7 with HTC Sense 3.5 (Australia), upgradable to 4.0.3 with HTC Sense 3.6, upgradable to 4.4.4 with CyanogenMod",
+      "CPU": "Dual-Core, 1.5 GHz (Korea/Australia) 1.2 GHz (USA/Canada) Qualcomm APQ8060 Snapdragon S3",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSD 2.0 (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "4.5 in capacitive touch screen with qHD (540×960)"
+    },
+    "Cameras": {
+      "Rear camera": "8-megapixel (3264×2448) with autofocus and dual LED flash, f/2.2, 28mm lens, 1080p HD video capture",
+      "Front camera": "1.3-megapixel"
+    },
+    "Battery": {
+      "Battery": "1650 mAh Internal Rechargeable Li-ion , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS connector, Bluetooth 3.0 with A2DP, FM stereo receiver (87.5-108 MHz) with RDS, Micro USB 2.0 (5-pin) port with Mobile High-Definition Link (MHL) for USB or HDMI connection, Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 1650,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Raider 4G",
+      "url": "https://en.wikipedia.org/wiki/HTC_Raider_4G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Raider 4G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Raider 4G",
+    "revid": 1379196177
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

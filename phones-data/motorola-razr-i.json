@@ -1,0 +1,88 @@
+{
+  "slug": "motorola-razr-i",
+  "brand": "Motorola",
+  "name": "RAZR i",
+  "status": "published",
+  "announced": "2012-09-18",
+  "released": "2012-09-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e7/RAZR_i.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/RAZR_i.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Motorola RAZR i",
+      "credit": "Felipe dx10, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RAZR_i.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "18 September 2012",
+      "Series": "Motorola Razr"
+    },
+    "Network": {
+      "Technology": "2G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz B1, B8 Rx Diversity, 3G UMTS/HSPA+/W-CDMA – 850, 900, 1700, 1900, 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "4.82 x",
+      "Weight": "4.44 oz",
+      "Other": "Corning Gorilla Glass 2, DuPont Kevlar fibre"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 KitKat",
+      "Chipset": "Intel Atom Z2480 Medfield",
+      "CPU": "2 GHz single-core Saltwell with HT",
+      "GPU": "PowerVR SGX 540 @ 400 MHz"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB flash memory",
+      "Card slot": "microSD supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.3″(10.9cm) edge-to-edge qHD Super AMOLED Advanced touchscreen, 540×960 pixels (256 dpi), 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels HD video",
+      "Front camera": "VGA (0.3 MP)"
+    },
+    "Battery": {
+      "Battery": "2000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "NFC, Bluetooth, Wi-Fi"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "chipset": "Intel Atom Z2480 Medfield",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "front_mp": 0.3,
+    "battery_mah": 2000,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": true,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola RAZR i",
+      "url": "https://en.wikipedia.org/wiki/Motorola_RAZR_i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola RAZR i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola RAZR i",
+    "revid": 1361476629
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

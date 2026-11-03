@@ -1,0 +1,88 @@
+{
+  "slug": "motorola-droid-3",
+  "brand": "Motorola",
+  "name": "Droid 3",
+  "status": "published",
+  "announced": "2011-07-14",
+  "released": "2011-07-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/DROID_3.jpg/500px-DROID_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/DROID_3.jpg/250px-DROID_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Droid 3",
+      "credit": "Samsam1441, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DROID_3.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-07-14",
+      "Series": "Droid",
+      "Predecessor": "Droid 2",
+      "Successor": "Droid 4"
+    },
+    "Network": {
+      "Technology": "Droid 3: CDMA2000 800/1900, EV-DO Rev. A, GSM 850/900/1800/1900 UMTS, WCDMA 850/1900/2100, Milestone 3: quad-band GSM, UMTS 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate slider smartphone",
+      "Dimensions": "124 mm H, 64 mm W, 13 mm D",
+      "Weight": "169 g",
+      "Other": "Virtual QWERTY keyboard (Swype)"
+    },
+    "Platform": {
+      "Operating system": "Official: Android 2.3.4 \"Gingerbread\", upgradeable to Android 2.3.6 \"Gingerbread\", Unofficial: Android 7.1.2 \"Nougat\" via crDroid",
+      "CPU": "1 GHz dual-core ARM Cortex-A9 SoC processor; TI OMAP4430",
+      "GPU": "PowerVR SGX540 @ 304 MHz"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM DDR2",
+      "Storage": "16 GB onboard phone, SD card up to 32 GB",
+      "Card slot": "MicroSD, microSDHC, maximum 32 GB"
+    },
+    "Display": {
+      "Display": "960 × 540 px TFT LCD, 4 in, 16:9 aspect ratio, qHD"
+    },
+    "Cameras": {
+      "Rear camera": "8.0-megapixel, autofocus, LED flash, digital zoom, geotagging, 1080p video recording",
+      "Front camera": "VGA (0.3-megapixel) fixed-focus color camera"
+    },
+    "Battery": {
+      "Battery": "1540 mAh internal rechargeable removable lithium-ion polymer battery"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS, Bluetooth v2.1 + EDR, Wi-Fi (802.11 b/g/n), Micro USB 2.0, Micro HDMI, DLNA, WLAN, web browser, synchronization"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "storage_gb": [
+      16,
+      32
+    ],
+    "battery_mah": 1540,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 169,
+    "thickness_mm": 13,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Droid 3",
+      "url": "https://en.wikipedia.org/wiki/Droid_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Droid 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Droid 3",
+    "revid": 1374882989
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "motorola-motoactv",
+  "brand": "Motorola",
+  "name": "Motoactv",
+  "status": "published",
+  "announced": "2011-11-06",
+  "released": "2011-11-06",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Image_of_Motoactv_SmartWatch-_2013-04-04_15-33.jpg/500px-Image_of_Motoactv_SmartWatch-_2013-04-04_15-33.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Image_of_Motoactv_SmartWatch-_2013-04-04_15-33.jpg/250px-Image_of_Motoactv_SmartWatch-_2013-04-04_15-33.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola Motoactv",
+      "credit": "User:Jojoball89, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Image_of_Motoactv_SmartWatch-_2013-04-04_15-33.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-11-06",
+      "Discontinued": "2013"
+    },
+    "Body": {
+      "Other": "ANT+ for connectivity to fitness sensors (heart rate, etc.)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4",
+      "CPU": "600 MHz OMAP3 (3630) ARMv7 CPU supporting ARM extensions thumb, vfp, vfpv3, edsp & neon.",
+      "GPU": "PowerVR GPU"
+    },
+    "Memory": {
+      "RAM": "256MB of RAM",
+      "Storage": "8GB or 16GB of NAND Flash Memory"
+    },
+    "Display": {
+      "Display": "1.6 in 220x176 capacitive multitouch LCD"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "storage_gb": [
+      8,
+      16
+    ],
+    "os": "Android 2.3",
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motoactv",
+      "url": "https://en.wikipedia.org/wiki/Motoactv"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motoactv\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motoactv",
+    "revid": 1365437999
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

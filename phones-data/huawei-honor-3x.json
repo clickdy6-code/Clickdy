@@ -1,0 +1,99 @@
+{
+  "slug": "huawei-honor-3x",
+  "brand": "Huawei",
+  "name": "Honor 3X",
+  "status": "published",
+  "announced": "2013-12-16",
+  "released": "2013-12-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E6%90%8D%E5%A3%9E%E7%9A%84%E6%89%8B%E6%A9%9F%E9%8B%B0%E9%9B%BB%E6%B1%A0.jpg/500px-%E6%90%8D%E5%A3%9E%E7%9A%84%E6%89%8B%E6%A9%9F%E9%8B%B0%E9%9B%BB%E6%B1%A0.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/%E6%90%8D%E5%A3%9E%E7%9A%84%E6%89%8B%E6%A9%9F%E9%8B%B0%E9%9B%BB%E6%B1%A0.jpg/250px-%E6%90%8D%E5%A3%9E%E7%9A%84%E6%89%8B%E6%A9%9F%E9%8B%B0%E9%9B%BB%E6%B1%A0.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Honor 3X",
+      "credit": "Cjackh at Chinese Wikipedia, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E6%90%8D%E5%A3%9E%E7%9A%84%E6%89%8B%E6%A9%9F%E9%8B%B0%E9%9B%BB%E6%B1%A0.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Honor 3X: 2013-12-16 , Honor 3X Pro: 2014-05 , Ascend G750: 2014-03",
+      "Series": "Honor X/Ascend G",
+      "Successor": "Honor 4X"
+    },
+    "Network": {
+      "Technology": "(GSM/HSPA) , 2G: GSM GSM850, GSM900, DCS1800, PCS1900 , 3G UMTS: B1(2100), B8(900)",
+      "SIM": "Dual SIM (Mini-SIM + Micro-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "149.5 mm H, 77.4 mm W, 8.9 mm D",
+      "Weight": "162 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2.2 \"Jelly Bean\" with Emotion UI 2.0, Current: Android 4.4.2 \"KitKat\" with EMUI 3.0",
+      "Chipset": "MediaTek MT6592 (28 nm)",
+      "CPU": "Octa-core 1.7 GHz Cortex-A7",
+      "GPU": "Mali-G450 MP4"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "Honor 3X: 8/16 GB , Honor 3X Pro: 32 GB , Ascend G750: 8 GB",
+      "Card slot": "microSDHC up to 32 GB"
+    },
+    "Display": {
+      "Display": "All models: IPS LCD 5.5 in, 16:9, Honor 3X/Ascend G750: 720 × 1280 pixels (267 ppi) , Honor 3X Pro: 1080 × 1920 pixels (401 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, AF , LED flash , Video: 1080p@30fps",
+      "Front camera": "5 MP"
+    },
+    "Sound": {
+      "Sound": "Front earpiece, rear mono speaker"
+    },
+    "Battery": {
+      "Battery": "Removable, Li-Po 3000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6592",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      8,
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3000,
+    "os": "Android 4.2",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 162,
+    "thickness_mm": 8.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Honor 3X",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Honor_3X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Honor 3X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Honor 3X",
+    "revid": 1361473763
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

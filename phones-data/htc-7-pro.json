@@ -1,0 +1,77 @@
+{
+  "slug": "htc-7-pro",
+  "brand": "HTC",
+  "name": "7 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/HTC_7_Pro.jpg/500px-HTC_7_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/HTC_7_Pro.jpg/250px-HTC_7_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC 7 Pro",
+      "credit": "J_ami, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_7_Pro.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "HTC 7 Series (Windows Phone)",
+      "Predecessor": "HTC Touch Pro2"
+    },
+    "Network": {
+      "Technology": "GSM, HSDPA, WiFi, CDMA"
+    },
+    "Body": {
+      "Dimensions": "117.5 x 59 x 15.5 mm, (4.63 x 2.32 x 0.61 in)",
+      "Weight": "185 grams / 6.53 ounces , (with battery)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone , 7.0.7389.0 (USA)",
+      "CPU": "Qualcomm QSD8250 1 GHz Scorpion (Snapdragon), Qualcomm QSD8650 1 GHz Scorpion (Snapdragon) on CDMA carriers"
+    },
+    "Memory": {
+      "RAM": "Internal flash: 8 GB(GSM)/16 GB(CDMA), 512 MB ROM, 576 MB RAM"
+    },
+    "Display": {
+      "Display": "3.6 in. Super-LCD capacitive touchscreen, 480x800 px (259 ppi) 16m-color WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel autofocus CMOS sensor, video up to 720p resolution"
+    },
+    "Battery": {
+      "Battery": "Rechargeable 1500mAh Li-ion battery (up to 360 hrs standby) Optional Extended battery available 3600mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, 802.11b/g/n, G-Sensor, Digital Compass, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.6,
+    "display_type": "LCD",
+    "ram_gb": [
+      8,
+      16
+    ],
+    "battery_mah": 1500,
+    "os": "Windows Phone",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC 7 Pro",
+      "url": "https://en.wikipedia.org/wiki/HTC_7_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC 7 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC 7 Pro",
+    "revid": 1361473125
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "nokia-2600-classic",
+  "brand": "Nokia",
+  "name": "2600 classic",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nokia_2600_Classic_1.jpg/500px-Nokia_2600_Classic_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nokia_2600_Classic_1.jpg/250px-Nokia_2600_Classic_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Nokia 2600 classic",
+      "credit": "Asim18, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia_2600_Classic_1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "February 2008",
+      "Predecessor": "Nokia 2610",
+      "Successor": "Nokia 2690, Nokia C1-01, Nokia C2-00"
+    },
+    "Body": {
+      "Form factor": "standard",
+      "Dimensions": "109.6 mm x 46.7 mm x 12 mm",
+      "Weight": "73.2 g (with battery)"
+    },
+    "Memory": {
+      "RAM": "10 MB"
+    },
+    "Display": {
+      "Display": "65K color, 128 x 160, TFT"
+    },
+    "Cameras": {
+      "Rear camera": "VGA 0.3-megapixel camera"
+    },
+    "Battery": {
+      "Battery": "BL-5BT, 870 mAh, Talk time: Up to 6 hrs, Stand-by: Up to 24 days"
+    },
+    "Connectivity": {
+      "Connectivity": "Photo and data sharing with Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 870,
+    "nfc": false,
+    "weight_g": 73.2,
+    "thickness_mm": 12,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 2600 classic",
+      "url": "https://en.wikipedia.org/wiki/Nokia_2600_classic"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 2600 classic\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 2600 classic",
+    "revid": 1366020839
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

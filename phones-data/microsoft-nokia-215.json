@@ -1,0 +1,77 @@
+{
+  "slug": "microsoft-nokia-215",
+  "brand": "Microsoft",
+  "name": "Nokia 215",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nokia215front_3530.jpg/500px-Nokia215front_3530.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nokia215front_3530.jpg/250px-Nokia215front_3530.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft Nokia 215",
+      "credit": "Túrelio, CC BY-SA 3.0 de via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nokia215front_3530.jpg",
+      "license": "CC BY-SA 3.0 de"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Nokia 3-digit series",
+      "Predecessor": "Nokia 130",
+      "Successor": "Nokia 216, Nokia 215 4G"
+    },
+    "Network": {
+      "Technology": "GSM (900/1800 MHz) and, GPRS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "H: 116 mm, W: 50 mm, D: 12.9 mm",
+      "Weight": "78.4 g",
+      "Other": "Flashlight LED (on top), Opera Mini (Wap 2.0, XHTML)"
+    },
+    "Platform": {
+      "Operating system": "Nokia Series 30+"
+    },
+    "Memory": {
+      "RAM": "8 MB RAM",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "2.4 in 240 x 320 (~166 ppi pixel density) QVGA TFT with 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "VGA camera, fixed focus, 2x digital zoom, Video: 240p@15fps"
+    },
+    "Battery": {
+      "Battery": "1100 mAh Li-ion, removable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm headphone jack, Bluetooth 3.0, FM radio, Stereo, micro USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 78.4,
+    "thickness_mm": 12.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Nokia 215",
+      "url": "https://en.wikipedia.org/wiki/Nokia_215"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Nokia 215\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Nokia 215",
+    "revid": 1361477103
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

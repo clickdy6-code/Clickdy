@@ -1,0 +1,72 @@
+{
+  "slug": "blackberry-curve-9220",
+  "brand": "BlackBerry",
+  "name": "Curve 9220",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Curve 9220: April 2012; Curve 9320: May 2012",
+      "Discontinued": "Yes",
+      "Series": "BlackBerry Curve",
+      "Predecessor": "BlackBerry Curve 8520 / 9300"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA",
+      "SIM": "Mini-SIM"
+    },
+    "Body": {
+      "Form factor": "Candybar with physical QWERTY keyboard",
+      "Dimensions": "109 mm H / 60 mm W / 12.7 mm D",
+      "Weight": "Curve 9220: 102 g , Curve 9320: 103 g"
+    },
+    "Platform": {
+      "Operating system": "BlackBerry OS 7.1",
+      "CPU": "800 MHz"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "512 MB ROM",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "TFT, 65K colors, 2.44 inches, 320 x 240 pixels (~164 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Curve 9220: 2 MP , Curve 9320: 3.15 MP with AF"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1450 mAh battery (J-S1)"
+    }
+  },
+  "key": {
+    "display_in": 2.44,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1450,
+    "five_g": false,
+    "weight_g": 102,
+    "thickness_mm": 12.7,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Curve 9220",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Curve_9220"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Curve 9220\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Curve 9220",
+    "revid": 1380154878
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "foxconn-blackberry-z3",
+  "brand": "Foxconn",
+  "name": "BlackBerry Z3",
+  "status": "published",
+  "announced": "2014-05-13",
+  "released": "2014-05-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 13, 2014",
+      "Predecessor": "BlackBerry Curve 9380 , BlackBerry Q5",
+      "Successor": "BlackBerry Leap , BlackBerry Aurora (Indonesia only)"
+    },
+    "Network": {
+      "Technology": "HSPA+, EDGE, GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "140 mm H, 72.8 mm W, 9.3 mm D",
+      "Weight": "164 g"
+    },
+    "Platform": {
+      "Operating system": "Blackberry 10.3.1",
+      "CPU": "ARM 1.2 GHz dual-core, Qualcomm Snapdragon 400 (MSM8230)",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1.5 GB RAM",
+      "Storage": "8 GB flash memory",
+      "Card slot": "Up to the exFAT file system limit"
+    },
+    "Display": {
+      "Display": "540 x 960 px, 5-inch (built on 120µm pixel) at 220 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels, 2592 х 1944 pixels video capture",
+      "Front camera": "1.2 megapixels,720p 30fps video"
+    },
+    "Battery": {
+      "Battery": "2500 mAh non removable battery"
+    },
+    "Connectivity": {
+      "Connectivity": "IEEE 802.11n-2009, Bluetooth 4.0, Miracast, microUSB"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2500,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 164,
+    "thickness_mm": 9.3,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: BlackBerry Z3",
+      "url": "https://en.wikipedia.org/wiki/BlackBerry_Z3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"BlackBerry Z3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "BlackBerry Z3",
+    "revid": 1361472810
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

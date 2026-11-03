@@ -1,0 +1,91 @@
+{
+  "slug": "kyocera-urbano-v02",
+  "brand": "Kyocera",
+  "name": "Urbano V02",
+  "status": "published",
+  "announced": "2015-07-18",
+  "released": "2015-07-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/KYOCERA-au_KYV34_f.jpg/500px-KYOCERA-au_KYV34_f.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/KYOCERA-au_KYV34_f.jpg/250px-KYOCERA-au_KYV34_f.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Kyocera Urbano V02",
+      "credit": "XperiMania, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KYOCERA-au_KYV34_f.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-07-18",
+      "Series": "URBANO",
+      "Predecessor": "URBANO V01"
+    },
+    "Network": {
+      "Technology": "3.9G: FDD-LTE (au VoLTE) (700 MHz / N800 MHz / 2 GHz), 3G: W-CDMA (850 MHz / 2 GHz), 2G: GSM (1.9 GHz / 1.8 GHz / 900 MHz), Data: LTE-Advanced (au 4G LTE CA), WiMAX 2.1, Wi-Fi (802.11a/b/g/n/ac)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146 mm H , 72 mm W , 8.6 mm D",
+      "Weight": "138 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1 \"Lollipop\"",
+      "Chipset": "Qualcomm Snapdragon 400 MSM8928",
+      "CPU": "1.4 GHz quad-core"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB ROM",
+      "Card slot": "microSDHC (up to 32 GB), microSDXC (up to 128 GB)"
+    },
+    "Display": {
+      "Display": "5.0 in (130 mm) IPS TFT LCD, 720p HD (1280 × 720 pixels), ~16.77M colors"
+    },
+    "Cameras": {
+      "Rear camera": "13.0 MP CMOS, multi-point autofocus, Full HD video recording",
+      "Front camera": "5.0 MP CMOS, face detection AF, HD video recording"
+    },
+    "Battery": {
+      "Battery": "2,200 mAh (non-removable)",
+      "Charging": "Approx. 140 minutes (using desktop holder)"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 400 MSM8928",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2200,
+    "os": "Android 5.1",
+    "five_g": false,
+    "weight_g": 138,
+    "thickness_mm": 8.6,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Kyocera Urbano V02",
+      "url": "https://en.wikipedia.org/wiki/Kyocera_Urbano_V02"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Kyocera Urbano V02\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Kyocera Urbano V02",
+    "revid": 1368313520
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

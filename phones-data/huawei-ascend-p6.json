@@ -1,0 +1,95 @@
+{
+  "slug": "huawei-ascend-p6",
+  "brand": "Huawei",
+  "name": "Ascend P6",
+  "status": "published",
+  "announced": "2013-06-18",
+  "released": "2013-06-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/HUAWEI_Ascend_P6.jpg/500px-HUAWEI_Ascend_P6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/HUAWEI_Ascend_P6.jpg/250px-HUAWEI_Ascend_P6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Huawei Ascend P6",
+      "credit": "Petar Milošević, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HUAWEI_Ascend_P6.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-06-18",
+      "Series": "Huawei Ascend",
+      "Predecessor": "Huawei Ascend P2",
+      "Successor": "Huawei Ascend P7"
+    },
+    "Network": {
+      "Technology": "GSM 850 900 1800 1900 , HSPA+ 850 900 1700 1900 2100"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "132.65 mm H , 65.5 mm W , 6.18 mm D",
+      "Weight": "120 g",
+      "Other": "Ambient light sensor, Gyroscope, Magnetometer, Proximity sensor, Tilt sensor"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 4.2.2 \"Jelly Bean\" with EMUI 1.6, Current: Android 4.4.2 \"KitKat\" with EMUI 3.0",
+      "CPU": "1.5 GHz quad-core Hi-Silicon K3V2",
+      "GPU": "Vivante GC4000"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "8 GB, 16 GB",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.7 in"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP (3264×2448 px max.) , 1080p Full HD video recording",
+      "Front camera": "5 MP (2592×1952 px max.) , 720p HD video recording"
+    },
+    "Sound": {
+      "Sound": "Dolby Digital Plus"
+    },
+    "Battery": {
+      "Battery": "2000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      8,
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "battery_mah": 2000,
+    "os": "Android 4.2",
+    "five_g": false,
+    "weight_g": 120,
+    "thickness_mm": 6.18,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei Ascend P6",
+      "url": "https://en.wikipedia.org/wiki/Huawei_Ascend_P6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei Ascend P6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei Ascend P6",
+    "revid": 1382984596
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

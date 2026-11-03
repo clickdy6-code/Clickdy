@@ -1,0 +1,84 @@
+{
+  "slug": "clicks-communicator",
+  "brand": "Clicks",
+  "name": "Communicator",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Q4 2026"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G / 5G",
+      "SIM": "nanoSIM, eSIM"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "130.5 xx",
+      "Weight": "170 g"
+    },
+    "Platform": {
+      "Operating system": "Android 17, up to 4 major Android upgrades",
+      "Chipset": "MediaTek MT8883"
+    },
+    "Memory": {
+      "RAM": "12 GB",
+      "Storage": "256 GB",
+      "Card slot": "microSD, up to 2 TB"
+    },
+    "Display": {
+      "Display": "4.03 in AMOLED, 1080 x 1280 pixels, 1.18:1 aspect ratio, ~415 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, autofocus",
+      "Front camera": "24 MP, fixed focus"
+    },
+    "Battery": {
+      "Battery": "4,350 mAh Li-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-fi 802.11 a/b/g/n/ac/6e, tri-band, Bluetooth 5.4, 3.5mm Headphone jack, USB Type-C"
+    }
+  },
+  "key": {
+    "display_in": 4.03,
+    "display_type": "AMOLED",
+    "chipset": "MediaTek MT8883",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 24,
+    "battery_mah": 4350,
+    "os": "Android 17",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 170,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Clicks Communicator",
+      "url": "https://en.wikipedia.org/wiki/Clicks_Communicator"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Clicks Communicator\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Clicks Communicator",
+    "revid": 1380293589
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

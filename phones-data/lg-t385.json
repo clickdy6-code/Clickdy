@@ -1,0 +1,63 @@
+{
+  "slug": "lg-t385",
+  "brand": "LG",
+  "name": "T385",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, GPRS, EDGE"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "103 x 59.5 x 10.7 mm",
+      "Weight": "98 grams"
+    },
+    "Platform": {
+      "Operating system": "Proprietary WISE UI, Qualcomm Brew MP",
+      "CPU": "Infineon PMB8815 V1.0 (Intel X-Gold 215, ARM11) (32-bit) 208 MHz"
+    },
+    "Memory": {
+      "RAM": "50MB",
+      "Card slot": "microSD, up to 16GB"
+    },
+    "Display": {
+      "Display": "3.2\", 240x320 pixels (~125 ppi pixel density) capacitive touchscreen with 262.144 colours"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 Mega Pixel Fixed-Focus Videos QCIF@15fps"
+    },
+    "Sound": {
+      "Sound": "MP3/MP4/H.263/AAC/AAC+/WMA/RealAudio"
+    },
+    "Battery": {
+      "Battery": "Li-ion, 950 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0/Bluetooth 2.1+A2DP/Wi-Fi 802.11"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "battery_mah": 950,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: LG T385",
+      "url": "https://en.wikipedia.org/wiki/LG_T385"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"LG T385\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "LG T385",
+    "revid": 1370304644
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

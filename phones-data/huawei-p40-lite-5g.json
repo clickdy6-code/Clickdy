@@ -1,0 +1,92 @@
+{
+  "slug": "huawei-p40-lite-5g",
+  "brand": "Huawei",
+  "name": "P40 lite 5G",
+  "status": "published",
+  "announced": "2020-04-23",
+  "released": "2020-04-23",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Nova 7 SE: 2020-04-23, P40 lite 5G: 2020-05-15, Nova 7 SE 5G Youth: 2020-10-16",
+      "Series": "Huawei P / Nova",
+      "Predecessor": "Huawei Nova 6 SE",
+      "Successor": "Huawei Nova 8 SE, Huawei Nova 8 SE Youth"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.3 mm × 75 mm × 8.6 mm",
+      "Weight": "189 g",
+      "Other": "Side-mounted fingerprint scanner (integrated into power button), proximity sensor, ambient light sensor, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 10 with EMUI 10.1, Current:, P40 lite 5G: Android 11 with EMUI 12, Nova 7 SE & 7 SE 5G Youth: HarmonyOS 2.0, Without Google Play Services",
+      "CPU": "P40 lite 5G: Kirin 820 5G (7 nm), 8 cores (1×2.36 GHz Cortex-A76 & 3×2.22 GHz Cortex-A76 & 4×1.84 GHz Cortex-A55), Nova 7 SE 5G Youth: MediaTek Dimensity 800U 5G (7 nm), 8 cores (2×2.4 GHz Cortex-A76 & 6×2.0 GHz Cortex-A55)",
+      "GPU": "P40 lite 5G: Mali-G57 (6 cores), Nova 7 SE 5G Youth: Mali-G57 MC3"
+    },
+    "Memory": {
+      "RAM": "P40 lite 5G: 6 GB, Nova 7 SE: 6/8 GB, Nova 7 SE 5G Youth: 8 GB, LPDDR4X",
+      "Storage": "P40 lite 5G & Nova 7 SE 5G Youth: 128 GB, Nova 7 SE: 128/256 GB, UFS 2.1",
+      "Card slot": "P40 lite 5G: NM (Nano Memory) up to 256 GB, Nova 7 SE 5G Youth: None"
+    },
+    "Display": {
+      "Display": "LTPS IPS LCD, 6.5\", 2400 × 1080 pixels (FullHD+), 20:9 ratio, 405 ppi, HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "64 MP Sony IMX686, 26 mm (wide), PDAF + 8 MP, 17 mm (ultrawide) + 2 MP, (macro) + 2 MP, (depth sensor), LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30fps, 720p@960fps",
+      "Front camera": "16 MP, (wide), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4000 mAh",
+      "Charging": "40W fast charging, 5W reverse charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.1 (A2DP, LE), NFC (P40 lite 5G), Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS, GALILEO"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4000,
+    "wired_w": 40,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 189,
+    "thickness_mm": 8.6,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Huawei P40 lite 5G",
+      "url": "https://en.wikipedia.org/wiki/Huawei_P40_lite_5G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Huawei P40 lite 5G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Huawei P40 lite 5G",
+    "revid": 1364370183
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

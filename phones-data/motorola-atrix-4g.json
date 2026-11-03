@@ -1,0 +1,84 @@
+{
+  "slug": "motorola-atrix-4g",
+  "brand": "Motorola",
+  "name": "Atrix 4G",
+  "status": "published",
+  "announced": "2011-02-22",
+  "released": "2011-02-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "US: February 22, 2011, CAN: March 17, 2011, KOR: April 3, 2011, UK: May 4, 2011",
+      "Successor": "Atrix 2, Atrix HD, Atrix HD LTE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen smartphone",
+      "Dimensions": "117.75 mm H, 63.50 mm W, 10.95 mm D",
+      "Weight": "135 g",
+      "Other": "Android WebKit with Adobe Flash Player, Mozilla Firefox 3.6.13 in Webtop Application, eCompass, aGPS with Google Maps, Google Street View, Google Latitude, Android Market"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 and 2.3.6 Gingerbread",
+      "Chipset": "Nvidia Tegra 2",
+      "CPU": "1 GHz dual-core ARM Cortex-A9",
+      "GPU": "GeForce ULP"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR2 RAM",
+      "Storage": "16 GB on board, supports up to 32 GB microSDHC, total 48 GB"
+    },
+    "Display": {
+      "Display": "4.0-inch 960×540 px qHD TFT LCD at 275 ppi, 16 M colors, Gorilla Glass"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP AF, digital zoom with LED Flash , Capture – 720p MPEG4 and H.264 at 30 frame/s (full 1080p to be supported via software upgrade post-launch)",
+      "Front camera": "0.3 MP VGA imager for video chat, self image capture"
+    },
+    "Battery": {
+      "Battery": "1930 mAh, Talk time, WCDMA = 9 hrs, GSM = 8.8 hrs, Standby time, WCDMA = 350 hrs, GSM = 400 hrs"
+    },
+    "Connectivity": {
+      "Connectivity": "WiFi 2.4, 5 GHz 802.11 b/g/n, Bluetooth 2.1 EDR, WCDMA 850/1900/2100 MHz , GSM 850/900/1800/1900 MHz , HSPA+ at 14.4 Mbit/s , audio jack 3.5 mm , Micro USB 2.0 HS"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "Nvidia Tegra 2",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16,
+      32,
+      48
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "front_mp": 0.3,
+    "battery_mah": 1930,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135,
+    "thickness_mm": 10.95,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Atrix 4G",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Atrix_4G"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Atrix 4G\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Atrix 4G",
+    "revid": 1381868953
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

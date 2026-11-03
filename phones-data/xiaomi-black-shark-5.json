@@ -1,0 +1,99 @@
+{
+  "slug": "xiaomi-black-shark-5",
+  "brand": "Xiaomi",
+  "name": "Black Shark 5",
+  "status": "published",
+  "announced": "2022-03-30",
+  "released": "2022-03-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-03-30",
+      "Series": "Black Shark",
+      "Predecessor": "Black Shark 4",
+      "Successor": "Black Shark 6 (cancelled)"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Black Shark 5: 163.8 mm H , 76.3 mm W , 10 mm D, Black Shark 5 Pro: 163.9 mm H , 76.5 mm W , 9.5 mm D, Black Shark 5 RS: 163.7 mm H , 76.2 mm W , 9.9 mm D",
+      "Weight": "Black Shark 5: 218 g, Black Shark 5 Pro/RS: 220 g"
+    },
+    "Platform": {
+      "Operating system": "Android 12 with Joy UI 13",
+      "Chipset": "Black Shark 5: Qualcomm Snapdragon, Snapdragon 870 5G (7 nm), Black Shark 5 Pro: Qualcomm Snapdragon, Snapdragon 8 Gen 1 (4 nm), Black Shark 5 RS: Qualcomm Snapdragon, Snapdragon 888/888+ 5G (5 nm)",
+      "CPU": "Black Shark 5: Octa-core (1x3.2 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585), Black Shark 5 Pro: Octa-core (1x3.00 GHz Cortex-X2 & 3x2.40 GHz Cortex-A710 & 4x1.70 GHz Cortex-A510), Black Shark 5 RS: Octa-core (1x2.84/3.0 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680)",
+      "GPU": "Black Shark 5: Adreno 650, Black Shark 5 Pro: Adreno 730, Black Shark 5 RS: Adreno 660"
+    },
+    "Memory": {
+      "RAM": "5 and 5 RS: 8 GB or 12 GB RAM, 5 Pro: 8 GB, 12 GB or 16 GB RAM",
+      "Storage": "Black Shark 5: 128 or 256 GB, Black Shark 5 Pro: 256 or 512 GB, Black Shark 5 RS: 256 GB"
+    },
+    "Display": {
+      "Display": "6.67 in, 1080 x 2400 resolution, 20:9 aspect ratio (~395 ppi density), AMOLED, 144Hz refresh rate, 1300 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "Black Shark 5: 64 MP, f/1.8, (wide), PDAF, 13 MP, f/2.4, 120˚ (ultrawide), 2 MP, f/2.4, (macro), Black Shark 5 Pro: 108 MP, f/1.8, (wide), 1/1.52\", 0.7µm, PDAF, 13 MP, f/2.4, 120˚ (ultrawide), 5 MP, f/2.4, (telephoto macro), AF, Black Shark 5 RS: 64 MP, f/1.8, (wide), 1/1.97\", 0.7µm, PDAF, 8 MP, 120˚ (ultrawide), 5 MP, f/2.4, (telephoto macro), All: LED flash, HDR, panorama, 4K@30/60fps, 1080p@30/60/240fps, 1080p@960fps",
+      "Front camera": "Black Shark 5/5 Pro: 16 MP, (wide), Black Shark 5 RS: 20 MP, (wide), 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 24-bit/192kHz audio"
+    },
+    "Battery": {
+      "Battery": "Black Shark 5/5 Pro: 4650 mAh, Black Shark 5 RS: 4500 mAh",
+      "Charging": "Fast charging 120W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.2, A2DP, LE, aptX HD, aptX Adaptive, A-GPS, GLONASS, GALILEO, QZSS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 144,
+    "peak_nits": 1300,
+    "chipset": "Black Shark 5: Qualcomm Snapdragon",
+    "ram_gb": [
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4650,
+    "wired_w": 120,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 218,
+    "thickness_mm": 10,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Black Shark 5",
+      "url": "https://en.wikipedia.org/wiki/Black_Shark_5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Black Shark 5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Black Shark 5",
+    "revid": 1361472678
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

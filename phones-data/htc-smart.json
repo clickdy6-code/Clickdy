@@ -1,0 +1,77 @@
+{
+  "slug": "htc-smart",
+  "brand": "HTC",
+  "name": "Smart",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/HTC_Smart_02.jpg/500px-HTC_Smart_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/HTC_Smart_02.jpg/250px-HTC_Smart_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Smart",
+      "credit": "El Carlos, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HTC_Smart_02.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-03, discontinued",
+      "Series": "BREW"
+    },
+    "Network": {
+      "Technology": "Europe/Asia: HSPA/WCDMA:2100 MHz; Quad-band GSM/GPRS/EDGE: 850/900/1800/1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Smartphone Feature phone",
+      "Dimensions": "104 mm H , 55 mm W , 12.8 mm D",
+      "Weight": "108 g"
+    },
+    "Platform": {
+      "Operating system": "BREW Mobile Platform",
+      "CPU": "300 MHz"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "256 MB ROM",
+      "Card slot": "microSDHC supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.0-inch 240×320 QVGA TFT LCD touch-sensitive screen"
+    },
+    "Cameras": {
+      "Rear camera": "3 MP with LED flash"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 with EDR; HTC ExtUSB™ (11-pin mini-USB 2.0)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 108,
+    "thickness_mm": 12.8,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: HTC Smart",
+      "url": "https://en.wikipedia.org/wiki/HTC_Smart"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"HTC Smart\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "HTC Smart",
+    "revid": 1366400949
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

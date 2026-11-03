@@ -1,0 +1,65 @@
+{
+  "slug": "lenovo-z2-plus",
+  "brand": "Lenovo",
+  "name": "Z2 Plus",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 2017",
+      "Predecessor": "ZUK Z1"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 Marshmallow, upgradable to Android 8.0 Oreo",
+      "CPU": "2.15GHz Qualcomm Snapdragon820",
+      "GPU": "Adreno 530 GPU"
+    },
+    "Memory": {
+      "RAM": "3/4 GB RAM",
+      "Storage": "32/64 GB"
+    },
+    "Display": {
+      "Display": "5.0-inch, 1080 by 1920pixels"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP with LED flash",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "3500 mAh"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3500,
+    "os": "Android 6.0",
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Lenovo Z2 Plus",
+      "url": "https://en.wikipedia.org/wiki/Lenovo_Z2_Plus"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Lenovo Z2 Plus\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Lenovo Z2 Plus",
+    "revid": 1379605448
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

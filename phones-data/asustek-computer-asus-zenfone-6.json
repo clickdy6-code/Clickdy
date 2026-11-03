@@ -1,0 +1,108 @@
+{
+  "slug": "asustek-computer-asus-zenfone-6",
+  "brand": "AsusTek Computer",
+  "name": "Asus ZenFone 6",
+  "status": "published",
+  "announced": "2019-05-16",
+  "released": "2019-05-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/ZenFone_6_Mockup.svg/500px-ZenFone_6_Mockup.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/ZenFone_6_Mockup.svg/250px-ZenFone_6_Mockup.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "AsusTek Computer Asus ZenFone 6",
+      "credit": "17jiangz1, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ZenFone_6_Mockup.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Valencia, Spain, 2019-05-16",
+      "Series": "Asus ZenFone",
+      "Predecessor": "ZenFone 5Q, ZenFone 5, ZenFone 5Z",
+      "Successor": "ZenFone 7, ZenFone 7 Pro"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 159.1 mm, W: 75.44 mm, D: 8.4 mm to 9.1 mm",
+      "Weight": "190 g",
+      "Other": "Gorilla Glass 6 display, Gorilla Glass 3 back, liquid metal camera housing, aluminium frame"
+    },
+    "Platform": {
+      "Operating system": "Original: Android (operating system), Android Android Pie, 9 Pie with ZenUI 6, Current: Android 11[]",
+      "Chipset": "Qualcomm Snapdragon 855",
+      "CPU": "Kryo 485 (1×2.84 GHz, 3×2.42 GHz, 4×1.78 GHz)",
+      "GPU": "Adreno 640 (672 MHz)"
+    },
+    "Memory": {
+      "RAM": "6 GB/8 GB LPDDR4X RAM, 12 GB (Edition 30)",
+      "Storage": "UFS 2.1 64/128/256 GB, 512 GB (Edition 30)",
+      "Card slot": "MicroSDXC up to 2 TB"
+    },
+    "Display": {
+      "Display": "6.4 in rounded LED-backlit IPS LCD, 19.5:9 1080×2340 px, 403 ppi (159 px/cm), 600 nits, HDR10 1200:1 CR, 60 Hz, 100% DCI-P3/96% NTSC"
+    },
+    "Cameras": {
+      "Rear camera": "Main: Sony Exmor IMX586 48 MP 1/2.0\" (0.8 μm) Bayer filter#Quad Bayer, Quad Bayer sensor, f-number, ƒ/1.79 aperture, 79° Field of view, FOV, 26 mm equivalent, 6p lens, 2×1 OCL Autofocus#Phase detection, PDAF, Autofocus#Active, Laser AF, Ultra-wide: Sony 13 MP, ƒ/2.4 aperture, 125° FOV, 11 mm equivalent, Fixed-focus lens, fixed-focus, Distortion (optics)#Software correction, distortion correction, Modes: Dual-LED flash, Auto High-dynamic-range imaging, HDR, (Auto) Panoramic photography, Panorama, Portrait, Night photography, Super Night, Long-exposure photography, long exposure, AI scene detection, filters, Pro/Raw image format, RAW (main only), Video: up to 4K UHD at 60 Frames per second, fp",
+      "Front camera": "Motorised flip-up rear camera"
+    },
+    "Sound": {
+      "Sound": "192 kHz/24-bit Hi-Res audio, DTS:X Ultra 1.0 7.1-channel virtual surround, dual NXP TFA9874 amplifiers, Stereo speakers, 3.5 mm jack, USB Audio Device digital audio via USB-C, aptX HD/SBC Bluetooth A2DP, ERM vibration motor"
+    },
+    "Battery": {
+      "Battery": "3.8 V 19 Wh (5,000 mAh) non-removable lithium polymer battery",
+      "Charging": "USB-C Quick Charge 4.0 up to 18 W, USB-C USB On-The-Go, OTG reverse charging up to 10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0 Type-C, Wi-Fi 5 802.11 a/b/g/n/ac 2x2 MIMO, Wi-Fi Direct/hotspot, Bluetooth 5.0 EDR, NFC"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "IPS LCD",
+    "refresh_hz": 60,
+    "peak_nits": 600,
+    "chipset": "Qualcomm Snapdragon 855",
+    "ram_gb": [
+      6,
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": true,
+    "wifi": "Wi-Fi 5",
+    "weight_g": 190,
+    "thickness_mm": 8.4,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus ZenFone 6",
+      "url": "https://en.wikipedia.org/wiki/Asus_ZenFone_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus ZenFone 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus ZenFone 6",
+    "revid": 1374559751
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}

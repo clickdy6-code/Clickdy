@@ -1,0 +1,48 @@
+{
+  "slug": "gigabyte-gsmart-g1305-boston",
+  "brand": "Gigabyte",
+  "name": "GSmart G1305 Boston",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "GSmart"
+    },
+    "Body": {
+      "Other": "CPU Instruction Set: ARMv6"
+    },
+    "Platform": {
+      "Operating system": "Android OS, v1.6 (Donut), v2.1 (Éclair)",
+      "Chipset": "Qualcomm MSM7227",
+      "CPU": "600 MHz ARM11",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "MicroSD, up to 16GB"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm MSM7227",
+    "storage_gb": [
+      16
+    ]
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Gigabyte GSmart G1305 Boston",
+      "url": "https://en.wikipedia.org/wiki/Gigabyte_GSmart_G1305_Boston"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Gigabyte GSmart G1305 Boston\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Gigabyte GSmart G1305 Boston",
+    "revid": 1227056419
+  },
+  "updated": "2026-11-03",
+  "auto": true
+}
