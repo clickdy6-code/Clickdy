@@ -1,0 +1,95 @@
+{
+  "slug": "sony-xperia-sl",
+  "brand": "Sony",
+  "name": "Xperia SL",
+  "status": "published",
+  "announced": "2012-09-12",
+  "released": "2012-09-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Xperia-sl.jpg/500px-Xperia-sl.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Xperia-sl.jpg/250px-Xperia-sl.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia SL",
+      "credit": "tyrande101, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xperia-sl.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-09-12",
+      "Series": "Xperia",
+      "Predecessor": "Sony Xperia S",
+      "Successor": "Sony Xperia acro S"
+    },
+    "Network": {
+      "Technology": "GSM: 850/900/1800/1900 MHz, HSDPA: 850/900/1900/2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "128 mm (5.04 in) H, 64 mm (2.52 in) W, 10.6 mm (0.42 in) D",
+      "Weight": "144 g (5.08 oz) with battery",
+      "Other": "Accelerometer, gyroscope, digital compass, proximity sensor, ambient light sensor"
+    },
+    "Platform": {
+      "Operating system": "Android Ice Cream Sandwich (4.0.4), upgradable to 4.1.2 Jelly Bean",
+      "CPU": "1.7 GHz dual-core Qualcomm Snapdragon S3 MSM8260",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "32 GB (26 GB user available)"
+    },
+    "Display": {
+      "Display": "4.3 in (109.22 mm), 720 x 1280 pixels, TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "12.1 MP (Full HD 1080p), Aperture f/2.4, Autofocus, LED flash, touch focus, geo-tagging",
+      "Front camera": "1.3 MP (720p)"
+    },
+    "Battery": {
+      "Battery": "1750 mAh Li-ion (non-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 a/b/g/n), Bluetooth 3.0 (A2DP, EDR), DLNA, NFC, GPS + GLONASS, USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      26,
+      32
+    ],
+    "main_mp": 12.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 1.3,
+    "battery_mah": 1750,
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 144,
+    "thickness_mm": 10.6,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia SL",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_SL"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia SL\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia SL",
+    "revid": 1361536172
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "vivo-x-fold",
+  "brand": "Vivo",
+  "name": "X Fold",
+  "status": "published",
+  "announced": "2022-04-11",
+  "released": "2022-04-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0%E5%8D%80_Futian_%E8%8F%AF%E5%BC%B7%E5%8C%97%E8%B7%AF_Huaqiang_North_Road_%E8%8F%AF%E5%BC%B7%E5%8C%97%E5%8D%9A%E7%89%A9%E9%A4%A8_HQB_Museum_%E6%99%BA%E8%83%BD%E6%89%8B%E6%A9%9F_Smartphone_models_history_exhibition_July_2023_Px3_52.jpg/500px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0%E5%8D%80_Futian_%E8%8F%AF%E5%BC%B7%E5%8C%97%E8%B7%AF_Huaqiang_North_Road_%E8%8F%AF%E5%BC%B7%E5%8C%97%E5%8D%9A%E7%89%A9%E9%A4%A8_HQB_Museum_%E6%99%BA%E8%83%BD%E6%89%8B%E6%A9%9F_Smartphone_models_history_exhibition_July_2023_Px3_52.jpg/250px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Vivo X Fold",
+      "credit": "Shou Wings KEUNG, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0%E5%8D%80_Futian_%E8%8F%AF%E5%BC%B7%E5%8C%97%E8%B7%AF_Huaqiang_North_Road_%E8%8F%AF%E5%BC%B7%E5%8C%97%E5%8D%9A%E7%89%A9%E9%A4%A8_HQB_Museum_%E6%99%BA%E8%83%BD%E6%89%8B%E6%A9%9F_Smartphone_models_history_exhibition_July_2023_Px3_52.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-04-11",
+      "Series": "Vivo X series",
+      "Successor": "Vivo X Fold 2"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / CDMA2000 / LTE / 5G",
+      "SIM": "Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Foldable Slate",
+      "Dimensions": "Unfolded: 162 mm H , 144.9 mm W , 6.3 mm D, Folded: 162 mm H , 74.5 mm W , 14.6 mm D",
+      "Weight": "311 g"
+    },
+    "Platform": {
+      "Operating system": "Android 12 with Origin OS Ocean",
+      "Chipset": "X Fold: Qualcomm Snapdragon 8 Gen 1 (4 nm) , X Fold+: Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+      "CPU": "X Fold: Octa-core (1x3.00 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510) , X Fold+: Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "12 GB RAM",
+      "Storage": "256 GB, 512 GB"
+    },
+    "Display": {
+      "Display": "8.03 in, 1916 x 2160 resolution (~360 ppi density), Foldable LTPO AMOLED, 120Hz refresh rate, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, (wide), 1/1.57\", 1.0 μm, Dual Pixel PDAF, Laser AF, OIS, 8 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 12 MP, f/2.0, 47mm (telephoto), PDAF, 2x optical zoom, 48 MP, f/2.2, 14mm, 114˚ (ultrawide), Zeiss optics, Zeiss T* lens coating, Dual-LED flash, panorama, 8K@30fps, 4K@30/60fps, 1080p@30/60fps, gyro-EIS",
+      "Front camera": "16 MP, f/2.5, (wide), 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "X Fold: 4600 mAh , X Fold+: 4730 mAh",
+      "Charging": "X Fold: fast charging 66W , X Fold+: fast charging 80W , Both models: fast wirelees charging 50W, reverse wirelees charging 10W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.2, A2DP, LE, aptX HD, A-GPS, GLONASS, BDS, GALILEO, QZSS, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 8.03,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "chipset": "X Fold: Qualcomm Snapdragon 8 Gen 1",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@30fps",
+    "front_mp": 16,
+    "battery_mah": 4600,
+    "wired_w": 80,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 311,
+    "thickness_mm": 6.3,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X Fold",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X_Fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X Fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X Fold",
+    "revid": 1381075333
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

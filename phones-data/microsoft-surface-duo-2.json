@@ -1,0 +1,105 @@
+{
+  "slug": "microsoft-surface-duo-2",
+  "brand": "Microsoft",
+  "name": "Surface Duo 2",
+  "status": "published",
+  "announced": "2021-09-22",
+  "released": "2021-09-22",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Surface_Duo_2_-_1.jpg/500px-Surface_Duo_2_-_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Surface_Duo_2_-_1.jpg/250px-Surface_Duo_2_-_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Microsoft Surface Duo 2",
+      "credit": "KKPCW, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Surface_Duo_2_-_1.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-09-22",
+      "Discontinued": "2024-10-21",
+      "Series": "Surface Duo",
+      "Predecessor": "Surface Duo"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G",
+      "SIM": "nanoSIM, eSIM"
+    },
+    "Body": {
+      "Form factor": "Folio, phablet",
+      "Dimensions": "Open : 145.2 x , Close : 145.2 x",
+      "Weight": "284 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11 , Current: Android 12L",
+      "Chipset": "Qualcomm Snapdragon 888 5G",
+      "CPU": "Octa-core , 1 x 2.84 GHz Kryo 680 , 3 x 2.42 GHz Kryo 680 , 4 x 1.80 GHz Kryo 680",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "8GB DRAM LPDDR5",
+      "Storage": "128GB, 256GB, 512GB"
+    },
+    "Display": {
+      "Display": "2x 5.8 in AMOLED 1344x1892 (401 ppi) with Gorilla Glass Victus"
+    },
+    "Cameras": {
+      "Rear camera": "Wide: 12MP, f/1.7, 27 mm, 1.4μm , Telephoto: 12MP, f/2.4, 51 mm, 1.0μm, 2X optical zoom , Ultra-Wide: 16MP, f/2.2, 13 mm, 1.0μm, 110°",
+      "Front camera": "12MP, f/2.0, 24 mm, 1.0μm"
+    },
+    "Sound": {
+      "Sound": "Stereo speaker, dual mic AI-based, Qualcomm aptX Classic, HD and TWS"
+    },
+    "Battery": {
+      "Battery": "4449 mAh",
+      "Charging": "23W USB-C power supply with fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6, Bluetooth 5.1, USB-C 3.2 G2, NFC, GPS, Galileo, GLONASS, BeiDou, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 5.8,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 888 5G",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 12,
+    "battery_mah": 4449,
+    "wired_w": 23,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 284,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Surface Duo 2",
+      "url": "https://en.wikipedia.org/wiki/Surface_Duo_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Surface Duo 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Surface Duo 2",
+    "revid": 1377125171
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

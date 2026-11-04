@@ -1,0 +1,68 @@
+{
+  "slug": "sony-ericsson-yari",
+  "brand": "Sony Ericsson",
+  "name": "Yari",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Sony_Ericsson_Yari.jpg/500px-Sony_Ericsson_Yari.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Sony_Ericsson_Yari.jpg/250px-Sony_Ericsson_Yari.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Yari",
+      "credit": "John Karakatsanis from Athens, Greece, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Yari.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson F305"
+    },
+    "Network": {
+      "Technology": "UMTS, GSM"
+    },
+    "Body": {
+      "Form factor": "Slider"
+    },
+    "Platform": {
+      "Operating system": "A200"
+    },
+    "Memory": {
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "240 x 320 TFT 16,777,216 colors"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel with autofocus, LED flash"
+    },
+    "Battery": {
+      "Battery": "1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, GPS receiver"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Yari",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Yari"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Yari\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Yari",
+    "revid": 1362797643
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

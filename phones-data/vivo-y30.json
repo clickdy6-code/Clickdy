@@ -1,0 +1,95 @@
+{
+  "slug": "vivo-y30",
+  "brand": "Vivo",
+  "name": "Y30",
+  "status": "published",
+  "announced": "2020-05-05",
+  "released": "2020-05-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-05-05",
+      "Series": "Y",
+      "Successor": "Vivo Y31 (2021)"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.04 × 76.46 × 9.11 mm",
+      "Weight": "197 g",
+      "Other": "Fingerprint sensor (rear-mounted), proximity sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 with Funtouch OS 10, Current: Android 12 with Funtouch OS 12",
+      "Chipset": "MediaTek MT6765 Helio P35 (12 nm)",
+      "CPU": "Octa-core (4×2.35 GHz Cortex-A53 & 4×1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "4/6/8 GB",
+      "Storage": "64/128 GB eMMC 5.1",
+      "Card slot": "microSDXC up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.47 in IPS LCD, 1560 × 720 (HD+), 19.5:9 ratio, 266 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2 (wide), PDAF + 8 MP, f/2.2 (ultrawide), 1/4.0\", 1.12 µm + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth), LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.05 (wide), Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono sound"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "10 W"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm jack, Bluetooth 5.0 (A2DP, LE), NFC, Wi-Fi 802.11 b/g/n (Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.47,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6765 Helio P35",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 197,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y30",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y30"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y30\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y30",
+    "revid": 1376389527
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

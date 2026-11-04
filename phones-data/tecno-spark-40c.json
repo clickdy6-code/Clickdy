@@ -1,0 +1,88 @@
+{
+  "slug": "tecno-spark-40c",
+  "brand": "Tecno",
+  "name": "Spark 40C",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2025",
+      "Series": "Spark"
+    },
+    "Body": {
+      "Dimensions": "165.6 x 77 x 8.3 mm (6.52 x 3.03 x 0.33 in)",
+      "Weight": "188 g (6.63 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 15, HiOS 15",
+      "Chipset": "MediaTek Helio G81",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G52 MC2"
+    },
+    "Memory": {
+      "RAM": "4 GB or 8 GB RAM",
+      "Storage": "128 GB or 256 GB",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.67 in (169 mm) IPS LCD with 120 Hz refresh rate, Resolution: 720 x 1600 pixels, 20:9 ratio (~263 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/1.8, (wide), PDAF",
+      "Front camera": "8 MP, (wide)"
+    },
+    "Sound": {
+      "Sound": "Dual speakers, 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "6000 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, Bluetooth, GPS, NFC (market/region dependent), USB-C 2.0, Infrared port"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "chipset": "MediaTek Helio G81",
+    "ram_gb": [
+      4,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 6000,
+    "wired_w": 18,
+    "os": "Android 15",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 188,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Spark 40C",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Spark_40C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Spark 40C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Tecno Spark 40C",
+    "revid": 1383587249
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

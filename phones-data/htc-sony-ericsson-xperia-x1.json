@@ -1,0 +1,78 @@
+{
+  "slug": "htc-sony-ericsson-xperia-x1",
+  "brand": "HTC",
+  "name": "Sony Ericsson Xperia X1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Sony_Xperia_X1_%282008%29_%28cropped%29.jpg/500px-Sony_Xperia_X1_%282008%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Sony_Xperia_X1_%282008%29_%28cropped%29.jpg/250px-Sony_Xperia_X1_%282008%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "HTC Sony Ericsson Xperia X1",
+      "credit": "rfdigitalwpg, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_X1_(2008)_(cropped).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Ericsson Xperia",
+      "Predecessor": "Sony Ericsson P1",
+      "Successor": "Sony Ericsson Xperia X2"
+    },
+    "Network": {
+      "Technology": "Quad-band GSM/GPRS Class 10 (4+1/3+2 slots), 32 – 48 kbit/s/EDGE: 850/900/1800/1900 MHz, Tri-band UMTS/HSDPA/HSUPA:, X1a: 850/1900/2100 MHz (/)/, X1i/X1c: 900/1900/2100 MHz ////",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "vertical arc-slider design",
+      "Dimensions": "110 × 53 × 16.7 mm",
+      "Weight": "146 grams"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.1 Professional",
+      "CPU": "ARM 11 Qualcomm MSM7200A 528 MHz with 256-MHz ARM9 2nd core, hardware 3D graphics support with up to 4 million 3D triangles per second, and 133 million 3D textured pixels per second fill rate, OpenGL ES-compliant 3D graphics"
+    },
+    "Memory": {
+      "RAM": "256 MB",
+      "Storage": "512 MB NAND Flash",
+      "Card slot": "microSDHC 16 GB"
+    },
+    "Display": {
+      "Display": "3.0-inch 16-bit color WVGA (800×480) TFT touchscreen, ATI 3D chip"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-MP (2048×1536) with flash, Video:, X1i/X1c: MPEG-4/H.263 30 fps at VGA, H.264: 15 fps at VGA, X1a: MPEG4/H.263 24 fps at QVGA, no H.264",
+      "Front camera": "Secondary QCIF (176 × 144) format front-facing video telephony camera"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Po 1500 mAh (BST-41)",
+      "Charging": "Micro-B charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 with A2DP, miniUSB 2.0, 3.5mm audio jack, aGPS, Wi-Fi 802.11 b/g, no IR"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1500,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia X1",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_X1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia X1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia X1",
+    "revid": 1368772331
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

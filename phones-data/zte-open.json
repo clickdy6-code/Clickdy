@@ -1,0 +1,78 @@
+{
+  "slug": "zte-open",
+  "brand": "ZTE",
+  "name": "Open",
+  "status": "published",
+  "announced": "2013-07-02",
+  "released": "2013-07-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/ZTE_Open_mobile_phone_with_home_screen_of_Firefox_OS_v1.0.0B02.png/500px-ZTE_Open_mobile_phone_with_home_screen_of_Firefox_OS_v1.0.0B02.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/ZTE_Open_mobile_phone_with_home_screen_of_Firefox_OS_v1.0.0B02.png/250px-ZTE_Open_mobile_phone_with_home_screen_of_Firefox_OS_v1.0.0B02.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "ZTE Open",
+      "credit": "Bakkedal, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ZTE_Open_mobile_phone_with_home_screen_of_Firefox_OS_v1.0.0B02.png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-07-02"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, HSDPA (Quad-band)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "Height: 114 mm, Width: 62 mm, Thickness: 12.5 mm"
+    },
+    "Platform": {
+      "Operating system": "Firefox OS 1.1",
+      "CPU": "1 GHz Qualcomm Snapdragon MSM7225A processor (ARMv7)"
+    },
+    "Memory": {
+      "RAM": "256 MB",
+      "Storage": "512 MB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "320 × 480 px (HVGA) capacitive touchscreen, 3.5\", 165 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "3.1 MP"
+    },
+    "Battery": {
+      "Battery": "1200 mAh battery, micro-USB charging"
+    },
+    "Connectivity": {
+      "Connectivity": "WLAN IEEE 802.11 b/g/n, Bluetooth 2.1 , micro-USB 2.0, GPS with A-GPS, FM radio, mini-SIM card"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "main_mp": 3.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 12.5,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Open",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Open"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Open\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Open",
+    "revid": 1361537739
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

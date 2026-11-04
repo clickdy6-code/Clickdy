@@ -1,0 +1,67 @@
+{
+  "slug": "sharp-sh-07f",
+  "brand": "Sharp",
+  "name": "SH-07F",
+  "status": "published",
+  "announced": "2014-06-13",
+  "released": "2014-06-13",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/SH-07F_Green_Open.jpg/500px-SH-07F_Green_Open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/SH-07F_Green_Open.jpg/250px-SH-07F_Green_Open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sharp SH-07F",
+      "credit": "Rebirth10, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SH-07F_Green_Open.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-06-13"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA) (800 MHz, 850 MHz, 2 GHz), 2G: GSM"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "110 mm H , 49 mm W , 14.9 mm D (Thickest part: 16 mm)",
+      "Weight": "113 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS + Operator Pack Product (S)",
+      "CPU": "1.2 GHz SH-Mobile AG5"
+    },
+    "Memory": {
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3.3-inch, approx. 16.77 million colors New Mobile ASV LCD, Full Wide VGA (480 × 854 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixels CMOS image sensor, autofocus, image stabilization (stills & video), 720p HD video recording, face recognition"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "os": "Symbian OS + Operator Pack Product (S)",
+    "five_g": false,
+    "weight_g": 113,
+    "thickness_mm": 14.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sharp SH-07F",
+      "url": "https://en.wikipedia.org/wiki/Sharp_SH-07F"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sharp SH-07F\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sharp SH-07F",
+    "revid": 1363462480
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

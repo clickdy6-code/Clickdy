@@ -1,0 +1,81 @@
+{
+  "slug": "xiaomi-mi-5c",
+  "brand": "Xiaomi",
+  "name": "Mi 5c",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 2017",
+      "Series": "Mi",
+      "Predecessor": "Xiaomi Mi 4c"
+    },
+    "Body": {
+      "Form factor": "Slate phone",
+      "Dimensions": "144.38 x 69.68 x 7.09 mm",
+      "Weight": "135 g",
+      "Other": "The baseband algorithm can be upgraded with OTA"
+    },
+    "Platform": {
+      "Operating system": "MIUI 8 (Android 7.1)",
+      "Chipset": "Xiaomi pinecone S1",
+      "CPU": "2x Dual-core 2.2GHz + 2x Dual-core 1.4GHz",
+      "GPU": "Mali-T860 4x Quad-core"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "64 GB EMMC 5.0"
+    },
+    "Display": {
+      "Display": "5.15\" 1920*1080 pixels, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 2860mAh（typ）/ 2810mAh（min）battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, WiFi Display, hotspot, 2G: GSM 2/ 3/ 8/, 3G: TD-SCDMA 34/ 39/, 4G: TD-LTE 38/ 39/ 40/ 41/ , Bluetooth 4.1, Bluetooth HD, FM"
+    }
+  },
+  "key": {
+    "display_in": 5.15,
+    "chipset": "Xiaomi pinecone S1",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2860,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 135,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 5c",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_5c"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 5c\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 5c",
+    "revid": 1361537441
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

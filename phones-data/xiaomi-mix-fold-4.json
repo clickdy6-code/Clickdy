@@ -1,0 +1,108 @@
+{
+  "slug": "xiaomi-mix-fold-4",
+  "brand": "Xiaomi",
+  "name": "Mix Fold 4",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Xiaomi_MIX_Fold_4_-_About_Phone_%281%29_%28November_1%2C_2024%29.jpg/500px-Xiaomi_MIX_Fold_4_-_About_Phone_%281%29_%28November_1%2C_2024%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Xiaomi_MIX_Fold_4_-_About_Phone_%281%29_%28November_1%2C_2024%29.jpg/250px-Xiaomi_MIX_Fold_4_-_About_Phone_%281%29_%28November_1%2C_2024%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mix Fold 4",
+      "credit": "メイド理世, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_MIX_Fold_4_-_About_Phone_(1)_(November_1,_2024).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024, July 19",
+      "Series": "MIX",
+      "Predecessor": "Xiaomi MIX Fold 3"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "SIM": "Nano-SIM + Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Foldable",
+      "Dimensions": "Unfolded: 159.4 x 143.3 x 4.6 mm, Folded: 159.4 x 73.1 x 9.5 mm",
+      "Weight": "226 g or 228 g (7.97 oz)",
+      "Other": "Two-way satellite communication (calls, messages)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 14, Xiaomi HyperOS , Current: Android 15, Xiaomi HyperOS 2",
+      "Chipset": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
+      "CPU": "Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)",
+      "GPU": "Adreno 750"
+    },
+    "Memory": {
+      "RAM": "12 GB / 16 GB",
+      "Storage": "256 GB, 512 GB, 1 TB (UFS 4.0)"
+    },
+    "Display": {
+      "Display": "Foldable LTPO AMOLED, 1B colors, 120Hz, HDR10+, Dolby Vision, 1700 nits (HBM), 3000 nits (peak), 7.98 inches (~89.4% screen-to-body ratio), 2224 x 2488 pixels (~418 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.7, 23mm (wide), 1/1.49\", 1.0µm, PDAF, OIS, 50 MP, f/2.0, 47mm (telephoto), PDAF, OIS, 2x optical zoom, 10 MP, f/2.9, 115mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 12 MP, f/2.2, 15mm, 120˚ (ultrawide), Laser AF, color spectrum sensor, LED flash, HDR, panorama, Leica lenses, 8K@24fps, 4K@24/30/60fps, 1080p@30/60/120/240/960fps, 720p@1920fps, Dolby Vision HDR",
+      "Front camera": "16 MP, (wide), Cover camera:, 16 MP, (wide), Dolby Vision HDR, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 24-bit/192kHz Hi-Res & Hi-Res Wireless audio, Snapdragon Sound"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5100 mAh, non-removable",
+      "Charging": "67W wired, PD3.0, QC4, 31% in 10 min, 50W wireless, 24% in 10 min"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, dual-band (tri-band after SW update), Wi-Fi Direct, Bluetooth 5.4, A2DP, LE, aptX HD, aptX Adaptive, LHDC, NFC, Infrared port, USB Type-C 3.2, OTG"
+    }
+  },
+  "key": {
+    "display_in": 7.98,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 3000,
+    "chipset": "Qualcomm SM8650-AB Snapdragon 8 Gen 3",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 16,
+    "battery_mah": 5100,
+    "wireless_w": 50,
+    "wired_w": 67,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 226,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mix Fold 4",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mix_Fold_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mix Fold 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mix Fold 4",
+    "revid": 1383640402
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

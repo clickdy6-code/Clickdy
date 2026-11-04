@@ -1,0 +1,64 @@
+{
+  "slug": "wimm-labs-wimm-one",
+  "brand": "WIMM Labs",
+  "name": "WIMM One",
+  "status": "published",
+  "announced": "2011-11-09",
+  "released": "2011-11-09",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 9, 2011",
+      "Series": "WIMM"
+    },
+    "Body": {
+      "Form factor": "Smartwatch",
+      "Dimensions": "36 mm H, 32 mm W, 12.5 mm D.",
+      "Weight": "22 g",
+      "Other": "Custom UI and Development Addons, 3-axis Magnetometer (Compass), 3-axis accelerometer"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 with Custom UI",
+      "CPU": "667 MHz ARM11"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "2–32 GB (flash nand memory)"
+    },
+    "Display": {
+      "Display": "160×160 px, 1.0 in at 160 ppi, Multi-touch, capacitive touchscreen, transflective, Always on"
+    },
+    "Battery": {
+      "Battery": "Lithium ion 3.7 V, 230 mAh , Run time: 30 hours"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1, Wi-Fi 802.11b/g, 14-pin connector supporting USB 2.0"
+    }
+  },
+  "key": {
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 230,
+    "os": "Android 2.1",
+    "nfc": false,
+    "weight_g": 22,
+    "thickness_mm": 12.5,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: WIMM One",
+      "url": "https://en.wikipedia.org/wiki/WIMM_One"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"WIMM One\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "WIMM One",
+    "revid": 1369097723
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

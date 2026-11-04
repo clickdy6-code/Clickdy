@@ -1,0 +1,78 @@
+{
+  "slug": "zte-blade-v880",
+  "brand": "ZTE",
+  "name": "Blade V880",
+  "status": "published",
+  "announced": "2010-09-21",
+  "released": "2010-09-21",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Orange_San_Francisco_%28ZTE_Blade%29.jpg/500px-Orange_San_Francisco_%28ZTE_Blade%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Orange_San_Francisco_%28ZTE_Blade%29.jpg/250px-Orange_San_Francisco_%28ZTE_Blade%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "ZTE Blade V880",
+      "credit": "Asim Saleem (Asim18), CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Orange_San_Francisco_(ZTE_Blade).jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "21 September 2010",
+      "Series": "Blade"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "116 mm H, 56.5 mm W, 11.8 mm D",
+      "Weight": "130 g",
+      "Other": "Proximity sensor, Ambient Light sensor, Accelerometer, FM Radio, Compass, GPS, A-GPS, LED Notification."
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 Éclair or 2.2 Froyo",
+      "CPU": "Qualcomm MSM7227 600 MHz (ARMv6 architecture)",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB or 256 MB RAM",
+      "Storage": "512 MB NAND",
+      "Card slot": "microSD slot v2.0 compatible (supports up to 32 GB), 2 GB card included"
+    },
+    "Display": {
+      "Display": "480×800 px, 3.5 in, 267 PPI, WVGA, OLED or TFT LCD capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 or 5.0 megapixel with auto focus"
+    },
+    "Battery": {
+      "Battery": "1250 mAh, Internal rechargeable lithium-ion battery, 4 hours talk time and 216 hours (9 days) stand-by time"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g), Bluetooth 2.1+EDR, GSM 850 900 1800 1900 MHz HSPA/WCDMA 900 2100 MHz"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "OLED",
+    "battery_mah": 1250,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 130,
+    "thickness_mm": 11.8,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Blade V880",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Blade_V880"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Blade V880\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Blade V880",
+    "revid": 1380028948
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

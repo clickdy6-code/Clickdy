@@ -1,0 +1,74 @@
+{
+  "slug": "sony-ericsson-naite",
+  "brand": "Sony Ericsson",
+  "name": "Naite",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Naite_silver.jpg/500px-Naite_silver.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Naite_silver.jpg/250px-Naite_silver.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Naite",
+      "credit": "Erik Hörnfeldt, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Naite_silver.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "J",
+      "Successor": "Sony Ericsson Cedar"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "108 x 47 x 12.6 mm",
+      "Weight": "84 g",
+      "Other": "Eco friendly handset"
+    },
+    "Memory": {
+      "RAM": "100 MB (internal)",
+      "Card slot": "microSD, expandable up to 8 GB"
+    },
+    "Display": {
+      "Display": "2.2 inches, TFT, 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "2 MP, 1600×1200 pixels",
+      "Front camera": "(VGA) Video-call camera"
+    },
+    "Battery": {
+      "Battery": "Li-Po (BST-33) (950 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS: 32–48 kbit/s, EDGE: 236.8 kbit/s, 3G–HSDPA (3.6 Mbit/s), Bluetooth v2.0 with A2DP"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 950,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 84
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Naite",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Naite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Naite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Naite",
+    "revid": 1362584940
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "sony-xperia-xz1-compact",
+  "brand": "Sony",
+  "name": "Xperia XZ1 Compact",
+  "status": "published",
+  "announced": "2017-08-31",
+  "released": "2017-08-31",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sony_Xperia_XZ1_Compact.jpg/500px-Sony_Xperia_XZ1_Compact.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sony_Xperia_XZ1_Compact.jpg/250px-Sony_Xperia_XZ1_Compact.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia XZ1 Compact",
+      "credit": "Puddin1975, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_XZ1_Compact.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-08-31",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia X Compact",
+      "Successor": "Sony Xperia XZ2 Compact"
+    },
+    "Network": {
+      "Technology": "HSPA, GSM & LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "129 mm H, 65 mm W, 9.3 mm D",
+      "Weight": "143 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 \"Oreo\" (Upgradable to Android 9 \"Pie\")",
+      "Chipset": "Qualcomm Snapdragon 835 MSM8998",
+      "CPU": "Octa-core 64-bit (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "32 GB",
+      "Card slot": "Up to 256GB microSDXC"
+    },
+    "Display": {
+      "Display": "4.6 in 720p IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "19 MP Motion Eye Camera, 1/2.3 memory-stacked Exmor RS image sensor",
+      "Front camera": "8 MP 1/4 Exmor R for mobile sensor"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 2700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS/BeiDou/Galileo, Bluetooth 5 , USB (Type-C port, USB charging, Quick Charge 3.0), NFC"
+    }
+  },
+  "key": {
+    "display_in": 4.6,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 835 MSM8998",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 19,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2700,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 143,
+    "thickness_mm": 9.3,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia XZ1 Compact",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_XZ1_Compact"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia XZ1 Compact\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia XZ1 Compact",
+    "revid": 1371834980
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "sony-ericsson-s500",
+  "brand": "Sony Ericsson",
+  "name": "S500",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/SonyEricssonS500iClosed.jpg/500px-SonyEricssonS500iClosed.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/SonyEricssonS500iClosed.jpg/250px-SonyEricssonS500iClosed.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson S500",
+      "credit": "KhE 龙 from (optional), CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SonyEricssonS500iClosed.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "-GSM (850/900/1800/1900), -Quad band EDGE, -GPRS"
+    },
+    "Body": {
+      "Form factor": "Compact Slider",
+      "Dimensions": "3.9 x 1.9 x 0.6 in., 99 x 47 x 14 mm",
+      "Weight": "3.3 oz, 94 gr"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson Java Platform 7"
+    },
+    "Memory": {
+      "RAM": "12 MB internal",
+      "Card slot": "Memory Stick Micro (M2) (up to 2 GB)"
+    },
+    "Display": {
+      "Display": "2\" 262,144 TFT LCD, 240x320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel"
+    },
+    "Battery": {
+      "Battery": "900 mAh Li-Pol battery"
+    },
+    "Connectivity": {
+      "Connectivity": "-Bluetooth (2.0), -USB (2.0 proprietary)"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson S500",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_S500"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson S500\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson S500",
+    "revid": 1366341441
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

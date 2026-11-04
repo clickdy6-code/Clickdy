@@ -1,0 +1,83 @@
+{
+  "slug": "sony-xperia-m4-aqua",
+  "brand": "Sony",
+  "name": "Xperia M4 Aqua",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia M2",
+      "Successor": "Sony Xperia M5 (by generation), Sony Xperia XA (by price range)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145.5 mm H , 72.59 mm W , 7.3 mm D",
+      "Weight": "136 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.0 Lollipop , upgradable to Android 6.0.1 Marshmallow",
+      "Chipset": "Qualcomm Snapdragon 615",
+      "CPU": "Octa-core (1.5 GHz quad-core Cortex-A53 & 1.0 GHz quad-core Cortex-A53)",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "8 GB (E2303, E2312, E2333, E2353), 16 GB (E2306, E2363)",
+      "Card slot": "Up to 200 GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.0 in diagonal"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP with LED flash , 1080p video recording @ 30 frames/s",
+      "Front camera": "5 MP, 1080p video recording @ 30 frames/s"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 2400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS, NFC, Bluetooth 4.1, USB 2.0 (Micro-B port, USB charging)"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "chipset": "Qualcomm Snapdragon 615",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      8,
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "battery_mah": 2400,
+    "os": "Android 5.0",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 136,
+    "thickness_mm": 7.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia M4 Aqua",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_M4_Aqua"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia M4 Aqua\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia M4 Aqua",
+    "revid": 1382047375
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

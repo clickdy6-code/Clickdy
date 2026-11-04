@@ -1,0 +1,72 @@
+{
+  "slug": "palm-treo-600",
+  "brand": "Palm",
+  "name": "Treo 600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Handspring_Treo_600_%2853281752340%29_%28cropped%29.jpg/500px-Handspring_Treo_600_%2853281752340%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Handspring_Treo_600_%2853281752340%29_%28cropped%29.jpg/250px-Handspring_Treo_600_%2853281752340%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Palm Treo 600",
+      "credit": "rfdigitalwpg, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Handspring_Treo_600_(53281752340)_(cropped).jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "November 2003",
+      "Predecessor": "Treo 270/300",
+      "Successor": "Treo 650"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "4.4 x",
+      "Weight": "5.9 oz"
+    },
+    "Platform": {
+      "Operating system": "Palm OS 5.2.1H",
+      "CPU": "Texas Instruments OMAP1510 (144 MHz, ARM925T, 130 nm)"
+    },
+    "Memory": {
+      "RAM": "32 MB, 24 MB available user storage",
+      "Card slot": "MMC, SD, not compatible with SDHC"
+    },
+    "Display": {
+      "Display": "160x160 2.5in., 3,375-colors passive LCD, touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "0.3-megapixel"
+    },
+    "Battery": {
+      "Battery": "1800 mAh rechargeable lithium-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, IrDA (SIR mode only)"
+    }
+  },
+  "key": {
+    "display_in": 2.5,
+    "display_type": "LCD",
+    "battery_mah": 1800,
+    "nfc": false,
+    "year": 2003
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Treo 600",
+      "url": "https://en.wikipedia.org/wiki/Treo_600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Treo 600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Treo 600",
+    "revid": 1361536765
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

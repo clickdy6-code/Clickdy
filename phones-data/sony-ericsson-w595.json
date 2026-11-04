@@ -1,0 +1,66 @@
+{
+  "slug": "sony-ericsson-w595",
+  "brand": "Sony Ericsson",
+  "name": "W595",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sony_Ericsson_W595_%28Active_Blue%29_-_Front_%28Open%29.jpg/500px-Sony_Ericsson_W595_%28Active_Blue%29_-_Front_%28Open%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sony_Ericsson_W595_%28Active_Blue%29_-_Front_%28Open%29.jpg/250px-Sony_Ericsson_W595_%28Active_Blue%29_-_Front_%28Open%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W595",
+      "credit": "Beamish4, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W595_(Active_Blue)_-_Front_(Open).jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson W580"
+    },
+    "Network": {
+      "Technology": "GSM 900/850/1800/1900 and UMTS and HSDPA and EDGE"
+    },
+    "Body": {
+      "Form factor": "Sliding candybar",
+      "Dimensions": "3.9 × 1.9 × 0.6 in., 100.0 × 47.0 × 14.0 mm",
+      "Weight": "104 g"
+    },
+    "Memory": {
+      "RAM": "40 MB Internal, Memory Stick Micro M2"
+    },
+    "Display": {
+      "Display": "240×320 pixels (QVGA), 2.2\", 262,144 (18-bit) color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel",
+      "Front camera": "not featured"
+    },
+    "Connectivity": {
+      "Connectivity": "HSDPA, 3G, USB 2.0, Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 104
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W595",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W595"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W595\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W595",
+    "revid": 1361807526
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

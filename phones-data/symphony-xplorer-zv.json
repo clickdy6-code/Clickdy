@@ -1,0 +1,79 @@
+{
+  "slug": "symphony-xplorer-zv",
+  "brand": "Symphony",
+  "name": "Xplorer ZV",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 2015",
+      "Series": "Xplorer"
+    },
+    "Network": {
+      "Technology": "2G, 3G"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "140 mm × 70 mm × 7.9 mm",
+      "Weight": "150 gm"
+    },
+    "Platform": {
+      "Operating system": "Android v4.4.2 KitKat",
+      "CPU": "1.4 GHz Octa Core/MT 6592M"
+    },
+    "Memory": {
+      "RAM": "2GB RAM",
+      "Storage": "16GB",
+      "Card slot": "Up to 32 GB"
+    },
+    "Display": {
+      "Display": "5 in"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "2000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 2000,
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 7.9,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Symphony Xplorer ZV",
+      "url": "https://en.wikipedia.org/wiki/Symphony_Xplorer_ZV"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Symphony Xplorer ZV\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Symphony Xplorer ZV",
+    "revid": 1361536576
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

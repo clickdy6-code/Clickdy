@@ -1,0 +1,102 @@
+{
+  "slug": "sony-xperia-1-viii",
+  "brand": "Sony",
+  "name": "Xperia 1 VIII",
+  "status": "published",
+  "announced": "2026-06-19",
+  "released": "2026-06-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-06-19",
+      "Series": "Xperia",
+      "Predecessor": "Sony Xperia 1 VII"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G 5G NR, NR",
+      "SIM": "nanoSIM, eSIM, 1 nanoSIM + 1 eSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162 mm H, 74 mm W, 8.3 mm D",
+      "Weight": "200 g",
+      "Other": "Native Sony Alpha support, IP65/IP68 Water/dust resistant, PS5 Remote Play, DUALSENSE® Control compatibility, Game Enhancer"
+    },
+    "Platform": {
+      "Operating system": "Android 16, upgradable to Android 17, Up to 4 major Android upgrades, 6 years of security patches",
+      "Chipset": "Qualcomm Snapdragon 8 Elite Gen 5",
+      "CPU": "Octa-core, 3 nm (3LPE), 2x4.32 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M",
+      "GPU": "Adreno 840"
+    },
+    "Memory": {
+      "RAM": "LPDDR5X RAM, 12 GB , 16 GB",
+      "Storage": "Universal Flash Storage (UFS 4.1), 256 GB , 512 GB, 1 TB (Only Native Gold)",
+      "Card slot": "microSDXC, expandable up to 2 TB (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.5 in LTPO FHD+ 19.5:9 (2340 x 1080) HDR OLED, ~396 pixel density, Gorilla Glass Victus 2, HDR10, HLG, 10-bit color depth, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "52 MP effectively used 48 MP (Sony Exmor T IMX888/Lytia LYT-800), f/1.9, 24 mm (wide), 1/1.35\", 1.12 μm, Dual Pixel PDAF, OIS, 50 MP effectively used 48 MP (Sony Exmor RS IMX906), f/2.8, 70 mm (periscope telephoto), 1/1.56\", 1.0 μm Dual Pixel PDAF, 2.9x optical zoom, 5.8x hybrid zoom OIS, 50 MP effectively used 48 MP (Sony Exmor IMX906), f/2.0, 104˚, 16 mm (ultrawide), 1/1.56\", 1.0 μm, Dual Pixel PDAF, Zeiss Optics, HDR, eye-tracking, Zeiss T* lens coating, 4K@24/25/30/60/120 fps, 1080p@30/60/120 fps, Auto-framing",
+      "Front camera": "12 MP (Sony Exmor RS IMX663), f/2.0, 20 mm (wide) 1/2.93\", 5-axis gyro-EIS, HDR Photo, Portrait selfie, Display flash, Hand and Smile Shutter, 4K@30/60fps, 1080@30/60fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Front Full-stage stereo speakers and 3.5 mm headphone jack, 4 Pole, Cirrus Logic Speaker Amp x2, High-Resolution Audio, High-Resolution Audio Wireless, 360 Reality Audio hardware decoding, Dolby Atmos tuned by Sony Pictures and Sony Music, DSEE Ultimate, Stereo Recording, SBC, AAC, Qualcomm aptX, Qualcomm aptX HD, Qualcomm aptX adaptive, Qualcomm aptX TWS+, LDAC"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 5000 mAh, USB PD 3.1 30 W Charging, Qi Wireless Charging",
+      "Charging": "Fast Charging USB PD 3.1 30 W Charging, Qi 15 W Wireless Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/ax/be (2.4/5GHz), Bluetooth 6.0, USB-C 3.2 Gen 1 (supports DisplayPort), NFC, GPS with Assisted GPS, Galileo, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "LTPO FHD+ 19.5:9 (2340 x 1080) HDR OLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 52,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@24fps",
+    "front_mp": 12,
+    "battery_mah": 5000,
+    "wireless_w": 15,
+    "wired_w": 30,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "ip": "IP65",
+    "weight_g": 200,
+    "thickness_mm": 8.3,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 1 VIII",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_1_VIII"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 1 VIII\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 1 VIII",
+    "revid": 1383640148
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

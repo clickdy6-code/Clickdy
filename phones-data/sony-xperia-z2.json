@@ -1,0 +1,100 @@
+{
+  "slug": "sony-xperia-z2",
+  "brand": "Sony",
+  "name": "Xperia Z2",
+  "status": "published",
+  "announced": "2014-03-24",
+  "released": "2014-03-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Sony_Xperia_Z2_face_20140429.jpg/500px-Sony_Xperia_Z2_face_20140429.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Sony_Xperia_Z2_face_20140429.jpg/250px-Sony_Xperia_Z2_face_20140429.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia Z2",
+      "credit": "Maqa544, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_Z2_face_20140429.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-03-24",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia Z1",
+      "Successor": "Sony Xperia Z3"
+    },
+    "Network": {
+      "Technology": "D6502: UMTS HSPA+ 850 (Band V), 900 (Band VIII), 1700 (Band IV), 1900 (Band II), 2100 (Band I) MHz; GSM GPRS/EDGE 850, 900, 1800, 1900 MHz., D6503: UMTS HSPA+ 850 (Band V), 900 (Band VIII), 1700 (Band IV), 1900 (Band II), 2100 (Band I) MHz; GSM GPRS/EDGE 850, 900, 1800, 1900 MHz; LTE (Bands 1, 2, 3, 4, 5, 7, 8, 13, 17, 20)., D6543: UMTS HSPA+ 850 (Band V), 900 (Band VIII), 1700 (Band IV), 1900 (Band II), 2100 (Band I) MHz; GSM GPRS/EDGE 850, 900, 1800, 1900 MHz; LTE (Bands 1, 2, 3, 4, 5, 7, 8)."
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.8 x 73.3 x 8.2 mm",
+      "Weight": "163 g",
+      "Other": "Available in black, purple and white, IP55 / IP58 (Dust protected, Water jet protected & Waterproof), Digital Noise cancellation, Sony Exmor R for Mobile, Sony Exmor RS for Mobile, Sony G Lens, 1/2.3 Aperture sensor, Sony BIONZ image processor, SteadyShot, Smile shutter, SensMe, TrackID, Sony Entertainment Network, PlayStation App, Remote Play, 1seg (SO-03F variant only), Miracast, Sony Sketch, Magnetic charge port, Osaifu-Keitai (SO-03F variant only), NOTTV (SO-03F variant only), POBox Plus (SO-03F variant only)"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 KitKat (Launch) , Android 4.4.4 KitKat , Android 5.0.2 Lollipop (last version for SO-03F) , Android 5.1.1 Lollipop , Android 6.0.1 Marshmallow (current)",
+      "Chipset": "Qualcomm Snapdragon 801",
+      "CPU": "2.3 GHz quad-core Krait (2.3 GHz Qualcomm MSM8974AB Quad Core)",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "16 GB (32 GB for SO-03F variant)",
+      "Card slot": "Up to 128 GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.2 in diagonal IPS LCD, Full HD 1920x1080 px, BRAVIA TRILUMINOS Display with Sony Live Color LED, X-Reality Engine for Mobile"
+    },
+    "Cameras": {
+      "Rear camera": "Sony G Lens 20.7 MP 1/2.3\" Exmor RS IMX220 back-side illuminated sensor with BIONZ™ Engine for mobile image processor and LED flash, 2160p video recording @ 30 frames/s, 1080p video recording @ 30/60 frames/s, 720p video recording @ 30/120 frames/s",
+      "Front camera": "2.2 MP (1080p video recording)"
+    },
+    "Battery": {
+      "Battery": "Non-user removable Li-ion 3200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS, NFC, Bluetooth 4.0, MHL 3.0, USB 2.0 (Micro-B port, USB charging), USB OTG, 3.50 mm headphone jack, 5 pole"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 801",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 20.7,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 2.2,
+    "battery_mah": 3200,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "ip": "IP55",
+    "weight_g": 163,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia Z2",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_Z2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia Z2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia Z2",
+    "revid": 1376399827
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

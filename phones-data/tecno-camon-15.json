@@ -1,0 +1,101 @@
+{
+  "slug": "tecno-camon-15",
+  "brand": "Tecno",
+  "name": "Camon 15",
+  "status": "published",
+  "announced": "2020-04-02",
+  "released": "2020-04-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Tecno_Camon_15_Premier.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Tecno_Camon_15_Premier.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Tecno Camon 15",
+      "credit": "Roy Sarkar Dipok, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tecno_Camon_15_Premier.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-04-02",
+      "Series": "Camon 15",
+      "Predecessor": "Tecno Camon 12"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, Other:, USB 2.0, 3.5mm Headphone jack"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Camon 15 Air:, 164.5 x 76.5 x 8.9 mm, Camon 15:, 164 x 76.3 x 8.7 mm, Camon 15 Pro:, 163.3 x 77.7 x 9 mm, Camon 15 Premier:, 163.3 x 77.7 x 9 mm",
+      "Weight": "Camon 15 Air: 196 g, Camin 15: 196 g, Camon 15 Pro: 203 g, Camon 15 Premier: 203 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with HiOS 6.0",
+      "Chipset": "Camon 15 Air and Camon 15: MediaTek Helio P22, Camon 15 Pro: MediaTek Helio P35, Camon 15 Premier: MediaTek W Helio P35",
+      "CPU": "Helio: Octa-core (2.0 GHz Cortex-A53 and 4x2.35 GHz Cortex-A53, 4x1.8 GHz Cortex-A53)",
+      "GPU": "MediaTek: PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "Camon 15 Air: 3 RAM, Camon 15: 4 GB RAM, Camon 15 Pro and Camon 15 Premier: 6 GB RAM",
+      "Storage": "Camon 15 Air and Camon 15: 64 GB, Camon 15 Pro and Camon 15 Premier: 128 GB",
+      "Card slot": "microSD, expandable up to 256 GB, 512 GB"
+    },
+    "Display": {
+      "Display": "720 x 1600 720p, 1080 x 2340 1080p IPS LCD capacitive touchscreen (IPS Dot-in display for Camon 15 Air and Camon 15), Camon 15 Air: 6.6 in (164.5 mm), (266 ppi), Camon 15: 6.6 in (164.1 mm), (266 ppi), Camon 15 Pro: 6.6 in (163.3 mm), (390 ppi), Camon 15 Premier: 6.6 in (163.3 mm), (390 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Camon 15 Air and Camon 15: 48 Pixel#Megapixel, MP + 5MP (Ultra wide angle lens, ultrawide) + 2MP Macro photography, macro + Graphics display resolution#320 × 240 (QVGA), QVGA, Camon 15 Pro: 48 MP + 5MP (ultrawide), 115° Field of view, FoV + 2MP macro, ultra night lens, f/1.79, Digital signal processor, DSP chip + QVGA, Camon 15 Premier: Sony 64 MP + 5MP (ultrawide), 115° FoV + 2MP (depth) + QVGA, All: Quad LED flash, HDR, AI scene detection, PDAF, 1080p@30fps, bokeh, panorama",
+      "Front camera": "Camon 15 Air: 8 MP, f/2.0, (wide), Camon 15: 16 MP, f/2.0, Camon 15 Pro and Camon 15 Premier: 32MP motorized pop-up, All: Dual LED flash, HDR, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "Camon 15 Air and Camon 15: 5000 mAh, Camon 15 Pro and Camon 15 Premier: 4000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi 802.11 a/b/g/n, 3G/LTE"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS LCD",
+    "chipset": "Camon 15 Air",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 5,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 196,
+    "thickness_mm": 9,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Camon 15",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Camon_15"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Camon 15\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Tecno Camon 15",
+    "revid": 1383367056
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

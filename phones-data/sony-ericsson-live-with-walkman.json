@@ -1,0 +1,80 @@
+{
+  "slug": "sony-ericsson-live-with-walkman",
+  "brand": "Sony Ericsson",
+  "name": "Live with Walkman",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/WT19i_%28no_BG%29.png/500px-WT19i_%28no_BG%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/WT19i_%28no_BG%29.png/250px-WT19i_%28no_BG%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Live with Walkman",
+      "credit": "MehranVB, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:WT19i_(no_BG).png",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Walkman"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone (black, white)",
+      "Dimensions": "105 mm H , 56.5 mm W , 14 mm D",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 (Gingerbread) upgradeable up to Android 4.0.4 (Ice Cream Sandwich) unofficially upgradeable to Android 6.0.1 (Marshmallow) via Cyanogenmod 13.",
+      "CPU": "Qualcomm MSM8255 1 GHz Scorpion (Snapdragon S2) (stable-overclockable up to 1.6 GHz via custom kernels)",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB of RAM",
+      "Storage": "320 MB",
+      "Card slot": "microSD, 2 GB included (expandable up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3.2 inch 320×480 px TFT LCD at 180 PPI, 16M Colors"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP 2592×1944 px, 8× digital zoom, Autofocus, Flash LED illumination, 720p video recording, Face recognition, Geo-tagging, Image stabilization, Smile detection, Touch focus, Video 720p",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 with A2DP, microUSB 2.0, 3.5 mm audio jack (OMTP standard), Assisted GPS, Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1200,
+    "os": "Android 2.3",
+    "nfc": false,
+    "weight_g": 115,
+    "thickness_mm": 14
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Live with Walkman",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Live_with_Walkman"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Live with Walkman\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Live with Walkman",
+    "revid": 1381178555
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

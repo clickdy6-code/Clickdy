@@ -1,0 +1,61 @@
+{
+  "slug": "palm-treo-800w",
+  "brand": "Palm",
+  "name": "Treo 800w",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Palm Treo Pro"
+    },
+    "Network": {
+      "Technology": "CDMA2000 (3G)"
+    },
+    "Body": {
+      "Dimensions": "4.41 × 2.28 × 0.73 in",
+      "Weight": "4.94 oz (140 g)"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.1 Professional",
+      "CPU": "TI OMAP2431 (330 MHz ARM1136 + 220 MHz C64x DSP)"
+    },
+    "Memory": {
+      "RAM": "170 MB available user storage",
+      "Card slot": "microSD up to 8 GB"
+    },
+    "Display": {
+      "Display": "320×320 65k colors touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixels with 2× digital zoom"
+    },
+    "Battery": {
+      "Battery": "1150 mA·h Lithium-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "EVDO Rev A, 1xRTT, Bluetooth, aGPS"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 140
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Treo 800w",
+      "url": "https://en.wikipedia.org/wiki/Treo_800w"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Treo 800w\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Treo 800w",
+    "revid": 1361536796
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

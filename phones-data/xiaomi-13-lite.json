@@ -1,0 +1,98 @@
+{
+  "slug": "xiaomi-13-lite",
+  "brand": "Xiaomi",
+  "name": "13 Lite",
+  "status": "published",
+  "announced": "2022-09-27",
+  "released": "2022-09-27",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Xiaomi_13_Lite_front.jpg/500px-Xiaomi_13_Lite_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Xiaomi_13_Lite_front.jpg/250px-Xiaomi_13_Lite_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 13 Lite",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_13_Lite_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Civi 2: 2022-09-27",
+      "Series": "Xiaomi/Civi",
+      "Predecessor": "Xiaomi 12 Lite, Xiaomi Civi",
+      "Successor": "Xiaomi 14 Civi, Xiaomi Civi 3"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.2 mm H , 72.7 mm W , 7.23 mm D",
+      "Weight": "13 Lite: 171 g, Civi 2: 171.8 g"
+    },
+    "Platform": {
+      "Operating system": "Original:, 13 Lite: Android 12 with MIUI 14, Civi 2: Android 12 with MIUI 13, Current: Android 15 with Xiaomi HyperOS 2",
+      "Chipset": "Qualcomm SM7450-AB Snapdragon 7 Gen 1 (4 nm)",
+      "CPU": "Octa-core (1×2.4 GHz Cortex-A710 & 3×2.36 GHz Cortex-A710 & 4×1.8 GHz Cortex-A510)",
+      "GPU": "Adreno 644"
+    },
+    "Memory": {
+      "RAM": "13 Lite: 8 GB, Civi 2: 8/12 GB, LPDDR4X",
+      "Storage": "13 Lite: 64/128/256 GB, Civi 2: 128/256 GB, UFS 2.2"
+    },
+    "Display": {
+      "Display": "AMOLED, 6.55\", 2400 × 1080 (Full HD+), 20:9, 402 ppi, 120 Hz, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "Wide: 50 MP Sony IMX766, f/1.8, 23 mm, 86°, 1/1.56\", 1 µm, PDAF, Ultrawide:, 13 Lite: 8 MP Sony IMX355, f/2.2, 119˚, 1/4.0\", 1.12 µm, Civi 2: 20 MP, f/2.2, 115˚, 1/2.78\", 1 µm, Macro: 2 MP GalaxyCore GC02M1, f/2.4, Other: Dual-LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60/120fps, 720p@960fps; gyro-EIS",
+      "Front camera": "13 Lite: 32 MP, f/2.4, 100° (ultrawide), 1/2.74\", 0.8 µm + 8 MP, f/2.3 (depth sensor), Civi 2: 32 MP, f/2.0 (wide), 1/2.8\", 0.8 µm, AF + 32 MP, f/2.4, 100° (ultrawide), 1/2.74\", 0.8 µm, Dual-LED dual-tone flash, HDR, Video: 1080p@30/60fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4500 mAh",
+      "Charging": "Fast charging 67 W, 100% in 40 min (advertised), Power Delivery 3.0"
+    }
+  },
+  "key": {
+    "display_in": 6.55,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SM7450-AB Snapdragon 7 Gen 1",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4500,
+    "wired_w": 67,
+    "os": "Android 12",
+    "five_g": true,
+    "dual_sim": true,
+    "weight_g": 171,
+    "thickness_mm": 7.23,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 13 Lite",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_13_Lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 13 Lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 13 Lite",
+    "revid": 1380461765
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

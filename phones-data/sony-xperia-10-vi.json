@@ -1,0 +1,98 @@
+{
+  "slug": "sony-xperia-10-vi",
+  "brand": "Sony",
+  "name": "Xperia 10 VI",
+  "status": "published",
+  "announced": "2024-05-15",
+  "released": "2024-05-15",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024-05-15",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia 10 V",
+      "Successor": "Sony Xperia 10 VII"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G 5G NR, NR",
+      "SIM": "nanoSIM, eSIM, 1 nanoSIM + 1 eSIM, 1 nanoSIM + 1 nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155 mm H, 68 mm W, 8.3 mm D",
+      "Weight": "164 g",
+      "Other": "IP65/IP68 Water/dust resistant"
+    },
+    "Platform": {
+      "Operating system": "Android 14, Up to 3 major Android upgrades, 4 years of security patches, upgradable to Android 16, ineligible to receive Android 17",
+      "Chipset": "Qualcomm Snapdragon 6 Gen 1",
+      "CPU": "Octa-core, 4 nm (SF4), 4x2.2 GHz Cortex-A78 + 4x1.8 GHz Cortex-A55",
+      "GPU": "Adreno 710"
+    },
+    "Memory": {
+      "RAM": "LPDDR4X RAM, 8 GB",
+      "Storage": "Universal Flash Storage (UFS 2.2), 128 GB",
+      "Card slot": "microSDXC, expandable up to 1.5 TB (shared SIM slot)"
+    },
+    "Display": {
+      "Display": "6.1 in LTPS FHD+ 21:9 (2520 x 1080) HDR10 OLED, ~449 pixel density, Gorilla Glass Victus 2, HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP (Sony Exmor RS IMX582), f/1.8, 26 mm (wide), 1/2.0\", 0.8 μm, PDAF, OIS, 8 MP (Hynix HI846), f/2.2, 120˚, 16 mm (ultrawide), 1/4\", 1.12 μm, 4K@30fps, 1080p@30/60/120 fps",
+      "Front camera": "8MP (Hynix HI846), f/2.0, 26mm (wide) (1/4.0\", 1.12 μm), fixed focus, 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Front stereo speakers and 3.5 mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 5000 mAh, USB PD 3.1 21 W Charging",
+      "Charging": "Fast Charging USB PD 3.1 21 W Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5GHz), Bluetooth 5.2, USB-C 2.0 , NFC, GPS with Assisted GPS, Galileo, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 6 Gen 1",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 21,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "ip": "IP65",
+    "weight_g": 164,
+    "thickness_mm": 8.3,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 10 VI",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_VI"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 10 VI\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 10 VI",
+    "revid": 1381697075
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

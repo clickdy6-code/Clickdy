@@ -1,0 +1,56 @@
+{
+  "slug": "sharp-sx862",
+  "brand": "Sharp",
+  "name": "SX862",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "HSPA 3.6 Mbit/s / WCDMA 2100MHz / GSM Triband 900/1800/1900MHz"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Dimensions": "110.6 x 50 x 18 mm",
+      "Weight": "120 g"
+    },
+    "Memory": {
+      "RAM": "50 MB",
+      "Card slot": "Supports up to 2 GB MicroSD Memory Card"
+    },
+    "Display": {
+      "Display": "3.2\" 854 x 480 pixels 16:9 widescreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels/ Auto focus/ 25x digital zoom"
+    },
+    "Battery": {
+      "Battery": "Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "Stereo Bluetooth, USB, Infrared"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 120
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sharp SX862",
+      "url": "https://en.wikipedia.org/wiki/Sharp_SX862"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sharp SX862\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sharp SX862",
+    "revid": 1374924992
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

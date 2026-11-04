@@ -1,0 +1,84 @@
+{
+  "slug": "sony-xperia-c5-ultra",
+  "brand": "Sony",
+  "name": "Xperia C5 Ultra",
+  "status": "published",
+  "announced": "2015-08-14",
+  "released": "2015-08-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-08-14",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia T2 Ultra, Sony Xperia C4",
+      "Successor": "Sony Xperia XA Ultra"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.2 mm H , 79.6 mm W , 8.2 mm D",
+      "Weight": "187 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.0 \"Lollipop\" , Upgradable to Android 6.0 \"Marshmallow\"",
+      "Chipset": "MediaTek MT6752",
+      "CPU": "1.7 GHz octa-core",
+      "GPU": "Mali T760-Mp2 700MHz"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "Up to 200 GB microSDXC"
+    },
+    "Display": {
+      "Display": "6.0 in diagonal"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP with LED flash, 1080p video recording @ 30 frames/s",
+      "Front camera": "13 MP with LED flash, 1080p video recording @ 30 frames/s"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 2930 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS, NFC, Bluetooth 4.1, USB 2.0 (Micro-B port, USB charging), USB OTG, 3.50 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "chipset": "MediaTek MT6752",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 13,
+    "battery_mah": 2930,
+    "os": "Android 5.0",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 187,
+    "thickness_mm": 8.2,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia C5 Ultra",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_C5_Ultra"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia C5 Ultra\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia C5 Ultra",
+    "revid": 1361536041
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

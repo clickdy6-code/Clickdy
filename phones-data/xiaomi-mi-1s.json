@@ -1,0 +1,96 @@
+{
+  "slug": "xiaomi-mi-1s",
+  "brand": "Xiaomi",
+  "name": "Mi 1S",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/MIUI_V2_2.3.6y_MI_ONE_PLUS.jpg/500px-MIUI_V2_2.3.6y_MI_ONE_PLUS.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/MIUI_V2_2.3.6y_MI_ONE_PLUS.jpg/250px-MIUI_V2_2.3.6y_MI_ONE_PLUS.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi 1S",
+      "credit": "TipzTeam, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MIUI_V2_2.3.6y_MI_ONE_PLUS.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-08",
+      "Series": "Mi",
+      "Successor": "Xiaomi Mi 2S"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900, HSDPA 850 / 1900 / 2100"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "125.0 × 63.0 × 11.9 mm",
+      "Weight": "149 g",
+      "Other": "Proximity sensor, accelerometer, compass"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 2.3.6 Gingerbread with MIUI V2 , Current: Android 4.1.2 Jelly Bean with MIUI V5",
+      "CPU": "Qualcomm MSM8660 Snapdragon S3 (45 nm), 2×1.7 GHz Scorpion",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1 GB LPDDR2",
+      "Storage": "4 GB eMMC 2.0",
+      "Card slot": "microSDHC up to 32 GB"
+    },
+    "Display": {
+      "Display": "TFT LCD, 4.0\", 854 × 480, 16:9, 245 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP , 28 mm (wide-angle), AF, 1-LED flash, HDR, Video: 1080p@30fps, 720p@30fps",
+      "Front camera": "2 MP (wide-angle), Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Removable, Li-Ion 1930 mAh",
+      "Charging": "5 W"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB 2.0, 3.5 mm Audio, Bluetooth 2.1 (A2DP), Wi-Fi 802.11 b/g/n (hotspot), GPS, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 2,
+    "battery_mah": 1930,
+    "wired_w": 5,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 149,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 1S",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_1S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 1S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 1S",
+    "revid": 1361537370
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

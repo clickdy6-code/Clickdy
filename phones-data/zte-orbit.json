@@ -1,0 +1,76 @@
+{
+  "slug": "zte-orbit",
+  "brand": "ZTE",
+  "name": "Orbit",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2012"
+    },
+    "Network": {
+      "Technology": "2.5G GSM/GPRS/EDGE – 850, 900, 1800, 1900 MHz, (ZTE Render) 2.5G CDMA – 850, 1900 MHz, 3G UMTS/HSDPA 7.2 Mbit/s – 900, 2100 MHz, (ZTE Render) 3G CDMA2000/1xEV-DO 3.1 Mbit/s – 800, 1900 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "119.4 mm H, 63.5 mm W, 10.2 mm D",
+      "Weight": "136 g",
+      "Other": "Talk time: Up to 12.6 hours , Standby time: Up to 530 hours (approx. 22 days)"
+    },
+    "Platform": {
+      "Operating system": "Windows Phone 7.5",
+      "CPU": "1 GHz single core Qualcomm S1 MSM7227A-1",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB internal flash and 7 GB free in SkyDrive"
+    },
+    "Display": {
+      "Display": "4.0 in WVGA TFT, 800 x 480 pixels at 233 ppi, 15:9 aspect ratio, Color depth 16 bit, 65k colors, 60 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, 720p video capture @ 30 fps"
+    },
+    "Battery": {
+      "Battery": "User serviceable 1600 mAh Li-poly battery"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "refresh_hz": 60,
+    "storage_gb": [
+      4,
+      7
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1600,
+    "os": "Windows Phone 7.5",
+    "five_g": true,
+    "weight_g": 136,
+    "thickness_mm": 10.2,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Orbit",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Orbit"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Orbit\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Orbit",
+    "revid": 1361537746
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

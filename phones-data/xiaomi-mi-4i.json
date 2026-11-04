@@ -1,0 +1,100 @@
+{
+  "slug": "xiaomi-mi-4i",
+  "brand": "Xiaomi",
+  "name": "Mi 4i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Xiaomi_Mi_4i_%2803%29.jpg/500px-Xiaomi_Mi_4i_%2803%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Xiaomi_Mi_4i_%2803%29.jpg/250px-Xiaomi_Mi_4i_%2803%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi 4i",
+      "credit": "Gpkp, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_4i_(03).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-04",
+      "Series": "Mi",
+      "Predecessor": "Xiaomi Mi 2A",
+      "Successor": "Xiaomi Mi 5X"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, 3G, EVDO, HSDPA, LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "138.1 mm H, 69.6 mm W, 7.8 mm D",
+      "Weight": "130 g"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI 6 (Android 5.0 Lollipop) , Current: MIUI 9 (Android 7.1 Nougat)",
+      "Chipset": "Qualcomm Snapdragon 615 MSM8939 (2nd gen)",
+      "CPU": "Quad-core 1.7 GHz + Quad-core 1.1 GHz Cortex-A53",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16, 32 GB",
+      "Card slot": "Not Supported. USB OTG Supported"
+    },
+    "Display": {
+      "Display": "5 in diagonal, (16:9 aspect ratio), multi-touch display, IPS Fully laminated Corning Concore glass, FHD (1080x1920 pixels at 441 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP back-side illuminated sensor by Sony exmor RS IMX214 or Samsung ISOCELL S5K3M2, HD video (1080p) at 30 frame/s, IR filter, dual warm/cool Dual Tone LED flashes, aperture f/2.0, facial recognition, image stabilization, burst mode",
+      "Front camera": "5 MP, HD video (1080p)aperture f/1.8"
+    },
+    "Sound": {
+      "Sound": "Mono sound"
+    },
+    "Battery": {
+      "Battery": "3120 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 615 MSM8939",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "battery_mah": 3120,
+    "os": "Android 5.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 130,
+    "thickness_mm": 7.8,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 4i",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_4i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 4i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 4i",
+    "revid": 1380788148
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

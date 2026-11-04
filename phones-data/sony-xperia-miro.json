@@ -1,0 +1,79 @@
+{
+  "slug": "sony-xperia-miro",
+  "brand": "Sony",
+  "name": "Xperia miro",
+  "status": "published",
+  "announced": "2012-09-19",
+  "released": "2012-09-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "19 September 2012",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Ericsson Xperia mini",
+      "Successor": "Sony Xperia E"
+    },
+    "Network": {
+      "Technology": "GSM GPRS/EDGE 850, 900, 1800, 1900, UMTS HSPA 900, 2100 (global except Americas), UMTS HSPA 850, 1900, 2100 (Americas)"
+    },
+    "Body": {
+      "Form factor": "Candy bar",
+      "Dimensions": "113 x 59.4 x 9.9 mm",
+      "Weight": "110 g",
+      "Other": "SensMe, TrackID, Sony Entertainment Networks – Music and Video Unlimited*"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0 \"Ice Cream Sandwich\", Unofficial upgrades to Android 4.1 \"Jelly Bean\" (CyanogenMod 10), Android 4.4 \"KitKat\" (CyanogenMod 11)",
+      "Chipset": "Qualcomm MSM7225A 800MHz",
+      "CPU": "Cortex-A5",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM, 1 GB ROM",
+      "Card slot": "4 GB internal (2.2 GB user available), supports up to 32GB microSD/HC card"
+    },
+    "Display": {
+      "Display": "3.5 inch 320x480 px \"Reality Display\" TFT LCD at 165 PPI"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixels, 2592 x 1944 pixels, autofocus, LED flash with 4x digital zoom",
+      "Front camera": "0.3 MP VGA camera"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1500 mAh (internal) Standard battery"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB, 3.5 mm audio jack, Bluetooth 2.1 with A2DP, aGPS, GLONASS, DLNA, Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM7225A 800MHz",
+    "ram_gb": [
+      1
+    ],
+    "front_mp": 0.3,
+    "battery_mah": 1500,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia miro",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_miro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia miro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia miro",
+    "revid": 1361536479
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "vivo-v3",
+  "brand": "Vivo",
+  "name": "V3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 2016",
+      "Series": "Vivo V Series",
+      "Predecessor": "Vivo V1, Vivo V1 Max",
+      "Successor": "Vivo V5, Vivo V5 Plus"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE"
+    },
+    "Body": {
+      "Dimensions": "143.6x71x7.5 mm, 5.65x2.80x0.30 in",
+      "Weight": "138 g (4.87 oz)"
+    },
+    "Platform": {
+      "Operating system": "Funtouch OS 2.5 based on Android 5.1 (Lollipop)",
+      "Chipset": "Qualcomm Snapdragon 616 MSM8939v2 (28 nm) (V3), MediaTek MT6750 (V3M)",
+      "CPU": "V3 and V3M:, 4x1.5 GHz Cortex A-53, 4x1.0 GHz Cortex A-53",
+      "GPU": "Adreno 405, 0.25MiB VRAM (V3), ARM Mali-T860MP2, 520 MHz (V3M)"
+    },
+    "Memory": {
+      "RAM": "3GB single-channel LPDDR3, 933 MHz (V3), 3GB single-channel LPDDR3, 666 MHz (V3M)",
+      "Storage": "16/32 GB eMMC 4.5",
+      "Card slot": "Up to 256GB microSDXC"
+    },
+    "Cameras": {
+      "Rear camera": "Resolution: CMOS, 4160x3120 (12.98MP), f/2.1, Features: PDAF, LED flash, panorama, HDR, Video: 1080p at 30fps",
+      "Front camera": "Resolution: 3264x2448 (4:3, 7.99MP), f/2.3"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po, 2550 mAh"
+    }
+  },
+  "key": {
+    "chipset": "Qualcomm Snapdragon 616 MSM8939v2",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 12.98,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 7.99,
+    "battery_mah": 2550,
+    "os": "Android 5.1",
+    "five_g": false,
+    "weight_g": 138,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo V3",
+      "url": "https://en.wikipedia.org/wiki/Vivo_V3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo V3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo V3",
+    "revid": 1361536914
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

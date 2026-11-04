@@ -1,0 +1,60 @@
+{
+  "slug": "sony-ericsson-w200",
+  "brand": "Sony",
+  "name": "Ericsson W200",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/1/1d/SEW200iFrontb.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1d/SEW200iFrontb.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Sony Ericsson W200",
+      "credit": "Kpjas, CC BY 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SEW200iFrontb.jpg",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Dimensions": "101 x",
+      "Weight": "85 g"
+    },
+    "Memory": {
+      "RAM": "27 MB of internal memory"
+    },
+    "Display": {
+      "Display": "128x160 pixels, 65,000 Color 1.8″ TFT LCD screen"
+    },
+    "Cameras": {
+      "Rear camera": "VGA 4x Digital Zoom Camera"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 85
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W200",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W200"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W200\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W200",
+    "revid": 1361535613
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

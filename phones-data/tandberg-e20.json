@@ -1,0 +1,51 @@
+{
+  "slug": "tandberg-e20",
+  "brand": "Tandberg",
+  "name": "E20",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/TANDBERG_E20.jpg/500px-TANDBERG_E20.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/TANDBERG_E20.jpg/250px-TANDBERG_E20.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Tandberg E20",
+      "credit": "Thomas von der Lippe, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:TANDBERG_E20.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Dimensions": "34.7 cm × 31.6 cm (13.7 inches × 12.4 inches)",
+      "Weight": "1.9 kg (4.2 lb)"
+    },
+    "Display": {
+      "Display": "10.6 inch (WXGA 1280×768)"
+    },
+    "Cameras": {
+      "Rear camera": "5 megapixels (1280 x 720 progressive @30 frame/s)"
+    },
+    "Connectivity": {
+      "Connectivity": "IPv4"
+    }
+  },
+  "key": {
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tandberg E20",
+      "url": "https://en.wikipedia.org/wiki/Tandberg_E20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tandberg E20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Tandberg E20",
+    "revid": 1361536632
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

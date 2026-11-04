@@ -1,0 +1,96 @@
+{
+  "slug": "vivo-x-flip",
+  "brand": "Vivo",
+  "name": "X Flip",
+  "status": "published",
+  "announced": "2023-04-28",
+  "released": "2023-04-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF%E5%8D%80_Longhua_District_%E6%99%AF%E9%BE%8D%E5%BB%BA%E8%A8%AD%E8%B7%AF_Jinglong_Jianshe_Road_%E5%A3%B9%E6%96%B9%E5%A4%A9%E5%9C%B0_Uniwalk_Mall_shop_Smartphones_VIVO_XFlip_folding_September_2023_R12S.jpg/500px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF%E5%8D%80_Longhua_District_%E6%99%AF%E9%BE%8D%E5%BB%BA%E8%A8%AD%E8%B7%AF_Jinglong_Jianshe_Road_%E5%A3%B9%E6%96%B9%E5%A4%A9%E5%9C%B0_Uniwalk_Mall_shop_Smartphones_VIVO_XFlip_folding_September_2023_R12S.jpg/250px-thumbnail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Vivo X Flip",
+      "credit": "GHEIMKRjuhp HUA, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E8%8F%AF%E5%8D%80_Longhua_District_%E6%99%AF%E9%BE%8D%E5%BB%BA%E8%A8%AD%E8%B7%AF_Jinglong_Jianshe_Road_%E5%A3%B9%E6%96%B9%E5%A4%A9%E5%9C%B0_Uniwalk_Mall_shop_Smartphones_VIVO_XFlip_folding_September_2023_R12S.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-04-28",
+      "Series": "vivo X series"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, HSPA, LTE, 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Foldable flip phone",
+      "Dimensions": "Unfolded: 166.42 × 75.25 × 7.75 mm, Folded: 86.40 × 75.25 × 16.20 mm",
+      "Weight": "198 g"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with OriginOS 3",
+      "Chipset": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+      "CPU": "Octa-core (1x3.0 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5 RAM",
+      "Storage": "256 GB or 512 GB UFS 3.1",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "Main: 6.74 in (171 mm) Foldable LTPO AMOLED, 120Hz, HDR10+, 1080 x 2520 pixels (21:9), Cover: 3.0 in (76 mm) AMOLED, 422 x 682 pixels (14.5:9)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual:, 50 MP Sony IMX866V, f/1.75, 23mm (wide), 1/1.49\", OIS, PDAF, 12 MP, f/2.2, 16mm, 106° (ultrawide), AF, Co-engineered by ZEISS, Features: ZEISS T* lens coating, Dual-LED flash, Video: 4K@30fps, 1080p@30/60fps",
+      "Front camera": "32 MP, f/2.45 (wide), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4400 mAh",
+      "Charging": "44W wired dual-cell flash charging"
+    }
+  },
+  "key": {
+    "display_in": 6.74,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 8+ Gen 1",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4400,
+    "wired_w": 44,
+    "os": "Android 13",
+    "five_g": true,
+    "dual_sim": true,
+    "weight_g": 198,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X Flip",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X_Flip"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X Flip\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Vivo X Flip",
+    "revid": 1376389517
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "sony-ericsson-w300i",
+  "brand": "Sony Ericsson",
+  "name": "W300i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/W300i_TIM.JPG/500px-W300i_TIM.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/W300i_TIM.JPG/250px-W300i_TIM.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W300i",
+      "credit": "FENIX 89, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:W300i_TIM.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "EDGE, GPRS GSM 850/900/1800/1900"
+    },
+    "Memory": {
+      "RAM": "20 MB internal",
+      "Card slot": "Memory Stick Micro"
+    },
+    "Battery": {
+      "Battery": "Li-Po 900 mAh battery"
+    }
+  },
+  "key": {
+    "battery_mah": 900,
+    "five_g": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W300i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W300i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W300i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W300i",
+    "revid": 1361535620
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

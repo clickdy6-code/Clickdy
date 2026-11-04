@@ -1,0 +1,83 @@
+{
+  "slug": "sony-xperia-tipo",
+  "brand": "Sony",
+  "name": "Xperia Tipo",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Xperia_tipo_red.jpg/500px-Xperia_tipo_red.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Xperia_tipo_red.jpg/250px-Xperia_tipo_red.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia Tipo",
+      "credit": "Rev8600, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xperia_tipo_red.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "August 2012",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Ericsson Xperia mini",
+      "Successor": "Sony Xperia E"
+    },
+    "Network": {
+      "Technology": "GSM GPRS/EDGE 850, 900, 1800, 1900, UMTS HSPA 900, 2100 (Global except Americas), UMTS HSPA 850, 1900, 2100 (Americas) (Americas)"
+    },
+    "Body": {
+      "Form factor": "Candy bar",
+      "Dimensions": "103 x 57 x 13 mm",
+      "Weight": "99.4 g",
+      "Other": "Sony Entertainment Networks – Music and Video Unlimited*"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0 \"Ice Cream Sandwich\"",
+      "Chipset": "Qualcomm Snapdragon S1 MSM7225A",
+      "CPU": "Single-core ARM Cortex-A5 at 800 MHz",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Card slot": "2.9 GB internal (2.5 GB user available), supports up to 32GB microSD/HC card"
+    },
+    "Display": {
+      "Display": "3.2 inch 320x480 px \"Reality Display\" TFT LCD at 180 PPI"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixels with 4x digital zoom, supports VGA video recording"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1500 mAh(internal) Standard battery"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB, 3.5 mm audio jack, Bluetooth 2.1 with A2DP, aGPS, Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S1 MSM7225A",
+    "battery_mah": 1500,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99.4,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia Tipo",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_Tipo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia Tipo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia Tipo",
+    "revid": 1363113549
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

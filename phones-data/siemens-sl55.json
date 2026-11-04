@@ -1,0 +1,62 @@
+{
+  "slug": "siemens-sl55",
+  "brand": "Siemens",
+  "name": "SL55",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Siemens_SL55_open.jpg/500px-Siemens_SL55_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Siemens_SL55_open.jpg/250px-Siemens_SL55_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Siemens SL55",
+      "credit": "ThePinkFireman, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_SL55_open.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM tri-band"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "82mm x 45mm x 22mm",
+      "Weight": "79 g"
+    },
+    "Memory": {
+      "Storage": "1.6 MB"
+    },
+    "Display": {
+      "Display": "101x80 px"
+    },
+    "Battery": {
+      "Battery": "500 mAh LiPo"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA"
+    }
+  },
+  "key": {
+    "battery_mah": 500,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 79,
+    "thickness_mm": 22
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens SL55",
+      "url": "https://en.wikipedia.org/wiki/Siemens_SL55"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens SL55\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens SL55",
+    "revid": 1363662199
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

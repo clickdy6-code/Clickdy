@@ -1,0 +1,92 @@
+{
+  "slug": "vivo-x80",
+  "brand": "Vivo",
+  "name": "X80",
+  "status": "published",
+  "announced": "2022-04-25",
+  "released": "2022-04-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-04-25",
+      "Predecessor": "Vivo X70",
+      "Successor": "Vivo X90"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "X80:, 165 x 75.2 x 8.3 mm, X80 Pro:, 164.6 x 75.3 x 9.1 mm",
+      "Weight": "X80:, 203 g or 206 g, X80 Pro:, 216 g or 219 g"
+    },
+    "Platform": {
+      "Operating system": "Origin OS Ocean, (based on Android 12)",
+      "Chipset": "X80:, MediaTek Dimensity 9000, X80 Pro:, Qualcomm Snapdragon 8 Gen 1 or MediaTek Dimensity 9000",
+      "CPU": "Octa-core, X80:, (1x 2.8 GHz ARM Cortex-A78, Cortex-A78 + 3x 2.6 GHz Cortex-A78 + 4x 2.0 GHz ARM Cortex-A78, Cortex-A55), X80 Pro:, (1x 3.0 GHz + 3x 2.42 GHz + 4x 1.7 GHz Cortex-A510) or (1x 2.8 GHz ARM Cortex-A78, Cortex-A78 + 3x 2.6 GHz Cortex-A78 + 4x 2.0 GHz ARM Cortex-A78, Cortex-A55)",
+      "GPU": "X80:, Mali (GPU), Mali-G78 MP10, X80 Pro:, Adreno 730 or Mali (GPU), Mali-G78 MP10"
+    },
+    "Memory": {
+      "RAM": "8 GB or 12 GB LPDDR5 RAM",
+      "Storage": "X80: 128 GB, 256 GB or 512 GB UFS 3.1, X80 Pro: 256 GB or 512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "X80: AMOLED capacitive touchscreen with HDR10+ support, 6.78 in 1080p, (388 ppi with 20:9 aspect ratio), 120 Hz refresh rate, X80 Pro: AMOLED capacitive touchscreen with HDR10+ support, 6.78 in 1440p, (518 ppi with 20:9 aspect ratio), 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "X80:, 50 MP, f/1.8, 26mm, 1/2\", 0.8 μm (wide) + 12 MP, f/2.2, 16mm (ultrawide) + 13 MP, f/2.5, 12 mm, 1/2.8\", 0.8 μm (telephoto), 2x optical zoom, X80 Pro:, 50 MP, f/1.5, 26mm, 1/2\", 0.8 μm (wide) + 48 MP, f/2.2, 16mm (ultrawide) + 12 MP, f/2.5, 50 mm, 1/2.8\", 0.8 μm (periscope telephoto) + 8 MP, f/3.4, 125mm, 1/4\" (telephoto), 2x and 5x optical zoom , Both: Autofocus#Phase detection, PDAF, Laser AF, Gimbal OIS, gyro-Image stabilization#Digital image stabilization, EIS, X80: 4K@30/60 fps, 1080p@30/60 fps , X80 Pro: 8K@30 fps, 4K@30/60 fps, 1080p@30/60 fps",
+      "Front camera": "32 MP, f/2.5, 26mm, 1/2.8\", 0.8 μm, HDR , X80: 1080p@30 fps, X80 Pro: 4K@30 fps, 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker, Hi-Fi audio"
+    },
+    "Battery": {
+      "Battery": "X80:, 4500 mAh, X80 Pro:, 4700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.1, Bluetooth 5.1/5.2, Wi-Fi a/b/g/n/ac/6, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "X80:",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4500,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 203,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X80",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X80"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X80\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X80",
+    "revid": 1361537010
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

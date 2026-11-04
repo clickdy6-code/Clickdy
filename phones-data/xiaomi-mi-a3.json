@@ -1,0 +1,87 @@
+{
+  "slug": "xiaomi-mi-a3",
+  "brand": "Xiaomi",
+  "name": "Mi A3",
+  "status": "published",
+  "announced": "2019-07-02",
+  "released": "2019-07-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Xiaomi_Mi_A3_blue.png/500px-Xiaomi_Mi_A3_blue.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Xiaomi_Mi_A3_blue.png/250px-Xiaomi_Mi_A3_blue.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi A3",
+      "credit": "J.avanzado, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_A3_blue.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Mi CC9e (in China): 2019-07-02, Mi A3 (global): 2019-07-17",
+      "Series": "Mi A/Mi CC, Android One",
+      "Predecessor": "Xiaomi Mi A2 Lite"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153.5 mm H, 71.9 mm W, 8.5 mm D",
+      "Weight": "173.8 g"
+    },
+    "Platform": {
+      "Chipset": "Qualcomm SDM665 Snapdragon 665",
+      "CPU": "Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "4/6 GB",
+      "Storage": "64/128 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "6.088 in Super AMOLED capacitive touchscreen, 720 x 1560 pixels, ~286 ppi, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "Triple 48/8/2 MP phase detection autofocus, LED flash",
+      "Front camera": "32 MP 0.8 μm pixel size, geo-tagging, touch focus, face detection, HDR, panorama"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4030 mAh",
+      "Charging": "18W fast charging, QC3"
+    }
+  },
+  "key": {
+    "display_in": 8.0,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm SDM665 Snapdragon 665",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 32,
+    "battery_mah": 4030,
+    "wired_w": 18,
+    "weight_g": 173.8,
+    "thickness_mm": 8.5,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi A3",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_A3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi A3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi A3",
+    "revid": 1361537536
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

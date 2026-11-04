@@ -1,0 +1,81 @@
+{
+  "slug": "sony-ericsson-cedar",
+  "brand": "Sony Ericsson",
+  "name": "Cedar",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Sony_Ericsson_J108i_%28Cedar%29_IMG_7070_1725.jpg/500px-Sony_Ericsson_J108i_%28Cedar%29_IMG_7070_1725.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Sony_Ericsson_J108i_%28Cedar%29_IMG_7070_1725.jpg/250px-Sony_Ericsson_J108i_%28Cedar%29_IMG_7070_1725.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Cedar",
+      "credit": "Alexxx1979, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_J108i_(Cedar)_IMG_7070_1725.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-09",
+      "Series": "J Series",
+      "Predecessor": "Sony Ericsson Naite J105i"
+    },
+    "Network": {
+      "Technology": "UMTS 850, UMTS 1900, UMTS 2100 (850 only supported by J108a), GSM 850, GSM 900, GSM 1800, GSM 1900",
+      "SIM": "Standard SIM, 1 Slot"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "111 × 49 × 15.5 mm",
+      "Weight": "85 g"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson Proprietary (A200)"
+    },
+    "Memory": {
+      "RAM": "280 MB integrated, MicroSD 512 MB in box, SanDisk microSD transflash supported",
+      "Storage": "280 MB",
+      "Card slot": "up to 16 GB"
+    },
+    "Display": {
+      "Display": "2.2” QVGA (240×320 pixels; ~182 ppi pixel density), 262,144 (18-bit) colour TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0MP"
+    },
+    "Battery": {
+      "Battery": "1000 mAh BST-43 Battery (Li-Polymer)"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 Mbit/s HSDPA, W-CDMA, EDGE, GPRS, HSCSD, CSD, Bluetooth 2.1, USB (with Mass Storage Mode, PictBridge Mode support)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 85,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Cedar",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Cedar"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Cedar\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Cedar",
+    "revid": 1361483985
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

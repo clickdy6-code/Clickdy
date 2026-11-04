@@ -1,0 +1,83 @@
+{
+  "slug": "sony-xperia-m5",
+  "brand": "Sony",
+  "name": "Xperia M5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia M4 Aqua",
+      "Successor": "Sony Xperia X"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145 mm H , 72 mm W , 7.6 mm D",
+      "Weight": "142.5 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.0 \"Lollipop\", Upgradable to Android 6.0 \"Marshmallow\"",
+      "Chipset": "MediaTek HelioX10 MT6795",
+      "CPU": "2.0 GHz octa-core 64-bit, ARMv8-A Cortex-A53 Cores",
+      "GPU": "PowerVR Rogue G6200"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR3 RAM",
+      "Storage": "16 GB",
+      "Card slot": "Up to 200 GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.0 in IPS LCD, Full HD 1920x1080 (441ppi) , TRILUMINOS™ Display, Sony BRAVIA Mobile engine 2, Scratch-resistant glass, 24-bit depth colours"
+    },
+    "Cameras": {
+      "Rear camera": "21.5MP, Sony Exmor IMX230, 1.12 μm pixel size, f/2.0 aperture, Phase-detection Autofocus + Contrast-detection Autofocus, 720p@120fps, 1080p@60 fps, 4K 2160p@30 fps",
+      "Front camera": "13 MP, Sony Exmor IMX135, 1.136 μm pixel size, f/2.0 aperture, 1080p@30fps video"
+    },
+    "Battery": {
+      "Battery": "Non-user removable Li-ion 2600 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS, NFC, Bluetooth 4.1, USB 2.0 (Micro-B port, USB charging), USB OTG, 3.50 mm Headphone Jack CTIA/AHJ"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek HelioX10 MT6795",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 21.5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p@120fps",
+    "front_mp": 13,
+    "battery_mah": 2600,
+    "os": "Android 5.0",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 142.5,
+    "thickness_mm": 7.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia M5",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_M5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia M5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia M5",
+    "revid": 1382047667
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

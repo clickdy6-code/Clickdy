@@ -1,0 +1,94 @@
+{
+  "slug": "tecno-camon-17",
+  "brand": "Tecno",
+  "name": "Camon 17",
+  "status": "published",
+  "announced": "2021-05-06",
+  "released": "2021-05-06",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-05-06",
+      "Series": "Camon 17",
+      "Predecessor": "Tecno Camon 16",
+      "Successor": "Tecno Camon 18"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Camon 17:, 164.5 x 76.5 x 9 mm, Camon 17P:, 168.7 x 76.4 x 8.8 mm, Camon 17 Pro:, 168.9 x 77 x 9 mm"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with HiOS 7.6",
+      "Chipset": "Camon 17 and Camon 17P: MediaTek Helio G85, Camon 17 Pro: MediaTek Helio G95",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A75 and 6x1.8 GHz Cortex-A55, Octa-core (2x2.05 GHz Cortex-A76 and 6x2.0 GHz Cortex-A55",
+      "GPU": "Mali-G52 MC2, Mali-G76 MC4"
+    },
+    "Memory": {
+      "RAM": "Camon 17: 4/6 RAM, Camon 17P: 6 GB RAM, Camon 17 Pro: 8 GB RAM",
+      "Storage": "Camon 17 and Camon 17P: 128 GB, Camon 17 Pro: 256 GB",
+      "Card slot": "microSD, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "720 x 1600 720p, 1080 x 2460 1080p IPS LCD capacitive touchscreen, Camon 17: 6.6 in (164.5 mm), (266 ppi), Camon 17P: 6.8 in (164.5 mm), (395 ppi), Camon 17 Pro: 6.8 in (168.7 mm), (395 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Camon 17: 48 Pixel#Megapixel, MP, Aperture, f/2.4, (Wide-angle lens, wide), Autofocus#Phase detection, PDAF + 2MP + 2MP, (depth) + Graphics display resolution#320 × 240 (QVGA), QVGA + AI, Camon 17P: 64 Pixel#Megapixel, MP, (wide), 1/2.0\", 0.7µm, PDAF + 2MP, f/2.4, (macro) + 2MP, f/2.4 (depth) + AI, Camon 17 Pro: 64 Pixel#Megapixel, MP, f/1.8, 26Focal length, mm (wide), 1/2.0\", 0.7µm, PDAF + 8MP, f/2.3, 119˚ (Ultra wide angle lens, ultrawide), 1/4.0\", 1.12µm + 2MP, f/2.4 (depth) + 2MP, f/2.4, (monochrome), All: Quad LED flash, HDR, panorama, 1080p@30fps",
+      "Front camera": "Camon 17: 8 MP, Camon 17P: 16 MP, Camon 17 Pro: 48 MP, All: Dual-LED flash, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm Headphone jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "18W, 25W"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi 802.11 b/g/n, USB 2.0, USB-C, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS LCD",
+    "chipset": "Camon 17",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 2,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 25,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "thickness_mm": 9,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Camon 17",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Camon_17"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Camon 17\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Tecno Camon 17",
+    "revid": 1383366991
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

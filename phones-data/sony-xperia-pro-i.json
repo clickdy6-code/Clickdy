@@ -1,0 +1,98 @@
+{
+  "slug": "sony-xperia-pro-i",
+  "brand": "Sony",
+  "name": "Xperia PRO-I",
+  "status": "published",
+  "announced": "2021-12-10",
+  "released": "2021-12-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-12-10 (United States), 2021-12-15 (Japan)",
+      "Series": "Sony Xperia",
+      "Model": "XQ-BE62, XQ-BE72",
+      "Predecessor": "Sony Xperia PRO"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G",
+      "SIM": "nanoSIM + nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "166 mm H, 72 mm W, 8.9 mm D",
+      "Weight": "221 g",
+      "Other": "IP65/IP68 Water/dust resistant, PS4 Remote Play, DUALSHOCK 4 Control compatibility, PS5 Remote Play, DUALSENSE® Control compatibility, Game Enhancer, Dynamic Vibration System"
+    },
+    "Platform": {
+      "Operating system": "Android 11",
+      "Chipset": "Qualcomm Snapdragon 888 5G",
+      "CPU": "Octa-core (1x 2.84 GHz Gold Prime, 3x 2.42 GHz Gold, 4x 1.8 GHz Silver) Kryo 680",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5 RAM",
+      "Storage": "Universal Flash Storage (UFS 3.1), 512 GB",
+      "Card slot": "microSDXC, expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.5 in 4K 21:9 (3840 x 1644) HDR OLED CinemaWide™ display, ~643 pixel density, Gorilla Glass Victus, HDR10, HLG, 10-bit color depth, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP (Sony Exmor RS IMX478), f/2.0/4.0, 24mm (wide), 1\", 2.4 μm, PDAF, OIS, 12 MP (Sony Exmor RS IMX663), f/2.4, 50mm (telephoto), 1/2.9\", PDAF, 2x optical zoom, OIS, 12 MP (Sony Exmor RS IMX363), f/2.2, 124˚, 16mm (ultrawide), 1/2.55\", Dual Pixel PDAF, 0.3 MP (Sony Exmor R IMX316), TOF 3D, (depth), Zeiss Tessar optics, 12-bit RAW, HDR, eye tracking, 4K@24/25/30/60/120fps, 1080p@30/60/120/240fps",
+      "Front camera": "8 MP (Samsung ISOCELL S5K4H7), f/2.0, 24mm (wide), 1/4\", 1.12 μm, HDR Photo, Portrait selfie, Display flash, Hand and Smile Shutter, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Front-facing stereo speakers, 3.5 mm headphone jack, 24-bit/192kHz audio"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 4500 mAh, USB PD 3.1 30 W Charging",
+      "Charging": "Fast Charging USB PD 3.1 30 W Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/ax (6) (2.4/5GHz), Bluetooth 5.2, USB-C 3.2 Gen 2 (supports DisplayPort), DisplayPort support, NFC, GPS with Assisted GPS, Galileo, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 888 5G",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 12,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@24fps",
+    "front_mp": 8,
+    "battery_mah": 4500,
+    "wired_w": 30,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "ip": "IP65",
+    "weight_g": 221,
+    "thickness_mm": 8.9,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia PRO-I",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_PRO-I"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia PRO-I\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia PRO-I",
+    "revid": 1374015670
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

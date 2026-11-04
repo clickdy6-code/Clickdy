@@ -1,0 +1,81 @@
+{
+  "slug": "sony-ericsson-xperia-mini",
+  "brand": "Sony",
+  "name": "Ericsson Xperia Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Sony_Ericsson_Xperia_mini_pro_20120421.JPG/500px-Sony_Ericsson_Xperia_mini_pro_20120421.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Sony_Ericsson_Xperia_mini_pro_20120421.JPG/250px-Sony_Ericsson_Xperia_mini_pro_20120421.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia Mini",
+      "credit": "Novo8, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_mini_pro_20120421.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Ericsson Xperia",
+      "Successor": "Sony Xperia tipo, Sony Xperia miro"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone (black, white, blue, dark pink)",
+      "Dimensions": "88 mm H , 52 mm W , 16 mm D",
+      "Weight": "99 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 (Gingerbread) officially upgradeable up to Android 4.0.4 (Ice Cream Sandwich) unofficially upgradeable to Android 4.0.4 (Ice Cream Sandwich) via CyanogenMod 9, Android 4.1.2 (JellyBean) via CyanogenMod 10, Android 4.2.2 (JellyBean) via CyanogenMod 10.1, Android 4.3.1 (JellyBean) via CyanogenMod 10.2, Android 4.4.2 (Kitkat) via CyanogenMod 11, Android 5.0.2 (Lollipop) via CyanogenMod 12, Android 5.1.1 (Lollipop) via Cyanogenmod 12.1",
+      "CPU": "Qualcomm MSM8255 1 GHz Scorpion (Snapdragon S2)",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB of RAM",
+      "Storage": "1 GB ROM, 320 MB user-available",
+      "Card slot": "microSD, 2 GB (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "LED-backlit LCD \"Reality Display\" with Mobile BRAVIA Engine, 3.0 in diagonal , 320×480 (192 ppi) px HVGA , 3:2 aspect-ratio , 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP 2592×1944 px, 8× digital zoom, Autofocus, Flash LED illumination, 720p video recording, Face recognition, Geo-tagging, Image stabilization, Smile detection, Touch focus, Video 720p"
+    },
+    "Battery": {
+      "Battery": "EP500 , 1,200 mAh 4.5 Wh, 3.7 V , Internal rechargeable li-po , User replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g/n) , Bluetooth 2.1 with A2DP, Quad-band GSM/GPRS/EDGE , 850/900/1800/1900 MHz"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "LCD",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1200,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99,
+    "thickness_mm": 16
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia Mini",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia Mini",
+    "revid": 1363114586
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

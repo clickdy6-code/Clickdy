@@ -1,0 +1,64 @@
+{
+  "slug": "sendo-z100",
+  "brand": "Sendo",
+  "name": "Z100",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "canceled"
+    },
+    "Network": {
+      "Technology": "GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "126 mm H , 48 mm W , 17 mm D",
+      "Weight": "99 g",
+      "Other": "SyncML"
+    },
+    "Platform": {
+      "Operating system": "Smartphone 2002 (initial StingerOS)",
+      "CPU": "Texas Instruments OMAP 710 CPU"
+    },
+    "Memory": {
+      "RAM": "16MB",
+      "Storage": "16MB",
+      "Card slot": "MMC, SD card"
+    },
+    "Display": {
+      "Display": "TFT, 65K colors, with 176 x 220 pixels (2.2 inches, 35 x 44 mm)"
+    },
+    "Battery": {
+      "Battery": "Lithium-ion with 100h Stand-by and 4h Talk time"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, RS-232, IrDA"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99,
+    "thickness_mm": 17
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sendo Z100",
+      "url": "https://en.wikipedia.org/wiki/Sendo_Z100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sendo Z100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sendo Z100",
+    "revid": 1378866823
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

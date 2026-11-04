@@ -1,0 +1,81 @@
+{
+  "slug": "vivo-y90",
+  "brand": "Vivo",
+  "name": "Y90",
+  "status": "published",
+  "announced": "2019-07-22",
+  "released": "2019-07-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-07-22",
+      "Series": "vivo Y"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE",
+      "SIM": "Dual Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155.1 × 75.1 × 8.3 mm (6.11 × 2.96 × 0.33 in)",
+      "Weight": "5.78 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 (Oreo), Funtouch 4.5",
+      "Chipset": "Mediatek MT6761 Helio A22 (12 nm)",
+      "CPU": "Quad-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "2GB",
+      "Storage": "16GB / 32GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.22 inches, Resolution: 720 x 1520 pixels, 19:9 ratio"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, f/2.0, AF, LED flash, panorama, Video: 1080p@30fps",
+      "Front camera": "5 MP, f/1.8, Video: 720p"
+    },
+    "Battery": {
+      "Battery": "4,030 mAh, non-removable"
+    }
+  },
+  "key": {
+    "display_in": 6.22,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek MT6761 Helio A22",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 4030,
+    "os": "Android 8.1",
+    "five_g": false,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y90",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y90"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y90\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y90",
+    "revid": 1372519364
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

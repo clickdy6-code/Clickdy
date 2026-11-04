@@ -1,0 +1,95 @@
+{
+  "slug": "xiaomi-mi-6",
+  "brand": "Xiaomi",
+  "name": "Mi 6",
+  "status": "published",
+  "announced": "2017-04-19",
+  "released": "2017-04-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Xiaomi_MI6.jpg/500px-Xiaomi_MI6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Xiaomi_MI6.jpg/250px-Xiaomi_MI6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi 6",
+      "credit": "GKyusya, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_MI6.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-04-19",
+      "Series": "Mi series",
+      "Predecessor": "Xiaomi Mi 5",
+      "Successor": "Xiaomi Mi 8"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145.17 × 70.49 × 7.45 mm",
+      "Weight": "168 g (glass), 182 g (ceramic)",
+      "Other": "Fingerprint scanner (front-mounted), proximity sensor, ambient light sensor, accelerometer, gyroscope, compass, notification LED, Hall effect sensor, barometer, splash resistant"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 7.1.1 Nougat with MIUI 8, Current: Android 9 Pie with MIUI 11",
+      "CPU": "Qualcomm Snapdragon 835 (10 nm), octa-core (4×2.45 GHz Kryo & 4×1.9 GHz Kryo)",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4/6 GB LPDDR4X",
+      "Storage": "64/128 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5.15\", 1920 × 1080 (Full HD), 16:9 ratio, 428 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.8, 27 mm (wide), 1/2.9\", 1.25 µm, PDAF, 4-axis OIS + 12 MP, f/2.6, 52 mm (telephoto), 1.0 µm, AF, 2x optical zoom, Dual-LED dual-tone flash, HDR, panorama, Video: 4K@30fps, 1080p@30fps, 720p@120fps",
+      "Front camera": "8 MP, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 3350 mAh, 18 W fast charging, Quick Charge 3.0"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.0 (A2DP, LE), NFC, Infrared port, Wi-Fi 802.11ac (dual-band, Wi-Fi Direct, DLNA, hotspot), GPS, A-GPS, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 5.15,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 3350,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 168,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 6",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_6"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 6\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 6",
+    "revid": 1382444047
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

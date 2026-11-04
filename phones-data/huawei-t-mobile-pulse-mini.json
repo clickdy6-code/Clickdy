@@ -1,0 +1,73 @@
+{
+  "slug": "huawei-t-mobile-pulse-mini",
+  "brand": "Huawei",
+  "name": "T-Mobile Pulse Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-02"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA",
+      "SIM": "Mini-SIM"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "106 mm H , 57 mm W , 14 mm D",
+      "Weight": "110 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1 (Eclair)",
+      "Chipset": "Qualcomm MSM7227 Snapdragon S1",
+      "CPU": "600 MHz ARM 11",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "Storage": "300MB",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "2.8 inches, 24.3 cm2 (~40.2% screen-to-body ratio), TFT resistive touchscreen, 256K colors, 240 x 320 pixels (~143 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1150 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM7227 Snapdragon S1",
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1150,
+    "os": "Android 2.1",
+    "five_g": false,
+    "weight_g": 110,
+    "thickness_mm": 14,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: T-Mobile Pulse Mini",
+      "url": "https://en.wikipedia.org/wiki/T-Mobile_Pulse_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"T-Mobile Pulse Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "T-Mobile Pulse Mini",
+    "revid": 1379682735
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

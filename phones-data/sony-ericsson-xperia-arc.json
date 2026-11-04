@@ -1,0 +1,81 @@
+{
+  "slug": "sony-ericsson-xperia-arc",
+  "brand": "Sony Ericsson",
+  "name": "Xperia Arc",
+  "status": "published",
+  "announced": "2011-03-24",
+  "released": "2011-03-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/SO-01C_front.jpg/500px-SO-01C_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/SO-01C_front.jpg/250px-SO-01C_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia Arc",
+      "credit": "y_k_asz, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SO-01C_front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-03-24",
+      "Series": "Sony Ericsson Xperia",
+      "Predecessor": "Sony Ericsson Xperia X10",
+      "Successor": "Sony Ericsson Xperia arc S"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "125 *",
+      "Weight": "117 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.3 \"Gingerbread\", (officially upgradeable up to Android 4.0.4 \"Ice Cream Sandwich\", unofficially upgradeable up to Android 6.0 \"Marshmallow\")",
+      "CPU": "Qualcomm MSM 8255 1 GHz Scorpion (Snapdragon) Adreno 205 GPU"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "Up to 2 GB",
+      "Card slot": "Up to 32 GB on microSD memory card"
+    },
+    "Display": {
+      "Display": "4.2 inch 854×480 px FWVGA \"Reality Display\" TFT LCD at 233 PPI with mobile BRAVIA engine, 16M Colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.1 MP (3264×2448), Back-illuminated sensor Exmor R CMOS Sensor, Auto Focus, Face recognition, Geo-tagging, Image and video stabilizer, Smile detection, Touch focus, Video 720p HD (Android 2.3)"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 with A2DP, microUSB 2.0, 3.5 mm audio jack, Assisted GPS, Wi-Fi 802.11 b/g/n, HDMI (Type D connector)"
+    }
+  },
+  "key": {
+    "display_in": 4.2,
+    "display_type": "TFT",
+    "main_mp": 8.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1500,
+    "os": "Android 2.3",
+    "nfc": false,
+    "weight_g": 117,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia Arc",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_Arc"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia Arc\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia Arc",
+    "revid": 1363240184
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

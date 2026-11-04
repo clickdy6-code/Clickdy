@@ -1,0 +1,108 @@
+{
+  "slug": "xiaomi-17-pro",
+  "brand": "Xiaomi",
+  "name": "17 Pro",
+  "status": "published",
+  "announced": "2025-09-25",
+  "released": "2025-09-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Xiaomi_17_Pro_Max.jpg/500px-Xiaomi_17_Pro_Max.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Xiaomi_17_Pro_Max.jpg/250px-Xiaomi_17_Pro_Max.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 17 Pro",
+      "credit": "茅野ふたば, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_17_Pro_Max.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-09-25",
+      "Series": "Xiaomi series",
+      "Predecessor": "Xiaomi 15 Pro (for Pro)",
+      "Successor": "Xiaomi 18 Pro (for Pro)"
+    },
+    "Network": {
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Pro: 151.1 mm H, 71.8 W, 8 mm D, Pro Max: 162.9 mm H, 77.6 mm W, 8 mm D",
+      "Weight": "Pro: 6.77 oz , Pro Max: 7.72 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 16 with HyperOS 3",
+      "Chipset": "Qualcomm Snapdragon 8 Elite Gen 5 (3 nm)",
+      "CPU": "Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+      "GPU": "Adreno 840"
+    },
+    "Memory": {
+      "RAM": "Pro: 12 or 16 GB LPDDR5X, Pro Max: 12 or 16 GB LPDDR5X",
+      "Storage": "Pro: 256 GB, 512 GB, or 1 TB UFS 4.1, Pro Max: 512 GB or 1 TB UFS 4.1",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "Main display:, LTPO AMOLED capacitive touchscreen, 68B colors, 120Hz, Dolby Vision, HDR10+, HDR Vivid, 3500 nits (peak), Pro: 6.3 in (160 mm), 1220 x 2656 pixels (~464 ppi), Xiaomi Dragon Crystal Glass, Pro Max: 6.9 in (180 mm), 1200 x 2608 pixels (~416 ppi), Xiaomi Dragon Crystal Glass 3, Secondary display (rear):, LTPO AMOLED, 120Hz, Dolby Vision, HDR10+, HDR Vivid, 3500 nits (peak), Pro: 2.7 in (69 mm), 572 x 904 pixels, Pro Max: 2.9 in (74 mm), 596 x 976 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "Triple camera Setup:, Wide (Main): 50 MP, 23mm, 1/1.28\", 1.22µm, dual pixel PDAF, OIS, Periscope Telephoto (5x optical zoom): 50 MP, 115mm, 1/1.95\", 0.8µm (Pro Max: ) / 1/2.76\", 0.64µm (Pro: ), PDAF, OIS, Ultrawide (102°): 50 MP, 17mm, 1/2.76\", 0.64µm (Pro) / 1/2.88\", 0.61µm (Pro Max, PDAF), Features: Leica lens, Laser AF, color spectrum sensor, Dual-LED dual-tone flash, HDR, panorama, Video: 8K@30fps (HDR), 4K@30/60/120fps (HDR10+, 10-bit Dolby Vision HDR, 10-bit LOG), 1080p@30/60/120/240/960fps, 720p@1920fps, gyro-EIS",
+      "Front camera": "50 MP, 21mm (wide), 1/2.88\", 0.61µm, PDAF, HDR, panorama, Video: 4K@30/60fps, 1080p@30/60fps, HDR10+, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers with Dolby Atmos, 24-bit/192kHz Hi-Res & Hi-Res wireless audio, Snapdragon Sound, No 3.5 mm audio jack"
+    },
+    "Battery": {
+      "Battery": "Silicon-carbon (Si/C) Li-ion, Pro: 6300 mAh, Pro Max: 7500 mAh",
+      "Charging": "100W wired (PD3.0, QC3+, PPS), 50W wireless, 22.5W reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7 (802.11 a/b/g/n/ac/6e/7, dual-band, Wi-Fi Direct), Bluetooth 5.4 (A2DP, LE, aptX HD, aptX Adaptive, LHDC 5), GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5), GLONASS, NFC, Infrared port, USB Type-C 3.2, DisplayPort, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 3500,
+    "chipset": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@30fps",
+    "front_mp": 50,
+    "battery_mah": 6300,
+    "wireless_w": 50,
+    "wired_w": 100,
+    "os": "Android 16",
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "dual_sim": true,
+    "thickness_mm": 162.9,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 17 Pro",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_17_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 17 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Xiaomi 17 Pro",
+    "revid": 1383640344
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

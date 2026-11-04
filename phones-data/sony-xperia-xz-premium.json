@@ -1,0 +1,98 @@
+{
+  "slug": "sony-xperia-xz-premium",
+  "brand": "Sony",
+  "name": "Xperia XZ Premium",
+  "status": "published",
+  "announced": "2017-06-02",
+  "released": "2017-06-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xperia_XZ_Premium.png/500px-Xperia_XZ_Premium.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xperia_XZ_Premium.png/250px-Xperia_XZ_Premium.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia XZ Premium",
+      "credit": "Deoma12, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xperia_XZ_Premium.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-06-02, (United Kingdom)",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia Z5 Premium",
+      "Successor": "Sony Xperia XZ2 Premium"
+    },
+    "Network": {
+      "Technology": "HSPA, GSM & LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156 mm H, 77 mm W, 7.9 mm D",
+      "Weight": "191 g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.1.1 \"Nougat\" , Upgradable to Android 9 \"Pie\"",
+      "Chipset": "Qualcomm Snapdragon 835 MSM8998",
+      "CPU": "Octa-core (quad 2.45 GHz + quad 1.9 GHz) 64-bit Kryo 280 processor",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X RAM",
+      "Storage": "64 GB UFS 2.1",
+      "Card slot": "microSDXC; expandable up to 512 GB (hybrid slot for G8142)"
+    },
+    "Display": {
+      "Display": "5.46 in 4K HDR IPS LCD (3840 x 2160 px), TRILUMINOS Display for mobile with X-Reality for mobile, Dynamic Contrast Enhancement, sRGB 138%, 806 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "19 MP Motion Eye™ Camera, 1/2.3 memory-stacked IMX400 image sensor, Exmor RS for mobile (1.22μm), BIONZ, RGBC-IR, Laser AF, Predictive Hybrid AF, Predictive Capture, Quick launch, 5x Clear Image Zoom, 25mm Wide Angle G Lens, f/2.0 , 4K (2160p) video recording, 720p 960 fps super slow motion video recording, SteadyShot with Intelligent Active Mode (5-axis stabilization)",
+      "Front camera": "13 MP 1/3.06 Exmor RS for mobile sensor, with Quick launch and 22mm Wide Angle Lens and f/2.0 aperture, autofocus"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 3,230 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS/BeiDou/Galileo, Bluetooth 5 with aptX and LE , USB 3.1 (Type-C port, USB charging, Quick Charge 3.0), 1seg (G8188 and SO-04J models only), Osaifu-Keitai (G8188 and SO-04J models only)"
+    }
+  },
+  "key": {
+    "display_in": 5.46,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 835 MSM8998",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 19,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 13,
+    "battery_mah": 3230,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 191,
+    "thickness_mm": 7.9,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia XZ Premium",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_XZ_Premium"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia XZ Premium\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia XZ Premium",
+    "revid": 1369323847
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

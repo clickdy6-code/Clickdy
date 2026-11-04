@@ -1,0 +1,92 @@
+{
+  "slug": "vivo-x70",
+  "brand": "Vivo",
+  "name": "X70",
+  "status": "published",
+  "announced": "2021-09-09",
+  "released": "2021-09-09",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "X70 Pro+:, 2021-09-09, X70/Pro:, 2021-09-13",
+      "Predecessor": "Vivo X60",
+      "Successor": "Vivo X80"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "X70:, 160.5 x 75.4 x 7.6 mm, X70 Pro:, 158.3 x 73.2 x 8.0 mm, X70 Pro+:, 164.5 x 75.2 x 8.9 mm",
+      "Weight": "X70:, 181 g, X70 Pro:, 183 g, X70 Pro+:, 209 g"
+    },
+    "Platform": {
+      "Operating system": "Funtouch OS 12, (based on Android 11)",
+      "Chipset": "X70 and X70 Pro:, MediaTek Dimensity 1200-Vivo, X70 Pro+:, Qualcomm Snapdragon 888+",
+      "CPU": "Octa-core, X70 and X70 Pro:, (1x 3.0 GHz ARM Cortex-A78, Cortex-A78 + 3x 2.6 GHz Cortex-A78 + 4x 2.0 GHz ARM Cortex-A78, Cortex-A55), X70 Pro+:, (1x 3.0 GHz + 3x 2.42 GHz + 4x 1.8 GHz Kryo 680)",
+      "GPU": "X70 and X70 Pro:, Mali (GPU), Mali-G77 MC9 (China), X70 Pro+:, Adreno 660"
+    },
+    "Memory": {
+      "RAM": "8 GB or 12 GB LPDDR5 RAM",
+      "Storage": "128 GB or 256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "X70/X70 Pro: AMOLED capacitive touchscreen with HDR10+ support, 6.56 in 1080p, (398 ppi with 20:9 aspect ratio), 120 Hz refresh rate, X70 Pro+: AMOLED capacitive touchscreen with HDR10+ support, 6.78 in 1440p, (517 ppi with 20:9 aspect ratio), 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "X70:, 40 MP, f/1.8, 26mm, 1/2\", 0.8 μm (wide) + 12 MP, f/2.2, 16mm (ultrawide) + 13 MP, f/2.5, 12 mm, 1/2.8\", 0.8 μm (telephoto), 2x optical zoom, X70 Pro:, 50 MP, f/1.5, 26mm, 1/2\", 0.8 μm (wide) + 12 MP, f/2.2, 16mm (ultrawide) + 12 MP, f/2.5, 50 mm, 1/2.8\", 0.8 μm (periscope telephoto) + 8 MP, f/3.4, 125mm, 1/4\" (telephoto), 2x and 5x optical zoom, X70 Pro+:, 50 MP, f/1.6, 1/1.31\", 1.2 μm (wide) + 48 MP, 1/2\", 0.8 μm (ultrawide) + 12 MP, f/2.1, 50 mm, 1/2.8\", 0.8 μm (telephoto) + 8 MP, f/3.4, 125mm, 1/4\" (periscope telephoto), 2x and 5x optical zoom , Carl Zeiss AG, Zeiss optics , X70 and X70 Pro: Autofocus#Phase detection, PDAF, Laser AF, Gimbal OIS, gyro-Image stabilization#Digital imag",
+      "Front camera": "32 MP, f/2.5, 26mm, 1/2.8\", 0.8 μm, HDR , X70 and X70 Pro: 1080p@30 fps, X70 Pro+: 4K@30 fps, 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Vivo X70/Pro: Mono speaker, X70 Pro+: Stereo speaker"
+    },
+    "Battery": {
+      "Battery": "X70:, 4400 mAh, X70 Pro:, 4450 mAh, X70 Pro+:, 4500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.1, Bluetooth 5.1/5.2, Wi-Fi a/b/g/n/ac/6, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.56,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "X70",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 40,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4400,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 181,
+    "thickness_mm": 8.9,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X70",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X70"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X70\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Vivo X70",
+    "revid": 1361537007
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

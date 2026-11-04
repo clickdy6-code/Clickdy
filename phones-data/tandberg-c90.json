@@ -1,0 +1,51 @@
+{
+  "slug": "tandberg-c90",
+  "brand": "Tandberg",
+  "name": "C90",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/TANDBERG_C90_003.jpg/500px-TANDBERG_C90_003.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/TANDBERG_C90_003.jpg/250px-TANDBERG_C90_003.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Tandberg C90",
+      "credit": "Thomas von der Lippe, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:TANDBERG_C90_003.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Dimensions": "Length: 17.36\"/44.1 cm, Height: 3.67\"/9.3 cm, Depth: 11.8\"/30 cm",
+      "Weight": "11.22 lbs/5.1 kg"
+    },
+    "Display": {
+      "Display": "Not included. Outputs supported: HDMI, DVI-I, BNC (PAL/NTSC)"
+    },
+    "Cameras": {
+      "Rear camera": "Not included. Maximum live video resolutions: 1920×1080@30fps and 1280×720@60fps"
+    },
+    "Connectivity": {
+      "Connectivity": "2 × separate LAN/Ethernet (RJ-45) 10/100/1000 Mbit, 13 video inputs (up to 1080p60), 5 video outputs (up to 1080p60), 14 audio inputs, 8 audio outputs"
+    }
+  },
+  "key": {
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tandberg C90",
+      "url": "https://en.wikipedia.org/wiki/Tandberg_C90"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tandberg C90\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Tandberg C90",
+    "revid": 1361536625
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

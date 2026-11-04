@@ -1,0 +1,83 @@
+{
+  "slug": "xiaomi-mi-mix-2",
+  "brand": "Xiaomi",
+  "name": "Mi MIX 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Mi_mix_2_front_back.png/500px-Mi_mix_2_front_back.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Mi_mix_2_front_back.png/250px-Mi_mix_2_front_back.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi MIX 2",
+      "credit": "Haha169, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mi_mix_2_front_back.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-09",
+      "Series": "Mi MIX",
+      "Predecessor": "Xiaomi Mi MIX",
+      "Successor": "Xiaomi Mi MIX 3"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151.8 x 75.5 x 7.7 mm",
+      "Weight": "185 g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.1 \"Nougat\" (MIUI 8) Upgradeable to Android 9.0 \"Pie\" (MIUI 12)",
+      "Chipset": "Qualcomm Snapdragon 835",
+      "CPU": "Octa-core (4×2.45 GHz & 4×2.19 GHz) Kryo",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "RAM": "6 or 8 LPDDR4x RAM",
+      "Storage": "64, 128 or 256 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "1080×2160 1080p IPS LCD, 5.99 in, (403 [[Pixels per inch)"
+    },
+    "Cameras": {
+      "Rear camera": "12 (1.25) Sony Exmor RS imx386, f/2.0, 4K at 30 fps, 1080p at 30 fps, 720p at 120 fps",
+      "Front camera": "5, f/2.0, OmniVision OV5675"
+    },
+    "Battery": {
+      "Battery": "3400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.99,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 835",
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 3400,
+    "os": "Android 7.1",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 185,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi MIX 2",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_MIX_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi MIX 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi MIX 2",
+    "revid": 1361537557
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

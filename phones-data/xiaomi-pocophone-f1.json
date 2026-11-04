@@ -1,0 +1,99 @@
+{
+  "slug": "xiaomi-pocophone-f1",
+  "brand": "Xiaomi",
+  "name": "Pocophone F1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Xiaomi_Poco_F1_on_Wikipedia.jpg/500px-Xiaomi_Poco_F1_on_Wikipedia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Xiaomi_Poco_F1_on_Wikipedia.jpg/250px-Xiaomi_Poco_F1_on_Wikipedia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Pocophone F1",
+      "credit": "Petar Milošević, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Poco_F1_on_Wikipedia.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-08",
+      "Series": "Poco F",
+      "Predecessor": "Redmi Pro",
+      "Successor": "Redmi K20 Pro, Redmi K30 Pro/Poco F2 Pro"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 155.5 mm , W: 75.3 mm, D: 8.8 mm",
+      "Weight": "182 g , Armored 187 g",
+      "Other": "AGPS, GPS, GLONASS, BDS, Infrared face recognition, fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, LiquidCool Technology"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI 9.6 based on Android 8.1 Oreo, Current: MIUI 12 based on Android 10, Unofficial: Android 15 through various custom roms, PostmarketOS Installation wiki, Mobian Installation images, Windows through Renegade Project",
+      "CPU": "Qualcomm Snapdragon 845 Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.8 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6/8 GB",
+      "Storage": "256 GB/8 GB RAM , 64/128 GB, 6 GB RAM",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.18 inches (96.2 cm2) 1080 x 2246 pixels (403 ppi), 18,7:9 ratio, IPS LCD capacitive touchscreen, 16M colors, 1500:1 contrast ratio"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP (ƒ/1.9, 1.4 μm), phase detection autofocus, dual-LED dual-tone flash, Geo-tagging, touch focus, face detection, panorama, HDR, 4K UHD@60fps, 4K UHD@30fps, 2160p@30fps, 2160p@60fps, 1080p@60fps, 1080p@30fps (gyro-EIS), 720p@30fps",
+      "Front camera": "20 MP, HDR, 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "4000 mAh non-removable Li-Po (Quick Charge™ 3.0 and Supports Quick Charge™ 4+)"
+    },
+    "Connectivity": {
+      "Connectivity": "2G, 3G, 4G, 4G LTE, Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot, Bluetooth v5.0, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.18,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      6,
+      8,
+      128,
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 20,
+    "battery_mah": 4000,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 182,
+    "thickness_mm": 8.8,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Pocophone F1",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Pocophone_F1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Pocophone F1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Pocophone F1",
+    "revid": 1370904693
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

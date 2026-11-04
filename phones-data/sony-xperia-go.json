@@ -1,0 +1,88 @@
+{
+  "slug": "sony-xperia-go",
+  "brand": "Sony",
+  "name": "Xperia Go",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Xperia_go.jpg/500px-Xperia_go.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Xperia_go.jpg/250px-Xperia_go.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia Go",
+      "credit": "Blakegripling ph, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xperia_go.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Xperia",
+      "Predecessor": "Sony Ericsson Xperia active",
+      "Successor": "Sony Xperia tipo"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "111×60.3×9.8 mm",
+      "Weight": "110 g",
+      "Other": "IP67 certified, water-resistant and dust-resistant (up to 1 meter for 30 minutes)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.7 \"Gingerbread\", 4.0.4 \"Ice Cream Sandwich, Upgradeable to Android 4.1.2 \"Jelly Bean\", Unofficial upgrade to Android 4.4.4 (\"KitKat\") via XDA",
+      "Chipset": "ST-Ericsson NovaThor U8500",
+      "CPU": "1 GHz dual core",
+      "GPU": "Mali 400"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "8 GB",
+      "Card slot": "Up to 32 GB using microSD cards"
+    },
+    "Display": {
+      "Display": "3.5-inch, HVGA (480x320 pixels) (165 ppi), 16,777,216 colour TFT, Bravia Engine"
+    },
+    "Cameras": {
+      "Rear camera": "5 MPx, 720p video recording @ 30 frames/s 16x Digital Zoom, autofocus, LED flash, face and smile detection, Panorama and geo-tagging",
+      "Front camera": "No"
+    },
+    "Battery": {
+      "Battery": "1305 mAh, stand by time up to 520 h (2G), up to 460 h (3G), talk time up to 6 h 60 min (2G), up to 5 h 36 min (3G)"
+    },
+    "Connectivity": {
+      "Connectivity": "3G HSDPA up to 14.4 Mb/s, HSUPA up to 5.76 Mb/s Wi-Fi 802.11 b/g/n with Hotspot + Wi-Fi Direct, micro-USB v2.0 with USB OTG support, DLNA"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "ST-Ericsson NovaThor U8500",
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1305,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "ip": "IP67",
+    "weight_g": 110
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia Go",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_Go"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia Go\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia Go",
+    "revid": 1361536086
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

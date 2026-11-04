@@ -1,0 +1,89 @@
+{
+  "slug": "vivo-v40",
+  "brand": "Vivo",
+  "name": "V40",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024",
+      "Series": "Vivo V series",
+      "Predecessor": "Vivo V30",
+      "Successor": "Vivo V50"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 14 (Funtouch OS)",
+      "Chipset": "Qualcomm Snapdragon 7 Gen 3",
+      "GPU": "Adreno 720"
+    },
+    "Memory": {
+      "RAM": "8 GB / 12 GB RAM",
+      "Storage": "128 GB / 256 GB / 512 GB",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "6.78 in AMOLED, 2800 × 1260, up to 120 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 50 MP (wide) + 50 MP (secondary)",
+      "Front camera": "50 MP"
+    },
+    "Battery": {
+      "Battery": "5,500 mAh",
+      "Charging": "80 W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C; Wi-Fi; Bluetooth; GPS"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 7 Gen 3",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 50,
+    "battery_mah": 5500,
+    "wired_w": 80,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo V40",
+      "url": "https://en.wikipedia.org/wiki/Vivo_V40"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo V40\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo V40",
+    "revid": 1380263775
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

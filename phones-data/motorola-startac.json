@@ -1,0 +1,57 @@
+{
+  "slug": "motorola-startac",
+  "brand": "Motorola",
+  "name": "StarTAC",
+  "status": "published",
+  "announced": "1996-01-03",
+  "released": "1996-01-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Motorola_StarTAC_Flip_Phone.jpg/500px-Motorola_StarTAC_Flip_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Motorola_StarTAC_Flip_Phone.jpg/250px-Motorola_StarTAC_Flip_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Motorola StarTAC",
+      "credit": "rfdigitalwpg, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Motorola_StarTAC_Flip_Phone.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "1996-01-03",
+      "Predecessor": "MicroTAC",
+      "Successor": "Motorola V3620/V3688, Motorola V60"
+    },
+    "Network": {
+      "Technology": "AMPS, cdmaOne, TDMA, GSM"
+    },
+    "Body": {
+      "Dimensions": "93 mm × 52 mm × 20 mm (analog/CDMA), 98 mm × 57 mm × 23 mm (StarTAC GSM), 94 mm × 55 mm × 19 mm (StarTAC 130)",
+      "Weight": "88 g or more"
+    },
+    "Display": {
+      "Display": "Digital models: LCD, Analog models: Segment LED, Alphanumeric LED"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "five_g": false,
+    "weight_g": 88,
+    "thickness_mm": 20,
+    "year": 1996
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: StarTAC",
+      "url": "https://en.wikipedia.org/wiki/StarTAC"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"StarTAC\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "StarTAC",
+    "revid": 1382834410
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

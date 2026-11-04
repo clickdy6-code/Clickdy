@@ -1,0 +1,102 @@
+{
+  "slug": "tecno-phantom-x2",
+  "brand": "Tecno",
+  "name": "Phantom X2",
+  "status": "published",
+  "announced": "2023-01-20",
+  "released": "2023-01-20",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/7/77/Back_of_Tecno_Phantom_X2_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/77/Back_of_Tecno_Phantom_X2_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Tecno Phantom X2",
+      "credit": "Gadget Store 786, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Back_of_Tecno_Phantom_X2_Pro.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-01-20",
+      "Series": "Phantom X2",
+      "Predecessor": "Tecno Phantom X"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Phantom X2:, 164.6 mm H , 72.7 mm W , 8.9 mm D, Phantom X2 Pro:, 164.6 mm H , 72.7 mm W , 9 mm D",
+      "Weight": "Phantom X2: 203 g, Phantom X2 Pro: 201 g"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with HiOS V13.5.0",
+      "Chipset": "MediaTek Dimensity 9000",
+      "CPU": "Octa-core, (1×3.05 GHz Cortex-X2 & 3×2.85 GHz Cortex-A710 & 4×1.80 GHz Cortex-A510)",
+      "GPU": "Mali-G710 MC10"
+    },
+    "Memory": {
+      "RAM": "Phantom X2: 4/8 GB Random-access memory, RAM, Phantom X2 Pro: 4/12 GB RAM",
+      "Storage": "Universal Flash Storage, UFS 3.1, 64/128/256 GB"
+    },
+    "Display": {
+      "Display": "AMOLED capacitive touchscreen, 6.8 in, 20:9 Display aspect ratio, aspect ratio, (387 ppi), 120 Hz refresh rate, Gorilla Glass, Corning Gorilla Glass Victus, ~93.3% screen-to-body ratio, 500 nits"
+    },
+    "Cameras": {
+      "Rear camera": "Phantom X2: 64 Pixel#Megapixel, MP, Aperture, f/1.7, (Wide-angle lens, wide), 1/1.7\", 0.8 μm, Autofocus#Phase detection, PDAF, OIS, 13 MP, f/2.2, (Ultra wide angle lens, ultrawide), 1/1.3\", 1.12 μm, AF, 2MP, Phantom X2 Pro: 50 MP, f/1.9, (wide), 1/1.3\", 1.2 μm, PDAF, 50 MP, f/1.5, 65 Focal length, mm (telephoto), 1/2.7\", 0.64 μm, PDAF, 2.5x optical zoom, retractable lens, 13 MP, f/2.2, (ultrawide), 1/1.3\", 1.12 μm, AF",
+      "Front camera": "Phantom X2 and Phantom X2 Pro: 32 MP, f/2.5 (wide), 1/2.8\", 0.8 μm"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "5160 mAh",
+      "Charging": "45W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.3, Bluetooth 5.3, IEEE 802.11, Wi-Fi 802.11 a/b/g/n/ac, dual-band"
+    }
+  },
+  "key": {
+    "display_in": 6.8,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 500,
+    "chipset": "MediaTek Dimensity 9000",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 13,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 5160,
+    "wired_w": 45,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 203,
+    "thickness_mm": 8.9,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Phantom X2",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Phantom_X2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Phantom X2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Tecno Phantom X2",
+    "revid": 1361536695
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

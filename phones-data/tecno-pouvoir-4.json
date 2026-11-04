@@ -1,0 +1,98 @@
+{
+  "slug": "tecno-pouvoir-4",
+  "brand": "Tecno",
+  "name": "Pouvoir 4",
+  "status": "published",
+  "announced": "2020-07-07",
+  "released": "2020-07-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tecno_Pouvoir_4_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tecno_Pouvoir_4_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Tecno Pouvoir 4",
+      "credit": "Perfect Rizi, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tecno_Pouvoir_4_Pro.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-07-07",
+      "Series": "Pouvoir 4",
+      "Predecessor": "Tecno Pouvoir 3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "174.9 x 79.6 x 9.2 mm"
+    },
+    "Platform": {
+      "Operating system": "Android 10 with HiOS 6.1",
+      "Chipset": "Pouvoir 4: MediaTek Helio A22, Pouvoir 4 Pro: MediaTek Helio P22",
+      "CPU": "Helio: Octa-core (4x2.0 GHz Cortex-A53, 4x1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "Pouvoir 4: 3 RAM, Pouvoir 4 Pro: 6 GB RAM",
+      "Storage": "32/128 GB",
+      "Card slot": "microSD, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "720 x 1640 720p Dot Notch IPS LCD, 7.0 in (174.9 mm), (246 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Pouvoir 4: 13 Pixel#Megapixel, MP, Aperture, f/1.8, (Ultra wide angle lens, ultrawide) + 2MP, Macro photography, macro + 2MP, (depth) + Graphics display resolution#320 × 240 (QVGA), QVGA, Pouvoir 4 Pro: 16 Pixel#Megapixel, MP, Aperture, f/1.8, (ultrawide) + 5MP, macro + 2MP, (depth) + QVGA, All: Quad LED flash, HDR, PDAF, 1080p@30fps, bokeh, panorama",
+      "Front camera": "Pouvoir 4: 8 MP, f/2.0, (wide), Pouvoir 4 Pro: 16 MP, f/2.0, (wide), All: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "6000 mAh",
+      "Charging": "(18W for Pouvoir 4 Pro)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi 802.11 b/g/n, 3G/LTE"
+    }
+  },
+  "key": {
+    "display_in": 7.0,
+    "display_type": "IPS LCD",
+    "chipset": "Pouvoir 4: MediaTek Helio A22",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 2,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 6000,
+    "wired_w": 18,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Pouvoir 4",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Pouvoir_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Pouvoir 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Tecno Pouvoir 4",
+    "revid": 1361536701
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

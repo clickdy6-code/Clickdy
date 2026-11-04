@@ -1,0 +1,79 @@
+{
+  "slug": "sony-ericsson-k810i",
+  "brand": "Sony Ericsson",
+  "name": "K810i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Sony_Ericsson_K810i_front.jpg/500px-Sony_Ericsson_K810i_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Sony_Ericsson_K810i_front.jpg/250px-Sony_Ericsson_K810i_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson K810i",
+      "credit": "Äppelmos, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_K810i_front.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "K",
+      "Predecessor": "Sony Ericsson K800",
+      "Successor": "Sony Ericsson K850"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS, UMTS"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "106.0 x 48.0 x 17.0 mm",
+      "Weight": "103.0 g"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson Java Platform 7 (Java ME)"
+    },
+    "Memory": {
+      "RAM": "70 MB",
+      "Card slot": "Memory Stick Micro (M2) (support up to 8 GB)"
+    },
+    "Display": {
+      "Display": "240x320 pixels QVGA (262,144 colour TFT)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "900 mAh Li-poly"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Bluetooth 2.0, IR port"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 103
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson K810i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_K810i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson K810i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson K810i",
+    "revid": 1374925743
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

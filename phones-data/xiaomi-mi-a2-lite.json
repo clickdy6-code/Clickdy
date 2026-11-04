@@ -1,0 +1,90 @@
+{
+  "slug": "xiaomi-mi-a2-lite",
+  "brand": "Xiaomi",
+  "name": "Mi A2 Lite",
+  "status": "published",
+  "announced": "2018-07-24",
+  "released": "2018-07-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Xiaomi_Mi_A2_Lite_%281%29.jpg/500px-Xiaomi_Mi_A2_Lite_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Xiaomi_Mi_A2_Lite_%281%29.jpg/250px-Xiaomi_Mi_A2_Lite_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi A2 Lite",
+      "credit": "Bindydad123, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_A2_Lite_(1).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-07-24",
+      "Series": "Mi A",
+      "Predecessor": "Redmi 5 Plus"
+    },
+    "Network": {
+      "Technology": "GSM: 800/900/1800/1900, HSPA: 850 / 900 / 1900 / 2100, LTE:, VoLTE 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 20(800), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "149.3 mm H, 71.7 mm W, 8.8 mm D",
+      "Weight": "178 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\", upgrade-able to Android 10 (Mi A2 Lite), Android 9 (Redmi 6 Pro)",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625",
+      "CPU": "Octa-core (8x2.0GHz Cortex-A53)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "3/4 GB",
+      "Storage": "32/64 GB"
+    },
+    "Display": {
+      "Display": "5.84 in IPS LCD, 1080 x 2280 pixels, ~432 ppi, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 12/5 MP phase detection autofocus, HDR, LED flash",
+      "Front camera": "5.0 MP, face detection, HDR"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4000 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 5.84,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8953 Snapdragon 625",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 4000,
+    "os": "Android 8.1",
+    "five_g": false,
+    "weight_g": 178,
+    "thickness_mm": 8.8,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi A2 Lite",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_A2_Lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi A2 Lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi A2 Lite",
+    "revid": 1361537525
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

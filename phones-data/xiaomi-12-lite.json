@@ -1,0 +1,105 @@
+{
+  "slug": "xiaomi-12-lite",
+  "brand": "Xiaomi",
+  "name": "12 Lite",
+  "status": "published",
+  "announced": "2022-07-09",
+  "released": "2022-07-09",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Xiaomi_12_Lite_front.jpg/500px-Xiaomi_12_Lite_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Xiaomi_12_Lite_front.jpg/250px-Xiaomi_12_Lite_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 12 Lite",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_12_Lite_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-07-09",
+      "Series": "Xiaomi",
+      "Predecessor": "Xiaomi Mi 11 Lite",
+      "Successor": "Xiaomi 13 Lite"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.3 × 73.7 × 7.29 mm",
+      "Weight": "173 g",
+      "Other": "Virtual proximity sensing"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12 with MIUI 13, Current: Android 14 with Xiaomi HyperOS",
+      "Chipset": "Qualcomm SM7325 Snapdragon 778G 5G (6 nm)",
+      "CPU": "Octa-core (4x2.4 GHz Kryo 670 & 4x1.8 GHz Kryo 670)",
+      "GPU": "Adreno 642L"
+    },
+    "Memory": {
+      "RAM": "6 GB or 8 GB LPDDR4X",
+      "Storage": "128 GB or 256 GB UFS 2.2"
+    },
+    "Display": {
+      "Display": "AMOLED, 120Hz, HDR10+, 6.55 inches, 2400 × 1080 pixels (FHD+), 20:9 ratio, 402 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "108 MP, 26mm (wide), 1/1.52\", 0.7µm, PDAF, 8 MP, 119˚ (ultrawide), 1/4\", 1.12µm, 2 MP, (macro), LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60/120fps; gyro-EIS",
+      "Front camera": "32 MP, 26mm (wide), 1/2.8\", 0.7µm, AF, HDR, panorama, Video: 1080p@30/60fps, 720p@120fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4300 mAh",
+      "Charging": "67W fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.2 (A2DP, LE), NFC, Infrared port, Wi-Fi 802.11 a/b/g/n/ac/6 (dual-band, Wi-Fi Direct), GPS (A-GPS), GLONASS, BeiDou, Galileo, QZSS, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.55,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm SM7325 Snapdragon 778G 5G",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 108,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4300,
+    "wired_w": 67,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 173,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 12 Lite",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_12_Lite"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 12 Lite\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 12 Lite",
+    "revid": 1361537211
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

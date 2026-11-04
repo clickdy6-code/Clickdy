@@ -1,0 +1,86 @@
+{
+  "slug": "vivo-y15",
+  "brand": "Vivo",
+  "name": "Y15",
+  "status": "published",
+  "announced": "2019-05-28",
+  "released": "2019-05-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-05-28",
+      "Discontinued": "Yes",
+      "Series": "Vivo Y series"
+    },
+    "Network": {
+      "Technology": "GSM, 3G (HSDPA), 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "159.4 mm H , 76.8 mm W , 8.9 mm D",
+      "Weight": "190.5 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 (Pie), Funtouch OS 9",
+      "Chipset": "MediaTek MT6762 Helio P22 (12 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "64 GB eMMC 5.1",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.35 inches, 720 × 1544 pixels, 19.3:9 ratio (~268 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, f/2.2, PDAF + 8 MP, f/2.2, 16 mm (ultrawide) + 2 MP auxiliary lens, f/2.4, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "16 MP, f/2.0, 26 mm (wide), 1/3.06\", 1.0 µm, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh",
+      "Charging": "Standard charging"
+    }
+  },
+  "key": {
+    "display_in": 6.35,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6762 Helio P22",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "os": "Android 9.0",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 190.5,
+    "thickness_mm": 8.9,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y15",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y15"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y15\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y15",
+    "revid": 1367349688
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

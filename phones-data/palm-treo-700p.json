@@ -1,0 +1,62 @@
+{
+  "slug": "palm-treo-700p",
+  "brand": "Palm",
+  "name": "Treo 700p",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Treo700p.png/500px-Treo700p.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Treo700p.png/250px-Treo700p.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Palm Treo 700p",
+      "credit": "ScaredPoet, ScaredPoet.com, CC BY-SA 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Treo700p.png",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "4.4 in H , 2.3 in W , 0.9 in D",
+      "Weight": "6.4 oz"
+    },
+    "Platform": {
+      "Operating system": "Palm OS 5.4.9",
+      "CPU": "Intel XScale PXA272 Bulverde (312 MHz, 32-bit, ARMv5TE, 0.18 μm)"
+    },
+    "Display": {
+      "Display": "Color 320x320 2.8 in. TFT touchscreen display"
+    },
+    "Cameras": {
+      "Rear camera": "1.3-megapixel"
+    },
+    "Battery": {
+      "Battery": "1800 mAh Battery"
+    },
+    "Connectivity": {
+      "Connectivity": "CDMA/EVDO, Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1800,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Treo 700p",
+      "url": "https://en.wikipedia.org/wiki/Treo_700p"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Treo 700p\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Treo 700p",
+    "revid": 1364629692
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

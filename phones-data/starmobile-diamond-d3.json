@@ -1,0 +1,80 @@
+{
+  "slug": "starmobile-diamond-d3",
+  "brand": "Starmobile",
+  "name": "Diamond D3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-01",
+      "Series": "Diamond",
+      "Predecessor": "Starmobile Diamond D2"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA+",
+      "SIM": "Dual SIM"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2 (Jelly Bean)",
+      "Chipset": "MediaTek MT6582",
+      "CPU": "1.3 GHz quad-core",
+      "GPU": "Mali-400MP"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "5.0 in (130 mm) qHD IPS LCD, 960 x 540 pixels (~220 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, BSI, autofocus, LED flash",
+      "Front camera": "8 MP, BSI, autofocus, LED flash"
+    },
+    "Battery": {
+      "Battery": "2000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6582",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2000,
+    "os": "Android 4.2",
+    "five_g": false,
+    "dual_sim": true,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Starmobile Diamond D3",
+      "url": "https://en.wikipedia.org/wiki/Starmobile_Diamond_D3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Starmobile Diamond D3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Starmobile Diamond D3",
+    "revid": 1368118162
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

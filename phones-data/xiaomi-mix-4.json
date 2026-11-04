@@ -1,0 +1,102 @@
+{
+  "slug": "xiaomi-mix-4",
+  "brand": "Xiaomi",
+  "name": "MIX 4",
+  "status": "published",
+  "announced": "2021-08-16",
+  "released": "2021-08-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Xiaomi_MIX_4_front.jpg/500px-Xiaomi_MIX_4_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Xiaomi_MIX_4_front.jpg/250px-Xiaomi_MIX_4_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi MIX 4",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_MIX_4_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-08-16",
+      "Series": "MIX",
+      "Predecessor": "Xiaomi Mi MIX 3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.6 x 75.4 x 8 mm",
+      "Weight": "225 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 11 with MIUI 12.5, Current: Android 14 with Xiaomi HyperOS",
+      "Chipset": "Qualcomm Snapdragon 888+",
+      "CPU": "Octa-core, (1x 2.99 GHz Kryo 680 Prime – Cortex-X1 derivative + 3x 2.42 GHz Kryo 680 Gold – Cortex-A78 derivative + 4x 1.8 GHz Kryo 680 Silver – Cortex-A55 derivative)",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "128, 256 or 512 GB UFS 3.1",
+      "Storage": "8 or 12 GB RAM"
+    },
+    "Display": {
+      "Display": "6.67 in AMOLED capacitive touchscreen, 1080p 2400 × 1080 pixels, 20:9 aspect ratio (395 ppi), 120 Hz refresh rate, HDR10+, Dolby Vision"
+    },
+    "Cameras": {
+      "Rear camera": "108 MP, f/1.9, 24 mm, 1/1.33\", 0.8 μm (wide) + 8 MP, f/4.1, 120 mm (telephoto) + 13 MP, f/2.2, 12 mm, 123°, 1/3.06\", 1.12 μm (ultrawide), Dual Pixel PDAF, Laser AF, OIS, 5x optical zoom, 8K@24fps, 4K@30/60fps, 1080p@30/60/120/480fps, gyro-EIS, HDR10+",
+      "Front camera": "Under-display 20 MP, 27 mm, 1/3.4\", 0.8 μm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo loudspeakers"
+    },
+    "Battery": {
+      "Battery": "4500 mAh",
+      "Charging": "120 W USB-C, 50 W Wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac/6e (2.4 & 5GHz), dual-band, WiFi Direct, hotspot, Ultra-wideband support, Bluetooth V5.2, A2DP, Low-energy, aptX HD, dual-band A-GPS, GLONASS, GALILEO, BDS, QZSS, NavIC, USB Type-C 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 888+",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      12
+    ],
+    "main_mp": 108,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 20,
+    "battery_mah": 4500,
+    "wireless_w": 50,
+    "wired_w": 120,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 225,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi MIX 4",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_MIX_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi MIX 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi MIX 4",
+    "revid": 1361537307
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

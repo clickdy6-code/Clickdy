@@ -1,0 +1,89 @@
+{
+  "slug": "xiaomi-mi-4",
+  "brand": "Xiaomi",
+  "name": "Mi 4",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Xiaomi_Mi4.jpg/500px-Xiaomi_Mi4.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Xiaomi_Mi4.jpg/250px-Xiaomi_Mi4.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi 4",
+      "credit": "https://www.flickr.com/people/136966778@N03 Thomas Nilsson, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi4.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-08",
+      "Series": "Mi",
+      "Predecessor": "Xiaomi Mi 3",
+      "Successor": "Xiaomi Mi 4S , Xiaomi Mi 5"
+    },
+    "Network": {
+      "Technology": "GSM, CDMA, WCDMA, 3G, EVDO, HSDPA and optionally LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "139.2 mm H, 68.5 mm W, 8.9 mm D",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI v5 (Android 4.4 Kitkat), Current: MIUI 9 (Android 6.0 Marshmallow), Windows 10 Mobile (up to version 1607) released 2015-12-03",
+      "CPU": "2.5 GHz Qualcomm Snapdragon 801 MSM8974AC Quad-Core Krait 400",
+      "GPU": "Adreno 330 578MHz"
+    },
+    "Memory": {
+      "RAM": "2 or 3 GB LPDDR3 RAM",
+      "Storage": "16 or 64 GB eMMC 5.0"
+    },
+    "Display": {
+      "Display": "5 inch diagonal, (16:9 aspect ratio), multi-touch display, LED backlit IPS TFT LCD, 1080x1920 pixels at 441 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP back-side illuminated sensor, HD video (2160p) at 30 frame/s, IR filter, dual warm/cool LED flashes, aperture f/1.8, facial recognition, image stabilization, burst mode",
+      "Front camera": "8 MP, HD video (1080p)"
+    },
+    "Battery": {
+      "Battery": "3080 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3080,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 149,
+    "thickness_mm": 8.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 4",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 4",
+    "revid": 1361537408
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "trium-mondo",
+  "brand": "Trium",
+  "name": "Mondo",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Trium_Mondo_front_scanned.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Trium_Mondo_front_scanned.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Trium Mondo",
+      "credit": "Techtri, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Trium_Mondo_front_scanned.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900 1800"
+    },
+    "Body": {
+      "Dimensions": "140 mm H , 84 mm W , 19 mm D",
+      "Weight": "200 g"
+    },
+    "Platform": {
+      "Operating system": "Pocket PC 2000",
+      "CPU": "166 MHz Intel SA-1110 CPU"
+    },
+    "Display": {
+      "Display": "240x320, 16 colors (monochrome)"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 200,
+    "thickness_mm": 19
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Trium Mondo",
+      "url": "https://en.wikipedia.org/wiki/Trium_Mondo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Trium Mondo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Trium Mondo",
+    "revid": 1383615946
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

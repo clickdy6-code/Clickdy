@@ -1,0 +1,92 @@
+{
+  "slug": "sony-xperia-xz2-premium",
+  "brand": "Sony",
+  "name": "Xperia XZ2 Premium",
+  "status": "published",
+  "announced": "2018-07-30",
+  "released": "2018-07-30",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-07-30",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia XZ Premium",
+      "Successor": "Sony Xperia 1"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158 mm H, 80 mm W, 11.9 mm D",
+      "Weight": "236 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 \"Oreo\" , Upgradable to Android 10",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4x2.7 GHz ARM Cortex-A75 & 4x1.7 GHz ARM Cortex-A55)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X RAM",
+      "Storage": "64 GB UFS",
+      "Card slot": "microSD, expandable up to 400 GB"
+    },
+    "Display": {
+      "Display": "5.8 in 4K HDR IPS LCD, ≈760 pixel density, Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 19 MP (f/1.8, 25mm, 1/2.3\", 1.22 μm) + 12 MP B/W (f/1.6, 1/2.3\", 1.55 μm), 5-axis gyro EIS, phase detection- and laser-based autofocus, LED flash, video recording at up to 4K 30fps, 1080p at 60fps (continuous) or 960fps (burst slo-mo)",
+      "Front camera": "13 MP (f/2.0, 22mm, 1/3\", 1.12 μm), 5-axis giro EIS, 1080p"
+    },
+    "Sound": {
+      "Sound": "Frontal stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3540 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5 GHz), Bluetooth 5.0, USB-C, NFC, location (GPS, Galileo, GLONASS, BeiDou)"
+    }
+  },
+  "key": {
+    "display_in": 5.8,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 19,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 13,
+    "battery_mah": 3540,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 236,
+    "thickness_mm": 11.9,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xperia XZ2 Premium",
+      "url": "https://en.wikipedia.org/wiki/Xperia_XZ2_Premium"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xperia XZ2 Premium\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xperia XZ2 Premium",
+    "revid": 1377010853
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

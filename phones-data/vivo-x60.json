@@ -1,0 +1,101 @@
+{
+  "slug": "vivo-x60",
+  "brand": "Vivo",
+  "name": "X60",
+  "status": "published",
+  "announced": "2021-01-08",
+  "released": "2021-01-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Vivo_X60_Pro%2B_Orange.jpg/500px-Vivo_X60_Pro%2B_Orange.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Vivo_X60_Pro%2B_Orange.jpg/250px-Vivo_X60_Pro%2B_Orange.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Vivo X60",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vivo_X60_Pro%2B_Orange.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "X60 and X60 Pro:, 2021-01-08, X60 Pro+:, 2021-01-30, X60t Pro+:2021-06-28",
+      "Predecessor": "Vivo X50",
+      "Successor": "Vivo X70"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "X60:, 159.6 x 75 x 7.4 mm, X60 Pro:, 158.6 x 73.2 x 7.6 mm, X60 Pro+:, 158.6 x 73.4 x 9.1 mm",
+      "Weight": "X60:, 175.6 g, X60 Pro:, 178 g, X60 Pro+:, 190.6 g"
+    },
+    "Platform": {
+      "Operating system": "Origin OS 1.0 (China), Funtouch OS 11.1 (International), (based on Android 11)",
+      "Chipset": "X60 and X60 Pro:, Samsung Exynos 1080 (China), Qualcomm Snapdragon 870 (International), X60 Pro+:, Qualcomm Snapdragon 888",
+      "CPU": "Octa-core, X60 and X60 Pro:, (1x 2.8 GHz ARM Cortex-A78, Cortex-A78 + 3x 2.6 GHz Cortex-A78 + 4x 2.0 GHz ARM Cortex-A55, Cortex-A55) (China), (1x 3.2 GHz + 3x 2.42 GHz + 4x 1.8 GHz Kryo 585) (International), X60 Pro+:, (1x 2.84 GHz + 3x 2.42 GHz + 4x 1.8 GHz Kryo 680)",
+      "GPU": "X60 and X60 Pro:, Mali (GPU), Mali-G78 MP10 (China), Adreno 650 (International), X60 Pro+:, Adreno 660"
+    },
+    "Memory": {
+      "RAM": "8 GB or 12 GB LPDDR5 RAM",
+      "Storage": "128 GB or 256 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "AMOLED capacitive touchscreen with HDR10+ support, 6.56 in 1080p (2.5 MP), (398 ppi with 19.8:9 aspect ratio), 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "X60:, 48 MP, f/1.8, 26mm, 1/2\", 0.8 μm (wide) + 13 MP, f/2.2, 16mm (ultrawide) + 13 MP, f/2.5, 50 mm, 1/2.8\", 0.8 μm (portrait), 2x optical zoom, X60 Pro:, 48 MP, f/1.5, 26mm, 1/2\", 0.8 μm (wide) + 13 MP, f/2.2, 16mm (ultrawide) + 13 MP, f/2.5, 50 mm, 1/2.8\", 0.8 μm (portrait) + 8 MP, f/3.4, 125mm, 1/4\" (telephoto), 2x and 5x optical zoom, X60 Pro+:, 50 MP, f/1.6, 1/1.31\", 1.2 μm (wide) + 48 MP, 1/2\", 0.8 μm (ultrawide) + 32 MP, f/2.1, 50 mm, 1/2.8\", 0.8 μm (telephoto) + 8 MP, f/3.4, 125mm, 1/4\" (telephoto), 2x and 5x optical zoom , Carl Zeiss AG, Zeiss optics , X60 and X60 Pro: Autofocus#Phase detection, PDAF, Image stabilization#Optical image stabilization, OIS, gyro-Image stabilization#Di",
+      "Front camera": "32 MP, f/2.5, 26mm, 1/2.8\", 0.8 μm, HDR , X60 and X60 Pro: 1080p@30 fps, X60 Pro+: 4K@30 fps, 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "X60:, 4300 mAh, X60 Pro and X60 Pro+:, 4200 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.1, Bluetooth 5.1/5.2, Wi-Fi a/b/g/n/ac/6, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.56,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "X60",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4300,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 175.6,
+    "thickness_mm": 9.1,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X60",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X60"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X60\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X60",
+    "revid": 1361536992
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

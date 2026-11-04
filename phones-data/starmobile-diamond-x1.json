@@ -1,0 +1,84 @@
+{
+  "slug": "starmobile-diamond-x1",
+  "brand": "Starmobile",
+  "name": "Diamond X1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 2014",
+      "Series": "Diamond",
+      "Predecessor": "Starmobile Diamond D1"
+    },
+    "Network": {
+      "Technology": "3G, HSPA+",
+      "SIM": "Dual-SIM, dual standby"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "7.50 mm thickness"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2.2 (Jelly Bean)",
+      "Chipset": "MediaTek MT6592",
+      "CPU": "1.7 GHz Octa-core",
+      "GPU": "Mali-450MP4"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSD (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "6.0 in (152 mm) IPS LCD, 1280 × 720 pixels, (~245 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "18 MP BSI, autofocus, LED flash",
+      "Front camera": "8 MP BSI"
+    },
+    "Sound": {
+      "Sound": "Yamaha speakers"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 2,400 mAh"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6592",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 18,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2400,
+    "os": "Android 4.2",
+    "five_g": false,
+    "dual_sim": true,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Starmobile Diamond X1",
+      "url": "https://en.wikipedia.org/wiki/Starmobile_Diamond_X1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Starmobile Diamond X1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Starmobile Diamond X1",
+    "revid": 1368118053
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

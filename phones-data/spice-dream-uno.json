@@ -1,0 +1,87 @@
+{
+  "slug": "spice-dream-uno",
+  "brand": "Spice",
+  "name": "Dream Uno",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-09"
+    },
+    "Network": {
+      "Technology": "2G/3G, GSM: 850/900/1800/1900 MHz, WCDMA: 850/2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "131 mm (5.16 in) H 65 mm (2.56 in) W 8 mm (0.32 in) H",
+      "Weight": "136 g (4.8 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.4 KitKat upgradable to Android 6.0.1 Marshmallow",
+      "Chipset": "MediaTek MT6582",
+      "CPU": "1.3 GHz quad-core Cortex",
+      "GPU": "Mali 400MP"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "internal: 4 GB (2.1 GB for Apps); removable storage: microSD cards up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.5 in (110 mm) 480x854 of 218 PPI pixel density, capacitive touchscreen IPS Display"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP with autofocus and LED flash",
+      "Front camera": "2 MP 1.4um pixel (fixed focus)"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "1700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Micro USB, Bluetooth 4.0, Wi-Fi 802.11 b/g/n, Micro-SIM SAR"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS",
+    "chipset": "MediaTek MT6582",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4,
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 1700,
+    "os": "Android 4.4",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 136,
+    "thickness_mm": 8,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Spice Dream Uno",
+      "url": "https://en.wikipedia.org/wiki/Spice_Dream_Uno"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Spice Dream Uno\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Spice Dream Uno",
+    "revid": 1361536517
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

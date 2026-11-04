@@ -1,0 +1,63 @@
+{
+  "slug": "sharp-sh011",
+  "brand": "Sharp",
+  "name": "SH011",
+  "status": "published",
+  "announced": "2011-01-28",
+  "released": "2011-01-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-01-28",
+      "Predecessor": "SH004"
+    },
+    "Network": {
+      "Technology": "CDMA 1X (CDMA2000 1xRTT), CDMA 1X WIN (CDMA2000 1xEV-DO Rev.A)"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "111 mm H , 50 mm W , 15.1 mm D",
+      "Weight": "128 g"
+    },
+    "Platform": {
+      "Operating system": "KCP+",
+      "CPU": "Qualcomm MSM7500 600 MHz"
+    },
+    "Memory": {
+      "Storage": "Approx. 700 MB",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "Main: 3.2 in (81 mm), New Mobile ASV LCD, Full Wide VGA (480×854 pixels), 260k colors, Sub: 1.0 in (25 mm), OLED, 1 color"
+    },
+    "Cameras": {
+      "Rear camera": "9.57 MP CCD, autofocus, image stabilization"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "LCD",
+    "main_mp": 9.57,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "weight_g": 128,
+    "thickness_mm": 15.1,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sharp SH011",
+      "url": "https://en.wikipedia.org/wiki/Sharp_SH011"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sharp SH011\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Sharp SH011",
+    "revid": 1369707462
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

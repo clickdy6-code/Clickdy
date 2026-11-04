@@ -1,0 +1,88 @@
+{
+  "slug": "sony-xperia-x-compact",
+  "brand": "Sony",
+  "name": "Xperia X Compact",
+  "status": "published",
+  "announced": "2016-09-08",
+  "released": "2016-09-08",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Sony_Xperia_X_Compact_PSD.png/500px-Sony_Xperia_X_Compact_PSD.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Sony_Xperia_X_Compact_PSD.png/250px-Sony_Xperia_X_Compact_PSD.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia X Compact",
+      "credit": "April.Kai, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_X_Compact_PSD.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-09-08",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia Z5 Compact",
+      "Successor": "Sony Xperia XZ1 Compact"
+    },
+    "Network": {
+      "Technology": "HSPA, GSM & LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "129 mm H, 65 mm W, 9.5 mm D",
+      "Weight": "135 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0.1 Marshmallow, Current: Android 8.0 Oreo",
+      "Chipset": "Qualcomm Snapdragon 650 MSM8956",
+      "CPU": "Hexa-core 64-bit (2 × 1.8 GHz + 4 × 1.4 GHz)",
+      "GPU": "Adreno 510"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "32 GB",
+      "Card slot": "Up to 256GB microSDXC"
+    },
+    "Display": {
+      "Display": "4.6 in 720p IPS LCD"
+    },
+    "Battery": {
+      "Battery": "Non-user removable Li-ion 2700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, NFC, DLNA, GPS/GLONASS/BeiDou, Bluetooth 4.2, USB 2.0 (Type-C port, USB charging, Quick Charge 3.0)"
+    }
+  },
+  "key": {
+    "display_in": 4.6,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 650 MSM8956",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 2700,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 135,
+    "thickness_mm": 9.5,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia X Compact",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_X_Compact"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia X Compact\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia X Compact",
+    "revid": 1380189759
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

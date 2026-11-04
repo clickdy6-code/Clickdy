@@ -1,0 +1,68 @@
+{
+  "slug": "sony-ericsson-k300",
+  "brand": "Sony",
+  "name": "Ericsson K300",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Sony_Ericsson_K300i_2.jpg/500px-Sony_Ericsson_K300i_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Sony_Ericsson_K300i_2.jpg/250px-Sony_Ericsson_K300i_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson K300",
+      "credit": "Lukasz rostek at Polish Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_K300i_2.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candy bar",
+      "Dimensions": "99.9 x 45.2 x 19.4 mm",
+      "Weight": "83g"
+    },
+    "Memory": {
+      "RAM": "12MB Internal Memory"
+    },
+    "Display": {
+      "Display": "128x128 pixels, 65,536 Colour STN LCD"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP VGA"
+    },
+    "Sound": {
+      "Sound": "Polyphonic Sound 40 voices, Real tone (MP3)"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 83
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson K300",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_K300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson K300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson K300",
+    "revid": 1380575938
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

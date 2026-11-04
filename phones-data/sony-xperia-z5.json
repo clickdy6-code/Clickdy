@@ -1,0 +1,94 @@
+{
+  "slug": "sony-xperia-z5",
+  "brand": "Sony",
+  "name": "Xperia Z5",
+  "status": "published",
+  "announced": "2015-09-02",
+  "released": "2015-09-02",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sony_Xperia_Z5_PSD.png/500px-Sony_Xperia_Z5_PSD.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sony_Xperia_Z5_PSD.png/250px-Sony_Xperia_Z5_PSD.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia Z5",
+      "credit": "April.Kai, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_Z5_PSD.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-09-02",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia Z3+ (Global), Sony Xperia Z4 SO-03G (Japan), Sony Xperia Z4 402SO (Japan), Sony Xperia Z4 SOV31 (Japan)",
+      "Successor": "Sony Xperia X"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146 mm H, 72 mm W, 7.3 mm D",
+      "Weight": "154 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1.1 Lollipop Upgradable to Android 7.1.1 Nougat",
+      "Chipset": "Qualcomm Snapdragon 810 MSM8994",
+      "CPU": "Octa-core 64-bit 20 nm, • Quad-core 2.0 GHz Cortex-A57, • Quad-core 1.5 GHz Cortex A-53",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "32 GB",
+      "Card slot": "Up to 200 GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.2 in 1080p IPS LCD, Full HD 1920x1080 px, TRILUMINOS™ Display with Live Color LED, X-Reality Engine for Mobile , Dynamic Contrast Enhancer"
+    },
+    "Cameras": {
+      "Rear camera": "23 MP [Exmor RS IMX300],1/2.3\" sensor size, back-side illuminated sensor, LED flash, 4K (2160p) video recording @ 30 fps, 1080p@60fps, 720p@120fps, 0.03 seconds Hybrid Autofocus",
+      "Front camera": "5 MP [Exmor R IMX241],1/5\" sensor size, 1080p video recording @ 30 fps, 720p@60fps"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 2900 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS/BeiDou, NFC, Bluetooth 4.1, MHL 3.0, USB 2.0 (Micro-B port, USB charging, Quick Charge 2.0), USB OTG, 3.50 mm headphone jack, 5 pole, fingerprint sensor"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 810 MSM8994",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 23,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5,
+    "battery_mah": 2900,
+    "os": "Android 5.1",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 154,
+    "thickness_mm": 7.3,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia Z5",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_Z5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia Z5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia Z5",
+    "revid": 1382120381
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

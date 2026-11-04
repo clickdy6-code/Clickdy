@@ -1,0 +1,74 @@
+{
+  "slug": "xiaomi-mi-2",
+  "brand": "Xiaomi",
+  "name": "Mi 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Mi",
+      "Predecessor": "Xiaomi Mi 1, Xiaomi Mi 1S",
+      "Successor": "Xiaomi Mi 3"
+    },
+    "Network": {
+      "Technology": "GSM 850,900,1800, and 1900MHz & WCDMA 850, 1900 and 2100MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "125 mm H , 62 mm W , 10.2 mm D",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI V4 (Android 4.1 Jelly Bean), Current: MIUI 9 (Android 5.0.1 Lollipop)",
+      "CPU": "Qualcomm Snapdragon S4 APQ8064 Quad-Core Krait @ 1.5 GHz",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "RAM": "2GB RAM",
+      "Storage": "16GB / 32GB ROM"
+    },
+    "Display": {
+      "Display": "IPS Display 4.3inches @ 1280px x 720px (341 PPI) (Manufactured by Sharp Inc.)"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixels (backside-illuminated (BSI)), Records 1080p at 30fps and 720p at 90fps",
+      "Front camera": "2 Megapixels, 1080p at 30fps"
+    },
+    "Battery": {
+      "Battery": "1930mAh, 3100mAh (optional)"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "IPS",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "battery_mah": 1930,
+    "os": "Android 4.1",
+    "five_g": false,
+    "weight_g": 145,
+    "thickness_mm": 10.2
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 2",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 2",
+    "revid": 1371920621
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

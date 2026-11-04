@@ -1,0 +1,104 @@
+{
+  "slug": "xiaomi-15",
+  "brand": "Xiaomi",
+  "name": "15",
+  "status": "published",
+  "announced": "2024-10-29",
+  "released": "2024-10-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Xiaomi_15_Ultra_001.jpg/500px-Xiaomi_15_Ultra_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Xiaomi_15_Ultra_001.jpg/250px-Xiaomi_15_Ultra_001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 15",
+      "credit": "毕明明, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_Ultra_001.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "15/Pro: 2024-10-29, 15 Ultra: 2025-02-27, 15S Pro: 2025-05-22",
+      "Series": "Xiaomi",
+      "Predecessor": "Xiaomi 14",
+      "Successor": "Xiaomi 17"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "15: 152.3 × 71.2 × 8.08 mm",
+      "Weight": "181 g, 213 g (15 Pro/S Pro)"
+    },
+    "Platform": {
+      "Operating system": "Original: Xiaomi HyperOS 2 (based on Android 15) , Current: Xiaomi HyperOS 3 (based on Android 16)",
+      "Chipset": "15S Pro: XRING O1, 15/Pro/Ultra: Qualcomm Snapdragon 8 Elite",
+      "CPU": "Octa-core (1x 4.32 GHz Prime + 4x Performance + 3x Efficiency)",
+      "GPU": "Adreno 830"
+    },
+    "Memory": {
+      "RAM": "12 GB / 16 GB LPDDR5X",
+      "Storage": "256 GB / 512 GB / 1 TB , UFS 4.0",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "15: 6.36-inch LTPO AMOLED, 1.5K resolution, 120 Hz refresh rate, 3200 nits peak brightness, 15 Pro/Ultra/S Pro: 6.73-inch LTPO AMOLED, 2K resolution, 120 Hz refresh rate, 3200 nits peak brightness"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP (Primary, Leica, OIS), 50 MP (Ultra-wide), 50 MP (Telephoto)",
+      "Front camera": "32 MP (OmniVision OV32B40)"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "15:5240 mAh, 5400 mAh (China)15 Pro: 6100 mAh, 15 Ultra:5410 mAh, 6000 mAh (China)",
+      "Charging": "90W wired, 50W wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, Wi-Fi 7, Bluetooth 6.0, NFC, USB-C"
+    }
+  },
+  "key": {
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 3200,
+    "chipset": "15S Pro: XRING O1",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 5240,
+    "wireless_w": 50,
+    "wired_w": 90,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "weight_g": 181,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 15",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_15"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 15\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 15",
+    "revid": 1373781756
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

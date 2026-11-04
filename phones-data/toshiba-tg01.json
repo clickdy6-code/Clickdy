@@ -1,0 +1,59 @@
+{
+  "slug": "toshiba-tg01",
+  "brand": "Toshiba",
+  "name": "TG01",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900, GPRS Class 12, EDGE, UMTS 2100, HSDPA 7.2 Mbit/s, HSUPA 2Mps"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "129 x 70 x 9.9mm",
+      "Weight": "129 grams"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.5 (formerly 6.1)"
+    },
+    "Memory": {
+      "RAM": "256 MB of RAM, 512 MB of ROM",
+      "Card slot": "MicroSD (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "4.1\""
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel"
+    },
+    "Battery": {
+      "Battery": "Li-ion 1000mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, GPS, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 4.1,
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Toshiba TG01",
+      "url": "https://en.wikipedia.org/wiki/Toshiba_TG01"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Toshiba TG01\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Toshiba TG01",
+    "revid": 1361536762
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

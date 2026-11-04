@@ -1,0 +1,56 @@
+{
+  "slug": "siemens-cx75",
+  "brand": "Siemens",
+  "name": "CX75",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Siemens_CX75.JPG/500px-Siemens_CX75.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Siemens_CX75.JPG/250px-Siemens_CX75.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Siemens CX75",
+      "credit": "Bozi7 at English Wikipedia, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_CX75.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "900, 1800, 1900 MHz"
+    },
+    "Body": {
+      "Dimensions": "112 x 48 x 19 mm",
+      "Weight": "98g"
+    },
+    "Memory": {
+      "RAM": "8 MB , RS-MMC card slot"
+    },
+    "Display": {
+      "Display": "132 x 176 px TFT, 262000 colors)"
+    },
+    "Connectivity": {
+      "Connectivity": "SMS, EMS, MMS, E-Mail, T9, IrDA, Bluetooth, GPRS (Class 10), WAP"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "nfc": false,
+    "weight_g": 98
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens CX75",
+      "url": "https://en.wikipedia.org/wiki/Siemens_CX75"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens CX75\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens CX75",
+    "revid": 1361483921
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

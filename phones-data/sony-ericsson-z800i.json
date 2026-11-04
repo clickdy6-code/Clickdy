@@ -1,0 +1,54 @@
+{
+  "slug": "sony-ericsson-z800i",
+  "brand": "Sony",
+  "name": "Ericsson Z800i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson Z1010"
+    },
+    "Network": {
+      "Technology": "UMTS 2100 MHz, Tri-band GSM 900/1800/1900 MHz, GPRS"
+    },
+    "Body": {
+      "Dimensions": "102 x 49 x 23.6 mm",
+      "Weight": "128 g"
+    },
+    "Memory": {
+      "RAM": "Phone memory 7 MB(+/-), Expandable memory up to 4 GB Sony Memory Stick PRO Duo"
+    },
+    "Display": {
+      "Display": "Main Screen, Size: 56 mm diagonal, Colours: 262,148 TFT, Resolution: 176 x 220 pixels, External Screen, Colours: 130K, Resolution: 101 x 80 pixels"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, Bluetooth 1.1, Infrared"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      4
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 128
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Z800i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Z800i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Z800i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Z800i",
+    "revid": 1362071359
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

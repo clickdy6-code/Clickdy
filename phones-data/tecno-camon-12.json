@@ -1,0 +1,96 @@
+{
+  "slug": "tecno-camon-12",
+  "brand": "Tecno",
+  "name": "Camon 12",
+  "status": "published",
+  "announced": "2019-09-05",
+  "released": "2019-09-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Camon_12_Air_back.jpg/500px-Camon_12_Air_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Camon_12_Air_back.jpg/250px-Camon_12_Air_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Tecno Camon 12",
+      "credit": "TECHNICAL RAJU GURU, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Camon_12_Air_back.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-09-05",
+      "Series": "Camon 12",
+      "Predecessor": "Camon 11/11 Pro"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Camon 12 Air:, 164.2 x 76.1 x 8.2 mm, Camon 12:, 166 x 75.8 x 8.2 mm, Camon 12 Pro:, 158.6 x 75.5 x 7.8 mm",
+      "Weight": "Camon 12 Air: 181 g, Camon 12: 170.7 g, Camon 12 Pro: 161 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 \"Pie\" with HiOS 5.5",
+      "Chipset": "MediaTek Helio P22 (MediaTek Helio A22 for Camon 12 Air African version)",
+      "CPU": "Helio: Octa-core (Quad-core for Camon 12 Air African version) (4x 2.0 GHz ARM Cortex-A53, 4x 1.5 GHz ARM Cortex-A53)",
+      "GPU": "MediaTek: PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "Camon 12 Air: 3/4 RAM, Camon 12: 4 GB RAM, Camon 12 Pro: 6 GB RAM",
+      "Storage": "Camon 12 Air: 32/64 GB, Camon 12 and Camon 12 Pro: 64 GB",
+      "Card slot": "microSD, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "720 x 1600 720p (IPS Dot-in display for Camon 12 Air) (IPS Infinity-V display for Camon 12) (AMOLED Infinity-U display for Camon 12 Pro), Camon 12 Air: 6.55 in (164.2 mm), (268 ppi), Camon 12: 6.52 in (166 mm), (269 ppi), Camon 12 Pro: 6.4 in (158.6 mm), (266 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Camon 12 Air: 16MP Autofocus#Phase detection, PDAF + 5MP + 2MP, Camon 12 and Camon 12 Pro: 16MP Autofocus#Phase detection, PDAF + 8MP + 2MP",
+      "Front camera": "Camon 12 Air: 8MP, Camon 12: 16MP, Camon 12 Pro: 32MP"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker"
+    },
+    "Battery": {
+      "Battery": "Camon 12 Air and Camon 12: 4000 mAh, Camon 12 Pro: 3500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi 802.11 a/b/g/n, 3G/LTE"
+    }
+  },
+  "key": {
+    "display_in": 6.55,
+    "display_type": "IPS",
+    "chipset": "MediaTek Helio P22",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 16,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 181,
+    "thickness_mm": 7.8,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Camon 12",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Camon_12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Camon 12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Tecno Camon 12",
+    "revid": 1383367177
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

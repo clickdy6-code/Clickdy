@@ -1,0 +1,69 @@
+{
+  "slug": "sony-ericsson-p800",
+  "brand": "Sony",
+  "name": "Ericsson P800",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Wikipedia-FIT-SE_P800-Nutella.jpg/500px-Wikipedia-FIT-SE_P800-Nutella.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Wikipedia-FIT-SE_P800-Nutella.jpg/250px-Wikipedia-FIT-SE_P800-Nutella.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson P800",
+      "credit": "Wikimedia Commons, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wikipedia-FIT-SE_P800-Nutella.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2002-09",
+      "Series": "P",
+      "Predecessor": "Ericsson R380",
+      "Successor": "Sony Ericsson P900"
+    },
+    "Body": {
+      "Dimensions": "117 mm (H), 59 mm (W), 27 mm (D)",
+      "Weight": "158g"
+    },
+    "Platform": {
+      "Operating system": "UIQ",
+      "CPU": "32-bit Philips Nexperia PNX4000 156 MHz processor"
+    },
+    "Memory": {
+      "Storage": "16MB",
+      "Card slot": "Stick Up To 128MB"
+    },
+    "Display": {
+      "Display": "TFT, 208×320 pixel"
+    },
+    "Cameras": {
+      "Rear camera": "VGA 640×480"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1000mAh (BST-15)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "weight_g": 158,
+    "thickness_mm": 27,
+    "year": 2002
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson P800",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_P800"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson P800\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson P800",
+    "revid": 1361484083
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

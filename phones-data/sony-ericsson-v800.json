@@ -1,0 +1,65 @@
+{
+  "slug": "sony-ericsson-v800",
+  "brand": "Sony",
+  "name": "Ericsson V800",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Vodafone_802SE_JapanBlack_front.jpg/500px-Vodafone_802SE_JapanBlack_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Vodafone_802SE_JapanBlack_front.jpg/250px-Vodafone_802SE_JapanBlack_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson V800",
+      "credit": "Episteme, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vodafone_802SE_JapanBlack_front.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GPRS/GSM 900/1800/1900 MHz, UMTS"
+    },
+    "Body": {
+      "Form factor": "clamshell",
+      "Dimensions": "102 x 49 x 24 mm",
+      "Weight": "128 grams"
+    },
+    "Memory": {
+      "RAM": "7 MB",
+      "Card slot": "Memory Stick Pro Duo"
+    },
+    "Display": {
+      "Display": "36 × 45 mm, 176 × 220 px; 262,000-color TFT"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 Mpx"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, Bluetooth, Infrared"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 1.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson V800",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_V800"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson V800\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson V800",
+    "revid": 1379045905
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

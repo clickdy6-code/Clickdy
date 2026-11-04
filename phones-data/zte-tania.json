@@ -1,0 +1,56 @@
+{
+  "slug": "zte-tania",
+  "brand": "ZTE",
+  "name": "Tania",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Platform": {
+      "Operating system": "Windows Phone",
+      "CPU": "(Qualcomm Snapdragon MSM8255), 1 GHz Scorpion processor/, Adreno 205 graphics, (upgraded to 1.4 GHz in China)"
+    },
+    "Memory": {
+      "RAM": "flash memory 4 GB (2.9 GB usable space), 512 MB RAM"
+    },
+    "Display": {
+      "Display": "4.3 in. LCD capacitive touchscreen, 480x800 px 16m-color WVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5-megapixel autofocus"
+    },
+    "Battery": {
+      "Battery": "1400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + EDR, Wi-Fi 802.11b/g/n, A-GPS, micro-USB, 3.5mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "LCD",
+    "ram_gb": [
+      4,
+      9
+    ],
+    "battery_mah": 1400,
+    "os": "Windows Phone",
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Tania",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Tania"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Tania\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Tania",
+    "revid": 1361537777
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

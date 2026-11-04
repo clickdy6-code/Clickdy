@@ -1,0 +1,72 @@
+{
+  "slug": "surface-duo",
+  "brand": "Surface",
+  "name": "Duo",
+  "status": "published",
+  "announced": "2020-09-10",
+  "released": "2020-09-10",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-09-10",
+      "Successor": "Surface Duo 2"
+    },
+    "Body": {
+      "Form factor": "Folio",
+      "Dimensions": "145.2 mm H , 93.3 mm W , 9.9 mm D (folded)"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 10 , Current: Android 12L",
+      "Chipset": "Qualcomm Snapdragon 855"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X",
+      "Storage": "128 or 256 GB"
+    },
+    "Display": {
+      "Display": "Dual 5.6 in 1800×1350 AMOLED, 401 PPI"
+    },
+    "Cameras": {
+      "Front camera": "11 MP f/2.0, 1.0 μm, PDAF and 84.0° diagonal FOV"
+    },
+    "Battery": {
+      "Battery": "3577 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11ac (2.4/5GHz), Bluetooth 5.0, LTE: 4x4 MIMO, Cat.18 DL / Cat 5 UL, 5CA, LAA"
+    }
+  },
+  "key": {
+    "display_in": 5.6,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 855",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      256
+    ],
+    "front_mp": 11,
+    "battery_mah": 3577,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 9.9,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Surface Duo",
+      "url": "https://en.wikipedia.org/wiki/Surface_Duo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Surface Duo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Surface Duo",
+    "revid": 1383562684
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

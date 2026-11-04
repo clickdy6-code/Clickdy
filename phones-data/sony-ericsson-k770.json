@@ -1,0 +1,62 @@
+{
+  "slug": "sony-ericsson-k770",
+  "brand": "Sony",
+  "name": "Ericsson K770",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/SE_K770i.jpg/500px-SE_K770i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/SE_K770i.jpg/250px-SE_K770i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson K770",
+      "credit": "Marcin Trybus (Llewelyn_MT), CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SE_K770i.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "3G, GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "105 x 47 x 14.5mm",
+      "Weight": "95 g"
+    },
+    "Memory": {
+      "RAM": "32 MB Internal, 1 Memory Stick Micro (M2) slot, 256MB Memory Stick Micro (M2) included"
+    },
+    "Display": {
+      "Display": "240x320 pixels (QCIF+), 262,144 (18-bit) Color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel with AF",
+      "Front camera": "0.3 megapixel (Video Calling Camera)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, HSCSD, Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 95
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson K770",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_K770"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson K770\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson K770",
+    "revid": 1361484035
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

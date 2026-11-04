@@ -1,0 +1,93 @@
+{
+  "slug": "sony-xperia-j",
+  "brand": "Sony",
+  "name": "Xperia J",
+  "status": "published",
+  "announced": "2012-08-29",
+  "released": "2012-08-29",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Sony_Xperia_J_1.jpg/500px-Sony_Xperia_J_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Sony_Xperia_J_1.jpg/250px-Sony_Xperia_J_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia J",
+      "credit": "Richard923888, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_J_1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-08-29",
+      "Series": "Xperia",
+      "Predecessor": "Sony Xperia U",
+      "Successor": "Sony Xperia M, Sony Xperia L"
+    },
+    "Network": {
+      "Technology": "GSM 850, 900, 1800, 1900, HSDPA 900/2100 – ST26i , HSDPA 850/1900/2100 – ST26a"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "124.3 mm H, 61.2 mm W, 9.2 mm D",
+      "Weight": "124 g",
+      "Other": "Wi-Fi hotspot, USB tethering, Gorilla glass"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0.4 \"Ice Cream Sandwich\", Upgradable to Android 4.1.2 \"Jelly Bean\"",
+      "Chipset": "Qualcomm Snapdragon S1 MSM7227A",
+      "CPU": "1GHz, ARM architecture ARM Cortex-A5",
+      "GPU": "Adreno 200 (enhanced)"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "4GB (1.3GB OS, 766 MB Apps, around 2GB user data)",
+      "Card slot": "up to 32GB microSD/HC card"
+    },
+    "Display": {
+      "Display": "4.0 in, FWVGA (854 x 480 pixels) (245 ppi), 16,777,216 colour TFT"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP , auto focus , 4x digital zoom , Auto focus , LED flash , Geotagging , VGA video recording",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "1750 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11b/g/n, Micro USB 2.0, Bluetooth v2.1 + EDR, DLNA, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S1 MSM7227A",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1750,
+    "os": "Android 4.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 124,
+    "thickness_mm": 9.2,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia J",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_J"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia J\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia J",
+    "revid": 1361536091
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "zini-mobiles-zanco-tiny-t2",
+  "brand": "Zini Mobiles",
+  "name": "Zanco Tiny T2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/9/97/Zanco_Tiny_T2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/97/Zanco_Tiny_T2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Zini Mobiles Zanco Tiny T2",
+      "credit": "Robot Review Tech, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zanco_Tiny_T2.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Zanco Tiny T1"
+    },
+    "Body": {
+      "Form factor": "Mobile phone",
+      "Dimensions": "2.4 x",
+      "Weight": "31 g"
+    },
+    "Platform": {
+      "CPU": "[[MediaTek"
+    },
+    "Memory": {
+      "RAM": "Built-in 64 MB"
+    },
+    "Display": {
+      "Display": "0.3 Mpx"
+    },
+    "Battery": {
+      "Battery": "500 mAh"
+    }
+  },
+  "key": {
+    "battery_mah": 500,
+    "weight_g": 31
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Zanco Tiny T2",
+      "url": "https://en.wikipedia.org/wiki/Zanco_Tiny_T2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Zanco Tiny T2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Zanco Tiny T2",
+    "revid": 1371479404
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

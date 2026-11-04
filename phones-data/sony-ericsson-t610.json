@@ -1,0 +1,64 @@
+{
+  "slug": "sony-ericsson-t610",
+  "brand": "Sony",
+  "name": "Ericsson T610",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/5/58/SonyEricsson_T610_AluminumHaze_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/58/SonyEricsson_T610_AluminumHaze_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Sony Ericsson T610",
+      "credit": "Episteme, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SonyEricsson_T610_AluminumHaze_front.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Ericsson T68",
+      "Successor": "Sony Ericsson T630, Sony Ericsson K700"
+    },
+    "Network": {
+      "Technology": "GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Dimensions": "102 × 44 × 19 mm",
+      "Weight": "95 g"
+    },
+    "Display": {
+      "Display": "128 × 160 pixels, CSTN"
+    },
+    "Cameras": {
+      "Rear camera": "288 × 352 (0.1 MP)"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, HSCSD, Bluetooth, IRDA"
+    }
+  },
+  "key": {
+    "main_mp": 0.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 95
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson T610",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_T610"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson T610\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson T610",
+    "revid": 1383044578
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

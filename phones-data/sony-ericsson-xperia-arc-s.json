@@ -1,0 +1,82 @@
+{
+  "slug": "sony-ericsson-xperia-arc-s",
+  "brand": "Sony Ericsson",
+  "name": "Xperia Arc S",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Sony_Ericsson_XPERIA_Arc_S_with_Polish_language.jpg/500px-Sony_Ericsson_XPERIA_Arc_S_with_Polish_language.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Sony_Ericsson_XPERIA_Arc_S_with_Polish_language.jpg/250px-Sony_Ericsson_XPERIA_Arc_S_with_Polish_language.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia Arc S",
+      "credit": "WrS.tm.pl, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_XPERIA_Arc_S_with_Polish_language.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-10",
+      "Series": "Sony Ericsson Xperia",
+      "Predecessor": "Sony Ericsson Xperia arc",
+      "Successor": "Sony Xperia S"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "125 mm H, 63 mm W , 8.7 mm D",
+      "Weight": "117 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 \"Gingerbread\", (officially upgradeable up to Android 4.0.3 \"Ice Cream Sandwich\" unofficially upgradeable up to Android 6.0 \"Marshmallow\" via CyanogenMod 13)",
+      "CPU": "1.4 GHz Snapdragon S2 (Scorpion)",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "Up to 2 GB",
+      "Card slot": "Up to 64 GB microSD"
+    },
+    "Display": {
+      "Display": "4.2-inch 854×480 px FWVGA \"Reality Display\" LED-backlit LCD at 233 PPI with mobile BRAVIA engine, 16,777,216 colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.1 MP (3264×2448), back-illuminated sensor Exmor R CMOS sensor, autofocus, face recognition, geo-tagging, image and video stabilizer, smile detection, touch focus, Video 720p HD"
+    },
+    "Battery": {
+      "Battery": "1500 mAh li-po"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 with A2DP, EDR, micro USB 2.0, USB On-The-Go support, 3.5 mm OMTP TRRS audio jack, aGPS, Wi-Fi 802.11 b/g/n, HDMI (type D connector)"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "main_mp": 8.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1500,
+    "os": "Android 2.3",
+    "nfc": false,
+    "weight_g": 117,
+    "thickness_mm": 8.7,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia Arc S",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_Arc_S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia Arc S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia Arc S",
+    "revid": 1382964948
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

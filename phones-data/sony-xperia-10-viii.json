@@ -1,0 +1,98 @@
+{
+  "slug": "sony-xperia-10-viii",
+  "brand": "Sony",
+  "name": "Xperia 10 VIII",
+  "status": "published",
+  "announced": "2026-09-18",
+  "released": "2026-09-18",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-09-18",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia 10 VII"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G 5G NR, NR",
+      "SIM": "nanoSIM, eSIM, 1 nanoSIM + 1 eSIM, 1 nanoSIM + 1 nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "153 mm H, 72 mm W, 8.3 mm D",
+      "Weight": "168 g",
+      "Other": "IP65/IP68 Water/dust resistant"
+    },
+    "Platform": {
+      "Operating system": "Android 16, Up to 4 major Android upgrades, 6 years of security patches",
+      "Chipset": "Qualcomm Snapdragon 6 Gen 3",
+      "CPU": "Octa-core, 4 nm (SF4), 4x2.4 GHz Cortex-A78 + 4x1.8 GHz Cortex-A55",
+      "GPU": "Adreno 710"
+    },
+    "Memory": {
+      "RAM": "LPDDR5 RAM, 8 GB",
+      "Storage": "Universal Flash Storage (UFS 3.1), 128 GB",
+      "Card slot": "microSDXC, expandable up to 2 TB (shared SIM slot)"
+    },
+    "Display": {
+      "Display": "6.1 in LTPS FHD+ 19.5:9 (2340 x 1080) HDR10 OLED, ~422 pixel density, Gorilla Glass Victus 2, HDR10, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP (Sony Exmor RS IMX766), f/1.9, 24 mm (wide), 1/1.56\", 1.0 μm, multi-directional PDAF, OIS, 13 MP effectively used 12 MP (Smartsens SC1320CS), f/2.4, 120˚, 16 mm (ultrawide), 1/3.06\", 1.12 μm, 4K@30 fps, 1080p@30/60/120 fps",
+      "Front camera": "8MP (SmartSens SC820CS), f/2.0, 26mm (wide) (1/4.0\", 1.12 μm), fixed focus, 1080p@30 fps"
+    },
+    "Sound": {
+      "Sound": "Front stereo speakers and 3.5 mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 5000 mAh, USB PD 3.1 30 W Charging",
+      "Charging": "Fast Charging USB PD 3.1 30 W Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/ax (2.4/5GHz), Bluetooth 5.4, USB-C 2.0 , NFC, GPS with Assisted GPS, Galileo, GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 6 Gen 3",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 30,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "ip": "IP65",
+    "weight_g": 168,
+    "thickness_mm": 8.3,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 10 VIII",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_VIII"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 10 VIII\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 10 VIII",
+    "revid": 1381216624
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

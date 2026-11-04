@@ -1,0 +1,99 @@
+{
+  "slug": "xiaomi-17",
+  "brand": "Xiaomi",
+  "name": "17",
+  "status": "published",
+  "announced": "2025-09-25",
+  "released": "2025-09-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Xiaomi_17_Pro_Max.jpg/500px-Xiaomi_17_Pro_Max.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Xiaomi_17_Pro_Max.jpg/250px-Xiaomi_17_Pro_Max.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 17",
+      "credit": "茅野ふたば, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_17_Pro_Max.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "17/Pro series: 2025-09-25, 17 Ultra: 2025-12-25, 17 Max: 2026-05-28",
+      "Series": "Xiaomi",
+      "Predecessor": "Xiaomi 15"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "17: 151.1 × 71.8 × 8.1 mm , 17 Pro: 151.1 × 71.8 × 8 mm , 17 Pro Max: 162.9 × 77.6 × 8 mm , 17 Max: 162.9 × 77.6 × 8.15 mm (pixel black), 162.9 × 77.6 × 8.2 mm (clear blue sky and white)",
+      "Weight": "17: 191 g, 17 Pro: 192 g, 17 Pro Max: 219 g, 17 Max: 219 g (pixel black), 225 g (clear sky blue and white)"
+    },
+    "Platform": {
+      "Operating system": "Original: Xiaomi HyperOS 3 (based on Android 16) , Current: Xiaomi HyperOS 3 (based on Android 16)",
+      "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+      "CPU": "Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+      "GPU": "Adreno 840"
+    },
+    "Memory": {
+      "RAM": "12 GB / 16 GB",
+      "Storage": "256 GB / 512 GB / 1 TB , UFS 4.1"
+    },
+    "Display": {
+      "Display": "17: 6.3-inch LTPO AMOLED, 120 Hz refresh rate, 3500 nits peak brightness, 17 Pro: 6.3-inch LTPO AMOLED, 120 Hz refresh rate, 3500 nits peak brightness, 17 Pro Max: 6.9-inch LTPO AMOLED, 120 Hz refresh rate, 3500 nits peak brightness"
+    },
+    "Cameras": {
+      "Rear camera": "See the chapter for each model",
+      "Front camera": "50 MP, f/2.2, 21mm (wide), PDAF"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, Dolby Atmos"
+    },
+    "Battery": {
+      "Battery": "17: 7000 mAh (China), 6330 mAh (Global)17 Pro: 6300 mAh, 17 Pro Max: 7500 mAh, 17 Ultra: 6800 mAh (China), 6000 mAh (Global), 17 Max: 8000 mAh",
+      "Charging": "100W wired, 50W wireless, 22.5W reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, Wi-Fi 7, Bluetooth 5.4, NFC, USB-C"
+    }
+  },
+  "key": {
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 3500,
+    "chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "front_mp": 50,
+    "battery_mah": 7000,
+    "wireless_w": 50,
+    "wired_w": 100,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "weight_g": 191,
+    "thickness_mm": 8,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 17",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_17"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 17\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 17",
+    "revid": 1383640293
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

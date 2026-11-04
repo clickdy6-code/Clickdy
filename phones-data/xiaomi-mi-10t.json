@@ -1,0 +1,101 @@
+{
+  "slug": "xiaomi-mi-10t",
+  "brand": "Xiaomi",
+  "name": "Mi 10T",
+  "status": "published",
+  "announced": "2020-09-30",
+  "released": "2020-09-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Redmi_K30S.jpg/500px-Redmi_K30S.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Redmi_K30S.jpg/250px-Redmi_K30S.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi 10T",
+      "credit": "洛微, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redmi_K30S.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-09-30",
+      "Series": "Mi T, Mi",
+      "Predecessor": "Xiaomi Mi 9T/9T Pro",
+      "Successor": "Xiaomi 11T, Redmi K40S, Xiaomi 11i, Redmi Note 10 Pro 5G"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Mi 10T/Pro: 165.1 mm H, 76.4 mm W, 9.3 mm D, Mi 10T Lite/Mi 10i: 165.1 mm H, 76.4 mm W, 9 mm D",
+      "Weight": "Mi 10T: 216 g, Mi 10T Pro: 218 g, Mi 10T Lite/Mi 10i: 214.5 g"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI 12 based on Android 10, Current: MIUI 14 based on Android 12",
+      "Chipset": "Mi 10T/Pro: Qualcomm Snapdragon 865, Mi 10T Lite/Mi 10i:Qualcomm Snapdragon 750G",
+      "CPU": "Mi 10T/10T Pro: Octa-core Kryo 585 (1x 2.84 GHz + 3x 2.42 GHz + 4x 1.8 GHz), Mi 10T Lite/Mi 10i:Octa-core Kryo 570 (2x 2.2GHz + 6x 1.8GHz)",
+      "GPU": "Mi 10T/Pro: Adreno 650, Mi 10T Lite: Adreno 619"
+    },
+    "Memory": {
+      "RAM": "Mi 10T/Pro: LPDDR5 RAM, Mi 10T Lite/Mi 10i: LPDDR4X RAM, Mi 10T: 6 or 8, Mi 10T Pro: 8 GB, Mi 10T Lite/Mi 10i: 4 or 6 GB",
+      "Storage": "Mi 10T/Pro: UFS 3.1, Mi 10T Lite/Mi 10i: UFS 2.1 or UFS 2.2, Mi 10T: 128, Mi 10T Pro: 128 or 256 GB, Mi 10T Lite/Mi 10i: 64 or 128 GB",
+      "Card slot": "Mi 10T/Pro:None, Mi 10T Lite/Mi 10i: Expandable via shared SIM slot"
+    },
+    "Display": {
+      "Display": "Mi 10T/Pro: 6.67-inch IPS LCD capacitive touchscreen, 1080p (2.5 MP) (20:9 aspect ratio, 395 ppi), 144 Hz refresh rate, 16M colors, HDR10+, Gorilla Glass 5, Mi 10T Lite/Mi 10i: 6.67-inch IPS LCD capacitive touchscreen, 1080p (2.5 MP) (20:9 aspect ratio, 395 ppi), 120 Hz refresh rate, 16M colors, HDR10+, Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "Mi 10T: 64 MP, f/1.9, 1/1.73\", 0.8µm, 26mm (wide) + 13 MP, f/2.4, 12mm (ultrawide) + 5 MP, f/2.4 (macro), Mi 10T Pro: 108 MP, f/1.7, 1/1.33\", 0.8µm, 26mm (wide) + 13 MP, f/2.4, 12mm (ultrawide) + 5 MP, f/2.4 (macro), OIS, Mi 10T Lite: 64 MP Sony IMX682 (16MP, 4624×3472 px max.), f/1.9, 1/1.73, 1.60µm, 26mm (wide) + 8 MP (ultrawide) + 2 MP (macro) + 2 MP (depth), Mi 10i: 108 MP, 26mm (wide) + 8 MP (ultrawide) + 2 MP (macro) + 2 MP (depth), Mi 10T/Pro: PDAF, AF, LED flash, HDR, panorama, gyro-EIS, 8K@30fps, 4K@30/60fps, 1080p@30/60/120/240/960fps",
+      "Front camera": "20 MP (f/2.2, 1/3.4\", 0.8µm, 27mm), HDR, 1080p@30fps, 720p@120fps, Mi 10T Lite/Mi 10i: PDAF, AF, LED flash, HDR, panorama, gyro-EIS, 4K@30fps, 1080p@30/60/120/240fps"
+    },
+    "Battery": {
+      "Battery": "Xiaomi Mi 10T/Pro: 5000 mAh (BM53), Xiaomi Mi 10T Lite/Mi 10i: 4820mAh (BM4W)",
+      "Charging": "33 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac/6 (2.4 & 5GHz), dual-band, WiFi Direct, DLNA, hotspot, Bluetooth V5.1, A2DP, Low-energy, aptX HD"
+    }
+  },
+  "key": {
+    "display_type": "IPS LCD",
+    "refresh_hz": 144,
+    "chipset": "Mi 10T/Pro: Qualcomm Snapdragon 865",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": false,
+    "video": "8K@30fps",
+    "front_mp": 20,
+    "battery_mah": 5000,
+    "wired_w": 33,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 216,
+    "thickness_mm": 9.3,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 10T",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_10T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 10T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 10T",
+    "revid": 1361538101
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

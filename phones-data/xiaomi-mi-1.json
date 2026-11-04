@@ -1,0 +1,83 @@
+{
+  "slug": "xiaomi-mi-1",
+  "brand": "Xiaomi",
+  "name": "Mi 1",
+  "status": "published",
+  "announced": "2011-08-16",
+  "released": "2011-08-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/06/Xiaomi_M1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/06/Xiaomi_M1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Xiaomi Mi 1",
+      "credit": "Krisflyer777, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_M1.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-08-16",
+      "Series": "Mi",
+      "Successor": "Xiaomi Mi 1S, Xiaomi Mi 2"
+    },
+    "Network": {
+      "Technology": "GSM, WCDMA, CDMA2000"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "125 mm H , 63 mm W , 11.9 mm D",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI V2.3 (Android 2.3 Gingerbread) , Current: MIUI V5 (Android 4.1 Jelly Bean)",
+      "CPU": "Qualcomm MSM8260, MSM8660 (CDMA2000 version for China Telecom) Snapdragon S3 Dual Core @ 1.5GHz / S3 Dual Core @ 1.7GHz for MI-OneS",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1GB RAM"
+    },
+    "Display": {
+      "Display": "Sharp Inc. LCD 4.0in @ 480px x 854px (245 ppi) 16M colors (Toshiba for part/all the later production)"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixels F2.4 Lens, 1080p/30fps video recording",
+      "Front camera": "2 Megapixels"
+    },
+    "Battery": {
+      "Battery": "1930mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "(Bluetooth: AVRCP, A2DP, OBEX) (WiFi: 802.11 b/g/n)"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "LCD",
+    "ram_gb": [
+      1
+    ],
+    "battery_mah": 1930,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 149,
+    "thickness_mm": 11.9,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 1",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 1",
+    "revid": 1371416179
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

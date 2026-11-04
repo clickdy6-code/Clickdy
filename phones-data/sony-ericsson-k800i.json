@@ -1,0 +1,84 @@
+{
+  "slug": "sony-ericsson-k800i",
+  "brand": "Sony Ericsson",
+  "name": "K800i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/K800i-front.jpg/500px-K800i-front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/K800i-front.jpg/250px-K800i-front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson K800i",
+      "credit": "Asim18 at English Wikipedia, CC BY 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:K800i-front.jpg",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2006-02",
+      "Series": "K-series",
+      "Predecessor": "Sony Ericsson K750",
+      "Successor": "Sony Ericsson K810 (later iteration), Sony Ericsson K850"
+    },
+    "Network": {
+      "Technology": "UMTS 2100, GSM 900, GSM 1800, GSM 1900",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "106 x 47 x 20 mm",
+      "Weight": "115g"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson A100 software platform",
+      "Chipset": "Ericsson DB2020"
+    },
+    "Memory": {
+      "RAM": "64 MB internal, Memory Stick Micro (M2) slot",
+      "Storage": "64 MB"
+    },
+    "Display": {
+      "Display": "2.0” QVGA (240x320 pixels), 262,144 (18-bit) Color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP AF (QCIF, 176 x 144p at 15 FPS)"
+    },
+    "Battery": {
+      "Battery": "BST-33 Li-Ion, 1,230 mAh, up to 400 hrs",
+      "Charging": "Fast Port (proprietary) [standard]"
+    },
+    "Connectivity": {
+      "Connectivity": "CSD, HSCSD, GPRS, W-CDMA, Bluetooth 2.0 + EDR, IrDA, USB (with Mass Storage Mode support)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "Ericsson DB2020",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1230,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson K800i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_K800i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson K800i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson K800i",
+    "revid": 1372153456
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

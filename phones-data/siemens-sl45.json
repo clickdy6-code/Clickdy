@@ -1,0 +1,61 @@
+{
+  "slug": "siemens-sl45",
+  "brand": "Siemens",
+  "name": "SL45",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Siemens_SL45.JPG/500px-Siemens_SL45.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Siemens_SL45.JPG/250px-Siemens_SL45.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Siemens SL45",
+      "credit": "Ulli1105, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_SL45.JPG",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM"
+    },
+    "Body": {
+      "Dimensions": "105 mm x 46 mm x 17 mm"
+    },
+    "Platform": {
+      "CPU": "Siemens/Infineon C166"
+    },
+    "Memory": {
+      "Card slot": "Hot-Swappable MMC"
+    },
+    "Display": {
+      "Display": "101 x 80 pixel, monochrome"
+    },
+    "Battery": {
+      "Battery": "Lithium ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA"
+    }
+  },
+  "key": {
+    "five_g": false,
+    "nfc": false,
+    "thickness_mm": 17
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens SL45",
+      "url": "https://en.wikipedia.org/wiki/Siemens_SL45"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens SL45\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens SL45",
+    "revid": 1361483938
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

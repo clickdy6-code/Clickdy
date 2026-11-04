@@ -1,0 +1,101 @@
+{
+  "slug": "tecno-spark-8",
+  "brand": "Tecno",
+  "name": "Spark 8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spark_8.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spark_8.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Tecno Spark 8",
+      "credit": "Tikkey Tech, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Spark_8.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-08",
+      "Series": "Spark 8",
+      "Predecessor": "Tecno Spark 7"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE",
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Spark 8:, 164.8 x 76.1 x 9.2 mm, Spark 8P:, 164.5 x 76.1 x 8.9 mm"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with HiOS 7.6",
+      "Chipset": "Spark 8: MediaTek Helio P22, Spark 8P: MediaTek Helio G35",
+      "CPU": "Octa-core (4x1.8 GHz Cortex-A53 & 4x1.5 GHz Cortex-A53), Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "Spark 8: 2 RAM, Spark 8P: 4 GB RAM",
+      "Storage": "Spark 8: 64 GB, Spark 8P: 64/128 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "720 x 1600 720p, 1080 x 2408 1080p IPS LCD capacitive touchscreen, Spark 8: 6.52 in (164.8 mm), (269 ppi), Spark 8P: 6.6 in (164.5 mm), (387 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Spark 8: 16 Pixel#Megapixel, MP, Aperture, f/1.8, 27Focal length, mm (Wide-angle lens, wide), Autofocus#Phase detection, PDAF + 2MP, (depth), Spark 8P: 50 Pixel#Megapixel, MP, f/1.6, PDAF + 2MP, f/2.4 + Graphics display resolution#320 × 240 (QVGA), QVGA, All: Quad LED flash, HDR, panorama, 1080p@30fps, Video: 1080p@30fps",
+      "Front camera": "8MP, All: Dual-LED flash, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "DTS stereo, 3.5mm Headphone jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "10W"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi 802.11 b/g/n, USB 2.0, USB-C, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 6.52,
+    "display_type": "IPS LCD",
+    "chipset": "Spark 8: MediaTek Helio P22",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 2,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 10,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Spark 8",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Spark_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Spark 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Tecno Spark 8",
+    "revid": 1361536749
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

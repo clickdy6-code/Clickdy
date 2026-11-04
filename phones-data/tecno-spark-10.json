@@ -1,0 +1,100 @@
+{
+  "slug": "tecno-spark-10",
+  "brand": "Tecno",
+  "name": "Spark 10",
+  "status": "published",
+  "announced": "2023-03-13",
+  "released": "2023-03-13",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/27/Back_of_Spark_10_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/27/Back_of_Spark_10_Pro.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Tecno Spark 10",
+      "credit": "Tecno Mobile India, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Back_of_Spark_10_Pro.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-03-13",
+      "Series": "Spark 10",
+      "Predecessor": "Tecno Spark 9",
+      "Successor": "Tecno Spark 20"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 5G",
+      "SIM": "nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Spark 10C:, 163.8 mm H , 75.5 mm W , 8.5 mm D, Spark 10:, 163.9 mm H , 75.4 mm W , 8.4 mm D, Spark 10 Pro:, 168.4 mm H , 76.2 mm W , 8.4 mm D, Spark 10 5G:, 164.4 mm H , 75.5 mm W , 8.4 mm D",
+      "Weight": "Spark 10C: 270 g, Spark 10: 190 g, Spark 10 Pro: 208 g, Spark 10 5G: 190 g"
+    },
+    "Platform": {
+      "Operating system": "Spark 10C: Android 12 with HiOS 12, Spark 10, Spark 10 Pro and Spark 10 5G: Android 13 with HiOS 12.6",
+      "Chipset": "Spark 10C: UNISOC T606, Spark 10: MediaTek Helio G85, Spark 10 Pro: MediaTek Helio G88, Spark 10 5G: MediaTek Dimensity 6020",
+      "CPU": "Spark 10C: Octa-core, (2×1.6 GHz ARM Cortex-A75, Cortex-A75 & 6×1.6 GHz ARM Cortex-A55, Cortex-A55), Spark 10 and Spark 10 Pro: Octa-core, (2×2.0 GHz ARM Cortex-A75, Cortex-A75 & 6×1.8 GHz ARM Cortex-A55, Cortex-A55), Spark 10 5G: Octa-core, (2×2.2 GHz ARM Cortex-A76, Cortex-A76 & 6×2.0 GHz ARM Cortex-A55, Cortex-A55)",
+      "GPU": "Mali-G57 MC1, Mali-G52 MC2, Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "Spark 10C: 4/8 GB Random-access memory, RAM, Spark 10, Spark 10 Pro, Spark 10 5G: 8 GB RAM",
+      "Storage": "Spark 10C and Spark 10: 128 GB, Spark 10 Pro: 128/256 GB, Spark 10 5G: 256 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "IPS LCD capacitive touchscreen, Spark 10C: 6.6 in, (267 ppi), 90 Hz refresh rate, Spark 10: 6.6 in, (387 ppi), 90 Hz refresh rate, Spark 10 Pro: 6.8 in, (395 ppi), 90 hz refresh rate, Spark 10 5G: 6.6 in, (261 ppi), 90 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Spark 10C: 16 Pixel#Megapixel, MP, Spark 10, Spark 10 Pro and Spark 10 5G: 50 Pixel#Megapixel, MP",
+      "Front camera": "Spark 10C, Spark 10 and Spark 10 5G: 8 Pixel#Megapixel, MP, Spark 10 Pro: 32 Pixel#Megapixel, MP"
+    },
+    "Sound": {
+      "Sound": "3.5mm Headphone jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "18W"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi 802.11 b/g/n, USB 2.0, USB-C, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 6.6,
+    "display_type": "IPS LCD",
+    "refresh_hz": 90,
+    "chipset": "Spark 10C: UNISOC T606",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 270,
+    "thickness_mm": 8.5,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Spark 10",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Spark_10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Spark 10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Tecno Spark 10",
+    "revid": 1379584524
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

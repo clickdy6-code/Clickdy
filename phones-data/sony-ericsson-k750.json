@@ -1,0 +1,77 @@
+{
+  "slug": "sony-ericsson-k750",
+  "brand": "Sony",
+  "name": "Ericsson K750",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/c3/SEK750i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c3/SEK750i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Sony Ericsson K750",
+      "credit": "Heikoriffeler at German Wikipedia\n\nLater versions were uploaded by Avatar at de., CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SEK750i.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "spring 2005",
+      "Predecessor": "K700",
+      "Successor": "K800i"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "100 x 46 x 20.5 mm",
+      "Weight": "99 g"
+    },
+    "Memory": {
+      "RAM": "34 MB Internal, 1 Memory Stick Pro Duo slot, 64 MB Memory Stick Pro Duo included and up to 2 GB"
+    },
+    "Display": {
+      "Display": "176×220 pixels (QCIF+), 262,144 (18-bit) Color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2 megapixel, resolutions 1632 ×1224, autofocus, led flash"
+    },
+    "Sound": {
+      "Sound": "Polyphonic Sound 40 voices, Real tone (MP3/AAC)"
+    },
+    "Battery": {
+      "Battery": "BST-37 , Li-Po 900 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, Bluetooth, IrDA, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson K750",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_K750"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson K750\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson K750",
+    "revid": 1372153618
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

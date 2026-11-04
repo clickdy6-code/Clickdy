@@ -1,0 +1,76 @@
+{
+  "slug": "yu-yureka",
+  "brand": "YU",
+  "name": "Yureka",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "January 2015",
+      "Series": "YU",
+      "Successor": "YU Yureka Plus"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/WCDMA/LTE , LTE TDD B40 2300MHz , LTE FDD B3 1800MHz , WCDMA 900/2100MHz , GSM 900/1800/1900MHz"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "154.8 mm H, 78 mm W, 8.8 mm D.",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "CyanogenMod 11 based on Android 4.4.4 \"Kitkat\", Upgradable to CM 12.1 based on Android Lollipop 5.1.1, Android 6.0 expected",
+      "Chipset": "Qualcomm Snapdragon 615 MSM8939",
+      "CPU": "(ARM Cortex-A53 1.7 GHz CPU + ARM Cortex-A53 1.0 GHz CPU)",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "RAM": "2 GB DDR3",
+      "Storage": "16 GB (12.8 User Available)"
+    },
+    "Display": {
+      "Display": "1280x720 px (267 ppi), 5.5 in diagonal, IPS LCD capacitive touchscreen, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "Sony IMX214 BSI 13 megapixels with 5P lens architecture",
+      "Front camera": "5 megapixels, with 71° Wide Angle lens"
+    },
+    "Battery": {
+      "Battery": "2500 mAh Li-ion"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 615 MSM8939",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 2500,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 155,
+    "thickness_mm": 8.8,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: YU Yureka",
+      "url": "https://en.wikipedia.org/wiki/YU_Yureka"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"YU Yureka\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "YU Yureka",
+    "revid": 1361537698
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

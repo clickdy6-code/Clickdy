@@ -1,0 +1,98 @@
+{
+  "slug": "sony-xperia-xz",
+  "brand": "Sony",
+  "name": "Xperia XZ",
+  "status": "published",
+  "announced": "2016-09-30",
+  "released": "2016-09-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/NTT_docomo_SO-01J_01.jpg/500px-NTT_docomo_SO-01J_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/NTT_docomo_SO-01J_01.jpg/250px-NTT_docomo_SO-01J_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia XZ",
+      "credit": "Mytho88, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NTT_docomo_SO-01J_01.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-09-30",
+      "Predecessor": "Sony Xperia X",
+      "Successor": "Sony Xperia XZ1"
+    },
+    "Network": {
+      "Technology": "HSPA, GSM & LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146 mm H, 72 mm W, 8.1 mm D",
+      "Weight": "161 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 Marshmallow , Upgradable to Android 8.0 Oreo",
+      "Chipset": "Qualcomm Snapdragon 820 MSM8996",
+      "CPU": "Quad-core (dual 2.15 GHz + dual 1.6 GHz) 64-bit Kryo processor",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "3 GB RAM",
+      "Storage": "32 GB (Single SIM) , 64 GB (Dual SIM)",
+      "Card slot": "microSDXC; expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.2 in 1080p IPS LCD, Full HD 1920x1080 px TRILUMINOS Display for mobile with X-Reality for mobile and Dynamic Contrast Enhancement"
+    },
+    "Cameras": {
+      "Rear camera": "23 MP 1/2.3\" Exmor RS for mobile sensor, BIONZ, RGBC-IR, Laser AF, Predictive Hybrid AF, Quick launch, 5x Clear Image Zoom, 24mm Wide Angle G Lens F2.0 , 4K (2160p) video recording @ 30 fps, 1080p@60fps",
+      "Front camera": "13 MP 1/3.06\" Exmor RS for mobile sensor, with Quick launch and 22mm Wide Angle Lens F2.0"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 2900 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, NFC, DLNA, GPS/GLONASS/BeiDou, Bluetooth 4.2, USB 2.0 (Type-C port, USB charging, Quick Charge 3.0), USB OTG, 1seg (SO-01J, SOV34 and 601SO models only), Osaifu-Keitai (SO-01J, SOV34 and 601SO models only)"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 820 MSM8996",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 23,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 13,
+    "battery_mah": 2900,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 161,
+    "thickness_mm": 8.1,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia XZ",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_XZ"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia XZ\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia XZ",
+    "revid": 1361536298
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

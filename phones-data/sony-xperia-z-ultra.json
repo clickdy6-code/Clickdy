@@ -1,0 +1,99 @@
+{
+  "slug": "sony-xperia-z-ultra",
+  "brand": "Sony",
+  "name": "Xperia Z Ultra",
+  "status": "published",
+  "announced": "2013-07-24",
+  "released": "2013-07-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Z_Ultra.jpg/500px-Z_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Z_Ultra.jpg/250px-Z_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia Z Ultra",
+      "credit": "Maurizio Pesce, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Z_Ultra.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-07-24",
+      "Discontinued": "2014-07-08 (United States, Google Play Edition)",
+      "Series": "Sony Xperia",
+      "Successor": "Sony Xperia Z3 Tablet Compact (SGP412 Only), Sony Xperia XA Ultra (As a phablet)"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, HSPA+ 850/900/1700/1900/2100, LTE 800/850/900/1800/2100/2600, (Network specifications varies across models)"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "175 mm H, 92 mm W, 6.5 mm",
+      "Weight": "212 g",
+      "Other": "Available in black, purple and white, IP55/IP58 (Dust protected, Water jet protected & Waterproof), 1seg (C6843 and SOL24 variants only), Osaifu-Keitai (SOL24 variant only), LISMO (SOL24 variant only), POBox Touch 6.2 (SGP412 and SOL24 variants only)"
+    },
+    "Platform": {
+      "Operating system": "Android Jelly Bean, Android 4.2.2 \"Jelly Bean\" (launch), Android 4.3 \"Jelly Bean\", Android KitKat, Android 4.4.2 \"KitKat\", Android Lollipop, Android 5.0 \"Lollipop\", Android 5.1.1 \"Lollipop\" (current)",
+      "Chipset": "Qualcomm Snapdragon 800 MSM8974 2.2 GHz quad-core",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB (32 GB for SGP412 and SOL24 variants)",
+      "Card slot": "up to 64 GB microSDXC"
+    },
+    "Display": {
+      "Display": "6.44 in diagonal TFT 3, 1920x1080 px (342 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Sony 8.0 MP back-side illuminated sensor, 1080p video recording @ 30 frames/s 16x digital zoom",
+      "Front camera": "2.0 MP (1080p video recording)"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 3050 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Digital Living Network Alliance, DLNA, Miracast, GPS/GLONASS, Near Field Communication, NFC, Bluetooth Bluetooth v4.0, 4.0, Mobile High-Definition Link, MHL, High-Definition Multimedia Interface, HDMI (via MHL), micro USB 2.0 USB On-The-Go, OTG, FM radio"
+    }
+  },
+  "key": {
+    "display_in": 6.44,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 800 MSM8974 2.2 GHz quad-core",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 2,
+    "battery_mah": 3050,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": true,
+    "ip": "IP55",
+    "weight_g": 212,
+    "thickness_mm": 6.5,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia Z Ultra",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_Z_Ultra"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia Z Ultra\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia Z Ultra",
+    "revid": 1365774248
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "sony-xperia-e4",
+  "brand": "Sony",
+  "name": "Xperia E4",
+  "status": "published",
+  "announced": "2015-04-23",
+  "released": "2015-04-23",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Sony_Xperia_E4G_Front_View.jpg/500px-Sony_Xperia_E4G_Front_View.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Sony_Xperia_E4G_Front_View.jpg/250px-Sony_Xperia_E4G_Front_View.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia E4",
+      "credit": "Julianprescott2604juuly, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_E4G_Front_View.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "23 April 2015",
+      "Predecessor": "Sony Xperia E3",
+      "Successor": "Sony Xperia E5"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, CDMA 1.9 GHz CDMA PCS/800 MHz, WCDMA"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.4 \"KitKat\"",
+      "Chipset": "Mediatek",
+      "CPU": "1.5 GHz quad-core",
+      "GPU": "GPU Mali-T760MP2"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "microSDXC up to 32 GB"
+    },
+    "Display": {
+      "Display": "5.0 in , IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "Single-Camera Setup, OmniVision OV5648; 5 Megapixel#Megapixel, MP, 30mm (standard), 1/4.0\", 1.4μm, AF, Features: LED flash, High-dynamic-range imaging, HDR, panorama, Auto Scene Recognition, Video: 1080p@30fps",
+      "Front camera": "OmniVision OV2680; 2 Megapixel#Megapixel, MP, 31mm (standard), 1/5.0\", 1.75μm, Features: High-dynamic-range imaging, HDR, Video: 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "2300 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 2300,
+    "os": "Android 4.4",
+    "five_g": false,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia E4",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_E4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia E4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia E4",
+    "revid": 1361536069
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "sony-ericsson-w995",
+  "brand": "Sony Ericsson",
+  "name": "W995",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/W995silver.JPG/500px-W995silver.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/W995silver.JPG/250px-W995silver.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W995",
+      "credit": "Edvpl, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:W995silver.JPG",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson W980"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, UMTS/HSPA 900/2100"
+    },
+    "Body": {
+      "Form factor": "Candybar Slide",
+      "Dimensions": "97.0×49.0×15.0 mm",
+      "Weight": "113.0 g"
+    },
+    "Platform": {
+      "CPU": "ARM 11 369 MHz"
+    },
+    "Memory": {
+      "RAM": "118 MB internal, Memory Stick Micro (M2) support (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "2.6 inch, 240×320 px display"
+    },
+    "Cameras": {
+      "Rear camera": "8.1 MP"
+    },
+    "Connectivity": {
+      "Connectivity": "WiFi, Bluetooth, USB 2.0, GPS/A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 2.6,
+    "ram_gb": [
+      16
+    ],
+    "main_mp": 8.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 113
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W995",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W995"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W995\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W995",
+    "revid": 1367469706
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

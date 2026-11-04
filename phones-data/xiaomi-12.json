@@ -1,0 +1,102 @@
+{
+  "slug": "xiaomi-12",
+  "brand": "Xiaomi",
+  "name": "12",
+  "status": "published",
+  "announced": "2021-12-28",
+  "released": "2021-12-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Xiaomi_12.jpg/500px-Xiaomi_12.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Xiaomi_12.jpg/250px-Xiaomi_12.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 12",
+      "credit": "洛微, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_12.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "12/12X/Pro: 2021-12-28 , 12 Pro Dimensity: 2022-07-04",
+      "Series": "Xiaomi",
+      "Predecessor": "Xiaomi Mi 11, Xiaomi Mi 11 Pro",
+      "Successor": "Xiaomi 13"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / CDMA2000 / LTE / 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "12: 152.7 mm H , 69.9 mm W , 8.2 mm (glass) or 8.7 mm (leather) D, 12X: 152.7 mm H , 69.9 mm W , 8.2 mm, 12 Pro: 163.6 mm H , 74.6 mm W , 8.2 mm (glass) or 8.7 mm (leather) D, 12 Pro Dimensity: 163.6 mm H , 74.6 mm W , 8.2 mm",
+      "Weight": "12: 179 g (leather) or 180 g (glass), 12X: 176 g, 12 Pro: 204 g (leather) or 205 g (glass), 12 Pro Dimensity: 201 g"
+    },
+    "Platform": {
+      "Operating system": "Original: 12/Pro/Pro Dimensity: Android 12 with MIUI 13, 12X: Android 11 with MIUI 13 Current: 12/Pro: Android 15 with Xiaomi HyperOS 3, 12 Pro Dimensity: Android 14 with Xiaomi HyperOS 2, 12X: Android 13 with Xiaomi HyperOS",
+      "Chipset": "12/Pro: Snapdragon 8 Gen 1 (4 nm), 12X: Snapdragon 870 (7 nm), 12 Pro Dimensity: MediaTek Dimensity 9000+ (4 nm)",
+      "CPU": "12/Pro: Octa-core (1x3.00 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510), 12X: Octa-core (1x3.2 GHz Cortex-X2 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585), 12 Pro Dimensity: Octa-core (1x3.20 GHz Cortex-X2 & 3x2.85 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "12/Pro: Adreno 730, 12X: Adreno 650, 12 Pro Dimensity: Mali-G710 MC10"
+    },
+    "Memory": {
+      "RAM": "8 GB, 12 GB RAM",
+      "Storage": "128 GB, 256 GB"
+    },
+    "Display": {
+      "Display": "12/12X: 6.2 in, 12 Pro/Pro Dimensity:6.73 in, 12 Pro/Pro Dimensity: 1440 x 3200 pixels, 20:9 ratio (~521 ppi density), 12/12X: 1080 x 2400 pixels, 20:9 ratio (~419 ppi density), All: Corning Inc., Corning Gorilla Glass, Gorilla Glass Victus, OLED, 120Hz refresh rate, Dolby Vision, HDR10+, 1200 nits (peak)"
+    },
+    "Cameras": {
+      "Rear camera": "12/12X/Pro Dimensity: 50 Megapixel, MP, f/1.9 (wide), 1/2\", 0.8µm, PDAF, OIS, 13 Megapixel, MP, 119˚ (ultrawide), 5 Megapixel, MP, f/2.4, (telemacro), 12 Pro: 50 Megapixel, MP, f/1.9, 24mm (wide), 1/1.28\", 1.22µm, PDAF, 50 Megapixel, MP, f/2.2, 120˚ (ultrawide), 50 Megapixel, MP, f/2.4, 48mm (Telephoto), All: High-dynamic-range, HDR, panorama, Video, 12/12X/Pro: 8K resolution, 8K@24fps, 4K resolution, 4K@30/60fps, 1080p@30/60/120fps, 720p@960fps; gyro-EIS, 12 Pro Dimensity: 4K resolution, 4K@30/60fps, 1080p@30/60/120fps, 720p@960fps; gyro-EIS",
+      "Front camera": "32 MP, f/2.5, (wide), 1080p@30/120fps"
+    },
+    "Sound": {
+      "Sound": "12/12X: stereo speakers, 12 Pro/Pro Dimensity: quad speakers, All: Tuned by Harman Kardon"
+    },
+    "Battery": {
+      "Battery": "12/12X: 4500 mAh, 12 Pro: 4600 mAh, 12 Pro Dimensity: 5160 mAh",
+      "Charging": "12/12X/Pro Dimensity: 67W (Xiaomi), 15W (USB PD (PPS)), 10W (USB PD (non-PPS)), 12 Pro: 120W (Xiaomi HyperCharge), 15W (USB PD (PPS)), 10W (USB PD (non-PPS))"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.2/5.3 (12 Pro Dimensity), A2DP, LE, A-GPS. Up to tri-band: GLONASS, BDS, GALILEO, QZSS, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.2,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "peak_nits": 1200,
+    "chipset": "12/Pro: Snapdragon 8 Gen 1",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "front_mp": 32,
+    "battery_mah": 4500,
+    "wired_w": 120,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 179,
+    "thickness_mm": 8.2,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 12",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_12"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 12\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Xiaomi 12",
+    "revid": 1361537201
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "palmone-treo-680",
+  "brand": "PalmOne",
+  "name": "Treo 680",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/PALM_Treo_680.jpg/500px-PALM_Treo_680.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/PALM_Treo_680.jpg/250px-PALM_Treo_680.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "PalmOne Treo 680",
+      "credit": "Giaccai, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PALM_Treo_680.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Trēo",
+      "Predecessor": "Cingular Wireless Trēo 650 (GSM)",
+      "Successor": "AT&T Palm Centro (GSM)"
+    },
+    "Network": {
+      "Technology": "Quad band (850/900/1800/1900) GSM"
+    },
+    "Body": {
+      "Dimensions": "111.8 mm H x 58.4 mm W x 20.3 mm D (4.4 inches H x 2.3 inches W x 0.8 inches D)",
+      "Weight": "158 g"
+    },
+    "Platform": {
+      "Operating system": "Palm OS Garnet v5.4.9",
+      "CPU": "Intel 312 MHz XScale PXA270 (Bulverde)"
+    },
+    "Memory": {
+      "RAM": "128 MB (64 MB user available storage)",
+      "Card slot": "MMC, SD/SDHC/SD I/O"
+    },
+    "Display": {
+      "Display": "320×320 65k color illuminated TFT LCD touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "640x480 VGA (0.3-megapixel) with 2× digital zoom and video capture support"
+    },
+    "Battery": {
+      "Battery": "1200 mAh Li-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM/GPRS/EDGE class 10 radio, Bluetooth, IrDA, Dial-Up Networking"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1200,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 158,
+    "thickness_mm": 20.3
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Treo 680",
+      "url": "https://en.wikipedia.org/wiki/Treo_680"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Treo 680\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Treo 680",
+    "revid": 1374925891
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

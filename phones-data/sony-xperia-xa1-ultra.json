@@ -1,0 +1,83 @@
+{
+  "slug": "sony-xperia-xa1-ultra",
+  "brand": "Sony",
+  "name": "Xperia XA1 Ultra",
+  "status": "published",
+  "announced": "2017-05-22",
+  "released": "2017-05-22",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-05-22",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia XA Ultra"
+    },
+    "Network": {
+      "Technology": "GSM GPRS/EDGE (2G), UMTS HSPA (3G), LTE (4G)",
+      "SIM": "nano-SIM (single or dual-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165 mm H , 79 mm W , 8.1 mm D",
+      "Weight": "188 g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0 \"Nougat\", upgradable to Android 8.0 \"Oreo\"",
+      "Chipset": "MediaTek MT6757 Helio P20"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "32 GB",
+      "Card slot": "microSDHC, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.0 in (150 mm), 1080 × 1920 pixels IPS LCD"
+    },
+    "Cameras": {
+      "Rear camera": "23 MP, autofocus, LED flash, Full HD video",
+      "Front camera": "16 MP, LED flash, HD video"
+    },
+    "Battery": {
+      "Battery": "2700 mAh Li-ion",
+      "Charging": "Pump Express fast charging"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6757 Helio P20",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 23,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 2700,
+    "os": "Android 7.0",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 188,
+    "thickness_mm": 8.1,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia XA1 Ultra",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_XA1_Ultra"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia XA1 Ultra\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia XA1 Ultra",
+    "revid": 1361536280
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

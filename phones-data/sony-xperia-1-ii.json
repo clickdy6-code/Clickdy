@@ -1,0 +1,110 @@
+{
+  "slug": "sony-xperia-1-ii",
+  "brand": "Sony",
+  "name": "Xperia 1 II",
+  "status": "published",
+  "announced": "2020-05-22",
+  "released": "2020-05-22",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Xperia_1_II.jpg/500px-Xperia_1_II.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Xperia_1_II.jpg/250px-Xperia_1_II.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia 1 II",
+      "credit": "Puddin1975, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xperia_1_II.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-05-22",
+      "Series": "Sony Xperia",
+      "Model": "XQ-AT52, XQ-AT72, XQ-AT42, XQ-AT51, SO-51A, SOG01",
+      "Predecessor": "Sony Xperia 1",
+      "Successor": "Sony Xperia 1 III"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G, WiMAX, WiMAX 2+ (SOG01 model only)",
+      "SIM": "nanoSIM + nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "166 mm H, 71.1 mm W, 7.9 mm D",
+      "Weight": "181 g",
+      "Other": "IP65/IP68 Water/dust resistant, PS4 Remote Play, DUALSHOCK®4 Control compatibility, Game Enhancer, Dynamic Vibration System"
+    },
+    "Platform": {
+      "Operating system": "Android 10, upgradable to Android 12, 2 OS updates, 2 years of security patches",
+      "Chipset": "Qualcomm Snapdragon 865",
+      "CPU": "Octa-core (1x 2.84 GHz Gold Prime, 3x 2.42 GHz Gold, 4x 1.8 GHz Silver) Kryo 585",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR5 (SO-51A, SOG01, XQ-AT51 and XQ-AT52 in Black/White/Purple), 12 GB LPDDR5 (XQ-AT42, XQ-AT52 in Green and XQ-AT72)",
+      "Storage": "Universal Flash Storage (UFS 3.0) 128 GB (SO-51A and SOG01 models), 256 GB (XQ-AT42, XQ-AT51, XQ-AT52 and XQ-AT72 models)",
+      "Card slot": "microSDXC, expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.5 in 4K 21:9 (3840 x 1644) HDR OLED CinemaWide™ display, ~643 pixel density, Gorilla Glass 6, HDR10, HLG, 10-bit color depth"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 MP (Sony Exmor RS IMX557), f/1.7, 24mm (wide), 1/1.7\", 1.8 μm, predictive Dual Pixel PDAF, 5-axis OIS, 12.2 MP (Samsung ISOCELL S5K3T2), f/2.4, 70mm (telephoto), 1/3.4\", 1.0 μm, predictive Dual Pixel PDAF, 3x optical zoom, 5-axis OIS, 12.2 MP (Sony Exmor RS IMX363), f/2.2, 16mm (ultra-wide), 1/2.55\", predictive Dual Pixel PDAF, 3D iToF sensor, Zeiss optics, HDR, eye tracking, 4K@24/25/30/60/120fps, 1080p@30/60/120fps",
+      "Front camera": "8 MP (Samsung ISOCELL S5K4H7), f/2.0, 24mm (wide), 1/4\", 1.0 μm, 5-axis gyro-EIS, HDR Photo, Portrait selfie, Display flash, Hand and Smile Shutter, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Front Stereo speakers and 3.5 mm headphone jack, 4 Pole, Cirrus Logic CS35L41 Speaker Amp x2, High-Resolution Audio, High-Resolution Audio Wireless, 360 Reality Audio hardware decoding, Dolby Atmos tuned by Sony Pictures and Sony music, DSEE Ultimate, Stereo Recording, SBC, AAC, Qualcomm® aptX™, Qualcomm® aptX™ HD, Qualcomm® aptX™ adaptive, Qualcomm® aptX™ TWS+, LDAC"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 4000 mAh, USB PD 3.0 21W Charging, Qi 11W Wireless Charging",
+      "Charging": "Fast Charging USB PD 3.0 21 W Charging, Qi 11 W Wireless Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/ax (2.4/5GHz), Bluetooth 5.1, USB-C (supports DisplayPort), NFC, GPS with Assisted GPS, Galileo, GLONASS, BeiDou, 1seg (SO-51A and SOG01 models only), Mobile FeliCa/Osaifu-Keitai (XQ-AT42, SO-51A and SOG01 models only)"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 865",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 12.2,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@24fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "wireless_w": 11,
+    "wired_w": 21,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "ip": "IP65",
+    "weight_g": 181,
+    "thickness_mm": 7.9,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 1 II",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_1_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 1 II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 1 II",
+    "revid": 1380776237
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

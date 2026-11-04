@@ -1,0 +1,86 @@
+{
+  "slug": "sony-ericsson-xperia-neo",
+  "brand": "Sony Ericsson",
+  "name": "Xperia Neo",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sony_Ericsson_Xperia_neo.jpg/500px-Sony_Ericsson_Xperia_neo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sony_Ericsson_Xperia_neo.jpg/250px-Sony_Ericsson_Xperia_neo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia Neo",
+      "credit": "Steven9212, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_neo.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-03",
+      "Discontinued": "2011-11",
+      "Series": "Sony Ericsson Xperia",
+      "Predecessor": "Sony Ericsson Vivaz",
+      "Successor": "Sony Xperia P"
+    },
+    "Network": {
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "116 × 57 × 13 mm",
+      "Weight": "126 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4;, Officially upgradeable up to Android 4.0.4 (Ice Cream Sandwich), Unofficially upgradeable to:, Android 4.0.4 (Ice Cream Sandwich) via CyanogenMod 9, Android 4.1.2 (JellyBean) via CyanogenMod 10, Android 4.2.2 (JellyBean) via CyanogenMod 10.1, Android 4.3.1 (JellyBean) via CyanogenMod 10.2, Android 4.4.4 (Kitkat) via CyanogenMod 11.",
+      "Chipset": "Qualcomm Snapdragon MSM8255 1GHz Scorpion",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB (RAM)",
+      "Storage": "380 MB (ROM) + Up to 32 GB on microSD memory card"
+    },
+    "Display": {
+      "Display": "3.7 inch 854×480px (265 ppi density) LED-backlit LCD 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "8-MP (3264x2448) autofocus, LED flash, Exmor R",
+      "Front camera": "MicroUSB Type-B charging port up to 5W (standard charging speed)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 with A2DP, microUSB 2.0, 3.5 mm audio jack, aGPS, Wi-Fi 802.11 b/g/n , HDMI, GSM 850 / 900 / 1800 / 1900 HSPA 850 / 1900 / 2100"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon MSM8255 1GHz Scorpion",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1500,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 126,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia Neo",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_Neo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia Neo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia Neo",
+    "revid": 1383246827
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "xiaomi-mi-9",
+  "brand": "Xiaomi",
+  "name": "Mi 9",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Xiaomi_MI_9_frontpanel.jpg/500px-Xiaomi_MI_9_frontpanel.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Xiaomi_MI_9_frontpanel.jpg/250px-Xiaomi_MI_9_frontpanel.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi 9",
+      "credit": "BoyuZhang1998, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_MI_9_frontpanel.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-03 (Mi 9) , 2019-04 , (Mi 9 Explorer)",
+      "Series": "Mi",
+      "Predecessor": "Xiaomi Mi 8",
+      "Successor": "Xiaomi Mi 10"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "157.5 mm H, 74.7 mm W, 7.6 mm D",
+      "Weight": "173 g"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI 10 based on Android 9 Pie, Current: MIUI 12.5 based on Android 11",
+      "Chipset": "Qualcomm Snapdragon 855",
+      "CPU": "Octa-core Kryo 485 (1x 2.84 GHz + 3x 2.42 GHz + 4x 1.8 GHz)",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "6 or 8 LPDDR4X RAM , 8 or 12 LPDDR4X RAM (Mi 9 Explorer)",
+      "Storage": "64 GB or 128 GB , 256 GB (Mi 9 Explorer)"
+    },
+    "Display": {
+      "Display": "6.39 inches (162.3 mm), 1080 x 2340 pixels, (403 ppi), SUPER AMOLED touchscreen, 16M colors , HDR10, DCI-P3"
+    },
+    "Cameras": {
+      "Rear camera": "Triple: 48 MP Wide (f/1.5 (Mi 9 Explorer 12 GB RAM) or f/1.8, 27mm, 1/2\", 0.8μm) + 16 MP Ultrawide (f/2.2, 13mm, 1/3\", 1.0μm) + 12 MP Telephoto (f/2.2, 54mm, 1/3.6\" 1.0μm), 2x optical zoom, laser/phase detection autofocus, dual-LED flash",
+      "Front camera": "20 MP (f/2.0, 0.9μm), 1080p"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 3300 mAh battery"
+    },
+    "Connectivity": {
+      "Connectivity": "2G, 3G, 4G, 4G LTE, Wi-Fi 802.11a/b/g/n/ac (2.4 & 5GHz), dual-band, WiFi Direct, DLNA, hotspot"
+    }
+  },
+  "key": {
+    "display_in": 6.39,
+    "display_type": "SUPER AMOLED",
+    "chipset": "Qualcomm Snapdragon 855",
+    "storage_gb": [
+      64,
+      128,
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "front_mp": 20,
+    "battery_mah": 3300,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 173,
+    "thickness_mm": 7.6,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 9",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 9",
+    "revid": 1382445747
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

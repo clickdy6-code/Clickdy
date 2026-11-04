@@ -1,0 +1,110 @@
+{
+  "slug": "xiaomi-13t",
+  "brand": "Xiaomi",
+  "name": "13T",
+  "status": "published",
+  "announced": "2023-09-26",
+  "released": "2023-09-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Xiaomi_13T_Series_sample.jpg/500px-Xiaomi_13T_Series_sample.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Xiaomi_13T_Series_sample.jpg/250px-Xiaomi_13T_Series_sample.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 13T",
+      "credit": "Myrat, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_13T_Series_sample.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "13T/Pro: 2023-09-26, Redmi K60 Ultra: 2023-08-14",
+      "Series": "Xiaomi T, Redmi K",
+      "Predecessor": "Xiaomi 12T",
+      "Successor": "Xiaomi 14T"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G",
+      "SIM": "13T/Pro Nano-SIM + eSIM or Dual SIM (Nano-SIM), Redmi K60 Ultra Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "13T/Pro:, H: 162.2 mm, W: 75.7 mm, D:8.49 mm (glass), 8.62 mm (silicone-polymer)Redmi K60 Ultra:, H: 162.2 mm, W: 75.7 mm, D: 8.49 mm",
+      "Weight": "13T: 197 g (glass), 193 g (silicone-polymer)13T Pro: 206 g (glass), 200 g (silicone-polymer)Redmi K60 Ultra: 204 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 13 + MIUI 14, Current: Android 15 + Xiaomi HyperOS 2",
+      "Chipset": "13T: MediaTek Dimensity 8200 Ultra (4 nm), 13T Pro/Redmi K60 Ultra: MediaTek Dimensity 9200+ (4 nm)",
+      "CPU": "13T: (1×3.1 GHz Cortex-A78 & 3×3 GHz Cortex-A78 & 4×2 GHz Cortex-A55), 13T Pro/Redmi K60 Ultra: 8 cores (1×3.35 GHz Cortex-X3 & 3×3 GHz Cortex-A715 & 4×2 GHz Cortex-A510)",
+      "GPU": "13T: Mali-G610 MC6, 13T Pro/Redmi K60 Ultra: Immortalis-G715 MC11"
+    },
+    "Memory": {
+      "RAM": "13T: 8/12 GB LPDDR5, 13T Pro: 12/16 GB LPDDR5X, Redmi K60 Ultra: 12/16/24 GB LPDDR5X",
+      "Storage": "13T: 256 GB UFS 3.1, 13T Pro/Redmi K60 Ultra: 256/512 GB, 1 TB UFS 4.0"
+    },
+    "Display": {
+      "Display": "AMOLED, 68B colors, 144 Hz, 6.67\", 2712 × 1220, 446 ppi, Dolby Vision, HDR10+, 20:9 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "13T/Pro: 50 MP, f/1.9, 24mm (wide), 1/1.28\", 1.22 µm, PDAF, Optical image stabilization, OIS + 50 MP, f/1.9, 50mm (telephoto), 1/2.88\", 0.61 µm, PDAF, 2x optical zoom + 12 MP, f/2.2, 15mm (ultrawide), 1/3.06\", 1.12 µm, Leica Camera, Leica optics (region dependent), color temperature sensor, LED flash, HDR, panorama, Redmi K60 Ultra: 50 MP Sony IMX800, f/1.7 (wide), 1/1.49\", 1 µm, PDAF, OIS + 8 MP, 119° (ultrawide), 1/4\", 1.12 µm + 2 MP, f/2.4 (macro), Color temperature sensor, LED flash, HDR, panorama, Video:13T: 4K resolution, 4K@30fps (HDR10+), 1080p@30 / 60 / 120fps, 720p@30 / 120 / 240 / 960fps; gyro-EIS, 13T Pro: 8K resolution, 8K@24fps, 4K resolution, 4K@24 / 30 (HDR10+) / 60fps, 1080p",
+      "Front camera": "20 MP, f/2.2 (wide), 1/2\", 0.8 µm, HDR, Video: 1080p@30 / 120fps, 720p@30fps; HDR10+"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 24-bit/192kHz Hi-Res audio"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "13T: 67W fast charging, 13T Pro/Redmi K60 Ultra: 120W fast charging, All models: Power Delivery 3.0, Quick Charge 4"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0 (OTG), Bluetooth 5.4 (A2DP, LE), NFC, IR blaster, Wi-Fi 802.11 a/b/g/n/ac/6e/7 (dual-band, Wi-Fi Direct), GPS (A-GPS; L1 + L5), GLONASS (L1), BeiDou (B1I + B1c + B2a + B2b), Galileo (E1 + E1a), QZSS (L1 + L5), NavIC (L5)"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 144,
+    "chipset": "13T: MediaTek Dimensity 8200 Ultra",
+    "ram_gb": [
+      12,
+      16,
+      24
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 20,
+    "battery_mah": 5000,
+    "wired_w": 120,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 197,
+    "thickness_mm": 8.49,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 13T",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_13T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 13T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 13T",
+    "revid": 1364981481
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

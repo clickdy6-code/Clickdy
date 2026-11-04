@@ -1,0 +1,103 @@
+{
+  "slug": "xiaomi-13t-pro",
+  "brand": "Xiaomi",
+  "name": "13T Pro",
+  "status": "published",
+  "announced": "2023-09-26",
+  "released": "2023-09-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Shibuya-Tokyo---2024-08-28_064.jpg/500px-Shibuya-Tokyo---2024-08-28_064.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Shibuya-Tokyo---2024-08-28_064.jpg/250px-Shibuya-Tokyo---2024-08-28_064.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 13T Pro",
+      "credit": "RuinDig/Yuki Uchida, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shibuya-Tokyo---2024-08-28_064.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-09-26",
+      "Series": "Xiaomi T Series",
+      "Predecessor": "Xiaomi 12T Pro",
+      "Successor": "Xiaomi 14T Pro"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "Nano-SIM + eSIM, Nano-SIM + Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.2x75.7x8.5 mm",
+      "Weight": "200 g or 206 g (depending on variant)",
+      "Other": "Under-display fingerprint sensor, plastic frame, glass or silicone polymer back"
+    },
+    "Platform": {
+      "Operating system": "Android 13 with HyperOS, Up to 4 major Android upgrades",
+      "Chipset": "Mediatek Dimensity 9200+ (4 nm)",
+      "CPU": "Octa-core (1x3.35 GHz Cortex-X3 & 3x3.0 GHz Cortex-A715 & 4x2.0 GHz Cortex-A510)",
+      "GPU": "Immortalis-G715 MC11"
+    },
+    "Memory": {
+      "RAM": "12 GB or 16 GB LPDDR5X",
+      "Storage": "256 GB, 512 GB or 1 TB UFS 4.0"
+    },
+    "Display": {
+      "Display": "6.67 in AMOLED, 68B colors, 1220 × 2712 px, 144Hz refresh rate, Dolby Vision, HDR10+, 2600 nits peak brightness, Corning Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "Triple-Camera Setup, Primary: Sony IMX 707; 50 Megapixel, MP (7P lens), 24mm, 1/1.28\", 1.22 Micrometre, µm, Phase detection autofocus, PDAF, Optical image stabilization, OIS, Telephoto lens, Telephoto: OmniVision PureCel®Plus‑S OV50D; 50 Megapixel, MP (5P lens), 50mm, 1/2.88\", 0.61 Micrometre, µm, Phase detection autofocus, PDAF, 2x optical zoom, Ultra wide angle lens, Ultrawide: OmniVision PureCel®Plus OV13B; 12 Megapixel, MP (5P lens), 15mm, 1/3.06\", 1.12 Micrometre, µm, FF, Camera features: Leica Camera, Leica lens, color spectrum sensor, LED flash, High dynamic range, HDR, Panorama, Video recording: 8K resolution, 8K@24Frame rate, fps, 4K resolution, 4K@24/30/60Frame rate, fps, 4K resolu",
+      "Front camera": "Sony IMX 596; 20 Megapixel, MP (5P lens), 26mm (wide), 1/3.47\", 0.8 Micrometre, µm, FF, Camera features: High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps, HDR10+"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 24-bit/192kHz Hi-Res Audio"
+    },
+    "Battery": {
+      "Battery": "5000 mAh Li-Po",
+      "Charging": "120W wired (PD3.0, QC4) – 100% in 19 min"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e/7 (dual/tri-band by region), Bluetooth 5.4, NFC, Infrared port, USB-C 2.0 OTG, GPS (L1+L5), GLONASS, BDS, Galileo, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 144,
+    "peak_nits": 2600,
+    "chipset": "Mediatek Dimensity 9200+",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "battery_mah": 5000,
+    "wired_w": 120,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 200,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 13T Pro",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_13T_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 13T Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 13T Pro",
+    "revid": 1361537249
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

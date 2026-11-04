@@ -1,0 +1,74 @@
+{
+  "slug": "siemens-sx1",
+  "brand": "Siemens",
+  "name": "SX1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Siemens_SX1_vorne.jpg/500px-Siemens_SX1_vorne.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Siemens_SX1_vorne.jpg/250px-Siemens_SX1_vorne.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Siemens SX1",
+      "credit": "Lordnikon, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_SX1_vorne.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Successor": "Gigaset ME"
+    },
+    "Network": {
+      "Technology": "GSM, GPRS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "109x56x19 mm",
+      "Weight": "116 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v6.1, Series 60 v1.0 UI",
+      "CPU": "120 MHz"
+    },
+    "Memory": {
+      "RAM": "4 MB internal memory",
+      "Card slot": "Hot-Swappable MMC (Multimedia Card)"
+    },
+    "Display": {
+      "Display": "176x220 (65,536 colours) TFT display"
+    },
+    "Cameras": {
+      "Rear camera": "Integrated VGA camera"
+    },
+    "Battery": {
+      "Battery": "Standard, Li-Ion 1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA, Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "os": "Symbian OS v6.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 116
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens SX1",
+      "url": "https://en.wikipedia.org/wiki/Siemens_SX1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens SX1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens SX1",
+    "revid": 1361483951
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

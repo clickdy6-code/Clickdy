@@ -1,0 +1,80 @@
+{
+  "slug": "umidigi-a9",
+  "brand": "Umidigi",
+  "name": "A9",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Umidigi A7",
+      "Successor": "Umidigi A11"
+    },
+    "Network": {
+      "Technology": "LTE-FDD, TDD-LTE, WCDMA, SCDMA, GSM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 158.7mm, W: 74.9mm, D: 8.6mm"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 11",
+      "Chipset": "MediaTek Helio G25",
+      "CPU": "4x2 GHz Cortex-A53 + 4x1.5 GHz",
+      "GPU": "IMG PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR, LPDDR4X, 6 GB LPDDR4X (Pro), 8 GB LPDDR4X (Max)",
+      "Storage": "64 GB or 128 GB models"
+    },
+    "Display": {
+      "Display": "6.3\" FHD+ Full Screen 2340 x 1080 resolution"
+    },
+    "Cameras": {
+      "Rear camera": "48MP Sony AI matrix quad camera, 48MP HD (32MP HD for 4GB + 64GB variant), Ultra wide-angle mode, Steady handheld night photography, Macro mode, Portrait mode, Panorama mode, HDR, AI Beautify, Ultra wide-angle edge distortion correction, Dual LED flash, Face recognition, Real-time filters",
+      "Front camera": "24MP Sony"
+    },
+    "Battery": {
+      "Battery": "4150mAh",
+      "Charging": "USB Type-C"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "chipset": "MediaTek Helio G25",
+    "ram_gb": [
+      3,
+      6,
+      8
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 24,
+    "battery_mah": 4150,
+    "os": "Android 11",
+    "five_g": false,
+    "thickness_mm": 8.6
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Umidigi A9",
+      "url": "https://en.wikipedia.org/wiki/Umidigi_A9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Umidigi A9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Umidigi A9",
+    "revid": 1361536822
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

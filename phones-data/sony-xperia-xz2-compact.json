@@ -1,0 +1,101 @@
+{
+  "slug": "sony-xperia-xz2-compact",
+  "brand": "Sony",
+  "name": "Xperia XZ2 Compact",
+  "status": "published",
+  "announced": "2018-04-05",
+  "released": "2018-04-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Sony_Xperia_XZ2_Compact_002.jpg/500px-Sony_Xperia_XZ2_Compact_002.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Sony_Xperia_XZ2_Compact_002.jpg/250px-Sony_Xperia_XZ2_Compact_002.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia XZ2 Compact",
+      "credit": "Mc681, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_XZ2_Compact_002.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-04-05",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia XZ1 Compact",
+      "Successor": "Sony Xperia Ace, Sony Xperia 5 (indirect)"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "135 mm H, 65 mm W, 12.1 mm D",
+      "Weight": "168g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 \"Oreo\" (Upgradable to Android 10)",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSD, expandable up to 400 GB"
+    },
+    "Display": {
+      "Display": "5.0 in Full HD+ (1080 x 2160) IPS LCD, ~483 pixel density, Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "19 MP (f/2.0, 25mm, 1/2.3\", 1.22 μm), gyro EIS, predictive phase detection and laser AF, LED flash, 4K at 30fps, 1080p at 30, 60fps or 960fps slo-mo",
+      "Front camera": "5 MP (f/2.2, 23mm, 1/5\"), gyro EIS, 1080p"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable 2870 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5 GHz), Bluetooth 5.0, USB-C, NFC, location (GPS, Galileo, GLONASS, BeiDou)"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 19,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 5,
+    "battery_mah": 2870,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 168,
+    "thickness_mm": 12.1,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xperia XZ2 Compact",
+      "url": "https://en.wikipedia.org/wiki/Xperia_XZ2_Compact"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xperia XZ2 Compact\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xperia XZ2 Compact",
+    "revid": 1377014444
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

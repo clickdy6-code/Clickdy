@@ -1,0 +1,105 @@
+{
+  "slug": "xiaomi-17t",
+  "brand": "Xiaomi",
+  "name": "17T",
+  "status": "published",
+  "announced": "2026-05-28",
+  "released": "2026-05-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Xiaomi_17T_series.jpg/500px-Xiaomi_17T_series.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Xiaomi_17T_series.jpg/250px-Xiaomi_17T_series.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 17T",
+      "credit": "JGBlue1509, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_17T_series.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-05-28",
+      "Series": "Xiaomi \"T\" series",
+      "Predecessor": "Xiaomi 15T"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "17T: 157.6 × 75.2 × 8.2 mm , 17T Pro: 162.2 × 77.5 × 8.3 mm",
+      "Weight": "200 g"
+    },
+    "Platform": {
+      "Operating system": "Android 16 with HyperOS 3",
+      "Chipset": "17T: Mediatek Dimensity 8500 Ultra (4 nm), 17T Pro: Mediatek Dimensity 9500 (3 nm)",
+      "CPU": "17T: 1× 3.4 GHz Cortex-A725 + 3× 3.2 GHz Cortex-A725 + 4× 2.2 GHz Cortex-A725, 17T Pro: 1× 4.21 GHz C1-Ultra + 3× 3.5 GHz C1-Premium + 4× 2.7 GHz C1-Pro",
+      "GPU": "17T: Mali-G720 MC8, 17T Pro: Mali-G1 Ultra MC12"
+    },
+    "Memory": {
+      "RAM": "17T: 8 GB or 12 GB LPDDR5X, 17T Pro: 12 GB or 16 GB LPDDR5X",
+      "Storage": "256 GB or 512 GB UFS 4.0"
+    },
+    "Display": {
+      "Display": "6.67 in (169 mm) AMOLED, 1220 x 2712 pixels, 144 Hz refresh rate, HDR10+, Dolby Vision"
+    },
+    "Cameras": {
+      "Rear camera": "Triple camera system:, • 50 MP (wide), OIS, • 50 MP (telephoto), • 12 MP (ultrawide), 8K@24fps, 4K@30/60fps, Leica lenses",
+      "Front camera": "32 MP, f/2.0 (wide), 1008p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, Dolby Atmos, No 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "17T: 6,500 mAh; 7,000 mAh (China) , 17T Pro: 7,000 mAh , Si/C Li-Ion (non-removable)",
+      "Charging": "17T: 67W fast charging + 50W PPS, PD3.0 , 17T Pro: 100W Fast Charging + PPS, PD3.0 , Reverse charging , Both models: 22.5W , Wireless charging (17T Pro only) , 50W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 7, Bluetooth 5.4, NFC, Infrared port, USB Type-C 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 144,
+    "chipset": "17T: Mediatek Dimensity 8500 Ultra",
+    "ram_gb": [
+      8,
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 32,
+    "battery_mah": 6500,
+    "wired_w": 100,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "weight_g": 200,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 17T",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_17T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 17T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 17T",
+    "revid": 1379528787
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

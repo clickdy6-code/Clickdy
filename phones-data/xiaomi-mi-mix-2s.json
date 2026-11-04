@@ -1,0 +1,74 @@
+{
+  "slug": "xiaomi-mi-mix-2s",
+  "brand": "Xiaomi",
+  "name": "Mi MIX 2S",
+  "status": "published",
+  "announced": "2018-04-26",
+  "released": "2018-04-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-04-26",
+      "Series": "Mi MIX",
+      "Predecessor": "Xiaomi Mi MIX 2",
+      "Successor": "Xiaomi Mi MIX 3"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151.8 x 75.5 x 7.7 mm",
+      "Weight": "191 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 \"Oreo\" MIUI 9.5 (with Treble) upgradable to Android 9.0 \"Pie\" MIUI 10.x (with Treble) upgradable to Android 10 MIUI 12.x (with Treble)",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4x2.8 GHz & 4x1.8 GHz) Kryo",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6 or 8 LPDDR4x RAM",
+      "Storage": "64, 128 or 256 GB UFS 2.1"
+    },
+    "Display": {
+      "Display": "1080×2160 IPS LCD, 5.99 in, (403 [[Pixels per inch)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 12 (1.4), f/1.8 + 12 (1.0), f/2.4, 4K at 60 fps, 1080p at 240 fps, 720p at 240 fps",
+      "Front camera": "5, f/2.0, OmniVision OV5675"
+    },
+    "Battery": {
+      "Battery": "3400 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.99,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 845",
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 3400,
+    "os": "Android 8.0",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 191,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi MIX 2S",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_MIX_2S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi MIX 2S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi MIX 2S",
+    "revid": 1361537561
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

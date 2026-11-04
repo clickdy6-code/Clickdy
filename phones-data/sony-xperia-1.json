@@ -1,0 +1,107 @@
+{
+  "slug": "sony-xperia-1",
+  "brand": "Sony",
+  "name": "Xperia 1",
+  "status": "published",
+  "announced": "2019-05-30",
+  "released": "2019-05-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Sony_Xperia_1.png/500px-Sony_Xperia_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Sony_Xperia_1.png/250px-Sony_Xperia_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia 1",
+      "credit": "X-SHLIED, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_1.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-05-30",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia XZ3, Sony Xperia XZ2 Premium",
+      "Successor": "Sony Xperia 1 II"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, WiMAX, WiMAX 2+ (SOV40 model only)",
+      "SIM": "nanoSIM + nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "167 mm H, 72 mm W, 8.2 mm D",
+      "Weight": "178 g",
+      "Other": "IP65/IP68 Water/dust resistant, PS4 Remote Play, DUALSHOCK®4 Control compatibility, Game Enhancer, Dynamic Vibration System"
+    },
+    "Platform": {
+      "Operating system": "Android 9 \"Pie\", upgradeable to Android 11, 2 OS updates, 2 years of security patches",
+      "Chipset": "Qualcomm Snapdragon 855",
+      "CPU": "Octa-core (1x 2.84 GHz Gold Prime, 3x 2.42 GHz Gold, 4x 1.8 GHz Silver) Kryo 485",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X RAM",
+      "Storage": "Universal Flash Storage (UFS 2.1), 64 GB (SO-03L, SOV40 and 802SO models), 128 GB (Toshiba THGAF8T0T43BAIR; J8110, J8170, J9110 and J9150 models)",
+      "Card slot": "microSD, expandable up to 512 GB"
+    },
+    "Display": {
+      "Display": "6.5 in 21:9 CinemaWide™ 4K (3840 x 1644) HDR OLED, ~643 pixel density, Gorilla Glass 6, 10-bit(1.07B Colors)"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 MP (Sony IMX445), f/1.6, 26mm (wide), 1/2.55\", 1.4 μm, predictive Dual Pixel PDAF, 5-axis OIS, 12.2 MP (Samsung ISOCELL S5K3M3), f/2.4, 52mm (telephoto), 1/3.4\", 1.0 μm, predictive Dual Pixel PDAF, 2x optical zoom, 5-axis OIS, 12.2 MP (Samsung ISOCELL S5K3M3), f/2.4, 16mm (ultra-wide), 1/3.4\", 1.0 μm, 4K@24/25/30fps, 1080p@30/60/960fps. 720p@960fps, HDR",
+      "Front camera": "8 MP (Samsung ISOCELL S5K4H7), f/2.0, 24mm (wide), 1/4\", 1.0 μm, 1080p@30fps (5-axis gyro-EIS)"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers (hybrid)"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 3330 mAh , rated capacity: 3200 mAh",
+      "Charging": "Fast Charging USB PD 2.0 18 W Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5 GHz), Bluetooth 5.0, USB-C, NFC, GPS with Assisted GPS, Galileo, GLONASS, BeiDou, 1seg (SO-03L, SOV40 and 802SO models only), Mobile FeliCa/Osaifu-Keitai (SO-03L, SOV40 and 802SO models only)"
+    }
+  },
+  "key": {
+    "display_in": 6.5,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 855",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 12.2,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@24fps",
+    "front_mp": 8,
+    "battery_mah": 3330,
+    "wired_w": 18,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "ip": "IP65",
+    "weight_g": 178,
+    "thickness_mm": 8.2,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 1",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 1",
+    "revid": 1380192790
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

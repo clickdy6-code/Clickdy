@@ -1,0 +1,82 @@
+{
+  "slug": "starmobile-diamond",
+  "brand": "Starmobile",
+  "name": "Diamond",
+  "status": "published",
+  "announced": "2013-04-13",
+  "released": "2013-04-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-04-13",
+      "Series": "Starmobile Diamond Series"
+    },
+    "Network": {
+      "Technology": "2G GSM (900/1800MHz), 3G HSDPA (850/900/2100MHz)",
+      "SIM": "Dual SIM (Dual Standby)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "148 mm H , 74.5 mm W , 9.2 mm D"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.1 \"Jelly Bean\"",
+      "Chipset": "MediaTek MT6577H",
+      "CPU": "1.0 GHz dual-core ARM Cortex-A9",
+      "GPU": "PowerVR SGX531"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "4 GB",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "5.0 in (130 mm) IPS LCD, 1280×720 pixels (294 ppi), Dragontrail glass"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP BSI, autofocus, dual LED flash",
+      "Front camera": "3 MP BSI"
+    },
+    "Battery": {
+      "Battery": "2000 mAh Li-Ion",
+      "Charging": "microUSB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6577H",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 3,
+    "battery_mah": 2000,
+    "os": "Android 4.1",
+    "five_g": false,
+    "dual_sim": true,
+    "thickness_mm": 9.2,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Starmobile Diamond",
+      "url": "https://en.wikipedia.org/wiki/Starmobile_Diamond"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Starmobile Diamond\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Starmobile Diamond",
+    "revid": 1382386922
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

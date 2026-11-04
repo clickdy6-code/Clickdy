@@ -1,0 +1,65 @@
+{
+  "slug": "sony-ericsson-w880i",
+  "brand": "Sony",
+  "name": "Ericsson W880i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Sony_Ericsson_W880i_v2.png/500px-Sony_Ericsson_W880i_v2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Sony_Ericsson_W880i_v2.png/250px-Sony_Ericsson_W880i_v2.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W880i",
+      "credit": "FxJ, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W880i_v2.png",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson W810",
+      "Successor": "Sony Ericsson W890"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 and UMTS"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "102 x 46.5 x 9.4 mm",
+      "Weight": "71 g (2.5 oz)"
+    },
+    "Memory": {
+      "RAM": "16 MB Internal, Memory Stick Micro M2 (up to 2 GB)"
+    },
+    "Display": {
+      "Display": "240x320 pixels (QVGA), 1.8 inches, 262,144 (18-bit) color TFT LCD"
+    },
+    "Connectivity": {
+      "Connectivity": "WCDMA, GPRS, Bluetooth, USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 71
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W880i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W880i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W880i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W880i",
+    "revid": 1361535705
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

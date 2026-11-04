@@ -1,0 +1,78 @@
+{
+  "slug": "sharp-sh906i",
+  "brand": "Sharp",
+  "name": "SH906i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Sharp_SH906i-02.JPG/500px-Sharp_SH906i-02.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Sharp_SH906i-02.JPG/250px-Sharp_SH906i-02.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sharp SH906i",
+      "credit": "pureheartabc at the Japanese Wikipedia, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sharp_SH906i-02.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "FOMA SH905i",
+      "Successor": "FOMA SH-03A, FOMA SH-01A"
+    },
+    "Network": {
+      "Technology": "-3G：800MHz,850MHz,1.7GHz, 2GHz , -2G：900MHz,1800Mhz,1900MHz"
+    },
+    "Body": {
+      "Form factor": "Flip",
+      "Dimensions": "112 × 49 × 18.6 mm",
+      "Weight": "135 gr"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS + MOAP(S)"
+    },
+    "Memory": {
+      "RAM": "unknown MB internal",
+      "Card slot": "up to 4GB microSD"
+    },
+    "Display": {
+      "Display": "3.0\" TFT LCD, 16M Colors, 854X480 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "5.2 megapixel, 5.0MP Effective"
+    },
+    "Battery": {
+      "Battery": "800 mAh Li-Pol battery"
+    },
+    "Connectivity": {
+      "Connectivity": "-Bluetooth (2.0 + ADP), -USB (2.0 proprietary FOMA standard), -Infrared"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 800,
+    "os": "Symbian OS + MOAP(S)",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sharp SH906i",
+      "url": "https://en.wikipedia.org/wiki/Sharp_SH906i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sharp SH906i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sharp SH906i",
+    "revid": 1361483863
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

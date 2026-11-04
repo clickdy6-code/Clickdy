@@ -1,0 +1,73 @@
+{
+  "slug": "sharp-sh005",
+  "brand": "Sharp",
+  "name": "SH005",
+  "status": "published",
+  "announced": "2010-01-28",
+  "released": "2010-01-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Au_SH005_Berry_Red_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Au_SH005_Berry_Red_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Sharp SH005",
+      "credit": "Chatama, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Au_SH005_Berry_Red_open.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-01-28",
+      "Discontinued": "September 2010",
+      "Successor": "SH009"
+    },
+    "Network": {
+      "Technology": "CDMA 1X WIN, (CDMA2000 1xMC), (800 MHz / New 800 MHz / 2 GHz), CDMA 1X WIN (CDMA2000 1xEV-DO Rev.A)"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "108 mm H , 49 mm W , 14.2 mm D",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "KCP+",
+      "CPU": "Qualcomm MSM7500 (600 MHz)"
+    },
+    "Memory": {
+      "Storage": "760 MB (Internal data folder)",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 16 GB)"
+    },
+    "Display": {
+      "Display": "3.0 in (76 mm) New Mobile ASV LCD, Wide VGA+ (480×854 pixels), 260,000 colors"
+    },
+    "Cameras": {
+      "Rear camera": "5.27 MP CMOS with Face Detection AF and Image Stabilization"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "LCD",
+    "main_mp": 5.27,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "weight_g": 124,
+    "thickness_mm": 14.2,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sharp SH005",
+      "url": "https://en.wikipedia.org/wiki/Sharp_SH005"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sharp SH005\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sharp SH005",
+    "revid": 1370700455
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "sony-ericsson-w43s",
+  "brand": "Sony Ericsson",
+  "name": "W43S",
+  "status": "published",
+  "announced": "2006-09-14",
+  "released": "2006-09-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2006-09-14",
+      "Predecessor": "W32S",
+      "Successor": "W51S"
+    },
+    "Network": {
+      "Technology": "CDMA 1X WIN (800 MHz / 2 GHz)"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "103 mm H , 48 mm W , 19.8 mm D",
+      "Weight": "115 g"
+    },
+    "Platform": {
+      "Operating system": "REX OS + KCP",
+      "CPU": "ARM9E"
+    },
+    "Memory": {
+      "Storage": "42 MB",
+      "Card slot": "Memory Stick Duo"
+    },
+    "Display": {
+      "Display": "Main: 2.7 in (69 mm) Full Wide QVGA (240×432 pixels), 260k colors TFT LCD, Sub: 1.1 in (28 mm) monochrome LCD (120×27 pixels)"
+    },
+    "Cameras": {
+      "Rear camera": "2.01 MP CMOS, no AF"
+    }
+  },
+  "key": {
+    "display_in": 2.7,
+    "display_type": "TFT",
+    "main_mp": 2.01,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "weight_g": 115,
+    "thickness_mm": 19.8,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W43S",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W43S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W43S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Sony Ericsson W43S",
+    "revid": 1378855625
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

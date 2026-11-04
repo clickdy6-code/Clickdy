@@ -1,0 +1,102 @@
+{
+  "slug": "sony-xperia-xz3",
+  "brand": "Sony",
+  "name": "Xperia XZ3",
+  "status": "published",
+  "announced": "2018-10-05",
+  "released": "2018-10-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Sony_Xperia_XZ3.png/500px-Sony_Xperia_XZ3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Sony_Xperia_XZ3.png/250px-Sony_Xperia_XZ3.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia XZ3",
+      "credit": "X-SHLIED, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_XZ3.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-10-05",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia XZ2",
+      "Successor": "Sony Xperia 1"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158 mm H, 73 mm W, 9.9 mm D",
+      "Weight": "193 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 \"Pie\" , Current: Android 10, Unofficial: Android 15 via LineageOS 22.2",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "4 GB or 6 GB (Taiwan and Hong Kong)",
+      "Storage": "Universal Flash Storage (UFS 2.1) 64 GB",
+      "Card slot": "microSD, expandable up to 400 GB"
+    },
+    "Display": {
+      "Display": "6.0 in QHD+ HDR BT.2020 P-OLED, ~537 pixel density, Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "19 MP Motion Eye™ camera (f/2.0, 25mm, 1/2.3\", 1.22 μm), SteadyShot™ (gyro EIS), predictive phase detection and laser AF, RGBC-IR WB sensor, LED flash, 4K HDR at 30fps, 1080p at 30, 60fps or 960fps slo-mo",
+      "Front camera": "13 MP (f/1.9, 1/3\"), SteadyShot™ (gyro EIS), 1080p"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5GHz), Bluetooth 5.0, USB-C, NFC, GPS, Galileo, GLONASS, BeiDou, QZSS (SO-01L, SOV39 and 801SO models only), 1seg (SO-01L, SOV39 and 801SO models only), Osaifu-Keitai (SO-01L, SOV39 and 801SO models only)"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 19,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 13,
+    "battery_mah": 3300,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 193,
+    "thickness_mm": 9.9,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia XZ3",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_XZ3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia XZ3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia XZ3",
+    "revid": 1380189900
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

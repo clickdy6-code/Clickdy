@@ -1,0 +1,87 @@
+{
+  "slug": "xiaomi-mi-max-2",
+  "brand": "Xiaomi",
+  "name": "Mi Max 2",
+  "status": "published",
+  "announced": "2017-05-25",
+  "released": "2017-05-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-05-25",
+      "Series": "Mi Max",
+      "Predecessor": "Xiaomi Mi Max",
+      "Successor": "Xiaomi Mi Max 3"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "174.1 × 88.7 × 7.6 mm",
+      "Weight": "211 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 7.1.2 Nougat + MIUI 8, Current: Android 7.1.2 Nougat + MIUI 11",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR3",
+      "Storage": "32/64/128 GB eMMC 5.1",
+      "Card slot": "MicroSDXC up to 128 GB"
+    },
+    "Display": {
+      "Display": "IPS LCD, 6.44\", 1920 × 1080 (FHD), 16:9, 342 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP Sony IMX386, 27 mm (wide), 1/2.9\", 1.25 µm, PDAF, ISO 100 - 3200, 2-LED dual-tone flash, HDR, panorama, Video: 4K@30fps, 720p@120fps",
+      "Front camera": "5 MP Samsung S5K5E8, 85° (wide), 1.12 µm, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 5300 mAh",
+      "Charging": "18 W fast charging, Quick Charge 3.0"
+    }
+  },
+  "key": {
+    "display_in": 6.44,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm MSM8953 Snapdragon 625",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 5,
+    "battery_mah": 5300,
+    "wired_w": 18,
+    "os": "Android 7.1",
+    "five_g": false,
+    "dual_sim": true,
+    "weight_g": 211,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi Max 2",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_Max_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi Max 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi Max 2",
+    "revid": 1374699845
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

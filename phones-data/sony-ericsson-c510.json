@@ -1,0 +1,77 @@
+{
+  "slug": "sony-ericsson-c510",
+  "brand": "Sony Ericsson",
+  "name": "C510",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Sonyericssonc510.jpeg/500px-Sonyericssonc510.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Sonyericssonc510.jpeg/250px-Sonyericssonc510.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson C510",
+      "credit": "ElJOjo, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sonyericssonc510.jpeg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Cyber-shot",
+      "Predecessor": "Sony Ericsson K510i"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "107 × 47 × 12.5 mm",
+      "Weight": "92 g"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson’s proprietary OS",
+      "CPU": "220 MHz"
+    },
+    "Memory": {
+      "RAM": "100 MB (internal)",
+      "Card slot": "Memory Stick Micro (M2), expandable up to 8 GB"
+    },
+    "Display": {
+      "Display": "2.2 inches, TFT, 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP, 2048x1536 pixels",
+      "Front camera": "(VGA) Videocall camera"
+    },
+    "Battery": {
+      "Battery": "Li-Polymer (930 mAh)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v2.0 with A2DP, GPRS, 3G, UMTS, HSPA"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 930,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 92
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson C510",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_C510"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson C510\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson C510",
+    "revid": 1371932950
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "siemens-s55",
+  "brand": "Siemens",
+  "name": "S55",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Siemens_S55_with_IQP-500.jpg/500px-Siemens_S55_with_IQP-500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Siemens_S55_with_IQP-500.jpg/250px-Siemens_S55_with_IQP-500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Siemens S55",
+      "credit": "hdEATH, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_S55_with_IQP-500.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Dimensions": "101 x 42 x 18 mm = 69 cm3",
+      "Weight": "85g"
+    },
+    "Memory": {
+      "RAM": "1 MB"
+    },
+    "Display": {
+      "Display": "256 colors (8 bit), 101 x 80 px"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA, Bluetooth"
+    }
+  },
+  "key": {
+    "nfc": false,
+    "weight_g": 85
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens S55",
+      "url": "https://en.wikipedia.org/wiki/Siemens_S55"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens S55\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens S55",
+    "revid": 1372153675
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

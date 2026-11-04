@@ -1,0 +1,71 @@
+{
+  "slug": "sony-ericsson-so905ics",
+  "brand": "Sony Ericsson",
+  "name": "SO905iCS",
+  "status": "published",
+  "announced": "2008-02-15",
+  "released": "2008-02-15",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/SO905iCS_in_Sofmap.jpg/500px-SO905iCS_in_Sofmap.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/SO905iCS_in_Sofmap.jpg/250px-SO905iCS_in_Sofmap.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson SO905iCS",
+      "credit": "Karl Baron from Lund, Sweden, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SO905iCS_in_Sofmap.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-02-15",
+      "Series": "FOMA 905i"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA), 2G: GSM (900/1800/1900 MHz), 3G Bands: 800 MHz, 1.7 GHz, 2 GHz"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "113 mm H , 50 mm W , 24 mm D",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS v9.3 + MOAP(S)",
+      "CPU": "SH-Mobile G2"
+    },
+    "Memory": {
+      "Storage": "Approx. 512 MB",
+      "Card slot": "MicroSD (up to 2 GB)"
+    },
+    "Display": {
+      "Display": "2.7 in (69 mm) transmissive TFT LCD, 480 × 864 pixels (Full Wide VGA), 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "5.11 megapixels Exmor CMOS, 3x optical zoom, autofocus, image stabilization, high-brightness LED flash",
+      "Front camera": "0.3 megapixel CMOS"
+    }
+  },
+  "key": {
+    "display_in": 2.7,
+    "display_type": "TFT",
+    "os": "Symbian OS v9.3 + MOAP(S)",
+    "five_g": false,
+    "weight_g": 145,
+    "thickness_mm": 24,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson SO905iCS",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_SO905iCS"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson SO905iCS\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson SO905iCS",
+    "revid": 1368405742
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

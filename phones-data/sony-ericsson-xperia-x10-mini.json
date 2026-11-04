@@ -1,0 +1,79 @@
+{
+  "slug": "sony-ericsson-xperia-x10-mini",
+  "brand": "Sony",
+  "name": "Ericsson Xperia X10 Mini",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Sony_Ericsson_Xperia_X10_Mini_on_stand.jpeg/500px-Sony_Ericsson_Xperia_X10_Mini_on_stand.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Sony_Ericsson_Xperia_X10_Mini_on_stand.jpeg/250px-Sony_Ericsson_Xperia_X10_Mini_on_stand.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia X10 Mini",
+      "credit": "Havarhen, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X10_Mini_on_stand.jpeg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Xperia"
+    },
+    "Network": {
+      "Technology": "2G, Quad-band GSM/GPRS Class 10 (4+1/3+2 slots), 32–48 kbit/s/EDGE: 850/900/1800/1900 MHz, 3G, Tri-band UMTS/HSDPA/HSUPA: 850/1900/2100/900 MHz"
+    },
+    "Body": {
+      "Dimensions": "83.0 × 50.0 × 16.0 mm",
+      "Weight": "88 g with battery"
+    },
+    "Platform": {
+      "CPU": "600 MHz Qualcomm MSM7227"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "128 MB in phone, up to 64 GB on microSDHC memory card (2 GB card included)"
+    },
+    "Display": {
+      "Display": "TFT, 2.55 in, 16M color, 240×320 pixels (157 ppi) (QVGA), hardened"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP with Auto focus, Flash LED illumination and Geo tagging."
+    },
+    "Battery": {
+      "Battery": "BST-38 Standard battery: Li-Po 950 mAh."
+    },
+    "Connectivity": {
+      "Connectivity": "GPS, Wi-Fi 802.11 b/g, Bluetooth 2.0 with A2DP, microUSB 2.0, 3.5 mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 2.55,
+    "display_type": "TFT",
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 950,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 88
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia X10 Mini",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_X10_Mini"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia X10 Mini\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia X10 Mini",
+    "revid": 1361535796
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

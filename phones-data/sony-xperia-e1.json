@@ -1,0 +1,89 @@
+{
+  "slug": "sony-xperia-e1",
+  "brand": "Sony",
+  "name": "Xperia E1",
+  "status": "published",
+  "announced": "2014-01-14",
+  "released": "2014-01-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Sony_Xperia_E1.png/500px-Sony_Xperia_E1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Sony_Xperia_E1.png/250px-Sony_Xperia_E1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia E1",
+      "credit": "X-SHLIED, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_E1.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-01-14",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia E",
+      "Successor": "Sony Xperia E3"
+    },
+    "Network": {
+      "Technology": "2G Network: GSM 850, 900, 1800, 1900 , 3G Network: HSDPA 850, 1900, 2100 (D2004) , HSDPA 900, 2100 (D2005)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "118 mm H, 62.4 mm W, 12 mm",
+      "Weight": "120 g",
+      "Other": "Available in black, purple and white"
+    },
+    "Platform": {
+      "Operating system": "Android 4.3 \"Jelly Bean\", upgradeable to Android 4.4.2 \"KitKat\", Unofficial alternative: Android 7.1 \"Nougat\"",
+      "Chipset": "Qualcomm MSM8210 Snapdragon 200",
+      "CPU": "1.2 GHz dual-core Cortex-A7",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "2.02 GB",
+      "Card slot": "up to 32 GB microSD/HC card"
+    },
+    "Display": {
+      "Display": "4 in diagonal LCD, 800x480 px (233 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP Geo-tagging, face and smile detection, HDR, image stabilization, panorama"
+    },
+    "Battery": {
+      "Battery": "1,750 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS, Bluetooth 4.0"
+    }
+  },
+  "key": {
+    "display_in": 4.0,
+    "display_type": "LCD",
+    "chipset": "Qualcomm MSM8210 Snapdragon 200",
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1750,
+    "os": "Android 4.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 120,
+    "thickness_mm": 12,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia E1",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_E1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia E1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia E1",
+    "revid": 1368491296
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

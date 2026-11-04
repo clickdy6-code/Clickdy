@@ -1,0 +1,85 @@
+{
+  "slug": "vivo-y300",
+  "brand": "Vivo",
+  "name": "Y300",
+  "status": "published",
+  "announced": "2024-11-21",
+  "released": "2024-11-21",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "21 November 2024 (India)",
+      "Series": "Vivo Y series"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G"
+    },
+    "Body": {
+      "Form factor": "Slate"
+    },
+    "Platform": {
+      "Operating system": "Android 14",
+      "Chipset": "Qualcomm Snapdragon 4 Gen 2",
+      "CPU": "Octa-core",
+      "GPU": "Adreno"
+    },
+    "Memory": {
+      "RAM": "8 GB RAM",
+      "Storage": "128 GB / 256 GB",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.67 in AMOLED, 1080 × 2400 pixels, 120 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 50 MP (wide) + 2 MP (depth)",
+      "Front camera": "32 MP"
+    },
+    "Battery": {
+      "Battery": "5000 mAh (non-removable)",
+      "Charging": "Fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth, GPS, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 4 Gen 2",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 32,
+    "battery_mah": 5000,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y300",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y300"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y300\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y300",
+    "revid": 1376728869
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

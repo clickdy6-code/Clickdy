@@ -1,0 +1,107 @@
+{
+  "slug": "xiaomi-14",
+  "brand": "Xiaomi",
+  "name": "14",
+  "status": "published",
+  "announced": "2023-10-26",
+  "released": "2023-10-26",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/23116PN5BC.jpg/500px-23116PN5BC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/23116PN5BC.jpg/250px-23116PN5BC.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 14",
+      "credit": "HualinXMN, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:23116PN5BC.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "14/Pro: 2023-10-26, 14 Ultra: 2024-02-22",
+      "Series": "Xiaomi",
+      "Predecessor": "Xiaomi 13",
+      "Successor": "Xiaomi 15"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "14: Dual SIM (Nano-SIM and Nano-SIM or Nano-SIM and eSIM, dual stand-by) , 14 Pro/Ultra: Dual SIM (Nano-SIM and Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "14: 152.8 mm H , 71.5 mm W , 8.2 mm (glass) D , 8.28 mm (silicone polymer) D, 14 Pro: 161.4 mm H , 75.3 mm W , 8.49 mm D, 14 Ultra: 161.4 mm H , 75.3 mm W , 9.2 mm D",
+      "Weight": "14: 193 g (glass) , 188 g (silicone polymer), 14 Pro: 223 g (glass) , 230 g (Titanium Special Edition), 14 Ultra: 224.4 g (black and white) , 229.5 g (Dragon Crystal Blue) , 229.6 g (Titanium Special Edition)"
+    },
+    "Platform": {
+      "Operating system": "Original: Xiaomi HyperOS based on Android 14, Current: Xiaomi HyperOS 3 based on Android 16",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 3 (4 nm)",
+      "CPU": "Octa-core (1x3.3 GHz Cortex-X4 & 5x3.2 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)",
+      "GPU": "Adreno 750"
+    },
+    "Memory": {
+      "RAM": "14: 8, 12 and 16 GB, 14 Pro/Ultra: 12 and 16 GB, Random Access Memory, RAM",
+      "Storage": "256, 512, 1024 GB"
+    },
+    "Display": {
+      "Display": "14: 6.36 in, 1200 x 2670 px resolution, 20:9 ratio (~460 ppi density), OLED Gorilla® Glass Victus® 2, 14 Pro/Ultra: 6.73 in, 3200 x 1440 px resolution, 20:9 ratio (~521 ppi density), AMOLED, 68B colors, 120Hz refresh rate, Dolby Vision, HDR10+, 1100 nits (peak), Dragon Crystal Glass"
+    },
+    "Cameras": {
+      "Rear camera": "14: 50 MP, f/1.6, 23mm (wide), 1/1.31\", 1.2µm, dual pixel PDAF, Laser AF, OIS, 50 MP, f/2.0, 75mm (telephoto), PDAF (10cm - ∞), OIS, 3.2x optical zoom, 50 MP, f/2.2, 14mm, 115˚ (ultrawide), Dual-LED dual-tone flash, HDR, panorama, 14 Pro: 50 MP, f/1.4-f/4.0, 23mm (wide), 1/1.31\", 1.2µm, dual pixel PDAF, Laser AF, OIS, 50 MP, f/2.0, 75mm (telephoto), PDAF (10cm - ∞), OIS, 3.2x optical zoom, 50 MP, f/2.2, 14mm, 115˚ (ultrawide), AF, Leica Camera, Leica lens, Dual-LED dual-tone flash, HDR, panorama, Dual-LED dual-tone flash, HDR, panorama, All: 8K@24fps (HDR), 4K@24/30/60fps (HDR10+), 1080p@30/120/240/960fps, 720p@1920fps, gyro-EIS",
+      "Front camera": "32 MP, f/2.5, 26mm (wide), 0.7µm, HDR, panorama, 4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "14: Li-Po 4610 mAh, 14 Pro: Li-Po 4880 mAh",
+      "Charging": "14: Fast charging 90W , Fast wireless charging 50W, 14 Pro: Fast charging 120W , Fast wireless charging 50W, 14 Ultra: Fast charging 90W , Fast wireless charging 80W, All: PD3.0, QC4, Reverse wireless charging 10W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e/7 (market dependent), dual-band, Wi-Fi Direct, Bluetooth 5.4, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.36,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "peak_nits": 1100,
+    "chipset": "Qualcomm Snapdragon 8 Gen 3",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 32,
+    "battery_mah": 4610,
+    "wireless_w": 50,
+    "wired_w": 120,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": false,
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 193,
+    "thickness_mm": 8.2,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 14",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_14"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 14\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Xiaomi 14",
+    "revid": 1382450223
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

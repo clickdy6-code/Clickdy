@@ -1,0 +1,93 @@
+{
+  "slug": "sony-xperia-z5-premium",
+  "brand": "Sony",
+  "name": "Xperia Z5 Premium",
+  "status": "published",
+  "announced": "2015-11-05",
+  "released": "2015-11-05",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Sony_Xperia_Z5_Premium_PSD.png/500px-Sony_Xperia_Z5_Premium_PSD.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Sony_Xperia_Z5_Premium_PSD.png/250px-Sony_Xperia_Z5_Premium_PSD.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia Z5 Premium",
+      "credit": "April.Kai, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_Z5_Premium_PSD.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-11-05",
+      "Series": "Sony Xperia",
+      "Successor": "Sony Xperia XZ Premium (2017)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "154.4 mm H , 76.0 mm W , 7.8 mm D",
+      "Weight": "180 g"
+    },
+    "Platform": {
+      "Operating system": "Latest available software, Android 5.1.1 \"Lollipop\", Upgradable to Android 7.1.1 \"Nougat\", Latest available software: 32.4.A.1.54, Release started: 2017–10 (Oct) -10",
+      "Chipset": "Qualcomm Snapdragon 810 MSM8994",
+      "CPU": "Octa-core (2.0 GHz Quad-core Cortex-A57 & , 1.5 GHz Quad-core Cortex-A53) 64-bit 20 nm",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "RAM": "3 GB LPDDR4 RAM",
+      "Storage": "32 GB",
+      "Card slot": "Up to 256 GB microSDXC Samsung, SanDisk, Sony"
+    },
+    "Display": {
+      "Display": "5.5 in 4K UHD (3840×2160), IPS LCD 806 ppi TRILUMINOS™ Display with Live Color LED, X-Reality Engine for Mobile , Dynamic Contrast Enhancer"
+    },
+    "Cameras": {
+      "Rear camera": "23 MP back-side illuminated sensor, LED flash, 4K (2160p) video recording @ 30 fps, 1080p@60fps, 720p@120fps, 0.03 seconds Hybrid Autofocus",
+      "Front camera": "5.1MP, 1080p video recording @ 30fps, 720p@60fps"
+    },
+    "Battery": {
+      "Battery": "Non-user removable Li-ion 3,430 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "-Wi-Fi, -DLNA, -GPS/GLONASS/BeiDou, NFC, -Bluetooth 4.1, -External Hard Disk, MHL 3.0, USB 2.0 (Micro-B port, USB charging, Quick Charge 2.0), USB OTG (Only FAT32, exFAT), 3.50 mm headphone jack, 5 pole, fingerprint sensor"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 810 MSM8994",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 23,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K",
+    "front_mp": 5.1,
+    "battery_mah": 3430,
+    "os": "Android 5.1",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 180,
+    "thickness_mm": 7.8,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia Z5 Premium",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_Z5_Premium"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia Z5 Premium\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia Z5 Premium",
+    "revid": 1361536446
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

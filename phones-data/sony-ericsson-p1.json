@@ -1,0 +1,72 @@
+{
+  "slug": "sony-ericsson-p1",
+  "brand": "Sony Ericsson",
+  "name": "P1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Sony_Ericsson_P1_front.jpg/500px-Sony_Ericsson_P1_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Sony_Ericsson_P1_front.jpg/250px-Sony_Ericsson_P1_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson P1",
+      "credit": "Alex Nordstrom, CC BY-SA 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_P1_front.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "P990 & P910",
+      "Successor": "Sony Ericsson Xperia X1, Sony Ericsson Satio, Sony Ericsson G700, Sony Ericsson G900, Sony Ericsson Paris (cancelled)"
+    },
+    "Network": {
+      "Technology": "UMTS, GSM"
+    },
+    "Body": {
+      "Dimensions": "106 mm × 55 mm × 17 mm",
+      "Weight": "124 g"
+    },
+    "Platform": {
+      "Operating system": "UIQ 3 / Symbian OS v9.1",
+      "CPU": "ARM9 PNX4008 at 208 MHz"
+    },
+    "Memory": {
+      "RAM": "128 MB RAM, 256 MB ROM",
+      "Card slot": "Memory Stick Micro (M2)"
+    },
+    "Display": {
+      "Display": "240 x 320 TFT 262,144 colors"
+    },
+    "Cameras": {
+      "Rear camera": "3.2-megapixel 3x digital zoom",
+      "Front camera": "VGA 640x480"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11b, Bluetooth, IrDA"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "os": "Symbian OS v9.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 124,
+    "thickness_mm": 17
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson P1",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_P1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson P1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson P1",
+    "revid": 1380969149
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "vivo-y56",
+  "brand": "Vivo",
+  "name": "Y56",
+  "status": "published",
+  "announced": "2023-02-17",
+  "released": "2023-02-17",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-02-17",
+      "Series": "Vivo Y",
+      "Predecessor": "Vivo Y55",
+      "Successor": "Vivo Y58"
+    },
+    "Network": {
+      "Technology": "GSM (2G), 850 / 900 / 1800 / 1900, HSDPA (3G), 850 / 900 / 2100, LTE (4G), 1, 3, 5, 8, 38, 40, 41, 5G, 1, 3, 8, 28, 77, 78 SA/NSA",
+      "SIM": "Nano-SIM + Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "164.1 x 75.6 x 8.2 mm (6.46 x 2.98 x 0.32 in)",
+      "Weight": "6.49 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 13, Funtouch 13",
+      "Chipset": "Mediatek Dimensity 700 (7 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "4/8GB RAM",
+      "Storage": "128GB internal memory",
+      "Card slot": "microSDXC (uses shared SIM slot)"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD, Size: 6.58 inches, 104.3 cm2 (~84.1% screen-to-body ratio) , Resulution: 1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual camera, 50 MP, f/1.8, (wide), 1/2.76\", 0.64μm, PDAF, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "16 MP, f/2.0, (wide), Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "5000 mAh",
+      "Charging": "18W wired, USB Type-C, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.58,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek Dimensity 700",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 50,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 13",
+    "five_g": true,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y56",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y56"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y56\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y56",
+    "revid": 1361537129
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "sony-xperia-c",
+  "brand": "Sony",
+  "name": "Xperia C",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2013 (Announced), July 2013 (Released)",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia L",
+      "Successor": "Sony Xperia C3"
+    },
+    "Network": {
+      "Technology": "2G: GSM 900/1800/1900 , 3G: HSDPA 900/2100"
+    },
+    "Body": {
+      "Form factor": "Candy bar, Omni-balance",
+      "Dimensions": "141.5 x 74.2 x 8.9 mm",
+      "Weight": "153 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2.2 \"Jelly Bean\"",
+      "Chipset": "MediaTek MT6589",
+      "CPU": "Quad-core 1.2 GHz",
+      "GPU": "PowerVR SGX544"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Card slot": "4 GB internal (1.2 GB user available), supports up to 32GB microSD"
+    },
+    "Display": {
+      "Display": "5 inch 960x540px \"Reality Display\" TFT LCD at 220 PPI"
+    },
+    "Cameras": {
+      "Rear camera": "8 megapixels with 3264 x 2448 pixels, 4x digital zoom, autofocus, LED flash",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Li-ion 2390 mAh Standard built-in battery"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB, 3.5 mm audio jack, Bluetooth 4.0 with A2DP, aGPS, Wi-Fi 802.11 b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "TFT",
+    "chipset": "MediaTek MT6589",
+    "ram_gb": [
+      1
+    ],
+    "battery_mah": 2390,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 153,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia C",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_C"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia C\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia C",
+    "revid": 1361536023
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "vivo-x100",
+  "brand": "Vivo",
+  "name": "X100",
+  "status": "published",
+  "announced": "2023-11-13",
+  "released": "2023-11-13",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/VIVO_X100_and_X100_Pro%2C_January_28%2C_2024.jpg/500px-VIVO_X100_and_X100_Pro%2C_January_28%2C_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/VIVO_X100_and_X100_Pro%2C_January_28%2C_2024.jpg/250px-VIVO_X100_and_X100_Pro%2C_January_28%2C_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Vivo X100",
+      "credit": "メイド理世, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:VIVO_X100_and_X100_Pro,_January_28,_2024.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-11-13",
+      "Series": "Vivo X series",
+      "Predecessor": "Vivo X90",
+      "Successor": "Vivo X200"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "X100: 164 mm H , 75.2 mm W , 8.5 mm D",
+      "Weight": "X100: 205 g"
+    },
+    "Platform": {
+      "Operating system": "OriginOS 4 (China), Funtouch OS 14, (based on Android 14)",
+      "Chipset": "X100: MediaTek MediaTek Dimensity, Dimensity 9300",
+      "CPU": "X100: Octa-core (1x 3.25 GHz Cortex-X4 & 3x 2.85 GHz Cortex-X4 & 4x 2.00 GHz Cortex-A720)",
+      "GPU": "X100: ARM Mali-G720 MC12 1300MHz"
+    },
+    "Memory": {
+      "RAM": "12GB/16GB LPDDR5X RAM",
+      "Storage": "X100: 256GB/512GB/1TB UFS 4.0"
+    },
+    "Display": {
+      "Display": "6.78 in, 1260 x 2800 px resolution, 20:9 ratio (~452 ppi density), AMOLED, 1B colors, 120Hz LTPO, HDR10+, 3000 nits peak, Curved display"
+    },
+    "Cameras": {
+      "Rear camera": "X100: 50 MP, Sony IMX920, f/1.57, (wide), 1/1.31\", 1.2µm, PDAF, Laser AF, OIS, 64 MP, Omnivision OV64B, f/2.6, 70mm (periscope telephoto), 1/2.0\", 0.70µm, PDAF, 3x optical zoom, 50 MP, Samsung JN1, f/2.0, 15mm (ultrawide), 1/2.76\", 0.64µm, AF, Zeiss T* lens coating, 8K@30fps, 4K@30/60fps, 1080p@30/60/120/240fps, gyro-EIS",
+      "Front camera": "32 MP, f/2.0, 21mm (wide), 1/2.8\", 0.8µm, 4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, No 3.5mm jack"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh",
+      "Charging": "Fast charging 120W (100% in 27 min)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct, Bluetooth 5.4, A2DP, LE, aptX HD, NFC, Infrared port"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 3000,
+    "chipset": "X100: MediaTek MediaTek Dimensity",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@30fps",
+    "front_mp": 32,
+    "battery_mah": 5000,
+    "wired_w": 120,
+    "os": "Android 14",
+    "five_g": true,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 205,
+    "thickness_mm": 8.5,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X100",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X100"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X100\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X100",
+    "revid": 1382462116
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "sony-xperia-5-iii",
+  "brand": "Sony",
+  "name": "Xperia 5 III",
+  "status": "published",
+  "announced": "2021-10-01",
+  "released": "2021-10-01",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-10-01",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia 5 II",
+      "Successor": "Sony Xperia 5 IV"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G, WiMAX, WiMAX 2+ (SOG05 model only)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "157 mm H, 68 mm W, 8.2 mm D",
+      "Weight": "168 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11 (upgradable up to Android 13)",
+      "Chipset": "Qualcomm Snapdragon 888",
+      "CPU": "Octa-core (1x 2.84 GHz Gold Prime, 3x 2.42 GHz Gold, 4x 1.8 GHz Silver) Kryo 680",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR5 RAM",
+      "Storage": "Universal Flash Storage (UFS 3.X), 128 GB (SO-53B, SOG05 and A103SO models), 256 GB (XQ-BQ42 model)",
+      "Card slot": "microSDXC, expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.1 in 1080p 21:9 () HDR OLED CinemaWide™ display, 120 Hz refresh rate, ~449 pixel density, Gorilla Glass 6, HDR BT.2020, 10-bit color depth (1B colors)"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 MP (Sony Exmor RS IMX557), f/1.7, 24mm (wide), 1/1.7\", 1.8 μm, predictive Dual Pixel PDAF, 5-axis OIS, 12.2 MP (Sony Exmor RS IMX663), f/2.3-2.8, 70-105mm (telephoto), 1/2.9\", predictive Dual Pixel PDAF, 3x/4.4x optical zoom, 5-axis OIS, 12.2 MP (Sony Exmor RS IMX363), f/2.2, 16mm (ultra-wide), 1/2.6\", predictive Dual Pixel PDAF, Zeiss optics, HDR, eye tracking, 4K@24/25/30/60/120fps, 1080p@30/60/120/240fps",
+      "Front camera": "8 MP (Samsung ISOCELL S5K4H7), f/2.0, 24mm (wide), 1/4\", 1.0 μm, HDR, 1080p@30fps (5-axis gyro-EIS)"
+    },
+    "Sound": {
+      "Sound": "Front Stereo speakers, 3.5 mm audio jack, 360 Reality Audio hardware decoding, LDAC"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 4500 mAh, USB PD 3.1 30W Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/ax (2.4/5GHz), Bluetooth 5.2, USB-C (supports DisplayPort), NFC, GPS with Assisted GPS, Galileo, GLONASS, BeiDou, Mobile FeliCa/Osaifu-Keitai (XQ-BQ42, SO-53B, SOG05 and A103SO models only)"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 888",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 12.2,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@24fps",
+    "front_mp": 8,
+    "battery_mah": 4500,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 168,
+    "thickness_mm": 8.2,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 5 III",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_5_III"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 5 III\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 5 III",
+    "revid": 1380180648
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

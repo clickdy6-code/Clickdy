@@ -1,0 +1,91 @@
+{
+  "slug": "zinwa-q25",
+  "brand": "Zinwa",
+  "name": "Q25",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Blackberry_Classic%2C_December_2025_%282%29.jpg/500px-Blackberry_Classic%2C_December_2025_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Blackberry_Classic%2C_December_2025_%282%29.jpg/250px-Blackberry_Classic%2C_December_2025_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Zinwa Q25",
+      "credit": "Szeremeta, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Blackberry_Classic,_December_2025_(2).jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025",
+      "Series": "Q-series",
+      "Predecessor": "BlackBerry Classic (hardware basis)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "131 mm H, 72.4 mm W, 10.2 mm D",
+      "Weight": "Approx. 178 g"
+    },
+    "Platform": {
+      "Chipset": "MediaTek Helio G99",
+      "CPU": "Octa-core",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR4x",
+      "Storage": "256 GB UFS 2.x",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "3.5 in 720×720 IPS LCD, 1:1 aspect ratio"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "3000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "4G LTE, Wi-Fi, Bluetooth, NFC, USB-C, 3.5 mm audio jack"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek Helio G99",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3000,
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 178,
+    "thickness_mm": 10.2,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Zinwa Q25",
+      "url": "https://en.wikipedia.org/wiki/Zinwa_Q25"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Zinwa Q25\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Zinwa Q25",
+    "revid": 1382255389
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

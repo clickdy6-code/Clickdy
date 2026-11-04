@@ -1,0 +1,86 @@
+{
+  "slug": "sony-ericsson-xperia-x10",
+  "brand": "Sony Ericsson",
+  "name": "Xperia X10",
+  "status": "published",
+  "announced": "2010-03-22",
+  "released": "2010-03-22",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nttdocomo-sonyericsson_so-01b_front.JPG/500px-Nttdocomo-sonyericsson_so-01b_front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nttdocomo-sonyericsson_so-01b_front.JPG/250px-Nttdocomo-sonyericsson_so-01b_front.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia X10",
+      "credit": "meisowave, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nttdocomo-sonyericsson_so-01b_front.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2010-03-22",
+      "Series": "Sony Ericsson Xperia",
+      "Predecessor": "Sony Ericsson Xperia X2",
+      "Successor": "Sony Ericsson Xperia arc"
+    },
+    "Network": {
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone (Black or White)",
+      "Dimensions": "119 x 63 x 13 mm",
+      "Weight": "135 g with battery"
+    },
+    "Platform": {
+      "Operating system": "Upgraded to Android 2.3.3 in end of July 2011, Android 2.1 (upgraded from Android 1.6)",
+      "CPU": "1 GHz Qualcomm Snapdragon QSD8250"
+    },
+    "Memory": {
+      "RAM": "384 MB",
+      "Storage": "1 GB NAND Flash in phone, up to 32 GB on microSDHC memory card",
+      "Card slot": "microSDHC (up to 32 GB supported)"
+    },
+    "Display": {
+      "Display": "4.0-inch touch screen, Hardware 16M Colors, 65,356-colour., (480 x 854 pixels) (245 dpi, 0.39 Megapixels) FWVGA TFT"
+    },
+    "Cameras": {
+      "Rear camera": "8.1 MP with Auto focus, Face recognition, Geo-tagging, Image and video stabilizer, Smile detection and Touch focus, Video WVGA (Android 1.6), 720p HD (Android 2.1)"
+    },
+    "Battery": {
+      "Battery": "Rechargeable and replaceable, Li-Po 1500 mAh (BST-41)."
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 with A2DP, microUSB 2.0, 3.5 mm audio jack, aGPS, Wi-Fi 802.11 b/g"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 8.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1500,
+    "os": "Android 2.3",
+    "nfc": false,
+    "weight_g": 135,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia X10",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_X10"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia X10\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia X10",
+    "revid": 1376399580
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

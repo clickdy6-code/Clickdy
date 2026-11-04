@@ -1,0 +1,95 @@
+{
+  "slug": "vivo-x90",
+  "brand": "Vivo",
+  "name": "X90",
+  "status": "published",
+  "announced": "2023-05-05",
+  "released": "2023-05-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-05-05",
+      "Series": "Vivo X series",
+      "Predecessor": "Vivo X80",
+      "Successor": "Vivo X100"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "X90: 165 mm H , 75.2 mm W , 8.3 mm D, X90 Pro: 164.1 mm H , 74.5 mm W , 9.3 mm D, X90 Pro+: 164.4 mm H , 75.3 mm W , 9.7 mm D",
+      "Weight": "X90: 206 g, X90 Pro: 214.9 g, X90 Pro+: 221 g"
+    },
+    "Platform": {
+      "Operating system": "OriginOS 3 (China), Funtouch OS 13, (based on Android 13)",
+      "Chipset": "X90/X90 Pro: MediaTek Dimensity 9200, X90 Pro+: Qualcomm Snapdragon 8 Gen 2 (4 nm)",
+      "CPU": "X90/X90 Pro: Octa-core (1x3.05 GHz Cortex-X2 & 3x2.85 GHz Cortex-A710 & 4x1.80 GHz Cortex-A660), X90 Pro+: Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "GPU": "X90/X90 Pro: ARM Mali-G715-Immortalis, X90 Pro+: Adreno 740"
+    },
+    "Memory": {
+      "RAM": "8 and 12 GB RAM LPDDR5X 8533 Mbps",
+      "Storage": "X90: 128, 256 and 512 GB, X90 Pro/X90 Pro+: 256 and 512 UFS 4.0 GB"
+    },
+    "Display": {
+      "Display": "6.78 in, 1260 x 2800 px resolution, 20:9 ratio (~453 ppi density), AMOLED, 1B colors, 120Hz, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "X90: 50 MP, f/1.8, (wide), 1/1.49\", 1.0µm, PDAF, Laser AF, OIS, 12 MP, f/2.0, 50mm (telephoto), 1/2.93\", 1.22µm, PDAF, 2x optical zoom, 12 MP, f/2.0, 16mm (ultrawide), 1/2.93\", 1.22µm, AF, 4K@30/60fps, 1080p@30/60fps, gyro-EIS, X90 Pro: 50.3 MP, f/1.8, 23mm (wide), 1.0\"-type, 1.6µm, Dual Pixel PDAF, Laser AF, OIS, 50 MP, f/1.6, 50mm (telephoto), 1/2.4\", 0.7µm, no AF, 2x optical zoom, OIS, 12 MP, f/2.0, 108˚ (ultrawide), AF, 8K, 4K@30/60fps, 1080p@30/60fps, gyro-EIS, X90 Pro+: 50.3 MP, f/1.8, 23mm (wide), 1.0\"-type, 1.6µm, Dual Pixel PDAF, Laser AF, OIS, 64 MP, f/3.5, 90mm (periscope telephoto), 1/2.0\", 0.7µm, PDAF, OIS, 3.5x optical zoom, 50 MP, f/1.6, 50mm (telephoto), 1/2.4\", 0.7µm, no AF,",
+      "Front camera": "32 MP, f/2.5, 24mm (wide), 1/2.8\", 0.8µm, 4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Li-Po 4810 mAh",
+      "Charging": "Fast charging 120W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, Bluetooth 5.3, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "X90/X90 Pro: MediaTek Dimensity 9200",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4810,
+    "wired_w": 120,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 206,
+    "thickness_mm": 8.3,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X90",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X90"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X90\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X90",
+    "revid": 1361537015
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

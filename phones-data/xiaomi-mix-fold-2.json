@@ -1,0 +1,106 @@
+{
+  "slug": "xiaomi-mix-fold-2",
+  "brand": "Xiaomi",
+  "name": "Mix Fold 2",
+  "status": "published",
+  "announced": "2022-08-11",
+  "released": "2022-08-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/The_state_of_the_back_side_of_the_Xiaomi_MIX_Fold_2_when_unfolded.jpg/500px-The_state_of_the_back_side_of_the_Xiaomi_MIX_Fold_2_when_unfolded.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/The_state_of_the_back_side_of_the_Xiaomi_MIX_Fold_2_when_unfolded.jpg/250px-The_state_of_the_back_side_of_the_Xiaomi_MIX_Fold_2_when_unfolded.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mix Fold 2",
+      "credit": "X-SHLIED, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_state_of_the_back_side_of_the_Xiaomi_MIX_Fold_2_when_unfolded.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2022-08-11",
+      "Series": "MIX Fold",
+      "Predecessor": "Xiaomi Mi MIX Fold",
+      "Successor": "Xiaomi MIX Fold 3"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "Unfolded: 161.1 mm H , 144.7 mm W , 5.4 mm D, Folded: 161.1 mm H , 73.9 mm W , 11.2 mm D",
+      "Weight": "262 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 12 with MIUI Fold 13 , Current: Android 15 with Xiaomi HyperOS 2",
+      "Chipset": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+      "CPU": "Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Adreno 730"
+    },
+    "Memory": {
+      "RAM": "12 GB RAM",
+      "Storage": "256, 512 GB or 1 TB UFS 3.1"
+    },
+    "Display": {
+      "Display": "8.02 in, 1914 x 2160 px resolution (~360 ppi density), Foldable LTPO2 OLED, 1B colours, 120Hz, HDR10+, Dolby Vision, 1000 nits (HBM), 1300 nits (peak), Schott UTG glass"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, PDAF, OIS, 8 MP, f/2.6, 45mm (telephoto), Dual Pixel PDAF, 2x optical zoom, 13 MP, f/2.4, 15mm, 123˚ (ultrawide), 1.12µm, Dual LED flash, HDR, panorama, Leica Camera, Leica lenses, 8K@24/30fps, 4K@30/60fps, 1080p@30/60/120/240/960fps, gyro-EIS",
+      "Front camera": "20 MP, 27mm (wide), 1/3.4\", 0.8µm, HDR, panorama, 1080p@30/60fps, 720p@120fps"
+    },
+    "Sound": {
+      "Sound": "Harman Kardon stereo speakers"
+    },
+    "Battery": {
+      "Battery": "4500 mAh",
+      "Charging": "Fast charging 67W, Power Delivery 3.0, Quick Charge 4+"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 8.02,
+    "display_type": "LTPO2 OLED",
+    "refresh_hz": 120,
+    "peak_nits": 1300,
+    "chipset": "Qualcomm Snapdragon 8+ Gen 1",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 20,
+    "battery_mah": 4500,
+    "wired_w": 67,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 262,
+    "thickness_mm": 5.4,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mix Fold 2",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mix_Fold_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mix Fold 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mix Fold 2",
+    "revid": 1361537628
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

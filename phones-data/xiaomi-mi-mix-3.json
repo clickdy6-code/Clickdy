@@ -1,0 +1,64 @@
+{
+  "slug": "xiaomi-mi-mix-3",
+  "brand": "Xiaomi",
+  "name": "Mi MIX 3",
+  "status": "published",
+  "announced": "2018-11-11",
+  "released": "2018-11-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-11-11",
+      "Series": "Mi MIX",
+      "Predecessor": "Xiaomi Mi MIX 2S",
+      "Successor": "Xiaomi MIX 4"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "157.9 x 74.7 x 8.5 mm",
+      "Weight": "218 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 \"Pie\" MIUI",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4x2.8 GHz & 4x1.7 GHz) Kryo",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "6, 8 or 10 LPDDR4x RAM",
+      "Storage": "128 or 256 GB"
+    },
+    "Display": {
+      "Display": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density) Super AMOLED"
+    },
+    "Battery": {
+      "Battery": "3200 mAh"
+    }
+  },
+  "key": {
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 845",
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 3200,
+    "os": "Android 9.0",
+    "weight_g": 218,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi MIX 3",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_MIX_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi MIX 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi MIX 3",
+    "revid": 1361537567
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

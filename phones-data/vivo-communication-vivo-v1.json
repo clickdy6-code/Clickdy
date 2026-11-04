@@ -1,0 +1,86 @@
+{
+  "slug": "vivo-communication-vivo-v1",
+  "brand": "Vivo Communication",
+  "name": "Vivo V1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2015",
+      "Series": "Vivo V1 Series",
+      "Successor": "Vivo V3"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE"
+    },
+    "Body": {
+      "Dimensions": "143.3x71x6.8 mm (5.64x2.80x0.27 in)",
+      "Weight": "153 g (5.4 oz)",
+      "Other": "Colors: White/Gold"
+    },
+    "Platform": {
+      "Operating system": "Funtouch OS 2.1 running on Android 5.0 (Lollipop)",
+      "Chipset": "Qualcomm Snapdragon 410 (28 nm)",
+      "CPU": "4x1.2 GHz Cortex A-53, L0: 4 + 4KB, L1: 16 + 16KB, L2: 2048 + 2048KB",
+      "GPU": "400MHz Adreno 306"
+    },
+    "Memory": {
+      "RAM": "2GB LPDDR3 Single-channel, 533MHz",
+      "Storage": "16GB (9.43 user available)",
+      "Card slot": "microSDXC (up to 128GB)"
+    },
+    "Display": {
+      "Display": "Size: 5.0 in, 68.9 cm^2 IPS LCD, Resolution: 720x1280, 294 ppi, Ratios: 16:9 aspect ratio, ~67.7% StB ratio"
+    },
+    "Cameras": {
+      "Rear camera": "Resolution: 12.98MP CMOS, 4160x3120 (4:3), Features: AutoFocus, LED flash, HDR, panorama, Video: 1080p, 30fps",
+      "Front camera": "5MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po, 2300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "WiFi 802.11 a/b/g/n, WiFi Direct, hotspot, Bluetooth: 4.0, A2DP, EDR, microUSB 2.0 USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 410",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 12.98,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "battery_mah": 2300,
+    "os": "Android 5.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 153,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo V1",
+      "url": "https://en.wikipedia.org/wiki/Vivo_V1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo V1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo V1",
+    "revid": 1361536888
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

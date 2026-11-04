@@ -1,0 +1,71 @@
+{
+  "slug": "xiaomi-mi-2a",
+  "brand": "Xiaomi",
+  "name": "Mi 2A",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Mi",
+      "Predecessor": "Xiaomi Mi 1 Youth",
+      "Successor": "Xiaomi Mi 4i"
+    },
+    "Network": {
+      "Technology": "GSM 850, 900, 1800, and 1900 MHz & WCDMA 850, 1900 and 2100MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "133 mm H , 66.5 mm W , 9.5 mm D"
+    },
+    "Platform": {
+      "Operating system": "MIUI v5 (Android 4.1 Jelly Bean)",
+      "CPU": "Qualcomm Snapdragon S4 MSM8960T (without LTE) Dual-Core Krait 300 @ 1.70GHz",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB"
+    },
+    "Display": {
+      "Display": "IPS Display 4.5inches @ 1280px x 720px (326 PPI) (Manufactured by Sharp Inc.)"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixels (backside-illuminated (BSI)), Records 1080p at 30fps and 720p at 90fps, Raw image output (with external Mi2raw app)",
+      "Front camera": "2 Megapixels, 1080p at 30fps"
+    },
+    "Battery": {
+      "Battery": "2030mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "IPS",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 2030,
+    "os": "Android 4.1",
+    "five_g": false,
+    "thickness_mm": 9.5
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 2A",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_2A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 2A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 2A",
+    "revid": 1369105137
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

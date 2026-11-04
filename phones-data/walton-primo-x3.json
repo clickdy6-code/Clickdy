@@ -1,0 +1,79 @@
+{
+  "slug": "walton-primo-x3",
+  "brand": "Walton",
+  "name": "Primo X3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2014",
+      "Series": "Primo"
+    },
+    "Network": {
+      "Technology": "2G, 3G"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "145.1 X 70.2 X 5.5 mm",
+      "Weight": "128.1 g"
+    },
+    "Platform": {
+      "Operating system": "Android v4.4.2 KitKat",
+      "CPU": "Octacore 1.7 GHz Processor"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "No"
+    },
+    "Display": {
+      "Display": "5 in"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "Li-Po 2450 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2450,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 128.1,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Walton Primo X3",
+      "url": "https://en.wikipedia.org/wiki/Walton_Primo_X3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Walton Primo X3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Walton Primo X3",
+    "revid": 1361537172
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "sony-xperia-5-ii",
+  "brand": "Sony",
+  "name": "Xperia 5 II",
+  "status": "published",
+  "announced": "2020-10-12",
+  "released": "2020-10-12",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Sony_Xperia_5_II.png/500px-Sony_Xperia_5_II.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Sony_Xperia_5_II.png/250px-Sony_Xperia_5_II.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia 5 II",
+      "credit": "X-SHLIED, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_5_II.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-10-12",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia 5 , Sony Xperia 10 Plus",
+      "Successor": "Sony Xperia 5 III"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G, WiMAX, WiMAX 2+ (SOG02 model only)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158 mm H, 68 mm W, 8 mm D",
+      "Weight": "163 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10, upgradable to Android 11 and Android 12",
+      "Chipset": "Qualcomm Snapdragon 865",
+      "CPU": "Octa-core (1x 2.84 GHz Gold Prime, 3x 2.42 GHz Gold, 4x 1.8 GHz Silver) Kryo 585",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8 GB LPDDR5 RAM",
+      "Storage": "Universal Flash Storage (UFS 3.0), 128 GB (XQ-AS52, XQ-AS62, SO-52A, SOG02 and A002SO models), 256 GB (XQ-AS42 and XQ-AS72 models)",
+      "Card slot": "microSD, expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "6.1 in 1080p 21:9 () HDR OLED CinemaWide™ display, 120 Hz refresh rate, ~449 pixel density, Gorilla Glass 6, HDR BT.2020, 8-bit color depth (16M colors)"
+    },
+    "Cameras": {
+      "Rear camera": "12.2 MP (Sony Exmor RS IMX557), f/1.7, 24mm (wide), 1/1.7\", 1.8 μm, predictive Dual Pixel PDAF, 5-axis OIS, 12.2 MP (Samsung ISOCELL S5K3T2), f/2.4, 70mm (telephoto), 1/3.4\", 1.0 μm, predictive Dual Pixel PDAF, 3x optical zoom, 5-axis OIS, 12.2 MP (Sony Exmor RS IMX363), f/2.2, 16mm (ultra-wide), 1/2.55\", predictive Dual Pixel PDAF, Zeiss optics, HDR, eye tracking, 4K@24/30/60/120fps, 1080p@30/60/120fps",
+      "Front camera": "8 MP (Samsung ISOCELL S5K4H7), f/2.0, 24mm (wide), 1/4\", 1.0 μm, HDR, 1080p@30fps (5-axis gyro-EIS)"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers (hybrid), 3.5 mm audio jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 4000 mAh, USB PD 3.0 21W Charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/ax (2.4/5GHz), Bluetooth 5.0, USB-C (supports DisplayPort), NFC, GPS with Assisted GPS, Galileo, GLONASS, BeiDou, Mobile FeliCa/Osaifu-Keitai (XQ-AS42, SO-52A, SOG02 and A002SO models only)"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 865",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 12.2,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@24fps",
+    "front_mp": 8,
+    "battery_mah": 4000,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 163,
+    "thickness_mm": 8,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 5 II",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_5_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 5 II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 5 II",
+    "revid": 1380181248
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

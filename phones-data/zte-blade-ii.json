@@ -1,0 +1,75 @@
+{
+  "slug": "zte-blade-ii",
+  "brand": "ZTE",
+  "name": "Blade II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-03",
+      "Series": "Blade",
+      "Predecessor": "ZTE Blade V880"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA",
+      "SIM": "Mini-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "115.1 mm H , 57.9 mm W , 10.9 mm D",
+      "Weight": "117.4 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich)",
+      "Chipset": "Qualcomm MSM7227A Snapdragon S1",
+      "CPU": "1.0 GHz Cortex-A5",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "512 MB",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "3.5 inches, Super AMOLED, 480 x 800 pixels (~267 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP, AF"
+    },
+    "Battery": {
+      "Battery": "Removable Li-Ion 1200 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm MSM7227A Snapdragon S1",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1200,
+    "os": "Android 2.3",
+    "five_g": false,
+    "weight_g": 117.4,
+    "thickness_mm": 10.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Blade II",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Blade_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Blade II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Blade II",
+    "revid": 1380031099
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

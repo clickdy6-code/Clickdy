@@ -1,0 +1,100 @@
+{
+  "slug": "tecno-camon-18",
+  "brand": "Tecno",
+  "name": "Camon 18",
+  "status": "published",
+  "announced": "2021-10-06",
+  "released": "2021-10-06",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Back_of_Tecno_Camon_18_Premier.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Back_of_Tecno_Camon_18_Premier.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Tecno Camon 18",
+      "credit": "Sharwan Kumar, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Back_of_Tecno_Camon_18_Premier.png",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-10-06",
+      "Series": "Camon 18",
+      "Predecessor": "Tecno Camon 17"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Camon 18 and Camon 18P:, 168.9 x 76.7 x 8.8 mm, Camon 18 Premier:, 163.8 x 75.9 x 8.2 mm"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with HiOS 8.0",
+      "Chipset": "Camon 18: MediaTek Helio G88, Camon 18P and Camon 18 Premier: MediaTek Helio G96",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55, Octa-core (2x2.05 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55",
+      "GPU": "Mali-G52 MC2, Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "Camon 18: 4 RAM, Camon 18P and Camon 18 Premier: 8 GB RAM",
+      "Storage": "Camon 18 and Camon 18P: 128 GB, Camon 18 Premier: 256 GB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "1080 x 2460, 1080 x 2400 1080p IPS LCD capacitive touchscreen, AMOLED display, Camon 18 and Camon 18P: 6.8 in (168.9 mm), (395 ppi), Camon 18 Premier: 6.7 in (163.8 mm), (393 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "Camon 18: 48 Pixel#Megapixel, MP, Aperture, f/1.8, (Wide-angle lens, wide), Autofocus#Phase detection, PDAF + 2MP, (macro) + 2MP, (depth), Camon 18P: 48 Pixel#Megapixel, MP, f/1.8, 26Focal length, mm, (wide), PDAF + 13MP, 45mm, (Telephoto lens, telephoto), PDAF, 1.7x optical zoom + 2MP, f/2.4 (depth), Camon 18 Premier: 64 Pixel#Megapixel, MP, f/1.6, 26Focal length, mm (wide), PDAF + 8MP, f/3.5, 135mm (periscope telephoto), PDAF, 5x optical zoom, 12 MP, (Ultra wide angle lens, ultrawide), (Image stabilization, gimbal OIS), All: Dual/Quad LED flash, HDR, panorama, 1080p@30fps, Video: 4K@30fps, 1080p@30fps, gyro-EIS",
+      "Front camera": "Camon 18: 16 MP, (Wide-angle lens, wide), Camon 18P: 16 MP, (Wide-angle lens, wide), Camon 18 Premier: 32 MP, (Wide-angle lens, wide), All: Dual-LED flash, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm Headphone jack"
+    },
+    "Battery": {
+      "Battery": "Camon 18 and Camon 18P: 5000 mAh, Camon 18 Premier: 4750 mAh",
+      "Charging": "18W, 33W"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi 802.11 b/g/n, USB 2.0, USB-C, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 6.8,
+    "display_type": "IPS LCD",
+    "chipset": "Camon 18: MediaTek Helio G88",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 2,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "1080p@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "wired_w": 33,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Camon 18",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Camon_18"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Camon 18\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Tecno Camon 18",
+    "revid": 1383366915
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

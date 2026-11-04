@@ -1,0 +1,85 @@
+{
+  "slug": "vivo-nex-dual-display",
+  "brand": "Vivo",
+  "name": "NEX Dual Display",
+  "status": "published",
+  "announced": "2018-12-11",
+  "released": "2018-12-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-12-11",
+      "Series": "NEX",
+      "Predecessor": "Vivo NEX",
+      "Successor": "Vivo NEX 3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, LTE (telecommunication), LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 157.2 mm , W: 75.3 mm , D: 8.1 mm",
+      "Weight": "199 g"
+    },
+    "Platform": {
+      "Operating system": "Android 9.0 \"Pie\", Funtouch OS 4.5",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4 × 2.7 GHz, 4 × 1.7 GHz) Kryo",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "10 GB RAM",
+      "Storage": "128 GB"
+    },
+    "Display": {
+      "Display": "main: 6.39 in FHD+, 2340 × 1080 (430 ppi), rear: 5.49 in FHD, 1920 × 1080, All: Super AMOLED"
+    },
+    "Cameras": {
+      "Rear camera": "triple 2 and 12 MP, and TOF camera, f/1.8 aperture, Dual pixel, HDR+ processing, FHD 1080p video (up to 30 FPS), 4K 2160p video (up to 30 FPS)"
+    },
+    "Battery": {
+      "Battery": "3500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM, LTE, LTE Advanced, HSDPA, CDMA"
+    }
+  },
+  "key": {
+    "display_in": 6.39,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      10
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "battery_mah": 3500,
+    "os": "Android 9.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 199,
+    "thickness_mm": 8.1,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo NEX Dual Display",
+      "url": "https://en.wikipedia.org/wiki/Vivo_NEX_Dual_Display"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo NEX Dual Display\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Vivo NEX Dual Display",
+    "revid": 1361536874
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

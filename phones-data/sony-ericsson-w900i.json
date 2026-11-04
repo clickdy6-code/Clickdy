@@ -1,0 +1,74 @@
+{
+  "slug": "sony-ericsson-w900i",
+  "brand": "Sony Ericsson",
+  "name": "W900i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/SE_W900_flickr.jpg/500px-SE_W900_flickr.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/SE_W900_flickr.jpg/250px-SE_W900_flickr.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W900i",
+      "credit": "Pål Berge, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SE_W900_flickr.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2005-12",
+      "Predecessor": "Sony Ericsson S700i (non-Walkman equivalent)",
+      "Successor": "Sony Ericsson W910i"
+    },
+    "Network": {
+      "Technology": "WCDMA (UMTS/3G), HSCSD, GPRS GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Swivel",
+      "Dimensions": "109х49х24 mm",
+      "Weight": "148 g"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson proprietary OS (A100)"
+    },
+    "Memory": {
+      "RAM": "470 MB internal, 1 Memory Stick Pro Duo slot, 64 MB Memory Stick Pro Duo included and up to 8 GB",
+      "Card slot": "Memory Stick PRO Duo"
+    },
+    "Display": {
+      "Display": "320×240 pixels (QCIF+), 262,144 (18-bit) Color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2 mega pixel"
+    },
+    "Battery": {
+      "Battery": "BST-33 , Li-Po 900 mAh"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      8
+    ],
+    "battery_mah": 900,
+    "five_g": false,
+    "weight_g": 148,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W900i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W900i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W900i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W900i",
+    "revid": 1381730895
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

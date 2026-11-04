@@ -1,0 +1,56 @@
+{
+  "slug": "siemens-ag-siemens-a40",
+  "brand": "Siemens AG",
+  "name": "Siemens A40",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Siemens_A40.JPG/500px-Siemens_A40.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Siemens_A40.JPG/250px-Siemens_A40.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Siemens AG Siemens A40",
+      "credit": "Ananas96, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_A40.JPG",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2001"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "118 x 46 x 27 mm",
+      "Weight": "4.3 oz"
+    },
+    "Platform": {
+      "Operating system": "Siemens Mobile"
+    },
+    "Display": {
+      "Display": "Alphanumeric, 2 x 16 chars , Dedicated icon-line"
+    },
+    "Battery": {
+      "Battery": "NiMH 600 mAh, removable"
+    }
+  },
+  "key": {
+    "battery_mah": 600,
+    "year": 2001
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens A40",
+      "url": "https://en.wikipedia.org/wiki/Siemens_A40"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens A40\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens A40",
+    "revid": 1372468625
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

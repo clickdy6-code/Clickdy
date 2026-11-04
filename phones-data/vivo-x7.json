@@ -1,0 +1,71 @@
+{
+  "slug": "vivo-x7",
+  "brand": "Vivo",
+  "name": "X7",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Vivo X series",
+      "Successor": "Vivo X9"
+    },
+    "Body": {
+      "Form factor": "Touchscreen Smartphone",
+      "Weight": "151 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1 (Lollipop)",
+      "CPU": "Octa-core (4x1.8 GHz Cortex-A72 & 4x1.4 GHz Cortex-A53)",
+      "GPU": "Adreno 510"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSD, up to 64 GB"
+    },
+    "Display": {
+      "Display": "5.2 in"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "16 MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 3000 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 3000,
+    "os": "Android 5.1",
+    "weight_g": 151
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X7",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X7",
+    "revid": 1361536999
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

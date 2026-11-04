@@ -1,0 +1,55 @@
+{
+  "slug": "siemens-c25",
+  "brand": "Siemens",
+  "name": "C25",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Siemens_C25-2487.jpg/500px-Siemens_C25-2487.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Siemens_C25-2487.jpg/250px-Siemens_C25-2487.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Siemens C25",
+      "credit": "Raimond Spekking, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_C25-2487.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM dual band"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "116 mm × 46 mm × 28 mm",
+      "Weight": "135 g (including battery)"
+    },
+    "Display": {
+      "Display": "3 × 12 alphanumeric chars"
+    },
+    "Battery": {
+      "Battery": "650 mAh NiMH"
+    }
+  },
+  "key": {
+    "battery_mah": 650,
+    "five_g": false,
+    "weight_g": 135,
+    "thickness_mm": 28
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens C25",
+      "url": "https://en.wikipedia.org/wiki/Siemens_C25"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens C25\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens C25",
+    "revid": 1361483907
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

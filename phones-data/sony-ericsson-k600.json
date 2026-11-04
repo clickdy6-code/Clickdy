@@ -1,0 +1,70 @@
+{
+  "slug": "sony-ericsson-k600",
+  "brand": "Sony",
+  "name": "Ericsson K600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Sony_Ericsson_K600i%2C_front%2C_switched_off.JPG/500px-Sony_Ericsson_K600i%2C_front%2C_switched_off.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Sony_Ericsson_K600i%2C_front%2C_switched_off.JPG/250px-Sony_Ericsson_K600i%2C_front%2C_switched_off.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson K600",
+      "credit": "BassBooster, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_K600i,_front,_switched_off.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2005 Q1",
+      "Series": "K"
+    },
+    "Network": {
+      "Technology": "UMTS 2100, GSM 900 / 1800 / 1900"
+    },
+    "Body": {
+      "Dimensions": "104.3×45×18.9 mm",
+      "Weight": "105g"
+    },
+    "Memory": {
+      "RAM": "33MB"
+    },
+    "Display": {
+      "Display": "1.8 inch, 176x220 pixels, 256,000 color TFT"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 megapixels",
+      "Front camera": "Videocall camera"
+    },
+    "Battery": {
+      "Battery": "900 mAh Li-ion bst-37"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, infrared port, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 105,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson K600",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_K600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson K600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson K600",
+    "revid": 1361483998
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

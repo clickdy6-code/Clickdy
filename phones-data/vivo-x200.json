@@ -1,0 +1,91 @@
+{
+  "slug": "vivo-x200",
+  "brand": "Vivo",
+  "name": "X200",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "X series",
+      "Predecessor": "Vivo X100",
+      "Successor": "Vivo X300"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "160.3 × 74.8 × 8 mm",
+      "Weight": "197 g / 202 g (varies by model)",
+      "Other": "IP68/IP69 dust and water resistance, In-display fingerprint scanner, Dual stereo speakers"
+    },
+    "Platform": {
+      "Operating system": "Android 15 (Funtouch OS 15 / OriginOS 5)",
+      "Chipset": "X200, X200 Pro, X200 Pro Mini, List of MediaTek systems on chips#Dimensity 9000 Series, MediaTek Dimensity 9400 (3 nm), X200 Ultra, List of Qualcomm Snapdragon systems on chips#Snapdragon 8 series, Qualcomm Snapdragon 8 Elite (3 nm), X200s, List of MediaTek systems on chips#Dimensity 9000 Series, MediaTek Dimensity 9400+ (3 nm)",
+      "CPU": "X200, X200 Pro, X200 Pro Mini, Octa-core (1× Cortex-X925 @ 3.63 GHz + 3× Cortex-X4 @ 3.3 GHz + 4× Cortex-A720 @ 2.4 GHz), X200 Ultra, Octa-core (2x 4.32 GHz Oryon Prime cores+ 6x 3.53 GHz Performance cores), X200s, Octa-core (1× Cortex-X925 @ 3.73 GHz + 3× Cortex-X4 @ 3.3 GHz + 4× Cortex-A720 @ 2.4 GHz)",
+      "GPU": "X200, X200 Pro, X200 Pro Mini, X200s, Immortalis-G925, Vivo X200 Ultra, Adreno 830"
+    },
+    "Memory": {
+      "RAM": "12 GB / 16 GB LPDDR5X RAM",
+      "Storage": "256 GB / 512 GB / 1 TB (UFS 4.0)",
+      "Card slot": "No expandable storage"
+    },
+    "Display": {
+      "Display": "6.67-inch AMOLED, 1260 x 2800 pixels (460 ppi), 120Hz refresh rate, 4500 nits peak brightness, HDR10+ support, Schott Xensation Alpha glass"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP (f/1.6, PDAF, OIS) (wide), 50 MP (f/2.6, PDAF, OIS) (periscope telephoto, 3x optical zoom), 50 MP (f/2.0, ultra-wide, 119° field of view, AF)",
+      "Front camera": "32 MP (f/2.0, ultrawide)"
+    },
+    "Battery": {
+      "Battery": "X200, - 5800 mAh (Global), - 5220 mAh (Austria), X200 Pro, - 6000 mAh (Global), - 5200 mAh (Austria, Hungary), X200 Pro Mini, - 5700 mAh (China), X200 Ultra, - 6000 mAh (China), X200s, - 6200 mAh (China)",
+      "Charging": "90W wired fast charging, - Reverse wired charging"
+    },
+    "Connectivity": {
+      "Connectivity": "5G, Wi-Fi 7, Bluetooth 5.4, NFC, USB-C (OTG), Infrared port"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 4500,
+    "chipset": "X200",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "front_mp": 32,
+    "battery_mah": 5800,
+    "wired_w": 90,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "ip": "IP68",
+    "weight_g": 197
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X200",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X200"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X200\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X200",
+    "revid": 1382473377
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

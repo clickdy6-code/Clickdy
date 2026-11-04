@@ -1,0 +1,90 @@
+{
+  "slug": "xiaomi-mi-4s",
+  "brand": "Xiaomi",
+  "name": "Mi 4S",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Mi",
+      "Successor": "Xiaomi Mi 5s"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)",
+      "SIM": "Dual SIM (Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "139.26 × 70.76 × 7.8 mm",
+      "Weight": "133 g",
+      "Other": "Fingerprint sensor (rear-mounted), Proximity sensor, ambient light sensor, accelerometer, gyroscope, compass, notification LED, Hall effect sensor"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 5.1.1 Lollipop + MIUI 7, Current: Android 7.0 Nougat + MIUI 10",
+      "Chipset": "Qualcomm Snapdragon 808 (20 nm)",
+      "CPU": "Hexa-core (4×1.4 GHz Cortex-A53 & 2×1.8 GHz Cortex-A57)",
+      "GPU": "Adreno 418"
+    },
+    "Memory": {
+      "RAM": "2/3 GB LPDDR3",
+      "Storage": "16/64 GB eMMC 5.0"
+    },
+    "Display": {
+      "Display": "IPS LCD, 5\", 1920 × 1080 (FHD), 16:9, 441 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP Sony IMX258, 24 mm (wide), 1/3\", 1.12 µm, PDAF, Dual-LED flash, HDR, panorama, Video: 1080p@30fps, 720p@30fps",
+      "Front camera": "5 MP, 85° (wide), Video: 1080p@30fps, 720p@30fps"
+    },
+    "Sound": {
+      "Sound": "Mono"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 3260 mAh, 18W fast charging, Quick Charge 2.0"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, 3.5 mm jack, Bluetooth 4.1 (A2DP), IrDA, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct), GPS (A-GPS), GLONASS, BeiDou"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 808",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 5,
+    "battery_mah": 3260,
+    "os": "Android 5.1",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 133
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 4S",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_4S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 4S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 4S",
+    "revid": 1379692136
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

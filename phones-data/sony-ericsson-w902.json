@@ -1,0 +1,59 @@
+{
+  "slug": "sony-ericsson-w902",
+  "brand": "Sony Ericsson",
+  "name": "W902",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "GSM 850, GSM 900, GSM 1800, GSM 1900, EDGE, UMTS 2100, HSDPA"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "49.0 × 110.0 × 11.7 mm, (1.9 × 4.3 × 0.5 inches)",
+      "Weight": "99.8 gr"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson OS"
+    },
+    "Memory": {
+      "RAM": "Phone memory 25 MB, Memory Stick Micro (M2) support (up to 16 GB)",
+      "Card slot": "Memory Stick M2"
+    },
+    "Display": {
+      "Display": "2.2 inches (240x320 pixels), 262.144 color TFT"
+    },
+    "Cameras": {
+      "Rear camera": "5 mega pixel and QVGA@30fps Video Recording"
+    },
+    "Battery": {
+      "Battery": "Li-Po 900 mAh"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "ram_gb": [
+      16
+    ],
+    "battery_mah": 900,
+    "five_g": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W902",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W902"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W902\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W902",
+    "revid": 1361535720
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

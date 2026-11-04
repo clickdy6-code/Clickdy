@@ -1,0 +1,66 @@
+{
+  "slug": "sony-ericsson-w800",
+  "brand": "Sony Ericsson",
+  "name": "W800",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Sony_Ericsson_W800_%28Smooth_White%29%2C_front_and_back.jpg/500px-Sony_Ericsson_W800_%28Smooth_White%29%2C_front_and_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Sony_Ericsson_W800_%28Smooth_White%29%2C_front_and_back.jpg/250px-Sony_Ericsson_W800_%28Smooth_White%29%2C_front_and_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W800",
+      "credit": "Magnus Bäck, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W800_(Smooth_White),_front_and_back.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2005-08",
+      "Successor": "Sony Ericsson W810"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "100 x 46 x 20.5 mm (3.9 x 1.8 x 0.8 inches)",
+      "Weight": "99 g"
+    },
+    "Memory": {
+      "RAM": "34 MB Internal, 1 Memory Stick Pro Duo slot, 512 MB Memory Stick Pro Duo included, with support for Max 2 GB Memory Stick Duos"
+    },
+    "Display": {
+      "Display": "176x220 pixels (QCIF+), 262,144 (18-bit) color TFT LCD"
+    },
+    "Connectivity": {
+      "Connectivity": "gprs, HSCSD, Bluetooth, IrDA, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W800",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W800"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W800\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W800",
+    "revid": 1367026634
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

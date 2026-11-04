@@ -1,0 +1,97 @@
+{
+  "slug": "bbk-vivo-nex",
+  "brand": "BBK",
+  "name": "Vivo NEX",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Vivo_nex.jpg/500px-Vivo_nex.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Vivo_nex.jpg/250px-Vivo_nex.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "BBK Vivo NEX",
+      "credit": "Martinsson Serg, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vivo_nex.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2018 (Shanghai only, limited units)",
+      "Series": "NEX",
+      "Successor": "Vivo NEX Dual Display"
+    },
+    "Network": {
+      "Technology": "2G, 3G, LTE"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "162 x 77 x 8 mm",
+      "Weight": "199 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1 \"Oreo\" with Funtouch OS 4 , Current: Android 10 with Funtouch OS 10",
+      "Chipset": "Qualcomm Snapdragon 845",
+      "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "RAM": "8 GB",
+      "Storage": "128/256 GB"
+    },
+    "Display": {
+      "Display": "2316×1080 1080p Super AMOLED capacitive touchscreen with 86% screen to body ratio, 6.59 in, 388 ppi, Aspect ratio:"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 12 MP (f/1.8, 1/2.55\", 1.4μm, PDAF, OIS) + 5 MP (f/2.4), phase detection autofocus, dual-LED dual-tone flash, HDR, panorama, 4K at 30 fps, 1080p at 30 fps",
+      "Front camera": "8 (f/2.0), 1080p at 30 fps"
+    },
+    "Sound": {
+      "Sound": "Vibration; MP3, WAV ringtones"
+    },
+    "Battery": {
+      "Battery": "4,000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, Bluetooth 5.0, USB-C 2.0, location (GPS, Galileo, GLONASS, BeiDou)"
+    }
+  },
+  "key": {
+    "display_in": 6.59,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 845",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "battery_mah": 4000,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 199,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo NEX",
+      "url": "https://en.wikipedia.org/wiki/Vivo_NEX"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo NEX\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo NEX",
+    "revid": 1361536868
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "zte-axon-7",
+  "brand": "ZTE",
+  "name": "Axon 7",
+  "status": "published",
+  "announced": "2016-05-25",
+  "released": "2016-05-25",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/ZTE_Axon_7.jpg/500px-ZTE_Axon_7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/ZTE_Axon_7.jpg/250px-ZTE_Axon_7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "ZTE Axon 7",
+      "credit": "Gentlesea, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ZTE_Axon_7.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 25, 2016",
+      "Series": "Axon",
+      "Predecessor": "ZTE Axon",
+      "Successor": "ZTE Axon 9 Pro"
+    },
+    "Network": {
+      "Technology": "GSM: 850/900/1800/1900 MHz, HSDPA: 850/900/1900/2100 MHz, LTE: 800/850/900/1800/2100/2600 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "151.7 x 75 x 7.9 mm",
+      "Weight": "175 g",
+      "Other": "accelerometer, gyroscope, proximity sensor, Dolby Atmos Surround Sound, Fingerprint 3.0"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0 with MiFavor 4.0 UI",
+      "Chipset": "Qualcomm Snapdragon 820",
+      "CPU": "Quad-core (2x 2.15 GHz Kryo & 2x 1.6 GHz Kryo)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4/6 GB RAM",
+      "Storage": "64/128 GB"
+    },
+    "Display": {
+      "Display": "5.5\" (1440 x 2560), AMOLED, 16:9, 538 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "20 MP, PDAF + instant autofocus, OIS, f/1.8",
+      "Front camera": "8 MP, f/2.2, facial beauty enhancement system"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 3250 mAh",
+      "Charging": "USB Type-C 3.0; Quick Charge 3.0 support, up to 18W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 a/b/g/n/ac), Bluetooth 4.0 (A2DP, EDR, LE), DLNA, NFC, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "AMOLED",
+    "chipset": "Qualcomm Snapdragon 820",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 20,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 3250,
+    "wired_w": 18,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 175,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Axon 7",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Axon_7"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Axon 7\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Axon 7",
+    "revid": 1361537704
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

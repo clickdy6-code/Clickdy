@@ -1,0 +1,78 @@
+{
+  "slug": "sony-xperia-sola",
+  "brand": "Sony",
+  "name": "Xperia Sola",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-05",
+      "Series": "Sony Xperia",
+      "Successor": "Sony Xperia SP"
+    },
+    "Network": {
+      "Technology": "GSM GPRS/EDGE 850 / 900 / 1800 / 1900 , W-CDMA Band I, II, V, dan VIII"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "116 mm H , 59 mm W , 9.9 mm D",
+      "Weight": "107 g",
+      "Other": "PlayStation Suite, Sony Entertainment Network (specifically, \"Music Unlimited\" and \"Video Unlimited\")"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3 (Gingerbread), Upgradeable to Android 4.0.4 (Ice Cream Sandwich), Unofficial upgrade to Android 4.1.2 (Jelly Bean) via XDA",
+      "Chipset": "NovaThor U8500",
+      "CPU": "Dual-core 1 GHz Cortex-A9",
+      "GPU": "Mali-400"
+    },
+    "Memory": {
+      "RAM": "8 GB (5 GB user available), 512 MB RAM",
+      "Card slot": "microSD, up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.7 in LED-backlit LCD, 480 x 854 Resolution (~265 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixel, 2592х1944 pixels, Autofocus, LED flash"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1320 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "micro-USB, 3.5mm Audio Jack, Bluetooth 2.1, Wi-Fi 802.11 b/g/n, aGPS, GLONASS, NFC, DLNA"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "LCD",
+    "chipset": "NovaThor U8500",
+    "ram_gb": [
+      5,
+      8
+    ],
+    "battery_mah": 1320,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 107,
+    "thickness_mm": 9.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia Sola",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_Sola"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia Sola\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia Sola",
+    "revid": 1363113507
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

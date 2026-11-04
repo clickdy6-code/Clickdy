@@ -1,0 +1,78 @@
+{
+  "slug": "sony-ericsson-xperia-pro",
+  "brand": "Sony Ericsson",
+  "name": "Xperia Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/XperiaPro.jpg/500px-XperiaPro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/XperiaPro.jpg/250px-XperiaPro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia Pro",
+      "credit": "Simon A. Eugster, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:XperiaPro.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Ericsson Xperia"
+    },
+    "Body": {
+      "Form factor": "Slider smartphone (black, silver, red)",
+      "Dimensions": "120×57×13.5mm",
+      "Weight": "142g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3 (upgradable to Android 4.0.4)",
+      "CPU": "Qualcomm MSM 8255 1GHz Scorpion (Snapdragon)"
+    },
+    "Memory": {
+      "Storage": "(External) With Android 2.3 up to 32GB with Android 4.04 up to 256GB on microSD memory card, (Internal) 1GB; 320 MB user available, 512MB RAM"
+    },
+    "Display": {
+      "Display": "3.7-inch 854×480 px FWVGA \"Reality Display\" TFT LCD at 265 PPI with Mobile BRAVIA Engine, 16M Colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.1MP (3,264×2,448), Exmor R CMOS Sensor, Auto Focus, Continuous Focus, Face recognition, Geo-tagging, Image and video stabilizer, Smile detection, Touch focus, Video 720p HD (Android 2.3)",
+      "Front camera": "VGA Camera"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1.5Ah"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth with A2DP, microUSB 2.0 (host), 3.5mm audio jack, aGPS, Wi-Fi 802.11 b/g/n , HDMI"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "storage_gb": [
+      32,
+      256
+    ],
+    "main_mp": 8.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "os": "Android 2.3",
+    "nfc": false,
+    "weight_g": 142
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia Pro",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia Pro",
+    "revid": 1363114577
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

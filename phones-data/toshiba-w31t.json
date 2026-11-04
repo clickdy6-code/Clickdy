@@ -1,0 +1,78 @@
+{
+  "slug": "toshiba-w31t",
+  "brand": "Toshiba",
+  "name": "W31T",
+  "status": "published",
+  "announced": "2005-06-30",
+  "released": "2005-06-30",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Au_CDMA1X_WIN_W31T_Blue_quartz_open.jpg/500px-Au_CDMA1X_WIN_W31T_Blue_quartz_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Au_CDMA1X_WIN_W31T_Blue_quartz_open.jpg/250px-Au_CDMA1X_WIN_W31T_Blue_quartz_open.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Toshiba W31T",
+      "credit": "Qurren, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Au_CDMA1X_WIN_W31T_Blue_quartz_open.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2005-06-30",
+      "Discontinued": "2005-12",
+      "Predecessor": "W21T",
+      "Successor": "W32T"
+    },
+    "Network": {
+      "Technology": "CDMA2000 1xRTT (CDMA 1X WIN)"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "103 mm H , 50 mm W , 20 mm D",
+      "Weight": "116 g"
+    },
+    "Platform": {
+      "Operating system": "REX OS + KCP",
+      "CPU": "Qualcomm MSM6550 @ 225 MHz",
+      "GPU": "Toshiba MOBILE TURBO T4G (TC35285)"
+    },
+    "Memory": {
+      "Storage": "16 MB (5 MB dedicated to BREW)",
+      "Card slot": "miniSD (up to 256 MB)"
+    },
+    "Display": {
+      "Display": "Main: 2.4 in (61 mm) Polysilicon TFT LCD, 240×320 pixels (QVGA), 262,144 colors, Sub: 1.1 in (28 mm) TFCC LCD, 112×112 pixels, 65,536 colors"
+    },
+    "Cameras": {
+      "Rear camera": "2.36 MP CCD"
+    },
+    "Battery": {
+      "Charging": "120 minutes"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "main_mp": 2.36,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "weight_g": 116,
+    "thickness_mm": 20,
+    "year": 2005
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Toshiba W31T",
+      "url": "https://en.wikipedia.org/wiki/Toshiba_W31T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Toshiba W31T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Toshiba W31T",
+    "revid": 1369707593
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

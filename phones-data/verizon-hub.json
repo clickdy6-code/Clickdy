@@ -1,0 +1,58 @@
+{
+  "slug": "verizon-hub",
+  "brand": "Verizon",
+  "name": "Hub",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Discontinued": "September 29th, 2009"
+    },
+    "Network": {
+      "Technology": "VoIP"
+    },
+    "Body": {
+      "Form factor": "media phone",
+      "Dimensions": "9\" x 12\" x 0.5\"",
+      "Weight": "1.5 lbs."
+    },
+    "Platform": {
+      "CPU": "500 MHz FreeScale iMX.31 & BlackFin BF537 DSP"
+    },
+    "Memory": {
+      "RAM": "128MB RAM",
+      "Storage": "64GB NAND flash (formatted with YAFFS2)"
+    },
+    "Display": {
+      "Display": "7\" WVGA LCD screen (800 x 480 pixels) at 16-bit color with alpha blending."
+    },
+    "Connectivity": {
+      "Connectivity": "(1) 10 / 100 Ethernet Port, (1) 802.11b / g wireless client interface, 802.1x connectivity support for WEP, WPA, WPA2 and QoS, DECT 6.0"
+    }
+  },
+  "key": {
+    "display_in": 7.0,
+    "display_type": "LCD",
+    "storage_gb": [
+      64
+    ],
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Verizon Hub",
+      "url": "https://en.wikipedia.org/wiki/Verizon_Hub"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Verizon Hub\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Verizon Hub",
+    "revid": 1361536846
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

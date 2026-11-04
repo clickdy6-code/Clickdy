@@ -1,0 +1,86 @@
+{
+  "slug": "sony-xperia-r1",
+  "brand": "Sony",
+  "name": "Xperia R1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Xperia",
+      "Predecessor": "Sony Xperia XA",
+      "Successor": "Sony Xperia XA2"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "146 mm H, 73.4 mm W, 8.9 mm D",
+      "Weight": "154 grams"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 7.1 Nougat, Current: Android 8.0 Oreo",
+      "CPU": "Qualcomm Snapdragon 430, MSM8937, 8 cores (8×1.5 GHz Cortex-A53)",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "2 GB, R1 Plus, 3 GB",
+      "Storage": "eMMC 5.1, 16 GB, R1 Plus, 32 GB",
+      "Card slot": "microSDXC"
+    },
+    "Display": {
+      "Display": "TFT LCD 5.2\" (130 mm), 1280 x 720p, (720p), 16:9, 282 ppi, External screen: absent"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, predictive PDAF, LED flash, Video: 1080p@30fps",
+      "Front camera": "13 MP, 1/4\", predictive PDAF, LED flash, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 2620 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, Bluetooth 4.2, A2DP, aptX, GPS with A-GPS, GLONASS, USB-C, NFC"
+    }
+  },
+  "key": {
+    "display_in": 5.2,
+    "display_type": "TFT",
+    "ram_gb": [
+      2,
+      3
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 13,
+    "battery_mah": 2620,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "thickness_mm": 8.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia R1",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_R1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia R1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia R1",
+    "revid": 1361536159
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

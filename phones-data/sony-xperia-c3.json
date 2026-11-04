@@ -1,0 +1,82 @@
+{
+  "slug": "sony-xperia-c3",
+  "brand": "Sony",
+  "name": "Xperia C3",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia C",
+      "Successor": "Sony Xperia C4"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "156.2 x 78.7 x 7.6 mm",
+      "Weight": "150 g",
+      "Other": "Available in black, white and mint, Sony Exmor RS for Mobile, SteadyShot, Smile shutter, Wi-Fi Miracast, FM radio"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2 \"KitKat\", upgradeable to Android 5.1 \"Lollipop\"",
+      "Chipset": "Qualcomm Snapdragon MSM8926 400",
+      "CPU": "1.2 GHz quad-core Krait (1.2 GHz Qualcomm MSM8926 Quad Core)",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB",
+      "Card slot": "Up to 32 GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.5 in diagonal IPS LCD, HD 1280x720 px (267 ppi), TRILUMINOS™ display"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP EXMOR R with autofocus and LED flash",
+      "Front camera": "5 MP PROselfie camera with LED Flash (720p video recording)"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 2500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS, NFC, Bluetooth 4.0, USB 2.0 (Micro-B port, USB charging), USB OTG, 3.50 mm headphone jack, 5 pole"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon MSM8926 400",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 2500,
+    "os": "Android 4.4",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 150
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia C3",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_C3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia C3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia C3",
+    "revid": 1361536027
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

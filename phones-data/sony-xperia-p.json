@@ -1,0 +1,84 @@
+{
+  "slug": "sony-xperia-p",
+  "brand": "Sony",
+  "name": "Xperia P",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Sony_Xperia_P_%28Black%29_-_Front.jpg/500px-Sony_Xperia_P_%28Black%29_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Sony_Xperia_P_%28Black%29_-_Front.jpg/250px-Sony_Xperia_P_%28Black%29_-_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia P",
+      "credit": "Beamish4, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_P_(Black)_-_Front.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Xperia",
+      "Successor": "Sony Xperia SP"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "122.0 x 59.5 x 10.5 mm",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.7 \"Gingerbread\" upgradable to Android 4.1.2 (Jelly Bean)",
+      "CPU": "1 GHz dual-core STE NovaThor U8500",
+      "GPU": "Mali 400 (Single Core)"
+    },
+    "Memory": {
+      "RAM": "1GB RAM",
+      "Storage": "16 GB (11.2 GB Available)"
+    },
+    "Display": {
+      "Display": "4-inch, qHD (960x540 pixels) (275 ppi), 16M colour TFT, qHD display with White Magic and Bravia (brand), Bravia Engine"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, Auto-focus, LED flash, 3D Sweep Panorama, face and smile detection and geo-tagging, FullHD 1080p video recording at 30 FPS",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Non-replaceable Li-ion 1305 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1+EDR and A2DP, Wi-Fi 802.11 b/g/n, USB 2.0, NFC"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "battery_mah": 1305,
+    "os": "Android 2.3",
+    "nfc": true,
+    "weight_g": 120
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia P",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_P"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia P\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia P",
+    "revid": 1368461914
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

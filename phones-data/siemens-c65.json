@@ -1,0 +1,77 @@
+{
+  "slug": "siemens-c65",
+  "brand": "Siemens",
+  "name": "C65",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Siemens_C65.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Siemens_C65.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Siemens C65",
+      "credit": "Mc fps, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_C65.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Siemens C60 , Siemens C62",
+      "Successor": "Siemens C75"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 (C65), GSM 850/1800/1900 (C66)"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "100 mm × 45 mm × 16 mm",
+      "Weight": "86 g (including battery)"
+    },
+    "Platform": {
+      "Operating system": "Siemens properties X60 platform"
+    },
+    "Memory": {
+      "RAM": "10MB"
+    },
+    "Display": {
+      "Display": "130x130 px, CSTN, 65K colors"
+    },
+    "Cameras": {
+      "Rear camera": "Common Intermediate Format 0.1 Mpix",
+      "Front camera": "-"
+    },
+    "Battery": {
+      "Battery": "600 mAh Li-Ion"
+    },
+    "Connectivity": {
+      "Connectivity": "IrDA, USB, CSD, GPRS"
+    }
+  },
+  "key": {
+    "main_mp": 0.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 600,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 86,
+    "thickness_mm": 16
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens C65",
+      "url": "https://en.wikipedia.org/wiki/Siemens_C65"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens C65\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens C65",
+    "revid": 1370373555
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

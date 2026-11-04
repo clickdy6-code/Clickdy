@@ -1,0 +1,87 @@
+{
+  "slug": "xiaomi-mi-note-3",
+  "brand": "Xiaomi",
+  "name": "Mi Note 3",
+  "status": "published",
+  "announced": "2017-09-11",
+  "released": "2017-09-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-09-11",
+      "Series": "Mi Note",
+      "Predecessor": "Xiaomi Mi Note 2",
+      "Successor": "Xiaomi Mi Note 10"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Monoblock",
+      "Dimensions": "152.6 × 74 × 7.6 mm",
+      "Weight": "163 g",
+      "Other": "Fingerprint scanner (embedded in the home button), proximity sensor, accelerometer, gyroscope, compass, Hall sensor, barometer"
+    },
+    "Platform": {
+      "Operating system": "Initial:, Chinese: Android 7.1.2 Nougat + MIUI 8, Global: Android 7.1.2 Nougat + MIUI 9, Current: Android 9 Pie + MIUI 12",
+      "CPU": "Qualcomm SDM660 Snapdragon 660, 8 cores (4×2.2 GHz Kryo 260 Gold & 4×1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "RAM": "6 GB, LPDDR4X",
+      "Storage": "64/128 GB eMMC 5.1"
+    },
+    "Display": {
+      "Display": "6.71 in, px resolution (~268 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "12 Mp Sony IMX386, f/1.8, 27 mm (wide-angle), 1.23 μm, PDAF, ISO 100 - 3200 + 12 Mp Samsung S5K3M3, f/2.6, 52 mm (telephoto), 1/3.4\", 1.0 μm, 2x optical zoom, 2-LED flash, panorama, HDR, Video: 4K@30fps, 1080p@30fps, 720p@30fps, 720p120fps",
+      "Front camera": "16 Mp Samsung S5K3P3, f/2.0, 26 mm (wide-angle), 1.00 μm, AF, Video: 1080p@ 30fps, 720p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Ion 3500 mAh",
+      "Charging": "Fast charging at 18 W, Quick Charge 3.0"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.0 (A2DP, LE), NFC, IR port, Wi-Fi 802.11 a/b/g/n/ac (dual-band, Wi-Fi Direct, hotspot), GPS, A -GPS, GLONASS, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.71,
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3500,
+    "wired_w": 18,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 163,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi Note 3",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_Note_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi Note 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi Note 3",
+    "revid": 1361538220
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "vivo-y29",
+  "brand": "Vivo",
+  "name": "Y29",
+  "status": "published",
+  "announced": "2025-02-24",
+  "released": "2025-02-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-02-24",
+      "Series": "Y series"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE (4G)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "165.7 x",
+      "Weight": "204 g",
+      "Other": "MIL-STD-810H compliant + SCHOTT drop resistance with 64% increase, LED ring \"Dynamic Light\""
+    },
+    "Platform": {
+      "Operating system": "Android 15, upgradable to Android 16 with Funtouch 16 , Current: Android 16 with OriginOS 6",
+      "Chipset": "Qualcomm SM6225 Snapdragon 685 (6 nm)",
+      "CPU": "Octa-core (4x2.8 GHz Cortex-A73 & 4x1.9 GHz Cortex-A53)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "6 GB or 8 GB RAM",
+      "Storage": "128 GB or 256 GB eMMC 5.1",
+      "Card slot": "microSDXC (uses shared SIM slot)"
+    },
+    "Display": {
+      "Display": "IPS LCD, 120Hz, 1000 nits (HBM), 6.68 inches (~84.9% screen-to-body ratio), 720 x 1608 pixels, 20:9 ratio (~264 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 50 MP, f/1.8, (wide), PDAF + auxiliary lens, 2 MP depth sensor, f/2.4, panorama, Video: 1080p@30fps",
+      "Front camera": "8 MP, f/2.0, (wide), Video: 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 24-bit/192kHz Hi-Res audio (no 3.5mm jack)"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 6500 mAh (non-removable)",
+      "Charging": "44W wired (50% in 41 min, 100% in 92 min), reverse wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Bluetooth 5.0, A2DP, LE, GPS, GLONASS, GALILEO, BDS, QZSS, NFC (market/region dependent), Infrared port, USB Type-C 2.0, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.68,
+    "display_type": "IPS LCD",
+    "refresh_hz": 120,
+    "peak_nits": 1000,
+    "chipset": "Qualcomm SM6225 Snapdragon 685",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 6500,
+    "wired_w": 44,
+    "os": "Android 15",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 204,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y29",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y29\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y29",
+    "revid": 1361537060
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

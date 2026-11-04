@@ -1,0 +1,75 @@
+{
+  "slug": "sony-ericsson-xperia-x8",
+  "brand": "Sony Ericsson",
+  "name": "Xperia X8",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Sony_Ericsson_Xperia_X8.png/500px-Sony_Ericsson_Xperia_X8.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Sony_Ericsson_Xperia_X8.png/250px-Sony_Ericsson_Xperia_X8.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia X8",
+      "credit": "Lemonix1004, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X8.png",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Ericsson Xperia"
+    },
+    "Network": {
+      "Technology": "GSM 850,900 1800 1900 MHz , UMTS 900 2100 MHz, UMTS 850 1900 2100 MHz (North America)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "99 mm H , 54 mm W , 15 mm D",
+      "Weight": "104 g with battery"
+    },
+    "Platform": {
+      "Operating system": "Android 1.6 \"Donut\", upgradable to Android 2.1 \"Eclair\", Unofficial upgrades to Android 4.4 \"KitKat\" via CyanogenMod",
+      "CPU": "600 MHz ARMv6 processor, Qualcomm MSM7227 chipset",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "175 MB",
+      "Storage": "128 MB",
+      "Card slot": "microSDHC, up to 16 GB"
+    },
+    "Display": {
+      "Display": "3.0 in capacitive touchscreen, 16 M colors, 320×480 pixels, TFT LCD"
+    },
+    "Battery": {
+      "Battery": "1200 mAh Li-Polymer replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 with A2DP , microUSB 2.0 , 3.5 mm audio jack , aGPS , Stereo FM tuner with RDS , Wi-Fi b/g"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "battery_mah": 1200,
+    "os": "Android 1.6",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 104,
+    "thickness_mm": 15
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia X8",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_X8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia X8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia X8",
+    "revid": 1367361612
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

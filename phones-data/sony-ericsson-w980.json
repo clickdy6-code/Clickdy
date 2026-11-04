@@ -1,0 +1,74 @@
+{
+  "slug": "sony-ericsson-w980",
+  "brand": "Sony Ericsson",
+  "name": "W980",
+  "status": "published",
+  "announced": "2008-02-11",
+  "released": "2008-02-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/SonyEricssonW980-001.jpg/500px-SonyEricssonW980-001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/SonyEricssonW980-001.jpg/250px-SonyEricssonW980-001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W980",
+      "credit": "Ofsch, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SonyEricssonW980-001.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-02-11",
+      "Predecessor": "Sony Ericsson W960",
+      "Successor": "Sony Ericsson W995"
+    },
+    "Network": {
+      "Technology": "-GSM (850/900/1800/1900), -GPRS, -Quad band EDGE, -UMTS 2100, -HSDPA 2100"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "92 x 46 x 17 mm",
+      "Weight": "100 g"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson proprietary OS"
+    },
+    "Memory": {
+      "RAM": "8 GB internal"
+    },
+    "Display": {
+      "Display": "2.4\" 262,144 TFT LCD, 240x320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel"
+    },
+    "Connectivity": {
+      "Connectivity": "-Bluetooth (2.0), -USB (2.0 proprietary)"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "ram_gb": [
+      8
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 100,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W980",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W980"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W980\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W980",
+    "revid": 1361535746
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

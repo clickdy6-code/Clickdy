@@ -1,0 +1,95 @@
+{
+  "slug": "sony-xperia-z3-compact",
+  "brand": "Sony",
+  "name": "Xperia Z3 Compact",
+  "status": "published",
+  "announced": "2014-10-04",
+  "released": "2014-10-04",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Z3_Compact.jpg/500px-Z3_Compact.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Z3_Compact.jpg/250px-Z3_Compact.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia Z3 Compact",
+      "credit": "John Karakatsanis, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Z3_Compact.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-10-04 (Singapore), 2014-10-13 (United States), 2014-11-12 (Japan, SO-02G variant exclusively for NTT DoCoMo)",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia Z1 Compact (Global), Sony Xperia J1 Compact (Japan), Sony Xperia A2 (Japan), Sony Xperia ZL2/Z2A (Japan, Taiwan)",
+      "Successor": "Sony Xperia Z5 Compact (Global), Sony Xperia A4 (Japan)"
+    },
+    "Network": {
+      "Technology": "D5803: GSM, 3G, HSPA+, LTE, D5833: GSM, 3G, HSPA+, LTE, TD-LTE"
+    },
+    "Body": {
+      "Form factor": "Slate, Omni-Balance",
+      "Dimensions": "127.3 mm H , 64.9 mm W, 8.6 mm D",
+      "Weight": "129 g",
+      "Other": "Available in black, white, orange and green, IP65/IP68 (Dust protected, Water jet protected & Waterproof), Remote Play, Magnetic charging port, Osaifu-Keitai (SO-02G variant only), NOTTV (SO-02G variant only), POBox Plus (SO-02G variant only)"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.4 KitKat (launch), Android 6.0.1 Marshmallow (current), Android 10 (unofficial alternative)",
+      "Chipset": "Qualcomm Snapdragon 801",
+      "CPU": "2.5 GHz quad-core Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16 GB",
+      "Card slot": "Up to 128 GB microSDXC"
+    },
+    "Display": {
+      "Display": "4.6 in diagonal IPS LCD, 720x1280 px (319 PPI)"
+    },
+    "Cameras": {
+      "Rear camera": "Sony G Lens 20.7 MP 1/2.3\" Exmor RS IMX220S back-side illuminated sensor with BIONZ™ Engine for mobile image processor and LED flash, 2160p video recording @ 30 frames/s, 1080p video recording @ 30/60 frames/s, 720p video recording @ 30/120 frames/s",
+      "Front camera": "2.2 MP"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 2600 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.6,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 801",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 20.7,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 2.2,
+    "battery_mah": 2600,
+    "os": "Android 4.4",
+    "five_g": false,
+    "ip": "IP65",
+    "weight_g": 129,
+    "thickness_mm": 8.6,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia Z3 Compact",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_Z3_Compact"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia Z3 Compact\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia Z3 Compact",
+    "revid": 1361536415
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

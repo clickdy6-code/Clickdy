@@ -1,0 +1,77 @@
+{
+  "slug": "symphony-xplorer-v55",
+  "brand": "Symphony",
+  "name": "Xplorer V55",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015, January",
+      "Series": "Xplorer"
+    },
+    "Network": {
+      "Technology": "2G, 3G"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "134 X 68.2 X 9.9 mm",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Android v4.4.2 KitKat",
+      "CPU": "1.3 GHz Quad-Core",
+      "GPU": "Mali 400"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB",
+      "Card slot": "up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.5 in"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP",
+      "Front camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "1700 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "battery_mah": 1700,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 145,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Symphony Xplorer V55",
+      "url": "https://en.wikipedia.org/wiki/Symphony_Xplorer_V55"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Symphony Xplorer V55\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Symphony Xplorer V55",
+    "revid": 1361536569
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

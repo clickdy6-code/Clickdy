@@ -1,0 +1,52 @@
+{
+  "slug": "vetelca-vergatario",
+  "brand": "Vetelca",
+  "name": "Vergatario",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "SIM": "RUIM"
+    },
+    "Body": {
+      "Form factor": "Bar"
+    },
+    "Platform": {
+      "CPU": "Qualcomm QSC6030, ARM926EJ-S"
+    },
+    "Memory": {
+      "RAM": "16 MB",
+      "Storage": "32 MB (3.94MB Useable)",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "1.8 in diagonal TFT LCD, 128×160 px , 4:5 aspect-ratio wide-screen , 65K colors"
+    },
+    "Cameras": {
+      "Rear camera": "Yes"
+    },
+    "Sound": {
+      "Sound": "CMX 4.1"
+    }
+  },
+  "key": {
+    "display_type": "TFT"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vergatario",
+      "url": "https://en.wikipedia.org/wiki/Vergatario"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vergatario\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vergatario",
+    "revid": 1361536840
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

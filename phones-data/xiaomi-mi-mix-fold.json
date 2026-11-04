@@ -1,0 +1,79 @@
+{
+  "slug": "xiaomi-mi-mix-fold",
+  "brand": "Xiaomi",
+  "name": "Mi Mix Fold",
+  "status": "published",
+  "announced": "2021-04-16",
+  "released": "2021-04-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Mi_MIX_Fold_front.jpg/500px-Mi_MIX_Fold_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Mi_MIX_Fold_front.jpg/250px-Mi_MIX_Fold_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi Mix Fold",
+      "credit": "人工知能, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mi_MIX_Fold_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-04-16",
+      "Series": "MIX Fold",
+      "Successor": "Xiaomi MIX Fold 2"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "Unfolded: , 173.3 mm H , 133.4 mm W , 7.6 mm D, Folded: , 173.3 mm H , 69.8 mm W , 17.2 mm D"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 10 with MIUI 12, Current: Android 13 with Xiaomi HyperOS",
+      "Chipset": "Qualcomm Snapdragon 888 5G (5 nm)",
+      "CPU": "Octa-core (1x2.84 GHz Cortex-X1 & 3x2.42 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55)",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "RAM": "12/16 GB RAM",
+      "Storage": "256/512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "8.01 in, 1860 x 2480 pixels, 4:3 ratio (~387 ppi density), Foldable OLED"
+    },
+    "Battery": {
+      "Battery": "5020 mAh"
+    }
+  },
+  "key": {
+    "display_in": 8.01,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 888 5G",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      512
+    ],
+    "battery_mah": 5020,
+    "os": "Android 10",
+    "five_g": true,
+    "thickness_mm": 7.6,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi Mix Fold",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_Mix_Fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi Mix Fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi Mix Fold",
+    "revid": 1361537579
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "xiaomi-12t",
+  "brand": "Xiaomi",
+  "name": "12T",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Redmi K50 Ultra: , 12T/Pro:",
+      "Series": "Xiaomi T, Redmi K",
+      "Predecessor": "Xiaomi 11T, Redmi K40 Pro+",
+      "Successor": "Xiaomi 13T, Xiaomi 13T Pro"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G",
+      "SIM": "12T/Redmi K50 Ultra: Dual SIM (Nano-SIM), 12T Pro: Dual SIM (Nano-SIM + eSIM and Nano-SIM + Nano-SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163.1 × 75.9 × 8.6 mm",
+      "Weight": "12T/Redmi K50 Ultra: 202 g, 12T Pro: 205 g",
+      "Other": "Fingerprint scanner (under display, optical), virtual proximity sensor, accelerometer, gyroscope, compass, color temperature sensor."
+    },
+    "Platform": {
+      "Operating system": "Original: Android 12 + MIUI 13, Current: Android 15 + Xiaomi HyperOS 3",
+      "Chipset": "12T: MediaTek MT6893 Dimensity 8100-Ultra (5 nm), 12T Pro/Redmi K50 Ultra: Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)",
+      "CPU": "8 cores (4×2.85 GHz Cortex-A78 & 4×2 GHz Cortex-A55), 12T Pro/Redmi K50 Ultra: 8 cores (1×3.19 GHz Cortex-X2 & 3×2.75 GHz Cortex-A710 & 4×2 GHz Cortex-A510)",
+      "GPU": "12T: Mali-G610 MC6, 12T Pro/Redmi K50 Ultra: Adreno 730"
+    },
+    "Memory": {
+      "RAM": "12T: 8 GB, 12T Pro/Redmi K50 Ultra: 8/12 GB, LPDDR5",
+      "Storage": "12T/Pro: 128/256 GB, 12T Pro: 128/256/512 GB, UFS 3.1"
+    },
+    "Display": {
+      "Display": "AMOLED, 6.67\", 1220 × 2712 (1.5K), 20:9, 446 ppi, 120 Hz, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "Wide:, 12T: 108 MP Samsung S5KHM6, 26 mm (wide-angle), 1/1.52\", 0.7 μm, PDAF, OIS, 12T Pro: 200 MP Samsung S5KHP1, 26 mm (wide-angle), 1/1.12\", 0.64 μm, PDAF, OIS, Redmi K50 Ultra: 108 MP Samsung S5KHM6, 26 mm (wide-angle), 1/1.52\", 0.7 μm, PDAF, OIS, Ultrawide: 8 MP, 120˚, 1/4\", 1.12 μm, Macro: 2 MP, Dual-LED dual-tone flash, HDR, panorama, Video: 8K@30fps (12T Pro), 4K@30/60 (except 12T) fps, 1080p@30/60/120/240/960fps, HDR10+, gyro-EIS",
+      "Front camera": "20 MP, (wide-angle), 1/3.47\", 0.8 μm, HDR, Video: 1080p@30/60fps, 720p@30/120fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 5000 mAh",
+      "Charging": "120 W fast charging, 100% in 17 min (advertised), Power Delivery 3.0"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.2 (12T Pro/Redmi K50 Ultra)/5.3 (12T) (A2DP, LE, aptX HD, aptX Adaptive), NFC, IR port, Wi-Fi 802.11 a/b/g/n/ac/6 (dual-band, Wi-Fi Direct, hotspot), GPS (L1 + L5), GLONASS (L1), Galileo (E1 + E5a), BeiDou (B1l + B1c + B2a), QZSS (L1 + L5), NavIC (L5)"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "12T: MediaTek MT6893 Dimensity 8100-Ultra",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 108,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": false,
+    "video": "8K@30fps",
+    "front_mp": 20,
+    "battery_mah": 5000,
+    "wired_w": 120,
+    "os": "Android 12",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 202
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 12T",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_12T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 12T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 12T",
+    "revid": 1381763908
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

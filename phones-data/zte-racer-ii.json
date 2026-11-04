@@ -1,0 +1,66 @@
+{
+  "slug": "zte-racer-ii",
+  "brand": "ZTE",
+  "name": "Racer II",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "September 2011"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "104 mm H, 55.4 mm W, 13.5 mm D",
+      "Weight": "100 g",
+      "Other": "Accelerometer, FM radio with RDS, compass, GPS, A-GPS"
+    },
+    "Platform": {
+      "Operating system": "Android v2.2 (Froyo)",
+      "CPU": "Broadcom BCM2157, 500 MHz ARM11"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "256 MB NAND",
+      "Card slot": "microSD (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "240×320 px, 2.8 in, 143 PPI, QVGA, TFT LCD resistive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 megapixel with auto focus and geotaging"
+    },
+    "Battery": {
+      "Battery": "1100 mAh, Internal rechargeable lithium-ion battery, 4 hours 35 mins talk time, 164 hours stand-by time"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g), Bluetooth 2.1 + EDR, A2DP, GSM 900 1800 1900 MHz HSDPA/WCDMA 900 2100 MHz"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "battery_mah": 1100,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 100,
+    "thickness_mm": 13.5,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Racer II",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Racer_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Racer II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Racer II",
+    "revid": 1370513150
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

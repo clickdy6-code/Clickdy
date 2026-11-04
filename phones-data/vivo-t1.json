@@ -1,0 +1,85 @@
+{
+  "slug": "vivo-t1",
+  "brand": "Vivo",
+  "name": "T1",
+  "status": "published",
+  "announced": "2021-10-20",
+  "released": "2021-10-20",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "T1 and T1x (China):, 2021-10-20, T1 5G (India):, 2022-02-09",
+      "Series": "T",
+      "Predecessor": "iQOO Z5",
+      "Successor": "Vivo T2"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "T1 (China):, 164.7 x 76.7 x 8.5 mm, T1x:, 164 x 75.3 x 8.5 mm, T1 5G (India):, 164 x 75.8 x 8.3 mm",
+      "Weight": "T1 (China):, 193 g, T1x:, 189 g, T1 5G (India):, 187 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11, with:, T1 and T1x (China):, OriginOS 1.0, T1 5G (India):, FuntouchOS 12",
+      "Chipset": "T1 (China):, Qualcomm Qualcomm Snapdragon, Snapdragon List of Qualcomm Snapdragon systems-on-chip#Snapdragon 778G/778G+ and 780G 5G (2021), 778G, T1x:, MediaTek List of MediaTek processors#Dimensity Series (2020-Present), Dimensity 900, T1 (India):, Qualcomm Qualcomm Snapdragon, Snapdragon List of Qualcomm Snapdragon systems-on-chip#Snapdragon 680 4G, 690 5G and 695 5G (2020/21), 695",
+      "CPU": "Octa-core, T1 (China):, Octa-core (4x2.4 GHz Kryo 670 & 4x1.8 GHz Kryo 670), T1x:, Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55), T1 (India):, Octa-core (2x2.2 GHz Kryo 660 Gold & 6x1.7 GHz Kryo 660 Silver)",
+      "GPU": "T1 (China):, Adreno 642L, T1x:, Mali-G68 MC4, T1 (India):, Adreno 619"
+    },
+    "Memory": {
+      "RAM": "T1 (China):, 8 or 12 Gigabyte, GB LPDDR4X RAM, T1x:, 6 or 8 Gigabyte, GB LPDDR4X RAM, T1 (India):, 4, 6 or 8 Gigabyte, GB LPDDR4X RAM",
+      "Storage": "T1 and T1x (China):, 128 or 256 GB Universal Flash Storage, UFS 3.1 ROM, T1 5G (India):, 128GB UFS 3.0 ROM"
+    },
+    "Display": {
+      "Display": "T1 (China), IPS LCD capacitive touchscreen with HDR10 support, 6.67 in 1080p (2.59 MP), (395 Pixel density, ppi with 20:9 Display aspect ratio, aspect ratio), 16.7 million colors, 120 Hertz, Hz refresh rate with punch-hole camera on the center, T1x and T1 (India), IPS LCD capacitive touchscreen , 6.58 in 1080p (2.6 MP), (401 Pixel density, ppi with 20.07:9 Display aspect ratio, aspect ratio), 16.7 million colors, 120 Hertz, Hz refresh rate with dew drop screen"
+    },
+    "Cameras": {
+      "Rear camera": "T1 (China):, 64 MP, f/1.8, 26millimeter, mm, 1/1.97\" with Autofocus#Phase detection, PDAF (wide) + 8 MP, f/2.2, 120°, 16 mm, 1/4\", 1.12 micrometre, µm (ultrawide) + 2 MP, f/2.4 (macro), T1x:, 64 MP, f/1.8, 26millimeter, mm, 1/1.97\" with Autofocus#Phase detection, PDAF (wide) + 2 MP, f/2.4 (macro), T1 (India):, 50 MP, f/1.8, 26millimeter, mm, 1/1.97\" with Autofocus#Phase detection, PDAF (wide) + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth sensor), Both China T1 and T1x: Gyro-Image stabilization#Digital image stabilization, EIS, LED flash, HDR, 4K@30/60 fps, 1080p@30/60 fps, India T1 5G: dual-LED flash, HDR, 1080p@30 fps",
+      "Front camera": "T1 (China):, 16 MP, f/2.5, 1080p@30 fps, HDR, T1x:, 8 MP, f/2.0, 1080p@30 fps, T1 (India):, 16 MP, f/2.0, 1080p@30 fps"
+    },
+    "Battery": {
+      "Battery": "Li-Po 5000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "T1:, Bluetooth#Bluetooth 5.2, Bluetooth 5.2, Wi-Fi a/b/g/n/ac, A2DP, LE, aptX HD, aptX Adaptive, T1x:, Bluetooth#Bluetooth 5.2, Bluetooth 5.2, Wi-Fi a/b/g/n/ac, A2DP, LE, aptX HD, T1 5G:, Bluetooth#Bluetooth 5.1, Bluetooth 5.1, Wi-Fi a/b/g/n/ac, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "IPS LCD",
+    "chipset": "T1",
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 5000,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 193,
+    "thickness_mm": 8.3,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo T1",
+      "url": "https://en.wikipedia.org/wiki/Vivo_T1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo T1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Vivo T1",
+    "revid": 1375585790
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

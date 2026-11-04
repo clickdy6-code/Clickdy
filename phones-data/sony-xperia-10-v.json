@@ -1,0 +1,86 @@
+{
+  "slug": "sony-xperia-10-v",
+  "brand": "Sony",
+  "name": "Xperia 10 V",
+  "status": "published",
+  "announced": "2023-05-11",
+  "released": "2023-05-11",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-05-11",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia 10 IV",
+      "Successor": "Sony Xperia 10 VI"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G 5G NR, NR",
+      "SIM": "nanoSIM, eSIM, 1 nanoSIM + 1 eSIM, 1 nanoSIM + 1 nanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155 mm H, 68 mm W, 8.3 mm D",
+      "Weight": "159 g"
+    },
+    "Platform": {
+      "Operating system": "Android 13, Up to 2 major Android upgrades, 3 years of security patches, upgradable to Android 15",
+      "Chipset": "Qualcomm Snapdragon 695 5G",
+      "CPU": "Octa-core, 6 nm, 2x2.2 GHz Cortex-A78 Kryo 660 Gold + 6x1.7 GHz Cortex-A55 Kryo 660 Silver",
+      "GPU": "Adreno 619"
+    },
+    "Memory": {
+      "RAM": "LPDDR4X RAM, 6 GB or 8 GB (only in Hong Kong, Japan, and Taiwan)",
+      "Storage": "Universal Flash Storage (UFS 2.1), 128 GB",
+      "Card slot": "microSDXC, expandable up to 1 TB (shared SIM slot)"
+    },
+    "Display": {
+      "Display": "6.1 in LTPS FHD+ 21:9 (2520 x 1080) HDR10 OLED, ~449 pixel density, Gorilla Glass Victus 2, HDR10"
+    },
+    "Cameras": {
+      "Rear camera": "48 MP (Sony Exmor RS IMX582), f/1.8, 26 mm (wide), 1/2.0\", 0.8 μm, PDAF, OIS, 8 MP (Hynix) f/2.2, 54 mm (telephoto), 1/4.4\", 1.0 μm"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-ion 5000 mAh, USB PD 3.1 21 W Charging",
+      "Charging": "Fast Charging USB PD 3.1 21 W Charging"
+    }
+  },
+  "key": {
+    "display_in": 6.1,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 695 5G",
+    "ram_gb": [
+      6,
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 2,
+    "ois": true,
+    "telephoto": true,
+    "battery_mah": 5000,
+    "wired_w": 21,
+    "os": "Android 13",
+    "five_g": true,
+    "esim": true,
+    "weight_g": 159,
+    "thickness_mm": 8.3,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 10 V",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_V"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 10 V\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 10 V",
+    "revid": 1381559491
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

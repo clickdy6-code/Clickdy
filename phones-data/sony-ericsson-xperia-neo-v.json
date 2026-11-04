@@ -1,0 +1,84 @@
+{
+  "slug": "sony-ericsson-xperia-neo-v",
+  "brand": "Sony Ericsson",
+  "name": "Xperia Neo V",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sony_Xperia_Neo_V_Android_Widgets.jpg/500px-Sony_Xperia_Neo_V_Android_Widgets.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sony_Xperia_Neo_V_Android_Widgets.jpg/250px-Sony_Xperia_Neo_V_Android_Widgets.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia Neo V",
+      "credit": "Imageuploader2614, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_Neo_V_Android_Widgets.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-10",
+      "Discontinued": "2012",
+      "Series": "Sony Ericsson Xperia",
+      "Successor": "Sony Xperia neo L, Sony Xperia sola"
+    },
+    "Body": {
+      "Dimensions": "116 x 57 x 13 mm",
+      "Weight": "126 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 (Gingerbread);, Officially upgradeable up to Android 4.0.4 (Ice Cream Sandwich), Unofficially upgradeable to:, Android 4.0.4 (Ice Cream Sandwich) via CyanogenMod 9, Android 4.1.2 (JellyBean) via CyanogenMod 10, Android 4.2.2 (JellyBean) via CyanogenMod 10.1, Android 4.3.1 (JellyBean) via CyanogenMod 10.2, Android 4.4.2 (Kitkat) via CyanogenMod 11.",
+      "CPU": "Qualcomm Snapdragon MSM8255 1GHz Scorpion",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB (RAM)",
+      "Storage": "320 MB (ROM) + Up to 32 GB on microSD memory card"
+    },
+    "Display": {
+      "Display": "3.7 inch 854×480 px LED-backlit LCD 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP (2592х1944) autofocus, LED flash",
+      "Front camera": "VGA"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.0 with A2DP, microUSB 2.0, 3.5 mm audio jack, aGPS, Wi-Fi 802.11 b/g/n , HDMI, GSM 850 / 900 / 1800 / 1900, HSDPA 900 / 2100 – MT11i, HSDPA 850 / 1900 / 2100 – MT11a"
+    }
+  },
+  "key": {
+    "display_in": 3.7,
+    "display_type": "LCD",
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 126,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia Neo V",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_Neo_V"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia Neo V\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia Neo V",
+    "revid": 1363776514
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

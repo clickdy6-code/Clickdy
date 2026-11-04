@@ -1,0 +1,108 @@
+{
+  "slug": "xiaomi-13",
+  "brand": "Xiaomi",
+  "name": "13",
+  "status": "published",
+  "announced": "2022-12-11",
+  "released": "2022-12-11",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Xiaomi_13_front.jpg/500px-Xiaomi_13_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Xiaomi_13_front.jpg/250px-Xiaomi_13_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 13",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_13_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "13/13 Pro: 2022-12-11, 13 Lite: 2023-03-08",
+      "Series": "Xiaomi",
+      "Predecessor": "Xiaomi 12",
+      "Successor": "Xiaomi 14"
+    },
+    "Network": {
+      "Technology": "2G / 3G / 4G LTE / 5G NR",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "13: 152.8 mm H , 71.5 mm W , 7.98 mm D, 13 Pro: 163 mm H , 74.6 mm W , 8.38 mm D, 13 Lite: 159.2 mm H , 72.7 mm W , 7.2 mm D",
+      "Weight": "13: 185 g, 13 Pro: 210 g, 13 Lite: 171 g"
+    },
+    "Platform": {
+      "Operating system": "Original:13/13 Pro: Android 13 with MIUI 14, 13 Lite: Android 12 with MIUI 14Current: Android 16 with Xiaomi HyperOS 3",
+      "Chipset": "13/13 Pro: Qualcomm Snapdragon 8 Gen 2 (4 nm), 13 Lite: Qualcomm Snapdragon 7 Gen 1 (4 nm)",
+      "CPU": "13/13 Pro: Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510), 13 Lite: Octa-core (1x2.4 GHz Cortex-A710 & 3x2.36 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510)",
+      "GPU": "13/13 Pro: Adreno 740, 13 Lite: Adreno 644"
+    },
+    "Memory": {
+      "RAM": "13/13 Pro: 8 and 12 GB Random Access Memory, RAM, 13 Lite: 8 GB Random Access Memory, RAM",
+      "Storage": "13/13 Pro: 128, 256 and 512 GB, 13 Lite: 128 and 256 GB"
+    },
+    "Display": {
+      "Display": "13: 6.36 in, 2400 x 1080 px resolution, 20:9 ratio (~414 ppi density), 13 Pro: 6.73 in, 3200 x 1440 px resolution, 20:9 ratio (~521 ppi density), 13 Lite: 6.55 in, 2400 x 1080 px resolution, 20:9 ratio (~402 ppi density), All: AMOLED, 68B colors, 120Hz refresh rate, Dolby Vision, HDR10+, 1100 nits (peak), Corning Gorilla Glass Victus"
+    },
+    "Cameras": {
+      "Rear camera": "13: 50 MP, f/1.9, (wide), 1/1.49\", 1.0µm, PDAF, OIS, 10 MP, (telephoto), 1/3.94\", 1.0µm, PDAF, 12 MP, f/2.4, (ultrawide), 1/3\", 1.12µm, Dual-LED dual-tone flash, HDR, panorama, 13 Pro: 50.3 MP, f/1.9, 23mm (wide), 1.0\"-type, 1.6µm, Dual Pixel PDAF, Laser AF, OIS, 50 MP, (telephoto), 1/2.76\", 0.64µm, PDAF, 3.2x optical zoom, 50 MP, f/2.2, (ultrawide), 1/2.76\", 0.64µm, PDAF, Leica Camera, Leica lens, Dual-LED dual-tone flash, HDR, panorama, 13 Lite: 50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, PDAF, 8 MP, f/2.2, 119˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro), Dual-LED dual-tone flash, HDR, panorama, All: 8K@24fps (HDR), 4K@30/60fps (HDR10+), 1080p@30/120/240/960fps, 720p@1920fps, gyro-EI",
+      "Front camera": "13/13 Pro: 32 MP, f/2.5, 26mm (wide), 0.7µm, HDR, panorama, 13 Lite: 32 MP, f/2.4, 100˚ (ultrawide), 1/2.74\", 0.8µm, 8 MP, f/2.3, (depth), Dual-LED flash, HDR, All: 1080p@30/60fps, 720p@120fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers"
+    },
+    "Battery": {
+      "Battery": "13/13 Lite: Li-Po 4500 mAh, 13 Pro: Li-Po 4800 mAh",
+      "Charging": "13: Fast charging 67W, PD3.0, QC4, Fast wireless charging 50W, Reverse wireless charging 10W, 13 Pro: Fast charging 120W, PD3.0, QC4, Fast wireless charging 50W, Reverse wireless charging 10W, 13 Lite: Fast charging 67W, PD3.0, QC4"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6 or 6e (market dependent), dual-band, Wi-Fi Direct, Bluetooth 5.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 6.36,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 1100,
+    "chipset": "13/13 Pro: Qualcomm Snapdragon 8 Gen 2",
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256,
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 32,
+    "battery_mah": 4500,
+    "wireless_w": 50,
+    "wired_w": 120,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": false,
+    "dual_sim": true,
+    "weight_g": 185,
+    "thickness_mm": 7.98,
+    "year": 2022
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 13",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_13"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 13\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Xiaomi 13",
+    "revid": 1361537230
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

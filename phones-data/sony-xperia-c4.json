@@ -1,0 +1,82 @@
+{
+  "slug": "sony-xperia-c4",
+  "brand": "Sony",
+  "name": "Xperia C4",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia C3, Sony Xperia T3",
+      "Successor": "Sony Xperia C5 Ultra"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "150.3 mm H , 77.4 mm W , 7.9 mm D",
+      "Weight": "147 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.0 Lollipop , Upgradable to Android 6.0 Marshmallow",
+      "Chipset": "MediaTek MT6752",
+      "CPU": "1.7 GHz octa-core",
+      "GPU": "MaliT760-Mp2 700MHz"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "Up to 200 GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.5 in diagonal"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP with LED flash, 1080p video recording @ 30 frames/s",
+      "Front camera": "5 MP with LED flash, 1080p video recording @ 30 frames/s"
+    },
+    "Battery": {
+      "Battery": "Li-ion 2600 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS, NFC, Bluetooth 4.1, USB 2.0 (Micro-B port, USB charging), USB OTG, 3.50 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "chipset": "MediaTek MT6752",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 5,
+    "battery_mah": 2600,
+    "os": "Android 5.0",
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 147,
+    "thickness_mm": 7.9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia C4",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_C4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia C4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia C4",
+    "revid": 1361536033
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

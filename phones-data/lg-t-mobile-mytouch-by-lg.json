@@ -1,0 +1,74 @@
+{
+  "slug": "lg-t-mobile-mytouch-by-lg",
+  "brand": "LG",
+  "name": "T-Mobile myTouch by LG",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "United States 2010 (T-Mobile USA)",
+      "Series": "myTouch, Android",
+      "Predecessor": "myTouch 4G Slide & myTouch 4G",
+      "Successor": "unnamed Huawei U8680 & U8730"
+    },
+    "Network": {
+      "Technology": "GSM 850/900/1800/1900 , GPRS Class 10, EDGE Class 10, UMTS Bands I and IV, HSPA+ 14.4, HSUPA 5.76"
+    },
+    "Body": {
+      "Form factor": "Slider-Keyboard & Slate",
+      "Dimensions": "Q version:, 4.76 in H , 2.50 in W , 0.51 in D, non-Q version:, 4.82 in H , 2.46 in W , 0.385 in D",
+      "Weight": "5.64 oz, Q, 3.77 oz, non-Q",
+      "Other": "Wi-Fi hotspot , USB tethering"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6 Gingerbread",
+      "CPU": "1GHz Snapdragon"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB (1 GB available for storage)",
+      "Card slot": "8 GB microSD flash memory (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "Q version:, 3.5\" 320x480 HVGA TFT LCD screen, non-Q version: 3.8\" 480x800 WVGA AMOLED screen"
+    },
+    "Cameras": {
+      "Rear camera": "Photo 5 megapixel , Note that Q does not have a flash., NOT CHECKED: 2592 × 1456 px max , Autofocus , LED flash , Video 1280×720 px max (720p)",
+      "Front camera": "VGA, non-Q only"
+    },
+    "Battery": {
+      "Battery": "?1,400? mAh Internal rechargeable Li-ion, user replaceable"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS , Bluetooth 2.1 + EDR with A2DP , FM radio , Micro USB 2.0 , Wi-Fi 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "storage_gb": [
+      4
+    ],
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: T-Mobile myTouch by LG",
+      "url": "https://en.wikipedia.org/wiki/T-Mobile_myTouch_by_LG"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"T-Mobile myTouch by LG\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "T-Mobile myTouch by LG",
+    "revid": 1374882782
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

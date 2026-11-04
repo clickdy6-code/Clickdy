@@ -1,0 +1,72 @@
+{
+  "slug": "crbt-siam-siam-7x",
+  "brand": "CRBT Siam",
+  "name": "Siam 7X",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Siam X Series"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "142.2 *",
+      "Weight": "170 g"
+    },
+    "Platform": {
+      "Operating system": "Android 5.1",
+      "CPU": "MTK6735, Qual-Core, ARM 8xCortex-A53 64bit, 1.0 GHz ARM MaliT760-MP3@450MHz GPU"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "Up to 64 GB on TF memory card"
+    },
+    "Display": {
+      "Display": "5.0 inch 1280×720 px FWVGA HD IPS multi-touch (Front) 4.7 inch 960×540 px FWVGA QHD E-ink paper touch screen (Back)"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 MP (Front), 16.0 MP, Auto-Focus with LED Flashlight (Back)"
+    },
+    "Battery": {
+      "Battery": "Nanobattery 2100 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 4.0, microUSB 2.0, 3.5 mm audio jack, Built-in GPS, support for Assisted GPS, Wi-Fi 802.11 a/n/b/g/ac"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 5,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 2100,
+    "os": "Android 5.1",
+    "nfc": false,
+    "weight_g": 170
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siam 7X",
+      "url": "https://en.wikipedia.org/wiki/Siam_7X"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siam 7X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Siam 7X",
+    "revid": 1361483877
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

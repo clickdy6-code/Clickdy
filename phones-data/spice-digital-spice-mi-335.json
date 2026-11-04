@@ -1,0 +1,48 @@
+{
+  "slug": "spice-digital-spice-mi-335",
+  "brand": "Spice Digital",
+  "name": "Spice MI-335",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Mi-350n",
+      "Successor": "Mi-435"
+    },
+    "Platform": {
+      "Operating system": "Android v2.3 (Gingerbread) with Spice Gang",
+      "CPU": "Qualcomm MSM7227A 800 MHz processor, Adreno 200 GPU"
+    },
+    "Memory": {
+      "RAM": "512mb RAM,512mb ROM",
+      "Card slot": "Supports up to 32 GB microSD (No Card Included)"
+    },
+    "Display": {
+      "Display": "3.5 in TFT LCD HVGA 320 × 480 capacitive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "5 Megapixel fixed focus with dual-led flash including Secondary camera"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Spice MI-335 (Stellar Craze)",
+      "url": "https://en.wikipedia.org/wiki/Spice_MI-335_%28Stellar_Craze%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Spice MI-335 (Stellar Craze)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Spice MI-335 (Stellar Craze)",
+    "revid": 1361536523
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

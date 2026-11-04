@@ -1,0 +1,87 @@
+{
+  "slug": "xiaomi-mi-a2",
+  "brand": "Xiaomi",
+  "name": "Mi A2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Xiaomi_Mi_A2.jpg/500px-Xiaomi_Mi_A2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Xiaomi_Mi_A2.jpg/250px-Xiaomi_Mi_A2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi A2",
+      "credit": "Ivebeenhacked, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_A2.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-07",
+      "Series": "Mi A",
+      "Predecessor": "Xiaomi Mi A1 , Redmi Note 5",
+      "Successor": "Xiaomi Mi A3 , Redmi Note 7 , Xiaomi Mi 8 Lite"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158.7 mm H, 75.4 mm W, 7.3 mm D",
+      "Weight": "166 g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 \"Oreo\", upgrade-able to Android 10, Ubuntu Touch OTA-25, PixelExperience 13 based on Android 13",
+      "Chipset": "Qualcomm SDM660 Snapdragon 660",
+      "CPU": "Octa-core (4x2.2GHz Cortex-A73 + 4x1.84GHz Cortex-A53)",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "RAM": "4/6 GB RAM",
+      "Storage": "32/64/128 GB"
+    },
+    "Display": {
+      "Display": "5.99 in LTPS LCD, 1080 x 2160 pixels, ~403 ppi, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 12/20 MP phase detection autofocus, dual-LED (dual tone) flash",
+      "Front camera": "20 MP 1.0 μm pixel size, geo-tagging, touch focus, face detection, HDR, panorama"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 3010 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 5.99,
+    "display_type": "LCD",
+    "chipset": "Qualcomm SDM660 Snapdragon 660",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 20,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 20,
+    "battery_mah": 3010,
+    "os": "Android 8.1",
+    "weight_g": 166,
+    "thickness_mm": 7.3,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi A2",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_A2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi A2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi A2",
+    "revid": 1361537517
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

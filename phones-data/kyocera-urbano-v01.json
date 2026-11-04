@@ -1,0 +1,78 @@
+{
+  "slug": "kyocera-urbano-v01",
+  "brand": "Kyocera",
+  "name": "URBANO V01",
+  "status": "published",
+  "announced": "2014-12-12",
+  "released": "2014-12-12",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-12-12",
+      "Series": "URBANO series"
+    },
+    "Network": {
+      "Technology": "3.9G: FDD-LTE (au VoLTE) (700 MHz / N800 MHz / 2 GHz), 3G: W-CDMA (850 MHz / 2 GHz), 2G: GSM (1.9 GHz / 1.8 GHz / 900 MHz)",
+      "SIM": "au Nano IC Card 04 (VoLTE)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "141 mm × 70 mm × 9.9 mm",
+      "Weight": "Approx. 155 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4",
+      "CPU": "2.3 GHz quad-core Qualcomm Snapdragon 801 (MSM8974AB)"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB ROM",
+      "Card slot": "microSDHC (up to 32 GB), microSDXC (up to 128 GB) (officially supported by KDDI), ※ Use of microSD cards 2 GB or lower, or microSDHC/microSDXC cards with a Class 2 or lower (2 MB/s) transfer rate is not recommended."
+    },
+    "Display": {
+      "Display": "5.0-inch TFT LCD, FHD (1920 × 1080 pixels), approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 13 megapixels, CMOS, face detection autofocus",
+      "Front camera": "Approx. 970,000 pixels, CMOS (Exmor R for mobile)"
+    },
+    "Battery": {
+      "Battery": "3,000 mAh (non-removable)",
+      "Charging": "Approx. 120 minutes"
+    },
+    "Connectivity": {
+      "Connectivity": "3.9/4G: FDD-LTE / LTE-Advanced (au 4G LTE / au 4G LTE CA) (700 MHz / N800 MHz / 2 GHz), WiMAX 2.1 (WiMAX 2+), 3.5G: UMTS (W-CDMA), Other: Wireless LAN (IEEE 802.11a/b/g/n/ac 5 GHz / 2.4 GHz)"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 3000,
+    "os": "Android 4.4",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 155,
+    "thickness_mm": 9.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: URBANO V01",
+      "url": "https://en.wikipedia.org/wiki/URBANO_V01"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"URBANO V01\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "URBANO V01",
+    "revid": 1367003937
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

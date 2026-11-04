@@ -1,0 +1,85 @@
+{
+  "slug": "zte-grand-s",
+  "brand": "ZTE",
+  "name": "Grand S",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-03",
+      "Discontinued": "Yes",
+      "Series": "ZTE Grand",
+      "Successor": "ZTE Grand S II"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / EVDO / LTE",
+      "SIM": "Mini-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "142 mm H , 70 mm W , 6.9 mm D",
+      "Weight": "110 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1 (Jelly Bean)",
+      "Chipset": "Qualcomm APQ8064 Snapdragon S4 Pro",
+      "CPU": "Quad-core 1.7 GHz Krait 200",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "microSDHC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "5.0 in (127 mm) IPS LCD, 1080 x 1920 pixels (~441 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP, AF, LED flash, 1080p video recording",
+      "Front camera": "2 MP, 1080p video recording"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 1780 mAh"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm APQ8064 Snapdragon S4 Pro",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "front_mp": 2,
+    "battery_mah": 1780,
+    "os": "Android 4.1",
+    "five_g": false,
+    "weight_g": 110,
+    "thickness_mm": 6.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Grand S",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Grand_S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Grand S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Grand S",
+    "revid": 1378849453
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

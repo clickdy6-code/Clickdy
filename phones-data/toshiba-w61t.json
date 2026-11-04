@@ -1,0 +1,71 @@
+{
+  "slug": "toshiba-w61t",
+  "brand": "Toshiba",
+  "name": "W61T",
+  "status": "published",
+  "announced": "2008-04-03",
+  "released": "2008-04-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/W61T_2.JPG/500px-W61T_2.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/W61T_2.JPG/250px-W61T_2.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Toshiba W61T",
+      "credit": "ja:User:Totti, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:W61T_2.JPG",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-04-03",
+      "Discontinued": "2022-03-31",
+      "Predecessor": "W56T",
+      "Successor": "T001"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "98 mm H , 50 mm W , 18.9 mm D",
+      "Weight": "120 g"
+    },
+    "Platform": {
+      "Operating system": "KCP+",
+      "CPU": "Qualcomm MSM7500 (600 MHz)"
+    },
+    "Memory": {
+      "Storage": "100 MB",
+      "Card slot": "microSD"
+    },
+    "Display": {
+      "Display": "Primary: 2.8 in (71 mm) Wide QVGA (240×400 px) OLED, 260,000 colors, Secondary: 7×7 Dot LED, single color"
+    },
+    "Cameras": {
+      "Rear camera": "3.24 MP CMOS, Autofocus, Image stabilization"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "OLED",
+    "main_mp": 3.24,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "weight_g": 120,
+    "thickness_mm": 18.9,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Toshiba W61T",
+      "url": "https://en.wikipedia.org/wiki/Toshiba_W61T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Toshiba W61T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Toshiba W61T",
+    "revid": 1370470666
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

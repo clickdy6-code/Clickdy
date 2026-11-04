@@ -1,0 +1,85 @@
+{
+  "slug": "vivo-y51",
+  "brand": "Vivo",
+  "name": "Y51",
+  "status": "published",
+  "announced": "2020-12-03",
+  "released": "2020-12-03",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Announced on 2020-12-03, released on 2020-12-07",
+      "Series": "Vivo Y Series"
+    },
+    "Network": {
+      "Technology": "GSM (2G) 850 / 900 / 1800 / 1900 , HSDPA (3G) 850 / 900 / 2100 , LTE (4G) 1, 3, 5, 8, 40",
+      "SIM": "Duo Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "163.9 x 75.3 x 8.4 mm (6.45 x 2.96 x 0.33 in)",
+      "Weight": "6.63 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 11 with Funtouch 11",
+      "Chipset": "Qualcomm SDM665 Snapdragon 665 (11 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "8GB RAM",
+      "Storage": "128GB internal",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD , Size: 6.58 inches, 104.3 cm2 (~84.5% screen-to-body ratio) , Resulution: 1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Triple camera, 48 MP, f/1.8, (wide), 1/2.0\", 0.8μm, PDAF, 8 MP, f/2.2, 120˚, (ultrawide), 1/4.0\", 1.12μm and 2 MP, f/2.4, (macro), with LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30fps, gyro-EIS",
+      "Front camera": "16 MP, f/2.0, (wide), 1/3.06\" 1.0μm with HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Charging": "USB Type-C 2.0, OTG 18W wired, 70% in 67 min"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, A2DP, LE, Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, GPS, GLONASS, GALILEO, BDS"
+    }
+  },
+  "key": {
+    "display_in": 6.58,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm SDM665 Snapdragon 665",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 48,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "wired_w": 18,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y51",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y51"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y51\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y51",
+    "revid": 1361537121
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

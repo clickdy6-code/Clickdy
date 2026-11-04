@@ -1,0 +1,66 @@
+{
+  "slug": "sony-ericsson-t650",
+  "brand": "Sony Ericsson",
+  "name": "T650",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson T630",
+      "Successor": "Sony Ericsson T700, Sony Ericsson T707"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 and UMTS 2100"
+    },
+    "Body": {
+      "Dimensions": "104 x 46 x 12.5 mm",
+      "Weight": "95 g"
+    },
+    "Memory": {
+      "RAM": "16 MB Internal , Memory Stick Micro M2 (expandable up to 2 GB)"
+    },
+    "Display": {
+      "Display": "240x320 pixels (QVGA), 1.9 inches, 262,144 (18-bit) color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP, 2048x1536 pixels, autofocus, video(QCIF), flash; secondary VGA videocall"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Po 930 mAh (BST-38)"
+    },
+    "Connectivity": {
+      "Connectivity": "WCDMA, GPRS, Bluetooth, USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "ram_gb": [
+      2
+    ],
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 930,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 95
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson T650",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_T650"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson T650\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson T650",
+    "revid": 1374925363
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

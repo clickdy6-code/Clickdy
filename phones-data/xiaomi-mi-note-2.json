@@ -1,0 +1,85 @@
+{
+  "slug": "xiaomi-mi-note-2",
+  "brand": "Xiaomi",
+  "name": "Mi Note 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Series": "Mi Note",
+      "Predecessor": "Xiaomi Mi Note",
+      "Successor": "Xiaomi Mi Note 3"
+    },
+    "Network": {
+      "Technology": "2G: GSM, 3G: HSDPA, 4G: LTE"
+    },
+    "Body": {
+      "Form factor": "Slate phone",
+      "Dimensions": "156.2 x 77.3 x 7.6 mm",
+      "Weight": "166 g"
+    },
+    "Platform": {
+      "Operating system": "MIUI 8 (Android 6.0), Upgradeable to MIUI 11 (Android 8.0)",
+      "Chipset": "Qualcomm Snapdragon 821",
+      "CPU": "Dual-core 2.35GHz Kryo + Dual-core 1.6GHz Kryo",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "6 GB/4 GB RAM",
+      "Storage": "128 GB/64 GB"
+    },
+    "Display": {
+      "Display": "OLED 5.7\" 1080*1920 pixels, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "22.5 MP",
+      "Front camera": "8.1 MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 4070 mAH battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 4.2, A2DP, LE"
+    }
+  },
+  "key": {
+    "display_in": 5.7,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 821",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 22.5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8.1,
+    "battery_mah": 4070,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 166
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi Note 2",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_Note_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi Note 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi Note 2",
+    "revid": 1361537601
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "zte-racer",
+  "brand": "ZTE",
+  "name": "Racer",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/ZTE_Racer.jpg/500px-ZTE_Racer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/ZTE_Racer.jpg/250px-ZTE_Racer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "ZTE Racer",
+      "credit": "Adam, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ZTE_Racer.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2010",
+      "Successor": "ZTE Racer II, ZTE Blade"
+    },
+    "Body": {
+      "Form factor": "Slate smartphone",
+      "Dimensions": "102 mm H, 55 mm W, 14.5 mm D",
+      "Weight": "100 g",
+      "Other": "Accelerometer, FM radio, compass, GPS, A-GPS"
+    },
+    "Platform": {
+      "Operating system": "Linux 2.6.29 used in Android 2.1 Eclair",
+      "CPU": "Qualcomm MSM7227 600 MHz processor",
+      "GPU": "Adreno 200"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM",
+      "Storage": "256 MB NAND , 2 GB microSD memory card (SD 2.0 compatible), microSD slot: supports up to 8 GB"
+    },
+    "Display": {
+      "Display": "240 × 320 px, 2.8 in, 143 PPI, QVGA, TFT LCD resistive touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 megapixel with auto focus"
+    },
+    "Battery": {
+      "Battery": "1100 mAh, Internal rechargeable lithium-ion battery, 3 hours 30 mins talk time and 200 hours (8 days) stand-by time"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g), Bluetooth 2.1+EDR, GSM 900 1800 1900 MHz HSPA/WCDMA 900 2100 MHz, GPS"
+    }
+  },
+  "key": {
+    "display_in": 2.8,
+    "display_type": "TFT",
+    "storage_gb": [
+      8
+    ],
+    "battery_mah": 1100,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 100,
+    "thickness_mm": 14.5,
+    "year": 2010
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Racer",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Racer"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Racer\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Racer",
+    "revid": 1361537755
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

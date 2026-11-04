@@ -1,0 +1,86 @@
+{
+  "slug": "sony-xperia-e",
+  "brand": "Sony",
+  "name": "Xperia E",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "March 2013",
+      "Discontinued": "October 2014",
+      "Series": "Xperia",
+      "Predecessor": "Sony Xperia miro, Sony Xperia tipo",
+      "Successor": "Sony Xperia E1"
+    },
+    "Network": {
+      "Technology": "GSM GPRS/EDGE (telecommunication), EDGE 850, 900, 1800, 1900, UMTS High Speed Packet Access, HSPA 850 (Band V), 1900 (Band II), 2100 (Band I) in the Americas, UMTS HSPA 900 (Band VIII), 2100 (Band I) in regions other than the Americas."
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "113.5 x 61.8 x 11 mm",
+      "Weight": "115.7 g",
+      "Other": "Wi-Fi hotspot, USB tethering"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.1 \"Jelly Bean\", Experimental version of Firefox OS",
+      "Chipset": "Qualcomm Snapdragon S1 MSM7227A",
+      "CPU": "1.008 GHz single-core",
+      "GPU": "Adreno 200, 245 MHz"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM (409 MB available to user)",
+      "Storage": "750 MB phone storage, 4 GB internal SD card (2 GB available to user)",
+      "Card slot": "microSD up to 32 GB"
+    },
+    "Display": {
+      "Display": "3.5 in 320×480 pixels, TFT, Scratch-resistant glass"
+    },
+    "Cameras": {
+      "Rear camera": "3.15 MP"
+    },
+    "Sound": {
+      "Sound": "Built-in speaker, 3.5mm stereo audio jack"
+    },
+    "Battery": {
+      "Battery": "1500 mAh Li-ion (5.6 Wh)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v2.1 + EDR with A2DP, aGPS, DLNA, Wi-Fi IEEE 802.11b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S1 MSM7227A",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 3.15,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115.7,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia E",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_E"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia E\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia E",
+    "revid": 1381567756
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

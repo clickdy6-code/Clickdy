@@ -1,0 +1,72 @@
+{
+  "slug": "sony-ericsson-k610i",
+  "brand": "Sony",
+  "name": "Ericsson K610i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/AM_Sony_Ericsson_K610i.jpg/500px-AM_Sony_Ericsson_K610i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/AM_Sony_Ericsson_K610i.jpg/250px-AM_Sony_Ericsson_K610i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson K610i",
+      "credit": "Alistair McMillan, CC BY 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:AM_Sony_Ericsson_K610i.jpg",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "GSM/GPRS 900/1800/1900 MHz, UMTS 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "102 × 45.2 × 16.9 mm",
+      "Weight": "92 g"
+    },
+    "Memory": {
+      "RAM": "16 MB",
+      "Card slot": "Memory Stick Micro (M2)"
+    },
+    "Display": {
+      "Display": "176×220 pixels, 262,144 Colour TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2 Mpx"
+    },
+    "Sound": {
+      "Sound": "72-voice polyphonic, MP3"
+    },
+    "Battery": {
+      "Battery": "Li-polymer"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, USB 2.0"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 92
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson K610i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_K610i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson K610i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson K610i",
+    "revid": 1361484007
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "sony-ericsson-w580i",
+  "brand": "Sony Ericsson",
+  "name": "W580i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Sony_Ericsson_W580i.png/500px-Sony_Ericsson_W580i.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Sony_Ericsson_W580i.png/250px-Sony_Ericsson_W580i.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W580i",
+      "credit": "AnVuong1222004 (2), CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W580i.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson W830i",
+      "Successor": "Sony Ericsson W595"
+    },
+    "Network": {
+      "Technology": "Global System for Mobile communications, GSM (850/900/1800/1900), Quad band Enhanced Data Rates for GSM Evolution, EDGE, General Packet Radio Service, GPRS"
+    },
+    "Body": {
+      "Form factor": "Compact Slider",
+      "Dimensions": "3.9 × 1.8 × 0.5 in, 99 × 47 × 14 mm",
+      "Weight": "3.3 oz (94 g)"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson proprietary OS"
+    },
+    "Memory": {
+      "RAM": "12 MB internal",
+      "Card slot": "Memory Stick Micro (M2) (up to 8 GB)"
+    },
+    "Display": {
+      "Display": "2\" 262,144 TFT LCD, 240 × 320 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel"
+    },
+    "Battery": {
+      "Battery": "900 mAh Li-Pol battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth (2.0), USB (2.0 proprietary, and, for the memory stick, 2.0 mass storage device)"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "battery_mah": 900,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 94
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W580i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W580i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W580i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W580i",
+    "revid": 1374925531
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

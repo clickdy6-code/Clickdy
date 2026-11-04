@@ -1,0 +1,69 @@
+{
+  "slug": "sharp-aquos-serie-shl25",
+  "brand": "Sharp",
+  "name": "Aquos Serie SHL25",
+  "status": "published",
+  "announced": "2014-06-13",
+  "released": "2014-06-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-06-13"
+    },
+    "Network": {
+      "Technology": "3G: CDMA2000 1xMC (CDMA 1X) (New 800 MHz/2 GHz), W-CDMA (850 MHz/2 GHz), 2G: GSM (1.9 GHz/1.8 GHz/900 MHz)"
+    },
+    "Body": {
+      "Dimensions": "134 mm H , 71 mm W , 9.9 mm D",
+      "Weight": "141 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4, upgradable to 5.0",
+      "CPU": "2.3 GHz quad-core Qualcomm Snapdragon 801 (MSM8974AB)"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB ROM",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 128 GB) (as officially published by KDDI)"
+    },
+    "Display": {
+      "Display": "5.2-inch PureLED IGZO FHD (1920 × 1080 pixels), 423 ppi, approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "13.1 megapixels CMOS with 2160p video recording",
+      "Front camera": "2.1 megapixels CMOS"
+    },
+    "Battery": {
+      "Battery": "3,150 mAh (non-removable)"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 3150,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 141,
+    "thickness_mm": 9.9,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sharp Aquos Serie SHL25",
+      "url": "https://en.wikipedia.org/wiki/Sharp_Aquos_Serie_SHL25"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sharp Aquos Serie SHL25\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sharp Aquos Serie SHL25",
+    "revid": 1377697155
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

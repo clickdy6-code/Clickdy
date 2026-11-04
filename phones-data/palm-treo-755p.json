@@ -1,0 +1,55 @@
+{
+  "slug": "palm-treo-755p",
+  "brand": "Palm",
+  "name": "Treo 755p",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "Sprint Nextel, Verizon Wireless"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "2.3 in (W) x 4.4 in (L) x 0.8 in (D)",
+      "Weight": "5.6 oz"
+    },
+    "Platform": {
+      "Operating system": "Palm OS 5.4.9",
+      "CPU": "Intel PXA272 312MHz with Intel XScale Technology"
+    },
+    "Display": {
+      "Display": "Color 320x320 TFT touchscreen display"
+    },
+    "Cameras": {
+      "Rear camera": "1.3-megapixel"
+    },
+    "Battery": {
+      "Battery": "1600 mAh Li-ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "CDMA / EVDO Rev.0, Bluetooth 1.2"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 1600,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Treo 755p",
+      "url": "https://en.wikipedia.org/wiki/Treo_755p"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Treo 755p\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Treo 755p",
+    "revid": 1361536793
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

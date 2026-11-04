@@ -1,0 +1,95 @@
+{
+  "slug": "vivo-y20g",
+  "brand": "Vivo",
+  "name": "Y20g",
+  "status": "published",
+  "announced": "2021-01-19",
+  "released": "2021-01-19",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Vivo_Y20s_%28G%29_front.jpg/500px-Vivo_Y20s_%28G%29_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Vivo_Y20s_%28G%29_front.jpg/250px-Vivo_Y20s_%28G%29_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Vivo Y20g",
+      "credit": "JGBlue1509, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vivo_Y20s_(G)_front.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-01-19 (Y20G), 2021-04-10 (Y20s [G])",
+      "Series": "Y series"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164.4 x",
+      "Weight": "192.3 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10 or 11, Funtouch OS 11",
+      "CPU": "MediaTek Helio G80 (12 nm), Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G52 MC2"
+    },
+    "Memory": {
+      "RAM": "4 GB or 6 GB LPDDR4X",
+      "Storage": "64 GB or 128 GB eMMC 5.1",
+      "Card slot": "microSDXC (dedicated slot, up to 1 TB)"
+    },
+    "Display": {
+      "Display": "6.51 in (165 mm) IPS LCD, 1600 × 720 pixels (20:9 aspect ratio), 270 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Triple:, 13 MP, f/2.2, (wide), PDAF, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth), LED flash, HDR, 1080p@30fps",
+      "Front camera": "8 MP, f/1.8, (wide), 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm jack"
+    },
+    "Battery": {
+      "Battery": "5000 mAh non-removable Li-Po",
+      "Charging": "18W wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Bluetooth 5.0, A2DP, LE, GPS (with A-GPS, GLONASS, GALILEO, BDS), Micro-USB 2.0, OTG"
+    }
+  },
+  "key": {
+    "display_in": 6.51,
+    "display_type": "IPS LCD",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 13,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 10",
+    "nfc": false,
+    "weight_g": 192.3,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y20g",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y20g"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y20g\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y20g",
+    "revid": 1361537044
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

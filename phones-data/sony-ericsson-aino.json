@@ -1,0 +1,67 @@
+{
+  "slug": "sony-ericsson-aino",
+  "brand": "Sony Ericsson",
+  "name": "Aino",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sony_Ericsson_Aino_%28U10i%29%2C_black%2C_front%2C_colorful_display.JPG/500px-Sony_Ericsson_Aino_%28U10i%29%2C_black%2C_front%2C_colorful_display.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sony_Ericsson_Aino_%28U10i%29%2C_black%2C_front%2C_colorful_display.JPG/250px-Sony_Ericsson_Aino_%28U10i%29%2C_black%2C_front%2C_colorful_display.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Aino",
+      "credit": "User:Mattes, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Aino_(U10i),_black,_front,_colorful_display.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "UMTS, GSM"
+    },
+    "Body": {
+      "Form factor": "Touchscreen slider",
+      "Dimensions": "104 x 50 x 15.5 mm",
+      "Weight": "134.0 g",
+      "Other": "NetFront web browser"
+    },
+    "Memory": {
+      "Card slot": "microSDHC, up to 32 GB"
+    },
+    "Display": {
+      "Display": "3 in 240 × 432 TFT capacitive touchscreen with 16,777,216 colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.1-megapixel 16x digital zoom"
+    },
+    "Battery": {
+      "Battery": "Li-Poly 1000 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11b/g, Bluetooth, Wi-Fi (802.11b/g), DLNA, GPS receiver"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "battery_mah": 1000,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 134
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Aino",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Aino"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Aino\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Aino",
+    "revid": 1361483961
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

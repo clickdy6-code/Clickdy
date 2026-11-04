@@ -1,0 +1,97 @@
+{
+  "slug": "sony-xperia-10-iii",
+  "brand": "Sony",
+  "name": "Xperia 10 III",
+  "status": "published",
+  "announced": "2021-04-14",
+  "released": "2021-04-14",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-04-14",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia 10 II",
+      "Successor": "Sony Xperia 10 IV"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, 5G, WiMAX, WiMAX 2+ (SOG04 model only)",
+      "SIM": "nanoSIM, eSIM (only in Xperia 10 III Lite)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "154 mm H, 68 mm W, 8.3 mm D",
+      "Weight": "169 g"
+    },
+    "Platform": {
+      "Operating system": "Android 11, upgradable to Android 13, 2 OS updates, 2 years of security patches",
+      "Chipset": "Qualcomm Snapdragon 690 5G",
+      "CPU": "Octa-core ( × GHz Kryo 560 Gold + × GHz Kryo 560 Silver)",
+      "GPU": "Adreno 619L"
+    },
+    "Memory": {
+      "RAM": "6 GB LPDDR4X RAM",
+      "Storage": "Universal Flash Storage (UFS), Xperia 10 III Lite: 64 GB, Xperia 10 III: 128 GB",
+      "Card slot": "microSD, expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "6 in 1080p () HDR OLED, 457 px/in, Gorilla Glass 6"
+    },
+    "Cameras": {
+      "Rear camera": "12 Mpx 1/2.8\" 1.8, 27 mm (wide) + 8 Mpx 1/4\" 2.4, 54 mm (telephoto) + 8 Mpx 1/4\" 2.2, 16 mm (ultrawide), PDAF, LED flash, HDR, panorama, 4K @ 30 fps, 1080p @ 60 fps",
+      "Front camera": "8 Mpx, 2.0, 24 mm (wide), 1/4\", 1.0 μm, 1080p @ 30 fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable 4500 mAh, USB PD 30 W Charging",
+      "Charging": "Fast Charging PD 3.1 30 W"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5 GHz), Bluetooth 5.1, USB-C (supports DisplayPort), NFC, GPS with Assisted GPS, GLONASS, Mobile FeliCa/Osaifu-Keitai (XQ-BT44, SO-52B, SOG04 and A102SO models only)"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 690 5G",
+    "ram_gb": [
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 4500,
+    "wired_w": 30,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 169,
+    "thickness_mm": 8.3,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 10 III",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_III"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 10 III\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 10 III",
+    "revid": 1380618347
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

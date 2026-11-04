@@ -1,0 +1,83 @@
+{
+  "slug": "sony-xperia-acro-s",
+  "brand": "Sony",
+  "name": "Xperia acro S",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sony_Xperia_acro_S_GM_01.jpg/500px-Sony_Xperia_acro_S_GM_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sony_Xperia_acro_S_GM_01.jpg/250px-Sony_Xperia_acro_S_GM_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia acro S",
+      "credit": "Михаило Јовановић, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_acro_S_GM_01.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "3rd quarter of 2012 (global release)",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Ericsson Xperia acro",
+      "Successor": "Sony Xperia V"
+    },
+    "Body": {
+      "Form factor": "Candy bar",
+      "Dimensions": "126 × 66 × 11.9 mm",
+      "Weight": "147 g",
+      "Other": "Sony Entertainment Networks – Music and Video Unlimited*"
+    },
+    "Platform": {
+      "Operating system": "Android 4.0 \"Ice Cream Sandwich\", upgradable to Android 4.1.2 \"Jelly Bean\"",
+      "Chipset": "Qualcomm Snapdragon S3 MSM8260 1.5 GHz",
+      "CPU": "1.5 GHz dual-core Scorpion",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Card slot": "16 GB internal, up to max 32 GB on microSD/HC card support"
+    },
+    "Display": {
+      "Display": "4.3 inch 1280x720 px \"Reality Display\" TFT LCD at 342 PPI with Mobile BRAVIA Engine"
+    },
+    "Cameras": {
+      "Rear camera": "12.1 megapixels with 1080p video recording and 16x digital zoom",
+      "Front camera": "1.3 megapixels with 720p of video recording"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1910 mAh (unremoveable)"
+    },
+    "Connectivity": {
+      "Connectivity": "microUSB, HDMI 2.0, 3.5 mm audio jack, Bluetooth 3.0 with A2DP, aGPS, GLONASS, Wi-Fi 802.11 b/g/n, ANT+, NFC"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S3 MSM8260 1.5 GHz",
+    "ram_gb": [
+      1
+    ],
+    "battery_mah": 1910,
+    "os": "Android 4.0",
+    "nfc": true,
+    "weight_g": 147,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia acro S",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_acro_S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia acro S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia acro S",
+    "revid": 1361536468
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

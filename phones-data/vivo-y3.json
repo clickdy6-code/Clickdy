@@ -1,0 +1,85 @@
+{
+  "slug": "vivo-y3",
+  "brand": "Vivo",
+  "name": "Y3",
+  "status": "published",
+  "announced": "2020-10-26",
+  "released": "2020-10-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 2019 (Y3), October 26, 2020 (Y3s)",
+      "Series": "Vivo Y Series"
+    },
+    "Body": {
+      "Dimensions": "159.4x76.7x8.9 mm, 6.28x3.02x0.35 in",
+      "Weight": "190.5 g (6.70 oz)",
+      "Other": "Colors: Peacock blue, Peach powder (pink), Ink blue (Y3), Dark Blue, Red, Sea Breeze (Y3s), Price: 190 EUR, 15,090 Rupee"
+    },
+    "Platform": {
+      "Operating system": "Funtouch 9.0 running on Android 9.0 (Pie)",
+      "Chipset": "Mediatek MT6765 Helio P35 (12nm)",
+      "CPU": "4x2.3 GHz Cortex-A53, 4x1.8 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320, 680MHz (Boost clock)"
+    },
+    "Memory": {
+      "RAM": "4GB Single channel LPDDR3, 933MHz",
+      "Storage": "Y3: 64/128GB (eMMC 5.1), Y3s: 128GB (eMMC 5.1)",
+      "Card slot": "microSDXC (Up to 256GB)"
+    },
+    "Display": {
+      "Display": "Type: IPS LCD, Size: 6.35 inches, 99.6 cm^2, Resolution: 720x1544, 268 ppi, Ratios: 15:7 aspect ratio, 81.5% StB ratio, Asahi Glass (Y3), Gorilla Glass 5 (Y3s)"
+    },
+    "Cameras": {
+      "Rear camera": "1st Camera: Wide, CMOS, 4160x3120 (4:3), 12.98MP, f/2.2, 2nd Camera (Y3 Exclusive): 13mm Ultrawide, 8 MP, f/2.2, 120 degree FOV, 3rd Camera: Depth, 2MP, f/2.4",
+      "Front camera": "4608X3456 (4:3), 15.93MP, f/2.0, 26mm (wide), 1/3.06\", 1.0 μm, Face unlock"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker: Yes, 3.5mm jack: Yes"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000mAh",
+      "Charging": "Fast charging 18W, 9V/2A"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, LE, GPS, A-GPS, GLONASS, BeiDou, FM radio, microUSB 2.0, USB On-The-Go"
+    }
+  },
+  "key": {
+    "display_in": 6.35,
+    "display_type": "IPS LCD",
+    "chipset": "Mediatek MT6765 Helio P35",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 12.98,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 15.93,
+    "battery_mah": 5000,
+    "wired_w": 18,
+    "os": "Android 9.0",
+    "nfc": false,
+    "weight_g": 190.5,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y3",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y3",
+    "revid": 1361537068
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

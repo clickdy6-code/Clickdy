@@ -1,0 +1,69 @@
+{
+  "slug": "sony-ericsson-w960",
+  "brand": "Sony Ericsson",
+  "name": "W960",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Sony_Ericsson_W960i.jpg/500px-Sony_Ericsson_W960i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Sony_Ericsson_W960i.jpg/250px-Sony_Ericsson_W960i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W960",
+      "credit": "Red marquis (talk), Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W960i.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson W950"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 + UMTS 2100"
+    },
+    "Body": {
+      "Dimensions": "109 x 55 x 16 mm",
+      "Weight": "119 g"
+    },
+    "Platform": {
+      "Operating system": "UIQ 3 / Symbian OS v9.1"
+    },
+    "Memory": {
+      "RAM": "8 GB flash memory"
+    },
+    "Display": {
+      "Display": "240 x 320 pixels, 2.6”, 262K colors, touchscreen"
+    },
+    "Battery": {
+      "Battery": "BST-33"
+    },
+    "Connectivity": {
+      "Connectivity": "USB 2.0, Wi-Fi, Bluetooth 2.0 + EDR, A2DP supported"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      8
+    ],
+    "os": "Symbian OS v9.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 119
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W960",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W960"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W960\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W960",
+    "revid": 1379422287
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

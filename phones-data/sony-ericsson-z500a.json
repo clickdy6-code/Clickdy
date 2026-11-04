@@ -1,0 +1,67 @@
+{
+  "slug": "sony-ericsson-z500a",
+  "brand": "Sony",
+  "name": "Ericsson Z500a",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Z500.jpg/500px-Z500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Z500.jpg/250px-Z500.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Z500a",
+      "credit": "ZimShady at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Z500.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2004-12"
+    },
+    "Network": {
+      "Technology": "EDGE (class 10)/GPRS/GSM 850/1800/1900 MHz"
+    },
+    "Body": {
+      "Dimensions": "93 x 49 x 24 mm, (3.7 x 1.9 x 0.9 inches)",
+      "Weight": "110 g (3.9 ounces)"
+    },
+    "Memory": {
+      "RAM": "Phone memory 6 MB (Actual free memory may vary due to phone pre-configuration.)"
+    },
+    "Display": {
+      "Display": "128 x 160 pixels, 65,536 color LCD"
+    },
+    "Cameras": {
+      "Rear camera": "640 x 480 pixels (VGA)"
+    },
+    "Battery": {
+      "Battery": "Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "USB"
+    }
+  },
+  "key": {
+    "display_type": "LCD",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110,
+    "year": 2004
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Z500a",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Z500a"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Z500a\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Z500a",
+    "revid": 1365195372
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

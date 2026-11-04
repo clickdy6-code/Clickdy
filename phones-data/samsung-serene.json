@@ -1,0 +1,59 @@
+{
+  "slug": "samsung-serene",
+  "brand": "Samsung",
+  "name": "Serene",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Successor": "Serenata"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900 MHz, GPRS"
+    },
+    "Body": {
+      "Form factor": "Clamshell",
+      "Dimensions": "64.7 X 69.7 X 23.9 mm",
+      "Weight": "115 g"
+    },
+    "Memory": {
+      "RAM": "31 MB"
+    },
+    "Display": {
+      "Display": "320 X 240 px TFT LCD, 256K colors"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 megapixel"
+    },
+    "Battery": {
+      "Battery": "Lithium Ion 800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 800,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 115
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Serene (phone)",
+      "url": "https://en.wikipedia.org/wiki/Serene_%28phone%29"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Serene (phone)\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Serene (phone)",
+    "revid": 1361483856
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

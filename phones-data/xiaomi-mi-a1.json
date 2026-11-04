@@ -1,0 +1,96 @@
+{
+  "slug": "xiaomi-mi-a1",
+  "brand": "Xiaomi",
+  "name": "Mi A1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Xiaomi_Mi_5X.jpg/500px-Xiaomi_Mi_5X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Xiaomi_Mi_5X.jpg/250px-Xiaomi_Mi_5X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi A1",
+      "credit": "RabbitMeow, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_5X.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-09",
+      "Series": "Mi, Android One",
+      "Successor": "Xiaomi Mi A2 , Xiaomi Redmi 5 Plus"
+    },
+    "Network": {
+      "Technology": "GSM: 800/900/1800/1900, HSPA: 850 / 900 / 1700 (AWS) / 1900 / 2100, LTE:, VoLTE 1 (2100), 2 (1900), 3 (1800), 4 (1700/2100), 5 (850), 7 (2600), 8 (900), 38 (2600), 39 (1900), 40 (2300), 41 (2500)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "155.4 mm H, 75.8 mm W, 7.3 mm D",
+      "Weight": "165 g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.1.2 \"Nougat\", upgradable to Android 8.1 \"Oreo\" and Android 9 \"Pie\".",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625",
+      "CPU": "Octa-core (8×2.0GHz Cortex-A53)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "32/64 GB",
+      "Card slot": "microSD, up to 128 GB"
+    },
+    "Display": {
+      "Display": "5.5 in LTPS LCD, 1080×1920 pixels, ~401 ppi, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "Dual 12 MP (26mm, 2.2; 50mm, 2.6), phase detection autofocus, 2× optical lossless zoom, dual-LED (dual tone) flash",
+      "Front camera": "5 MP 1.25 μm/ 1.0 μm pixel size, geo-tagging, touch focus, face detection, HDR, panorama"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 3080 mAh battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac (2.4 & 5GHz), dual-band, WiFi Direct, hotspot, Bluetooth v4.1, A2DP, Bluetooth low energy, Low-energy, 4G/LTE (telecommunication), LTE, USB-C"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "LCD",
+    "chipset": "Qualcomm MSM8953 Snapdragon 625",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3080,
+    "os": "Android 7.1",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 165,
+    "thickness_mm": 7.3,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi A1",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_A1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi A1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi A1",
+    "revid": 1361537508
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

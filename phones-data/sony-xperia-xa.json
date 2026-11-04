@@ -1,0 +1,96 @@
+{
+  "slug": "sony-xperia-xa",
+  "brand": "Sony",
+  "name": "Xperia XA",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Sony_Xperia_XA.jpg/500px-Sony_Xperia_XA.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Sony_Xperia_XA.jpg/250px-Sony_Xperia_XA.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia XA",
+      "credit": "Jelican9, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_XA.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-06",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia M4 Aqua (by price range)",
+      "Successor": "Sony Xperia XA1"
+    },
+    "Network": {
+      "Technology": "3G and 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Rounded square slate",
+      "Dimensions": "143. mm H, 66.8 mm W, 7.9 mm D",
+      "Weight": "137.4 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0.1 \"Marshmallow\", Current: Android 7.0 \"Nougat\"",
+      "Chipset": "MediaTek MT6755 (Helio P10)",
+      "CPU": "Octa-core 64-bit 4x Cortex A53 1Ghz-4x Cortex A53 2Ghz",
+      "GPU": "Mali T860 MP2"
+    },
+    "Memory": {
+      "RAM": "2 GB",
+      "Storage": "16 GB",
+      "Card slot": "Up to 200 GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.0 in 720p IPS LCD, HD 1280x720 px Mobile BRAVIA engine 2, Super Vivid mode"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP Exmor RS for mobile sensor, Quick launch, Hybrid Auto-Focus, 5x Clear Image Zoom, Auto-Scene Recognition",
+      "Front camera": "8 MP for low-light selfies"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 2300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS/BeiDou, Bluetooth 4.2, USB 2.0 (Micro-B port, USB charging, Quick Charge 2.0), USB OTG, 3.50 mm headphone jack, 5 pole"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6755",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2300,
+    "os": "Android 6.0",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 137.4,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia XA",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_XA"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia XA\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia XA",
+    "revid": 1382203704
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

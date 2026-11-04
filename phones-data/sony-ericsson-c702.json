@@ -1,0 +1,77 @@
+{
+  "slug": "sony-ericsson-c702",
+  "brand": "Sony Ericsson",
+  "name": "C702",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Sony_Ericsson_C702.JPG/500px-Sony_Ericsson_C702.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Sony_Ericsson_C702.JPG/250px-Sony_Ericsson_C702.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson C702",
+      "credit": "GM Red Wing, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_C702.JPG",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-06",
+      "Series": "C-series"
+    },
+    "Network": {
+      "Technology": "GSM 850 / 900 / 1800 / 1900 , GPRS Class 10 (4+1/3+2 slots), 32 - 48 kbit/s , EDGE Class 10, 236.8 kbit/s , HSDPA 3.6 Mbit/s , UMTS 2100"
+    },
+    "Body": {
+      "Dimensions": "106 mm H , 48 mm W , 15.5 mm D",
+      "Weight": "105 g"
+    },
+    "Memory": {
+      "Storage": "160 MB Internal",
+      "Card slot": "Memory Stick Micro (M2) slot (up to 4 GB)"
+    },
+    "Display": {
+      "Display": "TFT LCD, 2.2 in diagonal , 240x320 px , 256K colors (~182 ppi pixel density)"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 MP (2048×1536 px max.) , Autofocus , QVGA at 30 fps",
+      "Front camera": "QCIF videocall camera"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Ion 950 mAh (BST-33)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth v2.0 with A2DP , FM stereo receiver (certain variants) , USB"
+    }
+  },
+  "key": {
+    "display_in": 2.2,
+    "display_type": "TFT",
+    "main_mp": 3.2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 950,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 105,
+    "thickness_mm": 15.5,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson C702",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_C702"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson C702\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson C702",
+    "revid": 1361483975
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

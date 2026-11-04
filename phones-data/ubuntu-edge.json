@@ -1,0 +1,68 @@
+{
+  "slug": "ubuntu-edge",
+  "brand": "Ubuntu",
+  "name": "Edge",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "124 mm H, 64 mm W, 9 mm D",
+      "Other": "Sapphire crystal display screen, stereo speakers"
+    },
+    "Platform": {
+      "Operating system": "Ubuntu Touch and Android (Dual boot)"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "128 GB"
+    },
+    "Display": {
+      "Display": "4.5 in diagonal , 1280×720px (326 ppi) , 16:9 aspect-ratio"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP , optimized for low light photography",
+      "Front camera": "2 MP"
+    },
+    "Battery": {
+      "Battery": "rechargeable silicon-anode Li-ion"
+    },
+    "Connectivity": {
+      "Connectivity": "3.5 mm TRRS , Dual-LTE , GSM , GPS , MHL , Bluetooth 4, NFC , Wi-Fi 802.11a/b/g/n"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      128
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 2,
+    "five_g": false,
+    "nfc": true,
+    "thickness_mm": 9
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Ubuntu Edge",
+      "url": "https://en.wikipedia.org/wiki/Ubuntu_Edge"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Ubuntu Edge\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Ubuntu Edge",
+    "revid": 1382229482
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

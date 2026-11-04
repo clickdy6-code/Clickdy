@@ -1,0 +1,96 @@
+{
+  "slug": "xiaomi-civi-3",
+  "brand": "Xiaomi",
+  "name": "Civi 3",
+  "status": "published",
+  "announced": "2023-05-25",
+  "released": "2023-05-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-05-25",
+      "Series": "Civi",
+      "Predecessor": "Xiaomi Civi 2",
+      "Successor": "Xiaomi Civi 4 Pro"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G",
+      "SIM": "Dual Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158.75 × 71.7 × 7.56 mm",
+      "Weight": "173.5 g",
+      "Other": "Fingerprint scanner (under display, optical), proximity sensor, light sensor, accelerometer, gyroscope, compass, color temperature sensor"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 13 + MIUI 14, Current: Android 15 + Xiaomi HyperOS 2",
+      "Chipset": "MediaTek Dimensity 8200 Ultra (4 nm)",
+      "CPU": "8 cores (1×3.1GHz Cortex-A78 & 3×3.0GHz Cortex-A78 & 4×2.0GHz Cortex-A55)",
+      "GPU": "Mali-G610 MC6"
+    },
+    "Memory": {
+      "RAM": "12/16 GB; LPDDR5",
+      "Storage": "128/256 GB, 1 TB; UFS 3.1"
+    },
+    "Display": {
+      "Display": "AMOLED, 6.55\", 2400 × 1080 (FullHD+), 20:9, 402 ppi, 120 Hz, HDR10+"
+    },
+    "Cameras": {
+      "Rear camera": "50 Mp Sony IMX800, 23 mm (wide-angle lens), 1/1.49\", 1 μm, PDAF, OIS + 8 Mp Sony IMX355, 115˚ (ultra-wide), 1/4.0\", 1.12 μm + 2 Mp GalaxyCore GC02M1, f/2.4, (macro ), 4-LED dual-tone flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60/120fps, 720p@960fps; gyro-EIS",
+      "Front camera": "32 Mp, 26 mm, 78° (wide-angle), 1/2.8\", 0.8 μm, AF + 32 Mp, 100° (ultra-wide), 1/2.74\", 0.8 μm, 2-LED dual-tone flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo Speakers"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4500 mAh",
+      "Charging": "67W fast charging, 100% in 38 minutes (advertised), Power Delivery 3.0"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0, Bluetooth 5.3 (A2DP, LE), NFC, IR port, Wi-Fi 802.11 a/b/g/n/ac/6 (dual-band, Wi-Fi Direct, hotspot), GPS, A-GPS, GLONASS, BDS, Galileo, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 6.55,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "MediaTek Dimensity 8200 Ultra",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4500,
+    "wired_w": 67,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 173.5,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Civi 3",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Civi_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Civi 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Civi 3",
+    "revid": 1361538201
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

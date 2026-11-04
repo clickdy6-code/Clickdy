@@ -1,0 +1,85 @@
+{
+  "slug": "vivo-v20",
+  "brand": "Vivo",
+  "name": "V20",
+  "status": "published",
+  "announced": "2020-08-03",
+  "released": "2020-08-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Vivo_V20_back.jpg/500px-Vivo_V20_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Vivo_V20_back.jpg/250px-Vivo_V20_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Vivo V20",
+      "credit": "BOO109, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vivo_V20_back.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "S7: 2020-08-03, V20 Pro: 2020-09-22, V20 SE: 2020-09-24, V20: 2020-09-30, Y70: 2020-10-19",
+      "Series": "Vivo V/Y/S",
+      "Predecessor": "Vivo V19, Vivo S6",
+      "Successor": "Vivo V21, Vivo S9"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE), 5G (V20 Pro & S7t)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "V20 & 20 2021: 161.3 × 74.2 × 7.4 mm, V20 Pro & S7t: 158.8 × 74.2 × 7.4 mm, V20 SE & Y70: 161 × 74.1 × 7.8 mm",
+      "Weight": "V20 & 20 SE & 20 2021: 171 g, V20 Pro: 170 g, S7t: 169 g",
+      "Other": "Fingerprint scanner (under display, optical), proximity sensor, accelerometer, gyroscope, compass"
+    },
+    "Platform": {
+      "Operating system": "Original:, V20 & 2021: Android 11 + FuntouchOS 11, V20 Pro & 20 SE & Y70: Android 10 + FuntouchOS 11, S7t: Android 11 + OriginOS 1.0, Current:, V20 & 2021 & 20 Pro & 20 SE & Y70: Android 11 + FuntouchOS 11, S7t: Android 11 + OriginOS 1.0",
+      "CPU": "V20: Qualcomm SDM7125 Snapdragon 720G (8 nm), 8 cores (1×2.4 GHz Kryo 475 Prime & 1×2.2 GHz Kryo 475 Gold & 6×1.8 GHz Kryo 475 Silver), V20 Pro: Qualcomm SDM765 Snapdragon 765G (7 nm), 8 cores (2×2.3 GHz Kryo 465 Gold & 6×1.8 GHz Kryo 465 Silver), V20 SE: Qualcomm SDM665 Snapdragon 665 (11 nm), 8 cores (4×2.0 GHz Kryo 260 Gold & 4×1.8 GHz Kryo 260 Silver), V20 2021: Qualcomm SDM730 Snapdragon 730G (8 nm), 8 cores (2×2.2 GHz Kryo 470 Gold & 6×1.8 GHz Kryo 470 Silver), S7t: MediaTek MT6875 Dimensity 820 5G (7 nm), 8 cores (4×2.6 GHz Cortex-A76 & 4×2.0 GHz Cortex-A55)"
+    },
+    "Memory": {
+      "Card slot": "V20 & 20 2021: MicroSDXC up to 2 TB, V20 Pro: None, V20 SE & Y70: MicroSDXC up to 1 TB"
+    },
+    "Display": {
+      "Display": "AMOLED, 6.44\", 2400 × 1080 (FullHD+), 20:9, 409 ppi, HDR10 (except V20 SE)"
+    },
+    "Cameras": {
+      "Rear camera": "V20 & 20 Pro & 20 2021 & S7t: 64 MP, f/1.9, 26 mm (wide), 1/7.2\", 0.8 µm, PDAF + 8 MP, f/2.2, 120˚, 16 mm (ultrawide), 1/4.0\", 1.12 µm, AF (V20) + 2 MP, f/2.4 (depth sensor), V20 SE: 48 MP, f/1.8, 25 mm (wide), 1/2.0\", 0.8 µm, PDAF + 8 MP, f/2.2, 16 mm (ultrawide), 1/4.0\", 1.12 µm, AF + 2 MP, f/2.4 (depth sensor), Y70: 48 MP, f/1.8, 25 mm (wide), 1/2.0\", 0.8 µm, PDAF + 2 MP, f/2.4 (macro) + 2 MP, f/2.4 (depth sensor), 2-LED dual-tone flash, HDR, panorama, Video: 4K@30fps, 1080p@30/60fps (V20), gyro-EIS (except V20 SE and Y70)",
+      "Front camera": "V20 & 20 2021: 44 MP, f/2.0 (wide), AF, V20 Pro & S7t: 44 MP, f/2.0 (wide) + 8 MP, f/2.3 (ultrawide), 1/4.0\", 1.12 µm, V20 SE: 32 MP, f/2.0 (wide), 1/2.8\", 0.8 µm, HDR, Video: 4K@30fps (V20 Pro & S7t), 1080p@30fps, gyro-EIS (except V20 SE)"
+    },
+    "Battery": {
+      "Battery": "All models: Non-removable, Li-Po, V20 & 20 Pro & 20 2021 & S7t: 4000 mAh, V20 SE: 4100 mAh",
+      "Charging": "33 W fast charging"
+    }
+  },
+  "key": {
+    "display_in": 6.44,
+    "display_type": "AMOLED",
+    "main_mp": 64,
+    "cameras": 5,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 44,
+    "battery_mah": 4000,
+    "wired_w": 33,
+    "os": "Android 11",
+    "five_g": true,
+    "weight_g": 171,
+    "thickness_mm": 7.8,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo V20",
+      "url": "https://en.wikipedia.org/wiki/Vivo_V20"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo V20\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo V20",
+    "revid": 1376389507
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

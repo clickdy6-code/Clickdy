@@ -1,0 +1,78 @@
+{
+  "slug": "sony-ericsson-xperia-x2",
+  "brand": "Sony Ericsson",
+  "name": "Xperia X2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Sony_Ericsson_Xperia_X2.jpg/500px-Sony_Ericsson_Xperia_X2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Sony_Ericsson_Xperia_X2.jpg/250px-Sony_Ericsson_Xperia_X2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia X2",
+      "credit": "Espen Irwing Swang, Mobilen.no, CC BY 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_Xperia_X2.jpg",
+      "license": "CC BY 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Sony Ericsson Xperia",
+      "Predecessor": "Sony Ericsson Xperia X1",
+      "Successor": "Sony Ericsson Xperia X10"
+    },
+    "Body": {
+      "Form factor": "Vertical arc-slider design",
+      "Dimensions": "110 × 54 × 16. mm",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "Windows Mobile 6.5 Professional",
+      "Chipset": "Qualcomm MSM7200A",
+      "CPU": "528 MHz ARM11, Adreno 130 GPU"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM, 512 MB ROM",
+      "Storage": "512 MB ROM, 110 MB user-available",
+      "Card slot": "MicroSDHC (hot-swap)"
+    },
+    "Display": {
+      "Display": "3.2-inch 16-bit color WVGA (800×480) TFT touchscreen (292 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP, WVGA @ 30 FPS, Front-facing VGA camer"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-Po 1500 mAh (BST-41)"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 2.1 + A2DP, miniUSB 2.0, 3.5mm audio jack, aGPS, Wi-Fi 802.11 b/g"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "Qualcomm MSM7200A",
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1500,
+    "nfc": false,
+    "weight_g": 155
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia X2",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_X2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia X2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia X2",
+    "revid": 1361535801
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

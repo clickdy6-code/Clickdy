@@ -1,0 +1,80 @@
+{
+  "slug": "vivo-communication-vivo-v9",
+  "brand": "Vivo Communication",
+  "name": "Vivo V9",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "April 2018",
+      "Predecessor": "Vivo V7+",
+      "Successor": "Vivo V11"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Touchscreen Smartphone",
+      "Dimensions": "154.80 x 75.00 x 7.90 cm",
+      "Weight": "150g"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 Oreo with Funtouch OS 4.0",
+      "Chipset": "Qualcomm Snapdragon 450 (V9 Indonesia) , Qualcomm Snapdragon 626 (Global)",
+      "CPU": "Octa-core 2.2 GHz Cortex-A53 (Global)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "64 GB",
+      "Card slot": "microSD, up to 256 GB"
+    },
+    "Display": {
+      "Display": "6.3 inch Full HD+"
+    },
+    "Cameras": {
+      "Rear camera": "13MP + 2MP (Indonesia) , 16MP + 5MP (Global)",
+      "Front camera": "24MP"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 3260 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 6.3,
+    "chipset": "Qualcomm Snapdragon 450",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 24,
+    "battery_mah": 3260,
+    "os": "Android 8.1",
+    "five_g": false,
+    "weight_g": 150,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo V9",
+      "url": "https://en.wikipedia.org/wiki/Vivo_V9"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo V9\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo V9",
+    "revid": 1361536934
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

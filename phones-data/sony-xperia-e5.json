@@ -1,0 +1,81 @@
+{
+  "slug": "sony-xperia-e5",
+  "brand": "Sony",
+  "name": "Xperia E5",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "June 2016",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia E4",
+      "Successor": "Sony Xperia L1"
+    },
+    "Body": {
+      "Form factor": "Rounded square slate",
+      "Dimensions": "143 mm H, 69 mm W, 8.2 mm D",
+      "Weight": "147 g",
+      "Other": "nano-SIM"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 Marshmallow",
+      "Chipset": "MediaTek MT6735",
+      "CPU": "Quad-core 64-bit",
+      "GPU": "Mali T720 MP2"
+    },
+    "Memory": {
+      "RAM": "1.5 GB RAM",
+      "Storage": "16 GB",
+      "Card slot": "Up to 200 GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.0 in 720p IPS LCD, HD 1280 x 720 px"
+    },
+    "Cameras": {
+      "Rear camera": "Single-Camera Setup, OmniVision PureCel OV13850; 13 megapixel, MP, 26mm (wide), 1/3.06\", 1.12μm, AF, Features: LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "OmniVision PureCel OV5670; 5 MP, 30mm (standard), 1/5.0\", 1.12μm, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 2300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS/BeiDou, Bluetooth 4.1, MHL 3.0, USB 2.0 (Micro-B port, USB charging), 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6735",
+    "ram_gb": [
+      5
+    ],
+    "storage_gb": [
+      16
+    ],
+    "front_mp": 5,
+    "battery_mah": 2300,
+    "os": "Android 6.0",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 147,
+    "thickness_mm": 8.2,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia E5",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_E5"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia E5\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia E5",
+    "revid": 1361536078
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

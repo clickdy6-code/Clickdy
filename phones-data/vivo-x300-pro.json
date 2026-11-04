@@ -1,0 +1,109 @@
+{
+  "slug": "vivo-x300-pro",
+  "brand": "Vivo",
+  "name": "X300 Pro",
+  "status": "published",
+  "announced": "2025-10-17",
+  "released": "2025-10-17",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/The_front_of_the_unreleased_vivo_X300_Pro.jpg/500px-The_front_of_the_unreleased_vivo_X300_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/The_front_of_the_unreleased_vivo_X300_Pro.jpg/250px-The_front_of_the_unreleased_vivo_X300_Pro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Vivo X300 Pro",
+      "credit": "X-SHLIED, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_front_of_the_unreleased_vivo_X300_Pro.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-10-17",
+      "Series": "Vivo X series",
+      "Predecessor": "Vivo X200 Pro",
+      "Successor": "Vivo X500 Pro"
+    },
+    "Network": {
+      "Technology": "GSM / HSPA / LTE / 5G",
+      "SIM": "SIM_card#Nano-SIM, Nano-SIM + SIM_card#Nano-SIM, Nano-SIM + eSIM (max 2 active, International), SIM_card#Nano-SIM, Nano-SIM + SIM_card#Nano-SIM, Nano-SIM (China)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "161.2x75.5x8 mm",
+      "Weight": "226 g",
+      "Other": "Ultrasonic under-display fingerprint sensor, noise-canceling microphones, vapor chamber cooling system, satellite connectivity support (optional)"
+    },
+    "Platform": {
+      "Operating system": "Android 16 with OriginOS 6",
+      "Chipset": "MediaTek Dimensity 9500 (3 nm)",
+      "CPU": "Octa-core (1×4.21 GHz C1-Ultra, 3×3.5 GHz C1-Premium, 4×2.7 GHz C1-Pro)",
+      "GPU": "Arm G1-Ultra"
+    },
+    "Memory": {
+      "RAM": "12 GB or 16 GB LPDDR5X",
+      "Storage": "256 GB, 512 GB or 1 TB (UFS 4.1)"
+    },
+    "Display": {
+      "Display": "6.78 in LTPO OLED, 1B colors, 1260 × 2800 px @ 120 Hz, HDR10, HDR Vivid, Dolby Vision, Up to 4500 nits (peak), ~1600 nits (HBM), Armor Glass"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, 1.6, 24 mm (Wide-angle lens, wide), Autofocus#Phase_detection, PDAF, Image_stabilization#Optical_image_stabilization, OIS (Sony LYT-828), 200 MP, 2.7, 85 mm (Telephoto lens, telephoto), Autofocus#Phase_detection, PDAF, Image_stabilization#Optical_image_stabilization, OIS, 3.7× optical zoom (Samsung ISOCELL), 50 MP, 2.0, 15 mm (Ultra wide angle lens, ultrawide camera), AF (Samsung S5KJN1), Rear video: 8K@30 Frame rate, fps, 4K_resolution, 4K@30/60/120 fps, 1080p@30/60/120/240 fps, Image_stabilization#Digital_image_stabilization, gyro-EIS, Dolby Vision HDR",
+      "Front camera": "50 MP, 2.0, 20 mm (wide), AF (Samsung S5KJN1), Front video: 4K_resolution, 4K@30/60 fps, 1080p@30/60 fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 24-bit/192 kHz Hi-Res audio"
+    },
+    "Battery": {
+      "Battery": "6510 Ampere-hour, mAh (Silicon-carbon battery, Si/C) Global, 5440 Ampere-hour, mAh EU",
+      "Charging": "90 W wired (USB_hardware#USB_Power_Delivery, PD3.0), 40 W Inductive charging, wireless, Reverse wired, Reverse wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 6E (802.11 a/b/g/n/ac/6/7), Bluetooth 5.4 (A2DP, LE, aptX HD, LHDC 5), NFC, Infrared port, USB-C 3.2 OTG, GPS (L1+L5), GLONASS, BDS, Galileo, QZSS, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "display_type": "LTPO OLED",
+    "refresh_hz": 120,
+    "peak_nits": 4500,
+    "chipset": "MediaTek Dimensity 9500",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 3,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@30fps",
+    "front_mp": 50,
+    "wired_w": 90,
+    "os": "Android 16",
+    "five_g": true,
+    "nfc": true,
+    "wifi": "Wi-Fi 6E",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 226,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X300 Pro",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X300_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X300 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X300 Pro",
+    "revid": 1376159363
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

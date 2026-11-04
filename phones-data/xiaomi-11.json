@@ -1,0 +1,90 @@
+{
+  "slug": "xiaomi-11",
+  "brand": "Xiaomi",
+  "name": "11",
+  "status": "published",
+  "announced": "2020-12-28",
+  "released": "2020-12-28",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Xiaomi_Mi_11_front.jpg/500px-Xiaomi_Mi_11_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Xiaomi_Mi_11_front.jpg/250px-Xiaomi_Mi_11_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 11",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_11_front.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-12-28",
+      "Series": "Mi",
+      "Predecessor": "Xiaomi Mi 10",
+      "Successor": "Xiaomi 12"
+    },
+    "Network": {
+      "Technology": "LTE-FDD, LTE-TDD, WCDMA, GSM, 5G NR"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "Height: 164.3 mm (6.47 inches), Width: 74.6 mm (2.94 inches), Thickness of glass plate: 8.06 mm (0.317 inches), Plain leather version thickness: 8.56 mm (0.337 inches)",
+      "Other": "Face recognition, screen fingerprint recognition, QC 4+/QC3+/PD3.0 55w wired fast charging, 50w wireless fast charging, 10w wireless reverse charging"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI 12 based on Android 11, Current: Xiaomi HyperOS 2 based on Android 14",
+      "Chipset": "Qualcomm Snapdragon 888 (SM8350)",
+      "CPU": "Qualcomm® Kryo™ 680, 1x 2.84GHz+3×2.42GHz+4x 1.80GHz",
+      "GPU": "Qualcomm® Adreno™ 660 (840MHz)"
+    },
+    "Memory": {
+      "RAM": "8 or 12 LPDDR5-6400 RAM",
+      "Storage": "128/256GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "3200×1440 3K (4.6 MP) AMOLED flexible screen, 6.81 inches, HDR10+, DCI-P3, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Main lens: Samsung S5KHMX 1/1.33 inch 0.8μ (four to one 1.6μ) 108 million pixels F/1.85, Ultra-wide-angle lens: OmniVision Technologies OV13B10 123° wide-angle 13 million pixels F/2.4, Telephoto macro lens: Samsung S5K5E9 5 million pixels",
+      "Front camera": "Samsung S5K3T2 20 million pixels"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers tuned by Harman Kardon, lower main microphone, upper noise reduction microphone"
+    },
+    "Battery": {
+      "Battery": "4600mah, not removable"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac/6 (2.4 & 5GHz), dual-band, WiFi Direct, hotspot Bluetooth V5.2, A2DP, Low-energy, aptX HD, aptX Adaptive"
+    }
+  },
+  "key": {
+    "display_in": 6.81,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 888",
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 4600,
+    "os": "Android 11",
+    "five_g": true,
+    "nfc": false,
+    "thickness_mm": 8.06,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 11",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_11"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 11\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 11",
+    "revid": 1382447192
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

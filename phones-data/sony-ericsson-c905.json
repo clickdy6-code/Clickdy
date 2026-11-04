@@ -1,0 +1,80 @@
+{
+  "slug": "sony-ericsson-c905",
+  "brand": "Sony Ericsson",
+  "name": "C905",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/C905_front.jpg/500px-C905_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/C905_front.jpg/250px-C905_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson C905",
+      "credit": "User:Rigelt, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:C905_front.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2008-10",
+      "Series": "Cyber-Shot series",
+      "Predecessor": "Sony Ericsson K850",
+      "Successor": "Sony Ericsson Satio"
+    },
+    "Network": {
+      "Technology": "GSM 900/850/1800/1900 and UMTS and HSDPA and EDGE",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Slider",
+      "Dimensions": "4.1 × 1.9 × 0.7 in., 104.0 × 49.0 × 18.0 mm",
+      "Weight": "4.8 oz, 136.0 g"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson’s proprietary OS"
+    },
+    "Memory": {
+      "RAM": "160 MB Internal, Memory Stick Micro (M2)",
+      "Storage": "160 MB"
+    },
+    "Display": {
+      "Display": "240x320 pixels (QVGA), 2.4\", 262,144 (6-bit) color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "8.1 megapixel with AF, geotagging and face recognition"
+    },
+    "Battery": {
+      "Battery": "BST-38 930mAh Li-Poly battery (user-replaceable)",
+      "Charging": "Fast Port (proprietary) charging up to 5W"
+    },
+    "Connectivity": {
+      "Connectivity": "HSDPA, Wi-Fi b/g, 3G, USB 2.0, Bluetooth 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 930,
+    "wired_w": 5,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 136,
+    "year": 2008
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson C905",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_C905"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson C905\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson C905",
+    "revid": 1362585903
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

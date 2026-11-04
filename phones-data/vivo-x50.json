@@ -1,0 +1,91 @@
+{
+  "slug": "vivo-x50",
+  "brand": "Vivo",
+  "name": "X50",
+  "status": "published",
+  "announced": "2020-06-06",
+  "released": "2020-06-06",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "X50 5G:, 2020-06-06, X50 Pro:, 2020-06-12, X50 Pro+:, 2020-07-11, X50 4G:, 2020-07-16, X51:, 2020-10-23",
+      "Series": "X",
+      "Predecessor": "Vivo X30",
+      "Successor": "Vivo X60"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G and 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "X50:, 159.5 x 75.4 x 7.5 mm, X50 Pro/X50 Pro+:, 158.5 x 72.8 x 8 mm",
+      "Weight": "X50:, 173-174.5 g, X50 Pro/X50 Pro+:, 182 g"
+    },
+    "Platform": {
+      "Operating system": "Funtouch OS, (based on Android 10)",
+      "Chipset": "X50 4G:, Qualcomm Qualcomm Snapdragon, Snapdragon List of Qualcomm Snapdragon systems-on-chip#Snapdragon 720G, 730/730G and 765/765G/768G (2019/20), 730, X50 5G/X50 Pro:, Qualcomm Snapdragon 765G, X50 Pro+:, Qualcomm Snapdragon List of Qualcomm Snapdragon systems-on-chip#Snapdragon 865 (2020), 865",
+      "CPU": "Octa-core, X50 4G:, (2x2.2 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver), X50 5G/X50 Pro:, (1x2.4 GHz Kryo 475 Prime & 1x2.2 GHz Kryo 475 Gold & 6x1.8 GHz Kryo 475 Silver), X50 Pro+:, (1x2.84 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585)",
+      "GPU": "X50 4G:, Adreno 618, X50 5G/X50 Pro:, Adreno 620, X50 Pro+:, Adreno 650"
+    },
+    "Memory": {
+      "RAM": "X50/X50 Pro:, 8 Gigabyte, GB LPDDR4X RAM, X50 Pro+:, 8 or 12 GB LPDDR5 RAM",
+      "Storage": "128 GB or 256 GB, X50/X50 Pro:, Universal Flash Storage, UFS 2.1, X50 Pro+:, UFS 3.0"
+    },
+    "Display": {
+      "Display": "AMOLED capacitive touchscreen with HDR10+ support, 6.56 in 1080p (2.5 MP), (398 ppi with 19.8:9 aspect ratio), 16M colors, X50/X50 Pro:, 90 Hertz, Hz refresh rate, X50 Pro+:, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "X50:, 48 MP, f/1.6 (wide) + 8 MP, f/2.2, 16 mm, 1/4\", 1.12 μm (ultrawide) + 13 MP, f/2.5, 50 mm, 1/2.8\", 0.8 μm (portrait) + 5 MP, f/2.5 (macro), 2x optical zoom, Autofocus#Phase detection, PDAF, Image stabilization#Optical image stabilization, OIS, X50 Pro:, 48 MP, f/1.6 (wide) + 8 MP, f/2.2, 16 mm, 1/4\", 1.12 μm (ultrawide) + 13 MP, f/2.5, 50 mm, 1/2.8\", 0.8 μm (portrait) + 8 MP, f/3.4, 135 mm, 1/4\" (telephoto), 5x optical zoom, PDAF, gimbal OIS, X50 Pro+:, 50 MP, f/1.9, 1/1.31\", 1.2 μm (wide) + 8 MP, f/2.2, 16 mm, 1/4\", 1.12 μm (ultrawide) + 13 MP, f/2.5, 50 mm, 1/2.8\", 0.8 μm (portrait) + 8 MP, f/3.0, 135 mm, 1/4\" (telephoto), 5x optical zoom, Dual Pixel PDAF, OIS, All: Gyro-Image stabil",
+      "Front camera": "32 MP, f/2.5, 26mm, 1/2.8\", 0.8 μm , 1080p@30 fps, HDR"
+    },
+    "Sound": {
+      "Sound": "Mono speaker"
+    },
+    "Battery": {
+      "Battery": "X50:, 4200 mAh, X50 Pro/X50 Pro+:, 4315 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth#Bluetooth 5.1, Bluetooth 5.1, Wi-Fi a/b/g/n/ac, A2DP, LE, aptX HD"
+    }
+  },
+  "key": {
+    "display_in": 6.56,
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "chipset": "X50 4G:",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 48,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 32,
+    "battery_mah": 4200,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 174.5,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X50",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X50"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X50\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X50",
+    "revid": 1375585775
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

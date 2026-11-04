@@ -1,0 +1,85 @@
+{
+  "slug": "sharp-aquos-phone-ex-sh-04e",
+  "brand": "Sharp",
+  "name": "Aquos Phone EX SH-04E",
+  "status": "published",
+  "announced": "2013-01-25",
+  "released": "2013-01-25",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-01-25",
+      "Series": "AQUOS PHONE",
+      "Predecessor": "AQUOS PHONE si SH-01E"
+    },
+    "Network": {
+      "Technology": "3G: FOMA (W-CDMA), 2G: GSM, Data: 3.9G (Xi), 3G (HSDPA, HSUPA), 2G (GSM), Wi-Fi (IEEE 802.11b/g/n)",
+      "SIM": "docomo Pink miniUIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "128 mm H , 64 mm W , 10.9 mm D",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1.2",
+      "Chipset": "Qualcomm Snapdragon S4 Pro APQ8064",
+      "CPU": "1.5 GHz quad-core",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB ROM (approx. 11.6 GB user accessible)",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 64 GB)"
+    },
+    "Display": {
+      "Display": "4.5 in (110 mm) S-CG Silicon TFT LCD, HD (1280 × 720 pixels), 16,777,216 colors"
+    },
+    "Cameras": {
+      "Rear camera": "13.1 MP back-illuminated CMOS, optical image stabilization, facial recognition, voice-activated shutter",
+      "Front camera": "1.2 MP back-illuminated CMOS"
+    },
+    "Battery": {
+      "Battery": "2,000 mAh",
+      "Charging": "Qi wireless charging"
+    }
+  },
+  "key": {
+    "display_in": 4.5,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S4 Pro APQ8064",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      6,
+      16
+    ],
+    "main_mp": 13.1,
+    "cameras": 1,
+    "ois": true,
+    "telephoto": false,
+    "front_mp": 1.2,
+    "battery_mah": 2000,
+    "os": "Android 4.1",
+    "five_g": false,
+    "weight_g": 145,
+    "thickness_mm": 10.9,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sharp Aquos Phone EX SH-04E",
+      "url": "https://en.wikipedia.org/wiki/Sharp_Aquos_Phone_EX_SH-04E"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sharp Aquos Phone EX SH-04E\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sharp Aquos Phone EX SH-04E",
+    "revid": 1379543217
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

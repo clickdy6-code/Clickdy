@@ -1,0 +1,87 @@
+{
+  "slug": "sony-ericsson-xperia-active",
+  "brand": "Sony",
+  "name": "Ericsson Xperia Active",
+  "status": "published",
+  "announced": "2011-10-01",
+  "released": "2011-10-01",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xperia_Active.jpg/500px-Xperia_Active.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Xperia_Active.jpg/250px-Xperia_Active.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Xperia Active",
+      "credit": "heipei, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xperia_Active.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2011-10-01",
+      "Series": "Sony Xperia",
+      "Successor": "Sony Xperia Go"
+    },
+    "Network": {
+      "Technology": "UMTS/HSPA"
+    },
+    "Body": {
+      "Form factor": "Slate Smartphone (Orange/Black, White/Black)",
+      "Dimensions": "92.0 mm H , 55.0 mm W , 16.5 mm D",
+      "Weight": "110.8 g",
+      "Other": "Sound Single loudspeaker Sony xLOUD enhancement , 3.5 mm TRRS , Messaging SMS (threaded view), MMS, Email, Push email, IM , Browser HTML, Adobe Flash , Radio Stereo FM radio with RDS , GPS with A-GPS support , Java via Java MIDP emulator , – Dust and water resistant , – Flashlight , – SNS integration , – TrackID music recognition , – Google Search, Maps, Gmail, YouTube, Calendar, Google Talk , – Document viewer , – Voice memo , – Predictive text input"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.4 (Gingerbread);, Officially upgradeable up to Android 4.0.4 (Ice Cream Sandwich);, Unofficially upgradeable to:, Android 4.0.4 (Ice Cream Sandwich) via CyanogenMod 9, Android 4.1.2 (JellyBean) via CyanogenMod 10, Android 4.2.2 (JellyBean) via CyanogenMod 10.1, Android 4.3.1 (JellyBean) via CyanogenMod 10.2, Android 4.4.2 (Kitkat) via CyanogenMod 11",
+      "CPU": "Qualcomm MSM 8255 1 GHz Scorpion (Snapdragon)",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "RAM": "512 MB",
+      "Storage": "1 GB (320 MB available to user)",
+      "Card slot": "microSDHC, 2 GB (supports up to 32 GB)"
+    },
+    "Display": {
+      "Display": "LED-backlit LCD \"Reality Display\" with Mobile BRAVIA Engine, 3.0 in diagonal , 320×480 px HVGA , 3:2 aspect-ratio , 16M colors , Protection Scratch-resistant glass , – Touch sensitive controls , – Timescape UI"
+    },
+    "Cameras": {
+      "Rear camera": "5 MP 2592×1944 px, 8× digital zoom, Autofocus, Flash LED illumination, 720p HD video recording, Face recognition, Geo-tagging, Image and video stabilizer, Smile detection, Touch focus, Video 720p HD (Android 2.3)"
+    },
+    "Battery": {
+      "Battery": "EP500 , 1,200 mAh 4.5 Wh, 3.7 V , Internal rechargeable li-po , User replaceable , Stand-by Up to 351 h (2G) / Up to 335 h (3G) , Talk time Up to 4 h 53 min (2G) / Up to 5 h 31 min (3G) , Music play Up to 25 h"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g/n) , Bluetooth 2.1 + EDR, Quad-band GSM/GPRS/EDGE , 850/900/1800/1900 MHz, ST17a model: tri-band UMTS/HSPA , 850/1900/2100 MHz, ST17i model: dual-band UMTS/HSPA , 900/2100 MHz"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "LCD",
+    "main_mp": 5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "720p",
+    "battery_mah": 1200,
+    "os": "Android 2.3",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 110.8,
+    "thickness_mm": 16.5,
+    "year": 2011
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Xperia Active",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Xperia_Active"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Xperia Active\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Xperia Active",
+    "revid": 1363114593
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

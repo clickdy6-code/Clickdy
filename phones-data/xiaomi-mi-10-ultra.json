@@ -1,0 +1,101 @@
+{
+  "slug": "xiaomi-mi-10-ultra",
+  "brand": "Xiaomi",
+  "name": "Mi 10 Ultra",
+  "status": "published",
+  "announced": "2020-08-16",
+  "released": "2020-08-16",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Xiaomi_Mi_10_Ultra_back.jpg/500px-Xiaomi_Mi_10_Ultra_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Xiaomi_Mi_10_Ultra_back.jpg/250px-Xiaomi_Mi_10_Ultra_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi 10 Ultra",
+      "credit": "30000lightyears, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Mi_10_Ultra_back.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-08-16",
+      "Series": "Mi",
+      "Predecessor": "Xiaomi Mi 9 Pro",
+      "Successor": "Xiaomi Mi 11 Ultra"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, 5G"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.4 mm H, 75.1 mm W, 9.5 mm D",
+      "Weight": "221.8 g"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI 12 based on Android 10, Current: Xiaomi HyperOS based on Android 13",
+      "Chipset": "Qualcomm Snapdragon 865",
+      "CPU": "Octa-core Kryo 585 (1x 2.84 GHz + 3x 2.42 GHz + 4x 1.8 GHz)",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "RAM": "8, 12 GB or 16 GB LPDDR5 RAM",
+      "Storage": "128 GB, 256 GB or 512 GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "6.67 inches, 1080 x 2340 pixels (2.5 MP), (386 ppi), OLED touchscreen, 1B colors , HDR10+, DCI-P3, 120 Hz refresh rate"
+    },
+    "Cameras": {
+      "Rear camera": "Quad-Camera Setup, Primary: OmniVision OV48C; 48 MP, 25mm, FoV 82°, 1/1.32\", 1.2 μm, PDAF, OIS, Periscope Telephoto: Sony IMX 586; 48 MP, 120mm, 1/2.32\", 0.8 μm, PDAF, OIS, 5x optical zoom, Telephoto: Samsung ISOCELL Fast S5K2L7; 12 MP, 50mm, 1/2.55\", 1.4 μm, dual pixel PDAF, 2x optical zoom, Ultrawide: Sony IMX 350; 20 MP, 12mm, FoV 128°, 1/2.78\", 1.0 μm, PDAF, Features: Laser AF, color spectrum sensor, Dual-LED flash, HDR, panorama, Video: 8K@24fps, 4K@30/60fps, 1080p@30/60/120/240/960fps, gyro-EIS, HDR10 rec.",
+      "Front camera": "Samsung ISOCELL Slim S5K3T2; 20 MP, (wide), 1/3.4\", 0.8μm, Features: HDR, Video: 1080p@30fps, 720p@120fps, gyro-EIS"
+    },
+    "Battery": {
+      "Battery": "4500 mAh, 120W wired fast charging, 50W wireless fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11a/b/g/n/ac/6 (2.4 & 5GHz), dual-band, WiFi Direct, DLNA, hotspot, Bluetooth V5.1, A2DP, Low-energy, aptX HD, aptX Adaptive"
+    }
+  },
+  "key": {
+    "display_in": 6.67,
+    "display_type": "OLED",
+    "refresh_hz": 120,
+    "chipset": "Qualcomm Snapdragon 865",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      128,
+      256,
+      512
+    ],
+    "main_mp": 48,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 20,
+    "battery_mah": 4500,
+    "wireless_w": 50,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 221.8,
+    "thickness_mm": 9.5,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 10 Ultra",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_10_Ultra"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 10 Ultra\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 10 Ultra",
+    "revid": 1361537334
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

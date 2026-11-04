@@ -1,0 +1,75 @@
+{
+  "slug": "zte-max-duo",
+  "brand": "ZTE",
+  "name": "Max Duo",
+  "status": "published",
+  "announced": "2015-08-07",
+  "released": "2015-08-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/ZTE_Max_Duo_LTE.jpg/500px-ZTE_Max_Duo_LTE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/ZTE_Max_Duo_LTE.jpg/250px-ZTE_Max_Duo_LTE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "ZTE Max Duo",
+      "credit": "DeAllenWeten, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ZTE_Max_Duo_LTE.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015-08-07"
+    },
+    "Body": {
+      "Form factor": "Phablet",
+      "Dimensions": "165.1 mm H , 83.8 mm W , 9.1 mm D",
+      "Weight": "183 g"
+    },
+    "Platform": {
+      "Operating system": "Original & Current: Android 5.1.1 Lollipop"
+    },
+    "Memory": {
+      "Storage": "16 GB and 2 GB of RAM"
+    },
+    "Display": {
+      "Display": "5.8 in 4096×3072 , GSM, CDMA"
+    },
+    "Cameras": {
+      "Rear camera": "dual; 13 MP & 2 MP",
+      "Front camera": "5 MP"
+    },
+    "Battery": {
+      "Battery": "3500 mAh (13.1Wh)"
+    }
+  },
+  "key": {
+    "display_in": 5.8,
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 5,
+    "battery_mah": 3500,
+    "os": "Android 5.1",
+    "weight_g": 183,
+    "thickness_mm": 9.1,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE Max Duo",
+      "url": "https://en.wikipedia.org/wiki/ZTE_Max_Duo"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE Max Duo\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE Max Duo",
+    "revid": 1361537729
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

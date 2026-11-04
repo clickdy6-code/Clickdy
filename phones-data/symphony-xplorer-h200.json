@@ -1,0 +1,78 @@
+{
+  "slug": "symphony-xplorer-h200",
+  "brand": "Symphony",
+  "name": "Xplorer H200",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2015, January",
+      "Series": "Xplorer"
+    },
+    "Network": {
+      "Technology": "2G, 3G"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "137 X 68 X 8.1 mm",
+      "Weight": "137 gram"
+    },
+    "Platform": {
+      "Operating system": "Android v4.4.2 KitKat",
+      "CPU": "1.3 GHz Quad Core/MT 6582 M"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16GB",
+      "Card slot": "up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.7 inch"
+    },
+    "Cameras": {
+      "Rear camera": "13 MP",
+      "Front camera": "8 MP"
+    },
+    "Battery": {
+      "Battery": "1800 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, Bluetooth, USB"
+    }
+  },
+  "key": {
+    "display_in": 4.7,
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 1800,
+    "five_g": false,
+    "nfc": false,
+    "year": 2015
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Symphony Xplorer H200",
+      "url": "https://en.wikipedia.org/wiki/Symphony_Xplorer_H200"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Symphony Xplorer H200\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Symphony Xplorer H200",
+    "revid": 1361536560
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

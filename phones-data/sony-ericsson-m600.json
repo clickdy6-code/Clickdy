@@ -1,0 +1,62 @@
+{
+  "slug": "sony-ericsson-m600",
+  "brand": "Sony Ericsson",
+  "name": "M600",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Sony_Ericsson_M600.jpg/500px-Sony_Ericsson_M600.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Sony_Ericsson_M600.jpg/250px-Sony_Ericsson_M600.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson M600",
+      "credit": "Julio Aguiar, CC BY 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_M600.jpg",
+      "license": "CC BY 2.0"
+    }
+  ],
+  "specs": {
+    "Body": {
+      "Dimensions": "105 x 54 x 15 (4.1 x 0.6 x 2.1 inches)",
+      "Weight": "112 g (4 oz)"
+    },
+    "Platform": {
+      "Operating system": "UIQ 3.0 / Symbian OS v9.1",
+      "CPU": "32-bit ARM9 based @ 208 MHz"
+    },
+    "Memory": {
+      "RAM": "60 MB",
+      "Card slot": "Memory Stick Micro (\"M2\")"
+    },
+    "Display": {
+      "Display": "240x320 (QVGA) illuminated TFT, 262,000 colors"
+    },
+    "Cameras": {
+      "Rear camera": "no"
+    },
+    "Battery": {
+      "Battery": "900 mAh Li-Polymer 3.6 Volt"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "battery_mah": 900,
+    "os": "Symbian OS v9.1",
+    "weight_g": 112
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson M600",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_M600"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson M600\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson M600",
+    "revid": 1361484063
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

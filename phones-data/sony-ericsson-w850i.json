@@ -1,0 +1,79 @@
+{
+  "slug": "sony-ericsson-w850i",
+  "brand": "Sony",
+  "name": "Ericsson W850i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sony_Ericsson_W850i_front_side_%28German%29_ed.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sony_Ericsson_W850i_front_side_%28German%29_ed.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Sony Ericsson W850i",
+      "credit": "image by TimoZ, edited by myself, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W850i_front_side_(German)_ed.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2006",
+      "Predecessor": "Sony Ericsson W600",
+      "Successor": "Sony Ericsson W580i (W830c)"
+    },
+    "Network": {
+      "Technology": "UMTS 2100 / GSM 900/1800/1900 (no 3G in the states)"
+    },
+    "Body": {
+      "Dimensions": "98 x",
+      "Weight": "116 g"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson proprietary OS"
+    },
+    "Memory": {
+      "RAM": "16 MB Internal",
+      "Card slot": "Memory Stick PRO Duo"
+    },
+    "Display": {
+      "Display": "240×320 pixels (~200 ppi), 262,144 (18-bit) Color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2MP, LED flash",
+      "Front camera": "Yes"
+    },
+    "Battery": {
+      "Battery": "Removable 950 mAh Li-Ion battery"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, Bluetooth v2.0, IrDA, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 2,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 950,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 116,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W850i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W850i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W850i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W850i",
+    "revid": 1361535699
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

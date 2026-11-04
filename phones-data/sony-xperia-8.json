@@ -1,0 +1,90 @@
+{
+  "slug": "sony-xperia-8",
+  "brand": "Sony",
+  "name": "Xperia 8",
+  "status": "published",
+  "announced": "2019-10-07",
+  "released": "2019-10-07",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-10-07",
+      "Series": "Sony Xperia",
+      "Successor": "Sony Xperia 10 II"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, WiMAX, WiMAX 2+ (au/Okinawa Cellular and UQ Mobile models only)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158 mm H, 69 mm W, 8.1 mm D",
+      "Weight": "170 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9 \"Pie\", Current: Android 10",
+      "Chipset": "Qualcomm Snapdragon 630",
+      "CPU": "Octa-core (2.2 GHz Cortex-A53)",
+      "GPU": "Adreno 508"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X RAM",
+      "Storage": "eMMC 5.1, 64 GB",
+      "Card slot": "microSD, expandable up to 512 GB"
+    },
+    "Display": {
+      "Display": "6 in 1080p (2520 x 1080) IPS LCD, ~457 pixel density, Gorilla Glass 5"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.8 (wide) , 8 MP, f/2.4",
+      "Front camera": "8 MP, f/2.0, 24mm (wide), 1/4\", 1.0 μm, 1080p@30fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Xperia 8: 2760 mAh, Xperia 8 Lite: 2870 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5GHz), Bluetooth 5.0, USB-C, NFC, GPS with Assisted GPS, GLONASS, Mobile FeliCa/Osaifu-Keitai"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 630",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2760,
+    "os": "Android 9",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 170,
+    "thickness_mm": 8.1,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 8",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_8"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 8\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 8",
+    "revid": 1361536009
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

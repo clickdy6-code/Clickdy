@@ -1,0 +1,69 @@
+{
+  "slug": "siemens-s65",
+  "brand": "Siemens",
+  "name": "S65",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Siemens_S65_AF.jpg/500px-Siemens_S65_AF.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Siemens_S65_AF.jpg/250px-Siemens_S65_AF.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Siemens S65",
+      "credit": "Afrank99, CC BY-SA 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_S65_AF.jpg",
+      "license": "CC BY-SA 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2004",
+      "Series": "Siemens S-Class Series",
+      "Predecessor": "Siemens S55",
+      "Successor": "Siemens S75"
+    },
+    "Network": {
+      "Technology": "900, 1800, 1900 MHz"
+    },
+    "Body": {
+      "Dimensions": "109 x 48 x 18 mm = 94 cm³",
+      "Weight": "98g"
+    },
+    "Platform": {
+      "Operating system": "Siemens properties X65 platform"
+    },
+    "Memory": {
+      "RAM": "10 MB, RS-MMC hot swapping slot."
+    },
+    "Display": {
+      "Display": "132 x 176 px TFT, 65.000 colors (16 bit)"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 Megapixel"
+    },
+    "Connectivity": {
+      "Connectivity": "SMS, EMS, MMS, E-Mail, T9, IrDA, Bluetooth, GPRS (Class 10), WAP, Data & Fax modem"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "nfc": false,
+    "weight_g": 98,
+    "year": 2004
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens S65",
+      "url": "https://en.wikipedia.org/wiki/Siemens_S65"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens S65\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens S65",
+    "revid": 1378445592
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

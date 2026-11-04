@@ -1,0 +1,85 @@
+{
+  "slug": "sony-xperia-xa-ultra",
+  "brand": "Sony",
+  "name": "Xperia XA Ultra",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "July 2016",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia C5 Ultra",
+      "Successor": "Sony Xperia XA1"
+    },
+    "Network": {
+      "SIM": "NanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "164 mm H, 79 mm W, 8.4 mm D",
+      "Weight": "202 g"
+    },
+    "Platform": {
+      "Operating system": "Android 6.0.1 Marshmallow, Android 7.0 Nougat (some variants)",
+      "Chipset": "MediaTek MT6755 (Helio P10)"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "16 GB",
+      "Card slot": "MicroSDXC (up to 200 GB)"
+    },
+    "Display": {
+      "Display": "6.0 in 1080p IPS LCD HD 1280 × 720 px"
+    },
+    "Cameras": {
+      "Rear camera": "21.5 MP, hybrid autofocus, 5 × clear image zoom",
+      "Front camera": "16 MP, wide-angle 88° lens, LED flash, optical image stabilization"
+    },
+    "Battery": {
+      "Battery": "2700 mAh Li-ion (non-user-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, DLNA, GPS/GLONASS/BeiDou, Bluetooth 4.1, USB 2.0 (Micro-B port, USB charging), USB OTG, 3.5 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6755",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      16
+    ],
+    "main_mp": 21.5,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 16,
+    "battery_mah": 2700,
+    "os": "Android 6.0",
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 202,
+    "thickness_mm": 8.4,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia XA Ultra",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_XA_Ultra"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia XA Ultra\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia XA Ultra",
+    "revid": 1361536260
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

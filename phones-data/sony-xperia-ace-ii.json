@@ -1,0 +1,87 @@
+{
+  "slug": "sony-xperia-ace-ii",
+  "brand": "Sony",
+  "name": "Xperia Ace II",
+  "status": "published",
+  "announced": "2021-05-19",
+  "released": "2021-05-19",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2021-05-19",
+      "Series": "Xperia",
+      "Predecessor": "Sony Xperia Ace",
+      "Successor": "Sony Xperia Ace III"
+    },
+    "Network": {
+      "Technology": "GSM, 3G, 4G (LTE)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "140 mm H, 69 mm W, 8.9 mm D",
+      "Weight": "159 g"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 11",
+      "CPU": "MediaTek Helio P35 , (Cortex-A53 8×2.3 GHz) 8 cores",
+      "GPU": "IMG PowerVR GE8320"
+    },
+    "Memory": {
+      "RAM": "4 GB",
+      "Storage": "64 GB",
+      "Card slot": "microSDXC (up to 1 TB)"
+    },
+    "Display": {
+      "Display": "IPS TFT 5.5 in, 1496 × 720, (720p), 302 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP main + 2 MP depth sensor",
+      "Front camera": "8 MP, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "Non-removable, Li-Po 4500 mAh",
+      "Charging": "Qualcomm Quick Charge 3.0"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5 GHz), Bluetooth 5.0, USB-C, GPS with A-GPS, Mobile FeliCa/Osaifu-Keitai, GLONASS"
+    }
+  },
+  "key": {
+    "display_in": 5.5,
+    "display_type": "IPS",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 4500,
+    "os": "Android 11",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 159,
+    "thickness_mm": 8.9,
+    "year": 2021
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia Ace II",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_Ace_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia Ace II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia Ace II",
+    "revid": 1361536017
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

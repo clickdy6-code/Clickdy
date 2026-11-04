@@ -1,0 +1,99 @@
+{
+  "slug": "sony-xperia-xa1",
+  "brand": "Sony",
+  "name": "Xperia XA1",
+  "status": "published",
+  "announced": "2017-03-31",
+  "released": "2017-03-31",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Sony_Xperia_XA1_G3121_front_view.jpg/500px-Sony_Xperia_XA1_G3121_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Sony_Xperia_XA1_G3121_front_view.jpg/250px-Sony_Xperia_XA1_G3121_front_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia XA1",
+      "credit": "Bmw210, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperia_XA1_G3121_front_view.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2017-03-31 (HK)",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia XA",
+      "Successor": "Sony Xperia XA2"
+    },
+    "Network": {
+      "Technology": "HSPA, GSM & LTE",
+      "SIM": "Micro"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145 mm H, 67 mm W, 8 mm D",
+      "Weight": "143 g"
+    },
+    "Platform": {
+      "Operating system": "Android 7.0 \"Nougat\" (Upgradable to Android 8.0 \"Oreo\")",
+      "Chipset": "MediaTek MT6757 (Helio P20)",
+      "CPU": "Octa-core 64-bit (4x Cortex A53 2.3Ghz-4x Cortex A53 1.6Ghz)",
+      "GPU": "Mali T880 MP2"
+    },
+    "Memory": {
+      "RAM": "3 GB",
+      "Storage": "32 GB",
+      "Card slot": "Up to 256GB microSDXC"
+    },
+    "Display": {
+      "Display": "5.0 in 720p IPS LCD, HD (1280x720 px), Super-Vivid Mode, Image enhancement"
+    },
+    "Cameras": {
+      "Rear camera": "23 MP, 1/2.3 memory-stacked IMX-300 image sensor, Exmor RS for mobile (1.12μm), LED flash, Hybrid Autofocus, Quick Launch & Capture, 5x Clear Image Zoom, 24mm Wide Angle Lens, f/2.0 , Full HD 1080p@30fps video recording, SteadyShot",
+      "Front camera": "8 MP 1/4 Exmor RS for mobile camera sensor, 23mm Wide Angle Lens and f/2.0 aperture, SteadyShot"
+    },
+    "Battery": {
+      "Battery": "non-user removable Li-ion 2300 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, NFC, GPS/GLONASS, Bluetooth 4.2, USB 2.0 (Type-C port, USB charging, Quick Charge Pump Express Plus 2.0), 3.50 mm headphone jack"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6757",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 23,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 8,
+    "battery_mah": 2300,
+    "os": "Android 7.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 143,
+    "thickness_mm": 8,
+    "year": 2017
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia XA1",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_XA1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia XA1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia XA1",
+    "revid": 1382204833
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

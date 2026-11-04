@@ -1,0 +1,74 @@
+{
+  "slug": "tecno-pova-6-pro",
+  "brand": "Tecno",
+  "name": "Pova 6 Pro",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2024, April 04",
+      "Predecessor": "Tecno Pova 5 Pro"
+    },
+    "Network": {
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Weight": "195 g"
+    },
+    "Platform": {
+      "Operating system": "Android 14, HIOS 14",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "RAM": "8GB, 12GB",
+      "Storage": "256GB",
+      "Card slot": "microSDXC"
+    },
+    "Cameras": {
+      "Rear camera": "108 MP",
+      "Front camera": "32 MP"
+    },
+    "Battery": {
+      "Battery": "6000 mAh, non-removable",
+      "Charging": "70W wired"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      8,
+      12
+    ],
+    "storage_gb": [
+      256
+    ],
+    "main_mp": 108,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 32,
+    "battery_mah": 6000,
+    "wired_w": 70,
+    "os": "Android 14",
+    "weight_g": 195,
+    "year": 2024
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Tecno Pova 6 Pro",
+      "url": "https://en.wikipedia.org/wiki/Tecno_Pova_6_Pro"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Tecno Pova 6 Pro\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Tecno Pova 6 Pro",
+    "revid": 1383366707
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

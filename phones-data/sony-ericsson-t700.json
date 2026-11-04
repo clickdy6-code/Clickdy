@@ -1,0 +1,51 @@
+{
+  "slug": "sony-ericsson-t700",
+  "brand": "Sony",
+  "name": "Ericsson T700",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson T650"
+    },
+    "Network": {
+      "Technology": "GSM/GPRS/EDGE 850/900/1800/1900, UMTS/HSDPA 2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "48.0 x 104.0 x 10.0 mm",
+      "Weight": "78 g"
+    },
+    "Memory": {
+      "RAM": "16 MB Internal, 1 Memory Stick Micro slot, 512MB Memory Stick Micro included"
+    },
+    "Display": {
+      "Display": "240x320 pixels (QCIF+), 262,144 (18-bit) Color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "weight_g": 78
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson T700",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_T700"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson T700\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson T700",
+    "revid": 1362743598
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "sony-xperia-10-ii",
+  "brand": "Sony",
+  "name": "Xperia 10 II",
+  "status": "published",
+  "announced": "2020-05-05",
+  "released": "2020-05-05",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2020-05-05",
+      "Series": "Sony Xperia",
+      "Predecessor": "Sony Xperia 8, Sony Xperia 10, Sony Xperia Ace",
+      "Successor": "Sony Xperia 10 III"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE, WiMAX, WiMAX 2+ (SOV43 model only)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "157 mm H, 69 mm W, 8.2 mm D",
+      "Weight": "151 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10, upgradable to Android 12",
+      "Chipset": "Qualcomm Snapdragon 665",
+      "CPU": "Octa-core ( × GHz Kryo 260 Gold & × GHz Kryo 260 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "RAM": "4 GB LPDDR4X RAM",
+      "Storage": "eMMC, 64 GB (XQ-AU42, SO-41A, SOV43 and A001SO models), 128 GB (XQ-AU51 and XQ-AU52 models)",
+      "Card slot": "microSD, expandable up to 1 TB"
+    },
+    "Display": {
+      "Display": "6 in 1080p () OLED, 457 px/in, Gorilla Glass 6"
+    },
+    "Cameras": {
+      "Rear camera": "12 Mpx 1/2.8\" 2.0, 26 mm (wide) + 8 Mpx 1/4\" 2.4, 52 mm (telephoto) + 8 Mpx 1/4\" 2.2, 16 mm (ultrawide), PDAF, LED flash, HDR, panorama, 4K @ 30 fps, 1080p @ 60 fps",
+      "Front camera": "8 Mpx, 2.0, 24 mm (wide), 1/4\", 1.0 μm, 1080p @ 30 fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm headphone jack"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3600 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac (2.4/5 GHz), Bluetooth 5.0, USB-C, NFC, GPS with Assisted GPS, GLONASS, Mobile FeliCa/Osaifu-Keitai (XQ-AU42, SO-41A, SOV43 and A001SO models only)"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "OLED",
+    "chipset": "Qualcomm Snapdragon 665",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 3,
+    "ois": false,
+    "telephoto": true,
+    "video": "4K@30fps",
+    "front_mp": 8,
+    "battery_mah": 3600,
+    "os": "Android 10",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 151,
+    "thickness_mm": 8.2,
+    "year": 2020
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia 10 II",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_II"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia 10 II\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia 10 II",
+    "revid": 1380618714
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "starmobile-octa",
+  "brand": "Starmobile",
+  "name": "Octa",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-03",
+      "Discontinued": "Yes",
+      "Predecessor": "Starmobile Diamond X1"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA+",
+      "SIM": "Dual SIM (Micro-SIM / Regular SIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "145.0 × 70.0 × 9.7 mm",
+      "Weight": "136 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.2.2 (Jelly Bean)",
+      "Chipset": "MediaTek MT6592",
+      "CPU": "1.7 GHz octa-core Cortex-A7",
+      "GPU": "Quad-core Mali-450MP4 (650MHz)"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "32 GB"
+    },
+    "Display": {
+      "Display": "5.0 in (130 mm) IPS LCD, 1080 x 1920 pixels (~440 ppi density), Asahi Dragontrail glass"
+    },
+    "Cameras": {
+      "Rear camera": "18 MP, autofocus, BSI sensor, dual-LED flash",
+      "Front camera": "8 MP, BSI sensor, LED flash"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Ion 2300 mAh",
+      "Charging": "Qi wireless charging"
+    },
+    "Connectivity": {
+      "Connectivity": "NFC, FM Radio tuner, GPS with aGPS support"
+    }
+  },
+  "key": {
+    "display_in": 5.0,
+    "display_type": "IPS LCD",
+    "chipset": "MediaTek MT6592",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      32
+    ],
+    "main_mp": 18,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 2300,
+    "os": "Android 4.2",
+    "five_g": false,
+    "nfc": true,
+    "dual_sim": true,
+    "weight_g": 136,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Starmobile Octa",
+      "url": "https://en.wikipedia.org/wiki/Starmobile_Octa"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Starmobile Octa\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Starmobile Octa",
+    "revid": 1368118214
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

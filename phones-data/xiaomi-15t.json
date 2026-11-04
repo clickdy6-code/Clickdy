@@ -1,0 +1,107 @@
+{
+  "slug": "xiaomi-15t",
+  "brand": "Xiaomi",
+  "name": "15T",
+  "status": "published",
+  "announced": "2025-09-24",
+  "released": "2025-09-24",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Xiaomi_15T_Pro_back_Mocha_Gold.jpg/500px-Xiaomi_15T_Pro_back_Mocha_Gold.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Xiaomi_15T_Pro_back_Mocha_Gold.jpg/250px-Xiaomi_15T_Pro_back_Mocha_Gold.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 15T",
+      "credit": "Maksdroider, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_15T_Pro_back_Mocha_Gold.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-09-24",
+      "Series": "Xiaomi T",
+      "Predecessor": "Xiaomi 14T",
+      "Successor": "Xiaomi 17T"
+    },
+    "Network": {
+      "SIM": "Dual SIM (Nano-SIM + Nano-SIM, Nano-SIM + eSIM, eSIM + eSIM)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "15T:H: 163.2 mm, W: 78 mm, D: 7.5 mm15T Pro:H: 162.7 mm, W: 77.9 mm, D: 7.96 mm",
+      "Weight": "15T: 194 g, 15T Pro: 210 g",
+      "Other": "Xiaomi HyperAI"
+    },
+    "Platform": {
+      "Operating system": "Initial: Android 15 + Xiaomi HyperOS 2.2, Current: Android 16 + Xiaomi HyperOS 3.1",
+      "Chipset": "15T: MediaTek Dimensity 8400-Ultra (4 nm), 15T Pro: MediaTek Dimensity 9400+ (4 nm)",
+      "CPU": "15T: (1×3.25 GHz Cortex-A725 & 3×3 GHz Cortex-A725 & 4×2.1 GHz Cortex-A725), 15T Pro: Octa-core (1×3.63 GHz Cortex-X925 & 3×3.3 GHz Cortex-X4 & 4×2.4 GHz Cortex-A720)",
+      "GPU": "15T: Mali-G720 MC7, 15T Pro: Immortalis-G925"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR5X",
+      "Storage": "15T: 256/512 GB, 15T Pro: 256/512 GB, 1 TB, UFS 4.1"
+    },
+    "Display": {
+      "Display": "Both models: AMOLED, 68B colors, 6.83\", 2772 × 1280, 447 ppi, Dolby Vision, HDR10+, 19.5:9, 15T: 120 Hz, 15T Pro: 144 Hz"
+    },
+    "Cameras": {
+      "Rear camera": "15T: 50 MP, Light Fusion 800, 23 mm (Wide-angle lens, wide), 1/1.55\", 1 µm, PDAF, Optical image stabilization, OIS + 50 MP Samsung ISOCELL JN1, 46 mm (Telephoto lens, telephoto), 1/2.76\", 0.64 µm, PDAF, 2x optical zoom + 12 MP OmniVision OV13B, 15 mm, 120° (Ultrawide angle lens, ultrawide), 1/3.06\", 1.12 µm, Leica Camera, Leica optics, Ultra HDR, color temperature sensor, LED flash, HDR, panorama, 15T Pro: 50 MP LightFusion 900 (Omnivision OV50H), 23 mm (wide), 1/1.31\", 1.2 µm, PDAF, OIS + 50 MP Samsung ISOCELL JN1, 115 mm (Periscope lens, periscope telephoto), 1/2.76\", 0.64 µm, PDAF, OIS, 5x optical zoom + 12 MP, 15 mm (ultrawide), 1/3.06\", 1.12 µm, Leica optics, color temperature sensor, L",
+      "Front camera": "32 MP Samsung KD1, 21 mm (wide), 1/3.44\", 0.64 µm, HDR, Video: 4K@30fps, 1080p@30 / 60fps, 720p@30fps; HDR10+"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 24-bit/192 kHz Hi-Res and wireless Hi-Res audio"
+    },
+    "Battery": {
+      "Battery": "Non-removable 5500 mAh",
+      "Charging": "15T: 67 W fast charging, PD3.0, 15T Pro: 90 W fast charging, 50 W fast wireless charging, PD3.0, QC4"
+    },
+    "Connectivity": {
+      "Connectivity": "USB-C 2.0 (OTG), Bluetooth 6.0 (A2DP, LE), NFC, Infrared port, Wi-Fi: (dual-band, Wi-Fi Direct)15T: 802.11 IEEE 802.11a-1999, a/IEEE 802.11b-1999, b/IEEE 802.11g, g/IEEE 802.11n-2009, n/IEEE 802.11ac, ac/IEEE 802.11ax, 6e, 15T Pro: 802.11 a/b/g/n/ac/6e/IEEE 802.11be, 7Satellite navigation: 15T: GPS (A-GPS; L1 + L5), GLONASS, BeiDou (B1I + B1c + B2a), Galileo (satellite navigation), Galileo (E1 + E5a), QZSS (L1 + L5), NavIC (L5), 15T Pro: GPS (A-GPS; L1 + L5), GLONASS, BeiDou (B1I + B1c + B2a + B2b), Galileo (E1 + E1a + E1b), QZSS (L1 + L5), NavIC (L5)"
+    }
+  },
+  "key": {
+    "display_in": 6.83,
+    "display_type": "AMOLED",
+    "refresh_hz": 144,
+    "chipset": "15T: MediaTek Dimensity 8400-Ultra",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 5,
+    "ois": true,
+    "telephoto": true,
+    "video": "4K",
+    "front_mp": 32,
+    "battery_mah": 5500,
+    "wireless_w": 50,
+    "wired_w": 90,
+    "os": "Android 15",
+    "nfc": true,
+    "usb": "USB-C",
+    "esim": true,
+    "dual_sim": true,
+    "weight_g": 194,
+    "thickness_mm": 7.5,
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 15T",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_15T"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 15T\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 15T",
+    "revid": 1383640256
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

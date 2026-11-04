@@ -1,0 +1,70 @@
+{
+  "slug": "zte-x760",
+  "brand": "ZTE",
+  "name": "X760",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/81/OrangeVegas.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/81/OrangeVegas.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "ZTE X760",
+      "credit": "manadude2 (talk) 20:20, 6 May 2009 (UTC), CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OrangeVegas.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Network": {
+      "Technology": "Orange / T-Mobile UK PAYG"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "96 mm H , 45 mm W , 19 mm D",
+      "Weight": "84 g"
+    },
+    "Platform": {
+      "Operating system": "Proprietary"
+    },
+    "Memory": {
+      "RAM": "517K",
+      "Card slot": "microSD up to 4GB"
+    },
+    "Display": {
+      "Display": "2.4\", 262K TFT Touchscreen"
+    },
+    "Cameras": {
+      "Rear camera": "1.3 Megapixel"
+    },
+    "Battery": {
+      "Battery": "Lithium-Ion 670mAh (2.5Wh)"
+    },
+    "Connectivity": {
+      "Connectivity": "USB, Bluetooth"
+    }
+  },
+  "key": {
+    "display_in": 2.4,
+    "display_type": "TFT",
+    "battery_mah": 670,
+    "nfc": false,
+    "weight_g": 84,
+    "thickness_mm": 19
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: ZTE X760",
+      "url": "https://en.wikipedia.org/wiki/ZTE_X760"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"ZTE X760\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "ZTE X760",
+    "revid": 1361537786
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

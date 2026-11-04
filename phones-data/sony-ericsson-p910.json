@@ -1,0 +1,78 @@
+{
+  "slug": "sony-ericsson-p910",
+  "brand": "Sony Ericsson",
+  "name": "P910",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Sony_Ericsson_P910i.jpg/500px-Sony_Ericsson_P910i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Sony_Ericsson_P910i.jpg/250px-Sony_Ericsson_P910i.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson P910",
+      "credit": "Petar Milošević, CC BY 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_P910i.jpg",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson P900",
+      "Successor": "Sony Ericsson P990, Sony Ericsson P1"
+    },
+    "Network": {
+      "Technology": "GPRS, HSCSD"
+    },
+    "Body": {
+      "Dimensions": "115 × 58 × 26 mm",
+      "Weight": "150 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS with UIQ",
+      "CPU": "ARM9 at 156 MHz"
+    },
+    "Memory": {
+      "RAM": "64 MB RAM",
+      "Card slot": "Memory Stick PRO Duo (up to 2GB)"
+    },
+    "Display": {
+      "Display": "240 x 320 TFT 262,144 colors"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 MP, VGA"
+    },
+    "Battery": {
+      "Battery": "1260 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, IrDA, GSM"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "main_mp": 0.3,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1260,
+    "os": "Symbian OS with UIQ",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 150
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson P910",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_P910"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson P910\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson P910",
+    "revid": 1363016922
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

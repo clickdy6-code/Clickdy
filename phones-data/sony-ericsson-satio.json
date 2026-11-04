@@ -1,0 +1,86 @@
+{
+  "slug": "sony-ericsson-satio",
+  "brand": "Sony Ericsson",
+  "name": "Satio",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/SonyEricssonSatio.jpg/500px-SonyEricssonSatio.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/SonyEricssonSatio.jpg/250px-SonyEricssonSatio.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson Satio",
+      "credit": "John.Karakatsanis, CC BY-SA 2.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SonyEricssonSatio.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "S-series",
+      "Predecessor": "Sony Ericsson G900, Sony Ericsson P1, Sony Ericsson C905",
+      "Successor": "Sony Ericsson Vivaz"
+    },
+    "Network": {
+      "Technology": "GSM GPRS/EDGE 850/900/1800/1900, UMTS HSDPA 900/2100 (Satio), GSM GPRS/EDGE 850/900/1800/1900, UMTS HSPA 850/1900/2100 (Satio(a))",
+      "SIM": "miniSIM"
+    },
+    "Body": {
+      "Form factor": "Touchscreen",
+      "Dimensions": "112 x 55 x 13 mm",
+      "Weight": "126 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 9.4 running S60 5th edition",
+      "CPU": "ARM Cortex-A8 600 MHz processor; 3D Graphics HW Accelerator"
+    },
+    "Memory": {
+      "RAM": "256 MB RAM and 128 MB ROM (Internal storage)",
+      "Storage": "128 MB",
+      "Card slot": "microSDHC up to 32 GB, 8 GB included"
+    },
+    "Display": {
+      "Display": "TFT touchscreen, 16M colours 3.5 in, 360 x 640 pixels"
+    },
+    "Cameras": {
+      "Rear camera": "12.1 MP, 4000 x 3000 pixels, auto-focus, xenon flash, video LED flash",
+      "Front camera": "0.3 Megapixel (VGA)"
+    },
+    "Battery": {
+      "Battery": "Li-Po 1000 mAh",
+      "Charging": "Fast port (proprietary) up to 5W (standard charging speed)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11 b/g, DLNA), A-GPS, Bluetooth (v2.0 with A2DP)"
+    }
+  },
+  "key": {
+    "display_in": 3.5,
+    "display_type": "TFT",
+    "main_mp": 12.1,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1000,
+    "wired_w": 5,
+    "os": "Symbian OS 9.4 running S60 5th edition",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 126
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson Satio",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_Satio"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson Satio\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson Satio",
+    "revid": 1377341401
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

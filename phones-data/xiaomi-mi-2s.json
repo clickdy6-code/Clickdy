@@ -1,0 +1,78 @@
+{
+  "slug": "xiaomi-mi-2s",
+  "brand": "Xiaomi",
+  "name": "Mi 2S",
+  "status": "published",
+  "announced": "2013-04-09",
+  "released": "2013-04-09",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-04-09",
+      "Series": "Mi",
+      "Predecessor": "Xiaomi Mi 2",
+      "Successor": "Xiaomi Mi 3"
+    },
+    "Network": {
+      "Technology": "GSM 850, 900, 1800, and 1900 MHz & WCDMA 850, 1900 and 2100 MHz"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "126 mm H , 62 mm W , 10.2 mm D",
+      "Weight": "145 g"
+    },
+    "Platform": {
+      "Operating system": "Original: MIUI V5 (Android 4.1 Jelly Bean) , Current: MIUI 9 (Android 5.0.1 Lollipop)",
+      "Chipset": "Qualcomm Snapdragon 600 APQ8064T",
+      "CPU": "Quad-Core Krait 300 @ 1.7 GHz",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB / 32 GB ROM"
+    },
+    "Display": {
+      "Display": "IPS Display 4.3 inches @ 1280px x 720px (341 PPI) (Manufactured by Sharp Inc.)"
+    },
+    "Cameras": {
+      "Rear camera": "8 Megapixels (16 GB version) / 13 Megapixels (32 GB version) (backside-illuminated (BSI)), Records 1080p at 30fps and 720p at 90fps",
+      "Front camera": "2 Megapixels, 1080p at 30fps"
+    },
+    "Battery": {
+      "Battery": "2000 mAh"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "display_type": "IPS",
+    "chipset": "Qualcomm Snapdragon 600 APQ8064T",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16,
+      32
+    ],
+    "battery_mah": 2000,
+    "os": "Android 4.1",
+    "five_g": false,
+    "weight_g": 145,
+    "thickness_mm": 10.2,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 2S",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_2S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 2S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 2S",
+    "revid": 1376870925
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

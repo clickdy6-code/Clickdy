@@ -1,0 +1,85 @@
+{
+  "slug": "vivi-vivo-y400",
+  "brand": "Vivi",
+  "name": "Vivo Y400",
+  "status": "published",
+  "announced": "2025-08-04",
+  "released": "2025-08-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2025-08-04",
+      "Series": "Vivo Y Series"
+    },
+    "Network": {
+      "Technology": "5G, 4G/LTE, 3G, GSM",
+      "SIM": "Dual Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Smartphone",
+      "Dimensions": "6.67-inch full-HD+ AMOLED, 120Hz refresh rate"
+    },
+    "Platform": {
+      "Operating system": "Android 15 with Funtouch OS 15",
+      "Chipset": "Qualcomm Snapdragon 4 Gen 2",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Adreno 613"
+    },
+    "Memory": {
+      "RAM": "8GB LPDDR4X",
+      "Storage": "128GB, 256GB UFS 3.1"
+    },
+    "Display": {
+      "Display": "6.67-inch full-HD+ AMOLED, 2400 x 1080 pixels, 120Hz refresh rate, up to 1,800 nits peak brightness"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP Sony IMX852 (primary), f/1.79 + 2 MP (depth), f/2.4, with LED flash",
+      "Front camera": "32 MP, f/2.45"
+    },
+    "Battery": {
+      "Charging": "90W wired fast charging"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, Bluetooth 5.0, GPS, USB Type-C, 3.5mm headphone jack (assumed)"
+    }
+  },
+  "key": {
+    "display_type": "AMOLED",
+    "refresh_hz": 120,
+    "peak_nits": 1800,
+    "chipset": "Qualcomm Snapdragon 4 Gen 2",
+    "ram_gb": [
+      8
+    ],
+    "storage_gb": [
+      128,
+      256
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 32,
+    "wired_w": 90,
+    "os": "Android 15",
+    "five_g": true,
+    "nfc": false,
+    "usb": "USB-C",
+    "year": 2025
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y400",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y400"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y400\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y400",
+    "revid": 1365489138
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

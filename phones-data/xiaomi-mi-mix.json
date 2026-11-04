@@ -1,0 +1,68 @@
+{
+  "slug": "xiaomi-mi-mix",
+  "brand": "Xiaomi",
+  "name": "Mi MIX",
+  "status": "published",
+  "announced": "2016-11-04",
+  "released": "2016-11-04",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2016-11-04",
+      "Series": "Mi MIX",
+      "Successor": "Xiaomi Mi MIX 2"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "158.8 x 81.9 x 7.9 mm",
+      "Weight": "209 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 6.0.1 \"Marshmallow\" With MIUI 8 , Current: MIUI 11 based on Android 8.0 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 821",
+      "CPU": "Quad-core (2×2.35 GHz Kryo & 2×2.19 GHz Kryo)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "RAM": "4 or 6 LPDDR4 RAM",
+      "Storage": "128 or 256 GB UFS 2.0"
+    },
+    "Display": {
+      "Display": "2040×1080 1080p IPS LCD, 6.4 in, (362 [[Pixels per inch)"
+    },
+    "Cameras": {
+      "Rear camera": "16 (1), f/2.0, 4K at 30 fps, 1080p at 30 fps, 720p at 120 fps",
+      "Front camera": "5"
+    },
+    "Battery": {
+      "Battery": "Non-removable 4400 mAh battery"
+    }
+  },
+  "key": {
+    "display_in": 6.4,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm Snapdragon 821",
+    "storage_gb": [
+      256
+    ],
+    "battery_mah": 4400,
+    "os": "Android 6.0",
+    "weight_g": 209,
+    "year": 2016
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi MIX",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_MIX"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi MIX\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi MIX",
+    "revid": 1361537553
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

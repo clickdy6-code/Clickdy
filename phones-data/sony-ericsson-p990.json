@@ -1,0 +1,64 @@
+{
+  "slug": "sony-ericsson-p990",
+  "brand": "Sony Ericsson",
+  "name": "P990",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/P990i-open.JPG/500px-P990i-open.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/P990i-open.JPG/250px-P990i-open.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson P990",
+      "credit": "No machine-readable author provided. Soulkeeper assumed (based on copyright clai, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:P990i-open.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson P910",
+      "Successor": "Sony Ericsson P1"
+    },
+    "Network": {
+      "Technology": "UMTS, GSM"
+    },
+    "Platform": {
+      "Operating system": "UIQ 3 / Symbian OS v9.1"
+    },
+    "Memory": {
+      "Card slot": "Memory Stick Pro Duo"
+    },
+    "Display": {
+      "Display": "240 x 320 TFT 262,114 colors"
+    },
+    "Cameras": {
+      "Rear camera": "2-megapixel with autofocus (rear camera) and QVGA@15fps video recording",
+      "Front camera": "VGA camera (front)"
+    },
+    "Connectivity": {
+      "Connectivity": "802.11b, Bluetooth, IrDA, USB"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "os": "Symbian OS v9.1",
+    "five_g": false,
+    "nfc": false
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson P990",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_P990"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson P990\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson P990",
+    "revid": 1374926235
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

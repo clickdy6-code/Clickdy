@@ -1,0 +1,83 @@
+{
+  "slug": "xiaomi-mi-mix-alpha",
+  "brand": "Xiaomi",
+  "name": "Mi MIX Alpha",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/MIX_Alpha.svg/500px-MIX_Alpha.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/MIX_Alpha.svg/250px-MIX_Alpha.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mi MIX Alpha",
+      "credit": "17jiangz1, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MIX_Alpha.svg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Series": "Mi MIX"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "154.4 mm H, 72.3 mm W, 10.4 mm D",
+      "Weight": "241 g"
+    },
+    "Platform": {
+      "Operating system": "Android 10, MIUI 11",
+      "Chipset": "Qualcomm Snapdragon 855+",
+      "CPU": "Octa-core (1x2.96 GHz, 3x2.42 GHz and 4x1.8 GHz) Kryo 485",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "RAM": "12 GB LPDDR4X",
+      "Storage": "512 GB UFS 3.0",
+      "Card slot": "non-expandable"
+    },
+    "Display": {
+      "Display": "Super AMOLED, 2088 × 2250, 7.92 in, 388 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "108, f-number, f/1.7, 12, f-number, f/2.0 Telephoto lens, telephoto, 2x optical zoom, 20, f-number, f/2.2, ultra-wide-angle"
+    },
+    "Battery": {
+      "Battery": "4050 mAh, 40W charging over USB-C"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth 5.0, Wi-Fi b/g/n/ac/ax, 3G/LTE/5G"
+    }
+  },
+  "key": {
+    "display_in": 7.92,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm Snapdragon 855+",
+    "ram_gb": [
+      12
+    ],
+    "storage_gb": [
+      512
+    ],
+    "battery_mah": 4050,
+    "os": "Android 10",
+    "five_g": true,
+    "nfc": false,
+    "weight_g": 241,
+    "thickness_mm": 10.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi MIX Alpha",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_MIX_Alpha"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi MIX Alpha\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi MIX Alpha",
+    "revid": 1361537576
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

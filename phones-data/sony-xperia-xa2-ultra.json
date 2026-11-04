@@ -1,0 +1,90 @@
+{
+  "slug": "sony-xperia-xa2-ultra",
+  "brand": "Sony",
+  "name": "Xperia XA2 Ultra",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "February 2018",
+      "Series": "Sony Xperia"
+    },
+    "Network": {
+      "Technology": "GSM 850/1900 MHz, WCDMA 900/2100, LTE, EDGE, GPRS"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "163 mm H, 80 mm W, 9.5 mm D",
+      "Weight": "221 g",
+      "Other": "Dual SIM card, accelerometer, digital compass, proximity sensor, light sensor, fingerprint sensor"
+    },
+    "Platform": {
+      "Operating system": "Android 8.0 \"Oreo\"",
+      "Chipset": "Qualcomm Snapdragon 630",
+      "CPU": "2.2 GHz octa-core Qualcomm Snapdragon 630",
+      "GPU": "Adreno 508"
+    },
+    "Memory": {
+      "RAM": "4 GB RAM",
+      "Storage": "32 GB or 64 GB",
+      "Card slot": "microSD (up to 256 GB)"
+    },
+    "Display": {
+      "Display": "6\" 1920 x 1080 pixels LCD capacitive"
+    },
+    "Cameras": {
+      "Rear camera": "Single-Camera Setup, Sony Exmor RS IMX 300; 23 MP, 24mm (wide), 1/2.3\", PDAF, Features: LED flash, HDR, panorama, Video: 4K@30fps, 1080p@30fps, stereo sound rec., HDR",
+      "Front camera": "Dual-Camera Setup, Primary: Sony Exmor RS IMX 234; 16 MP, 23mm, FoV 88°, 1/2.6\", 1.12μm, OIS, AF, Ultrawide: Sony Exmor R IMX 219; 8 MP, 11mm, FoV 120°, 1/4.0\", 1.12μm, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "3580 mAh Li-ion (non-removable)"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, hotspot, Bluetooth 5.0, A2DP, aptX HD, LE, NFC, GPS + GLONASS, USB-C 2.0, USB Host, FM radio"
+    }
+  },
+  "key": {
+    "display_in": 6.0,
+    "display_type": "LCD",
+    "chipset": "Qualcomm Snapdragon 630",
+    "ram_gb": [
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 23,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "4K@30fps",
+    "front_mp": 16,
+    "battery_mah": 3580,
+    "os": "Android 8.0",
+    "five_g": false,
+    "nfc": true,
+    "usb": "USB-C",
+    "dual_sim": true,
+    "weight_g": 221,
+    "thickness_mm": 9.5,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia XA2 Ultra",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_XA2_Ultra"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia XA2 Ultra\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia XA2 Ultra",
+    "revid": 1374676851
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "sony-xperia-acro-hd-is12s",
+  "brand": "Sony",
+  "name": "Xperia acro HD IS12S",
+  "status": "published",
+  "announced": "2012-03-10",
+  "released": "2012-03-10",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/IS12S_front.jpg/500px-IS12S_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/IS12S_front.jpg/250px-IS12S_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia acro HD IS12S",
+      "credit": "じぶろ, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IS12S_front.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-03-10, June 22, 2012 (Blue)",
+      "Series": "Xperia"
+    },
+    "Network": {
+      "Technology": "CDMA2000 1xMC (CDMA 1X WIN) (New 800 MHz/2 GHz)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "126 mm H , 66 mm W , 11.9 mm D",
+      "Weight": "149 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.7, upgradable to 4.0.4",
+      "Chipset": "Qualcomm Snapdragon S3 MSM8660",
+      "CPU": "1.5 GHz Dual-Core"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "16 GB ROM (Approx. 13 GB user available)",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB) (officially supported by KDDI)"
+    },
+    "Display": {
+      "Display": "4.3 in (110 mm) HD Reality Display, HD 1280 × 720 pixels (342 ppi), approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 12.1 megapixels, back-illuminated CMOS, autofocus, HD video recording",
+      "Front camera": "Approx. 1.3 megapixels, CMOS"
+    },
+    "Battery": {
+      "Battery": "1840 mAh non-removable battery"
+    }
+  },
+  "key": {
+    "display_in": 4.3,
+    "chipset": "Qualcomm Snapdragon S3 MSM8660",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      13,
+      16
+    ],
+    "battery_mah": 1840,
+    "os": "Android 2.3",
+    "weight_g": 149,
+    "thickness_mm": 11.9,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia acro HD IS12S",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_acro_HD_IS12S"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia acro HD IS12S\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia acro HD IS12S",
+    "revid": 1369709296
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

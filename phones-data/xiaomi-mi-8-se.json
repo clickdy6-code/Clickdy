@@ -1,0 +1,87 @@
+{
+  "slug": "xiaomi-mi-8-se",
+  "brand": "Xiaomi",
+  "name": "Mi 8 SE",
+  "status": "published",
+  "announced": "2018-05-31",
+  "released": "2018-05-31",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "May 31, 2018",
+      "Successor": "Xiaomi Mi 9 SE"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G LTE",
+      "SIM": "Duo NanoSIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Weight": "5.78 oz"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 (Oreo) with MIUI 9.5 (Initial) , Android 10 with MIUI 12",
+      "Chipset": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)",
+      "GPU": "Adreno 616"
+    },
+    "Memory": {
+      "RAM": "4GB / 6GB",
+      "Storage": "64GB / 128 GB"
+    },
+    "Display": {
+      "Display": "Super AMOLED, HDR, 5.88 inches, 87.6 cm2 (~81.3% screen-to-body ratio), 1080 x 2244 pixels, 18.7:9 ratio (~423 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "12 MP, f/1.9, 1/2.55\", 1.4µm, dual pixel PDAF, 5 MP, f/2.0, (depth)",
+      "Front camera": "20 MP, f/2.0, (wide), 1/3\", 0.9µm"
+    },
+    "Sound": {
+      "Sound": "loudspeaker"
+    },
+    "Battery": {
+      "Battery": "3120 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi, GPS, GLONASS, Galileo, BeiDou, QZSS"
+    }
+  },
+  "key": {
+    "display_in": 5.88,
+    "display_type": "Super AMOLED",
+    "chipset": "Qualcomm SDM710 Snapdragon 710",
+    "ram_gb": [
+      4,
+      6
+    ],
+    "storage_gb": [
+      64,
+      128
+    ],
+    "main_mp": 12,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 20,
+    "battery_mah": 3120,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mi 8 SE",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mi_8_SE"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mi 8 SE\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi Mi 8 SE",
+    "revid": 1379076768
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

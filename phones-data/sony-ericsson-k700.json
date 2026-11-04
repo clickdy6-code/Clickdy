@@ -1,0 +1,62 @@
+{
+  "slug": "sony-ericsson-k700",
+  "brand": "Sony",
+  "name": "Ericsson K700",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Sony_Ericsson_K700i_2.JPG/500px-Sony_Ericsson_K700i_2.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Sony_Ericsson_K700i_2.JPG/250px-Sony_Ericsson_K700i_2.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson K700",
+      "credit": "J Di at English Wikipedia, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_K700i_2.JPG",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson T630",
+      "Successor": "Sony Ericsson K750"
+    },
+    "Network": {
+      "Technology": "GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "99 × 46.5 × 19.5 mm",
+      "Weight": "93 g"
+    },
+    "Memory": {
+      "RAM": "41 MB internal"
+    },
+    "Display": {
+      "Display": "176x220 pixels, 65,536 Color TFT LCD"
+    },
+    "Connectivity": {
+      "Connectivity": "GPRS, Bluetooth, IrDA"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 93
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson K700",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_K700"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson K700\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson K700",
+    "revid": 1361484024
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

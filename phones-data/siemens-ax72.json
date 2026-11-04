@@ -1,0 +1,62 @@
+{
+  "slug": "siemens-ax72",
+  "brand": "Siemens",
+  "name": "AX72",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Siemens_AX72_mobile_phone.jpg/500px-Siemens_AX72_mobile_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Siemens_AX72_mobile_phone.jpg/250px-Siemens_AX72_mobile_phone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Siemens AX72",
+      "credit": "Bodoque57, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siemens_AX72_mobile_phone.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Siemens AP75",
+      "Successor": "Siemens SG75"
+    },
+    "Body": {
+      "Dimensions": "105.6 x 46.8 x 17.5 mm",
+      "Weight": "75 g",
+      "Other": "BenQ-Siemens, Siemens Mobile"
+    },
+    "Memory": {
+      "RAM": "1.5 MB"
+    },
+    "Cameras": {
+      "Rear camera": "Attachable"
+    },
+    "Battery": {
+      "Battery": "Li-Ion 600 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "GSM 900 / 1800 / 1900"
+    }
+  },
+  "key": {
+    "battery_mah": 600,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 75
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Siemens AX72",
+      "url": "https://en.wikipedia.org/wiki/Siemens_AX72"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Siemens AX72\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Siemens AX72",
+    "revid": 1361483894
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "vivo-y95",
+  "brand": "Vivo",
+  "name": "Y95",
+  "status": "published",
+  "announced": "2018-11-13",
+  "released": "2018-11-13",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "Philippines: 2018-11-13"
+    },
+    "Body": {
+      "Dimensions": "155.1 × 75.1 × 8.3 mm",
+      "Weight": "163.5 g (5.75 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 8.1 (Oreo) with Funtouch 4.5",
+      "Chipset": "Qualcomm SDM439 Snapdragon 439 (12 nm)",
+      "CPU": "Octa-core (4x1.95 GHz Cortex-A53 & 4x1.45 GHz Cortex-A53)",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "RAM": "3 GB or 4 GB RAM",
+      "Storage": "32 GB or 64 GB eMMC 5.1",
+      "Card slot": "microSDXC (dedicated slot)"
+    },
+    "Display": {
+      "Display": "6.22 in (158 mm) IPS LCD, 720 x 1520 pixels, 19:9 ratio (~270 ppi density)"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 13 MP, f/2.2, PDAF + auxiliary lens, LED flash, HDR, panorama, Video: 1080p@30fps",
+      "Front camera": "20 MP, f/2.0, (wide) (Global market), 8 MP, f/2.0 (China market), HDR, Video: 1080p@30fps"
+    },
+    "Battery": {
+      "Battery": "4,030 mAh non-removable"
+    }
+  },
+  "key": {
+    "display_in": 6.22,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm SDM439 Snapdragon 439",
+    "ram_gb": [
+      3,
+      4
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p@30fps",
+    "front_mp": 20,
+    "battery_mah": 4030,
+    "os": "Android 8.1",
+    "weight_g": 163.5,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo Y95",
+      "url": "https://en.wikipedia.org/wiki/Vivo_Y95"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo Y95\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo Y95",
+    "revid": 1368313752
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

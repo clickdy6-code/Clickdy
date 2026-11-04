@@ -1,0 +1,84 @@
+{
+  "slug": "sharp-infobar-c01",
+  "brand": "Sharp",
+  "name": "Infobar C01",
+  "status": "published",
+  "announced": "2012-02-03",
+  "released": "2012-02-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/INFOBAR_C01.jpg/500px-INFOBAR_C01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/INFOBAR_C01.jpg/250px-INFOBAR_C01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sharp Infobar C01",
+      "credit": "Jr223, CC BY-SA 3.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:INFOBAR_C01.jpg",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2012-02-03",
+      "Discontinued": "2013-04"
+    },
+    "Network": {
+      "Technology": "3G: CDMA 1X (CDMA2000 1xMC), 2G: GSM (900 MHz / 1.8 GHz / 1.9 GHz), 3.5G: CDMA 1X WIN (WIN HIGH SPEED/Packet WIN) (CDMA2000 1xEV-DO MC-Rev.A/Rev.A/Rel.0), Wi-Fi (IEEE 802.11b/g/n)"
+    },
+    "Body": {
+      "Form factor": "Candybar with numeric keypad",
+      "Dimensions": "130 mm H , 52 mm W , 12.3 mm D",
+      "Weight": "106 g"
+    },
+    "Platform": {
+      "Operating system": "Android 2.3.6",
+      "Chipset": "Qualcomm Snapdragon S2",
+      "CPU": "1.4 GHz MSM8655T"
+    },
+    "Memory": {
+      "RAM": "512 MB RAM",
+      "Storage": "4 GB ROM (1 GB application area)",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB)"
+    },
+    "Display": {
+      "Display": "3.2 in (81 mm) TFT LCD, FWVGA (480×854 pixels), 260,000 colors"
+    },
+    "Cameras": {
+      "Rear camera": "8.04 MP CMOS, autofocus"
+    },
+    "Battery": {
+      "Battery": "1020 mAh"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon S2",
+    "storage_gb": [
+      4
+    ],
+    "main_mp": 8.04,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "battery_mah": 1020,
+    "os": "Android 2.3",
+    "five_g": true,
+    "weight_g": 106,
+    "thickness_mm": 12.3,
+    "year": 2012
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sharp Infobar C01",
+      "url": "https://en.wikipedia.org/wiki/Sharp_Infobar_C01"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sharp Infobar C01\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sharp Infobar C01",
+    "revid": 1374056173
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

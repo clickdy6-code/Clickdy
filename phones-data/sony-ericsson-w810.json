@@ -1,0 +1,75 @@
+{
+  "slug": "sony-ericsson-w810",
+  "brand": "Sony",
+  "name": "Ericsson W810",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/SonyEricssonW810i-001.jpg/500px-SonyEricssonW810i-001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/SonyEricssonW810i-001.jpg/250px-SonyEricssonW810i-001.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W810",
+      "credit": "Rich Niewiroski Jr., CC BY 2.5 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SonyEricssonW810i-001.jpg",
+      "license": "CC BY 2.5"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2006",
+      "Predecessor": "Sony Ericsson W800",
+      "Successor": "Sony Ericsson W880i"
+    },
+    "Network": {
+      "Technology": "GSM 850, GSM 900, GSM 1800, GSM 1900"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "100 × 46 × 19.5 mm",
+      "Weight": "99 g"
+    },
+    "Platform": {
+      "Operating system": "Java, Sony Ericsson A100 Platform",
+      "Chipset": "DB2010"
+    },
+    "Memory": {
+      "RAM": "20 MB internal, Memory Stick PRO Duo support (up to 4 GB)"
+    },
+    "Display": {
+      "Display": "176×220 pixels, 262,144 colour TFT-LCD"
+    },
+    "Cameras": {
+      "Rear camera": "2.0 megapixel with autofocus 4.8 mm 1:2.8"
+    },
+    "Connectivity": {
+      "Connectivity": "EDGE, GPRS, HSCSD, Bluetooth v2.0, IrDA, USB 2"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "DB2010",
+    "ram_gb": [
+      4
+    ],
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 99,
+    "year": 2006
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W810",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W810"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W810\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W810",
+    "revid": 1361535693
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

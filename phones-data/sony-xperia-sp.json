@@ -1,0 +1,94 @@
+{
+  "slug": "sony-xperia-sp",
+  "brand": "Sony",
+  "name": "Xperia SP",
+  "status": "published",
+  "announced": "2013-03-18",
+  "released": "2013-03-18",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Sony_Xperis_SP_Front.jpeg/500px-Sony_Xperis_SP_Front.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Sony_Xperis_SP_Front.jpeg/250px-Sony_Xperis_SP_Front.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Xperia SP",
+      "credit": "Usuario404, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Xperis_SP_Front.jpeg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2013-03-18",
+      "Series": "Xperia",
+      "Predecessor": "Sony Xperia P, Sony Xperia sola",
+      "Successor": "Sony Xperia T3"
+    },
+    "Network": {
+      "Technology": "2G Network (C5302, C5303, C5306) , 3G Network (C5302, C5303, C5306) , 4G Network (C5303, C5306)"
+    },
+    "Body": {
+      "Form factor": "Bar",
+      "Dimensions": "130.6 mm H , 67.1 mm W , 9.98 mm",
+      "Weight": "155 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.1 \"Jelly Bean\", Upgradable to Android 4.3 Jelly Bean",
+      "CPU": "1.7 GHz Dual-Core Snapdragon S4 Pro (MSM8960T)",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "RAM": "1 GB RAM",
+      "Storage": "8 GB (5.8 user available)",
+      "Card slot": "microSD support up to 32 GB"
+    },
+    "Display": {
+      "Display": "4.6 in TFT LCD, 1280x720 px (319 ppi)"
+    },
+    "Cameras": {
+      "Rear camera": "8 MP with LED flash 1080p video recording @ 30 frames/s 16x digital zoom, Exmor RS sensor, HDR",
+      "Front camera": "0.3 megapixels (VGA)"
+    },
+    "Battery": {
+      "Battery": "2370 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "NFC, MHL, Wi-Fi Direct"
+    }
+  },
+  "key": {
+    "display_in": 4.6,
+    "display_type": "TFT",
+    "ram_gb": [
+      1
+    ],
+    "storage_gb": [
+      8
+    ],
+    "main_mp": 8,
+    "cameras": 1,
+    "ois": false,
+    "telephoto": false,
+    "video": "1080p",
+    "battery_mah": 2370,
+    "os": "Android 4.1",
+    "five_g": false,
+    "nfc": true,
+    "weight_g": 155,
+    "thickness_mm": 9.98,
+    "year": 2013
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Xperia SP",
+      "url": "https://en.wikipedia.org/wiki/Sony_Xperia_SP"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Xperia SP\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Xperia SP",
+    "revid": 1361536180
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

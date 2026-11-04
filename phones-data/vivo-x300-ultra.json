@@ -1,0 +1,105 @@
+{
+  "slug": "vivo-x300-ultra",
+  "brand": "Vivo",
+  "name": "X300 Ultra",
+  "status": "published",
+  "announced": "2026-04-03",
+  "released": "2026-04-03",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Vivo_X300_Ultra.jpg/500px-Vivo_X300_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Vivo_X300_Ultra.jpg/250px-Vivo_X300_Ultra.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Vivo X300 Ultra",
+      "credit": "Sororoty928, CC0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vivo_X300_Ultra.jpg",
+      "license": "CC0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "China: 2026-04-03",
+      "Series": "Vivo X",
+      "Predecessor": "Vivo X200 Ultra"
+    },
+    "Network": {
+      "SIM": "Dual nano-SIM, eSIM on international models"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "162.98 x (black), 162.98 x (other colours)",
+      "Weight": "232 g (black), 237 g (other colours)",
+      "Other": "Ultrasonic in-display fingerprint reader, Vivo VS1+ imaging co-processor"
+    },
+    "Platform": {
+      "Operating system": "Android 16 with OriginOS 6",
+      "Chipset": "Qualcomm Snapdragon 8 Elite Gen 5",
+      "GPU": "Adreno 840"
+    },
+    "Memory": {
+      "RAM": "12 or 16 GB LPDDR5X",
+      "Storage": "256 GB, 512 GB or 1 TB UFS 4.1"
+    },
+    "Display": {
+      "Display": "6.82 in LTPO AMOLED, 3168 × 1440 pixels (510 ppi), 1–144 Hz, HDR10+, Dolby Vision"
+    },
+    "Cameras": {
+      "Rear camera": "200 MP Sony LYT-901, f/1.85, 35 mm equivalent (wide), OIS, 200 MP Samsung HP0, f/2.67, 85 mm equivalent (periscope telephoto), 3.7× optical zoom, OIS, 50 MP Sony LYT-818, f/2.0, 14 mm equivalent (ultrawide), OIS, 5 MP multispectral colour sensor, Video: 8K at 30 fps; 4K at up to 120 fps, 10-bit Log and Dolby Vision",
+      "Front camera": "50 MP, f/2.45, autofocus, Video: 4K at up to 60 fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, Four microphones"
+    },
+    "Battery": {
+      "Battery": "6,600 mAh typical (6,395 mAh rated), non-removable",
+      "Charging": "100 W wired, 40 W wireless"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, infrared, NFC, USB-C 3.2 Gen 2, Wi-Fi 7"
+    }
+  },
+  "key": {
+    "display_in": 6.82,
+    "display_type": "LTPO AMOLED",
+    "refresh_hz": 144,
+    "chipset": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 200,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@30fps",
+    "front_mp": 50,
+    "battery_mah": 6600,
+    "wireless_w": 40,
+    "wired_w": 100,
+    "os": "Android 16",
+    "nfc": true,
+    "wifi": "Wi-Fi 7",
+    "usb": "USB-C",
+    "esim": true,
+    "weight_g": 232,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vivo X300 Ultra",
+      "url": "https://en.wikipedia.org/wiki/Vivo_X300_Ultra"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vivo X300 Ultra\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vivo X300 Ultra",
+    "revid": 1376159267
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

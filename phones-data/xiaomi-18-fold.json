@@ -1,0 +1,72 @@
+{
+  "slug": "xiaomi-18-fold",
+  "brand": "Xiaomi",
+  "name": "18 Fold",
+  "status": "published",
+  "announced": "2026-09-07",
+  "released": "2026-09-07",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Xiaomi_18_Fold_%2802%29.jpg/500px-Xiaomi_18_Fold_%2802%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Xiaomi_18_Fold_%2802%29.jpg/250px-Xiaomi_18_Fold_%2802%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi 18 Fold",
+      "credit": "Junrui Gao, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_18_Fold_(02).jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-09-07"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+    },
+    "Body": {
+      "Form factor": "Phablet"
+    },
+    "Platform": {
+      "Operating system": "Android 17 with Xiaomi HyperOS",
+      "Chipset": "Xring O3 chip",
+      "CPU": "Octa-core (4.35GHz) 3 nm process"
+    },
+    "Memory": {
+      "RAM": "12/16 GB RAM",
+      "Storage": "256/512 GB UFS 3.1"
+    },
+    "Battery": {
+      "Battery": "6,000 mAh",
+      "Charging": "67W wired/50W wireless charging"
+    }
+  },
+  "key": {
+    "chipset": "Xring O3 chip",
+    "ram_gb": [
+      16
+    ],
+    "storage_gb": [
+      512
+    ],
+    "battery_mah": 6000,
+    "wireless_w": 67,
+    "wired_w": 67,
+    "os": "Android 17",
+    "five_g": true,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi 18 Fold",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_18_Fold"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi 18 Fold\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Xiaomi 18 Fold",
+    "revid": 1381345528
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

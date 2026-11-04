@@ -1,0 +1,78 @@
+{
+  "slug": "kyocera-urbano-l03",
+  "brand": "Kyocera",
+  "name": "URBANO L03",
+  "status": "published",
+  "announced": "2014-06-28",
+  "released": "2014-06-28",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2014-06-28",
+      "Series": "URBANO series",
+      "Predecessor": "URBANO L02",
+      "Successor": "URBANO V01"
+    },
+    "Network": {
+      "Technology": "3G: CDMA2000 1xMC (au 3G) (New 800 MHz/2 GHz), W-CDMA (850 MHz/2 GHz), 2G: GSM (1.9 GHz/1.8 GHz/900 MHz)"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "140 mm H , 70 mm W , 10.4 mm D",
+      "Weight": "154 g"
+    },
+    "Platform": {
+      "Operating system": "Android 4.4.2",
+      "Chipset": "Qualcomm Snapdragon 801",
+      "CPU": "2.3 GHz quad-core MSM8974AB",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB ROM",
+      "Card slot": "microSD (up to 2 GB), microSDHC (up to 32 GB), microSDXC (up to 64 GB) (officially supported by KDDI)"
+    },
+    "Display": {
+      "Display": "5.0-inch TFT LCD, FHD (1920 × 1080 pixels), approx. 16.77 million colors"
+    },
+    "Cameras": {
+      "Rear camera": "Approx. 13 megapixels, CMOS image sensor, face-detection autofocus",
+      "Front camera": "Approx. 970,000 pixels, CMOS image sensor (Exmor R for mobile)"
+    },
+    "Battery": {
+      "Battery": "3,000 mAh (non-removable)",
+      "Charging": "Under consideration"
+    }
+  },
+  "key": {
+    "display_type": "TFT",
+    "chipset": "Qualcomm Snapdragon 801",
+    "ram_gb": [
+      2
+    ],
+    "storage_gb": [
+      16
+    ],
+    "battery_mah": 3000,
+    "os": "Android 4.4",
+    "five_g": false,
+    "weight_g": 154,
+    "thickness_mm": 10.4,
+    "year": 2014
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: URBANO L03",
+      "url": "https://en.wikipedia.org/wiki/URBANO_L03"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"URBANO L03\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "URBANO L03",
+    "revid": 1363625912
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "xiaomi-mix-fold-3",
+  "brand": "Xiaomi",
+  "name": "Mix Fold 3",
+  "status": "published",
+  "announced": "2023-08-14",
+  "released": "2023-08-14",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/P40220-124554.jpg/500px-P40220-124554.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/P40220-124554.jpg/250px-P40220-124554.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Xiaomi Mix Fold 3",
+      "credit": "メイド理世, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:P40220-124554.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2023-08-14",
+      "Series": "MIX series",
+      "Predecessor": "Xiaomi MIX Fold 2",
+      "Successor": "Xiaomi MIX Fold 4"
+    },
+    "Network": {
+      "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "SIM": "Nano-SIM + Nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Foldable slate",
+      "Dimensions": "Unfolded: 161.2x143.3x5.3 mm, Folded: 161.2x73.5x10.9 mm",
+      "Weight": "255 g or 259 g",
+      "Other": "Side-mounted fingerprint sensor, aluminum frame, aramid fiber or glass back, barometer"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 13 with MIUI Fold 14, Current: Android 15 with Xiaomi HyperOS 2",
+      "Chipset": "Qualcomm Snapdragon 8 Gen 2 (4 nm)",
+      "CPU": "Octa-core (1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)",
+      "GPU": "Adreno 740"
+    },
+    "Memory": {
+      "RAM": "12 GB or 16 GB LPDDR5X",
+      "Storage": "256 GB, 512 GB, or 1 TB UFS 4.0"
+    },
+    "Display": {
+      "Display": "Main: 8.03 in Foldable LTPO OLED+, 1B colors, 120Hz, HDR10+, Dolby Vision, 1300 nits (peak), 1916×2160 px (~360 ppi), Cover: 6.56 in AMOLED, 120Hz, HDR10+, Dolby Vision, 2600 nits (peak), 1080×2520 px (21:9), Gorilla Glass Victus 2"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, 1.8, 23 mm (wide), 1/1.49\", 1.0μm, PDAF, OIS, 10 MP, 2.0, 75 mm (3.2x telephoto), OIS, 10 MP, 2.9, 115 mm (5x periscope telephoto), OIS, 12 MP, 2.2, 15 mm (ultrawide), 120˚ FOVLeica optics, LED flash, HDR, panorama, color spectrum sensor, Video: 8K@24fps, 4K@24/30/60fps, 1080p@30/60/120/240/960/1920fps, Dolby Vision HDR",
+      "Front camera": "20 MP, 2.3, 23 mm (wide), HDR, panorama, Video: 1080p@30/60fps"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers, 24-bit/192kHz Hi-Res & Hi-Res wireless audio, Tuned by Harman Kardon"
+    },
+    "Battery": {
+      "Battery": "4800 mAh Li-Po",
+      "Charging": "67W wired, 100% in 40 min (PD3.0, QC4), 50W wireless, 100% in 55 min"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac/6e/7 (tri-band capable), Bluetooth 5.3 (A2DP, LE), NFC, Infrared port, USB-C 3.2 OTG, GPS, GLONASS, BDS, Galileo, QZSS, NavIC"
+    }
+  },
+  "key": {
+    "display_in": 8.03,
+    "display_type": "LTPO OLED",
+    "refresh_hz": 120,
+    "peak_nits": 2600,
+    "chipset": "Qualcomm Snapdragon 8 Gen 2",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      256,
+      512,
+      1024
+    ],
+    "main_mp": 50,
+    "cameras": 4,
+    "ois": true,
+    "telephoto": true,
+    "video": "8K@24fps",
+    "front_mp": 20,
+    "battery_mah": 4800,
+    "wireless_w": 50,
+    "wired_w": 67,
+    "os": "Android 13",
+    "five_g": true,
+    "nfc": true,
+    "usb": "USB-C",
+    "weight_g": 255,
+    "year": 2023
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Xiaomi Mix Fold 3",
+      "url": "https://en.wikipedia.org/wiki/Xiaomi_Mix_Fold_3"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Xiaomi Mix Fold 3\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": true,
+  "wikipedia": {
+    "title": "Xiaomi Mix Fold 3",
+    "revid": 1383640360
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

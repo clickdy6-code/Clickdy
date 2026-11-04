@@ -1,0 +1,85 @@
+{
+  "slug": "sony-ericsson-p900",
+  "brand": "Sony Ericsson",
+  "name": "P900",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Sony_Ericsson_P900.png/500px-Sony_Ericsson_P900.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Sony_Ericsson_P900.png/250px-Sony_Ericsson_P900.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson P900",
+      "credit": "GtrxAC, CC BY-SA 4.0 via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_P900.png",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2004-01",
+      "Series": "P (PDA)",
+      "Predecessor": "Sony Ericsson P800",
+      "Successor": "Sony Ericsson P910, Sony Ericsson P990"
+    },
+    "Network": {
+      "Technology": "GSM 900/1800/1900",
+      "SIM": "Mini SIM"
+    },
+    "Body": {
+      "Form factor": "Candybar, PDA",
+      "Dimensions": "115 mm H , 57 mm W , 23.9 mm D",
+      "Weight": "140 g"
+    },
+    "Platform": {
+      "Operating system": "Symbian OS 7.0, UIQ 2.1",
+      "Chipset": "Philips Nexperia PNX4000",
+      "CPU": "ARM9 @ 156 MHz"
+    },
+    "Memory": {
+      "RAM": "16 MB",
+      "Storage": "48 MB (23 MB user available)",
+      "Card slot": "Memory Stick Duo"
+    },
+    "Display": {
+      "Display": "3 inch 208 × 320 TFT, 65K colors"
+    },
+    "Cameras": {
+      "Rear camera": "0.3 megapixel"
+    },
+    "Battery": {
+      "Battery": "1260 mAh",
+      "Charging": "Proprietary connector"
+    },
+    "Connectivity": {
+      "Connectivity": "Bluetooth, infrared"
+    }
+  },
+  "key": {
+    "display_in": 3.0,
+    "display_type": "TFT",
+    "chipset": "Philips Nexperia PNX4000",
+    "battery_mah": 1260,
+    "os": "Symbian OS 7.0",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 140,
+    "thickness_mm": 23.9,
+    "year": 2004
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson P900",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_P900"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson P900\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson P900",
+    "revid": 1372920420
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

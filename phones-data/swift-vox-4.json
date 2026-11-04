@@ -1,0 +1,63 @@
+{
+  "slug": "swift-vox-4",
+  "brand": "Swift",
+  "name": "Vox 4",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Body": {
+      "Form factor": "Slate/bar smartphone",
+      "Dimensions": "122 mm (h), 66 mm (w), 12.7 mm (d)",
+      "Weight": "170 g (6.0 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 2.1",
+      "CPU": "Qualcomm QSD8650 (Snapdragon), 1 Ghz"
+    },
+    "Memory": {
+      "RAM": "1 GB ROM (358 MB Free), 512 MB RAM",
+      "Card slot": "8 GB microSD (up to 32 GB supported)"
+    },
+    "Display": {
+      "Display": "3.5-inch, 320×480 with capacitive multi-touch screen"
+    },
+    "Cameras": {
+      "Rear camera": "HD camera, rear-facing",
+      "Front camera": "VGA camera, front-facing"
+    },
+    "Battery": {
+      "Battery": "Li-ion, 1500 mAh"
+    },
+    "Connectivity": {
+      "Connectivity": "3G/4GWi-Fi (802.11b/g); Bluetooth 2.1 with A2DP stereo and EDR"
+    }
+  },
+  "key": {
+    "ram_gb": [
+      1
+    ],
+    "battery_mah": 1500,
+    "os": "Android 2.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 170,
+    "thickness_mm": 12.7
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vox 4",
+      "url": "https://en.wikipedia.org/wiki/Vox_4"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vox 4\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vox 4",
+    "revid": 1378801994
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

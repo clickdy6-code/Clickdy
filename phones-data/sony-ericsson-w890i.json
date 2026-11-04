@@ -1,0 +1,71 @@
+{
+  "slug": "sony-ericsson-w890i",
+  "brand": "Sony Ericsson",
+  "name": "W890i",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Sony_Ericsson_W890i_%28Mocha_Brown%29%2C_front_and_back.jpg/500px-Sony_Ericsson_W890i_%28Mocha_Brown%29%2C_front_and_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Sony_Ericsson_W890i_%28Mocha_Brown%29%2C_front_and_back.jpg/250px-Sony_Ericsson_W890i_%28Mocha_Brown%29%2C_front_and_back.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Sony Ericsson W890i",
+      "credit": "Magnus Bäck, Public domain via Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sony_Ericsson_W890i_(Mocha_Brown),_front_and_back.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "specs": {
+    "Launch": {
+      "Predecessor": "Sony Ericsson W880"
+    },
+    "Network": {
+      "Technology": "GSM quadband and UMTS 2100"
+    },
+    "Body": {
+      "Form factor": "Candybar",
+      "Dimensions": "4.1 x 1.9 x 0.4 in., 104 x 46.5 x 9.9 mm",
+      "Weight": "2.8 oz, 78 g",
+      "Other": "FM radio with RDS, Walkman player 3.0"
+    },
+    "Platform": {
+      "Operating system": "Sony Ericsson proprietary OS (A200)"
+    },
+    "Memory": {
+      "Storage": "28 MB Internal",
+      "Card slot": "Memory Stick Micro M2"
+    },
+    "Display": {
+      "Display": "240x320 pixels (QVGA), 2\", 262,144 (18-bit) color TFT LCD"
+    },
+    "Cameras": {
+      "Rear camera": "3.2 megapixel without AF",
+      "Front camera": "Video Recording QVGA (320x240)"
+    },
+    "Connectivity": {
+      "Connectivity": "HSDPA, EDGE, Bluetooth, USB 2.0"
+    }
+  },
+  "key": {
+    "display_in": 2.0,
+    "display_type": "TFT",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 78
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Sony Ericsson W890i",
+      "url": "https://en.wikipedia.org/wiki/Sony_Ericsson_W890i"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Sony Ericsson W890i\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Sony Ericsson W890i",
+    "revid": 1361535713
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

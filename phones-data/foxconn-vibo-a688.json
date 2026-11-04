@@ -1,0 +1,65 @@
+{
+  "slug": "foxconn-vibo-a688",
+  "brand": "Foxconn",
+  "name": "Vibo A688",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Network": {
+      "Technology": "UMTS/HSPA 850/1900/2100, GSM/GPRS/EDGE 850/900/1800/1900"
+    },
+    "Body": {
+      "Form factor": "Slate form smartphone",
+      "Dimensions": "56.8 x 114.9 x 12.6 mm",
+      "Weight": "114.4 g"
+    },
+    "Platform": {
+      "Operating system": "Android v1.6",
+      "CPU": "600 MHz Qualcomm MSM7227 processor"
+    },
+    "Memory": {
+      "RAM": "RAM: 256MB, ROM: 512MB",
+      "Storage": "microSD slot: supports up to 32 GB"
+    },
+    "Display": {
+      "Display": "320 x 480 px, 3.2 in, TFT LCD, HVGA"
+    },
+    "Cameras": {
+      "Rear camera": "5.0 megapixel with autofocus"
+    },
+    "Battery": {
+      "Battery": "Standard battery, Li-ion 1230 mAh, stand-by: up to 250 h, talk time: up to 3 h"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi (802.11b/g), Bluetooth 2.0, ExtUSB, A-GPS"
+    }
+  },
+  "key": {
+    "display_in": 3.2,
+    "display_type": "TFT",
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 1230,
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 114.4
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Vibo A688",
+      "url": "https://en.wikipedia.org/wiki/Vibo_A688"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Vibo A688\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Vibo A688",
+    "revid": 1361536857
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}
