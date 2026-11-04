@@ -18825,7 +18825,7 @@
     "s": "huawei-honor-8x",
     "b": "Huawei",
     "bs": "huawei",
-    "n": "Honor 8x",
+    "n": "Honor 8X",
     "i": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Honor_8X.jpg/250px-Honor_8X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "y": 2018,
     "d": "2018-10-24",
@@ -61725,6 +61725,35 @@
       "five_g": false,
       "nfc": false,
       "os": "Android 2.2"
+    }
+  },
+  {
+    "s": "huawei-honor-magic-2",
+    "b": "Huawei",
+    "bs": "huawei",
+    "n": "Honor Magic 2",
+    "i": "",
+    "y": 2018,
+    "d": "",
+    "sc": 58,
+    "sub": [
+      80,
+      null,
+      89,
+      30,
+      0
+    ],
+    "p": null,
+    "pk": null,
+    "k": {
+      "display_in": 6.39,
+      "display_type": "AMOLED",
+      "chipset": "HiSilicon Kirin 980",
+      "sto": 256,
+      "battery_mah": 3500,
+      "weight_g": 206,
+      "five_g": false,
+      "os": "Android 9.0"
     }
   },
   {

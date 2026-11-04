@@ -1,0 +1,74 @@
+{
+  "slug": "huawei-honor-magic-2",
+  "brand": "Huawei",
+  "name": "Honor Magic 2",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-11",
+      "Series": "Honor Magic series",
+      "Predecessor": "Honor Magic",
+      "Successor": "Honor Magic 3"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "157.32 x 75.13 x 8.3 mm",
+      "Weight": "206 g"
+    },
+    "Platform": {
+      "Operating system": "Magic UI 2.0 or EMUI 9.0 on top of Android 9.0 \"Pie\"",
+      "Chipset": "HiSilicon Kirin 980",
+      "GPU": "ARM Mali-G76 MP10, 720Mhz"
+    },
+    "Memory": {
+      "RAM": "6 8 RAM",
+      "Storage": "128 GB or 256 GB",
+      "Card slot": "No card slot"
+    },
+    "Display": {
+      "Display": "2340x1080 1080p AMOLED capacitive touchscreen ', 6.39 in, 403 ppi"
+    },
+    "Cameras": {
+      "Rear camera": "Triple 16, (f/1.8) + 16, (f/2.2) + 24, (f/1.8)",
+      "Front camera": "Triple 16 (f/2.0) + 2x 2 (f/2.4)"
+    },
+    "Battery": {
+      "Battery": "Non-removable 3500 mAh"
+    }
+  },
+  "key": {
+    "display_in": 6.39,
+    "display_type": "AMOLED",
+    "chipset": "HiSilicon Kirin 980",
+    "storage_gb": [
+      128,
+      256
+    ],
+    "battery_mah": 3500,
+    "os": "Android 9.0",
+    "five_g": false,
+    "weight_g": 206,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Honor Magic 2",
+      "url": "https://en.wikipedia.org/wiki/Honor_Magic_2"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor Magic 2\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Honor Magic 2",
+    "revid": 1383733513
+  },
+  "updated": "2026-11-04",
+  "auto": true
+}

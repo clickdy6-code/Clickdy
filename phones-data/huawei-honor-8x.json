@@ -1,7 +1,7 @@
 {
   "slug": "huawei-honor-8x",
   "brand": "Huawei",
-  "name": "Honor 8x",
+  "name": "Honor 8X",
   "status": "published",
   "announced": "2018-10-24",
   "released": "2018-10-24",
@@ -10,7 +10,7 @@
     {
       "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Honor_8X.jpg/500px-Honor_8X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Honor_8X.jpg/250px-Honor_8X.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "alt": "Huawei Honor 8x",
+      "alt": "Huawei Honor 8X",
       "credit": "Ahmadkurdi44, CC BY-SA 4.0 via Wikimedia Commons",
       "source_url": "https://commons.wikimedia.org/wiki/File:Honor_8X.jpg",
       "license": "CC BY-SA 4.0"
@@ -19,17 +19,18 @@
   "specs": {
     "Launch": {
       "Announced / released": "2018-10-24",
+      "Series": "Honor X series",
       "Predecessor": "Honor 7X",
       "Successor": "Honor 9X"
     },
     "Body": {
       "Form factor": "Smartphone+ hard Phone",
-      "Dimensions": "160.4 mm H , 76.6 mm W , 7.8 mm D",
+      "Dimensions": "160.4 mm H, 76.6 mm W, 7.8 mm D",
       "Weight": "175 g",
-      "Other": "Hall sensor, infrared sensor, FaceID Screen Lock, Fingerprint (rear-mounted), proximity sensor, ambient light sensor, magnetometer, digital compass, gravity sensor, gyroscope, status indicator"
+      "Other": "Hall sensor, Infrared sensor, FaceID Screen Lock, Fingerprint scanner, Fingerprint (rear-mounted), Proximity sensor, Ambient light sensor, Magnetometer, Digital compass, Gravity sensor, Gyroscope, Status indicator"
     },
     "Platform": {
-      "Operating system": "Android 10",
+      "Operating system": "Original: Android Oreo with EMUI 8.0, Current: Android 10 with EMUI 10.0",
       "Chipset": "HiSilicon Kirin 710",
       "CPU": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
       "GPU": "Mali-G51 MP4"
@@ -47,7 +48,7 @@
       "Front camera": "16MP, f/2.2 aperture, exposure control, face detection, auto-HDR, auto image stabilization, Retina flash, 1080p HD video recording"
     },
     "Battery": {
-      "Battery": "3750mAh"
+      "Battery": "3750 mAh"
     },
     "Connectivity": {
       "Connectivity": "Hybrid Dual SIM (nano + nano/microSD), LTE Cat.6, Wi-Fi a/b/g/n/ac (2,4/5 GHz), Bluetooth 4.2, GPS, NFC (JSN-L21 only), microUSB 2.0"
@@ -79,16 +80,16 @@
   },
   "sources": [
     {
-      "name": "Wikipedia: Honor 8x",
-      "url": "https://en.wikipedia.org/wiki/Honor_8x"
+      "name": "Wikipedia: Honor 8X",
+      "url": "https://en.wikipedia.org/wiki/Honor_8X"
     }
   ],
-  "attribution": "Specification data adapted from the Wikipedia article \"Honor 8x\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "attribution": "Specification data adapted from the Wikipedia article \"Honor 8X\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
   "variants_note": false,
   "wikipedia": {
-    "title": "Honor 8x",
-    "revid": 1361473626
+    "title": "Honor 8X",
+    "revid": 1383718309
   },
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "auto": true
 }
