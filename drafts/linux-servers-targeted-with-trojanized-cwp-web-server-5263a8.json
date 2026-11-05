@@ -1,0 +1,19 @@
+{
+  "slug": "linux-servers-targeted-with-trojanized-cwp-web-server-5263a8",
+  "title": "Linux Servers Targeted with Trojanized CWP Web Server",
+  "excerpt": "A newly discovered Linux malware named CWPdoor is utilizing a trojanized version of the cwpsrv web server to backdoor servers.",
+  "category": "Cybersecurity",
+  "tags": [
+    "Linux",
+    "Malware",
+    "Cybersecurity",
+    "Control Web Panel"
+  ],
+  "body_html": "<p>Security researchers have uncovered a new Linux malware strain known as CWPdoor. The malicious software is being spread by attackers using a trojanized iteration of cwpsrv, which serves as the web server for the Control Web Panel management interface.</p><p>Details regarding the campaign highlight how threat actors leverage compromised administrative components to maintain unauthorized access to targeted Linux infrastructure. Administrators using the affected management interface are advised to review their systems for unauthorized modifications.</p>",
+  "source_name": "BleepingComputer",
+  "source_url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+  "source_published": "2026-11-05T16:24:26+00:00",
+  "created_at": "2026-11-05T17:45:47.225101+00:00",
+  "status": "draft",
+  "flags": []
+}
