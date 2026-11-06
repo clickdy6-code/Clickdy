@@ -1,0 +1,87 @@
+{
+  "slug": "xiaomi-redmi-7a",
+  "brand": "Xiaomi",
+  "name": "Redmi 7A",
+  "status": "published",
+  "announced": "2019-05-24",
+  "released": "2019-05-24",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2019-05-24",
+      "Series": "Redmi",
+      "Predecessor": "Redmi 6A",
+      "Successor": "Redmi 8A"
+    },
+    "Network": {
+      "SIM": "Dual nano-SIM"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "146.3 mm H, 70.4 mm W, 9.6 mm D",
+      "Weight": "165 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 9.0 with MIUI 10.2, Current: Android 10 with MIUI 12.5",
+      "Chipset": "Qualcomm Snapdragon 439 (12 nm TSMC 12FFC)",
+      "CPU": "Octa-core (4x1.95 GHz Cortex-A53 & 4x1.45 GHz Cortex-A53)",
+      "GPU": "Adreno 505 (650 MHz)"
+    },
+    "Memory": {
+      "RAM": "2 / 3 GB RAM (LPDDR3)",
+      "Storage": "16 / 32 GB (eMMC 5.1)",
+      "Card slot": "microSDXC, expandable up to 256 GB"
+    },
+    "Display": {
+      "Display": "5.45 in, 720 x 1440 px resolution, 18:9 ratio (~295 ppi density), IPS LCD, 60Hz"
+    },
+    "Cameras": {
+      "Rear camera": "Single-Camera Setup, Global, India:, Sony Exmor RS IMX 486; 12 Megapixel, MP, 1/2.9\", 1.25Micrometre, µm, Phase detection autofocus, PDAF, China:, Samsung ISOCELL S5K3L8; 13 Megapixel, MP, 1/3.1\", 1.12Micrometre, µm, Phase detection autofocus, PDAF, Camera features: LED flash, High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps",
+      "Front camera": "Samsung S5K5E8; 5 Megapixel, MP, 1/5.0\", 1.12Micrometre, µm, FF, Camera features: High dynamic range, HDR, Video recording: 1080p@30Frame rate, fps"
+    },
+    "Sound": {
+      "Sound": "Loudspeaker, 3.5 mm auxiliary (headphone jack)"
+    },
+    "Battery": {
+      "Battery": "4000 mAh lithium-polymer, non-removable",
+      "Charging": "10W Standard Charge"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n (2,4 GHz), Wi-Fi Direct"
+    }
+  },
+  "key": {
+    "display_in": 5.45,
+    "display_type": "IPS LCD",
+    "refresh_hz": 60,
+    "chipset": "Qualcomm Snapdragon 439",
+    "ram_gb": [
+      3
+    ],
+    "storage_gb": [
+      32
+    ],
+    "battery_mah": 4000,
+    "wired_w": 10,
+    "os": "Android 9.0",
+    "nfc": false,
+    "weight_g": 165,
+    "thickness_mm": 9.6,
+    "year": 2019
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Redmi 7A",
+      "url": "https://en.wikipedia.org/wiki/Redmi_7A"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Redmi 7A\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Redmi 7A",
+    "revid": 1384053936
+  },
+  "updated": "2026-11-06",
+  "auto": true
+}
