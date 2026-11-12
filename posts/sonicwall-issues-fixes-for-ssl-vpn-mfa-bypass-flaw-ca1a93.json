@@ -1,0 +1,20 @@
+{
+  "slug": "sonicwall-issues-fixes-for-ssl-vpn-mfa-bypass-flaw-ca1a93",
+  "title": "SonicWall Issues Fixes for SSL-VPN MFA Bypass Flaw",
+  "excerpt": "SonicWall addresses seven security vulnerabilities in SonicOS firewalls, including an actively exploited SSL-VPN authentication bypass defect.",
+  "category": "Cybersecurity",
+  "tags": [
+    "SonicWall",
+    "Cybersecurity",
+    "Vulnerability",
+    "Firewall",
+    "Security Update"
+  ],
+  "body_html": "<p>SonicWall has rolled out security updates to address seven distinct vulnerabilities impacting SonicOS firewalls. Among the patched issues is an SSL-VPN authentication bypass flaw that the company confirmed is currently being exploited in live attacks.</p><p>The manufacturer urges administrators to apply the provided software updates promptly to secure their environments against potential unauthorized access attempts targeting the identified weaknesses.</p>",
+  "source_name": "BleepingComputer",
+  "source_url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+  "source_published": "2026-11-07T00:00:55+00:00",
+  "created_at": "2026-11-07T03:27:34.621599+00:00",
+  "status": "published",
+  "published_at": "2026-11-12T13:38:59.807Z"
+}
