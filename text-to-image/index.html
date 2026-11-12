@@ -3,537 +3,687 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Image Generator - Clickdy</title>
-<meta name="description" content="Create stunning AI images with Clickdy. Explore image generation, creative styles, image guidance and advanced controls.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clickdy AI Image Studio</title>
+<meta name="description" content="Create, explore and edit AI image concepts with Clickdy AI Image Studio.">
 <link rel="canonical" href="https://clickdy.vercel.app/text-to-image/">
-<meta name="theme-color" content="#080b12">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
- --bg:#080b12;--surface:#0d1422;--surface2:#111b2d;--surface3:#172337;
- --text:#f4f8ff;--muted:#91a1b8;--soft:#b8c6d9;--line:#1d2b42;
- --blue:#38a5ff;--cyan:#2ee7df;--danger:#ff7185;
- --radius:13px;--ease:cubic-bezier(.16,1,.3,1)
+  --bg:#070b14;
+  --sidebar:#090f1b;
+  --surface:#0d1422;
+  --surface2:#111b2d;
+  --surface3:#162238;
+  --line:#1d2b42;
+  --text:#f4f8ff;
+  --muted:#93a4bd;
+  --primary:#38a5ff;
+  --cyan:#2ee7df;
+  --danger:#ff7185;
+  --radius:13px;
+  --font:"DM Sans",sans-serif;
 }
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;font-size:13px}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);font-size:13px}
 button,input,textarea,select{font:inherit}
 button{cursor:pointer}
-.app{min-height:100vh;display:grid;grid-template-columns:228px minmax(0,1fr)}
-.sidebar{height:100vh;position:sticky;top:0;background:#0a101b;border-right:1px solid var(--line);display:flex;flex-direction:column;padding:17px 12px;z-index:10}
-.brand{height:43px;display:flex;align-items:center;gap:10px;padding:0 9px;margin-bottom:20px;color:var(--text);text-decoration:none;font-family:"Plus Jakarta Sans";font-size:18px;font-weight:800}
-.brand img{width:31px;height:31px;object-fit:contain}
-.brand small{font-size:9px;color:var(--blue);margin-left:auto;letter-spacing:1px}
-.side-label{font-size:10px;color:#687b96;font-weight:800;letter-spacing:1.2px;padding:12px 10px 7px;text-transform:uppercase}
-.nav{display:flex;flex-direction:column;gap:3px}
-.nav a,.nav button{height:37px;display:flex;align-items:center;gap:11px;padding:0 10px;border:0;border-radius:8px;background:transparent;color:#9cacc1;text-decoration:none;text-align:left;font-size:12px;font-weight:600;transition:.2s}
-.nav a:hover,.nav button:hover{background:var(--surface2);color:white}
-.nav a.active{background:linear-gradient(100deg,rgba(56,165,255,.17),rgba(46,231,223,.06));color:#75c6ff;border:1px solid rgba(56,165,255,.16)}
-.nav-icon{width:17px;text-align:center;font-size:15px}
-.nav .tag{margin-left:auto;color:#69c8ff;font-size:9px;background:#10263b;padding:3px 5px;border-radius:5px}
-.side-bottom{margin-top:auto}
-.credit-card{padding:12px;border:1px solid var(--line);background:linear-gradient(145deg,#111e30,#0c1421);border-radius:11px;margin:12px 3px}
-.credit-top{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:700}
-.credit-number{font-family:"Plus Jakarta Sans";font-size:23px;font-weight:800;margin:8px 0 2px}
-.credit-sub{font-size:10px;color:var(--muted)}
-.credit-bar{height:4px;background:#25364c;border-radius:8px;margin:10px 0;overflow:hidden}
-.credit-bar span{display:block;width:65%;height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan))}
-.upgrade{display:block;text-align:center;padding:8px;border-radius:7px;text-decoration:none;color:#06111c;background:linear-gradient(100deg,#63c7ff,#4be5df);font-weight:800;font-size:11px}
-.sidebar-footer{padding:10px;color:#64758c;font-size:10px}
-.main{min-width:0}
-.topbar{height:61px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 25px;background:rgba(8,11,18,.88);position:sticky;top:0;z-index:8;backdrop-filter:blur(16px)}
-.breadcrumb{color:var(--muted);font-size:12px}.breadcrumb strong{color:var(--text)}
-.top-actions{display:flex;align-items:center;gap:9px}
-.top-btn{height:32px;padding:0 11px;border:1px solid var(--line);background:var(--surface);color:var(--soft);border-radius:8px;font-size:11px;font-weight:700}
-.avatar{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#2589dc,#2ed8ca);color:#06111c;font-weight:900}
-.content{max-width:1550px;margin:auto;padding:24px 25px 50px}
-.page-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:20px}
-.page-heading h1{font:800 23px "Plus Jakarta Sans";margin:0 0 5px;letter-spacing:-.7px}
-.page-heading p{color:var(--muted);margin:0;font-size:12px}
-.heading-actions{display:flex;gap:7px}
-.workspace{display:grid;grid-template-columns:330px minmax(0,1fr);gap:17px;align-items:start}
-.settings{background:var(--surface);border:1px solid var(--line);border-radius:13px;overflow:hidden}
-.settings-head{padding:14px 15px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
-.settings-head strong{font-size:12px}
-.text-btn{border:0;background:none;color:#69bfff;font-size:11px;font-weight:700}
-.setting-body{padding:14px}
-.block{margin-bottom:17px}
-.block:last-child{margin-bottom:0}
-.block-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
-.block-title label,.block-title strong{font-size:11px;font-weight:800;color:#dce7f6}
-.hint{font-size:10px;color:#71839d}
-.prompt{width:100%;min-height:116px;resize:vertical;background:#090f19;border:1px solid #263851;border-radius:9px;color:var(--text);padding:11px;outline:none;line-height:1.6;font-size:12px}
-.prompt:focus,.field:focus{border-color:var(--blue);box-shadow:0 0 0 2px rgba(56,165,255,.09)}
-.prompt-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:7px}
-.mini-tools{display:flex;gap:5px}
-.mini-btn{border:1px solid var(--line);background:var(--surface2);color:#aebed1;border-radius:6px;padding:5px 8px;font-size:10px}
-.counter{font-size:10px;color:#71839d}
-.upload-box{border:1px dashed #344a65;background:#0a111d;border-radius:9px;padding:14px;text-align:center;cursor:pointer;transition:.2s}
-.upload-box:hover{border-color:var(--blue);background:#0e1a2a}
-.upload-icon{font-size:22px;margin-bottom:5px}
-.upload-box strong{display:block;font-size:11px;margin-bottom:4px}
-.upload-box span{font-size:10px;color:var(--muted)}
-.upload-preview{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}
-.upload-preview img{width:58px;height:58px;object-fit:cover;border-radius:7px;border:1px solid var(--line)}
-.field{width:100%;height:35px;background:#0a111d;border:1px solid #25364d;border-radius:7px;color:#e7effa;padding:0 9px;outline:none;font-size:11px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:9px}
-.field-label{display:block;color:#93a5bc;font-size:10px;margin-bottom:6px}
-.segment{display:flex;gap:4px;padding:3px;background:#090f19;border:1px solid var(--line);border-radius:8px}
-.segment button{flex:1;border:0;background:transparent;color:#93a5bc;border-radius:6px;padding:7px 4px;font-size:10px;font-weight:700}
-.segment button.selected{background:#1b3550;color:#80cbff;box-shadow:inset 0 0 0 1px #28577c}
-.ratio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
-.ratio{border:1px solid var(--line);background:#0a111d;color:#aabbd0;border-radius:7px;padding:8px 4px;font-size:10px}
-.ratio.selected{border-color:#3299e8;background:#10243a;color:#80caff}
-.ratio i{display:block;margin:0 auto 5px;border:1.5px solid currentColor;border-radius:2px}
-.ratio[data-ratio="1:1"] i{width:14px;height:14px}
-.ratio[data-ratio="3:2"] i{width:19px;height:13px}
-.ratio[data-ratio="2:3"] i{width:11px;height:16px}
-.ratio[data-ratio="16:9"] i{width:21px;height:12px}
-.ratio[data-ratio="9:16"] i{width:10px;height:18px}
-.ratio[data-ratio="4:3"] i{width:17px;height:13px}
-.range-line{display:flex;align-items:center;gap:9px}
-.range-line input{width:100%;accent-color:var(--blue)}
-.range-value{min-width:28px;text-align:right;color:#a9c9e8;font-size:10px}
-.switch-row{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid rgba(34,48,68,.6)}
-.switch-row:last-child{border:0}
-.switch-row span{font-size:11px;color:#b9c8d9}
-.switch{appearance:none;width:30px;height:17px;border-radius:20px;background:#34445a;position:relative;cursor:pointer;transition:.2s}
-.switch:before{content:"";position:absolute;width:11px;height:11px;left:3px;top:3px;border-radius:50%;background:#dce7f5;transition:.2s}
-.switch:checked{background:#218edb}
-.switch:checked:before{left:16px;background:white}
-.advanced{border-top:1px solid var(--line);padding-top:13px;margin-top:14px}
-.advanced summary{cursor:pointer;display:flex;justify-content:space-between;font-size:11px;font-weight:800;color:#d9e6f6;list-style:none}
-.advanced summary:after{content:"＋";color:var(--blue)}
-.advanced[open] summary:after{content:"−"}
-.advanced-content{padding-top:13px}
-.generate-area{margin-top:15px}
-.generate-btn{width:100%;height:43px;border:0;border-radius:8px;background:linear-gradient(100deg,#38a5ff,#2ed9d0);color:#06111c;font-weight:900;font-size:12px;box-shadow:0 6px 22px rgba(40,160,230,.15)}
-.generate-btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
-.generate-note{text-align:center;color:#71839a;font-size:9px;margin-top:8px}
-.results{min-width:0}
-.result-toolbar{height:43px;display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
-.tabs{display:flex;gap:5px}
-.tab{border:0;background:transparent;color:#8294ac;padding:8px 11px;border-radius:7px;font-size:11px;font-weight:700}
-.tab.active{background:#14243a;color:#75c5ff}
-.result-actions{display:flex;gap:6px}
-.result-actions button{border:1px solid var(--line);background:var(--surface);color:#a9b9cd;border-radius:7px;padding:7px 9px;font-size:10px}
-.empty-state{min-height:470px;border:1px solid var(--line);border-radius:13px;background:radial-gradient(ellipse at 50% 35%,rgba(36,101,155,.12),transparent 55%),#0b111c;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px}
-.empty-inner{max-width:390px}
-.art-icon{width:74px;height:74px;border:1px solid #29415e;border-radius:20px;margin:0 auto 18px;display:grid;place-items:center;background:linear-gradient(145deg,#142b43,#101927);font-size:30px;box-shadow:0 15px 45px #0006}
-.empty-state h2{font:700 17px "Plus Jakarta Sans";margin:0 0 8px}
-.empty-state p{color:var(--muted);line-height:1.7;font-size:11px;margin:0 auto 18px}
-.suggestion-list{display:flex;gap:7px;justify-content:center;flex-wrap:wrap}
-.suggestion{border:1px solid #263c56;background:#101a29;color:#a9c9e5;border-radius:20px;padding:7px 10px;font-size:10px}
-.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.gallery-card{border:1px solid var(--line);background:var(--surface);border-radius:10px;overflow:hidden}
-.gallery-card img{width:100%;display:block;aspect-ratio:1;object-fit:cover}
-.gallery-info{padding:9px;font-size:10px;color:var(--muted)}
-.gallery-info button{float:right;background:none;border:0;color:#78c7ff}
-.modal-backdrop{display:none;position:fixed;inset:0;background:#000a;z-index:30;align-items:center;justify-content:center;padding:20px}
-.modal-backdrop.open{display:flex}
-.modal{width:min(540px,100%);background:#101a29;border:1px solid #2a3e58;border-radius:13px;padding:18px;box-shadow:0 25px 90px #0009}
-.modal h3{margin:0 0 8px;font:700 16px "Plus Jakarta Sans"}
-.modal p{color:var(--muted);font-size:12px;line-height:1.6}
-.modal-actions{display:flex;justify-content:flex-end;margin-top:15px}
-.primary-small{border:0;border-radius:7px;background:var(--blue);color:#06111c;padding:8px 13px;font-weight:800}
-.mobile-menu{display:none}
-@media(max-width:1050px){.app{grid-template-columns:205px minmax(0,1fr)}.workspace{grid-template-columns:300px minmax(0,1fr)}.content{padding:20px 16px}}
-@media(max-width:780px){
- .app{display:block}.sidebar{position:fixed;left:-245px;width:228px;transition:.25s;box-shadow:15px 0 40px #0008}.sidebar.open{left:0}
- .mobile-menu{display:inline-flex}.topbar{padding:0 13px;height:55px}.content{padding:18px 12px 35px}
- .workspace{grid-template-columns:1fr}.settings{order:1}.results{order:2}
- .page-heading h1{font-size:20px}.page-heading p{max-width:270px;line-height:1.5}
- .empty-state{min-height:330px}.heading-actions{display:none}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.app{min-height:100vh;display:grid;grid-template-columns:224px minmax(0,1fr)}
+.sidebar{
+  height:100vh;position:sticky;top:0;display:flex;flex-direction:column;
+  background:var(--sidebar);border-right:1px solid var(--line);padding:18px 13px;
+  overflow-y:auto;z-index:10
 }
-@media(max-width:430px){.two{gap:7px}.result-toolbar{height:auto;flex-wrap:wrap;gap:7px}.gallery{grid-template-columns:1fr}.top-btn{padding:0 7px}.breadcrumb{font-size:10px}}
+.brand{height:42px;display:flex;align-items:center;gap:10px;padding:0 9px;margin-bottom:25px;text-decoration:none;color:var(--text)}
+.brand img{width:32px;height:32px;object-fit:contain}
+.brand span{font-family:"Plus Jakarta Sans";font-size:19px;font-weight:800;letter-spacing:-.7px}
+.brand small{font-size:9px;color:var(--primary);font-weight:700;margin-left:2px}
+.side-label{font-size:10px;letter-spacing:1.1px;color:#65758e;font-weight:800;padding:10px 11px 8px;text-transform:uppercase}
+.nav{display:grid;gap:4px}
+.nav a,.nav button{
+  width:100%;height:38px;border:0;background:transparent;color:#aab8cc;
+  text-decoration:none;display:flex;align-items:center;gap:11px;padding:0 11px;
+  border-radius:9px;text-align:left;font-size:12px;font-weight:600
+}
+.nav a:hover,.nav button:hover{background:#111d30;color:white}
+.nav .active{background:linear-gradient(100deg,rgba(56,165,255,.18),rgba(46,231,223,.055));color:#eaf7ff;border:1px solid rgba(56,165,255,.17)}
+.nav .active .ico{color:var(--primary)}
+.ico{width:17px;height:17px;display:inline-grid;place-items:center;color:#8496af;flex:none}
+.ico svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.nav-count{margin-left:auto;color:#6f819b;font-size:10px}
+.side-bottom{margin-top:auto}
+.credit-card{margin:17px 2px 12px;padding:13px;border:1px solid #20344e;border-radius:12px;background:linear-gradient(145deg,#111f35,#0d1728)}
+.credit-top{display:flex;align-items:center;justify-content:space-between;font-size:11px;font-weight:700}
+.credit-number{font-size:22px;font-weight:800;margin:9px 0 2px;letter-spacing:-.7px}
+.credit-caption{color:var(--muted);font-size:10px}
+.credit-track{height:4px;background:#26364d;border-radius:8px;margin-top:12px;overflow:hidden}
+.credit-track span{display:block;width:68%;height:100%;background:linear-gradient(90deg,var(--primary),var(--cyan));border-radius:8px}
+.side-user{border-top:1px solid var(--line);padding:14px 5px 0;display:flex;align-items:center;gap:9px}
+.avatar{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#1b6fa9,#31c4d4);font-weight:800;color:white}
+.user-info{min-width:0;flex:1}
+.user-info strong{display:block;font-size:11px}
+.user-info small{color:var(--muted);font-size:10px}
+.main{min-width:0}
+.topbar{
+  height:62px;border-bottom:1px solid var(--line);display:flex;align-items:center;
+  justify-content:space-between;padding:0 25px;position:sticky;top:0;z-index:8;
+  background:rgba(7,11,20,.91);backdrop-filter:blur(16px)
+}
+.top-left,.top-right{display:flex;align-items:center;gap:13px}
+.breadcrumb{color:var(--muted);font-size:12px}
+.breadcrumb b{color:#eaf2ff;font-weight:700}
+.top-divider{height:17px;width:1px;background:var(--line)}
+.top-action{height:32px;padding:0 11px;border:1px solid var(--line);background:var(--surface);color:#c8d5e7;border-radius:8px;font-size:11px;font-weight:700}
+.top-action:hover{border-color:#416080}
+.upgrade{background:linear-gradient(100deg,#2189e9,#24b9c9);color:#04111c;border:0}
+.page{max-width:1600px;margin:auto;padding:25px 27px 50px}
+.page-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:20px}
+.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:var(--primary);font-weight:800;margin-bottom:7px}
+h1,h2,h3,p{margin-top:0}
+h1{font:800 25px "Plus Jakarta Sans";letter-spacing:-1px;margin-bottom:5px}
+.subtitle{color:var(--muted);font-size:12px;margin:0;line-height:1.6}
+.heading-actions{display:flex;gap:8px}
+.icon-btn{width:34px;height:34px;border:1px solid var(--line);background:var(--surface);color:#aabbd0;border-radius:9px;display:grid;place-items:center}
+.icon-btn:hover{color:white;border-color:#45617e}
+.icon-btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.7}
+.mode-tabs{display:flex;gap:5px;border-bottom:1px solid var(--line);margin-bottom:19px}
+.mode-tab{border:0;background:transparent;color:#8495ad;padding:11px 15px 12px;font-size:12px;font-weight:700;position:relative}
+.mode-tab:hover{color:white}
+.mode-tab.active{color:#eaf6ff}
+.mode-tab.active:after{content:"";position:absolute;bottom:-1px;left:12px;right:12px;height:2px;background:var(--primary);border-radius:5px}
+.studio-grid{display:grid;grid-template-columns:minmax(0,1fr) 292px;gap:17px;align-items:start}
+.center-col{min-width:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:13px}
+.prompt-card{padding:16px;margin-bottom:15px}
+.card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.card-title{font-size:12px;font-weight:800;color:#eaf1fb}
+.muted{color:var(--muted);font-size:10px}
+.prompt-box{
+  width:100%;min-height:112px;resize:vertical;border:1px solid #293b54;
+  background:#0a1220;border-radius:10px;color:#f1f6ff;padding:13px 14px;
+  font-size:12px;line-height:1.7;outline:none
+}
+.prompt-box:focus{border-color:#328ed2;box-shadow:0 0 0 3px rgba(56,165,255,.07)}
+.prompt-box::placeholder{color:#63748d}
+.prompt-footer{display:flex;align-items:center;justify-content:space-between;margin-top:10px;gap:10px}
+.prompt-tools{display:flex;gap:6px;flex-wrap:wrap}
+.soft-btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#111c2d;color:#b7c6d9;border-radius:7px;padding:7px 9px;font-size:10px;font-weight:700}
+.soft-btn:hover{border-color:#3a5a7c;color:white}
+.soft-btn svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:1.8}
+.prompt-count{font-size:10px;color:#72849d}
+.guidance-row{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px}
+.guidance-chip{border:1px solid #25364d;background:#0d192a;color:#a9bad0;border-radius:7px;padding:7px 9px;font-size:10px;font-weight:700}
+.guidance-chip:hover,.guidance-chip.selected{border-color:#287fb8;background:#102941;color:#d9f2ff}
+.guidance-chip .plus{color:var(--primary);margin-right:4px}
+.upload-strip{display:none;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:12px}
+.upload-strip.show{display:grid}
+.upload-tile{height:86px;border:1px dashed #38506d;background:#0b1524;border-radius:9px;position:relative;overflow:hidden;display:grid;place-items:center;color:#8da1ba;font-size:10px}
+.upload-tile img{width:100%;height:100%;object-fit:cover}
+.upload-tile button{position:absolute;right:5px;top:5px;width:20px;height:20px;border:0;border-radius:50%;background:#07101de8;color:white}
+.section-card{padding:15px;margin-bottom:15px}
+.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px}
+.section-head h2{font-size:12px;margin:0;font-weight:800}
+.model-select{width:100%;display:flex;align-items:center;gap:11px;padding:10px;border:1px solid #293b54;background:#0b1422;border-radius:10px;color:white;text-align:left}
+.model-thumb{width:37px;height:37px;border-radius:8px;background:linear-gradient(135deg,#123b64,#1a8b9d 55%,#192c50);display:grid;place-items:center;font-size:17px;flex:none}
+.model-meta{flex:1;min-width:0}
+.model-meta strong{display:block;font-size:11px;margin-bottom:3px}
+.model-meta small{display:block;color:var(--muted);font-size:10px}
+.model-arrow{color:#8397b2}
+.model-menu{display:none;margin-top:7px;border:1px solid var(--line);background:#0b1321;border-radius:10px;padding:5px}
+.model-menu.open{display:block}
+.model-option{width:100%;display:flex;align-items:center;gap:9px;text-align:left;padding:9px;border:0;background:transparent;color:#c9d6e7;border-radius:7px}
+.model-option:hover{background:#142238}
+.model-option strong{font-size:11px;display:block}
+.model-option small{font-size:9px;color:var(--muted);display:block;margin-top:3px}
+.model-option .tick{margin-left:auto;color:var(--cyan)}
+.preset-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.preset{
+  min-width:0;border:1px solid var(--line);background:#0b1422;border-radius:9px;
+  padding:0;overflow:hidden;text-align:left;color:#c9d5e6
+}
+.preset:hover{border-color:#45617c;transform:translateY(-1px)}
+.preset.active{border-color:#2996df;box-shadow:0 0 0 1px rgba(56,165,255,.13)}
+.preset-art{height:58px;display:grid;place-items:center;font-size:22px;position:relative;overflow:hidden}
+.preset-art:after{content:"";position:absolute;inset:0;background:linear-gradient(130deg,transparent,rgba(255,255,255,.12),transparent)}
+.art-photo{background:linear-gradient(135deg,#314a5a,#c58c6b 50%,#17283c)}
+.art-cinema{background:linear-gradient(135deg,#07192e,#146a88 55%,#d39b61)}
+.art-anime{background:linear-gradient(135deg,#5d2b79,#d76d9b 55%,#f3c9a4)}
+.art-3d{background:linear-gradient(135deg,#164f67,#35a9a7 50%,#b4d4b8)}
+.art-art{background:linear-gradient(135deg,#8c472f,#e5a24d 50%,#394b77)}
+.art-product{background:linear-gradient(135deg,#252c40,#7689a2 50%,#d5d9e0)}
+.art-arch{background:linear-gradient(135deg,#ad8c69,#e2c9a6 55%,#526b72)}
+.art-illustration{background:linear-gradient(135deg,#364d8a,#7e83ca 50%,#e8a5a6)}
+.preset-label{display:block;padding:7px 7px 8px;font-size:10px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.control-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.control label,.control-label{display:flex;align-items:center;justify-content:space-between;color:#aebdd0;font-size:10px;font-weight:700;margin-bottom:7px}
+.control select,.control input[type=number],.control input[type=text]{
+  width:100%;height:35px;border:1px solid #293b54;border-radius:8px;background:#0a1321;color:#eaf2ff;padding:0 9px;font-size:11px;outline:none
+}
+.control select:focus,.control input:focus{border-color:var(--primary)}
+.ratio-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.ratio{height:53px;border:1px solid #26384f;border-radius:8px;background:#0a1321;color:#91a3bc;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-size:9px}
+.ratio:hover{border-color:#47617e;color:white}
+.ratio.active{border-color:var(--primary);background:#10263c;color:#dff4ff}
+.ratio-shape{border:1.5px solid currentColor;border-radius:2px;width:17px;height:17px}
+.ratio[data-ratio="16:9"] .ratio-shape{width:22px;height:13px}
+.ratio[data-ratio="9:16"] .ratio-shape{width:12px;height:21px}
+.ratio[data-ratio="4:3"] .ratio-shape{width:20px;height:15px}
+.ratio[data-ratio="3:2"] .ratio-shape{width:21px;height:14px}
+.range-control{display:flex;align-items:center;gap:9px}
+input[type=range]{width:100%;accent-color:var(--primary)}
+.range-value{min-width:27px;text-align:right;color:#d7e4f4;font-size:10px}
+.switch-row{display:flex;align-items:center;justify-content:space-between;padding:9px 0;border-top:1px solid rgba(29,43,66,.7)}
+.switch-row:first-child{border-top:0}
+.switch-info strong{font-size:10px;display:block;color:#d7e3f2}
+.switch-info small{font-size:9px;color:#778aa4;display:block;margin-top:3px}
+.switch{width:31px;height:18px;border:0;border-radius:20px;background:#29384d;padding:2px;transition:.2s;flex:none}
+.switch:after{content:"";display:block;width:14px;height:14px;border-radius:50%;background:#9aabc0;transition:.2s}
+.switch.on{background:#167fc3}
+.switch.on:after{transform:translateX(13px);background:white}
+.advanced{border-top:1px solid var(--line);margin-top:12px;padding-top:11px}
+.advanced summary{cursor:pointer;list-style:none;color:#b8c7da;font-size:10px;font-weight:800;display:flex;justify-content:space-between}
+.advanced summary::-webkit-details-marker{display:none}
+.advanced summary:after{content:"＋";color:var(--primary)}
+.advanced[open] summary:after{content:"−"}
+.advanced-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:13px}
+.generate-bar{position:sticky;bottom:12px;z-index:5;margin-top:15px;padding:10px;border:1px solid #29435e;border-radius:12px;background:rgba(12,21,35,.95);backdrop-filter:blur(14px);display:flex;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 12px 35px #0006}
+.generate-note{color:#879bb5;font-size:10px}
+.generate-note strong{color:#dbe9f8;display:block;font-size:11px;margin-bottom:3px}
+.generate-btn{height:42px;min-width:155px;padding:0 18px;border:0;border-radius:9px;background:linear-gradient(100deg,#2696f1,#27c6cb);color:#04111d;font-size:12px;font-weight:800;box-shadow:0 5px 18px rgba(38,150,241,.17)}
+.generate-btn:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.generate-btn:disabled{opacity:.7;cursor:not-allowed}
+.result-card{padding:15px;min-height:290px}
+.result-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:13px}
+.result-header h2{font-size:12px;margin:0}
+.result-actions{display:flex;gap:6px}
+.empty-state{
+  min-height:235px;border:1px dashed #2b3d55;border-radius:10px;
+  background:radial-gradient(ellipse at 50% 45%,rgba(34,100,145,.12),transparent 60%),#0a1220;
+  display:flex;align-items:center;justify-content:center;text-align:center;padding:25px
+}
+.empty-icon{width:52px;height:52px;border-radius:15px;border:1px solid #2b4a67;background:linear-gradient(145deg,#122b45,#102033);display:grid;place-items:center;margin:0 auto 13px;color:#69c7ff}
+.empty-icon svg{width:25px;height:25px;stroke:currentColor;fill:none;stroke-width:1.5}
+.empty-state h3{font-size:13px;margin:0 0 6px}
+.empty-state p{max-width:300px;color:#8194ad;font-size:10px;line-height:1.6;margin:0 auto}
+.history-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:13px}
+.history-item{height:120px;border:1px solid var(--line);border-radius:9px;overflow:hidden;position:relative;background:#0a1321}
+.history-art{height:100%;display:grid;place-items:center;font-size:30px}
+.history-item span{position:absolute;bottom:0;left:0;right:0;padding:7px;background:linear-gradient(transparent,#050a13e8);font-size:9px;color:#e6effb}
+.right-col{min-width:0}
+.right-card{padding:14px;margin-bottom:13px}
+.right-card h3{font-size:11px;margin:0}
+.right-card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.guidance-empty{border:1px dashed #31445e;border-radius:9px;padding:15px 10px;text-align:center;background:#0a1321}
+.guidance-empty strong{display:block;font-size:10px;margin:8px 0 4px}
+.guidance-empty p{font-size:9px;color:#8092aa;line-height:1.55;margin:0}
+.upload-guidance{width:100%;margin-top:10px;height:34px;border:1px solid #31516e;border-radius:8px;background:#102238;color:#cdeaff;font-size:10px;font-weight:700}
+.guidance-files{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:9px}
+.guidance-files img{width:100%;height:65px;object-fit:cover;border-radius:6px;border:1px solid var(--line)}
+.tip-card{padding:13px;border:1px solid #1d3c53;background:linear-gradient(140deg,#102238,#0c1929);border-radius:11px}
+.tip-card strong{font-size:10px;display:flex;align-items:center;gap:7px}
+.tip-card p{color:#8fa5bf;font-size:9px;line-height:1.6;margin:7px 0 0}
+.tip-card a{display:inline-block;margin-top:8px;color:#70c7ff;font-size:9px;text-decoration:none}
+.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:50;background:#17263b;border:1px solid #35516f;color:#eaf4ff;padding:11px 16px;border-radius:9px;font-size:11px;box-shadow:0 10px 35px #0008;transition:.25s}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.mobile-menu{display:none}
+.modal-backdrop{display:none;position:fixed;inset:0;background:#02060bd9;z-index:30;align-items:center;justify-content:center;padding:20px}
+.modal-backdrop.show{display:flex}
+.modal{width:min(440px,100%);background:#101b2b;border:1px solid #2a3e58;border-radius:14px;padding:20px;box-shadow:0 20px 80px #000b}
+.modal h3{font-size:15px;margin:0 0 8px}
+.modal p{font-size:11px;color:var(--muted);line-height:1.65}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}
+@media(max-width:1150px){.app{grid-template-columns:195px minmax(0,1fr)}.studio-grid{grid-template-columns:minmax(0,1fr) 260px}.page{padding:22px 18px}}
+@media(max-width:900px){.studio-grid{grid-template-columns:1fr}.right-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}.right-card{margin:0}.tip-card{align-self:start}}
+@media(max-width:680px){
+  .app{display:block}.sidebar{position:fixed;left:-245px;width:224px;transition:left .25s;box-shadow:15px 0 45px #0008}.sidebar.open{left:0}
+  .mobile-menu{display:grid}.topbar{height:56px;padding:0 13px}.topbar .breadcrumb{display:none}.page{padding:20px 13px 35px}
+  .page-heading{align-items:center}h1{font-size:21px}.subtitle{font-size:11px}.top-right{gap:7px}.top-action{font-size:10px;padding:0 8px}
+  .right-col{grid-template-columns:1fr}.preset-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .prompt-card,.section-card,.result-card,.right-card{padding:12px}.generate-bar{bottom:8px}.generate-btn{min-width:130px}
+}
+@media(max-width:420px){.preset-grid{grid-template-columns:repeat(2,1fr)}.control-grid{gap:9px}.ratio-grid{gap:4px}.ratio{height:49px}.heading-actions .icon-btn:nth-child(2){display:none}.generate-note{max-width:145px}}
+
+/* Clickdy themed sidebar scrollbar */
+.sidebar {
+  scrollbar-width: thin;
+  scrollbar-color: #286b9b #090f1b;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #090f1b;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #38a5ff,
+    #2ee7df
+  );
+  border-radius: 20px;
+  border: 1px solid #090f1b;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #55b7ff,
+    #50f0e8
+  );
+}
+
 </style>
 </head>
 <body>
 <div class="app">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="../index.html">
+      <img src="../assets/logo.png" alt="Clickdy">
+      <span>Clickdy<small> STUDIO</small></span>
+    </a>
 
-<aside class="sidebar" id="sidebar">
- <a class="brand" href="../index.html">
-  <img src="../assets/logo.png" alt="Clickdy">
-  <span>Clickdy</span><small>STUDIO</small>
- </a>
+    <div class="side-label">Workspace</div>
+    <nav class="nav">
+      <a class="active" href="#create"><span class="ico">✦</span> Image Creation</a>
+      <a href="#library" data-nav="library"><span class="ico">▦</span> My Library <span class="nav-count">—</span></a>
+      <a href="#favorites" data-nav="favorites"><span class="ico">♡</span> Favorites</a>
+      <a href="#projects" data-nav="projects"><span class="ico">▣</span> Projects</a>
+    </nav>
 
- <div class="side-label">Create</div>
- <nav class="nav">
-  <a href="#" class="active" data-view="image"><span class="nav-icon">✦</span>Image Generation</a>
-  <a href="#" data-view="video"><span class="nav-icon">▣</span>Video Generation<span class="tag">NEW</span></a>
-  <a href="#" data-view="realtime"><span class="nav-icon">◉</span>Realtime Canvas</a>
-  <a href="#" data-view="flow"><span class="nav-icon">⌘</span>Flow State</a>
-  <a href="#" data-view="editor"><span class="nav-icon">▧</span>Canvas Editor</a>
- </nav>
+    <div class="side-label" style="margin-top:19px">Creative Tools</div>
+    <nav class="nav">
+      <button type="button" data-feature="Realtime Canvas"><span class="ico">◉</span> Realtime Canvas <span class="nav-count">Soon</span></button>
+      <button type="button" data-feature="Canvas Editor"><span class="ico">▧</span> Canvas Editor <span class="nav-count">Soon</span></button>
+      <button type="button" data-feature="AI Upscaler"><span class="ico">⤢</span> AI Upscaler <span class="nav-count">Soon</span></button>
+      <button type="button" data-feature="Background Remover"><span class="ico">◌</span> Background Remover <span class="nav-count">Soon</span></button>
+      <button type="button" data-feature="Blueprints"><span class="ico">◇</span> Blueprints <span class="nav-count">Soon</span></button>
+    </nav>
 
- <div class="side-label">Your Library</div>
- <nav class="nav">
-  <a href="#" data-view="library"><span class="nav-icon">▤</span>My Generations</a>
-  <a href="#" data-view="favorites"><span class="nav-icon">♡</span>Favorites</a>
-  <a href="#" data-view="collections"><span class="nav-icon">▦</span>Collections</a>
- </nav>
-
- <div class="side-label">Creative Tools</div>
- <nav class="nav">
-  <a href="#" data-view="upscaler"><span class="nav-icon">⤢</span>AI Upscaler</a>
-  <a href="#" data-view="blueprints"><span class="nav-icon">◇</span>Blueprints</a>
-  <a href="#" data-view="models"><span class="nav-icon">⚙</span>Models & Training</a>
- </nav>
-
- <div class="side-bottom">
-  <div class="credit-card">
-   <div class="credit-top"><span>✧ Your credits</span><span style="color:#70c5ff">Free</span></div>
-   <div class="credit-number">— <span style="font-size:10px;color:#91a1b8">credits</span></div>
-   <div class="credit-sub">Connect a generation provider later</div>
-   <div class="credit-bar"><span></span></div>
-   <a class="upgrade" href="#" id="upgradeBtn">Explore plans ↗</a>
-  </div>
-  <nav class="nav">
-   <a href="#" data-view="help"><span class="nav-icon">?</span>Help Center</a>
-   <a href="../index.html"><span class="nav-icon">↗</span>Back to Clickdy</a>
-  </nav>
-  <div class="sidebar-footer">Clickdy AI Studio · Creative workspace</div>
- </div>
-</aside>
-
-<main class="main">
- <header class="topbar">
-  <div style="display:flex;align-items:center;gap:12px">
-   <button class="top-btn mobile-menu" id="menuBtn">☰</button>
-   <div class="breadcrumb">Studio <span style="color:#50617a">/</span> <strong id="breadcrumbTitle">Image Generation</strong></div>
-  </div>
-  <div class="top-actions">
-   <button class="top-btn" id="historyBtn">◷ History</button>
-   <button class="top-btn" id="newBtn">＋ New</button>
-   <div class="avatar">C</div>
-  </div>
- </header>
-
- <div class="content">
-  <div class="page-heading">
-   <div>
-    <h1 id="pageTitle">AI Image Generation</h1>
-    <p id="pageSubtitle">Turn your ideas into stunning visuals with creative control.</p>
-   </div>
-   <div class="heading-actions">
-    <button class="top-btn" id="promptGuide">✧ Prompt guide</button>
-    <button class="top-btn" id="clearBtn">↺ Reset settings</button>
-   </div>
-  </div>
-
-  <div class="workspace">
-   <section class="settings">
-    <div class="settings-head">
-     <strong>Generation Settings</strong>
-     <button class="text-btn" id="resetBtn">Reset</button>
+    <div class="side-bottom">
+      <div class="credit-card">
+        <div class="credit-top"><span>Generation credits</span><span style="color:var(--cyan)">Free</span></div>
+        <div class="credit-number">— <span style="font-size:10px;color:#8295af;font-weight:600">credits</span></div>
+        <div class="credit-caption">Credits will appear when generation is connected.</div>
+        <div class="credit-track"><span></span></div>
+      </div>
+      <nav class="nav">
+        <a href="../index.html"><span class="ico">⌂</span> Back to Clickdy</a>
+        <button type="button" data-feature="Settings"><span class="ico">⚙</span> Settings</button>
+        <button type="button" data-feature="Help Center"><span class="ico">?</span> Help Center</button>
+      </nav>
+      <div class="side-user">
+        <div class="avatar">C</div>
+        <div class="user-info"><strong>Clickdy Creator</strong><small>Personal workspace</small></div>
+        <span style="color:#71849e">•••</span>
+      </div>
     </div>
-    <div class="setting-body">
+  </aside>
 
-     <div class="block">
-      <div class="block-title"><label for="prompt">Your prompt</label><span class="hint" id="charCount">0 / 2000</span></div>
-      <textarea class="prompt" id="prompt" maxlength="2000" placeholder="Describe the image you want to create. Be detailed about subject, environment, lighting, mood and composition..."></textarea>
-      <div class="prompt-bottom">
-       <div class="mini-tools">
-        <button class="mini-btn" id="enhanceBtn">✧ Enhance prompt</button>
-        <button class="mini-btn" id="randomBtn">↻ Surprise me</button>
-       </div>
-       <span class="counter">Natural language</span>
+  <main class="main">
+    <header class="topbar">
+      <div class="top-left">
+        <button class="icon-btn mobile-menu" id="menuBtn" aria-label="Open menu">☰</button>
+        <div class="breadcrumb">Studio <span style="color:#52647c"> / </span> <b>Image Creation</b></div>
       </div>
-     </div>
-
-     <div class="block">
-      <div class="block-title"><label>Image guidance</label><span class="hint">Reference images</span></div>
-      <label class="upload-box" for="referenceInput">
-       <div class="upload-icon">▧</div>
-       <strong>Upload reference images</strong>
-       <span>Drag images here or browse · Up to 6 images</span>
-      </label>
-      <input type="file" id="referenceInput" accept="image/*" multiple hidden>
-      <div class="upload-preview" id="uploadPreview"></div>
-      <div class="two" style="margin-top:9px">
-       <div><span class="field-label">Guidance type</span>
-        <select class="field" id="guidanceType">
-         <option>Image Reference</option><option>Style Reference</option><option>Content Reference</option><option>Character Reference</option><option>Depth</option><option>Edge</option><option>Sketch</option><option>Pose</option><option>Lineart</option><option>Pattern</option>
-        </select>
-       </div>
-       <div><span class="field-label">Influence</span>
-        <select class="field" id="influence"><option>Low</option><option selected>Medium</option><option>High</option><option>Maximum</option></select>
-       </div>
+      <div class="top-right">
+        <button class="top-action" type="button" data-feature="Generation history">◷ &nbsp;History</button>
+        <button class="top-action upgrade" type="button" data-feature="Plans and credits">✦ &nbsp;Upgrade</button>
+        <div class="avatar">C</div>
       </div>
-     </div>
+    </header>
 
-     <div class="block">
-      <div class="block-title"><label for="model">AI model</label><span class="hint">Model selection</span></div>
-      <select class="field" id="model">
-       <option value="auto">Auto · Recommended</option>
-       <option>Photorealistic</option><option>Creative</option><option>Illustration</option>
-       <option>Anime & Manga</option><option>3D Art</option><option>Concept Art</option>
-       <option>Flux-style</option><option>SDXL-style</option>
-      </select>
-     </div>
-
-     <div class="block">
-      <div class="block-title"><label>Generation mode</label></div>
-      <div class="segment" id="quality">
-       <button class="selected" data-value="Fast">⚡ Fast</button>
-       <button data-value="Quality">Quality</button>
-       <button data-value="Ultra">Ultra</button>
+    <div class="page" id="create">
+      <div class="page-heading">
+        <div>
+          <div class="eyebrow">Your creative workspace</div>
+          <h1>Image Creation</h1>
+          <p class="subtitle">Turn your ideas into visuals. Describe what you imagine and shape every detail.</p>
+        </div>
+        <div class="heading-actions">
+          <button class="icon-btn" type="button" title="Generation history" data-feature="Generation history">◷</button>
+          <button class="icon-btn" type="button" title="Help" data-feature="Help Center">?</button>
+        </div>
       </div>
-     </div>
 
-     <div class="block">
-      <div class="block-title"><label>Style preset</label><button class="text-btn" id="allStyles">View all</button></div>
-      <select class="field" id="style">
-       <option value="None">None · Use prompt style</option>
-       <option>Dynamic</option><option>Portrait</option><option>Photography</option>
-       <option>Cinematic</option><option>Anime</option><option>Digital Art</option>
-       <option>3D Render</option><option>Illustration</option><option>Fantasy</option>
-       <option>Concept Art</option><option>Minimalist</option><option>Product Photography</option>
-       <option>Architecture</option><option>Fashion</option><option>Vintage</option>
-       <option>Watercolor</option><option>Oil Painting</option><option>Pixel Art</option>
-      </select>
-     </div>
-
-     <div class="block">
-      <div class="block-title"><label>Aspect ratio</label><span class="hint" id="ratioLabel">1:1</span></div>
-      <div class="ratio-grid" id="ratios">
-       <button class="ratio selected" data-ratio="1:1"><i></i>Square</button>
-       <button class="ratio" data-ratio="3:2"><i></i>Landscape</button>
-       <button class="ratio" data-ratio="2:3"><i></i>Portrait</button>
-       <button class="ratio" data-ratio="16:9"><i></i>Wide</button>
-       <button class="ratio" data-ratio="9:16"><i></i>Story</button>
-       <button class="ratio" data-ratio="4:3"><i></i>Classic</button>
+      <div class="mode-tabs" role="tablist">
+        <button class="mode-tab active" data-mode="text" role="tab">✦ &nbsp;Text to Image</button>
+        <button class="mode-tab" data-mode="image" role="tab">▧ &nbsp;Image to Image</button>
+        <button class="mode-tab" data-mode="edit" role="tab">✎ &nbsp;Image Editing</button>
       </div>
-     </div>
 
-     <div class="two block">
-      <div><span class="field-label">Image size</span>
-       <select class="field" id="size"><option>1K</option><option>512px</option><option>2K</option><option>4K</option></select>
-      </div>
-      <div><span class="field-label">Number of images</span>
-       <select class="field" id="count"><option>1</option><option selected>2</option><option>3</option><option>4</option></select>
-      </div>
-     </div>
+      <div class="studio-grid">
+        <section class="center-col">
+          <div class="card prompt-card">
+            <div class="card-head">
+              <span class="card-title">Describe your image</span>
+              <span class="muted" id="modeLabel">TEXT TO IMAGE</span>
+            </div>
+            <textarea class="prompt-box" id="prompt" maxlength="3000" placeholder="Describe the image you want to create... Be specific about the subject, environment, lighting, mood and composition."></textarea>
+            <div class="prompt-footer">
+              <div class="prompt-tools">
+                <button class="soft-btn" id="addReference" type="button"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg> Add image</button>
+                <button class="soft-btn" id="enhancePrompt" type="button">✧ &nbsp;Enhance prompt</button>
+                <button class="soft-btn" id="clearPrompt" type="button">Clear</button>
+              </div>
+              <span class="prompt-count"><span id="promptCount">0</span>/3000</span>
+            </div>
+            <div class="upload-strip" id="uploadStrip"></div>
+            <input type="file" id="referenceInput" accept="image/*" multiple hidden>
+            <div class="guidance-row">
+              <button class="guidance-chip" type="button" data-chip="cinematic lighting"><span class="plus">+</span> Cinematic lighting</button>
+              <button class="guidance-chip" type="button" data-chip="ultra detailed"><span class="plus">+</span> Ultra detailed</button>
+              <button class="guidance-chip" type="button" data-chip="professional composition"><span class="plus">+</span> Professional composition</button>
+              <button class="guidance-chip" type="button" data-chip="soft natural light"><span class="plus">+</span> Natural light</button>
+            </div>
+          </div>
 
-     <div class="block">
-      <div class="block-title"><label>Elements</label><span class="hint">Creative influence</span></div>
-      <select class="field" id="element">
-       <option>None</option><option>Photorealism</option><option>Detailed</option>
-       <option>Colorful</option><option>Moody</option><option>Soft lighting</option>
-       <option>Film grain</option><option>Vibrant</option><option>Minimal</option>
-      </select>
-      <div class="range-line" style="margin-top:9px">
-       <span class="hint">Influence</span><input type="range" id="elementStrength" min="0" max="100" value="50"><output class="range-value" id="elementOut">50%</output>
-      </div>
-     </div>
+          <div class="card section-card">
+            <div class="section-head">
+              <h2>Choose a model</h2>
+              <span class="muted">MODEL SELECTOR</span>
+            </div>
+            <button class="model-select" id="modelSelect" type="button" aria-expanded="false">
+              <span class="model-thumb">✦</span>
+              <span class="model-meta"><strong id="selectedModel">Auto · Best available</strong><small id="selectedModelDesc">Automatically choose a suitable model</small></span>
+              <span class="model-arrow">⌄</span>
+            </button>
+            <div class="model-menu" id="modelMenu">
+              <button class="model-option" data-model="Auto · Best available" data-desc="Automatically choose a suitable model"><span class="model-thumb">✦</span><span><strong>Auto · Best available</strong><small>Recommended for most prompts</small></span><span class="tick">✓</span></button>
+              <button class="model-option" data-model="Photorealistic" data-desc="For lifelike photography and realistic scenes"><span class="model-thumb">◉</span><span><strong>Photorealistic</strong><small>Photography and realistic visuals</small></span></button>
+              <button class="model-option" data-model="Creative Illustration" data-desc="For expressive art and illustration"><span class="model-thumb">✿</span><span><strong>Creative Illustration</strong><small>Illustration and artistic concepts</small></span></button>
+              <button class="model-option" data-model="Cinematic" data-desc="For dramatic cinematic compositions"><span class="model-thumb">▣</span><span><strong>Cinematic</strong><small>Film-inspired visuals</small></span></button>
+              <button class="model-option" data-model="3D & Design" data-desc="For 3D concepts and product visuals"><span class="model-thumb">◇</span><span><strong>3D & Design</strong><small>3D art and product concepts</small></span></button>
+              <button class="model-option" data-model="Anime & Fantasy" data-desc="For anime, fantasy and stylized artwork"><span class="model-thumb">✧</span><span><strong>Anime & Fantasy</strong><small>Stylized and imaginative art</small></span></button>
+            </div>
+          </div>
 
-     <div class="block">
-      <div class="block-title"><label>Output preferences</label></div>
-      <div class="two">
-       <div><span class="field-label">Format</span><select class="field" id="format"><option>PNG</option><option>JPG</option><option>WebP</option></select></div>
-       <div><span class="field-label">Visibility</span><select class="field" id="visibility"><option>Public</option><option>Private</option></select></div>
-      </div>
-      <div class="switch-row"><span>Transparent background</span><input class="switch" type="checkbox" id="transparent"></div>
-      <div class="switch-row"><span>Prompt enhancement</span><input class="switch" type="checkbox" id="autoEnhance"></div>
-     </div>
+          <div class="card section-card">
+            <div class="section-head">
+              <h2>Choose a style</h2>
+              <button class="soft-btn" type="button" id="clearStyle">Reset style</button>
+            </div>
+            <div class="preset-grid" id="styleGrid">
+              <button class="preset active" data-style="None"><span class="preset-art art-photo">✧</span><span class="preset-label">None</span></button>
+              <button class="preset" data-style="Photography"><span class="preset-art art-photo">◉</span><span class="preset-label">Photography</span></button>
+              <button class="preset" data-style="Cinematic"><span class="preset-art art-cinema">▣</span><span class="preset-label">Cinematic</span></button>
+              <button class="preset" data-style="Anime"><span class="preset-art art-anime">✿</span><span class="preset-label">Anime</span></button>
+              <button class="preset" data-style="3D Render"><span class="preset-art art-3d">◇</span><span class="preset-label">3D Render</span></button>
+              <button class="preset" data-style="Digital Art"><span class="preset-art art-art">✺</span><span class="preset-label">Digital Art</span></button>
+              <button class="preset" data-style="Product"><span class="preset-art art-product">⬡</span><span class="preset-label">Product</span></button>
+              <button class="preset" data-style="Architecture"><span class="preset-art art-arch">⌂</span><span class="preset-label">Architecture</span></button>
+              <button class="preset" data-style="Illustration"><span class="preset-art art-illustration">✎</span><span class="preset-label">Illustration</span></button>
+            </div>
+          </div>
 
-     <details class="advanced">
-      <summary>Advanced settings <span class="hint">Seed · Guidance · Negative prompt</span></summary>
-      <div class="advanced-content">
-       <div class="block">
-        <label class="field-label" for="negative">Negative prompt</label>
-        <textarea class="prompt" id="negative" style="min-height:70px" placeholder="What should the image avoid?"></textarea>
-       </div>
-       <div class="two block">
-        <div><label class="field-label" for="seed">Seed</label><input class="field" id="seed" type="number" placeholder="Random"></div>
-        <div><label class="field-label" for="steps">Steps</label><input class="field" id="steps" type="number" min="1" max="100" value="30"></div>
-       </div>
-       <div class="block">
-        <div class="block-title"><label for="guidance">Guidance scale</label><output id="guidanceOut" class="range-value">7</output></div>
-        <input type="range" id="guidance" min="1" max="20" step=".5" value="7" style="width:100%;accent-color:var(--blue)">
-       </div>
-       <div class="block">
-        <label class="field-label" for="scheduler">Scheduler</label>
-        <select class="field" id="scheduler"><option>Auto</option><option>Euler</option><option>Euler Ancestral</option><option>DDIM</option><option>DPM++</option></select>
-       </div>
-       <div class="switch-row"><span>Fixed seed</span><input class="switch" type="checkbox" id="fixedSeed"></div>
-       <div class="switch-row"><span>High contrast</span><input class="switch" type="checkbox" id="contrast"></div>
-      </div>
-     </details>
+          <div class="card section-card">
+            <div class="section-head">
+              <h2>Image dimensions</h2>
+              <span class="muted">ASPECT RATIO</span>
+            </div>
+            <div class="ratio-grid" id="ratioGrid">
+              <button class="ratio active" data-ratio="1:1"><span class="ratio-shape"></span>1:1</button>
+              <button class="ratio" data-ratio="16:9"><span class="ratio-shape"></span>16:9</button>
+              <button class="ratio" data-ratio="9:16"><span class="ratio-shape"></span>9:16</button>
+              <button class="ratio" data-ratio="4:3"><span class="ratio-shape"></span>4:3</button>
+              <button class="ratio" data-ratio="3:2"><span class="ratio-shape"></span>3:2</button>
+            </div>
+          </div>
 
-     <div class="generate-area">
-      <button class="generate-btn" id="generateBtn">✦ Generate Image</button>
-      <div class="generate-note">Generation will be enabled after connecting an AI provider.</div>
-     </div>
+          <div class="card result-card" id="library">
+            <div class="result-header">
+              <h2>Your creations</h2>
+              <div class="result-actions">
+                <button class="soft-btn" type="button" data-feature="Library filters">Filter</button>
+                <button class="soft-btn" type="button" data-feature="Library view">▦</button>
+              </div>
+            </div>
+            <div class="empty-state" id="emptyState">
+              <div>
+                <div class="empty-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21M15 3v4m-2-2h4"/></svg></div>
+                <h3>Your creative journey starts here</h3>
+                <p>Your generated images will appear here. Write a prompt, choose your settings and start creating when image generation is connected.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="generate-bar">
+            <div class="generate-note"><strong>Ready to create?</strong><span>Generation will be enabled after API integration.</span></div>
+            <button class="generate-btn" id="generateBtn" type="button">✦ &nbsp;Generate image</button>
+          </div>
+        </section>
+
+        <aside class="right-col">
+          <div class="card right-card">
+            <div class="right-card-head"><h3>Image guidance</h3><span class="muted">REFERENCES</span></div>
+            <div class="guidance-empty" id="guidanceEmpty">
+              <div style="font-size:23px;color:#69c7ff">▧</div>
+              <strong>Guide your generation</strong>
+              <p>Upload reference images to guide the look, composition, character or visual direction.</p>
+            </div>
+            <div class="guidance-files" id="guidanceFiles"></div>
+            <button class="upload-guidance" id="guidanceUpload" type="button">＋ &nbsp; Upload reference image</button>
+            <div style="margin-top:12px">
+              <div class="switch-row"><div class="switch-info"><strong>Style reference</strong><small>Follow the reference aesthetic</small></div><button class="switch" type="button" aria-label="Style reference"></button></div>
+              <div class="switch-row"><div class="switch-info"><strong>Content reference</strong><small>Follow shapes and composition</small></div><button class="switch" type="button" aria-label="Content reference"></button></div>
+              <div class="switch-row"><div class="switch-info"><strong>Character reference</strong><small>Keep a subject visually consistent</small></div><button class="switch" type="button" aria-label="Character reference"></button></div>
+            </div>
+          </div>
+
+          <div class="card right-card">
+            <div class="right-card-head"><h3>Generation settings</h3><span class="muted">OUTPUT</span></div>
+            <div class="control-grid">
+              <div class="control">
+                <label for="imageCount">Images</label>
+                <select id="imageCount"><option>1</option><option selected>2</option><option>3</option><option>4</option></select>
+              </div>
+              <div class="control">
+                <label for="resolution">Resolution</label>
+                <select id="resolution"><option>1K</option><option>2K</option><option>4K</option></select>
+              </div>
+              <div class="control">
+                <label for="generationMode">Generation mode</label>
+                <select id="generationMode"><option>Fast</option><option>Quality</option></select>
+              </div>
+              <div class="control">
+                <label for="format">Output format</label>
+                <select id="format"><option>PNG</option><option>JPG</option><option>WebP</option></select>
+              </div>
+            </div>
+            <div style="margin-top:15px">
+              <div class="switch-row"><div class="switch-info"><strong>Transparent background</strong><small>Where supported by the model</small></div><button class="switch" type="button" aria-label="Transparent background"></button></div>
+              <div class="switch-row"><div class="switch-info"><strong>Private generation</strong><small>Visibility option, API dependent</small></div><button class="switch" type="button" aria-label="Private generation"></button></div>
+            </div>
+            <details class="advanced">
+              <summary>Advanced settings</summary>
+              <div class="advanced-fields">
+                <div class="control"><label for="seed">Seed</label><input type="number" id="seed" placeholder="Random"></div>
+                <div class="control"><label for="guidance">Guidance scale</label><input type="number" id="guidance" min="1" max="30" value="7" step=".5"></div>
+                <div class="control"><label for="steps">Steps</label><input type="number" id="steps" min="1" max="100" value="30"></div>
+                <div class="control"><label for="scheduler">Scheduler</label><select id="scheduler"><option>Auto</option><option>Euler</option><option>DPM++</option><option>DDIM</option></select></div>
+              </div>
+              <div class="control" style="margin-top:12px">
+                <label for="negativePrompt">Negative prompt</label>
+                <textarea id="negativePrompt" class="prompt-box" style="min-height:75px" placeholder="Things you don't want in the image..."></textarea>
+              </div>
+            </details>
+          </div>
+
+          <div class="tip-card">
+            <strong><span style="color:#65c8ff">✦</span> Creative tip</strong>
+            <p>Describe your subject, setting, lighting, camera angle and mood. Specific prompts give you more control over the visual direction.</p>
+            <a href="#" id="promptTip">Try a prompt example →</a>
+          </div>
+        </aside>
+      </div>
     </div>
-   </section>
-
-   <section class="results">
-    <div class="result-toolbar">
-     <div class="tabs">
-      <button class="tab active" data-tab="create">Create</button>
-      <button class="tab" data-tab="history">History</button>
-      <button class="tab" data-tab="favorites">Favorites</button>
-     </div>
-     <div class="result-actions">
-      <button id="viewGrid">▦ Grid</button>
-      <button id="viewList">☰ List</button>
-     </div>
-    </div>
-
-    <div class="empty-state" id="emptyState">
-     <div class="empty-inner">
-      <div class="art-icon">✧</div>
-      <h2>Your creative space starts here</h2>
-      <p>Describe your idea, choose a model and customize your settings. Your generated images will appear in this workspace.</p>
-      <div class="suggestion-list">
-       <button class="suggestion" data-prompt="A cinematic futuristic city at sunset, atmospheric lighting, ultra detailed">Cinematic city</button>
-       <button class="suggestion" data-prompt="Luxury perfume product photography, elegant studio lighting, premium editorial composition">Product photography</button>
-       <button class="suggestion" data-prompt="A whimsical fantasy forest with glowing flowers, magical atmosphere, detailed digital art">Fantasy world</button>
-      </div>
-     </div>
-    </div>
-
-    <div id="historyPanel" style="display:none">
-     <div class="empty-state" style="min-height:300px">
-      <div class="empty-inner"><div class="art-icon">◷</div><h2>No generations yet</h2><p>Your future generations will be saved here.</p></div>
-     </div>
-    </div>
-    <div id="gallery" class="gallery" style="display:none"></div>
-   </section>
-  </div>
- </div>
-</main>
+  </main>
 </div>
 
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="modal-backdrop" id="modal">
- <div class="modal">
-  <h3 id="modalTitle">Coming soon</h3>
-  <p id="modalText">This feature will be available when the required service is connected.</p>
-  <div class="modal-actions"><button class="primary-small" id="modalClose">Got it</button></div>
- </div>
+  <div class="modal">
+    <h3 id="modalTitle">Coming soon</h3>
+    <p id="modalText">This feature will be available in a future Clickdy Studio update.</p>
+    <div class="modal-actions"><button class="top-action" id="modalClose" type="button">Close</button></div>
+  </div>
 </div>
 
 <script>
-(()=>{
+(() => {
 "use strict";
-const $=id=>document.getElementById(id);
-const modal=(title,message)=>{
- $("modalTitle").textContent=title;
- $("modalText").textContent=message;
- $("modal").classList.add("open");
-};
-$("modalClose").onclick=()=>$("modal").classList.remove("open");
-$("modal").onclick=e=>{if(e.target===$("modal"))$("modal").classList.remove("open")};
+const $ = id => document.getElementById(id);
+const toast = $("toast");
+let toastTimer;
+function notify(message){
+  toast.textContent=message;
+  toast.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>toast.classList.remove("show"),2800);
+}
+function modal(title,message){
+  $("modalTitle").textContent=title;
+  $("modalText").textContent=message;
+  $("modal").classList.add("show");
+}
+$("modalClose").addEventListener("click",()=>$("modal").classList.remove("show"));
+$("modal").addEventListener("click",e=>{if(e.target===$("modal"))$("modal").classList.remove("show")});
+
+$("menuBtn").addEventListener("click",()=>$("sidebar").classList.toggle("open"));
+document.addEventListener("click",e=>{
+  if(window.innerWidth<=680 && !$("sidebar").contains(e.target) && !$("menuBtn").contains(e.target)){
+    $("sidebar").classList.remove("open");
+  }
+});
+document.querySelectorAll("[data-feature]").forEach(btn=>{
+  btn.addEventListener("click",()=>modal(btn.dataset.feature,"This workspace section is part of the Clickdy Studio interface. Its service will be connected in a later update."));
+});
+document.querySelectorAll("[data-nav]").forEach(link=>{
+  link.addEventListener("click",e=>{e.preventDefault();notify(link.textContent.trim()+" will be available when the library is connected.");});
+});
 
 const prompt=$("prompt");
-prompt.addEventListener("input",()=>$("charCount").textContent=prompt.value.length+" / 2000");
-
-document.querySelectorAll(".segment").forEach(group=>{
- group.querySelectorAll("button").forEach(btn=>btn.onclick=()=>{
-  group.querySelectorAll("button").forEach(b=>b.classList.remove("selected"));
-  btn.classList.add("selected");
- });
+prompt.addEventListener("input",()=>$("promptCount").textContent=prompt.value.length);
+$("clearPrompt").addEventListener("click",()=>{prompt.value="";$("promptCount").textContent="0";prompt.focus()});
+$("enhancePrompt").addEventListener("click",()=>{
+  if(!prompt.value.trim()){notify("Write a prompt first.");prompt.focus();return}
+  if(!/highly detailed|professional composition|cinematic lighting/i.test(prompt.value)){
+    prompt.value=prompt.value.trim()+", professional composition, refined details, balanced lighting, high visual quality";
+    $("promptCount").textContent=prompt.value.length;
+  }
+  notify("Prompt refined. Review it before using.");
 });
-document.querySelectorAll(".ratio").forEach(btn=>btn.onclick=()=>{
- document.querySelectorAll(".ratio").forEach(b=>b.classList.remove("selected"));
- btn.classList.add("selected");
- $("ratioLabel").textContent=btn.dataset.ratio;
-});
-$("elementStrength").oninput=()=>$("elementOut").textContent=$("elementStrength").value+"%";
-$("guidance").oninput=()=>$("guidanceOut").textContent=$("guidance").value;
-
-$("referenceInput").onchange=()=>{
- const files=[...$("referenceInput").files].slice(0,6);
- $("uploadPreview").innerHTML="";
- files.forEach(file=>{
-  if(!file.type.startsWith("image/"))return;
-  const img=document.createElement("img");
-  img.src=URL.createObjectURL(file);
-  img.alt="Reference image";
-  $("uploadPreview").appendChild(img);
- });
-};
-
-document.querySelectorAll(".suggestion").forEach(btn=>btn.onclick=()=>{
- prompt.value=btn.dataset.prompt;
- prompt.dispatchEvent(new Event("input"));
- prompt.focus();
+document.querySelectorAll("[data-chip]").forEach(chip=>{
+  chip.addEventListener("click",()=>{
+    const phrase=chip.dataset.chip;
+    if(!prompt.value.toLowerCase().includes(phrase.toLowerCase())){
+      prompt.value+=(prompt.value.trim()?", ":"")+phrase;
+      $("promptCount").textContent=prompt.value.length;
+    }
+    chip.classList.toggle("selected");
+    prompt.focus();
+  });
 });
 
-$("enhanceBtn").onclick=()=>{
- if(!prompt.value.trim()){modal("Add a prompt first","Write your image idea first. Prompt enhancement can be connected to an AI text service later.");return}
- modal("Prompt enhancement","The prompt enhancement interface is ready. Connect an AI text provider later to automatically expand and refine your prompt.");
-};
-$("randomBtn").onclick=()=>{
- const ideas=[
- "A luxury modern architecture villa surrounded by tropical gardens, golden hour, editorial photography",
- "An astronaut exploring a surreal alien planet, cinematic composition, dramatic light",
- "A premium perfume bottle on sculptural stone, soft studio shadows, luxury product photography",
- "A magical underwater kingdom with glowing coral and elegant marine life, fantasy concept art"
- ];
- prompt.value=ideas[Math.floor(Math.random()*ideas.length)];
- prompt.dispatchEvent(new Event("input"));
-};
-$("generateBtn").onclick=()=>{
- if(!prompt.value.trim()){modal("Prompt required","Describe the image you want to create before generating.");prompt.focus();return}
- modal("AI provider not connected","Your image generation settings are ready. This frontend does not generate fake images. When you connect an AI provider and secure backend, this button will send your prompt, model, reference images and settings to the generation service.");
-};
-$("promptGuide").onclick=()=>modal("Prompt writing guide","A strong prompt describes: 1. Main subject 2. Environment 3. Visual style 4. Lighting 5. Camera angle and composition 6. Mood 7. Important details. Example: A cinematic editorial portrait of a woman in a modern glass studio, soft natural window light, 85mm lens, refined neutral palette.");
-$("allStyles").onclick=()=>{$("style").focus();modal("Style presets","Choose from photography, cinematic, anime, digital art, 3D render, illustration, fantasy, concept art, architecture, fashion, vintage, watercolor, oil painting, pixel art and more.");};
-$("upgradeBtn").onclick=e=>{e.preventDefault();modal("Clickdy plans","Credits and subscription plans can be connected when the generation provider and billing system are selected.");};
-$("historyBtn").onclick=()=>showTab("history");
-$("newBtn").onclick=()=>{prompt.value="";prompt.dispatchEvent(new Event("input"));showTab("create");};
-$("clearBtn").onclick=$("resetBtn").onclick=()=>{
- prompt.value="";
- $("negative").value="";
- $("model").selectedIndex=0;$("style").selectedIndex=0;
- $("size").selectedIndex=0;$("count").selectedIndex=1;
- $("guidance").value=7;$("guidanceOut").textContent="7";
- $("elementStrength").value=50;$("elementOut").textContent="50%";
- document.querySelectorAll(".ratio").forEach(b=>b.classList.toggle("selected",b.dataset.ratio==="1:1"));
- $("ratioLabel").textContent="1:1";
- document.querySelectorAll("#quality button").forEach((b,i)=>b.classList.toggle("selected",i===0));
- $("uploadPreview").innerHTML="";$("referenceInput").value="";
-};
-function showTab(name){
- document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active",t.dataset.tab===name));
- $("emptyState").style.display=name==="create"?"flex":"none";
- $("historyPanel").style.display=name==="history"||name==="favorites"?"block":"none";
- $("gallery").style.display="none";
+document.querySelectorAll(".mode-tab").forEach(tab=>{
+  tab.addEventListener("click",()=>{
+    document.querySelectorAll(".mode-tab").forEach(t=>t.classList.remove("active"));
+    tab.classList.add("active");
+    const mode=tab.dataset.mode;
+    $("modeLabel").textContent=mode==="text"?"TEXT TO IMAGE":mode==="image"?"IMAGE TO IMAGE":"IMAGE EDITING";
+    if(mode==="text")notify("Text to Image mode selected.");
+    else{
+      $("referenceInput").click();
+      notify(mode==="image"?"Upload an image to use as your starting reference.":"Upload an image you want to edit.");
+    }
+  });
+});
+
+$("modelSelect").addEventListener("click",()=>{
+  const menu=$("modelMenu");
+  menu.classList.toggle("open");
+  $("modelSelect").setAttribute("aria-expanded",menu.classList.contains("open"));
+});
+document.querySelectorAll(".model-option").forEach(option=>{
+  option.addEventListener("click",()=>{
+    $("selectedModel").textContent=option.dataset.model;
+    $("selectedModelDesc").textContent=option.dataset.desc;
+    document.querySelectorAll(".model-option .tick").forEach(t=>t.remove());
+    const tick=document.createElement("span");tick.className="tick";tick.textContent="✓";option.append(tick);
+    $("modelMenu").classList.remove("open");
+    $("modelSelect").setAttribute("aria-expanded","false");
+  });
+});
+
+document.querySelectorAll(".preset").forEach(preset=>{
+  preset.addEventListener("click",()=>{
+    document.querySelectorAll(".preset").forEach(p=>p.classList.remove("active"));
+    preset.classList.add("active");
+    notify(preset.dataset.style==="None"?"Style preset cleared.":preset.dataset.style+" style selected.");
+  });
+});
+$("clearStyle").addEventListener("click",()=>{
+  document.querySelectorAll(".preset").forEach(p=>p.classList.toggle("active",p.dataset.style==="None"));
+  notify("Style preset reset.");
+});
+document.querySelectorAll(".ratio").forEach(button=>{
+  button.addEventListener("click",()=>{
+    document.querySelectorAll(".ratio").forEach(b=>b.classList.remove("active"));
+    button.classList.add("active");
+  });
+});
+
+document.querySelectorAll(".switch").forEach(sw=>{
+  sw.addEventListener("click",()=>sw.classList.toggle("on"));
+});
+
+const input=$("referenceInput");
+function addFiles(files){
+  const valid=[...files].filter(f=>f.type.startsWith("image/"));
+  if(!valid.length){notify("Please select a valid image file.");return}
+  const existing=$("uploadStrip").querySelectorAll(".upload-tile").length;
+  valid.slice(0,Math.max(0,6-existing)).forEach(file=>{
+    const url=URL.createObjectURL(file);
+    const tile=document.createElement("div");tile.className="upload-tile";
+    const img=document.createElement("img");img.src=url;img.alt="Reference image";
+    const remove=document.createElement("button");remove.type="button";remove.textContent="×";remove.setAttribute("aria-label","Remove image");
+    remove.addEventListener("click",()=>{URL.revokeObjectURL(url);tile.remove();updateUploads()});
+    tile.append(img,remove);$("uploadStrip").append(tile);
+  });
+  updateUploads();
+  if(valid.length)notify("Reference image added to your workspace.");
 }
-document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>showTab(t.dataset.tab));
-$("viewGrid").onclick=()=>modal("Grid view","Generated images will be displayed in a responsive grid.");
-$("viewList").onclick=()=>modal("List view","A detailed list view will be available for generated images.");
-$("menuBtn").onclick=()=>$("sidebar").classList.toggle("open");
+function updateUploads(){
+  const tiles=[...$("uploadStrip").querySelectorAll("img")];
+  $("uploadStrip").classList.toggle("show",tiles.length>0);
+  $("guidanceEmpty").style.display=tiles.length?"none":"block";
+  $("guidanceFiles").innerHTML="";
+  tiles.slice(0,3).forEach(img=>{
+    const clone=document.createElement("img");clone.src=img.src;clone.alt="Reference thumbnail";
+    $("guidanceFiles").append(clone);
+  });
+}
+input.addEventListener("change",()=>{addFiles(input.files);input.value=""});
+$("addReference").addEventListener("click",()=>input.click());
+$("guidanceUpload").addEventListener("click",()=>input.click());
 
-const viewNames={
- image:["Image Generation","AI Image Generation","Turn your ideas into stunning visuals with creative control."],
- video:["Video Generation","AI Video Studio","Create motion from your creative ideas."],
- realtime:["Realtime Canvas","Realtime Canvas","Explore a live creative canvas."],
- flow:["Flow State","Flow State","Explore visual ideas and creative directions."],
- editor:["Canvas Editor","Canvas Editor","Edit and refine your visual projects."],
- library:["My Generations","Your Library","Keep your creative work organized."],
- favorites:["Favorites","Your Favorites","Your saved creative inspiration."],
- collections:["Collections","Collections","Organize images into creative collections."],
- upscaler:["AI Upscaler","AI Upscaler","Enhance image quality and resolution."],
- blueprints:["Blueprints","Creative Blueprints","Explore structured creative workflows."],
- models:["Models & Training","Models & Training","Manage your creative model workspace."],
- help:["Help Center","Clickdy Help Center","Guides and support for your creative workflow."]
-};
-document.querySelectorAll("[data-view]").forEach(link=>link.onclick=e=>{
- e.preventDefault();
- const key=link.dataset.view;
- document.querySelectorAll(".nav a").forEach(a=>a.classList.toggle("active",a===link));
- const data=viewNames[key]||viewNames.image;
- $("breadcrumbTitle").textContent=data[0];
- $("pageTitle").textContent=data[1];
- $("pageSubtitle").textContent=data[2];
- $("sidebar").classList.remove("open");
- if(key!=="image")modal(data[1],"This workspace section is included in the Clickdy Studio layout. Its dedicated functionality can be connected and developed in a later step.");
+$("promptTip").addEventListener("click",e=>{
+  e.preventDefault();
+  prompt.value="A beautiful modern glass house in a quiet forest, surrounded by tall pine trees and soft morning mist, warm sunlight filtering through the leaves, cinematic composition, natural colors, intricate architectural details";
+  $("promptCount").textContent=prompt.value.length;
+  prompt.focus();
+  notify("Example prompt added.");
+});
+
+$("generateBtn").addEventListener("click",()=>{
+  if(!prompt.value.trim()){notify("Please describe the image you want to create first.");prompt.focus();return}
+  modal("Image generation is not connected yet","Your Clickdy Image Studio design is ready. Actual AI image generation requires an API and secure backend. No fake image will be generated. Connect your chosen provider later to enable this button.");
 });
 })();
 </script>
