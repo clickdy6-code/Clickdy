@@ -1,460 +1,1370 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Video Generator - Clickdy</title>
-<meta name="description" content="Create AI videos from text and images with Clickdy AI Video Generator.">
-
+<meta name="theme-color" content="#070b14">
+<title>AI Video Studio - Clickdy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root {
-  --bg:#070b12;
-  --panel:#0d131d;
-  --panel2:#111b29;
-  --border:#202d3d;
-  --cyan:#63c7ff;
-  --blue:#3aa9e8;
-  --text:#f4f7fb;
-  --muted:#8e9aaa;
-  --success:#62d89a;
-  --danger:#ff6f7d;
-  --radius:16px;
+:root{
+  --bg:#070b14;
+  --side:#090f1b;
+  --surface:#0d1422;
+  --surface2:#111b2b;
+  --surface3:#152237;
+  --line:#1d2b42;
+  --text:#f4f8ff;
+  --muted:#93a4bd;
+  --soft:#71849e;
+  --blue:#38a5ff;
+  --cyan:#2ee7df;
+  --green:#4bd6a0;
+  --danger:#ff737e;
+  --radius:12px;
+  --shadow:0 18px 55px #0005;
 }
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{
   margin:0;background:var(--bg);color:var(--text);
-  font-family:Inter,Arial,sans-serif;
+  font:13px "DM Sans",sans-serif;min-height:100vh;
 }
 button,input,textarea,select{font:inherit}
 button{cursor:pointer}
+button:disabled{opacity:.55;cursor:not-allowed;transform:none!important}
 a{color:inherit;text-decoration:none}
+.app{min-height:100vh}
+.sidebar{
+  width:232px;position:fixed;inset:0 auto 0 0;z-index:30;
+  background:var(--side);border-right:1px solid var(--line);
+  display:flex;flex-direction:column;transition:transform .25s ease;
+}
+.brand{
+  height:72px;display:flex;align-items:center;gap:11px;
+  padding:0 21px;border-bottom:1px solid var(--line);flex-shrink:0;
+}
+.brand img{width:34px;height:34px;object-fit:contain}
+.brand-name{font:800 17px "Plus Jakarta Sans";letter-spacing:-.7px}
+.brand-name small{
+  display:block;color:var(--cyan);font:700 8px "DM Sans";
+  letter-spacing:1.5px;margin-top:2px;
+}
+.side-scroll{padding:18px 12px;overflow-y:auto;flex:1}
+.nav-label{
+  color:#62748c;font-size:9px;font-weight:800;
+  letter-spacing:1.5px;padding:8px 10px;margin-top:8px;
+}
+.nav-item{
+  height:39px;width:100%;display:flex;align-items:center;gap:11px;
+  border:0;background:transparent;color:#9aabc0;
+  padding:0 11px;border-radius:8px;margin:3px 0;
+  text-align:left;font-size:11px;transition:.2s;position:relative;
+}
+.nav-item:hover{background:#111e30;color:#fff}
+.nav-item.active{background:linear-gradient(100deg,#173653,#12263a);color:#a9dcff}
+.nav-item.active:before{
+  content:"";position:absolute;left:-12px;top:9px;bottom:9px;
+  width:3px;border-radius:3px;background:var(--blue);
+}
+.nav-icon{width:18px;text-align:center;font-size:15px;color:#8da9c5}
+.nav-count{
+  margin-left:auto;background:#1b2d43;color:#9fcdf0;
+  padding:3px 7px;border-radius:20px;font-size:9px;
+}
+.side-bottom{padding:13px;border-top:1px solid var(--line)}
+.credit-card{
+  border:1px solid #294765;border-radius:11px;padding:13px;
+  background:radial-gradient(circle at 100% 0%,#1a4562 0,transparent 55%),#102238;
+}
+.credit-top{display:flex;justify-content:space-between;color:#b7cce0;font-size:9px;font-weight:700;letter-spacing:.8px}
+.credit-number{font:800 24px "Plus Jakarta Sans";margin:9px 0 1px}
+.credit-sub{font-size:9px;color:#8fa9c1}
+.credit-button{
+  width:100%;padding:8px;margin-top:12px;border-radius:7px;
+  border:1px solid #345d7e;background:#173b58;color:#b8e0ff;font-size:10px;
+}
+.main{margin-left:232px;min-width:0}
 .topbar{
-  height:72px;border-bottom:1px solid var(--border);
+  height:68px;position:sticky;top:0;z-index:20;
+  background:#090f1beF;backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;padding:0 28px;
+}
+.top-left,.top-actions{display:flex;align-items:center;gap:13px}
+.breadcrumb{font-size:11px;color:var(--muted)}
+.breadcrumb b{color:var(--text);font-weight:700}
+.top-actions{gap:9px}
+.top-btn,.icon-btn{
+  height:34px;border:1px solid #263950;background:#101b2a;
+  color:#c3d1e1;border-radius:8px;padding:0 11px;font-size:10px;
+}
+.icon-btn{width:34px;padding:0;font-size:14px}
+.avatar{
+  width:31px;height:31px;border-radius:50%;display:grid;place-items:center;
+  color:#06111b;font-weight:800;background:linear-gradient(135deg,#38a5ff,#2ee7df);
+}
+.menu-toggle{display:none}
+.content{max-width:1560px;margin:auto;padding:27px 28px 55px}
+.page-section{display:none;animation:appear .28s ease}
+.page-section.active{display:block}
+@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.page-heading{
   display:flex;align-items:center;justify-content:space-between;
-  padding:0 5%;background:#080e17;
+  gap:16px;margin-bottom:21px;
 }
-.brand{display:flex;align-items:center;gap:11px;font-size:21px;font-weight:800}
-.brand img{width:36px;height:36px;object-fit:contain}
-.brand span{color:var(--cyan)}
-.back{color:var(--muted);font-size:14px}
-.back:hover{color:var(--cyan)}
-.container{max-width:1200px;margin:auto;padding:42px 22px 70px}
-.hero{text-align:center;margin-bottom:35px}
 .eyebrow{
-  color:var(--cyan);font-size:12px;font-weight:800;
-  letter-spacing:2px;text-transform:uppercase;
+  color:var(--cyan);font-size:9px;font-weight:800;
+  letter-spacing:1.6px;margin-bottom:7px;
 }
-.hero h1{font-size:clamp(30px,5vw,45px);margin:13px 0 10px}
-.hero h1 span{
-  background:linear-gradient(90deg,#63c7ff,#8b9dff);
-  -webkit-background-clip:text;background-clip:text;color:transparent;
+h1{
+  font:700 23px "Plus Jakarta Sans";letter-spacing:-.8px;
+  margin:0 0 5px;
 }
-.hero p{color:var(--muted);line-height:1.7;margin:0}
-.workspace{
-  display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr);
-  gap:22px;align-items:start;
+.subtitle{color:var(--muted);font-size:11px;margin:0;line-height:1.6}
+.primary{
+  border:0;border-radius:8px;padding:10px 15px;
+  color:#06111d;font-size:10px;font-weight:800;
+  background:linear-gradient(105deg,#258fe8,#2ac5cf);
+  transition:.2s;white-space:nowrap;
 }
+.primary:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.secondary{
+  border:1px solid #2a3d54;background:#111d2d;
+  color:#c2d1e2;border-radius:8px;padding:9px 12px;font-size:10px;
+}
+.secondary:hover{border-color:#47749b;color:#fff}
 .panel{
-  background:var(--panel);border:1px solid var(--border);
-  border-radius:var(--radius);padding:23px;
+  background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--radius);overflow:hidden;
 }
-.panel-title{
-  font-size:17px;font-weight:750;margin:0 0 21px;
-  display:flex;align-items:center;gap:10px;
+.panel-head{
+  min-height:48px;padding:12px 15px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
 }
-.panel-title small{color:var(--muted);font-size:12px;font-weight:500}
-.label{
-  display:block;font-size:13px;font-weight:700;
-  margin:20px 0 9px;
+.panel-title{font-size:11px;font-weight:800}
+.panel-note{font-size:9px;color:var(--soft)}
+/* STUDIO */
+.studio-intro{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:16px;margin-bottom:19px;
 }
-.label:first-of-type{margin-top:0}
-textarea,input[type=text],select{
-  width:100%;background:#080e17;color:var(--text);
-  border:1px solid var(--border);border-radius:11px;
-  padding:13px 14px;outline:none;
+.studio-intro h1{font-size:24px}
+.studio-label{
+  display:inline-flex;align-items:center;gap:7px;
+  border:1px solid #24415d;background:#102238;
+  color:#a9d9ff;border-radius:30px;padding:7px 11px;font-size:9px;
 }
-textarea{min-height:145px;resize:vertical;line-height:1.6}
-textarea:focus,input:focus,select:focus{border-color:var(--cyan)}
-.hint{font-size:11px;color:var(--muted);margin-top:7px;line-height:1.5}
-.tabs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px}
-.tab{
-  border:1px solid var(--border);background:#080e17;color:var(--muted);
-  padding:13px;border-radius:10px;font-weight:700;
+.live-dot{width:6px;height:6px;background:var(--green);border-radius:50%;box-shadow:0 0 9px #4bd6a0}
+.studio-layout{
+  display:grid;grid-template-columns:minmax(330px,420px) minmax(0,1fr);
+  gap:16px;align-items:stretch;
 }
-.tab.active{background:#102438;border-color:var(--cyan);color:var(--cyan)}
-.upload{
-  border:1px dashed #38516a;background:#080e17;border-radius:12px;
-  min-height:125px;display:flex;align-items:center;justify-content:center;
-  text-align:center;padding:18px;cursor:pointer;
+.editor-panel{min-width:0}
+.editor-head{
+  padding:15px 16px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;
 }
-.upload:hover{border-color:var(--cyan)}
-.upload strong{display:block;margin-bottom:7px}
-.upload span{font-size:12px;color:var(--muted)}
-.upload input{display:none}
-.upload-preview{max-width:100%;max-height:170px;border-radius:9px;margin-top:12px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:13px}
-.field select{margin-top:0}
-.ratios{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
-.ratio{
-  padding:12px 5px;background:#080e17;border:1px solid var(--border);
-  border-radius:10px;color:var(--muted);font-size:12px;font-weight:700;
+.editor-head strong{font-size:12px}
+.editor-head span{font-size:9px;color:var(--soft)}
+.editor-body{padding:16px}
+.section-label{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:9px;font-size:10px;font-weight:700;color:#dce7f4;
 }
-.ratio.active{border-color:var(--cyan);color:var(--cyan);background:#102438}
+.section-label small{font-size:9px;color:var(--soft);font-weight:400}
+.mode-switch{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:4px;
+  padding:4px;background:#080f1b;border:1px solid #202e42;border-radius:9px;
+}
+.mode-btn{
+  min-height:35px;border:0;border-radius:6px;background:transparent;
+  color:#91a2b8;font-size:9px;transition:.2s;
+}
+.mode-btn.active{background:#18334d;color:#a9dcff;box-shadow:0 2px 9px #0003}
+.editor-block{margin-bottom:17px}
+.upload-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.upload-tile{
+  min-height:91px;border:1px dashed #344b64;border-radius:9px;
+  background:linear-gradient(145deg,#0b1625,#0a111d);
+  display:flex;align-items:center;justify-content:center;
+  flex-direction:column;gap:5px;position:relative;overflow:hidden;
+  cursor:pointer;transition:.2s;
+}
+.upload-tile:hover{border-color:var(--blue);background:#101f31}
+.upload-tile .upload-icon{font-size:19px;color:#79c6ff}
+.upload-tile strong{font-size:10px}
+.upload-tile small{font-size:8px;color:var(--soft)}
+.upload-tile input{position:absolute;width:1px;height:1px;opacity:0}
+.upload-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}
+.upload-tile.has-image img{display:block}
+.upload-tile.has-image .upload-copy{display:none}
+.image-remove{
+  position:absolute;top:5px;right:5px;z-index:2;width:22px;height:22px;
+  border:1px solid #ffffff50;border-radius:50%;background:#07111ddd;
+  color:#fff;display:none;
+}
+.upload-tile.has-image .image-remove{display:block}
+.field-label{display:block;color:#dce7f4;font-size:10px;font-weight:700;margin-bottom:8px}
+textarea,select,input[type=text]{
+  width:100%;background:#080f1b;border:1px solid #26364b;
+  color:#eaf2fb;border-radius:8px;outline:none;font-size:10px;
+}
+textarea{padding:11px;min-height:112px;resize:vertical;line-height:1.65}
+textarea:focus,select:focus,input:focus{border-color:#3b8dca;box-shadow:0 0 0 3px #38a5ff13}
+textarea::placeholder,input::placeholder{color:#63758b}
+select{height:36px;padding:0 9px}
+select option{background:#101a29}
+.prompt-footer{display:flex;align-items:center;justify-content:space-between;margin-top:7px}
+.text-action{border:0;background:none;padding:0;color:#7fc6ff;font-size:9px}
+.counter{font-size:9px;color:var(--soft)}
+.settings-heading{
+  display:flex;align-items:center;justify-content:space-between;
+  margin:1px 0 10px;padding-top:14px;border-top:1px solid var(--line);
+}
+.settings-heading strong{font-size:10px}
+.settings-heading span{font-size:9px;color:var(--soft)}
+.settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 10px}
+.setting label{display:block;color:#9eafc3;font-size:9px;margin-bottom:6px}
+.segment{
+  display:flex;padding:3px;gap:3px;background:#080f1b;
+  border:1px solid #26364b;border-radius:8px;min-height:36px;
+}
+.segment button{
+  flex:1;border:0;border-radius:5px;background:transparent;
+  color:#91a2b8;font-size:9px;
+}
+.segment button.active{background:#1a3853;color:#b2ddff}
+.advanced{
+  border-top:1px solid var(--line);margin-top:15px;padding-top:12px;
+}
+.advanced summary{
+  color:#aebed0;font-size:10px;font-weight:700;
+  cursor:pointer;list-style:none;display:flex;justify-content:space-between;
+}
+.advanced summary:after{content:"＋";color:#7ebff0}
+.advanced[open] summary:after{content:"−"}
+.advanced textarea{min-height:62px;margin-top:10px}
+.generate-row{margin-top:15px}
 .generate{
-  width:100%;border:0;border-radius:11px;padding:16px;margin-top:24px;
-  color:#04111b;font-weight:850;font-size:15px;
-  background:linear-gradient(100deg,#63c7ff,#3aa9e8);
-  box-shadow:0 8px 28px #3aa9e822;
+  width:100%;height:43px;border:0;border-radius:8px;
+  background:linear-gradient(105deg,#238ee8,#2bc5cf);
+  color:#06111b;font-size:11px;font-weight:800;
+  box-shadow:0 7px 22px #168fca25;transition:.2s;
 }
-.generate:disabled{opacity:.55;cursor:not-allowed}
-.status{margin-top:15px;color:var(--muted);font-size:13px;line-height:1.6}
-.status.error{color:var(--danger)}
-.status.success{color:var(--success)}
-.preview{
-  min-height:360px;background:#080e17;border:1px solid var(--border);
-  border-radius:13px;display:flex;align-items:center;justify-content:center;
-  overflow:hidden;text-align:center;padding:20px;
+.generate:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.generate-note{text-align:center;color:#71849b;font-size:8px;margin-top:8px}
+/* PREVIEW */
+.preview-panel{min-height:700px;display:flex;flex-direction:column}
+.preview-toolbar{
+  min-height:58px;padding:11px 15px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
 }
-.preview video{width:100%;max-height:520px;background:#000}
-.placeholder-icon{font-size:44px;margin-bottom:14px}
-.placeholder p{color:var(--muted);font-size:13px;line-height:1.6}
-.progress-wrap{margin-top:18px;display:none}
-.progress-info{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
-.progress{height:7px;background:#1a2635;border-radius:20px;margin-top:9px;overflow:hidden}
-.progress-bar{height:100%;width:0;background:var(--cyan);transition:width .4s}
-.download{
-  display:none;margin-top:15px;width:100%;padding:13px;
-  border:1px solid var(--cyan);border-radius:10px;
-  color:var(--cyan);text-align:center;font-weight:750;
+.preview-toolbar strong{font-size:11px}
+.preview-toolbar small{display:block;color:var(--soft);font-size:9px;margin-top:3px}
+.preview-tools{display:flex;align-items:center;gap:6px}
+.preview-tools button{height:29px;padding:0 9px;font-size:9px}
+.preview-stage{
+  flex:1;min-height:450px;padding:22px;
+  background:
+    radial-gradient(ellipse at 50% 43%,#172d45 0,transparent 58%),
+    linear-gradient(145deg,#0c1625,#080e18);
+  display:flex;align-items:center;justify-content:center;
 }
-.note{
-  border:1px solid #26384b;background:#0a1522;color:var(--muted);
-  padding:13px;border-radius:10px;font-size:12px;line-height:1.6;margin-top:18px;
+.preview-inner{width:100%;max-width:850px}
+.preview-frame{
+  width:100%;aspect-ratio:16/9;position:relative;overflow:hidden;
+  border:1px solid #30445d;border-radius:10px;
+  background:
+    linear-gradient(45deg,#0b1523 25%,transparent 25%),
+    linear-gradient(-45deg,#0b1523 25%,transparent 25%),
+    linear-gradient(45deg,transparent 75%,#0b1523 75%),
+    linear-gradient(-45deg,transparent 75%,#0b1523 75%),#0e1a2a;
+  background-size:24px 24px;background-position:0 0,0 12px,12px -12px,-12px 0;
+  display:grid;place-items:center;
 }
-.footer{text-align:center;color:var(--muted);font-size:12px;padding:25px;border-top:1px solid var(--border)}
+.preview-frame img,.preview-frame video{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:contain;display:none;background:#050910;
+}
+.preview-empty{text-align:center;position:relative;z-index:1;padding:20px}
+.preview-emblem{
+  width:58px;height:58px;border:1px solid #35516e;
+  border-radius:17px;background:linear-gradient(145deg,#173652,#10243a);
+  display:grid;place-items:center;margin:0 auto 15px;
+  color:#8bd0ff;font-size:23px;box-shadow:0 10px 35px #0005;
+}
+.preview-empty strong{display:block;font-size:12px;margin-bottom:6px}
+.preview-empty p{font-size:9px;line-height:1.7;color:#8294aa;margin:0}
+.preview-tag{
+  position:absolute;top:11px;left:11px;z-index:3;
+  padding:5px 8px;background:#07111ddd;border:1px solid #31465e;
+  border-radius:5px;color:#b6d7f4;font-size:8px;letter-spacing:.7px;
+}
+.preview-aspect{position:absolute;right:11px;top:11px;z-index:3;font-size:8px;color:#b6c9dc;background:#07111ddd;padding:5px 7px;border-radius:5px}
+.preview-caption{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:10px;margin-top:12px;color:#8395aa;font-size:9px;
+}
+.preview-bottom{
+  border-top:1px solid var(--line);padding:12px 15px;
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+}
+.preview-bottom span{font-size:9px;color:var(--soft)}
+.preview-bottom strong{font-size:9px;color:#a9c9e4}
+/* OTHER PAGES */
+.template-grid,.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.template-card{
+  border:1px solid var(--line);background:var(--surface);
+  border-radius:11px;overflow:hidden;cursor:pointer;transition:.22s;
+}
+.template-card:hover{transform:translateY(-3px);border-color:#3b6e96;box-shadow:var(--shadow)}
+.template-art{height:145px;position:relative;overflow:hidden;display:grid;place-items:center}
+.template-art:before,.template-art:after{content:"";position:absolute;border-radius:50%;filter:blur(1px)}
+.template-art:before{width:150px;height:150px;background:#ffffff18;top:-80px;right:-35px}
+.template-art:after{width:100px;height:100px;background:#0002;bottom:-65px;left:-20px}
+.art1{background:linear-gradient(130deg,#172e4c,#367c9b 55%,#d19a6d)}
+.art2{background:linear-gradient(130deg,#111d34,#344a70,#956d86)}
+.art3{background:linear-gradient(130deg,#172849,#237e94,#38c4b9)}
+.art4{background:linear-gradient(130deg,#201a32,#765276,#d69b85)}
+.art5{background:linear-gradient(130deg,#152b2b,#39806c,#b4b982)}
+.art6{background:linear-gradient(130deg,#101a2c,#3d547c,#89a6c2)}
+.art-symbol{font-size:43px;z-index:1;filter:drop-shadow(0 8px 15px #0007)}
+.art-label{position:absolute;bottom:10px;left:11px;z-index:2;background:#07111dcc;border:1px solid #ffffff2c;border-radius:5px;padding:5px 7px;font-size:8px;letter-spacing:.8px}
+.template-info{padding:13px}
+.template-info strong{font-size:11px}
+.template-info p{font-size:9px;color:var(--muted);line-height:1.6;min-height:29px;margin:6px 0 10px}
+.template-meta{display:flex;justify-content:space-between;color:#8ea1b8;font-size:9px}
+.simple-card{
+  border:1px solid var(--line);background:var(--surface);
+  border-radius:11px;padding:15px;min-width:0;
+}
+.simple-card strong{font-size:11px}
+.simple-card p{font-size:9px;color:var(--muted);line-height:1.65}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}
+.stat{
+  padding:15px;background:var(--surface);border:1px solid var(--line);
+  border-radius:10px;
+}
+.stat span{font-size:9px;color:var(--muted)}
+.stat strong{display:block;font:700 22px "Plus Jakarta Sans";margin-top:8px}
+.table-wrap{overflow:auto}
+table{width:100%;border-collapse:collapse;min-width:500px}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);font-size:9px}
+th{color:#8194aa;font-weight:700;letter-spacing:.6px}
+td{color:#c5d3e3}
+.status{display:inline-block;padding:4px 8px;border-radius:20px;background:#153329;color:#76d9ac;font-size:8px}
+.empty-state{text-align:center;padding:50px 20px;color:var(--muted)}
+.empty-state .empty-icon{font-size:28px;margin-bottom:12px;color:#7fa9ca}
+.empty-state strong{display:block;color:#d9e5f2;font-size:11px}
+.empty-state p{font-size:9px}
+.project-art{
+  height:100px;border-radius:8px;background:
+  radial-gradient(circle at 80% 10%,#42d3d022,transparent 30%),
+  linear-gradient(130deg,#17304a,#1b6c83,#25304c);
+  display:grid;place-items:center;font-size:28px;margin-bottom:12px;
+}
+.project-actions{display:flex;gap:7px;margin-top:12px}
+.project-actions button{flex:1}
+.asset-thumb{
+  height:125px;border-radius:8px;overflow:hidden;background:#111e30;
+  display:grid;place-items:center;margin-bottom:10px;
+}
+.asset-thumb img{width:100%;height:100%;object-fit:cover}
+.asset-actions{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.credit-hero{
+  padding:23px;border:1px solid #294765;border-radius:12px;margin-bottom:15px;
+  background:radial-gradient(circle at 90% 0%,#1d617033,transparent 40%),linear-gradient(120deg,#102b45,#11263a 65%,#123a43);
+}
+.credit-hero span{font-size:9px;color:#b5d2e9;letter-spacing:.7px}
+.credit-hero strong{display:block;font:700 34px "Plus Jakarta Sans";margin:8px 0}
+.credit-hero p{font-size:9px;color:#9ab0c6}
+.progress{height:6px;background:#26394c;border-radius:10px;overflow:hidden;margin:12px 0}
+.progress i{display:block;width:28%;height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.modal-backdrop{
+  position:fixed;inset:0;background:#02060bc9;z-index:70;
+  display:none;place-items:center;padding:15px;backdrop-filter:blur(5px);
+}
+.modal-backdrop.show{display:grid}
+.modal{
+  width:min(420px,100%);background:#101a29;border:1px solid #2b3e54;
+  border-radius:13px;padding:19px;box-shadow:0 25px 80px #0009;
+}
+.modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:17px}
+.modal-head strong{font:700 14px "Plus Jakarta Sans"}
+.close{background:none;border:0;color:#9aacc1;font-size:21px}
+.modal input{height:39px;padding:0 10px;margin-top:8px}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+.toast{
+  position:fixed;right:22px;bottom:22px;z-index:100;
+  background:#13273a;border:1px solid #315779;color:#d7eaff;
+  border-radius:9px;padding:12px 16px;font-size:10px;
+  opacity:0;transform:translateY(12px);pointer-events:none;transition:.25s;
+  box-shadow:var(--shadow);
+}
+.toast.show{opacity:1;transform:translateY(0)}
+.mobile-overlay{display:none}
+@media(max-width:1150px){
+  .studio-layout{grid-template-columns:minmax(310px,390px) minmax(0,1fr)}
+  .template-grid,.card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
 @media(max-width:850px){
-  .workspace{grid-template-columns:1fr}
-  .container{padding:30px 15px 50px}
+  .sidebar{transform:translateX(-100%);width:245px}
+  .sidebar.open{transform:translateX(0)}
+  .main{margin-left:0}
+  .menu-toggle{display:inline-block}
+  .mobile-overlay.show{display:block;position:fixed;inset:0;background:#0009;z-index:25}
+  .topbar{height:60px;padding:0 16px}
+  .content{padding:21px 16px 40px}
+  .studio-layout{grid-template-columns:1fr}
+  .preview-panel{min-height:520px}
+  .preview-stage{min-height:350px}
 }
-@media(max-width:480px){
-  .topbar{padding:0 16px;height:64px}
-  .back{font-size:12px}
-  .panel{padding:17px}
-  .grid2{gap:9px}
+@media(max-width:540px){
+  .content{padding:18px 12px 35px}
+  .topbar{padding:0 12px}
+  .top-actions .top-btn{display:none}
+  .studio-intro{align-items:flex-start}
+  .studio-intro h1{font-size:21px}
+  .studio-label{font-size:8px}
+  .editor-body{padding:13px}
+  .preview-panel{min-height:390px}
+  .preview-stage{min-height:260px;padding:12px}
+  .template-grid,.card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .template-art{height:100px}
+  .template-info{padding:10px}
+  .template-info p{font-size:8px}
+  .stat-grid{gap:7px}
+  .stat{padding:11px}
+  .stat strong{font-size:18px}
+  .page-heading{align-items:flex-start}
+  .page-heading h1{font-size:21px}
+}
+@media(max-width:370px){
+  .settings-grid{grid-template-columns:1fr}
+  .mode-btn{font-size:8px}
+  .template-grid,.card-grid{grid-template-columns:1fr}
 }
 </style>
 </head>
-
 <body>
+<div class="app">
 
-<header class="topbar">
-  <a class="brand" href="/">
-    <img src="assets/logo.png" alt="Clickdy">
-    Click<span>dy</span>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="../index.html">
+    <img src="../assets/logo.png" alt="Clickdy logo">
+    <span class="brand-name">Clickdy<small>AI CREATIVE STUDIO</small></span>
   </a>
-  <a class="back" href="/">← Back to Clickdy</a>
+
+  <div class="side-scroll">
+    <div class="nav-label">WORKSPACE</div>
+    <button class="nav-item active" data-page="home"><span class="nav-icon">⌂</span>Home</button>
+    <button class="nav-item" data-page="templates"><span class="nav-icon">▦</span>Templates <span class="nav-count">06</span></button>
+    <button class="nav-item" data-page="history"><span class="nav-icon">◷</span>History</button>
+    <button class="nav-item" data-page="projects"><span class="nav-icon">▣</span>Projects</button>
+    <button class="nav-item" data-page="assets"><span class="nav-icon">▧</span>Assets</button>
+
+    <div class="nav-label">MY SPACE</div>
+    <button class="nav-item" data-page="workspace"><span class="nav-icon">✧</span>My Workspace</button>
+    <button class="nav-item" data-page="credits"><span class="nav-icon">◈</span>Credits</button>
+
+    <div class="nav-label">MORE</div>
+    <button class="nav-item" id="helpBtn"><span class="nav-icon">ⓘ</span>Help Center</button>
+    <button class="nav-item" id="settingsBtn"><span class="nav-icon">⚙</span>Settings</button>
+    <a class="nav-item" href="../index.html"><span class="nav-icon">↗</span>Back to Clickdy</a>
+  </div>
+
+  <div class="side-bottom">
+    <div class="credit-card">
+      <div class="credit-top"><span>YOUR CREDITS</span><span>✦</span></div>
+      <div class="credit-number" id="sideCredits">120</div>
+      <div class="credit-sub">Demo balance · Prototype</div>
+      <button class="credit-button" data-goto="credits">View credit usage ↗</button>
+    </div>
+  </div>
+</aside>
+
+<div class="mobile-overlay" id="overlay"></div>
+
+<div class="main">
+<header class="topbar">
+  <div class="top-left">
+    <button class="icon-btn menu-toggle" id="menuToggle">☰</button>
+    <div class="breadcrumb">Clickdy Studio <span style="color:#52667d">/</span> <b id="breadcrumb">Home</b></div>
+  </div>
+  <div class="top-actions">
+    <button class="top-btn" data-goto="credits">✦ <span id="topCredits">120</span> credits</button>
+    <button class="top-btn" id="newProjectTop">＋ New project</button>
+    <div class="avatar">C</div>
+  </div>
 </header>
 
-<main class="container">
-  <section class="hero">
-    <div class="eyebrow">Clickdy AI Studio</div>
-    <h1>Create Videos with <span>AI</span></h1>
-    <p>Turn your ideas and images into videos with AI-powered video generation.</p>
-  </section>
+<main class="content">
 
-  <div class="workspace">
-
-    <section class="panel">
-      <h2 class="panel-title">✦ Video Generator <small>Creation settings</small></h2>
-
-      <div class="tabs">
-        <button class="tab active" id="textTab" type="button">Text to Video</button>
-        <button class="tab" id="imageTab" type="button">Image to Video</button>
-      </div>
-
-      <label class="label" for="prompt">Describe your video</label>
-      <textarea id="prompt" maxlength="2000"
-        placeholder="Describe the video you want to create... For example: A cinematic aerial shot of a futuristic city at sunset, realistic lighting, smooth camera movement."></textarea>
-      <div class="hint"><span id="charCount">0</span>/2000 characters. Be descriptive for better results.</div>
-
-      <div id="imageUpload" style="display:none">
-        <label class="label">Upload reference image</label>
-        <label class="upload" for="imageFile">
-          <div>
-            <strong>＋ Upload an image</strong>
-            <span>JPG, PNG or WEBP · Maximum 10 MB</span>
-            <img id="imagePreview" class="upload-preview" style="display:none" alt="Image preview">
-          </div>
-          <input id="imageFile" type="file" accept="image/jpeg,image/png,image/webp">
-        </label>
-      </div>
-
-      <div class="grid2">
-        <div>
-          <label class="label" for="model">AI model</label>
-          <select id="model">
-            <option value="wan2.2-t2v">Wan 2.2 Text-to-Video</option>
-            <option value="wan2.2-i2v">Wan 2.2 Image-to-Video</option>
-          </select>
-        </div>
-        <div>
-          <label class="label" for="duration">Duration</label>
-          <select id="duration">
-            <option value="5">5 seconds</option>
-            <option value="10">10 seconds</option>
-          </select>
-        </div>
-        <div>
-          <label class="label" for="resolution">Resolution</label>
-          <select id="resolution">
-            <option value="480p">480p</option>
-            <option value="720p" selected>720p</option>
-          </select>
-        </div>
-        <div>
-          <label class="label" for="quality">Quality</label>
-          <select id="quality">
-            <option value="standard">Standard</option>
-            <option value="high">High</option>
-          </select>
-        </div>
-      </div>
-
-      <label class="label">Aspect ratio</label>
-      <div class="ratios">
-        <button class="ratio active" data-ratio="16:9" type="button">▰ 16:9</button>
-        <button class="ratio" data-ratio="9:16" type="button">▯ 9:16</button>
-        <button class="ratio" data-ratio="1:1" type="button">□ 1:1</button>
-      </div>
-
-      <button class="generate" id="generateBtn" type="button">✦ Generate Video</button>
-      <div class="status" id="status" role="status">Your generated video will appear in the preview panel.</div>
-
-      <div class="progress-wrap" id="progressWrap">
-        <div class="progress-info">
-          <span id="progressText">Generating video...</span>
-          <span id="progressPercent">0%</span>
-        </div>
-        <div class="progress"><div class="progress-bar" id="progressBar"></div></div>
-      </div>
-
-      <div class="note">
-        Video generation requires a connected AI model API and a secure backend. Your API key must never be placed in this page's JavaScript.
-      </div>
-    </section>
-
-    <section class="panel">
-      <h2 class="panel-title">▶ Video Preview</h2>
-      <div class="preview" id="preview">
-        <div class="placeholder">
-          <div class="placeholder-icon">🎬</div>
-          <strong>Your video will appear here</strong>
-          <p>Enter a prompt, choose your settings and generate your video.</p>
-        </div>
-      </div>
-      <a class="download" id="downloadBtn" href="#" download="clickdy-ai-video.mp4">↓ Download Video</a>
-    </section>
-
+<!-- HOME -->
+<section class="page-section active" id="page-home">
+  <div class="studio-intro">
+    <div>
+      <div class="eyebrow">CLICKDY CREATIVE WORKSPACE</div>
+      <h1>AI Video Studio</h1>
+      <p class="subtitle">Turn your ideas into cinematic video concepts.</p>
+    </div>
+    <div class="studio-label"><i class="live-dot"></i> Creative workspace</div>
   </div>
-</main>
 
-<footer class="footer">© <span id="year"></span> Clickdy · AI Video Studio</footer>
+  <div class="studio-layout">
+    <section class="panel editor-panel">
+      <div class="editor-head">
+        <strong>Create a video</strong>
+        <span>New generation</span>
+      </div>
+
+      <div class="editor-body">
+        <div class="editor-block">
+          <div class="section-label">Creation mode <small>Choose your input</small></div>
+          <div class="mode-switch">
+            <button class="mode-btn active" data-mode="image">▧ Image to video</button>
+            <button class="mode-btn" data-mode="text">✎ Text to video</button>
+            <button class="mode-btn" data-mode="subject">◉ Subject</button>
+          </div>
+        </div>
+
+        <div class="editor-block" id="imageField">
+          <div class="section-label">Reference images <small>PNG, JPG, WEBP</small></div>
+          <div class="upload-grid">
+            <label class="upload-tile" id="startBox">
+              <img id="startPreview" alt="Start frame preview">
+              <button class="image-remove" type="button" id="removeStart">×</button>
+              <span class="upload-copy"><span class="upload-icon">＋</span><strong>Start frame</strong><small>Choose an image</small></span>
+              <input type="file" id="startUpload" accept="image/png,image/jpeg,image/webp">
+            </label>
+            <label class="upload-tile" id="endBox">
+              <img id="endPreview" alt="End frame preview">
+              <button class="image-remove" type="button" id="removeEnd">×</button>
+              <span class="upload-copy"><span class="upload-icon">＋</span><strong>End frame</strong><small>Optional reference</small></span>
+              <input type="file" id="endUpload" accept="image/png,image/jpeg,image/webp">
+            </label>
+          </div>
+        </div>
+
+        <div class="editor-block">
+          <label class="field-label" for="prompt">Describe your video</label>
+          <textarea id="prompt" maxlength="2000" placeholder="Describe your subject, scene, movement, camera angle and visual style..."></textarea>
+          <div class="prompt-footer">
+            <button class="text-action" id="samplePrompt">✦ Use an example prompt</button>
+            <span class="counter" id="counter">0 / 2000</span>
+          </div>
+        </div>
+
+        <div class="settings-heading">
+          <strong>Generation settings</strong>
+          <span>Customize output</span>
+        </div>
+
+        <div class="editor-block" style="margin-top:13px">
+          <label class="field-label" for="model">AI model</label>
+          <select id="model">
+            <option value="wan">Wan Video</option>
+            <option value="hailuo">Hailuo</option>
+            <option value="cinematic">Cinematic model</option>
+          </select>
+        </div>
+
+        <div class="settings-grid">
+          <div class="setting">
+            <label>Quality</label>
+            <div class="segment" id="quality">
+              <button class="active" data-value="fast">Fast</button>
+              <button data-value="pro">Pro</button>
+            </div>
+          </div>
+          <div class="setting">
+            <label for="resolution">Resolution</label>
+            <select id="resolution">
+              <option value="768p">768p</option>
+              <option value="1080p">1080p</option>
+              <option value="480p">480p</option>
+            </select>
+          </div>
+          <div class="setting">
+            <label for="duration">Duration</label>
+            <select id="duration">
+              <option value="6">6 seconds</option>
+              <option value="10">10 seconds</option>
+              <option value="15">15 seconds</option>
+            </select>
+          </div>
+          <div class="setting">
+            <label for="ratio">Aspect ratio</label>
+            <select id="ratio">
+              <option value="16:9">16:9 Landscape</option>
+              <option value="9:16">9:16 Portrait</option>
+              <option value="1:1">1:1 Square</option>
+              <option value="4:3">4:3 Classic</option>
+            </select>
+          </div>
+          <div class="setting">
+            <label for="outputs">Variations</label>
+            <select id="outputs">
+              <option value="1">1 video</option>
+              <option value="2">2 videos</option>
+              <option value="3">3 videos</option>
+            </select>
+          </div>
+          <div class="setting">
+            <label for="camera">Camera motion</label>
+            <select id="camera">
+              <option value="auto">Auto</option>
+              <option value="static">Static</option>
+              <option value="pan">Pan</option>
+              <option value="zoom">Zoom</option>
+              <option value="tracking">Tracking</option>
+            </select>
+          </div>
+        </div>
+
+        <details class="advanced">
+          <summary>Advanced settings</summary>
+          <label class="field-label" for="negative" style="margin-top:12px">Negative prompt</label>
+          <textarea id="negative" placeholder="Describe elements, artifacts or effects you want to avoid..." style="min-height:65px"></textarea>
+        </details>
+
+        <div class="generate-row">
+          <button class="generate" id="generateBtn">✦ Generate video</button>
+          <div class="generate-note">Generation requires an active AI video API connection.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel preview-panel">
+      <div class="preview-toolbar">
+        <div>
+          <strong>Output preview</strong>
+          <small>Your generated video will appear here</small>
+        </div>
+        <div class="preview-tools">
+          <button class="secondary" id="clearPreview">Reset</button>
+        </div>
+      </div>
+
+      <div class="preview-stage">
+        <div class="preview-inner">
+          <div class="preview-frame" id="previewFrame">
+            <span class="preview-tag">STUDIO PREVIEW</span>
+            <span class="preview-aspect" id="previewAspect">16:9</span>
+            <img id="mainImage" alt="Selected image preview">
+            <video id="mainVideo" controls playsinline></video>
+            <div class="preview-empty" id="emptyPreview">
+              <div class="preview-emblem">▶</div>
+              <strong>Your creative canvas</strong>
+              <p>Upload a reference image or write a prompt<br>to prepare your next video project.</p>
+            </div>
+          </div>
+          <div class="preview-caption">
+            <span id="previewStatus">Waiting for your input</span>
+            <span id="previewFormat">MP4 · 768p</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-bottom">
+        <span>Workspace preview</span>
+        <strong id="previewMode">IMAGE TO VIDEO</strong>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- TEMPLATES -->
+<section class="page-section" id="page-templates">
+  <div class="page-heading">
+    <div><div class="eyebrow">GET INSPIRED</div><h1>Creative templates</h1><p class="subtitle">Choose a visual direction and start with a ready-made prompt.</p></div>
+  </div>
+  <div class="template-grid" id="templateGrid">
+    <article class="template-card" data-template="A cinematic aerial drone shot of a futuristic coastal city at golden hour, smooth camera movement, warm sunlight, realistic details.">
+      <div class="template-art art1"><span class="art-symbol">🏙</span><span class="art-label">CINEMATIC</span></div>
+      <div class="template-info"><strong>Golden City</strong><p>A futuristic city with warm golden light and sweeping camera movement.</p><div class="template-meta"><span>Landscape</span><span>✦ Popular</span></div></div>
+    </article>
+    <article class="template-card" data-template="A mysterious astronaut slowly walking across an alien landscape, distant mountains, cinematic atmosphere, dramatic lighting, realistic movement.">
+      <div class="template-art art2"><span class="art-symbol">🚀</span><span class="art-label">SCI-FI</span></div>
+      <div class="template-info"><strong>Beyond Earth</strong><p>Explore a mysterious world with atmospheric cinematic visuals.</p><div class="template-meta"><span>Landscape</span><span>✦ Creative</span></div></div>
+    </article>
+    <article class="template-card" data-template="A beautiful tropical ocean with turquoise water, gentle waves, sunlight reflections and a smooth slow aerial camera movement.">
+      <div class="template-art art3"><span class="art-symbol">🌊</span><span class="art-label">NATURE</span></div>
+      <div class="template-info"><strong>Ocean Dreams</strong><p>Relaxing natural motion and beautiful coastal scenery.</p><div class="template-meta"><span>Landscape</span><span>✦ Relaxing</span></div></div>
+    </article>
+    <article class="template-card" data-template="A luxury perfume bottle on a reflective black surface, elegant studio lighting, slow rotating camera, premium commercial advertisement.">
+      <div class="template-art art4"><span class="art-symbol">💎</span><span class="art-label">PRODUCT</span></div>
+      <div class="template-info"><strong>Luxury Product</strong><p>Premium product advertising with elegant studio lighting.</p><div class="template-meta"><span>Square</span><span>✦ Business</span></div></div>
+    </article>
+    <article class="template-card" data-template="A peaceful green forest in the early morning, sun rays passing through trees, leaves moving gently in the wind, realistic cinematic nature film.">
+      <div class="template-art art5"><span class="art-symbol">🌿</span><span class="art-label">NATURE</span></div>
+      <div class="template-info"><strong>Forest Escape</strong><p>Natural environments with soft atmospheric motion.</p><div class="template-meta"><span>Landscape</span><span>✦ Trending</span></div></div>
+    </article>
+    <article class="template-card" data-template="A stylish futuristic sports car driving through a neon-lit city at night, dynamic tracking camera, reflections, cinematic motion blur.">
+      <div class="template-art art6"><span class="art-symbol">🏎</span><span class="art-label">ACTION</span></div>
+      <div class="template-info"><strong>Neon Drive</strong><p>Dynamic camera work, dramatic lights and cinematic motion.</p><div class="template-meta"><span>Landscape</span><span>✦ Action</span></div></div>
+    </article>
+  </div>
+</section>
+
+<!-- HISTORY -->
+<section class="page-section" id="page-history">
+  <div class="page-heading">
+    <div><div class="eyebrow">YOUR CREATIONS</div><h1>Generation history</h1><p class="subtitle">Review your saved studio sessions and generation activity.</p></div>
+    <button class="secondary" id="clearHistory">Clear history</button>
+  </div>
+  <div class="stat-grid">
+    <div class="stat"><span>Total sessions</span><strong id="historyCount">0</strong></div>
+    <div class="stat"><span>Completed videos</span><strong id="historyCompleted">0</strong></div>
+    <div class="stat"><span>Last activity</span><strong style="font-size:14px" id="lastActivity">—</strong></div>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="panel-title">Recent activity</span><span class="panel-note">Saved in this browser</span></div>
+    <div class="table-wrap"><table><thead><tr><th>CREATION</th><th>MODE</th><th>DATE</th><th>STATUS</th></tr></thead><tbody id="historyRows"></tbody></table></div>
+    <div class="empty-state" id="historyEmpty"><div class="empty-icon">◷</div><strong>No creation history yet</strong><p>Your saved sessions will appear here.</p></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="page-section" id="page-projects">
+  <div class="page-heading">
+    <div><div class="eyebrow">ORGANIZE YOUR WORK</div><h1>My projects</h1><p class="subtitle">Keep your creative ideas organized in one place.</p></div>
+    <button class="primary" id="createProject">＋ New project</button>
+  </div>
+  <div class="card-grid" id="projectGrid"></div>
+  <div class="empty-state" id="projectEmpty"><div class="empty-icon">▣</div><strong>No projects created yet</strong><p>Create your first project to get started.</p></div>
+</section>
+
+<!-- ASSETS -->
+<section class="page-section" id="page-assets">
+  <div class="page-heading">
+    <div><div class="eyebrow">YOUR MEDIA LIBRARY</div><h1>Assets</h1><p class="subtitle">Manage your reference images and creative media.</p></div>
+    <label class="primary">＋ Upload assets<input type="file" id="assetUpload" accept="image/*" multiple hidden></label>
+  </div>
+  <div class="stat-grid">
+    <div class="stat"><span>Total assets</span><strong id="assetCount">0</strong></div>
+    <div class="stat"><span>Asset type</span><strong style="font-size:15px">Images</strong></div>
+    <div class="stat"><span>Storage</span><strong style="font-size:15px">Browser</strong></div>
+  </div>
+  <div class="card-grid" id="assetGrid"></div>
+  <div class="empty-state" id="assetEmpty"><div class="empty-icon">▧</div><strong>Your asset library is empty</strong><p>Upload images to see them here.</p></div>
+</section>
+
+<!-- WORKSPACE -->
+<section class="page-section" id="page-workspace">
+  <div class="page-heading">
+    <div><div class="eyebrow">PERSONAL CREATIVE SPACE</div><h1>My Workspace</h1><p class="subtitle">Your projects, assets and creative shortcuts.</p></div>
+    <button class="primary" data-goto="home">＋ Create video</button>
+  </div>
+  <div class="stat-grid">
+    <div class="stat"><span>Projects</span><strong id="workspaceProjects">0</strong></div>
+    <div class="stat"><span>Assets</span><strong id="workspaceAssets">0</strong></div>
+    <div class="stat"><span>Credits available</span><strong id="workspaceCredits">120</strong></div>
+  </div>
+  <div class="card-grid">
+    <div class="simple-card"><strong>✧ Start creating</strong><p>Open the AI Video Studio and prepare a new video project.</p><button class="secondary" data-goto="home">Open studio →</button></div>
+    <div class="simple-card"><strong>▦ Explore templates</strong><p>Find inspiration and start with a ready-made prompt.</p><button class="secondary" data-goto="templates">Browse templates →</button></div>
+    <div class="simple-card"><strong>▧ Manage assets</strong><p>Keep your reference images organized in your media library.</p><button class="secondary" data-goto="assets">Open assets →</button></div>
+  </div>
+</section>
+
+<!-- CREDITS -->
+<section class="page-section" id="page-credits">
+  <div class="page-heading">
+    <div><div class="eyebrow">USAGE & PLAN</div><h1>Credits</h1><p class="subtitle">Track your available credits and usage information.</p></div>
+  </div>
+  <div class="credit-hero">
+    <span>AVAILABLE DEMO CREDITS</span>
+    <strong id="creditBalance">120</strong>
+    <p>Prototype balance only — no real payment or deduction.</p>
+    <div class="progress"><i></i></div>
+    <span>Demo usage visualization</span>
+  </div>
+  <div class="stat-grid">
+    <div class="stat"><span>Current balance</span><strong id="creditStat">120</strong></div>
+    <div class="stat"><span>Demo sessions</span><strong id="creditSessions">0</strong></div>
+    <div class="stat"><span>Plan</span><strong style="font-size:15px">Free Demo</strong></div>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="panel-title">Credit information</span></div>
+    <div style="padding:16px"><p class="subtitle" style="line-height:1.8">Actual credit pricing, payment plans, billing and usage tracking will be configured when the video-generation service is integrated.</p></div>
+  </div>
+</section>
+
+</main>
+</div>
+</div>
+
+<!-- PROJECT MODAL -->
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal">
+    <div class="modal-head"><strong id="modalTitle">New project</strong><button class="close" id="modalClose">×</button></div>
+    <label class="field-label" for="projectName">Project name</label>
+    <input type="text" id="projectName" placeholder="My creative project">
+    <div class="modal-actions">
+      <button class="secondary" id="modalCancel">Cancel</button>
+      <button class="primary" id="modalConfirm">Create project</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
 
 <script>
-const API_BASE = "/api/video";
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
 
-const textTab = document.getElementById("textTab");
-const imageTab = document.getElementById("imageTab");
-const imageUpload = document.getElementById("imageUpload");
-const imageFile = document.getElementById("imageFile");
-const imagePreview = document.getElementById("imagePreview");
-const promptInput = document.getElementById("prompt");
-const generateBtn = document.getElementById("generateBtn");
-const statusBox = document.getElementById("status");
-const preview = document.getElementById("preview");
-const progressWrap = document.getElementById("progressWrap");
-const progressBar = document.getElementById("progressBar");
-const progressPercent = document.getElementById("progressPercent");
-const progressText = document.getElementById("progressText");
-const downloadBtn = document.getElementById("downloadBtn");
+const store = {
+  get(key, fallback) {
+    try { return JSON.parse(localStorage.getItem("clickdy_" + key)) ?? fallback; }
+    catch { return fallback; }
+  },
+  set(key, value) {
+    try {
+      localStorage.setItem("clickdy_" + key, JSON.stringify(value));
+      return true;
+    } catch {
+      toast("Browser storage is full. Remove some saved assets.");
+      return false;
+    }
+  }
+};
 
-let mode = "text";
-let ratio = "16:9";
-let selectedImage = null;
-let polling = false;
+let projects = store.get("projects", []);
+let historyItems = store.get("history", []);
+let assets = store.get("assets", []);
+let credits = store.get("credits", 120);
+let currentPage = "home";
+let toastTimer;
+let startFile = null;
+let endFile = null;
+let startObjectUrl = null;
+let endObjectUrl = null;
 
-document.getElementById("year").textContent = new Date().getFullYear();
-
-promptInput.addEventListener("input", () => {
-  document.getElementById("charCount").textContent = promptInput.value.length;
-});
-
-function setMode(nextMode) {
-  mode = nextMode;
-  textTab.classList.toggle("active", mode === "text");
-  imageTab.classList.toggle("active", mode === "image");
-  imageUpload.style.display = mode === "image" ? "block" : "none";
-  document.getElementById("model").value =
-    mode === "image" ? "wan2.2-i2v" : "wan2.2-t2v";
+function toast(message) {
+  const el = $("#toast");
+  el.textContent = message;
+  el.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove("show"), 2700);
 }
 
-textTab.addEventListener("click", () => setMode("text"));
-imageTab.addEventListener("click", () => setMode("image"));
+function navigate(page) {
+  if (!$("#page-" + page)) return;
+  currentPage = page;
+  $$(".page-section").forEach(section => {
+    section.classList.toggle("active", section.id === "page-" + page);
+  });
+  $$(".nav-item[data-page]").forEach(button => {
+    button.classList.toggle("active", button.dataset.page === page);
+  });
+  const labels = {
+    home:"Home", templates:"Templates", history:"History",
+    projects:"Projects", assets:"Assets", workspace:"My Workspace", credits:"Credits"
+  };
+  $("#breadcrumb").textContent = labels[page] || page;
+  closeMobileMenu();
+  window.scrollTo({top:0, behavior:"smooth"});
+  refresh();
+}
 
-document.querySelectorAll(".ratio").forEach(button => {
-  button.addEventListener("click", () => {
-    document.querySelectorAll(".ratio").forEach(b => b.classList.remove("active"));
-    button.classList.add("active");
-    ratio = button.dataset.ratio;
+function closeMobileMenu() {
+  $("#sidebar").classList.remove("open");
+  $("#overlay").classList.remove("show");
+}
+
+$$("[data-page]").forEach(button => {
+  button.addEventListener("click", () => navigate(button.dataset.page));
+});
+$$("[data-goto]").forEach(button => {
+  button.addEventListener("click", () => navigate(button.dataset.goto));
+});
+
+$("#menuToggle").addEventListener("click", () => {
+  $("#sidebar").classList.toggle("open");
+  $("#overlay").classList.toggle("show");
+});
+$("#overlay").addEventListener("click", closeMobileMenu);
+
+function refresh() {
+  $("#sideCredits").textContent = credits;
+  $("#topCredits").textContent = credits;
+  $("#creditBalance").textContent = credits;
+  $("#creditStat").textContent = credits;
+  $("#workspaceCredits").textContent = credits;
+  $("#historyCount").textContent = historyItems.length;
+  $("#historyCompleted").textContent = historyItems.filter(item => item.status === "Completed").length;
+  $("#creditSessions").textContent = historyItems.length;
+  $("#workspaceProjects").textContent = projects.length;
+  $("#workspaceAssets").textContent = assets.length;
+  $("#assetCount").textContent = assets.length;
+  $("#lastActivity").textContent = historyItems.length ? "Recent" : "—";
+  renderHistory();
+  renderProjects();
+  renderAssets();
+}
+
+function renderHistory() {
+  const rows = $("#historyRows");
+  rows.innerHTML = "";
+  $("#historyEmpty").style.display = historyItems.length ? "none" : "block";
+
+  historyItems.slice().reverse().forEach(item => {
+    const tr = document.createElement("tr");
+    [item.name, item.mode, item.date, item.status || "Saved"].forEach((value, index) => {
+      const td = document.createElement("td");
+      if (index === 3) {
+        const badge = document.createElement("span");
+        badge.className = "status";
+        badge.textContent = value;
+        td.append(badge);
+      } else {
+        td.textContent = value;
+      }
+      tr.append(td);
+    });
+    rows.append(tr);
+  });
+}
+
+function renderProjects() {
+  const grid = $("#projectGrid");
+  grid.innerHTML = "";
+  $("#projectEmpty").style.display = projects.length ? "none" : "block";
+
+  projects.forEach((project, index) => {
+    const card = document.createElement("div");
+    card.className = "simple-card";
+
+    const art = document.createElement("div");
+    art.className = "project-art";
+    art.textContent = "▣";
+
+    const title = document.createElement("strong");
+    title.textContent = project.name;
+
+    const date = document.createElement("p");
+    date.textContent = "Created " + project.date;
+
+    const actions = document.createElement("div");
+    actions.className = "project-actions";
+
+    const rename = document.createElement("button");
+    rename.className = "secondary";
+    rename.textContent = "Rename";
+    rename.onclick = () => openProjectModal(index);
+
+    const remove = document.createElement("button");
+    remove.className = "secondary";
+    remove.textContent = "Delete";
+    remove.onclick = () => {
+      if (!confirm("Delete this project?")) return;
+      projects.splice(index, 1);
+      store.set("projects", projects);
+      refresh();
+      toast("Project deleted");
+    };
+
+    actions.append(rename, remove);
+    card.append(art, title, date, actions);
+    grid.append(card);
+  });
+}
+
+function renderAssets() {
+  const grid = $("#assetGrid");
+  grid.innerHTML = "";
+  $("#assetEmpty").style.display = assets.length ? "none" : "block";
+
+  assets.forEach((asset, index) => {
+    const card = document.createElement("div");
+    card.className = "simple-card";
+
+    const thumb = document.createElement("div");
+    thumb.className = "asset-thumb";
+    const img = document.createElement("img");
+    img.src = asset.url;
+    img.alt = asset.name;
+    thumb.append(img);
+
+    const actions = document.createElement("div");
+    actions.className = "asset-actions";
+
+    const name = document.createElement("strong");
+    name.textContent = asset.name;
+
+    const remove = document.createElement("button");
+    remove.className = "secondary";
+    remove.textContent = "Remove";
+    remove.onclick = () => {
+      assets.splice(index, 1);
+      store.set("assets", assets);
+      refresh();
+      toast("Asset removed");
+    };
+
+    actions.append(name, remove);
+    card.append(thumb, actions);
+    grid.append(card);
+  });
+}
+
+function openModal(title, confirmText, callback) {
+  $("#modalTitle").textContent = title;
+  $("#modalConfirm").textContent = confirmText;
+  $("#projectName").value = "";
+  $("#modalBackdrop").classList.add("show");
+  $("#projectName").focus();
+
+  $("#modalConfirm").onclick = () => {
+    const name = $("#projectName").value.trim();
+    if (!name) {
+      toast("Please enter a project name");
+      return;
+    }
+    callback(name);
+    $("#modalBackdrop").classList.remove("show");
+  };
+}
+
+function openProjectModal(index) {
+  $("#projectName").value = projects[index].name;
+  $("#modalTitle").textContent = "Rename project";
+  $("#modalConfirm").textContent = "Save changes";
+  $("#modalBackdrop").classList.add("show");
+
+  $("#modalConfirm").onclick = () => {
+    const name = $("#projectName").value.trim();
+    if (!name) return toast("Please enter a project name");
+    projects[index].name = name;
+    store.set("projects", projects);
+    $("#modalBackdrop").classList.remove("show");
+    refresh();
+    toast("Project renamed");
+  };
+}
+
+function newProject() {
+  openModal("Create a new project", "Create project", name => {
+    projects.push({name, date:new Date().toLocaleDateString()});
+    store.set("projects", projects);
+    refresh();
+    toast("Project created");
+  });
+}
+
+$("#createProject").onclick = newProject;
+$("#newProjectTop").onclick = newProject;
+$("#modalClose").onclick = $("#modalCancel").onclick = () => {
+  $("#modalBackdrop").classList.remove("show");
+};
+$("#modalBackdrop").addEventListener("click", event => {
+  if (event.target === $("#modalBackdrop")) $("#modalBackdrop").classList.remove("show");
+});
+$("#projectName").addEventListener("keydown", event => {
+  if (event.key === "Enter") $("#modalConfirm").click();
+});
+
+$$(".template-card").forEach(card => {
+  card.addEventListener("click", () => {
+    $("#prompt").value = card.dataset.template;
+    updateCounter();
+    navigate("home");
+    toast("Template added to your prompt");
   });
 });
 
-imageFile.addEventListener("change", () => {
-  const file = imageFile.files[0];
-  selectedImage = null;
+function updateCounter() {
+  $("#counter").textContent = $("#prompt").value.length + " / 2000";
+}
+$("#prompt").addEventListener("input", updateCounter);
 
-  if (!file) return;
+$("#samplePrompt").onclick = () => {
+  $("#prompt").value = "A cinematic slow camera push-in toward a futuristic city at sunset, glowing reflections on wet streets, atmospheric fog, dramatic lighting and realistic details.";
+  updateCounter();
+  toast("Example prompt added");
+};
 
-  if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) {
-    showStatus("Please select a JPG, PNG or WEBP image.", "error");
-    imageFile.value = "";
-    return;
-  }
-
-  if (file.size > 10 * 1024 * 1024) {
-    showStatus("Image size must be 10 MB or less.", "error");
-    imageFile.value = "";
-    return;
-  }
-
-  selectedImage = file;
-  imagePreview.src = URL.createObjectURL(file);
-  imagePreview.style.display = "block";
+$$(".mode-btn").forEach(button => {
+  button.addEventListener("click", () => {
+    $$(".mode-btn").forEach(item => item.classList.remove("active"));
+    button.classList.add("active");
+    const mode = button.dataset.mode;
+    $("#imageField").style.display = mode === "text" ? "none" : "block";
+    $("#previewMode").textContent = mode.toUpperCase() + " TO VIDEO";
+    $("#previewStatus").textContent = "Mode changed · " + mode;
+  });
 });
 
-function showStatus(message, type = "") {
-  statusBox.textContent = message;
-  statusBox.className = "status " + type;
-}
+$$("#quality button").forEach(button => {
+  button.addEventListener("click", () => {
+    $$("#quality button").forEach(item => item.classList.remove("active"));
+    button.classList.add("active");
+  });
+});
 
-function setProgress(value, message) {
-  const amount = Math.max(0, Math.min(100, Number(value) || 0));
-  progressWrap.style.display = "block";
-  progressBar.style.width = amount + "%";
-  progressPercent.textContent = Math.round(amount) + "%";
-  progressText.textContent = message || "Generating video...";
-}
-
-async function readResponse(response) {
-  const data = await response.json().catch(() => ({}));
-  if (!response.ok) {
-    throw new Error(data.error || data.message || `Request failed (${response.status})`);
+function showImagePreview(file, imageElement, boxElement, which) {
+  if (!file || !file.type.startsWith("image/")) {
+    toast("Please choose a valid image");
+    return;
   }
-  return data;
+
+  const objectUrl = URL.createObjectURL(file);
+  imageElement.src = objectUrl;
+  boxElement.classList.add("has-image");
+
+  if (which === "start") {
+    if (startObjectUrl) URL.revokeObjectURL(startObjectUrl);
+    startObjectUrl = objectUrl;
+    startFile = file;
+    $("#mainImage").src = objectUrl;
+    $("#mainImage").style.display = "block";
+    $("#mainVideo").style.display = "none";
+    $("#mainVideo").pause();
+    $("#emptyPreview").style.display = "none";
+    $("#previewStatus").textContent = "Reference image selected";
+  } else {
+    if (endObjectUrl) URL.revokeObjectURL(endObjectUrl);
+    endObjectUrl = objectUrl;
+    endFile = file;
+  }
 }
 
+$("#startUpload").addEventListener("change", event => {
+  showImagePreview(event.target.files[0], $("#startPreview"), $("#startBox"), "start");
+  event.target.value = "";
+});
+$("#endUpload").addEventListener("change", event => {
+  showImagePreview(event.target.files[0], $("#endPreview"), $("#endBox"), "end");
+  event.target.value = "";
+});
+
+$("#removeStart").addEventListener("click", event => {
+  event.preventDefault();
+  event.stopPropagation();
+  if (startObjectUrl) URL.revokeObjectURL(startObjectUrl);
+  startObjectUrl = null;
+  startFile = null;
+  $("#startPreview").src = "";
+  $("#startBox").classList.remove("has-image");
+  $("#mainImage").style.display = "none";
+  $("#emptyPreview").style.display = "block";
+  toast("Start frame removed");
+});
+$("#removeEnd").addEventListener("click", event => {
+  event.preventDefault();
+  event.stopPropagation();
+  if (endObjectUrl) URL.revokeObjectURL(endObjectUrl);
+  endObjectUrl = null;
+  endFile = null;
+  $("#endPreview").src = "";
+  $("#endBox").classList.remove("has-image");
+  toast("End frame removed");
+});
+
+function fileToDataURL(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+async function addAsset(file) {
+  if (!file.type.startsWith("image/")) return;
+  try {
+    const dataUrl = await fileToDataURL(file);
+    assets.push({name:file.name, url:dataUrl});
+    if (store.set("assets", assets)) refresh();
+  } catch {
+    toast("Could not save this image");
+  }
+}
+
+$("#assetUpload").addEventListener("change", async event => {
+  const files = [...event.target.files];
+  for (const file of files) await addAsset(file);
+  event.target.value = "";
+  toast("Asset upload finished");
+});
+
+$("#ratio").addEventListener("change", () => {
+  $("#previewAspect").textContent = $("#ratio").value;
+  const ratio = $("#ratio").value;
+  $("#previewFrame").style.aspectRatio = ratio.replace(":", " / ");
+});
+$("#resolution").addEventListener("change", () => {
+  $("#previewFormat").textContent = "MP4 · " + $("#resolution").value;
+});
+
+$("#clearPreview").onclick = () => {
+  $("#mainImage").style.display = "none";
+  $("#mainVideo").pause();
+  $("#mainVideo").removeAttribute("src");
+  $("#mainVideo").load();
+  $("#mainVideo").style.display = "none";
+  $("#emptyPreview").style.display = "block";
+  $("#previewStatus").textContent = "Preview reset";
+  toast("Preview cleared");
+};
+
+/*
+  API connection:
+  POST /api/video/generate
+  GET  /api/video/status/<jobId>
+
+  The backend must return a job ID from the generate endpoint.
+  This UI does not fabricate a video if the backend is unavailable.
+*/
 async function generateVideo() {
-  const prompt = promptInput.value.trim();
-
-  if (prompt.length < 5) {
-    showStatus("Please enter a more detailed video prompt.", "error");
-    promptInput.focus();
+  const prompt = $("#prompt").value.trim();
+  if (!prompt) {
+    toast("Write a prompt before generating");
+    $("#prompt").focus();
     return;
   }
 
-  if (mode === "image" && !selectedImage) {
-    showStatus("Please upload a reference image first.", "error");
-    return;
-  }
+  const button = $("#generateBtn");
+  const mode = $(".mode-btn.active").dataset.mode;
+  const quality = $("#quality button.active").dataset.value;
 
-  if (polling) return;
+  const formData = new FormData();
+  formData.append("prompt", prompt);
+  formData.append("mode", mode);
+  formData.append("model", $("#model").value);
+  formData.append("duration", $("#duration").value);
+  formData.append("resolution", $("#resolution").value);
+  formData.append("quality", quality);
+  formData.append("aspect_ratio", $("#ratio").value);
+  formData.append("negative_prompt", $("#negative").value);
+  formData.append("variations", $("#outputs").value);
+  formData.append("camera_motion", $("#camera").value);
 
-  polling = true;
-  generateBtn.disabled = true;
-  generateBtn.textContent = "Generating...";
-  downloadBtn.style.display = "none";
-  preview.innerHTML = '<div class="placeholder"><div class="placeholder-icon">⏳</div><strong>Preparing your video...</strong><p>Please wait while the generation job starts.</p></div>';
-  setProgress(0, "Submitting your request...");
-  showStatus("Connecting to the video generation service...");
+  if (startFile) formData.append("image", startFile);
+  if (endFile) formData.append("end_image", endFile);
+
+  button.disabled = true;
+  button.textContent = "Connecting to video service...";
+  $("#previewStatus").textContent = "Sending generation request...";
 
   try {
-    const formData = new FormData();
-    formData.append("prompt", prompt);
-    formData.append("mode", mode);
-    formData.append("model", document.getElementById("model").value);
-    formData.append("duration", document.getElementById("duration").value);
-    formData.append("resolution", document.getElementById("resolution").value);
-    formData.append("quality", document.getElementById("quality").value);
-    formData.append("aspect_ratio", ratio);
-
-    if (selectedImage) formData.append("image", selectedImage);
-
-    const response = await fetch(`${API_BASE}/generate`, {
-      method: "POST",
-      body: formData
+    const response = await fetch("/api/video/generate", {
+      method:"POST",
+      body:formData
     });
 
-    const job = await readResponse(response);
+    if (!response.ok) {
+      const message = await response.text();
+      throw new Error(message || "Video service request failed");
+    }
 
-    if (!job.id) throw new Error("The server did not return a generation job ID.");
+    const result = await response.json();
+    const jobId = result.jobId || result.job_id || result.id;
 
-    showStatus("Your video is being generated. Keep this page open.");
-    await pollJob(job.id);
+    if (!jobId) throw new Error("The API did not return a job ID");
 
+    historyItems.push({
+      name:prompt.slice(0,45),
+      mode:mode,
+      date:new Date().toLocaleString(),
+      status:"Processing"
+    });
+    store.set("history", historyItems);
+    refresh();
+
+    $("#previewStatus").textContent = "Video is processing...";
+    button.textContent = "Video is processing...";
+
+    await pollVideoStatus(jobId, button);
   } catch (error) {
-    showStatus(error.message || "Something went wrong. Please try again.", "error");
-    preview.innerHTML = '<div class="placeholder"><div class="placeholder-icon">⚠️</div><strong>Generation could not start</strong><p>Check your backend connection and try again.</p></div>';
-  } finally {
-    polling = false;
-    generateBtn.disabled = false;
-    generateBtn.textContent = "✦ Generate Video";
+    console.error("Video generation:", error);
+    $("#previewStatus").textContent = "Generation service unavailable";
+    toast("Video API connection failed. Check your backend.");
+    button.disabled = false;
+    button.textContent = "✦ Generate video";
   }
 }
 
-async function pollJob(jobId) {
-  const startedAt = Date.now();
-  const maxWait = 30 * 60 * 1000;
+async function pollVideoStatus(jobId, button) {
+  let attempts = 0;
+  const maxAttempts = 60;
 
-  while (Date.now() - startedAt < maxWait) {
-    await new Promise(resolve => setTimeout(resolve, 4000));
+  const check = async () => {
+    if (attempts++ >= maxAttempts) {
+      throw new Error("Generation status timed out");
+    }
 
-    const response = await fetch(`${API_BASE}/status/${encodeURIComponent(jobId)}`);
-    const job = await readResponse(response);
+    const response = await fetch("/api/video/status/" + encodeURIComponent(jobId));
+    if (!response.ok) throw new Error("Could not retrieve generation status");
 
-    const progress = Number(job.progress || 0);
-    setProgress(progress, job.message || "Generating your video...");
+    const data = await response.json();
+    const status = String(data.status || "").toLowerCase();
 
-    if (job.status === "completed") {
-      const videoUrl = job.video_url || job.url;
+    if (["completed","complete","success","succeeded"].includes(status)) {
+      const videoUrl = data.videoUrl || data.video_url || data.url;
+      if (!videoUrl) throw new Error("Completed response did not include a video URL");
 
-      if (!videoUrl) throw new Error("Generation completed but no video URL was returned.");
+      $("#mainVideo").src = videoUrl;
+      $("#mainVideo").style.display = "block";
+      $("#mainImage").style.display = "none";
+      $("#emptyPreview").style.display = "none";
+      $("#previewStatus").textContent = "Video generated successfully";
 
-      setProgress(100, "Video ready!");
-      preview.innerHTML = "";
-
-      const video = document.createElement("video");
-      video.controls = true;
-      video.playsInline = true;
-      video.preload = "metadata";
-      video.src = videoUrl;
-      preview.appendChild(video);
-
-      downloadBtn.href = videoUrl;
-      downloadBtn.style.display = "block";
-      showStatus("Your video is ready to preview and download.", "success");
+      const last = historyItems[historyItems.length - 1];
+      if (last) last.status = "Completed";
+      store.set("history", historyItems);
+      refresh();
+      toast("Your video is ready");
+      button.disabled = false;
+      button.textContent = "✦ Generate video";
       return;
     }
 
-    if (job.status === "failed" || job.status === "error") {
-      throw new Error(job.error || job.message || "Video generation failed.");
+    if (["failed","error","cancelled"].includes(status)) {
+      throw new Error(data.error || "Video generation failed");
     }
-  }
 
-  throw new Error("Generation is taking too long. Check the job status and try again.");
+    $("#previewStatus").textContent = "Generating video · " + (data.progress ?? "In progress");
+    button.textContent = "Generating video...";
+    await new Promise(resolve => setTimeout(resolve, 4000));
+    return check();
+  };
+
+  try {
+    await check();
+  } catch (error) {
+    console.error(error);
+    $("#previewStatus").textContent = error.message;
+    toast(error.message);
+  } finally {
+    button.disabled = false;
+    button.textContent = "✦ Generate video";
+  }
 }
 
-generateBtn.addEventListener("click", generateVideo);
-</script>
+$("#generateBtn").onclick = generateVideo;
 
+$("#clearHistory").onclick = () => {
+  if (!historyItems.length) return toast("History is already empty");
+  if (!confirm("Clear all saved history?")) return;
+  historyItems = [];
+  store.set("history", historyItems);
+  refresh();
+  toast("History cleared");
+};
+
+$("#helpBtn").onclick = () => {
+  toast("Help Center will be available soon");
+};
+$("#settingsBtn").onclick = () => {
+  toast("Studio settings will be available soon");
+};
+
+refresh();
+</script>
 </body>
 </html>
