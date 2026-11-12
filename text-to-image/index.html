@@ -1,225 +1,540 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Text to Image Maker Online - Clickdy</title>
-<meta name="description" content="Create custom text images online with Clickdy. Choose canvas size, fonts, colors, alignment and spacing, then export your design as PNG or JPG.">
-<style>
-:root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--accent2:#3aa9e8;--line:#223044;--danger:#ff6f7d;--radius:16px}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif}
-button,input,textarea,select{font:inherit}button{cursor:pointer}
-.page{max-width:1380px;margin:auto;padding:24px}.topbar{display:flex;align-items:center;justify-content:space-between;padding:8px 0 22px;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--text);font-weight:800;font-size:21px}.brand img{width:36px;height:36px;object-fit:contain;border-radius:9px}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}
-.hero{text-align:center;padding:34px 10px 25px}.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 10px;letter-spacing:-1.5px}.hero h1 span{color:var(--accent)}.hero p{max-width:720px;margin:auto;color:var(--muted);line-height:1.65}
-.workspace{display:grid;grid-template-columns:minmax(310px,430px) 1fr;gap:22px;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:0 18px 55px rgba(0,0,0,.2)}.panel h2{font-size:18px;margin:0 0 16px}.section{border-top:1px solid var(--line);padding-top:17px;margin-top:17px}.section:first-of-type{border-top:0;padding-top:0;margin-top:0}.section h3{font-size:13px;margin:0 0 10px;color:#dce5ef}
-.field{display:flex;flex-direction:column;gap:6px;margin-bottom:11px}.field label{font-size:12px;color:#b9c4d2}.field input,.field textarea,.field select{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 11px;outline:none}.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--accent)}.field textarea{min-height:130px;resize:vertical}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.color-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.color-row input[type=color]{height:40px;padding:3px}
-.range-row{display:grid;grid-template-columns:1fr 72px;gap:10px;align-items:center}.range-row output{background:var(--panel2);border:1px solid var(--line);padding:8px;border-radius:8px;text-align:center;font-size:12px}
-.actions{display:flex;flex-wrap:wrap;gap:8px}.btn{border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:9px 13px;border-radius:10px;font-weight:700}.btn:hover{border-color:#3c526d}.btn.primary{background:var(--accent);border-color:var(--accent);color:#06101a}.btn.danger{color:#ffb5bd}
-.stage-panel{position:sticky;top:18px}.stage-tools{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}.stage-tools span{color:var(--muted);font-size:12px}.canvas-wrap{width:100%;display:flex;justify-content:center;align-items:center;overflow:auto;background:#090f18;border:1px solid var(--line);border-radius:14px;padding:18px;min-height:500px}
-canvas{display:block;max-width:100%;height:auto;box-shadow:0 18px 45px rgba(0,0,0,.38);background:#fff}
-.status{min-height:20px;color:var(--muted);font-size:12px;margin-top:10px}
-.footer{text-align:center;color:var(--muted);font-size:12px;padding:30px 0 10px}
-@media(max-width:980px){.workspace{grid-template-columns:1fr}.stage-panel{position:static}.canvas-wrap{min-height:360px}}
-@media(max-width:600px){.page{padding:14px}.grid2,.color-row{grid-template-columns:1fr}.panel{padding:15px}.hero{padding:25px 5px 20px}.canvas-wrap{padding:10px}}
-</style>
-<!-- Clickdy SEO metadata -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Image Generator - Clickdy</title>
+<meta name="description" content="Create stunning AI images with Clickdy. Explore image generation, creative styles, image guidance and advanced controls.">
 <link rel="canonical" href="https://clickdy.vercel.app/text-to-image/">
-<meta name="robots" content="index,follow">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Text to Image Maker Online - Clickdy">
-<meta property="og:description" content="Create custom text images online with Clickdy. Choose canvas size, fonts, colors, alignment and spacing, then export your design as PNG or JPG.">
-<meta property="og:url" content="https://clickdy.vercel.app/text-to-image/">
-<meta property="og:site_name" content="Clickdy">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Text to Image Maker Online - Clickdy">
-<meta name="twitter:description" content="Create custom text images online with Clickdy. Choose canvas size, fonts, colors, alignment and spacing, then export your design as PNG or JPG.">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Text to Image Maker Online",
-  "url": "https://clickdy.vercel.app/text-to-image/",
-  "description": "Create custom text images online with Clickdy. Choose canvas size, fonts, colors, alignment and spacing, then export your design as PNG or JPG.",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "Any",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Clickdy",
-    "url": "https://clickdy.vercel.app/"
-  }
+<meta name="theme-color" content="#080b12">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+ --bg:#080b12;--surface:#0d1422;--surface2:#111b2d;--surface3:#172337;
+ --text:#f4f8ff;--muted:#91a1b8;--soft:#b8c6d9;--line:#1d2b42;
+ --blue:#38a5ff;--cyan:#2ee7df;--danger:#ff7185;
+ --radius:13px;--ease:cubic-bezier(.16,1,.3,1)
 }
-</script>
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;font-size:13px}
+button,input,textarea,select{font:inherit}
+button{cursor:pointer}
+.app{min-height:100vh;display:grid;grid-template-columns:228px minmax(0,1fr)}
+.sidebar{height:100vh;position:sticky;top:0;background:#0a101b;border-right:1px solid var(--line);display:flex;flex-direction:column;padding:17px 12px;z-index:10}
+.brand{height:43px;display:flex;align-items:center;gap:10px;padding:0 9px;margin-bottom:20px;color:var(--text);text-decoration:none;font-family:"Plus Jakarta Sans";font-size:18px;font-weight:800}
+.brand img{width:31px;height:31px;object-fit:contain}
+.brand small{font-size:9px;color:var(--blue);margin-left:auto;letter-spacing:1px}
+.side-label{font-size:10px;color:#687b96;font-weight:800;letter-spacing:1.2px;padding:12px 10px 7px;text-transform:uppercase}
+.nav{display:flex;flex-direction:column;gap:3px}
+.nav a,.nav button{height:37px;display:flex;align-items:center;gap:11px;padding:0 10px;border:0;border-radius:8px;background:transparent;color:#9cacc1;text-decoration:none;text-align:left;font-size:12px;font-weight:600;transition:.2s}
+.nav a:hover,.nav button:hover{background:var(--surface2);color:white}
+.nav a.active{background:linear-gradient(100deg,rgba(56,165,255,.17),rgba(46,231,223,.06));color:#75c6ff;border:1px solid rgba(56,165,255,.16)}
+.nav-icon{width:17px;text-align:center;font-size:15px}
+.nav .tag{margin-left:auto;color:#69c8ff;font-size:9px;background:#10263b;padding:3px 5px;border-radius:5px}
+.side-bottom{margin-top:auto}
+.credit-card{padding:12px;border:1px solid var(--line);background:linear-gradient(145deg,#111e30,#0c1421);border-radius:11px;margin:12px 3px}
+.credit-top{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:700}
+.credit-number{font-family:"Plus Jakarta Sans";font-size:23px;font-weight:800;margin:8px 0 2px}
+.credit-sub{font-size:10px;color:var(--muted)}
+.credit-bar{height:4px;background:#25364c;border-radius:8px;margin:10px 0;overflow:hidden}
+.credit-bar span{display:block;width:65%;height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.upgrade{display:block;text-align:center;padding:8px;border-radius:7px;text-decoration:none;color:#06111c;background:linear-gradient(100deg,#63c7ff,#4be5df);font-weight:800;font-size:11px}
+.sidebar-footer{padding:10px;color:#64758c;font-size:10px}
+.main{min-width:0}
+.topbar{height:61px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 25px;background:rgba(8,11,18,.88);position:sticky;top:0;z-index:8;backdrop-filter:blur(16px)}
+.breadcrumb{color:var(--muted);font-size:12px}.breadcrumb strong{color:var(--text)}
+.top-actions{display:flex;align-items:center;gap:9px}
+.top-btn{height:32px;padding:0 11px;border:1px solid var(--line);background:var(--surface);color:var(--soft);border-radius:8px;font-size:11px;font-weight:700}
+.avatar{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#2589dc,#2ed8ca);color:#06111c;font-weight:900}
+.content{max-width:1550px;margin:auto;padding:24px 25px 50px}
+.page-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:20px}
+.page-heading h1{font:800 23px "Plus Jakarta Sans";margin:0 0 5px;letter-spacing:-.7px}
+.page-heading p{color:var(--muted);margin:0;font-size:12px}
+.heading-actions{display:flex;gap:7px}
+.workspace{display:grid;grid-template-columns:330px minmax(0,1fr);gap:17px;align-items:start}
+.settings{background:var(--surface);border:1px solid var(--line);border-radius:13px;overflow:hidden}
+.settings-head{padding:14px 15px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.settings-head strong{font-size:12px}
+.text-btn{border:0;background:none;color:#69bfff;font-size:11px;font-weight:700}
+.setting-body{padding:14px}
+.block{margin-bottom:17px}
+.block:last-child{margin-bottom:0}
+.block-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+.block-title label,.block-title strong{font-size:11px;font-weight:800;color:#dce7f6}
+.hint{font-size:10px;color:#71839d}
+.prompt{width:100%;min-height:116px;resize:vertical;background:#090f19;border:1px solid #263851;border-radius:9px;color:var(--text);padding:11px;outline:none;line-height:1.6;font-size:12px}
+.prompt:focus,.field:focus{border-color:var(--blue);box-shadow:0 0 0 2px rgba(56,165,255,.09)}
+.prompt-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:7px}
+.mini-tools{display:flex;gap:5px}
+.mini-btn{border:1px solid var(--line);background:var(--surface2);color:#aebed1;border-radius:6px;padding:5px 8px;font-size:10px}
+.counter{font-size:10px;color:#71839d}
+.upload-box{border:1px dashed #344a65;background:#0a111d;border-radius:9px;padding:14px;text-align:center;cursor:pointer;transition:.2s}
+.upload-box:hover{border-color:var(--blue);background:#0e1a2a}
+.upload-icon{font-size:22px;margin-bottom:5px}
+.upload-box strong{display:block;font-size:11px;margin-bottom:4px}
+.upload-box span{font-size:10px;color:var(--muted)}
+.upload-preview{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}
+.upload-preview img{width:58px;height:58px;object-fit:cover;border-radius:7px;border:1px solid var(--line)}
+.field{width:100%;height:35px;background:#0a111d;border:1px solid #25364d;border-radius:7px;color:#e7effa;padding:0 9px;outline:none;font-size:11px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.field-label{display:block;color:#93a5bc;font-size:10px;margin-bottom:6px}
+.segment{display:flex;gap:4px;padding:3px;background:#090f19;border:1px solid var(--line);border-radius:8px}
+.segment button{flex:1;border:0;background:transparent;color:#93a5bc;border-radius:6px;padding:7px 4px;font-size:10px;font-weight:700}
+.segment button.selected{background:#1b3550;color:#80cbff;box-shadow:inset 0 0 0 1px #28577c}
+.ratio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.ratio{border:1px solid var(--line);background:#0a111d;color:#aabbd0;border-radius:7px;padding:8px 4px;font-size:10px}
+.ratio.selected{border-color:#3299e8;background:#10243a;color:#80caff}
+.ratio i{display:block;margin:0 auto 5px;border:1.5px solid currentColor;border-radius:2px}
+.ratio[data-ratio="1:1"] i{width:14px;height:14px}
+.ratio[data-ratio="3:2"] i{width:19px;height:13px}
+.ratio[data-ratio="2:3"] i{width:11px;height:16px}
+.ratio[data-ratio="16:9"] i{width:21px;height:12px}
+.ratio[data-ratio="9:16"] i{width:10px;height:18px}
+.ratio[data-ratio="4:3"] i{width:17px;height:13px}
+.range-line{display:flex;align-items:center;gap:9px}
+.range-line input{width:100%;accent-color:var(--blue)}
+.range-value{min-width:28px;text-align:right;color:#a9c9e8;font-size:10px}
+.switch-row{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid rgba(34,48,68,.6)}
+.switch-row:last-child{border:0}
+.switch-row span{font-size:11px;color:#b9c8d9}
+.switch{appearance:none;width:30px;height:17px;border-radius:20px;background:#34445a;position:relative;cursor:pointer;transition:.2s}
+.switch:before{content:"";position:absolute;width:11px;height:11px;left:3px;top:3px;border-radius:50%;background:#dce7f5;transition:.2s}
+.switch:checked{background:#218edb}
+.switch:checked:before{left:16px;background:white}
+.advanced{border-top:1px solid var(--line);padding-top:13px;margin-top:14px}
+.advanced summary{cursor:pointer;display:flex;justify-content:space-between;font-size:11px;font-weight:800;color:#d9e6f6;list-style:none}
+.advanced summary:after{content:"＋";color:var(--blue)}
+.advanced[open] summary:after{content:"−"}
+.advanced-content{padding-top:13px}
+.generate-area{margin-top:15px}
+.generate-btn{width:100%;height:43px;border:0;border-radius:8px;background:linear-gradient(100deg,#38a5ff,#2ed9d0);color:#06111c;font-weight:900;font-size:12px;box-shadow:0 6px 22px rgba(40,160,230,.15)}
+.generate-btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.generate-note{text-align:center;color:#71839a;font-size:9px;margin-top:8px}
+.results{min-width:0}
+.result-toolbar{height:43px;display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.tabs{display:flex;gap:5px}
+.tab{border:0;background:transparent;color:#8294ac;padding:8px 11px;border-radius:7px;font-size:11px;font-weight:700}
+.tab.active{background:#14243a;color:#75c5ff}
+.result-actions{display:flex;gap:6px}
+.result-actions button{border:1px solid var(--line);background:var(--surface);color:#a9b9cd;border-radius:7px;padding:7px 9px;font-size:10px}
+.empty-state{min-height:470px;border:1px solid var(--line);border-radius:13px;background:radial-gradient(ellipse at 50% 35%,rgba(36,101,155,.12),transparent 55%),#0b111c;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px}
+.empty-inner{max-width:390px}
+.art-icon{width:74px;height:74px;border:1px solid #29415e;border-radius:20px;margin:0 auto 18px;display:grid;place-items:center;background:linear-gradient(145deg,#142b43,#101927);font-size:30px;box-shadow:0 15px 45px #0006}
+.empty-state h2{font:700 17px "Plus Jakarta Sans";margin:0 0 8px}
+.empty-state p{color:var(--muted);line-height:1.7;font-size:11px;margin:0 auto 18px}
+.suggestion-list{display:flex;gap:7px;justify-content:center;flex-wrap:wrap}
+.suggestion{border:1px solid #263c56;background:#101a29;color:#a9c9e5;border-radius:20px;padding:7px 10px;font-size:10px}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.gallery-card{border:1px solid var(--line);background:var(--surface);border-radius:10px;overflow:hidden}
+.gallery-card img{width:100%;display:block;aspect-ratio:1;object-fit:cover}
+.gallery-info{padding:9px;font-size:10px;color:var(--muted)}
+.gallery-info button{float:right;background:none;border:0;color:#78c7ff}
+.modal-backdrop{display:none;position:fixed;inset:0;background:#000a;z-index:30;align-items:center;justify-content:center;padding:20px}
+.modal-backdrop.open{display:flex}
+.modal{width:min(540px,100%);background:#101a29;border:1px solid #2a3e58;border-radius:13px;padding:18px;box-shadow:0 25px 90px #0009}
+.modal h3{margin:0 0 8px;font:700 16px "Plus Jakarta Sans"}
+.modal p{color:var(--muted);font-size:12px;line-height:1.6}
+.modal-actions{display:flex;justify-content:flex-end;margin-top:15px}
+.primary-small{border:0;border-radius:7px;background:var(--blue);color:#06111c;padding:8px 13px;font-weight:800}
+.mobile-menu{display:none}
+@media(max-width:1050px){.app{grid-template-columns:205px minmax(0,1fr)}.workspace{grid-template-columns:300px minmax(0,1fr)}.content{padding:20px 16px}}
+@media(max-width:780px){
+ .app{display:block}.sidebar{position:fixed;left:-245px;width:228px;transition:.25s;box-shadow:15px 0 40px #0008}.sidebar.open{left:0}
+ .mobile-menu{display:inline-flex}.topbar{padding:0 13px;height:55px}.content{padding:18px 12px 35px}
+ .workspace{grid-template-columns:1fr}.settings{order:1}.results{order:2}
+ .page-heading h1{font-size:20px}.page-heading p{max-width:270px;line-height:1.5}
+ .empty-state{min-height:330px}.heading-actions{display:none}
+}
+@media(max-width:430px){.two{gap:7px}.result-toolbar{height:auto;flex-wrap:wrap;gap:7px}.gallery{grid-template-columns:1fr}.top-btn{padding:0 7px}.breadcrumb{font-size:10px}}
+</style>
 </head>
 <body>
-<div class="page">
-<header class="topbar">
-<a class="brand" href="../index.html"><img src="../assets/logo.png" alt="Clickdy logo"><span>Clickdy</span></a>
-<a class="back" href="../index.html">← Back to Home</a>
-</header>
+<div class="app">
 
-<section class="hero">
-<h1>Turn Text Into <span>Beautiful Images</span></h1>
-<p>Create social posts, quote cards, announcements, thumbnails and simple graphics directly in your browser. No sign-up required.</p>
-</section>
+<aside class="sidebar" id="sidebar">
+ <a class="brand" href="../index.html">
+  <img src="../assets/logo.png" alt="Clickdy">
+  <span>Clickdy</span><small>STUDIO</small>
+ </a>
 
-<main class="workspace">
-<section class="panel">
-<div class="section">
-<h3>Content</h3>
-<div class="field"><label for="text">Your text</label><textarea id="text" placeholder="Write something beautiful...">Your story starts here.</textarea></div>
-</div>
+ <div class="side-label">Create</div>
+ <nav class="nav">
+  <a href="#" class="active" data-view="image"><span class="nav-icon">✦</span>Image Generation</a>
+  <a href="#" data-view="video"><span class="nav-icon">▣</span>Video Generation<span class="tag">NEW</span></a>
+  <a href="#" data-view="realtime"><span class="nav-icon">◉</span>Realtime Canvas</a>
+  <a href="#" data-view="flow"><span class="nav-icon">⌘</span>Flow State</a>
+  <a href="#" data-view="editor"><span class="nav-icon">▧</span>Canvas Editor</a>
+ </nav>
 
-<div class="section">
-<h3>Canvas</h3>
-<div class="grid2">
-<div class="field"><label for="width">Width (px)</label><input id="width" type="number" min="200" max="2400" value="1080"></div>
-<div class="field"><label for="height">Height (px)</label><input id="height" type="number" min="200" max="2400" value="1080"></div>
-</div>
-<div class="field"><label for="preset">Preset</label><select id="preset">
-<option value="custom">Custom</option><option value="square">Square 1080 × 1080</option><option value="portrait">Portrait 1080 × 1350</option><option value="story">Story 1080 × 1920</option><option value="landscape">Landscape 1920 × 1080</option><option value="twitter">Post 1600 × 900</option>
-</select></div>
-</div>
+ <div class="side-label">Your Library</div>
+ <nav class="nav">
+  <a href="#" data-view="library"><span class="nav-icon">▤</span>My Generations</a>
+  <a href="#" data-view="favorites"><span class="nav-icon">♡</span>Favorites</a>
+  <a href="#" data-view="collections"><span class="nav-icon">▦</span>Collections</a>
+ </nav>
 
-<div class="section">
-<h3>Typography</h3>
-<div class="field"><label for="font">Font</label><select id="font">
-<option value="Arial">Arial</option><option value="Segoe UI">Segoe UI</option><option value="Georgia">Georgia</option><option value="Times New Roman">Times New Roman</option><option value="Trebuchet MS">Trebuchet MS</option><option value="Verdana">Verdana</option><option value="Courier New">Courier New</option>
-</select></div>
-<div class="field"><label for="size">Font size</label><div class="range-row"><input id="size" type="range" min="16" max="180" value="72"><output id="sizeOut">72 px</output></div></div>
-<div class="grid2">
-<div class="field"><label for="weight">Weight</label><select id="weight"><option value="400">Regular</option><option value="600">Semi Bold</option><option value="700" selected>Bold</option><option value="800">Extra Bold</option></select></div>
-<div class="field"><label for="lineHeight">Line height</label><div class="range-row"><input id="lineHeight" type="range" min="0.9" max="2" step="0.05" value="1.25"><output id="lineOut">1.25</output></div></div>
-</div>
-<div class="grid2">
-<div class="field"><label for="align">Alignment</label><select id="align"><option value="left">Left</option><option value="center" selected>Center</option><option value="right">Right</option></select></div>
-<div class="field"><label for="vertical">Vertical</label><select id="vertical"><option value="top">Top</option><option value="middle" selected>Middle</option><option value="bottom">Bottom</option></select></div>
-</div>
-</div>
+ <div class="side-label">Creative Tools</div>
+ <nav class="nav">
+  <a href="#" data-view="upscaler"><span class="nav-icon">⤢</span>AI Upscaler</a>
+  <a href="#" data-view="blueprints"><span class="nav-icon">◇</span>Blueprints</a>
+  <a href="#" data-view="models"><span class="nav-icon">⚙</span>Models & Training</a>
+ </nav>
 
-<div class="section">
-<h3>Colors</h3>
-<div class="color-row">
-<div class="field"><label for="textColor">Text color</label><input id="textColor" type="color" value="#ffffff"></div>
-<div class="field"><label for="bgColor">Background</label><input id="bgColor" type="color" value="#111827"></div>
-</div>
-<div class="field"><label for="opacity">Text opacity</label><div class="range-row"><input id="opacity" type="range" min="0.1" max="1" step="0.05" value="1"><output id="opacityOut">100%</output></div></div>
-</div>
+ <div class="side-bottom">
+  <div class="credit-card">
+   <div class="credit-top"><span>✧ Your credits</span><span style="color:#70c5ff">Free</span></div>
+   <div class="credit-number">— <span style="font-size:10px;color:#91a1b8">credits</span></div>
+   <div class="credit-sub">Connect a generation provider later</div>
+   <div class="credit-bar"><span></span></div>
+   <a class="upgrade" href="#" id="upgradeBtn">Explore plans ↗</a>
+  </div>
+  <nav class="nav">
+   <a href="#" data-view="help"><span class="nav-icon">?</span>Help Center</a>
+   <a href="../index.html"><span class="nav-icon">↗</span>Back to Clickdy</a>
+  </nav>
+  <div class="sidebar-footer">Clickdy AI Studio · Creative workspace</div>
+ </div>
+</aside>
 
-<div class="section">
-<h3>Spacing</h3>
-<div class="grid2">
-<div class="field"><label for="padding">Padding</label><div class="range-row"><input id="padding" type="range" min="20" max="240" value="100"><output id="paddingOut">100</output></div></div>
-<div class="field"><label for="radius">Corner radius</label><div class="range-row"><input id="radius" type="range" min="0" max="120" value="0"><output id="radiusOut">0</output></div></div>
-</div>
-</div>
+<main class="main">
+ <header class="topbar">
+  <div style="display:flex;align-items:center;gap:12px">
+   <button class="top-btn mobile-menu" id="menuBtn">☰</button>
+   <div class="breadcrumb">Studio <span style="color:#50617a">/</span> <strong id="breadcrumbTitle">Image Generation</strong></div>
+  </div>
+  <div class="top-actions">
+   <button class="top-btn" id="historyBtn">◷ History</button>
+   <button class="top-btn" id="newBtn">＋ New</button>
+   <div class="avatar">C</div>
+  </div>
+ </header>
 
-<div class="section">
-<h3>Export</h3>
-<div class="grid2">
-<div class="field"><label for="format">Format</label><select id="format"><option value="png">PNG</option><option value="jpeg">JPG</option></select></div>
-<div class="field"><label for="quality">JPG quality</label><select id="quality"><option value="0.7">70%</option><option value="0.85" selected>85%</option><option value="0.95">95%</option><option value="1">100%</option></select></div>
-</div>
-<div class="actions">
-<button class="btn primary" id="download" type="button">Download Image</button>
-<button class="btn" id="reset" type="button">Reset</button>
-</div>
-<div id="status" class="status" role="status" aria-live="polite"></div>
-</div>
-</section>
+ <div class="content">
+  <div class="page-heading">
+   <div>
+    <h1 id="pageTitle">AI Image Generation</h1>
+    <p id="pageSubtitle">Turn your ideas into stunning visuals with creative control.</p>
+   </div>
+   <div class="heading-actions">
+    <button class="top-btn" id="promptGuide">✧ Prompt guide</button>
+    <button class="top-btn" id="clearBtn">↺ Reset settings</button>
+   </div>
+  </div>
 
-<section class="panel stage-panel">
-<div class="stage-tools"><strong>Live Preview</strong><span id="dimensions">1080 × 1080 px</span></div>
-<div class="canvas-wrap"><canvas id="canvas" width="1080" height="1080" aria-label="Generated text image preview"></canvas></div>
-</section>
+  <div class="workspace">
+   <section class="settings">
+    <div class="settings-head">
+     <strong>Generation Settings</strong>
+     <button class="text-btn" id="resetBtn">Reset</button>
+    </div>
+    <div class="setting-body">
+
+     <div class="block">
+      <div class="block-title"><label for="prompt">Your prompt</label><span class="hint" id="charCount">0 / 2000</span></div>
+      <textarea class="prompt" id="prompt" maxlength="2000" placeholder="Describe the image you want to create. Be detailed about subject, environment, lighting, mood and composition..."></textarea>
+      <div class="prompt-bottom">
+       <div class="mini-tools">
+        <button class="mini-btn" id="enhanceBtn">✧ Enhance prompt</button>
+        <button class="mini-btn" id="randomBtn">↻ Surprise me</button>
+       </div>
+       <span class="counter">Natural language</span>
+      </div>
+     </div>
+
+     <div class="block">
+      <div class="block-title"><label>Image guidance</label><span class="hint">Reference images</span></div>
+      <label class="upload-box" for="referenceInput">
+       <div class="upload-icon">▧</div>
+       <strong>Upload reference images</strong>
+       <span>Drag images here or browse · Up to 6 images</span>
+      </label>
+      <input type="file" id="referenceInput" accept="image/*" multiple hidden>
+      <div class="upload-preview" id="uploadPreview"></div>
+      <div class="two" style="margin-top:9px">
+       <div><span class="field-label">Guidance type</span>
+        <select class="field" id="guidanceType">
+         <option>Image Reference</option><option>Style Reference</option><option>Content Reference</option><option>Character Reference</option><option>Depth</option><option>Edge</option><option>Sketch</option><option>Pose</option><option>Lineart</option><option>Pattern</option>
+        </select>
+       </div>
+       <div><span class="field-label">Influence</span>
+        <select class="field" id="influence"><option>Low</option><option selected>Medium</option><option>High</option><option>Maximum</option></select>
+       </div>
+      </div>
+     </div>
+
+     <div class="block">
+      <div class="block-title"><label for="model">AI model</label><span class="hint">Model selection</span></div>
+      <select class="field" id="model">
+       <option value="auto">Auto · Recommended</option>
+       <option>Photorealistic</option><option>Creative</option><option>Illustration</option>
+       <option>Anime & Manga</option><option>3D Art</option><option>Concept Art</option>
+       <option>Flux-style</option><option>SDXL-style</option>
+      </select>
+     </div>
+
+     <div class="block">
+      <div class="block-title"><label>Generation mode</label></div>
+      <div class="segment" id="quality">
+       <button class="selected" data-value="Fast">⚡ Fast</button>
+       <button data-value="Quality">Quality</button>
+       <button data-value="Ultra">Ultra</button>
+      </div>
+     </div>
+
+     <div class="block">
+      <div class="block-title"><label>Style preset</label><button class="text-btn" id="allStyles">View all</button></div>
+      <select class="field" id="style">
+       <option value="None">None · Use prompt style</option>
+       <option>Dynamic</option><option>Portrait</option><option>Photography</option>
+       <option>Cinematic</option><option>Anime</option><option>Digital Art</option>
+       <option>3D Render</option><option>Illustration</option><option>Fantasy</option>
+       <option>Concept Art</option><option>Minimalist</option><option>Product Photography</option>
+       <option>Architecture</option><option>Fashion</option><option>Vintage</option>
+       <option>Watercolor</option><option>Oil Painting</option><option>Pixel Art</option>
+      </select>
+     </div>
+
+     <div class="block">
+      <div class="block-title"><label>Aspect ratio</label><span class="hint" id="ratioLabel">1:1</span></div>
+      <div class="ratio-grid" id="ratios">
+       <button class="ratio selected" data-ratio="1:1"><i></i>Square</button>
+       <button class="ratio" data-ratio="3:2"><i></i>Landscape</button>
+       <button class="ratio" data-ratio="2:3"><i></i>Portrait</button>
+       <button class="ratio" data-ratio="16:9"><i></i>Wide</button>
+       <button class="ratio" data-ratio="9:16"><i></i>Story</button>
+       <button class="ratio" data-ratio="4:3"><i></i>Classic</button>
+      </div>
+     </div>
+
+     <div class="two block">
+      <div><span class="field-label">Image size</span>
+       <select class="field" id="size"><option>1K</option><option>512px</option><option>2K</option><option>4K</option></select>
+      </div>
+      <div><span class="field-label">Number of images</span>
+       <select class="field" id="count"><option>1</option><option selected>2</option><option>3</option><option>4</option></select>
+      </div>
+     </div>
+
+     <div class="block">
+      <div class="block-title"><label>Elements</label><span class="hint">Creative influence</span></div>
+      <select class="field" id="element">
+       <option>None</option><option>Photorealism</option><option>Detailed</option>
+       <option>Colorful</option><option>Moody</option><option>Soft lighting</option>
+       <option>Film grain</option><option>Vibrant</option><option>Minimal</option>
+      </select>
+      <div class="range-line" style="margin-top:9px">
+       <span class="hint">Influence</span><input type="range" id="elementStrength" min="0" max="100" value="50"><output class="range-value" id="elementOut">50%</output>
+      </div>
+     </div>
+
+     <div class="block">
+      <div class="block-title"><label>Output preferences</label></div>
+      <div class="two">
+       <div><span class="field-label">Format</span><select class="field" id="format"><option>PNG</option><option>JPG</option><option>WebP</option></select></div>
+       <div><span class="field-label">Visibility</span><select class="field" id="visibility"><option>Public</option><option>Private</option></select></div>
+      </div>
+      <div class="switch-row"><span>Transparent background</span><input class="switch" type="checkbox" id="transparent"></div>
+      <div class="switch-row"><span>Prompt enhancement</span><input class="switch" type="checkbox" id="autoEnhance"></div>
+     </div>
+
+     <details class="advanced">
+      <summary>Advanced settings <span class="hint">Seed · Guidance · Negative prompt</span></summary>
+      <div class="advanced-content">
+       <div class="block">
+        <label class="field-label" for="negative">Negative prompt</label>
+        <textarea class="prompt" id="negative" style="min-height:70px" placeholder="What should the image avoid?"></textarea>
+       </div>
+       <div class="two block">
+        <div><label class="field-label" for="seed">Seed</label><input class="field" id="seed" type="number" placeholder="Random"></div>
+        <div><label class="field-label" for="steps">Steps</label><input class="field" id="steps" type="number" min="1" max="100" value="30"></div>
+       </div>
+       <div class="block">
+        <div class="block-title"><label for="guidance">Guidance scale</label><output id="guidanceOut" class="range-value">7</output></div>
+        <input type="range" id="guidance" min="1" max="20" step=".5" value="7" style="width:100%;accent-color:var(--blue)">
+       </div>
+       <div class="block">
+        <label class="field-label" for="scheduler">Scheduler</label>
+        <select class="field" id="scheduler"><option>Auto</option><option>Euler</option><option>Euler Ancestral</option><option>DDIM</option><option>DPM++</option></select>
+       </div>
+       <div class="switch-row"><span>Fixed seed</span><input class="switch" type="checkbox" id="fixedSeed"></div>
+       <div class="switch-row"><span>High contrast</span><input class="switch" type="checkbox" id="contrast"></div>
+      </div>
+     </details>
+
+     <div class="generate-area">
+      <button class="generate-btn" id="generateBtn">✦ Generate Image</button>
+      <div class="generate-note">Generation will be enabled after connecting an AI provider.</div>
+     </div>
+    </div>
+   </section>
+
+   <section class="results">
+    <div class="result-toolbar">
+     <div class="tabs">
+      <button class="tab active" data-tab="create">Create</button>
+      <button class="tab" data-tab="history">History</button>
+      <button class="tab" data-tab="favorites">Favorites</button>
+     </div>
+     <div class="result-actions">
+      <button id="viewGrid">▦ Grid</button>
+      <button id="viewList">☰ List</button>
+     </div>
+    </div>
+
+    <div class="empty-state" id="emptyState">
+     <div class="empty-inner">
+      <div class="art-icon">✧</div>
+      <h2>Your creative space starts here</h2>
+      <p>Describe your idea, choose a model and customize your settings. Your generated images will appear in this workspace.</p>
+      <div class="suggestion-list">
+       <button class="suggestion" data-prompt="A cinematic futuristic city at sunset, atmospheric lighting, ultra detailed">Cinematic city</button>
+       <button class="suggestion" data-prompt="Luxury perfume product photography, elegant studio lighting, premium editorial composition">Product photography</button>
+       <button class="suggestion" data-prompt="A whimsical fantasy forest with glowing flowers, magical atmosphere, detailed digital art">Fantasy world</button>
+      </div>
+     </div>
+    </div>
+
+    <div id="historyPanel" style="display:none">
+     <div class="empty-state" style="min-height:300px">
+      <div class="empty-inner"><div class="art-icon">◷</div><h2>No generations yet</h2><p>Your future generations will be saved here.</p></div>
+     </div>
+    </div>
+    <div id="gallery" class="gallery" style="display:none"></div>
+   </section>
+  </div>
+ </div>
 </main>
-<div class="footer">Clickdy Text to Image • Browser-side generation • No sign-up</div>
+</div>
+
+<div class="modal-backdrop" id="modal">
+ <div class="modal">
+  <h3 id="modalTitle">Coming soon</h3>
+  <p id="modalText">This feature will be available when the required service is connected.</p>
+  <div class="modal-actions"><button class="primary-small" id="modalClose">Got it</button></div>
+ </div>
 </div>
 
 <script>
-(() => {
+(()=>{
 "use strict";
-const $ = id => document.getElementById(id);
-const canvas = $("canvas"), ctx = canvas.getContext("2d");
-const defaults = {text:"Your story starts here.",width:1080,height:1080,preset:"custom",font:"Arial",size:72,weight:"700",lineHeight:1.25,align:"center",vertical:"middle",textColor:"#ffffff",bgColor:"#111827",opacity:1,padding:100,radius:0,format:"png",quality:.85};
-const ids = ["text","width","height","preset","font","size","weight","lineHeight","align","vertical","textColor","bgColor","opacity","padding","radius","format","quality"];
+const $=id=>document.getElementById(id);
+const modal=(title,message)=>{
+ $("modalTitle").textContent=title;
+ $("modalText").textContent=message;
+ $("modal").classList.add("open");
+};
+$("modalClose").onclick=()=>$("modal").classList.remove("open");
+$("modal").onclick=e=>{if(e.target===$("modal"))$("modal").classList.remove("open")};
 
-function roundedRect(c,x,y,w,h,r){
-  r=Math.max(0,Math.min(r,Math.min(w,h)/2)); c.beginPath();
-  c.moveTo(x+r,y); c.arcTo(x+w,y,x+w,y+h,r); c.arcTo(x+w,y+h,x,y+h,r); c.arcTo(x,y+h,x,y,r); c.arcTo(x,y,x+w,y,r); c.closePath();
-}
-function wrapLines(text,maxWidth){
-  const words=text.split(/\s+/); const lines=[]; let line="";
-  for(const word of words){
-    if(!word && !line) continue;
-    const test=line ? line+" "+word : word;
-    if(ctx.measureText(test).width<=maxWidth || !line) line=test;
-    else {lines.push(line); line=word;}
-  }
-  if(line) lines.push(line);
-  return lines.length?lines:[""];
-}
-function draw(){
-  const w=Math.max(200,Math.min(2400,Number($("width").value)||1080));
-  const h=Math.max(200,Math.min(2400,Number($("height").value)||1080));
-  canvas.width=w; canvas.height=h;
-  const bg=$("bgColor").value, radius=Number($("radius").value);
-  ctx.clearRect(0,0,w,h); ctx.fillStyle=bg;
-  if(radius>0){roundedRect(ctx,0,0,w,h,radius);ctx.fill();}else{ctx.fillRect(0,0,w,h);}
-  const size=Number($("size").value), pad=Number($("padding").value);
-  const weight=$("weight").value, font=$("font").value;
-  ctx.font=weight+" "+size+"px \""+font+"\", sans-serif";
-  ctx.textBaseline="middle";
-  ctx.fillStyle=$("textColor").value;
-  ctx.globalAlpha=Number($("opacity").value);
-  ctx.textAlign=$("align").value;
-  const maxWidth=Math.max(50,w-pad*2), lines=wrapLines($("text").value,maxWidth);
-  const lineHeight=size*Number($("lineHeight").value);
-  const total=lines.length*lineHeight;
-  let startY;
-  if($("vertical").value==="top") startY=pad+lineHeight/2;
-  else if($("vertical").value==="bottom") startY=h-pad-total+lineHeight/2;
-  else startY=(h-total)/2+lineHeight/2;
-  let x=$("align").value==="left"?pad:$("align").value==="right"?w-pad:w/2;
-  lines.forEach((line,i)=>ctx.fillText(line,x,startY+i*lineHeight));
-  ctx.globalAlpha=1;
-  $("dimensions").textContent=w+" × "+h+" px";
-  $("sizeOut").value=size+" px"; $("lineOut").value=Number($("lineHeight").value).toFixed(2);
-  $("opacityOut").value=Math.round(Number($("opacity").value)*100)+"%";
-  $("paddingOut").value=$("padding").value; $("radiusOut").value=$("radius").value;
-}
-function setStatus(t){$("status").textContent=t;}
-function applyPreset(){
-  const p=$("preset").value;
-  const sizes={square:[1080,1080],portrait:[1080,1350],story:[1080,1920],landscape:[1920,1080],twitter:[1600,900]};
-  if(sizes[p]){$("width").value=sizes[p][0];$("height").value=sizes[p][1];}
-  draw();
-}
-$("preset").addEventListener("change",applyPreset);
-ids.forEach(id=>$(id).addEventListener("input",draw));
-$("download").onclick=()=>{
-  draw();
-  const format=$("format").value, mime=format==="jpeg"?"image/jpeg":"image/png";
-  const quality=Number($("quality").value);
-  canvas.toBlob(blob=>{
-    if(!blob){setStatus("Could not create the image.");return;}
-    const a=document.createElement("a"), url=URL.createObjectURL(blob);
-    a.href=url; a.download="clickdy-text-image."+ (format==="jpeg"?"jpg":"png"); a.click();
-    setTimeout(()=>URL.revokeObjectURL(url),500);
-    setStatus("Image downloaded successfully.");
-  },mime,quality);
+const prompt=$("prompt");
+prompt.addEventListener("input",()=>$("charCount").textContent=prompt.value.length+" / 2000");
+
+document.querySelectorAll(".segment").forEach(group=>{
+ group.querySelectorAll("button").forEach(btn=>btn.onclick=()=>{
+  group.querySelectorAll("button").forEach(b=>b.classList.remove("selected"));
+  btn.classList.add("selected");
+ });
+});
+document.querySelectorAll(".ratio").forEach(btn=>btn.onclick=()=>{
+ document.querySelectorAll(".ratio").forEach(b=>b.classList.remove("selected"));
+ btn.classList.add("selected");
+ $("ratioLabel").textContent=btn.dataset.ratio;
+});
+$("elementStrength").oninput=()=>$("elementOut").textContent=$("elementStrength").value+"%";
+$("guidance").oninput=()=>$("guidanceOut").textContent=$("guidance").value;
+
+$("referenceInput").onchange=()=>{
+ const files=[...$("referenceInput").files].slice(0,6);
+ $("uploadPreview").innerHTML="";
+ files.forEach(file=>{
+  if(!file.type.startsWith("image/"))return;
+  const img=document.createElement("img");
+  img.src=URL.createObjectURL(file);
+  img.alt="Reference image";
+  $("uploadPreview").appendChild(img);
+ });
 };
-$("reset").onclick=()=>{
-  Object.entries(defaults).forEach(([id,val])=>$(id).value=val);
-  $("status").textContent=""; draw();
+
+document.querySelectorAll(".suggestion").forEach(btn=>btn.onclick=()=>{
+ prompt.value=btn.dataset.prompt;
+ prompt.dispatchEvent(new Event("input"));
+ prompt.focus();
+});
+
+$("enhanceBtn").onclick=()=>{
+ if(!prompt.value.trim()){modal("Add a prompt first","Write your image idea first. Prompt enhancement can be connected to an AI text service later.");return}
+ modal("Prompt enhancement","The prompt enhancement interface is ready. Connect an AI text provider later to automatically expand and refine your prompt.");
 };
-draw();
+$("randomBtn").onclick=()=>{
+ const ideas=[
+ "A luxury modern architecture villa surrounded by tropical gardens, golden hour, editorial photography",
+ "An astronaut exploring a surreal alien planet, cinematic composition, dramatic light",
+ "A premium perfume bottle on sculptural stone, soft studio shadows, luxury product photography",
+ "A magical underwater kingdom with glowing coral and elegant marine life, fantasy concept art"
+ ];
+ prompt.value=ideas[Math.floor(Math.random()*ideas.length)];
+ prompt.dispatchEvent(new Event("input"));
+};
+$("generateBtn").onclick=()=>{
+ if(!prompt.value.trim()){modal("Prompt required","Describe the image you want to create before generating.");prompt.focus();return}
+ modal("AI provider not connected","Your image generation settings are ready. This frontend does not generate fake images. When you connect an AI provider and secure backend, this button will send your prompt, model, reference images and settings to the generation service.");
+};
+$("promptGuide").onclick=()=>modal("Prompt writing guide","A strong prompt describes: 1. Main subject 2. Environment 3. Visual style 4. Lighting 5. Camera angle and composition 6. Mood 7. Important details. Example: A cinematic editorial portrait of a woman in a modern glass studio, soft natural window light, 85mm lens, refined neutral palette.");
+$("allStyles").onclick=()=>{$("style").focus();modal("Style presets","Choose from photography, cinematic, anime, digital art, 3D render, illustration, fantasy, concept art, architecture, fashion, vintage, watercolor, oil painting, pixel art and more.");};
+$("upgradeBtn").onclick=e=>{e.preventDefault();modal("Clickdy plans","Credits and subscription plans can be connected when the generation provider and billing system are selected.");};
+$("historyBtn").onclick=()=>showTab("history");
+$("newBtn").onclick=()=>{prompt.value="";prompt.dispatchEvent(new Event("input"));showTab("create");};
+$("clearBtn").onclick=$("resetBtn").onclick=()=>{
+ prompt.value="";
+ $("negative").value="";
+ $("model").selectedIndex=0;$("style").selectedIndex=0;
+ $("size").selectedIndex=0;$("count").selectedIndex=1;
+ $("guidance").value=7;$("guidanceOut").textContent="7";
+ $("elementStrength").value=50;$("elementOut").textContent="50%";
+ document.querySelectorAll(".ratio").forEach(b=>b.classList.toggle("selected",b.dataset.ratio==="1:1"));
+ $("ratioLabel").textContent="1:1";
+ document.querySelectorAll("#quality button").forEach((b,i)=>b.classList.toggle("selected",i===0));
+ $("uploadPreview").innerHTML="";$("referenceInput").value="";
+};
+function showTab(name){
+ document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active",t.dataset.tab===name));
+ $("emptyState").style.display=name==="create"?"flex":"none";
+ $("historyPanel").style.display=name==="history"||name==="favorites"?"block":"none";
+ $("gallery").style.display="none";
+}
+document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>showTab(t.dataset.tab));
+$("viewGrid").onclick=()=>modal("Grid view","Generated images will be displayed in a responsive grid.");
+$("viewList").onclick=()=>modal("List view","A detailed list view will be available for generated images.");
+$("menuBtn").onclick=()=>$("sidebar").classList.toggle("open");
+
+const viewNames={
+ image:["Image Generation","AI Image Generation","Turn your ideas into stunning visuals with creative control."],
+ video:["Video Generation","AI Video Studio","Create motion from your creative ideas."],
+ realtime:["Realtime Canvas","Realtime Canvas","Explore a live creative canvas."],
+ flow:["Flow State","Flow State","Explore visual ideas and creative directions."],
+ editor:["Canvas Editor","Canvas Editor","Edit and refine your visual projects."],
+ library:["My Generations","Your Library","Keep your creative work organized."],
+ favorites:["Favorites","Your Favorites","Your saved creative inspiration."],
+ collections:["Collections","Collections","Organize images into creative collections."],
+ upscaler:["AI Upscaler","AI Upscaler","Enhance image quality and resolution."],
+ blueprints:["Blueprints","Creative Blueprints","Explore structured creative workflows."],
+ models:["Models & Training","Models & Training","Manage your creative model workspace."],
+ help:["Help Center","Clickdy Help Center","Guides and support for your creative workflow."]
+};
+document.querySelectorAll("[data-view]").forEach(link=>link.onclick=e=>{
+ e.preventDefault();
+ const key=link.dataset.view;
+ document.querySelectorAll(".nav a").forEach(a=>a.classList.toggle("active",a===link));
+ const data=viewNames[key]||viewNames.image;
+ $("breadcrumbTitle").textContent=data[0];
+ $("pageTitle").textContent=data[1];
+ $("pageSubtitle").textContent=data[2];
+ $("sidebar").classList.remove("open");
+ if(key!=="image")modal(data[1],"This workspace section is included in the Clickdy Studio layout. Its dedicated functionality can be connected and developed in a later step.");
+});
 })();
 </script>
 </body>
