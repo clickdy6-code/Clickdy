@@ -331,13 +331,17 @@ h1{font:700 23px var(--heading);letter-spacing:-.7px;margin:0}
 <body>
 <div class="app">
   <aside class="sidebar" id="sidebar">
-    <a href="javascript:location.reload()" class="brand" aria-label="Refresh Text to Speech Studio">
-      <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
-      <div>
-        <div class="brand-name">Clickdy</div>
-        <div class="brand-tag">AI CREATIVE STUDIO</div>
-      </div>
-    </a>
+    <div class="brand"
+     onclick="location.reload()"
+     role="button"
+     tabindex="0"
+     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload();}">
+  <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
+  <div>
+    <div class="brand-name">Clickdy</div>
+    <div class="brand-tag">AI CREATIVE STUDIO</div>
+  </div>
+</div>
 
     <div class="side-content">
       <div class="side-label">Workspace</div>
