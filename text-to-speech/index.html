@@ -331,10 +331,13 @@ h1{font:700 23px var(--heading);letter-spacing:-.7px;margin:0}
 <body>
 <div class="app">
   <aside class="sidebar" id="sidebar">
-    <div class="brand">
+    <a href="javascript:location.reload()" class="brand" aria-label="Refresh Text to Speech Studio">
       <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
-      <div><div class="brand-name">Clickdy</div><div class="brand-tag">AI CREATIVE STUDIO</div></div>
-    </div>
+      <div>
+        <div class="brand-name">Clickdy</div>
+        <div class="brand-tag">AI CREATIVE STUDIO</div>
+      </div>
+    </a>
 
     <div class="side-content">
       <div class="side-label">Workspace</div>
@@ -351,15 +354,12 @@ h1{font:700 23px var(--heading);letter-spacing:-.7px;margin:0}
       <button class="nav-item" data-soon="Dubbing"><span class="nav-icon">▣</span> AI Dubbing <span class="nav-badge">Soon</span></button>
 
       <div class="side-label">Clickdy</div>
-      <a href="javascript:location.reload()" class="brand" aria-label="Refresh Text to Speech Studio">
-      <img src="../assets/logo.png" alt="Clickdy">
-      <span>Clickdy</span>
-      </a>
       <button class="nav-item" data-soon="Settings"><span class="nav-icon">⚙</span> Settings</button>
       <button class="nav-item" data-soon="Help Center"><span class="nav-icon">?</span> Help Center</button>
+
       <a href="https://clickdy.vercel.app/" class="back-to-tools">
-      <span>←</span>
-      <span>Back to Clickdy Tools</span>
+        <span>←</span>
+        <span>Back to Clickdy Tools</span>
       </a>
     </div>
 
