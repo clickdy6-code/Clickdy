@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF Sign & Fill Studio - Clickdy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<style>
+:root{--bg:#070b14;--surface:#0d1422;--surface2:#111b2d;--line:#1d2b42;--blue:#38a5ff;--cyan:#2ee7df;--text:#f4f8ff;--muted:#93a4bd;--green:#43d9a3;--red:#ff7185}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif}
+button,input,select{font:inherit}
+button{cursor:pointer}
+.topbar{height:70px;background:#090f1b;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 27px;position:sticky;top:0;z-index:10}
+.brand{display:flex;align-items:center;gap:10px;cursor:pointer}
+.brand img{width:36px;height:36px;object-fit:contain}
+.brand-name{font:800 19px 'Plus Jakarta Sans'}
+.brand-tag{font-size:9px;letter-spacing:1.4px;color:var(--muted);margin-top:2px}
+.back{font-size:13px;color:#b8c9dc;text-decoration:none}
+.back:hover{color:var(--cyan)}
+.layout{max-width:1450px;margin:auto;padding:26px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px}
+.sidebar{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:15px;height:max-content;position:sticky;top:94px}
+.side-label{font-size:10px;color:#71839d;letter-spacing:1.4px;font-weight:700;margin:10px 8px}
+.side-link{display:flex;align-items:center;gap:10px;padding:10px;border-radius:8px;color:#a9bad0;text-decoration:none;font-size:12px;margin:3px 0}
+.side-link:hover{background:#142236;color:white}
+.side-link.active{background:#142a42;color:#75c5ff}
+.main{min-width:0}
+.eyebrow{color:var(--cyan);font-size:10px;font-weight:700;letter-spacing:1.5px}
+h1{font:800 clamp(25px,3vw,34px) 'Plus Jakarta Sans';letter-spacing:-1px;margin:8px 0}
+.subtitle{font-size:13px;color:var(--muted);line-height:1.6}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:17px;margin-top:22px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;min-width:0}
+.panel-title{font:700 14px 'Plus Jakarta Sans';margin-bottom:5px}
+.panel-desc{font-size:11px;color:var(--muted);line-height:1.6}
+.drop{margin-top:15px;border:1px dashed #365675;background:#0a1422;border-radius:11px;padding:24px;text-align:center;cursor:pointer}
+.drop:hover{border-color:var(--cyan)}
+.drop strong{font-size:13px}
+.drop p{font-size:11px;color:var(--muted);margin:7px 0 0}
+.file{display:none;align-items:center;gap:10px;padding:11px;background:#101d2d;border:1px solid var(--line);border-radius:9px;margin-top:12px}
+.file-icon{background:#19334d;color:#7bcaff;border-radius:7px;padding:10px;font-size:11px}
+.file-info{flex:1;min-width:0}
+.file-info strong{display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.file-info small{font-size:10px;color:var(--muted)}
+.remove{background:none;border:0;color:var(--red);font-size:18px}
+.preview-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:18px}
+.preview-head label{font-size:11px;color:#b8c9dc}
+select,input[type=text],input[type=number]{background:#080f1b;color:var(--text);border:1px solid #273950;border-radius:8px;padding:10px;font-size:12px;width:100%;outline:none}
+select:focus,input:focus{border-color:var(--blue)}
+.preview-wrap{margin-top:12px;min-height:350px;background:#080e19;border:1px solid var(--line);border-radius:11px;padding:14px;display:flex;justify-content:center;align-items:flex-start;overflow:auto;position:relative}
+#pdfCanvas{display:none;max-width:100%;height:auto;background:white;box-shadow:0 5px 24px #0008;cursor:crosshair}
+.preview-empty{text-align:center;color:#8193aa;font-size:12px;line-height:1.8;align-self:center}
+.preview-empty span{display:block;font-size:34px}
+.click-hint{font-size:10px;color:var(--cyan);margin-top:10px}
+.field{margin:14px 0}
+.field label{display:block;font-size:11px;color:#bdcadd;font-weight:700;margin-bottom:7px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btn{border:0;border-radius:8px;padding:11px 13px;font-size:12px;font-weight:700}
+.primary{background:linear-gradient(110deg,#248ce5,#24c4cf);color:#06121e}
+.primary:hover{filter:brightness(1.1)}
+.secondary{background:#142337;border:1px solid #29435f;color:#b9d8f3}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.full{width:100%}
+.signature-pad{width:100%;height:145px;border:1px solid #2b4059;border-radius:9px;background:#fff;display:block;touch-action:none;cursor:crosshair}
+.pad-actions{display:flex;justify-content:space-between;margin-top:7px}
+.pad-actions button{font-size:10px;padding:6px 9px}
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:15px}
+.tab{background:#0a111e;color:#9eafc4;border:1px solid var(--line);border-radius:8px;padding:10px;font-size:11px;font-weight:700}
+.tab.active{background:#12304b;border-color:#287db5;color:#80caff}
+.tab-pane{display:none}
+.tab-pane.active{display:block}
+.option-note{font-size:10px;color:#8295ad;line-height:1.6;margin-top:7px}
+.check{display:flex;align-items:center;gap:8px;color:#aabbd0;font-size:11px;margin:11px 0}
+.check input{accent-color:var(--blue)}
+.status{display:none;padding:11px;border-radius:8px;margin-top:12px;font-size:11px;line-height:1.6}
+.status.info{display:block;background:#10263a;color:#a9d8ff;border:1px solid #244c6b}
+.status.success{display:block;background:#102b26;color:#8be5c0;border:1px solid #24634d}
+.status.error{display:block;background:#321a23;color:#ffb3bf;border:1px solid #703344}
+.progress{height:5px;background:#1b2a3d;border-radius:8px;margin-top:12px;overflow:hidden;display:none}
+.progress div{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan));transition:width .2s}
+.download{display:none;text-decoration:none;text-align:center;padding:12px;background:#173a31;border:1px solid #28664f;border-radius:8px;color:#8be5c0;font-size:12px;font-weight:700;margin-top:10px}
+.info-box{margin-top:13px;padding:12px;background:#111d2c;border:1px solid var(--line);border-radius:9px;color:#9eb1c8;font-size:10px;line-height:1.7}
+@media(max-width:1050px){.workspace{grid-template-columns:1fr}.right{display:grid;grid-template-columns:1fr 1fr;gap:13px}.right .panel{margin:0}}
+@media(max-width:700px){.layout{grid-template-columns:1fr;padding:14px}.sidebar{position:static;display:flex;overflow:auto;padding:8px}.side-label{display:none}.side-link{white-space:nowrap}.topbar{height:62px;padding:0 14px}.workspace{grid-template-columns:1fr}.right{display:block}.right .panel{margin-top:13px}.panel{padding:14px}.preview-wrap{min-height:280px}}
+</style>
+</head>
+<body>
+<header class="topbar">
+ <div class="brand" onclick="location.reload()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload()}">
+  <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
+  <div><div class="brand-name">Clickdy</div><div class="brand-tag">PDF SIGN & FILL STUDIO</div></div>
+ </div>
+ <a class="back" href="https://clickdy.vercel.app/">← Back to Clickdy Tools</a>
+</header>
+
+<div class="layout">
+<aside class="sidebar">
+ <div class="side-label">PDF WORKSPACE</div>
+ <a class="side-link" href="../pdf-merge/">▧ PDF Merge</a>
+ <a class="side-link" href="../pdf-split/">✂ PDF Split</a>
+ <a class="side-link" href="../pdf-compress/">⇩ PDF Compress</a>
+ <a class="side-link" href="../pdf-rotate/">↻ PDF Rotate</a>
+ <a class="side-link" href="../pdf-watermark/">◈ PDF Watermark</a>
+ <a class="side-link active" href="#">✍ PDF Sign & Fill</a>
+ <a class="side-link" href="https://clickdy.vercel.app/">⌂ Back to Website</a>
+</aside>
+
+<main class="main">
+ <div class="eyebrow">PDF UTILITIES / SIGN & FILL</div>
+ <h1>PDF Sign & Fill Studio</h1>
+ <div class="subtitle">Draw your signature, upload a signature image, add your name and date, then place them directly onto your PDF.</div>
+
+ <div class="workspace">
+  <section class="panel">
+   <div class="panel-title">1. Upload document</div>
+   <div class="panel-desc">Select a PDF document. Processing happens locally in your browser.</div>
+   <div class="drop" id="drop">
+    <div style="font-size:27px;margin-bottom:8px">☁</div>
+    <strong>Drop your PDF here or browse files</strong>
+    <p>PDF documents · Maximum 100 MB</p>
+    <input id="fileInput" type="file" accept=".pdf,application/pdf" hidden>
+   </div>
+   <div class="file" id="fileCard">
+    <div class="file-icon">PDF</div>
+    <div class="file-info"><strong id="fileName"></strong><small id="fileSize"></small></div>
+    <button class="remove" id="removeFile">×</button>
+   </div>
+
+   <div class="preview-head">
+    <label>2. Choose page and click where signature should appear</label>
+    <select id="pageSelect" style="width:115px" disabled><option value="1">Page 1</option></select>
+   </div>
+   <div class="preview-wrap" id="previewWrap">
+    <div class="preview-empty" id="emptyPreview"><span>▤</span>Upload a PDF to preview its pages.</div>
+    <canvas id="pdfCanvas"></canvas>
+   </div>
+   <div class="click-hint" id="clickHint">Upload a PDF, then click on the page to choose the signature position.</div>
+
+   <div class="info-box">
+    <strong style="color:#dceaff">Placement tip</strong><br>
+    Click the PDF preview at the exact position where you want the signature. You can change pages and choose a different position before exporting.
+   </div>
+  </section>
+
+  <div class="right">
+   <section class="panel">
+    <div class="panel-title">3. Create your signature</div>
+    <div class="panel-desc">Draw your signature or upload an existing transparent signature image.</div>
+    <div class="tabs">
+     <button class="tab active" data-tab="draw">Draw signature</button>
+     <button class="tab" data-tab="upload">Upload image</button>
+    </div>
+    <div class="tab-pane active" id="drawPane">
+     <div class="field"><label>Draw in the box below</label><canvas id="signaturePad" class="signature-pad" width="700" height="260"></canvas>
+      <div class="pad-actions"><span class="option-note">Use mouse, touch or stylus</span><button class="btn secondary" id="clearPad">Clear signature</button></div>
+     </div>
+    </div>
+    <div class="tab-pane" id="uploadPane">
+     <div class="field"><label>Signature image (PNG or JPG)</label><input type="file" id="signatureFile" accept="image/png,image/jpeg"></div>
+     <div class="option-note">Transparent PNG is recommended for the cleanest result.</div>
+    </div>
+    <div class="field">
+     <label>Signature size</label>
+     <input type="range" id="sigSize" min="10" max="45" value="22" style="width:100%;accent-color:var(--blue)">
+     <div class="option-note"><span id="sigSizeLabel">22%</span> of page width</div>
+    </div>
+   </section>
+
+   <section class="panel" style="margin-top:13px">
+    <div class="panel-title">4. Additional details</div>
+    <div class="field"><label>Signer name (optional)</label><input type="text" id="signerName" maxlength="100" placeholder="Enter your full name"></div>
+    <div class="field"><label>Date (optional)</label><input type="text" id="signDate" placeholder="e.g. 13 November 2026"></div>
+    <label class="check"><input type="checkbox" id="includeName" checked> Add name below signature</label>
+    <label class="check"><input type="checkbox" id="includeDate"> Add date below signature</label>
+    <div class="field">
+     <label>Apply signature to</label>
+     <select id="applyMode">
+      <option value="current">Selected page only</option>
+      <option value="all">All pages at same position</option>
+     </select>
+    </div>
+    <div class="field"><label>Signature ink color</label><input type="color" id="inkColor" value="#173c87" style="width:100%;height:38px;background:#080f1b;border:1px solid var(--line);border-radius:8px;padding:4px"></div>
+    <button class="btn primary full" id="exportBtn" disabled>✍ Apply Signature & Export PDF</button>
+    <div class="progress" id="progress"><div id="progressBar"></div></div>
+    <div class="status" id="status"></div>
+    <a class="download" id="download" href="#" download>↓ Download signed PDF</a>
+   </section>
+
+   <section class="panel" style="margin-top:13px">
+    <div class="panel-title">Privacy & security</div>
+    <div class="info-box" style="margin-top:9px">
+     Your document is processed inside your browser. Clickdy does not upload your PDF to its server. This creates a visual PDF signature, not a certificate-backed digital signature or identity verification.
+    </div>
+   </section>
+  </div>
+ </div>
+</main>
+</div>
+
+<script>
+pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+const $=id=>document.getElementById(id);
+let sourceFile=null,sourceBytes=null,pdfJsDoc=null,pdfPageCount=0,currentPage=1;
+let pdfViewport=null,chosenPoint=null,signatureMode='draw',uploadedSignature=null,downloadUrl=null;
+
+const pad=$('signaturePad'),ctx=pad.getContext('2d');
+ctx.lineCap='round';ctx.lineJoin='round';ctx.lineWidth=5;ctx.strokeStyle='#173c87';
+let drawing=false,hasInk=false;
+
+function padPoint(e){
+ const r=pad.getBoundingClientRect();
+ return {x:(e.clientX-r.left)*pad.width/r.width,y:(e.clientY-r.top)*pad.height/r.height};
+}
+pad.addEventListener('pointerdown',e=>{
+ e.preventDefault();pad.setPointerCapture(e.pointerId);
+ const p=padPoint(e);ctx.beginPath();ctx.moveTo(p.x,p.y);drawing=true;hasInk=true;
+});
+pad.addEventListener('pointermove',e=>{
+ if(!drawing)return;
+ const p=padPoint(e);ctx.lineTo(p.x,p.y);ctx.stroke();
+});
+['pointerup','pointercancel','lostpointercapture'].forEach(name=>pad.addEventListener(name,()=>drawing=false));
+$('clearPad').addEventListener('click',()=>{
+ ctx.clearRect(0,0,pad.width,pad.height);hasInk=false;
+});
+
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
+ document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));
+ signatureMode=b.dataset.tab;
+ $('drawPane').classList.toggle('active',signatureMode==='draw');
+ $('uploadPane').classList.toggle('active',signatureMode==='upload');
+}));
+$('sigSize').addEventListener('input',()=>$('sigSizeLabel').textContent=$('sigSize').value+'%');
+
+function status(msg,type='info'){
+ $('status').className='status '+type;$('status').textContent=msg;
+}
+function clearStatus(){
+ $('status').className='status';$('status').textContent='';
+ $('download').style.display='none';
+}
+function sizeText(n){
+ return n<1048576?(n/1024).toFixed(1)+' KB':(n/1048576).toFixed(2)+' MB';
+}
+async function loadPdf(file){
+ if(!file)return;
+ if(!file.name.toLowerCase().endsWith('.pdf')&&file.type!=='application/pdf'){
+  status('Please select a PDF file.','error');return;
+ }
+ if(file.size>100*1024*1024){status('File exceeds the 100 MB limit.','error');return}
+ sourceFile=file;clearStatus();
+ $('fileName').textContent=file.name;$('fileSize').textContent=sizeText(file.size);
+ $('fileCard').style.display='flex';
+ $('emptyPreview').textContent='Loading PDF preview…';
+ $('exportBtn').disabled=true;
+ try{
+  sourceBytes=await file.arrayBuffer();
+  const loading=pdfjsLib.getDocument({data:new Uint8Array(sourceBytes)});
+  pdfJsDoc=await loading.promise;
+  pdfPageCount=pdfJsDoc.numPages;
+  currentPage=1;
+  $('pageSelect').innerHTML='';
+  for(let i=1;i<=pdfPageCount;i++){
+   const opt=document.createElement('option');opt.value=i;opt.textContent='Page '+i;
+   $('pageSelect').appendChild(opt);
+  }
+  $('pageSelect').disabled=false;
+  await renderPage(1);
+  $('exportBtn').disabled=false;
+  status('PDF loaded successfully. '+pdfPageCount+' pages detected.','success');
+ }catch(e){
+  sourceBytes=null;pdfJsDoc=null;
+  $('exportBtn').disabled=true;
+  status('Could not open this PDF. It may be damaged, encrypted or unsupported. '+e.message,'error');
+ }
+}
+async function renderPage(pageNum){
+ if(!pdfJsDoc)return;
+ currentPage=pageNum;chosenPoint=null;
+ $('pageSelect').value=pageNum;
+ const page=await pdfJsDoc.getPage(pageNum);
+ const wrap=$('previewWrap');
+ const maxWidth=Math.max(240,wrap.clientWidth-32);
+ const base=page.getViewport({scale:1});
+ const scale=Math.min(1.5,maxWidth/base.width);
+ pdfViewport=page.getViewport({scale});
+ const canvas=$('pdfCanvas'),c=canvas.getContext('2d');
+ canvas.width=Math.floor(pdfViewport.width);canvas.height=Math.floor(pdfViewport.height);
+ canvas.style.width=pdfViewport.width+'px';canvas.style.height=pdfViewport.height+'px';
+ await page.render({canvasContext:c,viewport:pdfViewport}).promise;
+ $('emptyPreview').style.display='none';canvas.style.display='block';
+ $('clickHint').textContent='Page '+pageNum+' of '+pdfPageCount+' · Click on the page to place your signature.';
+}
+$('pageSelect').addEventListener('change',e=>renderPage(Number(e.target.value)));
+$('pdfCanvas').addEventListener('click',e=>{
+ const rect=$('pdfCanvas').getBoundingClientRect();
+ const x=(e.clientX-rect.left)*($('pdfCanvas').width/rect.width);
+ const y=(e.clientY-rect.top)*($('pdfCanvas').height/rect.height);
+ const point=pdfViewport.convertToPdfPoint(x,y);
+ chosenPoint={x:point[0],y:point[1],page:currentPage};
+ $('clickHint').textContent='Position selected on page '+currentPage+'. Click again to change it.';
+ status('Signature position selected. You can now export your PDF.','success');
+});
+$('drop').addEventListener('click',()=>$('fileInput').click());
+$('fileInput').addEventListener('change',e=>loadPdf(e.target.files[0]));
+$('drop').addEventListener('dragover',e=>{e.preventDefault();$('drop').style.borderColor='var(--cyan)'});
+$('drop').addEventListener('dragleave',()=>$('drop').style.borderColor='');
+$('drop').addEventListener('drop',e=>{
+ e.preventDefault();$('drop').style.borderColor='';loadPdf(e.dataTransfer.files[0]);
+});
+$('removeFile').addEventListener('click',()=>{
+ sourceFile=null;sourceBytes=null;pdfJsDoc=null;pdfPageCount=0;chosenPoint=null;
+ $('fileInput').value='';$('fileCard').style.display='none';
+ $('pdfCanvas').style.display='none';$('emptyPreview').style.display='block';
+ $('emptyPreview').innerHTML='<span>▤</span>Upload a PDF to preview its pages.';
+ $('pageSelect').disabled=true;$('pageSelect').innerHTML='<option>Page 1</option>';
+ $('exportBtn').disabled=true;$('clickHint').textContent='Upload a PDF, then click on the page to choose the signature position.';
+ clearStatus();
+});
+$('signatureFile').addEventListener('change',async e=>{
+ const file=e.target.files[0];if(!file)return;
+ if(!['image/png','image/jpeg'].includes(file.type)){status('Please upload a PNG or JPG signature image.','error');return}
+ uploadedSignature=await file.arrayBuffer();
+ status('Signature image loaded.','success');
+});
+async function getSignatureBytes(){
+ if(signatureMode==='upload'){
+  if(!uploadedSignature)throw new Error('Please upload your signature image first.');
+  return uploadedSignature;
+ }
+ if(!hasInk)throw new Error('Please draw your signature first.');
+ const color=$('inkColor').value;
+ const image=ctx.getImageData(0,0,pad.width,pad.height);
+ const copy=document.createElement('canvas');copy.width=pad.width;copy.height=pad.height;
+ const c=copy.getContext('2d');c.putImageData(image,0,0);
+ const pixels=c.getImageData(0,0,copy.width,copy.height);
+ const rgb=color.match(/[a-f\d]{2}/gi).map(v=>parseInt(v,16));
+ for(let i=0;i<pixels.data.length;i+=4){
+  const alpha=pixels.data[i+3]/255;
+  if(alpha>0){
+   pixels.data[i]=rgb[0];pixels.data[i+1]=rgb[1];pixels.data[i+2]=rgb[2];
+  }
+ }
+ c.putImageData(pixels,0,0);
+ return await new Promise(resolve=>copy.toBlob(b=>b.arrayBuffer().then(resolve),'image/png'));
+}
+$('exportBtn').addEventListener('click',async()=>{
+ if(!sourceBytes||!sourceFile)return;
+ if(!chosenPoint){status('Please click on the PDF preview to select the signature position.','error');return}
+ const name=$('signerName').value.trim();
+ const date=$('signDate').value.trim();
+ if($('includeName').checked&&!name){status('Enter the signer name or turn off the name option.','error');return}
+ if($('includeDate').checked&&!date){status('Enter a date or turn off the date option.','error');return}
+ const btn=$('exportBtn');btn.disabled=true;
+ $('progress').style.display='block';$('progressBar').style.width='10%';clearStatus();
+ status('Applying your signature to the PDF…');
+ try{
+  const doc=await PDFLib.PDFDocument.load(sourceBytes);
+  const pages=doc.getPages();
+  const signatureBytes=await getSignatureBytes();
+  const isPng=signatureMode==='draw'||$('signatureFile').files[0].type==='image/png';
+  const image=isPng?await doc.embedPng(signatureBytes):await doc.embedJpg(signatureBytes);
+  const targets=$('applyMode').value==='all'?pages.map((_,i)=>i):[chosenPoint.page-1];
+  const font=await doc.embedFont(PDFLib.StandardFonts.Helvetica);
+  for(let i=0;i<targets.length;i++){
+   const page=pages[targets[i]],{width,height}=page.getSize();
+   const sigWidth=width*(Number($('sigSize').value)/100);
+   const sigHeight=sigWidth*(image.height/image.width);
+   let x=chosenPoint.x-sigWidth/2;
+   let y=chosenPoint.y-sigHeight/2;
+   x=Math.max(0,Math.min(width-sigWidth,x));
+   y=Math.max(0,Math.min(height-sigHeight,y));
+   page.drawImage(image,{x,y,width:sigWidth,height:sigHeight});
+   let textY=y-15;
+   if($('includeName').checked){
+    page.drawText(name,{x,y:textY,size:10,font,color:PDFLib.rgb(.12,.17,.25)});
+    textY-=13;
+   }
+   if($('includeDate').checked){
+    page.drawText(date,{x,y:textY,size:9,font,color:PDFLib.rgb(.3,.35,.42)});
+   }
+   $('progressBar').style.width=Math.round(15+(i+1)/targets.length*75)+'%';
+  }
+  const result=await doc.save();
+  const blob=new Blob([result],{type:'application/pdf'});
+  if(downloadUrl)URL.revokeObjectURL(downloadUrl);
+  downloadUrl=URL.createObjectURL(blob);
+  const link=$('download');
+  link.href=downloadUrl;
+  link.download=sourceFile.name.replace(/\.pdf$/i,'')+'-signed.pdf';
+  link.style.display='block';
+  $('progressBar').style.width='100%';
+  status('Your signed PDF is ready. Download and review the document.','success');
+ }catch(e){
+  status('Could not sign this PDF: '+e.message,'error');
+ }finally{
+  btn.disabled=false;
+  setTimeout(()=>{$('progress').style.display='none';$('progressBar').style.width='0'},800);
+ }
+});
+</script>
+</body>
+</html>

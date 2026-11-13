@@ -1,0 +1,514 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF Watermark Studio - Clickdy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+<style>
+:root{--bg:#070b14;--surface:#0d1422;--surface2:#111b2d;--line:#1d2b42;--primary:#38a5ff;--cyan:#2ee7df;--text:#f4f8ff;--muted:#93a4bd;--danger:#ff667c;--green:#43d9a3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif}
+button,input,select{font:inherit}
+button{cursor:pointer}
+.topbar{height:72px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 28px;background:#090f1b;position:sticky;top:0;z-index:10}
+.brand{display:flex;align-items:center;gap:11px;cursor:pointer}
+.brand img{width:35px;height:35px;object-fit:contain}
+.brand-name{font:800 19px 'Plus Jakarta Sans';letter-spacing:-.5px}
+.brand-tag{font-size:9px;letter-spacing:1.5px;color:var(--muted);margin-top:3px}
+.back{color:#b9c9dc;text-decoration:none;font-size:13px}
+.back:hover{color:var(--cyan)}
+.layout{max-width:1440px;margin:auto;padding:28px;display:grid;grid-template-columns:225px minmax(0,1fr);gap:25px}
+.sidebar{border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:17px;height:max-content;position:sticky;top:95px}
+.side-label{font-size:10px;color:#71839d;letter-spacing:1.5px;font-weight:700;margin:10px 8px}
+.side-link{display:flex;align-items:center;gap:10px;padding:11px 10px;border-radius:9px;color:#a9bad0;font-size:13px;text-decoration:none;margin:3px 0}
+.side-link.active{background:#142a42;color:#63bdff}
+.side-link:hover{background:#142236;color:white}
+.side-icon{width:19px;text-align:center}
+.side-bottom{border-top:1px solid var(--line);margin-top:18px;padding-top:14px}
+.main{min-width:0}
+.heading{margin-bottom:22px}
+.eyebrow{font-size:11px;color:var(--cyan);font-weight:700;letter-spacing:1.5px;text-transform:uppercase}
+h1{font:800 clamp(25px,3vw,34px) 'Plus Jakarta Sans';margin:9px 0 7px;letter-spacing:-1px}
+.subtitle{color:var(--muted);font-size:13px;line-height:1.7}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:18px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:20px;min-width:0}
+.panel-title{font:700 14px 'Plus Jakarta Sans';margin-bottom:5px}
+.panel-desc{font-size:12px;color:var(--muted);line-height:1.6}
+.dropzone{border:1px dashed #365675;background:#0a1422;border-radius:13px;padding:30px 16px;text-align:center;margin-top:17px;cursor:pointer;transition:.2s}
+.dropzone:hover,.dropzone.drag{border-color:var(--cyan);background:#0c1d2b}
+.upload-icon{font-size:29px;margin-bottom:9px}
+.dropzone strong{font-size:13px}
+.dropzone p{font-size:11px;color:var(--muted);margin:7px 0 0}
+.file-info{display:none;align-items:center;gap:12px;margin-top:13px;padding:12px;background:#101d2d;border:1px solid var(--line);border-radius:10px}
+.file-symbol{width:37px;height:40px;border-radius:8px;background:#19334d;display:grid;place-items:center;color:#70c3ff}
+.file-meta{flex:1;min-width:0}
+.file-meta strong{display:block;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.file-meta small{color:var(--muted);font-size:10px}
+.remove-file{border:0;background:transparent;color:var(--danger);font-size:18px}
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:20px 0}
+.tab{padding:12px 8px;border-radius:9px;border:1px solid var(--line);background:#0a111e;color:#9eafc4;font-size:12px;font-weight:700}
+.tab.active{background:#12304b;border-color:#287db5;color:#80caff}
+.tab-content{display:none}
+.tab-content.active{display:block}
+.field{margin:16px 0}
+.field label{display:block;font-size:11px;font-weight:700;color:#bdcadd;margin-bottom:8px}
+input[type=text],input[type=number],select{width:100%;background:#080f1b;color:var(--text);border:1px solid #273950;border-radius:8px;padding:11px 12px;outline:none;font-size:12px}
+input:focus,select:focus{border-color:var(--primary)}
+textarea{width:100%;min-height:80px;resize:vertical;background:#080f1b;color:var(--text);border:1px solid #273950;border-radius:8px;padding:11px;outline:none;font:12px 'DM Sans'}
+input[type=color]{width:100%;height:39px;border:1px solid var(--line);background:#080f1b;border-radius:8px;padding:4px}
+input[type=range]{width:100%;accent-color:var(--primary)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.check{display:flex;gap:8px;align-items:center;color:#aabbd0;font-size:12px;margin:11px 0}
+.check input{accent-color:var(--primary)}
+.range-value{float:right;color:var(--cyan);font-size:11px}
+.hint{font-size:10px;color:#8193aa;line-height:1.6;margin-top:7px}
+.primary-btn{border:0;border-radius:9px;background:linear-gradient(110deg,#248ce5,#24c4cf);color:#06121e;font-weight:800;font-size:13px;padding:13px 17px;width:100%;margin-top:15px}
+.primary-btn:hover{filter:brightness(1.12)}
+.primary-btn:disabled{opacity:.45;cursor:not-allowed}
+.secondary-btn{background:#142337;color:#b9d8f3;border:1px solid #29435f;border-radius:8px;padding:10px 12px;font-size:11px}
+.preview-area{background:#080e19;border:1px solid var(--line);border-radius:12px;min-height:310px;margin-top:17px;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:16px}
+.preview-empty{text-align:center;color:#8193aa;font-size:12px;line-height:1.8}
+.preview-empty span{font-size:35px;display:block;margin-bottom:8px}
+canvas{max-width:100%;height:auto;box-shadow:0 8px 30px #0008}
+.preview-label{display:flex;justify-content:space-between;align-items:center;margin-top:15px;font-size:11px;color:var(--muted)}
+.status{display:none;margin-top:15px;padding:12px;border-radius:9px;font-size:12px;line-height:1.6}
+.status.info{display:block;background:#10263a;color:#a9d8ff;border:1px solid #244c6b}
+.status.success{display:block;background:#102b26;color:#8be5c0;border:1px solid #24634d}
+.status.error{display:block;background:#321a23;color:#ffb3bf;border:1px solid #703344}
+.progress{height:5px;background:#1b2a3d;border-radius:10px;margin-top:12px;overflow:hidden;display:none}
+.progress div{height:100%;width:0;background:linear-gradient(90deg,var(--primary),var(--cyan));transition:width .2s}
+.notice{margin-top:14px;padding:12px;background:#111d2c;border:1px solid var(--line);border-radius:10px;font-size:10px;color:#9eb1c8;line-height:1.7}
+.right-panel .panel{margin-bottom:15px}
+.output-btn{display:none;text-decoration:none;text-align:center;background:#173a31;border:1px solid #28664f;color:#8be5c0;padding:12px;border-radius:9px;font-size:12px;font-weight:700;margin-top:10px}
+.remove-note{padding:11px;border-radius:9px;background:#30251a;border:1px solid #69502d;color:#f3d4a0;font-size:10px;line-height:1.7;margin-top:13px}
+@media(max-width:1050px){.workspace{grid-template-columns:1fr}.right-panel{display:grid;grid-template-columns:1fr 1fr;gap:14px}.right-panel .panel{margin:0}}
+@media(max-width:700px){.layout{grid-template-columns:1fr;padding:15px}.sidebar{position:static;display:flex;overflow-x:auto;gap:4px;padding:9px}.side-label,.side-bottom{display:none}.side-link{white-space:nowrap;margin:0;padding:10px}.topbar{padding:0 15px;height:62px}.right-panel{display:block}.right-panel .panel{margin-bottom:13px}.panel{padding:15px}.dropzone{padding:24px 12px}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand" onclick="location.reload()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload()}">
+    <img src="../assets/logo.png" alt="Clickdy" onerror="this.style.display='none'">
+    <div><div class="brand-name">Clickdy</div><div class="brand-tag">PDF WATERMARK STUDIO</div></div>
+  </div>
+  <a class="back" href="https://clickdy.vercel.app/">← Back to Clickdy Tools</a>
+</header>
+
+<div class="layout">
+<aside class="sidebar">
+  <div>
+    <div class="side-label">PDF WORKSPACE</div>
+    <a class="side-link" href="../pdf-merge/"><span class="side-icon">▧</span> PDF Merge</a>
+    <a class="side-link" href="../pdf-split/"><span class="side-icon">✂</span> PDF Split</a>
+    <a class="side-link" href="../pdf-compress/"><span class="side-icon">⇩</span> PDF Compress</a>
+    <a class="side-link" href="../pdf-rotate/"><span class="side-icon">↻</span> PDF Rotate</a>
+    <a class="side-link active" href="#"><span class="side-icon">◈</span> PDF Watermark</a>
+    <a class="side-link" href="../pdf-page-numbers/"><span class="side-icon">№</span> Page Numbers</a>
+  </div>
+  <div class="side-bottom">
+    <a class="side-link" href="https://clickdy.vercel.app/"><span class="side-icon">⌂</span> Back to Website</a>
+  </div>
+</aside>
+
+<main class="main">
+  <div class="heading">
+    <div class="eyebrow">PDF UTILITIES / WATERMARK</div>
+    <h1>PDF Watermark Studio</h1>
+    <div class="subtitle">Add professional text or image watermarks, or cover an existing watermark area in your PDF. Your files stay in your browser.</div>
+  </div>
+
+  <div class="workspace">
+    <section class="panel">
+      <div class="panel-title">Upload your PDF</div>
+      <div class="panel-desc">Choose a PDF file to get started. Maximum file size: 100 MB.</div>
+      <div class="dropzone" id="dropzone">
+        <div class="upload-icon">☁</div>
+        <strong>Drop your PDF here or browse files</strong>
+        <p>PDF documents · Up to 100 MB</p>
+        <input type="file" id="pdfInput" accept=".pdf,application/pdf" hidden>
+      </div>
+      <div class="file-info" id="fileInfo">
+        <div class="file-symbol">PDF</div>
+        <div class="file-meta"><strong id="fileName"></strong><small id="fileSize"></small></div>
+        <button class="remove-file" id="removeFile" title="Remove file">×</button>
+      </div>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="add">＋ Add Watermark</button>
+        <button class="tab" data-tab="remove">⌫ Remove Watermark</button>
+      </div>
+
+      <div class="tab-content active" id="addTab">
+        <div class="field">
+          <label>Watermark type</label>
+          <div class="two">
+            <select id="watermarkType"><option value="text">Text watermark</option><option value="image">Image / Logo watermark</option></select>
+            <select id="placement"><option value="center">Center</option><option value="diagonal">Diagonal center</option><option value="top">Top center</option><option value="bottom">Bottom center</option><option value="top-left">Top left</option><option value="top-right">Top right</option><option value="bottom-left">Bottom left</option><option value="bottom-right">Bottom right</option></select>
+          </div>
+        </div>
+
+        <div id="textOptions">
+          <div class="field"><label>Watermark text</label><input type="text" id="watermarkText" value="CONFIDENTIAL" maxlength="100" placeholder="Enter watermark text"></div>
+          <div class="two">
+            <div class="field"><label>Font size</label><input type="number" id="fontSize" value="48" min="8" max="150"></div>
+            <div class="field"><label>Text color</label><input type="color" id="textColor" value="#8b99aa"></div>
+          </div>
+        </div>
+
+        <div id="imageOptions" style="display:none">
+          <div class="field"><label>Upload watermark image (PNG or JPG)</label><input type="file" id="imageInput" accept="image/png,image/jpeg"></div>
+          <div class="hint">Transparent PNG logos work best. Large images are scaled to fit the page.</div>
+          <div class="field"><label>Image width (percentage of page)</label><input type="number" id="imageWidth" value="35" min="5" max="90"></div>
+        </div>
+
+        <div class="field">
+          <label>Opacity <span class="range-value" id="opacityValue">25%</span></label>
+          <input type="range" id="opacity" min="5" max="100" value="25">
+        </div>
+        <div class="field">
+          <label>Rotation</label>
+          <select id="rotation"><option value="-45">-45° Diagonal</option><option value="0">0° Horizontal</option><option value="45">45° Diagonal</option><option value="90">90° Vertical</option></select>
+        </div>
+        <div class="field">
+          <label>Apply watermark to</label>
+          <select id="addPages"><option value="all">All pages</option><option value="first">First page only</option><option value="last">Last page only</option><option value="custom">Custom page range</option></select>
+        </div>
+        <div class="field" id="addRangeWrap" style="display:none">
+          <label>Page range</label>
+          <input type="text" id="addRange" placeholder="Example: 1-3, 5, 8-10">
+        </div>
+        <label class="check"><input type="checkbox" id="skipFirst"> Skip first page</label>
+      </div>
+
+      <div class="tab-content" id="removeTab">
+        <div class="remove-note">This mode covers the selected watermark area with a solid color. It cannot reconstruct content hidden beneath a flattened watermark.</div>
+        <div class="field">
+          <label>Area to cover</label>
+          <select id="removePosition">
+            <option value="center">Center of page</option>
+            <option value="diagonal">Large diagonal / center area</option>
+            <option value="top">Top center</option>
+            <option value="bottom">Bottom center</option>
+            <option value="top-left">Top left</option>
+            <option value="top-right">Top right</option>
+            <option value="bottom-left">Bottom left</option>
+            <option value="bottom-right">Bottom right</option>
+            <option value="custom">Custom position and size</option>
+          </select>
+        </div>
+        <div class="two">
+          <div class="field"><label>Cover color</label><input type="color" id="coverColor" value="#ffffff"></div>
+          <div class="field"><label>Cover opacity <span class="range-value" id="coverOpacityValue">100%</span></label><input type="range" id="coverOpacity" min="10" max="100" value="100"></div>
+        </div>
+        <div id="customCover" style="display:none">
+          <div class="two">
+            <div class="field"><label>Left position (%)</label><input type="number" id="coverX" value="25" min="0" max="100"></div>
+            <div class="field"><label>Top position (%)</label><input type="number" id="coverY" value="35" min="0" max="100"></div>
+            <div class="field"><label>Width (%)</label><input type="number" id="coverW" value="50" min="1" max="100"></div>
+            <div class="field"><label>Height (%)</label><input type="number" id="coverH" value="20" min="1" max="100"></div>
+          </div>
+        </div>
+        <div class="field">
+          <label>Apply cover to</label>
+          <select id="removePages"><option value="all">All pages</option><option value="first">First page only</option><option value="last">Last page only</option><option value="custom">Custom page range</option></select>
+        </div>
+        <div class="field" id="removeRangeWrap" style="display:none">
+          <label>Page range</label><input type="text" id="removeRange" placeholder="Example: 1-3, 5">
+        </div>
+        <div class="hint">Choose the position and size that match the existing watermark. Custom position values are percentages of the page dimensions.</div>
+      </div>
+
+      <button class="primary-btn" id="processBtn" disabled>Upload a PDF to continue</button>
+      <div class="progress" id="progress"><div id="progressBar"></div></div>
+      <div class="status" id="status"></div>
+      <a class="output-btn" id="downloadBtn" href="#" download>↓ Download processed PDF</a>
+    </section>
+
+    <div class="right-panel">
+      <section class="panel">
+        <div class="panel-title">Document preview</div>
+        <div class="panel-desc">Preview of the first page of your uploaded PDF.</div>
+        <div class="preview-area" id="previewArea">
+          <div class="preview-empty"><span>▤</span>Your PDF preview will appear here after upload.</div>
+        </div>
+        <div class="preview-label"><span id="pageLabel">No document loaded</span><span id="pageCount"></span></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Processing details</div>
+        <div class="panel-desc">Your PDF is processed locally in your browser.</div>
+        <div class="notice">
+          <strong style="color:#dceaff">Privacy first</strong><br>
+          Your PDF is not uploaded to a Clickdy server. Processing uses PDF-lib in your browser. An internet connection is required to load the processing library.
+        </div>
+        <div class="notice">
+          <strong style="color:#dceaff">Important</strong><br>
+          Adding a watermark modifies the PDF. Removing a flattened watermark by covering it may also cover text or images underneath.
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+let pdfFile=null, pdfBytes=null, pageTotal=0, activeMode='add', previewUrl=null;
+
+function formatSize(bytes){
+ if(bytes<1024*1024)return (bytes/1024).toFixed(1)+' KB';
+ return (bytes/1024/1024).toFixed(2)+' MB';
+}
+function showStatus(message,type='info'){
+ const el=$('status');el.className='status '+type;el.textContent=message;
+}
+function clearStatus(){
+ $('status').className='status';$('status').textContent='';
+ $('downloadBtn').style.display='none';
+}
+function setProgress(value){
+ $('progress').style.display='block';
+ $('progressBar').style.width=value+'%';
+}
+function finishProgress(){
+ setProgress(100);
+ setTimeout(()=>{$('progress').style.display='none';$('progressBar').style.width='0'},700);
+}
+function parseRanges(value,total){
+ const pages=new Set();
+ const chunks=value.split(',');
+ for(const chunk of chunks){
+  const s=chunk.trim();
+  if(!s)continue;
+  const match=s.match(/^(\d+)\s*(?:-\s*(\d+))?$/);
+  if(!match)throw new Error('Invalid page range. Use a format such as 1-3, 5, 8-10.');
+  let a=Number(match[1]),b=Number(match[2]||match[1]);
+  if(a<1||b<a||b>total)throw new Error('Page range must be between 1 and '+total+'.');
+  for(let n=a;n<=b;n++)pages.add(n-1);
+ }
+ if(!pages.size)throw new Error('Enter at least one page number.');
+ return [...pages].sort((a,b)=>a-b);
+}
+function getPages(mode,range,total,skipFirst=false){
+ let pages=[];
+ if(mode==='all')pages=Array.from({length:total},(_,i)=>i);
+ else if(mode==='first')pages=[0];
+ else if(mode==='last')pages=[total-1];
+ else pages=parseRanges(range,total);
+ if(skipFirst)pages=pages.filter(p=>p!==0);
+ return pages;
+}
+function loadPreview(bytes){
+ const blob=new Blob([bytes],{type:'application/pdf'});
+ if(previewUrl)URL.revokeObjectURL(previewUrl);
+ previewUrl=URL.createObjectURL(blob);
+ const frame=document.createElement('iframe');
+ frame.src=previewUrl+'#toolbar=0&navpanes=0&view=FitH';
+ frame.title='PDF preview';
+ frame.style.width='100%';frame.style.height='430px';frame.style.border='0';
+ $('previewArea').innerHTML='';$('previewArea').appendChild(frame);
+}
+async function addFile(file){
+ if(!file)return;
+ if(!file.name.toLowerCase().endsWith('.pdf')&&file.type!=='application/pdf'){
+  showStatus('Please select a valid PDF file.','error');return;
+ }
+ if(file.size>100*1024*1024){
+  showStatus('File is larger than the 100 MB limit.','error');return;
+ }
+ pdfFile=file;clearStatus();
+ $('fileName').textContent=file.name;
+ $('fileSize').textContent=formatSize(file.size);
+ $('fileInfo').style.display='flex';
+ $('processBtn').disabled=false;
+ $('processBtn').textContent=activeMode==='add'?'Add Watermark to PDF':'Cover Watermark Area';
+ showStatus('Reading PDF document…');
+ try{
+  pdfBytes=await file.arrayBuffer();
+  const doc=await PDFLib.PDFDocument.load(pdfBytes,{ignoreEncryption:false});
+  pageTotal=doc.getPageCount();
+  $('pageCount').textContent=pageTotal+' pages';
+  $('pageLabel').textContent='Page 1 preview';
+  loadPreview(pdfBytes);
+  showStatus('PDF ready. '+pageTotal+' pages detected.','success');
+ }catch(e){
+  pdfBytes=null;pageTotal=0;
+  showStatus('Could not read this PDF. It may be damaged, encrypted, or unsupported. '+e.message,'error');
+  $('processBtn').disabled=true;
+ }
+}
+$('dropzone').addEventListener('click',()=>$('pdfInput').click());
+$('pdfInput').addEventListener('change',e=>addFile(e.target.files[0]));
+$('dropzone').addEventListener('dragover',e=>{e.preventDefault();$('dropzone').classList.add('drag')});
+$('dropzone').addEventListener('dragleave',()=>$('dropzone').classList.remove('drag'));
+$('dropzone').addEventListener('drop',e=>{
+ e.preventDefault();$('dropzone').classList.remove('drag');addFile(e.dataTransfer.files[0]);
+});
+$('removeFile').addEventListener('click',()=>{
+ pdfFile=null;pdfBytes=null;pageTotal=0;
+ $('pdfInput').value='';$('fileInfo').style.display='none';
+ $('processBtn').disabled=true;$('processBtn').textContent='Upload a PDF to continue';
+ $('previewArea').innerHTML='<div class="preview-empty"><span>▤</span>Your PDF preview will appear here after upload.</div>';
+ $('pageLabel').textContent='No document loaded';$('pageCount').textContent='';
+ clearStatus();
+ if(previewUrl)URL.revokeObjectURL(previewUrl);
+});
+document.querySelectorAll('.tab').forEach(btn=>{
+ btn.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t===btn));
+  activeMode=btn.dataset.tab;
+  $('addTab').classList.toggle('active',activeMode==='add');
+  $('removeTab').classList.toggle('active',activeMode==='remove');
+  $('processBtn').textContent=pdfFile?(activeMode==='add'?'Add Watermark to PDF':'Cover Watermark Area'):'Upload a PDF to continue';
+  clearStatus();
+ });
+});
+$('watermarkType').addEventListener('change',()=>{
+ const isText=$('watermarkType').value==='text';
+ $('textOptions').style.display=isText?'block':'none';
+ $('imageOptions').style.display=isText?'none':'block';
+});
+$('addPages').addEventListener('change',()=>{$('addRangeWrap').style.display=$('addPages').value==='custom'?'block':'none'});
+$('removePages').addEventListener('change',()=>{$('removeRangeWrap').style.display=$('removePages').value==='custom'?'block':'none'});
+$('removePosition').addEventListener('change',()=>{$('customCover').style.display=$('removePosition').value==='custom'?'block':'none'});
+$('opacity').addEventListener('input',()=>$('opacityValue').textContent=$('opacity').value+'%');
+$('coverOpacity').addEventListener('input',()=>$('coverOpacityValue').textContent=$('coverOpacity').value+'%');
+
+function hexRgb(hex){
+ const v=hex.replace('#','');
+ return {r:parseInt(v.slice(0,2),16)/255,g:parseInt(v.slice(2,4),16)/255,b:parseInt(v.slice(4,6),16)/255};
+}
+function getPosition(position,w,h,objW,objH){
+ const margin=Math.min(w,h)*.055;
+ let x=(w-objW)/2,y=(h-objH)/2;
+ if(position==='top'){y=h-objH-margin}
+ if(position==='bottom'){y=margin}
+ if(position==='top-left'){x=margin;y=h-objH-margin}
+ if(position==='top-right'){x=w-objW-margin;y=h-objH-margin}
+ if(position==='bottom-left'){x=margin;y=margin}
+ if(position==='bottom-right'){x=w-objW-margin;y=margin}
+ return {x,y};
+}
+async function embedWatermark(doc){
+ const type=$('watermarkType').value;
+ if(type==='text'){
+  const text=$('watermarkText').value.trim();
+  if(!text)throw new Error('Enter the watermark text first.');
+  return {type,text};
+ }
+ const file=$('imageInput').files[0];
+ if(!file)throw new Error('Please upload a PNG or JPG watermark image.');
+ const bytes=await file.arrayBuffer();
+ let image;
+ if(file.type==='image/png'||file.name.toLowerCase().endsWith('.png'))image=await doc.embedPng(bytes);
+ else if(file.type==='image/jpeg'||file.name.toLowerCase().match(/\.(jpg|jpeg)$/))image=await doc.embedJpg(bytes);
+ else throw new Error('Only PNG and JPG watermark images are supported.');
+ return {type,image};
+}
+async function processAdd(){
+ const doc=await PDFLib.PDFDocument.load(pdfBytes);
+ const pages=doc.getPages();
+ const chosen=getPages($('addPages').value,$('addRange').value,pages.length,$('skipFirst').checked);
+ if(!chosen.length)throw new Error('No pages selected for watermarking.');
+ const mark=await embedWatermark(doc);
+ const opacity=Number($('opacity').value)/100;
+ const rotation=Number($('rotation').value);
+ const placement=$('placement').value;
+ const font=await doc.embedFont(PDFLib.StandardFonts.HelveticaBold);
+ const color=hexRgb($('textColor').value);
+ for(let i=0;i<chosen.length;i++){
+  const page=pages[chosen[i]],{width:w,height:h}=page.getSize();
+  if(mark.type==='text'){
+   const size=Math.min(Number($('fontSize').value)||48,150);
+   const text=mark.text;
+   const textWidth=font.widthOfTextAtSize(text,size);
+   const textHeight=size;
+   let {x,y}=getPosition(placement,w,h,textWidth,textHeight);
+   if(placement==='diagonal'||placement==='center'){
+    x=(w-textWidth)/2;y=(h-textHeight)/2;
+   }
+   page.drawText(text,{x,y,size,font,color:PDFLib.rgb(color.r,color.g,color.b),opacity,rotate:PDFLib.degrees(rotation)});
+  }else{
+   const pct=Math.max(5,Math.min(90,Number($('imageWidth').value)||35))/100;
+   const iw=w*pct,ih=iw/(mark.image.width/mark.image.height);
+   const scale=Math.min(1,(h*.75)/ih);
+   const dw=iw*scale,dh=ih*scale;
+   let {x,y}=getPosition(placement,w,h,dw,dh);
+   if(placement==='center'||placement==='diagonal'){x=(w-dw)/2;y=(h-dh)/2}
+   page.drawImage(mark.image,{x,y,width:dw,height:dh,opacity,rotate:PDFLib.degrees(rotation)});
+  }
+  setProgress(Math.round((i+1)/chosen.length*90));
+ }
+ return await doc.save();
+}
+function getCoverRect(position,w,h){
+ if(position==='custom'){
+  const x=Math.max(0,Math.min(100,Number($('coverX').value)||0))/100*w;
+  const top=Math.max(0,Math.min(100,Number($('coverY').value)||0))/100*h;
+  const width=Math.max(1,Math.min(100,Number($('coverW').value)||1))/100*w;
+  const height=Math.max(1,Math.min(100,Number($('coverH').value)||1))/100*h;
+  return {x,y:h-top-height,width:Math.min(width,w-x),height:Math.min(height,h-(h-top-height))};
+ }
+ let x=0,y=0,width=w,height=h;
+ switch(position){
+  case 'center':width=w*.65;height=h*.22;x=(w-width)/2;y=(h-height)/2;break;
+  case 'diagonal':width=w*.9;height=h*.32;x=(w-width)/2;y=(h-height)/2;break;
+  case 'top':width=w*.65;height=h*.13;x=(w-width)/2;y=h-height;break;
+  case 'bottom':width=w*.65;height=h*.13;x=(w-width)/2;y=0;break;
+  case 'top-left':width=w*.32;height=h*.15;x=0;y=h-height;break;
+  case 'top-right':width=w*.32;height=h*.15;x=w-width;y=h-height;break;
+  case 'bottom-left':width=w*.32;height=h*.15;x=0;y=0;break;
+  case 'bottom-right':width=w*.32;height=h*.15;x=w-width;y=0;break;
+ }
+ return {x,y,width,height};
+}
+async function processRemove(){
+ const doc=await PDFLib.PDFDocument.load(pdfBytes);
+ const pages=doc.getPages();
+ const chosen=getPages($('removePages').value,$('removeRange').value,pages.length);
+ if(!chosen.length)throw new Error('No pages selected.');
+ const c=hexRgb($('coverColor').value);
+ const opacity=Number($('coverOpacity').value)/100;
+ const position=$('removePosition').value;
+ for(let i=0;i<chosen.length;i++){
+  const page=pages[chosen[i]],{width,height}=page.getSize();
+  const rect=getCoverRect(position,width,height);
+  page.drawRectangle({ ...rect,color:PDFLib.rgb(c.r,c.g,c.b),opacity,borderWidth:0 });
+  setProgress(Math.round((i+1)/chosen.length*90));
+ }
+ return await doc.save();
+}
+$('processBtn').addEventListener('click',async()=>{
+ if(!pdfBytes||!pdfFile)return;
+ if(!window.PDFLib){showStatus('PDF processing library did not load. Refresh the page and try again.','error');return}
+ const btn=$('processBtn');btn.disabled=true;
+ $('downloadBtn').style.display='none';clearStatus();
+ showStatus(activeMode==='add'?'Adding watermark to your PDF…':'Covering the selected watermark area…');
+ setProgress(5);
+ try{
+  const output=activeMode==='add'?await processAdd():await processRemove();
+  setProgress(95);
+  const blob=new Blob([output],{type:'application/pdf'});
+  const url=URL.createObjectURL(blob);
+  const link=$('downloadBtn');
+  link.href=url;
+  const base=pdfFile.name.replace(/\.pdf$/i,'');
+  link.download=base+(activeMode==='add'?'-watermarked':'-watermark-covered')+'.pdf';
+  link.style.display='block';
+  showStatus(activeMode==='add'?'Watermark added successfully. Your processed PDF is ready.':'Selected area covered. Review the PDF to ensure the watermark is hidden without obscuring important content.','success');
+  finishProgress();
+ }catch(error){
+  $('progress').style.display='none';
+  showStatus('Processing failed: '+(error.message||'Unknown error')+' Please check the PDF and your settings.','error');
+ }finally{
+  btn.disabled=false;
+ }
+});
+</script>
+</body>
+</html>

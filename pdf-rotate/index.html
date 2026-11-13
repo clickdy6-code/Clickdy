@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070b14">
+<title>PDF Rotate - Clickdy</title>
+<meta name="description" content="Rotate PDF pages online. Rotate all pages or selected pages by 90, 180 or 270 degrees with Clickdy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+<style>
+:root{
+ --bg:#070b14;--surface:#0d1422;--surface2:#111b2d;
+ --primary:#38a5ff;--cyan:#2ee7df;--text:#f4f8ff;
+ --muted:#93a4bd;--line:#1d2b42;--green:#42d9a0;
+ --red:#ff7185;--radius:16px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px "DM Sans",sans-serif}
+button,input,select{font:inherit}
+button{cursor:pointer}
+a{color:inherit;text-decoration:none}
+.app{min-height:100vh;display:flex}
+.sidebar{
+ width:250px;flex-shrink:0;background:#090f1b;border-right:1px solid var(--line);
+ height:100vh;position:sticky;top:0;display:flex;flex-direction:column;
+ padding:20px 15px;overflow-y:auto;
+ scrollbar-width:thin;scrollbar-color:#286b9b #090f1b
+}
+.sidebar::-webkit-scrollbar{width:5px}
+.sidebar::-webkit-scrollbar-track{background:#090f1b}
+.sidebar::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#38a5ff,#2ee7df);border-radius:20px}
+.brand{display:flex;align-items:center;gap:11px;padding:3px 8px 25px;cursor:pointer}
+.brand img{width:39px;height:39px;object-fit:contain}
+.brand-name{font:800 21px "Plus Jakarta Sans";letter-spacing:-.7px}
+.brand-tag{font-size:9px;color:var(--muted);letter-spacing:1.3px;margin-top:2px}
+.side-label{font-size:10px;color:#687b96;font-weight:700;letter-spacing:1.3px;padding:12px 10px 8px}
+.nav{display:flex;flex-direction:column;gap:4px}
+.nav a{color:#a8b6ca;padding:11px 12px;border-radius:10px;display:flex;align-items:center;gap:11px;font-size:13px;transition:.2s}
+.nav a:hover{background:#111e31;color:#fff}
+.nav a.active{background:linear-gradient(100deg,#153553,#10283d);color:#65c2ff}
+.nav-icon{width:19px;text-align:center;font-size:16px}
+.side-bottom{margin-top:auto;padding-top:22px}
+.privacy-card{background:linear-gradient(145deg,#10263a,#0d1b2d);border:1px solid #1b405c;border-radius:13px;padding:14px;margin:8px 2px 16px}
+.privacy-card strong{display:block;font-size:12px;margin:8px 0 5px}
+.privacy-card p{font-size:11px;color:var(--muted);line-height:1.6;margin:0}
+.privacy-icon{font-size:20px;color:var(--cyan)}
+.back-link{display:block;padding:12px 10px;color:#aabbd0;font-size:12px;text-decoration:none!important}
+.back-link:hover{color:var(--cyan)}
+.main{flex:1;min-width:0}
+.topbar{height:67px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 30px;background:rgba(7,11,20,.88);position:sticky;top:0;z-index:5;backdrop-filter:blur(14px)}
+.breadcrumb{color:var(--muted);font-size:12px}
+.breadcrumb span{color:var(--text);font-weight:600}
+.top-actions{display:flex;gap:10px}
+.top-btn{background:#111b2b;border:1px solid var(--line);color:#c4d2e4;padding:8px 13px;border-radius:9px;font-size:12px}
+.content{max-width:1180px;margin:auto;padding:35px 30px 60px}
+.page-heading{margin-bottom:25px}
+.eyebrow{display:inline-flex;align-items:center;gap:7px;color:#68c4ff;font-size:10px;font-weight:700;letter-spacing:1.5px}
+.eyebrow i{width:6px;height:6px;background:var(--cyan);border-radius:50%}
+h1{font:700 30px "Plus Jakarta Sans";letter-spacing:-1px;margin:10px 0 8px}
+.subtitle{color:var(--muted);font-size:13px;line-height:1.7;margin:0;max-width:700px}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:19px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.panel-title{font:700 15px "Plus Jakarta Sans";margin:0}
+.panel-subtitle{color:var(--muted);font-size:11px;margin:6px 0 0;line-height:1.6}
+.upload-zone{border:1px dashed #34516f;background:#0b1523;border-radius:14px;min-height:175px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:25px;transition:.2s;cursor:pointer;margin-top:20px}
+.upload-zone:hover,.upload-zone.dragover{border-color:var(--primary);background:#0d1d30}
+.upload-icon{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;background:#132b42;color:#68c4ff;font-size:25px;margin-bottom:13px}
+.upload-zone h3{font:700 14px "Plus Jakarta Sans";margin:0 0 7px}
+.upload-zone p{font-size:11px;color:var(--muted);margin:0 0 15px}
+.primary-btn{background:linear-gradient(110deg,#278fe8,#36b9dc);color:#fff;border:0;border-radius:9px;padding:11px 18px;font-size:12px;font-weight:700;box-shadow:0 5px 20px #168bd52a;transition:.2s}
+.primary-btn:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.primary-btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.secondary-btn{background:#142237;color:#c8d7e9;border:1px solid #263c57;border-radius:9px;padding:10px 14px;font-size:12px}
+.file-card{display:none;align-items:center;gap:11px;padding:12px;background:#0a1320;border:1px solid var(--line);border-radius:11px;margin-top:14px}
+.file-icon{width:39px;height:41px;display:grid;place-items:center;border-radius:8px;background:#2a1720;color:#ff8796;font-size:13px;font-weight:700;flex-shrink:0}
+.file-info{flex:1;min-width:0}
+.file-name{font-size:11px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.file-meta{font-size:10px;color:var(--muted);margin-top:5px}
+.remove-btn{border:0;background:transparent;color:#899bb3;font-size:18px;padding:5px}
+.remove-btn:hover{color:var(--red)}
+.divider{height:1px;background:var(--line);margin:23px 0}
+.section-heading{font:700 13px "Plus Jakarta Sans";margin:0 0 5px}
+.section-description{font-size:10px;color:var(--muted);margin:0 0 15px;line-height:1.6}
+.field{margin-top:15px}
+.field label{display:block;font-size:11px;font-weight:600;color:#c7d5e7;margin-bottom:8px}
+.field input,.field select{
+ width:100%;height:40px;border:1px solid #263b56;background:#0a1320;
+ color:var(--text);border-radius:9px;padding:0 11px;outline:none;font-size:11px;
+}
+.field input:focus,.field select:focus{border-color:var(--primary);box-shadow:0 0 0 3px #38a5ff17}
+.field-hint{font-size:9px;color:var(--muted);line-height:1.5;margin-top:6px}
+.rotation-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.rotation-btn{background:#0a1320;border:1px solid var(--line);border-radius:11px;padding:15px 8px;color:#c9d7e8;text-align:center;transition:.2s}
+.rotation-btn:hover{border-color:#47749c}
+.rotation-btn.active{border-color:var(--primary);background:#10253a;color:#7bcaff}
+.rotation-icon{display:block;font-size:23px;margin-bottom:8px}
+.rotation-btn strong{font-size:11px;display:block}
+.rotation-btn small{font-size:9px;color:var(--muted);display:block;margin-top:5px}
+.range-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mode-row{display:flex;gap:8px;flex-wrap:wrap}
+.mode-btn{border:1px solid var(--line);background:#0a1320;color:#aabbd0;border-radius:9px;padding:10px 13px;font-size:10px}
+.mode-btn.active{border-color:var(--primary);background:#10253a;color:#79caff}
+.preview-area{margin-top:20px;background:#0a1320;border:1px solid var(--line);border-radius:12px;padding:15px}
+.preview-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.preview-top strong{font-size:11px}
+.preview-top span{font-size:9px;color:var(--muted)}
+.preview-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(115px,1fr));gap:10px}
+.page-card{background:#101c2c;border:1px solid #24364e;border-radius:9px;padding:9px;min-width:0}
+.page-card.selected{border-color:#38a5ff;box-shadow:0 0 0 1px #38a5ff25}
+.page-paper{height:120px;background:#f6f8fb;border-radius:3px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;transition:transform .2s}
+.paper-lines{width:65%;display:flex;flex-direction:column;gap:6px}
+.paper-lines i{height:3px;border-radius:3px;background:#c5cfdb}
+.paper-lines i:nth-child(3n){width:70%}
+.paper-lines i:nth-child(4n){width:85%}
+.paper-page-no{position:absolute;bottom:8px;font:10px Arial;color:#526173}
+.page-card-footer{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
+.page-card-footer span{font-size:9px;color:#aabbd0}
+.page-card-footer input{accent-color:#38a5ff}
+.preview-controls{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px}
+.preview-controls button{background:transparent;border:0;color:#71c7ff;font-size:10px;padding:5px}
+.action-row{display:flex;align-items:center;gap:10px;margin-top:22px;flex-wrap:wrap}
+.action-row .primary-btn{min-width:175px}
+.progress-wrap{display:none;margin-top:18px}
+.progress-top{display:flex;justify-content:space-between;font-size:11px;margin-bottom:9px}
+.progress-top span:last-child{color:var(--cyan)}
+.progress-track{height:6px;border-radius:9px;background:#1b2a3e;overflow:hidden}
+.progress-bar{height:100%;width:0;background:linear-gradient(90deg,var(--primary),var(--cyan));transition:width .2s}
+.status-box{display:none;margin-top:18px;padding:14px;border-radius:10px;font-size:11px;line-height:1.6}
+.status-box.success{display:block;background:#0b211c;border:1px solid #1e5945;color:#a9e8cf}
+.status-box.error{display:block;background:#27151d;border:1px solid #60303c;color:#ffc0ca}
+.status-box.info{display:block;background:#102033;border:1px solid #25496b;color:#b8d9f6}
+.side-panel{display:flex;flex-direction:column;gap:15px}
+.side-panel .panel{padding:18px}
+.feature-row{display:flex;gap:10px;margin-top:17px}
+.feature-icon{width:31px;height:31px;flex-shrink:0;border-radius:9px;background:#14263b;display:grid;place-items:center;color:#70c6ff;font-size:14px}
+.feature-row strong{font-size:11px;display:block;margin:1px 0 4px}
+.feature-row p{font-size:10px;color:var(--muted);line-height:1.5;margin:0}
+.notice{margin-top:18px;border-top:1px solid var(--line);padding-top:15px;font-size:10px;line-height:1.7;color:#8295ad}
+.footer{border-top:1px solid var(--line);margin-top:40px;padding-top:19px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:10px;color:#71849d}
+.toast{position:fixed;bottom:22px;right:22px;z-index:20;background:#142338;border:1px solid #2b4968;color:#eaf5ff;padding:12px 16px;border-radius:10px;font-size:12px;opacity:0;transform:translateY(10px);pointer-events:none;transition:.25s}
+.toast.show{opacity:1;transform:translateY(0)}
+.mobile-menu{display:none}
+@media(max-width:950px){.sidebar{width:220px}.workspace{grid-template-columns:1fr}.side-panel{display:grid;grid-template-columns:1fr 1fr}}
+@media(max-width:650px){
+ .app{display:block}.sidebar{position:fixed;left:-270px;top:0;width:250px;z-index:15;transition:left .25s;height:100dvh}
+ .sidebar.open{left:0}.main{width:100%}.topbar{height:59px;padding:0 15px}
+ .mobile-menu{display:block;background:transparent;border:0;color:#fff;font-size:21px;margin-right:10px}
+ .topbar-left{display:flex;align-items:center}.top-actions .top-btn:first-child{display:none}
+ .content{padding:25px 15px 40px}h1{font-size:25px}.panel{padding:16px}
+ .side-panel{grid-template-columns:1fr}.footer{margin-top:25px}
+ .preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar" id="sidebar">
+ <div class="brand" onclick="location.reload()" role="button" tabindex="0"
+ onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload()}">
+  <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
+  <div><div class="brand-name">Clickdy</div><div class="brand-tag">PDF WORKSPACE</div></div>
+ </div>
+ <div class="side-label">PDF TOOLS</div>
+ <nav class="nav">
+  <a href="../pdf-repair/"><span class="nav-icon">♧</span>PDF Repair</a>
+  <a href="../pdf-unlock/"><span class="nav-icon">🔓</span>PDF Unlock</a>
+  <a href="../pdf-protect/"><span class="nav-icon">♜</span>PDF Protect</a>
+  <a href="../pdf-merge/"><span class="nav-icon">▤</span>PDF Merge</a>
+  <a href="../pdf-split/"><span class="nav-icon">✂</span>PDF Split</a>
+  <a href="../pdf-compress/"><span class="nav-icon">⇣</span>PDF Compress</a>
+  <a href="../pdf-page-numbers/"><span class="nav-icon">№</span>PDF Page Numbers</a>
+  <a href="../pdf-rotate/" class="active"><span class="nav-icon">⟳</span>PDF Rotate</a>
+  <a href="../pdf-to-word/"><span class="nav-icon">W</span>PDF to Word</a>
+ </nav>
+ <div class="side-bottom">
+  <div class="privacy-card">
+   <div class="privacy-icon">◈</div>
+   <strong>Your files stay private</strong>
+   <p>Your PDF is processed locally in your browser. It is not uploaded to Clickdy servers.</p>
+  </div>
+  <a class="back-link" href="https://clickdy.vercel.app/">← &nbsp; Back to Clickdy Tools</a>
+ </div>
+</aside>
+
+<main class="main">
+<header class="topbar">
+ <div class="topbar-left">
+  <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+  <div class="breadcrumb">PDF Tools&nbsp; / &nbsp;<span>PDF Rotate</span></div>
+ </div>
+ <div class="top-actions">
+  <button class="top-btn" id="resetBtn">↺ &nbsp; Reset</button>
+  <button class="top-btn" id="helpBtn">Help & support</button>
+ </div>
+</header>
+
+<div class="content">
+ <div class="page-heading">
+  <div class="eyebrow"><i></i> CLICKDY PDF WORKSPACE</div>
+  <h1>Rotate PDF Pages</h1>
+  <p class="subtitle">Fix sideways or upside-down PDF pages in seconds. Rotate the entire document or select individual pages and create a corrected PDF.</p>
+ </div>
+
+ <div class="workspace">
+ <section class="panel">
+  <h2 class="panel-title">Upload your PDF</h2>
+  <p class="panel-subtitle">Choose a PDF document to rotate its pages.</p>
+
+  <div class="upload-zone" id="dropZone">
+   <div class="upload-icon">⇧</div>
+   <h3>Drop your PDF file here</h3>
+   <p>or browse from your device · PDF only · Up to 100 MB</p>
+   <button class="primary-btn" type="button" id="browseBtn">Choose PDF file</button>
+   <input type="file" id="fileInput" accept=".pdf,application/pdf" hidden>
+  </div>
+
+  <div class="file-card" id="fileCard">
+   <div class="file-icon">PDF</div>
+   <div class="file-info">
+    <div class="file-name" id="fileName"></div>
+    <div class="file-meta" id="fileMeta"></div>
+   </div>
+   <button class="remove-btn" id="removeBtn" title="Remove file">×</button>
+  </div>
+
+  <div class="divider"></div>
+  <h3 class="section-heading">Rotation settings</h3>
+  <p class="section-description">Choose the rotation angle and which pages you want to change.</p>
+
+  <div class="rotation-grid" id="rotationGrid">
+   <button class="rotation-btn" data-angle="-90">
+    <span class="rotation-icon">↶</span>
+    <strong>Rotate left</strong>
+    <small>90° counterclockwise</small>
+   </button>
+   <button class="rotation-btn active" data-angle="90">
+    <span class="rotation-icon">↻</span>
+    <strong>Rotate right</strong>
+    <small>90° clockwise</small>
+   </button>
+   <button class="rotation-btn" data-angle="180">
+    <span class="rotation-icon">⤾</span>
+    <strong>180°</strong>
+    <small>Turn upside down</small>
+   </button>
+  </div>
+
+  <div class="field">
+   <label>Apply rotation to</label>
+   <div class="mode-row">
+    <button class="mode-btn active" data-mode="all">All pages</button>
+    <button class="mode-btn" data-mode="selected">Selected pages</button>
+    <button class="mode-btn" data-mode="range">Custom range</button>
+   </div>
+  </div>
+
+  <div class="field" id="rangeField" style="display:none">
+   <label>Page range</label>
+   <input type="text" id="pageRange" placeholder="e.g. 1-3, 5, 8-10">
+   <div class="field-hint">Enter page numbers and ranges separated by commas. Example: 1-4, 7, 9-12.</div>
+  </div>
+
+  <div class="preview-area" id="previewArea" style="display:none">
+   <div class="preview-top">
+    <strong>Page selection</strong>
+    <span id="pageCount">0 pages</span>
+   </div>
+   <div class="preview-grid" id="previewGrid"></div>
+   <div class="preview-controls">
+    <span class="file-meta">Select the pages you want to rotate.</span>
+    <div>
+     <button id="selectAllBtn">Select all</button>
+     <button id="selectNoneBtn">Clear selection</button>
+    </div>
+   </div>
+  </div>
+
+  <div class="action-row">
+   <button class="primary-btn" id="rotateBtn" disabled>⟳ &nbsp; Rotate PDF</button>
+   <button class="secondary-btn" id="clearBtn">Clear</button>
+  </div>
+
+  <div class="progress-wrap" id="progressWrap">
+   <div class="progress-top"><span id="progressLabel">Preparing PDF...</span><span id="progressPercent">0%</span></div>
+   <div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+  </div>
+  <div class="status-box" id="statusBox" role="status" aria-live="polite"></div>
+  <div class="notice">Rotation changes the page orientation metadata without rasterizing the page. Existing text, images, links and vector content remain in the PDF. Digitally signed PDFs may lose signature validity after modification.</div>
+ </section>
+
+ <aside class="side-panel">
+  <section class="panel">
+   <h3 class="panel-title">How it works</h3>
+   <p class="panel-subtitle">Correct your PDF orientation in three steps.</p>
+   <div class="feature-row"><div class="feature-icon">1</div><div><strong>Upload your PDF</strong><p>Select the document you want to fix.</p></div></div>
+   <div class="feature-row"><div class="feature-icon">2</div><div><strong>Choose rotation</strong><p>Rotate all pages or select specific pages.</p></div></div>
+   <div class="feature-row"><div class="feature-icon">3</div><div><strong>Download your PDF</strong><p>Save the corrected document to your device.</p></div></div>
+  </section>
+  <section class="panel">
+   <h3 class="panel-title">Rotation options</h3>
+   <div class="feature-row"><div class="feature-icon">↶</div><div><strong>Rotate left</strong><p>Turn pages 90 degrees counterclockwise.</p></div></div>
+   <div class="feature-row"><div class="feature-icon">↻</div><div><strong>Rotate right</strong><p>Turn pages 90 degrees clockwise.</p></div></div>
+   <div class="feature-row"><div class="feature-icon">⤾</div><div><strong>Rotate 180°</strong><p>Flip upside-down pages into the opposite orientation.</p></div></div>
+  </section>
+  <section class="panel">
+   <h3 class="panel-title">Private by design</h3>
+   <p class="panel-subtitle">Your document is processed in your browser using the PDF library. Clickdy does not upload your PDF to a server.</p>
+  </section>
+ </aside>
+ </div>
+
+ <footer class="footer"><span>© 2026 Clickdy. All rights reserved.</span><span>PDF tools · Private by design</span></footer>
+</div>
+</main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const state={
+ file:null,
+ busy:false,
+ angle:90,
+ mode:"all",
+ selected:new Set(),
+ pageCount:0,
+ outputUrl:null
+};
+
+function toast(message){
+ const el=$("toast");el.textContent=message;el.classList.add("show");
+ clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.classList.remove("show"),2600);
+}
+function formatSize(bytes){
+ if(bytes<1024)return bytes+" B";
+ if(bytes<1024*1024)return (bytes/1024).toFixed(1)+" KB";
+ return (bytes/1024/1024).toFixed(2)+" MB";
+}
+function setStatus(message,type="info"){
+ $("statusBox").textContent=message;
+ $("statusBox").className="status-box "+type;
+}
+function clearStatus(){
+ $("statusBox").textContent="";
+ $("statusBox").className="status-box";
+}
+function setProgress(value,label){
+ $("progressWrap").style.display="block";
+ $("progressBar").style.width=value+"%";
+ $("progressPercent").textContent=value+"%";
+ $("progressLabel").textContent=label;
+}
+function hideProgress(){$("progressWrap").style.display="none";}
+function releaseOutput(){
+ if(state.outputUrl){URL.revokeObjectURL(state.outputUrl);state.outputUrl=null;}
+}
+function addFile(file){
+ if(state.busy||!file)return;
+ if(!file.name.toLowerCase().endsWith(".pdf")&&file.type!=="application/pdf"){
+  setStatus("Please select a PDF file.","error");return;
+ }
+ if(file.size>100*1024*1024){
+  setStatus("This file is larger than the 100 MB limit.","error");return;
+ }
+ if(file.size===0){
+  setStatus("This file is empty.","error");return;
+ }
+ state.file=file;
+ state.selected.clear();
+ releaseOutput();clearStatus();hideProgress();
+ $("fileName").textContent=file.name;
+ $("fileMeta").textContent=formatSize(file.size)+" · PDF document";
+ $("fileCard").style.display="flex";
+ $("rotateBtn").disabled=false;
+ $("fileInput").value="";
+ $("previewArea").style.display="none";
+ $("pageRange").value="";
+ toast("PDF file added");
+}
+function clearFile(){
+ if(state.busy)return;
+ state.file=null;state.selected.clear();state.pageCount=0;
+ releaseOutput();
+ $("fileCard").style.display="none";
+ $("fileInput").value="";
+ $("rotateBtn").disabled=true;
+ $("previewArea").style.display="none";
+ $("previewGrid").innerHTML="";
+ clearStatus();hideProgress();
+}
+function setAngle(angle){
+ state.angle=Number(angle);
+ document.querySelectorAll(".rotation-btn").forEach(btn=>{
+  btn.classList.toggle("active",Number(btn.dataset.angle)===state.angle);
+ });
+}
+function setMode(mode){
+ state.mode=mode;
+ document.querySelectorAll(".mode-btn").forEach(btn=>{
+  btn.classList.toggle("active",btn.dataset.mode===mode);
+ });
+ $("rangeField").style.display=mode==="range"?"block":"none";
+ $("previewArea").style.display=mode==="selected"&&state.file?"block":"none";
+}
+function parseRange(value,total){
+ const raw=value.trim();
+ if(!raw)throw new Error("Enter a page range, or choose All pages.");
+ const result=new Set();
+ const parts=raw.split(",");
+ for(const part of parts){
+  const item=part.trim();
+  if(!item)throw new Error("Page range contains an empty item.");
+  if(/^\d+$/.test(item)){
+   const n=Number(item);
+   if(n<1||n>total)throw new Error(`Page ${n} is outside this PDF. It has ${total} pages.`);
+   result.add(n-1);
+   continue;
+  }
+  const match=item.match(/^(\d+)\s*-\s*(\d+)$/);
+  if(!match)throw new Error(`Invalid page range "${item}". Use formats like 1-4, 7, 9-12.`);
+  const from=Number(match[1]),to=Number(match[2]);
+  if(from<1||to>total||from>to)throw new Error(`Invalid range "${item}". This PDF has ${total} pages.`);
+  for(let n=from;n<=to;n++)result.add(n-1);
+ }
+ return [...result].sort((a,b)=>a-b);
+}
+function renderPageCards(){
+ const grid=$("previewGrid");
+ grid.innerHTML="";
+ $("pageCount").textContent=state.pageCount+" pages";
+ for(let i=0;i<state.pageCount;i++){
+  const card=document.createElement("div");
+  card.className="page-card"+(state.selected.has(i)?" selected":"");
+  const paper=document.createElement("div");paper.className="page-paper";
+  const lines=document.createElement("div");lines.className="paper-lines";
+  for(let j=0;j<9;j++){const line=document.createElement("i");lines.append(line);}
+  paper.append(lines);
+  const no=document.createElement("div");no.className="paper-page-no";no.textContent=i+1;
+  paper.append(no);
+  const footer=document.createElement("div");footer.className="page-card-footer";
+  const label=document.createElement("span");label.textContent="Page "+(i+1);
+  const checkbox=document.createElement("input");checkbox.type="checkbox";checkbox.checked=state.selected.has(i);
+  checkbox.setAttribute("aria-label","Select page "+(i+1));
+  checkbox.addEventListener("change",()=>{
+   if(checkbox.checked)state.selected.add(i);else state.selected.delete(i);
+   card.classList.toggle("selected",checkbox.checked);
+  });
+  footer.append(label,checkbox);
+  card.append(paper,footer);grid.append(card);
+ }
+}
+function getTargetPages(total){
+ if(state.mode==="all")return Array.from({length:total},(_,i)=>i);
+ if(state.mode==="range")return parseRange($("pageRange").value,total);
+ const selected=[...state.selected].sort((a,b)=>a-b);
+ if(!selected.length)throw new Error("Select at least one page to rotate.");
+ return selected;
+}
+async function loadPageCount(){
+ if(!state.file||!window.PDFLib)return;
+ try{
+  const doc=await PDFLib.PDFDocument.load(await state.file.arrayBuffer());
+  state.pageCount=doc.getPageCount();
+  if(state.pageCount>1000)throw new Error("This PDF has more than 1,000 pages. Please use a smaller document for page selection.");
+  state.selected=new Set(Array.from({length:state.pageCount},(_,i)=>i));
+  renderPageCards();
+  $("previewArea").style.display=state.mode==="selected"?"block":"none";
+ }catch(error){
+  setStatus(error.message||"Unable to read this PDF. It may be damaged or password protected.","error");
+ }
+}
+async function rotatePdf(){
+ if(!state.file||state.busy)return;
+ if(!window.PDFLib){
+  setStatus("The PDF engine could not load. Check your internet connection and refresh the page.","error");return;
+ }
+ state.busy=true;
+ $("rotateBtn").disabled=true;$("clearBtn").disabled=true;$("resetBtn").disabled=true;
+ releaseOutput();clearStatus();
+ try{
+  setProgress(8,"Reading your PDF...");
+  const bytes=await state.file.arrayBuffer();
+  const pdfDoc=await PDFLib.PDFDocument.load(bytes);
+  const pages=pdfDoc.getPages();
+  const total=pages.length;
+  const targets=getTargetPages(total);
+  if(!targets.length)throw new Error("No pages were selected.");
+  const rotation=PDFLib.degrees(state.angle);
+
+  setProgress(20,"Applying page rotation...");
+  for(let i=0;i<targets.length;i++){
+   const page=pages[targets[i]];
+   const current=page.getRotation().angle;
+   page.setRotation(PDFLib.degrees(current+state.angle));
+   if(i%5===0||i===targets.length-1){
+    setProgress(20+Math.round(((i+1)/targets.length)*65),`Rotating page ${i+1} of ${targets.length}...`);
+    await new Promise(resolve=>setTimeout(resolve,0));
+   }
+  }
+  setProgress(90,"Saving your rotated PDF...");
+  const output=await pdfDoc.save({useObjectStreams:true});
+  const blob=new Blob([output],{type:"application/pdf"});
+  state.outputUrl=URL.createObjectURL(blob);
+  setProgress(100,"Your rotated PDF is ready");
+
+  const label=state.angle===-90?"90° left":state.angle+"°";
+  setStatus(`Success! Rotated ${targets.length} of ${total} pages by ${label}. All other pages were left unchanged.`,"success");
+
+  const download=document.createElement("button");
+  download.className="primary-btn";
+  download.style.marginTop="12px";
+  download.textContent="↓ Download rotated PDF";
+  download.addEventListener("click",()=>{
+   if(!state.outputUrl)return;
+   const link=document.createElement("a");
+   link.href=state.outputUrl;
+   link.download=state.file.name.replace(/\.pdf$/i,"")+"-rotated.pdf";
+   document.body.appendChild(link);link.click();link.remove();
+  });
+  $("statusBox").append(document.createElement("br"),download);
+  toast("PDF rotated successfully");
+ }catch(error){
+  console.error("Clickdy PDF Rotate:",error);
+  setStatus(error.message||"Unable to rotate this PDF. Please try another file.","error");
+ }finally{
+  state.busy=false;
+  $("rotateBtn").disabled=!state.file;
+  $("clearBtn").disabled=false;$("resetBtn").disabled=false;
+ }
+}
+function resetSettings(){
+ if(state.busy)return;
+ setAngle(90);setMode("all");
+ $("pageRange").value="";
+ if(state.pageCount){
+  state.selected=new Set(Array.from({length:state.pageCount},(_,i)=>i));
+  renderPageCards();
+ }
+ clearStatus();hideProgress();releaseOutput();
+ toast("Settings reset");
+}
+
+$("browseBtn").addEventListener("click",()=>$("fileInput").click());
+$("fileInput").addEventListener("change",e=>{
+ addFile(e.target.files[0]);
+ if(state.file)loadPageCount();
+});
+$("dropZone").addEventListener("click",e=>{
+ if(!e.target.closest("button"))$("fileInput").click();
+});
+$("dropZone").addEventListener("dragover",e=>{
+ e.preventDefault();$("dropZone").classList.add("dragover");
+});
+$("dropZone").addEventListener("dragleave",()=>$("dropZone").classList.remove("dragover"));
+$("dropZone").addEventListener("drop",e=>{
+ e.preventDefault();$("dropZone").classList.remove("dragover");
+ addFile(e.dataTransfer.files[0]);
+ if(state.file)loadPageCount();
+});
+$("removeBtn").addEventListener("click",clearFile);
+$("clearBtn").addEventListener("click",clearFile);
+$("rotateBtn").addEventListener("click",rotatePdf);
+$("resetBtn").addEventListener("click",resetSettings);
+$("helpBtn").addEventListener("click",()=>toast("For help, visit the Clickdy website."));
+document.querySelectorAll(".rotation-btn").forEach(btn=>{
+ btn.addEventListener("click",()=>setAngle(btn.dataset.angle));
+});
+document.querySelectorAll(".mode-btn").forEach(btn=>{
+ btn.addEventListener("click",()=>setMode(btn.dataset.mode));
+});
+$("selectAllBtn").addEventListener("click",()=>{
+ state.selected=new Set(Array.from({length:state.pageCount},(_,i)=>i));
+ renderPageCards();
+});
+$("selectNoneBtn").addEventListener("click",()=>{
+ state.selected.clear();renderPageCards();
+});
+$("mobileMenu").addEventListener("click",()=>$("sidebar").classList.toggle("open"));
+document.addEventListener("click",e=>{
+ if(innerWidth<=650&&$("sidebar").classList.contains("open")&&!e.target.closest("#sidebar")&&!e.target.closest("#mobileMenu")){
+  $("sidebar").classList.remove("open");
+ }
+});
+window.addEventListener("beforeunload",releaseOutput);
+</script>
+</body>
+</html>

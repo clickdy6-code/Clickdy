@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF Repair Studio - Clickdy</title>
+<meta name="description" content="Inspect and repair damaged PDF files online with Clickdy PDF Repair Studio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<style>
+:root{
+ --bg:#070b14;--surface:#0d1422;--surface2:#111b2d;
+ --primary:#38a5ff;--cyan:#2ee7df;--text:#f4f8ff;
+ --muted:#93a4bd;--line:#1d2b42;--green:#36d6a0;
+ --red:#ff7185;--yellow:#f4c66b;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:14px}
+button,input{font:inherit}
+button{cursor:pointer}
+button:disabled{opacity:.45;cursor:not-allowed;transform:none!important}
+a{text-decoration:none}
+.app{min-height:100vh}
+.topbar{height:66px;border-bottom:1px solid var(--line);background:#090f1b;display:flex;align-items:center;justify-content:space-between;padding:0 25px;position:sticky;top:0;z-index:20}
+.brand{display:flex;align-items:center;gap:10px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.brand img{width:36px;height:36px;object-fit:contain}
+.brand-name{font:800 18px 'Plus Jakarta Sans';letter-spacing:-.5px;color:var(--text)}
+.brand-tag{font-size:9px;letter-spacing:1.5px;color:var(--muted);margin-top:2px}
+.top-left,.top-right{display:flex;align-items:center;gap:15px}
+.top-divider{height:25px;width:1px;background:var(--line)}
+.breadcrumb{font-size:12px;color:var(--muted)}
+.breadcrumb b{color:var(--text)}
+.top-btn{background:var(--surface);border:1px solid var(--line);color:var(--text);border-radius:9px;padding:9px 13px;font-size:12px}
+.top-btn:hover{border-color:#3b5879}
+.top-btn.accent{background:linear-gradient(110deg,var(--primary),var(--cyan));color:#06111c;border:0;font-weight:700}
+.layout{display:grid;grid-template-columns:225px minmax(0,1fr) 285px;min-height:calc(100vh - 66px)}
+.sidebar{background:#090f1b;border-right:1px solid var(--line);padding:20px 14px;display:flex;flex-direction:column;gap:22px}
+.side-label{font-size:10px;letter-spacing:1.3px;text-transform:uppercase;color:#71849e;font-weight:700;padding:0 10px;margin-bottom:9px}
+.nav-item{display:flex;align-items:center;gap:11px;width:100%;padding:10px;border:0;background:transparent;color:#a9b8cc;border-radius:9px;text-align:left;font-size:12px;margin:3px 0}
+.nav-item:hover{background:#121e30;color:white}
+.nav-item.active{background:#12253a;color:#69bdff}
+.nav-icon{width:19px;text-align:center;font-size:16px}
+.nav-badge{margin-left:auto;font-size:9px;color:#7890aa}
+.sidebar-bottom{margin-top:auto;border-top:1px solid var(--line);padding-top:13px}
+.back-link{display:flex;gap:9px;align-items:center;padding:11px 10px;color:var(--muted);font-size:12px;border-radius:8px}
+.back-link:hover{color:var(--primary);background:#111b2d}
+.main{padding:25px;min-width:0}
+.heading{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:20px}
+h1{font:700 23px 'Plus Jakarta Sans';letter-spacing:-.6px;margin:0 0 6px}
+.subtitle{font-size:12px;color:var(--muted);line-height:1.6}
+.secure{border:1px solid #24463f;color:#7be2bf;background:#0d211d;border-radius:30px;padding:7px 10px;font-size:10px;white-space:nowrap}
+.upload-box{border:1px dashed #34516e;border-radius:14px;background:linear-gradient(145deg,#0d1727,#0a1220);padding:30px 20px;text-align:center;transition:.2s}
+.upload-box.drag{border-color:var(--primary);background:#10243a}
+.upload-icon{height:57px;width:57px;display:grid;place-items:center;margin:0 auto 14px;border:1px solid #25496b;border-radius:16px;background:#10243a;color:#72c4ff;font-size:25px}
+.upload-box h2{font:700 16px 'Plus Jakarta Sans';margin:0 0 7px}
+.upload-box p{color:var(--muted);font-size:11px;line-height:1.7;margin:0 0 16px}
+.primary{border:0;border-radius:9px;padding:11px 17px;background:linear-gradient(110deg,var(--primary),var(--cyan));color:#06111c;font-size:12px;font-weight:700}
+.primary:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.secondary{border:1px solid #2a3b53;border-radius:9px;padding:10px 13px;background:#111b2d;color:#d9e6f6;font-size:12px}
+.secondary:hover{border-color:#527292}
+.small{font-size:10px;color:var(--muted)}
+#fileInput{display:none}
+.file-card{display:none;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:14px;margin-top:14px}
+.file-row{display:flex;align-items:center;gap:12px}
+.pdf-icon{width:39px;height:43px;display:grid;place-items:center;border-radius:8px;background:#281a28;color:#ff8b9c;font-weight:800;font-size:11px;flex-shrink:0}
+.file-name{font-size:12px;font-weight:700;overflow-wrap:anywhere}
+.file-meta{font-size:10px;color:var(--muted);margin-top:4px}
+.file-remove{margin-left:auto;background:transparent;color:#9eafc5;border:0;font-size:17px}
+.file-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}
+.file-actions button{flex:1}
+.progress-wrap{display:none;margin-top:15px}
+.progress-head{display:flex;justify-content:space-between;color:#b4c4d7;font-size:11px;margin-bottom:8px}
+.progress-track{height:5px;border-radius:20px;background:#1a2940;overflow:hidden}
+.progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--primary),var(--cyan));transition:width .25s}
+.report{display:none;margin-top:18px;border:1px solid var(--line);background:#0b1321;border-radius:13px;overflow:hidden}
+.report-head{padding:15px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.report-head strong{font:700 13px 'Plus Jakarta Sans'}
+.report-status{font-size:10px;padding:5px 8px;border-radius:20px;background:#122b25;color:#7be2bf}
+.report-body{padding:15px 16px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.stat{background:#111b2d;border:1px solid #1c2b40;border-radius:9px;padding:11px}
+.stat-value{font:700 19px 'Plus Jakarta Sans';margin-bottom:4px}
+.stat-label{font-size:10px;color:var(--muted)}
+.report-note{font-size:11px;color:#9fb2c9;line-height:1.7;margin-top:13px}
+.log{margin-top:14px;padding:11px;background:#080e18;border:1px solid var(--line);border-radius:9px}
+.log-title{font-size:10px;color:var(--muted);font-weight:700;margin-bottom:8px}
+.log-line{font-size:10px;color:#a9bdd4;line-height:1.8;overflow-wrap:anywhere}
+.preview-section{margin-top:20px}
+.section-title{font:700 13px 'Plus Jakarta Sans';margin-bottom:11px}
+.preview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.page-card{border:1px solid var(--line);background:#0d1422;border-radius:9px;padding:8px;min-width:0}
+.page-card canvas{width:100%;height:auto;background:white;border-radius:3px;display:block}
+.page-label{font-size:10px;color:var(--muted);text-align:center;margin-top:7px}
+.right-panel{background:#090f1b;border-left:1px solid var(--line);padding:21px 16px}
+.panel-title{font:700 13px 'Plus Jakarta Sans';margin-bottom:6px}
+.panel-sub{font-size:11px;color:var(--muted);line-height:1.6;margin-bottom:17px}
+.panel-section{padding:16px 0;border-top:1px solid var(--line)}
+.panel-section strong{font-size:12px}
+.option-row{display:flex;align-items:flex-start;gap:10px;padding:10px 0}
+.option-row input{accent-color:var(--primary);margin-top:3px}
+.option-title{font-size:11px;font-weight:600}
+.option-desc{font-size:10px;color:var(--muted);line-height:1.5;margin-top:3px}
+.info-box{padding:12px;background:#101c2c;border:1px solid #1d3853;border-radius:9px;font-size:10px;line-height:1.7;color:#9eb1c9;margin-top:14px}
+.info-box b{color:#dce9f7}
+.download-btn{width:100%;margin-top:13px}
+.status-list{display:flex;flex-direction:column;gap:12px;margin-top:13px}
+.status-item{display:flex;gap:9px;align-items:flex-start;font-size:10px;color:#aabbd0;line-height:1.5}
+.status-dot{height:7px;width:7px;border-radius:50%;background:#45617e;margin-top:4px;flex-shrink:0}
+.status-dot.ok{background:var(--green)}
+.status-dot.warn{background:var(--yellow)}
+.status-dot.bad{background:var(--red)}
+.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#17263b;border:1px solid #304762;color:#edf6ff;padding:11px 16px;border-radius:9px;font-size:12px;transition:.25s;z-index:50;max-width:90%;text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.footer-note{margin-top:18px;color:#71849e;font-size:10px;line-height:1.6;text-align:center}
+@media(max-width:1100px){.layout{grid-template-columns:190px minmax(0,1fr)}.right-panel{grid-column:2;border-left:0;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.right-panel>.panel-title,.right-panel>.panel-sub{grid-column:1/-1}}
+@media(max-width:700px){.topbar{height:59px;padding:0 12px}.breadcrumb,.top-divider,.top-right .top-btn:first-child{display:none}.layout{display:flex;flex-direction:column}.sidebar{display:none}.main{padding:17px 12px}.right-panel{display:block;padding:18px 14px;border-left:0}.heading h1{font-size:20px}.secure{font-size:9px}.upload-box{padding:25px 12px}.stats{gap:6px}.stat{padding:9px}.stat-value{font-size:16px}.preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.topbar .brand-tag{display:none}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+ <div class="top-left">
+  <div class="brand" onclick="location.reload()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload()}">
+   <img src="../assets/logo.png" alt="Clickdy" onerror="this.style.display='none'">
+   <div><div class="brand-name">Clickdy</div><div class="brand-tag">PDF & CREATIVE TOOLS</div></div>
+  </div>
+  <div class="top-divider"></div>
+  <div class="breadcrumb">PDF Tools / <b>PDF Repair Studio</b></div>
+ </div>
+ <div class="top-right">
+  <button class="top-btn" id="resetBtn">↺ Reset</button>
+  <button class="top-btn accent" id="toolsBtn">Explore Tools ↗</button>
+ </div>
+</header>
+
+<div class="layout">
+<aside class="sidebar">
+ <div>
+  <div class="side-label">PDF workspace</div>
+  <button class="nav-item active"><span class="nav-icon">⌁</span> PDF Repair</button>
+  <button class="nav-item" data-soon="PDF Merge"><span class="nav-icon">▤</span> PDF Merge <span class="nav-badge">Tools</span></button>
+  <button class="nav-item" data-soon="PDF Split"><span class="nav-icon">✂</span> PDF Split</button>
+  <button class="nav-item" data-soon="PDF Compress"><span class="nav-icon">▣</span> PDF Compress</button>
+ </div>
+ <div>
+  <div class="side-label">Utilities</div>
+  <button class="nav-item" data-soon="PDF to Word"><span class="nav-icon">W</span> PDF to Word</button>
+  <button class="nav-item" data-soon="PDF Unlock"><span class="nav-icon">♧</span> PDF Unlock</button>
+  <button class="nav-item" data-soon="PDF Protect"><span class="nav-icon">♙</span> PDF Protect</button>
+ </div>
+ <div class="sidebar-bottom">
+  <a href="https://clickdy.vercel.app/" class="back-link">← <span>Back to Clickdy Tools</span></a>
+ </div>
+</aside>
+
+<main class="main">
+ <div class="heading">
+  <div><h1>PDF Repair Studio</h1><div class="subtitle">Diagnose damaged PDF files and attempt to rebuild their internal structure.</div></div>
+  <div class="secure">● Private browser processing</div>
+ </div>
+
+ <section class="upload-box" id="dropArea">
+  <div class="upload-icon">⇧</div>
+  <h2>Upload your damaged PDF</h2>
+  <p>Drop a PDF here or browse your device.<br>Files are processed locally in your browser.</p>
+  <button class="primary" id="browseBtn">Choose PDF file</button>
+  <div class="small" style="margin-top:13px">PDF files only · Maximum 100 MB</div>
+ </section>
+ <input type="file" id="fileInput" accept=".pdf,application/pdf">
+
+ <section class="file-card" id="fileCard">
+  <div class="file-row">
+   <div class="pdf-icon">PDF</div>
+   <div style="min-width:0;flex:1"><div class="file-name" id="fileName">document.pdf</div><div class="file-meta" id="fileMeta">0 MB · Ready to inspect</div></div>
+   <button class="file-remove" id="removeFile" title="Remove file">×</button>
+  </div>
+  <div class="file-actions">
+   <button class="secondary" id="inspectBtn">⌕ Inspect PDF</button>
+   <button class="primary" id="repairBtn">✦ Repair PDF</button>
+  </div>
+  <div class="progress-wrap" id="progressWrap">
+   <div class="progress-head"><span id="progressText">Preparing engine...</span><span id="progressPercent">0%</span></div>
+   <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+ </section>
+
+ <section class="report" id="report">
+  <div class="report-head"><strong>Document analysis report</strong><span class="report-status" id="reportBadge">Analysis complete</span></div>
+  <div class="report-body">
+   <div class="stats">
+    <div class="stat"><div class="stat-value" id="statPages">—</div><div class="stat-label">Readable pages</div></div>
+    <div class="stat"><div class="stat-value" id="statSize">—</div><div class="stat-label">Original size</div></div>
+    <div class="stat"><div class="stat-value" id="statHealth">—</div><div class="stat-label">Structure check</div></div>
+   </div>
+   <div class="report-note" id="reportNote">Analysis details will appear here.</div>
+   <div class="status-list" id="statusList"></div>
+   <div class="log"><div class="log-title">REPAIR ENGINE LOG</div><div id="engineLog" class="log-line">Waiting for inspection...</div></div>
+   <button class="primary download-btn" id="downloadBtn" style="display:none">↓ Download repaired PDF</button>
+  </div>
+ </section>
+
+ <section class="preview-section" id="previewSection" style="display:none">
+  <div class="section-title">Page preview <span class="small" id="previewCount"></span></div>
+  <div class="preview-grid" id="previewGrid"></div>
+ </section>
+ <div class="footer-note">Clickdy PDF Repair Studio · Your documents stay on your device during processing.</div>
+</main>
+
+<aside class="right-panel">
+ <div class="panel-title">Repair settings</div>
+ <div class="panel-sub">Choose how the repair engine should process your document.</div>
+ <div class="panel-section">
+  <strong>Repair method</strong>
+  <label class="option-row">
+   <input type="radio" name="repairMode" value="standard" checked>
+   <span><div class="option-title">Automatic repair</div><div class="option-desc">Rebuild the PDF structure and cross-reference information where possible.</div></span>
+  </label>
+  <label class="option-row">
+   <input type="radio" name="repairMode" value="check">
+   <span><div class="option-title">Check only</div><div class="option-desc">Inspect the PDF without creating a repaired output file.</div></span>
+  </label>
+ </div>
+ <div class="panel-section">
+  <strong>Recovery information</strong>
+  <div class="status-list">
+   <div class="status-item"><span class="status-dot"></span><span>Damaged cross-reference tables may be rebuilt.</span></div>
+   <div class="status-item"><span class="status-dot"></span><span>Readable objects may be written into a fresh PDF.</span></div>
+   <div class="status-item"><span class="status-dot warn"></span><span>Missing or overwritten content cannot be recreated.</span></div>
+   <div class="status-item"><span class="status-dot warn"></span><span>Password-protected files may need a separate unlock step.</span></div>
+  </div>
+ </div>
+ <div class="panel-section">
+  <strong>Privacy & security</strong>
+  <div class="info-box"> <b>Local processing</b><br>Selected files are read in your browser and passed to the local WebAssembly repair engine. The PDF is not uploaded to Clickdy.</div>
+  <div class="info-box"> <b>Honest recovery</b><br>A successful rebuild does not guarantee every page or element was recovered. Always check the output before relying on it.</div>
+ </div>
+</aside>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+ 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+const $=id=>document.getElementById(id);
+let selectedFile=null, repairedBytes=null, repairedName='', qpdf=null;
+let enginePromise=null, pdfDoc=null, logMessages=[];
+const MAX_SIZE=100*1024*1024;
+
+function toast(message){
+ const t=$('toast');t.textContent=message;t.classList.add('show');
+ clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.classList.remove('show'),3200);
+}
+function log(message){
+ logMessages.push(message);
+ $('engineLog').innerHTML=logMessages.slice(-9).map(x=>'› '+escapeHtml(x)).join('<br>');
+}
+function escapeHtml(s){
+ return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function setProgress(percent,message){
+ $('progressWrap').style.display='block';
+ $('progressFill').style.width=percent+'%';
+ $('progressPercent').textContent=percent+'%';
+ $('progressText').textContent=message;
+}
+function resetProgress(){
+ $('progressWrap').style.display='none';
+ setProgress(0,'Ready');
+ $('progressWrap').style.display='none';
+}
+function resetReport(){
+ $('report').style.display='none';
+ $('previewSection').style.display='none';
+ $('previewGrid').innerHTML='';
+ $('downloadBtn').style.display='none';
+ repairedBytes=null;logMessages=[];
+ $('engineLog').textContent='Waiting for inspection...';
+}
+function clearFile(){
+ selectedFile=null;
+ if(pdfDoc){try{pdfDoc.destroy()}catch(e){}pdfDoc=null}
+ $('fileInput').value='';
+ $('fileCard').style.display='none';
+ $('report').style.display='none';
+ $('previewSection').style.display='none';
+ $('previewGrid').innerHTML='';
+ resetProgress();resetReport();
+}
+function selectFile(file){
+ if(!file)return;
+ if(file.type!=='application/pdf'&&!file.name.toLowerCase().endsWith('.pdf')){
+  toast('Please select a PDF file.');return;
+ }
+ if(file.size>MAX_SIZE){toast('File exceeds the 100 MB limit.');return}
+ if(file.size===0){toast('This file is empty.');return}
+ selectedFile=file;repairedBytes=null;
+ $('fileName').textContent=file.name;
+ $('fileMeta').textContent=formatBytes(file.size)+' · Ready to inspect';
+ $('fileCard').style.display='block';
+ $('report').style.display='none';
+ $('previewSection').style.display='none';
+ $('previewGrid').innerHTML='';
+ $('downloadBtn').style.display='none';
+ $('inspectBtn').disabled=false;$('repairBtn').disabled=false;
+ logMessages=[];
+ toast('PDF selected. Choose Inspect or Repair.');
+}
+function formatBytes(n){
+ if(n<1024)return n+' B';
+ if(n<1024*1024)return (n/1024).toFixed(1)+' KB';
+ return (n/1024/1024).toFixed(2)+' MB';
+}
+$('browseBtn').onclick=()=>$('fileInput').click();
+$('fileInput').onchange=e=>{selectFile(e.target.files[0]);e.target.value=''};
+$('removeFile').onclick=clearFile;
+$('resetBtn').onclick=clearFile;
+$('toolsBtn').onclick=()=>location.href='https://clickdy.vercel.app/';
+
+const drop=$('dropArea');
+drop.addEventListener('dragover',e=>{e.preventDefault();drop.classList.add('drag')});
+drop.addEventListener('dragleave',()=>drop.classList.remove('drag'));
+drop.addEventListener('drop',e=>{
+ e.preventDefault();drop.classList.remove('drag');
+ selectFile(e.dataTransfer.files[0]);
+});
+
+async function loadQpdf(){
+ if(enginePromise)return enginePromise;
+ enginePromise=(async()=>{
+  const moduleUrl='https://esm.sh/@soulehshaikh99/qpdf-wasm@0.4.1';
+  const wasmUrl='https://cdn.jsdelivr.net/npm/@soulehshaikh99/qpdf-wasm@0.4.1/dist/qpdf.wasm';
+  const imported=await import(moduleUrl);
+  const createModule=imported.default;
+  if(typeof createModule!=='function')throw new Error('Could not initialize the PDF repair engine.');
+  const instance=await createModule({
+   locateFile:(path)=>path.endsWith('.wasm')?wasmUrl:path
+  });
+  return instance;
+ })();
+ try{return await enginePromise}catch(err){enginePromise=null;throw err}
+}
+function writeInput(module,bytes){
+ try{module.FS.unlink('/clickdy-input.pdf')}catch(e){}
+ try{module.FS.unlink('/clickdy-output.pdf')}catch(e){}
+ module.FS.writeFile('/clickdy-input.pdf',bytes);
+}
+function runQpdf(module,args){
+ const output=[];
+ const oldPrint=module.print,oldErr=module.printErr;
+ module.print=s=>output.push(String(s));
+ module.printErr=s=>output.push(String(s));
+ let code;
+ try{code=module.callMain(args)}
+ finally{module.print=oldPrint;module.printErr=oldErr}
+ return {code,output};
+}
+function fileExists(module,path){
+ try{module.FS.stat(path);return true}catch(e){return false}
+}
+function readOutput(module){
+ return module.FS.readFile('/clickdy-output.pdf');
+}
+async function inspectPdf(){
+ if(!selectedFile)return toast('Choose a PDF file first.');
+ $('inspectBtn').disabled=true;$('repairBtn').disabled=true;
+ resetReport();logMessages=[];
+ $('report').style.display='block';
+ $('reportBadge').textContent='Inspecting';
+ $('reportNote').textContent='Reading your PDF and checking its structure...';
+ try{
+  setProgress(10,'Reading document');
+  const bytes=new Uint8Array(await selectedFile.arrayBuffer());
+  const header=new TextDecoder('latin1').decode(bytes.subarray(0,Math.min(bytes.length,2048)));
+  if(!header.includes('%PDF-'))throw new Error('PDF signature was not found. This may not be a valid PDF file.');
+  log('PDF signature detected.');
+  setProgress(25,'Loading PDF preview');
+  let pages='—',previewError=null;
+  try{
+   const task=pdfjsLib.getDocument({data:bytes.slice(),stopAtErrors:false});
+   pdfDoc=await task.promise;
+   pages=pdfDoc.numPages;
+   log('PDF.js opened the document. Page count: '+pages+'.');
+   await renderPreviews(pdfDoc);
+  }catch(err){
+   previewError=err;
+   log('Preview warning: '+err.message);
+  }
+  setProgress(55,'Loading repair engine');
+  const module=await loadQpdf();
+  qpdf=module;
+  log('QPDF WebAssembly engine loaded.');
+  setProgress(75,'Checking PDF structure');
+  writeInput(module,bytes);
+  const check=runQpdf(module,['--check','/clickdy-input.pdf']);
+  check.output.forEach(log);
+  log('QPDF check exit code: '+check.code);
+  const health=check.code===0?'OK':check.code===3?'WARN':'ERROR';
+  $('statPages').textContent=pages;
+  $('statSize').textContent=formatBytes(selectedFile.size);
+  $('statHealth').textContent=health;
+  $('reportBadge').textContent=health==='OK'?'Structure readable':health==='WARN'?'Warnings found':'Check errors';
+  $('reportBadge').style.background=health==='OK'?'#122b25':health==='WARN'?'#332b19':'#321d27';
+  $('reportBadge').style.color=health==='OK'?'#7be2bf':health==='WARN'?'#f4c66b':'#ff91a2';
+  $('reportNote').textContent=health==='OK'
+   ?'QPDF completed its structural check without reporting warnings. A rebuild can still normalize the document.'
+   :health==='WARN'
+   ?'QPDF reported warnings. Some structural issues may be repairable. Try Automatic repair and inspect the result.'
+   :'QPDF reported errors. Recovery may be limited. Automatic repair will attempt to write a fresh document.';
+  addStatus('PDF header','PDF signature found','ok');
+  addStatus('Page preview',previewError?'Preview could not be fully loaded':pages+' page(s) readable','ok');
+  addStatus('QPDF structure check',health==='OK'?'No warnings reported':health==='WARN'?'Warnings reported':'Errors reported',health==='OK'?'ok':health==='WARN'?'warn':'bad');
+  setProgress(100,'Inspection complete');
+  toast('PDF inspection completed.');
+ }catch(err){
+  log('Inspection failed: '+err.message);
+  $('reportBadge').textContent='Inspection failed';
+  $('reportNote').textContent=err.message;
+  $('statHealth').textContent='FAIL';
+  addStatus('Inspection',err.message,'bad');
+  toast('Could not inspect this PDF.');
+ }finally{
+  $('inspectBtn').disabled=false;$('repairBtn').disabled=false;
+  setTimeout(resetProgress,1200);
+ }
+}
+function addStatus(title,detail,type){
+ const row=document.createElement('div');row.className='status-item';
+ const dot=document.createElement('span');dot.className='status-dot '+type;
+ const txt=document.createElement('span');txt.innerHTML='<b>'+escapeHtml(title)+':</b> '+escapeHtml(detail);
+ row.append(dot,txt);$('statusList').append(row);
+}
+async function renderPreviews(doc){
+ $('previewGrid').innerHTML='';
+ $('previewSection').style.display='block';
+ const count=Math.min(doc.numPages,6);
+ $('previewCount').textContent='· Showing '+count+' of '+doc.numPages+' pages';
+ for(let i=1;i<=count;i++){
+  const page=await doc.getPage(i);
+  const viewport=page.getViewport({scale:0.45});
+  const canvas=document.createElement('canvas');
+  canvas.width=Math.floor(viewport.width);canvas.height=Math.floor(viewport.height);
+  const ctx=canvas.getContext('2d');
+  await page.render({canvasContext:ctx,viewport}).promise;
+  const card=document.createElement('div');card.className='page-card';
+  const label=document.createElement('div');label.className='page-label';label.textContent='Page '+i;
+  card.append(canvas,label);$('previewGrid').append(card);
+ }
+}
+async function repairPdf(){
+ if(!selectedFile)return toast('Choose a PDF file first.');
+ if(document.querySelector('input[name="repairMode"]:checked').value==='check')return inspectPdf();
+ $('inspectBtn').disabled=true;$('repairBtn').disabled=true;
+ resetReport();logMessages=[];
+ $('report').style.display='block';
+ $('reportBadge').textContent='Repairing';
+ $('reportNote').textContent='The repair engine is attempting to rebuild the PDF structure. Keep this tab open.';
+ try{
+  setProgress(8,'Reading original PDF');
+  const bytes=new Uint8Array(await selectedFile.arrayBuffer());
+  const header=new TextDecoder('latin1').decode(bytes.subarray(0,Math.min(bytes.length,2048)));
+  if(!header.includes('%PDF-'))throw new Error('PDF signature was not found. This file may not be a valid PDF.');
+  log('Original PDF loaded: '+selectedFile.name);
+  setProgress(20,'Loading QPDF WebAssembly');
+  const module=await loadQpdf();
+  qpdf=module;log('Repair engine initialized.');
+  setProgress(42,'Inspecting document structure');
+  writeInput(module,bytes);
+  const check=runQpdf(module,['--check','/clickdy-input.pdf']);
+  check.output.forEach(log);
+  log('Initial check exit code: '+check.code);
+  setProgress(65,'Rebuilding PDF structure');
+  const result=runQpdf(module,['/clickdy-input.pdf','/clickdy-output.pdf']);
+  result.output.forEach(log);
+  log('Rebuild exit code: '+result.code);
+  if(!fileExists(module,'/clickdy-output.pdf'))throw new Error('The repair engine could not create an output file. The PDF may be severely damaged or encrypted.');
+  const output=readOutput(module);
+  if(!output||output.length<10)throw new Error('The repair engine returned an empty or invalid output.');
+  const outputHeader=new TextDecoder('latin1').decode(output.subarray(0,Math.min(output.length,20)));
+  if(!outputHeader.includes('%PDF-'))throw new Error('The generated output does not have a valid PDF signature.');
+  setProgress(82,'Validating repaired PDF');
+  let outputPages='Not verified';
+  try{
+   const task=pdfjsLib.getDocument({data:output.slice(),stopAtErrors:false});
+   const repairedDoc=await task.promise;
+   outputPages=repairedDoc.numPages;
+   if(pdfDoc){try{await pdfDoc.destroy()}catch(e){}}
+   pdfDoc=repairedDoc;
+   await renderPreviews(repairedDoc);
+   log('Repaired PDF opened in PDF.js. Pages: '+outputPages+'.');
+  }catch(err){
+   log('Output preview validation warning: '+err.message);
+   throw new Error('A PDF was written, but the output could not be opened for validation. No download has been offered.');
+  }
+  repairedBytes=output.slice();
+  repairedName=selectedFile.name.replace(/\.pdf$/i,'')+'_repaired.pdf';
+  $('statPages').textContent=outputPages;
+  $('statSize').textContent=formatBytes(output.length);
+  $('statHealth').textContent=result.code===0?'REBUILT':'REBUILT*';
+  $('reportBadge').textContent='Output validated';
+  $('reportBadge').style.background='#122b25';$('reportBadge').style.color='#7be2bf';
+  $('reportNote').textContent='A rebuilt PDF was created and successfully opened for preview. Compare the pages and verify the document before using it. Rebuilding does not guarantee every damaged object or element was recovered.';
+  addStatus('Original file',formatBytes(bytes.length),'ok');
+  addStatus('Repair output',formatBytes(output.length),'ok');
+  addStatus('Output validation',outputPages+' page(s) opened in PDF.js','ok');
+  addStatus('Recovery limitations','Check visual content and missing elements manually','warn');
+  $('downloadBtn').style.display='block';
+  $('downloadBtn').textContent='↓ Download repaired PDF';
+  setProgress(100,'Repair and validation complete');
+  log('Validated output ready for download.');
+  toast('PDF rebuild completed. Review the pages before downloading.');
+ }catch(err){
+  log('Repair failed: '+err.message);
+  $('reportBadge').textContent='Repair unsuccessful';
+  $('reportBadge').style.background='#321d27';$('reportBadge').style.color='#ff91a2';
+  $('reportNote').textContent=err.message;
+  $('statHealth').textContent='FAILED';
+  addStatus('Repair result',err.message,'bad');
+  $('downloadBtn').style.display='none';
+  toast('Repair could not be completed.');
+ }finally{
+  $('inspectBtn').disabled=false;$('repairBtn').disabled=false;
+  setTimeout(resetProgress,1800);
+ }
+}
+$('inspectBtn').onclick=inspectPdf;
+$('repairBtn').onclick=repairPdf;
+$('downloadBtn').onclick=()=>{
+ if(!repairedBytes)return toast('No validated repaired PDF is available.');
+ const blob=new Blob([repairedBytes],{type:'application/pdf'});
+ const url=URL.createObjectURL(blob);
+ const a=document.createElement('a');a.href=url;a.download=repairedName;
+ document.body.appendChild(a);a.click();a.remove();
+ setTimeout(()=>URL.revokeObjectURL(url),30000);
+ toast('Repaired PDF download started.');
+};
+document.querySelectorAll('[data-soon]').forEach(b=>b.onclick=()=>toast(b.dataset.soon+' is available from Clickdy tools.'));
+</script>
+</body>
+</html>

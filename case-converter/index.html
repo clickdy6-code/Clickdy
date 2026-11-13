@@ -1,360 +1,269 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Convert text case online with Clickdy. Change text to uppercase, lowercase, title case, sentence case, camelCase, snake_case, kebab-case and more.">
-<title>Case Converter Online - Clickdy</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070b14">
+<title>Case Converter - Clickdy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{
-  --bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;
-  --text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--accent2:#3aa9e8;
-  --success:#62d89a;--danger:#ff6f7d;--border:#213044;--radius:18px;
-}
+:root{--bg:#070b14;--surface:#0d1422;--surface2:#111b2d;--primary:#38a5ff;--cyan:#2ee7df;--text:#f4f8ff;--muted:#93a4bd;--line:#1d2b42}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:Segoe UI,Arial,sans-serif}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif}
 button,textarea{font:inherit}
 button{cursor:pointer}
-.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-.topbar{height:90px;border-bottom:1px solid rgba(255,255,255,.08);display:flex;align-items:center}
-.topbar-inner{width:min(1180px,calc(100% - 36px));margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand{display:flex;align-items:center;gap:12px;color:var(--text);text-decoration:none;font-size:21px;font-weight:700}
-.brand img{width:34px;height:34px;object-fit:contain}
-.back{color:var(--muted);text-decoration:none;font-size:14px;transition:.2s}
-.back:hover{color:var(--text)}
-.page{width:min(1180px,calc(100% - 36px));margin:auto;padding:58px 0 70px}
-.hero{text-align:center;margin-bottom:34px}
-.eyebrow{display:inline-flex;padding:8px 13px;border:1px solid rgba(99,199,255,.28);border-radius:999px;color:var(--accent);background:rgba(99,199,255,.05);font-size:12px;font-weight:700;letter-spacing:.3px}
-.hero h1{margin:17px 0 12px;font-size:clamp(34px,5vw,54px);line-height:1.03;letter-spacing:-1.8px}
-.hero h1 span{color:var(--accent)}
-.hero p{max-width:700px;margin:0 auto;color:var(--muted);line-height:1.7;font-size:15px}
-.workspace{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);box-shadow:0 22px 60px rgba(0,0,0,.22);overflow:hidden}
-.workspace-head{padding:18px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:15px}
-.workspace-title{font-weight:700}.workspace-sub{color:var(--muted);font-size:13px;margin-top:4px}
-.actions{display:flex;gap:9px;flex-wrap:wrap}
-.btn{border:1px solid var(--border);background:var(--panel2);color:var(--text);padding:10px 14px;border-radius:10px;font-weight:650;transition:.2s}
-.btn:hover{border-color:#36506d;transform:translateY(-1px)}
-.btn.primary{background:var(--accent);color:#06111a;border-color:var(--accent)}
-.btn.danger{color:#ff9aa3}
-.editor-grid{padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.panel{min-width:0}
-.panel-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px}
-.panel-title strong{font-size:13px}.panel-title span{font-size:12px;color:var(--muted)}
-textarea{width:100%;min-height:360px;resize:vertical;border:1px solid var(--border);border-radius:14px;outline:none;background:#0a1019;color:var(--text);padding:18px;line-height:1.7;font-size:15px}
-textarea:focus{border-color:rgba(99,199,255,.65);box-shadow:0 0 0 3px rgba(99,199,255,.08)}
-textarea::placeholder{color:#657286}
-.controls{padding:0 20px 20px}
-.section-title{font-size:13px;font-weight:700;margin:0 0 10px}
-.case-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}
-.case-btn{min-height:54px;border:1px solid var(--border);border-radius:12px;background:var(--panel2);color:var(--text);padding:9px 10px;text-align:left;transition:.2s}
-.case-btn:hover{border-color:#36506d;background:var(--panel3)}
-.case-btn strong{display:block;font-size:13px}.case-btn small{display:block;color:var(--muted);font-size:11px;margin-top:4px}
-.status{min-height:18px;padding:0 20px 18px;color:var(--success);font-size:12px}
-.info{padding:0 20px 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.info-card{background:var(--panel2);border:1px solid var(--border);border-radius:13px;padding:15px}
-.info-card b{display:block;font-size:13px;margin-bottom:5px}.info-card span{color:var(--muted);font-size:12px;line-height:1.5}
-.footer-note{text-align:center;color:#657286;font-size:12px;margin-top:22px}
-@media(max-width:850px){
- .editor-grid{grid-template-columns:1fr}.case-grid{grid-template-columns:repeat(2,1fr)}.info{grid-template-columns:1fr}
-}
-@media(max-width:620px){
- .topbar{height:76px}.topbar-inner,.page{width:min(100% - 24px,1180px)}.page{padding-top:38px}
- .workspace-head{align-items:flex-start;flex-direction:column}.actions{width:100%}.btn{flex:1}
- .editor-grid{padding:14px}.controls,.info{padding-left:14px;padding-right:14px}
- textarea{min-height:300px;padding:14px}.case-grid{grid-template-columns:1fr 1fr}
-}
+.topbar{height:68px;padding:0 5%;display:flex;align-items:center;justify-content:space-between;background:#090f1b;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.brand{display:flex;align-items:center;gap:10px;cursor:pointer}
+.brand img{width:37px;height:37px;object-fit:contain}
+.brand-name{font:800 20px 'Plus Jakarta Sans'}
+.brand-tag{font-size:9px;letter-spacing:1.4px;color:var(--muted);margin-top:2px}
+.back{font-size:13px;color:#b7c8dc;text-decoration:none;font-weight:600}
+.back:hover{color:var(--cyan)}
+.container{max-width:1160px;margin:auto;padding:35px 20px 55px}
+.heading{margin-bottom:25px}
+.eyebrow{font-size:11px;letter-spacing:1.6px;color:var(--cyan);font-weight:700;text-transform:uppercase}
+h1{font:800 clamp(26px,4vw,36px) 'Plus Jakarta Sans';letter-spacing:-1px;margin:9px 0}
+.heading p{font-size:14px;color:var(--muted);line-height:1.7;margin:0;max-width:740px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+.panel h2{font:700 15px 'Plus Jakarta Sans';margin:0 0 15px}
+.editor-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.editor-label{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:700;margin-bottom:9px}
+.editor-label span{font-size:10px;color:var(--muted);font-weight:500}
+textarea{width:100%;min-height:260px;resize:vertical;background:#09111e;border:1px solid #263951;border-radius:11px;color:var(--text);padding:15px;outline:none;font-size:13px;line-height:1.8}
+textarea:focus{border-color:var(--primary)}
+textarea::placeholder{color:#667991}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+button{border-radius:9px;padding:9px 12px;font-size:11px;font-weight:700}
+.primary{border:0;background:linear-gradient(110deg,var(--primary),#2587d8);color:white}
+.primary:hover{filter:brightness(1.1)}
+.secondary{background:#17263a;color:#d8e9fa;border:1px solid #2b4059}
+.secondary:hover{border-color:var(--primary)}
+.danger{background:#351c29;color:#ffb5c2;border:1px solid #523040}
+.full{width:100%}
+.case-heading{font:700 14px 'Plus Jakarta Sans';margin:22px 0 12px}
+.case-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.case-card{border:1px solid var(--line);background:#0a1321;border-radius:11px;padding:13px;text-align:left;color:var(--text);transition:.18s;min-width:0}
+.case-card:hover{border-color:var(--primary);background:#10223a;transform:translateY(-1px)}
+.case-card.active{border-color:var(--cyan);background:#0d2434;box-shadow:0 0 0 1px #2ee7df20}
+.case-card b{display:block;font-size:12px;overflow-wrap:anywhere}
+.case-card small{display:block;color:var(--muted);font-size:10px;margin-top:5px;line-height:1.4}
+.case-card code{display:block;color:var(--cyan);font-size:10px;margin-top:8px;overflow-wrap:anywhere}
+.stats{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}
+.stat{background:#0a1321;border:1px solid var(--line);border-radius:9px;padding:9px 12px;font-size:11px;color:var(--muted)}
+.stat strong{color:var(--text);margin-left:5px}
+.bottom-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}
+.bottom-actions button{padding:11px 15px}
+.status{font-size:11px;color:var(--muted);min-height:18px;margin-top:10px}
+.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:17px}
+.info{background:#0a1321;border:1px solid var(--line);padding:14px;border-radius:11px}
+.info b{display:block;font-size:12px;margin-bottom:6px}
+.info p{font-size:11px;color:var(--muted);line-height:1.55;margin:0}
+.footer{text-align:center;color:#71829b;font-size:11px;margin-top:28px}
+@media(max-width:800px){.case-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:600px){.topbar{padding:0 14px;height:62px}.container{padding:25px 12px 40px}.panel{padding:14px}.back{font-size:11px}.editor-grid{grid-template-columns:1fr}.case-grid{grid-template-columns:repeat(2,1fr)}.info-grid{grid-template-columns:1fr}}
 </style>
-<!-- Clickdy SEO metadata -->
-<link rel="canonical" href="https://clickdy.vercel.app/case-converter/">
-<meta name="robots" content="index,follow">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Case Converter Online - Clickdy">
-<meta property="og:description" content="Convert text case online with Clickdy. Change text to uppercase, lowercase, title case, sentence case, camelCase, snake_case, kebab-case and more.">
-<meta property="og:url" content="https://clickdy.vercel.app/case-converter/">
-<meta property="og:site_name" content="Clickdy">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Case Converter Online - Clickdy">
-<meta name="twitter:description" content="Convert text case online with Clickdy. Change text to uppercase, lowercase, title case, sentence case, camelCase, snake_case, kebab-case and more.">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Case Converter Online",
-  "url": "https://clickdy.vercel.app/case-converter/",
-  "description": "Convert text case online with Clickdy. Change text to uppercase, lowercase, title case, sentence case, camelCase, snake_case, kebab-case and more.",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "Any",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Clickdy",
-    "url": "https://clickdy.vercel.app/"
-  }
-}
-</script>
 </head>
 <body>
 <header class="topbar">
-  <div class="topbar-inner">
-    <a class="brand" href="../index.html" aria-label="Clickdy home">
-      <img src="../assets/logo.png" alt="Clickdy">
-      <span>Clickdy</span>
-    </a>
-    <a class="back" href="../index.html">← Back to Home</a>
-  </div>
+ <div class="brand" onclick="location.reload()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload()}">
+  <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
+  <div><div class="brand-name">Clickdy</div><div class="brand-tag">TEXT TOOLS</div></div>
+ </div>
+ <a class="back" href="https://clickdy.vercel.app/">← Back to Clickdy Tools</a>
 </header>
 
-<main class="page">
-  <section class="hero">
-    <div class="eyebrow">✦ FREE TEXT TOOL • NO SIGN-UP</div>
-    <h1>Change Text <span>Case Instantly.</span></h1>
-    <p>Convert your text into the exact case you need — from uppercase and sentence case to camelCase, snake_case and more.</p>
-  </section>
+<main class="container">
+ <div class="heading">
+  <div class="eyebrow">Free online text utility</div>
+  <h1>Case Converter</h1>
+  <p>Convert your text into uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case and more. Get instant results with one click.</p>
+ </div>
 
-  <section class="workspace" aria-label="Case converter">
-    <div class="workspace-head">
-      <div>
-        <div class="workspace-title">Case Converter</div>
-        <div class="workspace-sub">Enter text, then choose any conversion below.</div>
-      </div>
-      <div class="actions">
-        <button class="btn" id="pasteBtn" type="button">Paste</button>
-        <button class="btn" id="copyBtn" type="button">Copy Result</button>
-        <button class="btn" id="downloadBtn" type="button">Download TXT</button>
-        <button class="btn danger" id="clearBtn" type="button">Clear</button>
-      </div>
+ <section class="panel">
+  <h2>Convert your text</h2>
+  <div class="editor-grid">
+   <div>
+    <div class="editor-label">Original text <span id="inputCount">0 characters</span></div>
+    <textarea id="inputText" placeholder="Type or paste your text here...
+
+Example: welcome to clickdy online tools"></textarea>
+    <div class="toolbar">
+     <button class="secondary" id="pasteBtn">Paste</button>
+     <button class="secondary" id="clearBtn">Clear text</button>
     </div>
-
-    <div class="editor-grid">
-      <div class="panel">
-        <div class="panel-title"><strong>Input text</strong><span id="inputCount">0 characters</span></div>
-        <label class="sr-only" for="inputText">Input text</label>
-        <textarea id="inputText" spellcheck="true" placeholder="Type or paste your text here..."></textarea>
-      </div>
-      <div class="panel">
-        <div class="panel-title"><strong>Converted result</strong><span id="outputCount">0 characters</span></div>
-        <label class="sr-only" for="outputText">Converted result</label>
-        <textarea id="outputText" readonly aria-live="polite" placeholder="Your converted text will appear here..."></textarea>
-      </div>
+   </div>
+   <div>
+    <div class="editor-label">Converted text <span id="outputCount">0 characters</span></div>
+    <textarea id="outputText" placeholder="Your converted text will appear here..." readonly></textarea>
+    <div class="toolbar">
+     <button class="secondary" id="copyBtn">Copy result</button>
+     <button class="secondary" id="downloadBtn">Download TXT</button>
     </div>
+   </div>
+  </div>
 
-    <div class="controls">
-      <div class="section-title">Choose a case</div>
-      <div class="case-grid">
-        <button class="case-btn" data-case="upper" type="button"><strong>UPPERCASE</strong><small>ALL LETTERS UPPERCASE</small></button>
-        <button class="case-btn" data-case="lower" type="button"><strong>lowercase</strong><small>all letters lowercase</small></button>
-        <button class="case-btn" data-case="sentence" type="button"><strong>Sentence case</strong><small>First letter of sentences</small></button>
-        <button class="case-btn" data-case="title" type="button"><strong>Title Case</strong><small>Capitalize important words</small></button>
-        <button class="case-btn" data-case="camel" type="button"><strong>camelCase</strong><small>developer-friendly</small></button>
-        <button class="case-btn" data-case="pascal" type="button"><strong>PascalCase</strong><small>class and component names</small></button>
-        <button class="case-btn" data-case="snake" type="button"><strong>snake_case</strong><small>underscore separated</small></button>
-        <button class="case-btn" data-case="kebab" type="button"><strong>kebab-case</strong><small>hyphen separated</small></button>
-        <button class="case-btn" data-case="constant" type="button"><strong>CONSTANT_CASE</strong><small>uppercase snake case</small></button>
-        <button class="case-btn" data-case="dot" type="button"><strong>dot.case</strong><small>dot separated</small></button>
-        <button class="case-btn" data-case="alternating" type="button"><strong>aLtErNaTiNg</strong><small>alternating letters</small></button>
-        <button class="case-btn" data-case="inverse" type="button"><strong>iNVERSE cASE</strong><small>swap letter casing</small></button>
-      </div>
-    </div>
+  <div class="stats">
+   <div class="stat">Words <strong id="wordCount">0</strong></div>
+   <div class="stat">Characters <strong id="charCount">0</strong></div>
+   <div class="stat">Lines <strong id="lineCount">0</strong></div>
+  </div>
 
-    <div class="status" id="status" aria-live="polite"></div>
+  <div class="case-heading">Choose a conversion style</div>
+  <div class="case-grid" id="caseGrid">
+   <button class="case-card active" data-case="upper"><b>UPPERCASE</b><small>All letters in capitals</small><code>HELLO WORLD</code></button>
+   <button class="case-card" data-case="lower"><b>lowercase</b><small>All letters in small case</small><code>hello world</code></button>
+   <button class="case-card" data-case="title"><b>Title Case</b><small>Capitalize each word</small><code>Hello World</code></button>
+   <button class="case-card" data-case="sentence"><b>Sentence case</b><small>Capitalize sentence starts</small><code>Hello world. How are you?</code></button>
+   <button class="case-card" data-case="alternating"><b>aLtErNaTiNg CaSe</b><small>Alternate lower and upper</small><code>hElLo WoRlD</code></button>
+   <button class="case-card" data-case="inverse"><b>InVeRsE CaSe</b><small>Invert existing letter cases</small><code>hELLO wORLD</code></button>
+   <button class="case-card" data-case="camel"><b>camelCase</b><small>First word lower, next words capitalized</small><code>helloWorld</code></button>
+   <button class="case-card" data-case="pascal"><b>PascalCase</b><small>Capitalize each word, no spaces</small><code>HelloWorld</code></button>
+   <button class="case-card" data-case="snake"><b>snake_case</b><small>Words separated by underscores</small><code>hello_world</code></button>
+   <button class="case-card" data-case="upperSnake"><b>CONSTANT_CASE</b><small>Uppercase with underscores</small><code>HELLO_WORLD</code></button>
+   <button class="case-card" data-case="kebab"><b>kebab-case</b><small>Words separated by hyphens</small><code>hello-world</code></button>
+   <button class="case-card" data-case="train"><b>Train-Case</b><small>Capitalized words with hyphens</small><code>Hello-World</code></button>
+   <button class="case-card" data-case="dot"><b>dot.case</b><small>Words separated by dots</small><code>hello.world</code></button>
+   <button class="case-card" data-case="path"><b>path/case</b><small>Words separated by slashes</small><code>hello/world</code></button>
+   <button class="case-card" data-case="flat"><b>flatcase</b><small>Lowercase, no separators</small><code>helloworld</code></button>
+   <button class="case-card" data-case="reverse"><b>Reverse Text</b><small>Reverse all characters</small><code>dlrow olleh</code></button>
+  </div>
 
-    <div class="info">
-      <div class="info-card"><b>Browser-based</b><span>Your text is processed directly in your browser.</span></div>
-      <div class="info-card"><b>Multiple formats</b><span>Useful for writing, filenames, code variables and headings.</span></div>
-      <div class="info-card"><b>Quick workflow</b><span>Convert, copy or download the result without an account.</span></div>
-    </div>
-  </section>
+  <div class="bottom-actions">
+   <button class="primary" id="convertBtn">Convert text</button>
+   <button class="secondary" id="copyAllBtn">Copy converted text</button>
+   <button class="secondary" id="resetBtn">Reset</button>
+  </div>
+  <div class="status" id="status" aria-live="polite">Enter text and select a conversion style.</div>
+ </section>
 
-  <div class="footer-note">Your text stays in your browser. No upload required.</div>
+ <div class="info-grid">
+  <div class="info"><b>What is Title Case?</b><p>Title Case capitalizes the first letter of each word. Useful for headings and titles.</p></div>
+  <div class="info"><b>What is camelCase?</b><p>camelCase joins words together and capitalizes each word after the first. Common in JavaScript.</p></div>
+  <div class="info"><b>What is snake_case?</b><p>snake_case separates words with underscores. Common in Python and variable naming.</p></div>
+ </div>
+ <div class="footer">Made with Clickdy · Free browser-based text conversion.</div>
 </main>
 
 <script>
 (() => {
-  const input = document.getElementById("inputText");
-  const output = document.getElementById("outputText");
-  const inputCount = document.getElementById("inputCount");
-  const outputCount = document.getElementById("outputCount");
-  const status = document.getElementById("status");
-  let currentCase = "sentence";
+ const $=id=>document.getElementById(id);
+ const input=$('inputText'),output=$('outputText');
+ let activeCase='upper';
 
-  const smallWords = new Set([
-    "a","an","and","as","at","but","by","for","if","in","nor","of","on","or","the","to","up","via","with"
-  ]);
-
-  function words(text) {
-    return text.trim().split(/\s+/).filter(Boolean);
+ function wordsOf(text){
+  // Keep Unicode letters/numbers and internal apostrophes, discard separators.
+  return text.match(/[\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*/gu)||[];
+ }
+ function titleWord(word){
+  const chars=Array.from(word.toLocaleLowerCase());
+  if(!chars.length)return '';
+  return chars[0].toLocaleUpperCase()+chars.slice(1).join('');
+ }
+ function sentenceCase(text){
+  let output='',capitalize=true;
+  for(const ch of text.toLocaleLowerCase()){
+   if(capitalize&&/[\p{L}\p{N}]/u.test(ch)){
+    output+=ch.toLocaleUpperCase();capitalize=false;
+   }else output+=ch;
+   if(/[.!?。！？]/u.test(ch))capitalize=true;
   }
-
-  function wordParts(text) {
-    return text
-      .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
-      .replace(/[^A-Za-z0-9]+/g, " ")
-      .trim()
-      .split(/\s+/)
-      .filter(Boolean);
+  return output;
+ }
+ function alternating(text){
+  let i=0;
+  return Array.from(text).map(ch=>{
+   if(!/\p{L}/u.test(ch))return ch;
+   return i++%2===0?ch.toLocaleLowerCase():ch.toLocaleUpperCase();
+  }).join('');
+ }
+ function inverse(text){
+  return Array.from(text).map(ch=>{
+   const upper=ch.toLocaleUpperCase(),lower=ch.toLocaleLowerCase();
+   if(ch===upper&&ch!==lower)return lower;
+   if(ch===lower&&ch!==upper)return upper;
+   return ch;
+  }).join('');
+ }
+ function convert(text,type){
+  const w=wordsOf(text);
+  switch(type){
+   case 'upper':return text.toLocaleUpperCase();
+   case 'lower':return text.toLocaleLowerCase();
+   case 'title':return text.toLocaleLowerCase().replace(/(^|[\s([{])(\p{L}|\p{N})/gu,(m,prefix,ch)=>prefix+ch.toLocaleUpperCase());
+   case 'sentence':return sentenceCase(text);
+   case 'alternating':return alternating(text);
+   case 'inverse':return inverse(text);
+   case 'camel':return w.map((word,i)=>i===0?word.toLocaleLowerCase():titleWord(word)).join('');
+   case 'pascal':return w.map(titleWord).join('');
+   case 'snake':return w.map(x=>x.toLocaleLowerCase()).join('_');
+   case 'upperSnake':return w.map(x=>x.toLocaleUpperCase()).join('_');
+   case 'kebab':return w.map(x=>x.toLocaleLowerCase()).join('-');
+   case 'train':return w.map(titleWord).join('-');
+   case 'dot':return w.map(x=>x.toLocaleLowerCase()).join('.');
+   case 'path':return w.map(x=>x.toLocaleLowerCase()).join('/');
+   case 'flat':return w.map(x=>x.toLocaleLowerCase()).join('');
+   case 'reverse':return Array.from(text).reverse().join('');
+   default:return text;
   }
-
-  function titleCase(text) {
-    const tokens = text.toLowerCase().split(/(\s+)/);
-    let wordIndex = 0;
-    const all = words(text).length;
-    return tokens.map(token => {
-      if (/^\s+$/.test(token) || !token) return token;
-      wordIndex++;
-      const lower = token.toLowerCase();
-      if (wordIndex !== 1 && wordIndex !== all && smallWords.has(lower)) return lower;
-      return lower.charAt(0).toUpperCase() + lower.slice(1);
-    }).join("");
+ }
+ function updateStats(){
+  const text=input.value;
+  $('inputCount').textContent=Array.from(text).length.toLocaleString()+' characters';
+  $('outputCount').textContent=Array.from(output.value).length.toLocaleString()+' characters';
+  $('wordCount').textContent=wordsOf(text).length.toLocaleString();
+  $('charCount').textContent=Array.from(text).length.toLocaleString();
+  $('lineCount').textContent=text?text.split(/\r\n|\r|\n/).length.toLocaleString():'0';
+ }
+ function run(){
+  const text=input.value;
+  if(!text){output.value='';updateStats();$('status').textContent='Please enter some text first.';return;}
+  output.value=convert(text,activeCase);
+  updateStats();
+  $('status').textContent='Converted successfully using '+activeCase+' format.';
+ }
+ function selectCase(type){
+  activeCase=type;
+  document.querySelectorAll('.case-card').forEach(b=>b.classList.toggle('active',b.dataset.case===type));
+  run();
+ }
+ async function copy(){
+  if(!output.value){$('status').textContent='Nothing to copy yet.';return;}
+  try{await navigator.clipboard.writeText(output.value);$('status').textContent='Converted text copied to clipboard.';}
+  catch{
+   output.focus();output.select();
+   try{document.execCommand('copy');$('status').textContent='Converted text copied.';}
+   catch{$('status').textContent='Copy unavailable. Select the output and copy manually.';}
   }
-
-  function sentenceCase(text) {
-    const lower = text.toLowerCase();
-    let start = true;
-    return Array.from(lower).map(ch => {
-      if (start && /\p{L}/u.test(ch)) {
-        start = false;
-        return ch.toLocaleUpperCase();
-      }
-      if (/[.!?…。！？]/u.test(ch)) start = true;
-      return ch;
-    }).join("");
-  }
-
-  function pascal(text) {
-    return wordParts(text).map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join("");
-  }
-
-  function camel(text) {
-    const p = wordParts(text).map(w => w.toLowerCase());
-    return p.map((w,i) => i === 0 ? w : w.charAt(0).toUpperCase() + w.slice(1)).join("");
-  }
-
-  function separated(text, separator, upper) {
-    const p = wordParts(text).map(w => w.toLowerCase());
-    const result = p.join(separator);
-    return upper ? result.toUpperCase() : result;
-  }
-
-  function alternating(text) {
-    let upper = false;
-    return Array.from(text.toLowerCase()).map(ch => {
-      if (!/\p{L}/u.test(ch)) return ch;
-      upper = !upper;
-      return upper ? ch.toLocaleUpperCase() : ch;
-    }).join("");
-  }
-
-  function inverse(text) {
-    return Array.from(text).map(ch => {
-      if (ch.toLocaleUpperCase() === ch && ch.toLocaleLowerCase() !== ch) return ch.toLocaleLowerCase();
-      if (ch.toLocaleLowerCase() === ch && ch.toLocaleUpperCase() !== ch) return ch.toLocaleUpperCase();
-      return ch;
-    }).join("");
-  }
-
-  function convert(text, type) {
-    switch(type){
-      case "upper": return text.toLocaleUpperCase();
-      case "lower": return text.toLocaleLowerCase();
-      case "sentence": return sentenceCase(text);
-      case "title": return titleCase(text);
-      case "camel": return camel(text);
-      case "pascal": return pascal(text);
-      case "snake": return separated(text, "_", false);
-      case "kebab": return separated(text, "-", false);
-      case "constant": return separated(text, "_", true);
-      case "dot": return separated(text, ".", false);
-      case "alternating": return alternating(text);
-      case "inverse": return inverse(text);
-      default: return text;
-    }
-  }
-
-  function update() {
-    output.value = convert(input.value, currentCase);
-    inputCount.textContent = input.value.length.toLocaleString() + " characters";
-    outputCount.textContent = output.value.length.toLocaleString() + " characters";
-  }
-
-  function showStatus(message) {
-    status.textContent = message;
-    clearTimeout(showStatus.timer);
-    showStatus.timer = setTimeout(() => status.textContent = "", 2200);
-  }
-
-  input.addEventListener("input", update);
-
-  document.querySelectorAll("[data-case]").forEach(button => {
-    button.addEventListener("click", () => {
-      currentCase = button.dataset.case;
-      update();
-      showStatus(button.querySelector("strong").textContent + " applied.");
-    });
-  });
-
-  document.getElementById("clearBtn").addEventListener("click", () => {
-    input.value = "";
-    update();
-    input.focus();
-    showStatus("Text cleared.");
-  });
-
-  document.getElementById("copyBtn").addEventListener("click", async () => {
-    if (!output.value) {
-      showStatus("Nothing to copy.");
-      return;
-    }
-    try {
-      await navigator.clipboard.writeText(output.value);
-      showStatus("Result copied.");
-    } catch {
-      output.focus();
-      output.select();
-      document.execCommand("copy");
-      showStatus("Result copied.");
-    }
-  });
-
-  document.getElementById("pasteBtn").addEventListener("click", async () => {
-    try {
-      const text = await navigator.clipboard.readText();
-      if (!text) {
-        showStatus("Clipboard is empty.");
-        return;
-      }
-      input.value = text;
-      update();
-      input.focus();
-      showStatus("Text pasted.");
-    } catch {
-      input.focus();
-      showStatus("Clipboard access blocked. Press Ctrl+V.");
-    }
-  });
-
-  document.getElementById("downloadBtn").addEventListener("click", () => {
-    if (!output.value) {
-      showStatus("Nothing to download.");
-      return;
-    }
-    const blob = new Blob([output.value], {type:"text/plain;charset=utf-8"});
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "clickdy-converted-text.txt";
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    URL.revokeObjectURL(url);
-    showStatus("TXT downloaded.");
-  });
-
-  update();
+ }
+ input.addEventListener('input',run);
+ document.querySelectorAll('.case-card').forEach(b=>b.addEventListener('click',()=>selectCase(b.dataset.case)));
+ $('convertBtn').addEventListener('click',run);
+ $('copyBtn').addEventListener('click',copy);
+ $('copyAllBtn').addEventListener('click',copy);
+ $('clearBtn').addEventListener('click',()=>{
+  input.value='';output.value='';updateStats();$('status').textContent='Text cleared.';
+ });
+ $('resetBtn').addEventListener('click',()=>{
+  input.value='';output.value='';selectCase('upper');updateStats();$('status').textContent='Converter reset.';
+ });
+ $('pasteBtn').addEventListener('click',async()=>{
+  try{
+   const text=await navigator.clipboard.readText();
+   input.setRangeText(text,input.selectionStart,input.selectionEnd,'end');
+   run();$('status').textContent='Text pasted and converted.';
+  }catch{$('status').textContent='Clipboard access blocked. Use Ctrl + V in the input box.';}
+ });
+ $('downloadBtn').addEventListener('click',()=>{
+  if(!output.value){$('status').textContent='Nothing to download yet.';return;}
+  const blob=new Blob([output.value],{type:'text/plain;charset=utf-8'});
+  const url=URL.createObjectURL(blob),a=document.createElement('a');
+  a.href=url;a.download='clickdy-converted-text.txt';a.click();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+  $('status').textContent='Converted text downloaded.';
+ });
+ updateStats();
 })();
 </script>
 </body>

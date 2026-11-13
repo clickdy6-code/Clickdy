@@ -1,647 +1,450 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Convert images online with Clickdy. Change JPG, PNG, WebP and GIF formats with quality and background controls directly in your browser.">
-  <title>Image Converter Online - Clickdy</title>
-  <style>
-    :root{
-      --bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;
-      --text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--accent2:#3aa9e8;
-      --success:#62d89a;--danger:#ff6f7d;--border:rgba(255,255,255,.09);
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;min-height:100vh;background:
-      radial-gradient(circle at 50% -10%,rgba(99,199,255,.11),transparent 34%),var(--bg);
-      color:var(--text);font-family:"Segoe UI",Arial,sans-serif;line-height:1.5;
-    }
-    button,input,select{font:inherit}
-    button{cursor:pointer}
-    .page{width:min(1180px,calc(100% - 32px));margin:0 auto}
-    .topbar{
-      min-height:88px;display:flex;align-items:center;justify-content:space-between;
-      gap:20px;border-bottom:1px solid rgba(255,255,255,.06)
-    }
-    .brand{display:flex;align-items:center;gap:11px;color:var(--text);text-decoration:none;font-weight:700;font-size:20px}
-    .brand img{width:36px;height:36px;object-fit:contain;border-radius:9px}
-    .back{color:var(--muted);text-decoration:none;font-size:14px;font-weight:600}
-    .back:hover{color:var(--accent)}
-    .hero{text-align:center;padding:54px 0 30px}
-    .eyebrow{
-      display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid rgba(99,199,255,.22);
-      border-radius:999px;color:#b9e7ff;background:rgba(99,199,255,.07);font-size:12px;font-weight:700;
-      letter-spacing:.4px;text-transform:uppercase
-    }
-    .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 15px rgba(99,199,255,.7)}
-    h1{margin:18px auto 10px;max-width:760px;font-size:clamp(34px,5vw,58px);line-height:1.05;letter-spacing:-1.8px}
-    .accent{color:var(--accent)}
-    .hero p{max-width:700px;margin:0 auto;color:var(--muted);font-size:16px}
-    .tool-shell{
-      background:linear-gradient(180deg,rgba(17,25,37,.98),rgba(13,19,29,.98));
-      border:1px solid var(--border);border-radius:24px;box-shadow:0 24px 70px rgba(0,0,0,.28);
-      padding:22px;margin-bottom:60px
-    }
-    .dropzone{
-      min-height:190px;border:1.5px dashed rgba(99,199,255,.48);border-radius:18px;background:rgba(99,199,255,.035);
-      display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;
-      transition:.2s ease
-    }
-    .dropzone.dragover{border-color:var(--accent);background:rgba(99,199,255,.09);transform:translateY(-1px)}
-    .upload-icon{
-      width:48px;height:48px;display:grid;place-items:center;border-radius:14px;background:rgba(99,199,255,.1);
-      color:var(--accent);font-size:24px;margin-bottom:10px
-    }
-    .dropzone h2{font-size:18px;margin:0 0 5px}
-    .dropzone p{margin:0 0 14px;color:var(--muted);font-size:13px}
-    .browse-btn,.primary-btn,.secondary-btn,.danger-btn{
-      border-radius:11px;padding:11px 16px;font-weight:700;transition:.2s ease
-    }
-    .browse-btn,.primary-btn{border:0;color:#06111a;background:var(--accent)}
-    .browse-btn:hover,.primary-btn:hover{background:#86d7ff;transform:translateY(-1px)}
-    .secondary-btn{
-      color:var(--text);background:var(--panel3);border:1px solid var(--border)
-    }
-    .secondary-btn:hover{border-color:rgba(99,199,255,.35)}
-    .danger-btn{
-      color:#fff;background:rgba(255,111,125,.12);border:1px solid rgba(255,111,125,.28)
-    }
-    .danger-btn:hover{background:rgba(255,111,125,.2)}
-    #fileInput{
-      position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
-      clip:rect(0,0,0,0);white-space:nowrap;border:0
-    }
-    .workspace{display:none;margin-top:18px}
-    .workspace.active{display:block}
-    .file-list{display:grid;gap:10px;margin-bottom:18px}
-    .file-item{
-      display:grid;grid-template-columns:56px minmax(0,1fr) auto;align-items:center;gap:12px;
-      padding:11px;background:var(--panel2);border:1px solid var(--border);border-radius:14px
-    }
-    .thumb{
-      width:56px;height:56px;object-fit:cover;border-radius:9px;background:#090e15;border:1px solid var(--border)
-    }
-    .file-info{min-width:0}
-    .file-name{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-    .file-meta{color:var(--muted);font-size:12px;margin-top:2px}
-    .remove-file{
-      width:36px;height:36px;border-radius:9px;background:transparent;border:1px solid var(--border);
-      color:var(--muted);font-size:18px
-    }
-    .remove-file:hover{color:#fff;border-color:rgba(255,111,125,.4)}
-    .grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:18px}
-    .card{background:var(--panel2);border:1px solid var(--border);border-radius:18px;padding:18px}
-    .card h3{margin:0 0 15px;font-size:16px}
-    .preview-wrap{
-      min-height:360px;display:flex;align-items:center;justify-content:center;padding:18px;border-radius:14px;
-      background:#0a1018;border:1px solid var(--border);overflow:hidden
-    }
-    #preview{max-width:100%;max-height:430px;object-fit:contain;border-radius:8px}
-    .empty-preview{color:var(--muted);font-size:13px;text-align:center}
-    .control{margin-bottom:15px}
-    .control:last-child{margin-bottom:0}
-    .control>label,.field-label{
-      display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:7px;
-      color:#dce4ee;font-size:13px;font-weight:700
-    }
-    .hint{color:var(--muted);font-weight:400;font-size:11px}
-    select,input[type="range"]{width:100%}
-    select{
-      min-height:42px;border:1px solid var(--border);border-radius:10px;background:#0a1018;color:var(--text);padding:9px 11px;outline:none
-    }
-    select:focus{border-color:rgba(99,199,255,.55);box-shadow:0 0 0 3px rgba(99,199,255,.08)}
-    input[type="range"]{accent-color:var(--accent)}
-    .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-    .check{
-      display:flex;align-items:center;gap:9px;padding:10px 11px;background:#0a1018;border:1px solid var(--border);
-      border-radius:10px;color:#dce4ee;font-size:13px;margin-bottom:10px
-    }
-    .check input{accent-color:var(--accent)}
-    .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
-    .primary-btn{min-width:170px}
-    .status{min-height:22px;margin-top:12px;color:var(--muted);font-size:12px}
-    .status.success{color:var(--success)}
-    .status.error{color:var(--danger)}
-    .progress{display:none;height:7px;border-radius:999px;overflow:hidden;background:#080d14;border:1px solid var(--border);margin-top:9px}
-    .progress.active{display:block}
-    .progress-bar{width:0;height:100%;background:var(--accent);transition:width .15s ease}
-    .tips{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-    .tip{padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.018)}
-    .tip strong{display:block;font-size:12px;margin-bottom:3px}
-    .tip span{color:var(--muted);font-size:11px}
-    footer{color:var(--muted);text-align:center;padding:0 0 30px;font-size:12px}
-    @media(max-width:820px){.grid{grid-template-columns:1fr}.preview-wrap{min-height:280px}.tips{grid-template-columns:1fr}}
-    @media(max-width:560px){
-      .page{width:min(100% - 20px,1180px)}.topbar{min-height:72px}.brand{font-size:18px}.brand img{width:32px;height:32px}
-      .hero{padding:38px 0 24px}.tool-shell{padding:12px;border-radius:18px}.two{grid-template-columns:1fr}
-      .file-item{grid-template-columns:48px minmax(0,1fr) auto}.thumb{width:48px;height:48px}.actions{flex-direction:column}
-      .actions button{width:100%}
-    }
-  </style>
-<!-- Clickdy SEO metadata -->
-<link rel="canonical" href="https://clickdy.vercel.app/image-converter/">
-<meta name="robots" content="index,follow">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Image Converter Online - Clickdy">
-<meta property="og:description" content="Convert images online with Clickdy. Change JPG, PNG, WebP and GIF formats with quality and background controls directly in your browser.">
-<meta property="og:url" content="https://clickdy.vercel.app/image-converter/">
-<meta property="og:site_name" content="Clickdy">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Image Converter Online - Clickdy">
-<meta name="twitter:description" content="Convert images online with Clickdy. Change JPG, PNG, WebP and GIF formats with quality and background controls directly in your browser.">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Image Converter Online",
-  "url": "https://clickdy.vercel.app/image-converter/",
-  "description": "Convert images online with Clickdy. Change JPG, PNG, WebP and GIF formats with quality and background controls directly in your browser.",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "Any",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Clickdy",
-    "url": "https://clickdy.vercel.app/"
-  }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070b14">
+<title>Image Format Converter - Clickdy</title>
+<meta name="description" content="Convert JPG, PNG, WebP and supported image formats online with Clickdy. Batch convert images and download individually or as a ZIP.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<style>
+:root{
+ --bg:#070b14;--surface:#0d1422;--surface2:#111b2d;
+ --primary:#38a5ff;--cyan:#2ee7df;--text:#f4f8ff;
+ --muted:#93a4bd;--line:#1d2b42;--success:#39d9a0;--danger:#ff667c;
 }
-</script>
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif}
+button,input,select{font:inherit}
+button{cursor:pointer}
+button:disabled{opacity:.45;cursor:not-allowed}
+.topbar{
+ height:70px;border-bottom:1px solid var(--line);display:flex;
+ align-items:center;justify-content:space-between;padding:0 5%;
+ position:sticky;top:0;z-index:10;background:rgba(7,11,20,.94);
+ backdrop-filter:blur(14px)
+}
+.brand{display:flex;align-items:center;gap:11px;cursor:pointer}
+.brand img{width:36px;height:36px;object-fit:contain}
+.brand-name{font-family:'Plus Jakarta Sans';font-size:19px;font-weight:800}
+.brand-tag{font-size:9px;color:var(--muted);letter-spacing:1.5px;margin-top:2px}
+.top-right{display:flex;align-items:center;gap:18px}
+.top-pill{font-size:11px;padding:8px 12px;border:1px solid var(--line);border-radius:30px;color:#b9c8db}
+.back-link{font-size:13px;color:#b7c5d8;text-decoration:none}
+.back-link:hover{color:var(--cyan)}
+.layout{max-width:1180px;margin:auto;padding:38px 24px 65px}
+.heading{margin-bottom:24px}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:1.7px;color:var(--cyan);margin-bottom:10px}
+h1{font-family:'Plus Jakarta Sans';font-size:30px;letter-spacing:-1px;margin:0 0 9px}
+.subtitle{font-size:14px;color:var(--muted);line-height:1.7;margin:0;max-width:740px}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 325px;gap:20px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:21px}
+.panel-title{font-family:'Plus Jakarta Sans';font-size:15px;font-weight:700;margin:0 0 5px}
+.panel-subtitle{font-size:12px;color:var(--muted);margin:0 0 18px}
+.dropzone{
+ border:1px dashed #315477;border-radius:14px;padding:29px 15px;text-align:center;
+ background:linear-gradient(145deg,rgba(56,165,255,.07),rgba(46,231,223,.025));cursor:pointer;transition:.2s
+}
+.dropzone:hover,.dropzone.dragover{border-color:var(--cyan);background:rgba(46,231,223,.06)}
+.upload-icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;margin:0 auto 12px;background:rgba(56,165,255,.12);color:var(--primary);font-size:24px}
+.drop-title{font-size:14px;font-weight:700;margin-bottom:5px}
+.drop-text{font-size:11px;color:var(--muted)}
+.browse-btn{display:inline-flex;margin-top:14px;padding:10px 17px;border-radius:9px;background:linear-gradient(110deg,var(--primary),#2588db);color:white;font-size:12px;font-weight:700;border:0}
+.file-limits{font-size:10px;color:#74869f;margin-top:10px}
+#fileInput{display:none}
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:23px 0 13px;flex-wrap:wrap}
+.toolbar strong{font-size:13px}
+.toolbar small{font-size:10px;color:var(--muted)}
+.toolbar-actions{display:flex;gap:9px}
+.text-btn{border:0;background:none;color:var(--primary);font-size:10px;font-weight:700;padding:5px}
+.text-btn:hover{color:var(--cyan)}
+.image-list{display:flex;flex-direction:column;gap:11px}
+.empty-state{border:1px solid var(--line);border-radius:11px;padding:30px 12px;text-align:center;color:#74869f;font-size:12px}
+.image-card{display:grid;grid-template-columns:105px minmax(0,1fr);gap:13px;padding:11px;background:#101a2a;border:1px solid var(--line);border-radius:12px;min-width:0}
+.image-thumb{height:95px;border-radius:8px;background:#172337;display:grid;place-items:center;overflow:hidden}
+.image-thumb img{width:100%;height:100%;object-fit:contain}
+.image-info{min-width:0;display:flex;flex-direction:column;justify-content:center;gap:7px}
+.image-name{font-size:11px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.image-meta{font-size:10px;color:var(--muted)}
+.image-result{font-size:10px;color:#8aa0b9;line-height:1.5}
+.image-result.success{color:#75e7b7}
+.card-actions{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.small-btn{border:1px solid #28415e;background:#17263b;color:#c9e6ff;border-radius:6px;padding:6px 9px;font-size:9px}
+.small-btn.remove{color:#ff9aa9;border-color:#593344;background:#291725}
+.option-box{padding:16px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.option-title{font-size:12px;font-weight:700;margin-bottom:14px}
+.side-panel{display:flex;flex-direction:column;gap:14px}
+.control{margin-bottom:15px}
+.control:last-child{margin-bottom:0}
+.field-label{font-size:10px;color:#bdcbe0;font-weight:700;display:block;margin-bottom:7px}
+.field{width:100%;background:#101a2a;border:1px solid #263750;color:var(--text);border-radius:8px;padding:10px 11px;outline:none;font-size:11px}
+.field:focus{border-color:var(--primary)}
+.hint{font-size:10px;color:var(--muted);line-height:1.6;margin-top:7px}
+.format-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.format-choice{border:1px solid #263750;border-radius:9px;padding:11px 5px;background:#101a2a;color:#aebed2;text-align:center;font-size:10px}
+.format-choice strong{display:block;font-family:'Plus Jakarta Sans';font-size:13px;color:#e3f2ff;margin-bottom:3px}
+.format-choice.active{border-color:var(--primary);background:rgba(56,165,255,.12);color:#dff2ff;box-shadow:inset 0 0 0 1px rgba(56,165,255,.15)}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.toggle-row label{font-size:10px;color:#c0cde0}
+.toggle-row input{accent-color:var(--primary);width:15px;height:15px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.stat{background:#101a2a;border:1px solid var(--line);border-radius:10px;padding:11px;min-width:0}
+.stat-value{font-family:'Plus Jakarta Sans';font-size:17px;font-weight:800;overflow-wrap:anywhere}
+.stat-label{font-size:10px;color:var(--muted);margin-top:3px}
+.convert-btn{width:100%;border:0;border-radius:11px;padding:14px;background:linear-gradient(110deg,#38a5ff,#247fd0);color:white;font-size:13px;font-weight:800;box-shadow:0 7px 22px rgba(56,165,255,.16)}
+.convert-btn:hover{filter:brightness(1.12)}
+.progress-wrap{display:none;margin-top:14px}
+.progress-label{display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:7px}
+.progress-track{height:6px;border-radius:20px;background:#1c2a40;overflow:hidden}
+.progress-bar{height:100%;width:0;background:linear-gradient(90deg,var(--primary),var(--cyan));transition:width .2s}
+.status{display:none;padding:12px;border-radius:10px;font-size:11px;line-height:1.6;margin-top:12px}
+.status.success{display:block;background:rgba(57,217,160,.08);border:1px solid rgba(57,217,160,.25);color:#8af0c6}
+.status.error{display:block;background:rgba(255,102,124,.08);border:1px solid rgba(255,102,124,.25);color:#ff9aa9}
+.status.info{display:block;background:rgba(56,165,255,.08);border:1px solid rgba(56,165,255,.25);color:#9bcfff}
+.download-btn{display:none;width:100%;margin-top:10px;padding:12px;border:1px solid rgba(57,217,160,.35);background:rgba(57,217,160,.09);color:#80e8bd;border-radius:10px;font-size:12px;font-weight:700}
+.security{display:flex;gap:10px;align-items:flex-start;padding:14px;background:rgba(46,231,223,.045);border:1px solid rgba(46,231,223,.15);border-radius:12px}
+.security-icon{color:var(--cyan);font-size:17px}
+.security strong{font-size:11px;display:block;margin-bottom:4px}
+.security p{font-size:10px;line-height:1.6;color:var(--muted);margin:0}
+.footer{text-align:center;color:#61728b;font-size:10px;margin-top:30px}
+@media(max-width:900px){.workspace{grid-template-columns:1fr}}
+@media(max-width:560px){.topbar{padding:0 15px;height:62px}.top-pill{display:none}.layout{padding:26px 14px 45px}h1{font-size:25px}.panel{padding:15px}.back-link{font-size:11px}.brand-name{font-size:17px}.image-card{grid-template-columns:82px minmax(0,1fr);gap:10px}.image-thumb{height:82px}}
+</style>
 </head>
 <body>
-  <div class="page">
-    <header class="topbar">
-      <a class="brand" href="../index.html" aria-label="Clickdy home">
-        <img src="../assets/logo.png" alt="Clickdy logo">
-        <span>Clickdy</span>
-      </a>
-      <a class="back" href="../index.html">← Back to Home</a>
-    </header>
 
-    <main>
-      <section class="hero">
-        <div class="eyebrow"><span class="dot"></span> Image Tool</div>
-        <h1>Convert Images. <span class="accent">Any Format.</span></h1>
-        <p>Convert JPG, PNG, WebP and GIF images directly in your browser. Process multiple images, control quality and download clean results.</p>
-      </section>
-
-      <section class="tool-shell" aria-label="Image converter">
-        <div class="dropzone" id="dropzone">
-          <div class="upload-icon" aria-hidden="true">⇄</div>
-          <h2>Drop images here</h2>
-          <p>JPG, JPEG, PNG, WebP and GIF • multiple files supported</p>
-          <button class="browse-btn" id="browseBtn" type="button">Choose Images</button>
-          <input id="fileInput" type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple aria-label="Choose image files" title="Choose image files">
-        </div>
-
-        <div class="workspace" id="workspace">
-          <div class="file-list" id="fileList"></div>
-
-          <div class="grid">
-            <div class="card">
-              <h3>Preview</h3>
-              <div class="preview-wrap">
-                <img id="preview" alt="Selected image preview" hidden>
-                <div class="empty-preview" id="emptyPreview">Select an image above to preview it.</div>
-              </div>
-            </div>
-
-            <div class="card">
-              <h3>Conversion Settings</h3>
-
-              <div class="control">
-                <label for="formatSelect">Convert To</label>
-                <select id="formatSelect" title="Choose the output image format">
-                  <option value="image/jpeg">JPG</option>
-                  <option value="image/png">PNG</option>
-                  <option value="image/webp">WebP</option>
-                </select>
-              </div>
-
-              <div class="control">
-                <label for="qualityInput">Quality <span id="qualityValue">90%</span></label>
-                <input id="qualityInput" type="range" min="10" max="100" value="90" aria-label="Output image quality">
-              </div>
-
-              <div class="control">
-                <label for="backgroundSelect">Background <span class="hint">for transparent images converted to JPG</span></label>
-                <select id="backgroundSelect" title="Choose the background color for JPG conversion">
-                  <option value="#ffffff">White</option>
-                  <option value="#000000">Black</option>
-                  <option value="#070b12">Clickdy Dark</option>
-                </select>
-              </div>
-
-              <label class="check">
-                <input id="keepSize" type="checkbox" checked>
-                <span>Keep original dimensions</span>
-              </label>
-
-              <label class="check">
-                <input id="autoDownload" type="checkbox">
-                <span>Download each converted file automatically</span>
-              </label>
-
-              <div class="actions">
-                <button class="primary-btn" id="convertBtn" type="button">Convert &amp; Download</button>
-                <button class="secondary-btn" id="downloadAllBtn" type="button">Download All</button>
-                <button class="danger-btn" id="clearBtn" type="button">Clear All</button>
-              </div>
-
-              <div class="progress" id="progress" aria-hidden="true">
-                <div class="progress-bar" id="progressBar"></div>
-              </div>
-              <div class="status" id="status" role="status" aria-live="polite"></div>
-            </div>
-          </div>
-
-          <div class="tips">
-            <div class="tip"><strong>Private</strong><span>Images stay in your browser while they are converted.</span></div>
-            <div class="tip"><strong>Batch Ready</strong><span>Add multiple images and convert them together.</span></div>
-            <div class="tip"><strong>Quality Control</strong><span>Adjust JPG and WebP quality before downloading.</span></div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>© 2026 Clickdy. Image conversion happens in your browser.</footer>
-  </div>
-
-  <script>
-    (() => {
-      "use strict";
-
-      const $ = (id) => document.getElementById(id);
-      const fileInput = $("fileInput");
-      const browseBtn = $("browseBtn");
-      const dropzone = $("dropzone");
-      const workspace = $("workspace");
-      const fileList = $("fileList");
-      const preview = $("preview");
-      const emptyPreview = $("emptyPreview");
-      const formatSelect = $("formatSelect");
-      const qualityInput = $("qualityInput");
-      const qualityValue = $("qualityValue");
-      const backgroundSelect = $("backgroundSelect");
-      const keepSize = $("keepSize");
-      const autoDownload = $("autoDownload");
-      const convertBtn = $("convertBtn");
-      const downloadAllBtn = $("downloadAllBtn");
-      const clearBtn = $("clearBtn");
-      const status = $("status");
-      const progress = $("progress");
-      const progressBar = $("progressBar");
-
-      let files = [];
-      let selectedIndex = -1;
-      let previewUrl = null;
-      let busy = false;
-
-      function setStatus(message, type = "") {
-        status.textContent = message;
-        status.className = "status" + (type ? " " + type : "");
-      }
-
-      function setProgress(value, visible = true) {
-        progress.classList.toggle("active", visible);
-        progressBar.style.width = Math.max(0, Math.min(100, value)) + "%";
-      }
-
-      function resetProgress() {
-        progress.classList.remove("active");
-        progressBar.style.width = "0%";
-      }
-
-      function formatBytes(bytes) {
-        if (!bytes) return "0 B";
-        const units = ["B", "KB", "MB", "GB"];
-        const i = Math.min(Math.floor(Math.log(bytes) / Math.log(1024)), units.length - 1);
-        return (bytes / Math.pow(1024, i)).toFixed(i === 0 ? 0 : 2) + " " + units[i];
-      }
-
-      function extensionForMime(mime) {
-        if (mime === "image/jpeg") return "jpg";
-        if (mime === "image/png") return "png";
-        return "webp";
-      }
-
-      function mimeLabel(mime) {
-        return mime === "image/jpeg" ? "JPG" : mime === "image/png" ? "PNG" : "WebP";
-      }
-
-      function revokePreview() {
-        if (previewUrl) {
-          URL.revokeObjectURL(previewUrl);
-          previewUrl = null;
-        }
-      }
-
-      function showPreview(index) {
-        revokePreview();
-        if (!files[index]) {
-          preview.hidden = true;
-          emptyPreview.hidden = false;
-          return;
-        }
-        previewUrl = URL.createObjectURL(files[index]);
-        preview.src = previewUrl;
-        preview.alt = "Preview of " + files[index].name;
-        preview.hidden = false;
-        emptyPreview.hidden = true;
-        selectedIndex = index;
-        renderFileList();
-      }
-
-      function renderFileList() {
-        fileList.innerHTML = "";
-        files.forEach((file, index) => {
-          const item = document.createElement("div");
-          item.className = "file-item";
-
-          const thumb = document.createElement("img");
-          thumb.className = "thumb";
-          thumb.alt = "Thumbnail of " + file.name;
-          const thumbUrl = URL.createObjectURL(file);
-          thumb.src = thumbUrl;
-          thumb.addEventListener("load", () => URL.revokeObjectURL(thumbUrl), { once: true });
-          thumb.addEventListener("error", () => URL.revokeObjectURL(thumbUrl), { once: true });
-
-          const info = document.createElement("div");
-          info.className = "file-info";
-          const name = document.createElement("div");
-          name.className = "file-name";
-          name.textContent = file.name;
-          const meta = document.createElement("div");
-          meta.className = "file-meta";
-          meta.textContent = formatBytes(file.size) + " • " + (file.type || "image");
-          info.append(name, meta);
-
-          const remove = document.createElement("button");
-          remove.className = "remove-file";
-          remove.type = "button";
-          remove.textContent = "×";
-          remove.title = "Remove " + file.name;
-          remove.setAttribute("aria-label", "Remove " + file.name);
-          remove.addEventListener("click", (event) => {
-            event.stopPropagation();
-            removeFile(index);
-          });
-
-          item.append(thumb, info, remove);
-          item.addEventListener("click", () => showPreview(index));
-
-          if (index === selectedIndex) {
-            item.setAttribute("aria-current", "true");
-            item.style.borderColor = "rgba(99,199,255,.45)";
-          }
-          fileList.appendChild(item);
-        });
-
-        workspace.classList.toggle("active", files.length > 0);
-      }
-
-      function addFiles(incoming) {
-        const valid = Array.from(incoming || []).filter((file) =>
-          file && /^image\/(jpeg|png|webp|gif)$/i.test(file.type)
-        );
-
-        if (!valid.length) {
-          setStatus("Please choose JPG, PNG, WebP or GIF images.", "error");
-          return;
-        }
-
-        const available = valid.filter((file) => file.size <= 50 * 1024 * 1024);
-        const rejected = valid.length - available.length;
-        const existingKeys = new Set(files.map((file) => file.name + "|" + file.size + "|" + file.lastModified));
-
-        available.forEach((file) => {
-          const key = file.name + "|" + file.size + "|" + file.lastModified;
-          if (!existingKeys.has(key)) {
-            files.push(file);
-            existingKeys.add(key);
-          }
-        });
-
-        if (selectedIndex < 0 && files.length) selectedIndex = 0;
-        renderFileList();
-        if (selectedIndex >= 0) showPreview(selectedIndex);
-
-        if (rejected) {
-          setStatus(rejected + " file(s) were skipped because they exceed 50 MB.", "error");
-        } else {
-          setStatus(files.length + " image" + (files.length === 1 ? "" : "s") + " ready.");
-        }
-      }
-
-      function removeFile(index) {
-        if (busy) return;
-        files.splice(index, 1);
-        if (!files.length) {
-          selectedIndex = -1;
-          revokePreview();
-          preview.hidden = true;
-          emptyPreview.hidden = false;
-          workspace.classList.remove("active");
-          fileInput.value = "";
-          setStatus("");
-          return;
-        }
-        if (selectedIndex >= files.length) selectedIndex = files.length - 1;
-        if (index < selectedIndex) selectedIndex--;
-        renderFileList();
-        showPreview(selectedIndex);
-        setStatus(files.length + " image" + (files.length === 1 ? "" : "s") + " ready.");
-      }
-
-      function clearAll() {
-        if (busy) return;
-        files = [];
-        selectedIndex = -1;
-        revokePreview();
-        preview.hidden = true;
-        emptyPreview.hidden = false;
-        fileInput.value = "";
-        workspace.classList.remove("active");
-        resetProgress();
-        setStatus("");
-      }
-
-      function loadImage(file) {
-        return new Promise((resolve, reject) => {
-          const url = URL.createObjectURL(file);
-          const image = new Image();
-          image.onload = () => {
-            URL.revokeObjectURL(url);
-            resolve(image);
-          };
-          image.onerror = () => {
-            URL.revokeObjectURL(url);
-            reject(new Error("Could not read " + file.name));
-          };
-          image.src = url;
-        });
-      }
-
-      function canvasToBlob(canvas, mime, quality) {
-        return new Promise((resolve, reject) => {
-          canvas.toBlob((blob) => {
-            if (blob) resolve(blob);
-            else reject(new Error("Browser could not create the converted image."));
-          }, mime, quality);
-        });
-      }
-
-      function downloadBlob(blob, filename) {
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = filename;
-        document.body.appendChild(link);
-        link.click();
-        link.remove();
-        setTimeout(() => URL.revokeObjectURL(url), 1200);
-      }
-
-      async function convertFile(file) {
-        const image = await loadImage(file);
-        const mime = formatSelect.value;
-        const quality = Number(qualityInput.value) / 100;
-        const width = image.naturalWidth;
-        const height = image.naturalHeight;
-
-        const canvas = document.createElement("canvas");
-        canvas.width = keepSize.checked ? width : width;
-        canvas.height = keepSize.checked ? height : height;
-
-        const ctx = canvas.getContext("2d", { alpha: mime !== "image/jpeg" });
-        if (!ctx) throw new Error("Canvas is not available in this browser.");
-
-        if (mime === "image/jpeg") {
-          ctx.fillStyle = backgroundSelect.value;
-          ctx.fillRect(0, 0, canvas.width, canvas.height);
-        } else {
-          ctx.clearRect(0, 0, canvas.width, canvas.height);
-        }
-
-        ctx.imageSmoothingEnabled = true;
-        ctx.imageSmoothingQuality = "high";
-        ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-
-        const blob = await canvasToBlob(canvas, mime, quality);
-        const base = file.name.replace(/\.[^.]+$/, "") || "image";
-        return {
-          blob,
-          name: base + "-converted." + extensionForMime(mime),
-          sourceName: file.name,
-          dimensions: width + " × " + height
-        };
-      }
-
-      async function convertAll(shouldDownload = true) {
-        if (busy) return;
-        if (!files.length) {
-          setStatus("Choose at least one image first.", "error");
-          return;
-        }
-
-        busy = true;
-        convertBtn.disabled = true;
-        downloadAllBtn.disabled = true;
-        convertBtn.textContent = "Converting…";
-        resetProgress();
-        setProgress(5, true);
-
-        const results = [];
-
-        try {
-          for (let i = 0; i < files.length; i++) {
-            setStatus("Converting " + (i + 1) + " of " + files.length + "…");
-            setProgress(10 + Math.round((i / files.length) * 80), true);
-            const result = await convertFile(files[i]);
-            results.push(result);
-
-            if (shouldDownload && autoDownload.checked) {
-              downloadBlob(result.blob, result.name);
-              await new Promise((resolve) => setTimeout(resolve, 120));
-            }
-          }
-
-          setProgress(100, true);
-
-          if (shouldDownload && !autoDownload.checked) {
-            results.forEach((result, index) => {
-              setTimeout(() => downloadBlob(result.blob, result.name), index * 180);
-            });
-          }
-
-          const total = results.reduce((sum, result) => sum + result.blob.size, 0);
-          setStatus(
-            "Done — " + results.length + " file" + (results.length === 1 ? "" : "s") +
-            " converted to " + mimeLabel(formatSelect.value) + " • " + formatBytes(total) + " total.",
-            "success"
-          );
-          setTimeout(resetProgress, 1000);
-          return results;
-        } catch (error) {
-          resetProgress();
-          setStatus(error && error.message ? error.message : "Conversion failed.", "error");
-          return [];
-        } finally {
-          busy = false;
-          convertBtn.disabled = false;
-          downloadAllBtn.disabled = false;
-          convertBtn.textContent = "Convert & Download";
-        }
-      }
-
-      browseBtn.addEventListener("click", () => fileInput.click());
-
-      fileInput.addEventListener("change", () => {
-        addFiles(fileInput.files);
-      });
-
-      ["dragenter", "dragover"].forEach((name) => {
-        dropzone.addEventListener(name, (event) => {
-          event.preventDefault();
-          event.stopPropagation();
-          dropzone.classList.add("dragover");
-        });
-      });
-
-      ["dragleave", "drop"].forEach((name) => {
-        dropzone.addEventListener(name, (event) => {
-          event.preventDefault();
-          event.stopPropagation();
-          dropzone.classList.remove("dragover");
-        });
-      });
-
-      dropzone.addEventListener("drop", (event) => {
-        addFiles(event.dataTransfer && event.dataTransfer.files);
-      });
-
-      qualityInput.addEventListener("input", () => {
-        qualityValue.textContent = qualityInput.value + "%";
-      });
-
-      convertBtn.addEventListener("click", () => convertAll(true));
-      downloadAllBtn.addEventListener("click", () => convertAll(true));
-      clearBtn.addEventListener("click", clearAll);
-
-      document.addEventListener("keydown", (event) => {
-        if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "o") {
-          event.preventDefault();
-          fileInput.click();
-        }
-      });
-
-      window.addEventListener("beforeunload", revokePreview);
-    })();
-  </script>
+<header class="topbar">
+ <div class="brand" onclick="location.reload()" role="button" tabindex="0"
+  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload();}">
+  <img src="../assets/logo.png" alt="Clickdy" onerror="this.style.display='none'">
+  <div><div class="brand-name">Clickdy</div><div class="brand-tag">IMAGE TOOLS STUDIO</div></div>
+ </div>
+ <div class="top-right">
+  <span class="top-pill">Image Format Converter</span>
+  <a class="back-link" href="https://clickdy.vercel.app/">← Back to Clickdy Tools</a>
+ </div>
+</header>
+
+<main class="layout">
+ <section class="heading">
+  <div class="eyebrow">IMAGE WORKSPACE / FORMAT CONVERTER</div>
+  <h1>Image Format Converter</h1>
+  <p class="subtitle">Convert images between JPG, PNG and WebP in seconds. Process multiple files together, control quality and download your converted images individually or in one ZIP.</p>
+ </section>
+
+ <div class="workspace">
+  <section class="panel">
+   <h2 class="panel-title">Upload your images</h2>
+   <p class="panel-subtitle">Add images to convert from one format to another.</p>
+
+   <div class="dropzone" id="dropzone">
+    <div class="upload-icon">⇄</div>
+    <div class="drop-title">Drag and drop your images here</div>
+    <div class="drop-text">or browse files on your device</div>
+    <button class="browse-btn" id="browseBtn" type="button">Choose images</button>
+    <div class="file-limits">JPG · JPEG · PNG · WebP · AVIF* · Up to 30 images · 25 MB each</div>
+   </div>
+   <input type="file" id="fileInput" accept="image/jpeg,image/png,image/webp,image/avif,.jpg,.jpeg,.png,.webp,.avif" multiple>
+
+   <div class="toolbar">
+    <div><strong>Your images</strong> <small id="imageCount">(0 images)</small></div>
+    <div class="toolbar-actions">
+     <button class="text-btn" id="addMore" type="button">+ Add more</button>
+     <button class="text-btn" id="clearAll" type="button" disabled>Clear all</button>
+    </div>
+   </div>
+   <div class="image-list" id="imageList">
+    <div class="empty-state">Your uploaded images will appear here.</div>
+   </div>
+  </section>
+
+  <aside class="side-panel">
+   <div class="option-box">
+    <div class="option-title">Convert to format</div>
+    <div class="format-grid">
+     <button class="format-choice active" type="button" data-format="image/jpeg"><strong>JPG</strong>JPEG</button>
+     <button class="format-choice" type="button" data-format="image/png"><strong>PNG</strong>Lossless</button>
+     <button class="format-choice" type="button" data-format="image/webp"><strong>WebP</strong>Modern</button>
+    </div>
+    <div class="hint" id="formatHint">JPG is widely supported and suitable for photographs. Transparent areas are filled with your selected background color.</div>
+   </div>
+
+   <div class="option-box">
+    <div class="option-title">Conversion settings</div>
+    <div class="control">
+     <label class="field-label" for="quality">Output quality</label>
+     <div style="display:flex;align-items:center;gap:10px">
+      <input id="quality" type="range" min="10" max="100" value="90" style="width:100%;accent-color:var(--primary)">
+      <span id="qualityValue" style="font-size:11px;color:var(--cyan);min-width:34px">90%</span>
+     </div>
+     <div class="hint">Quality applies to JPG and WebP. PNG is exported losslessly.</div>
+    </div>
+    <div class="control">
+     <label class="field-label" for="background">Background for transparent areas</label>
+     <input class="field" id="background" type="color" value="#ffffff" style="height:39px;padding:4px">
+     <div class="hint">Used when converting transparent images to JPG, which does not support transparency.</div>
+    </div>
+    <div class="control">
+     <label class="field-label" for="filename">Output filename prefix</label>
+     <input class="field" id="filename" value="clickdy-converted">
+    </div>
+   </div>
+
+   <div class="option-box">
+    <div class="option-title">Conversion summary</div>
+    <div class="stats">
+     <div class="stat"><div class="stat-value" id="totalImages">0</div><div class="stat-label">Total images</div></div>
+     <div class="stat"><div class="stat-value" id="processedImages">0/0</div><div class="stat-label">Converted</div></div>
+     <div class="stat"><div class="stat-value" id="originalSize">—</div><div class="stat-label">Original size</div></div>
+     <div class="stat"><div class="stat-value" id="outputSize">—</div><div class="stat-label">Converted size</div></div>
+    </div>
+   </div>
+
+   <div>
+    <button class="convert-btn" id="convertBtn" type="button" disabled>Convert images →</button>
+    <div class="progress-wrap" id="progressWrap">
+     <div class="progress-label"><span id="progressText">Preparing images...</span><span id="progressPercent">0%</span></div>
+     <div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+    </div>
+    <div class="status" id="statusBox" role="status" aria-live="polite"></div>
+    <button class="download-btn" id="downloadZip" type="button">↓ Download converted images as ZIP</button>
+   </div>
+
+   <div class="security">
+    <div class="security-icon">⌑</div>
+    <div><strong>Private browser conversion</strong><p>Your images are processed on your device. They are not uploaded to a Clickdy server.</p></div>
+   </div>
+  </aside>
+ </div>
+ <div class="footer">Clickdy Image Format Converter · Simple tools, smarter work.</div>
+</main>
+
+<script>
+(()=>{
+'use strict';
+const $=id=>document.getElementById(id);
+const MAX_FILES=30,MAX_FILE=25*1024*1024,MAX_TOTAL=150*1024*1024,MAX_PIXELS=100000000;
+const FORMATS={
+ 'image/jpeg':{ext:'jpg',label:'JPG'},
+ 'image/png':{ext:'png',label:'PNG'},
+ 'image/webp':{ext:'webp',label:'WebP'}
+};
+const ACCEPTED=new Set(['image/jpeg','image/png','image/webp','image/avif']);
+let items=[],busy=false,zipBlob=null;
+function sizeText(n){
+ if(n<1024)return n+' B';
+ if(n<1048576)return(n/1024).toFixed(1)+' KB';
+ return(n/1048576).toFixed(2)+' MB';
+}
+function safeName(s){
+ return String(s||'image').replace(/\.[^.]+$/,'').replace(/[<>:"/\\|?*\x00-\x1F]/g,'-').replace(/\s+/g,'-').slice(0,65)||'image';
+}
+function status(msg,type){
+ $('statusBox').textContent=msg;
+ $('statusBox').className='status '+type;
+}
+function clearStatus(){
+ $('statusBox').textContent='';$('statusBox').className='status';
+}
+function progress(p,msg){
+ $('progressWrap').style.display='block';
+ $('progressBar').style.width=p+'%';
+ $('progressPercent').textContent=p+'%';
+ $('progressText').textContent=msg;
+}
+function outputFormat(){return document.querySelector('.format-choice.active').dataset.format;}
+function clearResults(){
+ zipBlob=null;
+ items.forEach(i=>{if(i.resultUrl)URL.revokeObjectURL(i.resultUrl);i.result=null;i.resultUrl=null;i.resultName=null;i.error=null;});
+ $('downloadZip').style.display='none';
+ $('outputSize').textContent='—';
+ $('processedImages').textContent='0/'+items.length;
+}
+function updateStats(){
+ $('totalImages').textContent=items.length;
+ $('processedImages').textContent=items.filter(i=>i.result).length+'/'+items.length;
+ $('originalSize').textContent=sizeText(items.reduce((s,i)=>s+i.file.size,0));
+ $('convertBtn').disabled=!items.length||busy;
+ $('clearAll').disabled=!items.length||busy;
+ $('addMore').disabled=busy;
+ $('imageCount').textContent='('+items.length+' images)';
+}
+function render(){
+ const list=$('imageList');list.innerHTML='';
+ if(!items.length){
+  list.innerHTML='<div class="empty-state">Your uploaded images will appear here.</div>';
+  updateStats();return;
+ }
+ items.forEach(item=>{
+  const card=document.createElement('article');card.className='image-card';
+  const thumb=document.createElement('div');thumb.className='image-thumb';
+  const img=document.createElement('img');img.alt=item.file.name;
+  if(item.result){
+   if(!item.resultUrl)item.resultUrl=URL.createObjectURL(item.result);
+   img.src=item.resultUrl;
+  }else img.src=item.previewUrl;
+  thumb.appendChild(img);
+  const info=document.createElement('div');info.className='image-info';
+  const name=document.createElement('div');name.className='image-name';name.textContent=item.file.name;name.title=item.file.name;
+  const meta=document.createElement('div');meta.className='image-meta';meta.textContent=`${item.width} × ${item.height} px · ${sizeText(item.file.size)}`;
+  const result=document.createElement('div');result.className='image-result'+(item.result?' success':'');
+  result.textContent=item.result?`${FORMATS[outputFormat()].label} · ${sizeText(item.result.size)} · ${item.width} × ${item.height} px`:item.error?'Error: '+item.error:'Waiting for conversion';
+  if(item.error)result.style.color='#ff9aa9';
+  const actions=document.createElement('div');actions.className='card-actions';
+  if(item.result){
+   const dl=document.createElement('button');dl.type='button';dl.className='small-btn';dl.textContent='↓ Download';dl.addEventListener('click',()=>downloadOne(item));actions.appendChild(dl);
+  }
+  const rm=document.createElement('button');rm.type='button';rm.className='small-btn remove';rm.textContent='Remove';rm.disabled=busy;rm.addEventListener('click',()=>removeItem(item.id));actions.appendChild(rm);
+  info.append(name,meta,result,actions);card.append(thumb,info);list.appendChild(card);
+ });
+ updateStats();
+}
+async function getDimensions(file){
+ const url=URL.createObjectURL(file),img=new Image();
+ try{
+  await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=()=>reject(new Error('Image could not be opened by this browser.'));img.src=url;});
+  const w=img.naturalWidth,h=img.naturalHeight;
+  if(!w||!h||w*h>MAX_PIXELS)throw new Error('Image dimensions are too large for browser processing.');
+  return{width:w,height:h};
+ }finally{URL.revokeObjectURL(url);}
+}
+async function addFiles(files){
+ if(busy)return;
+ let added=0,errors=[];
+ const existing=new Set(items.map(i=>i.file.name+'|'+i.file.size+'|'+i.file.lastModified));
+ for(const file of Array.from(files||[])){
+  if(items.length>=MAX_FILES){errors.push('Maximum 30 images allowed.');break;}
+  if(!ACCEPTED.has(file.type)){errors.push(file.name+': unsupported image format.');continue;}
+  if(file.size>MAX_FILE){errors.push(file.name+': exceeds 25 MB.');continue;}
+  if(items.reduce((s,i)=>s+i.file.size,0)+file.size>MAX_TOTAL){errors.push('Total upload size cannot exceed 150 MB.');break;}
+  const key=file.name+'|'+file.size+'|'+file.lastModified;
+  if(existing.has(key)){errors.push(file.name+': already added.');continue;}
+  try{
+   const d=await getDimensions(file);
+   items.push({id:crypto.randomUUID?crypto.randomUUID():String(Date.now())+Math.random(),file,width:d.width,height:d.height,previewUrl:URL.createObjectURL(file),result:null,resultUrl:null,error:null});
+   existing.add(key);added++;
+  }catch(e){errors.push(file.name+': '+e.message);}
+ }
+ clearResults();render();
+ if(errors.length)status((added?added+' image(s) added. ':'')+errors.slice(0,4).join(' '),added?'info':'error');
+ else if(added)status(added+' image(s) added successfully.','success');
+}
+function removeItem(id){
+ if(busy)return;
+ const item=items.find(i=>i.id===id);
+ if(item){URL.revokeObjectURL(item.previewUrl);if(item.resultUrl)URL.revokeObjectURL(item.resultUrl);}
+ items=items.filter(i=>i.id!==id);clearResults();render();clearStatus();
+}
+async function decode(file){
+ if('createImageBitmap'in window){
+  try{
+   const b=await createImageBitmap(file,{imageOrientation:'from-image'});
+   return{source:b,width:b.width,height:b.height,cleanup:()=>b.close()};
+  }catch(e){}
+ }
+ const url=URL.createObjectURL(file),img=new Image();
+ try{
+  await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=()=>reject(new Error('This image format is not supported by your browser.'));img.src=url;});
+ }catch(e){URL.revokeObjectURL(url);throw e;}
+ return{source:img,width:img.naturalWidth,height:img.naturalHeight,cleanup:()=>URL.revokeObjectURL(url)};
+}
+async function convertOne(item){
+ const decoded=await decode(item.file);
+ let canvas;
+ try{
+  if(decoded.width*decoded.height>MAX_PIXELS)throw new Error('Image dimensions exceed the processing limit.');
+  canvas=document.createElement('canvas');
+  canvas.width=decoded.width;canvas.height=decoded.height;
+  const mime=outputFormat();
+  const ctx=canvas.getContext('2d',{alpha:mime!=='image/jpeg'});
+  if(!ctx)throw new Error('Could not create image canvas.');
+  if(mime==='image/jpeg'){
+   ctx.fillStyle=$('background').value||'#ffffff';
+   ctx.fillRect(0,0,canvas.width,canvas.height);
+  }
+  ctx.drawImage(decoded.source,0,0,canvas.width,canvas.height);
+  const quality=Number($('quality').value)/100;
+  const blob=await new Promise((resolve,reject)=>{
+   canvas.toBlob(b=>b?resolve(b):reject(new Error('The browser could not export this format.')),mime,quality);
+  });
+  if(blob.type!==mime)throw new Error('Your browser does not support exporting '+FORMATS[mime].label+'. Try another output format.');
+  return blob;
+ }finally{
+  if(canvas){canvas.width=1;canvas.height=1;}
+  decoded.cleanup();
+ }
+}
+async function convertAll(){
+ if(busy||!items.length)return;
+ if(!window.JSZip){status('ZIP library failed to load. Refresh the page and try again.','error');return;}
+ busy=true;clearResults();clearStatus();$('convertBtn').disabled=true;$('convertBtn').textContent='Converting images...';render();
+ const zip=new JSZip();let success=0,failed=0;
+ try{
+  const mime=outputFormat(),format=FORMATS[mime],prefix=safeName($('filename').value||'clickdy-converted');
+  for(let i=0;i<items.length;i++){
+   const item=items[i];
+   progress(Math.round(i/items.length*94),`Converting ${i+1} of ${items.length}...`);
+   try{
+    item.result=await convertOne(item);
+    item.resultName=prefix+'-'+String(i+1).padStart(2,'0')+'.'+format.ext;
+    item.error=null;zip.file(item.resultName,item.result);success++;
+   }catch(e){item.error=e.message||'Conversion failed';failed++;console.error(e);}
+   render();await new Promise(resolve=>setTimeout(resolve,0));
+  }
+  if(success){
+   progress(97,'Preparing ZIP download...');
+   zipBlob=await zip.generateAsync({type:'blob',compression:'STORE'});
+   $('downloadZip').style.display='block';
+   $('downloadZip').textContent=`↓ Download ${success} converted image(s) as ZIP`;
+   $('outputSize').textContent=sizeText(items.reduce((s,i)=>s+(i.result?i.result.size:0),0));
+   status(`${success} image(s) converted successfully${failed?', '+failed+' failed':''}. Download individual images or the ZIP archive.`,failed?'info':'success');
+  }else status('No images could be converted. Your browser may not support this output format.','error');
+  progress(100,'Conversion completed');
+ }catch(e){status('Conversion process failed: '+e.message,'error');}
+ finally{busy=false;$('convertBtn').textContent='Convert images →';render();}
+}
+function triggerDownload(blob,name){
+ const url=URL.createObjectURL(blob),a=document.createElement('a');
+ a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();
+ setTimeout(()=>URL.revokeObjectURL(url),30000);
+}
+function downloadOne(item){if(item.result)triggerDownload(item.result,item.resultName);}
+$('downloadZip').addEventListener('click',()=>{if(zipBlob)triggerDownload(zipBlob,'clickdy-converted-images.zip');});
+$('browseBtn').addEventListener('click',()=>$('fileInput').click());
+$('addMore').addEventListener('click',()=>$('fileInput').click());
+$('dropzone').addEventListener('click',e=>{if(!e.target.closest('button'))$('fileInput').click();});
+$('fileInput').addEventListener('change',async e=>{await addFiles(e.target.files);e.target.value='';});
+$('dropzone').addEventListener('dragover',e=>{e.preventDefault();$('dropzone').classList.add('dragover');});
+$('dropzone').addEventListener('dragleave',()=>$('dropzone').classList.remove('dragover'));
+$('dropzone').addEventListener('drop',async e=>{e.preventDefault();$('dropzone').classList.remove('dragover');await addFiles(e.dataTransfer.files);});
+$('clearAll').addEventListener('click',()=>{
+ if(busy)return;
+ items.forEach(i=>{URL.revokeObjectURL(i.previewUrl);if(i.resultUrl)URL.revokeObjectURL(i.resultUrl);});
+ items=[];clearResults();clearStatus();$('progressWrap').style.display='none';$('originalSize').textContent='—';$('outputSize').textContent='—';render();
+});
+$('convertBtn').addEventListener('click',convertAll);
+document.querySelectorAll('.format-choice').forEach(btn=>{
+ btn.addEventListener('click',()=>{
+  if(busy)return;
+  document.querySelectorAll('.format-choice').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const messages={
+   'image/jpeg':'JPG is widely supported and suitable for photographs. Transparent areas are filled with your selected background color.',
+   'image/png':'PNG supports transparency and lossless export. File sizes can be larger than JPG or WebP.',
+   'image/webp':'WebP offers modern compression and supports transparency. Some older apps may not support it.'
+  };
+  $('formatHint').textContent=messages[btn.dataset.format];
+  clearResults();render();clearStatus();
+ });
+});
+$('quality').addEventListener('input',()=>{$('qualityValue').textContent=$('quality').value+'%';});
+['quality','background','filename'].forEach(id=>$(id).addEventListener('change',()=>{if(!busy){clearResults();render();clearStatus();}}));
+window.addEventListener('beforeunload',()=>items.forEach(i=>{URL.revokeObjectURL(i.previewUrl);if(i.resultUrl)URL.revokeObjectURL(i.resultUrl);}));
+render();
+})();
+</script>
 </body>
 </html>

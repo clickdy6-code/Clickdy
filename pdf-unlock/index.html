@@ -1,0 +1,788 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070b14">
+<title>PDF Unlock - Clickdy</title>
+<meta name="description" content="Unlock your PDF files with the correct password. Secure, private, browser-based PDF unlocking by Clickdy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#070b14;
+  --surface:#0d1422;
+  --surface2:#111b2d;
+  --primary:#38a5ff;
+  --cyan:#2ee7df;
+  --text:#f4f8ff;
+  --muted:#93a4bd;
+  --line:#1d2b42;
+  --green:#42d9a0;
+  --red:#ff7185;
+  --radius:16px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:"DM Sans",sans-serif;font-size:14px;
+}
+button,input{font:inherit}
+button{cursor:pointer}
+a{color:inherit;text-decoration:none}
+.app{min-height:100vh;display:flex}
+.sidebar{
+  width:250px;flex-shrink:0;background:#090f1b;
+  border-right:1px solid var(--line);height:100vh;
+  position:sticky;top:0;display:flex;flex-direction:column;
+  padding:20px 15px;overflow-y:auto;
+  scrollbar-width:thin;scrollbar-color:#286b9b #090f1b;
+}
+.sidebar::-webkit-scrollbar{width:5px}
+.sidebar::-webkit-scrollbar-track{background:#090f1b}
+.sidebar::-webkit-scrollbar-thumb{
+  background:linear-gradient(180deg,#38a5ff,#2ee7df);
+  border-radius:20px
+}
+.brand{display:flex;align-items:center;gap:11px;padding:3px 8px 25px;cursor:pointer}
+.brand img{width:39px;height:39px;object-fit:contain}
+.brand-name{font:800 21px "Plus Jakarta Sans";letter-spacing:-.7px}
+.brand-tag{font-size:9px;color:var(--muted);letter-spacing:1.3px;margin-top:2px}
+.side-label{font-size:10px;color:#687b96;font-weight:700;letter-spacing:1.3px;padding:12px 10px 8px}
+.nav{display:flex;flex-direction:column;gap:4px}
+.nav a,.nav button{
+  border:0;background:transparent;color:#a8b6ca;
+  padding:11px 12px;border-radius:10px;text-align:left;
+  display:flex;align-items:center;gap:11px;font-size:13px;
+  transition:.2s;width:100%
+}
+.nav a:hover,.nav button:hover{background:#111e31;color:#fff}
+.nav a.active{background:linear-gradient(100deg,#153553,#10283d);color:#65c2ff}
+.nav-icon{width:19px;text-align:center;font-size:16px}
+.side-bottom{margin-top:auto;padding-top:22px}
+.privacy-card{
+  background:linear-gradient(145deg,#10263a,#0d1b2d);
+  border:1px solid #1b405c;border-radius:13px;padding:14px;margin:8px 2px 16px
+}
+.privacy-card strong{display:block;font-size:12px;margin:8px 0 5px}
+.privacy-card p{font-size:11px;color:var(--muted);line-height:1.6;margin:0}
+.privacy-icon{font-size:20px;color:var(--cyan)}
+.back-link{
+  display:block;padding:12px 10px;color:#aabbd0;
+  font-size:12px;text-decoration:none!important
+}
+.back-link:hover{color:var(--cyan)}
+.main{flex:1;min-width:0}
+.topbar{
+  height:67px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 30px;background:rgba(7,11,20,.88);
+  position:sticky;top:0;z-index:5;backdrop-filter:blur(14px)
+}
+.breadcrumb{color:var(--muted);font-size:12px}
+.breadcrumb span{color:var(--text);font-weight:600}
+.top-actions{display:flex;align-items:center;gap:10px}
+.top-btn{
+  background:#111b2b;border:1px solid var(--line);color:#c4d2e4;
+  padding:8px 13px;border-radius:9px;font-size:12px
+}
+.content{max-width:1180px;margin:auto;padding:35px 30px 60px}
+.page-heading{margin-bottom:25px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:7px;color:#68c4ff;
+  font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase
+}
+.eyebrow i{width:6px;height:6px;background:var(--cyan);border-radius:50%}
+h1{font:700 30px "Plus Jakarta Sans";letter-spacing:-1px;margin:10px 0 8px}
+.subtitle{color:var(--muted);font-size:13px;line-height:1.7;margin:0;max-width:680px}
+.workspace{
+  display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:19px;align-items:start
+}
+.panel{
+  background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--radius);padding:22px
+}
+.panel-title{font:700 15px "Plus Jakarta Sans";margin:0}
+.panel-subtitle{color:var(--muted);font-size:11px;margin:6px 0 0;line-height:1.6}
+.upload-zone{
+  border:1px dashed #34516f;background:#0b1523;border-radius:14px;
+  min-height:225px;display:flex;flex-direction:column;
+  justify-content:center;align-items:center;text-align:center;
+  padding:25px;transition:.2s;cursor:pointer;margin-top:20px
+}
+.upload-zone:hover,.upload-zone.dragover{
+  border-color:var(--primary);background:#0d1d30
+}
+.upload-icon{
+  width:54px;height:54px;border-radius:16px;
+  display:grid;place-items:center;background:#132b42;
+  color:#68c4ff;font-size:25px;margin-bottom:13px
+}
+.upload-zone h3{font:700 14px "Plus Jakarta Sans";margin:0 0 7px}
+.upload-zone p{font-size:11px;color:var(--muted);margin:0 0 15px}
+.primary-btn{
+  background:linear-gradient(110deg,#278fe8,#36b9dc);
+  color:#fff;border:0;border-radius:9px;padding:11px 18px;
+  font-size:12px;font-weight:700;box-shadow:0 5px 20px #168bd52a;
+  transition:.2s
+}
+.primary-btn:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.primary-btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.secondary-btn{
+  background:#142237;color:#c8d7e9;border:1px solid #263c57;
+  border-radius:9px;padding:10px 14px;font-size:12px
+}
+.file-card{
+  display:none;align-items:center;gap:12px;padding:14px;
+  margin-top:15px;border:1px solid var(--line);
+  background:#0a1320;border-radius:11px
+}
+.file-icon{
+  width:39px;height:43px;display:grid;place-items:center;
+  border-radius:8px;background:#2a1720;color:#ff8796;font-size:18px
+}
+.file-info{flex:1;min-width:0}
+.file-name{font-size:12px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.file-meta{font-size:10px;color:var(--muted);margin-top:5px}
+.remove-file{border:0;background:transparent;color:#899bb3;font-size:18px;padding:5px}
+.remove-file:hover{color:var(--red)}
+.password-wrap{margin-top:24px}
+.field-label{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:600;margin-bottom:9px}
+.field-hint{font-size:10px;color:var(--muted);font-weight:400}
+.password-box{position:relative}
+.password-box input{
+  width:100%;background:#09111e;border:1px solid #263a54;
+  border-radius:9px;padding:13px 45px 13px 13px;color:#fff;
+  outline:none;font-size:13px
+}
+.password-box input:focus{border-color:var(--primary);box-shadow:0 0 0 3px #38a5ff16}
+.password-box input::placeholder{color:#60728b}
+.show-password{
+  position:absolute;right:11px;top:50%;transform:translateY(-50%);
+  border:0;background:transparent;color:#91a5bf;font-size:11px
+}
+.security-note{
+  display:flex;gap:9px;background:#0b1c20;border:1px solid #19433e;
+  border-radius:10px;padding:12px;margin-top:17px
+}
+.security-note span{color:var(--green);font-size:16px}
+.security-note p{font-size:10px;line-height:1.6;color:#a4c9bd;margin:0}
+.action-row{display:flex;align-items:center;gap:10px;margin-top:20px;flex-wrap:wrap}
+.action-row .primary-btn{min-width:155px}
+.progress-wrap{display:none;margin-top:22px}
+.progress-top{display:flex;justify-content:space-between;font-size:11px;margin-bottom:9px}
+.progress-top span:last-child{color:var(--cyan)}
+.progress-track{height:6px;border-radius:9px;background:#1b2a3e;overflow:hidden}
+.progress-bar{height:100%;width:0;background:linear-gradient(90deg,var(--primary),var(--cyan));transition:width .25s}
+.status-box{
+  display:none;margin-top:18px;padding:14px;border-radius:10px;
+  font-size:11px;line-height:1.6
+}
+.status-box.success{display:block;background:#0b211c;border:1px solid #1e5945;color:#a9e8cf}
+.status-box.error{display:block;background:#27151d;border:1px solid #60303c;color:#ffc0ca}
+.status-box.info{display:block;background:#102033;border:1px solid #25496b;color:#b8d9f6}
+.result-card{
+  display:none;margin-top:18px;padding:16px;border:1px solid #205843;
+  background:linear-gradient(145deg,#0d241e,#0c1b1b);border-radius:12px
+}
+.result-head{display:flex;align-items:center;gap:10px}
+.result-check{
+  width:35px;height:35px;border-radius:50%;display:grid;place-items:center;
+  color:#5ce2a9;background:#143d30;font-size:17px
+}
+.result-head strong{font-size:12px}
+.result-head small{display:block;color:#91b9a9;font-size:10px;margin-top:4px}
+.result-details{display:flex;gap:18px;flex-wrap:wrap;margin:15px 0;color:#a6c9bb;font-size:10px}
+.result-card .primary-btn{width:100%}
+.side-panel{display:flex;flex-direction:column;gap:15px}
+.side-panel .panel{padding:18px}
+.feature-row{display:flex;gap:10px;margin-top:17px}
+.feature-icon{
+  width:31px;height:31px;flex-shrink:0;border-radius:9px;
+  background:#14263b;display:grid;place-items:center;color:#70c6ff;font-size:14px
+}
+.feature-row strong{font-size:11px;display:block;margin:1px 0 4px}
+.feature-row p{font-size:10px;color:var(--muted);line-height:1.5;margin:0}
+.steps{counter-reset:step}
+.step{display:flex;gap:11px;margin-top:17px}
+.step-number{
+  width:23px;height:23px;flex-shrink:0;border-radius:50%;
+  background:#142b43;color:#69c4ff;display:grid;place-items:center;
+  font-size:10px;font-weight:700
+}
+.step strong{font-size:11px;display:block;margin:2px 0 4px}
+.step p{font-size:10px;color:var(--muted);line-height:1.5;margin:0}
+.notice{
+  margin-top:19px;border-top:1px solid var(--line);
+  padding-top:15px;font-size:10px;line-height:1.7;color:#8295ad
+}
+.footer{
+  border-top:1px solid var(--line);margin-top:40px;padding-top:19px;
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  font-size:10px;color:#71849d
+}
+.toast{
+  position:fixed;bottom:22px;right:22px;z-index:20;
+  background:#142338;border:1px solid #2b4968;color:#eaf5ff;
+  padding:12px 16px;border-radius:10px;font-size:12px;
+  opacity:0;transform:translateY(10px);pointer-events:none;transition:.25s
+}
+.toast.show{opacity:1;transform:translateY(0)}
+.mobile-menu{display:none}
+@media(max-width:950px){
+  .sidebar{width:220px}
+  .workspace{grid-template-columns:1fr}
+  .side-panel{display:grid;grid-template-columns:1fr 1fr}
+}
+@media(max-width:650px){
+  .app{display:block}
+  .sidebar{
+    position:fixed;left:-270px;top:0;width:250px;z-index:15;
+    transition:left .25s;height:100dvh
+  }
+  .sidebar.open{left:0}
+  .main{width:100%}
+  .topbar{height:59px;padding:0 15px}
+  .mobile-menu{display:block;background:transparent;border:0;color:#fff;font-size:21px;margin-right:10px}
+  .topbar-left{display:flex;align-items:center}
+  .top-actions .top-btn:first-child{display:none}
+  .content{padding:25px 15px 40px}
+  h1{font-size:25px}
+  .panel{padding:16px}
+  .upload-zone{min-height:195px}
+  .side-panel{grid-template-columns:1fr}
+  .footer{margin-top:25px}
+}
+</style>
+</head>
+
+<body>
+<div class="app">
+
+<aside class="sidebar" id="sidebar">
+  <div class="brand" onclick="location.reload()" role="button" tabindex="0"
+       onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload()}">
+    <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
+    <div>
+      <div class="brand-name">Clickdy</div>
+      <div class="brand-tag">PDF WORKSPACE</div>
+    </div>
+  </div>
+
+  <div class="side-label">PDF TOOLS</div>
+  <nav class="nav">
+    <a href="../pdf-repair/" ><span class="nav-icon">♧</span>PDF Repair</a>
+    <a href="../pdf-unlock/" class="active"><span class="nav-icon">🔓</span>PDF Unlock</a>
+    <a href="../pdf-protect/"><span class="nav-icon">♜</span>PDF Protect</a>
+    <a href="../pdf-merge/"><span class="nav-icon">▤</span>PDF Merge</a>
+    <a href="../pdf-split/"><span class="nav-icon">✂</span>PDF Split</a>
+    <a href="../pdf-compress/"><span class="nav-icon">⇣</span>PDF Compress</a>
+    <a href="../pdf-to-word/"><span class="nav-icon">W</span>PDF to Word</a>
+  </nav>
+
+  <div class="side-bottom">
+    <div class="privacy-card">
+      <div class="privacy-icon">◈</div>
+      <strong>Your files stay private</strong>
+      <p>PDF processing happens in your browser. Your document and password are not uploaded to our servers.</p>
+    </div>
+    <a class="back-link" href="https://clickdy.vercel.app/">← &nbsp; Back to Clickdy Tools</a>
+  </div>
+</aside>
+
+<main class="main">
+  <header class="topbar">
+    <div class="topbar-left">
+      <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+      <div class="breadcrumb">PDF Tools&nbsp; / &nbsp;<span>PDF Unlock</span></div>
+    </div>
+    <div class="top-actions">
+      <button class="top-btn" id="historyBtn">◷ &nbsp; Recent activity</button>
+      <button class="top-btn" id="helpBtn">Help & support</button>
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="page-heading">
+      <div class="eyebrow"><i></i> CLICKDY PDF WORKSPACE</div>
+      <h1>Unlock PDF</h1>
+      <p class="subtitle">Remove password protection from a PDF you are authorized to access. Enter its correct password and create an unlocked copy in seconds.</p>
+    </div>
+
+    <div class="workspace">
+      <section class="panel">
+        <h2 class="panel-title">Upload your protected PDF</h2>
+        <p class="panel-subtitle">Choose a password-protected PDF from your device to get started.</p>
+
+        <div class="upload-zone" id="dropZone">
+          <div class="upload-icon">⇧</div>
+          <h3>Drop your PDF file here</h3>
+          <p>or select a file from your device · PDF only · Maximum 100 MB</p>
+          <button class="primary-btn" type="button" id="browseBtn">Choose PDF file</button>
+          <input type="file" id="fileInput" accept=".pdf,application/pdf" hidden>
+        </div>
+
+        <div class="file-card" id="fileCard">
+          <div class="file-icon">PDF</div>
+          <div class="file-info">
+            <div class="file-name" id="fileName">document.pdf</div>
+            <div class="file-meta" id="fileMeta">0 MB · PDF document</div>
+          </div>
+          <button class="remove-file" id="removeFile" title="Remove file" aria-label="Remove file">×</button>
+        </div>
+
+        <div class="password-wrap">
+          <div class="field-label">
+            <label for="passwordInput">PDF password</label>
+            <span class="field-hint">Required for protected files</span>
+          </div>
+          <div class="password-box">
+            <input id="passwordInput" type="password" autocomplete="off"
+                   placeholder="Enter the password for this PDF">
+            <button class="show-password" type="button" id="togglePassword">Show</button>
+          </div>
+        </div>
+
+        <div class="security-note">
+          <span>✓</span>
+          <p><strong>Private processing:</strong> Your file and password are processed locally in your browser using WebAssembly. They are not sent to Clickdy.</p>
+        </div>
+
+        <div class="action-row">
+          <button class="primary-btn" id="unlockBtn" disabled>🔓 &nbsp; Unlock PDF</button>
+          <button class="secondary-btn" id="resetBtn">Reset</button>
+        </div>
+
+        <div class="progress-wrap" id="progressWrap">
+          <div class="progress-top">
+            <span id="progressLabel">Preparing PDF engine...</span>
+            <span id="progressPercent">0%</span>
+          </div>
+          <div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+        </div>
+
+        <div class="status-box" id="statusBox" role="status" aria-live="polite"></div>
+
+        <div class="result-card" id="resultCard">
+          <div class="result-head">
+            <div class="result-check">✓</div>
+            <div>
+              <strong>Your PDF is unlocked</strong>
+              <small>The unlocked copy is ready to download.</small>
+            </div>
+          </div>
+          <div class="result-details">
+            <span id="resultSize">File size: —</span>
+            <span id="resultName">PDF document</span>
+          </div>
+          <button class="primary-btn" id="downloadBtn">↓ &nbsp; Download unlocked PDF</button>
+        </div>
+
+        <div class="notice">
+          Only unlock files you own or are authorized to access. This tool does not recover, guess, or bypass unknown passwords. Some damaged or unsupported PDFs may not be processable.
+        </div>
+      </section>
+
+      <aside class="side-panel">
+        <section class="panel">
+          <h3 class="panel-title">How it works</h3>
+          <p class="panel-subtitle">Three simple steps to unlock your document.</p>
+          <div class="steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div><strong>Upload your PDF</strong><p>Select the password-protected PDF from your device.</p></div>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div><strong>Enter the password</strong><p>Provide the correct password that opens or owns the document.</p></div>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div><strong>Download unlocked PDF</strong><p>Save a new copy that no longer requires the password.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h3 class="panel-title">Built for privacy</h3>
+          <div class="feature-row">
+            <div class="feature-icon">⌑</div>
+            <div><strong>Local processing</strong><p>Your PDF stays on your device during processing.</p></div>
+          </div>
+          <div class="feature-row">
+            <div class="feature-icon">♧</div>
+            <div><strong>No account required</strong><p>Use the tool without creating an account.</p></div>
+          </div>
+          <div class="feature-row">
+            <div class="feature-icon">⚡</div>
+            <div><strong>QPDF engine</strong><p>Uses a WebAssembly build of the QPDF command-line engine.</p></div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h3 class="panel-title">Good to know</h3>
+          <p class="panel-subtitle">You must know the correct password. A password-protected PDF cannot be unlocked here by guessing or cracking its password. Keep your original file as a backup.</p>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <span>© 2026 Clickdy. All rights reserved.</span>
+      <span>PDF tools · Private by design</span>
+    </footer>
+  </div>
+</main>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script type="module">
+const $ = id => document.getElementById(id);
+
+const state = {
+  file: null,
+  outputBytes: null,
+  outputName: "",
+  busy: false
+};
+
+const MAX_FILE_SIZE = 100 * 1024 * 1024;
+const WASM_URL = "https://cdn.jsdelivr.net/npm/@soulehshaikh99/qpdf-wasm@0.4.1/dist/qpdf.wasm";
+let qpdfPromise = null;
+let outputUrl = null;
+
+function toast(message){
+  const el = $("toast");
+  el.textContent = message;
+  el.classList.add("show");
+  clearTimeout(toast.timer);
+  toast.timer = setTimeout(()=>el.classList.remove("show"),2600);
+}
+
+function formatSize(bytes){
+  if(bytes < 1024) return bytes + " B";
+  if(bytes < 1024*1024) return (bytes/1024).toFixed(1) + " KB";
+  return (bytes/(1024*1024)).toFixed(2) + " MB";
+}
+
+function setStatus(message,type="info"){
+  const el = $("statusBox");
+  el.textContent = message;
+  el.className = "status-box " + type;
+}
+
+function clearStatus(){
+  $("statusBox").className = "status-box";
+  $("statusBox").textContent = "";
+}
+
+function setProgress(percent,label){
+  $("progressWrap").style.display = "block";
+  $("progressBar").style.width = percent + "%";
+  $("progressPercent").textContent = percent + "%";
+  $("progressLabel").textContent = label;
+}
+
+function hideProgress(){
+  $("progressWrap").style.display = "none";
+  setProgress(0,"");
+}
+
+function releaseOutput(){
+  if(outputUrl){
+    URL.revokeObjectURL(outputUrl);
+    outputUrl = null;
+  }
+  state.outputBytes = null;
+  state.outputName = "";
+  $("resultCard").style.display = "none";
+}
+
+function clearFile(){
+  state.file = null;
+  $("fileInput").value = "";
+  $("fileCard").style.display = "none";
+  $("dropZone").style.display = "flex";
+  $("unlockBtn").disabled = true;
+  $("passwordInput").value = "";
+  releaseOutput();
+  clearStatus();
+  hideProgress();
+}
+
+function resetAll(){
+  if(state.busy) return;
+  clearFile();
+  toast("Workspace reset");
+}
+
+function selectFile(file){
+  if(state.busy) return;
+  if(!file) return;
+
+  if(!file.name.toLowerCase().endsWith(".pdf") &&
+     file.type !== "application/pdf"){
+    setStatus("Please select a valid PDF file.", "error");
+    return;
+  }
+
+  if(file.size > MAX_FILE_SIZE){
+    setStatus("This file is larger than 100 MB. Please choose a smaller PDF.", "error");
+    return;
+  }
+
+  if(file.size === 0){
+    setStatus("This file is empty. Please choose another PDF.", "error");
+    return;
+  }
+
+  releaseOutput();
+  state.file = file;
+  $("fileName").textContent = file.name;
+  $("fileMeta").textContent = formatSize(file.size) + " · PDF document";
+  $("fileCard").style.display = "flex";
+  $("dropZone").style.display = "none";
+  $("unlockBtn").disabled = false;
+  clearStatus();
+  hideProgress();
+  toast("PDF added successfully");
+}
+
+$("browseBtn").addEventListener("click",()=> $("fileInput").click());
+$("fileInput").addEventListener("change",e=>{
+  selectFile(e.target.files[0]);
+});
+
+$("dropZone").addEventListener("click",e=>{
+  if(e.target.closest("button")) return;
+  $("fileInput").click();
+});
+
+$("dropZone").addEventListener("dragover",e=>{
+  e.preventDefault();
+  $("dropZone").classList.add("dragover");
+});
+$("dropZone").addEventListener("dragleave",()=>{
+  $("dropZone").classList.remove("dragover");
+});
+$("dropZone").addEventListener("drop",e=>{
+  e.preventDefault();
+  $("dropZone").classList.remove("dragover");
+  selectFile(e.dataTransfer.files[0]);
+});
+
+$("removeFile").addEventListener("click",clearFile);
+$("resetBtn").addEventListener("click",resetAll);
+
+$("togglePassword").addEventListener("click",()=>{
+  const input = $("passwordInput");
+  const showing = input.type === "text";
+  input.type = showing ? "password" : "text";
+  $("togglePassword").textContent = showing ? "Show" : "Hide";
+});
+
+$("passwordInput").addEventListener("input",()=>{
+  if(state.outputBytes) releaseOutput();
+  clearStatus();
+});
+
+function loadQpdf(){
+  if(!qpdfPromise){
+    qpdfPromise = import("https://esm.sh/@soulehshaikh99/qpdf-wasm@0.4.1")
+      .then(async mod=>{
+        const createModule = mod.default;
+        if(typeof createModule !== "function"){
+          throw new Error("PDF engine could not be initialized.");
+        }
+        return await createModule({
+          locateFile: () => WASM_URL
+        });
+      })
+      .catch(error=>{
+        qpdfPromise = null;
+        throw error;
+      });
+  }
+  return qpdfPromise;
+}
+
+function safeOutputName(name){
+  const base = name.replace(/\.pdf$/i,"").replace(/[\\/:*?"<>|]/g,"-");
+  return (base || "document") + "-unlocked.pdf";
+}
+
+async function unlockPdf(){
+  if(state.busy) return;
+
+  const file = state.file;
+  const password = $("passwordInput").value;
+
+  if(!file){
+    setStatus("Please upload a PDF file first.","error");
+    return;
+  }
+  if(!password){
+    setStatus("Please enter the correct PDF password.","error");
+    $("passwordInput").focus();
+    return;
+  }
+
+  state.busy = true;
+  releaseOutput();
+  $("unlockBtn").disabled = true;
+  $("resetBtn").disabled = true;
+  $("removeFile").disabled = true;
+  clearStatus();
+
+  try{
+    setProgress(8,"Loading secure PDF engine...");
+    const qpdf = await loadQpdf();
+
+    setProgress(30,"Reading your PDF...");
+    const bytes = new Uint8Array(await file.arrayBuffer());
+
+    if(bytes.length < 5 ||
+       String.fromCharCode(...bytes.slice(0,5)) !== "%PDF-"){
+      throw new Error("The selected file does not appear to contain a valid PDF document.");
+    }
+
+    const inputPath = "/clickdy-unlock-input.pdf";
+    const outputPath = "/clickdy-unlock-output.pdf";
+
+    try{ qpdf.FS.unlink(inputPath); }catch(e){}
+    try{ qpdf.FS.unlink(outputPath); }catch(e){}
+
+    qpdf.FS.writeFile(inputPath,bytes);
+
+    setProgress(55,"Checking password and removing protection...");
+
+    let engineOutput = "";
+    const previousPrint = qpdf.print;
+    const previousPrintErr = qpdf.printErr;
+
+    qpdf.print = text => { engineOutput += String(text) + "\n"; };
+    qpdf.printErr = text => { engineOutput += String(text) + "\n"; };
+
+    let exitCode;
+    try{
+      exitCode = qpdf.callMain([
+        "--password=" + password,
+        "--decrypt",
+        inputPath,
+        outputPath
+      ]);
+    } finally {
+      qpdf.print = previousPrint;
+      qpdf.printErr = previousPrintErr;
+    }
+
+    setProgress(78,"Verifying unlocked PDF...");
+
+    let output;
+    try{
+      output = qpdf.FS.readFile(outputPath);
+    }catch(e){
+      output = null;
+    }
+
+    if(!output || !output.length || (exitCode !== 0 && exitCode !== 3)){
+      const log = engineOutput.toLowerCase();
+
+      if(log.includes("invalid password") || log.includes("incorrect password") ||
+         log.includes("password is incorrect")){
+        throw new Error("The password is incorrect. Please check it and try again.");
+      }
+
+      if(log.includes("password")) {
+        throw new Error("The PDF password could not be verified. Please check the password and try again.");
+      }
+
+      throw new Error("QPDF could not unlock this document. It may be damaged, unsupported, or protected with a password that was not accepted.");
+    }
+
+    const result = new Uint8Array(output);
+    if(result.length < 5 ||
+       String.fromCharCode(...result.slice(0,5)) !== "%PDF-"){
+      throw new Error("The engine did not produce a valid PDF file.");
+    }
+
+    // Check that the output can be opened without a password.
+    setProgress(90,"Checking the unlocked document...");
+    const checkPath = "/clickdy-unlock-check.pdf";
+    try{ qpdf.FS.unlink(checkPath); }catch(e){}
+    qpdf.FS.writeFile(checkPath,result);
+
+    const checkCode = qpdf.callMain(["--check",checkPath]);
+    if(checkCode !== 0 && checkCode !== 3){
+      throw new Error("The output PDF did not pass the final document check. No download was created.");
+    }
+
+    state.outputBytes = result;
+    state.outputName = safeOutputName(file.name);
+
+    setProgress(100,"Your unlocked PDF is ready.");
+    $("resultSize").textContent = "File size: " + formatSize(result.length);
+    $("resultName").textContent = state.outputName;
+    $("resultCard").style.display = "block";
+
+    setStatus("Success! The PDF was processed and the new copy passed the final check.","success");
+    toast("PDF unlocked successfully");
+  }catch(error){
+    console.error("Clickdy PDF Unlock:",error);
+    setStatus(error.message || "Something went wrong while unlocking this PDF.","error");
+    toast("Could not unlock PDF");
+  }finally{
+    state.busy = false;
+    $("unlockBtn").disabled = !state.file;
+    $("resetBtn").disabled = false;
+    $("removeFile").disabled = false;
+  }
+}
+
+$("unlockBtn").addEventListener("click",unlockPdf);
+
+$("downloadBtn").addEventListener("click",()=>{
+  if(!state.outputBytes) return;
+
+  if(outputUrl) URL.revokeObjectURL(outputUrl);
+  const blob = new Blob([state.outputBytes],{type:"application/pdf"});
+  outputUrl = URL.createObjectURL(blob);
+
+  const link = document.createElement("a");
+  link.href = outputUrl;
+  link.download = state.outputName || "unlocked.pdf";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  toast("Download started");
+});
+
+$("historyBtn").addEventListener("click",()=>{
+  toast("Recent activity is not available in this version.");
+});
+$("helpBtn").addEventListener("click",()=>{
+  toast("For help, visit the Clickdy website.");
+});
+
+$("mobileMenu").addEventListener("click",()=>{
+  $("sidebar").classList.toggle("open");
+});
+
+document.addEventListener("click",e=>{
+  if(window.innerWidth <= 650 &&
+     $("sidebar").classList.contains("open") &&
+     !e.target.closest("#sidebar") &&
+     !e.target.closest("#mobileMenu")){
+    $("sidebar").classList.remove("open");
+  }
+});
+
+window.addEventListener("beforeunload",()=>{
+  if(outputUrl) URL.revokeObjectURL(outputUrl);
+});
+</script>
+</body>
+</html>

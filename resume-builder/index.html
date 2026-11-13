@@ -1,284 +1,461 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Resume & CV Builder Online - Clickdy</title>
-<meta name="description" content="Build a professional resume or CV online with Clickdy. Edit sections, preview your resume live, save a draft and print or save it as PDF.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#070b14">
+<title>Resume & CV Builder - Clickdy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Roboto:wght@400;500;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--panel3:#151f2d;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--accent2:#3aa9e8;--success:#62d89a;--danger:#ff6f7d;--line:#223044;--radius:16px}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif}
-button,input,textarea,select{font:inherit}button{cursor:pointer}
-.page{max-width:1380px;margin:auto;padding:24px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:8px 0 22px;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:11px;color:var(--text);text-decoration:none;font-weight:800;font-size:21px}.brand img{width:36px;height:36px;object-fit:contain;border-radius:9px}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}
-.hero{text-align:center;padding:34px 10px 25px}.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 10px;letter-spacing:-1.5px}.hero h1 span{color:var(--accent)}.hero p{max-width:700px;margin:auto;color:var(--muted);line-height:1.65}
-.workspace{display:grid;grid-template-columns:minmax(330px,500px) minmax(420px,1fr);gap:22px;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:0 18px 55px rgba(0,0,0,.2)}.panel h2{font-size:18px;margin:0 0 16px}.panel h3{font-size:14px;margin:22px 0 10px;color:#dce5ef}
-.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:12px;color:#b9c4d2}.field input,.field textarea,.field select{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 11px;outline:none}.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--accent)}.field textarea{min-height:86px;resize:vertical}
-.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.btn{border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:9px 13px;border-radius:10px;font-weight:700}.btn:hover{border-color:#3c526d}.btn.primary{background:var(--accent);border-color:var(--accent);color:#06101a}.btn.danger{color:#ffb5bd}.btn.small{padding:7px 10px;font-size:12px}
-.entry{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:13px;margin:10px 0}.entry-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}.entry-head strong{font-size:13px}.empty{color:var(--muted);font-size:13px;padding:10px 0}
-.preview-wrap{position:sticky;top:18px}.preview-tools{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}.preview-tools .hint{color:var(--muted);font-size:12px}.paper{width:210mm;min-height:297mm;max-width:100%;margin:auto;background:#fff;color:#18212b;padding:18mm 17mm;box-shadow:0 18px 55px rgba(0,0,0,.35);overflow:hidden}.resume-name{font-size:30px;font-weight:800;line-height:1.1;margin:0}.resume-title{color:#4d6277;font-size:15px;margin:5px 0 11px}.contact{display:flex;flex-wrap:wrap;gap:5px 13px;font-size:10.5px;color:#536477}.rule{height:2px;background:var(--resume-accent,#3aa9e8);margin:14px 0}.r-section{margin-top:13px}.r-section h2{font-size:12px;letter-spacing:1.3px;text-transform:uppercase;margin:0 0 7px;color:#263849;border-bottom:1px solid #d7dee6;padding-bottom:4px}.summary{font-size:10.5px;line-height:1.55;color:#3d4d5d}.r-item{margin:8px 0}.r-top{display:flex;justify-content:space-between;gap:12px}.r-role{font-size:11.5px;font-weight:800}.r-date{font-size:9.5px;color:#647589;white-space:nowrap}.r-org{font-size:10px;color:#536477;margin:2px 0 4px}.r-desc{font-size:10px;line-height:1.45;color:#3d4d5d;white-space:pre-line}.chips{display:flex;flex-wrap:wrap;gap:5px}.chip{font-size:9.5px;background:#eef4f8;border-radius:5px;padding:4px 7px;color:#33485a}.two-col{display:grid;grid-template-columns:1.5fr 1fr;gap:22px}.template-modern .resume-name{letter-spacing:-.5px}.template-classic .resume-name{text-transform:uppercase;letter-spacing:1.5px}.template-classic .rule{height:1px;background:#263849}.template-minimal .rule{background:#18212b;height:1px}.template-minimal .r-section h2{border:0;padding:0}
-.color-row{display:flex;align-items:center;gap:10px}.color-row input[type=color]{width:45px;height:36px;padding:2px;background:var(--panel2);border:1px solid var(--line);border-radius:8px}
-.footer{text-align:center;color:var(--muted);font-size:12px;padding:30px 0 10px}
-@media(max-width:1050px){.workspace{grid-template-columns:1fr}.preview-wrap{position:static}.paper{width:210mm;max-width:100%;transform-origin:top left}}
-@media(max-width:650px){.page{padding:14px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero{padding:25px 5px 20px}.panel{padding:15px}.paper{padding:12mm 10mm}.resume-name{font-size:24px}.two-col{grid-template-columns:1fr}.preview-tools{align-items:flex-start;flex-direction:column}}
+:root{--bg:#070b14;--surface:#0d1422;--surface2:#111b2d;--primary:#38a5ff;--cyan:#2ee7df;--text:#f4f8ff;--muted:#93a4bd;--line:#1d2b42}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif}
+button,input,textarea,select{font:inherit}
+button{cursor:pointer}
+.topbar{height:66px;padding:0 4%;display:flex;align-items:center;justify-content:space-between;background:#090f1b;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+.brand{display:flex;align-items:center;gap:10px;cursor:pointer}
+.brand img{width:37px;height:37px;object-fit:contain}
+.brand-name{font:800 20px 'Plus Jakarta Sans'}
+.brand-tag{font-size:9px;letter-spacing:1.4px;color:var(--muted);margin-top:2px}
+.back{font-size:12px;color:#b7c8dc;text-decoration:none;font-weight:600}
+.back:hover{color:var(--cyan)}
+.top-actions{display:flex;align-items:center;gap:8px}
+.btn{border:1px solid #2b4059;background:#17263a;color:#d8e9fa;border-radius:8px;padding:9px 12px;font-size:11px;font-weight:700}
+.btn:hover{border-color:var(--primary)}
+.btn-primary{border:0;background:linear-gradient(110deg,var(--primary),#2587d8);color:white}
+.btn-primary:hover{filter:brightness(1.1)}
+.btn-danger{background:#351c29;color:#ffb5c2;border-color:#523040}
+.btn-small{padding:6px 9px;font-size:10px}
+.container{max-width:1450px;margin:auto;padding:25px 20px 50px}
+.heading{margin-bottom:20px}
+.eyebrow{font-size:10px;letter-spacing:1.6px;color:var(--cyan);font-weight:700;text-transform:uppercase}
+h1{font:800 clamp(24px,3vw,32px) 'Plus Jakarta Sans';margin:7px 0;letter-spacing:-.7px}
+.heading p{font-size:12px;color:var(--muted);line-height:1.6;margin:0}
+.workspace{display:grid;grid-template-columns:minmax(350px, .92fr) minmax(420px,1.08fr);gap:17px;align-items:start}
+.editor,.preview-panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;min-width:0}
+.editor{overflow:hidden}
+.editor-head,.preview-head{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:10px}
+.editor-head h2,.preview-head h2{font:700 14px 'Plus Jakarta Sans';margin:0}
+.progress{font-size:10px;color:var(--cyan)}
+.tabs{display:flex;gap:5px;overflow-x:auto;padding:10px 13px;border-bottom:1px solid var(--line);scrollbar-width:thin}
+.tab{white-space:nowrap;background:transparent;border:1px solid transparent;color:var(--muted);padding:8px 10px;border-radius:7px;font-size:10px;font-weight:700}
+.tab.active{background:#10263b;border-color:#244c6c;color:#8fd2ff}
+.form-content{padding:15px;max-height:calc(100vh - 230px);overflow:auto;scrollbar-width:thin;scrollbar-color:#286b9b #090f1b}
+.section{display:none}
+.section.active{display:block}
+.section-title{font:700 13px 'Plus Jakarta Sans';margin:0 0 13px}
+.section-desc{font-size:10px;color:var(--muted);line-height:1.5;margin:-6px 0 14px}
+.field{margin-bottom:12px;min-width:0}
+.field label{display:block;font-size:10px;color:#c3d1e2;font-weight:700;margin-bottom:6px}
+.field input,.field textarea,.field select{width:100%;background:#09111e;border:1px solid #293b53;border-radius:8px;color:var(--text);padding:10px 11px;font-size:11px;outline:none;min-width:0}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--primary)}
+.field input::placeholder,.field textarea::placeholder{color:#64778f}
+.field textarea{resize:vertical;min-height:78px;line-height:1.5}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.photo-row{display:flex;align-items:center;gap:12px;background:#0a1321;border:1px solid var(--line);padding:11px;border-radius:9px;margin-bottom:14px}
+.photo-preview{width:54px;height:54px;border-radius:50%;background:#18263a;display:flex;align-items:center;justify-content:center;overflow:hidden;color:var(--muted);font-size:9px;flex-shrink:0}
+.photo-preview img{width:100%;height:100%;object-fit:cover}
+.photo-row p{font-size:10px;color:var(--muted);margin:4px 0}
+.entry-card{background:#0a1321;border:1px solid var(--line);border-radius:10px;padding:12px;margin-bottom:11px}
+.entry-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.entry-top strong{font-size:11px}
+.add-btn{width:100%;border:1px dashed #385573;background:#0c1a2a;color:#8fd2ff;border-radius:8px;padding:10px;font-size:11px;font-weight:700}
+.add-btn:hover{border-color:var(--cyan)}
+.check-row{display:flex;align-items:center;gap:7px;font-size:10px;color:var(--muted);margin:9px 0}
+.check-row input{accent-color:var(--primary)}
+.preview-head{flex-wrap:wrap}
+.preview-tools{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.preview-area{padding:17px;background:#111b2a;min-height:700px;overflow:auto}
+.resume-page{background:white;color:#202938;width:100%;max-width:794px;min-height:1122px;margin:0 auto;box-shadow:0 10px 35px #0005;padding:46px 48px;font-family:Arial,sans-serif;font-size:10px;line-height:1.5;overflow-wrap:anywhere}
+.resume-page h2{font-size:12px;text-transform:uppercase;letter-spacing:1.2px;color:var(--accent);border-bottom:1px solid #d7dfe8;padding-bottom:5px;margin:18px 0 9px}
+.resume-page h3{font-size:11px;margin:0;font-weight:700}
+.resume-page p{margin:3px 0}
+.resume-page .muted{color:#657184}
+.resume-page .resume-header{display:flex;justify-content:space-between;gap:15px;align-items:flex-start;border-bottom:2px solid var(--accent);padding-bottom:15px}
+.resume-page .person-name{font-size:27px;line-height:1.15;margin:0 0 4px;color:#182333;letter-spacing:-.5px}
+.resume-page .job-title{font-size:12px;color:var(--accent);font-weight:700;margin-bottom:9px}
+.resume-page .contact{font-size:9px;color:#586579;line-height:1.8}
+.resume-page .profile-photo{width:88px;height:88px;object-fit:cover;border-radius:50%;border:2px solid var(--accent);flex-shrink:0}
+.resume-page .summary{font-size:10px;line-height:1.65;color:#3c4858}
+.resume-page .item{margin-bottom:11px;break-inside:avoid}
+.resume-page .item-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.resume-page .item-date{font-size:9px;color:#66758a;text-align:right;white-space:normal}
+.resume-page .item-sub{font-size:9px;color:#657184;margin:2px 0 4px}
+.resume-page .item-desc{font-size:9.5px;line-height:1.55;color:#3f4b5b;white-space:pre-line}
+.resume-page ul{padding-left:15px;margin:4px 0}
+.resume-page li{margin-bottom:3px}
+.resume-page .skills{display:flex;flex-wrap:wrap;gap:5px}
+.resume-page .skill{border:1px solid #dce4ec;border-radius:4px;padding:3px 7px;font-size:9px}
+.resume-page .two-col-section{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.resume-page .minimal-header{text-align:center;display:block}
+.resume-page .minimal-header .contact{text-align:center}
+.resume-page .minimal-header .profile-photo{margin:0 auto 10px}
+.resume-page .modern-header{background:var(--accent);color:white;margin:-46px -48px 18px;padding:35px 48px}
+.resume-page .modern-header .person-name,.resume-page .modern-header .job-title,.resume-page .modern-header .contact{color:white}
+.resume-page .modern-header .contact{opacity:.9}
+.resume-page .modern-header h2{color:white;border-color:#ffffff88}
+.resume-page .modern-header .profile-photo{border-color:white}
+.resume-page .modern-header .resume-header{border:0;padding:0}
+.resume-page .modern-header .person-name{font-size:29px}
+.resume-page .modern-header .job-title{font-size:12px}
+.resume-page .modern-header .contact{font-size:9px}
+.resume-page .modern-header .contact span{margin-right:9px}
+.empty-hint{font-size:10px;color:#8995a5;font-style:italic}
+.status{font-size:10px;color:var(--muted);min-height:17px;margin-top:9px}
+.footer{text-align:center;color:#71829b;font-size:10px;margin-top:20px}
+@media(max-width:1050px){.workspace{grid-template-columns:1fr}.form-content{max-height:none}.preview-area{min-height:500px}.resume-page{max-width:794px}}
+@media(max-width:600px){.topbar{padding:0 12px;height:60px}.brand img{width:32px;height:32px}.brand-name{font-size:18px}.back{font-size:10px}.top-actions .back{display:none}.container{padding:20px 10px 35px}.workspace{gap:12px}.editor-head,.preview-head{padding:12px}.form-content{padding:12px}.preview-area{padding:8px;min-height:400px}.resume-page{padding:25px 22px;min-height:900px;font-size:8px}.resume-page .person-name{font-size:21px}.resume-page .modern-header{margin:-25px -22px 14px;padding:24px 22px}.resume-page .modern-header .person-name{font-size:23px}.resume-page .profile-photo{width:65px;height:65px}.grid2{gap:8px}.preview-tools .btn{padding:8px;font-size:9px}}
 @media print{
-body{background:#fff}.page{max-width:none;padding:0}.topbar,.hero,.editor-panel,.preview-tools,.footer{display:none!important}.workspace{display:block}.preview-wrap{position:static}.preview-panel{border:0;padding:0;box-shadow:none;background:#fff}.paper{width:210mm;min-height:297mm;box-shadow:none;margin:0;padding:18mm 17mm;max-width:none}
+ @page{size:A4;margin:0}
+ html,body{margin:0!important;padding:0!important;background:white!important}
+ body *{visibility:hidden!important}
+ #resumePage,#resumePage *{visibility:visible!important}
+ #resumePage{position:absolute!important;left:0!important;top:0!important;width:210mm!important;max-width:none!important;min-height:297mm!important;margin:0!important;padding:14mm!important;box-shadow:none!important;border:0!important;font-size:9pt!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+ #resumePage .modern-header{margin:-14mm -14mm 6mm!important;padding:12mm 14mm!important}
+ .resume-page h2{break-after:avoid}
+ .resume-page .item{break-inside:avoid}
 }
 </style>
-<!-- Clickdy SEO metadata -->
-<link rel="canonical" href="https://clickdy.vercel.app/resume-builder/">
-<meta name="robots" content="index,follow">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Resume & CV Builder Online - Clickdy">
-<meta property="og:description" content="Build a professional resume or CV online with Clickdy. Edit sections, preview your resume live, save a draft and print or save it as PDF.">
-<meta property="og:url" content="https://clickdy.vercel.app/resume-builder/">
-<meta property="og:site_name" content="Clickdy">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Resume & CV Builder Online - Clickdy">
-<meta name="twitter:description" content="Build a professional resume or CV online with Clickdy. Edit sections, preview your resume live, save a draft and print or save it as PDF.">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Resume & CV Builder Online",
-  "url": "https://clickdy.vercel.app/resume-builder/",
-  "description": "Build a professional resume or CV online with Clickdy. Edit sections, preview your resume live, save a draft and print or save it as PDF.",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "Any",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Clickdy",
-    "url": "https://clickdy.vercel.app/"
-  }
-}
-</script>
 </head>
 <body>
-<div class="page">
 <header class="topbar">
-<a class="brand" href="../index.html"><img src="../assets/logo.png" alt="Clickdy logo"><span>Clickdy</span></a>
-<a class="back" href="../index.html">← Back to Home</a>
+ <div class="brand" onclick="location.reload()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload()}">
+  <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
+  <div><div class="brand-name">Clickdy</div><div class="brand-tag">CAREER TOOLS</div></div>
+ </div>
+ <div class="top-actions">
+  <a class="back" href="https://clickdy.vercel.app/">← Back to Clickdy Tools</a>
+  <button class="btn btn-primary" id="topDownload">Download PDF</button>
+ </div>
 </header>
 
-<section class="hero">
-<h1>Build Your <span>Professional Resume</span></h1>
-<p>Create, edit and preview your resume live. Everything runs in your browser, and you can print or save the finished A4 resume as PDF.</p>
-</section>
+<main class="container">
+ <div class="heading">
+  <div class="eyebrow">Free career & productivity tool</div>
+  <h1>Resume & CV Builder</h1>
+  <p>Create a professional resume in minutes. Add your experience, education, skills and achievements, choose a template, preview your CV and save it as a PDF.</p>
+ </div>
 
-<main class="workspace">
-<section class="panel editor-panel">
-<h2>Resume Details</h2>
+ <div class="workspace">
+  <section class="editor">
+   <div class="editor-head">
+    <h2>Build your resume</h2>
+    <span class="progress" id="progress">0% completed</span>
+   </div>
+   <nav class="tabs">
+    <button class="tab active" data-tab="personal">Personal</button>
+    <button class="tab" data-tab="summary">Summary</button>
+    <button class="tab" data-tab="experience">Experience</button>
+    <button class="tab" data-tab="education">Education</button>
+    <button class="tab" data-tab="skills">Skills</button>
+    <button class="tab" data-tab="extras">More sections</button>
+    <button class="tab" data-tab="design">Design</button>
+   </nav>
+   <div class="form-content">
+    <section class="section active" id="section-personal">
+     <h3 class="section-title">Personal information</h3>
+     <p class="section-desc">Add your contact details and professional identity.</p>
+     <div class="photo-row">
+      <div class="photo-preview" id="photoPreview">PHOTO</div>
+      <div><strong style="font-size:11px">Profile photo (optional)</strong><p>Use a clear, professional picture.</p>
+       <input type="file" id="photoInput" accept="image/png,image/jpeg,image/webp" style="font-size:10px;color:var(--muted);max-width:190px">
+       <button class="btn btn-small btn-danger" id="removePhoto" type="button">Remove photo</button>
+      </div>
+     </div>
+     <div class="grid2">
+      <div class="field"><label>Full name *</label><input id="fullName" placeholder="e.g. Alex Johnson"></div>
+      <div class="field"><label>Professional title</label><input id="jobTitle" placeholder="e.g. Graphic Designer"></div>
+      <div class="field"><label>Email address</label><input id="email" type="email" placeholder="alex@example.com"></div>
+      <div class="field"><label>Phone number</label><input id="phone" placeholder="+1 234 567 890"></div>
+      <div class="field"><label>City / Location</label><input id="location" placeholder="City, Country"></div>
+      <div class="field"><label>Website / Portfolio</label><input id="website" placeholder="www.example.com"></div>
+      <div class="field"><label>LinkedIn</label><input id="linkedin" placeholder="linkedin.com/in/username"></div>
+      <div class="field"><label>Other profile link</label><input id="otherLink" placeholder="GitHub, Behance, etc."></div>
+     </div>
+     <div class="field"><label>Professional headline (optional)</label><input id="headline" placeholder="A short statement about your professional identity"></div>
+    </section>
 
-<div class="form-grid">
-<div class="field"><label for="name">Full name</label><input id="name" autocomplete="name" placeholder="Alex Johnson"></div>
-<div class="field"><label for="job">Job title</label><input id="job" placeholder="Product Designer"></div>
-<div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email" placeholder="alex@example.com"></div>
-<div class="field"><label for="phone">Phone</label><input id="phone" type="tel" autocomplete="tel" placeholder="+92 300 1234567"></div>
-<div class="field"><label for="location">Location</label><input id="location" placeholder="Bahawalpur, Pakistan"></div>
-<div class="field"><label for="website">Website / LinkedIn</label><input id="website" placeholder="linkedin.com/in/alex"></div>
-<div class="field full"><label for="summary">Professional summary</label><textarea id="summary" placeholder="Write a concise summary of your experience, strengths and career goals."></textarea></div>
-<div class="field full"><label for="skills">Skills</label><input id="skills" placeholder="Figma, UI Design, HTML, CSS, JavaScript"></div>
-<div class="field full"><label for="languages">Languages</label><input id="languages" placeholder="English, Urdu, Arabic"></div>
-</div>
+    <section class="section" id="section-summary">
+     <h3 class="section-title">Professional summary</h3>
+     <p class="section-desc">Write a short introduction highlighting your experience, strengths and career goals.</p>
+     <div class="field"><label>About you</label><textarea id="summary" rows="7" placeholder="Results-driven professional with experience in..."></textarea></div>
+     <div style="font-size:10px;color:var(--muted)">Tip: Keep your summary focused, relevant and specific. Include skills or achievements that match the role you're applying for.</div>
+    </section>
 
-<h3>Experience</h3>
-<div id="experienceList"></div>
-<button class="btn small" id="addExperience" type="button">+ Add Experience</button>
+    <section class="section" id="section-experience">
+     <h3 class="section-title">Work experience</h3>
+     <p class="section-desc">Add your latest or most relevant roles first. You can add multiple jobs.</p>
+     <div id="experienceList"></div>
+     <button class="add-btn" id="addExperience">+ Add work experience</button>
+    </section>
 
-<h3>Education</h3>
-<div id="educationList"></div>
-<button class="btn small" id="addEducation" type="button">+ Add Education</button>
+    <section class="section" id="section-education">
+     <h3 class="section-title">Education</h3>
+     <p class="section-desc">Include degrees, diplomas, school qualifications or relevant training.</p>
+     <div id="educationList"></div>
+     <button class="add-btn" id="addEducation">+ Add education</button>
+    </section>
 
-<h3>Projects</h3>
-<div id="projectList"></div>
-<button class="btn small" id="addProject" type="button">+ Add Project</button>
+    <section class="section" id="section-skills">
+     <h3 class="section-title">Skills & expertise</h3>
+     <p class="section-desc">List relevant skills. Separate each skill with a comma.</p>
+     <div class="field"><label>Professional / technical skills</label><textarea id="skills" placeholder="Project Management, JavaScript, Graphic Design, Excel"></textarea></div>
+     <div class="field"><label>Soft skills</label><textarea id="softSkills" placeholder="Communication, Leadership, Problem Solving"></textarea></div>
+     <div class="field"><label>Languages</label><textarea id="languages" placeholder="English - Fluent, Urdu - Native"></textarea></div>
+    </section>
 
-<h3>Certifications</h3>
-<div id="certList"></div>
-<button class="btn small" id="addCert" type="button">+ Add Certification</button>
+    <section class="section" id="section-extras">
+     <h3 class="section-title">Additional sections</h3>
+     <p class="section-desc">Add projects, certifications, awards and volunteer experience to strengthen your CV.</p>
+     <div class="field"><label>Projects</label><div id="projectsList"></div><button class="add-btn" id="addProject">+ Add project</button></div>
+     <div class="field" style="margin-top:20px"><label>Certifications</label><div id="certificationsList"></div><button class="add-btn" id="addCertification">+ Add certification</button></div>
+     <div class="field" style="margin-top:20px"><label>Awards & achievements</label><textarea id="awards" placeholder="Award name - Organization - Year"></textarea></div>
+     <div class="field"><label>Volunteer experience / activities</label><textarea id="volunteer" placeholder="Organization, role and contribution"></textarea></div>
+     <div class="field"><label>Interests (optional)</label><textarea id="interests" placeholder="Reading, photography, technology"></textarea></div>
+    </section>
 
-<h3>Appearance</h3>
-<div class="form-grid">
-<div class="field"><label for="template">Resume layout</label>
-<select id="template"><option value="modern">Modern</option><option value="classic">Classic</option><option value="minimal">Minimal</option></select></div>
-<div class="field"><label for="accent">Accent color</label><div class="color-row"><input id="accent" type="color" value="#3aa9e8"><span id="accentText">#3aa9e8</span></div></div>
-</div>
+    <section class="section" id="section-design">
+     <h3 class="section-title">Customize your resume</h3>
+     <p class="section-desc">Choose a layout, accent color and font for your CV.</p>
+     <div class="field"><label>Resume template</label>
+      <select id="template">
+       <option value="modern">Modern Professional</option>
+       <option value="classic">Classic Professional</option>
+       <option value="minimal">Minimal Clean</option>
+      </select>
+     </div>
+     <div class="field"><label>Accent color</label>
+      <div class="grid3" id="accentChoices">
+       <button class="btn" data-accent="#2478b9" style="border-color:#2478b9">Blue</button>
+       <button class="btn" data-accent="#16806b" style="border-color:#16806b">Teal</button>
+       <button class="btn" data-accent="#6c54a3" style="border-color:#6c54a3">Purple</button>
+       <button class="btn" data-accent="#303b4b" style="border-color:#303b4b">Charcoal</button>
+       <button class="btn" data-accent="#a15b38" style="border-color:#a15b38">Terracotta</button>
+       <button class="btn" data-accent="#9b4160" style="border-color:#9b4160">Rose</button>
+      </div>
+     </div>
+     <div class="field"><label>Font family</label>
+      <select id="resumeFont">
+       <option value="Arial">Arial</option>
+       <option value="Roboto">Roboto</option>
+       <option value="Lato">Lato</option>
+       <option value="Georgia">Georgia</option>
+      </select>
+     </div>
+     <label class="check-row"><input type="checkbox" id="showPhoto" checked> Show profile photo on resume</label>
+     <label class="check-row"><input type="checkbox" id="showInterests" checked> Show interests section when filled</label>
+     <label class="check-row"><input type="checkbox" id="showAwards" checked> Show awards and activities when filled</label>
+     <button class="btn btn-primary" id="resetDesign">Reset design</button>
+    </section>
+    <div class="status" id="editorStatus" aria-live="polite">Your changes appear in the preview automatically.</div>
+   </div>
+  </section>
 
-<div class="actions">
-<button class="btn primary" id="printBtn" type="button">Print / Save PDF</button>
-<button class="btn" id="saveBtn" type="button">Save Draft</button>
-<button class="btn" id="loadBtn" type="button">Load Draft</button>
-<button class="btn" id="downloadJson" type="button">Download JSON</button>
-<button class="btn danger" id="clearBtn" type="button">Clear</button>
-</div>
-<div id="status" class="empty" role="status" aria-live="polite"></div>
-</section>
-
-<section class="panel preview-panel">
-<div class="preview-tools">
-<strong>Live A4 Preview</strong>
-<span class="hint">Use Print / Save PDF to export</span>
-</div>
-<div id="paper" class="paper template-modern" aria-label="Resume preview"></div>
-</section>
+  <section class="preview-panel">
+   <div class="preview-head">
+    <h2>Live resume preview</h2>
+    <div class="preview-tools">
+     <button class="btn btn-small" id="zoomOut">−</button>
+     <span id="zoomLabel" style="font-size:10px;color:var(--muted)">100%</span>
+     <button class="btn btn-small" id="zoomIn">+</button>
+     <button class="btn btn-small btn-primary" id="downloadPdf">↓ PDF</button>
+    </div>
+   </div>
+   <div class="preview-area" id="previewArea">
+    <article class="resume-page" id="resumePage" style="--accent:#2478b9">
+     <div id="resumeOutput"></div>
+    </article>
+   </div>
+   <div style="padding:10px 14px;border-top:1px solid var(--line);font-size:10px;color:var(--muted)">
+    PDF export uses your browser's print dialog. Choose <b style="color:#c5d8ec">Save as PDF</b> as the destination.
+   </div>
+  </section>
+ </div>
+ <div class="footer">Made with Clickdy · Your resume details stay in your browser and are not uploaded to our server.</div>
 </main>
-<div class="footer">Clickdy Resume Builder • Browser-side editing • No sign-up</div>
-</div>
 
 <script>
-(() => {
-"use strict";
-const $ = id => document.getElementById(id);
-const ids = ["name","job","email","phone","location","website","summary","skills","languages","template","accent"];
-const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[ch]));
-const splitList = value => String(value || "").split(",").map(x => x.trim()).filter(Boolean);
-
-function entryHTML(type, data = {}) {
-  const configs = {
-    experience: [
-      ["role","Role / Position","Senior Product Designer"],
-      ["company","Company","Company Name"],
-      ["start","Start","2023"],
-      ["end","End","Present"],
-      ["description","Description / achievements","Led product design and improved conversion by 25%."]
-    ],
-    education: [
-      ["degree","Degree","BS Computer Science"],
-      ["school","School / University","University Name"],
-      ["start","Start","2020"],
-      ["end","End","2024"],
-      ["description","Details","Relevant coursework, honors, activities."]
-    ],
-    project: [
-      ["title","Project name","Portfolio Website"],
-      ["link","Project link","example.com"],
-      ["description","Description","Built a responsive website with a focus on performance and accessibility."]
-    ],
-    cert: [
-      ["title","Certification","Google UX Design"],
-      ["issuer","Issuer","Google"],
-      ["year","Year","2025"]
-    ]
-  };
-  const rows = configs[type];
-  return '<div class="entry" data-type="'+type+'"><div class="entry-head"><strong>'+type.charAt(0).toUpperCase()+type.slice(1)+'</strong><button class="btn small danger remove-entry" type="button">Remove</button></div><div class="form-grid">'+rows.map(([key,label,ph]) =>
-    '<div class="field '+(key==="description"?'full':'')+'"><label>'+esc(label)+'</label>' +
-    (key==="description" ? '<textarea data-key="'+key+'" placeholder="'+esc(ph)+'">'+esc(data[key] || "")+'</textarea>' :
-    '<input data-key="'+key+'" value="'+esc(data[key] || "")+'" placeholder="'+esc(ph)+'">') +
-    '</div>').join("")+'</div></div>';
+(()=>{
+const $=id=>document.getElementById(id);
+const fields=['fullName','jobTitle','email','phone','location','website','linkedin','otherLink','headline','summary','skills','softSkills','languages','awards','volunteer','interests'];
+let photoData='',accent='#2478b9',zoom=100;
+const data={experience:[],education:[],projects:[],certifications:[]};
+const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const val=id=>$(id).value.trim();
+const safeUrl=s=>{try{const u=new URL(/^https?:\/\//i.test(s)?s:'https://'+s);return ['http:','https:'].includes(u.protocol)?u.href:''}catch{return ''}};
+const lines=s=>String(s||'').split(/\n/).map(x=>x.trim()).filter(Boolean);
+const comma=s=>String(s||'').split(',').map(x=>x.trim()).filter(Boolean);
+const linkText=(label,value)=>{if(!value)return '';const url=safeUrl(value);return url?`<a href="${escapeHTML(url)}" target="_blank" rel="noopener">${escapeHTML(value)}</a>`:escapeHTML(value)};
+function setStatus(t){$('editorStatus').textContent=t}
+function addEntry(type,defaults={}){
+ const id=crypto.randomUUID?crypto.randomUUID():String(Date.now()+Math.random());
+ data[type].push({id,...defaults});
+ renderEntryForms();render();
 }
-
-function addEntry(type, data) {
-  const map = {experience:"experienceList",education:"educationList",project:"projectList",cert:"certList"};
-  $(map[type]).insertAdjacentHTML("beforeend", entryHTML(type, data));
-  update();
+function removeEntry(type,id){data[type]=data[type].filter(x=>x.id!==id);renderEntryForms();render()}
+function updateEntry(type,id,key,value){
+ const item=data[type].find(x=>x.id===id);if(item)item[key]=value;render();
 }
-$("addExperience").onclick = () => addEntry("experience");
-$("addEducation").onclick = () => addEntry("education");
-$("addProject").onclick = () => addEntry("project");
-$("addCert").onclick = () => addEntry("cert");
-
-document.addEventListener("click", e => {
-  if (e.target.classList.contains("remove-entry")) { e.target.closest(".entry").remove(); update(); }
+const configs={
+ experience:{container:'experienceList',title:'Experience',fields:[
+  ['role','Job title','e.g. Marketing Manager'],['company','Company','Company name'],['location','Location','City, Country'],['start','Start date','e.g. Jan 2022'],['end','End date','e.g. Present'],['description','Responsibilities & achievements','Describe your responsibilities and results...','textarea']
+ ]},
+ education:{container:'educationList',title:'Education',fields:[
+  ['degree','Degree / Qualification','e.g. BS Computer Science'],['school','Institution','University or school'],['location','Location','City, Country'],['start','Start date','e.g. 2020'],['end','End date','e.g. 2024'],['description','Details / achievements','Relevant coursework, grades or achievements...','textarea']
+ ]},
+ projects:{container:'projectsList',title:'Project',fields:[
+  ['name','Project name','Project title'],['role','Your role / link','Role or project URL'],['description','Project details','What did you build or achieve?','textarea']
+ ]},
+ certifications:{container:'certificationsList',title:'Certification',fields:[
+  ['name','Certification name','Certificate title'],['issuer','Issuing organization','Organization'],['date','Date','Year or month'],['link','Credential link','Optional URL']
+ ]}
+};
+function renderEntryForms(){
+ Object.entries(configs).forEach(([type,cfg])=>{
+  $(cfg.container).innerHTML=data[type].map((item,index)=>`
+   <div class="entry-card">
+    <div class="entry-top"><strong>${cfg.title} ${index+1}</strong><button class="btn btn-small btn-danger" data-remove="${type}" data-id="${item.id}">Remove</button></div>
+    <div class="grid2">
+     ${cfg.fields.map(([key,label,placeholder,kind])=>`
+      <div class="field" ${kind==='textarea'?'style="grid-column:1/-1"':''}>
+       <label>${label}</label>
+       ${kind==='textarea'
+        ?`<textarea data-entry="${type}" data-id="${item.id}" data-key="${key}" placeholder="${placeholder}">${escapeHTML(item[key]||'')}</textarea>`
+        :`<input type="text" data-entry="${type}" data-id="${item.id}" data-key="${key}" placeholder="${placeholder}" value="${escapeHTML(item[key]||'')}">`}
+      </div>`).join('')}
+    </div>
+   </div>`).join('');
+ });
+}
+function itemHTML(title,sub,date,desc){
+ if(![title,sub,date,desc].some(Boolean))return '';
+ return `<div class="item"><div class="item-head"><div><h3>${escapeHTML(title||'')}</h3>${sub?`<div class="item-sub">${escapeHTML(sub)}</div>`:''}</div>${date?`<div class="item-date">${escapeHTML(date)}</div>`:''}</div>${desc?`<div class="item-desc">${escapeHTML(desc)}</div>`:''}</div>`;
+}
+function section(title,content){
+ return content?`<section><h2>${escapeHTML(title)}</h2>${content}</section>`:'';
+}
+function render(){
+ const name=val('fullName')||'Your Name';
+ const title=val('jobTitle')||'Professional Title';
+ const contact=[val('email'),val('phone'),val('location'),val('website'),val('linkedin'),val('otherLink')].filter(Boolean);
+ const photo=$('showPhoto').checked&&photoData?`<img class="profile-photo" src="${photoData}" alt="Profile photo">`:'';
+ const template=$('template').value;
+ const font=$('resumeFont').value;
+ const page=$('resumePage');
+ page.style.setProperty('--accent',accent);
+ page.style.fontFamily=font+',Arial,sans-serif';
+ page.className='resume-page '+(template==='modern'?'modern':'')+(template==='minimal'?' minimal':'');
+ let header='';
+ if(template==='modern'){
+  header=`<div class="modern-header"><div class="resume-header"><div><h1 class="person-name">${escapeHTML(name)}</h1><div class="job-title">${escapeHTML(title)}</div><div class="contact">${contact.map(escapeHTML).join(' &nbsp;·&nbsp; ')}</div>${val('headline')?`<p style="font-size:9px;margin-top:7px;color:white">${escapeHTML(val('headline'))}</p>`:''}</div>${photo}</div></div>`;
+ }else{
+  header=`<div class="resume-header ${template==='minimal'?'minimal-header':''}">${photo}<div style="flex:1"><h1 class="person-name">${escapeHTML(name)}</h1><div class="job-title">${escapeHTML(title)}</div><div class="contact">${contact.map(escapeHTML).join(' &nbsp;·&nbsp; ')}</div>${val('headline')?`<p class="contact" style="margin-top:5px">${escapeHTML(val('headline'))}</p>`:''}</div></div>`;
+ }
+ const summary=section('Professional Summary',val('summary')?`<p class="summary">${escapeHTML(val('summary'))}</p>`:'');
+ const experience=data.experience.map(x=>itemHTML(x.role,x.company+(x.location?' · '+x.location:''),[x.start,x.end].filter(Boolean).join(' – '),x.description)).join('');
+ const education=data.education.map(x=>itemHTML(x.degree,x.school+(x.location?' · '+x.location:''),[x.start,x.end].filter(Boolean).join(' – '),x.description)).join('');
+ const skills=comma(val('skills'));
+ const soft=comma(val('softSkills'));
+ const skillHTML=skills.length?`<div class="skills">${skills.map(s=>`<span class="skill">${escapeHTML(s)}</span>`).join('')}</div>`:'';
+ const softHTML=soft.length?`<div class="skills">${soft.map(s=>`<span class="skill">${escapeHTML(s)}</span>`).join('')}</div>`:'';
+ const skillSection=section('Skills',skillHTML);
+ const softSection=section('Soft Skills',softHTML);
+ const projectHTML=data.projects.map(x=>itemHTML(x.name,x.role,'',x.description)).join('');
+ const certHTML=data.certifications.map(x=>itemHTML(x.name,x.issuer,x.date,x.link?`Credential: ${x.link}`:'')).join('');
+ const lang=lines(val('languages')).map(x=>`<li>${escapeHTML(x)}</li>`).join('');
+ const award=lines(val('awards')).map(x=>`<li>${escapeHTML(x)}</li>`).join('');
+ const volunteer=lines(val('volunteer')).map(x=>`<li>${escapeHTML(x)}</li>`).join('');
+ const interests=lines(val('interests')).join(' · ');
+ const extras=section('Languages',lang?`<ul>${lang}</ul>`:'')+
+  section('Awards & Achievements',$('showAwards').checked&&award?`<ul>${award}</ul>`:'')+
+  section('Volunteer Experience',$('showAwards').checked&&volunteer?`<ul>${volunteer}</ul>`:'')+
+  section('Interests',$('showInterests').checked&&interests?`<p>${escapeHTML(interests)}</p>`:'');
+ $('resumeOutput').innerHTML=header+
+  summary+
+  section('Work Experience',experience)+
+  section('Education',education)+
+  skillSection+softSection+
+  section('Projects',projectHTML)+
+  section('Certifications',certHTML)+extras;
+ if(!$('resumeOutput').textContent.trim()){
+  $('resumeOutput').innerHTML=header+'<p class="empty-hint">Your resume preview will appear here as you add information.</p>';
+ }
+ updateProgress();
+}
+function updateProgress(){
+ const checks=[!!val('fullName'),!!val('jobTitle'),!!val('email'),!!val('phone'),!!val('summary'),data.experience.some(x=>x.role||x.company),data.education.some(x=>x.degree||x.school),!!val('skills')];
+ const percent=Math.round(checks.filter(Boolean).length/checks.length*100);
+ $('progress').textContent=percent+'% completed';
+}
+function showTab(tab){
+ document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
+ document.querySelectorAll('.section').forEach(s=>s.classList.toggle('active',s.id==='section-'+tab));
+}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>showTab(b.dataset.tab)));
+$('addExperience').addEventListener('click',()=>addEntry('experience'));
+$('addEducation').addEventListener('click',()=>addEntry('education'));
+$('addProject').addEventListener('click',()=>addEntry('projects'));
+$('addCertification').addEventListener('click',()=>addEntry('certifications'));
+document.addEventListener('input',e=>{
+ if(e.target.dataset.entry){
+  updateEntry(e.target.dataset.entry,e.target.dataset.id,e.target.dataset.key,e.target.value);
+ }else if(fields.includes(e.target.id)){
+  render();
+ }
 });
+document.addEventListener('change',e=>{
+ if(e.target.dataset.entry){
+  updateEntry(e.target.dataset.entry,e.target.dataset.id,e.target.dataset.key,e.target.value);
+ }else if(['template','resumeFont','showPhoto','showInterests','showAwards'].includes(e.target.id)){
+  render();
+ }
+});
+document.addEventListener('click',e=>{
+ const btn=e.target.closest('[data-remove]');
+ if(btn)removeEntry(btn.dataset.remove,btn.dataset.id);
+});
+$('photoInput').addEventListener('change',e=>{
+ const file=e.target.files[0];if(!file)return;
+ if(!['image/jpeg','image/png','image/webp'].includes(file.type)){setStatus('Please choose a JPG, PNG or WebP image.');return;}
+ if(file.size>5*1024*1024){setStatus('Profile photo must be smaller than 5 MB.');return;}
+ const reader=new FileReader();
+ reader.onload=()=>{
+  photoData=reader.result;
+  $('photoPreview').innerHTML=`<img src="${photoData}" alt="Photo preview">`;
+  render();setStatus('Profile photo added.');
+ };
+ reader.readAsDataURL(file);
+});
+$('removePhoto').addEventListener('click',()=>{
+ photoData='';$('photoInput').value='';$('photoPreview').textContent='PHOTO';render();setStatus('Profile photo removed.');
+});
+document.querySelectorAll('[data-accent]').forEach(b=>b.addEventListener('click',()=>{
+ accent=b.dataset.accent;render();setStatus('Resume accent color updated.');
+}));
+$('resetDesign').addEventListener('click',()=>{
+ accent='#2478b9';$('template').value='modern';$('resumeFont').value='Arial';
+ $('showPhoto').checked=true;$('showInterests').checked=true;$('showAwards').checked=true;render();
+});
+function downloadPDF(){
+ setStatus('Opening print dialog. Choose Save as PDF to download your resume.');
+ window.print();
+}
+$('downloadPdf').addEventListener('click',downloadPDF);
+$('topDownload').addEventListener('click',downloadPDF);
+function setZoom(v){
+ zoom=Math.max(60,Math.min(130,v));$('zoomLabel').textContent=zoom+'%';
+ $('resumePage').style.zoom=zoom/100;
+}
+$('zoomIn').addEventListener('click',()=>setZoom(zoom+10));
+$('zoomOut').addEventListener('click',()=>setZoom(zoom-10));
 
-function collectEntries(type) {
-  const map = {experience:"experienceList",education:"educationList",project:"projectList",cert:"certList"};
-  return [...$(map[type]).querySelectorAll(".entry")].map(el => {
-    const obj = {};
-    el.querySelectorAll("[data-key]").forEach(x => obj[x.dataset.key] = x.value);
-    return obj;
-  });
-}
-
-function collect() {
-  const data = {};
-  ids.forEach(id => data[id] = $(id).value);
-  data.experience = collectEntries("experience");
-  data.education = collectEntries("education");
-  data.project = collectEntries("project");
-  data.cert = collectEntries("cert");
-  return data;
-}
-
-function section(title, body) {
-  return body ? '<section class="r-section"><h2>'+title+'</h2>'+body+'</section>' : "";
-}
-function itemExperience(x) {
-  return '<div class="r-item"><div class="r-top"><span class="r-role">'+esc(x.role)+'</span><span class="r-date">'+esc(x.start)+(x.end?' — '+esc(x.end):"")+'</span></div><div class="r-org">'+esc(x.company)+'</div><div class="r-desc">'+esc(x.description)+'</div></div>';
-}
-function itemEducation(x) {
-  return '<div class="r-item"><div class="r-top"><span class="r-role">'+esc(x.degree)+'</span><span class="r-date">'+esc(x.start)+(x.end?' — '+esc(x.end):"")+'</span></div><div class="r-org">'+esc(x.school)+'</div><div class="r-desc">'+esc(x.description)+'</div></div>';
-}
-function render() {
-  const d = collect();
-  const contact = [d.email,d.phone,d.location,d.website].filter(Boolean).map(esc).join("<span>•</span>");
-  const skills = splitList(d.skills).map(x => '<span class="chip">'+esc(x)+'</span>').join("");
-  const languages = splitList(d.languages).map(x => '<span class="chip">'+esc(x)+'</span>').join("");
-  const exp = d.experience.map(itemExperience).join("");
-  const edu = d.education.map(itemEducation).join("");
-  const projects = d.project.map(x => '<div class="r-item"><div class="r-top"><span class="r-role">'+esc(x.title)+'</span><span class="r-date">'+esc(x.link)+'</span></div><div class="r-desc">'+esc(x.description)+'</div></div>').join("");
-  const certs = d.cert.map(x => '<div class="r-item"><div class="r-top"><span class="r-role">'+esc(x.title)+'</span><span class="r-date">'+esc(x.year)+'</span></div><div class="r-org">'+esc(x.issuer)+'</div></div>').join("");
-  $("paper").className = "paper template-"+d.template;
-  $("paper").style.setProperty("--resume-accent", d.accent);
-  $("paper").innerHTML =
-    '<h1 class="resume-name">'+esc(d.name || "Your Name")+'</h1>'+
-    '<div class="resume-title">'+esc(d.job || "Professional Title")+'</div>'+
-    '<div class="contact">'+contact+'</div><div class="rule"></div>'+
-    section("Profile", '<div class="summary">'+esc(d.summary || "Add a concise professional summary to introduce yourself.")+'</div>')+
-    section("Experience", exp)+
-    section("Education", edu)+
-    '<div class="two-col">'+
-      '<div>'+section("Skills", '<div class="chips">'+skills+'</div>')+'</div>'+
-      '<div>'+section("Languages", '<div class="chips">'+languages+'</div>')+'</div>'+
-    '</div>'+
-    section("Projects", projects)+
-    section("Certifications", certs);
-}
-function update() { render(); }
-
-ids.forEach(id => $(id).addEventListener("input", () => { if(id==="accent") $("accentText").textContent = $(id).value; update(); }));
-$("template").addEventListener("change", update);
-document.addEventListener("input", e => { if(e.target.matches(".entry [data-key]")) update(); });
-
-function setStatus(msg) { $("status").textContent = msg; }
-$("printBtn").onclick = () => window.print();
-$("saveBtn").onclick = () => { localStorage.setItem("clickdyResumeDraft", JSON.stringify(collect())); setStatus("Draft saved in this browser."); };
-$("loadBtn").onclick = () => {
-  const raw = localStorage.getItem("clickdyResumeDraft");
-  if(!raw){ setStatus("No saved draft found."); return; }
-  loadData(JSON.parse(raw)); setStatus("Draft loaded.");
-};
-$("downloadJson").onclick = () => {
-  const blob = new Blob([JSON.stringify(collect(),null,2)], {type:"application/json"});
-  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "clickdy-resume.json"; a.click(); URL.revokeObjectURL(a.href);
-  setStatus("Resume data downloaded.");
-};
-$("clearBtn").onclick = () => {
-  if(!confirm("Clear all resume data?")) return;
-  ids.forEach(id => { if(id==="accent") $(id).value="#3aa9e8"; else if(id==="template") $(id).value="modern"; else $(id).value=""; });
-  ["experienceList","educationList","projectList","certList"].forEach(id => $(id).innerHTML="");
-  $("accentText").textContent="#3aa9e8"; update(); setStatus("Resume cleared.");
-};
-
-function loadData(d) {
-  ids.forEach(id => { if(d[id] !== undefined) $(id).value = d[id]; });
-  ["experience","education","project","cert"].forEach(type => {
-    const map={experience:"experienceList",education:"educationList",project:"projectList",cert:"certList"};
-    $(map[type]).innerHTML="";
-    (d[type]||[]).forEach(x => addEntry(type,x));
-  });
-  $("accentText").textContent = $("accent").value;
-  update();
-}
-addEntry("experience");
-addEntry("education");
-update();
+renderEntryForms();
+addEntry('experience');
+addEntry('education');
+render();
 })();
 </script>
 </body>

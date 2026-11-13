@@ -1,0 +1,622 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070b14">
+<title>PDF Page Numbers - Clickdy</title>
+<meta name="description" content="Add custom page numbers to PDF documents with Clickdy. Choose positions, formats, colors and page ranges.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+<style>
+:root{
+ --bg:#070b14;--surface:#0d1422;--surface2:#111b2d;
+ --primary:#38a5ff;--cyan:#2ee7df;--text:#f4f8ff;
+ --muted:#93a4bd;--line:#1d2b42;--green:#42d9a0;
+ --red:#ff7185;--radius:16px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px "DM Sans",sans-serif}
+button,input,select{font:inherit}
+button{cursor:pointer}
+a{color:inherit;text-decoration:none}
+.app{min-height:100vh;display:flex}
+.sidebar{
+ width:250px;flex-shrink:0;background:#090f1b;border-right:1px solid var(--line);
+ height:100vh;position:sticky;top:0;display:flex;flex-direction:column;
+ padding:20px 15px;overflow-y:auto;
+ scrollbar-width:thin;scrollbar-color:#286b9b #090f1b
+}
+.sidebar::-webkit-scrollbar{width:5px}
+.sidebar::-webkit-scrollbar-track{background:#090f1b}
+.sidebar::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#38a5ff,#2ee7df);border-radius:20px}
+.brand{display:flex;align-items:center;gap:11px;padding:3px 8px 25px;cursor:pointer}
+.brand img{width:39px;height:39px;object-fit:contain}
+.brand-name{font:800 21px "Plus Jakarta Sans";letter-spacing:-.7px}
+.brand-tag{font-size:9px;color:var(--muted);letter-spacing:1.3px;margin-top:2px}
+.side-label{font-size:10px;color:#687b96;font-weight:700;letter-spacing:1.3px;padding:12px 10px 8px}
+.nav{display:flex;flex-direction:column;gap:4px}
+.nav a{color:#a8b6ca;padding:11px 12px;border-radius:10px;display:flex;align-items:center;gap:11px;font-size:13px;transition:.2s}
+.nav a:hover{background:#111e31;color:#fff}
+.nav a.active{background:linear-gradient(100deg,#153553,#10283d);color:#65c2ff}
+.nav-icon{width:19px;text-align:center;font-size:16px}
+.side-bottom{margin-top:auto;padding-top:22px}
+.privacy-card{background:linear-gradient(145deg,#10263a,#0d1b2d);border:1px solid #1b405c;border-radius:13px;padding:14px;margin:8px 2px 16px}
+.privacy-card strong{display:block;font-size:12px;margin:8px 0 5px}
+.privacy-card p{font-size:11px;color:var(--muted);line-height:1.6;margin:0}
+.privacy-icon{font-size:20px;color:var(--cyan)}
+.back-link{display:block;padding:12px 10px;color:#aabbd0;font-size:12px;text-decoration:none!important}
+.back-link:hover{color:var(--cyan)}
+.main{flex:1;min-width:0}
+.topbar{height:67px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 30px;background:rgba(7,11,20,.88);position:sticky;top:0;z-index:5;backdrop-filter:blur(14px)}
+.breadcrumb{color:var(--muted);font-size:12px}
+.breadcrumb span{color:var(--text);font-weight:600}
+.top-actions{display:flex;gap:10px}
+.top-btn{background:#111b2b;border:1px solid var(--line);color:#c4d2e4;padding:8px 13px;border-radius:9px;font-size:12px}
+.content{max-width:1180px;margin:auto;padding:35px 30px 60px}
+.page-heading{margin-bottom:25px}
+.eyebrow{display:inline-flex;align-items:center;gap:7px;color:#68c4ff;font-size:10px;font-weight:700;letter-spacing:1.5px}
+.eyebrow i{width:6px;height:6px;background:var(--cyan);border-radius:50%}
+h1{font:700 30px "Plus Jakarta Sans";letter-spacing:-1px;margin:10px 0 8px}
+.subtitle{color:var(--muted);font-size:13px;line-height:1.7;margin:0;max-width:700px}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:19px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.panel-title{font:700 15px "Plus Jakarta Sans";margin:0}
+.panel-subtitle{color:var(--muted);font-size:11px;margin:6px 0 0;line-height:1.6}
+.upload-zone{border:1px dashed #34516f;background:#0b1523;border-radius:14px;min-height:180px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:25px;transition:.2s;cursor:pointer;margin-top:20px}
+.upload-zone:hover,.upload-zone.dragover{border-color:var(--primary);background:#0d1d30}
+.upload-icon{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;background:#132b42;color:#68c4ff;font-size:25px;margin-bottom:13px}
+.upload-zone h3{font:700 14px "Plus Jakarta Sans";margin:0 0 7px}
+.upload-zone p{font-size:11px;color:var(--muted);margin:0 0 15px}
+.primary-btn{background:linear-gradient(110deg,#278fe8,#36b9dc);color:#fff;border:0;border-radius:9px;padding:11px 18px;font-size:12px;font-weight:700;box-shadow:0 5px 20px #168bd52a;transition:.2s}
+.primary-btn:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.primary-btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.secondary-btn{background:#142237;color:#c8d7e9;border:1px solid #263c57;border-radius:9px;padding:10px 14px;font-size:12px}
+.file-card{display:none;align-items:center;gap:11px;padding:12px;background:#0a1320;border:1px solid var(--line);border-radius:11px;margin-top:14px}
+.file-icon{width:39px;height:41px;display:grid;place-items:center;border-radius:8px;background:#2a1720;color:#ff8796;font-size:13px;font-weight:700;flex-shrink:0}
+.file-info{flex:1;min-width:0}
+.file-name{font-size:11px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.file-meta{font-size:10px;color:var(--muted);margin-top:5px}
+.remove-btn{border:0;background:transparent;color:#899bb3;font-size:18px;padding:5px}
+.remove-btn:hover{color:var(--red)}
+.divider{height:1px;background:var(--line);margin:23px 0}
+.section-heading{font:700 13px "Plus Jakarta Sans";margin:0 0 5px}
+.section-description{font-size:10px;color:var(--muted);margin:0 0 15px;line-height:1.6}
+.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}
+.field{min-width:0}
+.field.full{grid-column:1/-1}
+.field label{display:block;font-size:11px;font-weight:600;color:#c7d5e7;margin-bottom:8px}
+.field input,.field select{
+ width:100%;height:40px;border:1px solid #263b56;background:#0a1320;
+ color:var(--text);border-radius:9px;padding:0 11px;outline:none;font-size:11px;
+}
+.field input:focus,.field select:focus{border-color:var(--primary);box-shadow:0 0 0 3px #38a5ff17}
+.field input[type=color]{padding:4px;height:40px;cursor:pointer}
+.field input[type=number]{appearance:textfield}
+.field-hint{font-size:9px;color:var(--muted);line-height:1.5;margin-top:6px}
+.position-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.position-btn{border:1px solid var(--line);background:#0a1320;color:#aabbd0;border-radius:9px;padding:10px 6px;font-size:10px}
+.position-btn.active{border-color:var(--primary);background:#10253a;color:#79caff}
+.position-btn:hover{border-color:#47749c}
+.toggle-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:16px}
+.toggle-row strong{font-size:11px}
+.toggle-row small{display:block;font-size:9px;color:var(--muted);margin-top:4px}
+.switch{width:38px;height:21px;position:relative;flex-shrink:0}
+.switch input{opacity:0;width:0;height:0}
+.switch span{position:absolute;inset:0;background:#29394d;border-radius:20px;cursor:pointer;transition:.2s}
+.switch span:before{content:"";position:absolute;width:15px;height:15px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s}
+.switch input:checked+span{background:#218bcf}
+.switch input:checked+span:before{transform:translateX(17px)}
+.action-row{display:flex;align-items:center;gap:10px;margin-top:22px;flex-wrap:wrap}
+.action-row .primary-btn{min-width:175px}
+.status-box{display:none;margin-top:18px;padding:14px;border-radius:10px;font-size:11px;line-height:1.6}
+.status-box.success{display:block;background:#0b211c;border:1px solid #1e5945;color:#a9e8cf}
+.status-box.error{display:block;background:#27151d;border:1px solid #60303c;color:#ffc0ca}
+.status-box.info{display:block;background:#102033;border:1px solid #25496b;color:#b8d9f6}
+.progress-wrap{display:none;margin-top:18px}
+.progress-top{display:flex;justify-content:space-between;font-size:11px;margin-bottom:9px}
+.progress-top span:last-child{color:var(--cyan)}
+.progress-track{height:6px;border-radius:9px;background:#1b2a3e;overflow:hidden}
+.progress-bar{height:100%;width:0;background:linear-gradient(90deg,var(--primary),var(--cyan));transition:width .2s}
+.preview-box{margin-top:18px;background:#0a1320;border:1px solid var(--line);border-radius:12px;padding:16px}
+.preview-label{font-size:10px;color:var(--muted);margin-bottom:12px}
+.paper{width:100%;max-width:205px;height:250px;background:#f8fafc;border-radius:3px;margin:0 auto;position:relative;box-shadow:0 7px 22px #0005}
+.paper-content{position:absolute;inset:25px 20px;color:#536174;font:9px/1.8 Georgia,serif;overflow:hidden}
+.paper-content .fake-title{font:bold 13px Georgia;color:#29384c;margin-bottom:10px}
+.paper-number{position:absolute;font:11px Arial,sans-serif;color:#111}
+.paper-number.bottom-left{bottom:13px;left:20px}
+.paper-number.bottom-center{bottom:13px;left:50%;transform:translateX(-50%)}
+.paper-number.bottom-right{bottom:13px;right:20px}
+.paper-number.top-left{top:13px;left:20px}
+.paper-number.top-center{top:13px;left:50%;transform:translateX(-50%)}
+.paper-number.top-right{top:13px;right:20px}
+.side-panel{display:flex;flex-direction:column;gap:15px}
+.side-panel .panel{padding:18px}
+.feature-row{display:flex;gap:10px;margin-top:17px}
+.feature-icon{width:31px;height:31px;flex-shrink:0;border-radius:9px;background:#14263b;display:grid;place-items:center;color:#70c6ff;font-size:14px}
+.feature-row strong{font-size:11px;display:block;margin:1px 0 4px}
+.feature-row p{font-size:10px;color:var(--muted);line-height:1.5;margin:0}
+.notice{margin-top:18px;border-top:1px solid var(--line);padding-top:15px;font-size:10px;line-height:1.7;color:#8295ad}
+.footer{border-top:1px solid var(--line);margin-top:40px;padding-top:19px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:10px;color:#71849d}
+.toast{position:fixed;bottom:22px;right:22px;z-index:20;background:#142338;border:1px solid #2b4968;color:#eaf5ff;padding:12px 16px;border-radius:10px;font-size:12px;opacity:0;transform:translateY(10px);pointer-events:none;transition:.25s}
+.toast.show{opacity:1;transform:translateY(0)}
+.mobile-menu{display:none}
+@media(max-width:950px){.sidebar{width:220px}.workspace{grid-template-columns:1fr}.side-panel{display:grid;grid-template-columns:1fr 1fr}}
+@media(max-width:650px){
+ .app{display:block}.sidebar{position:fixed;left:-270px;top:0;width:250px;z-index:15;transition:left .25s;height:100dvh}
+ .sidebar.open{left:0}.main{width:100%}.topbar{height:59px;padding:0 15px}
+ .mobile-menu{display:block;background:transparent;border:0;color:#fff;font-size:21px;margin-right:10px}
+ .topbar-left{display:flex;align-items:center}.top-actions .top-btn:first-child{display:none}
+ .content{padding:25px 15px 40px}h1{font-size:25px}.panel{padding:16px}
+ .field-grid{grid-template-columns:1fr}.field.full{grid-column:auto}
+ .side-panel{grid-template-columns:1fr}.footer{margin-top:25px}
+}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar" id="sidebar">
+ <div class="brand" onclick="location.reload()" role="button" tabindex="0"
+ onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload()}">
+  <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
+  <div><div class="brand-name">Clickdy</div><div class="brand-tag">PDF WORKSPACE</div></div>
+ </div>
+ <div class="side-label">PDF TOOLS</div>
+ <nav class="nav">
+  <a href="../pdf-repair/"><span class="nav-icon">♧</span>PDF Repair</a>
+  <a href="../pdf-unlock/"><span class="nav-icon">🔓</span>PDF Unlock</a>
+  <a href="../pdf-protect/"><span class="nav-icon">♜</span>PDF Protect</a>
+  <a href="../pdf-merge/"><span class="nav-icon">▤</span>PDF Merge</a>
+  <a href="../pdf-split/"><span class="nav-icon">✂</span>PDF Split</a>
+  <a href="../pdf-compress/"><span class="nav-icon">⇣</span>PDF Compress</a>
+  <a href="../pdf-page-numbers/" class="active"><span class="nav-icon">№</span>PDF Page Numbers</a>
+  <a href="../pdf-to-word/"><span class="nav-icon">W</span>PDF to Word</a>
+ </nav>
+ <div class="side-bottom">
+  <div class="privacy-card">
+   <div class="privacy-icon">◈</div>
+   <strong>Your files stay private</strong>
+   <p>Your PDF is processed locally in your browser. It is not uploaded to Clickdy servers.</p>
+  </div>
+  <a class="back-link" href="https://clickdy.vercel.app/">← &nbsp; Back to Clickdy Tools</a>
+ </div>
+</aside>
+
+<main class="main">
+<header class="topbar">
+ <div class="topbar-left">
+  <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+  <div class="breadcrumb">PDF Tools&nbsp; / &nbsp;<span>Page Numbers</span></div>
+ </div>
+ <div class="top-actions">
+  <button class="top-btn" id="resetBtn">↺ &nbsp; Reset settings</button>
+  <button class="top-btn" id="helpBtn">Help & support</button>
+ </div>
+</header>
+
+<div class="content">
+ <div class="page-heading">
+  <div class="eyebrow"><i></i> CLICKDY PDF WORKSPACE</div>
+  <h1>Add Page Numbers to PDF</h1>
+  <p class="subtitle">Add clean, professional page numbers to your PDF documents. Customize placement, numbering style, font, color and the pages you want to number.</p>
+ </div>
+
+ <div class="workspace">
+ <section class="panel">
+  <h2 class="panel-title">Upload your PDF</h2>
+  <p class="panel-subtitle">Select a PDF document to customize its page numbering.</p>
+
+  <div class="upload-zone" id="dropZone">
+   <div class="upload-icon">⇧</div>
+   <h3>Drop your PDF file here</h3>
+   <p>or browse from your device · PDF only · Up to 100 MB</p>
+   <button class="primary-btn" type="button" id="browseBtn">Choose PDF file</button>
+   <input type="file" id="fileInput" accept=".pdf,application/pdf" hidden>
+  </div>
+
+  <div class="file-card" id="fileCard">
+   <div class="file-icon">PDF</div>
+   <div class="file-info">
+    <div class="file-name" id="fileName"></div>
+    <div class="file-meta" id="fileMeta"></div>
+   </div>
+   <button class="remove-btn" id="removeBtn" title="Remove file">×</button>
+  </div>
+
+  <div class="divider"></div>
+  <h3 class="section-heading">Numbering settings</h3>
+  <p class="section-description">Choose how your page numbers should appear in the final document.</p>
+
+  <div class="field-grid">
+   <div class="field full">
+    <label>Page selection</label>
+    <input id="pageRange" type="text" placeholder="All pages (e.g. 1-5, 8, 10-12)">
+    <div class="field-hint">Leave blank to number every page. Use commas and hyphens for custom page ranges.</div>
+   </div>
+
+   <div class="field">
+    <label>Starting number</label>
+    <input id="startNumber" type="number" min="0" max="999999" value="1">
+   </div>
+   <div class="field">
+    <label>Number format</label>
+    <select id="numberFormat">
+     <option value="number">1, 2, 3</option>
+     <option value="page">Page 1, Page 2</option>
+     <option value="fraction">1 / Total pages</option>
+     <option value="dash">— 1 —</option>
+     <option value="bracket">(1), (2), (3)</option>
+    </select>
+   </div>
+
+   <div class="field">
+    <label>Prefix (optional)</label>
+    <input id="prefix" type="text" maxlength="25" placeholder="e.g. Chapter">
+   </div>
+   <div class="field">
+    <label>Suffix (optional)</label>
+    <input id="suffix" type="text" maxlength="25" placeholder="e.g. · Clickdy">
+   </div>
+
+   <div class="field full">
+    <label>Number position</label>
+    <div class="position-grid" id="positionGrid">
+     <button class="position-btn" data-position="top-left">Top left</button>
+     <button class="position-btn" data-position="top-center">Top center</button>
+     <button class="position-btn" data-position="top-right">Top right</button>
+     <button class="position-btn" data-position="bottom-left">Bottom left</button>
+     <button class="position-btn active" data-position="bottom-center">Bottom center</button>
+     <button class="position-btn" data-position="bottom-right">Bottom right</button>
+    </div>
+   </div>
+
+   <div class="field">
+    <label>Font size</label>
+    <select id="fontSize">
+     <option value="8">Small · 8 pt</option>
+     <option value="10">Regular · 10 pt</option>
+     <option value="12" selected>Medium · 12 pt</option>
+     <option value="14">Large · 14 pt</option>
+     <option value="16">Extra large · 16 pt</option>
+     <option value="18">18 pt</option>
+    </select>
+   </div>
+   <div class="field">
+    <label>Text color</label>
+    <input type="color" id="textColor" value="#333333">
+   </div>
+   <div class="field">
+    <label>Horizontal margin</label>
+    <input type="number" id="horizontalMargin" min="0" max="200" value="36">
+   </div>
+   <div class="field">
+    <label>Vertical margin</label>
+    <input type="number" id="verticalMargin" min="0" max="200" value="28">
+   </div>
+  </div>
+
+  <div class="toggle-row">
+   <div><strong>Bold page numbers</strong><small>Use a stronger font weight.</small></div>
+   <label class="switch"><input type="checkbox" id="boldText"><span></span></label>
+  </div>
+
+  <div class="toggle-row">
+   <div><strong>Skip the first page</strong><small>Keep the cover page without a number.</small></div>
+   <label class="switch"><input type="checkbox" id="skipFirst"><span></span></label>
+  </div>
+
+  <div class="divider"></div>
+  <h3 class="section-heading">Live style preview</h3>
+  <p class="section-description">This is an approximate preview of your selected position and number format.</p>
+  <div class="preview-box">
+   <div class="preview-label">PAGE NUMBER PREVIEW</div>
+   <div class="paper" id="paperPreview">
+    <div class="paper-content">
+     <div class="fake-title">Document heading</div>
+     This is a sample preview of your PDF page. Your original document content will remain in place when the page number is added.
+     <br><br>
+     Customize the font, position and style using the settings.
+    </div>
+    <div class="paper-number bottom-center" id="previewNumber">1</div>
+   </div>
+  </div>
+
+  <div class="action-row">
+   <button class="primary-btn" id="addBtn" disabled>＋ &nbsp; Add page numbers</button>
+   <button class="secondary-btn" id="clearBtn">Clear</button>
+  </div>
+
+  <div class="progress-wrap" id="progressWrap">
+   <div class="progress-top"><span id="progressLabel">Preparing document...</span><span id="progressPercent">0%</span></div>
+   <div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+  </div>
+  <div class="status-box" id="statusBox" role="status" aria-live="polite"></div>
+  <div class="notice">Clickdy adds numbers as text overlays to your PDF pages. Existing content is retained. If your PDF is digitally signed, changing it can invalidate the existing signature. Password-protected PDFs must be unlocked before processing.</div>
+ </section>
+
+ <aside class="side-panel">
+  <section class="panel">
+   <h3 class="panel-title">How it works</h3>
+   <p class="panel-subtitle">Number your PDF in three simple steps.</p>
+   <div class="feature-row"><div class="feature-icon">1</div><div><strong>Upload your PDF</strong><p>Select the document you want to number.</p></div></div>
+   <div class="feature-row"><div class="feature-icon">2</div><div><strong>Customize numbering</strong><p>Set position, format, size, color and page range.</p></div></div>
+   <div class="feature-row"><div class="feature-icon">3</div><div><strong>Download your PDF</strong><p>Save your numbered document to your device.</p></div></div>
+  </section>
+  <section class="panel">
+   <h3 class="panel-title">Designed for documents</h3>
+   <div class="feature-row"><div class="feature-icon">№</div><div><strong>Flexible numbering</strong><p>Use simple numbers, Page labels, fractions or custom prefixes.</p></div></div>
+   <div class="feature-row"><div class="feature-icon">⌖</div><div><strong>Six positions</strong><p>Place numbers in the top or bottom corners and center.</p></div></div>
+   <div class="feature-row"><div class="feature-icon">◈</div><div><strong>Private processing</strong><p>Files stay in your browser during processing.</p></div></div>
+  </section>
+  <section class="panel">
+   <h3 class="panel-title">Important</h3>
+   <p class="panel-subtitle">Page ranges refer to the original PDF page order. The first page can be excluded independently. Numbering is applied only to the selected pages.</p>
+  </section>
+ </aside>
+ </div>
+ <footer class="footer"><span>© 2026 Clickdy. All rights reserved.</span><span>PDF tools · Private by design</span></footer>
+</div>
+</main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const state={file:null,busy:false,position:"bottom-center",outputUrl:null};
+
+function toast(message){
+ const el=$("toast");el.textContent=message;el.classList.add("show");
+ clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.classList.remove("show"),2600);
+}
+function formatSize(bytes){
+ if(bytes<1024)return bytes+" B";
+ if(bytes<1024*1024)return (bytes/1024).toFixed(1)+" KB";
+ return (bytes/1024/1024).toFixed(2)+" MB";
+}
+function setStatus(message,type="info"){
+ $("statusBox").textContent=message;
+ $("statusBox").className="status-box "+type;
+}
+function clearStatus(){
+ $("statusBox").textContent="";
+ $("statusBox").className="status-box";
+}
+function setProgress(value,label){
+ $("progressWrap").style.display="block";
+ $("progressBar").style.width=value+"%";
+ $("progressPercent").textContent=value+"%";
+ $("progressLabel").textContent=label;
+}
+function hideProgress(){$("progressWrap").style.display="none";}
+function releaseOutput(){
+ if(state.outputUrl){URL.revokeObjectURL(state.outputUrl);state.outputUrl=null;}
+}
+function addFile(file){
+ if(state.busy)return;
+ if(!file)return;
+ if(!file.name.toLowerCase().endsWith(".pdf")&&file.type!=="application/pdf"){
+  setStatus("Please select a PDF file.","error");return;
+ }
+ if(file.size>100*1024*1024){
+  setStatus("This file is larger than the 100 MB limit.","error");return;
+ }
+ if(file.size===0){setStatus("This file is empty.","error");return;}
+ state.file=file;
+ releaseOutput();clearStatus();hideProgress();
+ $("fileName").textContent=file.name;
+ $("fileMeta").textContent=formatSize(file.size)+" · PDF document";
+ $("fileCard").style.display="flex";
+ $("addBtn").disabled=false;
+ $("fileInput").value="";
+ toast("PDF file added");
+}
+function clearFile(){
+ if(state.busy)return;
+ state.file=null;releaseOutput();
+ $("fileCard").style.display="none";
+ $("fileInput").value="";
+ $("addBtn").disabled=true;
+ clearStatus();hideProgress();
+}
+function parsePageRange(value,total){
+ const raw=value.trim();
+ if(!raw)return Array.from({length:total},(_,i)=>i);
+ const selected=new Set();
+ const parts=raw.split(",");
+ for(const part of parts){
+  const item=part.trim();
+  if(!item)throw new Error("Please check the page range. Empty values are not allowed.");
+  if(/^\d+$/.test(item)){
+   const n=Number(item);
+   if(n<1||n>total)throw new Error(`Page ${n} is outside this PDF. It has ${total} pages.`);
+   selected.add(n-1);
+   continue;
+  }
+  const match=item.match(/^(\d+)\s*-\s*(\d+)$/);
+  if(!match)throw new Error(`Invalid page range: "${item}". Use formats like 1-4, 7, 9-12.`);
+  const from=Number(match[1]),to=Number(match[2]);
+  if(from<1||to>total||from>to)throw new Error(`Invalid range "${item}". This PDF has ${total} pages.`);
+  for(let n=from;n<=to;n++)selected.add(n-1);
+ }
+ return [...selected].sort((a,b)=>a-b);
+}
+function makeLabel(number,total){
+ const format=$("numberFormat").value;
+ let label;
+ if(format==="page")label="Page "+number;
+ else if(format==="fraction")label=number+" / "+total;
+ else if(format==="dash")label="— "+number+" —";
+ else if(format==="bracket")label="("+number+")";
+ else label=String(number);
+ return $("prefix").value+label+$("suffix").value;
+}
+function updatePreview(){
+ const position=state.position;
+ const number=$("previewNumber");
+ number.className="paper-number "+position;
+ number.textContent=makeLabel(Number($("startNumber").value)||1,10);
+ number.style.fontSize=Math.min(Number($("fontSize").value)||12,16)+"px";
+ number.style.color=$("textColor").value;
+ number.style.fontWeight=$("boldText").checked?"bold":"normal";
+}
+function selectPosition(position){
+ state.position=position;
+ document.querySelectorAll(".position-btn").forEach(btn=>{
+  btn.classList.toggle("active",btn.dataset.position===position);
+ });
+ updatePreview();
+}
+function resetSettings(){
+ if(state.busy)return;
+ $("pageRange").value="";
+ $("startNumber").value="1";
+ $("numberFormat").value="number";
+ $("prefix").value="";
+ $("suffix").value="";
+ $("fontSize").value="12";
+ $("textColor").value="#333333";
+ $("horizontalMargin").value="36";
+ $("verticalMargin").value="28";
+ $("boldText").checked=false;
+ $("skipFirst").checked=false;
+ selectPosition("bottom-center");
+ clearStatus();hideProgress();
+ toast("Settings reset");
+}
+function hexToRgb(hex){
+ const value=hex.replace("#","");
+ return PDFLib.rgb(
+  parseInt(value.slice(0,2),16)/255,
+  parseInt(value.slice(2,4),16)/255,
+  parseInt(value.slice(4,6),16)/255
+ );
+}
+async function addNumbers(){
+ if(!state.file||state.busy)return;
+ if(!window.PDFLib){
+  setStatus("The PDF engine could not load. Check your internet connection and refresh the page.","error");return;
+ }
+ state.busy=true;
+ $("addBtn").disabled=true;$("clearBtn").disabled=true;$("resetBtn").disabled=true;
+ releaseOutput();clearStatus();
+ try{
+  setProgress(8,"Reading your PDF...");
+  const bytes=await state.file.arrayBuffer();
+  const pdfDoc=await PDFLib.PDFDocument.load(bytes);
+  const pages=pdfDoc.getPages();
+  const totalPages=pages.length;
+  if(!totalPages)throw new Error("This PDF does not contain any pages.");
+  if(totalPages>2000)throw new Error("This document has more than 2,000 pages. Please use a smaller document.");
+
+  let selected=parsePageRange($("pageRange").value,totalPages);
+  if($("skipFirst").checked)selected=selected.filter(index=>index!==0);
+  if(!selected.length)throw new Error("No pages are selected for numbering. Check your page range and skip-first setting.");
+
+  const start=Number($("startNumber").value);
+  if(!Number.isInteger(start)||start<0||start>999999)throw new Error("Starting number must be between 0 and 999999.");
+
+  const fontSize=Number($("fontSize").value);
+  const horizontalMargin=Number($("horizontalMargin").value);
+  const verticalMargin=Number($("verticalMargin").value);
+  if(!Number.isFinite(horizontalMargin)||horizontalMargin<0||horizontalMargin>200)throw new Error("Horizontal margin must be between 0 and 200 points.");
+  if(!Number.isFinite(verticalMargin)||verticalMargin<0||verticalMargin>200)throw new Error("Vertical margin must be between 0 and 200 points.");
+
+  const font=await pdfDoc.embedFont($("boldText").checked?PDFLib.StandardFonts.HelveticaBold:PDFLib.StandardFonts.Helvetica);
+  const color=hexToRgb($("textColor").value);
+  const totalSelected=selected.length;
+
+  setProgress(20,"Adding page numbers...");
+  for(let i=0;i<selected.length;i++){
+   const pageIndex=selected[i];
+   const page=pages[pageIndex];
+   const {width,height}=page.getSize();
+   const label=makeLabel(start+i,totalSelected);
+   const textWidth=font.widthOfTextAtSize(label,fontSize);
+   let x=horizontalMargin;
+   let y=verticalMargin;
+
+   if(state.position.includes("right"))x=width-horizontalMargin-textWidth;
+   else if(state.position.includes("center"))x=(width-textWidth)/2;
+
+   if(state.position.startsWith("top"))y=height-verticalMargin-fontSize;
+
+   x=Math.max(0,Math.min(x,Math.max(0,width-textWidth)));
+   y=Math.max(0,Math.min(y,Math.max(0,height-fontSize)));
+
+   page.drawText(label,{
+    x,y,size:fontSize,font,color,
+    opacity:1
+   });
+   if(i%5===0||i===selected.length-1){
+    setProgress(20+Math.round(((i+1)/selected.length)*65),`Numbering page ${i+1} of ${selected.length}...`);
+    await new Promise(resolve=>setTimeout(resolve,0));
+   }
+  }
+
+  setProgress(90,"Saving your numbered PDF...");
+  const output=await pdfDoc.save({useObjectStreams:true});
+  const blob=new Blob([output],{type:"application/pdf"});
+  state.outputUrl=URL.createObjectURL(blob);
+
+  setProgress(100,"Your PDF is ready");
+  setStatus(`Success! Page numbers were added to ${selected.length} of ${totalPages} pages. Your original PDF remains unchanged.`,"success");
+
+  const download=document.createElement("button");
+  download.className="primary-btn";
+  download.style.marginTop="12px";
+  download.textContent="↓ Download numbered PDF";
+  download.addEventListener("click",()=>{
+   if(!state.outputUrl)return;
+   const link=document.createElement("a");
+   link.href=state.outputUrl;
+   const base=state.file.name.replace(/\.pdf$/i,"");
+   link.download=base+"-numbered.pdf";
+   document.body.appendChild(link);link.click();link.remove();
+  });
+  $("statusBox").appendChild(document.createElement("br"));
+  $("statusBox").appendChild(download);
+  toast("Page numbers added successfully");
+ }catch(error){
+  console.error("Clickdy PDF Page Numbers:",error);
+  setStatus(error.message||"Unable to process this PDF. Please try another file.","error");
+ }finally{
+  state.busy=false;
+  $("addBtn").disabled=!state.file;
+  $("clearBtn").disabled=false;$("resetBtn").disabled=false;
+ }
+}
+
+$("browseBtn").addEventListener("click",()=>$("fileInput").click());
+$("fileInput").addEventListener("change",e=>addFile(e.target.files[0]));
+$("dropZone").addEventListener("click",e=>{if(!e.target.closest("button"))$("fileInput").click();});
+$("dropZone").addEventListener("dragover",e=>{e.preventDefault();$("dropZone").classList.add("dragover");});
+$("dropZone").addEventListener("dragleave",()=>$("dropZone").classList.remove("dragover"));
+$("dropZone").addEventListener("drop",e=>{
+ e.preventDefault();$("dropZone").classList.remove("dragover");addFile(e.dataTransfer.files[0]);
+});
+$("removeBtn").addEventListener("click",clearFile);
+$("clearBtn").addEventListener("click",clearFile);
+$("addBtn").addEventListener("click",addNumbers);
+$("resetBtn").addEventListener("click",resetSettings);
+$("helpBtn").addEventListener("click",()=>toast("For help, visit the Clickdy website."));
+document.querySelectorAll(".position-btn").forEach(btn=>{
+ btn.addEventListener("click",()=>selectPosition(btn.dataset.position));
+});
+["startNumber","numberFormat","prefix","suffix","fontSize","textColor","boldText"].forEach(id=>{
+ $(id).addEventListener("input",updatePreview);
+ $(id).addEventListener("change",updatePreview);
+});
+$("mobileMenu").addEventListener("click",()=>$("sidebar").classList.toggle("open"));
+document.addEventListener("click",e=>{
+ if(innerWidth<=650&&$("sidebar").classList.contains("open")&&!e.target.closest("#sidebar")&&!e.target.closest("#mobileMenu")){
+  $("sidebar").classList.remove("open");
+ }
+});
+window.addEventListener("beforeunload",releaseOutput);
+updatePreview();
+</script>
+</body>
+</html>

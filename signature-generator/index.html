@@ -1,92 +1,346 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Create a digital signature online with Clickdy. Draw with mouse or touch, customize ink and stroke width, then download your signature as PNG.">
-<title>Online Signature Generator - Clickdy</title>
+<meta name="theme-color" content="#070b14">
+<title>Signature Generator - Clickdy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Allura&family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Pacifico&family=Sacramento&family=Alex+Brush&family=Cookie&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--success:#62d89a;--danger:#ff6f7d;--border:#213044;--radius:18px}
-*{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:Segoe UI,Arial,sans-serif}button,input,select{font:inherit}button{cursor:pointer}
-.topbar{height:90px;border-bottom:1px solid #ffffff14;display:flex;align-items:center}.topbar-inner,.page{width:min(1180px,calc(100% - 36px));margin:auto}.topbar-inner{display:flex;justify-content:space-between;align-items:center}.brand{display:flex;align-items:center;gap:12px;color:var(--text);text-decoration:none;font-size:21px;font-weight:700}.brand img{width:34px;height:34px;object-fit:contain}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}
-.page{padding:58px 0 70px}.hero{text-align:center;margin-bottom:34px}.eyebrow{display:inline-flex;padding:8px 13px;border:1px solid #63c7ff47;border-radius:999px;color:var(--accent);background:#63c7ff0d;font-size:12px;font-weight:700}.hero h1{margin:17px 0 12px;font-size:clamp(34px,5vw,54px);line-height:1.03;letter-spacing:-1.8px}.hero h1 span{color:var(--accent)}.hero p{max-width:700px;margin:auto;color:var(--muted);line-height:1.7;font-size:15px}
-.workspace{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:0 22px 60px #00000038}.workspace-head{padding:18px 20px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:15px}.workspace-title{font-weight:700}.workspace-sub{color:var(--muted);font-size:13px;margin-top:4px}.actions{display:flex;gap:9px;flex-wrap:wrap}.btn{border:1px solid var(--border);background:var(--panel2);color:var(--text);padding:10px 14px;border-radius:10px;font-weight:650}.btn:hover{border-color:#36506d}.btn.primary{background:var(--accent);color:#06111a;border-color:var(--accent)}.btn.danger{color:#ff9aa3}
-.editor{padding:20px;display:grid;grid-template-columns:1.5fr .7fr;gap:14px}.card{background:var(--panel2);border:1px solid var(--border);border-radius:15px;padding:16px}.card-title{display:flex;justify-content:space-between;margin-bottom:11px;font-size:13px;font-weight:700}.card-title span{font-size:11px;color:var(--muted);font-weight:500}.canvas-wrap{position:relative;background:#fff;border-radius:12px;overflow:hidden}.canvas-wrap.transparent{background-color:#fff;background-image:linear-gradient(45deg,#e7ebef 25%,transparent 25%),linear-gradient(-45deg,#e7ebef 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e7ebef 75%),linear-gradient(-45deg,transparent 75%,#e7ebef 75%);background-size:20px 20px;background-position:0 0,0 10px,10px -10px,-10px 0}#signatureCanvas{display:block;width:100%;height:390px;touch-action:none;cursor:crosshair}.guide{position:absolute;left:8%;right:8%;bottom:28%;border-bottom:1px dashed #aab4c0;pointer-events:none}.settings{display:grid;gap:14px;align-content:start}.setting{display:grid;gap:7px}.setting label{font-size:12px;font-weight:650}.setting-row{display:flex;align-items:center;gap:10px}input[type=color]{width:46px;height:38px;padding:3px;border:1px solid var(--border);border-radius:9px;background:#151f2d;cursor:pointer}input[type=range]{width:100%;accent-color:var(--accent)}.value{min-width:45px;text-align:right;color:var(--muted);font-size:12px}select{width:100%;border:1px solid var(--border);border-radius:9px;background:#151f2d;color:var(--text);padding:10px}.status{min-height:19px;padding:0 20px 18px;color:var(--success);font-size:12px}.tips{padding:0 20px 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.tip{background:var(--panel2);border:1px solid var(--border);border-radius:13px;padding:14px}.tip b{display:block;font-size:12px;margin-bottom:5px}.tip span{font-size:11px;color:var(--muted);line-height:1.5}.footer{text-align:center;color:#657286;font-size:12px;margin-top:22px}
-@media(max-width:850px){.editor{grid-template-columns:1fr}.tips{grid-template-columns:1fr}}@media(max-width:620px){.topbar{height:76px}.topbar-inner,.page{width:min(100% - 24px,1180px)}.page{padding-top:38px}.workspace-head{align-items:flex-start;flex-direction:column}.actions{width:100%}.btn{flex:1}.editor{padding:14px}.card{padding:13px}#signatureCanvas{height:300px}}
+:root{--bg:#070b14;--surface:#0d1422;--surface2:#111b2d;--primary:#38a5ff;--cyan:#2ee7df;--text:#f4f8ff;--muted:#93a4bd;--line:#1d2b42}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif}
+button,input,select{font:inherit}
+button{cursor:pointer}
+.topbar{height:68px;padding:0 5%;display:flex;align-items:center;justify-content:space-between;background:#090f1b;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.brand{display:flex;align-items:center;gap:10px;cursor:pointer}
+.brand img{width:37px;height:37px;object-fit:contain}
+.brand-name{font:800 20px 'Plus Jakarta Sans'}
+.brand-tag{font-size:9px;letter-spacing:1.4px;color:var(--muted);margin-top:2px}
+.back{font-size:13px;color:#b7c8dc;text-decoration:none;font-weight:600}
+.back:hover{color:var(--cyan)}
+.container{max-width:1180px;margin:auto;padding:34px 20px 55px}
+.heading{margin-bottom:25px}
+.eyebrow{font-size:11px;letter-spacing:1.6px;color:var(--cyan);font-weight:700;text-transform:uppercase}
+h1{font:800 clamp(26px,4vw,36px) 'Plus Jakarta Sans';letter-spacing:-1px;margin:9px 0}
+.heading p{font-size:14px;color:var(--muted);line-height:1.7;margin:0;max-width:750px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:16px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:19px;min-width:0}
+.panel-title{font:700 15px 'Plus Jakarta Sans';margin:0 0 15px}
+.field{margin-bottom:17px}
+.label{font-size:12px;font-weight:700;display:block;margin-bottom:8px}
+input[type=text],select{width:100%;height:43px;border-radius:9px;border:1px solid #293b53;background:#09111e;color:var(--text);padding:0 12px;outline:none;font-size:12px}
+input[type=text]:focus,select:focus{border-color:var(--primary)}
+input[type=range]{width:100%;accent-color:var(--primary)}
+input[type=color]{width:43px;height:37px;border:1px solid #344760;background:#101c2d;border-radius:8px;padding:3px;cursor:pointer}
+.control-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.value{font-size:11px;color:var(--cyan)}
+.btn{border:1px solid #2b4059;background:#17263a;color:#d8e9fa;border-radius:9px;padding:10px 13px;font-size:11px;font-weight:700}
+.btn:hover{border-color:var(--primary)}
+.btn-primary{border:0;background:linear-gradient(110deg,var(--primary),#2587d8);color:white}
+.btn-primary:hover{filter:brightness(1.1)}
+.btn-danger{background:#351c29;color:#ffb5c2;border-color:#523040}
+.btn-block{width:100%}
+.signature-preview{background:#fff;border-radius:12px;min-height:265px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:20px}
+.signature-preview.checker{background-color:#fff;background-image:linear-gradient(45deg,#e7eaf0 25%,transparent 25%),linear-gradient(-45deg,#e7eaf0 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e7eaf0 75%),linear-gradient(-45deg,transparent 75%,#e7eaf0 75%);background-size:20px 20px;background-position:0 0,0 10px,10px -10px,-10px 0}
+.signature-text{font-size:70px;line-height:1.25;text-align:center;overflow-wrap:anywhere;max-width:100%;transition:.15s;user-select:none}
+.preview-note{position:absolute;bottom:10px;right:12px;font-size:9px;color:#718096;background:#ffffffb8;padding:4px 7px;border-radius:5px}
+.font-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.font-card{background:#0a1321;border:1px solid var(--line);border-radius:9px;padding:11px 8px;color:var(--text);text-align:center;min-width:0}
+.font-card.active{border-color:var(--cyan);background:#0d2434}
+.font-card span{display:block;font-size:10px;color:var(--muted);margin-top:5px;font-family:'DM Sans',sans-serif}
+.font-card strong{display:block;font-size:24px;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.color-row{display:flex;gap:8px;flex-wrap:wrap}
+.swatch{width:28px;height:28px;border-radius:50%;border:2px solid #526176;cursor:pointer}
+.swatch.active{outline:2px solid var(--cyan);outline-offset:3px}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.actions .btn{flex:1}
+.divider{height:1px;background:var(--line);margin:18px 0}
+.draw-area{border:1px solid var(--line);background:#fff;border-radius:11px;overflow:hidden}
+canvas{display:block;width:100%;height:190px;touch-action:none;cursor:crosshair}
+.draw-toolbar{display:flex;justify-content:space-between;align-items:center;padding:10px;background:#101b2b;gap:8px;flex-wrap:wrap}
+.draw-toolbar span{font-size:10px;color:var(--muted)}
+.draw-toolbar button{padding:7px 10px}
+.status{font-size:11px;color:var(--muted);min-height:18px;margin-top:12px}
+.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:17px}
+.info{background:#0a1321;border:1px solid var(--line);padding:14px;border-radius:11px}
+.info b{display:block;font-size:12px;margin-bottom:6px}
+.info p{font-size:11px;color:var(--muted);line-height:1.55;margin:0}
+.footer{text-align:center;color:#71829b;font-size:11px;margin-top:28px}
+@media(max-width:850px){.layout{grid-template-columns:1fr}.settings{display:grid;grid-template-columns:1fr 1fr;gap:12px}.settings .panel{height:100%}}
+@media(max-width:600px){.topbar{padding:0 14px;height:62px}.container{padding:24px 12px 40px}.panel{padding:14px}.back{font-size:11px}.settings{display:block}.signature-preview{min-height:210px}.signature-text{font-size:52px}.info-grid{grid-template-columns:1fr}.font-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
-<!-- Clickdy SEO metadata -->
-<link rel="canonical" href="https://clickdy.vercel.app/signature-generator/">
-<meta name="robots" content="index,follow">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Online Signature Generator - Clickdy">
-<meta property="og:description" content="Create a digital signature online with Clickdy. Draw with mouse or touch, customize ink and stroke width, then download your signature as PNG.">
-<meta property="og:url" content="https://clickdy.vercel.app/signature-generator/">
-<meta property="og:site_name" content="Clickdy">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Online Signature Generator - Clickdy">
-<meta name="twitter:description" content="Create a digital signature online with Clickdy. Draw with mouse or touch, customize ink and stroke width, then download your signature as PNG.">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Online Signature Generator",
-  "url": "https://clickdy.vercel.app/signature-generator/",
-  "description": "Create a digital signature online with Clickdy. Draw with mouse or touch, customize ink and stroke width, then download your signature as PNG.",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "Any",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Clickdy",
-    "url": "https://clickdy.vercel.app/"
-  }
-}
-</script>
 </head>
 <body>
-<header class="topbar"><div class="topbar-inner">
-<a class="brand" href="../index.html" aria-label="Clickdy home"><img src="../assets/logo.png" alt="Clickdy"><span>Clickdy</span></a>
-<a class="back" href="../index.html">← Back to Home</a>
-</div></header>
-<main class="page">
-<section class="hero"><div class="eyebrow">✦ FREE SIGNATURE TOOL • NO SIGN-UP</div><h1>Create Your <span>Digital Signature.</span></h1><p>Draw your signature naturally with a mouse, trackpad, or touch screen and download it as a PNG.</p></section>
-<section class="workspace" aria-label="Signature generator">
-<div class="workspace-head"><div><div class="workspace-title">Signature Generator</div><div class="workspace-sub">Draw inside the canvas below.</div></div><div class="actions"><button class="btn" id="undoBtn" type="button">Undo</button><button class="btn" id="redoBtn" type="button">Redo</button><button class="btn danger" id="clearBtn" type="button">Clear</button><button class="btn primary" id="downloadBtn" type="button">Download PNG</button></div></div>
-<div class="editor">
-<div class="card"><div class="card-title"><span>Signature canvas</span><span>Mouse + touch supported</span></div><div class="canvas-wrap" id="canvasWrap"><canvas id="signatureCanvas" aria-label="Draw signature here"></canvas><div class="guide"></div></div></div>
-<div class="card settings"><div class="card-title">Signature settings</div>
-<div class="setting"><label for="inkColor">Ink color</label><div class="setting-row"><input id="inkColor" type="color" value="#111827" aria-label="Ink color"><span class="value" id="inkHex">#111827</span></div></div>
-<div class="setting"><label for="strokeWidth">Stroke width</label><div class="setting-row"><input id="strokeWidth" type="range" min="1" max="12" value="3" aria-label="Stroke width"><span class="value" id="strokeValue">3 px</span></div></div>
-<div class="setting"><label for="backgroundMode">Canvas background</label><select id="backgroundMode" aria-label="Canvas background"><option value="white">White</option><option value="transparent">Transparent</option><option value="light">Light gray</option></select></div>
-<div class="setting"><label for="smoothMode">Line smoothing</label><select id="smoothMode" aria-label="Line smoothing"><option value="smooth">Smooth</option><option value="normal">Normal</option><option value="precise">Precise</option></select></div>
-</div></div>
-<div class="status" id="status" aria-live="polite"></div>
-<div class="tips"><div class="tip"><b>Mouse & touch</b><span>Works on desktop and mobile touch screens.</span></div><div class="tip"><b>Transparent PNG</b><span>Choose transparent background for document-ready signatures.</span></div><div class="tip"><b>Private</b><span>Your signature stays in your browser.</span></div></div>
-</section>
-<div class="footer">Your signature stays in your browser. No upload or account required.</div>
+<header class="topbar">
+ <div class="brand" onclick="location.reload()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload()}">
+  <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
+  <div><div class="brand-name">Clickdy</div><div class="brand-tag">DESIGN TOOLS</div></div>
+ </div>
+ <a class="back" href="https://clickdy.vercel.app/">← Back to Clickdy Tools</a>
+</header>
+
+<main class="container">
+ <div class="heading">
+  <div class="eyebrow">Free online design utility</div>
+  <h1>Signature Generator</h1>
+  <p>Create your own stylish digital signature. Choose a handwritten font, customize its ink and size, draw your own signature, and export a high-resolution image.</p>
+ </div>
+
+ <div class="layout">
+  <section class="panel">
+   <h2 class="panel-title">Signature preview</h2>
+   <div class="signature-preview" id="preview">
+    <div class="signature-text" id="signatureText">Your Name</div>
+    <span class="preview-note" id="previewNote">LIVE PREVIEW</span>
+   </div>
+
+   <div class="actions">
+    <button class="btn" id="transparentBtn">Transparent preview</button>
+    <button class="btn" id="whiteBtn">White background</button>
+   </div>
+
+   <div class="divider"></div>
+   <h2 class="panel-title">Draw your signature</h2>
+   <div class="draw-area">
+    <canvas id="drawCanvas" width="1100" height="380"></canvas>
+    <div class="draw-toolbar">
+     <span>Draw with your mouse, stylus or finger</span>
+     <div style="display:flex;gap:6px">
+      <button class="btn" id="undoDraw">Undo</button>
+      <button class="btn btn-danger" id="clearDraw">Clear</button>
+     </div>
+    </div>
+   </div>
+   <div class="actions">
+    <button class="btn btn-primary" id="useDrawing">Use drawn signature</button>
+    <button class="btn" id="useTyped">Use typed signature</button>
+   </div>
+   <div class="status" id="status" aria-live="polite">Enter your name to create a signature.</div>
+  </section>
+
+  <aside class="settings">
+   <section class="panel">
+    <h2 class="panel-title">Signature settings</h2>
+    <div class="field">
+     <label class="label" for="nameInput">Your name or text</label>
+     <input type="text" id="nameInput" maxlength="45" placeholder="Enter your name" value="Your Name">
+    </div>
+    <div class="field">
+     <div class="label">Choose handwriting style</div>
+     <div class="font-grid" id="fontGrid">
+      <button class="font-card active" data-font="Allura"><strong style="font-family:Allura">Signature</strong><span>Allura</span></button>
+      <button class="font-card" data-font="Caveat"><strong style="font-family:Caveat">Signature</strong><span>Caveat</span></button>
+      <button class="font-card" data-font="Dancing Script"><strong style="font-family:'Dancing Script'">Signature</strong><span>Dancing Script</span></button>
+      <button class="font-card" data-font="Great Vibes"><strong style="font-family:'Great Vibes'">Signature</strong><span>Great Vibes</span></button>
+      <button class="font-card" data-font="Pacifico"><strong style="font-family:Pacifico">Signature</strong><span>Pacifico</span></button>
+      <button class="font-card" data-font="Sacramento"><strong style="font-family:Sacramento">Signature</strong><span>Sacramento</span></button>
+      <button class="font-card" data-font="Alex Brush"><strong style="font-family:'Alex Brush'">Signature</strong><span>Alex Brush</span></button>
+      <button class="font-card" data-font="Cookie"><strong style="font-family:Cookie">Signature</strong><span>Cookie</span></button>
+     </div>
+    </div>
+    <div class="field">
+     <div class="control-row"><label class="label" for="sizeRange">Font size</label><span class="value" id="sizeValue">70 px</span></div>
+     <input type="range" id="sizeRange" min="25" max="130" value="70">
+    </div>
+    <div class="field">
+     <div class="label">Ink color</div>
+     <div class="color-row" id="colors">
+      <button class="swatch active" data-color="#111827" style="background:#111827" aria-label="Black"></button>
+      <button class="swatch" data-color="#123d8a" style="background:#123d8a" aria-label="Blue"></button>
+      <button class="swatch" data-color="#164e36" style="background:#164e36" aria-label="Green"></button>
+      <button class="swatch" data-color="#7c2454" style="background:#7c2454" aria-label="Purple"></button>
+      <input type="color" id="customColor" value="#111827" aria-label="Custom ink color">
+     </div>
+    </div>
+    <div class="field">
+     <div class="label">Text alignment</div>
+     <select id="alignSelect">
+      <option value="center">Center</option>
+      <option value="left">Left</option>
+      <option value="right">Right</option>
+     </select>
+    </div>
+   </section>
+
+   <section class="panel" style="margin-top:12px">
+    <h2 class="panel-title">Export settings</h2>
+    <div class="field">
+     <label class="label" for="formatSelect">Image format</label>
+     <select id="formatSelect">
+      <option value="png">PNG - Transparent background</option>
+      <option value="jpg">JPG - White background</option>
+     </select>
+    </div>
+    <div class="field">
+     <label class="label" for="resolutionSelect">Image resolution</label>
+     <select id="resolutionSelect">
+      <option value="1">Standard (1x)</option>
+      <option value="2" selected>High resolution (2x)</option>
+      <option value="3">Ultra resolution (3x)</option>
+     </select>
+    </div>
+    <div class="field">
+     <label class="label" for="filename">File name</label>
+     <input type="text" id="filename" value="my-signature">
+    </div>
+    <button class="btn btn-primary btn-block" id="downloadBtn">↓ Download Signature</button>
+   </section>
+  </aside>
+ </div>
+
+ <div class="info-grid">
+  <div class="info"><b>Transparent PNG</b><p>Download your signature with a transparent background for documents, images and digital designs.</p></div>
+  <div class="info"><b>Handwritten styles</b><p>Try different script fonts and customize the ink color and size to create your preferred look.</p></div>
+  <div class="info"><b>Draw your own</b><p>Use a mouse, touchscreen or stylus to draw a signature directly on the canvas.</p></div>
+ </div>
+ <div class="footer">Made with Clickdy · Your signature is processed locally in your browser.</div>
 </main>
+
 <script>
-(()=>{const c=document.getElementById("signatureCanvas"),w=document.getElementById("canvasWrap"),x=c.getContext("2d"),ink=document.getElementById("inkColor"),sw=document.getElementById("strokeWidth"),sv=document.getElementById("strokeValue"),ih=document.getElementById("inkHex"),bg=document.getElementById("backgroundMode"),sm=document.getElementById("smoothMode"),st=document.getElementById("status");let down=false,has=false,last=null,undo=[],redo=[];
-const dims=()=>({w:w.clientWidth,h:innerWidth<=620?300:390});const msg=s=>{st.textContent=s;clearTimeout(msg.t);msg.t=setTimeout(()=>st.textContent="",2200)};
-function bgpaint(){const d=dims();x.clearRect(0,0,d.w,d.h);if(bg.value!=="transparent"){x.fillStyle=bg.value==="light"?"#f3f5f7":"#fff";x.fillRect(0,0,d.w,d.h)}}
-function resize(){const old=has?c.toDataURL("image/png"):null,d=window.devicePixelRatio?Math.min(3,Math.max(1,devicePixelRatio)):1,s=dims();c.style.height=s.h+"px";c.width=Math.round(s.w*d);c.height=Math.round(s.h*d);x.setTransform(d,0,0,d,0,0);x.lineCap="round";x.lineJoin="round";bgpaint();if(old){const im=new Image();im.onload=()=>x.drawImage(im,0,0,s.w,s.h);im.src=old}}
-function pt(e){const r=c.getBoundingClientRect();return{x:e.clientX-r.left,y:e.clientY-r.top}}
-function save(){undo.push(c.toDataURL("image/png"));if(undo.length>30)undo.shift();redo=[]}
-function restore(data){const im=new Image();im.onload=()=>{bgpaint();const d=dims();x.drawImage(im,0,0,d.w,d.h);has=true};im.src=data}
-function start(e){if(e.pointerType==="mouse"&&e.button!==0)return;e.preventDefault();save();down=true;has=true;last=pt(e);try{c.setPointerCapture(e.pointerId)}catch{}}
-function move(e){if(!down)return;e.preventDefault();const p=pt(e),pr=e.pressure>0?e.pressure:1,b=+sw.value;let lw=b;if(sm.value==="smooth")lw=b*(.75+pr*.5);if(sm.value==="precise")lw=b*(.65+pr*.35);x.strokeStyle=ink.value;x.lineWidth=Math.max(1,lw);x.beginPath();x.moveTo(last.x,last.y);if(sm.value==="smooth"){const mx=(last.x+p.x)/2,my=(last.y+p.y)/2;x.quadraticCurveTo(last.x,last.y,mx,my)}else x.lineTo(p.x,p.y);x.stroke();last=p}
-function end(e){if(!down)return;down=false;last=null;try{c.releasePointerCapture(e.pointerId)}catch{}}
-c.addEventListener("pointerdown",start);c.addEventListener("pointermove",move);c.addEventListener("pointerup",end);c.addEventListener("pointercancel",end);
-ink.addEventListener("input",()=>ih.textContent=ink.value.toUpperCase());sw.addEventListener("input",()=>sv.textContent=sw.value+" px");bg.addEventListener("change",()=>{w.classList.toggle("transparent",bg.value==="transparent");if(!has)bgpaint()});
-document.getElementById("clearBtn").onclick=()=>{if(has)save();bgpaint();has=false;msg("Signature cleared.")};
-document.getElementById("undoBtn").onclick=()=>{if(!undo.length)return msg("Nothing to undo.");redo.push(c.toDataURL("image/png"));restore(undo.pop());msg("Undone.")};
-document.getElementById("redoBtn").onclick=()=>{if(!redo.length)return msg("Nothing to redo.");undo.push(c.toDataURL("image/png"));restore(redo.pop());msg("Redone.")};
-document.getElementById("downloadBtn").onclick=()=>{if(!has)return msg("Draw a signature first.");const d=dims(),o=document.createElement("canvas"),q=2;o.width=d.w*q;o.height=d.h*q;const z=o.getContext("2d");z.scale(q,q);if(bg.value!=="transparent"){z.fillStyle=bg.value==="light"?"#f3f5f7":"#fff";z.fillRect(0,0,d.w,d.h)}z.drawImage(c,0,0,d.w,d.h);o.toBlob(b=>{if(!b)return msg("PNG creation failed.");const u=URL.createObjectURL(b),a=document.createElement("a");a.href=u;a.download="clickdy-signature.png";document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(u);msg("Signature downloaded.")},"image/png")};
-let rt;addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(resize,120)});resize()})();
+(()=>{
+const $=id=>document.getElementById(id);
+const nameInput=$('nameInput'),signatureText=$('signatureText'),preview=$('preview');
+let font='Allura',ink='#111827',drawMode=false,drawn=false;
+const canvas=$('drawCanvas'),ctx=canvas.getContext('2d');
+let drawing=false,lastPoint=null,history=[],currentPath=[];
+
+function updatePreview(){
+ signatureText.textContent=nameInput.value||'Your Name';
+ signatureText.style.fontFamily=`"${font}", cursive`;
+ signatureText.style.fontSize=$('sizeRange').value+'px';
+ signatureText.style.color=ink;
+ signatureText.style.textAlign=$('alignSelect').value;
+ $('sizeValue').textContent=$('sizeRange').value+' px';
+}
+function status(message){$('status').textContent=message}
+function saveCanvasState(){
+ history.push(canvas.toDataURL('image/png'));
+ if(history.length>30)history.shift();
+}
+function clearCanvas(){
+ ctx.clearRect(0,0,canvas.width,canvas.height);
+ drawn=false;currentPath=[];history=[];
+}
+function point(e){
+ const r=canvas.getBoundingClientRect();
+ return {x:(e.clientX-r.left)*canvas.width/r.width,y:(e.clientY-r.top)*canvas.height/r.height};
+}
+function drawSegment(a,b){
+ ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();
+}
+ctx.lineCap='round';ctx.lineJoin='round';ctx.lineWidth=5;ctx.strokeStyle=ink;
+
+canvas.addEventListener('pointerdown',e=>{
+ e.preventDefault();canvas.setPointerCapture(e.pointerId);
+ saveCanvasState();drawing=true;lastPoint=point(e);
+ ctx.strokeStyle=ink;ctx.lineWidth=5;ctx.lineCap='round';ctx.lineJoin='round';
+ ctx.beginPath();ctx.arc(lastPoint.x,lastPoint.y,2.5,0,Math.PI*2);ctx.fillStyle=ink;ctx.fill();
+ currentPath=[lastPoint];drawn=true;
+});
+canvas.addEventListener('pointermove',e=>{
+ if(!drawing)return;
+ e.preventDefault();const p=point(e);drawSegment(lastPoint,p);lastPoint=p;currentPath.push(p);
+});
+function stopDrawing(){drawing=false;lastPoint=null}
+canvas.addEventListener('pointerup',stopDrawing);
+canvas.addEventListener('pointercancel',stopDrawing);
+canvas.addEventListener('lostpointercapture',stopDrawing);
+
+nameInput.addEventListener('input',()=>{if(!drawMode)updatePreview()});
+$('sizeRange').addEventListener('input',()=>{updatePreview()});
+$('alignSelect').addEventListener('change',updatePreview);
+
+document.querySelectorAll('.font-card').forEach(btn=>btn.addEventListener('click',()=>{
+ font=btn.dataset.font;drawMode=false;
+ document.querySelectorAll('.font-card').forEach(x=>x.classList.toggle('active',x===btn));
+ updatePreview();status('Handwriting style changed to '+font+'.');
+}));
+function setColor(color){
+ ink=color;
+ document.querySelectorAll('.swatch').forEach(b=>b.classList.toggle('active',b.dataset.color===color));
+ ctx.strokeStyle=ink;updatePreview();
+}
+document.querySelectorAll('.swatch').forEach(b=>b.addEventListener('click',()=>setColor(b.dataset.color)));
+$('customColor').addEventListener('input',e=>setColor(e.target.value));
+
+$('transparentBtn').addEventListener('click',()=>{
+ preview.classList.add('checker');$('previewNote').textContent='TRANSPARENT PREVIEW';
+});
+$('whiteBtn').addEventListener('click',()=>{
+ preview.classList.remove('checker');$('previewNote').textContent='WHITE BACKGROUND';
+});
+$('clearDraw').addEventListener('click',()=>{clearCanvas();status('Drawing canvas cleared.')});
+$('undoDraw').addEventListener('click',()=>{
+ const previous=history.pop();
+ if(!previous){status('Nothing to undo.');return;}
+ const img=new Image();
+ img.onload=()=>{ctx.clearRect(0,0,canvas.width,canvas.height);ctx.drawImage(img,0,0);drawn=history.length>0||ctx.getImageData(0,0,canvas.width,canvas.height).data.some((v,i)=>i%4===3&&v>0);};
+ img.src=previous;status('Last drawing action undone.');
+});
+$('useDrawing').addEventListener('click',()=>{
+ if(!drawn){status('Draw your signature on the canvas first.');return;}
+ drawMode=true;
+ signatureText.textContent='';
+ status('Your drawn signature is selected for download.');
+});
+$('useTyped').addEventListener('click',()=>{
+ drawMode=false;updatePreview();status('Typed signature selected.');
+});
+
+function createExport(){
+ const scale=Number($('resolutionSelect').value);
+ const width=1200*scale,height=420*scale;
+ const out=document.createElement('canvas');out.width=width;out.height=height;
+ const c=out.getContext('2d');
+ const format=$('formatSelect').value;
+ if(format==='jpg'){c.fillStyle='#ffffff';c.fillRect(0,0,width,height);}
+ if(drawMode&&drawn){
+  c.drawImage(canvas,0,0,width,height);
+ }else{
+  c.fillStyle=ink;
+  const size=Number($('sizeRange').value)*scale;
+  c.textAlign=$('alignSelect').value;
+  c.textBaseline='middle';
+  c.font=`${size}px "${font}"`;
+  const text=nameInput.value.trim()||'Your Name';
+  const align=c.textAlign;
+  const x=align==='left'?50*scale:align==='right'?width-50*scale:width/2;
+  let finalSize=size;
+  while(c.measureText(text).width>width-100*scale&&finalSize>12*scale){
+   finalSize-=2*scale;c.font=`${finalSize}px "${font}"`;
+  }
+  c.fillText(text,x,height/2,width-100*scale);
+ }
+ return out;
+}
+$('downloadBtn').addEventListener('click',()=>{
+ if(!drawMode&&!nameInput.value.trim()){status('Please enter your name first.');return;}
+ if(drawMode&&!drawn){status('Please draw a signature first.');return;}
+ if(document.fonts&&document.fonts.ready){
+  document.fonts.ready.then(download);
+ }else download();
+ function download(){
+  try{
+   const out=createExport();
+   const type=$('formatSelect').value==='jpg'?'image/jpeg':'image/png';
+   const ext=type==='image/jpeg'?'jpg':'png';
+   out.toBlob(blob=>{
+    if(!blob){status('Could not export image. Please try again.');return;}
+    const url=URL.createObjectURL(blob),a=document.createElement('a');
+    let filename=$('filename').value.trim().replace(/[\\/:*?"<>|]/g,'').replace(/\s+/g,'-')||'my-signature';
+    a.href=url;a.download=filename+'.'+ext;a.click();
+    setTimeout(()=>URL.revokeObjectURL(url),1500);
+    status('Your signature has been downloaded successfully.');
+   },type,.95);
+  }catch(e){status('Export failed. Please try again.');}
+ }
+});
+updatePreview();
+})();
 </script>
 </body>
 </html>
