@@ -448,6 +448,39 @@ td{color:#c5d3e3}
   .mode-btn{font-size:8px}
   .template-grid,.card-grid{grid-template-columns:1fr}
 }
+
+/* Clickdy themed sidebar scrollbar */
+.sidebar {
+  scrollbar-width: thin;
+  scrollbar-color: #286b9b #090f1b;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #090f1b;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #38a5ff,
+    #2ee7df
+  );
+  border-radius: 20px;
+  border: 1px solid #090f1b;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #55b7ff,
+    #50f0e8
+  );
+}
+
 </style>
 </head>
 <body>
