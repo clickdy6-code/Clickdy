@@ -299,6 +299,32 @@ h1{font:700 23px var(--heading);letter-spacing:-.7px;margin:0}
   .field-grid{grid-template-columns:1fr}
   .top-actions .upgrade{padding:8px}
 }
+.brand {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.back-to-tools {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 14px;
+    color: #93a4bd;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none !important;
+    border-radius: 10px;
+    transition: .2s ease;
+}
+
+.back-to-tools:hover {
+    color: #38a5ff;
+    background: rgba(56,165,255,.08);
+}
+
+.back-to-tools span:first-child {
+    font-size: 17px;
+}
 </style>
 </head>
 
@@ -325,9 +351,16 @@ h1{font:700 23px var(--heading);letter-spacing:-.7px;margin:0}
       <button class="nav-item" data-soon="Dubbing"><span class="nav-icon">▣</span> AI Dubbing <span class="nav-badge">Soon</span></button>
 
       <div class="side-label">Clickdy</div>
-      <a class="nav-item" href="../index.html" style="text-decoration:none"><span class="nav-icon">⌂</span> Back to Website</a>
+      <a href="javascript:location.reload()" class="brand" aria-label="Refresh Text to Speech Studio">
+      <img src="../assets/logo.png" alt="Clickdy">
+      <span>Clickdy</span>
+      </a>
       <button class="nav-item" data-soon="Settings"><span class="nav-icon">⚙</span> Settings</button>
       <button class="nav-item" data-soon="Help Center"><span class="nav-icon">?</span> Help Center</button>
+      <a href="https://clickdy.vercel.app/" class="back-to-tools">
+      <span>←</span>
+      <span>Back to Clickdy Tools</span>
+      </a>
     </div>
 
     <div class="side-bottom">
