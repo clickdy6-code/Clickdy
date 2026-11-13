@@ -1,246 +1,817 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Text to Speech Online - Clickdy</title>
-<meta name="description" content="Convert text to speech in your browser with Clickdy. Choose a voice, adjust speed, pitch and volume, then play the generated speech.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070b14">
+<title>AI Text to Speech - Clickdy</title>
+<meta name="description" content="Create natural-sounding AI voiceovers with Clickdy Text to Speech Studio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
 <style>
-:root{--bg:#070b12;--panel:#0d131d;--panel2:#111925;--text:#f4f7fb;--muted:#8e9aaa;--accent:#63c7ff;--line:#223044;--danger:#ff6f7d;--success:#62d89a;--radius:16px}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Arial,sans-serif}
-button,input,textarea,select{font:inherit}button{cursor:pointer}
-.page{max-width:1180px;margin:auto;padding:24px}.topbar{display:flex;align-items:center;justify-content:space-between;padding:8px 0 22px;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--text);font-weight:800;font-size:21px}.brand img{width:36px;height:36px;object-fit:contain;border-radius:9px}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}
-.hero{text-align:center;padding:34px 10px 26px}.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 10px;letter-spacing:-1.5px}.hero h1 span{color:var(--accent)}.hero p{max-width:700px;margin:auto;color:var(--muted);line-height:1.65}
-.workspace{display:grid;grid-template-columns:minmax(330px,470px) 1fr;gap:22px;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:0 18px 55px rgba(0,0,0,.2)}
-h2{font-size:18px;margin:0 0 16px}.section{border-top:1px solid var(--line);padding-top:17px;margin-top:17px}.section:first-of-type{border-top:0;padding-top:0;margin-top:0}.section h3{font-size:13px;margin:0 0 10px;color:#dce5ef}
-.field{display:flex;flex-direction:column;gap:6px;margin-bottom:11px}.field label{font-size:12px;color:#b9c4d2}.field textarea,.field select,.field input{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 11px;outline:none}.field textarea{min-height:220px;resize:vertical}.field textarea:focus,.field select:focus,.field input:focus{border-color:var(--accent)}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.range-row{display:grid;grid-template-columns:1fr 70px;gap:10px;align-items:center}.range-row output{background:var(--panel2);border:1px solid var(--line);padding:8px;border-radius:8px;text-align:center;font-size:12px}
-.actions{display:flex;flex-wrap:wrap;gap:8px}.btn{border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:10px 13px;border-radius:10px;font-weight:700}.btn:hover{border-color:#3c526d}.btn.primary{background:var(--accent);border-color:var(--accent);color:#06101a}.btn.danger{color:#ffb5bd}.btn:disabled{opacity:.45;cursor:not-allowed}
-.status{min-height:22px;margin-top:10px;color:var(--muted);font-size:12px}.status.ok{color:var(--success)}.status.error{color:var(--danger)}
-.card{background:var(--panel2);border:1px solid var(--line);border-radius:13px;padding:16px}.visual{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:245px;text-align:center}.mic{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:#162535;border:1px solid #29425a;font-size:31px;margin-bottom:14px}.visual strong{font-size:17px}.visual span{color:var(--muted);font-size:13px;line-height:1.5;max-width:360px;margin-top:6px}.progress{height:8px;background:#182332;border-radius:999px;overflow:hidden;margin-top:18px}.progress div{height:100%;width:0;background:var(--accent);transition:width .2s}
-.history{margin-top:15px}.session-title{margin:0 0 4px;font-size:14px}.history-row{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--line);padding:11px 0;font-size:12px}.history-row:first-child{border-top:0}.history-row span{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.notice{color:var(--muted);font-size:12px;line-height:1.55;margin-top:13px}
-.footer{text-align:center;color:var(--muted);font-size:12px;padding:30px 0 10px}
-@media(max-width:900px){.workspace{grid-template-columns:1fr}}@media(max-width:600px){.page{padding:14px}.panel{padding:15px}.grid2{grid-template-columns:1fr}.hero{padding:25px 5px 20px}}
-</style>
-<!-- Clickdy SEO metadata -->
-<link rel="canonical" href="https://clickdy.vercel.app/text-to-speech/">
-<meta name="robots" content="index,follow">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Text to Speech Online - Clickdy">
-<meta property="og:description" content="Convert text to speech in your browser with Clickdy. Choose a voice, adjust speed, pitch and volume, then play the generated speech.">
-<meta property="og:url" content="https://clickdy.vercel.app/text-to-speech/">
-<meta property="og:site_name" content="Clickdy">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Text to Speech Online - Clickdy">
-<meta name="twitter:description" content="Convert text to speech in your browser with Clickdy. Choose a voice, adjust speed, pitch and volume, then play the generated speech.">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Text to Speech Online",
-  "url": "https://clickdy.vercel.app/text-to-speech/",
-  "description": "Convert text to speech in your browser with Clickdy. Choose a voice, adjust speed, pitch and volume, then play the generated speech.",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "Any",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Clickdy",
-    "url": "https://clickdy.vercel.app/"
-  }
+:root{
+  --bg:#070b14;
+  --surface:#0d1422;
+  --surface2:#111b2d;
+  --surface3:#152239;
+  --primary:#38a5ff;
+  --cyan:#2ee7df;
+  --text:#f4f8ff;
+  --muted:#93a4bd;
+  --line:#1d2b42;
+  --green:#42d6a0;
+  --red:#ff707d;
+  --radius:13px;
+  --font:'DM Sans',sans-serif;
+  --heading:'Plus Jakarta Sans',sans-serif;
 }
-</script>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:var(--font);font-size:13px;
+  min-height:100vh;overflow-x:hidden
+}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{
+  outline:2px solid var(--primary);outline-offset:2px
+}
+.app{min-height:100vh;display:flex}
+.sidebar{
+  width:238px;position:fixed;inset:0 auto 0 0;z-index:50;
+  background:#090f1b;border-right:1px solid var(--line);
+  display:flex;flex-direction:column;overflow-y:auto;
+  scrollbar-width:thin;scrollbar-color:#286b9b #090f1b
+}
+.sidebar::-webkit-scrollbar{width:5px}
+.sidebar::-webkit-scrollbar-track{background:#090f1b}
+.sidebar::-webkit-scrollbar-thumb{
+  background:linear-gradient(180deg,#38a5ff,#2ee7df);
+  border-radius:20px;border:1px solid #090f1b
+}
+.brand{height:66px;display:flex;align-items:center;padding:0 20px;gap:10px;border-bottom:1px solid var(--line);flex-shrink:0}
+.brand img{width:32px;height:32px;object-fit:contain}
+.brand-name{font:800 19px var(--heading);letter-spacing:-.7px}
+.brand-tag{font-size:9px;color:var(--muted);margin-top:1px}
+.side-content{padding:17px 11px 12px;flex:1}
+.side-label{font-size:10px;text-transform:uppercase;letter-spacing:1.2px;color:#657891;font-weight:700;padding:0 10px;margin:13px 0 8px}
+.nav-item{
+  width:100%;display:flex;align-items:center;gap:11px;
+  padding:10px 11px;margin:2px 0;border:0;border-radius:9px;
+  color:#9aabc2;background:transparent;text-align:left;
+  font-size:12px;font-weight:600;transition:.18s
+}
+.nav-item:hover{background:#111d30;color:#fff}
+.nav-item.active{background:linear-gradient(100deg,#12365a,#10243a);color:#eaf7ff}
+.nav-item.active .nav-icon{color:var(--cyan)}
+.nav-icon{width:17px;text-align:center;font-size:15px;color:#7f94af}
+.nav-badge{margin-left:auto;font-size:9px;color:#7bd9ff;background:#12314b;padding:3px 6px;border-radius:5px}
+.side-bottom{padding:12px;border-top:1px solid var(--line)}
+.credit-card{padding:12px;border:1px solid #203b56;border-radius:11px;background:linear-gradient(140deg,#10243a,#0d1728);margin-bottom:12px}
+.credit-top{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:700}
+.credit-number{font:700 20px var(--heading);margin:8px 0 2px}
+.credit-number span{font:500 10px var(--font);color:var(--muted)}
+.credit-sub{font-size:10px;color:var(--muted)}
+.credit-progress{height:4px;background:#24354c;border-radius:5px;margin:10px 0 0;overflow:hidden}
+.credit-progress span{display:block;width:34%;height:100%;background:linear-gradient(90deg,var(--primary),var(--cyan))}
+.sidebar-user{display:flex;align-items:center;gap:9px;padding:8px 4px}
+.avatar{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#267cc0,#24b8b3);font-weight:700}
+.user-info{min-width:0}
+.user-name{font-size:11px;font-weight:700}
+.user-plan{font-size:10px;color:var(--muted);margin-top:2px}
+.user-more{margin-left:auto;color:var(--muted)}
+.main{margin-left:238px;width:calc(100% - 238px);min-width:0}
+.topbar{
+  height:66px;border-bottom:1px solid var(--line);
+  background:rgba(7,11,20,.88);backdrop-filter:blur(16px);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 28px;position:sticky;top:0;z-index:30
+}
+.top-left{display:flex;align-items:center;gap:12px}
+.mobile-menu{display:none}
+.breadcrumb{font-size:12px;color:var(--muted)}
+.breadcrumb strong{color:var(--text);font-weight:600}
+.top-actions{display:flex;align-items:center;gap:9px}
+.top-btn{
+  border:1px solid var(--line);background:#0e1726;color:#c7d5e7;
+  padding:8px 11px;border-radius:8px;font-size:11px;font-weight:600
+}
+.top-btn:hover{border-color:#3975a5;background:#12243a}
+.top-btn.upgrade{border:0;background:linear-gradient(110deg,#238fe5,#20bfc0);color:#04121e}
+.workspace{max-width:1440px;margin:auto;padding:25px 28px 38px}
+.page-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:21px}
+.eyebrow{font-size:10px;color:var(--cyan);font-weight:700;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:7px}
+h1{font:700 23px var(--heading);letter-spacing:-.7px;margin:0}
+.page-desc{color:var(--muted);font-size:12px;margin:7px 0 0;line-height:1.6}
+.heading-actions{display:flex;gap:8px}
+.icon-btn{width:34px;height:34px;border:1px solid var(--line);background:var(--surface);color:#a9bad0;border-radius:8px}
+.icon-btn:hover{color:#fff;border-color:#3975a5}
+.tabs{display:flex;gap:5px;border-bottom:1px solid var(--line);margin-bottom:17px}
+.tab{
+  padding:11px 14px;color:var(--muted);background:none;border:0;
+  border-bottom:2px solid transparent;font-size:11px;font-weight:700
+}
+.tab:hover{color:#fff}
+.tab.active{color:#fff;border-bottom-color:var(--primary)}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+.editor-grid{display:grid;grid-template-columns:minmax(0,1fr) 315px;gap:16px;align-items:start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.panel-head{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:10px}
+.panel-title{font-size:12px;font-weight:700}
+.panel-subtitle{font-size:10px;color:var(--muted);margin-top:3px}
+.panel-body{padding:15px}
+.field-label{display:flex;align-items:center;justify-content:space-between;font-size:11px;font-weight:700;margin-bottom:8px}
+.field-label small{font-size:10px;color:var(--muted);font-weight:500}
+.textarea-wrap{position:relative}
+.script-input{
+  width:100%;min-height:250px;resize:vertical;
+  border:1px solid #263750;background:#09111e;color:#edf5ff;
+  padding:15px;border-radius:10px;line-height:1.8;font-size:13px;
+  outline:none;transition:.2s
+}
+.script-input:focus{border-color:#398fc9;box-shadow:0 0 0 3px #38a5ff12}
+.script-input::placeholder{color:#657992}
+.editor-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px;flex-wrap:wrap}
+.toolbar-left,.toolbar-right{display:flex;gap:7px;align-items:center;flex-wrap:wrap}
+.small-btn{
+  background:#111e30;border:1px solid #24364e;color:#aebfd4;
+  padding:7px 9px;border-radius:7px;font-size:10px;font-weight:600
+}
+.small-btn:hover{border-color:#3b82b8;color:#fff}
+.char-count{font-size:10px;color:var(--muted)}
+.char-count strong{color:#dbe9f9}
+.quick-prompts{display:flex;flex-wrap:wrap;gap:7px;margin-top:15px}
+.prompt-chip{border:1px solid #263a53;background:#101c2d;color:#9eb2ca;padding:7px 10px;border-radius:20px;font-size:10px}
+.prompt-chip:hover{border-color:#398fc9;color:#fff}
+.notice{display:flex;gap:9px;align-items:flex-start;padding:11px 12px;background:#0d1d2c;border:1px solid #1b3a53;border-radius:9px;margin-top:15px;color:#9db5cc;font-size:10px;line-height:1.55}
+.notice-icon{color:var(--cyan);font-size:14px}
+.notice strong{color:#dff6ff}
+.section-gap{margin-top:15px}
+.select,.text-input{
+  width:100%;height:37px;border:1px solid #293b53;background:#0a1321;
+  color:#e3edf9;border-radius:8px;padding:0 10px;font-size:11px;outline:none
+}
+.select:focus,.text-input:focus{border-color:#3b91ca}
+.select option{background:#101b2b;color:#fff}
+.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.field{min-width:0}
+.field .field-label{margin-bottom:7px}
+.voice-selected{
+  display:flex;align-items:center;gap:11px;padding:11px;
+  border:1px solid #28547a;background:linear-gradient(100deg,#10243a,#0e1929);
+  border-radius:10px
+}
+.voice-avatar{width:38px;height:38px;display:grid;place-items:center;border-radius:9px;background:linear-gradient(140deg,#235d8b,#1c8b91);font-size:17px}
+.voice-details{min-width:0;flex:1}
+.voice-name{font-size:12px;font-weight:700}
+.voice-meta{font-size:10px;color:var(--muted);margin-top:4px}
+.voice-change{border:1px solid #34516d;background:#13253a;color:#b9d5ec;border-radius:7px;padding:7px 9px;font-size:10px}
+.voice-card-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:12px}
+.voice-card-row span{font-size:10px;color:var(--muted)}
+.link-btn{background:none;border:0;color:#66c5ff;font-size:10px;font-weight:700;padding:4px}
+.link-btn:hover{color:var(--cyan)}
+.settings-panel .panel-body{padding:14px}
+.setting-block{padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--line)}
+.setting-block:last-child{border:0;padding:0;margin:0}
+.setting-title{font-size:11px;font-weight:700;margin-bottom:11px}
+.setting-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 0}
+.setting-name{font-size:10px;color:#c6d3e3}
+.setting-value{font-size:10px;color:#8ea6c1;font-variant-numeric:tabular-nums}
+.range{width:100%;height:4px;accent-color:var(--primary);cursor:pointer}
+.range-wrap{margin-top:8px}
+.range-labels{display:flex;justify-content:space-between;color:#70849d;font-size:9px;margin-top:5px}
+.switch{position:relative;width:31px;height:18px;display:inline-block;flex-shrink:0}
+.switch input{opacity:0;width:0;height:0}
+.switch-track{position:absolute;inset:0;background:#2b3a4e;border-radius:20px;transition:.2s;cursor:pointer}
+.switch-track:before{content:"";position:absolute;width:12px;height:12px;left:3px;top:3px;border-radius:50%;background:#a6b6c9;transition:.2s}
+.switch input:checked+.switch-track{background:#187fbd}
+.switch input:checked+.switch-track:before{transform:translateX(13px);background:white}
+.generate-bar{
+  position:sticky;bottom:0;z-index:15;margin-top:16px;padding:12px 15px;
+  border:1px solid #263d57;border-radius:11px;
+  background:rgba(12,21,35,.96);backdrop-filter:blur(14px);
+  display:flex;align-items:center;justify-content:space-between;gap:12px
+}
+.generate-info{font-size:10px;color:var(--muted);line-height:1.5}
+.generate-info strong{color:#e8f3ff;display:block;font-size:11px}
+.generate-btn{
+  border:0;border-radius:8px;padding:11px 18px;
+  color:#04121e;font-weight:800;font-size:11px;
+  background:linear-gradient(105deg,#38a5ff,#2ee7df);
+  box-shadow:0 5px 18px #168fd32b
+}
+.generate-btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.generate-btn:active{transform:translateY(0)}
+.right-stack{display:flex;flex-direction:column;gap:14px}
+.model-description{font-size:10px;line-height:1.6;color:var(--muted);margin-top:8px}
+.model-tag{font-size:9px;color:#6ed9ce;background:#10332f;padding:4px 7px;border-radius:5px}
+.output-note{font-size:9px;color:#8195ad;line-height:1.5;margin-top:8px}
+.history-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:15px;flex-wrap:wrap}
+.history-list{display:flex;flex-direction:column;gap:9px}
+.history-item{display:flex;align-items:center;gap:12px;padding:13px;border:1px solid var(--line);background:var(--surface);border-radius:10px}
+.audio-icon{width:36px;height:36px;border-radius:9px;background:#112d43;color:var(--cyan);display:grid;place-items:center;font-size:16px}
+.history-details{flex:1;min-width:0}
+.history-title{font-size:11px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.history-meta{font-size:10px;color:var(--muted);margin-top:4px}
+.history-status{font-size:9px;color:#e5bd6a;background:#352b17;padding:5px 7px;border-radius:5px}
+.empty-state{text-align:center;padding:45px 20px;color:var(--muted)}
+.empty-icon{width:54px;height:54px;border-radius:15px;background:#10243a;display:grid;place-items:center;color:var(--cyan);font-size:23px;margin:0 auto 13px}
+.empty-state strong{display:block;color:#dce9f7;font-size:12px;margin-bottom:6px}
+.empty-state p{font-size:10px;line-height:1.6;max-width:340px;margin:0 auto}
+.library-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:15px}
+.filter-panel{padding:14px}
+.filter-title{font-size:11px;font-weight:700;margin-bottom:12px}
+.filter-group{margin-bottom:17px}
+.filter-group label{display:block;font-size:10px;color:#a8b8cb;margin-bottom:7px}
+.filter-options{display:flex;flex-wrap:wrap;gap:6px}
+.filter-option{background:#101c2c;border:1px solid #26384f;color:#91a6bf;padding:6px 8px;border-radius:6px;font-size:9px}
+.filter-option.active{border-color:#3188c0;color:#d9f2ff;background:#12304a}
+.voice-library-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.voice-library-card{padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);transition:.2s}
+.voice-library-card:hover{border-color:#386d96;transform:translateY(-1px)}
+.library-card-top{display:flex;align-items:center;gap:10px}
+.library-card-top .voice-avatar{width:35px;height:35px}
+.library-card-top .voice-details{flex:1}
+.library-card-top .voice-name{font-size:11px}
+.library-card-top .voice-meta{font-size:9px}
+.voice-play{width:29px;height:29px;border-radius:50%;border:1px solid #31516e;background:#11243a;color:#aee7ff}
+.voice-tags{display:flex;gap:5px;flex-wrap:wrap;margin:10px 0}
+.voice-tag{font-size:9px;color:#8fa5be;background:#142238;padding:4px 6px;border-radius:5px}
+.library-card-bottom{display:flex;align-items:center;justify-content:space-between}
+.library-card-bottom span{font-size:9px;color:var(--muted)}
+.use-voice{border:1px solid #2b5a7d;background:#10253a;color:#b9e8ff;padding:6px 9px;border-radius:6px;font-size:9px;font-weight:700}
+.voice-search{display:flex;gap:8px;margin-bottom:12px}
+.voice-search input{flex:1}
+.modal-backdrop{position:fixed;inset:0;background:#02060cbb;z-index:100;display:none;align-items:center;justify-content:center;padding:18px}
+.modal-backdrop.show{display:flex}
+.modal{width:min(440px,100%);background:#101a2a;border:1px solid #29415d;border-radius:14px;box-shadow:0 20px 80px #0009;overflow:hidden}
+.modal-head{padding:15px 17px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.modal-head strong{font-size:13px}
+.modal-close{border:0;background:none;color:#a9bad0;font-size:20px}
+.modal-body{padding:18px}
+.modal-body p{font-size:11px;color:#a4b5ca;line-height:1.7}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:17px}
+.toast{position:fixed;right:22px;bottom:22px;z-index:150;background:#12253a;border:1px solid #2b5d80;color:#e6f6ff;padding:11px 15px;border-radius:9px;font-size:11px;box-shadow:0 8px 30px #0006;display:none;max-width:320px}
+.toast.show{display:block;animation:toastIn .2s ease}
+@keyframes toastIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+.mobile-overlay{display:none}
+.hidden{display:none!important}
+.disabled-setting{opacity:.42;pointer-events:none}
+@media(max-width:1100px){
+  .editor-grid{grid-template-columns:minmax(0,1fr) 285px}
+  .workspace{padding:22px 19px 32px}
+}
+@media(max-width:850px){
+  .sidebar{transform:translateX(-100%);transition:transform .25s}
+  .sidebar.open{transform:translateX(0)}
+  .mobile-overlay.show{display:block;position:fixed;inset:0;background:#0009;z-index:40}
+  .main{margin-left:0;width:100%}
+  .mobile-menu{display:inline-grid;place-items:center;width:33px;height:33px;border:1px solid var(--line);background:#101a2a;color:#fff;border-radius:7px}
+  .editor-grid{grid-template-columns:1fr}
+  .right-stack{display:grid;grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .topbar{height:57px;padding:0 13px}
+  .top-actions .top-btn:first-child{display:none}
+  .workspace{padding:18px 12px 28px}
+  .page-heading{margin-bottom:16px}
+  h1{font-size:20px}
+  .page-desc{font-size:11px}
+  .heading-actions{display:none}
+  .tabs{overflow-x:auto;white-space:nowrap}
+  .tab{padding:10px 11px;font-size:10px}
+  .right-stack{grid-template-columns:1fr}
+  .field-grid{grid-template-columns:1fr 1fr}
+  .script-input{min-height:220px}
+  .generate-bar{align-items:flex-start}
+  .generate-info{max-width:55%}
+  .generate-btn{padding:11px 13px;white-space:nowrap}
+  .library-layout{grid-template-columns:1fr}
+  .voice-library-grid{grid-template-columns:1fr}
+  .breadcrumb{font-size:11px}
+}
+@media(max-width:380px){
+  .field-grid{grid-template-columns:1fr}
+  .top-actions .upgrade{padding:8px}
+}
+</style>
 </head>
+
 <body>
-<div class="page">
-<header class="topbar">
-<a class="brand" href="../index.html"><img src="../assets/logo.png" alt="Clickdy logo"><span>Clickdy</span></a>
-<a class="back" href="../index.html">← Back to Home</a>
-</header>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <img src="../assets/logo.png" alt="Clickdy logo" onerror="this.style.display='none'">
+      <div><div class="brand-name">Clickdy</div><div class="brand-tag">AI CREATIVE STUDIO</div></div>
+    </div>
 
-<section class="hero">
-<h1>Turn Words Into <span>Natural Speech</span></h1>
-<p>Choose an available browser voice, control speed, pitch and volume, then play your text aloud. No account or upload required.</p>
-</section>
+    <div class="side-content">
+      <div class="side-label">Workspace</div>
+      <button class="nav-item active" data-nav="studio"><span class="nav-icon">◉</span> Text to Speech</button>
+      <button class="nav-item" data-nav="library"><span class="nav-icon">♫</span> Voice Library</button>
+      <button class="nav-item" data-nav="history"><span class="nav-icon">◷</span> History</button>
+      <button class="nav-item" data-nav="projects"><span class="nav-icon">▤</span> Projects</button>
 
-<main class="workspace">
-<section class="panel">
-<h2>Speech Settings</h2>
+      <div class="side-label">Audio tools</div>
+      <button class="nav-item" data-soon="Speech to Speech"><span class="nav-icon">⇄</span> Speech to Speech <span class="nav-badge">Soon</span></button>
+      <button class="nav-item" data-soon="Voice Changer"><span class="nav-icon">♬</span> Voice Changer <span class="nav-badge">Soon</span></button>
+      <button class="nav-item" data-soon="Audio Isolation"><span class="nav-icon">◖</span> Audio Isolation <span class="nav-badge">Soon</span></button>
+      <button class="nav-item" data-soon="Sound Effects"><span class="nav-icon">✧</span> Sound Effects <span class="nav-badge">Soon</span></button>
+      <button class="nav-item" data-soon="Dubbing"><span class="nav-icon">▣</span> AI Dubbing <span class="nav-badge">Soon</span></button>
 
-<div class="section">
-<h3>Your text</h3>
-<div class="field">
-<label for="text">Text to speak</label>
-<textarea id="text" maxlength="12000" placeholder="Type or paste your text here...">Welcome to Clickdy. Turn your text into natural speech directly in your browser.</textarea>
-</div>
-<div class="actions">
-<button class="btn primary" id="speak" type="button">▶ Speak</button>
-<button class="btn" id="pause" type="button" disabled>Ⅱ Pause</button>
-<button class="btn" id="resume" type="button" disabled>▶ Resume</button>
-<button class="btn" id="stop" type="button" disabled>■ Stop</button>
-</div>
-<div id="status" class="status" role="status" aria-live="polite">Ready.</div>
+      <div class="side-label">Clickdy</div>
+      <a class="nav-item" href="../index.html" style="text-decoration:none"><span class="nav-icon">⌂</span> Back to Website</a>
+      <button class="nav-item" data-soon="Settings"><span class="nav-icon">⚙</span> Settings</button>
+      <button class="nav-item" data-soon="Help Center"><span class="nav-icon">?</span> Help Center</button>
+    </div>
+
+    <div class="side-bottom">
+      <div class="credit-card">
+        <div class="credit-top"><span>Workspace usage</span><span style="color:var(--cyan)">◈</span></div>
+        <div class="credit-number">-- <span>credits</span></div>
+        <div class="credit-sub">Connect an AI provider to use credits</div>
+        <div class="credit-progress"><span></span></div>
+      </div>
+      <div class="sidebar-user">
+        <div class="avatar">C</div>
+        <div class="user-info"><div class="user-name">Clickdy User</div><div class="user-plan">Free workspace</div></div>
+        <span class="user-more">•••</span>
+      </div>
+    </div>
+  </aside>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="top-left">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+        <div class="breadcrumb">AI Tools <span style="color:#526780">/</span> <strong id="breadcrumbTitle">Text to Speech</strong></div>
+      </div>
+      <div class="top-actions">
+        <button class="top-btn" id="historyTop">◷ &nbsp; History</button>
+        <button class="top-btn upgrade" id="upgradeBtn">✦ &nbsp; Upgrade</button>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <div class="page-heading">
+        <div>
+          <div class="eyebrow">CLICKDY AI AUDIO</div>
+          <h1 id="pageTitle">Text to Speech</h1>
+          <p class="page-desc" id="pageDescription">Turn your words into natural-sounding speech with expressive AI voices.</p>
+        </div>
+        <div class="heading-actions">
+          <button class="icon-btn" title="Documentation" data-soon="Documentation">?</button>
+          <button class="icon-btn" title="Settings" data-soon="Settings">⚙</button>
+        </div>
+      </div>
+
+      <div id="studioView">
+        <div class="tabs">
+          <button class="tab active" data-tab="speech">Text to Speech</button>
+          <button class="tab" data-tab="speech2speech">Speech to Speech</button>
+          <button class="tab" data-tab="dubbing">Dubbing</button>
+        </div>
+
+        <div class="tab-panel active" id="speechPanel">
+          <div class="editor-grid">
+            <div>
+              <section class="panel">
+                <div class="panel-head">
+                  <div><div class="panel-title">Script editor</div><div class="panel-subtitle">Write or paste the text you want to convert into speech</div></div>
+                  <span class="model-tag">TEXT INPUT</span>
+                </div>
+                <div class="panel-body">
+                  <div class="field-label"><span>Your script</span><small id="wordCount">0 words</small></div>
+                  <div class="textarea-wrap">
+                    <textarea class="script-input" id="scriptInput" maxlength="10000" placeholder="Start typing your script here...
+
+For example: Welcome to Clickdy. Your creative journey starts here. Turn your ideas into natural, expressive speech."></textarea>
+                  </div>
+                  <div class="editor-toolbar">
+                    <div class="toolbar-left">
+                      <button class="small-btn" id="pasteBtn">▣ &nbsp; Paste text</button>
+                      <button class="small-btn" id="clearBtn">⌫ &nbsp; Clear</button>
+                      <button class="small-btn" id="sampleBtn">✧ &nbsp; Sample script</button>
+                    </div>
+                    <div class="toolbar-right"><span class="char-count"><strong id="charCount">0</strong> / 10,000 characters</span></div>
+                  </div>
+                  <div class="quick-prompts">
+                    <button class="prompt-chip" data-sample="Welcome to our channel. Today, we're exploring something amazing. Let's get started!">🎙 YouTube intro</button>
+                    <button class="prompt-chip" data-sample="Discover a better way to work. Save time, unlock creativity, and bring your ideas to life with Clickdy.">📢 Advertisement</button>
+                    <button class="prompt-chip" data-sample="Once upon a time, in a quiet little town, there lived a curious explorer who dreamed of discovering the world.">📖 Storytelling</button>
+                    <button class="prompt-chip" data-sample="Hello! Thank you for contacting our support team. We're here to help you and make your experience better.">💬 Customer support</button>
+                  </div>
+                  <div class="notice">
+                    <span class="notice-icon">ⓘ</span>
+                    <div><strong>Text formatting:</strong> Use punctuation, paragraphs and expressive wording to guide natural speech. Some advanced audio tags depend on the selected model and API integration.</div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="panel section-gap">
+                <div class="panel-head">
+                  <div><div class="panel-title">Selected voice</div><div class="panel-subtitle">Choose the voice that matches your content</div></div>
+                  <button class="link-btn" id="openLibrary">Browse voices ↗</button>
+                </div>
+                <div class="panel-body">
+                  <div class="voice-selected">
+                    <div class="voice-avatar" id="selectedAvatar">◉</div>
+                    <div class="voice-details">
+                      <div class="voice-name" id="selectedVoiceName">Rachel</div>
+                      <div class="voice-meta" id="selectedVoiceMeta">American · Female · Calm and clear</div>
+                    </div>
+                    <button class="voice-change" id="changeVoice">Change voice</button>
+                  </div>
+                  <div class="voice-card-row">
+                    <span>Preview uses voices available in your browser.</span>
+                    <button class="link-btn" id="previewSelected">▶ Preview voice</button>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="right-stack">
+              <section class="panel settings-panel">
+                <div class="panel-head"><div><div class="panel-title">Voice settings</div><div class="panel-subtitle">Fine-tune how your voice sounds</div></div></div>
+                <div class="panel-body">
+                  <div class="setting-block">
+                    <div class="setting-title">Voice characteristics</div>
+                    <div class="setting-row"><span class="setting-name">Stability</span><span class="setting-value" id="stabilityValue">50%</span></div>
+                    <input class="range" type="range" id="stability" min="0" max="100" value="50">
+                    <div class="range-labels"><span>More variable</span><span>More stable</span></div>
+
+                    <div class="setting-row"><span class="setting-name">Similarity</span><span class="setting-value" id="similarityValue">75%</span></div>
+                    <input class="range" type="range" id="similarity" min="0" max="100" value="75">
+                    <div class="range-labels"><span>Low</span><span>High</span></div>
+
+                    <div class="setting-row"><span class="setting-name">Style exaggeration</span><span class="setting-value" id="styleValue">0%</span></div>
+                    <input class="range" type="range" id="style" min="0" max="100" value="0">
+                    <div class="range-labels"><span>None</span><span>Exaggerated</span></div>
+                  </div>
+
+                  <div class="setting-block">
+                    <div class="setting-title">Delivery</div>
+                    <div class="setting-row"><span class="setting-name">Speed</span><span class="setting-value" id="speedValue">1.00x</span></div>
+                    <input class="range" type="range" id="speed" min="70" max="130" value="100">
+                    <div class="range-labels"><span>Slower</span><span>Faster</span></div>
+                    <div class="setting-row"><span class="setting-name">Speaker boost</span>
+                      <label class="switch"><input type="checkbox" id="speakerBoost" checked><span class="switch-track"></span></label>
+                    </div>
+                  </div>
+
+                  <div class="setting-block">
+                    <div class="setting-title">Model</div>
+                    <div class="field">
+                      <select class="select" id="modelSelect">
+                        <option value="eleven_v3">Eleven v3 — Expressive</option>
+                        <option value="eleven_multilingual_v2" selected>Multilingual v2 — Natural</option>
+                        <option value="eleven_flash_v2_5">Flash v2.5 — Low latency</option>
+                        <option value="eleven_turbo_v2_5">Turbo v2.5 — Fast generation</option>
+                        <option value="eleven_turbo_v2">Turbo v2 — English</option>
+                      </select>
+                      <div class="model-description" id="modelDescription">Natural, high-quality speech across multiple languages. A balanced choice for narration and voiceovers.</div>
+                    </div>
+                  </div>
+
+                  <div class="setting-block">
+                    <div class="setting-title">Output settings</div>
+                    <div class="field-grid">
+                      <div class="field"><div class="field-label">Audio format</div>
+                        <select class="select" id="audioFormat">
+                          <option>MP3</option><option>WAV</option><option>PCM</option>
+                        </select>
+                      </div>
+                      <div class="field"><div class="field-label">Quality</div>
+                        <select class="select" id="audioQuality">
+                          <option>Standard</option><option>High</option><option>Studio</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="output-note">Available formats and quality levels will depend on the connected provider and API endpoint.</div>
+                  </div>
+
+                  <div class="setting-block">
+                    <div class="setting-title">Advanced options</div>
+                    <div class="setting-row"><span class="setting-name">Use speaker boost</span>
+                      <label class="switch"><input type="checkbox" id="boostAdvanced" checked><span class="switch-track"></span></label>
+                    </div>
+                    <div class="field">
+                      <div class="field-label">Seed <small>Optional</small></div>
+                      <input class="text-input" type="number" id="seedInput" placeholder="Random seed">
+                    </div>
+                    <div class="field section-gap">
+                      <div class="field-label">Pronunciation dictionary <small>Optional</small></div>
+                      <select class="select" id="dictionarySelect">
+                        <option value="">No dictionary selected</option>
+                        <option value="default">Default dictionary (placeholder)</option>
+                      </select>
+                    </div>
+                    <div class="field section-gap">
+                      <div class="field-label">Language override</div>
+                      <select class="select" id="languageSelect">
+                        <option value="auto">Auto detect</option>
+                        <option>English</option><option>Urdu</option><option>Arabic</option>
+                        <option>Spanish</option><option>French</option><option>German</option>
+                        <option>Hindi</option><option>Portuguese</option><option>Japanese</option>
+                        <option>Korean</option><option>Chinese</option><option>Turkish</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div class="generate-bar">
+            <div class="generate-info"><strong>Ready to create your voiceover?</strong> Your script and settings are ready. Connect the AI API to generate audio.</div>
+            <button class="generate-btn" id="generateBtn">✦ &nbsp; Generate speech</button>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="speech2speechPanel">
+          <section class="panel"><div class="panel-head"><div><div class="panel-title">Speech to Speech</div><div class="panel-subtitle">Transform a recording while preserving its delivery and performance</div></div><span class="model-tag">COMING SOON</span></div>
+            <div class="panel-body"><div class="empty-state"><div class="empty-icon">⇄</div><strong>Speech to Speech workspace</strong><p>Audio upload, source voice selection, transformation strength and output settings will be available when this feature is integrated.</p></div></div>
+          </section>
+        </div>
+
+        <div class="tab-panel" id="dubbingPanel">
+          <section class="panel"><div class="panel-head"><div><div class="panel-title">AI Dubbing</div><div class="panel-subtitle">Prepare audio or video for multilingual dubbing</div></div><span class="model-tag">COMING SOON</span></div>
+            <div class="panel-body"><div class="empty-state"><div class="empty-icon">▣</div><strong>Dubbing workspace</strong><p>Upload media, choose source and target languages, review transcripts and prepare dubbed tracks when API support is connected.</p></div></div>
+          </section>
+        </div>
+      </div>
+
+      <div id="libraryView" class="hidden">
+        <div class="history-toolbar">
+          <div><div class="panel-title">Explore voice library</div><div class="panel-subtitle">Find a voice for your next project</div></div>
+          <span class="model-tag">DEMO VOICE CATALOG</span>
+        </div>
+        <div class="library-layout">
+          <section class="panel filter-panel">
+            <div class="filter-title">Filters</div>
+            <div class="filter-group"><label>Gender</label><div class="filter-options">
+              <button class="filter-option active" data-filter="gender" data-value="All">All</button>
+              <button class="filter-option" data-filter="gender" data-value="Female">Female</button>
+              <button class="filter-option" data-filter="gender" data-value="Male">Male</button>
+            </div></div>
+            <div class="filter-group"><label>Accent</label><select class="select" id="accentFilter"><option>All accents</option><option>American</option><option>British</option><option>Australian</option><option>Indian</option></select></div>
+            <div class="filter-group"><label>Voice style</label><div class="filter-options">
+              <button class="filter-option active" data-filter="style" data-value="All">All</button>
+              <button class="filter-option" data-filter="style" data-value="Narration">Narration</button>
+              <button class="filter-option" data-filter="style" data-value="Conversational">Conversational</button>
+              <button class="filter-option" data-filter="style" data-value="Professional">Professional</button>
+              <button class="filter-option" data-filter="style" data-value="Storytelling">Storytelling</button>
+            </div></div>
+            <button class="small-btn" id="resetFilters" style="width:100%">Reset filters</button>
+          </section>
+          <div>
+            <div class="voice-search">
+              <input class="text-input" id="voiceSearch" placeholder="Search voices by name, accent or style...">
+              <select class="select" id="sortVoices" style="max-width:135px"><option value="popular">Popular</option><option value="az">A to Z</option></select>
+            </div>
+            <div class="voice-library-grid" id="voiceGrid"></div>
+          </div>
+        </div>
+        <div class="notice"><span class="notice-icon">ⓘ</span><div>This is a sample voice catalog for the frontend design. Actual ElevenLabs voice IDs, library results, filters and voice previews will be loaded through the API later.</div></div>
+      </div>
+
+      <div id="historyView" class="hidden">
+        <div class="history-toolbar"><div><div class="panel-title">Generation history</div><div class="panel-subtitle">Your previous audio generations will appear here</div></div><button class="small-btn" id="clearHistory">Clear local demo history</button></div>
+        <section class="panel"><div class="panel-body" id="historyList"><div class="empty-state"><div class="empty-icon">◷</div><strong>No generations yet</strong><p>Your generated audio files and their settings will appear here after API integration.</p></div></div></section>
+      </div>
+
+      <div id="projectsView" class="hidden">
+        <section class="panel"><div class="panel-head"><div><div class="panel-title">Your projects</div><div class="panel-subtitle">Organize scripts and voiceover work</div></div><button class="small-btn" id="newProject">＋ New project</button></div><div class="panel-body"><div class="empty-state"><div class="empty-icon">▤</div><strong>No projects yet</strong><p>Create projects to organize scripts, voices and generated audio in one place. Project saving will be connected with the backend later.</p></div></div></section>
+      </div>
+
+    </div>
+  </main>
 </div>
 
-<div class="section">
-<h3>Voice</h3>
-<div class="field">
-<label for="voice">Available voice</label>
-<select id="voice" aria-describedby="voiceHelp"></select>
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal">
+    <div class="modal-head"><strong id="modalTitle">Information</strong><button class="modal-close" id="modalClose" aria-label="Close">×</button></div>
+    <div class="modal-body"><p id="modalMessage"></p><div class="modal-actions"><button class="small-btn" id="modalCancel">Close</button><button class="generate-btn hidden" id="modalConfirm">Continue</button></div></div>
+  </div>
 </div>
-<div id="voiceHelp" class="notice">Voices are supplied by your browser and operating system. The available list can differ by device.</div>
-</div>
-
-<div class="section">
-<h3>Controls</h3>
-<div class="field">
-<label for="rate">Speed</label>
-<div class="range-row"><input id="rate" type="range" min="0.5" max="2" step="0.05" value="1"><output id="rateOut">1.00×</output></div>
-</div>
-<div class="field">
-<label for="pitch">Pitch</label>
-<div class="range-row"><input id="pitch" type="range" min="0" max="2" step="0.05" value="1"><output id="pitchOut">1.00</output></div>
-</div>
-<div class="field">
-<label for="volume">Volume</label>
-<div class="range-row"><input id="volume" type="range" min="0" max="1" step="0.05" value="1"><output id="volumeOut">100%</output></div>
-</div>
-</div>
-
-<div class="section">
-<h3>Quick actions</h3>
-<div class="actions">
-<button class="btn" id="sample" type="button">Use Sample Text</button>
-<button class="btn" id="clear" type="button">Clear</button>
-<button class="btn" id="copy" type="button">Copy Text</button>
-</div>
-</div>
-
-<div class="notice">Privacy: speech synthesis is handled through your browser's built-in speech engine. Clickdy does not upload this text to a server.</div>
-</section>
-
-<section class="panel">
-<div class="card visual">
-<div class="mic" aria-hidden="true">🔊</div>
-<strong id="visualTitle">Ready to speak</strong>
-<span id="visualText">Enter text, choose a voice and press Speak.</span>
-<div class="progress" aria-hidden="true"><div id="progress"></div></div>
-</div>
-
-<div class="card history">
-<h3 class="session-title">Session info</h3>
-<div class="history-row"><span>Characters</span><strong id="chars">0</strong></div>
-<div class="history-row"><span>Words</span><strong id="words">0</strong></div>
-<div class="history-row"><span>Selected voice</span><strong id="voiceName">System default</strong></div>
-</div>
-
-<div class="notice">Note: Browser speech synthesis normally plays audio through your device, but the Web Speech API does not provide a standard cross-browser way to export that spoken output directly as MP3/WAV. This tool therefore focuses on reliable browser playback rather than pretending to create an audio file.</div>
-</section>
-</main>
-
-<div class="footer">Clickdy Text to Speech • Browser speech engine • No sign-up</div>
-</div>
+<div class="toast" id="toast"></div>
 
 <script>
-(() => {
+(function(){
 "use strict";
-const $ = id => document.getElementById(id);
-const synth = window.speechSynthesis;
-let voices = [];
-let utterance = null;
 
-function setStatus(text, type=""){ $("status").textContent=text; $("status").className="status "+type; }
-function updateStats(){
-  const t=$("text").value.trim();
-  $("chars").textContent=$("text").value.length.toLocaleString();
-  $("words").textContent=t ? t.split(/\s+/).length.toLocaleString() : "0";
+const $ = id => document.getElementById(id);
+const scriptInput = $("scriptInput");
+let selectedVoice = "Rachel";
+let selectedGender = "Female";
+let selectedAccent = "American";
+let selectedStyle = "Narration";
+let currentView = "studio";
+let activeTab = "speech";
+let filterGender = "All";
+let filterStyle = "All";
+let historyItems = [];
+
+const voices = [
+ {name:"Rachel",gender:"Female",accent:"American",style:"Narration",desc:"Calm, clear and natural",icon:"◉",tags:["Calm","Narration","Clear"]},
+ {name:"Adam",gender:"Male",accent:"American",style:"Conversational",desc:"Deep, warm and confident",icon:"◈",tags:["Deep","Conversational","Warm"]},
+ {name:"Bella",gender:"Female",accent:"American",style:"Storytelling",desc:"Soft and expressive",icon:"✿",tags:["Soft","Storytelling","Expressive"]},
+ {name:"Antoni",gender:"Male",accent:"American",style:"Narration",desc:"Smooth and engaging",icon:"◇",tags:["Smooth","Narration","Engaging"]},
+ {name:"Elli",gender:"Female",accent:"British",style:"Conversational",desc:"Young, friendly and bright",icon:"✧",tags:["Friendly","Bright","Young"]},
+ {name:"Josh",gender:"Male",accent:"American",style:"Professional",desc:"Strong and articulate",icon:"◉",tags:["Strong","Professional","Clear"]},
+ {name:"Charlotte",gender:"Female",accent:"British",style:"Professional",desc:"Elegant and composed",icon:"❋",tags:["Elegant","Composed","British"]},
+ {name:"Callum",gender:"Male",accent:"British",style:"Storytelling",desc:"Rich and characterful",icon:"◈",tags:["Rich","Character","Story"]},
+ {name:"Liam",gender:"Male",accent:"Australian",style:"Conversational",desc:"Relaxed and approachable",icon:"◇",tags:["Relaxed","Casual","Warm"]},
+ {name:"Matilda",gender:"Female",accent:"Australian",style:"Narration",desc:"Warm and polished",icon:"✿",tags:["Warm","Polished","Narration"]},
+ {name:"Aria",gender:"Female",accent:"American",style:"Storytelling",desc:"Expressive and animated",icon:"✧",tags:["Expressive","Animated","Story"]},
+ {name:"George",gender:"Male",accent:"British",style:"Professional",desc:"Mature and authoritative",icon:"◉",tags:["Mature","Authoritative","News"]}
+];
+
+const modelInfo = {
+ eleven_v3:"Highly expressive speech with advanced emotional delivery. Supports audio tags and expressive prompting. Availability and controls depend on the provider API.",
+ eleven_multilingual_v2:"Natural, high-quality speech across multiple languages. A balanced choice for narration and voiceovers.",
+ eleven_flash_v2_5:"Designed for low-latency speech generation with multilingual support.",
+ eleven_turbo_v2_5:"Fast speech generation with multilingual capabilities and a balance of quality and speed.",
+ eleven_turbo_v2:"Fast speech generation model primarily intended for English."
+};
+
+function showToast(message){
+ const t=$("toast");t.textContent=message;t.classList.add("show");
+ clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>t.classList.remove("show"),2800);
 }
-function updateRanges(){
-  $("rateOut").value=Number($("rate").value).toFixed(2)+"×";
-  $("pitchOut").value=Number($("pitch").value).toFixed(2);
-  $("volumeOut").value=Math.round(Number($("volume").value)*100)+"%";
+function openModal(title,message){
+ $("modalTitle").textContent=title;$("modalMessage").textContent=message;
+ $("modalBackdrop").classList.add("show");
 }
-function loadVoices(){
-  voices=synth.getVoices().slice().sort((a,b)=>{
-    const la=(a.lang||"").localeCompare(b.lang||"");
-    return la || a.name.localeCompare(b.name);
+function closeModal(){$("modalBackdrop").classList.remove("show")}
+$("modalClose").onclick=closeModal;$("modalCancel").onclick=closeModal;
+$("modalBackdrop").addEventListener("click",e=>{if(e.target===$("modalBackdrop"))closeModal()});
+
+function updateCounts(){
+ const text=scriptInput.value;
+ $("charCount").textContent=text.length.toLocaleString();
+ const words=text.trim()?text.trim().split(/\s+/).length:0;
+ $("wordCount").textContent=words+" "+(words===1?"word":"words");
+}
+scriptInput.addEventListener("input",updateCounts);
+
+$("clearBtn").onclick=()=>{scriptInput.value="";updateCounts();scriptInput.focus()};
+$("sampleBtn").onclick=()=>{
+ scriptInput.value="Welcome to Clickdy, your creative workspace for smarter digital tools. Bring your ideas to life with simple, powerful technology. Let's create something amazing together.";
+ updateCounts();showToast("Sample script added");
+};
+$("pasteBtn").onclick=async()=>{
+ try{const t=await navigator.clipboard.readText();if(!t){showToast("Clipboard is empty");return}
+ scriptInput.value=(scriptInput.value?scriptInput.value+"\n":"")+t.slice(0,10000-scriptInput.value.length);
+ updateCounts();showToast("Text pasted");
+ }catch(e){openModal("Clipboard access","Your browser blocked clipboard access. Use Ctrl + V inside the script editor instead.")}
+};
+document.querySelectorAll("[data-sample]").forEach(b=>b.addEventListener("click",()=>{
+ scriptInput.value=b.dataset.sample;updateCounts();scriptInput.focus();
+}));
+$("stability").oninput=e=>$("stabilityValue").textContent=e.target.value+"%";
+$("similarity").oninput=e=>$("similarityValue").textContent=e.target.value+"%";
+$("style").oninput=e=>$("styleValue").textContent=e.target.value+"%";
+$("speed").oninput=e=>$("speedValue").textContent=(e.target.value/100).toFixed(2)+"x";
+$("modelSelect").onchange=e=>$("modelDescription").textContent=modelInfo[e.target.value];
+
+$("speakerBoost").onchange=e=>$("boostAdvanced").checked=e.target.checked;
+$("boostAdvanced").onchange=e=>$("speakerBoost").checked=e.target.checked;
+
+function setVoice(name){
+ const v=voices.find(x=>x.name===name);if(!v)return;
+ selectedVoice=v.name;selectedGender=v.gender;selectedAccent=v.accent;selectedStyle=v.style;
+ $("selectedVoiceName").textContent=v.name;
+ $("selectedVoiceMeta").textContent=v.accent+" · "+v.gender+" · "+v.desc;
+ $("selectedAvatar").textContent=v.icon;
+ showToast(v.name+" selected");
+}
+$("changeVoice").onclick=()=>showView("library");
+$("openLibrary").onclick=()=>showView("library");
+
+function previewVoice(name){
+ const text=scriptInput.value.trim()||"Hello! Welcome to Clickdy. This is a browser-based voice preview.";
+ if(!("speechSynthesis" in window)){showToast("Speech preview is not supported in this browser");return}
+ window.speechSynthesis.cancel();
+ const utterance=new SpeechSynthesisUtterance(text.slice(0,500));
+ const v=voices.find(x=>x.name===name);
+ const browserVoices=window.speechSynthesis.getVoices();
+ if(v){
+  const match=browserVoices.find(b=>{
+   const n=b.name.toLowerCase();
+   return v.accent==="British" ? /uk|british|england/i.test(n) :
+    v.accent==="Australian" ? /australia/i.test(n) :
+    /united states|american|english/i.test(n);
   });
-  const old=$("voice").value;
-  $("voice").innerHTML="";
-  if(!voices.length){
-    const o=document.createElement("option");o.value="";o.textContent="Browser default voice";$("voice").appendChild(o);
-    $("voiceName").textContent="System default";
-    return;
-  }
-  voices.forEach((v,i)=>{
-    const o=document.createElement("option");
-    o.value=String(i); o.textContent=v.name+" — "+v.lang+(v.default?" — Default":"");
-    $("voice").appendChild(o);
-  });
-  if(old && [...$("voice").options].some(o=>o.value===old)) $("voice").value=old;
-  const v=voices[Number($("voice").value)||0];
-  $("voiceName").textContent=v ? v.name : "System default";
+  if(match)utterance.voice=match;
+ }
+ utterance.rate=Number($("speed").value)/100;
+ utterance.onstart=()=>showToast("Browser voice preview playing");
+ utterance.onerror=()=>showToast("Could not play browser voice preview");
+ window.speechSynthesis.speak(utterance);
 }
-function selectedVoice(){return voices[Number($("voice").value)||0]||null;}
-function chunks(text,max=180){
-  const out=[]; let rest=text.trim();
-  while(rest.length>max){
-    let cut=rest.lastIndexOf(" ",max);
-    if(cut<80) cut=rest.lastIndexOf(".",max);
-    if(cut<80) cut=max;
-    out.push(rest.slice(0,cut).trim()); rest=rest.slice(cut).trim();
-  }
-  if(rest) out.push(rest);
-  return out;
+$("previewSelected").onclick=()=>previewVoice(selectedVoice);
+
+function renderVoices(){
+ let list=voices.filter(v=>
+  (filterGender==="All"||v.gender===filterGender)&&
+  (filterStyle==="All"||v.style===filterStyle)&&
+  ($("accentFilter").value==="All accents"||v.accent===$("accentFilter").value)&&
+  (v.name+" "+v.accent+" "+v.style+" "+v.desc).toLowerCase().includes($("voiceSearch").value.toLowerCase())
+ );
+ if($("sortVoices").value==="az")list.sort((a,b)=>a.name.localeCompare(b.name));
+ $("voiceGrid").innerHTML="";
+ if(!list.length){$("voiceGrid").innerHTML='<div class="empty-state" style="grid-column:1/-1"><strong>No matching voices</strong><p>Try changing your search or filters.</p></div>';return}
+ list.forEach(v=>{
+  const card=document.createElement("div");card.className="voice-library-card";
+  card.innerHTML=`
+   <div class="library-card-top">
+    <div class="voice-avatar">${v.icon}</div>
+    <div class="voice-details"><div class="voice-name">${v.name}</div><div class="voice-meta">${v.accent} · ${v.gender}</div></div>
+    <button class="voice-play" title="Preview ${v.name}" aria-label="Preview ${v.name}">▶</button>
+   </div>
+   <div class="voice-tags">${v.tags.map(t=>'<span class="voice-tag">'+t+'</span>').join("")}</div>
+   <div class="library-card-bottom"><span>${v.desc}</span><button class="use-voice">Use voice</button></div>`;
+  card.querySelector(".voice-play").onclick=()=>previewVoice(v.name);
+  card.querySelector(".use-voice").onclick=()=>{setVoice(v.name);showView("studio")};
+  $("voiceGrid").appendChild(card);
+ });
 }
-function speak(){
-  const text=$("text").value.trim();
-  if(!text){setStatus("Please enter some text first.","error");$("text").focus();return;}
-  if(!("speechSynthesis" in window)){setStatus("Speech synthesis is not supported by this browser.","error");return;}
-  synth.cancel();
-  const parts=chunks(text);
-  let index=0;
-  $("progress").style.width="0%";
-  $("visualTitle").textContent="Speaking...";
-  $("visualText").textContent="Your browser is reading the text aloud.";
-  $("speak").disabled=true;$("pause").disabled=false;$("resume").disabled=true;$("stop").disabled=false;
-  function next(){
-    if(index>=parts.length){finish();return;}
-    utterance=new SpeechSynthesisUtterance(parts[index]);
-    const v=selectedVoice(); if(v) utterance.voice=v;
-    utterance.rate=Number($("rate").value); utterance.pitch=Number($("pitch").value); utterance.volume=Number($("volume").value);
-    const current=index;
-    utterance.onstart=()=>{setStatus("Speaking part "+(current+1)+" of "+parts.length+".","ok");};
-    utterance.onend=()=>{index++;$("progress").style.width=Math.round(index/parts.length*100)+"%";next();};
-    utterance.onerror=e=>{if(e.error!=="canceled")setStatus("Speech error: "+e.error,"error");finish();};
-    synth.speak(utterance);
-  }
-  next();
+$("voiceSearch").oninput=renderVoices;
+$("accentFilter").onchange=renderVoices;
+$("sortVoices").onchange=renderVoices;
+document.querySelectorAll("[data-filter]").forEach(btn=>btn.onclick=()=>{
+ const group=btn.dataset.filter;
+ if(group==="gender")filterGender=btn.dataset.value;
+ if(group==="style")filterStyle=btn.dataset.value;
+ document.querySelectorAll('[data-filter="'+group+'"]').forEach(x=>x.classList.toggle("active",x===btn));
+ renderVoices();
+});
+$("resetFilters").onclick=()=>{
+ filterGender="All";filterStyle="All";$("accentFilter").value="All accents";$("voiceSearch").value="";
+ document.querySelectorAll("[data-filter]").forEach(x=>x.classList.toggle("active",x.dataset.value==="All"));
+ renderVoices();
+};
+
+function showView(view){
+ currentView=view;
+ ["studio","library","history","projects"].forEach(v=>$(v+"View").classList.toggle("hidden",v!==view));
+ document.querySelectorAll(".nav-item[data-nav]").forEach(b=>b.classList.toggle("active",b.dataset.nav===view));
+ const titles={studio:"Text to Speech",library:"Voice Library",history:"Generation History",projects:"Projects"};
+ $("pageTitle").textContent=titles[view];$("breadcrumbTitle").textContent=titles[view];
+ const descriptions={
+  studio:"Turn your words into natural-sounding speech with expressive AI voices.",
+  library:"Explore voices and find the right sound for your next project.",
+  history:"Review your previous generations and audio projects.",
+  projects:"Keep your scripts and voiceover projects organized."
+ };
+ $("pageDescription").textContent=descriptions[view];
+ $("sidebar").classList.remove("open");$("mobileOverlay").classList.remove("show");
+ if(view==="library")renderVoices();
+ if(view==="history")renderHistory();
 }
-function finish(){
-  $("speak").disabled=false;$("pause").disabled=true;$("resume").disabled=true;$("stop").disabled=true;
-  $("visualTitle").textContent="Ready to speak";$("visualText").textContent="Press Speak to play your text again.";
-  $("progress").style.width="100%"; setTimeout(()=>$("progress").style.width="0%",600);
-  if($("status").classList.contains("ok")) setStatus("Finished.");
+document.querySelectorAll(".nav-item[data-nav]").forEach(b=>b.onclick=()=>showView(b.dataset.nav));
+$("historyTop").onclick=()=>showView("history");
+$("mobileMenu").onclick=()=>{$("sidebar").classList.toggle("open");$("mobileOverlay").classList.toggle("show")};
+$("mobileOverlay").onclick=()=>{$("sidebar").classList.remove("open");$("mobileOverlay").classList.remove("show")};
+
+document.querySelectorAll("[data-tab]").forEach(btn=>btn.onclick=()=>{
+ activeTab=btn.dataset.tab;
+ document.querySelectorAll("[data-tab]").forEach(x=>x.classList.toggle("active",x===btn));
+ ["speech","speech2speech","dubbing"].forEach(t=>$(t+"Panel").classList.toggle("active",t===activeTab));
+});
+
+document.querySelectorAll("[data-soon]").forEach(btn=>btn.addEventListener("click",()=>{
+ openModal(btn.dataset.soon,"This workspace is part of the Clickdy audio tools roadmap. Its complete interface and functionality can be added in a future update.");
+}));
+$("upgradeBtn").onclick=()=>openModal("Clickdy plans","Plan selection and billing will be connected when Clickdy accounts and payments are configured.");
+$("newProject").onclick=()=>openModal("Projects","Project creation and cloud saving will be enabled when the Clickdy backend is connected.");
+
+$("generateBtn").onclick=()=>{
+ const text=scriptInput.value.trim();
+ if(!text){showToast("Please enter your script first");scriptInput.focus();return}
+ openModal("AI generation is not connected yet",
+  "Your script and voice settings are ready. Real ElevenLabs audio generation requires a secure server-side API connection. This page does not create fake audio or send your text anywhere. Once the API is connected, this button can generate and return your audio file.");
+};
+
+function renderHistory(){
+ if(!historyItems.length){
+  $("historyList").innerHTML='<div class="empty-state"><div class="empty-icon">◷</div><strong>No generations yet</strong><p>Your generated audio files and their settings will appear here after API integration.</p></div>';return;
+ }
+ $("historyList").innerHTML='<div class="history-list">'+historyItems.map(item=>`
+  <div class="history-item"><div class="audio-icon">♫</div><div class="history-details"><div class="history-title">${item.title}</div><div class="history-meta">${item.voice} · ${item.date} · ${item.format}</div></div><span class="history-status">Demo</span></div>`).join("")+'</div>';
 }
-$("speak").onclick=speak;
-$("pause").onclick=()=>{if(synth.speaking){synth.pause();$("pause").disabled=true;$("resume").disabled=false;setStatus("Speech paused.");$("visualTitle").textContent="Paused";}};
-$("resume").onclick=()=>{if(synth.paused){synth.resume();$("pause").disabled=false;$("resume").disabled=true;setStatus("Speech resumed.","ok");$("visualTitle").textContent="Speaking...";}};
-$("stop").onclick=()=>{synth.cancel();finish();setStatus("Stopped.");};
-$("text").addEventListener("input",updateStats);
-["rate","pitch","volume"].forEach(id=>$(id).addEventListener("input",updateRanges));
-$("voice").addEventListener("change",()=>{const v=selectedVoice();$("voiceName").textContent=v?v.name:"System default";});
-$("sample").onclick=()=>{$("text").value="Welcome to Clickdy. Create, edit and explore powerful tools online with a simple, fast and private experience.";updateStats();};
-$("clear").onclick=()=>{$("text").value="";updateStats();setStatus("Text cleared.");};
-$("copy").onclick=async()=>{try{await navigator.clipboard.writeText($("text").value);setStatus("Text copied.","ok");}catch(e){setStatus("Clipboard access was blocked by the browser.","error");}};
-if("onvoiceschanged" in synth) synth.onvoiceschanged=loadVoices;
-loadVoices();updateStats();updateRanges();
+$("clearHistory").onclick=()=>{historyItems=[];renderHistory();showToast("Local demo history cleared")};
+
+$("resetFilters").click();
+updateCounts();
 })();
 </script>
 </body>
