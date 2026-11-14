@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: clickdy-downloader-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: FRONTEND_ORIGIN
+        value: https://clickdy.vercel.app
