@@ -1,0 +1,1494 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070b14">
+<meta name="description" content="Social Media Downloader by Clickdy. Identify supported social media links and check available media options.">
+<title>Social Media Downloader - Clickdy</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg:#070b14;
+  --surface:#0d1422;
+  --surface2:#111b2d;
+  --surface3:#162238;
+  --primary:#38a5ff;
+  --secondary:#2ee7df;
+  --text:#f4f8ff;
+  --muted:#93a4bd;
+  --line:#1d2b42;
+  --platform-glow:rgba(56,165,255,.12);
+  --platform-border:rgba(56,165,255,.35);
+  --platform-soft:rgba(56,165,255,.09);
+  --radius:17px;
+  --container:1180px;
+}
+
+* {box-sizing:border-box}
+
+html {scroll-behavior:smooth}
+
+body {
+  margin:0;
+  min-height:100vh;
+  color:var(--text);
+  font-family:"DM Sans",sans-serif;
+  background:
+    radial-gradient(ellipse at 50% -20%,var(--platform-glow),transparent 55%),
+    var(--bg);
+  transition:background .35s ease;
+}
+
+button,input {font:inherit}
+button {cursor:pointer}
+a {color:inherit;text-decoration:none}
+
+body.theme-youtube {
+  --primary:#ff1744;
+  --secondary:#ff6262;
+  --platform-glow:rgba(255,0,51,.17);
+  --platform-border:rgba(255,0,51,.45);
+  --platform-soft:rgba(255,0,51,.09);
+}
+
+body.theme-tiktok {
+  --primary:#25f4ee;
+  --secondary:#fe2c55;
+  --platform-glow:rgba(37,244,238,.13);
+  --platform-border:rgba(37,244,238,.4);
+  --platform-soft:rgba(37,244,238,.08);
+}
+
+body.theme-instagram {
+  --primary:#f56040;
+  --secondary:#c13584;
+  --platform-glow:rgba(193,53,132,.17);
+  --platform-border:rgba(225,48,108,.45);
+  --platform-soft:rgba(193,53,132,.09);
+}
+
+body.theme-facebook {
+  --primary:#0866ff;
+  --secondary:#65a5ff;
+  --platform-glow:rgba(8,102,255,.17);
+  --platform-border:rgba(8,102,255,.45);
+  --platform-soft:rgba(8,102,255,.09);
+}
+
+body.theme-x {
+  --primary:#f4f8ff;
+  --secondary:#9aa9bd;
+  --platform-glow:rgba(255,255,255,.11);
+  --platform-border:rgba(255,255,255,.35);
+  --platform-soft:rgba(255,255,255,.07);
+}
+
+body.theme-pinterest {
+  --primary:#e60023;
+  --secondary:#ff657b;
+  --platform-glow:rgba(230,0,35,.17);
+  --platform-border:rgba(230,0,35,.45);
+  --platform-soft:rgba(230,0,35,.09);
+}
+
+/* HEADER */
+
+.topbar {
+  height:72px;
+  border-bottom:1px solid var(--line);
+  background:rgba(7,11,20,.88);
+  backdrop-filter:blur(18px);
+  position:sticky;
+  top:0;
+  z-index:20;
+  transition:border-color .3s;
+}
+
+.nav {
+  max-width:var(--container);
+  height:100%;
+  margin:auto;
+  padding:0 22px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.brand {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  cursor:pointer;
+}
+
+.brand img {
+  width:38px;
+  height:38px;
+  object-fit:contain;
+}
+
+.brand-name {
+  font-family:"Plus Jakarta Sans",sans-serif;
+  font-size:20px;
+  font-weight:800;
+  letter-spacing:-.6px;
+}
+
+.brand-tag {
+  font-size:9px;
+  letter-spacing:1.6px;
+  color:var(--muted);
+  font-weight:700;
+  margin-top:2px;
+}
+
+.nav-right {
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+.back-link {
+  color:#b8c7dc;
+  font-size:13px;
+  font-weight:600;
+}
+
+.back-link:hover {color:var(--secondary)}
+
+.nav-pill {
+  border:1px solid var(--line);
+  background:var(--surface);
+  padding:8px 12px;
+  border-radius:30px;
+  color:#b7c8dc;
+  font-size:11px;
+  font-weight:700;
+}
+
+/* GENERAL */
+
+.container {
+  max-width:var(--container);
+  margin:auto;
+  padding:0 22px;
+}
+
+.hero {
+  text-align:center;
+  padding:60px 0 34px;
+}
+
+.eyebrow {
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:var(--primary);
+  background:var(--platform-soft);
+  border:1px solid var(--platform-border);
+  border-radius:30px;
+  padding:7px 12px;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.4px;
+  transition:.3s;
+}
+
+.live-dot {
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:var(--secondary);
+  box-shadow:0 0 10px var(--secondary);
+}
+
+h1 {
+  font-family:"Plus Jakarta Sans",sans-serif;
+  font-size:clamp(32px,5vw,51px);
+  letter-spacing:-2px;
+  line-height:1.12;
+  margin:20px 0 13px;
+  font-weight:800;
+}
+
+.gradient {
+  background:linear-gradient(100deg,var(--primary),var(--secondary));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  transition:background .3s;
+}
+
+.hero p {
+  max-width:620px;
+  margin:0 auto;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.8;
+}
+
+/* MAIN INPUT */
+
+.workspace {
+  max-width:850px;
+  margin:0 auto;
+  background:linear-gradient(145deg,rgba(17,27,45,.98),rgba(10,17,29,.98));
+  border:1px solid #243650;
+  border-radius:22px;
+  padding:23px;
+  box-shadow:0 25px 80px rgba(0,0,0,.27);
+  transition:border-color .3s,box-shadow .3s;
+}
+
+body[class*="theme-"] .workspace {
+  border-color:var(--platform-border);
+  box-shadow:0 25px 80px var(--platform-glow);
+}
+
+.platform-label {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:13px;
+  gap:10px;
+}
+
+.platform-label strong {font-size:13px}
+.platform-label span {font-size:11px;color:var(--muted)}
+
+.input-wrap {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:#080f1b;
+  border:1px solid #293c57;
+  border-radius:13px;
+  padding:7px 8px 7px 15px;
+  transition:.25s;
+}
+
+.input-wrap:focus-within {
+  border-color:var(--primary);
+  box-shadow:0 0 0 3px var(--platform-glow);
+}
+
+.link-symbol {
+  color:var(--primary);
+  font-size:19px;
+}
+
+#urlInput {
+  flex:1;
+  min-width:0;
+  border:0;
+  outline:0;
+  background:transparent;
+  color:var(--text);
+  font-size:13px;
+  padding:11px 0;
+}
+
+#urlInput::placeholder {color:#64758c}
+
+.paste-btn {
+  background:#192941;
+  border:1px solid #2a405d;
+  color:#c6d9ed;
+  padding:10px 13px;
+  border-radius:9px;
+  font-size:11px;
+  font-weight:700;
+}
+
+.paste-btn:hover {
+  border-color:var(--primary);
+  color:var(--text);
+}
+
+.primary-btn {
+  border:0;
+  border-radius:10px;
+  padding:12px 19px;
+  background:linear-gradient(110deg,var(--primary),var(--secondary));
+  color:#06101c;
+  font-weight:800;
+  font-size:12px;
+  box-shadow:0 6px 22px var(--platform-glow);
+  transition:.25s;
+  white-space:nowrap;
+}
+
+.primary-btn:hover {
+  filter:brightness(1.12);
+  transform:translateY(-1px);
+}
+
+.primary-btn:disabled {
+  opacity:.5;
+  cursor:not-allowed;
+  transform:none;
+}
+
+.input-hint {
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  margin-top:11px;
+  color:#74869e;
+  font-size:10px;
+}
+
+.status {
+  display:none;
+  margin-top:15px;
+  padding:12px 14px;
+  border-radius:10px;
+  font-size:12px;
+  line-height:1.6;
+}
+
+.status.show {display:block}
+
+.status.info {
+  background:rgba(56,165,255,.08);
+  border:1px solid rgba(56,165,255,.2);
+  color:#acd9ff;
+}
+
+.status.error {
+  background:rgba(255,109,125,.08);
+  border:1px solid rgba(255,109,125,.2);
+  color:#ffb5bd;
+}
+
+.status.success {
+  background:var(--platform-soft);
+  border:1px solid var(--platform-border);
+  color:var(--text);
+}
+
+/* SMALL PLATFORM CHIPS */
+
+.platforms {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:9px;
+  margin-top:22px;
+}
+
+.platform-chip {
+  display:flex;
+  align-items:center;
+  gap:7px;
+  border:1px solid var(--line);
+  background:rgba(13,20,34,.7);
+  border-radius:30px;
+  padding:8px 12px;
+  color:#aebed2;
+  font-size:11px;
+  font-weight:600;
+  transition:.25s;
+}
+
+.platform-chip .dot {
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#6d8099;
+}
+
+.platform-chip.active {
+  border-color:var(--platform-border);
+  background:var(--platform-soft);
+  color:var(--text);
+}
+
+.platform-chip.active .dot {
+  background:var(--secondary);
+  box-shadow:0 0 9px var(--secondary);
+}
+
+/* RESULT PANEL */
+
+.result {
+  display:none;
+  margin:22px auto 0;
+  max-width:850px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:18px;
+  overflow:hidden;
+  transition:border-color .3s;
+}
+
+.result.show {display:block}
+
+body[class*="theme-"] .result {
+  border-color:var(--platform-border);
+}
+
+.result-head {
+  padding:17px 20px;
+  border-bottom:1px solid var(--line);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+.result-head strong {font-size:14px}
+
+.detected {
+  font-size:10px;
+  color:var(--primary);
+  font-weight:700;
+  background:var(--platform-soft);
+  border:1px solid var(--platform-border);
+  padding:6px 9px;
+  border-radius:20px;
+}
+
+.result-body {
+  display:grid;
+  grid-template-columns:190px 1fr;
+  gap:20px;
+  padding:20px;
+}
+
+.preview {
+  min-height:125px;
+  border-radius:12px;
+  background:linear-gradient(145deg,#14243b,#0a1423);
+  border:1px solid var(--platform-border);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  gap:9px;
+  color:#8ba4c1;
+  transition:.3s;
+}
+
+.preview img {
+  width:42px;
+  height:42px;
+  object-fit:contain;
+}
+
+.preview small {
+  font-size:10px;
+}
+
+.details {min-width:0}
+
+.video-title {
+  font-size:15px;
+  font-weight:700;
+  margin:2px 0 8px;
+}
+
+.video-description {
+  color:var(--muted);
+  font-size:11px;
+  line-height:1.7;
+}
+
+.meta {
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:13px;
+}
+
+.meta span {
+  color:#9fb2ca;
+  background:#111e30;
+  border:1px solid #22344d;
+  border-radius:7px;
+  padding:6px 8px;
+  font-size:10px;
+}
+
+/* DOWNLOAD OPTIONS */
+
+.options {
+  border-top:1px solid var(--line);
+  padding:18px 20px;
+}
+
+.options-title {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:13px;
+  gap:10px;
+}
+
+.options-title strong {font-size:12px}
+.options-title span {font-size:10px;color:var(--muted)}
+
+.option-row {
+  display:grid;
+  grid-template-columns:1fr 125px 130px;
+  gap:10px;
+  align-items:center;
+  padding:11px 12px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  margin-top:8px;
+  background:#0a1220;
+}
+
+.option-name {font-size:11px;font-weight:700}
+.option-sub {font-size:10px;color:var(--muted);margin-top:4px}
+.option-tag {color:#9db5d0;font-size:10px;text-align:center}
+
+.option-download {
+  border:1px solid var(--platform-border);
+  background:var(--platform-soft);
+  color:var(--text);
+  padding:9px 10px;
+  border-radius:8px;
+  font-size:10px;
+  font-weight:700;
+}
+
+.option-download:disabled {
+  opacity:.45;
+  cursor:not-allowed;
+}
+
+.api-note {
+  color:#8194ac;
+  font-size:10px;
+  line-height:1.7;
+  margin:12px 0 0;
+}
+
+/* SUPPORTED PLATFORMS */
+
+.section {padding:57px 0 0}
+
+.section-heading {
+  text-align:center;
+  margin-bottom:25px;
+}
+
+.section-heading h2 {
+  font-family:"Plus Jakarta Sans",sans-serif;
+  font-size:24px;
+  letter-spacing:-.7px;
+  margin:0 0 8px;
+}
+
+.section-heading p {
+  font-size:12px;
+  color:var(--muted);
+  margin:0;
+}
+
+.platform-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:13px;
+}
+
+.platform-card {
+  background:linear-gradient(145deg,#0e1929,#0b1320);
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:17px;
+  display:flex;
+  gap:13px;
+  align-items:center;
+  transition:.25s;
+}
+
+.platform-card:hover {
+  border-color:var(--platform-border);
+  transform:translateY(-2px);
+  box-shadow:0 8px 24px var(--platform-glow);
+}
+
+.platform-icon {
+  width:43px;
+  height:43px;
+  display:grid;
+  place-items:center;
+  background:#17263a;
+  border:1px solid #293d57;
+  border-radius:11px;
+  flex-shrink:0;
+}
+
+.platform-icon img {
+  width:24px;
+  height:24px;
+  object-fit:contain;
+  display:block;
+}
+
+.platform-card strong {
+  font-size:12px;
+  display:block;
+}
+
+.platform-card small {
+  font-size:10px;
+  color:var(--muted);
+  display:block;
+  margin-top:4px;
+}
+
+/* STEPS */
+
+.steps {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+
+.step {
+  padding:19px;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:var(--surface);
+  transition:.25s;
+}
+
+.step:hover {
+  border-color:var(--platform-border);
+}
+
+.step-number {
+  width:29px;
+  height:29px;
+  border-radius:9px;
+  display:grid;
+  place-items:center;
+  background:var(--platform-soft);
+  color:var(--primary);
+  font-weight:800;
+  font-size:12px;
+  margin-bottom:14px;
+}
+
+.step h3 {font-size:13px;margin:0 0 7px}
+
+.step p {
+  font-size:11px;
+  line-height:1.7;
+  color:var(--muted);
+  margin:0;
+}
+
+.notice {
+  margin-top:35px;
+  padding:16px 18px;
+  border:1px solid var(--platform-border);
+  background:var(--platform-soft);
+  border-radius:12px;
+  color:#a9c4d2;
+  font-size:11px;
+  line-height:1.8;
+}
+
+.notice strong {color:var(--text)}
+
+/* FOOTER */
+
+footer {
+  max-width:var(--container);
+  margin:55px auto 0;
+  padding:22px;
+  border-top:1px solid var(--line);
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  color:#73849a;
+  font-size:10px;
+}
+
+footer a:hover {color:var(--secondary)}
+
+/* MOBILE */
+
+@media(max-width:700px) {
+  .topbar {height:64px}
+  .nav {padding:0 15px}
+  .brand img {width:34px;height:34px}
+  .brand-name {font-size:18px}
+  .nav-pill {display:none}
+  .back-link {font-size:11px}
+  .container {padding:0 15px}
+  .hero {padding:43px 0 27px}
+  h1 {letter-spacing:-1.3px}
+  .hero p {font-size:12px}
+  .workspace {padding:15px;border-radius:16px}
+
+  .input-wrap {
+    flex-wrap:wrap;
+    padding:8px 10px;
+  }
+
+  #urlInput {width:calc(100% - 40px);flex:auto}
+  .paste-btn {margin-left:auto}
+  .input-wrap .primary-btn {width:100%;margin-top:4px}
+  .input-hint {font-size:9px}
+
+  .result-body {grid-template-columns:1fr}
+  .preview {min-height:145px}
+
+  .option-row {grid-template-columns:1fr 90px}
+  .option-download {grid-column:1/-1}
+
+  .platform-grid {
+    grid-template-columns:repeat(2,1fr);
+    gap:9px;
+  }
+
+  .platform-card {padding:12px;gap:9px}
+  .platform-icon {width:36px;height:36px}
+  .platform-icon img {width:21px;height:21px}
+  .platform-card strong {font-size:11px}
+  .platform-card small {font-size:9px}
+
+  .steps {grid-template-columns:1fr}
+  .section {padding-top:43px}
+  .section-heading h2 {font-size:21px}
+
+  footer {
+    margin-top:40px;
+    flex-direction:column;
+    padding:18px;
+  }
+}
+
+@media(max-width:390px) {
+  .platform-grid {grid-template-columns:1fr}
+  .nav-right {gap:8px}
+}
+</style>
+</head>
+
+<body>
+
+<header class="topbar">
+  <nav class="nav">
+
+    <div class="brand"
+      onclick="location.reload()"
+      role="button"
+      tabindex="0"
+      onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.reload();}">
+
+      <img src="../assets/logo.png" alt="Clickdy logo"
+        onerror="this.style.display='none'">
+
+      <div>
+        <div class="brand-name">Clickdy</div>
+        <div class="brand-tag">ONLINE TOOLS PLATFORM</div>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <span class="nav-pill">FREE ONLINE TOOL</span>
+      <a class="back-link" href="https://clickdy.vercel.app/">
+        ← Back to Clickdy Tools
+      </a>
+    </div>
+
+  </nav>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+
+    <div class="eyebrow">
+      <span class="live-dot"></span>
+      MULTI-PLATFORM MEDIA TOOL
+    </div>
+
+    <h1 id="mainHeading">
+      Social Media <span class="gradient">Downloader</span>
+    </h1>
+
+    <p id="heroDescription">
+      Paste a supported social media link to identify its platform
+      and check available media options in one place.
+    </p>
+
+  </section>
+
+  <section class="workspace">
+
+    <div class="platform-label">
+      <strong>Paste your media link</strong>
+      <span>Smart platform detection</span>
+    </div>
+
+    <div class="input-wrap">
+
+      <span class="link-symbol">↗</span>
+
+      <input
+        id="urlInput"
+        type="url"
+        autocomplete="url"
+        placeholder="Paste YouTube, Instagram, TikTok or other link here..."
+      >
+
+      <button class="paste-btn" id="pasteBtn" type="button">
+        Paste
+      </button>
+
+      <button class="primary-btn" id="analyzeBtn" type="button">
+        Detect Platform →
+      </button>
+
+    </div>
+
+    <div class="input-hint">
+      <span>Supports links from listed platforms</span>
+      <span>HTTPS links recommended</span>
+    </div>
+
+    <div class="status" id="statusBox" role="status" aria-live="polite"></div>
+
+    <div class="platforms" id="platformChips">
+
+      <span class="platform-chip" data-platform="youtube">
+        <i class="dot"></i>YouTube
+      </span>
+
+      <span class="platform-chip" data-platform="tiktok">
+        <i class="dot"></i>TikTok
+      </span>
+
+      <span class="platform-chip" data-platform="instagram">
+        <i class="dot"></i>Instagram
+      </span>
+
+      <span class="platform-chip" data-platform="facebook">
+        <i class="dot"></i>Facebook
+      </span>
+
+      <span class="platform-chip" data-platform="x">
+        <i class="dot"></i>X
+      </span>
+
+      <span class="platform-chip" data-platform="pinterest">
+        <i class="dot"></i>Pinterest
+      </span>
+
+    </div>
+
+  </section>
+
+  <!-- RESULT -->
+
+  <section class="result" id="resultPanel">
+
+    <div class="result-head">
+      <strong id="resultHeading">Media information</strong>
+      <span class="detected" id="detectedBadge">PLATFORM DETECTED</span>
+    </div>
+
+    <div class="result-body">
+
+      <div class="preview" id="mediaPreview">
+        <span>▶</span>
+        <small>Media preview</small>
+      </div>
+
+      <div class="details">
+
+        <div class="video-title" id="mediaTitle">
+          Media link detected
+        </div>
+
+        <div class="video-description" id="mediaDescription">
+          The platform has been identified. Connect an authorized
+          metadata service to retrieve the media title, creator and preview.
+        </div>
+
+        <div class="meta">
+          <span id="platformMeta">Platform: —</span>
+          <span>Source: User-provided URL</span>
+          <span>Preview: API required</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="options">
+
+      <div class="options-title">
+        <strong>Available download options</strong>
+        <span>Provided by connected service</span>
+      </div>
+
+      <div class="option-row">
+        <div>
+          <div class="option-name">Video · MP4</div>
+          <div class="option-sub">Available resolutions depend on source</div>
+        </div>
+        <div class="option-tag">Video</div>
+        <button class="option-download" disabled>API required</button>
+      </div>
+
+      <div class="option-row">
+        <div>
+          <div class="option-name">Audio · MP3</div>
+          <div class="option-sub">Only where permitted and supported</div>
+        </div>
+        <div class="option-tag">Audio</div>
+        <button class="option-download" disabled>API required</button>
+      </div>
+
+      <div class="option-row">
+        <div>
+          <div class="option-name">Thumbnail / Cover</div>
+          <div class="option-sub">If the source provides a thumbnail</div>
+        </div>
+        <div class="option-tag">Image</div>
+        <button class="option-download" disabled>API required</button>
+      </div>
+
+      <p class="api-note">
+        Download controls will become available after a compatible
+        backend is connected and confirms that the requested media
+        can be downloaded.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- SUPPORTED PLATFORMS -->
+
+  <section class="section">
+
+    <div class="section-heading">
+      <h2>Supported <span class="gradient">Platforms</span></h2>
+      <p>One place to identify links from popular social platforms.</p>
+    </div>
+
+    <div class="platform-grid">
+
+      <div class="platform-card">
+        <div class="platform-icon">
+          <img
+            src="https://cdn.simpleicons.org/youtube/FF0033"
+            alt="YouTube logo"
+            loading="lazy"
+          >
+        </div>
+        <div>
+          <strong>YouTube</strong>
+          <small>Videos and Shorts</small>
+        </div>
+      </div>
+
+      <div class="platform-card">
+        <div class="platform-icon">
+          <img
+            src="https://cdn.simpleicons.org/tiktok/25F4EE"
+            alt="TikTok logo"
+            loading="lazy"
+          >
+        </div>
+        <div>
+          <strong>TikTok</strong>
+          <small>Public video links</small>
+        </div>
+      </div>
+
+      <div class="platform-card">
+        <div class="platform-icon">
+          <img
+            src="https://cdn.simpleicons.org/instagram/E4405F"
+            alt="Instagram logo"
+            loading="lazy"
+          >
+        </div>
+        <div>
+          <strong>Instagram</strong>
+          <small>Reels and public posts</small>
+        </div>
+      </div>
+
+      <div class="platform-card">
+        <div class="platform-icon">
+          <img
+            src="https://cdn.simpleicons.org/facebook/0866FF"
+            alt="Facebook logo"
+            loading="lazy"
+          >
+        </div>
+        <div>
+          <strong>Facebook</strong>
+          <small>Public video links</small>
+        </div>
+      </div>
+
+      <div class="platform-card">
+        <div class="platform-icon">
+          <img
+            src="https://cdn.simpleicons.org/x/FFFFFF"
+            alt="X logo"
+            loading="lazy"
+          >
+        </div>
+        <div>
+          <strong>X / Twitter</strong>
+          <small>Supported media posts</small>
+        </div>
+      </div>
+
+      <div class="platform-card">
+        <div class="platform-icon">
+          <img
+            src="https://cdn.simpleicons.org/pinterest/E60023"
+            alt="Pinterest logo"
+            loading="lazy"
+          >
+        </div>
+        <div>
+          <strong>Pinterest</strong>
+          <small>Public video pins</small>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- HOW IT WORKS -->
+
+  <section class="section">
+
+    <div class="section-heading">
+      <h2>How it <span class="gradient">Works</span></h2>
+      <p>A simple workflow for supported and authorized media.</p>
+    </div>
+
+    <div class="steps">
+
+      <div class="step">
+        <div class="step-number">01</div>
+        <h3>Copy a media link</h3>
+        <p>
+          Copy the URL of a public post or video from a supported platform.
+        </p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">02</div>
+        <h3>Detect the platform</h3>
+        <p>
+          Paste the URL. Clickdy identifies the platform and prepares
+          the media information area.
+        </p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">03</div>
+        <h3>Check available options</h3>
+        <p>
+          When an authorized service is connected, choose from
+          the formats and options it supports.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="notice">
+    <strong>Respect creators and platform rules.</strong>
+    Only download content you own, have permission to use, or are
+    otherwise legally allowed to download. This tool does not access
+    private accounts, bypass DRM, or circumvent platform restrictions.
+    Platform availability depends on its policies and the connected service.
+  </div>
+
+</main>
+
+<footer>
+  <span>© <span id="year"></span> Clickdy. All rights reserved.</span>
+  <a href="https://clickdy.vercel.app/">Back to Clickdy Tools</a>
+</footer>
+
+<script>
+
+/*
+  BACKEND INTEGRATION
+
+  Actual metadata and download features require an authorized backend.
+  Do not put private API keys in this frontend file.
+*/
+
+const API_ENDPOINT = "";
+
+const input = document.getElementById("urlInput");
+const analyzeBtn = document.getElementById("analyzeBtn");
+const pasteBtn = document.getElementById("pasteBtn");
+const statusBox = document.getElementById("statusBox");
+const resultPanel = document.getElementById("resultPanel");
+
+const platformInfo = {
+
+  youtube: {
+    name:"YouTube",
+    title:"YouTube Downloader",
+    logo:"https://cdn.simpleicons.org/youtube/FF0033",
+    hosts:["youtube.com","youtu.be"]
+  },
+
+  tiktok: {
+    name:"TikTok",
+    title:"TikTok Downloader",
+    logo:"https://cdn.simpleicons.org/tiktok/25F4EE",
+    hosts:["tiktok.com"]
+  },
+
+  instagram: {
+    name:"Instagram",
+    title:"Instagram Downloader",
+    logo:"https://cdn.simpleicons.org/instagram/E4405F",
+    hosts:["instagram.com"]
+  },
+
+  facebook: {
+    name:"Facebook",
+    title:"Facebook Downloader",
+    logo:"https://cdn.simpleicons.org/facebook/0866FF",
+    hosts:["facebook.com","fb.watch"]
+  },
+
+  x: {
+    name:"X",
+    title:"X Video Downloader",
+    logo:"https://cdn.simpleicons.org/x/FFFFFF",
+    hosts:["x.com","twitter.com"]
+  },
+
+  pinterest: {
+    name:"Pinterest",
+    title:"Pinterest Downloader",
+    logo:"https://cdn.simpleicons.org/pinterest/E60023",
+    hosts:["pinterest.com","pin.it"]
+  }
+
+};
+
+function showStatus(message,type="info") {
+  statusBox.className="status show "+type;
+  statusBox.textContent=message;
+}
+
+function clearStatus() {
+  statusBox.className="status";
+  statusBox.textContent="";
+}
+
+function resetTheme() {
+
+  Object.keys(platformInfo).forEach(key=>{
+    document.body.classList.remove("theme-"+key);
+  });
+
+  document.getElementById("mainHeading").innerHTML =
+    'Social Media <span class="gradient">Downloader</span>';
+
+  document.getElementById("heroDescription").textContent =
+    "Paste a supported social media link to identify its platform and check available media options in one place.";
+
+  document.title="Social Media Downloader - Clickdy";
+
+  document.querySelectorAll(".platform-chip").forEach(chip=>{
+    chip.classList.remove("active");
+  });
+
+  document.getElementById("mediaPreview").innerHTML =
+    '<span>▶</span><small>Media preview</small>';
+}
+
+function normalizeUrl(value) {
+
+  let raw=value.trim();
+
+  if(!raw) {
+    throw new Error("Please paste a media URL first.");
+  }
+
+  if(!/^https?:\/\//i.test(raw)) {
+    raw="https://"+raw;
+  }
+
+  let parsed;
+
+  try {
+    parsed=new URL(raw);
+  } catch(error) {
+    throw new Error("This link doesn't look valid. Please check the URL.");
+  }
+
+  if(parsed.protocol!=="https:" && parsed.protocol!=="http:") {
+    throw new Error("Only HTTP and HTTPS links are supported.");
+  }
+
+  return parsed;
+}
+
+function detectPlatform(parsed) {
+
+  const host=parsed.hostname.toLowerCase().replace(/\.$/,"");
+
+  for(const [key,info] of Object.entries(platformInfo)) {
+
+    const match=info.hosts.some(domain=>{
+      return host===domain || host.endsWith("."+domain);
+    });
+
+    if(match) return key;
+  }
+
+  return null;
+}
+
+function setActivePlatform(key) {
+
+  document.querySelectorAll(".platform-chip").forEach(chip=>{
+    chip.classList.toggle(
+      "active",
+      chip.dataset.platform===key
+    );
+  });
+
+}
+
+function updateDynamicName(key) {
+
+  resetTheme();
+
+  if(!key) return;
+
+  const info=platformInfo[key];
+
+  document.body.classList.add("theme-"+key);
+
+  document.getElementById("mainHeading").innerHTML =
+    '<span class="gradient">'+info.title+'</span>';
+
+  document.getElementById("heroDescription").textContent =
+    "Identify your "+info.name+
+    " link and check the media options supported by the connected service.";
+
+  document.title=info.title+" - Clickdy";
+
+}
+
+function showDetectedResult(key) {
+
+  const info=platformInfo[key];
+
+  document.getElementById("resultHeading").textContent =
+    info.name+" media information";
+
+  document.getElementById("detectedBadge").textContent =
+    info.name.toUpperCase()+" DETECTED";
+
+  document.getElementById("mediaPreview").innerHTML="";
+
+  const logo=document.createElement("img");
+  logo.src=info.logo;
+  logo.alt=info.name+" logo";
+
+  const label=document.createElement("small");
+  label.textContent=info.name+" link identified";
+
+  document.getElementById("mediaPreview").append(logo,label);
+
+  document.getElementById("mediaTitle").textContent =
+    info.name+" link detected";
+
+  document.getElementById("mediaDescription").textContent =
+    "Your "+info.name+
+    " URL has been recognized. Connect an authorized metadata and download service to retrieve its title, creator, preview and available formats.";
+
+  document.getElementById("platformMeta").textContent =
+    "Platform: "+info.name;
+
+  resultPanel.classList.add("show");
+
+  setActivePlatform(key);
+  updateDynamicName(key);
+
+  resultPanel.scrollIntoView({
+    behavior:"smooth",
+    block:"nearest"
+  });
+
+}
+
+async function analyzeLink() {
+
+  clearStatus();
+
+  let parsed;
+
+  try {
+    parsed=normalizeUrl(input.value);
+  } catch(error) {
+    resultPanel.classList.remove("show");
+    resetTheme();
+    showStatus(error.message,"error");
+    return;
+  }
+
+  const key=detectPlatform(parsed);
+
+  if(!key) {
+    resultPanel.classList.remove("show");
+    resetTheme();
+
+    showStatus(
+      "This platform is not recognized. Try a YouTube, TikTok, Instagram, Facebook, X or Pinterest link.",
+      "error"
+    );
+
+    return;
+  }
+
+  input.value=parsed.href;
+
+  showDetectedResult(key);
+
+  showStatus(
+    platformInfo[key].name+
+    " detected successfully. Actual media information and downloads require a connected authorized backend.",
+    "success"
+  );
+
+  if(API_ENDPOINT) {
+    await requestBackend(parsed.href,key);
+  }
+
+}
+
+async function requestBackend(url,platform) {
+
+  analyzeBtn.disabled=true;
+  analyzeBtn.textContent="Checking...";
+
+  try {
+
+    const response=await fetch(API_ENDPOINT,{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({url,platform})
+    });
+
+    if(!response.ok) {
+      throw new Error("The media service could not process this link.");
+    }
+
+    const data=await response.json();
+
+    if(data.title) {
+      document.getElementById("mediaTitle").textContent=data.title;
+    }
+
+    if(data.description) {
+      document.getElementById("mediaDescription").textContent=data.description;
+    }
+
+    showStatus(
+      "The connected service returned media information. Download availability depends on its response and permissions.",
+      "success"
+    );
+
+  } catch(error) {
+
+    showStatus(
+      error.message || "Unable to contact the media service.",
+      "error"
+    );
+
+  } finally {
+
+    analyzeBtn.disabled=false;
+    analyzeBtn.textContent="Detect Platform →";
+
+  }
+
+}
+
+pasteBtn.addEventListener("click",async()=>{
+
+  try {
+
+    const text=await navigator.clipboard.readText();
+
+    if(!text) {
+      showStatus("Your clipboard is empty.","error");
+      return;
+    }
+
+    input.value=text.trim();
+    input.focus();
+
+    showStatus(
+      "Link pasted. Select Detect Platform to continue.",
+      "info"
+    );
+
+  } catch(error) {
+
+    input.focus();
+
+    showStatus(
+      "Clipboard access is unavailable. Paste your link using Ctrl + V.",
+      "info"
+    );
+
+  }
+
+});
+
+analyzeBtn.addEventListener("click",analyzeLink);
+
+input.addEventListener("keydown",event=>{
+  if(event.key==="Enter") analyzeLink();
+});
+
+input.addEventListener("input",()=>{
+
+  clearStatus();
+
+  if(!input.value.trim()) {
+    resultPanel.classList.remove("show");
+    resetTheme();
+  }
+
+});
+
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+</script>
+
+</body>
+</html>
