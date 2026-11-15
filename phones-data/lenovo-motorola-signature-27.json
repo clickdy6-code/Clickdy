@@ -1,0 +1,89 @@
+{
+  "slug": "lenovo-motorola-signature-27",
+  "brand": "Lenovo",
+  "name": "Motorola Signature 27",
+  "status": "published",
+  "announced": "2026-11-26",
+  "released": "2026-11-26",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2026-11-26",
+      "Predecessor": "Motorola Signature 26"
+    },
+    "Network": {
+      "Technology": "GSM, HSPA, LTE"
+    },
+    "Body": {
+      "Dimensions": "162 x 77 x 8 mm",
+      "Weight": "227 g (8.01 oz)"
+    },
+    "Platform": {
+      "Operating system": "Android 17 up to 7 major Android upgrades",
+      "Chipset": "Snapdragon 8 Elite Extreme Gen 6",
+      "CPU": "Octa-core (2x5.01 GHz Prime + 3x4.03 GHz Performance + 3x3.74 GHz Performance)",
+      "GPU": "Adreno 850"
+    },
+    "Memory": {
+      "RAM": "12 GB or 16 GB RAM",
+      "Storage": "256 / 512GB"
+    },
+    "Display": {
+      "Display": "6.78 inches"
+    },
+    "Cameras": {
+      "Rear camera": "50 MP, 200 MP",
+      "Front camera": "50 MP, f/1.9, 22mm (wide), 1/2.75\", 0.64µm, PDAF, HDR"
+    },
+    "Sound": {
+      "Sound": "Stereo speakers (with Dolby Atmos)"
+    },
+    "Battery": {
+      "Battery": "7,000 mAh Li-Po (non-removable)",
+      "Charging": "90W wired, 50W wireless with 5W reverse wireless and 5W reverse wired"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Bluetooth 7.0, A2DP, LE, GPS, GALILEO, GLONASS, USB Type-C 2.0"
+    }
+  },
+  "key": {
+    "display_in": 6.78,
+    "chipset": "Snapdragon 8 Elite Extreme Gen 6",
+    "ram_gb": [
+      12,
+      16
+    ],
+    "storage_gb": [
+      512
+    ],
+    "main_mp": 50,
+    "cameras": 2,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 50,
+    "battery_mah": 7000,
+    "wireless_w": 50,
+    "wired_w": 90,
+    "os": "Android 17",
+    "five_g": false,
+    "nfc": false,
+    "usb": "USB-C",
+    "weight_g": 227,
+    "year": 2026
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Motorola Signature 27",
+      "url": "https://en.wikipedia.org/wiki/Motorola_Signature_27"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Motorola Signature 27\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Motorola Signature 27",
+    "revid": 1385837829
+  },
+  "updated": "2026-11-15",
+  "auto": true
+}
