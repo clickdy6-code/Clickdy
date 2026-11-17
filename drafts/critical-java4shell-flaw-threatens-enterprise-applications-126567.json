@@ -1,0 +1,19 @@
+{
+  "slug": "critical-java4shell-flaw-threatens-enterprise-applications-126567",
+  "title": "Critical Java4Shell Flaw Threatens Enterprise Applications",
+  "excerpt": "A critical vulnerability known as Java4Shell in OpenJDK impacts major enterprise software, enabling potential remote code execution.",
+  "category": "Cybersecurity",
+  "tags": [
+    "Java4Shell",
+    "OpenJDK",
+    "Cybersecurity",
+    "Vulnerability"
+  ],
+  "body_html": "<p>A severe security flaw has been identified in OpenJDK, the open-source implementation of Java. Named Java4Shell, the critical vulnerability poses significant risks to several major enterprise applications by potentially allowing unauthenticated attackers to execute code remotely.</p><h2>Affected Applications and Risks</h2><p>According to reports, the flaw impacts widely used enterprise software platforms. These include:</p><ul><li>Jenkins</li><li>Atlassian Jira</li><li>Confluence</li><li>Keycloak</li></ul><p>The vulnerability could allow malicious actors to target these systems without authentication, leading to remote code execution risks across deployments utilizing the affected OpenJDK implementations.</p>",
+  "source_name": "BleepingComputer",
+  "source_url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+  "source_published": "2026-11-17T23:04:21+00:00",
+  "created_at": "2026-11-17T23:13:20.843351+00:00",
+  "status": "draft",
+  "flags": []
+}
