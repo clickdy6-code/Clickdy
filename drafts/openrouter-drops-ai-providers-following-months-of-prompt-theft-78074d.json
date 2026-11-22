@@ -1,0 +1,19 @@
+{
+  "slug": "openrouter-drops-ai-providers-following-months-of-prompt-theft-78074d",
+  "title": "OpenRouter Drops AI Providers Following Months of Prompt Theft",
+  "excerpt": "OpenRouter dropped three AI inference providers after researchers discovered months of covert prompt data theft affecting requests.",
+  "category": "Cybersecurity",
+  "tags": [
+    "OpenRouter",
+    "AI",
+    "Cybersecurity",
+    "Data Privacy"
+  ],
+  "body_html": "<p>OpenRouter has removed three AI inference providers following a discovery by industrial cybersecurity company Dragos. Researchers found that attackers secretly stole data from inside the three AI hosting firms for months without their knowledge.</p><p>According to the findings, some of the compromised requests were marked with the Zero Data Retention setting, which is intended to ensure that user prompts are never stored.</p>",
+  "source_name": "The Hacker News",
+  "source_url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+  "source_published": "2026-11-22T05:06:55+00:00",
+  "created_at": "2026-11-22T08:57:00.433270+00:00",
+  "status": "draft",
+  "flags": []
+}
