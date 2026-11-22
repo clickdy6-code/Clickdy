@@ -1,0 +1,19 @@
+{
+  "slug": "rackspace-spot-cloud-platform-hit-by-security-breach-9f2af0",
+  "title": "Rackspace Spot Cloud Platform Hit by Security Breach",
+  "excerpt": "Rackspace notifies customers of a security breach on its Spot platform involving compromised credentials and unauthorized workload deployment.",
+  "category": "Cybersecurity",
+  "tags": [
+    "Rackspace",
+    "Cloud Security",
+    "Data Breach",
+    "Kubernetes"
+  ],
+  "body_html": "<p>Rackspace has issued warnings to customers regarding a security breach affecting its Rackspace Spot cloud platform. According to the company, attackers managed to compromise system credentials.</p><p>This unauthorized access allowed the intruders to deploy unapproved workloads within customer environments. Additionally, the breach granted the threat actors the ability to access Kubernetes secrets located inside customer clusters.</p><p>Rackspace is currently communicating with affected users as the investigation and response to the security incident continue.</p>",
+  "source_name": "BleepingComputer",
+  "source_url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+  "source_published": "2026-11-21T22:59:58+00:00",
+  "created_at": "2026-11-22T01:44:35.789352+00:00",
+  "status": "draft",
+  "flags": []
+}
