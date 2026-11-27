@@ -1,0 +1,88 @@
+{
+  "slug": "asus-zenfone-max-pro-m1",
+  "brand": "Asus",
+  "name": "Zenfone Max Pro M1",
+  "status": "published",
+  "announced": "",
+  "released": "",
+  "price": {},
+  "images": [],
+  "specs": {
+    "Launch": {
+      "Announced / released": "2018-04",
+      "Series": "Asus ZenFone",
+      "Successor": "Asus Zenfone Max Pro M2"
+    },
+    "Network": {
+      "Technology": "2G, 3G, 4G, 4G LTE, SIM 1:, Nano,4G Bands:TD-LTE 2300(band 40) FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 850(band 5) / 800(band 20)3G Bands: UMTS 1900 / 2100 / 850 / 900 MHz2G Bands: GSM 1800 / 1900 / 850 / 900 MHz 4G Speed: 50 Mbit/s ? 150 Mbit/s ? (LTE category 4)3G Speed: HSDPA 42.2 Mbit/s ?, HSUPA 5.76 Mbit/s ?GPRS:Available EDGE:Available, SIM 2:, Nano,4G Bands: TD-LTE 2300(band 40) FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 850(band 5) / 800(band 20)3G Bands: UMTS 1900 / 2100 / 850 / 900 MHz 2G Bands: GSM 1800 / 1900 / 850 / 900 MHz 4G Speed: 50 Mbit/s ? 150 Mbit/s ? (LTE category 4) 3G Speed: HSDPA 42.2 Mbit/s ? GPRS:Available EDGE:Availa"
+    },
+    "Body": {
+      "Form factor": "Slate",
+      "Dimensions": "H: 159 mm (6.26 in), W: 76 mm (2.99 in), D: 8.5 mm (0.33 in)",
+      "Weight": "180 g"
+    },
+    "Platform": {
+      "Operating system": "Original: Android 8.1.0, Current: Android 10 (only released beta 2 and delayed Android stable 10 for over 6 months. Asus is the only company who submitted the failure to deliver stable 10 till date).",
+      "Chipset": "Qualcomm SDM636 Snapdragon 636",
+      "CPU": "Octa-core (4x 1.8 GHz Performance Kryo 260 cores based on Cortex A73 + 4x 1.6 GHz efficiency Kryo 260 cores based on Cortex A53)",
+      "GPU": "Adreno 509"
+    },
+    "Memory": {
+      "RAM": "3 GB or 4/6 GB LPDDR4X RAM with 1333 speed (availability varies between regions)",
+      "Storage": "32 GB or 64 GB",
+      "Card slot": "microSDXC, expandable up to 2TB(dedicated slot)and supports exFAT format"
+    },
+    "Display": {
+      "Display": "5.99 inches, 1080 x 2160 pixels, 18:9 ratio (404 ppi), IPS LCD capacitive touchscreen,10 points simultaneous touch, 16M colors"
+    },
+    "Cameras": {
+      "Rear camera": "Dual: 13 MP (f/2.2, 1.12 μm) PDAF + 5 MP (f/2.4, 1.12 μm) or Dual: 16 MP (f/2.0, 1.0 μm) PDAF + 5 MP (f/2.4, 1.12 μm)",
+      "Front camera": "8 MP (f/2.2, 1.12 μm) or 16 MP (f/2.0, 1.0 μm) with LED flash"
+    },
+    "Battery": {
+      "Battery": "Non-removable Li-Po 5000 mAh battery"
+    },
+    "Connectivity": {
+      "Connectivity": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot, Bluetooth 5.0, A2DP, Low-energy"
+    }
+  },
+  "key": {
+    "display_in": 5.99,
+    "display_type": "IPS LCD",
+    "chipset": "Qualcomm SDM636 Snapdragon 636",
+    "ram_gb": [
+      3,
+      6
+    ],
+    "storage_gb": [
+      32,
+      64
+    ],
+    "main_mp": 13,
+    "cameras": 4,
+    "ois": false,
+    "telephoto": false,
+    "front_mp": 8,
+    "battery_mah": 5000,
+    "os": "Android 8.1",
+    "five_g": false,
+    "nfc": false,
+    "weight_g": 180,
+    "thickness_mm": 8.5,
+    "year": 2018
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Asus Zenfone Max Pro M1",
+      "url": "https://en.wikipedia.org/wiki/Asus_Zenfone_Max_Pro_M1"
+    }
+  ],
+  "attribution": "Specification data adapted from the Wikipedia article \"Asus Zenfone Max Pro M1\" (CC BY-SA 4.0), with changes: formatting cleaned and summarised.",
+  "variants_note": false,
+  "wikipedia": {
+    "title": "Asus Zenfone Max Pro M1",
+    "revid": 1388279155
+  },
+  "updated": "2026-11-27",
+  "auto": true
+}
